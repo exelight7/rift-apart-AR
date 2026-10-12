@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_BUYBUZZ",
     "arabic_current": "<ts=&quot;0;3.5&quot;>احرص الآن على بقاء نصالك<br>حادة يا حلو!",
     "arabic_edit": "<ts=&quot;0;3.5&quot;>احرص الآن على بقاء نصالك حادة يا حلو!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "87bcea52be8bb7132b2545daab87b757744881399634d11d6c51a5cae07f1a37",
+      "candidate_sha256": "a465dc87c808721dec7e5eaf69c765538c7e2c20b278517af2170398a37f31f2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

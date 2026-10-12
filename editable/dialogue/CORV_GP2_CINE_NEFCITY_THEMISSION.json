@@ -6,13 +6,21 @@
     "speaker_code": "PHAN",
     "scene_code": "CORV_GP2_CINE_NEFCITY_THEMISSION",
     "arabic_current": "<ts=&quot;0;1.75&quot;>،سأعرض عليك صفقة<ts=&quot;1.819;2.893&quot;>ترى ذلك المنطاد؟",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>،سأعرض عليك صفقة<ts=&quot;1.819;2.893&quot;>ترى ذلك المنطاد؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>سأعرض عليك صفقة.<ts=&quot;1.819;2.893&quot;>أترى ذلك المنطاد؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "89460acf03288eca972eba3d70c25d7bffd05259b2558c7c7df4184c8e194cae",
+      "candidate_sha256": "1b45add6573261f1f4b01b1ab81a3e4930ec299dc36d2082d2daeb8b4d618328",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16345,
@@ -21,14 +29,22 @@
     "speaker_code": "PHAN",
     "scene_code": "CORV_GP2_CINE_NEFCITY_THEMISSION",
     "arabic_current": "<ts=&quot;0;1.79&quot;>تساعدني في السيطرة<br>،عليه<ts=&quot;1.996;4.792&quot;>وأنا أساعدك على دخول برج<br>نيفاريوس.<ts=&quot;4.882;8.561&quot;>إنه *المكان الوحيد* في<br>المدينة الذي ستجد فيه<br>سفينة ملكية.",
-    "arabic_edit": "<ts=&quot;0;1.79&quot;>تساعدني في السيطرة ،عليه<ts=&quot;1.996;4.792&quot;>وأنا أساعدك على دخول برج نيفاريوس.<ts=&quot;4.882;8.561&quot;>إنه *المكان الوحيد* في المدينة الذي ستجد<br>فيه سفينة ملكية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.79&quot;>ساعدني في السيطرة عليه،<ts=&quot;1.996;4.792&quot;>وسأساعدك على دخول برج نيفاريوس.<ts=&quot;4.882;8.561&quot;>إنه المكان الوحيد في المدينة الذي ستجد فيه<br>سفينة ملكية.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "0c371c2d8e70383c9be6d0dbced6f903de77f5cfb3a06b371faec4ce2a416fe3",
+      "candidate_sha256": "e3c7645d0c2a9c89f5bb7b40b395f0b8b96d934104e66b26f3cf82479bfc98f4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16346,
@@ -37,14 +53,22 @@
     "speaker_code": "PHAN",
     "scene_code": "CORV_GP2_CINE_NEFCITY_THEMISSION",
     "arabic_current": "<ts=&quot;0;1.917&quot;>فقط اعثر على طريقة<br>للوصول إلى ذلك السطح.<ts=&quot;2.026;3.424&quot;>،علي أن آخذ أغراضي<ts=&quot;4.034;5.264&quot;>لكننا سنلتقي هناك.",
-    "arabic_edit": "<ts=&quot;0;1.917&quot;>فقط اعثر على طريقة للوصول إلى ذلك السطح.<ts=&quot;2.026;3.424&quot;>،علي أن آخذ أغراضي<ts=&quot;4.034;5.264&quot;>لكننا سنلتقي هناك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.917&quot;>فقط جد طريقًا إلى ذلك السطح.<ts=&quot;2.026;3.424&quot;>علي أن آخذ معداتي،<ts=&quot;4.034;5.264&quot;>لكنني سألقاك هناك.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "7826fe616faf053a52a8a1ed634ae42814db6b1d0268138c60c0beab2eefea5b",
+      "candidate_sha256": "4704c62a2fc1d40648055550e9fc86f6136069c895ffbba2a9d2333bd86c0662",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19211,
@@ -54,11 +78,19 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_THEMISSION",
     "arabic_current": "<ts=&quot;0;1.757&quot;>ما سر المنطاد؟",
     "arabic_edit": "<ts=&quot;0;1.757&quot;>ما سر المنطاد؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "22d08d9414efab34d65c1431860c938ab2f5ef554c70b8bf33bfc7d579433310",
+      "candidate_sha256": "79ceee4b3f60a89b7025e1409792f1c0f38c012ba4ee16c0f8616e6ceeed7332",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

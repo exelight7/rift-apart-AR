@@ -7,13 +7,21 @@
     "scene_code": "KEDS_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;2.5&quot;>استعيدت الطاقة إلى أقصى<br>مستوى.",
     "arabic_edit": "<ts=&quot;0;2.5&quot;>استعيدت الطاقة إلى أقصى مستوى.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "0f65baea89964f242a54e0931174cb77fabaf6378bec7b6fcf13d860d7057379",
+      "candidate_sha256": "e67479069d5ab47106634869a409badbbad50393411c4170ad0001dcc5b35ae7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10909,
@@ -22,14 +30,22 @@
     "speaker_code": "JUNB1",
     "scene_code": "KEDS_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.02;3.592&quot;>هيا أيها جي سي! أنا جي بي<br>الطيب!",
-    "arabic_edit": "<ts=&quot;0.02;3.592&quot;>هيا أيها جي سي! أنا جي بي الطيب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.02;3.592&quot;>هيا، يا جيه سي! إنه أنا، صديقك القديم جيه<br>بي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "d7e27fc2ff7cf17ed62b410553e1f25d4a3a9f9868a3a76462925f8b6921dba3",
+      "candidate_sha256": "dda5651a571696a8efb57b480f952257c15709ede0376e83c3c9c44f582a9b93",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11382,
@@ -39,12 +55,20 @@
     "scene_code": "KEDS_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.045;1.287&quot;>تم رفع المخططات.",
     "arabic_edit": "<ts=&quot;0.045;1.287&quot;>تم رفع المخططات.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "7ed8167b1c3a1c54c2f695daa867f18641be3899a264b43b2c997b9e10f786d2",
+      "candidate_sha256": "f4ce690a25144b4b757d002119374641765ab402e4698311188fa7c460a85710",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11383,
@@ -54,12 +78,20 @@
     "scene_code": "KEDS_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.042;1.443&quot;>(تضحك بسعادة)",
     "arabic_edit": "<ts=&quot;0.042;1.443&quot;>(تضحك بسعادة)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "cdb054a5c118fbaede6807d217f4d15e7d7e8ac329055cd74f987b09487280f4",
+      "candidate_sha256": "928acbeebf215897084bb0b01b5afd9291b0c49328d4cb5f680f60d79eee1f84",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19751,
@@ -69,12 +101,20 @@
     "scene_code": "KEDS_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.25;1.204&quot;>ها نحن ذا...",
     "arabic_edit": "<ts=&quot;0.25;1.204&quot;>ها نحن ذا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "5d23c337094d3beac735e1e23f069b178c9e9534ac1f9973bb39b202a0df6aa1",
+      "candidate_sha256": "b6013abe861e066866ccee7e20385ed79699ed55afb6512106907c3808f9396f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19752,
@@ -84,12 +124,20 @@
     "scene_code": "KEDS_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.028;0.817&quot;>واو.",
     "arabic_edit": "<ts=&quot;0.028;0.817&quot;>واو.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "64c433f5fd46bfa88cab83e9d954a18e2fe94271c642c4c3ea4c0f93b10fa253",
+      "candidate_sha256": "35c8cc9aada73b74c98d3ef289e2c8e9f8fd58f5fbc52df284ba67ce73d2638e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19753,
@@ -99,12 +147,20 @@
     "scene_code": "KEDS_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;1.05&quot;>هل نجح؟",
     "arabic_edit": "<ts=&quot;0;1.05&quot;>هل نجح؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "43407628c461463305363aa80210bdb4f7f39456836443856c9d05248d00444e",
+      "candidate_sha256": "6fd827db0a94b791c3129cfde9a42cf68fef2f9df2a8af03e0a6a8894b7b75dd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19754,
@@ -114,12 +170,20 @@
     "scene_code": "KEDS_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.031;2.603&quot;>ووووو! نعم! فعلناها يا كيت!",
     "arabic_edit": "<ts=&quot;0.031;2.603&quot;>ووووو! نعم! فعلناها يا كيت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "14f49a9c4dd07284cdb52a043797341701fc950e4fcfc085c1e68bd1d0ff78e3",
+      "candidate_sha256": "4e813e120c6a6a2849918bebc04716522d7e237210a5e729b235b6ece2b87ca5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19755,
@@ -128,12 +192,20 @@
     "speaker_code": "RATC",
     "scene_code": "KEDS_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;1.75&quot;>أنت *بالفعل* شريك رائع.",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>أنت *بالفعل* شريك رائع.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>أنت بالفعل شريكة جيدة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "b1b94800af75575806ce0205d271dcac5b91a3af54cfdb07e6796f2102eeea40",
+      "candidate_sha256": "070a9b68db9ca021820fdf7722abbe0677f9c5e76e2b12fc5332c9f1264a5ad4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,13 +7,21 @@
     "scene_code": "CIV_PHONE_UPGRADE",
     "arabic_current": "<ts=&quot;0;5.392&quot;>رنغ رنغ! يبدو أن *أحدهم*<br>يملك ما يكفي من<br>الراريتانيوم للتطوير!<ts=&quot;5.524;8.906&quot;>زر السيدة زوركون قريبا، هل<br>سمعت؟",
     "arabic_edit": "<ts=&quot;0;5.392&quot;>رنغ رنغ! يبدو أن *أحدهم* يملك ما يكفي من<br>الراريتانيوم للتطوير!<ts=&quot;5.524;8.906&quot;>زر السيدة زوركون قريبا، هل سمعت؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "e1628675b5b05a5ff3f9722d49e92e9a651276cdc793314bf94d9d6a3ad7e64d",
+      "candidate_sha256": "96b6f68c1a4a97427e6dd62962f6d4fc44586f99111215b8e3a2318ce02ecb71",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13687,
@@ -23,13 +31,21 @@
     "scene_code": "CIV_PHONE_UPGRADE",
     "arabic_current": "<ts=&quot;0.03;3.253&quot;>أهلا وسهلا ومرحبا! ترغب في<br>تطوير؟<ts=&quot;3.336;7.013&quot;>تعال إلى السيدة زوركون<br>وأنفق ذلك الراريتانيوم!",
     "arabic_edit": "<ts=&quot;0.03;3.253&quot;>أهلا وسهلا ومرحبا! ترغب في تطوير؟<ts=&quot;3.336;7.013&quot;>تعال إلى السيدة زوركون وأنفق ذلك<br>الراريتانيوم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "0e176857a7bcca064fd05452015c72bd8ca1f44920f5b574064858f9599633b0",
+      "candidate_sha256": "8e45fbf8da67f82e6d6a1f0b9108d5c551403793b4be7e6d7c063707b2f193dd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13688,
@@ -38,14 +54,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_PHONE_UPGRADE",
     "arabic_current": "<ts=&quot;0.04;3.321&quot;>مرحبا! ،آمل أنني لا أزعجك<ts=&quot;3.433;8.754&quot;>لكنك تعرف أن السيدة زوركون<br>سترقي أسلحتك مقابل كل<br>ذلك الراريتانيوم، صحيح؟",
-    "arabic_edit": "<ts=&quot;0.04;3.321&quot;>مرحبا! ،آمل أنني لا أزعجك<ts=&quot;3.433;8.754&quot;>لكنك تعرف أن السيدة زوركون سترقي أسلحتك<br>مقابل كل ذلك الراريتانيوم، صحيح؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.04;3.321&quot;>مرحبًا! آمل ألا أقاطعك،<ts=&quot;3.433;8.754&quot;>لكنك تعرف أن السيدة زوركون تطور أسلحتك<br>مقابل الراريتانيوم، صحيح؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "e510f1f8a329432e72ff2a55cabdbc1774244f635a84df5423c39a780c669211",
+      "candidate_sha256": "125ce0e33fb848d52dde6d211e1e20e2c80aeb3a9a3fde548ec27b6dc7fa2c74",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13689,
@@ -55,12 +79,20 @@
     "scene_code": "CIV_PHONE_UPGRADE",
     "arabic_current": "<ts=&quot;0.03;1.835&quot;>أهلا ومرحبا!<ts=&quot;1.91;6.236&quot;>متى آخر مرة أنفقت ذلك<br>الراريتانيوم على تطوير؟<ts=&quot;6.432;9.776&quot;>من فضلك تعال إلى السيدة<br>زوركون!",
     "arabic_edit": "<ts=&quot;0.03;1.835&quot;>أهلا ومرحبا!<ts=&quot;1.91;6.236&quot;>متى آخر مرة أنفقت ذلك الراريتانيوم على<br>تطوير؟<ts=&quot;6.432;9.776&quot;>من فضلك تعال إلى السيدة زوركون!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "80f15bae49611d2e7f4d6ea7bb7e95a9a681911535c098a5dce9fb8fd5a84902",
+      "candidate_sha256": "626ae5312e92f5c92bdb80941c5e2b9f85376bee609f54a1d6bc862d9369d0da",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,13 +7,21 @@
     "scene_code": "CIV_GEN_CLOSING",
     "arabic_current": "<ts=&quot;0.067;3.381&quot;>آسفة يا حبيبي، لكن هذا<br>سيئ للأعمال!",
     "arabic_edit": "<ts=&quot;0.067;3.381&quot;>آسفة يا حبيبي، لكن هذا سيئ للأعمال!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "466e683076b48a03df8d5dd39b10eeaf986718edb08648e975cdafe8db7fd15f",
+      "candidate_sha256": "fe790b519cf0616883e523724736f827598e4a229c9e87534aa2084fe7e649ca",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13452,
@@ -22,13 +30,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CLOSING",
     "arabic_current": "<ts=&quot;0.062;2.436&quot;>يا إلهي! عد قريبا!",
-    "arabic_edit": "<ts=&quot;0.062;2.436&quot;>يا إلهي! عد قريبا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.062;2.436&quot;>يا إلهي! سأعود قريبًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "51f4f52fcef260e83330aff44ed2ccf54f5a8d6d499a672596196d553a35483e",
+      "candidate_sha256": "c115630ac2095c527be37e37288190eaf19d26c3b5c7a098f1f9e7a7babd18b9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13453,
@@ -38,12 +54,20 @@
     "scene_code": "CIV_GEN_CLOSING",
     "arabic_current": "<ts=&quot;0.03;1.08&quot;>علينا أن نغلق!",
     "arabic_edit": "<ts=&quot;0.03;1.08&quot;>علينا أن نغلق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "bc0ad12a6e1e4c6424492435011d91e8e4e5b03c036379bb3e1943df06b7583d",
+      "candidate_sha256": "01f92d01f265f4bc64bff28ccd679ca1f652a884b3937b59d5db456b625164ba",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13454,
@@ -53,13 +77,21 @@
     "scene_code": "CIV_GEN_CLOSING",
     "arabic_current": "<ts=&quot;0.051;2.974&quot;>حسنا، يبدو أن وقت الإغلاق<br>حان!",
     "arabic_edit": "<ts=&quot;0.051;2.974&quot;>حسنا، يبدو أن وقت الإغلاق حان!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "3f7249dee718e9822dd20f1b497c92cb12a996d4121c8b3ed6a72da3ba907c05",
+      "candidate_sha256": "931a2ad1d8569c4a2772152b1aab15ea5b3ce1e46e03aba9f56e4c0135ea7abe",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13455,
@@ -68,13 +100,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CLOSING",
     "arabic_current": "<ts=&quot;0.03;2.48&quot;>هذا دوري، عد قريبا!",
-    "arabic_edit": "<ts=&quot;0.03;2.48&quot;>هذا دوري، عد قريبا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.03;2.48&quot;>هذه إشارة رحيلي! سأعود قريبًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "fc607aec5f4d1cd828bf65b508beccde6568336c501864a322faca378ca4c3df",
+      "candidate_sha256": "ac307063de8a222b7cdf5affb28985566aaca6f71a625844bd334410a8173a63",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13456,
@@ -84,13 +124,21 @@
     "scene_code": "CIV_GEN_CLOSING",
     "arabic_current": "<ts=&quot;0.09;2.89&quot;>لا أستطيع التسويق<br>لبضائعي في هذه الظروف!",
     "arabic_edit": "<ts=&quot;0.09;2.89&quot;>لا أستطيع التسويق لبضائعي في هذه الظروف!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "8785d61f7a43923fc753f65a97a1734a02a9bfed066448ba5f0224f676f41d89",
+      "candidate_sha256": "6c4f5cc8822128c71ca0abea58fb5b96fc7f337b9a175aaf24f55af421d82589",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13457,
@@ -99,13 +147,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CLOSING",
     "arabic_current": "<ts=&quot;0.046;2.942&quot;>يا إلهي! أنا كبير جدا على هذا!",
-    "arabic_edit": "<ts=&quot;0.046;2.942&quot;>يا إلهي! أنا كبير جدا على هذا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.046;2.942&quot;>أوه! أنا أكبر سنًّا من أن أتحمل هذا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "1ab38bf6269253eaf1e3844218c37ae49e4c17a5204f815bfb102b4684f43c78",
+      "candidate_sha256": "73be777f54258114878395b2e905cbaffa810819ffa77e2a30f3d2bc6bd8583c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13458,
@@ -115,11 +171,19 @@
     "scene_code": "CIV_GEN_CLOSING",
     "arabic_current": "<ts=&quot;0.059;2.231&quot;>عدوا حين يتوقف إطلاق النار!",
     "arabic_edit": "<ts=&quot;0.059;2.231&quot;>عدوا حين يتوقف إطلاق النار!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "2e2aaee54686d33012cef58a31a6846e5c62e5981373ee68376d38c3de2142fe",
+      "candidate_sha256": "d4ec4874c83f40e19ca3a628c5ea90a525956a2a7aaa62a2f46639fe740ea2be",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

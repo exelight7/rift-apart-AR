@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_PULSE_LOW",
     "arabic_current": "<ts=&quot;0.048;1.508&quot;>النبضة النووية جاهزة.",
     "arabic_edit": "<ts=&quot;0.048;1.508&quot;>النبضة النووية جاهزة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "515fb650db1f8077db00b6ddc44fce42035ebdb8a3d606c6c02e4ae5718e3053",
+      "candidate_sha256": "e2b5cfa8ed9ed4f717fefa5fe794dd0b57b10c5640d3694e2cdbfcc9f4155a9d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8387,
@@ -22,12 +30,20 @@
     "scene_code": "HERO_GEN_PULSE_LOW",
     "arabic_current": "<ts=&quot;0.043;1.701&quot;>النبضة النووية مشحونة...",
     "arabic_edit": "<ts=&quot;0.043;1.701&quot;>النبضة النووية مشحونة...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "2dbfc511256f236d341f84a787b39db77f9abbb3c51ba307c26a11447d93cae6",
+      "candidate_sha256": "284b565f3f5c93e01e800a3e4ade0dad8aee55165670a09b6ca9366caa4bada0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8388,
@@ -37,12 +53,20 @@
     "scene_code": "HERO_GEN_PULSE_LOW",
     "arabic_current": "<ts=&quot;0.049;1.688&quot;>نبضة مشحونة بالكامل...",
     "arabic_edit": "<ts=&quot;0.049;1.688&quot;>نبضة مشحونة بالكامل...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "453e63b72350057d6efbfa81ed01ccb9f54a8f1371553845e973b731c4a45ea9",
+      "candidate_sha256": "dd7dc66e0c34b6e9bbb9e6f425c25676e69233415bfcb28967ac8e09d568ffdf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8389,
@@ -52,12 +76,20 @@
     "scene_code": "HERO_GEN_PULSE_LOW",
     "arabic_current": "<ts=&quot;0.045;1.799&quot;>جاهزة لإطلاق نبضتي<br>النووية.",
     "arabic_edit": "<ts=&quot;0.045;1.799&quot;>جاهزة لإطلاق نبضتي النووية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "7ab904eca18a0208ea23a5edc0c8efbf35755248de0856cada13dd5c33786c4b",
+      "candidate_sha256": "05a147a08691c374c41c4a3a1bfe61203ab91c933dc53e33ded46422d3a83368",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

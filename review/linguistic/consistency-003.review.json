@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1193,
+    "key": "CARD_M_INTRO_PARADE_CLOCK_END_DESC",
+    "source_sha256": "7bfd1c96a53e4a52d49fb825a5e9f33ec298c56543c72c0414262e78d6517105",
+    "before": "اذهب إلى الطوف الأمامي",
+    "after": "اذهب إلى مركبة الموكب الأمامية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1194,
+    "key": "CARD_M_INTRO_PARADE_CLOCK_END_TITLE",
+    "source_sha256": "87b7145abfdd36913bb017047a0694ff9501a7f5296c8c7a43c270eff045d187",
+    "before": "الآن وقد أزيلت سفينة الإنزال، اتجه<br>إلى الطوف الأمامي.",
+    "after": "بعد التخلص من سفينة الإنزال، اتجه<br>إلى مركبة الموكب الأمامية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 3064,
+    "key": "COUNTER_ARENA_GOONS",
+    "source_sha256": "91db4c7350f57f8db6b108ddf9f3d731b2f48351f98f7a988e39ff555a34b161",
+    "before": "الغونز المهزومون",
+    "after": "الغونز المقتولون",
+    "decision": "rewrite"
+  },
+  {
+    "index": 10864,
+    "key": "JRZK_ZURK_G2_GAMEPLAY_005",
+    "source_sha256": "9b146eb5a5f6437f181634a5751a240e91babba9f99307b7a210e1868f7f0525",
+    "before": "<ts=&quot;0.066;4.808&quot;>مزقوه إربًا إربًا! ... أقصد، مزقوا *هي*<br>إربًا إربًا!<ts=&quot;4.808;9.951&quot;>لن يطلب زوركون جونيور أبدًا إلحاق الألم<br>بجلالته.",
+    "after": "<ts=&quot;0.066;4.808&quot;>مزقوه إربًا إربًا! ... أقصد، مزقوها *هي*<br>إربًا إربًا!<ts=&quot;4.808;9.951&quot;>لن يطلب زوركون جونيور أبدًا إلحاق الألم<br>بجلالته.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 15831,
+    "key": "OBJ_HUD_SARGASSO_GP1_SPEETLE",
+    "source_sha256": "4a91b65c4048f5962894c8166e0bde261d7b8ff6060310f0a5d145d2da0dd71d",
+    "before": "أمسك خنفساء سبيتل",
+    "after": "أمسك خنفساء سبيتل",
+    "decision": "keep"
+  }
+]

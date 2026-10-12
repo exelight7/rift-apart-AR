@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BOUNCEUP",
     "arabic_current": "<ts=&quot;0.065;5.682&quot;>ستقفز *فزا-ف-ف* من الفرح<br>مع تلك الجميلة بعد<br>التطوير.",
-    "arabic_edit": "<ts=&quot;0.065;5.682&quot;>ستقفز *فزا-ف-ف* من الفرح مع تلك الجميلة<br>بعد التطوير.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.065;5.682&quot;>سوف *تـ... تـ... تقفز* فرحًا باستخدام ذلك<br>السلاح الرائع بعد تطويره!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "937279860324a7641cad86971f2c3309d7c36e1a482f43abce163df6598f674e",
+      "candidate_sha256": "17bb7ba35ff91c6b6b1f3946ec0be635383d1949a285ccfc40eb84c0abda76fd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

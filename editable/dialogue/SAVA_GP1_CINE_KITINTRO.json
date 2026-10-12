@@ -6,13 +6,21 @@
     "speaker_code": "KIT",
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<name=&quot;ARCH&quot;><ts=&quot;0.042;3.632&quot;>(صرخة هبوط)",
-    "arabic_edit": "<name=&quot;ARCH&quot;><ts=&quot;0.042;3.632&quot;>(صرخة هبوط)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<name=&quot;ARCH&quot;><ts=&quot;0.042;3.632&quot;>(تصرخ وهي تسقط)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "76cb0f282120ba198ffaecd5ffca0498439f830b756abeb798033bac479863a0",
+      "candidate_sha256": "100786fc4ee45bcb1e876f216fe65431d0f3e839ded6d8500fad6157e4797a89",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11566,
@@ -22,12 +30,20 @@
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<name=&quot;ARCH&quot;><ts=&quot;0.022;1.408&quot;>محرج جدا...",
     "arabic_edit": "<name=&quot;ARCH&quot;><ts=&quot;0.022;1.408&quot;>محرج جدا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "30b2d7574d9ab78b72847d653eac3172968bc181f23dd6b1357817e36f2126da",
+      "candidate_sha256": "830c459accdd8672f119166ce23d2556606889ef702a399fa1488191246f18d7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11567,
@@ -37,12 +53,20 @@
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<name=&quot;ARCH&quot;><ts=&quot;0.041;0.971&quot;>من أنت؟",
     "arabic_edit": "<name=&quot;ARCH&quot;><ts=&quot;0.041;0.971&quot;>من أنت؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "92c19c418ce988e8191a633523092ba5d701ba2e4478319d67537ed4b216d818",
+      "candidate_sha256": "ed80211ef536ab158fe6e1fbc70406b5ab82c4b5c344fe76df358b73c4d14724",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11568,
@@ -51,14 +75,22 @@
     "speaker_code": "KIT",
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<name=&quot;ARCH&quot;><ts=&quot;0.092;6.06&quot;>يا إلهي. حسنا، لا أستطيع<br>فعل الكثير وأرشفي يمشي<br>مبتعدا.<ts=&quot;6.06;9.076&quot;>كيف أصل إلى هناك من جديد...",
-    "arabic_edit": "<name=&quot;ARCH&quot;><ts=&quot;0.092;6.06&quot;>يا إلهي. حسنا، لا أستطيع فعل الكثير وأرشفي<br>يمشي مبتعدا.<ts=&quot;6.06;9.076&quot;>كيف أصل إلى هناك من جديد...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<name=&quot;ARCH&quot;><ts=&quot;0.092;6.06&quot;>يا إلهي. لا أستطيع فعل الكثير والأرشيف<br>يبتعد ماشيًا.<ts=&quot;6.06;9.076&quot;>كيف أصعد إليه مجددًا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "55a2f083e66a9d759fb07d549d7f7e63e2b2fc2f6c2082e040487f9ab59884fc",
+      "candidate_sha256": "ce71b0035d497d1f50a61caef212a7cc1fb3f0faab25b8346840506f8cd68ac8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11569,
@@ -67,13 +99,21 @@
     "speaker_code": "KIT",
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<name=&quot;ARCH&quot;><ts=&quot;0.07;2.651&quot;>لست رفيقا جيدا --أنا.",
-    "arabic_edit": "<name=&quot;ARCH&quot;><ts=&quot;0.07;2.651&quot;>لست رفيقا جيدا --أنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<name=&quot;ARCH&quot;><ts=&quot;0.07;2.651&quot;>أنا... لست شريكة جيدة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "34b74458ded7a8cc9e02765dae3b0d6a9d100b7f65f8197b3dc76428a61f92ce",
+      "candidate_sha256": "fbe657fd9e24bfcd10cde40b62ae4997786551e38e05e0f24d3dcdc1809d71d5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11570,
@@ -95,13 +135,21 @@
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<name=&quot;ARCH&quot;><ts=&quot;0.024;4.083&quot;>بالتأكيد. فريق. في الوقت<br>الحالي.",
     "arabic_edit": "<name=&quot;ARCH&quot;><ts=&quot;0.024;4.083&quot;>بالتأكيد. فريق. في الوقت الحالي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "e38e7af7c0a060cd91e06fbd1b76241fac5c2c7d1b7c8615e07711c2f24b7813",
+      "candidate_sha256": "ccd0c5c5826a8972715cc48b6729815407f5ffee6af2b9310d90cbbdd637159c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19920,
@@ -111,12 +159,20 @@
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<ts=&quot;0.052;0.678&quot;>لا...",
     "arabic_edit": "<ts=&quot;0.052;0.678&quot;>لا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "35b27c4813a999b202cac45b5e349733818640e5527a694a8dfe0086e772bf31",
+      "candidate_sha256": "76b353b4d802b896b0b92729d44c7809526fae2d0cb94493a7a4221ceeddaf96",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19921,
@@ -126,12 +182,20 @@
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<ts=&quot;0.04;0.719&quot;>... كلانك؟",
     "arabic_edit": "<ts=&quot;0.04;0.719&quot;>... كلانك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "7239e6c4c71b94831b6803075ee1843ec890fd8066d7dabcc5923589ad893a0b",
+      "candidate_sha256": "3f0ecca2c1ab7e39bfe0db4c8c26262c515f5cb9dad0e7cffe19b5dfa7b73da9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19922,
@@ -141,12 +205,20 @@
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<ts=&quot;0.018;1.833&quot;>واه! هي!",
     "arabic_edit": "<ts=&quot;0.018;1.833&quot;>واه! هي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "11c6febf423b96bbefa04f61876937749f3ec38bf9872d2aa4fb18dcb10fcf3c",
+      "candidate_sha256": "c5a80b622ca21e6471b1ecdc1df8b60af21ada733409c07f4617ace9587c0637",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19923,
@@ -155,14 +227,22 @@
     "speaker_code": "RATC",
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<ts=&quot;0;0.84&quot;>هل أنت بخير؟<ts=&quot;1.25;3&quot;>كانت هبوطا قويا بعض<br>الشيء.",
-    "arabic_edit": "<ts=&quot;0;0.84&quot;>هل أنت بخير؟<ts=&quot;1.25;3&quot;>كانت هبوطا قويا بعض الشيء.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.84&quot;>هل أنت بخير؟<ts=&quot;1.25;3&quot;>كان ذلك هبوطًا عنيفًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "72640f1ac7df3bae8e371549a1f1b0f3ba2ae3bb27bf86c74b1aaa64daa5184e",
+      "candidate_sha256": "97725cc4cc21b9a0478e19d06649cce1e2c3117c48f3d94a2db5cee3b43fef04",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19924,
@@ -171,14 +251,22 @@
     "speaker_code": "RATC",
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<ts=&quot;0.019;3.149&quot;>وجهك مألوف جدا —آسف، أنا.<ts=&quot;3.384;4.182&quot;>أنا راتشت.<ts=&quot;4.532;8.025&quot;>أظنها —جئت للبحث عن<br>تلميذة غاري.<ts=&quot;8.406;10.546&quot;>علي بناء الناقلة البعدية...<br>؟",
-    "arabic_edit": "<ts=&quot;0.019;3.149&quot;>وجهك مألوف جدا —آسف، أنا.<ts=&quot;3.384;4.182&quot;>أنا راتشت.<ts=&quot;4.532;8.025&quot;>أظنها —جئت للبحث عن تلميذة غاري.<ts=&quot;8.406;10.546&quot;>علي بناء الناقلة البعدية... ؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.019;3.149&quot;>آسف، أنا... تبدين مألوفة جدًّا.<ts=&quot;3.384;4.182&quot;>أنا راتشت.<ts=&quot;4.532;8.025&quot;>جئت للعثور على... أظنها تلميذة غاري.<ts=&quot;8.406;10.546&quot;>أحتاج إلى صنع جهاز أبعاد...؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "ede411de39fa005371335518821b81fff2f6c30591401e3f3941c38f0b7aacbe",
+      "candidate_sha256": "7eac7836848cf5519190980d30248788734cb4d89a40a440eceb92e9c24036dc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19925,
@@ -188,12 +276,20 @@
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<ts=&quot;0;2.06&quot;>أوه! أنت تلميذته!<ts=&quot;2.56;3.449&quot;>ربما، أمم—<ts=&quot;4.019;6&quot;>ربما نستطيع العمل معا؟",
     "arabic_edit": "<ts=&quot;0;2.06&quot;>أوه! أنت تلميذته!<ts=&quot;2.56;3.449&quot;>ربما، أمم—<ts=&quot;4.019;6&quot;>ربما نستطيع العمل معا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "3a39a53065c5707e9de0cf81565edbf9c2339e0b0a01369b3a278071cce587e5",
+      "candidate_sha256": "6cf1583663b0925b2063abf8ad516437d9f4ca1548f1771a24530407c4c15f80",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19926,
@@ -202,14 +298,22 @@
     "speaker_code": "RATC",
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<ts=&quot;0;1.05&quot;>ما رأيك بهذا:<ts=&quot;1.2;6.228&quot;>إذا سارت الأمور سوءا، ولن<br>تفعل، نفترق كل في طريق.<br>دون أسئلة.",
-    "arabic_edit": "<ts=&quot;0;1.05&quot;>ما رأيك بهذا:<ts=&quot;1.2;6.228&quot;>إذا سارت الأمور سوءا، ولن تفعل، نفترق كل<br>في طريق. دون أسئلة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.05&quot;>ما رأيك بهذا؟<ts=&quot;1.2;6.228&quot;>إن سارت الأمور على نحو سيئ، ولن يحدث ذلك،<br>يمض كل منا في طريقه. بلا أسئلة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "ab3fc10c4802e286e66b2a04613c852a9b991e2d57fc7cadc1c4c02646daeadc",
+      "candidate_sha256": "7cda0d3e2e4b4176667cdcaa01f7860e97fa6b2d7dfec69ac61bc9d43c239e40",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19927,
@@ -219,11 +323,19 @@
     "scene_code": "SAVA_GP1_CINE_KITINTRO",
     "arabic_current": "<ts=&quot;0.044;0.521&quot;>فريق؟",
     "arabic_edit": "<ts=&quot;0.044;0.521&quot;>فريق؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "1f617d932c30052fd289138f85ac55932788dbfb2da847d1eeb775356aa64614",
+      "candidate_sha256": "fe11b8eb7f2961c331433a878c1e453c8592bc8f0b7aca47684941b84e70f435",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,12 +7,20 @@
     "scene_code": "KEDS_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0.014;2.859&quot;>هذا... محيط!",
     "arabic_edit": "<ts=&quot;0.014;2.859&quot;>هذا... محيط!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "226e5c726b2bc80eb9df43056514985ca02817ded129124a3f08d33b3a8144cb",
+      "candidate_sha256": "0058c4a91fe19336d0cdd5ba205960aa20bda94e569161a675a760d13668a7ef",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11380,
@@ -22,13 +30,21 @@
     "scene_code": "KEDS_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0;2.8&quot;>كيف لا تخاف من<br>المستقبل؟<ts=&quot;3.69;5.44&quot;>بكل ما فيه من مجهولات؟",
     "arabic_edit": "<ts=&quot;0;2.8&quot;>كيف لا تخاف من المستقبل؟<ts=&quot;3.69;5.44&quot;>بكل ما فيه من مجهولات؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "f90d3de2108182bb12a91e8f4cec70ec896f3f6717a48f671f6d723c0d05dfe3",
+      "candidate_sha256": "e578673f6f6a5b1f207a39384e8069794c0ffe4b64437e3008b2203602521a14",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19737,
@@ -37,14 +53,22 @@
     "speaker_code": "RATC",
     "scene_code": "KEDS_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0;1.319&quot;>جميل صحيح؟<ts=&quot;1.69;5.196&quot;>وتخيل، بمجرد أن نبني هذا<br>،الجهاز وننقذ البعد<ts=&quot;5.291;7.872&quot;>سيكون أمامك كون كامل<br>تستكشفه.",
-    "arabic_edit": "<ts=&quot;0;1.319&quot;>جميل صحيح؟<ts=&quot;1.69;5.196&quot;>وتخيل، بمجرد أن نبني هذا ،الجهاز وننقذ<br>البعد<ts=&quot;5.291;7.872&quot;>سيكون أمامك كون كامل تستكشفه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.319&quot;>رائع، أليس كذلك؟<ts=&quot;1.69;5.196&quot;>وتخيلي، عندما نصنع هذا الجهاز وننقذ البعد،<ts=&quot;5.291;7.872&quot;>سيكون أمامك كون كامل تستكشفينه.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "07720d1c17eae75314e0e2e17b91961a3c09d850c16d7e851e5f36669058f19c",
+      "candidate_sha256": "51c2b93c827cfc8c725516a2dff2eb1f6242e946b7263c16fc135a176e847c72",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19738,
@@ -53,14 +77,22 @@
     "speaker_code": "RATC",
     "scene_code": "KEDS_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0;2.809&quot;>أنا فعلا أفهم...<ts=&quot;3.65;6.845&quot;>سألتني في سافالي إن كنت<br>أريد إيجاد عائلتي...<ts=&quot;7.76;10.225&quot;>لمدة طويلة كنت أريد ذلك.<ts=&quot;10.563;13&quot;>كنت أريده فعلا...",
-    "arabic_edit": "<ts=&quot;0;2.809&quot;>أنا فعلا أفهم...<ts=&quot;3.65;6.845&quot;>سألتني في سافالي إن كنت أريد إيجاد<br>عائلتي...<ts=&quot;7.76;10.225&quot;>لمدة طويلة كنت أريد ذلك.<ts=&quot;10.563;13&quot;>كنت أريده فعلا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.809&quot;>أنا... أمم...<ts=&quot;3.65;6.845&quot;>سألتني في سافالي إن كنت أريد العثور على<br>عائلتي...<ts=&quot;7.76;10.225&quot;>أردت ذلك لوقت طويل.<ts=&quot;10.563;13&quot;>أردته حقًّا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "e1bea34240c52bfdc6864f83492145414057c19fe089c555baceef25a7d61042",
+      "candidate_sha256": "1f3113203896df9f8344afb78163d99c42cca1afd8873072f772a01888632bb4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19739,
@@ -70,13 +102,21 @@
     "scene_code": "KEDS_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0.028;3.027&quot;>لكن كلما اقتربت من تحقيق<br>ذلك...",
     "arabic_edit": "<ts=&quot;0.028;3.027&quot;>لكن كلما اقتربت من تحقيق ذلك...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "e921e46c961d3ccf816aa6f61f8342439b38c9b85a6de4cbeed3e6b59367c252",
+      "candidate_sha256": "7b5c7284264cdf2666a2e709abdf468323abf0c8a361f9b4dd0aca5a49e27413",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19740,
@@ -86,13 +126,21 @@
     "scene_code": "KEDS_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0.05;4.754&quot;>ماذا لو لم يكونوا كما توقعت؟<br>ماذا لو لم أكن أنا كما توقعوا؟<br>أنا فقط—",
     "arabic_edit": "<ts=&quot;0.05;4.754&quot;>ماذا لو لم يكونوا كما توقعت؟ ماذا لو لم<br>أكن أنا كما توقعوا؟ أنا فقط—",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "f659309a085d059c8c20791eb9cf7021de1631de3a6d3a0e67fcad71b5278fa9",
+      "candidate_sha256": "39319ccc940bc26a6c06b420cb281d7b0c43afbe999f8d2ce057c9882c38d4af",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19741,
@@ -102,11 +150,19 @@
     "scene_code": "KEDS_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0;0.941&quot;>على أي حال.<ts=&quot;1.609;2.576&quot;>أظن أننا وصلنا.",
     "arabic_edit": "<ts=&quot;0;0.941&quot;>على أي حال.<ts=&quot;1.609;2.576&quot;>أظن أننا وصلنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "08bae2b054b39bec5f34e936d0881d6a5b9c88d98257ee9e97c6747af73a7773",
+      "candidate_sha256": "6106038135f25f55975e2dd151ed2e522ea57801ef86ca2e4cb0f3a96b829901",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

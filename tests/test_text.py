@@ -17,4 +17,8 @@ class TextTests(unittest.TestCase):
         self.assertIn('[GAMEPAD_X]',result)
     def test_paragraphs(self):
         self.assertIn('<br><br>',wrap_text('نص أول<br><br>نص ثان',20))
+    def test_inline_word_boundaries(self):
+        text="اجمع <span class='emphasis'>المسامير</span> لشراء الأسلحة."
+        self.assertEqual(wrap_text(text,80),text)
+        self.assertEqual(wrap_text('نص<span> </span>آخر',80),'نص<span> </span>آخر')
 if __name__=='__main__':unittest.main()

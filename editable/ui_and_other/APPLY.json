@@ -6,14 +6,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "هل أنت متأكد من رغبتك في<br>الإبقاء على التغييرات<br>المطبقة؟ سيعاد ضبط<br>التغييرات خلال %d ثانية.",
-    "arabic_edit": "هل أنت متأكد من رغبتك في الإبقاء<br>على التغييرات المطبقة؟ سيعاد ضبط<br>التغييرات خلال %d ثانية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "هل تريد الاحتفاظ بالتغييرات المطبقة؟ سيتم<br>التراجع عنها خلال %d ثانية.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-001",
+      "source_sha256": "2a91c400a5a7f3f62855989f21e32c0f7dd826bc626bf67bc6615dc7d825c628",
+      "candidate_sha256": "3ac35215e79b73f2976a246ff0f9ac45472e31f6be19cc1be98a685fac5b909c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 137,
@@ -23,11 +31,19 @@
     "scene_code": "",
     "arabic_current": "تطبيق التغييرات",
     "arabic_edit": "تطبيق التغييرات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-001",
+      "source_sha256": "33bf9eeb20a998d4f62ee1ed4ee92f541edadc48ee6d32b0cca96fc39c52ee87",
+      "candidate_sha256": "2709abc387fec929e109c023c8ffed5a49ff73b2370bd29bafa6ef2ca1693bc7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -6,12 +6,20 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_MAGUP",
     "arabic_current": "<ts=&quot;0;1.591&quot;>يا لها، انظر إلى ذلك!<ts=&quot;1.676;4.567&quot;>سيد الفراغ الحقيقي!",
-    "arabic_edit": "<ts=&quot;0;1.591&quot;>يا لها، انظر إلى ذلك!<ts=&quot;1.676;4.567&quot;>سيد الفراغ الحقيقي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.591&quot;>يا للعجب، انظر إلى ذلك!<ts=&quot;1.676;4.567&quot;>براعة حقيقية في التحكم بالفراغ!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "ffac21bccec1c9561d155f6947c419dc0e74230666b3dc0309f6127317e95a1a",
+      "candidate_sha256": "9d876190637f967b53d8e304ace9097f186da679a23c7d377d6842a32f49bf96",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

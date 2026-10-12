@@ -7,13 +7,21 @@
     "scene_code": "CIV_GEN_ICEBLASTERAVAIL",
     "arabic_current": "<ts=&quot;0.064;5.04&quot;>الأعداء يأتون بحماس؟ لدي ما<br>سيبردهم!",
     "arabic_edit": "<ts=&quot;0.064;5.04&quot;>الأعداء يأتون بحماس؟ لدي ما سيبردهم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "e8e95d0aa5c22b3d1a412ababd8f2fc74db951e2ad0cf126256be28534d3668d",
+      "candidate_sha256": "7347c314a623ceb4456ae5be803c665d2d0f0988d026960c46783a3cfb0de103",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13535,
@@ -22,14 +30,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ICEBLASTERAVAIL",
     "arabic_current": "<ts=&quot;0.064;6.612&quot;>ثبتهم في أماكنهم مع أحدث<br>ابتكار من السيدة زوركون:<br>الانكسار البارد! بررر!",
-    "arabic_edit": "<ts=&quot;0.064;6.612&quot;>ثبتهم في أماكنهم مع أحدث ابتكار من السيدة<br>زوركون: الانكسار البارد! بررر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.064;6.612&quot;>جمد أعداءك في أماكنهم مع أحدث أسلحة السيدة<br>زوركون: موجة الصقيع! بررر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "8c70ce07e4f57dfffe8c9ee6bb55b47463e768024eed6df66d3f8181ad4aef11",
+      "candidate_sha256": "8bed53adf0d56f5608a9cdd9f248666101c147963d7f7430eca12df76eda41e2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13536,
@@ -38,13 +54,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ICEBLASTERAVAIL",
     "arabic_current": "<ts=&quot;0;4.116&quot;>اجعل أعداءك المزعجين يبردون<br>مع الانكسار البارد!",
-    "arabic_edit": "<ts=&quot;0;4.116&quot;>اجعل أعداءك المزعجين يبردون مع الانكسار<br>البارد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.116&quot;>برد أعداءك المزعجين بموجة الصقيع!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "6d90f7da38b3e18fff01a3faa8e5a798eca53e3f32d1fa3f5700fcecc7185b1c",
+      "candidate_sha256": "b7444dfa3ef330ec5942a14059427b5b6aead1146b2c13be221d3539845bd6ac",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

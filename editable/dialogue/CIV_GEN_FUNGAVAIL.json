@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_FUNGAVAIL",
     "arabic_current": "<ts=&quot;0.048;5.652&quot;>تريد أن تجعل الحفلة في كل<br>معركة؟ السيد فنغاي هو<br>سلاحك!",
     "arabic_edit": "<ts=&quot;0.048;5.652&quot;>تريد أن تجعل الحفلة في كل معركة؟ السيد<br>فنغاي هو سلاحك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "229466ac782b138e905d143c949174f0622577af59c15ce49fdb63e00cc6aee1",
+      "candidate_sha256": "690a9aad6a33048465c6dacfaf7683e4bf266b8061e6d06976a4ffd7afb5d7ce",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

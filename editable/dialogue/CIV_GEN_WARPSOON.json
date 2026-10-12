@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_WARPSOON",
     "arabic_current": "<ts=&quot;0;3.65&quot;>لا يمكن الاستعجال في الأمر.<ts=&quot;4.05;5.45&quot;>يجب أن تكون الثقوب السوداء<br>مضبوطة تماما، عد قريبا!",
-    "arabic_edit": "<ts=&quot;0;3.65&quot;>لا يمكن الاستعجال في الأمر.<ts=&quot;4.05;5.45&quot;>يجب أن تكون الثقوب السوداء مضبوطة تماما،<br>عد قريبا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.65&quot;>لا يمكن استعجال هذا السلاح؛ يجب ضبط الثقوب<br>السوداء...<ts=&quot;4.05;5.45&quot;>بدقة. عد قريبًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "8ce63f08e96e182ece51c341c0907fd379a65d4c44f3667e3539bad29a929b6f",
+      "candidate_sha256": "888f303f71ae1fb87dd741d18284191e344da8e4094592ece5e03f517d242272",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

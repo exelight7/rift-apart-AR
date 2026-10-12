@@ -1,0 +1,1202 @@
+[
+  {
+    "index": 1486,
+    "key": "CHEF2_BLIZ_SQ_GAMEPLAY_045",
+    "source_sha256": "ab7e1b9cc9d5ed68f08502e6f4737d0dadeb29a46bffa55e9277cd62e1169133",
+    "before": "<ts=&quot;0.049;2.875&quot;>إنهم يفسدون عسلنا!",
+    "after": "<ts=&quot;0.049;2.875&quot;>إنهم يفسدون عسلنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 1487,
+    "key": "CHEF2_BLIZ_SQ_GAMEPLAY_046",
+    "source_sha256": "a7399d3aae06da6f97b3a4f29ea012674fdbe41bc43281c574545723ce2fe937",
+    "before": "<ts=&quot;0.048;2.75&quot;>لكن أي مشروب نطابقه معها...<ts=&quot;2.869;4.026&quot;>أحتاج المزيد.<ts=&quot;4.393;8.458&quot;>مزيد من الإلهام. مزيد من العسل!",
+    "after": "<ts=&quot;0.048;2.75&quot;>لكن أي مشروب نقدمه معه...<ts=&quot;2.869;4.026&quot;>أحتاج إلى المزيد.<ts=&quot;4.393;8.458&quot;>مزيد من الإلهام. مزيد من العسل!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1488,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_003",
+    "source_sha256": "786e4b1c84fd2479a83ac60b3b392bfa4b26e3370cc9b9330269ad234bf8eb28",
+    "before": "<ts=&quot;0;1.25&quot;>،يا أيها العمال<ts=&quot;1.799;5.21&quot;>لاحظتم على الأرجح أن الواقع يتفكك، لكن<br>هناك خبر<ts=&quot;5.72;6.07&quot;>جيد:<ts=&quot;6.26;10.55&quot;>،أسمع أصواتا من الجهة الأخرى وأنا أفك<br>شفرتها حاليا.<ts=&quot;10.969;15.169&quot;>،التحديثات ستصل قريبا أتمنى لكم يوما<br>متوهجا في بليزار... ما أدرى، فقط لا تلمسوا<br>شيئا!",
+    "after": "<ts=&quot;0;1.25&quot;>يا عمال المناجم،<ts=&quot;1.799;5.21&quot;>ربما لاحظتم أن الواقع يتداعى، لكن عندي خبر<ts=&quot;5.72;6.07&quot;>جيد:<ts=&quot;6.26;10.55&quot;>أسمع أصواتًا من الجانب الآخر، وأعمل الآن<br>على فك شفرتها.<ts=&quot;10.969;15.169&quot;>ستصلكم المستجدات قريبًا. أتمنى لكم يومًا<br>متوهجًا في بليزار... لا يهم، فقط لا تلمسوا<br>أي شيء!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1489,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_004",
+    "source_sha256": "0015d5e6e9db1b1a444ebb3f0aaf88607bc27fc9bee6d0cb0d62c9110c562552",
+    "before": "<ts=&quot;0;3.978&quot;>لا أستطيع التصريح باستخدام الحفار حتى يزال<br>الانسداد من ذلك الأنبوب.",
+    "after": "<ts=&quot;0;3.978&quot;>لا أستطيع التصريح باستخدام الحفار حتى يزال<br>الانسداد من ذلك الأنبوب.",
+    "decision": "keep"
+  },
+  {
+    "index": 1490,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_005",
+    "source_sha256": "db896584aa9259c08dd8a8234f476eddb7561d13f27e65709c8affd2bd41e533",
+    "before": "<ts=&quot;0;1.73&quot;>أختبر، أختبر الاتصال.<ts=&quot;2.449;5.359&quot;>لربما سلكت الروبوتات المسارات التي وضعت<br>عليها قضبان الاستطلاع.<ts=&quot;5.359;7.301&quot;>أنا متأكدة أنها تنصت إلى البنفسجي...",
+    "after": "<ts=&quot;0;1.73&quot;>اختبار، اختبار للاتصال.<ts=&quot;2.449;5.359&quot;>لا بد أن الروبوتات اتبعت المسارات المحددة<br>بقضبان المسح.<ts=&quot;5.359;7.301&quot;>أنا متأكدة أنها تنصت إلى ذلك الشيء<br>البنفسجي...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1491,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_006",
+    "source_sha256": "122d246ba2e58ac3669ddf54a1f5136902265660b90196648a14153460fa6aff",
+    "before": "<ts=&quot;0;3.75&quot;>السلامة أولا. حاول ألا تتعثر أو تنزلق أو<br>تكسر شيئا.",
+    "after": "<ts=&quot;0;3.75&quot;>السلامة أولًا. حاولي ألا تتعثري أو تنزلقي<br>أو تكسري شيئًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1492,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_007",
+    "source_sha256": "dd12b3ee30068a987aa86555e968f1b25d7eb67afe0acd79c8ea500b09aa046f",
+    "before": "<ts=&quot;0.94;5.293&quot;>عد! أنا أجمع الرسائل؛ سيكون هذا أمرا<br>كبيرا. أستطيع أن أحس بذلك!",
+    "after": "<ts=&quot;0.94;5.293&quot;>عودي! أنا أجمع الرسائل؛ سيكون هذا اكتشافًا<br>عظيمًا. أشعر بذلك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1493,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_008",
+    "source_sha256": "e2ee2acf081067b85420a95e20efe29410ee249b07bfcc15b34a16ad8b909a88",
+    "before": "<ts=&quot;0.048;5.651&quot;>هناك! أحد روبوتاتي في الأعلى! إنه... أوه،<br>يا حلو بوب.",
+    "after": "<ts=&quot;0.048;5.651&quot;>هناك، أحد روبوتاتي في الأعلى! إنه... أوه،<br>بوب العزيز.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1494,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_009",
+    "source_sha256": "c8f1237e9d3a30be0cc9a56c53c2c7f15252402aa7285e90f1a73fc50e4f89d3",
+    "before": "<ts=&quot;0.04;2.14&quot;>هناك مختبر بحث قدامنا.<ts=&quot;2.259;3.659&quot;>،إذا كنت أعرف جيم<ts=&quot;3.949;5.398&quot;>فهو أول ما سيتجه إليه.",
+    "after": "<ts=&quot;0.04;2.14&quot;>هناك مختبر أبحاث قديم أمامنا.<ts=&quot;2.259;3.659&quot;>إن كنت أعرف جيم جيدًا،<ts=&quot;3.949;5.398&quot;>فسيكون أول مكان يقصده.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1495,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_010",
+    "source_sha256": "a6824e2a63f67e110fd417b2bddf2721b69973888451ff4155c7af340b75c649",
+    "before": "<ts=&quot;0;0.99&quot;>منصات الحفر.<ts=&quot;1.42;1.77&quot;>،حسنا<ts=&quot;2.09;2.79&quot;>منصات متوقفة.<ts=&quot;3.219;6.019&quot;>أؤكد لك بمليون بالمئة أن صدوعا فتحت هنا -<ts=&quot;6.059;7.575&quot;>ستجد الروبوتات هناك بالتأكيد.",
+    "after": "<ts=&quot;0;0.99&quot;>منصات حفر.<ts=&quot;1.42;1.77&quot;>حسنًا،<ts=&quot;2.09;2.79&quot;>منصات متوقفة عن العمل.<ts=&quot;3.219;6.019&quot;>أنا متأكدة بنسبة مليون بالمئة من أن الصدوع<br>انفتحت هنا...<ts=&quot;6.059;7.575&quot;>ستجدين الروبوتات بالتأكيد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1496,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_011",
+    "source_sha256": "f51f2d0abc1ac0767da7d518566dcc509d7f912a6d4e8ea1de43047aa87d1a85",
+    "before": "<ts=&quot;0.02;1.129&quot;>هذا كلهم!<ts=&quot;1.283;3.953&quot;>شكرا؛ عد إلى محطة ،الاستطلاع<ts=&quot;4.137;8.627&quot;>لنر ما التقطته الروبوتات الصغيرة من *الجهة<br>الأخرى.*",
+    "after": "<ts=&quot;0.02;1.129&quot;>هذه كلها!<ts=&quot;1.283;3.953&quot;>شكرًا؛ عودي إلى محطة المسح لدي،<ts=&quot;4.137;8.627&quot;>لنر ما التقطته الروبوتات الصغيرة من<br>*الجانب الآخر*.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1497,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_012",
+    "source_sha256": "78e2c2a15b78675a8e5b57f57438af663d13665c3135848792b1bd0751eb51fa",
+    "before": "<ts=&quot;0;1.704&quot;>لا تقلق، لا تقلق.<ts=&quot;1.704;3.883&quot;>أنا من صممت نظام الأمان هذا بنفسي.",
+    "after": "<ts=&quot;0;1.704&quot;>لا تقلقي، لا تقلقي.<ts=&quot;1.704;3.883&quot;>صممت نظام الأمان هذا بنفسي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1498,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_013",
+    "source_sha256": "f56aba272579e8da9785ddb5a3a5a860e6f84920371dc2be038adb1192c4aab0",
+    "before": "<ts=&quot;0.65;5.79&quot;>آه، إآه، إلا أن أجهزة تتبع الحركة تقول<br>إنها في داخل البيت.<ts=&quot;6.37;7.749&quot;>إآه، الغرفة.",
+    "after": "<ts=&quot;0.65;5.79&quot;>أمم، إلا أن أجهزة تتبع الحركة تقول إنها<br>داخل المنزل.<ts=&quot;6.37;7.749&quot;>أقصد، الغرفة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1499,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_014",
+    "source_sha256": "c08485ac26f955ad98b2397490dbd44e5ae0206cb2e81d83453bc4854ac04190",
+    "before": "<ts=&quot;0;4.49&quot;>آه، صح، أنا. السقف! أنسى دائما أن أنظر إلى<br>أعلى...",
+    "after": "<ts=&quot;0;4.49&quot;>أوه، يا لغبائي. السقف! أنسى دائمًا النظر<br>إلى الأعلى...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1500,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_016",
+    "source_sha256": "13790bb9050a73932065bcc68736b776af3ae96c7a91d4334ff0d8b0a0c6a412",
+    "before": "<ts=&quot;0;0.35&quot;>،آه<ts=&quot;0.95;1.859&quot;>انتهى الأمر.<ts=&quot;2.759;3.999&quot;>لحظة. ما الذي يتطاير هناك؟",
+    "after": "<ts=&quot;0;0.35&quot;>أوه،<ts=&quot;0.95;1.859&quot;>انتهى الأمر.<ts=&quot;2.759;3.999&quot;>مهلًا. ما الذي يتخبط هناك؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1501,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_017",
+    "source_sha256": "3e9acb54dfe5aafedeb80cdc69f0a186b969ad82e92e286986e376379fe82d02",
+    "before": "<ts=&quot;0.036;2.959&quot;>هناك المزيد؟! لم يكن هذا في الدليل!",
+    "after": "<ts=&quot;0.036;2.959&quot;>هناك المزيد؟! لم يكن هذا في الدليل!",
+    "decision": "keep"
+  },
+  {
+    "index": 1502,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_018",
+    "source_sha256": "c083c991ca52e1507880ed703b5331ff6f7ab3d60a202849622a72bff20b8f80",
+    "before": "<ts=&quot;0;3.688&quot;>كيف أفتح سر بعد محطم<ts=&quot;3.776;6.875&quot;>طالما تتصادم هذه *الأسماك* بموقع التعدين؟!",
+    "after": "<ts=&quot;0;3.688&quot;>كيف أكشف أسرار بعد محطم،<ts=&quot;3.776;6.875&quot;>وهذه الأسماك تواصل اقتحام موقع التعدين؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1503,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_019",
+    "source_sha256": "d5bcb04913c93ad3570583a7b8213277723b54f92b861b0d4ea80c81eee9d6ec",
+    "before": "<ts=&quot;0;2.345&quot;>لا أظن إنك «حصلت عليها».",
+    "after": "<ts=&quot;0;2.345&quot;>لا أظن أنك «قضيت عليها».",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1504,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_020",
+    "source_sha256": "a79e557edb0a36f002b174d5fbabef11b5c8e4c80087280d245454aa242c8c0a",
+    "before": "<ts=&quot;0;1.72&quot;>هذا ليس نفخودا. إنه<ts=&quot;2.15;2.909&quot;>إنه—",
+    "after": "<ts=&quot;0;1.72&quot;>هذا ليس نفخودًا. إنه<ts=&quot;2.15;2.909&quot;>إنه...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1505,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_021",
+    "source_sha256": "01a5b0dd2088f778dc73096b41e67f22e9a358248fc78cb6f15fd008b3e58ae0",
+    "before": "<ts=&quot;0.038;1.969&quot;>ما هذا الشيء اللعين؟!",
+    "after": "<ts=&quot;0.038;1.969&quot;>ما هذا الشيء اللعين؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 1506,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_022",
+    "source_sha256": "6ad97eef927c7178f11efe888365eeea7c0cb919762fe7809e9312957b03709c",
+    "before": "<ts=&quot;0;2.95&quot;>أوف. ،حسنا، تعثر صغير<ts=&quot;2.95;6.197&quot;>سأستغرق وقتا أطول لفك شفرة هذه الرسالة.<ts=&quot;6.197;8.083&quot;>لكن بوسعكم استخدام الحفار.<ts=&quot;8.083;9.754&quot;>سيوصلكم جيم إلى هناك.",
+    "after": "<ts=&quot;0;2.95&quot;>أوف. حسنًا، مجرد انتكاسة صغيرة،<ts=&quot;2.95;6.197&quot;>سأحتاج إلى وقت أطول لفك شفرة هذه الرسالة.<ts=&quot;6.197;8.083&quot;>لكن بوسعكم استخدام المثقاب.<ts=&quot;8.083;9.754&quot;>سيرافقكم جيم إلى هناك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1507,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_026",
+    "source_sha256": "30b49a4efeb562fc1401fcb673dfa238e7c6fce2d0bd409191aa4ea663cce1c5",
+    "before": "<ts=&quot;0;4.162&quot;>آه، آه... اختبئوا! تم تفعيل الإغلاق!",
+    "after": "<ts=&quot;0;4.162&quot;>آه، آه... اختبئوا! تم تفعيل الإغلاق!",
+    "decision": "keep"
+  },
+  {
+    "index": 1508,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_027",
+    "source_sha256": "e09982aca931cfd4559923b1605d2647aea4806114a516a5dbab3130c498fcb1",
+    "before": "<ts=&quot;0.03;2.13&quot;>هل يمكنني تجربة إيقاف عن بعد؟<ts=&quot;2.429;4.838&quot;>يا إلهي، أوه، هذا سيئ جدا، يا إلهي...",
+    "after": "<ts=&quot;0.03;2.13&quot;>هل أجرب إيقافه عن بعد؟<ts=&quot;2.429;4.838&quot;>أوه، يا للهول، هذا سيئ جدًا...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1509,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_028",
+    "source_sha256": "f63b46f0bdd8128a3f704649463ee8af5729bc854de27aef4d4670f367b5abb2",
+    "before": "<ts=&quot;0.16;1.779&quot;>تستمر شبكتنا في الانقطاع.<ts=&quot;2.29;4.866&quot;>كان علي أن أرقي إلى خدمة أسرع!",
+    "after": "<ts=&quot;0.16;1.779&quot;>تتقطع شبكتنا باستمرار.<ts=&quot;2.29;4.866&quot;>كنت أعرف أن علي الاشتراك في خدمة أسرع!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1510,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_030",
+    "source_sha256": "96e0a660e1d1ee4d4fa1007063169853656a2af1bb35adf7dc78195ffdc4a1fa",
+    "before": "<ts=&quot;0;3.13&quot;>خبر سيئ، أيها الجميع. لا أستطيع إيقاف<br>الحفار.<ts=&quot;3.13;6.04&quot;>نسيت أن أرقي الأدوات إلى 4.331.<ts=&quot;6.42;11.249&quot;>استعدوا لموت حلو، وأتمنى لكم يوما ملتهبا<br>في بليزار.",
+    "after": "<ts=&quot;0;3.13&quot;>خبر سيئ يا جماعة. لا أستطيع إيقاف المثقاب.<ts=&quot;3.13;6.04&quot;>نسيت تحديث الأدوات إلى الإصدار 4.331.<ts=&quot;6.42;11.249&quot;>استعدوا لموت هانئ، وأتمنى لكم يومًا<br>متوهجًا في بليزار.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1511,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_031",
+    "source_sha256": "7a893ab3bbc801ee5f7f43d648a34084286183790f46823f92fa6b7f3c70e278",
+    "before": "<ts=&quot;0;2.108&quot;>عادة ما سأقول إن هذا يخالف ،البروتوكول<ts=&quot;2.116;4.71&quot;>لكننا نعيش في عالم سبق ،نهاية العالم<ts=&quot;4.742;5.59&quot;>فامض قدامك.",
+    "after": "<ts=&quot;0;2.108&quot;>عادة لقلت إن هذا يخالف البروتوكول،<ts=&quot;2.116;4.71&quot;>لكننا نعيش في عالم يسبق ما بعد نهاية<br>العالم،<ts=&quot;4.742;5.59&quot;>لذا افعليها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1512,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_034",
+    "source_sha256": "2ced8eb57ab6c1c69f2f3d1f66b04a73a8bf316e6e2f5c1f53cb8bf2ac36197e",
+    "before": "<ts=&quot;0;2.1&quot;>كل شيء يدور في المناجم.<ts=&quot;2.33;5.48&quot;>كما تلتف الأصوات حول عقلي...<ts=&quot;5.51;5.96&quot;>،آه<ts=&quot;6.47;7.821&quot;>اتبع قضبان الاستطلاع تلك.",
+    "after": "<ts=&quot;0;2.1&quot;>كل الطرق في المناجم تعود إلى نقطة البداية.<ts=&quot;2.33;5.48&quot;>تمامًا كما تدور الأصوات في عقلي...<ts=&quot;5.51;5.96&quot;>أمم،<ts=&quot;6.47;7.821&quot;>اتبعي قضبان المسح تلك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1513,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_035",
+    "source_sha256": "e370e7a60a15bbfbfccb7181bcd8e44c73dec9e2820025c7e0378a90f2e44017",
+    "before": "<ts=&quot;0.18;2.5&quot;>سأصدر لها إشارة فتعود إلي.<ts=&quot;2.5;5.12&quot;>يبدو أنها التقطت ملفا صوتيا؛<ts=&quot;5.12;6.423&quot;>سأبدأ بتنظيفه.",
+    "after": "<ts=&quot;0.18;2.5&quot;>سأصدر لها إشارة فتعود إلي.<ts=&quot;2.5;5.12&quot;>يبدو أنها التقطت ملفا صوتيا؛<ts=&quot;5.12;6.423&quot;>سأبدأ بتنظيفه.",
+    "decision": "keep"
+  },
+  {
+    "index": 1514,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_036",
+    "source_sha256": "a94590c5c4e490e5238419a656757e4aff7a1119f8fe1c4982a6a553d77a7bb6",
+    "before": "<ts=&quot;0.02;1.971&quot;>كف عن القلق، جيم.<ts=&quot;2.145;4.458&quot;>ربما يكون قد التقط رسائل بعدية<ts=&quot;4.477;6.921&quot;>ولم يتشتت باحثا عن أصدقاء.",
+    "after": "<ts=&quot;0.02;1.971&quot;>كف عن القلق يا جيم.<ts=&quot;2.145;4.458&quot;>آمل أنه التقط رسائل من أبعاد أخرى،<ts=&quot;4.477;6.921&quot;>ولم يتشتت في البحث عن أصدقاء.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1515,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_037",
+    "source_sha256": "f892e886e686f574268b50dc0176e88fc3f32120c8af570854700142df2bf605",
+    "before": "<ts=&quot;0;3.15&quot;>آه، سام، تبحث عن نفسها دائما.<ts=&quot;3.48;5.731&quot;>خطوة واحدة أقرب إلى فهم هذه الرسالة.",
+    "after": "<ts=&quot;0;3.15&quot;>آه يا سام، تبحث دائمًا عن نفسها.<ts=&quot;3.48;5.731&quot;>اقتربنا خطوة أخرى من فهم هذه الرسالة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1516,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_038",
+    "source_sha256": "dc18cc4c79a08a2a55daf1b2b01ef053bb475733b5c21b083be505ba1daf903a",
+    "before": "<ts=&quot;0;2.619&quot;>،اصمتوا، اصمتوا، اصمتوا أيتها الروبوتات!!<ts=&quot;3.05;4.28&quot;>ألا ترون أنني<ts=&quot;4.28;4.64&quot;>مشغولة؟!",
+    "after": "<ts=&quot;0;2.619&quot;>اصمتوا، اصمتوا، اصمتوا أيتها الروبوتات!<ts=&quot;3.05;4.28&quot;>ألا ترون أنني<ts=&quot;4.28;4.64&quot;>مشغولة؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1517,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_039",
+    "source_sha256": "adcf76b275c243a4962e5b72a63dd7fdd83fc1017fa678711685523f22da3787",
+    "before": "<ts=&quot;0;1.82&quot;>،أيها اللومباكس، أيها الروبوت لدي خبر<br>رائع.<ts=&quot;2.179;5&quot;>فككت شفرة الرسالة من الجهة الأخرى! استمع:",
+    "after": "<ts=&quot;0;1.82&quot;>يا لومباكس، يا روبوت، لدي خبر رائع.<ts=&quot;2.179;5&quot;>فككت شفرة الرسالة من الجانب الآخر! استمعا:",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1518,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_040",
+    "source_sha256": "732231cde9282815d9b7628b27b7ac49d9a1a6518239c55903b137cd6ae6d01b",
+    "before": "<ts=&quot;0;0.7&quot;>مرحبا من جديد.<ts=&quot;1.2;2.25&quot;>وخبر جيد آخر:<ts=&quot;2.389;5.83&quot;>صديقتنا التي تحذرنا بالألغاز صارت لديها<br>اتصال مباشر بنا الآن.<ts=&quot;5.83;9.545&quot;>ستأتي إلى منجمنا فور انتهائها من دراسة<br>بليزار المحطم.",
+    "after": "<ts=&quot;0;0.7&quot;>مرحبًا مجددًا.<ts=&quot;1.2;2.25&quot;>مزيد من الأخبار الجيدة:<ts=&quot;2.389;5.83&quot;>صديقتنا ذات التحذيرات الغامضة أصبحت تتصل<br>بنا مباشرة.<ts=&quot;5.83;9.545&quot;>ستأتي إلى منجمنا حالما تنتهي من دراسة<br>بليزار المحطم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1519,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_041",
+    "source_sha256": "e7738c7c612e079802e1d6016ca8590e2b7d9035f87ffd3a072683b5f92d2517",
+    "before": "<ts=&quot;0;1.75&quot;>وقلت *أبدا.*<ts=&quot;2;4.03&quot;>تحذيرات صوت المنشأة<ts=&quot;4.03;4.5&quot;>مطمئنة.",
+    "after": "<ts=&quot;0;1.75&quot;>وقلت *أبدًا*.<ts=&quot;2;4.03&quot;>تحذيرات ذكاء المنشأة الافتراضي<ts=&quot;4.03;4.5&quot;>تبعث على الطمأنينة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1520,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_042",
+    "source_sha256": "c349c6f01045a9d728648d40ba9956249c505be476d24749caa3a4d9c1ba68b3",
+    "before": "<ts=&quot;0;0.779&quot;>آه، مرحبا.<ts=&quot;1.51;3&quot;>آسف، أنا مشغولة هنا.",
+    "after": "<ts=&quot;0;0.779&quot;>أوه، مرحبًا.<ts=&quot;1.51;3&quot;>آسفة، أنا مشغولة هنا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1521,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_043",
+    "source_sha256": "216b007c2f2cf3ea8ccf167142fa6760bd49059906a0da73c5fffd23d95e8cfa",
+    "before": "<ts=&quot;0.029;5.978&quot;>إمكانات التواصل بين الأبعاد لا محدودة. لا<br>محدودة!",
+    "after": "<ts=&quot;0.029;5.978&quot;>إمكانات التواصل بين الأبعاد لا محدودة. لا<br>محدودة!",
+    "decision": "keep"
+  },
+  {
+    "index": 1522,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_044",
+    "source_sha256": "f4cfcd456b96ce0797a3055721804ca8b8c9fbb5f93f3894d88be4b82bbbedc8",
+    "before": "<ts=&quot;0.02;2.02&quot;>شكرا لك مجددا على مساعدتك.<ts=&quot;2.02;4.82&quot;>،أعني، كانت هناك أجزاء مرعبة لكن<ts=&quot;5.229;6.279&quot;>ساعدت في النهاية.",
+    "after": "<ts=&quot;0.02;2.02&quot;>شكرًا مجددًا على مساعدتك.<ts=&quot;2.02;4.82&quot;>أعني، كانت بعض اللحظات مرعبة، لكنك<ts=&quot;5.229;6.279&quot;>ساعدت في النهاية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1523,
+    "key": "CHEN_BLIZ_GP1_BLIZ_GP_045",
+    "source_sha256": "a7b544d4cc3943b8f1c668b02f10d74aed8e8f49b1c98f31756f365d7c2b2fe9",
+    "before": "<ts=&quot;0.199;3.249&quot;>سعيدة برؤيتك، أيها مهندس الحفر/اللومباكس.",
+    "after": "<ts=&quot;0.199;3.249&quot;>سعيدة برؤيتك، يا لومباكس ومهندسة حفر في آن<br>واحد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1524,
+    "key": "CHEN_BLIZ_GP1_CINE_ENGINEER_001",
+    "source_sha256": "cd2dba6866373ba4249d2f3178aff0ca3049db26840b23be3c9f03be38be410c",
+    "before": "<ts=&quot;0;1.174&quot;>هل تسمع ذلك؟",
+    "after": "<ts=&quot;0;1.174&quot;>هل تسمعين ذلك؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1525,
+    "key": "CHEN_BLIZ_GP1_CINE_ENGINEER_002",
+    "source_sha256": "28543bb90c56b479154579c6ab91eda9b8599286909ed69e7db1125b7ed4fc9d",
+    "before": "<ts=&quot;0;1.009&quot;>أصوات.<ts=&quot;1.532;3.421&quot;>لم أسمعها منذ وقت ليس ،بطويل<ts=&quot;3.828;7.591&quot;>،لكن أينما كان البنفسجي تكون هناك أيضا.",
+    "after": "<ts=&quot;0;1.009&quot;>أصوات.<ts=&quot;1.532;3.421&quot;>لم يمض وقت طويل على بدء سماعي لها،<ts=&quot;3.828;7.591&quot;>لكنها توجد حيث يوجد ذلك الشيء البنفسجي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1526,
+    "key": "CHEN_BLIZ_GP1_CINE_ENGINEER_003",
+    "source_sha256": "6da533b138c60572515c5821136fa6e245935cfa4037d70399b57b18f2b99e45",
+    "before": "<ts=&quot;0;2.1&quot;>،أولا الزلازل والبليزون<ts=&quot;2.598;3.442&quot;>والآن هذا...",
+    "after": "<ts=&quot;0;2.1&quot;>بدأ الأمر بالزلازل والبليزون،<ts=&quot;2.598;3.442&quot;>والآن هذا...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1527,
+    "key": "CHEN_BLIZ_GP1_CINE_ENGINEER_004",
+    "source_sha256": "8a64cff1c6c473f5359a1c72d2b15f833b54ba066babfb25824196811f2214e2",
+    "before": "<ts=&quot;0;2.45&quot;>ليس قبل أن أتبين ما يحدث.<ts=&quot;2.79;6.29&quot;>فمن يدري، ربما كان موقع الحفر كله مسكونا.",
+    "after": "<ts=&quot;0;2.45&quot;>ليس قبل أن أتبين ما يحدث.<ts=&quot;2.79;6.29&quot;>فمن يدري، ربما كان موقع الحفر كله مسكونا.",
+    "decision": "keep"
+  },
+  {
+    "index": 1528,
+    "key": "CHEN_BLIZ_GP1_CINE_ENGINEER_005",
+    "source_sha256": "34559239ab593afce3830dac255944b3151be308a5c1ab480214487788fd7ef6",
+    "before": "<ts=&quot;0;3.696&quot;>لذلك أرسلت روبوتات العلوم لمسح ذلك<br>البنفسجي.",
+    "after": "<ts=&quot;0;3.696&quot;>لذلك أرسلت روبوتات العلوم لمسح ذلك<br>البنفسجي.",
+    "decision": "keep"
+  },
+  {
+    "index": 1529,
+    "key": "CHEN_BLIZ_GP1_CINE_ENGINEER_006",
+    "source_sha256": "ac4cbb47ed84ea1f40865c64b22741d68e5779a6c352ccc94eb810bc8596cac7",
+    "before": "<ts=&quot;0;2.09&quot;>علي أن أستعيدها.<ts=&quot;2.09;3.818&quot;>حين أعرف أنها آمنة...",
+    "after": "<ts=&quot;0;2.09&quot;>علي استعادتها.<ts=&quot;2.09;3.818&quot;>حالما أتأكد من أن الوضع آمن...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1557,
+    "key": "CLANK_ANOMALY_SARG_GP1_005",
+    "source_sha256": "00259b1a5d90ed1985e6567a2e0b0004240fcea55c41bcc194fb5ed17b758940",
+    "before": "<ts=&quot;0;4.416&quot;>أتساءل لو كانت سرعة إضافية تساعد احتمالاتي<br>على تجاوز هذه الفجوة.",
+    "after": "<ts=&quot;0;4.416&quot;>أتساءل إن كانت سرعة إضافية ستساعد<br>احتمالاتي على عبور هذه الفجوة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1558,
+    "key": "CLANK_ANOMALY_SARG_GP1_006",
+    "source_sha256": "602df632de7784651adf09a2dcd2ed57461a911c3c3199599f004f6415942cc6",
+    "before": "<ts=&quot;0;2.202&quot;>أتعرف طريقة إصلاح الأبعاد؟",
+    "after": "<ts=&quot;0;2.202&quot;>أتعرف طريقة إصلاح الأبعاد؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1559,
+    "key": "CLANK_ANOMALY_SARG_GP1_007",
+    "source_sha256": "c26ba7c47cc73f18e4c6c2b989c3165c2f5e0e5ba0d933d0480b240f3781e8b4",
+    "before": "<ts=&quot;0;0.909&quot;>،أفهم<ts=&quot;1.43;1.78&quot;>لكن<ts=&quot;2.159;3.435&quot;>ماذا أفعل أنا؟",
+    "after": "<ts=&quot;0;0.909&quot;>فهمت،<ts=&quot;1.43;1.78&quot;>لكن<ts=&quot;2.159;3.435&quot;>ماذا علي أن أفعل؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1560,
+    "key": "CLANK_ANOMALY_SARG_GP1_013",
+    "source_sha256": "7500b74474f97c583330e8327e484cb62a70a8b9b60106ae4997fb86e13077ff",
+    "before": "<ts=&quot;0;1.099&quot;>أشعر...<ts=&quot;1.52;4.32&quot;>أن الأمور تبدأ شيئا فشيئا أن تصبح منطقية؟<ts=&quot;4.92;6.25&quot;>من منظور الأبعاد؟",
+    "after": "<ts=&quot;0;1.099&quot;>أشعر...<ts=&quot;1.52;4.32&quot;>بأن الأمور بدأت تتضح شيئًا فشيئًا؟<ts=&quot;4.92;6.25&quot;>من ناحية الأبعاد؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1561,
+    "key": "CLANK_ANOMALY_SARG_GP1_015",
+    "source_sha256": "167776fc84c74216bcac2aedb0ebf215c0f47cd3a31896613b26e40ed31f3286",
+    "before": "<ts=&quot;0;1.75&quot;>،لو أصلحت هذا الشذوذ<ts=&quot;2.009;5.356&quot;>هل يصلح كل الضرر الذي حدث في هذا البعد؟",
+    "after": "<ts=&quot;0;1.75&quot;>إن أصلحت هذا الاختلال البعدي،<ts=&quot;2.009;5.356&quot;>فهل سيصلح ذلك كل الضرر الذي لحق بهذا<br>البعد؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1562,
+    "key": "CLANK_ANOMALY_SARG_GP1_016",
+    "source_sha256": "54ab489233fe823cda6fb55a4458bd581ae9c3c8e567b36cfa09d26387c94dc9",
+    "before": "<ts=&quot;0;2.25&quot;>أنا متفائل بحذر.",
+    "after": "<ts=&quot;0;2.25&quot;>أنا متفائل بحذر.",
+    "decision": "keep"
+  },
+  {
+    "index": 1563,
+    "key": "CLANK_ANOMALY_SARG_GP1_017",
+    "source_sha256": "c083335b80939f4fde4488a721d12d6b76f0157fd232effb36e845765451ceb6",
+    "before": "<ts=&quot;0;4.08&quot;>أشعر أنني أتعلم *شيئا* ،بإكمال هذه الألغاز<ts=&quot;4.58;6.867&quot;>لكن لا أستطيع تفسير ما هو...",
+    "after": "<ts=&quot;0;4.08&quot;>أشعر بأن حل هذه الألغاز يعلمني *شيئًا*،<ts=&quot;4.58;6.867&quot;>لكنني لا أستطيع تفسير ماهيته...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1564,
+    "key": "CLANK_ANOMALY_SARG_GP1_021",
+    "source_sha256": "354451dfecba08b6e6a2d5f5afccc8e0c626ad631e3817845525e4e21fc7c6c1",
+    "before": "<ts=&quot;0;4.171&quot;>أتساءل... هل سأقدر على حل كل هذا في<br>النهاية؟",
+    "after": "<ts=&quot;0;4.171&quot;>أتساءل... هل سأقدر على حل كل هذا في<br>النهاية؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1565,
+    "key": "CLANK_ANOMALY_SARG_GP1_022",
+    "source_sha256": "4ece6937d27973409217fec2e32221fcade6a5f83feb07d5bb62686b75c6e5d4",
+    "before": "<ts=&quot;0;3.59&quot;>مر وقت طويل منذ كنت بطلا.<ts=&quot;3.59;6.39&quot;>ومع كل ما حدث مع الناقلة البعدية...<ts=&quot;6.97;8.25&quot;>أنا قلق.",
+    "after": "<ts=&quot;0;3.59&quot;>مضى وقت طويل منذ كنت بطلًا.<ts=&quot;3.59;6.39&quot;>ومع كل ما حدث بسبب جهاز الأبعاد...<ts=&quot;6.97;8.25&quot;>أنا قلق.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1566,
+    "key": "CLANK_ANOMALY_SARG_GP1_023",
+    "source_sha256": "22d28cc9db59134c96ca77dd7e850220ecc2c9a635a62a2fd6fb913adb0e32a9",
+    "before": "<ts=&quot;0.071;0.971&quot;>هممم.",
+    "after": "<ts=&quot;0.071;0.971&quot;>هممم.",
+    "decision": "keep"
+  },
+  {
+    "index": 1567,
+    "key": "CLANK_ANOMALY_SARG_GP1_024",
+    "source_sha256": "fa60bce55a0ee66b8c605ffedbc87285779646b7040fe24124c46275e96a1e7c",
+    "before": "<ts=&quot;0;1&quot;>الناقلة البعدية؟",
+    "after": "<ts=&quot;0;1&quot;>جهاز الأبعاد؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1568,
+    "key": "CLANK_ANOMALY_SARG_GP1_027",
+    "source_sha256": "acc611f8383ae699c81d6f995c5d3ff197bc226073aa2140dac77d0c711dd62d",
+    "before": "<ts=&quot;0;2.392&quot;>هل تعيش في سارجاسو أيضا يا غاري؟",
+    "after": "<ts=&quot;0;2.392&quot;>هل تعيش في سارجاسو أيضا يا غاري؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1569,
+    "key": "CLANK_ANOMALY_SARG_GP1_029",
+    "source_sha256": "147a6e07dcfba7a2c044dbd9daa8bad26975dcf8d59301226ffba01af86605e8",
+    "before": "<ts=&quot;0;2.21&quot;>غاري، لو كنت تعيش في ،سافالي<ts=&quot;2.65;3.997&quot;>فكيف وصلت إلى هنا؟",
+    "after": "<ts=&quot;0;2.21&quot;>يا غاري، إن كنت تعيش في سافالي،<ts=&quot;2.65;3.997&quot;>فكيف وصلت إلى هنا؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1570,
+    "key": "CLANK_ANOMALY_SARG_GP1_030",
+    "source_sha256": "3f3bed1d668b5e0d413c7122a67a3a51697f116f72936f96e393142840ddbc03",
+    "before": "<ts=&quot;0.199;4.25&quot;>همم، هل تساعد كرة الرفع احتمالاتي على عبور<br>هذه الفراغة؟",
+    "after": "<ts=&quot;0.199;4.25&quot;>همم، هل تساعد كرة الرفع احتمالاتي على عبور<br>هذا الفراغ؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1571,
+    "key": "CLANK_ANOMALY_SARG_GP1_031",
+    "source_sha256": "583135ff857220dc97881eadb1cebc5d36f0ab575aacfcdc796148736f22f7dc",
+    "before": "<ts=&quot;0;2.955&quot;>ولماذا هناك نسخ مني تتجول في الأرجاء؟",
+    "after": "<ts=&quot;0;2.955&quot;>ولماذا هناك نسخ مني تتجول في الأرجاء؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1572,
+    "key": "CLANK_ANOMALY_SAVA_GP2_003",
+    "source_sha256": "2ee7ddb00247006aa95d93753d27827fb290fb30ae702c2abb369a13c85d618d",
+    "before": "<ts=&quot;0;2.8&quot;>لماذا أنا متوتر بهذا الشدة من هذا<br>الشذوذ...<ts=&quot;3.46;6.39&quot;>لأن الأبعاد قريبون من الانهيار الكامل<ts=&quot;6.84;9.281&quot;>وإنهاء كل حياة أعرفها.",
+    "after": "<ts=&quot;0;2.8&quot;>لماذا أقلق كل هذا القلق بشأن هذا الاختلال<br>البعدي؟<ts=&quot;3.46;6.39&quot;>لأن الأبعاد توشك أن تنهار تمامًا،<ts=&quot;6.84;9.281&quot;>فتنتهي كل أشكال الحياة التي أعرفها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1573,
+    "key": "CLANK_ANOMALY_SAVA_GP2_005",
+    "source_sha256": "892cbeb849ebe60917afd0d59980bc4812990f52b70ff259ad51e8981e624ea1",
+    "before": "<ts=&quot;0.04;1.75&quot;>أوه، الحمد لله.",
+    "after": "<ts=&quot;0.04;1.75&quot;>أوه، الحمد لله.",
+    "decision": "keep"
+  },
+  {
+    "index": 1574,
+    "key": "CLANK_ANOMALY_SAVA_GP2_006",
+    "source_sha256": "5990b05f0867e1f8cd76c3c12eabb0b4285a87ccb2d920e7fad970103f48a5be",
+    "before": "<ts=&quot;0;1.02&quot;>هذه المعرفة...<ts=&quot;1.54;5.04&quot;>أشعر أنني أخيرا اقتربت من فهم كل شيء...<ts=&quot;5.43;8&quot;>ومعرفة كيف أنقذ الأبعاد!",
+    "after": "<ts=&quot;0;1.02&quot;>هذه المعرفة...<ts=&quot;1.54;5.04&quot;>أشعر أنني أخيرا اقتربت من فهم كل شيء...<ts=&quot;5.43;8&quot;>ومعرفة كيف أنقذ الأبعاد!",
+    "decision": "keep"
+  },
+  {
+    "index": 1575,
+    "key": "CLANK_ANOMALY_SAVA_GP2_007",
+    "source_sha256": "22a41255b53034b1c84a75d81170f53e4b6233f97a1af26af344f943a751ad43",
+    "before": "<ts=&quot;0;3.15&quot;>لو كان راتشت هنا، كيف كان ليفعل هذا؟<ts=&quot;3.71;6.51&quot;>،يقتحم دون تفكير عميق على الأرجح.",
+    "after": "<ts=&quot;0;3.15&quot;>لو كان راتشت هنا، فكيف سيتصرف؟<ts=&quot;3.71;6.51&quot;>سيندفع دون الإفراط في التفكير، على الأرجح.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1576,
+    "key": "CLANK_ANOMALY_SAVA_GP2_008",
+    "source_sha256": "55b65eec96a6d4e9f04a48cbbd241c7ad4455372c54aaf0ba11fe5ef008e3933",
+    "before": "<ts=&quot;0;1.278&quot;>وماذا عن ريفت؟<ts=&quot;1.429;7.036&quot;>هممم، الأرجح أنها هي أيضا... تقتحم دون<br>تفكير عميق.",
+    "after": "<ts=&quot;0;1.278&quot;>وماذا عن ريفت؟<ts=&quot;1.429;7.036&quot;>همم، ربما ستندفع هي أيضًا... دون الإفراط<br>في التفكير.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1577,
+    "key": "CLANK_ANOMALY_SAVA_GP2_009",
+    "source_sha256": "6712c37e12fa3d8f603e32574d6b13a115c75ae73c101914517b147bf8bf041c",
+    "before": "<ts=&quot;0;0.86&quot;>وكيت؟<ts=&quot;1.54;2.869&quot;>هل تتردد؟<ts=&quot;4.12;5.21&quot;>ربما أكثر من اللازم؟<ts=&quot;5.67;6.08&quot;>أو...<ts=&quot;6.77;11.38&quot;>هل خوفها من خذلان الآخرين يدفعها للأمام؟<ts=&quot;11.38;13.765&quot;>ربما الأمر يعتمد على الظروف.",
+    "after": "<ts=&quot;0;0.86&quot;>وكيت؟<ts=&quot;1.54;2.869&quot;>هل تتردد؟<ts=&quot;4.12;5.21&quot;>ربما أكثر من اللازم؟<ts=&quot;5.67;6.08&quot;>أو...<ts=&quot;6.77;11.38&quot;>هل خوفها من خذلان الآخرين يدفعها للأمام؟<ts=&quot;11.38;13.765&quot;>ربما الأمر يعتمد على الظروف.",
+    "decision": "keep"
+  },
+  {
+    "index": 1578,
+    "key": "CLANK_ANOMALY_SAVA_GP2_010",
+    "source_sha256": "0654241706554b74b879d9f839d2c5fedc1393960583891e0e2bc8c16bf403c5",
+    "before": "<ts=&quot;0;1.75&quot;>لكن ماذا كان غاري ليفعل؟ ...<ts=&quot;2.07;4.17&quot;>أن ينتظر مساعدتي من جديد.",
+    "after": "<ts=&quot;0;1.75&quot;>لكن ماذا سيفعل غاري؟...<ts=&quot;2.07;4.17&quot;>سينتظر مساعدتي مجددًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1579,
+    "key": "CLANK_ANOMALY_SAVA_GP2_011",
+    "source_sha256": "86f8588db1e8e4fa176d9e3c3405556c733dced9c7267181f0d985e4ea636788",
+    "before": "<ts=&quot;0;3.396&quot;>هناك! لم يكن هذا... *صعبا* للغاية.",
+    "after": "<ts=&quot;0;3.396&quot;>هناك! لم يكن هذا... *صعبا* للغاية.",
+    "decision": "keep"
+  },
+  {
+    "index": 1580,
+    "key": "CLANK_ANOMALY_SAVA_GP2_012",
+    "source_sha256": "f0580933443327b9ef68a569ad7701e7f610f869f7b7d59c438045d475063b07",
+    "before": "<ts=&quot;0.099;1.499&quot;>ربما هذه هي.<ts=&quot;1.599;2.73&quot;>اللغز الأخير.<ts=&quot;3.469;6.191&quot;>المعرفة تدغدغ مؤخرة عقلي.",
+    "after": "<ts=&quot;0.099;1.499&quot;>ربما وصلنا إليه.<ts=&quot;1.599;2.73&quot;>اللغز الأخير.<ts=&quot;3.469;6.191&quot;>أشعر بالمعرفة تلوح في أعماق ذهني.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1581,
+    "key": "CLANK_ANOMALY_SAVA_GP2_013",
+    "source_sha256": "cbea8f01f738bafe31b351976af4aa8a1d2c7ff5b2fd4196f365c4b46148baa8",
+    "before": "<ts=&quot;0.08;3.38&quot;>هنا كان راتشت ليأمر نفسه بأخذ نفس عميق...<ts=&quot;3.38;6.153&quot;>علي أن أتذكر أنني وصلت لهذا ،الحد<ts=&quot;6.269;10.878&quot;>وإحصائيا، فرصة نجاحي الآن مساوية.",
+    "after": "<ts=&quot;0.08;3.38&quot;>هنا سيذكر راتشت نفسه بأن يأخذ نفسًا<br>عميقًا...<ts=&quot;3.38;6.153&quot;>علي أن أتذكر أنني وصلت إلى هنا،<ts=&quot;6.269;10.878&quot;>وإحصائيًا، لدي فرصة مماثلة للنجاح الآن.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1582,
+    "key": "CLANK_ANOMALY_SAVA_GP2_014",
+    "source_sha256": "cafdaf3bc2d01fe8da6967433c05d27219000ea61ba47edb17325d7a626d3bdc",
+    "before": "<ts=&quot;0;3.85&quot;>أنجزت الكثير منذ وصولي إلى هذا البعد...<ts=&quot;3.969;6.069&quot;>سأواصل الإنجاز.<ts=&quot;6.309;8.75&quot;>هذا الشذوذ لن يوقفني.",
+    "after": "<ts=&quot;0;3.85&quot;>أنجزت الكثير منذ وصلت إلى هذا البعد...<ts=&quot;3.969;6.069&quot;>وسأواصل ذلك.<ts=&quot;6.309;8.75&quot;>لن يوقفني هذا الاختلال البعدي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1583,
+    "key": "CLANK_ANOMALY_SAVA_GP2_015",
+    "source_sha256": "28368391943acc88cd25f91e855e85fb0e5f64ed21a13fd00ad7c25c4213e9db",
+    "before": "<ts=&quot;0;3&quot;>أستطيع فعل هذا. *سأفعل* هذا.",
+    "after": "<ts=&quot;0;3&quot;>أستطيع فعل هذا. *سأفعل* هذا.",
+    "decision": "keep"
+  },
+  {
+    "index": 1584,
+    "key": "CLANK_ANOMALY_SAVA_GP2_016",
+    "source_sha256": "0af6a8d9c6f423161708dd74d9050184f467793a6ade68c7dc22e48bc4aa7c10",
+    "before": "<ts=&quot;0;0.51&quot;>أنا...<ts=&quot;1.22;3.959&quot;>أعرف كيف أوقف الكارثة.<ts=&quot;4.918;7.765&quot;>أعرف كيف أوقف الكارثة!",
+    "after": "<ts=&quot;0;0.51&quot;>أنا...<ts=&quot;1.22;3.959&quot;>أعرف كيف أوقف الكارثة.<ts=&quot;4.918;7.765&quot;>أعرف كيف أوقف الكارثة!",
+    "decision": "keep"
+  },
+  {
+    "index": 1585,
+    "key": "CLANK_ANOMALY_SAVA_GP2_017",
+    "source_sha256": "cffb2e4d19268c598e9279756fa367e58cb6e10c3822d5a6065a1042c28680a6",
+    "before": "<ts=&quot;0.03;3.199&quot;>لا تقلق يا كلانك. فعلت هذا من قبل.<ts=&quot;3.969;8.16&quot;>والآن أتكلم بضمير المخاطب مثل راتشت حين<br>يتوتر.<ts=&quot;8.16;9.33&quot;>يا إلهي...",
+    "after": "<ts=&quot;0.03;3.199&quot;>لا تقلق يا كلانك. فعلت هذا من قبل.<ts=&quot;3.969;8.16&quot;>والآن أتكلم بضمير المخاطب مثل راتشت حين<br>يتوتر.<ts=&quot;8.16;9.33&quot;>يا إلهي...",
+    "decision": "keep"
+  },
+  {
+    "index": 1586,
+    "key": "CLANK_ANOMALY_SAVA_GP2_018",
+    "source_sha256": "b3973a9a99bb7a96bba0dc9532245ab3461b5cfda8a1145a774e6bac8bf1c2bf",
+    "before": "<ts=&quot;0;0.64&quot;>،أجل<ts=&quot;1.17;3.77&quot;>هذا سبب وجيه تماما للتوتر.",
+    "after": "<ts=&quot;0;0.64&quot;>أجل،<ts=&quot;1.17;3.77&quot;>هذا سبب وجيه تمامًا للتوتر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1587,
+    "key": "CLANK_ANOMALY_SAVA_GP2_019",
+    "source_sha256": "cab9c6fcdbf73b969ef7f21f7943f632f09145d8cd61c4c577cae7e0bf5e10b7",
+    "before": "<ts=&quot;0;1.139&quot;>أوه، لا بأس.<ts=&quot;1.549;5.2&quot;>فقط خطوة خطوة كما قال غاري.<ts=&quot;5.2;8.25&quot;>أصلح الشذوذ، ثم أمسك الخريطة البعدية.",
+    "after": "<ts=&quot;0;1.139&quot;>أوه، لا يهم.<ts=&quot;1.549;5.2&quot;>خطوة واحدة في كل مرة، كما قال غاري.<ts=&quot;5.2;8.25&quot;>أصلح الاختلال البعدي، ثم احصل على خريطة<br>الأبعاد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1588,
+    "key": "CLANK_ANOMALY_SAVA_GP2_020",
+    "source_sha256": "c759eb2ad1f7559e0fa2fe2c2c659092ce2912931708e04ea824f6609eb8e5ef",
+    "before": "<ts=&quot;0.04;3.429&quot;>ونحن على وشك الحصول على الخريطة البعدية<br>أيضا;<ts=&quot;3.429;6.5&quot;>أوه، الأمور أخيرا صارت في صالحنا!",
+    "after": "<ts=&quot;0.04;3.429&quot;>ونحن على وشك الحصول على خريطة الأبعاد<br>أيضًا؛<ts=&quot;3.429;6.5&quot;>أوه، بدأت الأمور تسير لصالحنا أخيرًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1589,
+    "key": "CLANK_ANOMALY_SAVA_GP2_021",
+    "source_sha256": "6d887a2273516038f2213d5231f2c7f7939ba31ffddec27cfba552c7e949728a",
+    "before": "<ts=&quot;0;4.766&quot;>لو وصلنا إلى ذلك السلك فوقنا... أراهن أننا<br>نستطيع السير فوقه.",
+    "after": "<ts=&quot;0;4.766&quot;>لو وصلنا إلى ذلك السلك فوقنا... أراهن أننا<br>نستطيع السير فوقه.",
+    "decision": "keep"
+  },
+  {
+    "index": 1590,
+    "key": "CLANK_ANOMALY_SAVA_GP2_022",
+    "source_sha256": "a8ce99cfb634da4f2b46681978896132bf065079c999eb012a98172a7c0c7f56",
+    "before": "<ts=&quot;0;1.255&quot;>،مع الناقلة البعدية<ts=&quot;1.315;5.809&quot;>إنها مسألة وقت فقط قبل أن يكتشف الإمبراطور<br>طريقة لاقتحام هنا.<ts=&quot;6.22;7.499&quot;>علي العجلة.",
+    "after": "<ts=&quot;0;1.255&quot;>بوجود جهاز الأبعاد معه،<ts=&quot;1.315;5.809&quot;>إنها مسألة وقت قبل أن يجد الإمبراطور طريقة<br>لاقتحام هذا المكان.<ts=&quot;6.22;7.499&quot;>علي الإسراع.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1591,
+    "key": "CLANK_ANOMALY_SAVA_GP2_023",
+    "source_sha256": "c82f6c89020b15a9eb61687a4c1927766f50deafea53e22636f6c295aec4c54b",
+    "before": "<ts=&quot;0;2.677&quot;>لو وقع بين يدي الإمبراطور ،الخريطة البعدية<ts=&quot;2.783;5.701&quot;>فليشر رعبه حيثما شاء...<ts=&quot;6.07;8.812&quot;>وليستول على كل شيء.",
+    "after": "<ts=&quot;0;2.677&quot;>إن حصل الإمبراطور على خريطة الأبعاد،<ts=&quot;2.783;5.701&quot;>فسيستطيع نشر رعبه أينما شاء...<ts=&quot;6.07;8.812&quot;>قد يستولي على كل شيء.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1592,
+    "key": "CLANK_ANOMALY_SAVA_GP2_024",
+    "source_sha256": "c8ed880295e06a855dc0d9b8c48d41eb0f517bbccb4385dfca0565c3ce7f19ac",
+    "before": "<ts=&quot;0;3.36&quot;>سيضطرنا القتال مع الإمبراطور مجددا مهما<br>حصل...<ts=&quot;3.36;6.346&quot;>لكنه لن يفاجئنا هذه المرة.",
+    "after": "<ts=&quot;0;3.36&quot;>سنضطر إلى مواجهة الإمبراطور مجددًا مهما<br>حدث...<ts=&quot;3.36;6.346&quot;>لكنه لن يفاجئنا هذه المرة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1593,
+    "key": "CLANK_ANOMALY_SAVA_GP2_025",
+    "source_sha256": "d9d69f8f144651de7091dd1bfa27fdc91d727271a39545decc552d71e3c3af6e",
+    "before": "<ts=&quot;0.044;2.802&quot;>إخفاء الخريطة البعدية داخل شذوذ أمر...<ts=&quot;3.099;6.09&quot;>عبقري للغاية. أحسنت يا غاري.",
+    "after": "<ts=&quot;0.044;2.802&quot;>إخفاء خريطة الأبعاد داخل اختلال بعدي<br>فكرة...<ts=&quot;3.099;6.09&quot;>عبقرية حقًا. أحسنت يا غاري.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1594,
+    "key": "CLANK_ANOMALY_SAVA_GP2_026",
+    "source_sha256": "2c14a1f29b218ba7f63445464edb4735ac909c217b61e4a456147a9bc097db0b",
+    "before": "<ts=&quot;0;2.1&quot;>،أعرف أنها ليست حقيقية<ts=&quot;2.3;7.334&quot;>لكن أشعر أنني يجب أن أشكر احتمالاتي على<br>مساعدتي في تعلم الأبعاد.",
+    "after": "<ts=&quot;0;2.1&quot;>أعرف أنها ليست حقيقية،<ts=&quot;2.3;7.334&quot;>لكنني أشعر بأن علي شكر احتمالاتي لمساعدتي<br>على فهم طبيعة الأبعاد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1595,
+    "key": "CLANK_ANOMALY_SAVA_GP2_027",
+    "source_sha256": "8817420a5f060df3078b937978dde22f4da172f1d66d5c81505a09e8d6519679",
+    "before": "<ts=&quot;0;0.8&quot;>شكرا لكم...<ts=&quot;2.9;3.5&quot;>يا كلانكات.",
+    "after": "<ts=&quot;0;0.8&quot;>شكرا لكم...<ts=&quot;2.9;3.5&quot;>يا كلانكات.",
+    "decision": "keep"
+  },
+  {
+    "index": 1596,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_001",
+    "source_sha256": "ebe5d3bfd645c89f5001384d39d89afddbe783cecfe9c562a0ed8733bdd6a91c",
+    "before": "<ts=&quot;0;1.75&quot;>أمم... واصل التقدم من فضلك.",
+    "after": "<ts=&quot;0;1.75&quot;>أمم... واصل التقدم من فضلك.",
+    "decision": "keep"
+  },
+  {
+    "index": 1597,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_003",
+    "source_sha256": "8ca0cbf64101b22429d6ef13534fc524e5e52d2028e41e88112b2a45d986dbf6",
+    "before": "<ts=&quot;0;1.05&quot;>ما هذه؟",
+    "after": "<ts=&quot;0;1.05&quot;>ما هذه؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1598,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_004",
+    "source_sha256": "3b05b61dc1c3a640332eb283da9020229509a7f6b4f62c40f2b93a42ece38c6a",
+    "before": "<ts=&quot;0;1.119&quot;>بيير... مريب السمكة بعض الشيء.<ts=&quot;3.078;5.13&quot;>لست متأكد أنني أثق به.",
+    "after": "<ts=&quot;0;1.119&quot;>في بيير شيء... مريب كسمكة.<ts=&quot;3.078;5.13&quot;>لست متأكدًا من أنني أثق به.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1599,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_005",
+    "source_sha256": "6583a8a12c51e5b487028a43f3448e3341c556a2f931861ec22524313d8457ed",
+    "before": "<ts=&quot;0;3.818&quot;>يبدو أن سفح جبل الجمجمة خلف تلك السفن<br>المحطمة مباشرة.",
+    "after": "<ts=&quot;0;3.818&quot;>يبدو أن سفح جبل الجمجمة خلف تلك السفن<br>المحطمة مباشرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 1600,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_006",
+    "source_sha256": "73fb8cb07e9f8f17f1609bfc56b4a6aa88d44b08e6094830fe9ccf42c860ae95",
+    "before": "<ts=&quot;0;3.078&quot;>أظن أن هذه خنفساء ستقدر الخروج من هنا...",
+    "after": "<ts=&quot;0;3.078&quot;>أظن أن خنفساء سبيتل هذه ستسعد بالخروج من<br>هنا...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1601,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_007",
+    "source_sha256": "bb9db41dc0e25b0c705137c9006818fb66aaf5d75cf0a464ca544bc17ec1e8f5",
+    "before": "<ts=&quot;0.09;3.499&quot;>اختبارات القراصنة... مدينة ملاه؟",
+    "after": "<ts=&quot;0.09;3.499&quot;>اختبارات القراصنة... مدينة ملاه؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1602,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_008",
+    "source_sha256": "0d550657a768107ab717b3c4671205419e9731e94cfc3f9bb0a302881e2fac40",
+    "before": "<ts=&quot;0;2.5&quot;>راتشت، احذر القراصنة من الأعلى!",
+    "after": "<ts=&quot;0;2.5&quot;>راتشت، احذر القراصنة من الأعلى!",
+    "decision": "keep"
+  },
+  {
+    "index": 1603,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_009",
+    "source_sha256": "762969f0ef0b8dc95d5b3d36733cb985b21b63c064e51f343775a68e7573f8c7",
+    "before": "<ts=&quot;0;0.749&quot;>أسرع يا راتشت!",
+    "after": "<ts=&quot;0;0.749&quot;>أسرع يا راتشت!",
+    "decision": "keep"
+  },
+  {
+    "index": 1604,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_010",
+    "source_sha256": "cd3c3fc94738cbfe2db5c4810d17cba6dd6a3c91ccf19f343edd891f089bbb20",
+    "before": "<ts=&quot;0;0.85&quot;>غاضب؟<ts=&quot;1.46;2.51&quot;>بالطبع لا!<ts=&quot;2.94;5.899&quot;>أنا معك مهما قررت.<ts=&quot;5.899;6.64&quot;>أنا فقط...<ts=&quot;7.489;10.079&quot;>أريدك أن تكون سعيدا يا راتشت.",
+    "after": "<ts=&quot;0;0.85&quot;>غاضب؟<ts=&quot;1.46;2.51&quot;>بالطبع لا!<ts=&quot;2.94;5.899&quot;>أنا معك مهما قررت.<ts=&quot;5.899;6.64&quot;>أنا فقط...<ts=&quot;7.489;10.079&quot;>أريدك أن تكون سعيدا يا راتشت.",
+    "decision": "keep"
+  },
+  {
+    "index": 1605,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_015",
+    "source_sha256": "84afc0bfd38d613dc1d1cd59614a7d43a82c3846cd203b273ef145f6b75745c0",
+    "before": "<ts=&quot;0;1.25&quot;>قراصنة قادمون طيرانا!",
+    "after": "<ts=&quot;0;1.25&quot;>قراصنة قادمون طيرانا!",
+    "decision": "keep"
+  },
+  {
+    "index": 1606,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_016",
+    "source_sha256": "d760a6975db194fcf10d7f13e11cb924d2fe362ffd91edb50bfbd76a99c1bd70",
+    "before": "<ts=&quot;0;2.25&quot;>وهو يتبعنا؟!",
+    "after": "<ts=&quot;0;2.25&quot;>وهو يتبعنا؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 1607,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_018",
+    "source_sha256": "a3bbbcdf1abdf171132ee56a4a0d051d8bb2699e804bcd97286fcc55ee25f815",
+    "before": "<ts=&quot;0;1.5&quot;>أترقب إعادة العرض.",
+    "after": "<ts=&quot;0;1.5&quot;>أترقب إعادة العرض.",
+    "decision": "keep"
+  },
+  {
+    "index": 1608,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_020",
+    "source_sha256": "2fc925633458b6a780939bd495c1c9595abad457553e4fc339feb7dc26672574",
+    "before": "<ts=&quot;0;2.796&quot;>يبدو أن مغذي الغرانثور خارج الخدمة.",
+    "after": "<ts=&quot;0;2.796&quot;>يبدو أن مغذي الغرانثور خارج الخدمة.",
+    "decision": "keep"
+  },
+  {
+    "index": 1609,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_021",
+    "source_sha256": "076eb9d5c6769d775b706b63f400a3fd266f2a78ea80c46d84ffc75f7e70e15e",
+    "before": "<ts=&quot;0;2.5&quot;>ربما تعني «تهانينا» بلغة الأخطبوطات.",
+    "after": "<ts=&quot;0;2.5&quot;>ربما تعني «تهانينا» بلغة الكراكن.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1610,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_024",
+    "source_sha256": "aba3722fcb93c51e20726bbe4eae6713054ce361abfffac5b0a48f0ad9ef915f",
+    "before": "<ts=&quot;0;1.999&quot;>شعاع النهب توقف!",
+    "after": "<ts=&quot;0;1.999&quot;>شعاع النهب توقف!",
+    "decision": "keep"
+  },
+  {
+    "index": 1611,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_025",
+    "source_sha256": "1902836fba24816e08c864719fa46acf6024386a8a6d3c223507f19c7fad1f8d",
+    "before": "<ts=&quot;0;1.75&quot;>كرات الشفرات قادمة!",
+    "after": "<ts=&quot;0;1.75&quot;>كرات الشفرات قادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 1612,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_026",
+    "source_sha256": "6f89587e52b812e04a38b62b37df0ea071ab046215f1921f779786531a0b7fa7",
+    "before": "<ts=&quot;0;2.96&quot;>راتشت، علينا تعطيل السكاتلر بسرعة!",
+    "after": "<ts=&quot;0;2.96&quot;>راتشت، علينا تعطيل السكاتلر بسرعة!",
+    "decision": "keep"
+  },
+  {
+    "index": 1613,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_028",
+    "source_sha256": "0ac7b1d2890b06a9757d9879b6ffe2bdf4bc80859af5c60ba256273bbe96fce9",
+    "before": "<ts=&quot;0;1.75&quot;>لا ينجح يا راتشت!",
+    "after": "<ts=&quot;0;1.75&quot;>لا ينجح يا راتشت!",
+    "decision": "keep"
+  },
+  {
+    "index": 1614,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_029",
+    "source_sha256": "fb56f14d98918b1c2b892431460a27933e7b8f9572fe54ed02ff6b2ede2eb070",
+    "before": "<ts=&quot;0;1.4&quot;>أخشى ذلك.",
+    "after": "<ts=&quot;0;1.4&quot;>أخشى ذلك.",
+    "decision": "keep"
+  },
+  {
+    "index": 1615,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_030",
+    "source_sha256": "18002fa998912248d19dbd87b118708f863faa9edfdc013c2f5fb355b5bd2f32",
+    "before": "<ts=&quot;0;3.66&quot;>إن صح التمسك بحياة نخشاها «ركوبا».",
+    "after": "<ts=&quot;0;3.66&quot;>إن كان التشبث للنجاة بحياتنا يعد «ركوبًا».",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1616,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_038",
+    "source_sha256": "3caecbc5295358419a7964b28abb7511b13bcb445965839fdc39afeb634cfeab",
+    "before": "<ts=&quot;0.043;2.421&quot;>راتشت! اجر!!!",
+    "after": "<ts=&quot;0.043;2.421&quot;>راتشت! اركض!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1617,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_039",
+    "source_sha256": "a5d2b02d662055d2baaee609620a79ac2e698fec2434a260ba0e96f4050769c1",
+    "before": "<ts=&quot;0;1.25&quot;>*كان* غرانثور.",
+    "after": "<ts=&quot;0;1.25&quot;>*كان* غرانثور.",
+    "decision": "keep"
+  },
+  {
+    "index": 1618,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_042",
+    "source_sha256": "c2fecaaa22850d174ccdb7f12a8a573e7f503399af354a5c1b375e42560a9d30",
+    "before": "<ts=&quot;0;2.75&quot;>كارثة الأبعاد تزداد سوءا!",
+    "after": "<ts=&quot;0;2.75&quot;>كارثة الأبعاد تزداد سوءا!",
+    "decision": "keep"
+  },
+  {
+    "index": 1619,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_043",
+    "source_sha256": "f75aeec135477090146a6e02e26cab8715b477bb74ab34301b0907f6bd3b4410",
+    "before": "<ts=&quot;0.04;2.14&quot;>أوه، نحن لا نكون محظوظين لهذه الدرجة أبدا.",
+    "after": "<ts=&quot;0.04;2.14&quot;>أوه، نحن لا نكون محظوظين لهذه الدرجة أبدا.",
+    "decision": "keep"
+  },
+  {
+    "index": 1620,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_044",
+    "source_sha256": "0dc97aa7eaf8963f71ce78e887444ac207db1d810256dbcf0551f44484168a25",
+    "before": "<ts=&quot;0.13;2.5&quot;>أحسنت التصرف في هذا يا راتشت.",
+    "after": "<ts=&quot;0.13;2.5&quot;>أحسنت التصرف في هذا يا راتشت.",
+    "decision": "keep"
+  },
+  {
+    "index": 1621,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_045",
+    "source_sha256": "307df7b93466b77f14494a7d03e5ccfe748af6c9deb2537306bfca2c69c2c08e",
+    "before": "<ts=&quot;0;2.5&quot;>ربما هناك شيء يفوتنا.",
+    "after": "<ts=&quot;0;2.5&quot;>ربما هناك شيء يفوتنا.",
+    "decision": "keep"
+  },
+  {
+    "index": 1622,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_046",
+    "source_sha256": "0323ef58f24c8a1419a0b18a507b004520b7b08cd9f0a990df3fa0153cfe8a4c",
+    "before": "<ts=&quot;0.04;0.625&quot;>من!",
+    "after": "<ts=&quot;0.04;0.625&quot;>من!",
+    "decision": "keep"
+  },
+  {
+    "index": 1623,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_047",
+    "source_sha256": "9c2eb94f060f478739a8139c99b3b8711f00fea50604ff79c171d36887a3a472",
+    "before": "<ts=&quot;0.055;0.827&quot;>الفتيات!",
+    "after": "<ts=&quot;0.055;0.827&quot;>الفتيات!",
+    "decision": "keep"
+  },
+  {
+    "index": 1624,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_048",
+    "source_sha256": "181f95877a23fe33ae8086a6d00bfbd97645fcaa0cf113ab670f1c8f0e597ab5",
+    "before": "<ts=&quot;0.052;0.609&quot;>في!",
+    "after": "<ts=&quot;0.052;0.609&quot;>في!",
+    "decision": "keep"
+  },
+  {
+    "index": 1625,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_049",
+    "source_sha256": "dba76924176b89795bd23acff080f42c59aad6d1e5cee559dae9a5cfe3121b53",
+    "before": "<ts=&quot;0;3.12&quot;>مناصب محترمة من السلطة!",
+    "after": "<ts=&quot;0;3.12&quot;>مناصب سلطة مرموقة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1626,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_050",
+    "source_sha256": "a55c6a25f1f3cff2bee93f7943764763a57d2f5705288daae554777174fe5872",
+    "before": "<ts=&quot;0.026;0.622&quot;>من!",
+    "after": "<ts=&quot;0.026;0.622&quot;>اللواتي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1627,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_051",
+    "source_sha256": "7dc42cdbade3efbdadbaef710f737187104246b232e992fe7998fedc350dfd6a",
+    "before": "<ts=&quot;0;0.54&quot;>يطلن!",
+    "after": "<ts=&quot;0;0.54&quot;>يبقين!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1628,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_052",
+    "source_sha256": "be4cbda6db09a5ede0528d58e4be2e57242027c3cc01f47633d3b1b17487d39f",
+    "before": "<ts=&quot;0;0.35&quot;>ب!",
+    "after": "<ts=&quot;0;0.35&quot;>قرب!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1629,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_053",
+    "source_sha256": "f44d80705242858c74db6a8a9e2ff63673bc6276bfc3529ff084f1b995bd26e2",
+    "before": "<ts=&quot;0.034;0.67&quot;>ال!",
+    "after": "<ts=&quot;0.034;0.67&quot;>الـ!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1630,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_054",
+    "source_sha256": "0a0a8ef990b8fab7cf18975a086d24e96cc6b893a224888a26279cdb110c9354",
+    "before": "<ts=&quot;0.039;3.127&quot;>البر!",
+    "after": "<ts=&quot;0.039;3.127&quot;>شاطئ!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1631,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_055",
+    "source_sha256": "0bbe1d47f75f6bcd15fab7a073d0586026dfbaf1e8face791faf7a5ee68413f7",
+    "before": "<ts=&quot;0.046;2.009&quot;>عفوا؟",
+    "after": "<ts=&quot;0.046;2.009&quot;>عفوا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1632,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_056",
+    "source_sha256": "53a8ccea654b1d990189e600bd1fac31139a1c108d9b30ec46c81aa7021ed5e1",
+    "before": "<ts=&quot;0;1.972&quot;>ظننت أن الأمر سار على خير.",
+    "after": "<ts=&quot;0;1.972&quot;>ظننت أن الأمر سار على خير.",
+    "decision": "keep"
+  },
+  {
+    "index": 1633,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_057",
+    "source_sha256": "5cf979638fe185fcd4ecda8f5a8b165dafb5c60c12da18084e6a80124d05ec39",
+    "before": "<ts=&quot;0;2.791&quot;>لنر ما الذي ينتظرنا في الأمام أولا...",
+    "after": "<ts=&quot;0;2.791&quot;>لنر ما الذي ينتظرنا في الأمام أولا...",
+    "decision": "keep"
+  },
+  {
+    "index": 1634,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_058",
+    "source_sha256": "5eb78c61723d8b7ec7c1bc4e7498c04f7b7bcaf38b480f897c086769e6515863",
+    "before": "<ts=&quot;0;1.05&quot;>بقي واحد فقط!",
+    "after": "<ts=&quot;0;1.05&quot;>بقي واحد فقط!",
+    "decision": "keep"
+  },
+  {
+    "index": 1635,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_059",
+    "source_sha256": "052b5809a96a0ddb73fa798906aac0538f19ef7cf45ad4035d3cb7ffb5a02dff",
+    "before": "<ts=&quot;0;1.05&quot;>هذا نذير غير طيب...",
+    "after": "<ts=&quot;0;1.05&quot;>هذا نذير غير طيب...",
+    "decision": "keep"
+  },
+  {
+    "index": 1636,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_060",
+    "source_sha256": "d6f5bace64ffe9f62890a2f3b3a1da4fb17a3b36d7d33be44a95a662758553d1",
+    "before": "<ts=&quot;0;1.55&quot;>إلى أين تتجه تلك السفينة؟",
+    "after": "<ts=&quot;0;1.55&quot;>إلى أين تتجه تلك السفينة؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1637,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_061",
+    "source_sha256": "b29c9cae1ca56c0761578d7a5b8e4ee7afee4a3d512a7d0b8020e51ccd12835a",
+    "before": "<ts=&quot;0;5.479&quot;>راتشت! إن ركبنا إحدى تلك القوارب، يمكننا<br>بلوغ سفينة القيادة وتعطيل<ts=&quot;5.479;6.25&quot;>شعاع النهب!",
+    "after": "<ts=&quot;0;5.479&quot;>راتشت! إن ركبنا أحد تلك القوارب، فسنصل إلى<br>سفينة القيادة ونعطل<ts=&quot;5.479;6.25&quot;>شعاع النهب!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1638,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_062",
+    "source_sha256": "5772bc3ab07318dfcbdca297563cf84ab9ea7942a4cbd2f2df5ae290294d3db8",
+    "before": "<ts=&quot;0;4.928&quot;>هل هناك طريقة لتركب إحدى تلك القوارب نحو<br>سفينة القيادة؟",
+    "after": "<ts=&quot;0;4.928&quot;>هل يمكنك ركوب أحد تلك القوارب للوصول إلى<br>سفينة القيادة؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1639,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_063",
+    "source_sha256": "3c88051bbebd60b7163aa38a97ea839f4146179c66fae14f544291d54d99dcc0",
+    "before": "<ts=&quot;0;2.433&quot;>هل ترى طريقة لتحرير سفينة كوانتوم؟",
+    "after": "<ts=&quot;0;2.433&quot;>هل ترى طريقة لتحرير سفينة كوانتوم؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1640,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_064",
+    "source_sha256": "e5202469383f09d706919b6db1ab9f2cf0a27a1f2dc837150ac16dec26f5ebbd",
+    "before": "<ts=&quot;0;1.4&quot;>إلى مقبض التحكم!",
+    "after": "<ts=&quot;0;1.4&quot;>إلى ذراع التحكم!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1641,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_065",
+    "source_sha256": "98fd580a0cd42cff05d2fa769ba02514ebeee757fc815a2f254726c28a0465bc",
+    "before": "<ts=&quot;0;2.381&quot;>لا خيار أمامنا؛ دق الجرس!",
+    "after": "<ts=&quot;0;2.381&quot;>لا خيار أمامنا؛ دق الجرس!",
+    "decision": "keep"
+  },
+  {
+    "index": 1642,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_066",
+    "source_sha256": "059b487f0aa431499ac85f658b5dbe126fa03f7450c6e028732139649f13d328",
+    "before": "<ts=&quot;0;2.052&quot;>يجب أن نخبر ريفت وكيت!",
+    "after": "<ts=&quot;0;2.052&quot;>يجب أن نخبر ريفت وكيت!",
+    "decision": "keep"
+  },
+  {
+    "index": 1643,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_067",
+    "source_sha256": "9e700ad747ee00bc21e60c49e8463557422368823c27e612ac475bbb5e6f0877",
+    "before": "<ts=&quot;0;1.75&quot;>لا. لا، لا أعرف.",
+    "after": "<ts=&quot;0;1.75&quot;>لا. لا، لا أعرف.",
+    "decision": "keep"
+  },
+  {
+    "index": 1644,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_068",
+    "source_sha256": "1ecf5f4f01499f421d8b569b185adbccf023e7149fe20487bda1ef9ec0f7de2f",
+    "before": "<ts=&quot;0;1.43&quot;>لم ننته بعد؛<ts=&quot;1.43;3.18&quot;>ثمة شق آخر ينفتح!",
+    "after": "<ts=&quot;0;1.43&quot;>لم ننته بعد؛<ts=&quot;1.43;3.18&quot;>هناك صدع آخر ينفتح!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1645,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_069",
+    "source_sha256": "7bc076750f0ce82074e6b939b6b024e805e9e0b20b609a8814e12b13756251fd",
+    "before": "<ts=&quot;0;3.424&quot;>السكاتلر سيدمرنا إن لم نوقفه!",
+    "after": "<ts=&quot;0;3.424&quot;>السكاتلر سيدمرنا إن لم نوقفه!",
+    "decision": "keep"
+  },
+  {
+    "index": 1646,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_070",
+    "source_sha256": "18d6f8da6204779dffaacc571c6e40a2885acc0665b98731b9c9acd2d2dc2e57",
+    "before": "<ts=&quot;0;3.096&quot;>ربما يخبرنا شخص آخر عن مكانه؟",
+    "after": "<ts=&quot;0;3.096&quot;>ربما يخبرنا شخص آخر عن مكانه؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1647,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_071",
+    "source_sha256": "2027879894d2a35efb4d70ab16f3ce0008b76c1903781729ba638933752bf9b5",
+    "before": "<ts=&quot;0;1.466&quot;>بالطبع يا راتشت!<ts=&quot;3.069;4.99&quot;>لقد غيرت رأيك؟",
+    "after": "<ts=&quot;0;1.466&quot;>بالطبع يا راتشت!<ts=&quot;3.069;4.99&quot;>لقد غيرت رأيك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1648,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_073",
+    "source_sha256": "667189775f59285af212924251db437c9c845ebf83b30c0588cdb64945de0834",
+    "before": "<ts=&quot;0;1.4&quot;>يبدو هكذا!",
+    "after": "<ts=&quot;0;1.4&quot;>يبدو هكذا!",
+    "decision": "keep"
+  },
+  {
+    "index": 1649,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_074",
+    "source_sha256": "0db180c7691431734c585c2888f9fa2e605dc288e6ef7e13eafef49ba1e3e057",
+    "before": "<ts=&quot;0;2.5&quot;>القائد كوانتوم لا بد أنه عبقري حقا.",
+    "after": "<ts=&quot;0;2.5&quot;>لا بد أن القبطان كوانتوم عبقري حقًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1650,
+    "key": "CLANK_ARDO_GP1_ARDO_GP_075",
+    "source_sha256": "f682942f25da25e13f613232b23c20e7bd9ecdfac72b46489b27b86fcd5969ce",
+    "before": "<ts=&quot;0;2.836&quot;>يبدو أننا نقول هذا عن معظم الأماكن التي<br>نزورها.",
+    "after": "<ts=&quot;0;2.836&quot;>يبدو أننا نقول هذا عن معظم الأماكن التي<br>نزورها.",
+    "decision": "keep"
+  },
+  {
+    "index": 1651,
+    "key": "CLANK_ARDO_GP1_CINE_INTRO_005",
+    "source_sha256": "17de682bdcfd3d11f860989910cd0927a7ad33aa4cb9cf044b405e71296f675d",
+    "before": "<ts=&quot;0;3&quot;>أخشى أن الكارثة البعدية تتفاقم...",
+    "after": "<ts=&quot;0;3&quot;>أخشى أن الكارثة البعدية تتفاقم...",
+    "decision": "keep"
+  },
+  {
+    "index": 1652,
+    "key": "CLANK_ARDO_GP1_CINE_INTRO_006",
+    "source_sha256": "a95b6493090f2b9c6312a6c3a8ca7adb5e9b72adc4d12c1a6ca74ae7b88bbfd6",
+    "before": "<ts=&quot;0;1.75&quot;>سنجد طريقة.<ts=&quot;1.829;2.749&quot;>كما في كل مرة.",
+    "after": "<ts=&quot;0;1.75&quot;>سنجد طريقة.<ts=&quot;1.829;2.749&quot;>كما في كل مرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 1659,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_004",
+    "source_sha256": "6fe97a40916d69ea7f263ccc4e1b0fdba5e1b6c0f15794bc60452e4f7c5e7f50",
+    "before": "<ts=&quot;0;2.1&quot;>أظن إنك تريد ذلك في سرك.",
+    "after": "<ts=&quot;0;2.1&quot;>أظن أنك تريدين ذلك في سرك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1660,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_014",
+    "source_sha256": "f4eabd0427bfe23d7f2fa2b2e068038004e320be631f45e96699b798196c6f90",
+    "before": "<ts=&quot;0;1.21&quot;>اقفز إلى الجانب!",
+    "after": "<ts=&quot;0;1.21&quot;>اقفزي جانبًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1661,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_015",
+    "source_sha256": "3b308372689acd1bcebeffeb7e6fb5abd141ccc763902c056b08975706e8e80b",
+    "before": "<ts=&quot;0;2.099&quot;>اقتربنا سريعا من الحفار الرئيسي!",
+    "after": "<ts=&quot;0;2.099&quot;>نقترب بسرعة من المثقاب الرئيسي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1662,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_016",
+    "source_sha256": "43fb706bae648cdfd210cd9f5f2bc146dda1dbe51da7e3838780924fb96262fd",
+    "before": "<ts=&quot;0;3.722&quot;>علينا العودة إلى البعد الآخر وإيجاد كوارتز<br>المرحلة!",
+    "after": "<ts=&quot;0;3.722&quot;>علينا العودة إلى البعد الآخر والعثور على<br>كوارتز الطور!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1663,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_017",
+    "source_sha256": "1a7d7522037e4565302461bc5ae489015bfe7bca78ddebac6913f7a796a8754c",
+    "before": "<ts=&quot;0.099;1.67&quot;>هذا آخرهم!",
+    "after": "<ts=&quot;0.099;1.67&quot;>هذا آخرهم!",
+    "decision": "keep"
+  },
+  {
+    "index": 1664,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_018",
+    "source_sha256": "71e7c885a7348513aabaf1e8f9783841aad30300ae878f5025bcd61895ddd02f",
+    "before": "<ts=&quot;0;3.086&quot;>سفينة إنزال في الأعلى! لا تدعها تقترب<br>كثيرا!",
+    "after": "<ts=&quot;0;3.086&quot;>مركبة إنزال في الأعلى! لا تدعيها تقترب<br>كثيرًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1665,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_019",
+    "source_sha256": "ad9a96461c5c988b9623eb56ad23012a9cba7aa94fac73bbc36c5882a1ee659b",
+    "before": "<ts=&quot;0;1.75&quot;>علينا إيجاد طريقة أخرى.",
+    "after": "<ts=&quot;0;1.75&quot;>علينا إيجاد طريقة أخرى.",
+    "decision": "keep"
+  },
+  {
+    "index": 1666,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_023",
+    "source_sha256": "9171525cd2d2f6086469027df01f59dbf209cb215274120cf21c55f39a2fe9b6",
+    "before": "<ts=&quot;0;2.3&quot;>نعم، عدم الاستقرار يزداد سوءا.<ts=&quot;2.759;5&quot;>ولعل هذا سبب توقف عمليات التعدين.",
+    "after": "<ts=&quot;0;2.3&quot;>نعم، عدم الاستقرار يزداد سوءا.<ts=&quot;2.759;5&quot;>ولعل هذا سبب توقف عمليات التعدين.",
+    "decision": "keep"
+  },
+  {
+    "index": 1667,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_029",
+    "source_sha256": "d4ec5b694dcde4881ac0f31a3d01337ff2ac08efa935bfcfeef7072525a34282",
+    "before": "<ts=&quot;0;2.5&quot;>لا بد من وجود بليزون آخر في الجوار.",
+    "after": "<ts=&quot;0;2.5&quot;>لا بد أن هناك بلورة بليزون أخرى بالجوار.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1668,
+    "key": "CLANK_BLIZ_GP1_BLIZ_GP_030",
+    "source_sha256": "e6aa94a37bffad2319be17f0f3c48f1ab33d15226cad9c1b63458794021b3ab8",
+    "before": "<ts=&quot;0;1.88&quot;>ربما يمكننا إعادة ضبط القفل.",
+    "after": "<ts=&quot;0;1.88&quot;>ربما يمكننا إعادة ضبط القفل.",
+    "decision": "keep"
+  }
+]

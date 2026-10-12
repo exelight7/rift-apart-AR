@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_WARPAVAIL",
     "arabic_current": "<ts=&quot;0;4.628&quot;>هل ترغب في ابتلاع أعدائك<br>بزحوم من الثقوب السوداء؟<ts=&quot;4.793;6.905&quot;>جرب عاصفة الثقب الأسود!",
-    "arabic_edit": "<ts=&quot;0;4.628&quot;>هل ترغب في ابتلاع أعدائك بزحوم من الثقوب<br>السوداء؟<ts=&quot;4.793;6.905&quot;>جرب عاصفة الثقب الأسود!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.628&quot;>أتريد إغراق أعدائك بأسراب من الثقوب<br>السوداء المهلكة؟<ts=&quot;4.793;6.905&quot;>جرب عاصفة الثقب الأسود!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "5c96371599057502ca005b2da39ccf632aff49a7b575024320c8011a5e1c1da8",
+      "candidate_sha256": "0d3a6cb213c60d24ec9503d4505015c96621e9326818ba8f2101ab28169b019b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

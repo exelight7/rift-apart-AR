@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_BUYENFORC",
     "arabic_current": "<ts=&quot;0.06;2.815&quot;>مضاعفة الفوهات، ومضاعفة<br>المتعة!",
     "arabic_edit": "<ts=&quot;0.06;2.815&quot;>مضاعفة الفوهات، ومضاعفة المتعة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "a418b6755d0c62b53c330cc8d7bd60e43e63d139b8ba31dfbcb19541e467889d",
+      "candidate_sha256": "503b3f9bcf3ca86e98d002309fb2c1f127043c42cef87039f094900a739d80c8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

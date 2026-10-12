@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_TOPAUP",
     "arabic_current": "<ts=&quot;0;5.25&quot;>أظن أنني لن أرى سلاحا أجمل<br>من التشذيب المزهر!",
     "arabic_edit": "<ts=&quot;0;5.25&quot;>أظن أنني لن أرى سلاحا أجمل من التشذيب<br>المزهر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "05708a25a1caef10cdbb8355c1bb5afa32fad203a3da1be53c16028a8b490032",
+      "candidate_sha256": "e639409fc5115dda32b558579e5ec56b0ba876b06a0b5d9e7c912d4fab65c991",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,13 +7,21 @@
     "scene_code": "CIV_GEN_AMMO",
     "arabic_current": "<ts=&quot;0.063;2.139&quot;>املأ أسلحتك بالذخيرة أيها<br>اللومباكس!",
     "arabic_edit": "<ts=&quot;0.063;2.139&quot;>املأ أسلحتك بالذخيرة أيها اللومباكس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "4ba2d757200af97265cd18f7b60292abeb8d3e3ff3a9d3cc7e29189de12971eb",
+      "candidate_sha256": "744dbf52959a7760413aeb6307fc80e67817bc20a5780cec8335db213bd118f7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10524,
@@ -23,12 +31,20 @@
     "scene_code": "CIV_GEN_AMMO",
     "arabic_current": "<ts=&quot;0.064;2.944&quot;>الذخيرة مفتاح التدمير!",
     "arabic_edit": "<ts=&quot;0.064;2.944&quot;>الذخيرة مفتاح التدمير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "32be0100c97e86ed601a9aef972a78903dac081a9fed9ca644790eb461e29d29",
+      "candidate_sha256": "32b38c15214dd850cda28308a6096e2b022b2d40b377181ecdfa5bdeb6ce4bf8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10525,
@@ -38,12 +54,20 @@
     "scene_code": "CIV_GEN_AMMO",
     "arabic_current": "<ts=&quot;0.3;0.65&quot;>هنا!<ts=&quot;2.19;3.59&quot;>ذخيرة إضافية! خذها!",
     "arabic_edit": "<ts=&quot;0.3;0.65&quot;>هنا!<ts=&quot;2.19;3.59&quot;>ذخيرة إضافية! خذها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "9c39ebc244c19d5927d30c12f25bd44734fe594cf46395b0122f3defe53bd068",
+      "candidate_sha256": "f6928ad4cba4d72c8054124828bdcee74690141074a4aa5dfb57afa65eeb8d39",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10526,
@@ -52,14 +76,22 @@
     "speaker_code": "JRZK",
     "scene_code": "CIV_GEN_AMMO",
     "arabic_current": "<ts=&quot;0.066;5.856&quot;>مخازن فارغة؟ --هل أقرأ! املأ<br>ذخيرتك!",
-    "arabic_edit": "<ts=&quot;0.066;5.856&quot;>مخازن فارغة؟ --هل أقرأ! املأ ذخيرتك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;5.856&quot;>هل أشم... مخازن فارغة؟! املئي أسلحتك<br>بالذخيرة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "83f93f63bcb9406baac75c20f561952da02f7d82edda8c6a179027d68ed9a913",
+      "candidate_sha256": "f427969f3b7270b5be7476ba4e81899e3bd2fa875ef46a82bb47bf189810b25e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10527,
@@ -69,12 +101,20 @@
     "scene_code": "CIV_GEN_AMMO",
     "arabic_current": "<ts=&quot;0.042;3.086&quot;>يا إلهي! يبدو أن ذخيرتك على<br>وشك النفاد يا ريفت!",
     "arabic_edit": "<ts=&quot;0.042;3.086&quot;>يا إلهي! يبدو أن ذخيرتك على وشك النفاد يا<br>ريفت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "20e4efb89d30e366eaacbed8616597c04160e6f436f1b454d42d52e09043b5a6",
+      "candidate_sha256": "615f41b9d39dbd7d5ff166fd0afcf086eabab43f00900478f085a6fff5dc3566",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

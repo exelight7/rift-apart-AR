@@ -6,13 +6,21 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_ARENA_KILL",
     "arabic_current": "<ts=&quot;0;1.75&quot;>أعجب الجمهور ذالك!",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>أعجب الجمهور ذالك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>أعجب ذلك الجمهور!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "ec8b648e51ba1873735fcc024ea6fcf2e9a527c8e73350d525cab66ff325b985",
+      "candidate_sha256": "adf1dfb1da4e248f4e4a2db7672dfae87c6834397540992d8b96ab24eaeefb9e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1957,
@@ -22,13 +30,21 @@
     "scene_code": "HERO_GEN_ARENA_KILL",
     "arabic_current": "<ts=&quot;0;2.25&quot;>لا يستطيع زوركون جونيور أن<br>يجادل في ذلك!",
     "arabic_edit": "<ts=&quot;0;2.25&quot;>لا يستطيع زوركون جونيور أن يجادل في ذلك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "a6e0849d8d755874cda32669c342ddc503dcbcfdc8d73c7d0d85b9b93c418855",
+      "candidate_sha256": "86f803bc49ee3e7f0b6b31a36dc5c2ad4a98613e50e5ccd159bed0482e8846ff",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1958,
@@ -37,13 +53,21 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_ARENA_KILL",
     "arabic_current": "<ts=&quot;0;0.999&quot;>أحسنت!",
-    "arabic_edit": "<ts=&quot;0;0.999&quot;>أحسنت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.999&quot;>أحسنت يا ريفت!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "3135837ca2fee38e44970a66c27f69e18a4eed90b8de9c952d6610611f6b1acf",
+      "candidate_sha256": "9f822237243ce2afda9543c994569eac7310a549b3a2ea4882a00088f2fafe67",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11140,
@@ -53,12 +77,20 @@
     "scene_code": "HERO_GEN_ARENA_KILL",
     "arabic_current": "<ts=&quot;0.049;2.829&quot;>أوه، هل رأى زوركون جونيور ذلك؟",
     "arabic_edit": "<ts=&quot;0.049;2.829&quot;>أوه، هل رأى زوركون جونيور ذلك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "08f1a496448c689393d988bb956161c05dda9efc06ad6d93f7456589e9323222",
+      "candidate_sha256": "b898c2326b4596905c1ef6f364e29e5512ca4433ff0935488593848f93b4c650",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11141,
@@ -67,13 +99,21 @@
     "speaker_code": "KIT",
     "scene_code": "HERO_GEN_ARENA_KILL",
     "arabic_current": "<ts=&quot;0;0.35&quot;>وو!<ts=&quot;1.29;1.99&quot;>هيا ريفت<ts=&quot;2.44;2.79&quot;>هيا!",
-    "arabic_edit": "<ts=&quot;0;0.35&quot;>وو!<ts=&quot;1.29;1.99&quot;>هيا ريفت<ts=&quot;2.44;2.79&quot;>هيا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.35&quot;>وو!<ts=&quot;1.29;1.99&quot;>هيا، يا ريفت،<ts=&quot;2.44;2.79&quot;>هيا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "74f6a3d140711904445d0fe63794bf5e85b36e91d0ff1ddede51ccbb2a747f7e",
+      "candidate_sha256": "b345148006b1eef1c8e6dc0d9d348df53852cf85bd849e008bab6f0e8cba737a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11142,
@@ -82,12 +122,20 @@
     "speaker_code": "KIT",
     "scene_code": "HERO_GEN_ARENA_KILL",
     "arabic_current": "<ts=&quot;0.047;4.101&quot;>فيت-ري! فيت-ري!",
-    "arabic_edit": "<ts=&quot;0.047;4.101&quot;>فيت-ري! فيت-ري!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.047;4.101&quot;>ريـفت! ريـفت!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "496062e393af1172050cb78669dcc5ae72b430a5f79dafc07f7f2133dcf2902c",
+      "candidate_sha256": "d25b78ab1473765b49258d77b2f127718ac97d9fbc3d7bb6e7422a273d184a59",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

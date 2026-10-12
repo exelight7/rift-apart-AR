@@ -7,13 +7,21 @@
     "scene_code": "CIV_GEN_CANBUY",
     "arabic_current": "<ts=&quot;0.084;2.402&quot;>يبدو أن لديك ما يكفي<br>لتلك الجميلة!",
     "arabic_edit": "<ts=&quot;0.084;2.402&quot;>يبدو أن لديك ما يكفي لتلك الجميلة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "4ad87a0968dbd38672a9ab6c2003aec350a0fbefe71ab261d43bf7a9ca99a0d4",
+      "candidate_sha256": "74dc4c58eb059407c2bfcdb1964e79661ac0c9513d73fa78a2880f7bf7f3b6fc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13413,
@@ -23,13 +31,21 @@
     "scene_code": "CIV_GEN_CANBUY",
     "arabic_current": "<ts=&quot;0;3.737&quot;>لديك المسامير يا حبيبي!<br>كافئ نفسك!",
     "arabic_edit": "<ts=&quot;0;3.737&quot;>لديك المسامير يا حبيبي! كافئ نفسك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "879f6fb7cbc03f1b3d6479aa648088e98fad11bf0657a2f632b2a029526e0c9c",
+      "candidate_sha256": "517e1cc69a19187952a578f0333725e8918d57f67ec5ebc39f0bfe2cd2050002",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13414,
@@ -38,13 +54,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CANBUY",
     "arabic_current": "<ts=&quot;0.062;2.604&quot;>هيا. أنت تعرف إنك تريده!",
-    "arabic_edit": "<ts=&quot;0.062;2.604&quot;>هيا. أنت تعرف إنك تريده!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.062;2.604&quot;>هيا، أنت تعرف أنك تريده!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "775d958daa0e034a285d37014470a1b2a83c711548b3f8f91b09b4a600fe7cdc",
+      "candidate_sha256": "533f20f0bd6138331cea730846f7d8e4a163201cbcc896eee4f52178e827b5ee",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13415,
@@ -53,14 +77,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CANBUY",
     "arabic_current": "<ts=&quot;0.04;4.039&quot;>تفضل يا حبيبتي، إنها<br>صفقة رائعة!",
-    "arabic_edit": "<ts=&quot;0.04;4.039&quot;>تفضل يا حبيبتي، إنها صفقة رائعة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.04;4.039&quot;>إنها صفقة رائعة، يا قمر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "0ef0e9b823e51a0d4f848c5c3d750fba976799db0bb75d4bc1efca9075eb3fcc",
+      "candidate_sha256": "7050c147fddd1f76181ac5b82b3382340a2a5700e78fc821a73182b1a391516d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13416,
@@ -69,14 +101,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CANBUY",
     "arabic_current": "<ts=&quot;0.044;4.467&quot;>أوو! تلك السلعة ساخنة جدا<br>الآن!",
-    "arabic_edit": "<ts=&quot;0.044;4.467&quot;>أوو! تلك السلعة ساخنة جدا الآن!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.044;4.467&quot;>أوه! هذا السلاح مطلوب جدًّا الآن!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "016f071465bb58397c413fe5a6b8f787c748b818af21486a61a8d48c4aee5ee1",
+      "candidate_sha256": "548cd869bee1dbf01f90b137f9e7b7bc6628437ee9b4b1391a93d24a976dcea2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13417,
@@ -86,12 +126,20 @@
     "scene_code": "CIV_GEN_CANBUY",
     "arabic_current": "<ts=&quot;0.033;2.971&quot;>اشترها ما دمت تستطيع يا<br>خدود الخوخ!",
     "arabic_edit": "<ts=&quot;0.033;2.971&quot;>اشترها ما دمت تستطيع يا خدود الخوخ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "96196263061657f2e8ec5b4aa80b66a88327633b72a3a5fcc3955842c8b4eba8",
+      "candidate_sha256": "70bc55272896934fbb1799343bb49e5b056c08990913a23e5c3633c229488bf9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

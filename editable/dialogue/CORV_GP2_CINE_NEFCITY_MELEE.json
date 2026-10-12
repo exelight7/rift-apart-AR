@@ -7,13 +7,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MELEE",
     "arabic_current": "<ts=&quot;0.047;2.76&quot;>ها هو! الكرة المشعرة من<br>النادي!",
     "arabic_edit": "<ts=&quot;0.047;2.76&quot;>ها هو! الكرة المشعرة من النادي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "1391b4568b8cb3f5971c310db9e7cc8e4f3e8d7e9294f36817a057b86aa8405e",
+      "candidate_sha256": "247d77344271feb45ec578bf66753d0a97ba698e0a82df963b37ded5ee472671",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15007,
@@ -22,13 +30,21 @@
     "speaker_code": "NEFT3",
     "scene_code": "CORV_GP2_CINE_NEFCITY_MELEE",
     "arabic_current": "<ts=&quot;0.003;1.934&quot;>هنا تنتهي مقاومةك!",
-    "arabic_edit": "<ts=&quot;0.003;1.934&quot;>هنا تنتهي مقاومةك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.003;1.934&quot;>هنا تنتهي مقاومتك!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "470cf3dd5c899e5d130064cb157229a46b7adc5b99bbd425401b822b1ae70ed2",
+      "candidate_sha256": "7d5c7dd3a012f2b7e2e0d4740cd6d311553eb1c080d00b2230a5b928211ad96e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19188,
@@ -38,11 +54,19 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MELEE",
     "arabic_current": "<ts=&quot;0.08;0.754&quot;>يا للمصيبة...",
     "arabic_edit": "<ts=&quot;0.08;0.754&quot;>يا للمصيبة...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "d210160ac9124caf2eddae869a7478ff255d1cd1330b4da6a8d7812f1c3bafce",
+      "candidate_sha256": "930ef26ce6a8c628e2721a1ebd66e4d79a7e18297be08282cd66fe24f913d8f1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

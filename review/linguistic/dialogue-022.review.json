@@ -1,0 +1,3202 @@
+[
+  {
+    "index": 16341,
+    "key": "PHAN_CORV_GP2_CINE_NEFCITY_TAKEDOWN_016",
+    "source_sha256": "d564392f11efc8c4b507b22fd0de3e5fb89ae951ce9e133190b8f2dda38c5b56",
+    "before": "<ts=&quot;0;1.5&quot;>اصمد يا أخي!",
+    "after": "<ts=&quot;0;1.5&quot;>اصمد يا أخي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16344,
+    "key": "PHAN_CORV_GP2_CINE_NEFCITY_THEMISSION_009",
+    "source_sha256": "89460acf03288eca972eba3d70c25d7bffd05259b2558c7c7df4184c8e194cae",
+    "before": "<ts=&quot;0;1.75&quot;>،سأعرض عليك صفقة<ts=&quot;1.819;2.893&quot;>ترى ذلك المنطاد؟",
+    "after": "<ts=&quot;0;1.75&quot;>سأعرض عليك صفقة.<ts=&quot;1.819;2.893&quot;>أترى ذلك المنطاد؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16345,
+    "key": "PHAN_CORV_GP2_CINE_NEFCITY_THEMISSION_010",
+    "source_sha256": "0c371c2d8e70383c9be6d0dbced6f903de77f5cfb3a06b371faec4ce2a416fe3",
+    "before": "<ts=&quot;0;1.79&quot;>تساعدني في السيطرة ،عليه<ts=&quot;1.996;4.792&quot;>وأنا أساعدك على دخول برج نيفاريوس.<ts=&quot;4.882;8.561&quot;>إنه *المكان الوحيد* في المدينة الذي ستجد<br>فيه سفينة ملكية.",
+    "after": "<ts=&quot;0;1.79&quot;>ساعدني في السيطرة عليه،<ts=&quot;1.996;4.792&quot;>وسأساعدك على دخول برج نيفاريوس.<ts=&quot;4.882;8.561&quot;>إنه المكان الوحيد في المدينة الذي ستجد فيه<br>سفينة ملكية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16346,
+    "key": "PHAN_CORV_GP2_CINE_NEFCITY_THEMISSION_011",
+    "source_sha256": "7826fe616faf053a52a8a1ed634ae42814db6b1d0268138c60c0beab2eefea5b",
+    "before": "<ts=&quot;0;1.917&quot;>فقط اعثر على طريقة للوصول إلى ذلك السطح.<ts=&quot;2.026;3.424&quot;>،علي أن آخذ أغراضي<ts=&quot;4.034;5.264&quot;>لكننا سنلتقي هناك.",
+    "after": "<ts=&quot;0;1.917&quot;>فقط جد طريقًا إلى ذلك السطح.<ts=&quot;2.026;3.424&quot;>علي أن آخذ معداتي،<ts=&quot;4.034;5.264&quot;>لكنني سألقاك هناك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16347,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_001",
+    "source_sha256": "4192f6d41d4c65927c535dc8df31eee5d0f395cef79c57a948680a80862515c8",
+    "before": "<ts=&quot;0.046;1.389&quot;>(يصنع أصوات الطيور)",
+    "after": "<ts=&quot;0.046;1.389&quot;>(يقلد أصوات الطيور)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16348,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_003",
+    "source_sha256": "998837c15b023966544b9049184c2aa296870c9d406a0c1cf317b0df00640af8",
+    "before": "<ts=&quot;0;2.5&quot;>هيا، ذلك الجدار لن يعضك.",
+    "after": "<ts=&quot;0;2.5&quot;>هيا، ذلك الجدار لن يعضك.",
+    "decision": "keep"
+  },
+  {
+    "index": 16349,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_006",
+    "source_sha256": "37316a4a174a5cc17fdf775b58ba18cef21786bd9b99b5be447206b1e05a7023",
+    "before": "<ts=&quot;0.05;1.297&quot;>هذه هي الليلة...",
+    "after": "<ts=&quot;0.05;1.297&quot;>هذه هي الليلة...",
+    "decision": "keep"
+  },
+  {
+    "index": 16350,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_007",
+    "source_sha256": "fc029536ce25de98a535bf0e168d37c7ea2f8756b753d1aa7f9139002a274e22",
+    "before": "<ts=&quot;0.03;1.601&quot;>لو كانت الموسيقى أجمل...",
+    "after": "<ts=&quot;0.03;1.601&quot;>لو كانت الموسيقى أجمل...",
+    "decision": "keep"
+  },
+  {
+    "index": 16351,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_008",
+    "source_sha256": "21dda99f486e1fec68e71dfe29bc5b09e93409b556134095d88484138108bb32",
+    "before": "<ts=&quot;0;2&quot;>فقط كن هادئا...",
+    "after": "<ts=&quot;0;2&quot;>فقط كن هادئا...",
+    "decision": "keep"
+  },
+  {
+    "index": 16352,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_011",
+    "source_sha256": "f09180c64a800fb304257d18213c57d7a68806fd1cd570792524df347e4de4ee",
+    "before": "<ts=&quot;0.048;2.904&quot;>*شششش.* المكان هنا غير آمن. ابق قريبا مني.",
+    "after": "<ts=&quot;0.048;2.904&quot;>*شششش.* المكان هنا غير آمن. ابق قريبا مني.",
+    "decision": "keep"
+  },
+  {
+    "index": 16353,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_012",
+    "source_sha256": "d006e937907593bac6150a1c6fea51b77949632c30a622f56eb567ca3f1c7469",
+    "before": "<ts=&quot;0;1.592&quot;>ماذا قلت لك للتو؟!",
+    "after": "<ts=&quot;0;1.592&quot;>ماذا قلت لك للتو؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16354,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_013",
+    "source_sha256": "a30398cd7102d51a7707c1cb78a88759fe54ee8286bf807c3869b3e66f762e7d",
+    "before": "<ts=&quot;0;2.1&quot;>همم، ستستسلم حقا، أيها الجديد؟",
+    "after": "<ts=&quot;0;2.1&quot;>همم، ستستسلم حقا، أيها الجديد؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16355,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_014",
+    "source_sha256": "677f2ca121425b2fbdefd1efc8c0fee2ec2e1374f7a970c45c907871f6e34a3c",
+    "before": "<ts=&quot;0;3.5&quot;>صوتي أخفض، لذا يبدو أكثر رسوخا وأهمية.",
+    "after": "<ts=&quot;0;3.5&quot;>أخفض صوتي ليبدو أكثر هيبة وأهمية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16356,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_019",
+    "source_sha256": "4acbf1d2cf2b1a8b97dc67aa0b80c09cbdff047458b4785f80594c7ed154b2ee",
+    "before": "<ts=&quot;0;2.078&quot;>آه.. اللومباكس.<ts=&quot;2.365;4.54&quot;>أنت عنيد تماما مثلها.",
+    "after": "<ts=&quot;0;2.078&quot;>آه... اللومباكس.<ts=&quot;2.365;4.54&quot;>أنت عنيد مثلها تمامًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16357,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_020",
+    "source_sha256": "1c0021f1f026551be669830eb3bcc5f04c9cacf1dbf66a7fd9edb72dc2ee6908",
+    "before": "<ts=&quot;0;2.91&quot;>سارجاسو. تذهب هناك دائما بعد المهمة.",
+    "after": "<ts=&quot;0;2.91&quot;>سارجاسو. تذهب هناك دائما بعد المهمة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16358,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_024",
+    "source_sha256": "5d1fb0162f388724f7c7ded415e3c6047202bd45521bb089815eb61fa4546581",
+    "before": "<ts=&quot;0;6&quot;>يا سكان مدينة نيفاريوس! هذا هو صوت<br>المقاومة. صوت الحقيقة.<ts=&quot;6.51;8.45&quot;>والحقيقة أننا بحاجة إلى--",
+    "after": "<ts=&quot;0;6&quot;>يا سكان مدينة نيفاريوس! هذا هو صوت<br>المقاومة. صوت الحقيقة.<ts=&quot;6.51;8.45&quot;>والحقيقة أننا بحاجة إلى--",
+    "decision": "keep"
+  },
+  {
+    "index": 16359,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_025",
+    "source_sha256": "ddbd883ecbe3af4abbc4bedbb9eaf905c8ade41365af5bbe4fd38eaba8e6a0cf",
+    "before": "<ts=&quot;0;4.75&quot;>أوه، هل غضب أحدهم لأن المقاومة اخترقت<br>منطاد دعايته الصغير؟",
+    "after": "<ts=&quot;0;4.75&quot;>أوه، هل غضب أحدهم لأن المقاومة اخترقت<br>منطاد دعايته الصغير؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16360,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_026",
+    "source_sha256": "a7649a05ee25ad3fb0728bd8510fb93e2d7d66b360d5568989b216c0a596cfb8",
+    "before": "<ts=&quot;0.099;1.35&quot;>المقاومة...<ts=&quot;1.403;6.782&quot;>المجموعة المتنامية من المواطنين الذين<br>سئموا من دكتاتوريتك الشيطانية.",
+    "after": "<ts=&quot;0.099;1.35&quot;>المقاومة...<ts=&quot;1.403;6.782&quot;>المجموعة المتنامية من المواطنين الذين<br>سئموا من دكتاتوريتك الشيطانية.",
+    "decision": "keep"
+  },
+  {
+    "index": 16361,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_027",
+    "source_sha256": "49f7ef8508abbd50db01aa0babf5699a4bea057ffc5041dc4147fceace5e3c3d",
+    "before": "<ts=&quot;0.279;1.329&quot;>من أنت؟",
+    "after": "<ts=&quot;0.279;1.329&quot;>من أنت؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16362,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_028",
+    "source_sha256": "0f1609aceda3f7b8bb789d623012f5e0236d8514e91b719db640072e8e7632c4",
+    "before": "<ts=&quot;0.06;3&quot;>الفرقة المفضلة للإمبراطور *ليست* فرقته؟",
+    "after": "<ts=&quot;0.06;3&quot;>الفرقة المفضلة للإمبراطور *ليست* فرقته؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16363,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_029",
+    "source_sha256": "bea4b68a56caabeaafc0285037f71cdcb70f44b07c8868fac340c5f46d1a6243",
+    "before": "<ts=&quot;0;3.94&quot;>،لأنني، بينما كنا نتحدث أغلقت منطادك<br>نهائيا.<ts=&quot;3.94;5.419&quot;>والاسمي الطيف.",
+    "after": "<ts=&quot;0;3.94&quot;>لأنني، بينما كنا نتحدث، منعتك نهائيًّا من<br>التحكم في منطادك.<ts=&quot;3.94;5.419&quot;>واسمي الطيف.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16364,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_030",
+    "source_sha256": "6bd8c8f245df1faace069bbcdddd3885b80e3ff8b1a4957f0a53e973e441df29",
+    "before": "<ts=&quot;0;2.287&quot;>،أتمنى أن تستمتع بذلك مدينة نيفاريوس.<ts=&quot;2.399;4.739&quot;>كان هذا مجرد مقدمة عما سيأتي.<ts=&quot;5.149;7.13&quot;>الآن أين كنت...",
+    "after": "<ts=&quot;0;2.287&quot;>آمل أن يكون ذلك قد أعجبكم، يا سكان مدينة<br>نيفاريوس.<ts=&quot;2.399;4.739&quot;>كان مجرد لمحة عما سيأتي.<ts=&quot;5.149;7.13&quot;>أين توقفت الآن...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16365,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_031",
+    "source_sha256": "c09e8cd1f9fbe866e4c9d73e27ebcd6db816d0e3e7b7afc70db3f13a00bf20c6",
+    "before": "<ts=&quot;0;5.981&quot;>المادة الأولى: السلطة لا شيء من دون رضا<br>المحكومين.<ts=&quot;6.613;9.552&quot;>هممم، هل هذا أفضل مكان نبدأ منه حقا...",
+    "after": "<ts=&quot;0;5.981&quot;>المادة الأولى: لا قيمة للسلطة من دون رضا<br>المحكومين.<ts=&quot;6.613;9.552&quot;>همم، أهذه أفضل بداية حقًّا...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16366,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_032",
+    "source_sha256": "8434e6eb1929b7d06de7f93b2979a1be07e7b86ac225671393c3fb5046f2f0cb",
+    "before": "<ts=&quot;0;5.1&quot;>المادة السابعة: لا مكان لتعديل السلوك.<ts=&quot;5.809;8.62&quot;>يا سلام، قد أحتاج أن أتدرج حتى أصل<br>إليها...",
+    "after": "<ts=&quot;0;5.1&quot;>المادة السابعة: لا مكان لتعديل السلوك.<ts=&quot;5.809;8.62&quot;>مهلًا، ربما ينبغي أن أتدرج قبل الوصول إلى<br>هذه...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16367,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_033",
+    "source_sha256": "088cd8cfd9fa180a3bd235c87ab9ddf8b6be3cdd81d1595e8cd599ff8c0b48af",
+    "before": "<ts=&quot;0;3.69&quot;>المادة الثالثة: كل الفنون مرحب بها.<ts=&quot;4.11;5.789&quot;>خصوصا الموسيقى.<ts=&quot;5.958;10.356&quot;>هممم، موضوع كبير، ربما نؤجله قليلا...",
+    "after": "<ts=&quot;0;3.69&quot;>المادة الثالثة: كل الفنون مرحب بها.<ts=&quot;4.11;5.789&quot;>خصوصا الموسيقى.<ts=&quot;5.958;10.356&quot;>هممم، موضوع كبير، ربما نؤجله قليلا...",
+    "decision": "keep"
+  },
+  {
+    "index": 16368,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_034",
+    "source_sha256": "97b5b9fb3d0055aff1bf6a678f3b10133c127d85c6beaf31ee228b9b33ff7abd",
+    "before": "<ts=&quot;0;1.05&quot;>تعرف ماذا؟<ts=&quot;1.22;2.319&quot;>انس الميثاق.<ts=&quot;2.77;4.75&quot;>الأفعال أبلغ من الكلمات.",
+    "after": "<ts=&quot;0;1.05&quot;>تعرف ماذا؟<ts=&quot;1.22;2.319&quot;>انس الميثاق.<ts=&quot;2.77;4.75&quot;>الأفعال أبلغ من الكلمات.",
+    "decision": "keep"
+  },
+  {
+    "index": 16369,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_036",
+    "source_sha256": "b7b92d731504d153b77716d9b7628222966c763d01f2f30c4dc113f8ce453f13",
+    "before": "<ts=&quot;0;2&quot;>اتبع أصوات الطيور!",
+    "after": "<ts=&quot;0;2&quot;>اتبع أصوات الطيور!",
+    "decision": "keep"
+  },
+  {
+    "index": 16370,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_037",
+    "source_sha256": "f57a47512d47caf3050729eea2edb2cbc591d5c3ae948864ac718e0b90231d93",
+    "before": "<ts=&quot;0;1.35&quot;>أتظن إنك تستطيع صدهم؟!",
+    "after": "<ts=&quot;0;1.35&quot;>أتظن أنك تستطيع صدهم؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16371,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_038",
+    "source_sha256": "f10be8969559c7e7c573bb4bc2ef4c17f47db15bc6800c247f3a24d455e6e88b",
+    "before": "<ts=&quot;0;3&quot;>حسنا، أيها الجديد؛ جرب اندفاعة الطيف.",
+    "after": "<ts=&quot;0;3&quot;>حسنًا، أيها الجديد؛ جرب الاندفاع الطيفي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16372,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_039",
+    "source_sha256": "97c651a1cb188f5cf74de6cbf7c7e3a01316d2123b3f889d6f677834f584aa90",
+    "before": "<ts=&quot;0.3;3.68&quot;>العدو لا يستطيع الإمساك بما لا يوجد مؤقتا.",
+    "after": "<ts=&quot;0.3;3.68&quot;>العدو لا يستطيع الإمساك بما لا يوجد مؤقتا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16373,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_042",
+    "source_sha256": "978e9421cd28f11e76da5e05091e3da3f4a6af2783733e3e7b5521f5b401fd16",
+    "before": "<ts=&quot;0;2.249&quot;>وقت الركض على الجدار، هيا!",
+    "after": "<ts=&quot;0;2.249&quot;>وقت الركض على الجدار، هيا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16374,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_043",
+    "source_sha256": "58bc086aa145588a9fa4e0648414f08317fce8165b40398e312495a5b15a33e9",
+    "before": "<ts=&quot;0;3.15&quot;>اقفز واستخدم اندفاعة الطيف! القفاز يتولى<br>الباقي!",
+    "after": "<ts=&quot;0;3.15&quot;>اقفز واستخدم الاندفاع الطيفي! سيتولى<br>القفاز الباقي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16375,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_047",
+    "source_sha256": "0c4e504fb87d747714f9c550a3120c2e2095263a8cbe0379dc9ce86a87ec5602",
+    "before": "<ts=&quot;0.18;3.066&quot;>من أنت؟! كنت *توا* في منتصف مهمة!",
+    "after": "<ts=&quot;0.18;3.066&quot;>من أنت؟! كنت لتوي في منتصف مهمة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16376,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_048",
+    "source_sha256": "58c3c1cfc1a88f0f0ea28fa9b138c0f2da3a37e72dca70c0bd9e48208e9fa4c8",
+    "before": "<ts=&quot;0;4.45&quot;>لا أسماء! عليك أن تكون أذكى من ذلك إن أردت<br>الانضمام إلى المقاومة، أيها الجديد!",
+    "after": "<ts=&quot;0;4.45&quot;>لا أسماء! عليك أن تكون أذكى من ذلك إن أردت<br>الانضمام إلى المقاومة، أيها الجديد!",
+    "decision": "keep"
+  },
+  {
+    "index": 16377,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_050",
+    "source_sha256": "3ca0010cc58bd7e74948445be6c06d6fa5505bb1e82a9a809e313c1f425048fc",
+    "before": "<ts=&quot;0;1.817&quot;>إلى هنا، أيها الجديد! هيا!",
+    "after": "<ts=&quot;0;1.817&quot;>إلى هنا، أيها الجديد! هيا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16378,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_051",
+    "source_sha256": "3a707416f2f05722ce71c7f1cda5e5c56e1d4b73ec53130ad5c87f6b3bc50e36",
+    "before": "<ts=&quot;0.041;1.836&quot;>هذا ما أحب رؤيته!",
+    "after": "<ts=&quot;0.041;1.836&quot;>هذا ما أحب رؤيته!",
+    "decision": "keep"
+  },
+  {
+    "index": 16379,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_052",
+    "source_sha256": "a179bea1f28634315f920aa47d6675828b967900b097846c63aa6d10337a6576",
+    "before": "<ts=&quot;0.169;1.993&quot;>إذا فلديك بعض الموهبة!",
+    "after": "<ts=&quot;0.169;1.993&quot;>إذًا لديك بعض الموهبة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16380,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_053",
+    "source_sha256": "7f22edb0684b70913536a216e3c0aa87df8785dc9230cae43cc5b652a742c3dc",
+    "before": "<ts=&quot;0.03;1.749&quot;>ممتاز. ممتاز جدا.",
+    "after": "<ts=&quot;0.03;1.749&quot;>ممتاز. ممتاز جدا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16381,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_054",
+    "source_sha256": "1b42fac7feacb4601c5e226cf2f0ea849ed98d76d2cc73bfb9fd563c6a8f323d",
+    "before": "<ts=&quot;0;1.05&quot;>أنت موهوب بالفطرة.",
+    "after": "<ts=&quot;0;1.05&quot;>أنت موهوب بالفطرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16382,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_055",
+    "source_sha256": "d6d0db7cf66b788f6280c7c4dd669f8acd1438c760584ed9977507b1910b188f",
+    "before": "<ts=&quot;0;1.74&quot;>هل فعلت هذا من قبل؟",
+    "after": "<ts=&quot;0;1.74&quot;>هل فعلت هذا من قبل؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16383,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_056",
+    "source_sha256": "0009ed16edf320d5c8689ba8c1034cbd0d8e27fe6a9daf9c42125ecf9b9e5714",
+    "before": "<ts=&quot;0;3.706&quot;>لا تخف؛ استخدم القفاز لتجري فوق تلك<br>الألواح!",
+    "after": "<ts=&quot;0;3.706&quot;>لا تخف؛ استخدم القفاز لتجري فوق تلك<br>الألواح!",
+    "decision": "keep"
+  },
+  {
+    "index": 16384,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_057",
+    "source_sha256": "0a74b836062aa3e8191785533b2fb28cb9857ad967cd94456e382b91ba26246b",
+    "before": "<ts=&quot;0;2.25&quot;>الآن اقفز واندفع شبحيا!",
+    "after": "<ts=&quot;0;2.25&quot;>والآن اقفز واستخدم الاندفاع الطيفي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16385,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_058",
+    "source_sha256": "3998a208b9046913313c5120cd517d6adfa72bcbcff323b4e95244816f8f56d3",
+    "before": "<ts=&quot;0.02;3.249&quot;>أتريد أن تذهب أبعد؟ اقفز واندفع شبحيا!",
+    "after": "<ts=&quot;0.02;3.249&quot;>أتريد الوصول إلى أبعد من ذلك؟ اقفز واستخدم<br>الاندفاع الطيفي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16386,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_059",
+    "source_sha256": "36a2633a986623e7b1303da12707b535b9cb7e2054c91242248706ed9b68dba9",
+    "before": "<ts=&quot;0;2.5&quot;>إذا وصلت في النهاية. مثير للإعجاب.",
+    "after": "<ts=&quot;0;2.5&quot;>إذًا، وصلت في النهاية. مثير للإعجاب.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16387,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_060",
+    "source_sha256": "72e225bcc1deb0c0399da3befdb0a9ef87821248e926c32fc63daeb08feaf9d8",
+    "before": "<ts=&quot;0.046;4.435&quot;>ستفهم، لا تقلق. أحتاج منك فقط أن تساعدني<br>في آخر تهديد...",
+    "after": "<ts=&quot;0.046;4.435&quot;>ستحصل عليه، لا تقلق. أحتاج فقط إلى مساعدتك<br>في التصدي لتهديد أخير...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16388,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_061",
+    "source_sha256": "377e6c6c6d6731ef7f7c2ca0da6262821bcd55207fead95850d4d4bb7d424417",
+    "before": "<ts=&quot;0.38;1.78&quot;>منتجع نيفاريوس النهاري.",
+    "after": "<ts=&quot;0.38;1.78&quot;>منتجع نيفاريوس النهاري.",
+    "decision": "keep"
+  },
+  {
+    "index": 16389,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_062",
+    "source_sha256": "f424624aebc5359daa8b0da9d201942fe663059f297cae60a1ebfa4f65d9cb47",
+    "before": "<ts=&quot;0;2.125&quot;>إن استطعت تشتيت هؤلاء ،الجنود<ts=&quot;2.287;7.607&quot;>سأخترق منطاد دعاية نيفاريوس وأرسل إلى هذه<br>المدينة رسالة لن تنساها أبدا.",
+    "after": "<ts=&quot;0;2.125&quot;>إن استطعت تشتيت هؤلاء الجنود،<ts=&quot;2.287;7.607&quot;>فسأخترق منطاد دعاية نيفاريوس وأوجه إلى<br>المدينة رسالة لن تنساها أبدًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16390,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_063",
+    "source_sha256": "f645d2b44c93590e1ce6dfc44d1bfe951fb17b8f526a5a1d4631b04b35b4c8fe",
+    "before": "<ts=&quot;0;3.059&quot;>يا سكان مدينة نيفاريوس!<ts=&quot;3.51;6.299&quot;>هذا هو صوت المقاومة.<ts=&quot;6.97;9.88&quot;>هذا هو صوت الحقيقة.<ts=&quot;10.709;12.109&quot;>والحقيقة أن<ts=&quot;12.469;13.869&quot;>علينا أن نتحدث.",
+    "after": "<ts=&quot;0;3.059&quot;>يا سكان مدينة نيفاريوس!<ts=&quot;3.51;6.299&quot;>هذا هو صوت المقاومة.<ts=&quot;6.97;9.88&quot;>هذا هو صوت الحقيقة.<ts=&quot;10.709;12.109&quot;>والحقيقة أن<ts=&quot;12.469;13.869&quot;>علينا أن نتحدث.",
+    "decision": "keep"
+  },
+  {
+    "index": 16391,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_064",
+    "source_sha256": "803b62be34baaf5734981bc759371f9857a9f71329d3ce6366e9f306c20827fb",
+    "before": "<ts=&quot;0;1.4&quot;>،لكن قبل ذلك<ts=&quot;1.619;3.52&quot;>،أريدك أن تمنح نفسك لحظة<ts=&quot;3.52;5.65&quot;>،انظر حولك، واسأل نفسك<ts=&quot;6.359;9.043&quot;>«هل هذه الحياة التي حلمت بها دائما؟»",
+    "after": "<ts=&quot;0;1.4&quot;>لكن قبل ذلك،<ts=&quot;1.619;3.52&quot;>أريدكم أن تتوقفوا لحظة،<ts=&quot;3.52;5.65&quot;>وتنظروا حولكم، وتسألوا أنفسكم:<ts=&quot;6.359;9.043&quot;>«أهذه الحياة التي لطالما حلمنا بها؟»",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16392,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_065",
+    "source_sha256": "b025222f2f4e68aebc1ca6b82dca22eaec37832b5bfb2f46b623dfc668ffdef8",
+    "before": "<ts=&quot;0;4.46&quot;>«أن تراقب، وتوبخ، وتصغر كل يوم؟<ts=&quot;5.26;9.25&quot;>أن تعيش في بؤس بينما يجمع أصحاب السلطة كل<br>شيء؟»",
+    "after": "<ts=&quot;0;4.46&quot;>«أن نراقب ونتعرض للتوبيخ والإهانة كل يوم؟<ts=&quot;5.26;9.25&quot;>أن نعيش في بؤس بينما يحتكر أصحاب السلطة كل<br>شيء؟»",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16393,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_066",
+    "source_sha256": "9227f1396629fc40f3a40c29aa62b715b4a4bdb6da35cbdbd2f9881aa3dedcb3",
+    "before": "<ts=&quot;0;0.7&quot;>هيا!<ts=&quot;1.07;3.4&quot;>الإجابة واضحة: لا! و<ts=&quot;3.76;7.04&quot;>حتى لو كنت تظن أن هذا أفضل ،ما يمكنك الأمل<br>به<ts=&quot;7.04;8.79&quot;>دعني أفاجئك:<ts=&quot;9.469;10.039&quot;>الحياة<ts=&quot;10.709;11.949&quot;>يمكن أن تكون *أفضل*.",
+    "after": "<ts=&quot;0;0.7&quot;>هيا!<ts=&quot;1.07;3.4&quot;>الإجابة واضحة: لا!<ts=&quot;3.76;7.04&quot;>وحتى لو ظننتم أن هذا أفضل ما يمكنكم التطلع<br>إليه،<ts=&quot;7.04;8.79&quot;>فإليكم المفاجأة:<ts=&quot;9.469;10.039&quot;>الحياة<ts=&quot;10.709;11.949&quot;>يمكن أن تكون أفضل.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16394,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_067",
+    "source_sha256": "d855e376704f608d2f998ebe88cfbaa213139358c98dcb32dad9dc86380112b0",
+    "before": "<ts=&quot;0;0.46&quot;>كيف؟<ts=&quot;1.15;2.699&quot;>أسقط الإمبراطور.<ts=&quot;3.34;8.7&quot;>أسقط الإمبراطور ونظامه الفاسد كله، الذي<br>يثير الرعب ويتشدد في تدينه.",
+    "after": "<ts=&quot;0;0.46&quot;>كيف؟<ts=&quot;1.15;2.699&quot;>بإسقاط الإمبراطور.<ts=&quot;3.34;8.7&quot;>إسقاط الإمبراطور ونظامه الفاسد بأكمله،<br>الذي يبث الخوف ويدعي التفوق الأخلاقي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16395,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_068",
+    "source_sha256": "3a85517ea58836370504e7192a86ec0be30672fd6b74e0b2900d462af7fd21aa",
+    "before": "<ts=&quot;0;3.56&quot;>مجرد أن يقول *هو* شيئا لا يجعله حقا.<ts=&quot;4.42;8.97&quot;>،الخوف ليس أفضل محفز والمراقبة ليست أسلوب<br>،حياة<ts=&quot;9.36;10.59&quot;>والمقاومة<ts=&quot;11.03;11.73&quot;>ليست<ts=&quot;12.209;12.909&quot;>العدو.",
+    "after": "<ts=&quot;0;3.56&quot;>ليس كل ما يقوله حقيقة لمجرد أنه قاله.<ts=&quot;4.42;8.97&quot;>الخوف ليس أفضل دافع، والمراقبة ليست أسلوب<br>حياة،<ts=&quot;9.36;10.59&quot;>والمقاومة<ts=&quot;11.03;11.73&quot;>ليست<ts=&quot;12.209;12.909&quot;>العدو.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16396,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_069",
+    "source_sha256": "d4d43ed6acace9f1435d7cc4297e732a56cc69d8271995088b157529c6aab3ff",
+    "before": "<ts=&quot;0.01;2.11&quot;>،نحن نريد الأفضل لك<ts=&quot;2.469;4.219&quot;>لا الأفضل لنا.<ts=&quot;4.89;6.38&quot;>،سنصغي إليك<ts=&quot;6.38;7.62&quot;>لا نتجاهلك.<ts=&quot;8.27;9.67&quot;>ولن نترك<ts=&quot;9.85;11.339&quot;>خلفك.<ts=&quot;12.309;12.749&quot;>أبدا.",
+    "after": "<ts=&quot;0.01;2.11&quot;>نريد الأفضل لكم،<ts=&quot;2.469;4.219&quot;>لا الأفضل لنا.<ts=&quot;4.89;6.38&quot;>سنصغي إليكم،<ts=&quot;6.38;7.62&quot;>ولن نتجاهلكم.<ts=&quot;8.27;9.67&quot;>ولن نتخلى<ts=&quot;9.85;11.339&quot;>عنكم.<ts=&quot;12.309;12.749&quot;>أبدًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16397,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_070",
+    "source_sha256": "ebf5140a070e6a992d751c9d6bb9cbc12b20914c2e4f772d432e78fd67567fcb",
+    "before": "<ts=&quot;0;1.309&quot;>،ولإثبات ذلك<ts=&quot;1.309;4.809&quot;>أود أن ألقي عليكم الآن ميثاق المقاومة.",
+    "after": "<ts=&quot;0;1.309&quot;>ولإثبات ذلك،<ts=&quot;1.309;4.809&quot;>أود أن أتلو عليكم الآن ميثاق المقاومة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16398,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_071",
+    "source_sha256": "53d5f184c709f5022e2091d35aa2a2a14454dc7be240633f119cb35aea789175",
+    "before": "<ts=&quot;0;1.557&quot;>أوه، انتظر، أين كنت...",
+    "after": "<ts=&quot;0;1.557&quot;>أوه، انتظر، أين كنت...",
+    "decision": "keep"
+  },
+  {
+    "index": 16399,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_072",
+    "source_sha256": "c5d0c26393a6199a50c81ca2f310e07a7c746cf785d2f57d723dadd769695753",
+    "before": "<ts=&quot;0.099;0.787&quot;>أوه، صحيح.",
+    "after": "<ts=&quot;0.099;0.787&quot;>أوه، صحيح.",
+    "decision": "keep"
+  },
+  {
+    "index": 16400,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_073",
+    "source_sha256": "6e0bbc8e66de0fcee48040afd2d9157db7ccab8e21053480215dc5c6c4b2290d",
+    "before": "<ts=&quot;0;0.839&quot;>،أوه، صحيح<ts=&quot;1.23;2.75&quot;>ميثاق المقاومة.",
+    "after": "<ts=&quot;0;0.839&quot;>أوه، صحيح،<ts=&quot;1.23;2.75&quot;>ميثاق المقاومة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16401,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_074",
+    "source_sha256": "1783d4279d18f1ce463447538565228a0215096670254f697dadd254e1a079ab",
+    "before": "<ts=&quot;0;1.75&quot;>أوه، تلك أيضا، هممم...",
+    "after": "<ts=&quot;0;1.75&quot;>أوه، تلك أيضا، هممم...",
+    "decision": "keep"
+  },
+  {
+    "index": 16402,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_075",
+    "source_sha256": "73b6c7ba1a48793c28c328e4e46ff98f9726ca7739f01d2852031b7a341b2348",
+    "before": "<ts=&quot;0.023;2.56&quot;>أوه، اصبر.. سيستحق الانتظار، أعدك...",
+    "after": "<ts=&quot;0.023;2.56&quot;>أوه، اصبر.. سيستحق الانتظار، أعدك...",
+    "decision": "keep"
+  },
+  {
+    "index": 16403,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_076",
+    "source_sha256": "6df4380a628c138a28b2d695a4424291ddef63b6ff1939abba7010b53f13c90f",
+    "before": "<ts=&quot;0.02;4&quot;>حسنا، تحمل لثانية أخرى...",
+    "after": "<ts=&quot;0.02;4&quot;>حسنا، تحمل لثانية أخرى...",
+    "decision": "keep"
+  },
+  {
+    "index": 16404,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_077",
+    "source_sha256": "e62853475126bb60f375285b8f3f3482afdcd45293ad20865a5b8029c4430823",
+    "before": "<ts=&quot;0;2.5&quot;>انتبه، أيها الجديد! جنود آخرون في الطريق!",
+    "after": "<ts=&quot;0;2.5&quot;>انتبه، أيها الجديد! جنود آخرون في الطريق!",
+    "decision": "keep"
+  },
+  {
+    "index": 16405,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_078",
+    "source_sha256": "98f3a96b5714d8142f1b17995a90a5c96ab69da14b1817ea89a9efe14b5937b8",
+    "before": "<ts=&quot;0;1.42&quot;>فرقة أخرى في الطريق!",
+    "after": "<ts=&quot;0;1.42&quot;>فرقة أخرى في الطريق!",
+    "decision": "keep"
+  },
+  {
+    "index": 16406,
+    "key": "PHAN_CORV_GP2_GP_NEFCITY_079",
+    "source_sha256": "b272268920752db2abb89fcd6c9e56c37e21a6dd9c4915e7ae6b3b543290f238",
+    "before": "<ts=&quot;0.044;1.23&quot;>لم ننته بعد!",
+    "after": "<ts=&quot;0.044;1.23&quot;>لم ننته بعد!",
+    "decision": "keep"
+  },
+  {
+    "index": 16408,
+    "key": "PHAN_ZORD_GP1_CINE_ESCAPE_001",
+    "source_sha256": "bf614b8e7821c7a65b3227e378a492860a545e21c49727d9b966bf9e2d7000bf",
+    "before": "<ts=&quot;0.01;1.976&quot;>هل ينادي أحد على الإسناد؟!",
+    "after": "<ts=&quot;0.01;1.976&quot;>هل طلب أحد دعمًا؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16409,
+    "key": "PHAN_ZORD_GP1_CINE_FOUND_001",
+    "source_sha256": "cef3f290330e80aee65a9c2b8e0532dc3854d578d22fcf7618ee55b2e57cbc56",
+    "before": "<ts=&quot;0;3.073&quot;>لقد أرسلوا أصدقاءك إلى هناك. إن احتجت<br>إسنادا...",
+    "after": "<ts=&quot;0;3.073&quot;>لقد أرسلوا أصدقاءك إلى هناك. إن احتجت<br>إسنادا...",
+    "decision": "keep"
+  },
+  {
+    "index": 16410,
+    "key": "PHAN_ZORD_GP1_ZORD_GP_001",
+    "source_sha256": "7ddb1cb0a247b4ff92a727e781057efe1b73eb3e7eba2cc7b6eca42614ca1616",
+    "before": "<ts=&quot;0.033;3.022&quot;>ريفت! هم على وشك حرق صديقك الآلي!",
+    "after": "<ts=&quot;0.033;3.022&quot;>ريفت! هم على وشك حرق صديقك الآلي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16411,
+    "key": "PHAN_ZORD_GP1_ZORD_GP_002",
+    "source_sha256": "b7f0dedc0b4fd57b4e0c1dee4abe81107024293687c38110a9166a87b991be1c",
+    "before": "<ts=&quot;0;2.5&quot;>أوقف ذلك - ريفت، أسرع المحرق.",
+    "after": "<ts=&quot;0;2.5&quot;>ريفت، أسرعي! أوقفي تلك المحرقة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16412,
+    "key": "PHAN_ZORD_GP1_ZORD_GP_004",
+    "source_sha256": "b78727f9406c4ab7635a113b0adb818ec13f851790e329d98b9fa5befa5e3714",
+    "before": "<ts=&quot;0;1.25&quot;>الطرفية - ريفت!",
+    "after": "<ts=&quot;0;1.25&quot;>ريفت، لوحة التحكم!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16413,
+    "key": "PHAN_ZORD_GP1_ZORD_GP_006",
+    "source_sha256": "33df290310ec2d8964ad04c9531a371581e5051db97eba557e11cc725186dae8",
+    "before": "<ts=&quot;0;2.94&quot;>نيفاريوس لا يدرك ما هو قادم نحوه.",
+    "after": "<ts=&quot;0;2.94&quot;>نيفاريوس لا يدرك ما هو قادم نحوه.",
+    "decision": "keep"
+  },
+  {
+    "index": 16414,
+    "key": "PHAN_ZORD_GP1_ZORD_GP_007",
+    "source_sha256": "de6101f41f414db2e12937097d9b1839cf1d0f8ba694db80640ad4d8dff5a1b0",
+    "before": "<ts=&quot;0;1.5&quot;>ريفت؟! إلى هنا!",
+    "after": "<ts=&quot;0;1.5&quot;>ريفت؟! إلى هنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16415,
+    "key": "PHAN_ZURK_GP4_GAMEPLAY_001",
+    "source_sha256": "348e182e3b151aa54c502e462e8c2d173c7530678b90c2e2a2776f93bd009f01",
+    "before": "<ts=&quot;0.03;3.79&quot;>يمكنك أن تعتمد *دائما* علي لتكون في المكان<br>الصحيح حين يحين دور العمل.<ts=&quot;3.79;5.758&quot;>وأنا أسميها إحساس الطيف.",
+    "after": "<ts=&quot;0.03;3.79&quot;>يمكنك دائمًا الاعتماد علي لأكون في المكان<br>المناسب عندما ينادي الواجب.<ts=&quot;3.79;5.758&quot;>أسمي ذلك حاسة الطيف.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16416,
+    "key": "PHAN_ZURK_GP4_GAMEPLAY_002",
+    "source_sha256": "1a6cb31b70af4d6a4272a0e3c7ac60aa2a4c3eb9803f1168f99f510471f446ce",
+    "before": "<ts=&quot;0;0.83&quot;>اختف.<ts=&quot;1.25;5.589&quot;>إن لم يكن هناك إمبراطور، لا مقاومة، وإن لم<br>تكن هناك ،مقاومة<ts=&quot;6.05;7.25&quot;>لا الطيف.",
+    "after": "<ts=&quot;0;0.83&quot;>سأختفي.<ts=&quot;1.25;5.589&quot;>إن لم يعد هناك إمبراطور، فلن تكون هناك<br>مقاومة. وإن لم تكن هناك مقاومة،<ts=&quot;6.05;7.25&quot;>فلن يكون هناك طيف.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16417,
+    "key": "PHAN_ZURK_GP4_GAMEPLAY_003",
+    "source_sha256": "d20c3c8f1b8534ea17468596f3260e0174fac337f7a0f4c3f59f383a7def28a7",
+    "before": "<ts=&quot;0.02;5.209&quot;>انظر إليهم، غافلون تماما عن أن مصير الواقع<br>سيحسم بعد لحظات.",
+    "after": "<ts=&quot;0.02;5.209&quot;>انظر إليهم، غافلون تماما عن أن مصير الواقع<br>سيحسم بعد لحظات.",
+    "decision": "keep"
+  },
+  {
+    "index": 16418,
+    "key": "PHAN_ZURK_GP4_GAMEPLAY_004",
+    "source_sha256": "572ebcc07664d42aa038498acf5ef64c9701d40ff0ffa43d9ebbfd7ec210e478",
+    "before": "<ts=&quot;0;3.749&quot;>مهما حدث، فقد جعلت المقاومة فخورة بك،<br>ريفت.",
+    "after": "<ts=&quot;0;3.749&quot;>مهما حدث، فقد جعلت المقاومة فخورة بك،<br>ريفت.",
+    "decision": "keep"
+  },
+  {
+    "index": 16419,
+    "key": "PHAN_ZURK_GP4_GAMEPLAY_005",
+    "source_sha256": "e4848c4fc5b66cd24a612426bc83ff295dc66886d5c5fe9cdcc2ac665cbd3c7c",
+    "before": "<ts=&quot;0;2.23&quot;>هل أحضر زوركي شيك راتبي أم ماذا؟",
+    "after": "<ts=&quot;0;2.23&quot;>هل سيحضر زوركي فاتورتي أم ماذا؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16420,
+    "key": "PHAN_ZURK_GP4_GAMEPLAY_006",
+    "source_sha256": "4c75e9dced0a6f4b964770192317ad978742f2771df9f877422d37e907e9a12e",
+    "before": "<ts=&quot;0;4.17&quot;>سيبدو غريبا جدا، لكنني لطالما أردت أن أبدأ<br>ركوب الألواح المحلقة.<ts=&quot;4.17;5.403&quot;>ربما سأجرب ذلك.",
+    "after": "<ts=&quot;0;4.17&quot;>سيبدو غريبا جدا، لكنني لطالما أردت أن أبدأ<br>ركوب الألواح المحلقة.<ts=&quot;4.17;5.403&quot;>ربما سأجرب ذلك.",
+    "decision": "keep"
+  },
+  {
+    "index": 16566,
+    "key": "PILF_ARDO_GP1_ARDO_GP_030",
+    "source_sha256": "33f3ff00b5e41c619e7c4d042691c837d7bd18a5fb3d2d0a2bd7451a72b38da1",
+    "before": "<ts=&quot;0.043;6.012&quot;>روبوت ريفت الصغير وتلميذها... ؟! ماذا يفعل<br>كل منكما هنا؟!",
+    "after": "<ts=&quot;0.043;6.012&quot;>روبوت ريفت الصغير وتلميذها...؟! ماذا<br>تفعلان هنا؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16567,
+    "key": "PILF_ARDO_GP1_ARDO_GP_031",
+    "source_sha256": "8dc1102d29b7e5fe5dab6ba8acf42fc4d6376226abe37707d2d8586445b7f7fb",
+    "before": "<ts=&quot;0;4.888&quot;>آه... ،ليس وكأني أشتكي لكن، آه، لماذا؟!",
+    "after": "<ts=&quot;0;4.888&quot;>آه... لست أشتكي، لكن، أمم، لماذا؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16568,
+    "key": "PILF_ARDO_GP1_ARDO_GP_032",
+    "source_sha256": "01f452118ca8e7eb833d2b256bd3797866a24bf0fae94c09de5a4c1c84bf52c3",
+    "before": "<ts=&quot;0.048;5.095&quot;>حسنا، لا يهم! سأساعد؛ فقط أبعدني عن هذا<br>الحبار المتحور!",
+    "after": "<ts=&quot;0.048;5.095&quot;>حسنا، لا يهم! سأساعد؛ فقط أبعدني عن هذا<br>الحبار المتحور!",
+    "decision": "keep"
+  },
+  {
+    "index": 16569,
+    "key": "PILF_ARDO_GP1_ARDO_GP_033",
+    "source_sha256": "48bc1bea7194400cebecdd07b0bc6bc8fb52e03bd4a5e7990474df9f9bf3370d",
+    "before": "<ts=&quot;0.016;4.942&quot;>آه، شكرا شكرا. الآن ارفعني إلى الرصيف<br>وأبعدني عن هذا الوحش!",
+    "after": "<ts=&quot;0.016;4.942&quot;>آه، شكرًا، شكرًا. والآن أرجحني إلى الرصيف<br>وأبعدني عن هذا الوحش!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16570,
+    "key": "PILF_ARDO_GP1_ARDO_GP_034",
+    "source_sha256": "076912c6f8cd7de82521a823251f5d8413e2b7cad3c36f6f8cbe70d2bc38881c",
+    "before": "<ts=&quot;0;2.724&quot;>إن أردت حظوة مقابلة كابتن ،كوانتوم<ts=&quot;2.923;6.278&quot;>فيجب أن تتم تحديات القراصنة.",
+    "after": "<ts=&quot;0;2.724&quot;>إن أردتما مقابلة القبطان كوانتوم،<ts=&quot;2.923;6.278&quot;>فعليكما إكمال تحديات القراصنة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16571,
+    "key": "PILF_ARDO_GP1_ARDO_GP_035",
+    "source_sha256": "a5d5464e82ba42f0b999bf260c923b7537b5d7c05e7f544267ea8bd9ad12261e",
+    "before": "<ts=&quot;0;2.524&quot;>،تقاليد أقدم من شراب الغورغ<ts=&quot;2.524;5.542&quot;>وكيفية أن يكسب كل قرصان رتبته.<ts=&quot;6.04;7.56&quot;>اتجه إلى جبل الجمجمة؛<ts=&quot;8;10.1&quot;>،إن أتممت التحديات هناك<ts=&quot;10.17;12&quot;>ستجد كابتن.",
+    "after": "<ts=&quot;0;2.524&quot;>إنها تقاليد بقدم شراب الغروغ،<ts=&quot;2.524;5.542&quot;>وبها ينال القراصنة رتبهم.<ts=&quot;6.04;7.56&quot;>توجها إلى جبل الجمجمة؛<ts=&quot;8;10.1&quot;>إن أكملتما التحديات هناك،<ts=&quot;10.17;12&quot;>فستجدان القبطان.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16572,
+    "key": "PILF_ARDO_GP1_ARDO_GP_037",
+    "source_sha256": "67448643663b535132ff83b866b1c0da5c7600491516360a0c26111c82a9ec40",
+    "before": "<ts=&quot;0.042;6.407&quot;>ها! من فضلك، أظنني أستطيع تدبير أمري من<br>هنا. أنتما، اتجاها إلى جبل الجمجمة!",
+    "after": "<ts=&quot;0.042;6.407&quot;>ها! من فضلك، أظنني أستطيع تدبير أمري من<br>هنا. أنتما، اتجاها إلى جبل الجمجمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16573,
+    "key": "PILF_ARDO_GP1_ARDO_GP_043",
+    "source_sha256": "01971968465ba6c6625386af596031d8de6256acbae7bffc9d1c241e681181b8",
+    "before": "<ts=&quot;0.047;2.067&quot;>،أسرع قليلا *من فضلك*!",
+    "after": "<ts=&quot;0.047;2.067&quot;>أسرع قليلًا، من فضلك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16574,
+    "key": "PILF_ARDO_GP1_ARDO_GP_044",
+    "source_sha256": "643cc86adcd9ca6abb3b25b6747c0e3094bb088f8b8a21be4c649f7675060d9e",
+    "before": "<ts=&quot;0.048;5.166&quot;>،أشعر بإغماء قادم؛ بسرعة استخدم مقبض<br>البرغي لتصل بي فوق الرصيف!",
+    "after": "<ts=&quot;0.048;5.166&quot;>أوه، أشعر أنني سأفقد الوعي! بسرعة، استخدم<br>ذراع التدوير لتوصلني إلى الرصيف!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16575,
+    "key": "PILF_ARDO_GP1_ARDO_GP_049",
+    "source_sha256": "9e993a7cb193fad4e2bc1c6528be88fd7e70748d3f22ffe51904ba565025894e",
+    "before": "<ts=&quot;0.047;3.403&quot;>أنقذوني!",
+    "after": "<ts=&quot;0.047;3.403&quot;>أنقذوني!",
+    "decision": "keep"
+  },
+  {
+    "index": 16576,
+    "key": "PILF_ARDO_GP1_ARDO_GP_050",
+    "source_sha256": "9c30210cb7d63aecca44e85392f510bc315355f940fada15e5e4a082f7abfe61",
+    "before": "<ts=&quot;0;1.752&quot;>،إن أتممت هذا<ts=&quot;1.85;6.536&quot;>أقسم أنني سأطارد كل واحد منكم حتى ينقرض<br>الكون!",
+    "after": "<ts=&quot;0;1.752&quot;>إن مضيتم في هذا،<ts=&quot;1.85;6.536&quot;>فأقسم أنني سأطارد كل واحد منكم حتى الموت<br>الحراري للكون!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16577,
+    "key": "PILF_ARDO_GP1_ARDO_GP_051",
+    "source_sha256": "2e12a1216d67657ba1cf00721b6c043144017c95b56ae84422803a708dccaede",
+    "before": "<ts=&quot;0.043;7.035&quot;>جادا، إن كنت تظن أنني مزعج وأنا حي، فانتظر<br>حتى أصير شبحا مهيبا!",
+    "after": "<ts=&quot;0.043;7.035&quot;>أنا جاد، إن ظننتم أنني مزعج وأنا حي،<br>فانتظروا حتى أصبح شبحًا مهيبًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16578,
+    "key": "PILF_ARDO_GP1_ARDO_GP_053",
+    "source_sha256": "32461afdb18d6b949f95a5b96f07c498dae1b71c6bd34f36d147c043d0cae6b4",
+    "before": "<ts=&quot;0.047;2.248&quot;>آه... فقاعات سيئة! سيئة!",
+    "after": "<ts=&quot;0.047;2.248&quot;>آه... فقاعات سيئة! سيئة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16580,
+    "key": "PILF_ARDO_GP1_ARDO_GP_057",
+    "source_sha256": "23efb40957149f5b06503ea168536945210a02f2e3f71ce144d2d5d1ad9c89c0",
+    "before": "<ts=&quot;0.549;1.949&quot;>آه... هيا بيير!",
+    "after": "<ts=&quot;0.549;1.949&quot;>آه... هيا بيير!",
+    "decision": "keep"
+  },
+  {
+    "index": 16581,
+    "key": "PILF_ARDO_GP1_ARDO_GP_058",
+    "source_sha256": "71ca065c52a8def39703d143977d3e58d91d9c4a2e31c961edb784866b8a4b3b",
+    "before": "<ts=&quot;0.046;6.525&quot;>عادة لا أساعد «خصوم الأصدقاء»لكنك أنقذت ،<br>،حياتي<ts=&quot;6.525;10.584&quot;>وأنا *بيير لو فير*رجل بكل ، ما تعنيه<br>الكلمة.",
+    "after": "<ts=&quot;0.046;6.525&quot;>عادة لا أساعد «أصدقائي الأعداء»، لكنكما<br>أنقذتما حياتي،<ts=&quot;6.525;10.584&quot;>وأنا بيير لو فير، أرقى السادة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16582,
+    "key": "PILF_ARDO_GP1_ARDO_GP_059",
+    "source_sha256": "c4fb271be6d3f9b7bb3d56941460dd7c032ddbc8fc09aba4bd65cecedfa7989b",
+    "before": "<ts=&quot;0;2.087&quot;>أنا أدبر هذا، لا تقلق!",
+    "after": "<ts=&quot;0;2.087&quot;>سأتولى الأمر، لا تقلق!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16583,
+    "key": "PILF_ARDO_GP1_ARDO_GP_060",
+    "source_sha256": "99435e3fba611ac528dc832f90f83eb86c126e62f266d031ffaae5d4cd0abd74",
+    "before": "<ts=&quot;0;1.4&quot;>هل تحتاجون مساعدة<ts=&quot;3.52;5.433&quot;>في العثور على جبل الجمجمة؟ ظننت أنه واضح<br>تماما!",
+    "after": "<ts=&quot;0;1.4&quot;>أتحتاجان إلى مساعدة<ts=&quot;3.52;5.433&quot;>في العثور على جبل الجمجمة؟ ظننت أن موقعه<br>واضح تمامًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16584,
+    "key": "PILF_ARDO_GP1_ARDO_GP_061",
+    "source_sha256": "a8fc0d43462bc780b3777cb07c3932362fc4c9264714f0ee9ba10ed085e81755",
+    "before": "<ts=&quot;0;0.35&quot;>،آه<ts=&quot;0.65;2.23&quot;>إعدام آخر<ts=&quot;2.65;3.54&quot;>أفشل من جديد.<ts=&quot;4.03;4.38&quot;>هاها!",
+    "after": "<ts=&quot;0;0.35&quot;>آه،<ts=&quot;0.65;2.23&quot;>عملية إعدام أخرى،<ts=&quot;2.65;3.54&quot;>أفشلت مجددًا.<ts=&quot;4.03;4.38&quot;>هاها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16585,
+    "key": "PILF_ARDO_GP1_ARDO_GP_062",
+    "source_sha256": "06a7f894c0d21014be7557d9b48b9344afaadea099071ef77e1569c09c69ed6f",
+    "before": "<ts=&quot;0.15;3.268&quot;>هذا ليس الطريق إلى جبل ،الجمجمة، لكن، آه<ts=&quot;3.362;8.721&quot;>رأيت القراصنة ينقلون شيئا *لامعا* إلى<br>الحانة قبل قليل...",
+    "after": "<ts=&quot;0.15;3.268&quot;>هذا ليس الطريق إلى جبل الجمجمة، لكن، آه،<ts=&quot;3.362;8.721&quot;>رأيت القراصنة ينقلون شيئًا لامعًا إلى<br>الحانة قبل قليل...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16586,
+    "key": "PILF_ARDO_GP1_ARDO_GP_063",
+    "source_sha256": "af902fbf0d95270dd9162c1a22cc9d34de60dbbd45a25fe2fe7c355d405b38b2",
+    "before": "<ts=&quot;1.319;1.97&quot;>إلى اللقاء!",
+    "after": "<ts=&quot;1.319;1.97&quot;>إلى اللقاء!",
+    "decision": "keep"
+  },
+  {
+    "index": 16587,
+    "key": "PILF_ARDO_GP1_CINE_SAVED_010",
+    "source_sha256": "6450384634058d63219ea50b11480989771b9d992ca1bc48a260deeeb6aa5811",
+    "before": "<ts=&quot;0;4.017&quot;>بصراحة، تلك السفينة *كان يجب* أن تنفجر في<br>مولونوث!<ts=&quot;4.305;7.68&quot;>يمكن القول إنها دمرت نفسها!",
+    "after": "<ts=&quot;0;4.017&quot;>بصراحة، تلك السفينة *كان يجب* أن تنفجر في<br>مولونوث!<ts=&quot;4.305;7.68&quot;>يمكن القول إنها دمرت نفسها!",
+    "decision": "keep"
+  },
+  {
+    "index": 16588,
+    "key": "PILF_ARDO_GP1_CINE_SAVED_011",
+    "source_sha256": "4cec2d7e0685344abd9e55501f34c6742c1156ce38c28d88aed9270993f98be2",
+    "before": "<ts=&quot;0.067;3.827&quot;>لو أراد أحدهم إنقاذي، فالآن هو الوقت--",
+    "after": "<ts=&quot;0.067;3.827&quot;>لو أراد أحدهم إنقاذي، فالآن هو الوقت--",
+    "decision": "keep"
+  },
+  {
+    "index": 16591,
+    "key": "PILF_CORV_GP3_CINE_MECHDAMAGE_001",
+    "source_sha256": "762785aeb3ea8cfa22de0812ae1ee36ecd1cee3a94637e665bb93f741058df5d",
+    "before": "<ts=&quot;0;2.8&quot;>هيا، هناك معركة تنتظر الفوز بها!",
+    "after": "<ts=&quot;0;2.8&quot;>هيا، تنتظرنا معركة علينا الفوز بها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16592,
+    "key": "PILF_CORV_GP3_FINALE_002",
+    "source_sha256": "dc2d3a3fee952a5cadec8c3f34198d94dfd7fe39b3504f0e2fa6313248c461e6",
+    "before": "<ts=&quot;0.011;3.712&quot;>أوه أوه، هل هو راتشت؟! أخبره بأفعالي<br>البطولية!",
+    "after": "<ts=&quot;0.011;3.712&quot;>أوه أوه، هل هو راتشت؟! أخبره بأفعالي<br>البطولية!",
+    "decision": "keep"
+  },
+  {
+    "index": 16593,
+    "key": "PILF_CORV_GP3_FINALE_003",
+    "source_sha256": "d3797734382f36f9e3835a15770033d1d355bdb6255353afe33fe9a45ced384d",
+    "before": "<ts=&quot;0.047;1.761&quot;>هناك! أمامنا!",
+    "after": "<ts=&quot;0.047;1.761&quot;>هناك! أمامنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16594,
+    "key": "PILF_CORV_GP3_FINALE_004",
+    "source_sha256": "201874f8505d491519b7365c7746e72f8831d4b02586a308572d4fdac9af9ec4",
+    "before": "<ts=&quot;0.045;3.681&quot;>يا إلهي... أغلقوا الأبواب!",
+    "after": "<ts=&quot;0.045;3.681&quot;>يا إلهي... أغلقوا المنافذ!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16595,
+    "key": "PILF_CORV_GP3_FINALE_005",
+    "source_sha256": "59830362a5bfed9e55d669e9b3f9b266d834a6be9c2e3c91c4f99a13dd063581",
+    "before": "<ts=&quot;0.045;3.177&quot;>يا صديقي، من هذا الطريق!",
+    "after": "<ts=&quot;0.045;3.177&quot;>يا صديقي، من هذا الطريق!",
+    "decision": "keep"
+  },
+  {
+    "index": 16596,
+    "key": "PILF_CORV_GP3_FINALE_006",
+    "source_sha256": "1f103553d4afb00dfc020ef3b175d5da823302355c2b7194ee2b5f0330e95b34",
+    "before": "<ts=&quot;0.046;0.62&quot;>أنت لم--!",
+    "after": "<ts=&quot;0.046;0.62&quot;>أنت لم--!",
+    "decision": "keep"
+  },
+  {
+    "index": 16614,
+    "key": "PILF_TORR_GP1_CINE_INVASION_001",
+    "source_sha256": "60a6e21d4bd5e043f10d00dec0c0722267a22d22ab328a10e6d1cf30f13ef5b3",
+    "before": "<ts=&quot;0;5&quot;>،يبدو أن القدر جمعنا من جديد أيتها الصغيرة<br>يا ريفت.",
+    "after": "<ts=&quot;0;5&quot;>يبدو أن القدر جمعنا مجددًا، يا ريفت<br>الصغيرة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16615,
+    "key": "PILF_TORR_GP1_CINE_INVASION_004",
+    "source_sha256": "495567c9a2d4d5dacb0eb58c403f5e439c19d4af3853ef01bd7b2bcfe5fab0ea",
+    "before": "<ts=&quot;0;1.23&quot;>آآآرررر...<ts=&quot;1.66;4.43&quot;>يا هوو، أيها القراصنة، هاجموا!",
+    "after": "<ts=&quot;0;1.23&quot;>آآآرررر...<ts=&quot;1.66;4.43&quot;>يا هوو، أيها القراصنة، هاجموا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16617,
+    "key": "PILF_TORR_GP1_CINE_SCUTTELD_002",
+    "source_sha256": "4ddb220127cd3e3bc9c849cdd6de193ae97f4adb1e92b0c193ced65c01dadb0c",
+    "before": "<ts=&quot;0.052;1.755&quot;>،اسمعوا أيها الرفاق<ts=&quot;1.862;3.882&quot;>سفينة قيادتنا ضاعت!<ts=&quot;4.046;7.803&quot;>دمروها الآن، وسنأكل...<ts=&quot;7.91;9.142&quot;>المصاريف!",
+    "after": "<ts=&quot;0.052;1.755&quot;>اسمعوا يا رفاقي،<ts=&quot;1.862;3.882&quot;>لقد فقدنا سفينة القيادة!<ts=&quot;4.046;7.803&quot;>دمروها الآن، وسنتكبد...<ts=&quot;7.91;9.142&quot;>الخسائر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16618,
+    "key": "PILF_TORR_GP1_CINE_SCUTTELD_003",
+    "source_sha256": "acbf2402f7de2f6cf03dd2af8fc41029e44658512eb19147e4a654955a40f67a",
+    "before": "<ts=&quot;0.042;1.811&quot;>نعم!",
+    "after": "<ts=&quot;0.042;1.811&quot;>نعم!",
+    "decision": "keep"
+  },
+  {
+    "index": 16621,
+    "key": "PILF_TORR_GP1_TORR_GP_001",
+    "source_sha256": "e6b0b0e8a54053ec59a9e0b28876ab7321b20577df98b2130bea31b1ce4883b1",
+    "before": "<ts=&quot;0;4.249&quot;>أعجبني أسلوب قتالك يا ريفت، لكن كان عليك<br>أن ترى رجل التصليح.<ts=&quot;4.285;7.081&quot;>تلك قوة! ،لكن، للأسف انكسر!",
+    "after": "<ts=&quot;0;4.249&quot;>أعشق أسلوبك في القتال، يا ريفت، لكن كان<br>عليك أن تري المصلح.<ts=&quot;4.285;7.081&quot;>يا لها من قوة! لكنه، للأسف، تعطل!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16622,
+    "key": "PILF_TORR_GP1_TORR_GP_002",
+    "source_sha256": "515a4288b58936138f9cd518cd17c87d1a8abb0f115720f752d5f8ae6f8e275e",
+    "before": "<ts=&quot;0;6.14&quot;>،أود أن أنال الفضل، لكن لا فسبب انكسار رجل<br>التصليح لغز بالنسبة لي.<ts=&quot;6.14;8.249&quot;>لكنني سأستمتع بغيابه!",
+    "after": "<ts=&quot;0;6.14&quot;>أود أن أنسب الفضل لنفسي، لكن لا، سبب تعطل<br>المصلح لغز بالنسبة إلي.<ts=&quot;6.14;8.249&quot;>سأستمتع بغيابه، مع ذلك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16623,
+    "key": "PILF_TORR_GP1_TORR_GP_003",
+    "source_sha256": "5bd64435d0db4e601a93057181207851c7e88de0e6906497ab585e0bd047f78c",
+    "before": "<ts=&quot;0;1.742&quot;>(يضحك)<ts=&quot;1.789;4.936&quot;>ما أكثر عنادك! أحبك!<ts=&quot;5.06;7.865&quot;>كان نهبنا مملا جدا قبل ،وصولك<ts=&quot;8.02;10.274&quot;>فشكرا لك على إحياء الأمور!",
+    "after": "<ts=&quot;0;1.742&quot;>(يضحك)<ts=&quot;1.789;4.936&quot;>يا لعنادك! أحبك!<ts=&quot;5.06;7.865&quot;>كان نهبنا مملًّا جدًّا قبل وصولك،<ts=&quot;8.02;10.274&quot;>فشكرًا لإضفائك بعض الحيوية!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16624,
+    "key": "PILF_TORR_GP1_TORR_GP_004",
+    "source_sha256": "5f4d22febfa77e64aca519a3e20160b45e2798a1309166781fae6431bb4bf931",
+    "before": "<ts=&quot;0;3.073&quot;>ميلك للتدخل في كل شيء مزعج جدا يا ريفت!<ts=&quot;3.219;5.394&quot;>لماذا تقفين في طريقي دائما؟",
+    "after": "<ts=&quot;0;3.073&quot;>ميلك للتدخل في كل شيء مزعج جدا يا ريفت!<ts=&quot;3.219;5.394&quot;>لماذا تقفين في طريقي دائما؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16625,
+    "key": "PILF_TORR_GP1_TORR_GP_005",
+    "source_sha256": "70e54430b599eb8047c8792113afe0fa7d1220e9b9faa541c5c4301b40d50203",
+    "before": "<ts=&quot;1.07;4.455&quot;>ها! أخشى أن *أنا* بطل هذه القصة!<ts=&quot;4.586;6.137&quot;>ألي، ألي، ألي، يا جميعكم!",
+    "after": "<ts=&quot;1.07;4.455&quot;>ها! أخشى أنني أنا بطل هذه القصة!<ts=&quot;4.586;6.137&quot;>هيا، هيا، هيا، جميعًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16626,
+    "key": "PILF_TORR_GP1_TORR_GP_006",
+    "source_sha256": "ca9a6d04be17b198581c4c386ee22be5c8f3bc09f3458ce09565beb5ed933461",
+    "before": "<ts=&quot;0;1.839&quot;>هل تعبت يا ريفت؟<ts=&quot;2.09;4.984&quot;>ربما تريدين شريكا *جديدا* للرقص!",
+    "after": "<ts=&quot;0;1.839&quot;>هل تعبت يا ريفت؟<ts=&quot;2.09;4.984&quot;>ربما تريدين شريكا *جديدا* للرقص!",
+    "decision": "keep"
+  },
+  {
+    "index": 16627,
+    "key": "PILF_TORR_GP1_TORR_GP_007",
+    "source_sha256": "ab2e425fadab821cde4e516927238db0f3bc79adbb559af78693e306d3c770e1",
+    "before": "<ts=&quot;0;3.228&quot;>،تصويب رائع أيها الرفاق لقد أسقطت تلك<br>السفينة!<ts=&quot;3.357;9.084&quot;>وابحث في الحطام وتأكد أنهم... قد انتهوا!",
+    "after": "<ts=&quot;0;3.228&quot;>تصويب رائع، يا رفاقي، لقد أسقطتم تلك<br>السفينة!<ts=&quot;3.357;9.084&quot;>والآن فتشوا الحطام وتأكدوا من أنهم...<br>انتهوا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16628,
+    "key": "PILF_TORR_GP1_TORR_GP_008",
+    "source_sha256": "0365e705cc1a950ffe5b2fcba17194ddfc99a5577eb318b67ee5d8027ea0c583",
+    "before": "<ts=&quot;0;4.603&quot;>كان علي أن أعرف أن إغراقك سيكون سهلا!<ts=&quot;5.013;7.895&quot;>لأن إصلاح رجل التصليح مهمة ساذجة!",
+    "after": "<ts=&quot;0;4.603&quot;>كان ينبغي أن أعرف أن إغراقكما أسهل مما<br>ينبغي!<ts=&quot;5.013;7.895&quot;>فمحاولة إصلاح المصلح مضيعة للوقت!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16629,
+    "key": "PILF_TORR_GP1_TORR_GP_009",
+    "source_sha256": "ca54300a1db7075323abf58903e48f5c3de673a14d4b0b3e89534f1562df80f3",
+    "before": "<ts=&quot;0;6.086&quot;>كيف أعيش من دون أعظم أعدائي؟!",
+    "after": "<ts=&quot;0;6.086&quot;>كيف أعيش من دون أعظم أعدائي؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16630,
+    "key": "PILF_TORR_GP1_TORR_GP_010",
+    "source_sha256": "65bb6f6ac9bfdd15733839383d0211257a48411e8bde2bfa21be845bcb7c4e9f",
+    "before": "<ts=&quot;0;3.146&quot;>آه، أنا محبط ومتهوس في آن!<ts=&quot;3.221;6.086&quot;>ارفعوا الأعلام وأبلغوا البقية!<ts=&quot;6.127;9.527&quot;>يجب أن نوقفهم قبل أن يصلوا إلى رجل<br>التصليح!",
+    "after": "<ts=&quot;0;3.146&quot;>آه، أشعر بالإحباط والحماس في آن واحد!<ts=&quot;3.221;6.086&quot;>ارفعوا الأعلام وأبلغوا البقية!<ts=&quot;6.127;9.527&quot;>يجب أن نوقفهما قبل أن يصلا إلى المصلح!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16631,
+    "key": "PILF_TORR_GP1_TORR_GP_011",
+    "source_sha256": "940d0d732e7033454cd77befbecf3333fea0b153f942c1fcfd6066064197c698",
+    "before": "<ts=&quot;0.046;2.527&quot;>آآه! تجمعوا مع البقية!<ts=&quot;2.617;5.479&quot;>سنهاجم معا وننهي هذا!",
+    "after": "<ts=&quot;0.046;2.527&quot;>آآه! تجمعوا مع البقية!<ts=&quot;2.617;5.479&quot;>سنهاجم معا وننهي هذا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16632,
+    "key": "PILF_TORR_GP1_TORR_GP_012",
+    "source_sha256": "8892c1fcdfef35711ac9a6c2e929be78993831ab10ccd594e49a674582ee464c",
+    "before": "<ts=&quot;0;2.88&quot;>افعل كما أفعل حين أكسر شيئا:<ts=&quot;2.95;5.677&quot;>ألقه في القمامة وامض بحياتك!",
+    "after": "<ts=&quot;0;2.88&quot;>افعلي مثلي عندما أكسر شيئًا:<ts=&quot;2.95;5.677&quot;>ألقيه في القمامة وامضي في حياتك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16633,
+    "key": "PILF_TORR_GP1_TORR_GP_013",
+    "source_sha256": "dc31801df3658d3433256f942cd4c723be8737f1b6c316ae821f37555be0e076",
+    "before": "<ts=&quot;0.045;5.107&quot;>ألم تعلمك تحديات القراصنة شيئا؟! صوب! أطلق<br>النار!",
+    "after": "<ts=&quot;0.045;5.107&quot;>ألم تعلمكم تحديات القراصنة شيئًا؟! صوبوا!<br>أطلقوا النار!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16634,
+    "key": "PILF_TORR_GP1_TORR_GP_014",
+    "source_sha256": "6dab17e156ac74869a5f4dfb6951e2efadb87fed29d014b1a25d45de1706c589",
+    "before": "<ts=&quot;0.048;5.115&quot;>أنت وحقيبة ظهرك اللطيفة الجريئة لا تملكان<br>أي فرصة!",
+    "after": "<ts=&quot;0.048;5.115&quot;>أنت وحقيبة ظهرك اللطيفة الجريئة لا تملكان<br>أي فرصة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16635,
+    "key": "PILF_TORR_GP1_TORR_GP_015",
+    "source_sha256": "9a9cf6ebccc8ed281eb03a67392c9223230ef514ca679945198001eb157eb709",
+    "before": "<ts=&quot;0.038;4.901&quot;>لا تحسبني ضمن فشلهم! أنا مجرد واجهة<br>العملية!",
+    "after": "<ts=&quot;0.038;4.901&quot;>لا تحسبني ضمن فشلهم! أنا مجرد واجهة<br>العملية!",
+    "decision": "keep"
+  },
+  {
+    "index": 16636,
+    "key": "PILF_TORR_GP1_TORR_GP_016",
+    "source_sha256": "05777af6b5f6aade00dcc98e6d51e9ad99e778fcb81d946afcc51418682d6aaf",
+    "before": "<ts=&quot;0.049;8.726&quot;>تعلمين يا ريفت أن الشيء الوحيد الذي أحبه<br>أكثر من نفسي هو الانتقام! فلنحسم الحساب!",
+    "after": "<ts=&quot;0.049;8.726&quot;>تعلمين يا ريفت أن الشيء الوحيد الذي أحبه<br>أكثر من نفسي هو الانتقام! فلنحسم الحساب!",
+    "decision": "keep"
+  },
+  {
+    "index": 16637,
+    "key": "PILF_ZURK_GP1_CINE_ARENAINTRO_006",
+    "source_sha256": "6c4384516d5452ace3ff0466320fce203614327ead54247a9e56f1cfc948b64f",
+    "before": "<ts=&quot;0;2.749&quot;>يا لها يا لها، نلتقي من جديد أيتها<br>الحبيبتي الصغيرة.",
+    "after": "<ts=&quot;0;2.749&quot;>حسنًا، حسنًا، نلتقي مجددًا يا صغيرتي<br>العزيزة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16638,
+    "key": "PILF_ZURK_GP1_CINE_ARENAINTRO_007",
+    "source_sha256": "a3c5b17f5b09e3493df0e3b343c842184523fc4a1983f632ca18bcd6d72bba20",
+    "before": "<ts=&quot;0;1.75&quot;>هل تبعتني إلى هنا؟<ts=&quot;1.89;4.999&quot;>محاولة أخرى بلا ثمرة لكسب مودتي؟",
+    "after": "<ts=&quot;0;1.75&quot;>هل تبعتني إلى هنا؟<ts=&quot;1.89;4.999&quot;>أهذه محاولة فاشلة أخرى لكسب مودتي؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16639,
+    "key": "PILF_ZURK_GP1_CINE_ARENAINTRO_008",
+    "source_sha256": "6c52071d9d7f3608243996967fa3fcfc36d92175e5d593c95c18dcc6f46f1460",
+    "before": "<ts=&quot;0;3.5&quot;>كم مرة قلت لك إن قلبي ،مشغول<ts=&quot;4.04;4.74&quot;>ومع ذلك--",
+    "after": "<ts=&quot;0;3.5&quot;>أخبرتك مرارًا أن قلبي ملك لغيرك،<ts=&quot;4.04;4.74&quot;>ومع ذلك...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16640,
+    "key": "PILF_ZURK_GP1_CINE_ARENAINTRO_009",
+    "source_sha256": "6e4b34420db74789718a47aa33dcc1d55dbb6a2d31a98430ca137996352b59f1",
+    "before": "<ts=&quot;0;0.7&quot;>بيت؟<ts=&quot;1.309;4.75&quot;>يا إلهي! صديقك ذو لسان ماكر!<ts=&quot;4.86;10.348&quot;>قرصان --اسمي بيير لو فير لا مثيل له.",
+    "after": "<ts=&quot;0;0.7&quot;>صدئ؟<ts=&quot;1.309;4.75&quot;>يا إلهي! صديقك سليط اللسان!<ts=&quot;4.86;10.348&quot;>اسمي بيير لو فير، قرصان لا مثيل له.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16641,
+    "key": "PILF_ZURK_GP1_CINE_ARENAINTRO_010",
+    "source_sha256": "05e4cfec07baddb8c80a747a0a02d76465c2218689e24488f3d8e0f2599f6747",
+    "before": "<ts=&quot;0.03;2.13&quot;>أنا رجل للحب أكثر منه للمقاتلة...<ts=&quot;2.509;3.559&quot;>،لكن من أجلك<ts=&quot;4.229;6.499&quot;>سأفعل استثناء دائما.",
+    "after": "<ts=&quot;0.03;2.13&quot;>أنا عاشق أكثر مني مقاتلًا...<ts=&quot;2.509;3.559&quot;>لكن من أجلك،<ts=&quot;4.229;6.499&quot;>سأستثنيك دائمًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16642,
+    "key": "PILF_ZURK_GP1_CINE_REPAIR_001",
+    "source_sha256": "f28734674093e2d00918fda5bc220573ec59f16573af3e727ca74e6afc372709",
+    "before": "<ts=&quot;0;2.793&quot;>؟--هزيمة!<ts=&quot;3.248;4.425&quot;>لكن كيف؟!<ts=&quot;5.355;9.541&quot;>،يوما ما، وبكل المبالغة سأتقم!<ts=&quot;10.121;12.817&quot;>والآن، خذ حصتك.",
+    "after": "<ts=&quot;0;2.793&quot;>هـ... هزيمة؟!<ts=&quot;3.248;4.425&quot;>لكن كيف؟!<ts=&quot;5.355;9.541&quot;>سأنتقم يومًا ما وبطريقة درامية!<ts=&quot;10.121;12.817&quot;>لكن تفضلي، خذي القطعة التي تريدينها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16644,
+    "key": "PILF_ZURK_GP1_CINE_SHINGLEINTRO_001",
+    "source_sha256": "e57f83649222982c90fb307b1d3227c6ccb2cabdf72aac84b702c903da164665",
+    "before": "<ts=&quot;0.041;7.008&quot;>يا إلهي! لقد لويت كاحلي!<ts=&quot;8.884;13.162&quot;>لكن لا تخف، فبديل تمثيلي أقل جاذبية سيقاتل<br>بدلا مني!<ts=&quot;13.303;14.038&quot;>فرانسوا!",
+    "after": "<ts=&quot;0.041;7.008&quot;>يا إلهي! التوى كاحلي!<ts=&quot;8.884;13.162&quot;>لكن لا تخافي، سيقاتل بدلًا مني بديلي في<br>المشاهد الخطرة، وهو أقل مني جاذبية!<ts=&quot;13.303;14.038&quot;>فرانسوا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16646,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_001",
+    "source_sha256": "cc46cffd88f48e8e96630cc868bef61fa69d7cfd38e9d43f7c3d1ef67a04b61f",
+    "before": "<ts=&quot;0.019;6.16&quot;>مثير للشفقة؟! أنا مجروح! طرد<br>مشرف--آه--إنه!",
+    "after": "<ts=&quot;0.019;6.16&quot;>مثير للشفقة؟! جرحت مشاعري! إنه، آه...<br>تسريح مشرف!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16647,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_002",
+    "source_sha256": "0cde24afc0adfadcb6236a8172124a0be182f3cd8034dc0838583a3955b66ca1",
+    "before": "<ts=&quot;0.042;5.306&quot;>ها! مجرد أنه يضرب بقسوة لا يعني إنك<br>ستنتصر!",
+    "after": "<ts=&quot;0.042;5.306&quot;>ها! تعرضه للضرب المبرح لا يعني أنك<br>ستفوزين!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16648,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_003",
+    "source_sha256": "e6ef83f68d8de6bea4a5010593eff6ac7135af540330d1d3c3cbb6fbf38f73e5",
+    "before": "<ts=&quot;0.036;8.876&quot;>ها ها ها! هو بخير! لا يقلق أحد! صحيح،<br>فرانسوا؟ فرانسوا!؟",
+    "after": "<ts=&quot;0.036;8.876&quot;>ها ها ها! هو بخير! لا يقلق أحد! صحيح،<br>فرانسوا؟ فرانسوا!؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16649,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_004",
+    "source_sha256": "9f383a1ffc7a4c23b3074233bbbdbec75c68afec3f5de722b896464a706015e1",
+    "before": "<ts=&quot;0;4.9&quot;>سأقاتلكما بنفسي، لكن عليكما أولا أن تثبتا<br>جدارتكما!",
+    "after": "<ts=&quot;0;4.9&quot;>سأقاتلكما بنفسي، لكن عليكما أولا أن تثبتا<br>جدارتكما!",
+    "decision": "keep"
+  },
+  {
+    "index": 16650,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_005",
+    "source_sha256": "5cbff3363b383d09a7eb2cdf76189c49f793e0c1e68466c814c68304c2f8a46a",
+    "before": "<ts=&quot;0.045;4.117&quot;>آه نعم، آه..<ts=&quot;4.117;9.387&quot;>،تمزيق نسيج المكان والزمن توقيع حقيقي<br>للقرصان!",
+    "after": "<ts=&quot;0.045;4.117&quot;>آه، نعم، أمم...<ts=&quot;4.117;9.387&quot;>تمزيق نسيج الزمكان، هذه سمة القراصنة<br>الحقيقيين!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16651,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_006",
+    "source_sha256": "444f7adafa553aa0a409dd7afbcb443002fb6ad85fb03114708087479c0942b7",
+    "before": "<ts=&quot;0.049;5.459&quot;>هاها! خذ هذه! ضربة موفقة! هاهاها!",
+    "after": "<ts=&quot;0.049;5.459&quot;>هاها! خذ هذه! ضربة موفقة! هاهاها!",
+    "decision": "keep"
+  },
+  {
+    "index": 16652,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_007",
+    "source_sha256": "6f8e0d75fb425b205128e8815ce22fc2f1fd91f911714470ea2fffbcf12c89b0",
+    "before": "<ts=&quot;0.329;3.129&quot;>آه! أنت تجعل قائدنا فخورا جدا!",
+    "after": "<ts=&quot;0.329;3.129&quot;>آه! أنت تجعلين قبطاننا فخورًا جدًّا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16653,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_008",
+    "source_sha256": "468791f0f170f92945f2c67ca03178d889a7a59d2a70ef50c5d90a1bdde94791",
+    "before": "<ts=&quot;0.049;3.007&quot;>هيا يا ريفت! ظننت إنك أنت<ts=&quot;3.099;6.736&quot;>وحقيبة ظهرك الجريئة ستقدم عرضا أفضل!<ts=&quot;6.81;8.617&quot;>ها ها ها!",
+    "after": "<ts=&quot;0.049;3.007&quot;>هيا يا ريفت! ظننت أنك أنت<ts=&quot;3.099;6.736&quot;>وحقيبة ظهرك المشاكسة ستقدمان عرضًا أفضل!<ts=&quot;6.81;8.617&quot;>هاهاها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16654,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_009",
+    "source_sha256": "e387ea556ff1bd049bf9ef17e0f779b7199bbe73dbcee8b0d6bb4f9d0faf72a5",
+    "before": "<ts=&quot;0;4.762&quot;>حتى مع متعة المشاهدة-- أطلق النار، أيها<br>الرفاق، أطلق النار!",
+    "after": "<ts=&quot;0;4.762&quot;>رغم متعة المشاهدة... أطلقوا النار، يا<br>رفاقي، أطلقوا النار!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16655,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_010",
+    "source_sha256": "12a419d752654ae0f0119e03b998d510ad8fc554d54078671a3cf0ee1e896923",
+    "before": "<ts=&quot;0;4.368&quot;>هذا محرج! لو كنت في القتال لفزنا الآن!",
+    "after": "<ts=&quot;0;4.368&quot;>هذا محرج! لو كنت في القتال لفزنا الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 16656,
+    "key": "PILF_ZURK_GP1_GAMEPLAY_011",
+    "source_sha256": "d8710b99ee3ea090d27f30a5c2c6519cf0b71baa304874ed6342fb950ee711f8",
+    "before": "<ts=&quot;0.08;3.58&quot;>آه... أسلحتهم معطوبة؟! ما يحدث؟!",
+    "after": "<ts=&quot;0.08;3.58&quot;>أمم... أتعطلت أسلحتهم؟! ماذا يجري؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16668,
+    "key": "PILF_ZURK_GP4_GAMEPLAY_001",
+    "source_sha256": "ad0892e5f5d4ebfe5c8ee0517ec7c40a390992dc768aa5dd20d453be85133e3d",
+    "before": "<ts=&quot;0.046;2.931&quot;>يا لها، يا لها، يا لها. نلتقي من جديد يا<br>ريفت.",
+    "after": "<ts=&quot;0.046;2.931&quot;>حسنًا، حسنًا، حسنًا. نلتقي مجددًا يا ريفت.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16669,
+    "key": "PILF_ZURK_GP4_GAMEPLAY_002",
+    "source_sha256": "b52e4b91da8a29b847ae537063cbf298eebd8a3426df3b4d39f7494eaff7515a",
+    "before": "<ts=&quot;0;6.269&quot;>نعم... هذا *سيكون* ،مثيرا أليس كذلك؟<ts=&quot;6.707;10.198&quot;>لكن، للأسف، أيام الفوضى ،قد انتهت<ts=&quot;10.338;15.09&quot;>فقد تقاعدت إلى حياة من اللهو والعيش فوق ما<br>استطيع.",
+    "after": "<ts=&quot;0;6.269&quot;>نعم... سيكون ذلك مثيرًا، أليس كذلك؟<ts=&quot;6.707;10.198&quot;>لكن، للأسف، انتهت أيامي المشاكسة،<ts=&quot;10.338;15.09&quot;>فقد تقاعدت لأعيش حياة من اللهو والإنفاق<br>بما يتجاوز إمكاناتي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16670,
+    "key": "PILF_ZURK_GP4_GAMEPLAY_003",
+    "source_sha256": "58ae62da932a2dacd73e5c92a0afa516d43dfda7d897b93c818c98c02b1c2811",
+    "before": "<ts=&quot;0.043;3.581&quot;>هذا الرجل الجالس بجانبي يبدو مألوفا جدا...",
+    "after": "<ts=&quot;0.043;3.581&quot;>هذا الرجل الجالس بجانبي يبدو مألوفا جدا...",
+    "decision": "keep"
+  },
+  {
+    "index": 16671,
+    "key": "PILF_ZURK_GP4_GAMEPLAY_004",
+    "source_sha256": "49aa82342490ebeec8e9a71ec29c7c80c28a98006966b051a5875acc37f836bd",
+    "before": "<ts=&quot;0.048;5.788&quot;>آه! أيها النادل! أفضل ،مشروباتك، من فضلك<br>*مع* قصبة الشرب الأكثر انثناء!",
+    "after": "<ts=&quot;0.048;5.788&quot;>آه! أيها النادل! أكثر مشروباتك فورانًا، من<br>فضلك، مع أكثر شفاطاتك مرونة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16672,
+    "key": "PILF_ZURK_GP4_GAMEPLAY_005",
+    "source_sha256": "a347c22e2d38b7950a4466ba1a1a695a790c3a4571622e20041ee1a7904ee16b",
+    "before": "<ts=&quot;0.044;3.826&quot;>تعرف، لطالما أردت الدخول في عالم الطبخ.<ts=&quot;3.826;7.196&quot;>بيير لو فير، طاه فائق.",
+    "after": "<ts=&quot;0.044;3.826&quot;>تعلمين، لطالما أردت دخول عالم الطهو.<ts=&quot;3.826;7.196&quot;>بيير لو فير، طاه لا مثيل له.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16673,
+    "key": "PILF_ZURK_GP4_GAMEPLAY_006",
+    "source_sha256": "3a5ff8971d5ba250b3e9c1d406bf9208e79ad08df3eaf900c58308d6b0e8c8dd",
+    "before": "<ts=&quot;0.018;5.189&quot;>ريفت. هل تعرف، صدفة، هذا الرجل الطويل<br>الجالس بجانبي؟",
+    "after": "<ts=&quot;0.018;5.189&quot;>ريفت، هل تعرفين بالمصادفة هذا الرجل الطويل<br>الجالس بجانبي؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16674,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_016",
+    "source_sha256": "5ca2e520f2d51471d0f2f52ca1170d5a23a971f32e3689382e39985b98483424",
+    "before": "<ts=&quot;0.048;0.948&quot;>في!",
+    "after": "<ts=&quot;0.048;0.948&quot;>في!",
+    "decision": "keep"
+  },
+  {
+    "index": 16675,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_017",
+    "source_sha256": "fd7574f337ea40a0af89b98811bb6971da9b29c94ab406ecbdab87b28cb24b6a",
+    "before": "<ts=&quot;0.041;0.998&quot;>هو!",
+    "after": "<ts=&quot;0.041;0.998&quot;>هو!",
+    "decision": "keep"
+  },
+  {
+    "index": 16676,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_020",
+    "source_sha256": "862dd817d78f620f29a062c8955ab87f70f8108270a50dbb6a3228ffbf6eeb4a",
+    "before": "<ts=&quot;0.169;5&quot;>يا إلهي، أحدكم خارج اللحن! أوقفه الآن، هذا<br>عذاب!",
+    "after": "<ts=&quot;0.169;5&quot;>يا إلهي، أحدكم يغني بنشاز! توقفوا الآن،<br>هذا عذاب!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16677,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_021",
+    "source_sha256": "e5dff8ae2644327a9a95ecad08a37bb48a47d3d0998a7f8ff61ebd0b3a795388",
+    "before": "<ts=&quot;0;2.367&quot;>تظن إنك تستطيع إفساد إعدامنا؟!<ts=&quot;2.525;3.6&quot;>فكر مرة أخرى!",
+    "after": "<ts=&quot;0;2.367&quot;>أتظن أنك تستطيع إفساد عملية الإعدام؟!<ts=&quot;2.525;3.6&quot;>فكر مجددًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16678,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_022",
+    "source_sha256": "45b64f85a6ebc69d7aa68a49e8eebeeba34d533a878f5f873e2a375e4515480a",
+    "before": "<ts=&quot;0;1.29&quot;>آهههه!",
+    "after": "<ts=&quot;0;1.29&quot;>آهههه!",
+    "decision": "keep"
+  },
+  {
+    "index": 16679,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_023",
+    "source_sha256": "bc2c0da97020efe1fc22f3f441dc9005ac2efc2580047d2d6e4aea5ee8b3d1d7",
+    "before": "<ts=&quot;0.023;4.408&quot;>إن ظننت أن بوسعك القفز إلى ،مقدمة الصف<br>لهذا الإعدام فعليك أن تتوقع شيئا آخر!",
+    "after": "<ts=&quot;0.023;4.408&quot;>إن ظننت أن بوسعك تجاوز الصف للوصول إلى<br>الإعدام، فأنت مخطئ!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16680,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_025",
+    "source_sha256": "058570b567039cc8518d4a80326c4375569ec259d263866f8f6462c24c6c51b3",
+    "before": "<ts=&quot;0.046;0.777&quot;>خطأ!",
+    "after": "<ts=&quot;0.046;0.777&quot;>خطأ!",
+    "decision": "keep"
+  },
+  {
+    "index": 16681,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_026",
+    "source_sha256": "5e1e2742cea646c12b5447033afad3a9b78a7320be8a9cd0e3296298674589af",
+    "before": "<ts=&quot;0;3.622&quot;>آه، عادة يكون المحكومون ،مخلوقات بائسة<ts=&quot;3.649;7.49&quot;>مستسلمة لمصيرها كالبلرغ العالق في ثقب<br>أسود.",
+    "after": "<ts=&quot;0;3.622&quot;>آه، عادة يكون المحكومون مخلوقات بائسة،<ts=&quot;3.649;7.49&quot;>مستسلمة لمصيرها كالبلارغ العالقين في ثقب<br>أسود.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16682,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_027",
+    "source_sha256": "ae0a88d4d4e53e39fea09d48a5cde59bdf903bfb3099149d3d1f86a20c29c66c",
+    "before": "<ts=&quot;0.229;1.629&quot;>لكن! بيير<ts=&quot;1.78;7.9&quot;>رجل نشيط، ولا شك أن مساعاته لطلب الرحمة<br>ستوفر متعة رائعة.",
+    "after": "<ts=&quot;0.229;1.629&quot;>لكن بيير<ts=&quot;1.78;7.9&quot;>مفعم بالحيوية، ولا شك أن توسلاته طلبًا<br>للرحمة ستكون مسلية جدًّا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16683,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_028",
+    "source_sha256": "d46bc48f346f769bbdbb0f3eb5303015f7f3d1df7abd6ea9c27681d1fabccba5",
+    "before": "<ts=&quot;0.042;3.176&quot;>إن أسرعنا، ما زلنا نستطيع إتمام الإعدام!",
+    "after": "<ts=&quot;0.042;3.176&quot;>إن أسرعنا، فما زال بإمكاننا حضور الإعدام!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16684,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_029",
+    "source_sha256": "fa2332ed6a4da1ab07e30c5e0ec3995292513be235bd10f8544b6d0a21f057d9",
+    "before": "<ts=&quot;0.24;2.667&quot;>كنت أظن أن ليلة الديسكو في الأسبوع<br>المقبل؟!",
+    "after": "<ts=&quot;0.24;2.667&quot;>كنت أظن أن ليلة الديسكو في الأسبوع<br>المقبل؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16685,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_030",
+    "source_sha256": "8c9e7956313894dedded25b30e8c66fce2ce6207c3b7ccd2e15798f45d6faccb",
+    "before": "<ts=&quot;0.008;3.515&quot;>متطفلون؟! لا يوجد شيء لتروه في الأمام!",
+    "after": "<ts=&quot;0.008;3.515&quot;>متطفلون؟! لا يوجد شيء لتروه في الأمام!",
+    "decision": "keep"
+  },
+  {
+    "index": 16686,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_031",
+    "source_sha256": "f78987f892343e5dc9c19f86b48969cc4ad4657d8dd7c0602830012f24e37f40",
+    "before": "<ts=&quot;0.047;6.423&quot;>غنيمة، غنيمة، غنيمة غنيمة، غنيمة، غنيمة<br>غنيمة، غنيمة!",
+    "after": "<ts=&quot;0.047;6.423&quot;>غنيمة، غنيمة، غنيمة غنيمة، غنيمة، غنيمة<br>غنيمة، غنيمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16688,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_033",
+    "source_sha256": "9d2e34662f672e84fb97dba6a49c2a420226733aee85eb71baf2e01bdcc9d54a",
+    "before": "<ts=&quot;0;1.93&quot;>تستمتع بهذا، صحيح؟!",
+    "after": "<ts=&quot;0;1.93&quot;>تستمتع بهذا، صحيح؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16689,
+    "key": "PIR1_ARDO_GP1_ARDO_GP_034",
+    "source_sha256": "1f25546f1d642c0ce9504f9755a220b730680ef63674e43748f0aa3f858a9e8f",
+    "before": "<ts=&quot;0.052;6.088&quot;>ثورة!",
+    "after": "<ts=&quot;0.052;6.088&quot;>تمرد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16690,
+    "key": "PIR1_CORV_GP1_DEMO_PARADE_001",
+    "source_sha256": "8fd61e340cd95b3b4416cdc3114cc20c5f929c37c9a1e1637df9ad5c9e444c3e",
+    "before": "<ts=&quot;0.049;1.385&quot;>لا مكان لك بيننا!",
+    "after": "<ts=&quot;0.049;1.385&quot;>لا مكان لك بيننا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16691,
+    "key": "PIR1_CORV_GP1_DEMO_PARADE_003",
+    "source_sha256": "0bf1d390858ae7c64afa527ac4806355e9772ee2038aed4ebb22a1a4a8fabfa6",
+    "before": "<ts=&quot;0.051;1.914&quot;>انتبهوا لأعينكم أيها الشباب!",
+    "after": "<ts=&quot;0.051;1.914&quot;>انتبهوا لأعينكم أيها الشباب!",
+    "decision": "keep"
+  },
+  {
+    "index": 16692,
+    "key": "PIR1_CORV_GP1_DEMO_PARADE_006",
+    "source_sha256": "b5853e794235905446177407625aad0f60d63e1a8b91ecb0184f58304dfb7929",
+    "before": "<ts=&quot;0.048;2.798&quot;>ما هذا الخداع--! ؟",
+    "after": "<ts=&quot;0.048;2.798&quot;>أي نوع من الخداع هذا؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16693,
+    "key": "PIR1_CORV_GP1_DEMO_PARADE_008",
+    "source_sha256": "ce4e07081765e1d43e6496c3fbcc17794842f45beaeb81fed1835e26763a159a",
+    "before": "<ts=&quot;0;1.999&quot;>انصرف أيها الفأر الغريب!",
+    "after": "<ts=&quot;0;1.999&quot;>انصرف أيها الفأر الغريب!",
+    "decision": "keep"
+  },
+  {
+    "index": 16694,
+    "key": "PIR1_CORV_GP1_GP_PARADE_001",
+    "source_sha256": "06536e56e6d98f402333f311138ff91d8c1d0c7ab1adca7a38b82156b874de08",
+    "before": "<ts=&quot;0.066;1.372&quot;>كريكن!",
+    "after": "<ts=&quot;0.066;1.372&quot;>كراكن!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16695,
+    "key": "PIR1_CORV_GP1_GP_PARADE_002",
+    "source_sha256": "bc4d906c2446f742b0bb54afd49b703917087f227dacd0188c869e39367b74b1",
+    "before": "<ts=&quot;0;1.91&quot;>كريكن، يا إلهي!<ts=&quot;2.31;4.401&quot;>أعيدها إلى البحر!",
+    "after": "<ts=&quot;0;1.91&quot;>كراكن، يا إلهي!<ts=&quot;2.31;4.401&quot;>أعيدوه إلى البحر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16696,
+    "key": "PIR1_CORV_GP1_GP_PARADE_003",
+    "source_sha256": "5412d8930e8f4adccffebaf62505852ea2e5a9e596debc0154591b42f338ccb2",
+    "before": "<ts=&quot;0.029;2.094&quot;>ما هذا الخداع--! ؟",
+    "after": "<ts=&quot;0.029;2.094&quot;>أي نوع من الخداع هذا؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16697,
+    "key": "PIR1_CORV_GP1_GP_PARADE_004",
+    "source_sha256": "5e6e3504b80b8150a2b93968b5d0f3cc560fa5a46befd6bf6e9a8d8960401d4d",
+    "before": "<ts=&quot;0.056;1.393&quot;>لقد صعدوا إلينا على متن السفينة!",
+    "after": "<ts=&quot;0.056;1.393&quot;>لقد صعدوا إلينا على متن السفينة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16701,
+    "key": "PIR1_CORV_GP1_GP_PARADE_008",
+    "source_sha256": "b4d72d8176501d7dcccbd2f723978719065f688a1dc27b339854d4e5182384a2",
+    "before": "<ts=&quot;0.039;3.228&quot;>انزل من سفينتي أيها الوحش الخبيث!",
+    "after": "<ts=&quot;0.039;3.228&quot;>انزل من سفينتي أيها الوحش الخبيث!",
+    "decision": "keep"
+  },
+  {
+    "index": 16702,
+    "key": "PIR1_CORV_GP3_FINALE_001",
+    "source_sha256": "9ad46d8570ba98487b2b0d5dc28705bce11c1bbae5b2ac0138f1248c958d21de",
+    "before": "<ts=&quot;0.049;2.499&quot;>كابتن «ماذا»! أيها جرذ قاع السفينة!",
+    "after": "<ts=&quot;0.049;2.499&quot;>القبطان «ماذا»! يا جرذ اليابسة القذر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16703,
+    "key": "PIR1_CORV_GP3_FINALE_002",
+    "source_sha256": "bc1ed04817c907c81ee93b23c3c535784aab5138f95f13ab81384d4d46d4eb4e",
+    "before": "<ts=&quot;0.039;2.903&quot;>إذا جاءت القراصنة لتسترد كل شيء!",
+    "after": "<ts=&quot;0.039;2.903&quot;>إذا جاءت القراصنة لتسترد كل شيء!",
+    "decision": "keep"
+  },
+  {
+    "index": 16704,
+    "key": "PIR1_CORV_GP3_FINALE_003",
+    "source_sha256": "88381107998e3f8244d6ab55a6d91ba5e002510f56c6f47dda2da7bd12b24797",
+    "before": "<ts=&quot;0.046;3.755&quot;>أبدعنا كما نفعل دائما!",
+    "after": "<ts=&quot;0.046;3.755&quot;>أبدعنا كما نفعل دائما!",
+    "decision": "keep"
+  },
+  {
+    "index": 16705,
+    "key": "PIR1_ENM_GEN_AIMING_001",
+    "source_sha256": "4ea358cae32ae3fe6760562ce3875dfa37a872e8a8f0db0725d1210bef604227",
+    "before": "<ts=&quot;0;2.1&quot;>هم في خط تصويبي!",
+    "after": "<ts=&quot;0;2.1&quot;>هم في خط تصويبي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16706,
+    "key": "PIR1_ENM_GEN_AIMING_002",
+    "source_sha256": "4d3528e461560eee3d393d62b3d4ac02ef5e9811b7fab1c396575619456dfe11",
+    "before": "<ts=&quot;0.002;1.881&quot;>نار في الحفرة!",
+    "after": "<ts=&quot;0.002;1.881&quot;>احذروا الانفجار!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16707,
+    "key": "PIR1_ENM_GEN_AIMING_003",
+    "source_sha256": "10158585439a4f8b59dbf26c05e35cdb635e32b4b3a6039e219dc04f9c24691b",
+    "before": "<ts=&quot;0.001;1.162&quot;>سأطلق نارا!",
+    "after": "<ts=&quot;0.001;1.162&quot;>سأطلق النار!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16708,
+    "key": "PIR1_ENM_GEN_AIMING_004",
+    "source_sha256": "2014f705db72ec73ea2c4ed4600c5a19029faa7646b89365801e8a3d0d3d6e84",
+    "before": "<ts=&quot;0;1.75&quot;>لقد ثبتت تصويبي عليك!",
+    "after": "<ts=&quot;0;1.75&quot;>ثبت تصويبي عليك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16709,
+    "key": "PIR1_ENM_GEN_AIMING_005",
+    "source_sha256": "f977bd59f5c1a35e3fe7a4090a107b4eba7a56a34410a1dbff146ae3384d8c21",
+    "before": "<ts=&quot;0;1.4&quot;>لديهم في مرمى ناظري!",
+    "after": "<ts=&quot;0;1.4&quot;>إنهم في مرمى تصويبي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16710,
+    "key": "PIR1_ENM_GEN_ALLYDEAD_001",
+    "source_sha256": "06a363477503754ef9c8c5cb4d6e7d670effa3f5342fee2e581f7330aa3e2ce5",
+    "before": "<ts=&quot;0.018;1.214&quot;>سقط قرصان!",
+    "after": "<ts=&quot;0.018;1.214&quot;>سقط قرصان!",
+    "decision": "keep"
+  },
+  {
+    "index": 16711,
+    "key": "PIR1_ENM_GEN_ALLYDEAD_002",
+    "source_sha256": "7ee8746b6b40414c04b1c82a80089e5f3dde0b3a2ea9da433f3140e882689202",
+    "before": "<ts=&quot;0;2&quot;>أعدادنا تتناقص!",
+    "after": "<ts=&quot;0;2&quot;>أعدادنا تتناقص!",
+    "decision": "keep"
+  },
+  {
+    "index": 16712,
+    "key": "PIR1_ENM_GEN_ALLYDEAD_003",
+    "source_sha256": "a93f2f7bb791c2002779229d5fcb7650c120348f0688e3d6f9f7959dc09174e2",
+    "before": "<ts=&quot;0.011;2.365&quot;>كان هذا رفيقي المقرين!",
+    "after": "<ts=&quot;0.011;2.365&quot;>كان هذا مساعد قبطاني!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16713,
+    "key": "PIR1_ENM_GEN_ALLYDEAD_004",
+    "source_sha256": "a6429c4c6aab8868507fb0282f2c48c3e172137ae52254d3cd6dd814381f03c5",
+    "before": "<ts=&quot;0.008;2.446&quot;>لن أسقط بسهولة!",
+    "after": "<ts=&quot;0.008;2.446&quot;>لن أسقط بسهولة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16714,
+    "key": "PIR1_ENM_GEN_ALLYDEAD_005",
+    "source_sha256": "976dc4790f217091caa67accff756572a014e6fd8f26709727def3cc225030a0",
+    "before": "<ts=&quot;0.053;1.321&quot;>يقتلوننا!",
+    "after": "<ts=&quot;0.053;1.321&quot;>يقتلوننا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16715,
+    "key": "PIR1_ENM_GEN_ALLYDEAD_006",
+    "source_sha256": "9a2666edccfcfb4cc534a7d87885497233ee7ee4c71da3637ea60a42f95d8fba",
+    "before": "<ts=&quot;0;1.4&quot;>فقدنا واحدا آخر!",
+    "after": "<ts=&quot;0;1.4&quot;>فقدنا واحدا آخر!",
+    "decision": "keep"
+  },
+  {
+    "index": 16717,
+    "key": "PIR1_ENM_GEN_ATTACKDODGED_001",
+    "source_sha256": "633434f213b39e4e1d7b95554c747367f38b1245d6d43afff8e163ab1bbba8ef",
+    "before": "<ts=&quot;0.049;1.02&quot;>،ابق مكانك<ts=&quot;1.49;1.84&quot;>أيها الوغد!",
+    "after": "<ts=&quot;0.049;1.02&quot;>ابق مكانك،<ts=&quot;1.49;1.84&quot;>أيها الوغد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16718,
+    "key": "PIR1_ENM_GEN_ATTACKDODGED_002",
+    "source_sha256": "ac6b4a19a96c08ccaa33104083854ddbd5314cb28cb972341c5e8d5034fd5150",
+    "before": "<ts=&quot;0;1.999&quot;>ألق مرساك يا ناعم!",
+    "after": "<ts=&quot;0;1.999&quot;>ألق مرساك يا ناعم!",
+    "decision": "keep"
+  },
+  {
+    "index": 16719,
+    "key": "PIR1_ENM_GEN_ATTACKDODGED_003",
+    "source_sha256": "f440eabf93861dd3365cbfe41abb003ab3a2a52ac0fa3e89007c508efd57861c",
+    "before": "<ts=&quot;0;1.5&quot;>تظن إنك سريع؟!",
+    "after": "<ts=&quot;0;1.5&quot;>أتظن أنك سريع؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16720,
+    "key": "PIR1_ENM_GEN_ATTACKDODGED_004",
+    "source_sha256": "082184c657b10138feca532e2970a6cd25f3f085584b684cfbdc5c723a2f53a4",
+    "before": "<ts=&quot;0;1.05&quot;>لا تتحرك<ts=&quot;1.52;1.87&quot;>مرة أخرى!",
+    "after": "<ts=&quot;0;1.05&quot;>لا تتحرك<ts=&quot;1.52;1.87&quot;>مرة أخرى!",
+    "decision": "keep"
+  },
+  {
+    "index": 16721,
+    "key": "PIR1_ENM_GEN_BLOCK_001",
+    "source_sha256": "41c1160b24ac5a242a2dca05a74f1881166bd0798462a11ed32c1bbde4fd268e",
+    "before": "<ts=&quot;0.43;1.634&quot;>هذا كل ما لديك؟",
+    "after": "<ts=&quot;0.43;1.634&quot;>هذا كل ما لديك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16722,
+    "key": "PIR1_ENM_GEN_BLOCK_002",
+    "source_sha256": "615258ecf9ab3a0ca1f7c57fbbf3e88b03054a7466936ea10163a0d1630d01d8",
+    "before": "<ts=&quot;0.24;1.499&quot;>هاه! بائس.",
+    "after": "<ts=&quot;0.24;1.499&quot;>هاه! بائس.",
+    "decision": "keep"
+  },
+  {
+    "index": 16723,
+    "key": "PIR1_ENM_GEN_BLOCK_003",
+    "source_sha256": "32f901485cbe673090cb1ec6f9001474090729391cf91d015af15fb52fd3431b",
+    "before": "<ts=&quot;0;2.089&quot;>أنت تختبر صبري الآن!",
+    "after": "<ts=&quot;0;2.089&quot;>أنت تختبر صبري الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 16724,
+    "key": "PIR1_ENM_GEN_BLOCK_004",
+    "source_sha256": "f1fa16ee95831facd88f5fa62bbc9ff71215aec047daed301825b9e74dc12c1f",
+    "before": "<ts=&quot;0;1.75&quot;>لن توقفني يا اللومباكس!",
+    "after": "<ts=&quot;0;1.75&quot;>لن توقفني، يا لومباكس!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16725,
+    "key": "PIR1_ENM_GEN_BLOCK_005",
+    "source_sha256": "54c0378197684bf349fc419a4bd55080c0ba74843b7b3ce0b8c90fb340c5c2ca",
+    "before": "<ts=&quot;0;1.05&quot;>ما زلت قادما!",
+    "after": "<ts=&quot;0;1.05&quot;>ما زلت قادما!",
+    "decision": "keep"
+  },
+  {
+    "index": 16726,
+    "key": "PIR1_ENM_GEN_BOUNCE_001",
+    "source_sha256": "0c86480e3d89d32322eeb6f24713bfb5771431631ac9c35f201ad64e8deca255",
+    "before": "<ts=&quot;0.042;1.407&quot;>انتبه للقنابل!",
+    "after": "<ts=&quot;0.042;1.407&quot;>احذروا القنابل!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16727,
+    "key": "PIR1_ENM_GEN_BOUNCE_002",
+    "source_sha256": "a70aa12220bc2817fd3bd603318a3e97114a053c2a468da1c913321ade698fc7",
+    "before": "<ts=&quot;0.04;1.81&quot;>التمسوا ساترا يا رفاقي!",
+    "after": "<ts=&quot;0.04;1.81&quot;>التمسوا ساترا يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16728,
+    "key": "PIR1_ENM_GEN_BOUNCE_003",
+    "source_sha256": "7f1c4033939bd59e0b5266c2d593ef3191e7825116d6ef83026eb7566297fda5",
+    "before": "<ts=&quot;0.051;1.471&quot;>انتبه للباونسرات!",
+    "after": "<ts=&quot;0.051;1.471&quot;>احذروا قذائف الباونسر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16729,
+    "key": "PIR1_ENM_GEN_BURSTPISTOL_001",
+    "source_sha256": "e225fc4a1b35e18e1ccb47674a5c24b9fc3414872f91e1da9754f66c5c3afe19",
+    "before": "<ts=&quot;0.044;1.46&quot;>الرصاص قادم!",
+    "after": "<ts=&quot;0.044;1.46&quot;>الرصاص قادم!",
+    "decision": "keep"
+  },
+  {
+    "index": 16730,
+    "key": "PIR1_ENM_GEN_BURSTPISTOL_002",
+    "source_sha256": "0059e27fd505e61ea30e46b7b600c6779ef99fd7a28f68b69595fdc607528eb1",
+    "before": "<ts=&quot;0;1.249&quot;>أطلق النار!",
+    "after": "<ts=&quot;0;1.249&quot;>إنهم يطلقون النار!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16731,
+    "key": "PIR1_ENM_GEN_BURSTPISTOL_003",
+    "source_sha256": "e1fc9478e86c2c93a9b4d136f77a60657f45acc32c67b75ce41b84d0796d6167",
+    "before": "<ts=&quot;0.059;1.14&quot;>لا تصب!",
+    "after": "<ts=&quot;0.059;1.14&quot;>لا تدعهم يصيبونك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16732,
+    "key": "PIR1_ENM_GEN_BURSTPISTOL_005",
+    "source_sha256": "37945328ca944bfda0afaca83cbc667cf96a22f9ec8f64391feaf4c3a313d110",
+    "before": "<ts=&quot;0.027;1.335&quot;>التمسوا ساترا يا رفاقي!",
+    "after": "<ts=&quot;0.027;1.335&quot;>التمسوا ساترا يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16733,
+    "key": "PIR1_ENM_GEN_BUZZBLADES_001",
+    "source_sha256": "13b453c4394ac1d6c5edf8d9c3ee74789fa35fcd9af7f54eeb4a855e90955070",
+    "before": "<ts=&quot;0;1.67&quot;>انتبه لنصال الأزيز!",
+    "after": "<ts=&quot;0;1.67&quot;>احذروا نصال المنشار تلك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16734,
+    "key": "PIR1_ENM_GEN_BUZZBLADES_002",
+    "source_sha256": "48f656c42b2088d4d003e7cdbd9ae4846b02808adab89831df2ae66b94b4bcf4",
+    "before": "<ts=&quot;0;2.1&quot;>إننا الآن على طاولة التقطيع!",
+    "after": "<ts=&quot;0;2.1&quot;>إننا الآن على طاولة التقطيع!",
+    "decision": "keep"
+  },
+  {
+    "index": 16735,
+    "key": "PIR1_ENM_GEN_BUZZBLADES_003",
+    "source_sha256": "1f78c75f540f6a214368d00289426ef1228ce32132b5e89ee7e2ad5a2ad672af",
+    "before": "<ts=&quot;0;2.416&quot;>سأعلمك التقطيع والتجزئة!",
+    "after": "<ts=&quot;0;2.416&quot;>سأعلمك التقطيع والتجزئة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16736,
+    "key": "PIR1_ENM_GEN_BUZZBLADES_004",
+    "source_sha256": "c9c7fb1fb56052aab1154c1afc6e4a9872ae17a857f24981263da8933e6297ad",
+    "before": "<ts=&quot;0.054;1.778&quot;>نصال الأزيز في الهواء!",
+    "after": "<ts=&quot;0.054;1.778&quot;>نصال الأزيز في الهواء!",
+    "decision": "keep"
+  },
+  {
+    "index": 16737,
+    "key": "PIR1_ENM_GEN_BUZZBLADES_005",
+    "source_sha256": "86842fdc66c6e4f5613efcfe02814de00d852dcb50dd20c60726592e1bda1b78",
+    "before": "<ts=&quot;0.02;1.843&quot;>التمسوا ساترا يا رفاقي!",
+    "after": "<ts=&quot;0.02;1.843&quot;>التمسوا ساترا يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16738,
+    "key": "PIR1_ENM_GEN_CARPET_001",
+    "source_sha256": "b6505deb016633a6d77b936ec4d3bae0b2854845a25d821cf35b1f8ab2db87d8",
+    "before": "<ts=&quot;0.041;2.194&quot;>احموا رؤوسكم يا رفاقي!",
+    "after": "<ts=&quot;0.041;2.194&quot;>احموا رؤوسكم يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16739,
+    "key": "PIR1_ENM_GEN_CARPET_002",
+    "source_sha256": "aa4a735c1c1554f6b9a1575fda3ceff7fb37bd5214c4caa26d46ddeadfecd2c7",
+    "before": "<ts=&quot;0.049;2.207&quot;>ينهمر النيران من الأعلى!",
+    "after": "<ts=&quot;0.049;2.207&quot;>إنها تمطر نارًا من الأعلى!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16740,
+    "key": "PIR1_ENM_GEN_CARPET_003",
+    "source_sha256": "a277a7582e49cff7a286713b7e43eb225454e6a1e75ddf1f2ae4cceaa42e1a48",
+    "before": "<ts=&quot;0.024;1.795&quot;>إنهم يرسلون المسيرات!",
+    "after": "<ts=&quot;0.024;1.795&quot;>إنهم يرسلون المسيرات!",
+    "decision": "keep"
+  },
+  {
+    "index": 16741,
+    "key": "PIR1_ENM_GEN_CARPET_004",
+    "source_sha256": "08f645b7b25637f7802989c86fb152f06c1db81a5f1b335f08c77093dffe1b20",
+    "before": "<ts=&quot;0.05;1.563&quot;>انح وارت!",
+    "after": "<ts=&quot;0.05;1.563&quot;>انحنوا واحتموا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16742,
+    "key": "PIR1_ENM_GEN_CARPET_005",
+    "source_sha256": "6fa605789e24331f987e094580943f1b8ef8848bbf98e075650eae81eeef298f",
+    "before": "<ts=&quot;0;1.749&quot;>انبطحوا على الأرض يا رفاقي!",
+    "after": "<ts=&quot;0;1.749&quot;>انبطحوا على الأرض يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16750,
+    "key": "PIR1_ENM_GEN_DAMAGED_001",
+    "source_sha256": "a508454daa75d885ad5f82537c67f29249c2c7176a450a29e513352bff27f3b9",
+    "before": "<ts=&quot;0;1.75&quot;>هرااا، لقد أصبت!",
+    "after": "<ts=&quot;0;1.75&quot;>هرااا، لقد أصبت!",
+    "decision": "keep"
+  },
+  {
+    "index": 16751,
+    "key": "PIR1_ENM_GEN_DAMAGED_002",
+    "source_sha256": "8ac5b0e3d6eff04de28ad900499fd36105817bb20ea9a14ce99f188a6d87abb3",
+    "before": "<ts=&quot;0.049;2.54&quot;>كان تصويبا محظوظا!",
+    "after": "<ts=&quot;0.049;2.54&quot;>كانت طلقة حظ!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16752,
+    "key": "PIR1_ENM_GEN_DAMAGED_003",
+    "source_sha256": "c49380b8d0a722fe91484d6ec24b8dfbefe5267f1682ba01a65cf6edd6eb2e0a",
+    "before": "<ts=&quot;0.02;0.5&quot;>،آآه<ts=&quot;1.089;1.789&quot;>أتتجرؤ؟!",
+    "after": "<ts=&quot;0.02;0.5&quot;>آآه،<ts=&quot;1.089;1.789&quot;>كيف تجرؤ؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16753,
+    "key": "PIR1_ENM_GEN_DAMAGED_004",
+    "source_sha256": "6c0ce873573d827f41b824b56d5b47215be8d37e038d525b5fcaf53daf83c843",
+    "before": "<ts=&quot;0.3;1.7&quot;>أنا أتألم يا رفاقي!",
+    "after": "<ts=&quot;0.3;1.7&quot;>أنا أتألم يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16754,
+    "key": "PIR1_ENM_GEN_DAMAGED_005",
+    "source_sha256": "2495857ac76edafa7ef4888cd305b75849ca55b7e003cb89a6e8acd3d4143620",
+    "before": "<ts=&quot;0;3.25&quot;>آه، أعد المحاولة! وأنا أجرؤ!",
+    "after": "<ts=&quot;0;3.25&quot;>آه، حاول مجددًا! أتحداك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16755,
+    "key": "PIR1_ENM_GEN_DAMAGED_006",
+    "source_sha256": "56e0142bdf0d85576755d4c0f265fb73b373ddae8ada4780c3aafa2bc12d6305",
+    "before": "<ts=&quot;0.048;4.071&quot;>أنا مصاب، لا تقلق! حان وقت الغضب!",
+    "after": "<ts=&quot;0.048;4.071&quot;>أنا مصاب، لا تقلق! حان وقت الغضب!",
+    "decision": "keep"
+  },
+  {
+    "index": 16756,
+    "key": "PIR1_ENM_GEN_DAMAGED_007",
+    "source_sha256": "672ee7c670b361aa9f8ab30b980bf15e75c8b6d365ed37f3da3f89c00d3e3e95",
+    "before": "<ts=&quot;0.035;1.758&quot;>اهتزت عظامي!",
+    "after": "<ts=&quot;0.035;1.758&quot;>اهتزت عظامي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16757,
+    "key": "PIR1_ENM_GEN_DAMAGED_008",
+    "source_sha256": "d7cc39cc12ecb1d6b74fc384bae19109cbfac892725ceb129a1951433401b6ef",
+    "before": "<ts=&quot;0.065;2.169&quot;>يلزمك أكثر من ذلك لتسقطني!",
+    "after": "<ts=&quot;0.065;2.169&quot;>يلزمك أكثر من ذلك لتسقطني!",
+    "decision": "keep"
+  },
+  {
+    "index": 16758,
+    "key": "PIR1_ENM_GEN_DEALTDAMAGE_001",
+    "source_sha256": "fdc8f6e83cfff110de38b3b9a00796fdab6918553cca4b611c85cd9efcfeeef1",
+    "before": "<ts=&quot;0.05;3.302&quot;>هيا يا رفاقي! بضع طلقات أخرى فقط!",
+    "after": "<ts=&quot;0.05;3.302&quot;>هيا يا رفاقي! بضع طلقات أخرى فقط!",
+    "decision": "keep"
+  },
+  {
+    "index": 16759,
+    "key": "PIR1_ENM_GEN_DEALTDAMAGE_002",
+    "source_sha256": "5694f75d4da18bf90f3d00ac73e08370981877bc49da3f009cd257c1d3397827",
+    "before": "<ts=&quot;0.02;2.405&quot;>أرى الخوف في عينيك!",
+    "after": "<ts=&quot;0.02;2.405&quot;>أرى الخوف في عينيك!",
+    "decision": "keep"
+  },
+  {
+    "index": 16760,
+    "key": "PIR1_ENM_GEN_DEALTDAMAGE_003",
+    "source_sha256": "5861b68fe101f66c2f17a67b8b208c915d2d60b7d833c964431a2f4a9325abbd",
+    "before": "<ts=&quot;0.459;2.75&quot;>هاههاهار! ،أحسست بتلك صحيح؟!",
+    "after": "<ts=&quot;0.459;2.75&quot;>هاهاهار! شعرت بتلك الضربة، أليس كذلك؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16761,
+    "key": "PIR1_ENM_GEN_DEALTDAMAGE_004",
+    "source_sha256": "1342fde962d6ec8f66d30da4db0e82bf613c2bf9ab888e630b7441a2ebdb8b48",
+    "before": "<ts=&quot;0;1.4&quot;>لن يدوم هذا طويلا!",
+    "after": "<ts=&quot;0;1.4&quot;>لن يدوم هذا طويلا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16762,
+    "key": "PIR1_ENM_GEN_DEALTDAMAGE_005",
+    "source_sha256": "cbcfe6ba720a9d7aff426ee8365198b6c63b7a5449994185665137bdc1bdad75",
+    "before": "<ts=&quot;0.049;1.875&quot;>ضربة جيدة حقا!",
+    "after": "<ts=&quot;0.049;1.875&quot;>ضربة جيدة حقا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16763,
+    "key": "PIR1_ENM_GEN_DEALTDAMAGE_006",
+    "source_sha256": "ce741e1296c287efe476c7127aac6442dcafcfd69a0e37ec4f01d1901988f947",
+    "before": "<ts=&quot;0;2.25&quot;>أوف. هل تحتاج ضمادة؟",
+    "after": "<ts=&quot;0;2.25&quot;>أوف. هل تحتاج ضمادة؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16764,
+    "key": "PIR1_ENM_GEN_DEALTDAMAGE_007",
+    "source_sha256": "ae6b50e01d0e605141ff2e96e2049fff57e1aabdc2a654462179f94f3619ee1c",
+    "before": "<ts=&quot;0.028;1.312&quot;>حققت إصابة!",
+    "after": "<ts=&quot;0.028;1.312&quot;>حققت إصابة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16765,
+    "key": "PIR1_ENM_GEN_DEALTDAMAGE_008",
+    "source_sha256": "9a1eb9f4e7ef81b851b89a43e781cc47502c30268ec078b396a65100ce1fb398",
+    "before": "<ts=&quot;0.041;1.436&quot;>الشرير مصاب!",
+    "after": "<ts=&quot;0.041;1.436&quot;>الشرير مصاب!",
+    "decision": "keep"
+  },
+  {
+    "index": 16783,
+    "key": "PIR1_ENM_GEN_DOOMAGENTS_001",
+    "source_sha256": "e6bbe5d326e68ee0e5770630de99004c21162740b59f9edefc308fac142070ed",
+    "before": "<ts=&quot;0.034;1.718&quot;>ما هذه الأشياء؟!",
+    "after": "<ts=&quot;0.034;1.718&quot;>ما هذه الأشياء؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16784,
+    "key": "PIR1_ENM_GEN_DOOMAGENTS_002",
+    "source_sha256": "05e9993e4d32f4a9c319e96a4a0d0ece6ba1c86f7dd88b8f1563855b0691a25f",
+    "before": "<ts=&quot;0;1.05&quot;>سينفجرون!",
+    "after": "<ts=&quot;0;1.05&quot;>سينفجرون!",
+    "decision": "keep"
+  },
+  {
+    "index": 16785,
+    "key": "PIR1_ENM_GEN_DOOMAGENTS_003",
+    "source_sha256": "70ec3f51aea42c444b29ec39dcd956e5360dfdf7cb30cf01a148f8e2ab84ed1b",
+    "before": "<ts=&quot;0;1.749&quot;>انفجروا أيها الآليات الصغيرة!",
+    "after": "<ts=&quot;0;1.749&quot;>اللعنة عليكم، أيتها الروبوتات الصغيرة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16786,
+    "key": "PIR1_ENM_GEN_DOOMAGENTS_004",
+    "source_sha256": "30fe264f0fb3656d4da7801f60e4097a1d6eeac263cc294d963e86a178f7a677",
+    "before": "<ts=&quot;0;1.5&quot;>انتبه لأصابع قدميك يا رفاقي!",
+    "after": "<ts=&quot;0;1.5&quot;>انتبهوا لأصابع أقدامكم، يا رفاقي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16787,
+    "key": "PIR1_ENM_GEN_DOOMAGENTS_005",
+    "source_sha256": "56d0616c2670d0593a502dcbd39228a228c1943f8e72027229505d5d55b66b01",
+    "before": "<ts=&quot;0.039;2.219&quot;>روبوتات الهلاك قادمة إلينا مباشرة!",
+    "after": "<ts=&quot;0.039;2.219&quot;>روبوتات الهلاك قادمة إلينا مباشرة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16794,
+    "key": "PIR1_ENM_GEN_ENFORCER_001",
+    "source_sha256": "ba53ff223e11a0d816a480f5f77f072c5bbc6f621a4a7c65def3e4137e59f4c5",
+    "before": "<ts=&quot;0.034;1.645&quot;>البلندربس على متن السفينة!",
+    "after": "<ts=&quot;0.034;1.645&quot;>البلندربس على متن السفينة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16795,
+    "key": "PIR1_ENM_GEN_ENFORCER_002",
+    "source_sha256": "56a70086afaec5b8ff4bc0e529e491cf883c137c996ed6babb93b0eec7b1bc1a",
+    "before": "<ts=&quot;0.001;1.715&quot;>انتبهوا يا رفاقي!",
+    "after": "<ts=&quot;0.001;1.715&quot;>انتبهوا يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16796,
+    "key": "PIR1_ENM_GEN_ENFORCER_003",
+    "source_sha256": "6dd5cfa6fa050c989af4d3418170b6b9341574948c65ad6ab5b8c1010b051071",
+    "before": "<ts=&quot;0.039;1.777&quot;>تجنب رشقات الرصاص!",
+    "after": "<ts=&quot;0.039;1.777&quot;>تجنب رشقات الرصاص!",
+    "decision": "keep"
+  },
+  {
+    "index": 16797,
+    "key": "PIR1_ENM_GEN_ENFORCER_004",
+    "source_sha256": "e5776dc749f67f2b24f0c8aa3f68b6e92cb6b6c62fcffbdb5cc388f7e87164dc",
+    "before": "<ts=&quot;0;1.39&quot;>لا تقترب كثيرا!",
+    "after": "<ts=&quot;0;1.39&quot;>لا تقترب كثيرا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16798,
+    "key": "PIR1_ENM_GEN_ENFORCER_005",
+    "source_sha256": "87fc6ec5217d451a5ce469754d3a7019cf9500a3bd2469e73cbe2b606674fb75",
+    "before": "<ts=&quot;0.037;1.58&quot;>احذر الإنفورسر!",
+    "after": "<ts=&quot;0.037;1.58&quot;>احذروا إنفورسر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16799,
+    "key": "PIR1_ENM_GEN_ENGAGED_001",
+    "source_sha256": "3e10b63e4962a5c7616157966d1bee265c2f2ce298a6a255a558c5dc8d183420",
+    "before": "<ts=&quot;0;1.5&quot;>غنائمك لنا الآن!",
+    "after": "<ts=&quot;0;1.5&quot;>غنائمك لنا الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 16800,
+    "key": "PIR1_ENM_GEN_ENGAGED_002",
+    "source_sha256": "8e3faaadd18b13d3f2d4081dbc6e2868f89c19b3a992735ed7e12dd2e771b028",
+    "before": "<ts=&quot;0;1.4&quot;>كلنا على السطح!",
+    "after": "<ts=&quot;0;1.4&quot;>ليصعد الجميع إلى سطح السفينة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16801,
+    "key": "PIR1_ENM_GEN_ENGAGED_003",
+    "source_sha256": "f479c2f7284d9abc2971bf6c9881e837d743c5880b74af83c6eb946eb0323557",
+    "before": "<ts=&quot;0;2&quot;>هذا نهايتك أيها البري!",
+    "after": "<ts=&quot;0;2&quot;>ستكون هذه نهايتك، يا ابن اليابسة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16802,
+    "key": "PIR1_ENM_GEN_ENGAGED_004",
+    "source_sha256": "e7f59bc3e224590c4dc2267e691ca7353ddcd95dfcc8f084d098a17d2c10558a",
+    "before": "<ts=&quot;0.018;1.288&quot;>علمهم درسا!",
+    "after": "<ts=&quot;0.018;1.288&quot;>علموهم درسًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16803,
+    "key": "PIR1_ENM_GEN_ENGAGED_005",
+    "source_sha256": "de4b0f56fe2a044e43ef46b7a9cd436004d947a2a8a0d6e59345850f9005f932",
+    "before": "<ts=&quot;0.05;3.177&quot;>هاه، لقد حان دورك!",
+    "after": "<ts=&quot;0.05;3.177&quot;>هاه، لقد حان دورك!",
+    "decision": "keep"
+  },
+  {
+    "index": 16804,
+    "key": "PIR1_ENM_GEN_ENGAGED_006",
+    "source_sha256": "2b0721f4711f0cb6e0349ac8e012644a897730805cb58273f46279286f57bf56",
+    "before": "<ts=&quot;0.05;2.95&quot;>آه، انظر هنا! هناك دخيل يقترب!",
+    "after": "<ts=&quot;0.05;2.95&quot;>آه، انظر هنا! هناك دخيل يقترب!",
+    "decision": "keep"
+  },
+  {
+    "index": 16805,
+    "key": "PIR1_ENM_GEN_ENGAGED_007",
+    "source_sha256": "a1e9dc7c4acfc22562a021af8607362ad51ba6b8584e339695eec16ca6fa798a",
+    "before": "<ts=&quot;0;1.05&quot;>التف حولهم!",
+    "after": "<ts=&quot;0;1.05&quot;>طوقوهم!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16806,
+    "key": "PIR1_ENM_GEN_ENGAGED_008",
+    "source_sha256": "a01d7573cfc72614a618aad01c46093be28c46839d9621d326c6170258a1a0f4",
+    "before": "<ts=&quot;0.007;1.978&quot;>أسقط اللومباكس!",
+    "after": "<ts=&quot;0.007;1.978&quot;>أسقطوا اللومباكس!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16807,
+    "key": "PIR1_ENM_GEN_FROZEN_001",
+    "source_sha256": "4f4e7823e6f7080c93b15d2297f468bcc9658040f12f08b8770ecef1e933399b",
+    "before": "<ts=&quot;0.84;1.909&quot;>أنا... متجمد كالثلج!",
+    "after": "<ts=&quot;0.84;1.909&quot;>أنا... متجمد كالثلج!",
+    "decision": "keep"
+  },
+  {
+    "index": 16808,
+    "key": "PIR1_ENM_GEN_FROZEN_002",
+    "source_sha256": "5aabb46fef7aa0dc76dc244c2f59696d18cb6e0463b9209c94a0b0f95416ee27",
+    "before": "<ts=&quot;0.052;4.135&quot;>أخرجني... من هنا!",
+    "after": "<ts=&quot;0.052;4.135&quot;>أخرجني... من هنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16809,
+    "key": "PIR1_ENM_GEN_FROZEN_003",
+    "source_sha256": "4d8b6ccc64377699f7300c94e45407890815c623bc49a5b842b6cd27dbf2abe4",
+    "before": "<ts=&quot;0.035;3.099&quot;>سأقذفك في عنبر السجناء!",
+    "after": "<ts=&quot;0.035;3.099&quot;>سألقي بك في زنزانة السفينة بسبب هذا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16810,
+    "key": "PIR1_ENM_GEN_FROZEN_004",
+    "source_sha256": "eb898fd7174e4283fb109a48ab6b89603d9e38aa17337c0b6580014d0a6ef9fd",
+    "before": "<ts=&quot;0.035;4.009&quot;>ترتجف عظامي! أشد البرد!",
+    "after": "<ts=&quot;0.035;4.009&quot;>ترتجف... عظامي، ما هذا البرد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16811,
+    "key": "PIR1_ENM_GEN_FUNGAGED_001",
+    "source_sha256": "3f959fb8aae072aad32a6db38c4bea822bc204eddbc3ce4c8fafda697381ca85",
+    "before": "<ts=&quot;0.046;1.872&quot;>إنه شيء غريب المظهر!",
+    "after": "<ts=&quot;0.046;1.872&quot;>إنه شيء غريب المظهر!",
+    "decision": "keep"
+  },
+  {
+    "index": 16812,
+    "key": "PIR1_ENM_GEN_FUNGAGED_002",
+    "source_sha256": "a70f5e65bf7438dca4364fbfaf5af8a9e66dd56afc2ecf4bf41ea4df0e94d98c",
+    "before": "<ts=&quot;0.077;2.406&quot;>هذا الفطر لا يتوقف عن الكلام!",
+    "after": "<ts=&quot;0.077;2.406&quot;>هذا الفطر لا يتوقف عن الكلام!",
+    "decision": "keep"
+  },
+  {
+    "index": 16813,
+    "key": "PIR1_ENM_GEN_FUNGI_001",
+    "source_sha256": "4fbae817a16b242cce0f5c3553a158be1d1de0a8882aeb00767092117f896b01",
+    "before": "<ts=&quot;0.057;2.082&quot;>الأبواغ تحرق!",
+    "after": "<ts=&quot;0.057;2.082&quot;>الأبواغ تحرق!",
+    "decision": "keep"
+  },
+  {
+    "index": 16814,
+    "key": "PIR1_ENM_GEN_FUNGI_002",
+    "source_sha256": "bb62e3abca9e6cdd91c56ef1c2920acddeae4e12899345f9581ee339639d83d7",
+    "before": "<ts=&quot;0.066;2.228&quot;>أصابني فطر يا رفاقي!",
+    "after": "<ts=&quot;0.066;2.228&quot;>أصابني فطر يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16815,
+    "key": "PIR1_ENM_GEN_FUNGI_003",
+    "source_sha256": "dfa4527822fc3a6a7ddd85917cef8f5a0d0b7d5faa8562509cf942d3b05296e3",
+    "before": "<ts=&quot;0.044;2.228&quot;>ستدفع ثمن ذلك أيها الفطر!",
+    "after": "<ts=&quot;0.044;2.228&quot;>ستدفع ثمن ذلك أيها الفطر!",
+    "decision": "keep"
+  },
+  {
+    "index": 16839,
+    "key": "PIR1_ENM_GEN_ICICLEBLASTER_001",
+    "source_sha256": "6322265a3da7ce2109c7918345d701c2b283b61d2617190fe7adaac03a23a79c",
+    "before": "<ts=&quot;0;1.499&quot;>انتبه للجليد!",
+    "after": "<ts=&quot;0;1.499&quot;>انتبه للجليد!",
+    "decision": "keep"
+  },
+  {
+    "index": 16840,
+    "key": "PIR1_ENM_GEN_ICICLEBLASTER_002",
+    "source_sha256": "65cb115c5411f908e2a6497e92f47bf384089466dccf7ac22e52a003ed8831c8",
+    "before": "<ts=&quot;0.048;1.422&quot;>احذر الانفجار!",
+    "after": "<ts=&quot;0.048;1.422&quot;>احذر الانفجار!",
+    "decision": "keep"
+  },
+  {
+    "index": 16841,
+    "key": "PIR1_ENM_GEN_ICICLEBLASTER_003",
+    "source_sha256": "507222a67829f0afdf9c1a2c3f1ebac01f5ff8aa5ab7d026c019c91d9096071f",
+    "before": "<ts=&quot;0.036;1.959&quot;>لن تجمدني!",
+    "after": "<ts=&quot;0.036;1.959&quot;>لن تجمدني!",
+    "decision": "keep"
+  },
+  {
+    "index": 16842,
+    "key": "PIR1_ENM_GEN_ICICLEBLASTER_004",
+    "source_sha256": "cf1ecffc3135f92034339e6853b1b133320bc7841f99e40744ae78b11e6d167e",
+    "before": "<ts=&quot;0.051;1.595&quot;>إنهم يحاولون تجميدنا!",
+    "after": "<ts=&quot;0.051;1.595&quot;>إنهم يحاولون تجميدنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16843,
+    "key": "PIR1_ENM_GEN_ICICLEBLASTER_005",
+    "source_sha256": "160b27c297e18f7139302d7cba8fdf88ae4d04cd531f9cb809ea7d68ff4baaa4",
+    "before": "<ts=&quot;0;2&quot;>اللومباكس يطلق قنابل جليدية!",
+    "after": "<ts=&quot;0;2&quot;>اللومباكس يطلق قنابل جليدية!",
+    "decision": "keep"
+  },
+  {
+    "index": 16844,
+    "key": "PIR1_ENM_GEN_IDLE_001",
+    "source_sha256": "f03f799c45d43a53abd924f3cfd46aae6a32b4a273f99f9867202b41d62db40c",
+    "before": "<ts=&quot;0.11;2.21&quot;>ينبغي أن أكتب إلى أمي!",
+    "after": "<ts=&quot;0.11;2.21&quot;>ينبغي أن أكتب إلى أمي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16845,
+    "key": "PIR1_ENM_GEN_IDLE_002",
+    "source_sha256": "b9f5c16ac5194b69b1ea184242cb8f292aa02d21719d549d061606cc2e8919b9",
+    "before": "<ts=&quot;0;2.239&quot;>ينبغي أن أنظف السطح الخلفي.",
+    "after": "<ts=&quot;0;2.239&quot;>ينبغي أن أنظف السطح الخلفي.",
+    "decision": "keep"
+  },
+  {
+    "index": 16846,
+    "key": "PIR1_ENM_GEN_IDLE_003",
+    "source_sha256": "997c3df996965194f15e1e99cba8a65155022680657ff8d30dfffee12dee4e09",
+    "before": "<ts=&quot;0;2.45&quot;>إنه يوم جيد للصيد.",
+    "after": "<ts=&quot;0;2.45&quot;>إنه يوم جيد للصيد.",
+    "decision": "keep"
+  },
+  {
+    "index": 16847,
+    "key": "PIR1_ENM_GEN_IDLE_004",
+    "source_sha256": "ad8eb6e937f691232fd88cafe3e99a27d718a98ff6e00196a953af2f4c0ec460",
+    "before": "<ts=&quot;0.02;4&quot;>أصبحت قرصانا من أجل المغامرة لا الدوريات!",
+    "after": "<ts=&quot;0.02;4&quot;>أصبحت قرصانا من أجل المغامرة لا الدوريات!",
+    "decision": "keep"
+  },
+  {
+    "index": 16848,
+    "key": "PIR1_ENM_GEN_IDLE_005",
+    "source_sha256": "c5c88890cc9164e7ba2a6ea504ce1292fd5924f401790b56ffcee257d76b9b40",
+    "before": "<ts=&quot;0;2&quot;>إنها مغامرة عظيمة فعلا...",
+    "after": "<ts=&quot;0;2&quot;>إنها مغامرة عظيمة فعلا...",
+    "decision": "keep"
+  },
+  {
+    "index": 16859,
+    "key": "PIR1_ENM_GEN_KAMEHAMEHA_001",
+    "source_sha256": "ea508dbb1b88c359847c4fcfc9796ebb6932d0e9d6e03b2819df913766668a57",
+    "before": "<ts=&quot;0.01;0.75&quot;>تفرقوا!",
+    "after": "<ts=&quot;0.01;0.75&quot;>تفرقوا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16860,
+    "key": "PIR1_ENM_GEN_KAMEHAMEHA_002",
+    "source_sha256": "3cc0303d534a50f3f2917d038e3848d80a13089c3b0b8642b6e61ff59210f353",
+    "before": "<ts=&quot;0.055;1.748&quot;>لا تدعهم يقفون في صف!",
+    "after": "<ts=&quot;0.055;1.748&quot;>لا تدعوهم يسددون!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16861,
+    "key": "PIR1_ENM_GEN_KAMEHAMEHA_003",
+    "source_sha256": "69b023402656e1b4606839eb73e8b02a79e3e4d10f153d7dbf5b5764c6550cfb",
+    "before": "<ts=&quot;0.048;1.616&quot;>ذلك الشيء يضرب بقوة!",
+    "after": "<ts=&quot;0.048;1.616&quot;>ذلك الشيء يضرب بقوة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16862,
+    "key": "PIR1_ENM_GEN_KILLHERO_001",
+    "source_sha256": "3facb3488314e3452a2db28146271f08ecd690661c9ac1ea143a8129b696e446",
+    "before": "<ts=&quot;0.041;1.779&quot;>الجولات على حسابي يا رفاقي!",
+    "after": "<ts=&quot;0.041;1.779&quot;>المشروبات على حسابي، يا رفاقي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16863,
+    "key": "PIR1_ENM_GEN_KILLHERO_002",
+    "source_sha256": "a6e80e4300ef0c010d350b6331374797b3d273e1cdaede82f18456861497a958",
+    "before": "<ts=&quot;0.003;2.711&quot;>استمتعوا بأعماق البحر المالحة!",
+    "after": "<ts=&quot;0.003;2.711&quot;>استمتعوا بأعماق البحر المالحة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16864,
+    "key": "PIR1_ENM_GEN_KILLHERO_003",
+    "source_sha256": "aaa3f7ec47b0eb446161064066304dd727dae5e0e51919808339aa484bd5f239",
+    "before": "<ts=&quot;0;2.499&quot;>لقد أخطأت الهدف!",
+    "after": "<ts=&quot;0;2.499&quot;>لقد عبثت مع القرصان الخطأ!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16865,
+    "key": "PIR1_ENM_GEN_KILLHERO_004",
+    "source_sha256": "4ba2104acf4863f9b42aaff49532627b4b7c582cb05939a3c16258285c5ceafe",
+    "before": "<ts=&quot;0.025;1.848&quot;>أغرقناك إذا!",
+    "after": "<ts=&quot;0.025;1.848&quot;>أغرقناك إذا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16911,
+    "key": "PIR1_ENM_GEN_LIGHTNING_001",
+    "source_sha256": "7f35ba58db412a4f869b23e683c74f66b9b876a2337bfe5aada32b5cd983e184",
+    "before": "<ts=&quot;0;1.749&quot;>طلقات الصاعقة قادمة!",
+    "after": "<ts=&quot;0;1.749&quot;>طلقات الصاعقة قادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16912,
+    "key": "PIR1_ENM_GEN_LIGHTNING_002",
+    "source_sha256": "e9cae48ba42854c787f2dbed56491e4cd1d83aef12cd8cde696f8fbb6af619aa",
+    "before": "<ts=&quot;0.069;0.769&quot;>تفرقوا!",
+    "after": "<ts=&quot;0.069;0.769&quot;>تفرقوا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16913,
+    "key": "PIR1_ENM_GEN_LIGHTNING_003",
+    "source_sha256": "d6f5a9e6151813b1720de0a57be0d7d5e442a8f16be46f64ee227e8edd59f4c3",
+    "before": "<ts=&quot;0.036;2.176&quot;>إنهم يحاولون صعقنا!",
+    "after": "<ts=&quot;0.036;2.176&quot;>إنهم يحاولون صعقنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16914,
+    "key": "PIR1_ENM_GEN_LIGHTNING_004",
+    "source_sha256": "355450410ba73681444552d3a72de761927ef79c30749dbc83b49936e53154f0",
+    "before": "<ts=&quot;0;2.1&quot;>صاعقة صغيرة لا تخيفني!",
+    "after": "<ts=&quot;0;2.1&quot;>صاعقة صغيرة لا تخيفني!",
+    "decision": "keep"
+  },
+  {
+    "index": 16915,
+    "key": "PIR1_ENM_GEN_LIGHTNING_005",
+    "source_sha256": "497204844d8becb70d97b8cdae7e8046199ee8e5891e19fac1d051b3efcad182",
+    "before": "<ts=&quot;0.049;1.118&quot;>قاذف الصاعقة!",
+    "after": "<ts=&quot;0.049;1.118&quot;>قاذف الصاعقة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16916,
+    "key": "PIR1_ENM_GEN_MAG_001",
+    "source_sha256": "99cc59fb4c2e73fcd25cf8681c9cd2981cb898a245c5f1c5b075425619d3a48c",
+    "before": "<ts=&quot;0;1.75&quot;>هل تحاول الاختفاء؟",
+    "after": "<ts=&quot;0;1.75&quot;>هل تحاول الاختفاء؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16917,
+    "key": "PIR1_ENM_GEN_MAG_002",
+    "source_sha256": "df92b1356f0987b6a92dd53fb5eb9302602833a5796dc29bb2c8d08a5afdd77f",
+    "before": "<ts=&quot;0;1.75&quot;>لا تهدر ذخيرتك يا رفاقي!",
+    "after": "<ts=&quot;0;1.75&quot;>لا تهدروا ذخيرتكم، يا رفاقي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16918,
+    "key": "PIR1_ENM_GEN_MAG_003",
+    "source_sha256": "94315259dd82ae42beaa54b5aefe81cbd2fcb7dcea780f0758d2b7961e05e17f",
+    "before": "<ts=&quot;0.024;1.806&quot;>اضربوه من الجانب يا جبان!",
+    "after": "<ts=&quot;0.024;1.806&quot;>التفوا حول ذلك الجبان!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16919,
+    "key": "PIR1_ENM_GEN_MELEEATTACK_001",
+    "source_sha256": "e23e7fff017d2695e5121490fc2d65f7a28cec511d4a94dec6655b1aa963365b",
+    "before": "<ts=&quot;0.01;2.387&quot;>خذها يا اللومباكس!",
+    "after": "<ts=&quot;0.01;2.387&quot;>خذ هذه، يا لومباكس!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16920,
+    "key": "PIR1_ENM_GEN_MELEEATTACK_002",
+    "source_sha256": "925500d6d474f9c5b876a82b0167dedc7f776c01cb2d5ddcbde9bae5f249e866",
+    "before": "<ts=&quot;0;1.499&quot;>هجوم الآن يا رفاقي!",
+    "after": "<ts=&quot;0;1.499&quot;>هجوم الآن يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16921,
+    "key": "PIR1_ENM_GEN_MELEEATTACK_003",
+    "source_sha256": "45822ef84c76340a65937ea903af7a86317d407c21d47b41d379dd3de5884076",
+    "before": "<ts=&quot;0;0.999&quot;>تذوق الفولاذ!",
+    "after": "<ts=&quot;0;0.999&quot;>تذوق الفولاذ!",
+    "decision": "keep"
+  },
+  {
+    "index": 16922,
+    "key": "PIR1_ENM_GEN_MELEEATTACK_004",
+    "source_sha256": "1c6d9e0dc6e7dfaa1c4f55669fda2809db2ea8d0eadfa2b658345065aab14692",
+    "before": "<ts=&quot;0.001;2.256&quot;>أخرجوا السكاكين يا رفاقي!",
+    "after": "<ts=&quot;0.001;2.256&quot;>أخرجوا السكاكين يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16923,
+    "key": "PIR1_ENM_GEN_MELEEATTACK_005",
+    "source_sha256": "3b4b8d00c7cd1e474f3445d354521e0c7ee76a3a5e74341ff0be5df5ed8514ad",
+    "before": "<ts=&quot;0.001;1.793&quot;>جهز سيفك!",
+    "after": "<ts=&quot;0.001;1.793&quot;>جهز سيفك!",
+    "decision": "keep"
+  },
+  {
+    "index": 16924,
+    "key": "PIR1_ENM_GEN_MELEEATTACK_006",
+    "source_sha256": "a841bc2027fb37eec7ed6102b4be4805926b03c1878e0ec04ba8f2762c383792",
+    "before": "<ts=&quot;0.039;1.26&quot;>سأنهيك!",
+    "after": "<ts=&quot;0.039;1.26&quot;>سأنهيك!",
+    "decision": "keep"
+  },
+  {
+    "index": 16945,
+    "key": "PIR1_ENM_GEN_OUTOFAMMO_001",
+    "source_sha256": "39abf396e80b12c34f9c95eaef015dbe29f38b074697865edf65abea80045eb8",
+    "before": "<ts=&quot;0.22;2.32&quot;>هاه هاه! تحتاج طلقات أخرى؟",
+    "after": "<ts=&quot;0.22;2.32&quot;>هاه هاه! تحتاج طلقات أخرى؟",
+    "decision": "keep"
+  },
+  {
+    "index": 16946,
+    "key": "PIR1_ENM_GEN_OUTOFAMMO_002",
+    "source_sha256": "dced33ab185f3b938a1daa8d304d550099536ad8d568577eaceec19f9719eb21",
+    "before": "<ts=&quot;0;1.75&quot;>نفدت ذخيرتك تماما!",
+    "after": "<ts=&quot;0;1.75&quot;>نفدت ذخيرتك تماما!",
+    "decision": "keep"
+  },
+  {
+    "index": 16947,
+    "key": "PIR1_ENM_GEN_OUTOFAMMO_003",
+    "source_sha256": "edfb969854d4ec905065d45e6dcd2aceaec96229186857ca45d3142c5224504d",
+    "before": "<ts=&quot;0;1.75&quot;>هاجموه ما دام الشرير بلا ذخيرة!",
+    "after": "<ts=&quot;0;1.75&quot;>هاجموه ما دام الشرير بلا ذخيرة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16948,
+    "key": "PIR1_ENM_GEN_OUTOFAMMO_004",
+    "source_sha256": "b981460d6c789e2684093f76db324cb798126b63c4100d21f1c522cc9fa81d34",
+    "before": "<ts=&quot;0.025;2.01&quot;>لا يمكنك إطلاق النار بلا ذخيرة!",
+    "after": "<ts=&quot;0.025;2.01&quot;>لا يمكنك إطلاق النار بلا ذخيرة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16949,
+    "key": "PIR1_ENM_GEN_OVERGROWN_001",
+    "source_sha256": "3e2d7e1a9255b67365c9863346c0a98067ffae12c01759430fc8fe17e85e57d0",
+    "before": "<ts=&quot;0.053;3.161&quot;>أشعر... بشيء... أخضر قليلا!",
+    "after": "<ts=&quot;0.053;3.161&quot;>أشعر... بأنني... أخضر قليلًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16950,
+    "key": "PIR1_ENM_GEN_OVERGROWN_002",
+    "source_sha256": "9ef86973599e61222701a8031e95a08c5a77975e7484772a8d496441ca73f6ec",
+    "before": "<ts=&quot;0.043;1.574&quot;>حررني!",
+    "after": "<ts=&quot;0.043;1.574&quot;>حررني!",
+    "decision": "keep"
+  },
+  {
+    "index": 16951,
+    "key": "PIR1_ENM_GEN_OVERGROWN_003",
+    "source_sha256": "54b8a372dd77b6d7842b609e8a0314b840e19199ce2080d07ced1488a687293a",
+    "before": "<ts=&quot;0.017;2.503&quot;>أنا مشدود بنبات هنا!",
+    "after": "<ts=&quot;0.017;2.503&quot;>النباتات تقيدني هنا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16952,
+    "key": "PIR1_ENM_GEN_OVERGROWN_004",
+    "source_sha256": "1069babd8b4757dafaf665d952b1c6f76b41c82d1c86280de4b574374be6d3f6",
+    "before": "<ts=&quot;0.022;2.549&quot;>أنا... شجيرة؟!",
+    "after": "<ts=&quot;0.022;2.549&quot;>أنا... شجيرة؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16953,
+    "key": "PIR1_ENM_GEN_PIXELIZER_001",
+    "source_sha256": "dc54b28aaba4e10d675afbcbd25107293db393716728df38500a0ac7b97beff6",
+    "before": "<ts=&quot;0.055;2.428&quot;>ماذا فعلت بي؟!",
+    "after": "<ts=&quot;0.055;2.428&quot;>ماذا فعلت بي؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16954,
+    "key": "PIR1_ENM_GEN_PIXELIZER_002",
+    "source_sha256": "6ac9c05fbf828488a7e6430a8a53afe948eb070d3067a2df9eab49c8eb87adf6",
+    "before": "<ts=&quot;0.08;1.639&quot;>ابتعدوا يا رفاقي!",
+    "after": "<ts=&quot;0.08;1.639&quot;>ابتعدوا يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16955,
+    "key": "PIR1_ENM_GEN_PIXELIZER_003",
+    "source_sha256": "2a79f6f3bf2e3e889a6b91be1e878888b1bdcac4deed212138ec275bf4219e56",
+    "before": "<ts=&quot;0.03;2.212&quot;>هذا لا يبدو صحيحا!",
+    "after": "<ts=&quot;0.03;2.212&quot;>هذا لا يبدو صحيحا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16956,
+    "key": "PIR1_ENM_GEN_PIXELIZER_004",
+    "source_sha256": "415d26ad1edfcd81ec2e6d4f07395a25ba75d135a17c7f58b9832e8236017e21",
+    "before": "<ts=&quot;0.019;1.46&quot;>يا إلهي!",
+    "after": "<ts=&quot;0.019;1.46&quot;>يا إلهي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16957,
+    "key": "PIR1_ENM_GEN_PIXELIZER_005",
+    "source_sha256": "7a973695691047053fdc6075e1514a2298f419eb09e855c64428b160f96021c0",
+    "before": "<ts=&quot;0.031;2.203&quot;>اللومباكس يحمل المبكسل!",
+    "after": "<ts=&quot;0.031;2.203&quot;>اللومباكس يحمل المبكسل!",
+    "decision": "keep"
+  },
+  {
+    "index": 16958,
+    "key": "PIR1_ENM_GEN_PLAYERMELEE_001",
+    "source_sha256": "19661ab4e63a43339ebdb0d9ab7ae6b4bc38187e57df547f2c6b8a1d7aae114f",
+    "before": "<ts=&quot;0.21;1.322&quot;>هذا كل ما لديك؟!",
+    "after": "<ts=&quot;0.21;1.322&quot;>هذا كل ما لديك؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16959,
+    "key": "PIR1_ENM_GEN_PLAYERMELEE_002",
+    "source_sha256": "a4334459e9493b5a276b81f6e697a06f163cc716d24a551cefc08e379c6d6f0f",
+    "before": "<ts=&quot;0.018;1.76&quot;>سيف غريب المظهر!",
+    "after": "<ts=&quot;0.018;1.76&quot;>سيف غريب المظهر!",
+    "decision": "keep"
+  },
+  {
+    "index": 16960,
+    "key": "PIR1_ENM_GEN_PLAYERMELEE_003",
+    "source_sha256": "c15d64c5b4b5f7d659e871ea482e49c8836b26ed1af3b67404b59af802646e59",
+    "before": "<ts=&quot;0.043;1.085&quot;>ضربة مؤلمة!",
+    "after": "<ts=&quot;0.043;1.085&quot;>ضربة مؤلمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16961,
+    "key": "PIR1_ENM_GEN_PLAYERMELEE_004",
+    "source_sha256": "656ea6721a1263502036d720385e1364db274d8680009e864892f370a8fb67e9",
+    "before": "<ts=&quot;0.006;1.802&quot;>لا تجرب ذلك مرة أخرى!",
+    "after": "<ts=&quot;0.006;1.802&quot;>لا تجرب ذلك مرة أخرى!",
+    "decision": "keep"
+  },
+  {
+    "index": 16962,
+    "key": "PIR1_ENM_GEN_PLAYERMELEE_005",
+    "source_sha256": "62a9d4efa61e72e40c9095d02f0f297e69fd4e5f024bc5d62027efe3064b757b",
+    "before": "<ts=&quot;0.037;2.084&quot;>ذلك ألم سيبقى طويلا!",
+    "after": "<ts=&quot;0.037;2.084&quot;>ذلك ألم سيبقى طويلا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16968,
+    "key": "PIR1_ENM_GEN_RICO_001",
+    "source_sha256": "810c8659128116f2676435ad9999ea3a813c314e156ef716294eee60fdaafed4",
+    "before": "<ts=&quot;0.139;0.839&quot;>الارتداد قادم!",
+    "after": "<ts=&quot;0.139;0.839&quot;>قذيفة الارتداد قادمة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16969,
+    "key": "PIR1_ENM_GEN_RICO_002",
+    "source_sha256": "727c1523a2035eeb536dfda6245d451a1ecc23b49080a0983572194680b300f3",
+    "before": "<ts=&quot;0.032;1.514&quot;>ستدفع ثمن ذلك!",
+    "after": "<ts=&quot;0.032;1.514&quot;>ستدفع ثمن ذلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 16970,
+    "key": "PIR1_ENM_GEN_RICO_003",
+    "source_sha256": "0f23e6424a6f6b471fe04046bed299721b48d73d17809a9881095de0ade8d11f",
+    "before": "<ts=&quot;0.15;1.55&quot;>ثبته التصويب علي!",
+    "after": "<ts=&quot;0.15;1.55&quot;>ثبت تصويبه علي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16971,
+    "key": "PIR1_ENM_GEN_RYNO_001",
+    "source_sha256": "81c2ac0eab9d3072288e0c03ad92a2c2b68d4449229f9de4df3c5b9a2b8e6b8f",
+    "before": "<ts=&quot;0.139;2.212&quot;>اللومباكس يتلاعب بالصدوع!",
+    "after": "<ts=&quot;0.139;2.212&quot;>اللومباكس يتلاعب بالصدوع!",
+    "decision": "keep"
+  },
+  {
+    "index": 16972,
+    "key": "PIR1_ENM_GEN_RYNO_002",
+    "source_sha256": "5205ce68c36620feb088d000b09bc61b966a00860c3c0bb1ce45c4236fc39022",
+    "before": "<ts=&quot;0;1.05&quot;>اركضوا أيها الشباب، اركضوا!",
+    "after": "<ts=&quot;0;1.05&quot;>اركضوا أيها الشباب، اركضوا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16973,
+    "key": "PIR1_ENM_GEN_RYNO_003",
+    "source_sha256": "92643444220703b695ccf002cf646e4c05ae1a76ab7c4bcd7a26a4a61adf236e",
+    "before": "<ts=&quot;0.031;2.225&quot;>من أين يأتي هذا الحطام؟!",
+    "after": "<ts=&quot;0.031;2.225&quot;>من أين يأتي هذا الحطام؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16974,
+    "key": "PIR1_ENM_GEN_SEEPLAYER_001",
+    "source_sha256": "5b8498958972874d2769825948e116ee9b6d22e5e596e2d3923956156deefd74",
+    "before": "<ts=&quot;0;1.4&quot;>أرى عدوا!",
+    "after": "<ts=&quot;0;1.4&quot;>أرى عدوا!",
+    "decision": "keep"
+  },
+  {
+    "index": 16975,
+    "key": "PIR1_ENM_GEN_SEEPLAYER_002",
+    "source_sha256": "2f29c19c07a5fc5a370618694e4dcc9d60bc7cea20422bf7abb93ac00cbcce2c",
+    "before": "<ts=&quot;0;2.439&quot;>أهلا يا رفاقي، لدينا دخيل!",
+    "after": "<ts=&quot;0;2.439&quot;>أهلا يا رفاقي، لدينا دخيل!",
+    "decision": "keep"
+  },
+  {
+    "index": 16976,
+    "key": "PIR1_ENM_GEN_SEEPLAYER_003",
+    "source_sha256": "c0372571daef6237210bb68271c64eb71cffb8f87d128f1e5729f77e3f229ed2",
+    "before": "<ts=&quot;0;1.477&quot;>قفوا يا رفاقي!",
+    "after": "<ts=&quot;0;1.477&quot;>قفوا يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16977,
+    "key": "PIR1_ENM_GEN_SEEPLAYER_004",
+    "source_sha256": "e64c4f7205269efca5e0c8f93f784d0db3169b6e84e2e8063c994e44f9e7cb7e",
+    "before": "<ts=&quot;0;2.1&quot;>ألقوا هذا البري في عنبر السجناء!",
+    "after": "<ts=&quot;0;2.1&quot;>ألقوا بابن اليابسة هذا في زنزانة السفينة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16978,
+    "key": "PIR1_ENM_GEN_SEEPLAYER_005",
+    "source_sha256": "f56424f55eb5b7f54e157d7b1b469c4474dea896209efba359d7ce7c70d0dcb2",
+    "before": "<ts=&quot;0;1.09&quot;>أطلقوا الإنذار!",
+    "after": "<ts=&quot;0;1.09&quot;>أطلقوا الإنذار!",
+    "decision": "keep"
+  },
+  {
+    "index": 16979,
+    "key": "PIR1_ENM_GEN_SHATTER_001",
+    "source_sha256": "d7779ad27d1a1e89033feb49a226e39d3c9a88c9edfbe74438268a5854bee446",
+    "before": "<ts=&quot;0;0.7&quot;>القنابل قادمة!",
+    "after": "<ts=&quot;0;0.7&quot;>القنابل قادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16980,
+    "key": "PIR1_ENM_GEN_SHATTER_002",
+    "source_sha256": "418eb6001e96b1c798cb489bd5a3a435db7cc820da23e76dad4c46c47bba120f",
+    "before": "<ts=&quot;0;2.25&quot;>انتبهوا للشظايا يا رفاقي!",
+    "after": "<ts=&quot;0;2.25&quot;>انتبهوا للشظايا يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 16981,
+    "key": "PIR1_ENM_GEN_SHATTER_003",
+    "source_sha256": "818a524315a9832deae8269e57406f18471c5019a63fdc2e636fba7be036373c",
+    "before": "<ts=&quot;0;1.75&quot;>إنهم يقذفون قنابل يدوية!",
+    "after": "<ts=&quot;0;1.75&quot;>إنهم يقذفون قنابل يدوية!",
+    "decision": "keep"
+  },
+  {
+    "index": 16982,
+    "key": "PIR1_ENM_GEN_SHATTER_004",
+    "source_sha256": "99ce6c5332c796637ee1e43123eaef4a1c76f08274d8091396f8effdb3aca2a9",
+    "before": "<ts=&quot;0.006;2.29&quot;>ترمي كسمكة مسطحة!",
+    "after": "<ts=&quot;0.006;2.29&quot;>ترمي كسمكة مسطحة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16983,
+    "key": "PIR1_ENM_GEN_SHATTER_005",
+    "source_sha256": "575ac419a384fded6c0f564de3d554563b3b5b1b8ac8ad5244573c11d2872b94",
+    "before": "<ts=&quot;0.055;1.75&quot;>قنابل التحطيم قادمة!",
+    "after": "<ts=&quot;0.055;1.75&quot;>قنابل التحطيم قادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 16984,
+    "key": "PIR1_ENM_GEN_SHIELD_001",
+    "source_sha256": "d6c15db5aca2c52899287c48b6d5c5f38e78296dc3e4d0bd0e96f1ed40a34526",
+    "before": "<ts=&quot;0.021;1.694&quot;>لقد حان دورك!",
+    "after": "<ts=&quot;0.021;1.694&quot;>لقد حان دورك!",
+    "decision": "keep"
+  },
+  {
+    "index": 16985,
+    "key": "PIR1_ENM_GEN_SHIELD_002",
+    "source_sha256": "5b761c51bb96133003391c9b0229aec26d1b693c27077ba969524522e162d035",
+    "before": "<ts=&quot;0;1.364&quot;>أنا قادم لك!",
+    "after": "<ts=&quot;0;1.364&quot;>أنا قادم لك!",
+    "decision": "keep"
+  },
+  {
+    "index": 16986,
+    "key": "PIR1_ENM_GEN_SHIELD_003",
+    "source_sha256": "3e7072f3fed04e536c586370880d48bf14058f6093ac2423faccfd832a4f50f4",
+    "before": "<ts=&quot;0;2.927&quot;>لا تخف، كل ما أريده هو قتلك!",
+    "after": "<ts=&quot;0;2.927&quot;>لا تخف، كل ما أريده هو قتلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 16987,
+    "key": "PIR1_ENM_GEN_SHIELD_004",
+    "source_sha256": "8d673449cd694f69455d044bcb7f1eecf1c69f0977961b41877a4086ee052674",
+    "before": "<ts=&quot;0.033;1.719&quot;>احم ظهرك يا رفاقي!",
+    "after": "<ts=&quot;0.033;1.719&quot;>احموا ظهري، يا رفاقي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16988,
+    "key": "PIR1_ENM_GEN_SHIELD_005",
+    "source_sha256": "f9b950bee01f606b62320852c32bb349ba09ebe81e5bd1840ed6e1ed71045999",
+    "before": "<ts=&quot;0.058;1.847&quot;>لا تحاول الهرب!",
+    "after": "<ts=&quot;0.058;1.847&quot;>لا تحاول الهرب!",
+    "decision": "keep"
+  },
+  {
+    "index": 16989,
+    "key": "PIR1_ENM_GEN_SNIPER_001",
+    "source_sha256": "f9716bea48e2b5ae9e181ad3d20bd3a7d5ab9e825224d2fdbde5841a3d4fc807",
+    "before": "<ts=&quot;0;2.956&quot;>انظر إلى المنظار على ذلك الشيء!",
+    "after": "<ts=&quot;0;2.956&quot;>انظر إلى المنظار على ذلك الشيء!",
+    "decision": "keep"
+  },
+  {
+    "index": 16990,
+    "key": "PIR1_ENM_GEN_SNIPER_002",
+    "source_sha256": "a587b4ad12126d3a91d66dc46e4f36ad15c21d6dae83ef2e8fde08e073fc9141",
+    "before": "<ts=&quot;0.002;2.136&quot;>إنه سلاح الجبناء!",
+    "after": "<ts=&quot;0.002;2.136&quot;>إنه سلاح الجبناء!",
+    "decision": "keep"
+  },
+  {
+    "index": 16991,
+    "key": "PIR1_ENM_GEN_SNIPER_003",
+    "source_sha256": "67c9ec4929ab4a1e42c78a613d6d8dd651d85bd7fb59561b3b66006c3e10bde8",
+    "before": "<ts=&quot;0.005;2.804&quot;>تخاف من النزال الشريف؟!",
+    "after": "<ts=&quot;0.005;2.804&quot;>تخاف من النزال الشريف؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 16992,
+    "key": "PIR1_ENM_GEN_SNIPER_004",
+    "source_sha256": "92ea47c35bdbb9cf9604bbfb3a376005c8f2665de56a7f0e4014361f82ba3666",
+    "before": "<ts=&quot;0.043;1.352&quot;>قناص! انبطح!",
+    "after": "<ts=&quot;0.043;1.352&quot;>قناص! انبطح!",
+    "decision": "keep"
+  },
+  {
+    "index": 17009,
+    "key": "PIR1_ENM_GEN_TOPIARY_001",
+    "source_sha256": "08767c0118c42fdb84a8926bbc64c7d27e27841466a6a7a3f321de64e4be2e7f",
+    "before": "<ts=&quot;0.065;1.787&quot;>لا تبللوا يا رفاقي!",
+    "after": "<ts=&quot;0.065;1.787&quot;>لا تبتلوا، يا رفاقي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17010,
+    "key": "PIR1_ENM_GEN_TOPIARY_002",
+    "source_sha256": "700d08b673c4e5478343944aa3b39e1d4d81974194c4d2fdc3fa06f96ebf7a78",
+    "before": "<ts=&quot;0.03;1.897&quot;>ابتعد عن النفاثة!",
+    "after": "<ts=&quot;0.03;1.897&quot;>ابتعد عن النفاثة!",
+    "decision": "keep"
+  },
+  {
+    "index": 17011,
+    "key": "PIR1_ENM_GEN_TOPIARY_003",
+    "source_sha256": "515ccd4b8d1526e5580b184c861f89a6955ddd826875c424954b402966649dd3",
+    "before": "<ts=&quot;0.011;2.461&quot;>لن تحولني إلى شجيرة!",
+    "after": "<ts=&quot;0.011;2.461&quot;>لن تحولني إلى شجيرة!",
+    "decision": "keep"
+  },
+  {
+    "index": 17012,
+    "key": "PIR1_ENM_GEN_TUNNELER_001",
+    "source_sha256": "86ff01e1d0723f76006ac86474492f83ad4fd5070c478c51b9e8e9ac1fe4198d",
+    "before": "<ts=&quot;0.033;1.743&quot;>ما هذا الشيء؟!",
+    "after": "<ts=&quot;0.033;1.743&quot;>ما هذا الشيء؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 17013,
+    "key": "PIR1_ENM_GEN_TUNNELER_002",
+    "source_sha256": "928e796a99c0a0eb569ce693400ec1be17f4fe5c5ba9e09a5f5dd67b640ea144",
+    "before": "<ts=&quot;0.26;2.25&quot;>قرش الرمال قادم من هناك!",
+    "after": "<ts=&quot;0.26;2.25&quot;>قرش بري قادم نحونا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17014,
+    "key": "PIR1_ENM_GEN_TUNNELER_003",
+    "source_sha256": "5a4548b361b294ea652d488cb53e8c5c73f2a832d610b3b73f691fae6edae808",
+    "before": "<ts=&quot;0.024;2.49&quot;>سينفجر!",
+    "after": "<ts=&quot;0.024;2.49&quot;>سينفجر!",
+    "decision": "keep"
+  },
+  {
+    "index": 17015,
+    "key": "PIR1_ENM_GEN_TUNNELER_004",
+    "source_sha256": "8c7af5e8eea4ef3028a5c2abe3ed14d779bfb15ea334fb30c12021ecd4191745",
+    "before": "<ts=&quot;0.049;1.384&quot;>احذر رجليك!",
+    "after": "<ts=&quot;0.049;1.384&quot;>احذروا على أرجلكم!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17016,
+    "key": "PIR1_ENM_GEN_TUNNELER_005",
+    "source_sha256": "d5f6961fe08719d0020d7d96c3a355c35b683b9f6be589185c0cf02de277e694",
+    "before": "<ts=&quot;0;1.4&quot;>سدوا المنافذ!",
+    "after": "<ts=&quot;0;1.4&quot;>سدوا المنافذ!",
+    "decision": "keep"
+  },
+  {
+    "index": 17017,
+    "key": "PIR1_ENM_GEN_WARMONGER_001",
+    "source_sha256": "67451a28229c55cb215a7f60d1894f52a49a1a615ad8ab452fdb75ce894f2169",
+    "before": "<ts=&quot;0.16;1.56&quot;>الصواريخ قادمة بسرعة!",
+    "after": "<ts=&quot;0.16;1.56&quot;>الصواريخ قادمة بسرعة!",
+    "decision": "keep"
+  },
+  {
+    "index": 17018,
+    "key": "PIR1_ENM_GEN_WARMONGER_002",
+    "source_sha256": "1cec15117a1c8345a19ca41df9133c56e5ef7973303d335a880c4771bbb866a4",
+    "before": "<ts=&quot;0.003;1.576&quot;>هاه، هذه مدفعية!",
+    "after": "<ts=&quot;0.003;1.576&quot;>هذا ما أسميه مدفعًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17019,
+    "key": "PIR1_ENM_GEN_WARMONGER_003",
+    "source_sha256": "93d0a57abe2abe522ee5b2d22e507c903ba78acb38500ef20cd338d588680644",
+    "before": "<ts=&quot;0.036;1.209&quot;>تاجر الحروب!",
+    "after": "<ts=&quot;0.036;1.209&quot;>مؤجج الحروب!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17020,
+    "key": "PIR1_ENM_GEN_WARMONGER_004",
+    "source_sha256": "aaee9da1dc7c320b46fe64f9d318d3f31863a51ff83807dac8aa8485df97e297",
+    "before": "<ts=&quot;0.024;2.136&quot;>لن أكون طعاما للأسماك!",
+    "after": "<ts=&quot;0.024;2.136&quot;>لن أكون طعاما للأسماك!",
+    "decision": "keep"
+  },
+  {
+    "index": 17021,
+    "key": "PIR1_ENM_GEN_WARMONGER_005",
+    "source_sha256": "e9a5ea8a71a120ffdcbcf99901c3949fc8759da415e1116a0cb05da832bc0a7f",
+    "before": "<ts=&quot;0;0.35&quot;>أبقوا<ts=&quot;1.17;1.841&quot;>رؤوسكم على أمانكم يا رفاقي!",
+    "after": "<ts=&quot;0;0.35&quot;>احموا<ts=&quot;1.17;1.841&quot;>رؤوسكم، يا رفاقي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17022,
+    "key": "PIR1_ENM_GEN_WARPRIFLE_001",
+    "source_sha256": "58e4d6012102886cc357b3dce8a964716e5e7d61763bc85c4ca9836deb3139a5",
+    "before": "<ts=&quot;0;1.26&quot;>نيران ثقيلة قادمة!",
+    "after": "<ts=&quot;0;1.26&quot;>نيران ثقيلة قادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 17023,
+    "key": "PIR1_ENM_GEN_WARPRIFLE_002",
+    "source_sha256": "d0f020e1338ff85ab7c22770231fdc46d24ad798a4f24883d8c0c3a642c49d14",
+    "before": "<ts=&quot;0.041;1.701&quot;>سيحمى قريبا!",
+    "after": "<ts=&quot;0.041;1.701&quot;>سترتفع حرارته قريبًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17024,
+    "key": "PIR1_ENM_GEN_WARPRIFLE_003",
+    "source_sha256": "634cffcd5cff771bf88b0d062cb5085752d2d78a16cac548e3197e2718fc4673",
+    "before": "<ts=&quot;0.058;1.575&quot;>اختبئ خلف شيء ما!",
+    "after": "<ts=&quot;0.058;1.575&quot;>اختبئ خلف شيء ما!",
+    "decision": "keep"
+  },
+  {
+    "index": 17025,
+    "key": "PIR1_ENM_GEN_WARPRIFLE_004",
+    "source_sha256": "58eb79cad2f27458e4b46c06c4f4616f1d61ac9c58052ac5c8f2056fffa0efdf",
+    "before": "<ts=&quot;0.036;1.552&quot;>ذلك الجهاز يطلق النار بسرعة!",
+    "after": "<ts=&quot;0.036;1.552&quot;>ذلك الجهاز يطلق النار بسرعة!",
+    "decision": "keep"
+  },
+  {
+    "index": 17026,
+    "key": "PIR1_ENM_GEN_WARPRIFLE_005",
+    "source_sha256": "16657b411568b862a8edca0cb9ef26790b5b02a4a1a3998abefb6d3783b62e26",
+    "before": "<ts=&quot;0.055;1.934&quot;>لا تتراجع يا رفاقي!",
+    "after": "<ts=&quot;0.055;1.934&quot;>لا تتراجعوا، يا رفاقي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17027,
+    "key": "PIR1_ENM_GEN_ZIPOUT_001",
+    "source_sha256": "98d2a2b013a74e677a609214a2903ae1f7f259b507ec9eb8a472097072ced1d4",
+    "before": "<ts=&quot;0.001;1.656&quot;>فقدت أثرهم!",
+    "after": "<ts=&quot;0.001;1.656&quot;>فقدت أثرهم!",
+    "decision": "keep"
+  },
+  {
+    "index": 17028,
+    "key": "PIR1_ENM_GEN_ZIPOUT_002",
+    "source_sha256": "de3b22efba0708443e58a161d1d737805d699a167a0d7f09968547fb3da8d0f9",
+    "before": "<ts=&quot;0;1.4&quot;>إلى أين هربت يا ناعم! ؟",
+    "after": "<ts=&quot;0;1.4&quot;>أين ذهبت، يا طري؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17029,
+    "key": "PIR1_ENM_GEN_ZIPOUT_003",
+    "source_sha256": "bbc22575a367b9cd6fd3b928d696a1f5adec8be2bf3201659f3d458bd038ad6d",
+    "before": "<ts=&quot;0;1.05&quot;>ارجع إلى هنا!",
+    "after": "<ts=&quot;0;1.05&quot;>ارجع إلى هنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 17030,
+    "key": "PIR1_ENM_GEN_ZIPOUT_004",
+    "source_sha256": "370e2565322537f00258be66cd46fe2031f90af3818b69df25dbad31f88e7058",
+    "before": "<ts=&quot;0.041;1.679&quot;>ترتجف أعصابي! ؟",
+    "after": "<ts=&quot;0.041;1.679&quot;>يا لهول ما أرى!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17031,
+    "key": "PIR1_ENM_GEN_ZIPOUT_005",
+    "source_sha256": "1a9f7a195efc38f41e550de3a88def9d1a4b86c284f95a250cf4526e366371d1",
+    "before": "<ts=&quot;0;0.7&quot;>اختفوا!",
+    "after": "<ts=&quot;0;0.7&quot;>اختفوا!",
+    "decision": "keep"
+  },
+  {
+    "index": 17032,
+    "key": "PIR1_TORR_GP1_CINE_INVASION_001",
+    "source_sha256": "e46e137a98439b0621bad224abfcfd59d5b284b2bdad40cef97316221bebba19",
+    "before": "<ts=&quot;0.08;3.679&quot;>قف! أهاه! هو-هو يو-يو! لقد حل وقتنا أخيرا!",
+    "after": "<ts=&quot;0.08;3.679&quot;>قف! أهاه! هو-هو يو-يو! لقد حل وقتنا أخيرا!",
+    "decision": "keep"
+  },
+  {
+    "index": 17034,
+    "key": "PIR1_TORR_GP1_CINE_SCUTTELD_001",
+    "source_sha256": "fb4fa2300e84fc0c33b53d41e3d984655df8d353579d3f4c6989a98700c2e98f",
+    "before": "<ts=&quot;0;2.065&quot;>هل أنت متأكد؟!",
+    "after": "<ts=&quot;0;2.065&quot;>هل أنت متأكد؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 17036,
+    "key": "PIR1_TORR_GP1_TORR_GP_003",
+    "source_sha256": "8d6833763dfaea49d1d5bf1f5d715e3e8b4101383dbab46942889cc8c2d78b28",
+    "before": "<ts=&quot;0.046;6.511&quot;>اللومباكس! يقول بيير إنهم على وشك إصلاح<br>رجل التصليح! فاسبقهم بوفاة سريعة!",
+    "after": "<ts=&quot;0.046;6.511&quot;>اللومباكس! يقول بيير إنهم عازمون على إصلاح<br>المصلح! فدبروا لهم موتًا سريعًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17037,
+    "key": "PIR1_TORR_GP1_TORR_GP_004",
+    "source_sha256": "b25342fceb807ad1c9a1e2c10825254dec86a4c528ccd533a15f386dae0f6d69",
+    "before": "<ts=&quot;0;5.67&quot;>صديقنا على حق! كلنا إلى النهب والمغامرات!",
+    "after": "<ts=&quot;0;5.67&quot;>مساعد القبطان محق! فليبدأ الجميع بالنهب<br>وأعمال القرصنة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17038,
+    "key": "PIR1_TORR_GP1_TORR_GP_005",
+    "source_sha256": "74c6772a07da4981dafa189440651b6859765553efeb45b21f69902019012080",
+    "before": "<ts=&quot;0;3.85&quot;>أوقفوهم قبل أن يصلوا إلى رجل التصليح وإلا<br>انتهى نهبنا!",
+    "after": "<ts=&quot;0;3.85&quot;>امنعوهم من الوصول إلى المصلح وإلا انتهت<br>أيام النهب!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17039,
+    "key": "PIR1_VSPLAY_BOOTCAMP_004",
+    "source_sha256": "1b9080fb50299fef95f3e762794118e7bfe45b010bdb5ef04cda873fbe7fc452",
+    "before": "<ts=&quot;0;1.016&quot;>حبسهم!",
+    "after": "<ts=&quot;0;1.016&quot;>احبسوهم!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17040,
+    "key": "PIR1_VSPLAY_BOOTCAMP_005",
+    "source_sha256": "aec6ae0d02e301337da13c2f8adedfd978df49eed7af835e5395405a22b4afe5",
+    "before": "<ts=&quot;0.099;1.5&quot;>من هذا الحقير؟",
+    "after": "<ts=&quot;0.099;1.5&quot;>من هذا الحقير؟",
+    "decision": "keep"
+  },
+  {
+    "index": 17041,
+    "key": "PIR1_ZORD_GP1_ZORD_GP_001",
+    "source_sha256": "78ecf23177541118f7b91a2f358cf2aa8b93e0a5360923d35ba03a73794e42f6",
+    "before": "<ts=&quot;0;2.42&quot;>لا تجرؤ على غنائمي...",
+    "after": "<ts=&quot;0;2.42&quot;>لا تجرؤ على غنائمي...",
+    "decision": "keep"
+  },
+  {
+    "index": 17042,
+    "key": "PIR1_ZORD_GP1_ZORD_GP_002",
+    "source_sha256": "712e243af50f30824e657d2c1454d87a677ad96959682c60cf735a0abea109e6",
+    "before": "<ts=&quot;0.049;2.47&quot;>مستحيل! حان وقت الرقص!",
+    "after": "<ts=&quot;0.049;2.47&quot;>مستحيل! حان وقت الرقص!",
+    "decision": "keep"
+  },
+  {
+    "index": 17043,
+    "key": "PIR1_ZORD_GP1_ZORD_GP_003",
+    "source_sha256": "19c29aac61fcd1baed1f27230ae5c6d3ecab35825cf9b2e1817cc107a9a3c9ee",
+    "before": "<ts=&quot;0.24;3.483&quot;>يا إلهي، يخططون لتهرب من السجن! يمكننا<br>المساعدة!",
+    "after": "<ts=&quot;0.24;3.483&quot;>أجل، إنهم يخططون للهروب من السجن! يمكننا<br>المساعدة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17044,
+    "key": "PIR1_ZORD_GP1_ZORD_GP_004",
+    "source_sha256": "1cd81a969297fe28128f339c35c927a8c30a5c12767bc5e6e078616d90128185",
+    "before": "<ts=&quot;0.046;3.314&quot;>سيوفنا إلى جانبك! نقاتل ونفوز، صدقني!",
+    "after": "<ts=&quot;0.046;3.314&quot;>سيوفنا إلى جانبك! نقاتل ونفوز، صدقني!",
+    "decision": "keep"
+  },
+  {
+    "index": 17046,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_012",
+    "source_sha256": "a65d47a2c03af78c13c03f09a3f452348a1a1d46b9e24911d4249e0e11d48b6a",
+    "before": "<ts=&quot;0.045;1.622&quot;>غنوا الأغاني!",
+    "after": "<ts=&quot;0.045;1.622&quot;>غنوا الأغاني!",
+    "decision": "keep"
+  },
+  {
+    "index": 17047,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_013",
+    "source_sha256": "8aa15ee335b3ef477264fbf6890d7fc319705089389c14db3c32161c3350256d",
+    "before": "<ts=&quot;0.048;0.811&quot;>بنات!",
+    "after": "<ts=&quot;0.048;0.811&quot;>بنات!",
+    "decision": "keep"
+  },
+  {
+    "index": 17048,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_014",
+    "source_sha256": "3e55855cf8d298eb8e5902681d4699154ebebfa971e5689a879746056179851b",
+    "before": "<ts=&quot;0.044;3.559&quot;>المتسللون يقتربون! نبهوا الحرس!",
+    "after": "<ts=&quot;0.044;3.559&quot;>المتسللون يقتربون! نبهوا الحرس!",
+    "decision": "keep"
+  },
+  {
+    "index": 17049,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_018",
+    "source_sha256": "868e6c2c0f421dcae6d4c323aba8cc170819d136dd62e3207f1de7f013cb4253",
+    "before": "<ts=&quot;0.099;5.349&quot;>أنا أنتظر هذه اللحظة منذ أن سمعت بييرا<br>يصرخ<ts=&quot;5.349;6.661&quot;>إن صوته غناء.",
+    "after": "<ts=&quot;0.099;5.349&quot;>أنتظر هذه اللحظة منذ سمعت ذلك النعيق<br>البغيض الذي يسميه بيير<ts=&quot;5.349;6.661&quot;>صوتًا غنائيًّا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17050,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_020",
+    "source_sha256": "aa33580c886f7fe08a613d3e63c96b5e064a5c0cc2287221ff31d1009e7841c3",
+    "before": "<ts=&quot;0.049;3.763&quot;>متسللون؟! أردوليس مغلقة!",
+    "after": "<ts=&quot;0.049;3.763&quot;>متسللون؟! أردوليس مغلقة!",
+    "decision": "keep"
+  },
+  {
+    "index": 17051,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_021",
+    "source_sha256": "205f4283262879e83b8cef9ca5602dfa7d99f980343ea8ec2955dc3fac1447ed",
+    "before": "<ts=&quot;0.199;2.999&quot;>حتى لو كانوا على حق، فلن يتغير شيء!<ts=&quot;2.999;5.28&quot;>لم يستطع قط هزيمتنا.",
+    "after": "<ts=&quot;0.199;2.999&quot;>حتى لو كانوا على حق، فلن يتغير شيء!<ts=&quot;2.999;5.28&quot;>لم يستطع قط هزيمتنا.",
+    "decision": "keep"
+  },
+  {
+    "index": 17052,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_022",
+    "source_sha256": "e32fe1924cf574054ea63b152921edf00cd99f02528b68d0261df5a8b6c8e01a",
+    "before": "<ts=&quot;0.049;5.456&quot;>أي! لننس كل هذا الكلام ونستعد لحفل إعدام<br>ممتع.",
+    "after": "<ts=&quot;0.049;5.456&quot;>أجل! فلننس كل هذا الكلام ولنستمتع بعملية<br>إعدام لطيفة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17053,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_023",
+    "source_sha256": "08b4246d6ef2e9382f5f84f5fbe5b91b64c85e5e6315af0413d184344f6bc26b",
+    "before": "<ts=&quot;0.26;3.727&quot;>بعت أسخن سكاكيني طعنة لأحجز مقعدا في الصف<br>الأول!",
+    "after": "<ts=&quot;0.26;3.727&quot;>تنازلت عن أفضل سكاكين الطعن لدي لأحجز<br>مقاعد في الصف الأول!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17054,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_024",
+    "source_sha256": "56ea791eb1bc3d529aa19ab03b5cfdda8ede2de2a27a75d02e69e428d32c543d",
+    "before": "<ts=&quot;0;0.35&quot;>خطأ!",
+    "after": "<ts=&quot;0;0.35&quot;>خطأ!",
+    "decision": "keep"
+  },
+  {
+    "index": 17055,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_026",
+    "source_sha256": "c83729bfa8768d30e79de49822a17dd5d95627be2aaa2a7d2ef49b09eab6c0ef",
+    "before": "<ts=&quot;2.02;3.188&quot;>اجعلوا قبطاننا فخورا يا رفاقي!",
+    "after": "<ts=&quot;2.02;3.188&quot;>اجعلوا قبطاننا فخورا يا رفاقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 17056,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_027",
+    "source_sha256": "e5c3b0f9ade049342ebb27cd7c581282dd7ad5d351d9b38075a93ec96963c3aa",
+    "before": "<ts=&quot;0;3.75&quot;>آخر فرصة للرجوع! أنا أحذركم!",
+    "after": "<ts=&quot;0;3.75&quot;>آخر فرصة للرجوع! أنا أحذركم!",
+    "decision": "keep"
+  },
+  {
+    "index": 17057,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_028",
+    "source_sha256": "af217f188f54e2f003d2ef8592892a586ebff72320459a45806835a71ef1a8ea",
+    "before": "<ts=&quot;0.045;1.053&quot;>تأن!",
+    "after": "<ts=&quot;0.045;1.053&quot;>تأن!",
+    "decision": "keep"
+  },
+  {
+    "index": 17058,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_029",
+    "source_sha256": "afaa6ff7221ea90c6334b39e240d72279322d2aeed8b5efe7558b7134bcf53c9",
+    "before": "<ts=&quot;0;0.66&quot;><ts=&quot;1.88;4.33&quot;>يبدو أننا أمسكنا واحدا حيا!",
+    "after": "<ts=&quot;0;0.66&quot;><ts=&quot;1.88;4.33&quot;>يبدو أننا أمسكنا واحدا حيا!",
+    "decision": "keep"
+  },
+  {
+    "index": 17059,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_030",
+    "source_sha256": "ecd1147548c13572fa60428181e847c3fd2d0c8a9f06441e3b007eb8e5b9a13c",
+    "before": "<ts=&quot;0;6.749&quot;>أردوليس مغلقة اليوم! تخليدا لذكرى رحيل<br>قبطاننا كابتن كوانتوم!",
+    "after": "<ts=&quot;0;6.749&quot;>أردوليس مغلقة اليوم! تخليدًا لذكرى قبطاننا<br>الراحل العزيز، القبطان كوانتوم!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17060,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_031",
+    "source_sha256": "fd04a0aae4836b9c70b2d3076903f617e0471d03faa0cc470d8766217540b317",
+    "before": "<ts=&quot;0;3.34&quot;>متسللون؟! ،موتوا، موتوا موتوا!",
+    "after": "<ts=&quot;0;3.34&quot;>متسللون؟! موتوا، موتوا، موتوا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17061,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_032",
+    "source_sha256": "edb988e2acfca9501aa2b785018b94046a5cffc7ee445962889732ea5b52a825",
+    "before": "<ts=&quot;0;0.8&quot;>تمرد!",
+    "after": "<ts=&quot;0;0.8&quot;>تمرد!",
+    "decision": "keep"
+  },
+  {
+    "index": 17062,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_033",
+    "source_sha256": "05d7db07527a1ce470a531e2414a8707078fca4c395828b2be8f6fef71013781",
+    "before": "<ts=&quot;0.048;4.186&quot;>رأيت لومباكس ميتا!",
+    "after": "<ts=&quot;0.048;4.186&quot;>رأيت لومباكس ميتا!",
+    "decision": "keep"
+  },
+  {
+    "index": 17063,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_034",
+    "source_sha256": "a31638be6ccef7151a24155e57dabcced030452ab52790ec24decc59120135f0",
+    "before": "<ts=&quot;0.048;1.499&quot;>حبسوهم!",
+    "after": "<ts=&quot;0.048;1.499&quot;>حبسوهم!",
+    "decision": "keep"
+  },
+  {
+    "index": 17064,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_035",
+    "source_sha256": "fcebd3d5d4eb547efa6f4e381f40a25309d260a216fa8391fdce2753a0342368",
+    "before": "<ts=&quot;0;2.8&quot;>لن تخرج من هنا حيا أيها اللومباكس!",
+    "after": "<ts=&quot;0;2.8&quot;>لن تخرج من هنا حيا أيها اللومباكس!",
+    "decision": "keep"
+  },
+  {
+    "index": 17065,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_036",
+    "source_sha256": "ebd0fd0faacc78fe7385f6d8c9940edff2d63bacfc4e0673867dfb3046c462ec",
+    "before": "<ts=&quot;0.044;3.366&quot;>تمسكوا يا رفاقي! لا يستطيع قتلنا جميعا!",
+    "after": "<ts=&quot;0.044;3.366&quot;>اثبتوا، يا رفاقي! لا يمكنه القضاء علينا<br>جميعًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17066,
+    "key": "PIR2_ARDO_GP1_ARDO_GP_037",
+    "source_sha256": "8bd3796298d69f45951f88236a2987c1c8f57323857f4d1fdd656c3366c76913",
+    "before": "<ts=&quot;0.279;2.029&quot;>لا تدعه يهرب!",
+    "after": "<ts=&quot;0.279;2.029&quot;>لا تدعوه يرحل!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17067,
+    "key": "PIR2_ARDO_GP1_CINE_CAPTAIN_003",
+    "source_sha256": "92fdf66a230f9e174f997e28ebb49886405abd1ab6c2995e999fa79d965f3e3f",
+    "before": "<ts=&quot;0;1.608&quot;>قاتل!",
+    "after": "<ts=&quot;0;1.608&quot;>قاتل!",
+    "decision": "keep"
+  },
+  {
+    "index": 17070,
+    "key": "PIR2_CIV_GEN_IDLE_001",
+    "source_sha256": "1c2e3bda9e634cc50f5369565a7993438cbecd031e3fb9639d33d84345f1b549",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0;11.311&quot;>[يغني بهدوء].",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0;11.311&quot;>[يغني بهدوء].",
+    "decision": "keep"
+  },
+  {
+    "index": 17071,
+    "key": "PIR2_CIV_GEN_IDLE_002",
+    "source_sha256": "1d59efdb0d1b0cb0782d27e432e8925440687e79c703b14eadc0213afb820bec",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.016;3.682&quot;>آه، ما أطيب أن تكون قدماي على أرض صلبة!",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.016;3.682&quot;>آه، ما أطيب أن تكون قدماي على أرض صلبة!",
+    "decision": "keep"
+  },
+  {
+    "index": 17072,
+    "key": "PIR2_CIV_GEN_IDLE_003",
+    "source_sha256": "556ed9ed2b0e53dc7a9825d0ca4a642fd241eec23f9c73f95f3dc97f3e9d6b72",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.035;2.343&quot;>في المرة القادمة، أختار الحانة بنفسي...",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.035;2.343&quot;>في المرة القادمة، أختار الحانة بنفسي...",
+    "decision": "keep"
+  },
+  {
+    "index": 17073,
+    "key": "PIR2_CIV_GEN_IDLE_004",
+    "source_sha256": "0f7455d2dd6d1440051d025273e417d40786095993987ceb775d49fd19ac1fca",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.048;5.013&quot;>أي نوع من اللصوص يضع لثا تحت الطاولة؟",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.048;5.013&quot;>أي وغد يضع علكة تحت الطاولة؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17074,
+    "key": "PIR2_CIV_GEN_VISIT1_001",
+    "source_sha256": "1347a38f25ea54f81cbcb57ea014e1b7aded6ce57daf399851bcdec3d2ac8568",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.044;4.791&quot;>هه، فرانسوا سيكتسح الساحة اليوم.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.044;4.791&quot;>هه، فرانسوا سيكتسح الساحة اليوم.",
+    "decision": "keep"
+  },
+  {
+    "index": 17075,
+    "key": "PIR2_CIV_GEN_VISIT1_002",
+    "source_sha256": "b998f7adda04fbe73c858fd758d3207d01d5459f2e576adcf10d1568e57964fe",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.04;1.879&quot;>أتساءل إلى أين نتجه بعد ذلك.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.04;1.879&quot;>أتساءل إلى أين نتجه بعد ذلك.",
+    "decision": "keep"
+  },
+  {
+    "index": 17076,
+    "key": "PIR2_CIV_GEN_VISIT2_001",
+    "source_sha256": "c0c60dc35ca0952681814daa082f94c14b40af70b750fc69711a848615bdbe0d",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.008;4.448&quot;>سئمت هذه الصدوع. أكره الإبحار في بحار<br>هائجة.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.008;4.448&quot;>سئمت هذه الصدوع. أكره الإبحار في بحار<br>هائجة.",
+    "decision": "keep"
+  },
+  {
+    "index": 17077,
+    "key": "PIR2_CIV_GEN_VISIT2_002",
+    "source_sha256": "951d70273680772a49912f96170e0a8f580d0d8b2cd4a80b170a3334a9942c39",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.04;2.607&quot;>لا أطيق الانتظار للعودة إلى أردوليس.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.04;2.607&quot;>لا أطيق الانتظار للعودة إلى أردوليس.",
+    "decision": "keep"
+  },
+  {
+    "index": 17078,
+    "key": "PIR2_CIV_GEN_VISIT3_001",
+    "source_sha256": "e9e03a12631a109da16e0edb4255a93c1fb4af2f973b42b32c39901953d44dfd",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.919&quot;>أحتاج إلى وجبة صغيرة قبل أن أغادر.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.919&quot;>أحتاج إلى وجبة صغيرة قبل أن أغادر.",
+    "decision": "keep"
+  },
+  {
+    "index": 17079,
+    "key": "PIR2_CIV_GEN_VISIT3_002",
+    "source_sha256": "35d6fbe432cef3ba443dd17c861f493a9e32a58c94bf01ea3ab10f24ba9c0855",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.036;4.486&quot;>هه، مر وقت طويل منذ أن أردنا تمردا حقيقيا.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.036;4.486&quot;>هه، مضى وقت طويل منذ آخر تمرد حقيقي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17080,
+    "key": "PIR2_CIV_GEN_VISIT4_001",
+    "source_sha256": "1cf0b94f84490666a5ae1164ccb283d56fcb3ca39bc6366498f43e6e8b2c7f10",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;2.32;4.447&quot;>يسعدني أن لدي طاقما متينا يحرس ظهري في مثل<br>هذه الأوقات.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;2.32;4.447&quot;>يسعدني أن لدي طاقما متينا يحرس ظهري في مثل<br>هذه الأوقات.",
+    "decision": "keep"
+  },
+  {
+    "index": 17081,
+    "key": "PIR2_CIV_GEN_VISIT4_002",
+    "source_sha256": "be6b610fb2b8c5a4b85029734d18f5eebdf9bc271037e7b38da071aebfda7082",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0;4.026&quot;>لقد تجولت في المجرة كلها. رأيت كل شيء.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0;4.026&quot;>لقد تجولت في المجرة كلها. رأيت كل شيء.",
+    "decision": "keep"
+  },
+  {
+    "index": 17082,
+    "key": "PIR2_CORV_GP1_DEMO_PARADE_001",
+    "source_sha256": "e25441e14ad984dde3873090d2a17113078ba1a9bcc3bfb98d1713ecdcfd7f25",
+    "before": "<ts=&quot;0;0.88&quot;>خذوا<ts=&quot;1.319;2.499&quot;>أسلحتكم!",
+    "after": "<ts=&quot;0;0.88&quot;>خذوا<ts=&quot;1.319;2.499&quot;>أسلحتكم!",
+    "decision": "keep"
+  },
+  {
+    "index": 17083,
+    "key": "PIR2_CORV_GP1_DEMO_PARADE_002",
+    "source_sha256": "682154698815e2dfd485e4bb7fae3eb212b3e724fd8da929993a719ec9e5bb91",
+    "before": "<ts=&quot;0.05;2.11&quot;>اللواحب على الجانب الأيسر!",
+    "after": "<ts=&quot;0.05;2.11&quot;>لوامس على الجانب الأيسر!",
+    "decision": "rewrite"
+  }
+]

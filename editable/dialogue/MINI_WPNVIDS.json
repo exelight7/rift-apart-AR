@@ -7,12 +7,20 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;3.231&quot;>آه، الارتداد!",
     "arabic_edit": "<ts=&quot;0.066;3.231&quot;>آه، الارتداد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "66721a761729bcdb1648599ec24fafa3a84c092cd3c701bd6dc67a7caa379ddc",
+      "candidate_sha256": "8eafe6524624310828d7e1d75c0593dafdf944c462a744c8192b5e6a0a8aad78",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10613,
@@ -21,14 +29,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.053;8.706&quot;>شش شش. دوم! هذا هو صوت<br>القوة الخالصة. والإنفورسر!<ts=&quot;8.706;13.213&quot;>بماسورتيه من الدمار الحلو<br>الحلو.",
-    "arabic_edit": "<ts=&quot;0.053;8.706&quot;>شش شش. دوم! هذا هو صوت القوة الخالصة.<br>والإنفورسر!<ts=&quot;8.706;13.213&quot;>بماسورتيه من الدمار الحلو الحلو.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.053;8.706&quot;>تشك تشك. بووم! هذا صوت القوة الخالصة. وصوت<br>إنفورسر!<ts=&quot;8.706;13.213&quot;>بسبطانتيه المفعمتين بالدمار اللذيذ.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "0e47ad14ca01f5496ccc9d84015ac5017bc169aa0ceaaa16ad000afdd34e07af",
+      "candidate_sha256": "c89411db96c28d79d5b34c2bf47211ce77a6b455bec0cf13b5fa7788af3325d7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10614,
@@ -38,13 +54,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.091;4.795&quot;>قل لي، هل تعرف ما هو أفضل<br>من مشاهدة المتفجرات؟<ts=&quot;4.933;8.179&quot;>رميها بيديك المجردتين!",
     "arabic_edit": "<ts=&quot;0.091;4.795&quot;>قل لي، هل تعرف ما هو أفضل من مشاهدة<br>المتفجرات؟<ts=&quot;4.933;8.179&quot;>رميها بيديك المجردتين!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "3e4644d94d8ffe41830ff8bfd24c872d03da09ba864956d0a2438184fdfd32c4",
+      "candidate_sha256": "60e87b4229b4fb808e55ef4fd645b47f79d3cc3753d954e3693ac5c1f1fb708c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10615,
@@ -53,14 +77,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.063;4.722&quot;>قنبلة تحطيم؟ أكثر كأنها<br>قنبلة «هيا هيا»!",
-    "arabic_edit": "<ts=&quot;0.063;4.722&quot;>قنبلة تحطيم؟ أكثر كأنها قنبلة «هيا هيا»!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.063;4.722&quot;>قنبلة التحطيم؟ بل قنبلة تحطيم... بوم يا<br>سلام!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "bb83fe349857018e1c5f2d752a1f42a861fa23cf5a55eb02c083fbbd8d33f676",
+      "candidate_sha256": "0ffb28b8195b12af61684385db69d695cfb02698c7ad8be2dc5d356500c76d3f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10616,
@@ -70,13 +102,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.058;3.97&quot;>ما الأفضل في الحياة؟ الحب؟<br>الصداقة؟",
     "arabic_edit": "<ts=&quot;0.058;3.97&quot;>ما الأفضل في الحياة؟ الحب؟ الصداقة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "1d4f9aec98b5645abdbd1c3764002751e3fcdf232a8214ee7ae51e2cac8f87ac",
+      "candidate_sha256": "ffec0e0c0478edfab0085686490c2c67071b418a0b8a318a1266b20ea0bf2632",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10617,
@@ -85,14 +125,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;6.527&quot;>لا، بل تغرق أعداءك بمئات<br>الرصاص مرة بعد مرة!",
-    "arabic_edit": "<ts=&quot;0.066;6.527&quot;>لا، بل تغرق أعداءك بمئات الرصاص مرة بعد<br>مرة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;6.527&quot;>كلا، بل إغراق أعدائك بمئات الرصاصات، مرة<br>تلو الأخرى!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "9f8b2b98aa61cde6991db507a8f2efd12531ff91583577633c46220f3f47eb5a",
+      "candidate_sha256": "6d78de9c4e7386994e4d97f8f788afdc1525d2704fe1556a01bbed48d876af8a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10618,
@@ -101,14 +149,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.069;8.673&quot;>عاصفة الثقب الأسود تحتاج<br>ثانية لتدور، لكن حين تدور...",
-    "arabic_edit": "<ts=&quot;0.069;8.673&quot;>عاصفة الثقب الأسود تحتاج ثانية لتدور، لكن<br>حين تدور...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.069;8.673&quot;>تحتاج عاصفة الثقب الأسود إلى ثانية لبدء<br>الدوران، لكن حين تنطلق...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "f90bf762eb937108c4312880597074b458970a229093d95e205e0935c9c68f4f",
+      "candidate_sha256": "99385893c18e24ac78de96b23e658fa713603fb85db59b9d9d39a50e5d4a16ea",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10619,
@@ -118,13 +174,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.064;4.915&quot;>الدروع مملة. إحدى حقائق<br>الحياة.",
     "arabic_edit": "<ts=&quot;0.064;4.915&quot;>الدروع مملة. إحدى حقائق الحياة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "a27293a777a34a1e3bcfeac7af4a0e09d7fbeea92e02d04769d81dd2386a81f6",
+      "candidate_sha256": "a4bed347ebeb9fefd8591e1adc1159daabe4b18c5af43b405e4b1463e9e4c3c9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10620,
@@ -133,14 +197,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;10.454&quot;>لكن ماذا لو كان الدرع<br>يستطيع الرد بالنار؟<br>صحيح؟ صحيح؟ رائع، أليس<br>كذلك؟! أليس كذلك؟! أدخل<br>دافع الفراغ.",
-    "arabic_edit": "<ts=&quot;0.066;10.454&quot;>لكن ماذا لو كان الدرع يستطيع الرد بالنار؟<br>صحيح؟ صحيح؟ رائع، أليس كذلك؟! أليس كذلك؟!<br>أدخل دافع الفراغ.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;10.454&quot;>لكن ماذا لو رد الدرع بالنيران؟ نعم؟ نعم؟<br>رائع، صحيح؟! صحيح؟! إليكم دافع الفراغ.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "5dadc591ba3b62c83bc0ebf6ddfe9c748f01b879d2a5b47a6bd246d05ef54308",
+      "candidate_sha256": "aec752e3d31b1a7be7240bb23fa4fc0383399770d69269d953c22061c2cde93c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10621,
@@ -149,14 +221,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.063;6.976&quot;>الراينو. أعظم أداة فوضى<br>سيعرفها هذا الكون.",
-    "arabic_edit": "<ts=&quot;0.063;6.976&quot;>الراينو. أعظم أداة فوضى سيعرفها هذا الكون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.063;6.976&quot;>رينو. أعظم أداة لإحداث الفوضى سيعرفها هذا<br>الكون.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "628122544fdc37815447ee97abd523ce6e3e95c26e5ecee9743135554877f919",
+      "candidate_sha256": "b237d1a0cd574a16de87c898ebf6ebbd7e256f85e78bf3fb3cc16c930bcc01a3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10622,
@@ -166,13 +246,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.069;1.954&quot;>حتى تصنع النسخة<br>التالية...",
     "arabic_edit": "<ts=&quot;0.069;1.954&quot;>حتى تصنع النسخة التالية...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "7ed68bb4a918b19b7d703a8c9cc03e366362a837dfbc11db72f33e7930541e27",
+      "candidate_sha256": "6027ea3ef31fe1f184695f8013f05cec2c3a54e81770c05fef012a9be094cacc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10623,
@@ -182,13 +270,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.045;11.095&quot;>ماذا سيخرج؟ زوركون الصغير لا<br>يخبرك! ... زوركون الصغير لا<br>يعرف حقا.",
     "arabic_edit": "<ts=&quot;0.045;11.095&quot;>ماذا سيخرج؟ زوركون الصغير لا يخبرك! ...<br>زوركون الصغير لا يعرف حقا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "a04a0842a5d137d6bebb14d275035285a7e8c391c72559711119883c52cc6229",
+      "candidate_sha256": "11ea86250adeffbaa871d68419ed972478ef931f7f6d37cf54fff583f82081af",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10624,
@@ -197,14 +293,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.055;2.356&quot;>انظر إلى الباونسر!<ts=&quot;2.748;6.463&quot;>قد يبدو *مثل* قاذف<br>القنابل الاعتيادي في خزانة<br>،والدك<ts=&quot;6.592;9.14&quot;>لكن انظر مرة أخرى!",
-    "arabic_edit": "<ts=&quot;0.055;2.356&quot;>انظر إلى الباونسر!<ts=&quot;2.748;6.463&quot;>قد يبدو *مثل* قاذف القنابل الاعتيادي في<br>خزانة ،والدك<ts=&quot;6.592;9.14&quot;>لكن انظر مرة أخرى!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.055;2.356&quot;>تأملوا الباونسر!<ts=&quot;2.748;6.463&quot;>قد *يبدو* كقاذف القنابل العادي الموجود في<br>خزانة أبيك،<ts=&quot;6.592;9.14&quot;>لكن انظروا مجددًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "e7afa8d0964891267e585aec088ac932270116dc3fb743dfa026bd0f736b01a3",
+      "candidate_sha256": "625368541d22e850b49d41d8a4473031f3b9f7e6d5397d135a35daa053ea9d4f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10625,
@@ -213,14 +317,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.053;1.999&quot;>،حين تنفجر قنبلة<ts=&quot;1.999;9.216&quot;>تولد قنابل أصغر ترتد نحو<br>أعدائك قبل أن تنفجر بشكل<br>أعنف!",
-    "arabic_edit": "<ts=&quot;0.053;1.999&quot;>،حين تنفجر قنبلة<ts=&quot;1.999;9.216&quot;>تولد قنابل أصغر ترتد نحو أعدائك قبل أن<br>تنفجر بشكل أعنف!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.053;1.999&quot;>حين تنفجر القنبلة،<ts=&quot;1.999;9.216&quot;>تطلق قنابل أصغر ترتد نحو أعدائك، لتحدث<br>مزيدًا من الانفجارات!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "e0584aa18d6611a021198817b6daa539c1e489a26e77c99b61c77d1a27b4d774",
+      "candidate_sha256": "799f94c3d45d7c9fd7a74127b430009dac09893462ea514b3bb50cbf8c1e0e36",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10626,
@@ -230,13 +342,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;4.778&quot;>انظر إلى قوتها التدميرية<br>المذهلة! انظر!",
     "arabic_edit": "<ts=&quot;0.066;4.778&quot;>انظر إلى قوتها التدميرية المذهلة! انظر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "ff0338bba6198bef45fee3353a8cd4168cbcaf16d6c7b5c815eaedf5fe4153cf",
+      "candidate_sha256": "522f1f3478cde21e425bd47483cfaed98252ba64c49476546fde3cb7c508bb92",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10627,
@@ -245,14 +365,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.068;6.882&quot;>مشعل الحروب! سلاح لا<br>يضاهي قوته التدميرية إلا<br>بساطته.",
-    "arabic_edit": "<ts=&quot;0.068;6.882&quot;>مشعل الحروب! سلاح لا يضاهي قوته التدميرية<br>إلا بساطته.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.068;6.882&quot;>مؤجج الحروب! سلاح لا يضاهي قدرته التدميرية<br>إلا بساطته.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "42d1ae3a6295cd0dfba25c842d58bdeb2a48a7a288c46c598f427bdbbb964c80",
+      "candidate_sha256": "1d8956c8a38f992aaaa813f73731aed5174358ac5ab06a84f82d72de581b7dbf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10628,
@@ -261,14 +389,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0;5.478&quot;>آه، السلاح الوحيد الذي دمر<br>أعداء زوركون الصغير<ts=&quot;5.559;8.327&quot;>*وأدى* في حفل عيد ميلاده<br>الأخير!<ts=&quot;8.68;12.598&quot;>السيد فنغاي!",
-    "arabic_edit": "<ts=&quot;0;5.478&quot;>آه، السلاح الوحيد الذي دمر أعداء زوركون<br>الصغير<ts=&quot;5.559;8.327&quot;>*وأدى* في حفل عيد ميلاده الأخير!<ts=&quot;8.68;12.598&quot;>السيد فنغاي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;5.478&quot;>آه، السلاح الوحيد الذي دمر أعداء زوركون<br>الصغير،<ts=&quot;5.559;8.327&quot;>*وقدم عرضًا* في حفل عيد ميلاده الأخير!<ts=&quot;8.68;12.598&quot;>السيد فنغاي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "54d337121a041c4eb7ccc72f84fcd628188e01bc952d011973f4062f346183f7",
+      "candidate_sha256": "4392a826f4b6e2de91d5a1b0cc6a885ca8074f1a0e6a82f9bde4a0041e25f4e3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10629,
@@ -278,13 +414,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.057;6.58&quot;>ارمه فقط وسيضرب أعداءك<br>بقوة تجعلهم *مضطرين*<br>للتعامل مع حركاته...",
     "arabic_edit": "<ts=&quot;0.057;6.58&quot;>ارمه فقط وسيضرب أعداءك بقوة تجعلهم<br>*مضطرين* للتعامل مع حركاته...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "ce8b75d837110250dfa883d1b9a23ff1a0880f07a9f32892bedefe21ce6461b5",
+      "candidate_sha256": "6313b38cdca18203490c34efddc2e8252801b049ed724302d7a564706f1ac20d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10630,
@@ -294,13 +438,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.053;6.218&quot;>وهذا هو الوقت المثالي<br>لتشاركنا في المرح!",
     "arabic_edit": "<ts=&quot;0.053;6.218&quot;>وهذا هو الوقت المثالي لتشاركنا في المرح!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "4265ee80ddb71af2a91f21e212d554f617700ed046bcaba4b8c26e920036ee2c",
+      "candidate_sha256": "0e926cc2964fdaae9ce170340ba2e79a92321562b25161a67c74aa954df087e2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10631,
@@ -309,14 +461,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.063;4.485&quot;>آه، من لا يحب يوما في<br>الشمس<ts=&quot;4.824;10.432&quot;>وتجذر أعدائك في الأرض<br>برشاش التشذيب؟!",
-    "arabic_edit": "<ts=&quot;0.063;4.485&quot;>آه، من لا يحب يوما في الشمس<ts=&quot;4.824;10.432&quot;>وتجذر أعدائك في الأرض برشاش التشذيب؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.063;4.485&quot;>آه، من لا يحب قضاء يوم تحت الشمس،<ts=&quot;4.824;10.432&quot;>وهو يغرس أعداءه في الأرض برشاش التشذيب؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "f6547a53daa8a725b5df302a6bf4b2cf649cc2093e2a64f120788ff101e05804",
+      "candidate_sha256": "48b88031a7ce83335554c5842f43010ca12efc4d8d5f7842365de37c3c79387c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10632,
@@ -325,14 +485,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0;9.096&quot;>أنشئ برجا مدفعيا يحول<br>أعداءك إلى سياج عاجز يمكن<br>تشذيبه!",
-    "arabic_edit": "<ts=&quot;0;9.096&quot;>أنشئ برجا مدفعيا يحول أعداءك إلى سياج عاجز<br>يمكن تشذيبه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;9.096&quot;>أنشئ برجًا يحول أعداءك إلى شجيرات عاجزة<br>قابلة للتشذيب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "5fa1e5049c7311914f4e11bd193f43947b27f9b45500c3ff9509a6f747818d75",
+      "candidate_sha256": "fba211ca64fcd0acca036f4352c0b7f19f9294be06e89c366fbf0b0639768f6a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10633,
@@ -342,13 +510,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;4.114&quot;>قل لي، هل ذلك... رعد أسمعه؟<br>مطر؟<ts=&quot;4.743;8.855&quot;>لا، إنه قاذف الصاعقة!",
     "arabic_edit": "<ts=&quot;0.066;4.114&quot;>قل لي، هل ذلك... رعد أسمعه؟ مطر؟<ts=&quot;4.743;8.855&quot;>لا، إنه قاذف الصاعقة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "806c5cf4747511b89a580b068b079b1c8e93b561e23817fcf1cde02b554c82ab",
+      "candidate_sha256": "bdae791dad798f3511eb118a011a20bd147a2d90b00e6acfc5799f9728f3e69e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10634,
@@ -358,13 +534,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.059;5.289&quot;>أنههم لتوجه الصاعقة نحو<br>*رفاقهم المشاغبين*!!!",
     "arabic_edit": "<ts=&quot;0.059;5.289&quot;>أنههم لتوجه الصاعقة نحو *رفاقهم<br>المشاغبين*!!!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "449aaf71070179401cdf6efbcdce27b27367c3ec0cb71962dc3f5d02e6d64c1e",
+      "candidate_sha256": "c6a4d416f234d90625c6647ccbc23ebfc9d345d972e5a581a823e9519d3dd42e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10635,
@@ -373,14 +557,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0;6.879&quot;>طور قاذف الصاعقة ليحش<br>عاصفة ألم أكبر وأفظع!<ts=&quot;9.311;12.106&quot;>ززز!",
-    "arabic_edit": "<ts=&quot;0;6.879&quot;>طور قاذف الصاعقة ليحش عاصفة ألم أكبر<br>وأفظع!<ts=&quot;9.311;12.106&quot;>ززز!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;6.879&quot;>طور قاذف الصاعقة لشحن عاصفة ألم أشد وأفظع!<ts=&quot;9.311;12.106&quot;>زززاب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "b3ef9495e9f44e72a610535ec2e27d993ea81b13b212bc075334a5f471db1fa8",
+      "candidate_sha256": "3846503552598dcd8f3557eb278e72c0903febc1a2a28e7dfd2b7a906aab5eb1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10636,
@@ -389,14 +581,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.057;5.891&quot;>ألا تكره أحيانا عندما يختبئ<br>أعداؤك في البعيد؟<ts=&quot;5.891;9.804&quot;>حسنا، توقف عن الكراهية<br>وابدأ التصويب بالصياد!",
-    "arabic_edit": "<ts=&quot;0.057;5.891&quot;>ألا تكره أحيانا عندما يختبئ أعداؤك في<br>البعيد؟<ts=&quot;5.891;9.804&quot;>حسنا، توقف عن الكراهية وابدأ التصويب<br>بالصياد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.057;5.891&quot;>ألا تكره اختباء أعدائك بعيدًا؟<ts=&quot;5.891;9.804&quot;>توقف عن الكراهية وابدأ التصويب بقناص<br>الرؤوس!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "7d3b706fe05f73741b85f6fabb36fd5ed44c28eaf097cc092c032a6492bceb08",
+      "candidate_sha256": "58664ee4952536fbf292cbe50e79ab89d4b05ec71663d7d8ea5951a440a112e2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10637,
@@ -405,14 +605,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.065;6.557&quot;>أرجوك، ساعدني أحد! الأعداء<br>كثيرون جدا!<ts=&quot;6.557;12.004&quot;>لا تخف، لدى زوركون الصغير<br>قاذف القنابل!",
-    "arabic_edit": "<ts=&quot;0.065;6.557&quot;>أرجوك، ساعدني أحد! الأعداء كثيرون جدا!<ts=&quot;6.557;12.004&quot;>لا تخف، لدى زوركون الصغير قاذف القنابل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.065;6.557&quot;>أوه، أرجوكم، ساعدوني! الأعداء كثيرون!<ts=&quot;6.557;12.004&quot;>لا تخف، لدى زوركون الصغير قاذف القنابل!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "be1a6ec834c1c205c9c3c4887d1e8e1999a62dcc98df30e2303475d48cc8e845",
+      "candidate_sha256": "bdc80db71b0e8ac5f7992167c2568487e049c162394b58c61991599d4c33d41f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10638,
@@ -421,14 +629,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.062;4.995&quot;>تروي الأساطير عن سلاح<br>،يحتوي طاقة شديدة القوة<ts=&quot;5.094;12.096&quot;>شعاعه يمحو الأعداء بمجرد<br>ضغطة زر، ويدعى...<ts=&quot;12.468;17.52&quot;>مصادم النيغاترون!",
-    "arabic_edit": "<ts=&quot;0.062;4.995&quot;>تروي الأساطير عن سلاح ،يحتوي طاقة شديدة<br>القوة<ts=&quot;5.094;12.096&quot;>شعاعه يمحو الأعداء بمجرد ضغطة زر، ويدعى...<ts=&quot;12.468;17.52&quot;>مصادم النيغاترون!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.062;4.995&quot;>تحكي الأساطير عن سلاح يحتوي على طاقة<br>هائلة،<ts=&quot;5.094;12.096&quot;>يمحو شعاعه الأعداء بمجرد ضغطة زر، ويدعى...<ts=&quot;12.468;17.52&quot;>مصادم النيجاترون!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "4b1ab66b45180f99c87eb5a0bbb4d241e27828071beed8e7a75c7fab6a68dac9",
+      "candidate_sha256": "e7639da28e1ce475858db157d43d98f1932a52200ee06a95aeee284ec096aa50",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10639,
@@ -437,14 +653,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.054;5.184&quot;>امحو أعداءك واحدا تلو الآخر أو<br>مزقهم بالمصادم وسط الزحام!!!<ts=&quot;5.184;10.71&quot;>طاقة محاربة الشر بين يديك!",
-    "arabic_edit": "<ts=&quot;0.054;5.184&quot;>امحو أعداءك واحدا تلو الآخر أو مزقهم<br>بالمصادم وسط الزحام!!!<ts=&quot;5.184;10.71&quot;>طاقة محاربة الشر بين يديك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.054;5.184&quot;>امح أعداءك المصطفين على خط واحد، أو اكتسح<br>الحشود بشعاع المصادم!<ts=&quot;5.184;10.71&quot;>طاقة تدمير الشر بين يديك!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "02fda26b2cee4cd8114f5b0fad3bfcdf1deb1f1cb2ed87f715a9b4b42dfabfcc",
+      "candidate_sha256": "5991af1ef4c1906876b58ae16e9e2c7ef9c3dc3960f440369eeaffb83e79df3e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10640,
@@ -453,14 +677,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.034;6.797&quot;>؟--هل الجو بارد هنا أم أن الأمر<ts=&quot;6.797;15.113&quot;>الانكسار البارد! صوبه نحو<br>أعدائك لتجمدهم ككتل<br>جليدية صلبة لا تنكسر!",
-    "arabic_edit": "<ts=&quot;0.034;6.797&quot;>؟--هل الجو بارد هنا أم أن الأمر<ts=&quot;6.797;15.113&quot;>الانكسار البارد! صوبه نحو أعدائك لتجمدهم<br>ككتل جليدية صلبة لا تنكسر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.034;6.797&quot;>هل الجو بارد هنا، أم أن السبب هو...؟<ts=&quot;6.797;15.113&quot;>موجة الصقيع! أطلقها على أعدائك لتجمدهم في<br>كتل جليدية صلبة لا تلين!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "371c6f8b246c7dcf8903821a73f90fce30626c84f6ed46404c78a2ba067ff4d7",
+      "candidate_sha256": "2cea6cf7c79db750e98b05ba6cb68c27273bd927743cffb8fdf6a3b11c8ed6a3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10641,
@@ -470,13 +702,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;4.07&quot;>شاهد كيف ينزلقون<br>ويتزحلقون بلا حول ولا قوة!<ts=&quot;4.07;8.67&quot;>ويتلقون ضررا أكبر ويبدون<br>مضحكين!",
     "arabic_edit": "<ts=&quot;0.066;4.07&quot;>شاهد كيف ينزلقون ويتزحلقون بلا حول ولا<br>قوة!<ts=&quot;4.07;8.67&quot;>ويتلقون ضررا أكبر ويبدون مضحكين!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "001f93a6f21ee217b057b843df102e6306ce19e9abeb91467a96dcf76f7a7bbc",
+      "candidate_sha256": "a1d5770a01f40d1cb2fc8f8ce3258c83abb61686198f11f05b67f2152d4ef668",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10642,
@@ -485,14 +725,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.096;7.105&quot;>من هذا اللطيف؟ دريلهاوند!<br>أجمل ما صنعناه من أسلحة.",
-    "arabic_edit": "<ts=&quot;0.096;7.105&quot;>من هذا اللطيف؟ دريلهاوند! أجمل ما صنعناه<br>من أسلحة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.096;7.105&quot;>من هذا اللطيف؟ دريلهاوند! أفضل سلالات<br>أسلحتنا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "d8a9ca4bde01df21fe59ab69e1cbd96e63903dd490759d78aa6972b0321357d8",
+      "candidate_sha256": "346b3183e0ba2700cdf261b899135ab0d0dd48ea5521372b8acc5cb60bd1e204",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10643,
@@ -501,14 +749,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.084;4.584&quot;>طوره ليلتصق ب *المزيد* من<br>الأهداف!!!",
-    "arabic_edit": "<ts=&quot;0.084;4.584&quot;>طوره ليلتصق ب *المزيد* من الأهداف!!!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.084;4.584&quot;>طوره لتثبيت التصويب على *المزيد* من<br>الأهداف!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "ff230b2d92042a1c750abfe4565a01e632430e3ef49099e17afc20c8993656ca",
+      "candidate_sha256": "bd633fbd3dfae4dff14f8efa2891000864c045acfca26eb4f2810536f8c7a2cd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10644,
@@ -517,14 +773,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;6.592&quot;>آه نعم، موت بألف جرح... من<br>نصال الأزيز!",
-    "arabic_edit": "<ts=&quot;0.066;6.592&quot;>آه نعم، موت بألف جرح... من نصال الأزيز!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;6.592&quot;>آه، نعم، الموت بمليون جرح... من نصال<br>الأزيز!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "09300b9ffabf48541f81f57ac0eb2536d90988e40b4f6f1126a0d32b34d6f9be",
+      "candidate_sha256": "8b5d84569ce5563d65b00c6e1e1565a0912541278673eb27ede3b3d17272fd43",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10645,
@@ -534,13 +798,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.064;2.758&quot;>هذه الأداة الكلاسيكية<br>والفعالة للتدمير<ts=&quot;2.783;5.995&quot;>ترسل قذائف حادة كالموسى<br>ترتد في كل مكان!",
     "arabic_edit": "<ts=&quot;0.064;2.758&quot;>هذه الأداة الكلاسيكية والفعالة للتدمير<ts=&quot;2.783;5.995&quot;>ترسل قذائف حادة كالموسى ترتد في كل مكان!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "c6f77f72c53397e4a550350bfb0603a4c6781df60125782c806b8bbe74a1e297",
+      "candidate_sha256": "152f4374db30402aa92bc6938f9887a16213b572b529c7e9d9549a48b84b114e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10646,
@@ -549,14 +821,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.03;7.392&quot;>أوجزوا العدل السريع القاطع<br>مرة ومرة ومرة!",
-    "arabic_edit": "<ts=&quot;0.03;7.392&quot;>أوجزوا العدل السريع القاطع مرة ومرة ومرة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.03;7.392&quot;>أنزل العدالة السريعة النافذة، مرة تلو<br>الأخرى!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "225989b322527ad9d6924235d7ee4425767b7ad070930087ff1a9b52de3c8737",
+      "candidate_sha256": "7e725c2f9cf529dd9a9457ede3b08d5c6c07c38a4e5505286ec95ad41a58b2a3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10647,
@@ -565,14 +845,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.063;9.835&quot;>ما هي طريقة أفضل لتدمير<br>عدوك من تحويله إلى ست<br>عشرة بت بالمبكسل؟!",
-    "arabic_edit": "<ts=&quot;0.063;9.835&quot;>ما هي طريقة أفضل لتدمير عدوك من تحويله إلى<br>ست عشرة بت بالمبكسل؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.063;9.835&quot;>أي طريقة لتدمير عدوك أفضل من تحويله إلى<br>رسوم 16 بت بالمبكسل؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "b857b4852201a8ea3e35f15fecf7dcae1fef9c55009a56c4a69ebe1297c31a5d",
+      "candidate_sha256": "ecd7dd496138207a3795b65626f27f127107e3a0a7cc308025ac231e290e5173",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10648,
@@ -581,14 +869,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.055;10.885&quot;>حولهم إلى مكعبات رجعية...<br>ثم أسقطهم إلى القاع تماما!",
-    "arabic_edit": "<ts=&quot;0.055;10.885&quot;>حولهم إلى مكعبات رجعية... ثم أسقطهم إلى<br>القاع تماما!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.055;10.885&quot;>حولهم إلى مكعبات بأسلوب الألعاب القديمة...<br>ثم حطمها كلها!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "c1701aecb891af158114b64a498e7a7407fbf459c3162790de07e678fd1d56be",
+      "candidate_sha256": "c2ee3bb95eef54f0a5fef64f3a486ad05766d084e38953f145f572828dd333eb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10649,
@@ -598,13 +894,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.062;8.6&quot;>سلم على أصدقائك الصغار<br>في... قفاز الهلاك! ها! هاهاها!",
     "arabic_edit": "<ts=&quot;0.062;8.6&quot;>سلم على أصدقائك الصغار في... قفاز الهلاك!<br>ها! هاهاها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "95500d1756d6e4f4c8e9d7d0511b84675189eee3d9f631cc924fa4d567f6eb8b",
+      "candidate_sha256": "c185272ffb8125e9477e7445d5ea3e229416e1d1aeca6ec738f3627c3d9c74e6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10650,
@@ -613,14 +917,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.038;6.822&quot;>صغار لكنهم شرسون وجائعون<br>ومركزون، وسيتبعونك أينما<br>ذهبت!!",
-    "arabic_edit": "<ts=&quot;0.038;6.822&quot;>صغار لكنهم شرسون وجائعون ومركزون،<br>وسيتبعونك أينما ذهبت!!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.038;6.822&quot;>صغار، لكنهم شرسون وجائعون ولا يحيدون عن<br>هدفهم! سيتبعونك أينما ذهبت!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "e52143756c26a631276cb61d8ac6902e93a286b6741818a10f565c65462a8d09",
+      "candidate_sha256": "bcfab815e92d3ac59328e63badcffd09995326c9dc6d54b3939d54cd130c0033",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10651,
@@ -630,13 +942,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.067;3.554&quot;>قاذف القنابل سيرتفع فوق<br>ساحة المعركة و...<ts=&quot;3.554;7.435&quot;>أنت تعرف الباقي.",
     "arabic_edit": "<ts=&quot;0.067;3.554&quot;>قاذف القنابل سيرتفع فوق ساحة المعركة و...<ts=&quot;3.554;7.435&quot;>أنت تعرف الباقي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "23a770e385ce1b3b43a950278ef1ac6dd739e700905acb089773c2b5cfc11830",
+      "candidate_sha256": "49f2040b264f3f0f7cccd9ab96cc5d8581f28bd57be31746bbcd46fa5798a4f3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10652,
@@ -645,14 +965,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;7.208&quot;>اضغط زر الإطلاق ليصوبه نحو<br>عدوك عديم القيمة!!! هه؟! ،أوه<br>يا إلهي! ثم...<ts=&quot;7.208;11.874&quot;>سيظهر مجددا بجانبه!؟",
-    "arabic_edit": "<ts=&quot;0.066;7.208&quot;>اضغط زر الإطلاق ليصوبه نحو عدوك عديم<br>القيمة!!! هه؟! ،أوه يا إلهي! ثم...<ts=&quot;7.208;11.874&quot;>سيظهر مجددا بجانبه!؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;7.208&quot;>اضغط زر الإطلاق لتقذف به نحو عدوك عديم<br>القيمة! هه؟ أوه، يا إلهي! ثم...<ts=&quot;7.208;11.874&quot;>سيظهر مجددًا بجانبه؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "9e949dd9d335217a947768104d55c0a6fe937575504d65d9062c41b03ebf2560",
+      "candidate_sha256": "0633732dd5a99bf87687cf4a17a896bf22cf25a04f617b23752f46fdfe6e495a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10653,
@@ -662,13 +990,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.029;5.725&quot;>ثم ماذا؟! اضغط زر الإطلاق<br>لتضربهم مرة ومرة ومرة!!<ts=&quot;5.725;8.431&quot;>بو! بو! بو! بو! بو! بو! بينغ<br>بينغ بينغ!",
     "arabic_edit": "<ts=&quot;0.029;5.725&quot;>ثم ماذا؟! اضغط زر الإطلاق لتضربهم مرة ومرة<br>ومرة!!<ts=&quot;5.725;8.431&quot;>بو! بو! بو! بو! بو! بو! بينغ بينغ بينغ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "2b2d8319a012e40d0f2ad7f66d665d15365f18acad735cd576e594401aef0405",
+      "candidate_sha256": "7bb8904fe4679d9b4a6f9d5a6452e7d04ed5e5f9482a63ca653ebe2cc550401d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10654,
@@ -678,13 +1014,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.053;9.38&quot;>استمر في ضغط زر الإطلاق<br>عند رؤية ومضة لتحصل على<br>ضرر إضافي! بوياه!",
     "arabic_edit": "<ts=&quot;0.053;9.38&quot;>استمر في ضغط زر الإطلاق عند رؤية ومضة<br>لتحصل على ضرر إضافي! بوياه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "182b742690405554a80e4fb20008dcb7f7423176a34426ebd95567cfb42c3679",
+      "candidate_sha256": "3d5eaf167db918ddae442becf5f3e67c7e127c08a8332659f9ec362e49d21526",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10655,
@@ -693,14 +1037,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.059;4.476&quot;>يمكنك ضغط زر الإطلاق نصف<br>،ضغطة لطلقة من ماسورة واحدة<ts=&quot;4.631;12.146&quot;>وإن كنت واثقا فاضغطه كاملا<br>لتطلق من الماسورتين!<ts=&quot;12.34;13.781&quot;>دوم!",
-    "arabic_edit": "<ts=&quot;0.059;4.476&quot;>يمكنك ضغط زر الإطلاق نصف ،ضغطة لطلقة من<br>ماسورة واحدة<ts=&quot;4.631;12.146&quot;>وإن كنت واثقا فاضغطه كاملا لتطلق من<br>الماسورتين!<ts=&quot;12.34;13.781&quot;>دوم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.059;4.476&quot;>اضغط زر الإطلاق نصف ضغطة لتطلق من سبطانة<br>واحدة،<ts=&quot;4.631;12.146&quot;>وإن كنت واثقًا، فاضغطه بالكامل لتطلق من<br>السبطانتين!<ts=&quot;12.34;13.781&quot;>بووم!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "bab2953774e71599206c25f2665bdb89dbfe6255fe9cb899c843963cafc79b3b",
+      "candidate_sha256": "891d4fa1c44adff70415860dfc97215f2658b2c7311aefdb40bc2dce60752bdf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10656,
@@ -710,13 +1062,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0;7.153&quot;>اضغط زر الإطلاق نصف ضغطة<br>لترى تصويبك، أو إن كنت<br>مستعجلا<ts=&quot;7.153;10.61&quot;>اضغطه كاملا لتطير قذائفه.",
     "arabic_edit": "<ts=&quot;0;7.153&quot;>اضغط زر الإطلاق نصف ضغطة لترى تصويبك، أو<br>إن كنت مستعجلا<ts=&quot;7.153;10.61&quot;>اضغطه كاملا لتطير قذائفه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "f9b9681efd92885378520999e826d4fed674105acdaf70f6ef411a684d19a85b",
+      "candidate_sha256": "a08cfe8774241591268d119b55448bdcfc99f6a4517488081acf25c2e47240fa",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10657,
@@ -725,14 +1085,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0;3.204&quot;>اضغط زر الإطلاق نصف ضغطة<br>،لتدرع نفسك<ts=&quot;3.389;10.009&quot;>واضغطه كاملا لتطلق انفجارا<br>حلوا قصير المدى واسع<br>الانتشار.<ts=&quot;10.028;12.787&quot;>سوووووووت!!!<ts=&quot;12.787;13.917&quot;>.. نة.",
-    "arabic_edit": "<ts=&quot;0;3.204&quot;>اضغط زر الإطلاق نصف ضغطة ،لتدرع نفسك<ts=&quot;3.389;10.009&quot;>واضغطه كاملا لتطلق انفجارا حلوا قصير المدى<br>واسع الانتشار.<ts=&quot;10.028;12.787&quot;>سوووووووت!!!<ts=&quot;12.787;13.917&quot;>.. نة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.204&quot;>اضغط زر الإطلاق نصف ضغطة لتحتمي بالدرع،<ts=&quot;3.389;10.009&quot;>واضغطه بالكامل لتطلق دفعة حلوة واسعة<br>الانتشار، قصيرة المدى.<ts=&quot;10.028;12.787&quot;>حلااااا...<ts=&quot;12.787;13.917&quot;>...وة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "1db201b970c456a9ed614959b9e42e906f0e6a1a47276b74ce1b04219b7113ba",
+      "candidate_sha256": "021fca5a70d28d52b76db1252a79a0f1580f45fa09de55b0f52114b07a0a76d5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10658,
@@ -742,13 +1110,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;5.996&quot;>اضغط زر الإطلاق فقط لتفتح<br>ثقبا إلى بعد آخر!",
     "arabic_edit": "<ts=&quot;0.066;5.996&quot;>اضغط زر الإطلاق فقط لتفتح ثقبا إلى بعد<br>آخر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "858f93481e7e61ce5ce6f08972a2ae3213ce7b1a79b1385e027f56e61a429241",
+      "candidate_sha256": "c77bc977ff086f2e1a4291809d8f772e532135f8845dc54b72a8aad1f0a71b32",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10659,
@@ -758,13 +1134,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.067;3.413&quot;>اضغط زر الإطلاق، فيطلق<br>صاروخا.",
     "arabic_edit": "<ts=&quot;0.067;3.413&quot;>اضغط زر الإطلاق، فيطلق صاروخا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "7b56324efc9bda219a82abc76046b82dd5f8e1af6842bd69891cb38743429ed9",
+      "candidate_sha256": "e1d171de506fe393e3fc9ad33fc039564ec56cc2dbb6e299a35af2b6dce900d3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10660,
@@ -774,13 +1158,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.063;4.249&quot;>اضغطه مرة أخرى، فيطلق<br>صاروخا آخر.",
     "arabic_edit": "<ts=&quot;0.063;4.249&quot;>اضغطه مرة أخرى، فيطلق صاروخا آخر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "8bd230fdf7831f213f04841e42edb1615687a6a00335063d8274c3c8f0453a3a",
+      "candidate_sha256": "dc2a0a5a13747f2d56012ea975aa2f494846b6f0cf7bd865855ae6a093bdf86a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10661,
@@ -789,14 +1181,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.06;12.54&quot;>آه، لكن ماذا يحدث إن أطلق<br>النار للمرة الثالثة؟!<br>سيطلق صاروخا آخر! كابوم!",
-    "arabic_edit": "<ts=&quot;0.06;12.54&quot;>آه، لكن ماذا يحدث إن أطلق النار للمرة<br>الثالثة؟! سيطلق صاروخا آخر! كابوم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.06;12.54&quot;>آه، لكن ماذا يحدث إن ضغطته مرة ثالثة؟!<br>يطلق صاروخًا آخر! كابوم!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "2a646a2427685ee078b0ef83031dc48be0b975c807a7ef45754bf6607c20f11b",
+      "candidate_sha256": "b9507857cfef70dc56537d173f05f6fd8254400eb0b2f45f120c400c5d59d9ab",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10662,
@@ -805,14 +1205,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.06;10.902&quot;>اضغط زر التصويب نصف<br>،ضغطة لتقترب كثيرا جدا<br>واضغطه كاملا لتبطئ...",
-    "arabic_edit": "<ts=&quot;0.06;10.902&quot;>اضغط زر التصويب نصف ،ضغطة لتقترب كثيرا جدا<br>واضغطه كاملا لتبطئ...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.06;10.902&quot;>اضغط زر التصويب نصف ضغطة لتقريب الرؤية<br>كثيرًا، واضغطه بالكامل لإبطاء الزمن...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "b1a3907f1535d16fed556fa3cab588d64ff892944267a66be28cafd18d4b3b5f",
+      "candidate_sha256": "f50ed484e7f181b198b9daaa133f834107aac04d4513e3f40fe08949b3378d72",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10663,
@@ -821,14 +1229,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;7.538&quot;>ثم اضغط زر الإطلاق لتقطع<br>رؤوس أعدائك عن أكتافهم! آه<br>ويه!",
-    "arabic_edit": "<ts=&quot;0.066;7.538&quot;>ثم اضغط زر الإطلاق لتقطع رؤوس أعدائك عن<br>أكتافهم! آه ويه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;7.538&quot;>واضغط زر الإطلاق لتفصل رؤوس أعدائك عن<br>أكتافهم! أجل!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "cfffad248ab1f6afa9c3eb3d998712492086dd911a3ae2ca5b10ec9e14706347",
+      "candidate_sha256": "4625cb19b469e018e4814da55860a11b9eda72ab11585da3ee57e9b29cae5292",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10664,
@@ -837,14 +1253,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;5.812&quot;>مطر الكوارث على أعدائك بمجرد<br>سحب زناد إطلاقك!",
-    "arabic_edit": "<ts=&quot;0.066;5.812&quot;>مطر الكوارث على أعدائك بمجرد سحب زناد<br>إطلاقك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;5.812&quot;>أمطر أعداءك بالدمار بمجرد الضغط على زر<br>الإطلاق!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "e9d4eb933c869449652dbb965e2cc57fcf8955564aedec00da1221e58096d4bf",
+      "candidate_sha256": "a08cc65a159b001c6bef64dc59f3280622ff347e8e044170287670c9f23fab22",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10665,
@@ -854,13 +1278,21 @@
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0;1.292&quot;>اضغط زر الإطلاق...<ts=&quot;1.292;11.378&quot;>أقصد، اضغط زر الإطلاق نصف<br>ضغطة لشحنه، وكاملا لتطلق<br>شعاعا بقدرة تدميرية فريدة!",
     "arabic_edit": "<ts=&quot;0;1.292&quot;>اضغط زر الإطلاق...<ts=&quot;1.292;11.378&quot;>أقصد، اضغط زر الإطلاق نصف ضغطة لشحنه،<br>وكاملا لتطلق شعاعا بقدرة تدميرية فريدة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "e99580f6ed60e71e7a2546c0c360c508e5c0dfb5ea1342112b9962ae5f3c0e0a",
+      "candidate_sha256": "3da9734416c2e08a20b54fd05c96935fe53b61f5f5f25f4416b6e328582aed8f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10666,
@@ -869,14 +1301,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0;3.129&quot;>اضغط زر الإطلاق نصف ضغطة<br>لتثبيت<ts=&quot;3.207;8.364&quot;>قاذف الصواريخ المحفور<br>اللطيف على هدفك القذر.<ts=&quot;8.606;11.126&quot;>اضغطه كاملا للإطلاق!",
-    "arabic_edit": "<ts=&quot;0;3.129&quot;>اضغط زر الإطلاق نصف ضغطة لتثبيت<ts=&quot;3.207;8.364&quot;>قاذف الصواريخ المحفور اللطيف على هدفك<br>القذر.<ts=&quot;8.606;11.126&quot;>اضغطه كاملا للإطلاق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.129&quot;>اضغط زر الإطلاق نصف ضغطة لتثبت التصويب<br>بهذا...<ts=&quot;3.207;8.364&quot;>قاذف الصواريخ الحفار اللطيف على هدفك<br>القذر!<ts=&quot;8.606;11.126&quot;>واضغطه بالكامل للإطلاق!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "419e0d81de04f560990e3d71db7e0c86fef16fd2ea108782ce51cb6166e345c1",
+      "candidate_sha256": "f9279d79ed9fd23bd89410badbdb92d4fc47c3cb8225a8b19be8345b959db287",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10667,
@@ -885,14 +1325,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.066;2.802&quot;>اضغط زر الإطلاق نصف ضغطة<br>،للتصويب<ts=&quot;2.802;9.681&quot;>وكاملا لإطلاق جيشك اللطيف<br>الشرس من لدغات الكاحلين!!!",
-    "arabic_edit": "<ts=&quot;0.066;2.802&quot;>اضغط زر الإطلاق نصف ضغطة ،للتصويب<ts=&quot;2.802;9.681&quot;>وكاملا لإطلاق جيشك اللطيف الشرس من لدغات<br>الكاحلين!!!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;2.802&quot;>اضغط زر الإطلاق نصف ضغطة للتصويب،<ts=&quot;2.802;9.681&quot;>واضغطه بالكامل لتنشر جيشك المحبوب الشرس من<br>قاضمي الكواحل!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "3ee4fec061accecf1587993600eb0363a9cc88bf3751454aa479f2f20af5c68c",
+      "candidate_sha256": "ade18d22cdf9d0b778878b7412f9bcce17bf6005adfc1f9f30a0185c16717aeb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10668,
@@ -901,14 +1349,22 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.063;10.328&quot;>لكن ماذا لو كان الدرع<br>يستطيع الرد بالنار؟<br>صحيح؟ صحيح؟ رائع، أليس<br>كذلك؟! أليس كذلك؟! أدخل<br>مفاعل الفراغ.",
-    "arabic_edit": "<ts=&quot;0.063;10.328&quot;>لكن ماذا لو كان الدرع يستطيع الرد بالنار؟<br>صحيح؟ صحيح؟ رائع، أليس كذلك؟! أليس كذلك؟!<br>أدخل مفاعل الفراغ.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.063;10.328&quot;>لكن ماذا لو استطاع الدرع الرد بالنار؟ ها؟<br>ها؟ رائع، أليس كذلك؟! إليكم مفاعل الفراغ!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "230c9c076029f9ea87f8d0a0945d6ffaf1b72810aac6c640208f3439c27cbf8b",
+      "candidate_sha256": "b89aa8e77b820fc9fae529a182ce3a5ca1a36abcd3daab338966575cc1314aec",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10669,
@@ -917,13 +1373,21 @@
     "speaker_code": "JRZK",
     "scene_code": "MINI_WPNVIDS",
     "arabic_current": "<ts=&quot;0.068;2.529&quot;>انظر إلى الباونسر!<ts=&quot;2.529;10.66&quot;>قد يبدو *مثل* قاذف<br>القنابل الاعتيادي في خزانة<br>والدتك، لكن انظر مرة أخرى!",
-    "arabic_edit": "<ts=&quot;0.068;2.529&quot;>انظر إلى الباونسر!<ts=&quot;2.529;10.66&quot;>قد يبدو *مثل* قاذف القنابل الاعتيادي في<br>خزانة والدتك، لكن انظر مرة أخرى!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.068;2.529&quot;>تأمل الباونسر!<ts=&quot;2.529;10.66&quot;>قد *يبدو* مثل قاذف القنابل العادي الموجود<br>في خزانة أمك، لكن انظر مجددًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "d3e1723cb5c17ca78be39b8a4389ba7d717b58e988393baa487346f000a88a09",
+      "candidate_sha256": "79d205ae75c07429f6a8fef2a86e4c92acb4203519ed04598081cb12c15b33ef",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -6,13 +6,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "<ts=&quot;0;1.2&quot;>الآن يصل من مولونوث<ts=&quot;1.69;2.999&quot;>387 رقم.",
-    "arabic_edit": "<ts=&quot;0;1.2&quot;>الآن يصل من مولونوث<ts=&quot;1.69;2.999&quot;>387 رقم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.2&quot;>تصل الآن الرحلة<ts=&quot;1.69;2.999&quot;>387 القادمة من مولونوث.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-010",
+      "source_sha256": "ef8697f05a6c5e7664d26793d82ca9e3bee0b1f0879768bab306b7914cf88d09",
+      "candidate_sha256": "85a124cb5cd350afcb3894d050fa710926a1d3303ce2f6a2304ebd715f5288d5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22181,
@@ -21,14 +29,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "<ts=&quot;0.38;4.499&quot;>أهلا بكم في ميغالوبوليس!<br>انتبهوا إلى أين تخرجون.",
-    "arabic_edit": "<ts=&quot;0.38;4.499&quot;>أهلا بكم في ميغالوبوليس! انتبهوا<br>إلى أين تخرجون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.38;4.499&quot;>أهلًا بكم في ميغالوبوليس! يرجى الانتباه<br>أثناء النزول.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-010",
+      "source_sha256": "c8316963015a3741b51f3d5d6130b717f1b024578a12cd75f23cf7f512353cf0",
+      "candidate_sha256": "d9d9ea832d975fd4b5b74a2371e3aabbba261c07a269fb75cfc36ba790867e54",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22182,
@@ -37,13 +53,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "<ts=&quot;0.026;2.655&quot;>أتم لكم يوما سعيدا!",
-    "arabic_edit": "<ts=&quot;0.026;2.655&quot;>أتم لكم يوما سعيدا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.026;2.655&quot;>أتمنى لكم يومًا سعيدًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-010",
+      "source_sha256": "eeb5e53d85c82cc4d8765b227028ae457b79a6051aba4b5899976e909867c7d2",
+      "candidate_sha256": "f7d55093bd2553fd22bb716c8357855f0cf52d61e73eda269ff173a2442bc167",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22183,
@@ -52,14 +76,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "<ts=&quot;0;3.75&quot;>آخر نداء للخدمة إلى سافالي<br>على المنصة الثالثة.",
-    "arabic_edit": "<ts=&quot;0;3.75&quot;>آخر نداء للخدمة إلى سافالي على<br>المنصة الثالثة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.75&quot;>النداء الأخير للرحلة المتجهة إلى سافالي من<br>الرصيف الثالث.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-010",
+      "source_sha256": "5a8119f8f307c1b0b0b0c9e1ff2b3b6aac42548042da60a6692cbb44f7877021",
+      "candidate_sha256": "29f030d256de88e2e1a9a2b1699c26e2286fe1b4e7ce7eafdfefdfd392e35e1b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22184,
@@ -68,13 +100,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "<ts=&quot;0;3.759&quot;>يا مسافرين، يرجى التوجه<br>إلى المنصة الثانية للخدمة<ts=&quot;4.18;4.93&quot;>إلى نوفاليس.",
-    "arabic_edit": "<ts=&quot;0;3.759&quot;>يا مسافرين، يرجى التوجه إلى المنصة<br>الثانية للخدمة<ts=&quot;4.18;4.93&quot;>إلى نوفاليس.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.759&quot;>يرجى من المسافرين التوجه إلى الرصيف الثاني<br>لركوب الرحلة<ts=&quot;4.18;4.93&quot;>المتجهة إلى نوفاليس.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-010",
+      "source_sha256": "754a41055ec4089681f1b846172ef51c217e255016d83c549eae37c2e3815262",
+      "candidate_sha256": "4a7f5d5d92218f6a73c2cfd1a1d66c82f9f898d6d2de2389a2687958c13984df",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

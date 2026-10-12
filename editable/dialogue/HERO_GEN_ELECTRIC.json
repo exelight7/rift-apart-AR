@@ -6,13 +6,21 @@
     "speaker_code": "KLEM",
     "scene_code": "HERO_GEN_ELECTRIC",
     "arabic_current": "<ts=&quot;0.049;2.055&quot;>أووو. مبهر!",
-    "arabic_edit": "<ts=&quot;0.049;2.055&quot;>أووو. مبهر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;2.055&quot;>أوه، طاقة مكهربة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "3280eb690fb515d3dfddc1eb65b73256f0d4603accf738270e26ba39d65efb86",
+      "candidate_sha256": "72f93bd3ac8b58fd95fb08901eaaa35db0f6e12df522b5e7de11e0a526fe47cc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11806,
@@ -22,12 +30,20 @@
     "scene_code": "HERO_GEN_ELECTRIC",
     "arabic_current": "<ts=&quot;0;1.61&quot;>أشعر بطاقة هائلة!",
     "arabic_edit": "<ts=&quot;0;1.61&quot;>أشعر بطاقة هائلة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "b0beb2004cf6d7059644b98cf22b158261d4272f57befdd33e7df0a7f2c6987c",
+      "candidate_sha256": "d5043782f901aee0643cb990444585be0d16e4de518384433051b21145484bf8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11807,
@@ -37,11 +53,19 @@
     "scene_code": "HERO_GEN_ELECTRIC",
     "arabic_current": "<ts=&quot;0.046;1.364&quot;>أقصى جهد كهربائي!",
     "arabic_edit": "<ts=&quot;0.046;1.364&quot;>أقصى جهد كهربائي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "4f37da18b698c45894280e4a30ed0b2526b930d7cff781765156c0dff506fc0d",
+      "candidate_sha256": "37e0b0f1a00c0144ea1d6adf7019ae8824d6a5f6bd06d7321d669e4d9045e8c3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

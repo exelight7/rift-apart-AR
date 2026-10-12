@@ -1,21 +1,24 @@
 {
-  "version": "0.2.1",
+  "version": "0.3.0",
   "all_entries": 25034,
   "eligible_nonempty_excluding_credits": 15100,
-  "actual_binary_changed": 11702,
-  "actual_changed_percent": 77.5,
-  "human_prose_reviewed_unique": 377,
-  "human_prose_percent": 2.5,
+  "actual_binary_changed": 12591,
+  "actual_changed_percent": 83.38,
+  "human_prose_reviewed_unique": 15100,
+  "human_prose_percent": 100.0,
   "changed_by_category": {
-    "ui_and_other": 1308,
-    "missions": 126,
-    "items": 859,
-    "dialogue": 9169,
-    "tutorials": 240
+    "ui_and_other": 1739,
+    "missions": 256,
+    "items": 1091,
+    "dialogue": 9236,
+    "tutorials": 269
   },
   "human_prose_by_category": {
-    "ui_and_other": 319,
-    "dialogue": 58
+    "ui_and_other": 2946,
+    "missions": 502,
+    "items": 1789,
+    "dialogue": 9551,
+    "tutorials": 312
   },
   "in_game_visual_approval": "pending",
   "counting_method": "Distinct keys whose final packaged bytes differ from source/mod_original. Empty entries, credits and audio-event identifiers excluded. Direction/typography/reflow counted separately from human prose review."

@@ -7,12 +7,20 @@
     "scene_code": "",
     "arabic_current": "هناك تغييرات لم تطبق<br>وستفقد عند الخروج. هل تريد<br>تطبيق التغييرات؟",
     "arabic_edit": "هناك تغييرات لم تطبق وستفقد عند<br>الخروج. هل تريد تطبيق التغييرات؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-012",
+      "source_sha256": "f4cf4f86f3e21e73dce487e58f77263ef4762b1712b82d468c47e21512c7f63f",
+      "candidate_sha256": "579a421e32fc882c759d0082e9cff07caa692453e15867e71796620b918eb0ac",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

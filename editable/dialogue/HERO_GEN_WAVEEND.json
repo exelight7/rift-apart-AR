@@ -7,13 +7,21 @@
     "scene_code": "HERO_GEN_WAVEEND",
     "arabic_current": "<ts=&quot;0.043;2.736&quot;>هذا آخرهم، على الأقل في<br>الوقت الحالي.",
     "arabic_edit": "<ts=&quot;0.043;2.736&quot;>هذا آخرهم، على الأقل في الوقت الحالي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "e3894ec205ed0779f5b873333b7675ebbcd863c5d65e5b5b57579f7363814720",
+      "candidate_sha256": "4e32701e7979247cd2803634544a04e8c2b303d5293665498f157278a30d5dfc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8409,
@@ -22,14 +30,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HERO_GEN_WAVEEND",
     "arabic_current": "<ts=&quot;0.046;5.917&quot;>وي-وو! حسنا، لا تبالغ يا<br>جليتش.",
-    "arabic_edit": "<ts=&quot;0.046;5.917&quot;>وي-وو! حسنا، لا تبالغ يا جليتش.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.046;5.917&quot;>وو وي! حسنًا، لا تغتري بنفسك يا جليتش.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "6818069d21b6200ea4c8b4c8ee960be711147b457667ed0ebff11bc5e2c7f520",
+      "candidate_sha256": "8b4cbcf96e54db6662fd9c9cb6d9c99e957c184bc319d2cd5eec88f15bf2e54e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8410,
@@ -39,12 +55,20 @@
     "scene_code": "HERO_GEN_WAVEEND",
     "arabic_current": "<ts=&quot;0.06;4.385&quot;>فعلت ذلك؟!",
     "arabic_edit": "<ts=&quot;0.06;4.385&quot;>فعلت ذلك؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "9d624de15b2566801aaf493f70325f4457f02342ed6aa9af3f725d0237180e48",
+      "candidate_sha256": "8d399bc13293c1271eee1ae4e02ab857bae6c92fb35c791693ee41d8af974579",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8411,
@@ -54,12 +78,20 @@
     "scene_code": "HERO_GEN_WAVEEND",
     "arabic_current": "<ts=&quot;0.023;2.91&quot;>لم يكن ذلك سهلا.",
     "arabic_edit": "<ts=&quot;0.023;2.91&quot;>لم يكن ذلك سهلا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "773c4c701d36b2393d5e4caae9d53cc454a859ca5b89f5f401c5b8b50b1fecb7",
+      "candidate_sha256": "18fb523d47247dd4f56102f048dc4a656516ef5d77ff04e0e284b07d024c3d84",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8412,
@@ -68,13 +100,21 @@
     "speaker_code": "GLIT",
     "scene_code": "HERO_GEN_WAVEEND",
     "arabic_current": "<ts=&quot;0.329;2.263&quot;>هذا النظام ينظف بشكل رائع!",
-    "arabic_edit": "<ts=&quot;0.329;2.263&quot;>هذا النظام ينظف بشكل رائع!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.329;2.263&quot;>يجري تنظيف هذا النظام جيدًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "18382ade9b1bb15a65537212af0411905d2f20b69ab9cd80600e17b338290759",
+      "candidate_sha256": "0055ea774d72fa15b7ea63b6e4e5bc59021d1725f5dce3c137e99c4672e09442",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8413,
@@ -84,12 +124,20 @@
     "scene_code": "HERO_GEN_WAVEEND",
     "arabic_current": "<ts=&quot;0.053;2.706&quot;>أنا أتحسن في هذا.",
     "arabic_edit": "<ts=&quot;0.053;2.706&quot;>أنا أتحسن في هذا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "cc78ddbea7f9280d3ca35198002549a876359dae4fbac93c7c1598476c1510b6",
+      "candidate_sha256": "587d555b563c067d9bb2ec6da3f912e8bef2126cc497da7ce7fa552cf89600ed",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8414,
@@ -99,12 +147,20 @@
     "scene_code": "HERO_GEN_WAVEEND",
     "arabic_current": "<ts=&quot;0.03;2.906&quot;>هذه الآفات لا تملك أي فرصة.",
     "arabic_edit": "<ts=&quot;0.03;2.906&quot;>هذه الآفات لا تملك أي فرصة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "62f2a394d0132945d171077674fb1502ae5b785bb4f6c87c6f5dbe252656f673",
+      "candidate_sha256": "c514f4fa7b3c02db1a225ac83cde01ddedb44a4c5522a6ec2711b62c4324c36f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8415,
@@ -114,11 +170,19 @@
     "scene_code": "HERO_GEN_WAVEEND",
     "arabic_current": "<ts=&quot;0.038;1.406&quot;>أتمنى أن أستطيع الاستمرار.",
     "arabic_edit": "<ts=&quot;0.038;1.406&quot;>أتمنى أن أستطيع الاستمرار.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "74995bb90a409e3da44935970ba9e432a8dc08eefa6d4ccadc54389c622bb9a4",
+      "candidate_sha256": "5acdc97cdbf15f4d931775deaa746c8c5379d27885a5c8d38b7d3d2670c816e8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

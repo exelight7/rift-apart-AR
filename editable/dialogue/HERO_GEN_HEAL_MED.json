@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_HEAL_MED",
     "arabic_current": "<ts=&quot;0;1.299&quot;>ما زلت هنا!",
     "arabic_edit": "<ts=&quot;0;1.299&quot;>ما زلت هنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "d3eaf693fcb082584ab16b3538fef9bd11be5552a83b7c1d1d5c1ae6bbd4f6e7",
+      "candidate_sha256": "804b5864493b668468e0d07c949fc5220a3c3d059d0677e94b25c5df0e85e1ec",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8330,
@@ -21,13 +29,21 @@
     "speaker_code": "GLIT",
     "scene_code": "HERO_GEN_HEAL_MED",
     "arabic_current": "<ts=&quot;0;1.19&quot;>لم أنه بعد.",
-    "arabic_edit": "<ts=&quot;0;1.19&quot;>لم أنه بعد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.19&quot;>لم أخرج من المعركة بعد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "29c41420e02b4814d04ba53674c4d9b8cfd15a178c01e7589ecf658a067361c1",
+      "candidate_sha256": "cfb2edfa4085223c25fe5f29453ca3e3f5c8d9de937f79dfcbd2a66dab789ee9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8331,
@@ -37,12 +53,20 @@
     "scene_code": "HERO_GEN_HEAL_MED",
     "arabic_current": "<ts=&quot;0.044;0.835&quot;>أفضل بكثير.",
     "arabic_edit": "<ts=&quot;0.044;0.835&quot;>أفضل بكثير.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "30a3ad1250f379596f8411c260437f82df71a1592115a5e93b259f659f0bbd80",
+      "candidate_sha256": "ee42ff93e2b061cccca5bd7c4e3dc60d86e4f82f644c78138ed354da660d429a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8332,
@@ -52,11 +76,19 @@
     "scene_code": "HERO_GEN_HEAL_MED",
     "arabic_current": "<ts=&quot;0.046;1.381&quot;>حسنا، جاهزة.",
     "arabic_edit": "<ts=&quot;0.046;1.381&quot;>حسنا، جاهزة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "ce2ab98a05099c631669eeaf52b8ae96f186bb59f4bf1f243ac1786c7ed70c22",
+      "candidate_sha256": "091745eb3b7918b9631a990d2988a06e76377efcded101a5ac8b714883525e33",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

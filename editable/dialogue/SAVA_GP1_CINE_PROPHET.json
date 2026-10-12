@@ -6,14 +6,22 @@
     "speaker_code": "PROPH",
     "scene_code": "SAVA_GP1_CINE_PROPHET",
     "arabic_current": "<ts=&quot;0;0.69&quot;>راتشت؟<ts=&quot;1.639;2.489&quot;>راتشت!<ts=&quot;3.04;3.64&quot;>غاري.<ts=&quot;4.536;7.838&quot;>أقصد، سمعتك -سمعت عنك<br>تسبقك!",
-    "arabic_edit": "<ts=&quot;0;0.69&quot;>راتشت؟<ts=&quot;1.639;2.489&quot;>راتشت!<ts=&quot;3.04;3.64&quot;>غاري.<ts=&quot;4.536;7.838&quot;>أقصد، سمعتك -سمعت عنك تسبقك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.69&quot;>راتشت؟<ts=&quot;1.639;2.489&quot;>راتشت!<ts=&quot;3.04;3.64&quot;>أنا غاري.<ts=&quot;4.536;7.838&quot;>سمـ... سمعتك تسبقك!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "03344deb091add04c7fea8b6db406b903fd3638f5a80f7988573599c5cd5d8f5",
+      "candidate_sha256": "9592360a6293bb495698f7c53ac94905d68d73c7d52fc9a432217014d1207737",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18242,
@@ -22,14 +30,22 @@
     "speaker_code": "PROPH",
     "scene_code": "SAVA_GP1_CINE_PROPHET",
     "arabic_current": "<ts=&quot;0;4.94&quot;>عليك الذهاب إلى الأرشيف<br>متعدد الأبعاد! تلميذتي<br>يمكنها مساعدتك. ،لكن<ts=&quot;5.519;5.869&quot;>آه...",
-    "arabic_edit": "<ts=&quot;0;4.94&quot;>عليك الذهاب إلى الأرشيف متعدد الأبعاد!<br>تلميذتي يمكنها مساعدتك. ،لكن<ts=&quot;5.519;5.869&quot;>آه...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.94&quot;>عليك الذهاب إلى الأرشيف متعدد الأبعاد!<br>يمكن لتلميذتي مساعدتك، لكن...<ts=&quot;5.519;5.869&quot;>أمم...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "ed6d5ee856d7dcf02b022eee92070b4f57efc64259699d84e7a4bba45373708c",
+      "candidate_sha256": "7247e92ec3b75ad608176d997b141e5f1998e507f11226ef001791166b3e089b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18243,
@@ -39,12 +55,20 @@
     "scene_code": "SAVA_GP1_CINE_PROPHET",
     "arabic_current": "<ts=&quot;0;1.106&quot;>كيف عرفت؟",
     "arabic_edit": "<ts=&quot;0;1.106&quot;>كيف عرفت؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "8f17b0ed9942018334adf7390eb7b0d3aea1d5e9fdc8f3c862be27d5031ad6b5",
+      "candidate_sha256": "b625933e99d097ed27dcfb72f5601fb443a5d1797e0027dce90523ab723c3924",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19929,
@@ -53,14 +77,22 @@
     "speaker_code": "RATC",
     "scene_code": "SAVA_GP1_CINE_PROPHET",
     "arabic_current": "<ts=&quot;0.024;2.654&quot;>أهلا، أمم، أجل، سؤال غريب—<ts=&quot;3.042;6.746&quot;>بالمناسبة، هل تعرف شيئا<br>عن بناء ناقلة بعدية؟",
-    "arabic_edit": "<ts=&quot;0.024;2.654&quot;>أهلا، أمم، أجل، سؤال غريب—<ts=&quot;3.042;6.746&quot;>بالمناسبة، هل تعرف شيئا عن بناء ناقلة<br>بعدية؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.024;2.654&quot;>أهلًا، أمم، نعم، سؤال غريب...<ts=&quot;3.042;6.746&quot;>هل تعرفين بالمصادفة شيئًا عن صنع جهاز<br>أبعاد؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "0751372356229ac552f9bc9a4683684d39826f8dfa37d6724e5b652a37848f6e",
+      "candidate_sha256": "d8a400a3c266c3796fd3b65d3ef0c2f62694e5166b0258aacfe1ab80a7f75bfd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19930,
@@ -70,12 +102,20 @@
     "scene_code": "SAVA_GP1_CINE_PROPHET",
     "arabic_current": "<ts=&quot;0;1.05&quot;>البلدة تحت الهجوم؟",
     "arabic_edit": "<ts=&quot;0;1.05&quot;>البلدة تحت الهجوم؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "5ec2db0697cd555309ebb4891721d9d0ab03a6a0817c2a71719c0213fc0279db",
+      "candidate_sha256": "68dd2e3384992e147ef461b1ba0c9c2a8ca945598e1b6cd9b4674a0751508b89",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19931,
@@ -85,12 +125,20 @@
     "scene_code": "SAVA_GP1_CINE_PROPHET",
     "arabic_current": "<ts=&quot;0;1.559&quot;>سأذهب لأتفقد الأمر.<ts=&quot;1.559;4.253&quot;>أظنني ما زلت أعرف كيف أوقف<br>غزوا.",
     "arabic_edit": "<ts=&quot;0;1.559&quot;>سأذهب لأتفقد الأمر.<ts=&quot;1.559;4.253&quot;>أظنني ما زلت أعرف كيف أوقف غزوا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "1591b696b054a0b275b4c536069644a5aee987636e2dc5cd6b55b7654d51fa7c",
+      "candidate_sha256": "bbee51da3cbc1082dd28a454fe19fb9a2b166fc709d4a2d7ff6a68cfef6f490f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

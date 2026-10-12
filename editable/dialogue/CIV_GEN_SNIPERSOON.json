@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_SNIPERSOON",
     "arabic_current": "<ts=&quot;1.21;1.56&quot;>،والله<ts=&quot;2;5.2&quot;>كنت أقسم أن عندي منها في<br>المخزون... وأتوقع شحنة جديدة<br>في طريقها.",
-    "arabic_edit": "<ts=&quot;1.21;1.56&quot;>،والله<ts=&quot;2;5.2&quot;>كنت أقسم أن عندي منها في المخزون... وأتوقع<br>شحنة جديدة في طريقها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;1.21;1.56&quot;>كنت...<ts=&quot;2;5.2&quot;>أكاد أقسم أنها في المخزون! لا بد أن شحنة<br>أخرى في الطريق.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "d7fee27c97c5940d1c593b2cbbdce163097e36af447433a99da655a920b3b62a",
+      "candidate_sha256": "75f52c65258cb027831605e29f712e7f81f53275a78ecacd9929fd57f544874d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

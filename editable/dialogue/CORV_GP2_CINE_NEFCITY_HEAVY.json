@@ -6,13 +6,21 @@
     "speaker_code": "HNEF1",
     "scene_code": "CORV_GP2_CINE_NEFCITY_HEAVY",
     "arabic_current": "<ts=&quot;0;2.45&quot;>قطع الصف مخالف للقانون.",
-    "arabic_edit": "<ts=&quot;0;2.45&quot;>قطع الصف مخالف للقانون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.45&quot;>تجاوز الطابور مخالف للقانون.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "6a96ffd5cf3e14536ff3e8e19fa2e542e654619f9af9d147198d93993842bfad",
+      "candidate_sha256": "e10a1e85d4706d714f2b7bc34fdeb6625435f2cb224239f5875619e51108572b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19182,
@@ -22,13 +30,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_HEAVY",
     "arabic_current": "<ts=&quot;0;2.743&quot;>هاها! لا بد أنها وحدة التحكم<br>في الوصول!",
     "arabic_edit": "<ts=&quot;0;2.743&quot;>هاها! لا بد أنها وحدة التحكم في الوصول!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "0aeadfeea09b149447a70712ea3b5181da3b398bab53f30a7bca6e0c66d1d1ec",
+      "candidate_sha256": "4f02bda3f14a9c6672da3c60153c9a3e08050b95632c7bda79e578445163d0da",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24698,

@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_DOOMAVAIL",
     "arabic_current": "<ts=&quot;0.028;5.806&quot;>قفاز الهلاك متوفر الآن! هل<br>أحتاج أن أقول المزيد؟",
     "arabic_edit": "<ts=&quot;0.028;5.806&quot;>قفاز الهلاك متوفر الآن! هل أحتاج أن أقول<br>المزيد؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "3f5f8657f2fe76f9b77606a74a16537dc9807a7d419b279eff89e00bc0e60a11",
+      "candidate_sha256": "c36cfc5da17b0177fcaa4d99dfc2af5b19688594972d92ff835a629d6c525e8f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

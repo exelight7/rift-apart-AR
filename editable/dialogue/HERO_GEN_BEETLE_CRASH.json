@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_BEETLE_CRASH",
     "arabic_current": "<ts=&quot;0.05;0.63&quot;>أوتش.",
     "arabic_edit": "<ts=&quot;0.05;0.63&quot;>أوتش.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "023bec8b0a0db49a767b3305a533acfe848f1fd21de0af422e7dafea2235ae55",
+      "candidate_sha256": "45db7207e903a577162146ccf7c2d30c63805849c89f008f03c1ac1919314375",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20727,
@@ -22,12 +30,20 @@
     "scene_code": "HERO_GEN_BEETLE_CRASH",
     "arabic_current": "<ts=&quot;0.047;0.851&quot;>آخ.",
     "arabic_edit": "<ts=&quot;0.047;0.851&quot;>آخ.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "d3a0f695c6db34a5c23e6196d645d77b1d40f022fc9b14510d9940777890d2f7",
+      "candidate_sha256": "4cf113bd6188441adc92d87dcb3a7cefddad496d99eba8049f66fb4e95a89019",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20728,
@@ -37,11 +53,19 @@
     "scene_code": "HERO_GEN_BEETLE_CRASH",
     "arabic_current": "<ts=&quot;0.002;0.86&quot;>يا بؤسي.",
     "arabic_edit": "<ts=&quot;0.002;0.86&quot;>يا بؤسي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "82657ff77642a1665bd4f9ba6b8620c04449e516d0022f735c7e856c4c0a342a",
+      "candidate_sha256": "428af968bcdabda701882ddc27da77e79d47d25ecc3a1f082e34403dc941baf6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

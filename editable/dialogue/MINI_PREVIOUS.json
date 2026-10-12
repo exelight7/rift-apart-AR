@@ -6,14 +6,22 @@
     "speaker_code": "CLANK",
     "scene_code": "MINI_PREVIOUS",
     "arabic_current": "<ts=&quot;0.048;6.325&quot;>راتشت وأنا فريق منذ أن<br>أتذكر.<ts=&quot;6.325;7.312&quot;>خلال ذلك الوقت--",
-    "arabic_edit": "<ts=&quot;0.048;6.325&quot;>راتشت وأنا فريق منذ أن أتذكر.<ts=&quot;6.325;7.312&quot;>خلال ذلك الوقت--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.048;6.325&quot;>أنا وراتشت فريق واحد منذ أقدم ذكرياتي.<ts=&quot;6.325;7.312&quot;>وخلال تلك المدة...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "232700ba0d896e1c57511ce8663d564fd1155c18b1ce69e33ea292257a65aeb9",
+      "candidate_sha256": "2896e2087a5194a66e297563dc33be9d009fbee8173d9cff366bb46cd1b8e4ad",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2215,
@@ -23,12 +31,20 @@
     "scene_code": "MINI_PREVIOUS",
     "arabic_current": "<ts=&quot;0;1.749&quot;>... وبعض الأعداء.",
     "arabic_edit": "<ts=&quot;0;1.749&quot;>... وبعض الأعداء.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "ee935b446d4e1ca9b48a3d61ca964b73ee73e16ae1dcefa714ee9af10878b591",
+      "candidate_sha256": "3f1b8b961020125330ce0876fc85cce85a454eb04c160196a18b79f2046a5a58",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2216,
@@ -38,13 +54,21 @@
     "scene_code": "MINI_PREVIOUS",
     "arabic_current": "<ts=&quot;0;1.23&quot;>حقا، نحن--<ts=&quot;2.13;3.18&quot;>عائلة.<ts=&quot;3.86;6.515&quot;>ورغم أن راتشت يعرف هذا أكثر<br>من أي أحد--",
     "arabic_edit": "<ts=&quot;0;1.23&quot;>حقا، نحن--<ts=&quot;2.13;3.18&quot;>عائلة.<ts=&quot;3.86;6.515&quot;>ورغم أن راتشت يعرف هذا أكثر من أي أحد--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "d39bbe62ed716e29672e82e18bbbbe7685e890f719a542213e5ea718be0cbb10",
+      "candidate_sha256": "a917ff9ca44020e97bada4ad8fcc45142ace3a0e9bbe387129b6ed2c5607bfc9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2217,
@@ -53,14 +77,22 @@
     "speaker_code": "CLANK",
     "scene_code": "MINI_PREVIOUS",
     "arabic_current": "<ts=&quot;0;4.31&quot;>أصبح الناقلة البعدية<br>محطمة، وتجاوزنا أيام<br>،البطولات<ts=&quot;5.029;7.829&quot;>ربما يكون قد تخلى عن ذلك<br>الحلم...<ts=&quot;8.35;11.109&quot;>لكن ربما لا حاجة له إلى ذلك.<ts=&quot;11.82;12.87&quot;>لم يعد الأمر كذلك.",
-    "arabic_edit": "<ts=&quot;0;4.31&quot;>أصبح الناقلة البعدية محطمة، وتجاوزنا أيام<br>،البطولات<ts=&quot;5.029;7.829&quot;>ربما يكون قد تخلى عن ذلك الحلم...<ts=&quot;8.35;11.109&quot;>لكن ربما لا حاجة له إلى ذلك.<ts=&quot;11.82;12.87&quot;>لم يعد الأمر كذلك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.31&quot;>مع تعطل جهاز الأبعاد وانتهاء أيام<br>بطولاتنا،<ts=&quot;5.029;7.829&quot;>ربما تخلى عن ذلك الحلم...<ts=&quot;8.35;11.109&quot;>لكن ربما لا يحتاج إلى ذلك.<ts=&quot;11.82;12.87&quot;>بعد الآن.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "1a05199faa7d082e54ee1aae6db45b04eba6cb8fc4fddff5c1ae7ca70a2c2353",
+      "candidate_sha256": "5a9f5a898678de2effa837a1763528fa6771aa7cf8b88c94539a78ebe108dd34",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2218,
@@ -70,13 +102,21 @@
     "scene_code": "MINI_PREVIOUS",
     "arabic_current": "<ts=&quot;0;1.939&quot;>--لقد كسبنا أصدقاء<br>كثيرين...",
     "arabic_edit": "<ts=&quot;0;1.939&quot;>--لقد كسبنا أصدقاء كثيرين...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "ad62c9962cb0cc0bff2f7d2aab678caeb6a8c9855250af7eba103c3dc473ea7b",
+      "candidate_sha256": "db5a681168523f3eb802b59e26a1e75974199ea486b5df2d9a99cf0c0407145d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2219,
@@ -85,13 +125,21 @@
     "speaker_code": "CLANK",
     "scene_code": "MINI_PREVIOUS",
     "arabic_current": "<ts=&quot;0;5.79&quot;>لقد حلم مرارا بالعثور على<br>بقية أهله، اللومباكسات<br>الذين اختفوا في<ts=&quot;5.79;7&quot;>بعد مجهول قبل زمن بعيد.",
-    "arabic_edit": "<ts=&quot;0;5.79&quot;>لقد حلم مرارا بالعثور على بقية أهله،<br>اللومباكسات الذين اختفوا في<ts=&quot;5.79;7&quot;>بعد مجهول قبل زمن بعيد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;5.79&quot;>لطالما حلم بالعثور على بقية بني جنسه،<br>اللومباكس الذين اختفوا في<ts=&quot;5.79;7&quot;>بعد مجهول منذ زمن بعيد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "b192e9aab299af1a88a91678c87d378fce26f91970e6ef07e9a5e248b47bd61d",
+      "candidate_sha256": "b11e0b0c319796b39d5d99ad4730681f8b7d041ee67fd824c867a3ec27cecb27",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

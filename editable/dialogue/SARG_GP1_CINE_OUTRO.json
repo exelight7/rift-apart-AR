@@ -7,12 +7,20 @@
     "scene_code": "SARG_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;1.281&quot;>ماذا يقول؟",
     "arabic_edit": "<ts=&quot;0;1.281&quot;>ماذا يقول؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "c07f211712255c29c750db60d53e989f37485a67f6d756b445c8b9fc75079860",
+      "candidate_sha256": "58ceecf936d525b1a4f18a71a708f9206e046b2a80449627e1781ed6a3bf0530",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21102,
@@ -22,13 +30,21 @@
     "scene_code": "SARG_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;2.419&quot;>هيا لنصلح جهاز الاتصال.<ts=&quot;2.504;5.718&quot;>لدينا بعد ننقذه قبل أن<br>يجدنا الإمبراطور هو أيضا.",
     "arabic_edit": "<ts=&quot;0;2.419&quot;>هيا لنصلح جهاز الاتصال.<ts=&quot;2.504;5.718&quot;>لدينا بعد ننقذه قبل أن يجدنا الإمبراطور هو<br>أيضا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "0a68554b678e2580e5c6230f09b785c10fd7aeb053aa03ce31e9650d2d1558b1",
+      "candidate_sha256": "f052efa02e257be26ad0146ef19b4a79a02512ba9511a54ccf574518f5254358",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21103,
@@ -37,13 +53,21 @@
     "speaker_code": "RIVE",
     "scene_code": "SARG_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;0.67&quot;>،الطيف<ts=&quot;1.119;1.789&quot;>،مويدوي<ts=&quot;2.279;3.21&quot;>،كابتن كوانتوم<ts=&quot;3.76;4.19&quot;>كلاتشكي—",
-    "arabic_edit": "<ts=&quot;0;0.67&quot;>،الطيف<ts=&quot;1.119;1.789&quot;>،مويدوي<ts=&quot;2.279;3.21&quot;>،كابتن كوانتوم<ts=&quot;3.76;4.19&quot;>كلاتشكي—",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.67&quot;>الطيف،<ts=&quot;1.119;1.789&quot;>مويدوي،<ts=&quot;2.279;3.21&quot;>القبطان كوانتوم،<ts=&quot;3.76;4.19&quot;>كلاتشكي...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "767fd88d9a8da0847f4b888b90d59db8f6cb24adbfe4029a35e868812c7c91be",
+      "candidate_sha256": "61eab43ce6c5d8718cb05708ecf6d6c50b5f51364c5b636c3d548c78259e59d0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21104,
@@ -53,12 +77,20 @@
     "scene_code": "SARG_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;1.1&quot;>انتباه أيها المقاومون...<ts=&quot;1.51;2.91&quot;>لقد انكشف أمرنا.",
     "arabic_edit": "<ts=&quot;0;1.1&quot;>انتباه أيها المقاومون...<ts=&quot;1.51;2.91&quot;>لقد انكشف أمرنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "2396ffa728f528e2250a17e3e832c0fa80ef40b498799fdf15fe8651e4a30850",
+      "candidate_sha256": "bbc2461628245a26abe849259ff3d085856101f0a5fbfbb6fa95ee719a4ceae7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21105,
@@ -68,13 +100,21 @@
     "scene_code": "SARG_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;3.946&quot;>انتباه أيها المقاومون...<br>سأنشر قائمة اغتيالات<br>الإمبراطور على شبكتنا.",
     "arabic_edit": "<ts=&quot;0;3.946&quot;>انتباه أيها المقاومون... سأنشر قائمة<br>اغتيالات الإمبراطور على شبكتنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "9e2f88579431174083cbba7bdfd8399cc779c691a24a2017266239718a802bb4",
+      "candidate_sha256": "17f3d522c6afd441c8a39a8ccc3d0ce3a7b7b09df9e9778becfdd23bd4dcbc33",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21106,
@@ -84,11 +124,19 @@
     "scene_code": "SARG_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.032;0.606&quot;>أنا.",
     "arabic_edit": "<ts=&quot;0.032;0.606&quot;>أنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "4eb0930ca81aebc93d161a0fe30f64164ea423791bb4d6559192c4196dd62962",
+      "candidate_sha256": "e8a6de37e45983226583f70be7cad37005478005c8040765b970b16636e1b407",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

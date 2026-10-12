@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BUYWAR",
     "arabic_current": "<ts=&quot;0.075;5.842&quot;>استمتع بتاجر الحروب يا<br>حبيبي! لن يفعل أعداؤك ذلك<br>بالتأكيد!",
-    "arabic_edit": "<ts=&quot;0.075;5.842&quot;>استمتع بتاجر الحروب يا حبيبي! لن يفعل<br>أعداؤك ذلك بالتأكيد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.075;5.842&quot;>استمتع بمؤجج الحروب، يا قمر! أعداؤك لن<br>يستمتعوا به بالتأكيد!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "1f967510ea2918aeb19e703d370bee2b00fc1ac7738d47de5f1ee636f57e3c5e",
+      "candidate_sha256": "a63bd6388e735788a45a88d41cdd26c22b33219a00d148390c20458b4cd951c6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

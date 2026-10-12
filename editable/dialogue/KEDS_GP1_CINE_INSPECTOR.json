@@ -7,12 +7,20 @@
     "scene_code": "KEDS_GP1_CINE_INSPECTOR",
     "arabic_current": "<ts=&quot;0.16;1.901&quot;>ماذا تفعل هنا؟",
     "arabic_edit": "<ts=&quot;0.16;1.901&quot;>ماذا تفعل هنا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "d19bf20ad578d2385253162ecbd26e6cd97c17e318a367c310a475f2df3da567",
+      "candidate_sha256": "8a943b35e9ed065a7c8547c4f0ddbbb5c1dd3e47f5c6b087c73f592dca7489ad",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10900,
@@ -22,12 +30,20 @@
     "scene_code": "KEDS_GP1_CINE_INSPECTOR",
     "arabic_current": "<ts=&quot;0;1.288&quot;>أكنت أتحدث إليك؟",
     "arabic_edit": "<ts=&quot;0;1.288&quot;>أكنت أتحدث إليك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "25be98c2bd804503385f54911a2fa5ca68df62a1d62a5901e34a5df0cbf53bb4",
+      "candidate_sha256": "f7ebcf07d37d66ba5a201e04f1ba74e3660f2ea793f96927cc56cfa2803dc1d6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10901,
@@ -37,13 +53,21 @@
     "scene_code": "KEDS_GP1_CINE_INSPECTOR",
     "arabic_current": "<ts=&quot;0;1.68&quot;>نحن تحت الإغلاق التام.<ts=&quot;1.68;4.736&quot;>كيف دخلت أنت *ومركبتك*<br>إلى هنا؟",
     "arabic_edit": "<ts=&quot;0;1.68&quot;>نحن تحت الإغلاق التام.<ts=&quot;1.68;4.736&quot;>كيف دخلت أنت *ومركبتك* إلى هنا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "f3eef9488cb077d529b374af245b2911761d591ee0f5fee39c223c10b1c0b503",
+      "candidate_sha256": "669c2e4dc9df224e77740ce8bea295ba461d589cd13966e3baf96ef48ae76689",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10902,
@@ -52,14 +76,22 @@
     "speaker_code": "JUNB1",
     "scene_code": "KEDS_GP1_CINE_INSPECTOR",
     "arabic_current": "<ts=&quot;0.042;2.333&quot;>لن أفعل ذلك بالإمبراطور<br>أبدا...<ts=&quot;2.426;6.564&quot;>تفضل بالدخول. واعتبر<br>ذاكراتي محذوفة!",
-    "arabic_edit": "<ts=&quot;0.042;2.333&quot;>لن أفعل ذلك بالإمبراطور أبدا...<ts=&quot;2.426;6.564&quot;>تفضل بالدخول. واعتبر ذاكراتي محذوفة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.042;2.333&quot;>لن أفعل ذلك بالإمبراطور أبدًا...<ts=&quot;2.426;6.564&quot;>تفضلي بالدخول، واعتبري بنوك ذاكرتي محذوفة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "8358e176cc411033c5bb5822225bba162ff537a38fc83a50271e110b74eea18b",
+      "candidate_sha256": "4e5fed382636f8500d420a2c1f5b7b673cb5af54055fdf2e2e321ff0033d470b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11376,
@@ -69,12 +101,20 @@
     "scene_code": "KEDS_GP1_CINE_INSPECTOR",
     "arabic_current": "<ts=&quot;0;1.75&quot;>أنت تتحدث إلي.",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>أنت تتحدث إلي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "00889bb758bc44cb3afafca5d49d5c12e9005d4043414f5cebd7b6add23b767c",
+      "candidate_sha256": "67569ca628990456f32bd3fd0dd87d0a59a84d727c8f5464d774adaea03fbfcf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11377,
@@ -83,13 +123,21 @@
     "speaker_code": "KIT",
     "scene_code": "KEDS_GP1_CINE_INSPECTOR",
     "arabic_current": "<ts=&quot;0;0.38&quot;>أنا...<ts=&quot;1.71;3.49&quot;>أفحص منشأتك.<ts=&quot;4.43;6.18&quot;>واكم بياضها.<ts=&quot;6.689;7.499&quot;>وبرتقاليها.<ts=&quot;8.26;9.37&quot;>لأنني<ts=&quot;9.76;11.6&quot;>*مصمم ديكور داخلي*.<ts=&quot;12.149;12.999&quot;>من الدرجة الأولى.",
-    "arabic_edit": "<ts=&quot;0;0.38&quot;>أنا...<ts=&quot;1.71;3.49&quot;>أفحص منشأتك.<ts=&quot;4.43;6.18&quot;>واكم بياضها.<ts=&quot;6.689;7.499&quot;>وبرتقاليها.<ts=&quot;8.26;9.37&quot;>لأنني<ts=&quot;9.76;11.6&quot;>*مصمم ديكور داخلي*.<ts=&quot;12.149;12.999&quot;>من الدرجة الأولى.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.38&quot;>أنا...<ts=&quot;1.71;3.49&quot;>أفحص منشأتك.<ts=&quot;4.43;6.18&quot;>وكم هي بيضاء.<ts=&quot;6.689;7.499&quot;>وبرتقالية.<ts=&quot;8.26;9.37&quot;>لأنني...<ts=&quot;9.76;11.6&quot;>*مصممة ديكور داخلي*.<ts=&quot;12.149;12.999&quot;>من الدرجة الأولى.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "822dc37d9da26b54f2e7c254cecad3d324f2fe88df6e5d574afac177fe1e41f0",
+      "candidate_sha256": "909b758bd4992956603f30f00959cea992b73d473bc17aae6e6fc6d27f282999",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11378,
@@ -99,13 +147,21 @@
     "scene_code": "KEDS_GP1_CINE_INSPECTOR",
     "arabic_current": "<ts=&quot;0;5.47&quot;>و*الإمبراطور* أراد لهذا التجديد<br>أن يكون مفاجأة لك ولفريقك.<ts=&quot;6.239;6.939&quot;>لكن الآن<ts=&quot;7.64;8.69&quot;>أنت *أفسدته*.",
     "arabic_edit": "<ts=&quot;0;5.47&quot;>و*الإمبراطور* أراد لهذا التجديد أن يكون<br>مفاجأة لك ولفريقك.<ts=&quot;6.239;6.939&quot;>لكن الآن<ts=&quot;7.64;8.69&quot;>أنت *أفسدته*.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "3b942116581a82807179a2bcdfb9e278e2ba8d153ad2ca36b9240d4b6fa515d4",
+      "candidate_sha256": "26ec92812fdeaad1ad645c5f001f129033880749790bf80b4a13bc6110c9fc59",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19733,
@@ -115,12 +171,20 @@
     "scene_code": "KEDS_GP1_CINE_INSPECTOR",
     "arabic_current": "<ts=&quot;0;1.75&quot;>في الحقيقة قصتها<br>طريفة—",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>في الحقيقة قصتها طريفة—",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "cfd42a095d31fd35396ebfcd76b7d44edd59c0d69bbd79da15c4cf65db68daf5",
+      "candidate_sha256": "707fba93a8ea24de5330ecdef42e6c82c668d673dcaba63ec89c39ec2e7c490a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

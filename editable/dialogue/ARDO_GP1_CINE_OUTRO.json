@@ -19,12 +19,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.039;1.176&quot;>وهناك...",
     "arabic_edit": "<ts=&quot;0.039;1.176&quot;>وهناك...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "d8155870e5f35e2e7fd22c0befa4d0fdafc1c5499b6e63fdd7f1e61f54729662",
+      "candidate_sha256": "66a7450c76fa1ae3be9e6859403be5e4afdfeb209c106514ad9d0d55b9101928",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7456,
@@ -34,12 +42,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.042;0.788&quot;>أنت...",
     "arabic_edit": "<ts=&quot;0.042;0.788&quot;>أنت...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "52ef0e283ec16059a8358329898ef94e24ec3ba4b6fe6ef4b60284701e6c8020",
+      "candidate_sha256": "7d9e76f590f67ebf4249208fb09904177519e8b1f1e10c9ded5852af15e4e6ba",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7457,
@@ -49,12 +65,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.037;0.767&quot;>تكون.",
     "arabic_edit": "<ts=&quot;0.037;0.767&quot;>تكون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "0235c0791c5f0ce4b4cef6dc20311482261035068abbda07249514b591fbe7b6",
+      "candidate_sha256": "9de022ea7af15225b73af47c7c8da9db18af727e370a272d1af4629157cdbdec",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7458,
@@ -76,12 +100,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.03;0.75&quot;>هذا عدل.",
     "arabic_edit": "<ts=&quot;0.03;0.75&quot;>هذا عدل.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "1c6aca3744844e14bdf1c1d81ec1522fbe90e069c32d5e4eac466820e6ed891e",
+      "candidate_sha256": "442cdad9b511980a0ddc126a5e9f6b2dbf42648c185cc043062e1a7cc1f6e977",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18677,
@@ -90,14 +122,22 @@
     "speaker_code": "QUTM",
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;3.548&quot;>إذن هذا «كابتن كوارك»،<ts=&quot;3.663;6.711&quot;>هل هو قرصان في بعدكم<br>أيضا؟",
-    "arabic_edit": "<ts=&quot;0;3.548&quot;>إذن هذا «كابتن كوارك»،<ts=&quot;3.663;6.711&quot;>هل هو قرصان في بعدكم أيضا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.548&quot;>إذًا، هذا «القبطان كوارك»،<ts=&quot;3.663;6.711&quot;>أهو قرصان في بعدكم أيضًا؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "4100998d3ee28de7e3cd37831e00512148bac2ba55105903f53e5ac1e3170f7d",
+      "candidate_sha256": "0a2c603c15b1ae68af523f6bc722a41c567aa5744e6dd89114a6ae4f299c2b6f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18678,
@@ -107,12 +147,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;1.05&quot;>إنه بطل؟",
     "arabic_edit": "<ts=&quot;0;1.05&quot;>إنه بطل؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "6ff19e8d77c09ffdac02356fc36d7239c190efba33eb6295d4a04d23f874bbf8",
+      "candidate_sha256": "fb11e2a6b3e639d87645693221e430b7c9c1900695ac05a39c930722a17182e7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18679,
@@ -121,14 +169,22 @@
     "speaker_code": "QUTM",
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;1.979&quot;>،البعد ينهار<ts=&quot;2.679;6.27&quot;>،والإمبراطور بكل قوته<br>وحياتي في خطر.<ts=&quot;7.483;9.573&quot;>الوقت المثالي لتغيير<br>مساري المهني.",
-    "arabic_edit": "<ts=&quot;0;1.979&quot;>،البعد ينهار<ts=&quot;2.679;6.27&quot;>،والإمبراطور بكل قوته وحياتي في خطر.<ts=&quot;7.483;9.573&quot;>الوقت المثالي لتغيير مساري المهني.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.979&quot;>البعد ينهار،<ts=&quot;2.679;6.27&quot;>والإمبراطور مطلق القوة، وحياتي في خطر.<ts=&quot;7.483;9.573&quot;>إنه الوقت المثالي لتغيير مساري المهني.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "856bc74ac41e1797552d99c70766f42beb50f62ed10a15ae8dfc2bf622530d45",
+      "candidate_sha256": "f16b19532c2b21d096cfd7a6f0185aab5be058139666ddd4d4b1053398091d9c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18680,
@@ -138,12 +194,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.003;0.999&quot;>يا لها!",
     "arabic_edit": "<ts=&quot;0.003;0.999&quot;>يا لها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "4e2f2f6584d04821791cb010909c1e2145f3ffde678473916aa18a890cda57da",
+      "candidate_sha256": "b76ef6f7f1e9554e49cc7bcbb070623eba39d4d4ac982b26f5e8dd58698b3951",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18681,
@@ -153,12 +217,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;1&quot;>أشياء الأبطال!",
     "arabic_edit": "<ts=&quot;0;1&quot;>أشياء الأبطال!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "950d93b06dafa1644fb063ccd3a2035f409e25d046b0c2af096a8e82171f11f0",
+      "candidate_sha256": "873194b72142cf492f987fd140f263b916bf5499c9e9d5a07a5e79e0ae97f9ae",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18941,
@@ -168,13 +240,21 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;1.4&quot;>لا، إنه بطل.<ts=&quot;1.48;6.93&quot;>مع أنه خاننا، واستسلم<br>لينقذ جلده، ونسب لنفسه<br>فضل—",
     "arabic_edit": "<ts=&quot;0;1.4&quot;>لا، إنه بطل.<ts=&quot;1.48;6.93&quot;>مع أنه خاننا، واستسلم لينقذ جلده، ونسب<br>لنفسه فضل—",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "0a136394ad80bf450ea4e74fb6bba3abb44deecdbb2d4a8be264450861ea3f8c",
+      "candidate_sha256": "6fca8ad83378bc7159d4ee4462b298060350674a939558531d54dbe3f9819010",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18942,
@@ -183,14 +263,22 @@
     "speaker_code": "RATC",
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0;3.15&quot;>لأنه مهما أخطأ مرات كثيرة...<ts=&quot;3.42;7.62&quot;>يكون حاضرا حين يهم الأمر<br>أكثر. لا يتوقف أبدا عن<br>المحاولة.",
-    "arabic_edit": "<ts=&quot;0;3.15&quot;>لأنه مهما أخطأ مرات كثيرة...<ts=&quot;3.42;7.62&quot;>يكون حاضرا حين يهم الأمر أكثر. لا يتوقف<br>أبدا عن المحاولة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.15&quot;>لأنه مهما تكررت أخطاؤه...<ts=&quot;3.42;7.62&quot;>تجده حاضرًا في اللحظات الحاسمة. لا يكف عن<br>المحاولة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "1b2b09cb914c32bb67355ab1bd229d8524fa7f8c80e97eb02c6e3ef8f0377461",
+      "candidate_sha256": "c174afed3aaaa374dad54a730d8fb3e62849694a6ae5b2017bcc3bc53a200e75",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18943,
@@ -200,12 +288,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.034;0.942&quot;>وااااا!!!",
     "arabic_edit": "<ts=&quot;0.034;0.942&quot;>وااااا!!!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "4e28a19376fbe4eac2dd3fc51d2c62f357bcf67d85c75758fe7ad7141519ca26",
+      "candidate_sha256": "30e21f036350af197dafc374496ff4290193b9d35b5d6f6fcc30850ce28f6b56",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18944,
@@ -215,12 +311,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.035;1.064&quot;>ماذا تفعل؟!",
     "arabic_edit": "<ts=&quot;0.035;1.064&quot;>ماذا تفعل؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "c21f4dcbb1d85f387ccf42abdcc2b62ccaf7a40076d674f08aff48f92c19468b",
+      "candidate_sha256": "496c2538915ce1f2ee2c3713a239a761e30035709e9193aaef8f27f47369dd06",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18945,
@@ -230,12 +334,20 @@
     "scene_code": "ARDO_GP1_CINE_OUTRO",
     "arabic_current": "<ts=&quot;0.042;0.952&quot;>أوه.",
     "arabic_edit": "<ts=&quot;0.042;0.952&quot;>أوه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "f1055e797bec16a3ecd8818ec8043ee3dac0b74eac9ca1a2e16496eeb81d19b7",
+      "candidate_sha256": "85c7a002c460ec3a574cf021035c266e66fb689ccd75591711787e61fef40cc7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18946,

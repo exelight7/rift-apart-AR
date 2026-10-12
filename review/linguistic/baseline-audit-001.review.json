@@ -1,0 +1,3018 @@
+[
+  {
+    "index": 382,
+    "key": "AUDIO_CONTROLLER_AUDIOHAPTICS_ENABLED_DESC",
+    "source_sha256": "1339bf56447e86446ca002dfe378e27ee2324b58a943d53cad044f9a30445b26",
+    "before": "يفعل ردود الفعل اللمسية المتقدمة<br>في جهاز التحكم اللاسلكي. عند<br>تعطيله، يستخدم الاهتزاز التقليدي.",
+    "after": "يفعل الاستجابة اللمسية المتقدمة في جهاز<br>التحكم اللاسلكي DualSense™. عند تعطيله،<br>يستخدم الاهتزاز التقليدي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 383,
+    "key": "AUDIO_CONTROLLER_AUDIOHAPTICS_ENABLED_TITLE",
+    "source_sha256": "3377db73cdec7d71b815fcbcbc0e7bfa768168f89a4e688e71b0062ca2dedd88",
+    "before": "ردود الفعل اللمسية المتقدمة",
+    "after": "ردود الفعل اللمسية المتقدمة",
+    "decision": "keep"
+  },
+  {
+    "index": 384,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_AUTO_DESC",
+    "source_sha256": "e35c00154a00a99c50dd3d253f9b8639e4028b9f6ba33ee7c9b6e0e4589021f1",
+    "before": "يوجه الصوت إلى سماعة الرأس عند<br>توصيلها، وإلى مكبر الصوت في غير<br>ذلك.",
+    "after": "يوجه الصوت إلى سماعة الرأس عند<br>توصيلها، وإلى مكبر الصوت في غير<br>ذلك.",
+    "decision": "keep"
+  },
+  {
+    "index": 386,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_DESC",
+    "source_sha256": "7b6e7722246e8cc9ff6a4a929466581918812adfeac316c3016f01eeab4e6e1b",
+    "before": "يحدد مخرج الصوت في جهاز التحكم<br>اللاسلكي.",
+    "after": "يحدد مخرج الصوت المستخدم في جهازي التحكم<br>اللاسلكيين DualSense™ وDUALSHOCK®4 عند<br>تفعيله.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 387,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSETMONO_DESC",
+    "source_sha256": "af9cd8b617a5a0745dd6a134da1c1219c18430775213acc957b68357d5d13b51",
+    "before": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس بصوت أحادي.",
+    "after": "يخرج صوت جهاز التحكم إلى سماعة الرأس بوضع<br>Mono Audio.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 388,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSETMONO_TITLE",
+    "source_sha256": "37394fabdece4621e48c9ce5474956c45b4c85ca67e5169fda60dab833cf27fb",
+    "before": "سماعة الرأس — أحادي",
+    "after": "سماعة الرأس (Mono Audio)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 389,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSETSPEAKER_DESC",
+    "source_sha256": "7b7976bb79146ad885f9f0f2d20701eab4e73a326aedd10ed2c352cbece7cd4a",
+    "before": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس ومكبر الصوت معًا.",
+    "after": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس ومكبر الصوت معًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 391,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSET_DESC",
+    "source_sha256": "fc4d68854d02e9ed9f5ec43dadd3dba482f4b886da727ddc15c590d32a7eb2b1",
+    "before": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس بصوت ستيريو.",
+    "after": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس بصوت ستيريو.",
+    "decision": "keep"
+  },
+  {
+    "index": 392,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSET_TITLE",
+    "source_sha256": "3a8cf73cb1fadfcd1b3b5437bc88986e78b4e2e6df664e2adea56f71cfc706d2",
+    "before": "سماعة الرأس — ستيريو",
+    "after": "سماعة الرأس — ستيريو",
+    "decision": "keep"
+  },
+  {
+    "index": 393,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_OFF_DESC",
+    "source_sha256": "6615be3ff06d69b474c98cc07a46675f5783bb4067babc383b886cd4c675ff85",
+    "before": "يعطل إخراج الصوت عبر جهاز التحكم.",
+    "after": "يعطل إخراج الصوت عبر جهاز التحكم.",
+    "decision": "keep"
+  },
+  {
+    "index": 395,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_SPEAKER_DESC",
+    "source_sha256": "40509ed4fdbd3f3edadc20dd4e444850331404ac5d22dff313b128676c13fc31",
+    "before": "يشغل صوت جهاز التحكم عبر مكبر<br>الصوت.",
+    "after": "يشغل صوت جهاز التحكم عبر مكبر<br>الصوت.",
+    "decision": "keep"
+  },
+  {
+    "index": 397,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_TITLE",
+    "source_sha256": "0544f4433d6a7352d883092f35b2eae27edc3dc96efdafb4cb2b4ed99092f5c7",
+    "before": "مخرج صوت جهاز التحكم",
+    "after": "مخرج صوت جهاز التحكم",
+    "decision": "keep"
+  },
+  {
+    "index": 1535,
+    "key": "CLANK_ANIMATICS_DRNEF1_002",
+    "source_sha256": "2a7594558699404a58a3902c270150bb83e9a885fdf282ef335768f058856833",
+    "before": "<ts=&quot;0;2.8&quot;>وهو يعرف وجهتنا.<ts=&quot;3.04;4.09&quot;>يا إلهي.",
+    "after": "<ts=&quot;0;2.8&quot;>وهو يعرف وجهتنا.<ts=&quot;3.04;4.09&quot;>يا إلهي.",
+    "decision": "keep"
+  },
+  {
+    "index": 1536,
+    "key": "CLANK_ANIMATICS_DRNEF2_001",
+    "source_sha256": "6c3ee47c775eb743f8e207aaecb821a2f324b3c1ebd203039dfcb9cf070f0947",
+    "before": "<ts=&quot;0;3.714&quot;>يبدو أن الدكتور نيفاريوس سيفعل أي شيء<br>للقبض علينا.",
+    "after": "<ts=&quot;0;3.714&quot;>يبدو أن الدكتور نيفاريوس سيفعل أي شيء<br>للقبض علينا.",
+    "decision": "keep"
+  },
+  {
+    "index": 1537,
+    "key": "CLANK_ANOMALY_BLIZ_GP_003",
+    "source_sha256": "9005bd0c567563237eb35f3cb3a621a318eee0ea54c27f596ec34e5d6d931ff2",
+    "before": "<ts=&quot;0;3.25&quot;>يبدو أن احتمالاتي تبقي ذلك الزر مضغوطًا!",
+    "after": "<ts=&quot;0;3.25&quot;>يبدو أن احتمالاتي تبقي ذلك الزر مضغوطًا!",
+    "decision": "keep"
+  },
+  {
+    "index": 1538,
+    "key": "CLANK_ANOMALY_BLIZ_GP_011",
+    "source_sha256": "709f4c9f4f1c368902f7db3aaaf3f4aed9bfbf9567fd6c0ba2b8bf415f93f7b9",
+    "before": "<ts=&quot;0;1.75&quot;>حقًا؟ كيف حاله؟",
+    "after": "<ts=&quot;0;1.75&quot;>حقًا؟ كيف حاله؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1539,
+    "key": "CLANK_ANOMALY_BLIZ_GP_013",
+    "source_sha256": "fc43200e4a8b40c4f8446292590abe6b322cefa8c5a83a997550edefcb9bff00",
+    "before": "<ts=&quot;0;1.988&quot;>أكنت تنتظرني؟",
+    "after": "<ts=&quot;0;1.988&quot;>أكنت تنتظرني؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1540,
+    "key": "CLANK_ANOMALY_BLIZ_GP_015",
+    "source_sha256": "3aa078444b39b62356801e3d1f11ec136194f15d35c1e354ff8a14048e4d9a37",
+    "before": "<ts=&quot;0;2.615&quot;>كيف حصلت على لقب النبي إذن؟",
+    "after": "<ts=&quot;0;2.615&quot;>إذًا، كيف حصلت على لقب النبي؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1541,
+    "key": "CLANK_ANOMALY_BLIZ_GP_017",
+    "source_sha256": "6df6ca52c8b7427cc8d3bc01be3d08203584059780a7ad338fe6991febe5c2a9",
+    "before": "<ts=&quot;0;0.7&quot;>بخير إلى حد ما.<ts=&quot;1.06;3.226&quot;>اخترقت دماغي واطلعت على ذكرياتي.",
+    "after": "<ts=&quot;0;0.7&quot;>بخير إلى حد ما.<ts=&quot;1.06;3.226&quot;>اخترقت دماغي واطلعت على ذكرياتي.",
+    "decision": "keep"
+  },
+  {
+    "index": 1542,
+    "key": "CLANK_ANOMALY_BLIZ_GP_020",
+    "source_sha256": "1c584f60387b0578d70750c5a78aca27f8760839854e5c587a7f62b664a590b3",
+    "before": "<ts=&quot;0;1.24&quot;>هذا مثير للاهتمام؛<ts=&quot;1.629;6.339&quot;>راتشت وريفت نظيران من بعدين مختلفين، ومع<br>ذلك يختلفان بصورة مدهشة.<ts=&quot;6.979;10.729&quot;>لم يرتب راتشت من الروبوتات حين قابلني،<ts=&quot;10.729;11.999&quot;>أما ريفت فترتاب منها.",
+    "after": "<ts=&quot;0;1.24&quot;>هذا مثير للاهتمام؛<ts=&quot;1.629;6.339&quot;>راتشت وريفت نظيران من بعدين مختلفين، ومع<br>ذلك يختلفان بصورة مدهشة.<ts=&quot;6.979;10.729&quot;>لم يرتب راتشت من الروبوتات حين قابلني،<ts=&quot;10.729;11.999&quot;>أما ريفت فترتاب منها.",
+    "decision": "keep"
+  },
+  {
+    "index": 1543,
+    "key": "CLANK_ANOMALY_BLIZ_GP_021",
+    "source_sha256": "92dd23aa0830b69e04284d403804a2682fc96e6995a53f577d3aea7a2c0405cd",
+    "before": "<ts=&quot;0.021;0.686&quot;>هممم...",
+    "after": "<ts=&quot;0.021;0.686&quot;>هممم...",
+    "decision": "keep"
+  },
+  {
+    "index": 1544,
+    "key": "CLANK_ANOMALY_BLIZ_GP_022",
+    "source_sha256": "b5061e376ab7ad772e2982eef4612710fef49d01dac12ca671fbf46e5447e972",
+    "before": "<ts=&quot;0.12;6.999&quot;>كلاهما... يسارع إلى التصرف. أما أنا، فأظل<br>غارقًا في التفاصيل.",
+    "after": "<ts=&quot;0.12;6.999&quot;>كلاهما... يسارع إلى التصرف. أما أنا، فأظل<br>غارقًا في التفاصيل.",
+    "decision": "keep"
+  },
+  {
+    "index": 1545,
+    "key": "CLANK_ANOMALY_BLIZ_GP_023",
+    "source_sha256": "5809f3e2d31142839e6ce4b310ca475b377e01e623278d215963c2c9fd6009b7",
+    "before": "<ts=&quot;0;1.719&quot;>ليس *دائمًا*،<ts=&quot;2.29;4.81&quot;>لكن أتمنى ألا أقلق إلى هذا الحد.",
+    "after": "<ts=&quot;0;1.719&quot;>ليس *دائمًا*،<ts=&quot;2.29;4.81&quot;>لكن أتمنى ألا أقلق إلى هذا الحد.",
+    "decision": "keep"
+  },
+  {
+    "index": 1546,
+    "key": "CLANK_ANOMALY_BLIZ_GP_024",
+    "source_sha256": "733c8d5790487286e334664b9d0a10866858c95ccdcc329c4c78f575cc7a1f12",
+    "before": "<ts=&quot;0;1.138&quot;>ماذا تقصد؟",
+    "after": "<ts=&quot;0;1.138&quot;>ماذا تقصد؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1547,
+    "key": "CLANK_ANOMALY_BLIZ_GP_026",
+    "source_sha256": "d13137351667940a43493f43980749f08bb57422ed6379bca900a0b871e79645",
+    "before": "<ts=&quot;0.02;0.75&quot;>شكرًا لك!",
+    "after": "<ts=&quot;0.02;0.75&quot;>شكرًا لك!",
+    "decision": "keep"
+  },
+  {
+    "index": 1548,
+    "key": "CLANK_ANOMALY_BLIZ_GP_027",
+    "source_sha256": "8b641fa477ee24266ca52bd48062f79cbb8e1e2b291e99700f386ade337ff1a8",
+    "before": "<ts=&quot;0.03;1.43&quot;>وما معنى ذلك؟",
+    "after": "<ts=&quot;0.03;1.43&quot;>وما معنى ذلك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1549,
+    "key": "CLANK_ANOMALY_BLIZ_GP_028",
+    "source_sha256": "e2946e02af2b1d4444e5f33563cd4839a7c2d8de21c864bbfd49730b4cdc23c7",
+    "before": "<ts=&quot;0;2.8&quot;>ماذا يحتوي كتابك هذا إذن؟",
+    "after": "<ts=&quot;0;2.8&quot;>ماذا يحتوي كتابك هذا إذن؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1550,
+    "key": "CLANK_ANOMALY_BLIZ_GP_029",
+    "source_sha256": "5563d342f0132cd8b497a0637f8b8577f74e9666b889020a7441c1b73363c858",
+    "before": "<ts=&quot;0;0.977&quot;>ومن يكون؟",
+    "after": "<ts=&quot;0;0.977&quot;>ومن يكون؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1551,
+    "key": "CLANK_ANOMALY_BLIZ_GP_030",
+    "source_sha256": "023649773139955ea35c2474aca0ab59bcd446ba8b67b455a6c07a94ff36c722",
+    "before": "<ts=&quot;0;1.79&quot;>*هو* والدك؟<ts=&quot;2.52;4.193&quot;>ماذا يفعل الآن؟",
+    "after": "<ts=&quot;0;1.79&quot;>*هو* والدك؟<ts=&quot;2.52;4.193&quot;>ماذا يفعل الآن؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1552,
+    "key": "CLANK_ANOMALY_BLIZ_GP_034",
+    "source_sha256": "a1a21cfa4d6c40c1a36d23e534d03e3dd4c7c1ffe37d3000dc994d10189ce0b1",
+    "before": "<ts=&quot;0;3.366&quot;>لا تستطيع احتمالاتي العبور وسط هذه الرياح.<ts=&quot;3.688;6.024&quot;>هل يمكنني زيادة وزنها بطريقة ما؟",
+    "after": "<ts=&quot;0;3.366&quot;>لا تستطيع احتمالاتي العبور وسط هذه الرياح.<ts=&quot;3.688;6.024&quot;>هل يمكنني زيادة وزنها بطريقة ما؟",
+    "decision": "keep"
+  },
+  {
+    "index": 1553,
+    "key": "CLANK_ANOMALY_BLIZ_GP_035",
+    "source_sha256": "fc1714e83670513b19adef1399f85d6651ef4209f3cf30f55dc3a76bdc4de45c",
+    "before": "<ts=&quot;0;3.15&quot;>لعل ذلك الجهاز يغير مسار احتمالاتي.<ts=&quot;3.659;5.657&quot;>لا بد من وسيلة لتشغيله.",
+    "after": "<ts=&quot;0;3.15&quot;>لعل ذلك الجهاز يغير مسار احتمالاتي.<ts=&quot;3.659;5.657&quot;>لا بد من وسيلة لتشغيله.",
+    "decision": "keep"
+  },
+  {
+    "index": 1554,
+    "key": "CLANK_ANOMALY_BLIZ_GP_036",
+    "source_sha256": "6af4918691a2f1b6b50ff24198255f414c32d5d482cd84fc7e9cc2255e3282d5",
+    "before": "<ts=&quot;0;5.5&quot;>احتمالاتي تجسيد مرئي لمحاولة عقلي فهم<br>طبيعة الأبعاد.",
+    "after": "<ts=&quot;0;5.5&quot;>احتمالاتي تجسيد مرئي لمحاولة عقلي فهم<br>طبيعة الأبعاد.",
+    "decision": "keep"
+  },
+  {
+    "index": 1555,
+    "key": "CLANK_ANOMALY_BLIZ_GP_037",
+    "source_sha256": "3b24344323e71dc746b69fd6ebc0a5b0ac75491ea8e3b6274f16dddabce3b60c",
+    "before": "<ts=&quot;0;2.5&quot;>كلما ساعدتها على إيجاد طريقها،<ts=&quot;2.5;6&quot;>ازداد فهمي وتمكنت من إصلاح...<ts=&quot;6.51;7.25&quot;>كل شيء.",
+    "after": "<ts=&quot;0;2.5&quot;>كلما ساعدتها على إيجاد طريقها،<ts=&quot;2.5;6&quot;>ازداد فهمي وتمكنت من إصلاح...<ts=&quot;6.51;7.25&quot;>كل شيء.",
+    "decision": "keep"
+  },
+  {
+    "index": 1556,
+    "key": "CLANK_ANOMALY_BLIZ_GP_038",
+    "source_sha256": "af6676e2eb57e5d090381a770040b25a62579a6753a6f659f4eefcbe75581947",
+    "before": "<ts=&quot;0;2.1&quot;>ذلك المنشار يسد الطريق.<ts=&quot;2.55;5.187&quot;>ليتني أجد وسيلة لإنزاله...",
+    "after": "<ts=&quot;0;2.1&quot;>ذلك المنشار يسد الطريق.<ts=&quot;2.55;5.187&quot;>ليتني أجد وسيلة لإنزاله...",
+    "decision": "keep"
+  },
+  {
+    "index": 7205,
+    "key": "DRNF_ANIMATICS_DRNEF1_001",
+    "source_sha256": "09d323033fa618cf46cccf740609127c679cd1f8399738476fb10bb4212de611",
+    "before": "<ts=&quot;0;2.834&quot;>مرحبًا يا أهل هذا البعد!<ts=&quot;3.395;7.38&quot;>أعلم أنني غبت مدة... تعرفون كم طالت،<ts=&quot;7.569;11.068&quot;>لذا قلت لنلحق بما فاتنا!<ts=&quot;11.349;12.771&quot;>ماذا كنت أفعل؟",
+    "after": "<ts=&quot;0;2.834&quot;>مرحبًا يا أهل هذا البعد!<ts=&quot;3.395;7.38&quot;>أعلم أنني غبت مدة... تعرفون كم طالت،<ts=&quot;7.569;11.068&quot;>لذا قلت لنلحق بما فاتنا!<ts=&quot;11.349;12.771&quot;>ماذا كنت أفعل؟",
+    "decision": "keep"
+  },
+  {
+    "index": 7206,
+    "key": "DRNF_ANIMATICS_DRNEF1_002",
+    "source_sha256": "576675be2a2a0df7d9626a9fa60c1e901ea47876c0339e74ac5de63aa080cbc8",
+    "before": "<ts=&quot;0;3.479&quot;>أتحدث مع معجبي الأوفياء، لا أكثر...",
+    "after": "<ts=&quot;0;3.479&quot;>أتحدث مع معجبي الأوفياء، لا أكثر...",
+    "decision": "keep"
+  },
+  {
+    "index": 7207,
+    "key": "DRNF_ANIMATICS_DRNEF1_003",
+    "source_sha256": "dfe1c556b90a7fb0f273a85914275ef4b016bd0dea2b949ab3ada55f228a2304",
+    "before": "<ts=&quot;0;3.5&quot;>وأستمتع بمناظري الخلابة...",
+    "after": "<ts=&quot;0;3.5&quot;>وأستمتع بمناظري الخلابة...",
+    "decision": "keep"
+  },
+  {
+    "index": 7208,
+    "key": "DRNF_ANIMATICS_DRNEF1_004",
+    "source_sha256": "082251be3ddf2ddd297c84ffb41ea88c1ee02d0a1d3cfb4bfcb035555c56cf9f",
+    "before": "<ts=&quot;0;5.314&quot;>وأكتشف وجود اثنين، *اثنين* من اللومباكس<br>الوقحين،<ts=&quot;5.414;9.449&quot;>يجوبان المكان ويحاولان إفساد كل شيء!",
+    "after": "<ts=&quot;0;5.314&quot;>وأكتشف وجود اثنين، *اثنين* من اللومباكس<br>الوقحين،<ts=&quot;5.414;9.449&quot;>يجوبان المكان ويحاولان إفساد كل شيء!",
+    "decision": "keep"
+  },
+  {
+    "index": 7209,
+    "key": "DRNF_ANIMATICS_DRNEF1_005",
+    "source_sha256": "d375c70ac81b9b9fb106feb3f98429d9a58ef7891ccf4767699c3d03dbf2ba94",
+    "before": "<ts=&quot;0.02;5.269&quot;>لذا! أعرض مكافأة قدرها ثلاثة سكويليون من<br>قسائم الحرية النيفاريوسية،<ts=&quot;5.371;9.215&quot;>لمن يحضر لي هذين المجرمين ذوي الفراء،<ts=&quot;9.388;11.3&quot;>حيين أو ميتين!<ts=&quot;11.789;15.867&quot;>ويفضل حيين، لأتسلى بهما أولًا!",
+    "after": "<ts=&quot;0.02;5.269&quot;>لذا! أعرض مكافأة قدرها ثلاثة سكويليون من<br>قسائم الحرية النيفاريوسية،<ts=&quot;5.371;9.215&quot;>لمن يحضر لي هذين المجرمين ذوي الفراء،<ts=&quot;9.388;11.3&quot;>حيين أو ميتين!<ts=&quot;11.789;15.867&quot;>ويفضل حيين، لأتسلى بهما أولًا!",
+    "decision": "keep"
+  },
+  {
+    "index": 7210,
+    "key": "DRNF_ANIMATICS_DRNEF1_006",
+    "source_sha256": "d4aa93476b50c4e4603b6ba950aabb11e845de22e2d869fc60614e8746f4815e",
+    "before": "<ts=&quot;0.043;9.269&quot;>تؤكد شبكة جواسيسي الواسعة أنهما سيصلان إلى<br>بليزار وسافالي قريبًا. تحركوا!<ts=&quot;10.07;18.095&quot;>وإن كان هذان اللومباكس يسمعانني، فليعلما<br>أنني سأحولهما إلى غبار،<ts=&quot;18.201;25.314&quot;>ثم أقذف الغبار في شمس، ثم ألقي تلك الشمس<br>في...",
+    "after": "<ts=&quot;0.043;9.269&quot;>تؤكد شبكة جواسيسي الواسعة أنهما سيصلان إلى<br>بليزار وسافالي قريبًا. تحركوا!<ts=&quot;10.07;18.095&quot;>وإن كان هذان اللومباكس يسمعانني، فليعلما<br>أنني سأحولهما إلى غبار،<ts=&quot;18.201;25.314&quot;>ثم أقذف الغبار في شمس، ثم ألقي تلك الشمس<br>في...",
+    "decision": "keep"
+  },
+  {
+    "index": 7211,
+    "key": "DRNF_ANIMATICS_DRNEF2_001",
+    "source_sha256": "d5547025f057d232d26b87756ef7cea6a70033c9de245493d7b1be99f82420f7",
+    "before": "<ts=&quot;1.309;2.359&quot;>أتسمعون هذا؟!<ts=&quot;6.084;10.808&quot;>هذا صوتي وأنا أسحق الأكاذيب!<ts=&quot;10.808;13.27&quot;>أكاذيب قذرة ودنيئة!",
+    "after": "<ts=&quot;1.309;2.359&quot;>أتسمعون هذا؟!<ts=&quot;6.084;10.808&quot;>هذا صوتي وأنا أسحق الأكاذيب!<ts=&quot;10.808;13.27&quot;>أكاذيب قذرة ودنيئة!",
+    "decision": "keep"
+  },
+  {
+    "index": 7212,
+    "key": "DRNF_ANIMATICS_DRNEF2_002",
+    "source_sha256": "44b777aa2b0e77a6d759656a7c71dfc9c63de46991c48042664ca267bd19a682",
+    "before": "<ts=&quot;0.044;7.166&quot;>يقولون: «هذا البعد غير مستقر، وسننجذب إلى<br>فراغ بلا شكل».<ts=&quot;8.705;9.872&quot;>كذب!<ts=&quot;10.285;12.002&quot;>ومن يعتقد خلاف ذلك،<ts=&quot;12.062;18.633&quot;>آمره أن يرمي عينيه في أقرب محرقة، فمن<br>الواضح أنهما معطوبتان!",
+    "after": "<ts=&quot;0.044;7.166&quot;>يقولون: «هذا البعد غير مستقر، وسننجذب إلى<br>فراغ بلا شكل».<ts=&quot;8.705;9.872&quot;>كذب!<ts=&quot;10.285;12.002&quot;>ومن يعتقد خلاف ذلك،<ts=&quot;12.062;18.633&quot;>آمره أن يرمي عينيه في أقرب محرقة، فمن<br>الواضح أنهما معطوبتان!",
+    "decision": "keep"
+  },
+  {
+    "index": 7213,
+    "key": "DRNF_ANIMATICS_DRNEF2_003",
+    "source_sha256": "6d02436a78bc9b622b4c77fab282788be2cdd788b039bd8ff27b7b81f978f382",
+    "before": "<ts=&quot;0;1.399&quot;>والأهم،<ts=&quot;2.11;6.328&quot;>أن اللومباكس المخربين لم «يهربا».<ts=&quot;6.511;11.723&quot;>وكيف يهربان وأنا لم أقبض عليهما أصلًا؟!<ts=&quot;12.357;13.533&quot;>أيها الحمقى!",
+    "after": "<ts=&quot;0;1.399&quot;>والأهم،<ts=&quot;2.11;6.328&quot;>أن اللومباكس المخربين لم «يهربا».<ts=&quot;6.511;11.723&quot;>وكيف يهربان وأنا لم أقبض عليهما أصلًا؟!<ts=&quot;12.357;13.533&quot;>أيها الحمقى!",
+    "decision": "keep"
+  },
+  {
+    "index": 7214,
+    "key": "DRNF_ANIMATICS_DRNEF2_004",
+    "source_sha256": "b96783dec7a5c59a84cfc2261873fb4e9a964e542e8ccd65cc5debb934499216",
+    "before": "<ts=&quot;0;0.41&quot;>هاكم!<ts=&quot;1.27;2.96&quot;>أتريدون الحقيقة؟!<ts=&quot;3.8;11.039&quot;>صارت مكافأتي على اللومباكس 27 سكويجيليون<br>نيفارباك!<ts=&quot;6.1;18.879&quot;>انظروا إليها! ضخمة! حقيقية! وليست مختلقة<br>أبدًا!<ts=&quot;19.021;25.466&quot;>وستصبح كلها لكم حين تقبضون على هذين<br>اللومباكس الغبيين!",
+    "after": "<ts=&quot;0;0.41&quot;>هاكم!<ts=&quot;1.27;2.96&quot;>أتريدون الحقيقة؟!<ts=&quot;3.8;11.039&quot;>صارت مكافأتي على اللومباكس 27 سكويجيليون<br>نيفارباك!<ts=&quot;6.1;18.879&quot;>انظروا إليها! ضخمة! حقيقية! وليست مختلقة<br>أبدًا!<ts=&quot;19.021;25.466&quot;>وستصبح كلها لكم حين تقبضون على هذين<br>اللومباكس الغبيين!",
+    "decision": "keep"
+  },
+  {
+    "index": 11072,
+    "key": "KIT_ANIMATICS_DRNEF2_001",
+    "source_sha256": "da6c111f8b90492a1506c84916cc05d6e1e820c061527efd6551889097f335b7",
+    "before": "<ts=&quot;0.029;3.198&quot;>يبدو أن نيفاريوس عندكم بفظاعة نيفاريوس<br>عندنا.",
+    "after": "<ts=&quot;0.029;3.198&quot;>يبدو أن نيفاريوس عندكم بفظاعة نيفاريوس<br>عندنا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12175,
+    "key": "MENU_ACCESSIBILITY_CAT_ASSISTS",
+    "source_sha256": "d27a297b2d443f5236f1b2fab2ccc7bb853c23a293d6e6574d8f9927509e834a",
+    "before": "خيارات المساعدة",
+    "after": "خيارات المساعدة",
+    "decision": "keep"
+  },
+  {
+    "index": 12176,
+    "key": "MENU_ACCESSIBILITY_CAT_ASSISTS_DESC",
+    "source_sha256": "eaf95de1195ba08643cfe3faaf67331c6f76e79b117624eaec3b9f75e6e8d904",
+    "before": "اضبط خيارات المساعدة في القتال<br>والحركة.",
+    "after": "اضبط خيارات المساعدة في القتال<br>والحركة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12180,
+    "key": "MENU_ACCESSIBILITY_CAT_GAMEPLAYANDCAMERA_DESC",
+    "source_sha256": "5883f0b32e6e075091bd2d95531dbcaff84c111a498f04d97808579f0f412a6a",
+    "before": "اضبط إعدادات اللعب والكاميرا.",
+    "after": "اضبط إعدادات اللعب والكاميرا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12183,
+    "key": "MENU_ACCESSIBILITY_CAT_PRESETS_DESC",
+    "source_sha256": "fcb70f3c62867bc14f7b520cd1adcb9a08c4779b35594082394c296623b6ebaf",
+    "before": "اختر إعدادات جاهزة تضبط عدة خيارات<br>لإمكانية الوصول معًا.",
+    "after": "اختر إعدادات جاهزة تضبط عدة خيارات<br>لإمكانية الوصول معًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12185,
+    "key": "MENU_ACCESSIBILITY_CAT_VISUAL_DESC",
+    "source_sha256": "144e99922666c68091340a4439d9f5759a1832d229c5a0cb2e8f654e0783f51c",
+    "before": "اضبط إعدادات دوار الحركة والتباين<br>وتمييز العناصر وواجهة المعلومات.",
+    "after": "اضبط إعدادات دوار الحركة والتباين وتمييز<br>العناصر وواجهة اللعب (HUD).",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12186,
+    "key": "MENU_ACCESSIBILITY_DESC",
+    "source_sha256": "8cabdf2d4002e02251e00789a0c46ad5ccca25c30de086dfb160b899231360fa",
+    "before": "اضبط خيارات إضافية لتسهيل الرؤية<br>والإدراك والتحكم.",
+    "after": "اضبط خيارات إضافية لتسهيل الرؤية<br>والإدراك والتحكم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12187,
+    "key": "MENU_ACCESSIBILITY_DESC_FRONTEND",
+    "source_sha256": "611869745b014a15354493a330ce37bf43bb652b19eb488624939916093b74a9",
+    "before": "خيارات إضافية لتسهيل الرؤية<br>والإدراك والتحكم.",
+    "after": "خيارات إضافية لتسهيل الرؤية<br>والإدراك والتحكم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12189,
+    "key": "MENU_ACCESSIBILITY_OPTION_HOLD",
+    "source_sha256": "aacf94b7be62f4948e03aa845eeab5649eed97292900c2b9d9c934fc852d23e4",
+    "before": "ضغط مستمر",
+    "after": "ضغط مستمر",
+    "decision": "keep"
+  },
+  {
+    "index": 12190,
+    "key": "MENU_ACCESSIBILITY_OPTION_TOGGLE",
+    "source_sha256": "d2c4b7798d1c7d30bcc663c2eec5acdbcd8a9b731d2fe3e33b78c65f655b6c5f",
+    "before": "تبديل",
+    "after": "تبديل",
+    "decision": "keep"
+  },
+  {
+    "index": 12195,
+    "key": "MENU_ADAPTIVETRIGGERS_OPTION_EXPERIENTIAL",
+    "source_sha256": "14d2f220b1f1adf260f3f3f965a32e507060cf11bd66699b5522bce9b5bd14cd",
+    "before": "غامر",
+    "after": "غامر",
+    "decision": "keep"
+  },
+  {
+    "index": 12196,
+    "key": "MENU_ADAPTIVETRIGGERS_OPTION_EXPERIENTIAL_DESC",
+    "source_sha256": "3e4baf14da6b8132bea18321c8f160ed7f04ded7efca05a2a40b39de283bf55f",
+    "before": "اشعر بالاهتزاز والمقاومة في [BTN_LT_GP] و[BTN_RT_GP]<br>بما يتناسب مع أحداث اللعبة.",
+    "after": "اشعر بالاهتزاز والمقاومة في [BTN_LT_GP] و[BTN_RT_GP]<br>بما يتناسب مع أحداث اللعبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12198,
+    "key": "MENU_ADAPTIVETRIGGERS_OPTION_FUNCTIONAL_DESC",
+    "source_sha256": "1357ef11adb1934fe08ccff028fb5ed00fcf07ae2fdad31192cff0b11d4d7f00",
+    "before": "يقلل مقاومة [BTN_LT_GP] و[BTN_RT_GP] ويعطل الاهتزاز في<br>[BTN_LT_GP] و[BTN_RT_GP].",
+    "after": "يقلل مقاومة [BTN_LT_GP] و[BTN_RT_GP] ويعطل الاهتزاز في<br>[BTN_LT_GP] و[BTN_RT_GP].",
+    "decision": "keep"
+  },
+  {
+    "index": 12200,
+    "key": "MENU_ADAPTIVETRIGGERS_OPTION_NONE_DESC",
+    "source_sha256": "2dc289cd9a4d67afa5f09b4551862607ab5829be2631740a3614c01f784cf265",
+    "before": "يعطل الاهتزاز والمقاومة في [BTN_LT_GP] و[BTN_RT_GP].",
+    "after": "يعطل الاهتزاز والمقاومة في [BTN_LT_GP] و[BTN_RT_GP].",
+    "decision": "keep"
+  },
+  {
+    "index": 12201,
+    "key": "MENU_ADAPTIVETRIGGERS_TITLE",
+    "source_sha256": "623e892123de6eaed3362d54a731ab81ede6e8a115611ae9c87e467cba47fc42",
+    "before": "الزنادات التكيفية",
+    "after": "الزنادات التكيفية",
+    "decision": "keep"
+  },
+  {
+    "index": 12202,
+    "key": "MENU_AIMARC_DESC",
+    "source_sha256": "98d68b81a1fdc5464529b96185d3492d79d6aee8a88bda523283797b84cb3bbd",
+    "before": "اختر لون قوس مسار الرمي والأسلحة.",
+    "after": "اختر لون قوس مسار الرمي والأسلحة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12208,
+    "key": "MENU_AIMMODE_DESC",
+    "source_sha256": "413ce7f90143c74a958596ebc34fdefcd8a07998a3f4f321c5707bd683b51408",
+    "before": "اختر بين الضغط المستمر للتصويب<br>والضغط مرة للتفعيل وأخرى للإيقاف.",
+    "after": "اختر بين الضغط المستمر للتصويب<br>والضغط مرة للتفعيل وأخرى للإيقاف.",
+    "decision": "keep"
+  },
+  {
+    "index": 12211,
+    "key": "MENU_AIMRETICLE_DESC",
+    "source_sha256": "872453820f0947972ef8c9624d8cc1e4afae47f78f756795da6b54f1eb09fb38",
+    "before": "اختر لون مؤشر التصويب.",
+    "after": "اختر لون مؤشر التصويب.",
+    "decision": "keep"
+  },
+  {
+    "index": 12212,
+    "key": "MENU_AIMRETICLE_TITLE",
+    "source_sha256": "a819efd169b0c8b57ff10c8f897da428e4bf6c769edd9717a9203c9a3b9c7d4f",
+    "before": "لون مؤشر التصويب",
+    "after": "لون مؤشر التصويب",
+    "decision": "keep"
+  },
+  {
+    "index": 12213,
+    "key": "MENU_AIMSENSITIVITY_DESC",
+    "source_sha256": "52afceb7bebbc94b1c65e222490e75cf59e3b74f40b7ff9bba5964470ce0dc46",
+    "before": "اضبط سرعة حركة الكاميرا أثناء<br>التصويب. تقل السرعة عند خفض<br>الحساسية وتزداد عند رفعها.",
+    "after": "اضبط سرعة حركة الكاميرا أثناء<br>التصويب. تقل السرعة عند خفض<br>الحساسية وتزداد عند رفعها.",
+    "decision": "keep"
+  },
+  {
+    "index": 12215,
+    "key": "MENU_AIM_INVERTX_DESC",
+    "source_sha256": "e24c95375b2717109c201957c85fda93f5dd232111c746c2b6cf23e835e07122",
+    "before": "يعكس اتجاه حركة كاميرا التصويب<br>أفقيًا.",
+    "after": "يعكس اتجاه حركة كاميرا التصويب<br>أفقيًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12216,
+    "key": "MENU_AIM_INVERTX_TITLE",
+    "source_sha256": "ab6b04eb16e1f2463311ffe53823d4beb33dfbaeece3e1c8da44b5da941ebf62",
+    "before": "عكس التصويب الأفقي",
+    "after": "عكس التصويب الأفقي",
+    "decision": "keep"
+  },
+  {
+    "index": 12217,
+    "key": "MENU_AIM_INVERTY_DESC",
+    "source_sha256": "d7f44cc1123ac172f3f5f1927f59a28f75757bd776235321d9ea0564138ac54a",
+    "before": "يعكس اتجاه حركة كاميرا التصويب<br>رأسيًا.",
+    "after": "يعكس اتجاه حركة كاميرا التصويب<br>رأسيًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12218,
+    "key": "MENU_AIM_INVERTY_TITLE",
+    "source_sha256": "7aa2de5ade0feae7e674aebf5377acaa0f3434084ae011e9bd746c8f753bfcf9",
+    "before": "عكس التصويب الرأسي",
+    "after": "عكس التصويب الرأسي",
+    "decision": "keep"
+  },
+  {
+    "index": 12219,
+    "key": "MENU_ALLYSHADER_DESC",
+    "source_sha256": "cbec686898428e931792cbc528920e9c9a8b8bffbdecf6ab287c1396d618433a",
+    "before": "يميز الحلفاء بلون موحد لتسهيل<br>رؤيتهم.",
+    "after": "يميز الحلفاء بلون موحد لتسهيل<br>رؤيتهم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12220,
+    "key": "MENU_ALLYSHADER_TITLE",
+    "source_sha256": "fc5c44ad514fbf360539f8cc3dac1ec912a3390b81c3ee79bb71e761526ed023",
+    "before": "تمييز الحلفاء",
+    "after": "تمييز الحلفاء",
+    "decision": "keep"
+  },
+  {
+    "index": 12221,
+    "key": "MENU_AUDIOBALANCE_DESC",
+    "source_sha256": "8d72ba0546957d16be7ecdf83dce432091b6927c6af4bd0d8e5b52a66e486022",
+    "before": "اضبط توازن الصوت بين اليمين<br>واليسار. القيمة 0 لليسار، و10<br>لليمين، و5 للمنتصف.",
+    "after": "اضبط توازن الصوت بين اليمين<br>واليسار. القيمة 0 لليسار، و10<br>لليمين، و5 للمنتصف.",
+    "decision": "keep"
+  },
+  {
+    "index": 12223,
+    "key": "MENU_AUDIO_DESC",
+    "source_sha256": "d2619f2df1007feb45c6c5ab86ca740aba74b465e6a6a36a21a373523c04fe89",
+    "before": "اضبط إعدادات الصوت.",
+    "after": "اضبط إعدادات الصوت.",
+    "decision": "keep"
+  },
+  {
+    "index": 12231,
+    "key": "MENU_AUTOLEDGERECOVERY_DESC",
+    "source_sha256": "9fbee5c5d8687f959aff0313ba06f70601c7fef3e3482955ca5d11ea96e8751f",
+    "before": "يمنع السقوط غير المقصود من الحواف<br>الموجودة خارج مجال الرؤية.",
+    "after": "يمنع السقوط غير المقصود من الحواف<br>الموجودة خارج مجال الرؤية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12232,
+    "key": "MENU_AUTOLEDGERECOVERY_OPTION_ALWAYS",
+    "source_sha256": "236f415b20e87a4e01ee028eadc822be56a817bbfa301f9f602f95a9d95d03c4",
+    "before": "مفعل دائمًا",
+    "after": "مفعل دائمًا",
+    "decision": "keep"
+  },
+  {
+    "index": 12234,
+    "key": "MENU_AUTOLEDGERECOVERY_TITLE",
+    "source_sha256": "ca7cb3ad57484087db1728d507bd829a9cc19acb8df32fd3d8fd6ad7ca175f11",
+    "before": "الحماية من السقوط خارج الشاشة",
+    "after": "الحماية من السقوط خارج الشاشة",
+    "decision": "keep"
+  },
+  {
+    "index": 12235,
+    "key": "MENU_AUTOSWAP_DESC",
+    "source_sha256": "37175ce8e7fc8e876b453cfa28d004252ff3e7ef9bc5112223f535fb3f34ed62",
+    "before": "يبدل إلى السلاح التالي تلقائيًا<br>عند نفاد ذخيرة السلاح الحالي.",
+    "after": "يبدل إلى السلاح التالي تلقائيًا<br>عند نفاد ذخيرة السلاح الحالي.",
+    "decision": "keep"
+  },
+  {
+    "index": 12236,
+    "key": "MENU_AUTOSWAP_TITLE",
+    "source_sha256": "3d4d97a1c8611634d8d8b73b6d5e07f25048ad59a7694a1867373eebfa882a6f",
+    "before": "التبديل التلقائي للسلاح",
+    "after": "التبديل التلقائي للسلاح",
+    "decision": "keep"
+  },
+  {
+    "index": 12237,
+    "key": "MENU_BOOSTMODE_DESC",
+    "source_sha256": "9820a6c416c36b9d828ac6f348b8cdc9ace3173128ef4eeb8120c4a7d1903ec7",
+    "before": "اختر بين الضغط المستمر للتسريع<br>والضغط مرة للتفعيل وأخرى للإيقاف.",
+    "after": "اختر بين الضغط المستمر للتسريع<br>والضغط مرة للتفعيل وأخرى للإيقاف.",
+    "decision": "keep"
+  },
+  {
+    "index": 12239,
+    "key": "MENU_BOSSSHADER_DESC",
+    "source_sha256": "dc56b93653d44e396236f2c74bf64c60baf7632060acae504c15dc0264d48bab",
+    "before": "يميز الزعماء بلون موحد.",
+    "after": "يميز الزعماء بلون موحد.",
+    "decision": "keep"
+  },
+  {
+    "index": 12240,
+    "key": "MENU_BOSSSHADER_TITLE",
+    "source_sha256": "e305a75d70dee6d93d2e1fd55508a0614f4b339379025e065545e0d182e59b46",
+    "before": "تمييز الزعماء",
+    "after": "تمييز الزعماء",
+    "decision": "keep"
+  },
+  {
+    "index": 12241,
+    "key": "MENU_BRIGHTNESS_DESC",
+    "source_sha256": "2d3ae0a4792d75352a2d4911622b8f96b05cab82ecd3476052de992c27dfe936",
+    "before": "اضبط سطوع الصورة. القيمة 0 هي<br>الأغمق، والقيمة 100 هي الأكثر<br>سطوعًا.",
+    "after": "اضبط سطوع الصورة. القيمة 0 هي<br>الأغمق، والقيمة 100 هي الأكثر<br>سطوعًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12244,
+    "key": "MENU_CAMERAFOLLOW_DESC",
+    "source_sha256": "b4174eac021f19513dc5ecee3712aaf24cd8cb0a2b9f41ead3aed7e507c287d0",
+    "before": "يدير الكاميرا تلقائيًا لتبقى خلف<br>الشخصية أثناء الحركة.",
+    "after": "يدير الكاميرا تلقائيًا لتبقى خلف<br>الشخصية أثناء الحركة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12247,
+    "key": "MENU_CAMSENSITIVITY_DESC",
+    "source_sha256": "11266ab2c94a3cf67f3e2e1dbf88982d063c4911622940ba94b01bd06d5ce7d6",
+    "before": "اضبط سرعة حركة الكاميرا. تقل<br>السرعة عند خفض الحساسية وتزداد عند<br>رفعها.",
+    "after": "اضبط سرعة حركة الكاميرا. تقل<br>السرعة عند خفض الحساسية وتزداد عند<br>رفعها.",
+    "decision": "keep"
+  },
+  {
+    "index": 12249,
+    "key": "MENU_CAMSHAKE_DESC",
+    "source_sha256": "f929d5271c982b3b250f8396e48d2840c9c4006ac568c024a641bca8d6a78c3c",
+    "before": "يفعل اهتزاز الشاشة أثناء اللعب، أو<br>يعطله.",
+    "after": "يفعل اهتزاز الشاشة أثناء اللعب، أو<br>يعطله.",
+    "decision": "keep"
+  },
+  {
+    "index": 12263,
+    "key": "MENU_CHROMATICABERRATION_DESC",
+    "source_sha256": "c63bcd0a0084049fdbeb925bad506144ebb8e824eb48c817656d024f394f6887",
+    "before": "يحاكي انحراف الألوان عند حواف<br>الصورة لإضفاء مظهر سينمائي.",
+    "after": "يحاكي انحراف الألوان عند حواف<br>الصورة لإضفاء مظهر سينمائي.",
+    "decision": "keep"
+  },
+  {
+    "index": 12265,
+    "key": "MENU_COLLECTSHADER_DESC",
+    "source_sha256": "629308bdac46c46ccc07f6d3d1c6962e0a3b1d1da56a7cfbfa9a2ecb61715cef",
+    "before": "يميز المقتنيات بلون موحد لتسهيل<br>رؤيتها، مثل الراريتانيوم وروبوتات<br>التجسس والمسامير الذهبية.",
+    "after": "يميز المقتنيات بلون موحد لتسهيل<br>رؤيتها، مثل الراريتانيوم وروبوتات<br>التجسس والمسامير الذهبية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12266,
+    "key": "MENU_COLLECTSHADER_TITLE",
+    "source_sha256": "01bfd2a565340002a589c4944981dc7fe44cf53626401d6e23a33a83a8acacb9",
+    "before": "تمييز المقتنيات",
+    "after": "تمييز المقتنيات",
+    "decision": "keep"
+  },
+  {
+    "index": 12274,
+    "key": "MENU_COLOR_OPTION_MAGENTA",
+    "source_sha256": "8d15ffac3016eae5750a81808bfbfec744e9277a6e863fa8eb5a72d634eb624e",
+    "before": "أرجواني",
+    "after": "أرجواني",
+    "decision": "keep"
+  },
+  {
+    "index": 12282,
+    "key": "MENU_COMPLETIONTIME_DESC",
+    "source_sha256": "d59658423cd9579cf844b81f3d1dc8c29daede952783457ad81f36ce6184d22a",
+    "before": "يعرض الزمن المستغرق لإكمال القصة<br>الرئيسية.",
+    "after": "يعرض الزمن المستغرق لإكمال القصة<br>الرئيسية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12283,
+    "key": "MENU_COMPLETIONTIME_TITLE",
+    "source_sha256": "3bd954c9ba2cae6c20da67bf872320b3c74c0d298ba0001d6a62dee5c7009f83",
+    "before": "زمن إكمال القصة",
+    "after": "زمن إكمال القصة",
+    "decision": "keep"
+  },
+  {
+    "index": 12288,
+    "key": "MENU_CONTRASTOPTIONS_DESC",
+    "source_sha256": "f5a5bab0ed79b0a3d981742e4372fb7ff6598e836111908bff0a0ba2e01092a2",
+    "before": "استخدم الإعدادات المسبقة أو خصص<br>ألوان تمييز العناصر والتباين<br>العالي لتسهيل رؤيتها.",
+    "after": "استخدم الإعدادات المسبقة أو خصص<br>ألوان تمييز العناصر والتباين<br>العالي لتسهيل رؤيتها.",
+    "decision": "keep"
+  },
+  {
+    "index": 12293,
+    "key": "MENU_CONTRAST_DESC",
+    "source_sha256": "142aee6abd7d0162c01ad0f3b89c3e5df69063dc9f455a6531506849442f47aa",
+    "before": "اضبط تباين الصورة. القيمة 0 هي<br>الأدنى، والقيمة 10 هي الأعلى.",
+    "after": "اضبط تباين الصورة. القيمة 0 هي<br>الأدنى، والقيمة 10 هي الأعلى.",
+    "decision": "keep"
+  },
+  {
+    "index": 12295,
+    "key": "MENU_CONTROLLERLAYOUT_DESC",
+    "source_sha256": "aff604ea6368aff3ac7b853b95885ae45699876fee3ac3c7711fe0589e72b1b5",
+    "before": "اعرض توزيع أزرار جهاز التحكم وخصص<br>وظائفها.",
+    "after": "اعرض توزيع أزرار جهاز التحكم وخصص<br>وظائفها.",
+    "decision": "keep"
+  },
+  {
+    "index": 12303,
+    "key": "MENU_CONTROLSPEAKER_OPTION_NONE_DESC",
+    "source_sha256": "65eb379c73bf71e13a1201dea61f1af63b363250cef0fb63ebfe2b6e9da98867",
+    "before": "يعطل مكبر صوت جهاز التحكم.",
+    "after": "يعطل مكبر صوت جهاز التحكم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12305,
+    "key": "MENU_CONTROLSPEAKER_TITLE",
+    "source_sha256": "c41de1f5f3130b76dfd6067be73e16f2416498829bc0a8f265e18b3c8214528a",
+    "before": "مكبر صوت جهاز التحكم",
+    "after": "مكبر صوت جهاز التحكم",
+    "decision": "keep"
+  },
+  {
+    "index": 12306,
+    "key": "MENU_CONTROLSPEAKER_VOL_DESC",
+    "source_sha256": "b689833f50c1d4b3533219771f9a58003c1c2f97b74101afe690d8eb7990f66d",
+    "before": "اضبط مستوى الصوت الصادر من مكبر<br>جهاز التحكم.",
+    "after": "اضبط مستوى الصوت الصادر من مكبر<br>جهاز التحكم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12307,
+    "key": "MENU_CONTROLSPEAKER_VOL_TITLE",
+    "source_sha256": "83d36ed10f937825e90a9d5399aa03467b601c29185a903c1e9f1b057aea16f0",
+    "before": "مستوى صوت جهاز التحكم",
+    "after": "مستوى صوت جهاز التحكم",
+    "decision": "keep"
+  },
+  {
+    "index": 12308,
+    "key": "MENU_CONTROLS_DESC",
+    "source_sha256": "a3f337058727f1144517741a0505d0dc4b108cfd1353133f9f0f38a725142e51",
+    "before": "اعرض توزيع أزرار جهاز التحكم وخصص<br>وظائفها والاختصارات.",
+    "after": "اعرض توزيع أزرار جهاز التحكم وخصص<br>وظائفها والاختصارات.",
+    "decision": "keep"
+  },
+  {
+    "index": 12309,
+    "key": "MENU_CONTROLS_DESC_ALT",
+    "source_sha256": "0972dd33f420a52e88bafa210a14834ccbb8b13a24fce3e8bee6fc8d617fca74",
+    "before": "اعرض توزيع أزرار جهاز التحكم وخصص<br>الاختصارات.",
+    "after": "اعرض توزيع أزرار جهاز التحكم وخصص<br>الاختصارات.",
+    "decision": "keep"
+  },
+  {
+    "index": 12310,
+    "key": "MENU_CONTROLS_DESC_DAY1",
+    "source_sha256": "6b3d699262fb7e3a26ac783b0904de2b27742123a0841031ede13c6f1a8e643c",
+    "before": "اعرض توزيع أزرار جهاز التحكم وخصص<br>وظائفها والاختصارات وإعدادات<br>الكاميرا.",
+    "after": "اعرض توزيع أزرار جهاز التحكم وخصص<br>وظائفها والاختصارات وإعدادات<br>الكاميرا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12315,
+    "key": "MENU_DELETESAVE_BODY",
+    "source_sha256": "2cd219e8b53c3a12df18eba5b760c3f31693746df312973304c70e73bc3a3483",
+    "before": "سيؤدي حذف ملف الحفظ هذا إلى فقدان<br>كل التقدم المسجل فيه نهائيًا.",
+    "after": "سيؤدي حذف ملف الحفظ هذا إلى فقدان<br>كل التقدم المسجل فيه نهائيًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12317,
+    "key": "MENU_DEPTHOFFIELDENABLED_DESC",
+    "source_sha256": "18fbb800befb90a92b65dbccd1b6e2595eb9c9c214cb017fad3a9e339e8c159a",
+    "before": "يموه العناصر الواقعة خارج نطاق<br>تركيز الكاميرا. يزداد التمويه كلما<br>ابتعد العنصر عن نقطة التركيز.",
+    "after": "يموه العناصر الواقعة خارج نطاق<br>تركيز الكاميرا. يزداد التمويه كلما<br>ابتعد العنصر عن نقطة التركيز.",
+    "decision": "keep"
+  },
+  {
+    "index": 12323,
+    "key": "MENU_DIFFICULTY_DESC",
+    "source_sha256": "0727ba29c154f5b32627a3809e079ef3c72473035a5ac300e749c29a76bf8a87",
+    "before": "اختر مستوى صعوبة اللعبة.",
+    "after": "اختر مستوى صعوبة اللعبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12326,
+    "key": "MENU_DIFFICULTY_OPTION_EASY_DESC",
+    "source_sha256": "4eb2b1faad9e97d3b0a51609e3d9736997ef1983f159fe75b33a932d1d274cec",
+    "before": "للمبتدئين ومن يفضلون التركيز على<br>القصة.",
+    "after": "للمبتدئين ومن يفضلون التركيز على<br>القصة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12328,
+    "key": "MENU_DIFFICULTY_OPTION_HARDEST_DESC",
+    "source_sha256": "7fbdbcef52eae1f12ec3fedae88ed7596e70b219f511bf044faaa89c287efc14",
+    "before": "لمن يريدون مواجهة أشرس الأعداء في<br>جميع الأبعاد!",
+    "after": "لمن يريدون مواجهة أشرس الأعداء في<br>جميع الأبعاد!",
+    "decision": "keep"
+  },
+  {
+    "index": 12330,
+    "key": "MENU_DIFFICULTY_OPTION_HARD_DESC",
+    "source_sha256": "606beef0c6104f216cfcd19402531b2eb4ff1f707d71adeb255f1eb3f8c169c5",
+    "before": "لمن يبحثون عن تحد أكبر، مع أعداء<br>أقوى ومواجهات تتطلب استجابة أسرع.",
+    "after": "لمن يبحثون عن تحد أكبر، مع أعداء<br>أقوى ومواجهات تتطلب استجابة أسرع.",
+    "decision": "keep"
+  },
+  {
+    "index": 12332,
+    "key": "MENU_DIFFICULTY_OPTION_NORMAL_DESC",
+    "source_sha256": "f8bbeb916b9c2005e29c3aa5a0e5d904131f24349c47d931b555a5cb341d7438",
+    "before": "تجربة متوازنة للاعبين ذوي الخبرة.",
+    "after": "تجربة متوازنة للاعبين ذوي الخبرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12334,
+    "key": "MENU_DIFFICULTY_OPTION_SUPEREASY_DESC",
+    "source_sha256": "87c93195d21fcd525ceb49c20c59e72543e978e98e63a5781aa6b057a89da04e",
+    "before": "لمن يفضلون التركيز على القصة. لا<br>تموت الشخصية أثناء القتال في هذا<br>المستوى.",
+    "after": "لمن يفضلون التركيز على القصة. لا<br>تموت الشخصية أثناء القتال في هذا<br>المستوى.",
+    "decision": "keep"
+  },
+  {
+    "index": 12337,
+    "key": "MENU_DISABLEFULLSCREENFX_DESC",
+    "source_sha256": "c9bdc3711bf83bbeb57f1e03eaafb08a24efd21e4caca5513d2ceb45e54ef3c2",
+    "before": "يفعل مؤثرات الشاشة مثل وهج العدسة<br>والتموج الحراري وقطرات المطر<br>وتأثيرات الغاز، أو يعطلها.",
+    "after": "يفعل مؤثرات الشاشة مثل وهج العدسة<br>والتموج الحراري وقطرات المطر<br>وتأثيرات الغاز، أو يعطلها.",
+    "decision": "keep"
+  },
+  {
+    "index": 12339,
+    "key": "MENU_DISABLETUTORIALS_DESC",
+    "source_sha256": "91c7faec97c4fe44940607c5e775fc6dfdbd926c6c5c6804ad57f9a305ac81ff",
+    "before": "يعطل جميع الإرشادات التعليمية.",
+    "after": "يعطل جميع الإرشادات التعليمية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12340,
+    "key": "MENU_DISABLETUTORIALS_TITLE",
+    "source_sha256": "a489dababa23c479d69410cc37f963c797a5dfcef5992127918391c30d157a75",
+    "before": "تعطيل الإرشادات التعليمية",
+    "after": "تعطيل الإرشادات التعليمية",
+    "decision": "keep"
+  },
+  {
+    "index": 12343,
+    "key": "MENU_EASYAIM_DESC",
+    "source_sha256": "050a2bc8c96451abdfe7ccf83351b93f118e15a7720f962d309e846eb410f410",
+    "before": "يثبت التصويب على الأهداف عند<br>الدخول في وضع التصويب.",
+    "after": "يثبت التصويب على الأهداف عند<br>الدخول في وضع التصويب.",
+    "decision": "keep"
+  },
+  {
+    "index": 12344,
+    "key": "MENU_EASYAIM_TITLE",
+    "source_sha256": "7cc1266676bee2e6d2ae645b592810bddf39f1a68bdd019619b4a4132742c05f",
+    "before": "التثبيت التلقائي على الهدف",
+    "after": "التثبيت التلقائي على الهدف",
+    "decision": "keep"
+  },
+  {
+    "index": 12346,
+    "key": "MENU_EMPHASISCOLOR_TITLE",
+    "source_sha256": "d71162b6fb7e1f9b8a5d7f2328d20cc06d87d3a631b4412a9d9455459f1ff140",
+    "before": "لون النص المميز",
+    "after": "لون النص المميز",
+    "decision": "keep"
+  },
+  {
+    "index": 12347,
+    "key": "MENU_ENEMYSHADER_BASIC_DESC",
+    "source_sha256": "c6a4e026f2ffe1a49dadda15235cd31eb570795673ea4c583da0cb98b1bf5f89",
+    "before": "يميز الأعداء العاديين بلون موحد.",
+    "after": "يميز الأعداء العاديين بلون موحد.",
+    "decision": "keep"
+  },
+  {
+    "index": 12348,
+    "key": "MENU_ENEMYSHADER_BASIC_TITLE",
+    "source_sha256": "deda478adbb1635a47905560b2b78c34ab96da0ca45a85344aef20d0624f73d4",
+    "before": "تمييز الأعداء العاديين",
+    "after": "تمييز الأعداء العاديين",
+    "decision": "keep"
+  },
+  {
+    "index": 12349,
+    "key": "MENU_ENEMYSHADER_DESC",
+    "source_sha256": "ef3436334f5baa61680d7568301fdc282632e6a0b7c0f9af794e24045b83ab3e",
+    "before": "يميز الأعداء بلون موحد لتسهيل<br>رؤيتهم. يمكنك أيضًا اختيار لون<br>مختلف لكل فئة.",
+    "after": "يميز الأعداء بلون موحد لتسهيل<br>رؤيتهم. يمكنك أيضًا اختيار لون<br>مختلف لكل فئة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12350,
+    "key": "MENU_ENEMYSHADER_TITLE",
+    "source_sha256": "7e70efe00eed71b7f908bdf58180914025d00e7a50fe41f09c64cf43a0a5c62d",
+    "before": "تمييز الأعداء",
+    "after": "تمييز الأعداء",
+    "decision": "keep"
+  },
+  {
+    "index": 12352,
+    "key": "MENU_ENGLISH_VO_TITLE",
+    "source_sha256": "75aa298d40950a68edaafe7478a93fb6ba1b8d148cd76c26284e1771771dea6f",
+    "before": "الأصوات الإنجليزية",
+    "after": "الأصوات الإنجليزية",
+    "decision": "keep"
+  },
+  {
+    "index": 12354,
+    "key": "MENU_FILMGRAIN_DESC",
+    "source_sha256": "b5a6fc03970ea32f633d9141d79eac20b59465affc388f73a8e61c3f1c886ed1",
+    "before": "اضبط شدة التحبب السينمائي. القيمة<br>0 هي الأدنى، والقيمة 10 هي الأعلى.",
+    "after": "اضبط شدة التحبب السينمائي. القيمة<br>0 هي الأدنى، والقيمة 10 هي الأعلى.",
+    "decision": "keep"
+  },
+  {
+    "index": 12355,
+    "key": "MENU_FILMGRAIN_TITLE",
+    "source_sha256": "e7c3b854f207e114909227e64397b9f5b3d7959210b0a040ee2a7e8ede6f0d7c",
+    "before": "التحبب السينمائي",
+    "after": "التحبب السينمائي",
+    "decision": "keep"
+  },
+  {
+    "index": 12370,
+    "key": "MENU_FLIGHTSTICK_DESC",
+    "source_sha256": "c9325402b795c6b2c5ce23aa075c8803bb88da421ff3b37022011c6d125103e2",
+    "before": "اختر العصا اليسرى أو اليمنى للتحكم<br>بالطيران.",
+    "after": "اختر العصا اليسرى أو اليمنى للتحكم<br>بالطيران.",
+    "decision": "keep"
+  },
+  {
+    "index": 12373,
+    "key": "MENU_FLIGHTSTICK_TITLE",
+    "source_sha256": "d1858ad9232c916cfe4aabb3d5482378ce5453546fc17b632fb3901d4a4be3e5",
+    "before": "عصا التحكم بالطيران",
+    "after": "عصا التحكم بالطيران",
+    "decision": "keep"
+  },
+  {
+    "index": 12374,
+    "key": "MENU_FLIGHT_INVERTX_DESC",
+    "source_sha256": "4e2d197f23a264d35d60c8a08cfa64382267b7f36c08b528a21fa5d63ea35ecd",
+    "before": "يعكس اتجاه التحكم بالطيران أفقيًا.",
+    "after": "يعكس اتجاه التحكم بالطيران أفقيًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12375,
+    "key": "MENU_FLIGHT_INVERTX_TITLE",
+    "source_sha256": "a2b74752cbf1337fd06f41ea58c0e64cf082541904f54d8bdf5fc145c2f6cfad",
+    "before": "عكس الطيران الأفقي",
+    "after": "عكس الطيران الأفقي",
+    "decision": "keep"
+  },
+  {
+    "index": 12376,
+    "key": "MENU_FLIGHT_INVERTY_DESC",
+    "source_sha256": "ea8ec5adaad2d75ec529e2eea0124ad59385cdecb66e7f90a8174f88123f2b54",
+    "before": "يعكس اتجاه التحكم بالطيران رأسيًا.",
+    "after": "يعكس اتجاه التحكم بالطيران رأسيًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12377,
+    "key": "MENU_FLIGHT_INVERTY_TITLE",
+    "source_sha256": "46a85eec53e83cbec48979d26b6f6230ceed75fa6f14b3429950c087025c85f0",
+    "before": "عكس الطيران الرأسي",
+    "after": "عكس الطيران الرأسي",
+    "decision": "keep"
+  },
+  {
+    "index": 12378,
+    "key": "MENU_GAMEPAD_DESC",
+    "source_sha256": "6cc0f291fbf7236e08bde155594fc7114e3d5b23e0884a495562c334d1f8ca5b",
+    "before": "خصص أزرار جهاز التحكم والاختصارات<br>والكاميرا والاهتزاز والزنادات<br>التكيفية.",
+    "after": "خصص أزرار جهاز التحكم والاختصارات<br>والكاميرا والاهتزاز والزنادات<br>التكيفية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12379,
+    "key": "MENU_GAME_DESC",
+    "source_sha256": "4d7ea50345da91142ff8602fe0bfa51c9f8b98a9bb484ee400a87e43ce8aedbc",
+    "before": "اضبط إعدادات اللعب والكاميرا<br>والقتال والحركة.",
+    "after": "اضبط إعدادات اللعب والكاميرا<br>والقتال والحركة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12380,
+    "key": "MENU_GAME_DESC_DAY1",
+    "source_sha256": "8d60897958c9cca7781fa2c04eff05a7bcb588fe44bb9cbcb23094a734c99ce3",
+    "before": "اضبط إعدادات اللعب والقتال<br>والحركة.",
+    "after": "اضبط إعدادات اللعب والقتال<br>والحركة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12385,
+    "key": "MENU_GRAPHICS_OPTION_FIDELITY_DESC",
+    "source_sha256": "380658a8be15adecd089a7673eef30347c20637a2cec51e53b1629e745ea5878",
+    "before": "وضع بمعدل 30 FPS ودقة 4K، مع Ray<br>Tracing وإضاءة محسنة ومؤثرات بصرية<br>إضافية وكثافة أكبر للمشهد. هذا هو<br>الوضع الافتراضي.",
+    "after": "وضع بمعدل 30 FPS ودقة 4K، مع Ray<br>Tracing وإضاءة محسنة ومؤثرات بصرية<br>إضافية وكثافة أكبر للمشهد. هذا هو<br>الوضع الافتراضي.",
+    "decision": "keep"
+  },
+  {
+    "index": 12386,
+    "key": "MENU_GRAPHICS_OPTION_FIDELITY_DESC_DAY0",
+    "source_sha256": "65caa11166c3754515925ded74a414cda4d2704ee1fb0f8ceaff567f4827c088",
+    "before": "وضع بمعدل 30 FPS، مع Ray Tracing<br>وإضاءة محسنة ومؤثرات إضافية. تمنح<br>التقنيات الزمنية صورة فائقة الجودة<br>انطلاقًا من دقة 4K. هذا هو الوضع<br>الافتراضي.<br><br>يتوفر وضع الأداء بمعدل 60 FPS في<br>تحديث اليوم الأول.",
+    "after": "وضع بمعدل 30 FPS، مع Ray Tracing<br>وإضاءة محسنة ومؤثرات إضافية. تمنح<br>التقنيات الزمنية صورة فائقة الجودة<br>انطلاقًا من دقة 4K. هذا هو الوضع<br>الافتراضي.<br><br>يتوفر وضع الأداء بمعدل 60 FPS في<br>تحديث اليوم الأول.",
+    "decision": "keep"
+  },
+  {
+    "index": 12388,
+    "key": "MENU_GRAPHICS_OPTION_PERFORMANCE_120_DESC",
+    "source_sha256": "0f429b695b0346d0cc7b9ff6bf69cc8f478a651c51a462cf5dec155adaffe096",
+    "before": "نسخة بديلة من وضع Performance RT<br>بمعدل 60 FPS. تعطل Ray Tracing<br>لرفع دقة الصورة. عند تفعيل خرج 120<br>Hz في النظام، تصبح تقلبات معدل<br>الإطارات أثناء اللعب المكثف أقل<br>وضوحًا.",
+    "after": "نسخة بديلة من وضع Performance RT<br>بمعدل 60 FPS. تعطل Ray Tracing<br>لرفع دقة الصورة. عند تفعيل خرج 120<br>Hz في النظام، تصبح تقلبات معدل<br>الإطارات أثناء اللعب المكثف أقل<br>وضوحًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12389,
+    "key": "MENU_GRAPHICS_OPTION_PERFORMANCE_DESC",
+    "source_sha256": "4528b18f82522f1450df1439f1563db5065775f6cdd7cceef0de60f60888984b",
+    "before": "نسخة بديلة من وضع Performance RT<br>بمعدل 60 FPS. تعطل Ray Tracing<br>لتقديم صورة بدقة أعلى.",
+    "after": "نسخة بديلة من وضع Performance RT<br>بمعدل 60 FPS. تعطل Ray Tracing<br>لتقديم صورة بدقة أعلى.",
+    "decision": "keep"
+  },
+  {
+    "index": 12390,
+    "key": "MENU_GRAPHICS_OPTION_PERFORMANCE_ONLY_120_DESC",
+    "source_sha256": "f8e646070ae1324e0f40e0f7007eadae8edfc3597eb47439e0320048979fca1a",
+    "before": "وضع بمعدل 60 FPS ودقة أقل، دون Ray<br>Tracing أو الإضاءة المحسنة أو<br>المؤثرات الإضافية أو الكثافة<br>الأكبر للمشهد. عند تفعيل خرج 120<br>Hz في النظام، تصبح تقلبات معدل<br>الإطارات أقل وضوحًا.",
+    "after": "وضع بمعدل 60 FPS ودقة أقل، دون Ray<br>Tracing أو الإضاءة المحسنة أو<br>المؤثرات الإضافية أو الكثافة<br>الأكبر للمشهد. عند تفعيل خرج 120<br>Hz في النظام، تصبح تقلبات معدل<br>الإطارات أقل وضوحًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12391,
+    "key": "MENU_GRAPHICS_OPTION_PERFORMANCE_ONLY_DESC",
+    "source_sha256": "39435b963fa0001a65f46531ef8a2383b4234c408c43f07ecc89031b0a1474a1",
+    "before": "وضع بمعدل 60 FPS ودقة أقل، دون Ray<br>Tracing أو الإضاءة المحسنة أو<br>المؤثرات الإضافية أو الكثافة<br>الأكبر للمشهد.",
+    "after": "وضع بمعدل 60 FPS ودقة أقل، دون Ray<br>Tracing أو الإضاءة المحسنة أو<br>المؤثرات الإضافية أو الكثافة<br>الأكبر للمشهد.",
+    "decision": "keep"
+  },
+  {
+    "index": 12392,
+    "key": "MENU_GRAPHICS_OPTION_PERFORMANCE_RT_120_DESC",
+    "source_sha256": "cd64d36fa911a74761df791178b77cc7fcec149357b679b866b1f33e0d2646ab",
+    "before": "وضع بمعدل 60 FPS مع Ray Tracing<br>ودقة أقل، مع تعديل الإضاءة<br>والمؤثرات وكثافة المشهد. عند تفعيل<br>خرج 120 Hz في النظام، تصبح تقلبات<br>معدل الإطارات أثناء اللعب المكثف<br>أقل وضوحًا.",
+    "after": "وضع بمعدل 60 FPS مع Ray Tracing<br>ودقة أقل، مع تعديل الإضاءة<br>والمؤثرات وكثافة المشهد. عند تفعيل<br>خرج 120 Hz في النظام، تصبح تقلبات<br>معدل الإطارات أثناء اللعب المكثف<br>أقل وضوحًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12393,
+    "key": "MENU_GRAPHICS_OPTION_PERFORMANCE_RT_DESC",
+    "source_sha256": "1c50f357dea9329bfc6022e5565249689af103f50e4c6b513c1ae99de071f302",
+    "before": "وضع بمعدل 60 FPS مع Ray Tracing.<br>يقدم صورة بدقة أقل، مع تعديل<br>الإضاءة والمؤثرات البصرية وكثافة<br>المشهد.",
+    "after": "وضع بمعدل 60 FPS مع Ray Tracing.<br>يقدم صورة بدقة أقل، مع تعديل<br>الإضاءة والمؤثرات البصرية وكثافة<br>المشهد.",
+    "decision": "keep"
+  },
+  {
+    "index": 12397,
+    "key": "MENU_GRINDASSIST_DESC",
+    "source_sha256": "7007a948b0e123194f577f49b6ca3c49112b7b16874d101c1d9fc522310c0bcf",
+    "before": "يبطئ الوقت تلقائيًا عند الاقتراب<br>من خطر أثناء الانزلاق على القضبان.",
+    "after": "يبطئ الوقت تلقائيًا عند الاقتراب<br>من خطر أثناء الانزلاق على القضبان.",
+    "decision": "keep"
+  },
+  {
+    "index": 12399,
+    "key": "MENU_HAPTICS_DESC",
+    "source_sha256": "92229579b51dec1ece0894e8585db4e13d64aaa5dd6999b915c8b66784634d19",
+    "before": "اضبط اهتزاز جهاز التحكم والزنادات<br>التكيفية.",
+    "after": "اضبط اهتزاز جهاز التحكم والزنادات<br>التكيفية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12402,
+    "key": "MENU_HAZARDSHADER_DESC",
+    "source_sha256": "c41dc94a70c9072918d0877b84145fcf3818404f3a9b743a12b8f7184f740b26",
+    "before": "يميز مصادر الخطر بلون موحد لتسهيل<br>رؤيتها، مثل الصناديق المتفجرة<br>والعناصر التي تسبب الضرر.",
+    "after": "يميز مصادر الخطر بلون موحد لتسهيل<br>رؤيتها، مثل الصناديق المتفجرة<br>والعناصر التي تسبب الضرر.",
+    "decision": "keep"
+  },
+  {
+    "index": 12403,
+    "key": "MENU_HAZARDSHADER_TITLE",
+    "source_sha256": "7247e660f306dfbe383a7e3df66b00f8546ee8899474a3e0a935d454aef98d20",
+    "before": "تمييز المخاطر",
+    "after": "تمييز المخاطر",
+    "decision": "keep"
+  },
+  {
+    "index": 12404,
+    "key": "MENU_HDR_DESC",
+    "source_sha256": "7c80d3fd05b883d38836466accd9a4e379dd4217af2535a4c6785c4828d088f8",
+    "before": "تحسن HDR التباين ونطاق الألوان.<br>لتفعيلها، افتح إعدادات النظام ثم<br>الشاشة والفيديو ثم مخرج الفيديو ثم<br>HDR. تتوفر على الشاشات المتوافقة<br>فقط.",
+    "after": "تحسن HDR التباين ونطاق الألوان.<br>لتفعيلها، افتح إعدادات النظام ثم<br>الشاشة والفيديو ثم مخرج الفيديو ثم<br>HDR. تتوفر على الشاشات المتوافقة<br>فقط.",
+    "decision": "keep"
+  },
+  {
+    "index": 12406,
+    "key": "MENU_HEROSHADER_DESC",
+    "source_sha256": "d621a3ab5637f82991e89634042fc78f14663e40758fe899bc04ecfb31c6ae8e",
+    "before": "يميز الشخصية التي تتحكم بها بلون<br>موحد لتسهيل رؤيتها.",
+    "after": "يميز الشخصية التي تتحكم بها بلون<br>موحد لتسهيل رؤيتها.",
+    "decision": "keep"
+  },
+  {
+    "index": 12407,
+    "key": "MENU_HEROSHADER_TITLE",
+    "source_sha256": "d9efc097cbe7babf6e4e5983800db75f182f503c7bc9d7060ecc2fa758b6d481",
+    "before": "تمييز الشخصية",
+    "after": "تمييز الشخصية",
+    "decision": "keep"
+  },
+  {
+    "index": 12516,
+    "key": "MENU_SETTINGS_CAT_HUD",
+    "source_sha256": "c40c747ee79e90e16e46d58fa8ba3a289bb9fc8042af339561d423d71a7671c5",
+    "before": "واجهة المعلومات",
+    "after": "واجهة اللعب (HUD)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12517,
+    "key": "MENU_SETTINGS_CAT_HUDCOLORS",
+    "source_sha256": "666aaab35e970ec16ed2907eb63cdb4729c5e983ff749b52c3e85f80660d6492",
+    "before": "ألوان واجهة المعلومات",
+    "after": "ألوان واجهة اللعب (HUD)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12521,
+    "key": "MENU_SETTINGS_CAT_SHORTCUTS_DESC",
+    "source_sha256": "bad6a4281838810dc417ec6f89d6042f7d4d8a3631fe5afe5665c96501526713",
+    "before": "خصص اختصارات اللعب والإعدادات<br>وسرعة اللعبة.",
+    "after": "خصص اختصارات اللعب والإعدادات<br>وسرعة اللعبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12524,
+    "key": "MENU_SETTINGS_VISUAL_DESC",
+    "source_sha256": "90eb806bc951618bb49574456eabd87702826239466385be93e4dd146200b0c8",
+    "before": "اضبط إعدادات العرض والمؤثرات<br>البصرية.",
+    "after": "اضبط إعدادات العرض والمؤثرات<br>البصرية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12526,
+    "key": "MENU_SFX_VOL_DESC",
+    "source_sha256": "0ac61698dc5eeacfe2deb5f945c9f459cf3a854e32af2aa4b169d022c32049c2",
+    "before": "اضبط مستوى المؤثرات الصوتية أثناء<br>اللعب.",
+    "after": "اضبط مستوى المؤثرات الصوتية أثناء<br>اللعب.",
+    "decision": "keep"
+  },
+  {
+    "index": 12528,
+    "key": "MENU_SHADEROUTLINE_DESC",
+    "source_sha256": "3a395fc3d50d8a2d5cc7ee7ef45c57335af3ee6786f1ae3679ec15149d37ef50",
+    "before": "يضيف حدودًا بلون موحد حول الشخصيات<br>والأعداء لتسهيل رؤيتهم.",
+    "after": "يضيف حدودًا بلون موحد حول الشخصيات<br>والأعداء لتسهيل رؤيتهم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12529,
+    "key": "MENU_SHADEROUTLINE_TITLE",
+    "source_sha256": "9672c25e2978591dd7b0eebd0bb57cc850a3a10f8a97cb1fb2a53dc905c35ca0",
+    "before": "حدود عالية التباين",
+    "after": "حدود عالية التباين",
+    "decision": "keep"
+  },
+  {
+    "index": 12546,
+    "key": "MENU_SHORTCUT_OPTION_MELEECOMBO",
+    "source_sha256": "9d8adae40da03512a6e5a04ce5a14ead3860d6b2ca082e813b2762a8655eef0d",
+    "before": "سلسلة ضربات اشتباك",
+    "after": "سلسلة ضربات اشتباك",
+    "decision": "keep"
+  },
+  {
+    "index": 12547,
+    "key": "MENU_SHORTCUT_OPTION_MELEECOMBO_DESC",
+    "source_sha256": "f732f291ab2dbf93ed0cddd69ef44f3e90a2068dd7816697f349e1bb9ba2ad40",
+    "before": "ينفذ ثلاث ضربات اشتباك متتالية.",
+    "after": "ينفذ ثلاث ضربات اشتباك متتالية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12548,
+    "key": "MENU_SHORTCUT_OPTION_MELEESLAM",
+    "source_sha256": "6f5851324f46d0fc703e03a93047d8e6ea0357ac9b286a566f70f3f17081c513",
+    "before": "ضربة اشتباك هابطة",
+    "after": "ضربة اشتباك هابطة",
+    "decision": "keep"
+  },
+  {
+    "index": 12549,
+    "key": "MENU_SHORTCUT_OPTION_MELEESLAM_DESC",
+    "source_sha256": "85d562ded2bdb0c0e9b329c0c2bef3af4e80f9b4f296c14a6dfce10e2efdcefc",
+    "before": "يقفز ثم يندفع إلى الأسفل بسلاح<br>الاشتباك.",
+    "after": "يقفز ثم يندفع إلى الأسفل بسلاح<br>الاشتباك.",
+    "decision": "keep"
+  },
+  {
+    "index": 12550,
+    "key": "MENU_SHORTCUT_OPTION_MELEETHROW",
+    "source_sha256": "501ec54287f63bdd6ad5b391c4cd200c9a8a9ff446b0dafeb45bcc17071ec790",
+    "before": "رمي سلاح الاشتباك",
+    "after": "رمي سلاح الاشتباك",
+    "decision": "keep"
+  },
+  {
+    "index": 12551,
+    "key": "MENU_SHORTCUT_OPTION_MELEETHROW_DESC",
+    "source_sha256": "937a35ca15ac46a26f107662b744bc4d3265488673953a9f9dae65130980e0ae",
+    "before": "يرمي سلاح الاشتباك.",
+    "after": "يرمي سلاح الاشتباك.",
+    "decision": "keep"
+  },
+  {
+    "index": 12582,
+    "key": "MENU_SHORTCUT_WEAPON_QS",
+    "source_sha256": "25cd2fa89bc2a86c8f63a32ca21942e1147d480f97fcac871170fb46e37235f1",
+    "before": "اختيار سريع للسلاح",
+    "after": "اختيار سريع للسلاح",
+    "decision": "keep"
+  },
+  {
+    "index": 12597,
+    "key": "MENU_SPEECH_VOL_DESC",
+    "source_sha256": "fd19be88532b5a645abbeaaa03f0bd8ab75f72804ea71ee3447270ac1601cc06",
+    "before": "اضبط مستوى أصوات الشخصيات أثناء<br>الحوار.",
+    "after": "اضبط مستوى أصوات الشخصيات أثناء<br>الحوار.",
+    "decision": "keep"
+  },
+  {
+    "index": 12598,
+    "key": "MENU_SPEECH_VOL_TITLE",
+    "source_sha256": "1c3f70e298d42e296f27bd6f0705a3ea1e65d291c16214c93f0b0df0926b7816",
+    "before": "مستوى صوت الحوار",
+    "after": "مستوى صوت الحوار",
+    "decision": "keep"
+  },
+  {
+    "index": 12599,
+    "key": "MENU_SPEEDRUNNING_DESC",
+    "source_sha256": "31070fc46f2c877d25201d6db58d30f0122c69bd2720cfccd54265d30d9425b8",
+    "before": "اضبط الخيارات المساعدة على إنهاء<br>اللعبة في أقصر وقت.",
+    "after": "اضبط الخيارات المساعدة على إنهاء<br>اللعبة في أقصر وقت.",
+    "decision": "keep"
+  },
+  {
+    "index": 12600,
+    "key": "MENU_SPEEDRUNNING_HEADER",
+    "source_sha256": "328f9b5036fc5f0cdd53e3a28db229e07005efd94e70ef9db21892033c284315",
+    "before": "إعدادات الإنهاء السريع",
+    "after": "إعدادات الإنهاء السريع",
+    "decision": "keep"
+  },
+  {
+    "index": 12601,
+    "key": "MENU_SPEEDRUNNING_TITLE",
+    "source_sha256": "52c5b7e9fc33e49b40c1d8ac539fdd36615de42e551ef7fd4dfbc73597b307cd",
+    "before": "الإنهاء السريع",
+    "after": "الإنهاء السريع",
+    "decision": "keep"
+  },
+  {
+    "index": 12609,
+    "key": "MENU_SUBS_DESC",
+    "source_sha256": "3b5749b43472c722e8dce5e8b1016e7bd0c1ef9c2e9ee5f3e663fa2e5899cc19",
+    "before": "يعرض ترجمة مكتوبة للحوار المنطوق.",
+    "after": "يعرض ترجمة مكتوبة للحوار المنطوق.",
+    "decision": "keep"
+  },
+  {
+    "index": 12611,
+    "key": "MENU_SUBS_TITLE",
+    "source_sha256": "30ec39e1347912596b96f8dbd32002e667961f9f7b33a41351bc83b3a58e43fb",
+    "before": "الترجمة",
+    "after": "الترجمة",
+    "decision": "keep"
+  },
+  {
+    "index": 12612,
+    "key": "MENU_SUBTITLES_DESC",
+    "source_sha256": "85e51d812a17d7a759c6d5a87a8939eaa8ced0bdfc8b4e503772399c9cc29784",
+    "before": "فعل الترجمة وخصص إعداداتها.",
+    "after": "فعل الترجمة وخصص إعداداتها.",
+    "decision": "keep"
+  },
+  {
+    "index": 12613,
+    "key": "MENU_SUBTITLES_DESC_FRONTEND",
+    "source_sha256": "c21898b5484fa302ba33b4dfc244f76ef1349b8fc31f8b599dc3b2c138591a73",
+    "before": "خيارات تفعيل الترجمة وتخصيص<br>مظهرها.",
+    "after": "خيارات تفعيل الترجمة وتخصيص<br>مظهرها.",
+    "decision": "keep"
+  },
+  {
+    "index": 12614,
+    "key": "MENU_SUBTITLES_HEADER",
+    "source_sha256": "93b98b3854431f05a635eca75ecc1cdeac1d93693bf76ea5a8cf3d15728f1894",
+    "before": "إعدادات الترجمة",
+    "after": "إعدادات الترجمة",
+    "decision": "keep"
+  },
+  {
+    "index": 12615,
+    "key": "MENU_SUBTITLES_TITLE",
+    "source_sha256": "30ec39e1347912596b96f8dbd32002e667961f9f7b33a41351bc83b3a58e43fb",
+    "before": "الترجمة",
+    "after": "الترجمة",
+    "decision": "keep"
+  },
+  {
+    "index": 12616,
+    "key": "MENU_SUB_BG_DESC",
+    "source_sha256": "14aeb04c2769ddeb8297a7786d9f59ef2aae3c8109fd2966fed74a03d90e95a6",
+    "before": "يضيف خلفية متباينة خلف الترجمة<br>لتسهيل قراءتها.",
+    "after": "يضيف خلفية متباينة خلف الترجمة<br>لتسهيل قراءتها.",
+    "decision": "keep"
+  },
+  {
+    "index": 12617,
+    "key": "MENU_SUB_BG_OPACITY_DESC",
+    "source_sha256": "b8bb9508577b7d0c2f0296b45b30c8e70174492a92b9f6b9c8382bbb9e025bab",
+    "before": "اضبط عتامة خلفية الترجمة. القيمة 0<br>تخفي الخلفية.",
+    "after": "اضبط عتامة خلفية الترجمة. القيمة 0<br>تخفي الخلفية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12618,
+    "key": "MENU_SUB_BG_OPACITY_TITLE",
+    "source_sha256": "affbf8415d4955bbe51d7d0f0a1f0b3ea0cddd8f17721dc00df113aef9fcf5e3",
+    "before": "عتامة خلفية الترجمة",
+    "after": "عتامة خلفية الترجمة",
+    "decision": "keep"
+  },
+  {
+    "index": 12619,
+    "key": "MENU_SUB_BG_TITLE",
+    "source_sha256": "e86fbc712eac4dd52fcd8f4c4df5d8f68832c6b271d286e29fbb032241f47da0",
+    "before": "لون خلفية الترجمة",
+    "after": "لون خلفية الترجمة",
+    "decision": "keep"
+  },
+  {
+    "index": 12620,
+    "key": "MENU_SUB_COLOR_DESC",
+    "source_sha256": "be3b86d05536982aae1f62cfedfc029a28657c41e5a434afa2a988f64716d623",
+    "before": "اختر لون نص الترجمة.",
+    "after": "اختر لون نص الترجمة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12621,
+    "key": "MENU_SUB_COLOR_TITLE",
+    "source_sha256": "9f5fed128090e07d76747f1f62dc1d9a94e423c61b834b4d88f5d05971bdc2af",
+    "before": "لون الترجمة",
+    "after": "لون الترجمة",
+    "decision": "keep"
+  },
+  {
+    "index": 12622,
+    "key": "MENU_SUB_SIZE_DESC",
+    "source_sha256": "142fe3e3112dba1d62717f575c1e96bad89ad0348ebfdd69df63321543ecc302",
+    "before": "اضبط حجم نص الترجمة.",
+    "after": "اضبط حجم نص الترجمة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12626,
+    "key": "MENU_SUB_SIZE_TITLE",
+    "source_sha256": "0c010153451007dbdfdec5eba1eb402802a6b9748e4fa0c56f5773168a7a6fe3",
+    "before": "حجم الترجمة",
+    "after": "حجم الترجمة",
+    "decision": "keep"
+  },
+  {
+    "index": 12627,
+    "key": "MENU_SUB_SPEAKER_COLOR_DESC",
+    "source_sha256": "8588d330bd96388e2069079bb9bf0bb43e598c086bff879d0581b56a278050b3",
+    "before": "اختر لون اسم الشخصية المتحدثة في<br>الترجمة.",
+    "after": "اختر لون اسم الشخصية المتحدثة في<br>الترجمة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12628,
+    "key": "MENU_SUB_SPEAKER_COLOR_TITLE",
+    "source_sha256": "f02962d2b55173557a37e98ba702261a1335b110c5e0f2b596f8b8b4c363cbe4",
+    "before": "لون اسم المتحدث",
+    "after": "لون اسم المتحدث",
+    "decision": "keep"
+  },
+  {
+    "index": 12629,
+    "key": "MENU_SWINGAUTODETACH_DESC",
+    "source_sha256": "08688e51c8d67f4addfd9c2b8d7ab1c7a509ad71bff4c3980ddd50466425faf7",
+    "before": "يفلت نقطة التعلق تلقائيًا عند<br>الوصول إلى نهاية التأرجح.",
+    "after": "يفلت نقطة التعلق تلقائيًا عند<br>الوصول إلى نهاية التأرجح.",
+    "decision": "keep"
+  },
+  {
+    "index": 12630,
+    "key": "MENU_SWINGAUTODETACH_TITLE",
+    "source_sha256": "c3dfc214cf6e373ddcacf8f8350b2ef8753aa749aa79c1146cda48562127b6a3",
+    "before": "الإفلات التلقائي عند التأرجح",
+    "after": "الإفلات التلقائي عند التأرجح",
+    "decision": "keep"
+  },
+  {
+    "index": 12636,
+    "key": "MENU_TARGETRETICLE_DESC",
+    "source_sha256": "36047161495bc995ef3c909e8d004ecc6715934242bed3811d3027ddfcf16210",
+    "before": "اختر لون مؤشر التصويب عند تمييز<br>الهدف.",
+    "after": "اختر لون مؤشر التصويب عند تمييز<br>الهدف.",
+    "decision": "keep"
+  },
+  {
+    "index": 12637,
+    "key": "MENU_TARGETRETICLE_TITLE",
+    "source_sha256": "86e45ed93fe34a727d31cde4b38b88e68ac94ed0683de415e8f84f30c101deb1",
+    "before": "لون مؤشر الهدف",
+    "after": "لون مؤشر الهدف",
+    "decision": "keep"
+  },
+  {
+    "index": 12638,
+    "key": "MENU_TIMEPLAYED_DESC",
+    "source_sha256": "05d881baa1af7b38c4de9a24063a1b7e4aaf935d76bfbeb3bd1a25949eca9f0b",
+    "before": "يعرض مؤقتًا يوضح الوقت المنقضي<br>أثناء اللعب.",
+    "after": "يعرض مؤقتًا يوضح الوقت المنقضي<br>أثناء اللعب.",
+    "decision": "keep"
+  },
+  {
+    "index": 12639,
+    "key": "MENU_TIMEPLAYED_TITLE",
+    "source_sha256": "b65ba74b6cfbb62e6b78336a04e10dc48e696bf8e3ec17678bde3a07534be1e4",
+    "before": "عرض مدة اللعب",
+    "after": "عرض مدة اللعب",
+    "decision": "keep"
+  },
+  {
+    "index": 12644,
+    "key": "MENU_UI_VOL_DESC",
+    "source_sha256": "9946dce7d704b0c35e3188181b9ec391599b49dd7e6600a1832c115ba87be17f",
+    "before": "اضبط مستوى المؤثرات الصوتية أثناء<br>تصفح القوائم.",
+    "after": "اضبط مستوى المؤثرات الصوتية أثناء<br>تصفح القوائم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12646,
+    "key": "MENU_VIBRATION_INTENSITY_DESC",
+    "source_sha256": "eded4dd09291c4c8ce51751a6b36bfa6dbc1b0e07e0ce1c64e3d764a0cbb8b58",
+    "before": "اضبط شدة اهتزاز جهاز التحكم.",
+    "after": "اضبط شدة اهتزاز جهاز التحكم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12652,
+    "key": "MENU_VIBRATION_OPTION_EXPERIENTIAL_DESC",
+    "source_sha256": "a336e2cb9e9872e95b0a3a34259624a29cd42828fe429dfb55aae8b14137bc28",
+    "before": "يفعل جميع الاهتزازات، بما فيها<br>التفاصيل الدقيقة في البيئة<br>والحركة.",
+    "after": "يفعل جميع الاهتزازات، بما فيها<br>التفاصيل الدقيقة في البيئة<br>والحركة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12653,
+    "key": "MENU_VIBRATION_OPTION_EXPERIENTIAL_TITLE",
+    "source_sha256": "14d2f220b1f1adf260f3f3f965a32e507060cf11bd66699b5522bce9b5bd14cd",
+    "before": "غامر",
+    "after": "غامر",
+    "decision": "keep"
+  },
+  {
+    "index": 12654,
+    "key": "MENU_VIBRATION_OPTION_FUNCTIONAL_DESC",
+    "source_sha256": "a7f8685c18f1852e7b80a67977856be526936727df17c181432a761a943e740f",
+    "before": "يفعل الاهتزازات التي تنبهك إلى<br>أحداث اللعب المهمة، مثل تلقي الضرر<br>وجمع الصحة والذخيرة.",
+    "after": "يفعل الاهتزازات التي تنبهك إلى<br>أحداث اللعب المهمة، مثل تلقي الضرر<br>وجمع الصحة والذخيرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12657,
+    "key": "MENU_VIBRATION_OPTION_NONE_DESC",
+    "source_sha256": "19c52eed45e998368d9e7b281447044c2d37c65d9c32566c659c61200247a0fa",
+    "before": "يعطل اهتزاز جهاز التحكم.",
+    "after": "يعطل اهتزاز جهاز التحكم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12663,
+    "key": "MENU_WAYPOINTS_SHOWALWAYS_TITLE",
+    "source_sha256": "236f415b20e87a4e01ee028eadc822be56a817bbfa301f9f602f95a9d95d03c4",
+    "before": "ظاهرة دائمًا",
+    "after": "ظاهرة دائمًا",
+    "decision": "keep"
+  },
+  {
+    "index": 12667,
+    "key": "MENU_WEAPONLEVELPOPUPS_DESC",
+    "source_sha256": "7f252eba5891ad6b6bd72864e44a52f9ac44ed6a56c8ad76a669c33e167c013a",
+    "before": "يعرض معلومات السلاح عند ارتفاع<br>مستواه.",
+    "after": "يعرض معلومات السلاح عند ارتفاع<br>مستواه.",
+    "decision": "keep"
+  },
+  {
+    "index": 12668,
+    "key": "MENU_WEAPONLEVELPOPUPS_TITLE",
+    "source_sha256": "2e340c5cc11030025f7b43f822085f545204090e281886ed8a118f2faf00c2cf",
+    "before": "تنبيهات ارتقاء الأسلحة",
+    "after": "تنبيهات ارتقاء الأسلحة",
+    "decision": "keep"
+  },
+  {
+    "index": 12673,
+    "key": "MENU_WEAPONWHEELPAUSE_DESC",
+    "source_sha256": "5572b0e5c8b736f55cb8200103ef28e88bf5ddd8d21df9f38ced2a5d7a4221d1",
+    "before": "يوقف اللعب مؤقتًا أثناء فتح عجلة<br>الأسلحة عند تفعيله. عند تعطيله،<br>يستمر اللعب أثناء اختيار السلاح.",
+    "after": "يوقف اللعب مؤقتًا أثناء فتح عجلة<br>الأسلحة عند تفعيله. عند تعطيله،<br>يستمر اللعب أثناء اختيار السلاح.",
+    "decision": "keep"
+  },
+  {
+    "index": 12674,
+    "key": "MENU_WEAPONWHEELPAUSE_TITLE",
+    "source_sha256": "495582f945f3a12431587f1c5c227d5504f86935d468f23b310fb883c35379a1",
+    "before": "إيقاف اللعب عند فتح عجلة الأسلحة",
+    "after": "إيقاف اللعب عند فتح عجلة الأسلحة",
+    "decision": "keep"
+  },
+  {
+    "index": 16038,
+    "key": "PAUSE_OPTION_CONTROLLERLAYOUT_DESC",
+    "source_sha256": "aff604ea6368aff3ac7b853b95885ae45699876fee3ac3c7711fe0589e72b1b5",
+    "before": "اعرض توزيع أزرار جهاز التحكم وخصص<br>وظائفها.",
+    "after": "اعرض توزيع أزرار جهاز التحكم وخصص<br>وظائفها.",
+    "decision": "keep"
+  },
+  {
+    "index": 16039,
+    "key": "PAUSE_OPTION_CONTROLLERLAYOUT_DESC_ALT",
+    "source_sha256": "04121100e041b6348fc2ff5af3265c0cb8ec2b6b48a419b6b39c104695df22c6",
+    "before": "اعرض توزيع أزرار جهاز التحكم.",
+    "after": "اعرض توزيع أزرار جهاز التحكم.",
+    "decision": "keep"
+  },
+  {
+    "index": 16040,
+    "key": "PAUSE_OPTION_CONTROLLERLAYOUT_TITLE",
+    "source_sha256": "cfb4b11ee38f97a20cde50ad059abb6b8a322c9a757f080327c1bca94a614de7",
+    "before": "توزيع أزرار جهاز التحكم",
+    "after": "توزيع أزرار جهاز التحكم",
+    "decision": "keep"
+  },
+  {
+    "index": 16043,
+    "key": "PAUSE_OPTION_MANUALSAVE_DESC",
+    "source_sha256": "8db6484411eb174cf494d48539b0bca438d4fcc8fef09ce0bb60d45f111af9c8",
+    "before": "احفظ تقدمك يدويًا.",
+    "after": "احفظ تقدمك يدويًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16045,
+    "key": "PAUSE_OPTION_PHOTO_MODE_DESC",
+    "source_sha256": "7d5d4aaf8925477e06d192cdd9d8e90022e5a4d9183e54d8234655b1218ae590",
+    "before": "ادخل وضع التصوير. يمكنك تعيين<br>اختصار له من الإعدادات، ثم التحكم<br>والاختصارات.",
+    "after": "ادخل وضع التصوير. يمكنك تعيين<br>اختصار له من الإعدادات، ثم التحكم<br>والاختصارات.",
+    "decision": "keep"
+  },
+  {
+    "index": 16046,
+    "key": "PAUSE_OPTION_PHOTO_MODE_DESC_PC",
+    "source_sha256": "ab4ec848a68c8d4f20e436190492ff2509d23ada133025ffff7eb5c7bf9f362f",
+    "before": "ادخل وضع التصوير. يمكنك تعيين<br>اختصار له من الإعدادات، ثم الفأرة<br>ولوحة المفاتيح، ثم الاختصارات<br>وسرعة اللعبة.",
+    "after": "ادخل وضع التصوير. يمكنك تعيين<br>اختصار له من الإعدادات، ثم الفأرة<br>ولوحة المفاتيح، ثم الاختصارات<br>وسرعة اللعبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16048,
+    "key": "PAUSE_OPTION_QUIT_DESC",
+    "source_sha256": "0a8d4f3cd295f9ce5ac630fb53432f0c51a6becee3f4385b0586d4be0c0653cf",
+    "before": "أنه جلسة اللعب.",
+    "after": "أنه جلسة اللعب.",
+    "decision": "keep"
+  },
+  {
+    "index": 16050,
+    "key": "PAUSE_OPTION_RESTART_DESC",
+    "source_sha256": "51bdfd250adae82937091284fe33a1deabf792b9ca90c9a8366315a5a49408fd",
+    "before": "أعد اللعب من آخر نقطة حفظ.",
+    "after": "أعد اللعب من آخر نقطة حفظ.",
+    "decision": "keep"
+  },
+  {
+    "index": 16051,
+    "key": "PAUSE_OPTION_RESTART_TITLE",
+    "source_sha256": "c3706f3fb43a427fa91b7d0e57664dac7045c04ae8d288b0d077c8effd6f0044",
+    "before": "العودة إلى آخر نقطة حفظ",
+    "after": "العودة إلى آخر نقطة حفظ",
+    "decision": "keep"
+  },
+  {
+    "index": 16052,
+    "key": "PAUSE_OPTION_RESUME_DESC",
+    "source_sha256": "ac1cb013ef5746a492e3f76323d7787159c835e334a577a14a4a7fd080c2f96b",
+    "before": "أكد الإعدادات واستأنف اللعب.",
+    "after": "أكد الإعدادات واستأنف اللعب.",
+    "decision": "keep"
+  },
+  {
+    "index": 16054,
+    "key": "PAUSE_OPTION_SETTINGS_DESC",
+    "source_sha256": "60b2db03dc49542980cfd876c0ed584ca191906dce48f8f3ce46a2b006b87fee",
+    "before": "اضبط إعدادات اللعبة.",
+    "after": "اضبط إعدادات اللعبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16056,
+    "key": "PAUSE_OPTION_SKIPCINE_DESC",
+    "source_sha256": "9e7c93b5f059561f08de90db41635adde6091288417f827e3352d1bf91597c97",
+    "before": "تخط المشهد السينمائي الحالي.",
+    "after": "تخط المشهد السينمائي الحالي.",
+    "decision": "keep"
+  },
+  {
+    "index": 16058,
+    "key": "PAUSE_OPTION_SKIPGLITCH_DESC",
+    "source_sha256": "701a4baa49eafd3925c3212f7e2b9fe36ac4ede1e61bf9e25e00a510acf050eb",
+    "before": "أكمل تحدي جليتش الحالي تلقائيًا<br>وعد إلى راتشت.",
+    "after": "أكمل تحدي جليتش الحالي تلقائيًا<br>وعد إلى راتشت.",
+    "decision": "keep"
+  },
+  {
+    "index": 16060,
+    "key": "PAUSE_OPTION_SKIPPUZZLE_DESC",
+    "source_sha256": "144e5ef71086444a44fe38e6ac07273c9464f85a30df15a45064b68a59e51d17",
+    "before": "تخط اللغز الحالي.",
+    "after": "تخط اللغز الحالي.",
+    "decision": "keep"
+  },
+  {
+    "index": 16063,
+    "key": "PCDISPLAYSETTINGS_ASPECTRATIO_DESC",
+    "source_sha256": "df820bcf752ef4a9699c6bc1d3c5fd991086c27ec3b1d49e03f945f9d3eed007",
+    "before": "يضبط نسبة أبعاد الصورة لتناسب<br>العرض المطلوب مقارنة بنسبة أبعاد<br>شاشتك.",
+    "after": "يضبط نسبة أبعاد الصورة لتناسب<br>العرض المطلوب مقارنة بنسبة أبعاد<br>شاشتك.",
+    "decision": "keep"
+  },
+  {
+    "index": 16067,
+    "key": "PCDISPLAYSETTINGS_BRIGHTNESS_DESC",
+    "source_sha256": "2d3ae0a4792d75352a2d4911622b8f96b05cab82ecd3476052de992c27dfe936",
+    "before": "اضبط سطوع الصورة. القيمة 0 هي<br>الأغمق، والقيمة 100 هي الأكثر<br>سطوعًا.",
+    "after": "اضبط سطوع الصورة. القيمة 0 هي<br>الأغمق، والقيمة 100 هي الأكثر<br>سطوعًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16070,
+    "key": "PCDISPLAYSETTINGS_CONTRAST_DESC",
+    "source_sha256": "142aee6abd7d0162c01ad0f3b89c3e5df69063dc9f455a6531506849442f47aa",
+    "before": "اضبط تباين الصورة. القيمة 0 هي<br>الأدنى، والقيمة 10 هي الأعلى.",
+    "after": "اضبط تباين الصورة. القيمة 0 هي<br>الأدنى، والقيمة 10 هي الأعلى.",
+    "decision": "keep"
+  },
+  {
+    "index": 16073,
+    "key": "PCDISPLAYSETTINGS_DISPLAYRESOLUTION_DESC",
+    "source_sha256": "9e1bcde6f680e1d21df08f3e4e4d007730f9e30abf700e44f7106b1b73061c35",
+    "before": "يحدد دقة عرض اللعبة.",
+    "after": "يحدد دقة عرض اللعبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16075,
+    "key": "PCDISPLAYSETTINGS_DLSS",
+    "source_sha256": "0a50d9b5b905f70e709d5c7a8bb3a308bbd15c16f19fdd8b9632b8f49286064e",
+    "before": "NVIDIA DLSS",
+    "after": "DLSS",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16076,
+    "key": "PCDISPLAYSETTINGS_DLSSG",
+    "source_sha256": "bec68daffd29218a9f8b0a94a1b326f4ac1349829378179fc3045f834895d552",
+    "before": "DLSS Frame Generation",
+    "after": "DLSS Frame Generation",
+    "decision": "keep"
+  },
+  {
+    "index": 16077,
+    "key": "PCDISPLAYSETTINGS_DLSSG_DESC",
+    "source_sha256": "281f5d50c068d81629342d13d7f054445c5e6bfc9c5ad67a95acdd491ffc3beb",
+    "before": "تستخدم DLSS Frame Generation<br>الذكاء الاصطناعي لتوليد إطارات<br>إضافية مع الحفاظ على جودة الصورة<br>والاستجابة. تتطلب بطاقة GeForce<br>RTX 40 متوافقة.",
+    "after": "تستخدم DLSS Frame Generation<br>الذكاء الاصطناعي لتوليد إطارات<br>إضافية مع الحفاظ على جودة الصورة<br>والاستجابة. تتطلب بطاقة GeForce<br>RTX 40 متوافقة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16078,
+    "key": "PCDISPLAYSETTINGS_DLSSG_UPPERCASE",
+    "source_sha256": "f734c7f0fd374aa9ecf4d8ab1b35515e54ac119d1342dcc1a5142b16598e1cac",
+    "before": "DLSS Frame Generation",
+    "after": "DLSS Frame Generation",
+    "decision": "keep"
+  },
+  {
+    "index": 16093,
+    "key": "PCDISPLAYSETTINGS_DRS",
+    "source_sha256": "0a22af6065307f0e6bb47730260c67b827fee0651c2f8cf912d67a78ae2f6b35",
+    "before": "الدقة الديناميكية",
+    "after": "الدقة الديناميكية",
+    "decision": "keep"
+  },
+  {
+    "index": 16094,
+    "key": "PCDISPLAYSETTINGS_DRS_DESC",
+    "source_sha256": "dad2a92a36721da2a35aed2c17f63eb208351d8eec6827e428756d530d4f8a53",
+    "before": "حدد معدل الإطارات المستهدف. تضبط<br>اللعبة دقة العرض الداخلية تلقائيًا<br>للحفاظ على هذا المعدل بأفضل جودة<br>ممكنة. لا تُحتسب الإطارات المولدة<br>ضمن المعدل المستهدف.",
+    "after": "حدد معدل الإطارات المستهدف. تضبط<br>اللعبة دقة العرض الداخلية تلقائيًا<br>للحفاظ على هذا المعدل بأفضل جودة<br>ممكنة. لا تُحتسب الإطارات المولدة<br>ضمن المعدل المستهدف.",
+    "decision": "keep"
+  },
+  {
+    "index": 16095,
+    "key": "PCDISPLAYSETTINGS_DRS_UPPERCASE",
+    "source_sha256": "78270449e8496a0c8030ad42b78848b930a63a96a7ca8dec9fd35a7505a7a8a2",
+    "before": "الدقة الديناميكية",
+    "after": "الدقة الديناميكية",
+    "decision": "keep"
+  },
+  {
+    "index": 16096,
+    "key": "PCDISPLAYSETTINGS_EXCLUSIVEFULLSCREEN",
+    "source_sha256": "ec3171fbb9d9e720c0c1e27efe0e6b5826b4e75cc3eae4e7ea917c2a94d2696c",
+    "before": "ملء الشاشة الحصري",
+    "after": "ملء الشاشة الحصري",
+    "decision": "keep"
+  },
+  {
+    "index": 16097,
+    "key": "PCDISPLAYSETTINGS_EXCLUSIVEFULLSCREEN_UPPERCASE",
+    "source_sha256": "c6b75b1375da9b66df68e9107821eb1942e3211928dcfbac66abe3c9205ce454",
+    "before": "ملء الشاشة الحصري",
+    "after": "ملء الشاشة الحصري",
+    "decision": "keep"
+  },
+  {
+    "index": 16099,
+    "key": "PCDISPLAYSETTINGS_FRAMEGEN_DESC",
+    "source_sha256": "74a2f7d6cd44bcc81f882f65c2afe2879556d137d2cb4751dfaa4fe7c349cdb3",
+    "before": "يولد Frame Generation إطارات<br>إضافية اعتمادًا على بيانات<br>الإطارات السابقة. تتطلب DLSS Frame<br>Generation بطاقة GeForce RTX 40<br>متوافقة.",
+    "after": "يولد Frame Generation إطارات<br>إضافية اعتمادًا على بيانات<br>الإطارات السابقة. تتطلب DLSS Frame<br>Generation بطاقة GeForce RTX 40<br>متوافقة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16101,
+    "key": "PCDISPLAYSETTINGS_FSR",
+    "source_sha256": "de3b8f32cd59851a901c974b0eef28e44cdb3f413e3ff54f190af8c0da361009",
+    "before": "AMD FSR 3",
+    "after": "AMD FSR 3",
+    "decision": "keep"
+  },
+  {
+    "index": 16102,
+    "key": "PCDISPLAYSETTINGS_FSRAA",
+    "source_sha256": "5609c4cfc92b3132ae52df523a244e1714340f99185c25079172c2337c0908f5",
+    "before": "AMD FSR 3 Native AA",
+    "after": "AMD FSR 3 Native AA",
+    "decision": "keep"
+  },
+  {
+    "index": 16103,
+    "key": "PCDISPLAYSETTINGS_FSRFRAMEGEN",
+    "source_sha256": "a47562fe72128f54940f7dc2b3d0b9539efa7e08ef90aabb5d3cb2b5c6d2e542",
+    "before": "AMD FSR 3 Frame Generation",
+    "after": "AMD FSR 3 Frame Generation",
+    "decision": "keep"
+  },
+  {
+    "index": 16108,
+    "key": "PCDISPLAYSETTINGS_HDR",
+    "source_sha256": "607901812664e2261afcea97bdb6b6f74ab4a91cf88987b2dec0e46f31139b05",
+    "before": "HDR",
+    "after": "HDR",
+    "decision": "keep"
+  },
+  {
+    "index": 16109,
+    "key": "PCDISPLAYSETTINGS_HDRMAXNITS",
+    "source_sha256": "63618232ff656be55ca0529cc525996394aadd3388c4826c5a5c3caf22d7cb95",
+    "before": "أقصى سطوع HDR",
+    "after": "أقصى سطوع HDR",
+    "decision": "keep"
+  },
+  {
+    "index": 16110,
+    "key": "PCDISPLAYSETTINGS_HDRMAXNITS_DESC",
+    "source_sha256": "fb8491170435df531ede43d5b2a3d4ac4e76a2ce054276e08386e28c8ad02933",
+    "before": "اضبط أقصى سطوع للصورة في وضع HDR.<br>يُقاس السطوع بوحدة النيت.",
+    "after": "اضبط أقصى سطوع للصورة في وضع HDR.<br>يُقاس السطوع بوحدة النيت.",
+    "decision": "keep"
+  },
+  {
+    "index": 16111,
+    "key": "PCDISPLAYSETTINGS_HDRMAXNITS_UPPERCASE",
+    "source_sha256": "ca5d43c94ddf9aee5515e1ea1db672a2b90969ee5596cb79e570d4e258b4be4b",
+    "before": "أقصى سطوع HDR",
+    "after": "أقصى سطوع HDR",
+    "decision": "keep"
+  },
+  {
+    "index": 16112,
+    "key": "PCDISPLAYSETTINGS_HDRPAPERWHITE",
+    "source_sha256": "f7877931903940a7f624623d0b5e8eb7acb184feb480ea56cad6f606fb8d1a3f",
+    "before": "سطوع الأبيض في HDR",
+    "after": "سطوع الأبيض في HDR",
+    "decision": "keep"
+  },
+  {
+    "index": 16113,
+    "key": "PCDISPLAYSETTINGS_HDRPAPERWHITE_DESC",
+    "source_sha256": "06cebf24c0914f645332f7a6e5418295690a6132102dfd0531d91c718587bf35",
+    "before": "اضبط السطوع الأساسي للمناطق<br>البيضاء في وضع HDR. يُقاس السطوع<br>بوحدة النيت.",
+    "after": "اضبط السطوع الأساسي للمناطق<br>البيضاء في وضع HDR. يُقاس السطوع<br>بوحدة النيت.",
+    "decision": "keep"
+  },
+  {
+    "index": 16114,
+    "key": "PCDISPLAYSETTINGS_HDRPAPERWHITE_UPPERCASE",
+    "source_sha256": "89fe87c8b08c8d29baecfc95f386a2d373f065eb495b794c167a3ce74695aee6",
+    "before": "سطوع الأبيض في HDR",
+    "after": "سطوع الأبيض في HDR",
+    "decision": "keep"
+  },
+  {
+    "index": 16115,
+    "key": "PCDISPLAYSETTINGS_HDR_DESC",
+    "source_sha256": "f0c0e5218d38b5e974e17c4767a385f1f6e84489a424b4e53daba84f468b9fc1",
+    "before": "يبدل بين عرض HDR وعرض SDR. لا يتاح<br>هذا الخيار إلا عند تفعيل HDR في<br>إعدادات Windows.",
+    "after": "يبدل بين عرض HDR وعرض SDR. لا يتاح<br>هذا الخيار إلا عند تفعيل HDR في<br>إعدادات Windows.",
+    "decision": "keep"
+  },
+  {
+    "index": 16116,
+    "key": "PCDISPLAYSETTINGS_HDR_UPPERCASE",
+    "source_sha256": "607901812664e2261afcea97bdb6b6f74ab4a91cf88987b2dec0e46f31139b05",
+    "before": "HDR",
+    "after": "HDR",
+    "decision": "keep"
+  },
+  {
+    "index": 16117,
+    "key": "PCDISPLAYSETTINGS_IGTI",
+    "source_sha256": "cf2b35aa33f249d7998b9842550e4ef1fdfa4fb9f74393fde7451edce7c214ea",
+    "before": "IGTI",
+    "after": "IGTI",
+    "decision": "keep"
+  },
+  {
+    "index": 16119,
+    "key": "PCDISPLAYSETTINGS_MONITOR_DESC",
+    "source_sha256": "124b756265b4c0c3fea71dce80154cdd96675170f0478dcf66657a9535945d04",
+    "before": "اختر الشاشة التي تريد عرض اللعبة<br>عليها.",
+    "after": "اختر الشاشة التي تريد عرض اللعبة<br>عليها.",
+    "decision": "keep"
+  },
+  {
+    "index": 16121,
+    "key": "PCDISPLAYSETTINGS_NVIDIAREFLEX",
+    "source_sha256": "a0bedc5a34407c1ddb696e395faf0c62e9921ca7978ae6e7d4db54971eae9a5c",
+    "before": "NVIDIA Reflex",
+    "after": "NVIDIA Reflex Low Latency",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16122,
+    "key": "PCDISPLAYSETTINGS_NVIDIAREFLEX_DESC",
+    "source_sha256": "978fbc6a97a8a277686fb6828348f66054e04d63fb02b041aae070103b6a4439",
+    "before": "تقلل NVIDIA Reflex تأخير النظام<br>وتحسن الاستجابة بتقليل تأخير GPU.<br>يحاول وضع Boost تقليل تأخير CPU<br>أيضًا.",
+    "after": "تقلل NVIDIA Reflex تأخير النظام<br>وتحسن الاستجابة بتقليل تأخير GPU.<br>يحاول وضع Boost تقليل تأخير CPU<br>أيضًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16123,
+    "key": "PCDISPLAYSETTINGS_NVIDIAREFLEX_UPPERCASE",
+    "source_sha256": "41a717e551da79999314f1dee4e48c3e1ba49f3e90f5aff04aefb0c3edd2cba6",
+    "before": "NVIDIA Reflex",
+    "after": "NVIDIA Reflex Low Latency",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16127,
+    "key": "PCDISPLAYSETTINGS_ONPLUSBOOST",
+    "source_sha256": "4b95ae3320e278515f9192b656f4d5d8cfa723c6df875b3d2790947af5bac787",
+    "before": "مفعل مع التعزيز",
+    "after": "مفعل مع التعزيز",
+    "decision": "keep"
+  },
+  {
+    "index": 16128,
+    "key": "PCDISPLAYSETTINGS_ONPLUSBOOST_UPPERCASE",
+    "source_sha256": "c623032ce99aa021b73c0ec68125fc148a297543c1e5ee724b7e13df717d3328",
+    "before": "مفعل مع التعزيز",
+    "after": "مفعل مع التعزيز",
+    "decision": "keep"
+  },
+  {
+    "index": 16131,
+    "key": "PCDISPLAYSETTINGS_REFRESHRATE_DESC",
+    "source_sha256": "19546e19f57524b794f5899af3f194e92ac05bd1df20a78da2a7ec4b7d700d2e",
+    "before": "يحدد معدل تحديث الشاشة. يمكن<br>تغييره عند استخدام وضع ملء الشاشة<br>الحصري فقط.",
+    "after": "يحدد معدل تحديث الشاشة. يمكن<br>تغييره عند استخدام وضع ملء الشاشة<br>الحصري فقط.",
+    "decision": "keep"
+  },
+  {
+    "index": 16133,
+    "key": "PCDISPLAYSETTINGS_UPSCALEMETHOD",
+    "source_sha256": "42c3d7eca7b7dfa31fd3f61738f4249259523d57c6c8f029bcb823b8803419ea",
+    "before": "طريقة رفع الدقة",
+    "after": "طريقة رفع الدقة",
+    "decision": "keep"
+  },
+  {
+    "index": 16134,
+    "key": "PCDISPLAYSETTINGS_UPSCALEMETHOD_DESC",
+    "source_sha256": "7f4f0d86e765efddca62fd02b7be9c6ebf307173ad92b5387012784a28cc1e6e",
+    "before": "اختر تقنية تنعيم الحواف ورفع<br>الدقة: Temporal Injection أو<br>NVIDIA DLSS أو AMD FSR 3 أو Intel<br>XeSS. اضبط الجودة ومعدل الإطارات<br>المستهدف من الخيارات أدناه.",
+    "after": "اختر تقنية تنعيم الحواف ورفع<br>الدقة: Temporal Injection أو<br>NVIDIA DLSS أو AMD FSR 3 أو Intel<br>XeSS. اضبط الجودة ومعدل الإطارات<br>المستهدف من الخيارات أدناه.",
+    "decision": "keep"
+  },
+  {
+    "index": 16135,
+    "key": "PCDISPLAYSETTINGS_UPSCALEMETHOD_UPPERCASE",
+    "source_sha256": "62e62a8b49018abeb4a2be99fc5e519d91ae08f6621a4d8e67a33960129da801",
+    "before": "طريقة رفع الدقة",
+    "after": "طريقة رفع الدقة",
+    "decision": "keep"
+  },
+  {
+    "index": 16136,
+    "key": "PCDISPLAYSETTINGS_UPSCALEQUALITY",
+    "source_sha256": "3aca009898b2576af6d9cb0f8022aa925d1f3374447b6c28bc5690d7a0d71028",
+    "before": "جودة رفع الدقة",
+    "after": "جودة رفع الدقة",
+    "decision": "keep"
+  },
+  {
+    "index": 16137,
+    "key": "PCDISPLAYSETTINGS_UPSCALEQUALITY_DESC",
+    "source_sha256": "2d2561e8028a6c2757f0eaf43afb2e47795bd2996cfa20af5aeb738b0aa09c25",
+    "before": "اختر مستوى جودة رفع الدقة. تستخدم<br>خيارات الجودة دقة داخلية أعلى،<br>بينما تستخدم خيارات الأداء دقة أقل<br>لزيادة معدل الإطارات. يتغير الخيار<br>إلى ديناميكي عند تحديد معدل مستهدف<br>للدقة الديناميكية.",
+    "after": "اختر مستوى جودة رفع الدقة. تستخدم<br>خيارات الجودة دقة داخلية أعلى،<br>بينما تستخدم خيارات الأداء دقة أقل<br>لزيادة معدل الإطارات. يتغير الخيار<br>إلى ديناميكي عند تحديد معدل مستهدف<br>للدقة الديناميكية.",
+    "decision": "keep"
+  },
+  {
+    "index": 16138,
+    "key": "PCDISPLAYSETTINGS_UPSCALEQUALITY_UPPERCASE",
+    "source_sha256": "e8fea56d0d62c05adabc3015e56e7a202ab2ea2fed594202e9e4203434d8a5c2",
+    "before": "جودة رفع الدقة",
+    "after": "جودة رفع الدقة",
+    "decision": "keep"
+  },
+  {
+    "index": 16139,
+    "key": "PCDISPLAYSETTINGS_UPSCALESHARPNESS",
+    "source_sha256": "3ddf6e79215a7a74e6886703436996ae028470284ab476e13c9a675ed7ef3b45",
+    "before": "حدة الصورة",
+    "after": "حدة الصورة",
+    "decision": "keep"
+  },
+  {
+    "index": 16140,
+    "key": "PCDISPLAYSETTINGS_UPSCALESHARPNESS_DESC",
+    "source_sha256": "f3ca84d42b0a122bc9e655e83414a083c15c9e092077fed86ad59682cd76ef96",
+    "before": "اضبط حدة الصورة الناتجة عن تقنية<br>رفع الدقة المحددة.",
+    "after": "اضبط حدة الصورة الناتجة عن تقنية<br>رفع الدقة المحددة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16141,
+    "key": "PCDISPLAYSETTINGS_UPSCALESHARPNESS_UPPERCASE",
+    "source_sha256": "54c0d57f8e1f8827313dc7b83a8a1eb28260f60f256392a32d4a0c0ad14e11cc",
+    "before": "حدة الصورة",
+    "after": "حدة الصورة",
+    "decision": "keep"
+  },
+  {
+    "index": 16142,
+    "key": "PCDISPLAYSETTINGS_VSYNC",
+    "source_sha256": "052810dae19607f552aa564781c53684750b211d124585f6f8fb070a2dc51b07",
+    "before": "VSync",
+    "after": "VSync",
+    "decision": "keep"
+  },
+  {
+    "index": 16143,
+    "key": "PCDISPLAYSETTINGS_VSYNC_DESC",
+    "source_sha256": "39bbd6256fc8de93e96c9a15916797489b65607b9308d8bc13bba911b342154f",
+    "before": "يزامن عرض الإطارات مع تحديث الشاشة<br>لمنع تمزق الصورة.",
+    "after": "يزامن عرض الإطارات مع تحديث الشاشة<br>لمنع تمزق الصورة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16144,
+    "key": "PCDISPLAYSETTINGS_VSYNC_UPPERCASE",
+    "source_sha256": "7eb4e8d92f68e5ca1fb06b5b62a52e034e66c0e477e6b555bb8105fb93bf9354",
+    "before": "VSync",
+    "after": "VSync",
+    "decision": "keep"
+  },
+  {
+    "index": 16148,
+    "key": "PCDISPLAYSETTINGS_WINDOWMODE_DESC",
+    "source_sha256": "103a07437a369342d7c5bf37c8672664af0169531e8131f414b11dfec965f31b",
+    "before": "اختر وضع النافذة أو ملء الشاشة أو<br>ملء الشاشة الحصري.",
+    "after": "اختر وضع النافذة أو ملء الشاشة أو<br>ملء الشاشة الحصري.",
+    "decision": "keep"
+  },
+  {
+    "index": 16150,
+    "key": "PCDISPLAYSETTINGS_XESS",
+    "source_sha256": "2ddc4b6bac1387bbe69c363e8545a3b3c0e660df43fd66709ab40b7d19582523",
+    "before": "Intel XeSS",
+    "after": "Intel XeSS",
+    "decision": "keep"
+  },
+  {
+    "index": 16151,
+    "key": "PCGRAPHICSSETTINGS_16XANISOTROPIC",
+    "source_sha256": "73a06d7aae2f6062ee0790fb7794f58d5d431b4deb1f8304c403117b2bd260ad",
+    "before": "ترشيح متباين الخواص ×16",
+    "after": "ترشيح متباين الخواص ×16",
+    "decision": "keep"
+  },
+  {
+    "index": 16152,
+    "key": "PCGRAPHICSSETTINGS_16XANISOTROPIC_UPPERCASE",
+    "source_sha256": "ca547105fe084ad6fd3b7eb3aac5def5d00912eaf76551dd469a746eb44f919d",
+    "before": "ترشيح متباين الخواص ×16",
+    "after": "ترشيح متباين الخواص ×16",
+    "decision": "keep"
+  },
+  {
+    "index": 16153,
+    "key": "PCGRAPHICSSETTINGS_2XANISOTROPIC",
+    "source_sha256": "968c20da6d2bb7531938160a7944fb4fcb41214949a49538ae445bdafd55ca76",
+    "before": "ترشيح متباين الخواص ×2",
+    "after": "ترشيح متباين الخواص ×2",
+    "decision": "keep"
+  },
+  {
+    "index": 16154,
+    "key": "PCGRAPHICSSETTINGS_2XANISOTROPIC_UPPERCASE",
+    "source_sha256": "d3c2cf8cb98c4d0e2543c1d098a1667f4e6cc65911cb2057104043a08a401f61",
+    "before": "ترشيح متباين الخواص ×2",
+    "after": "ترشيح متباين الخواص ×2",
+    "decision": "keep"
+  },
+  {
+    "index": 16155,
+    "key": "PCGRAPHICSSETTINGS_4XANISOTROPIC",
+    "source_sha256": "bee5165d40e30243cf1b9fb333ea1e6e0fb58d97c8ad088128d343555b21afca",
+    "before": "ترشيح متباين الخواص ×4",
+    "after": "ترشيح متباين الخواص ×4",
+    "decision": "keep"
+  },
+  {
+    "index": 16156,
+    "key": "PCGRAPHICSSETTINGS_4XANISOTROPIC_UPPERCASE",
+    "source_sha256": "990a4dce1976aae816574a65345620621bfec7f68753ed5cab03a8d57a682fba",
+    "before": "ترشيح متباين الخواص ×4",
+    "after": "ترشيح متباين الخواص ×4",
+    "decision": "keep"
+  },
+  {
+    "index": 16157,
+    "key": "PCGRAPHICSSETTINGS_8XANISOTROPIC",
+    "source_sha256": "81d83fcfee3ccfaa3ae339300ff85e2a3922a625839855f209ad7414c8425121",
+    "before": "ترشيح متباين الخواص ×8",
+    "after": "ترشيح متباين الخواص ×8",
+    "decision": "keep"
+  },
+  {
+    "index": 16158,
+    "key": "PCGRAPHICSSETTINGS_8XANISOTROPIC_UPPERCASE",
+    "source_sha256": "6568c499e0a2542dca4fdf9467af43b6813a7801c21a28b66799c8d9f6c6c45b",
+    "before": "ترشيح متباين الخواص ×8",
+    "after": "ترشيح متباين الخواص ×8",
+    "decision": "keep"
+  },
+  {
+    "index": 16159,
+    "key": "PCGRAPHICSSETTINGS_AO",
+    "source_sha256": "130f227bad9f63fb4661e85025d8af9f330130536d8360153ca4f7b8744030b9",
+    "before": "التظليل المحيطي",
+    "after": "التظليل المحيطي",
+    "decision": "keep"
+  },
+  {
+    "index": 16160,
+    "key": "PCGRAPHICSSETTINGS_AO_DESC",
+    "source_sha256": "77bc29c91c08db1e3773ced514ec7ee20f9ab296560fb88dd39d66eeaf49dbcc",
+    "before": "يضيف ظلالًا إلى الشقوق والزوايا<br>لإبراز العمق في المشهد.",
+    "after": "يضيف ظلالًا إلى الشقوق والزوايا<br>لإبراز العمق في المشهد.",
+    "decision": "keep"
+  },
+  {
+    "index": 16161,
+    "key": "PCGRAPHICSSETTINGS_AO_UPPERCASE",
+    "source_sha256": "17a3941c0a7c91528b6fb82b349aedfea42cabb0f3b584aaf051e258265b5220",
+    "before": "التظليل المحيطي",
+    "after": "التظليل المحيطي",
+    "decision": "keep"
+  },
+  {
+    "index": 16163,
+    "key": "PCGRAPHICSSETTINGS_BLOOM_DESC",
+    "source_sha256": "f6d04e55004e68ad97bbc2d6f08c6b49daaa69e170e86fe03571c485812228d2",
+    "before": "يضيف توهجًا حول المناطق الساطعة في<br>الصورة.",
+    "after": "يضيف توهجًا حول المناطق الساطعة في<br>الصورة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16168,
+    "key": "PCGRAPHICSSETTINGS_CHROMATICABERRATION_DESC",
+    "source_sha256": "2827f3b119c34bd3d24377740c4f9b309320a6d1e50aca323734fd7203442e8b",
+    "before": "يحاكي انحراف الألوان الناتج عن<br>عدسات الكاميرا.",
+    "after": "يحاكي انحراف الألوان الناتج عن<br>عدسات الكاميرا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16170,
+    "key": "PCGRAPHICSSETTINGS_CROWDDENSITY",
+    "source_sha256": "38b2f7dbcc3ba7742021c624bc40c77de6e06940650f8561f96b9dbafbc1c47e",
+    "before": "كثافة الحشود",
+    "after": "كثافة الحشود",
+    "decision": "keep"
+  },
+  {
+    "index": 16171,
+    "key": "PCGRAPHICSSETTINGS_CROWDDENSITY_DESC",
+    "source_sha256": "1783184997e4834693200ff48f35a7b450fe0c29a7ece5965773714f8a2a08c8",
+    "before": "اضبط عدد المارة في المدينة. قد<br>تحسن القيم المنخفضة أداء المعالج<br>وبطاقة الرسوميات. تظهر التغييرات<br>تدريجيًا أثناء التنقل.",
+    "after": "اضبط عدد المارة في المدينة. قد<br>تحسن القيم المنخفضة أداء المعالج<br>وبطاقة الرسوميات. تظهر التغييرات<br>تدريجيًا أثناء التنقل.",
+    "decision": "keep"
+  },
+  {
+    "index": 16172,
+    "key": "PCGRAPHICSSETTINGS_CROWDDENSITY_UPPERCASE",
+    "source_sha256": "05e55ff28105942eecb37c909852f803df0912d2aa0d6fa49645b96de28f81a6",
+    "before": "كثافة الحشود",
+    "after": "كثافة الحشود",
+    "decision": "keep"
+  },
+  {
+    "index": 16176,
+    "key": "PCGRAPHICSSETTINGS_DEPTHOFFIELD_DESC",
+    "source_sha256": "2a4091008c2fc80de0e35cb100b380c774e5e766f6334ce7949beb9136c12f09",
+    "before": "يحاكي تركيز عدسة الكاميرا بجعل<br>أجزاء من المشهد واضحة وتمويه<br>الأجزاء الأخرى.",
+    "after": "يحاكي تركيز عدسة الكاميرا بجعل<br>أجزاء من المشهد واضحة وتمويه<br>الأجزاء الأخرى.",
+    "decision": "keep"
+  },
+  {
+    "index": 16179,
+    "key": "PCGRAPHICSSETTINGS_DLAA",
+    "source_sha256": "26516f6a6bd88f4d1a2c062577dffffe0fd99dff8c2b1285e9d5ee42825e1987",
+    "before": "NVIDIA DLAA",
+    "after": "NVIDIA DLAA",
+    "decision": "keep"
+  },
+  {
+    "index": 16180,
+    "key": "PCGRAPHICSSETTINGS_FILMGRAINSTRENGTH",
+    "source_sha256": "1b36ba8310ed04e948615d5df15f5b662eca77526f3d0ae068302822206ff772",
+    "before": "شدة التحبب السينمائي",
+    "after": "شدة التحبب السينمائي",
+    "decision": "keep"
+  },
+  {
+    "index": 16181,
+    "key": "PCGRAPHICSSETTINGS_FILMGRAINSTRENGTH_DESC",
+    "source_sha256": "b756050e233343bebc4f32c63795dc864942a9dedb8a32ecc5280f2c01599fc3",
+    "before": "اضبط شدة التحبب الذي يحاكي مظهر<br>الأفلام السينمائية.",
+    "after": "اضبط شدة التحبب الذي يحاكي مظهر<br>الأفلام السينمائية.",
+    "decision": "keep"
+  },
+  {
+    "index": 16182,
+    "key": "PCGRAPHICSSETTINGS_FILMGRAINSTRENGTH_UPPERCASE",
+    "source_sha256": "44a45ddca965201ec58e0cd1dda18b03d00ccfa2c7c0722d1f58a6bd3f1f0b12",
+    "before": "شدة التحبب السينمائي",
+    "after": "شدة التحبب السينمائي",
+    "decision": "keep"
+  },
+  {
+    "index": 16184,
+    "key": "PCGRAPHICSSETTINGS_FOVCORRECTION_DESC",
+    "source_sha256": "2e77db60d3b9a3d988983d03d87099441386eea4f296f761c530c183fa317515",
+    "before": "زد زاوية رؤية الكاميرا أو قللها<br>بالنسبة المحددة.",
+    "after": "زد زاوية رؤية الكاميرا أو قللها<br>بالنسبة المحددة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16187,
+    "key": "PCGRAPHICSSETTINGS_FULLSCREENEFFECTS_DESC",
+    "source_sha256": "c9bdc3711bf83bbeb57f1e03eaafb08a24efd21e4caca5513d2ceb45e54ef3c2",
+    "before": "يفعل مؤثرات الشاشة مثل وهج العدسة<br>والتموج الحراري وقطرات المطر<br>وتأثيرات الغاز، أو يعطلها.",
+    "after": "يفعل مؤثرات الشاشة مثل وهج العدسة<br>والتموج الحراري وقطرات المطر<br>وتأثيرات الغاز، أو يعطلها.",
+    "decision": "keep"
+  },
+  {
+    "index": 16189,
+    "key": "PCGRAPHICSSETTINGS_GEOMETRYDETAIL",
+    "source_sha256": "0b230d37c6064db372484f427d300f4c216f4318eb2f87f85bd3ec1d90dd4ea5",
+    "before": "تفاصيل مجسمات الانعكاسات",
+    "after": "تفاصيل مجسمات الانعكاسات",
+    "decision": "keep"
+  },
+  {
+    "index": 16190,
+    "key": "PCGRAPHICSSETTINGS_GEOMETRYDETAIL_DESC",
+    "source_sha256": "f4bb9eb05b1eaf0aeb496eabd858adfd59a520fbea12dec3823f38464e5ff853",
+    "before": "يستخدم مجسمات أعلى تفصيلًا للعناصر<br>القريبة عند Ray Tracing، لإظهار<br>انعكاسات أكثر واقعية.",
+    "after": "يستخدم مجسمات أعلى تفصيلًا للعناصر<br>القريبة عند Ray Tracing، لإظهار<br>انعكاسات أكثر واقعية.",
+    "decision": "keep"
+  },
+  {
+    "index": 16191,
+    "key": "PCGRAPHICSSETTINGS_GEOMETRYDETAIL_UPPERCASE",
+    "source_sha256": "0c744669d9d39267b06b4870adf840306175f582472d5b323837d95fa298c692",
+    "before": "تفاصيل مجسمات الانعكاسات",
+    "after": "تفاصيل مجسمات الانعكاسات",
+    "decision": "keep"
+  },
+  {
+    "index": 16194,
+    "key": "PCGRAPHICSSETTINGS_HAIRQUALITY_DESC",
+    "source_sha256": "4a14843ab07d21953e4d4b888fb16f5c826a7fcbffc98b71b8d4fa7c8376b96f",
+    "before": "اضبط كثافة شعر الشخصيات وتفاصيل<br>انحنائه.",
+    "after": "اضبط كثافة شعر الشخصيات وتفاصيل<br>انحنائه.",
+    "decision": "keep"
+  },
+  {
+    "index": 16196,
+    "key": "PCGRAPHICSSETTINGS_HBAOPLUS",
+    "source_sha256": "2c23801d5b69afae4071b1c3820f5048706641c97f2563f7d78ef713e3ebd916",
+    "before": "HBAO+",
+    "after": "HBAO+",
+    "decision": "keep"
+  },
+  {
+    "index": 16200,
+    "key": "PCGRAPHICSSETTINGS_LENSFLARES_DESC",
+    "source_sha256": "8f52870254684e3685a6389bd47a10c79ea19430a43166869d928820ac68ce13",
+    "before": "يحاكي الوهج والتشتت الناتجين عن<br>مرور الضوء الساطع عبر عدسة<br>الكاميرا.",
+    "after": "يحاكي الوهج والتشتت الناتجين عن<br>مرور الضوء الساطع عبر عدسة<br>الكاميرا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16203,
+    "key": "PCGRAPHICSSETTINGS_LEVELOFDETAIL_DESC",
+    "source_sha256": "d53ed19c834657c207674c182567fdfab22762bfc2fab9e1051224453e201cc7",
+    "before": "تزيد الجودة الأعلى مسافة عرض<br>المجسمات بتفاصيلها الكاملة. تقلل<br>الجودة المنخفضة هذه المسافة لتحسين<br>أداء المعالج وبطاقة الرسوميات.",
+    "after": "تزيد الجودة الأعلى مسافة عرض<br>المجسمات بتفاصيلها الكاملة. تقلل<br>الجودة المنخفضة هذه المسافة لتحسين<br>أداء المعالج وبطاقة الرسوميات.",
+    "decision": "keep"
+  },
+  {
+    "index": 16210,
+    "key": "PCGRAPHICSSETTINGS_MOTIONBLUR",
+    "source_sha256": "f0332af863b87c654fe00657da430770685a80cc1ace33d5e43d42558f8c44aa",
+    "before": "شدة ضبابية الحركة",
+    "after": "شدة Motion Blur",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16211,
+    "key": "PCGRAPHICSSETTINGS_MOTIONBLUR_DESC",
+    "source_sha256": "98663d326203cbf8cc1dc90426061ca7145131fd15cd23e69e6230e6b144afbc",
+    "before": "يموه الأجسام في اتجاه حركتها ليجعل<br>الحركة تبدو أكثر سلاسة.",
+    "after": "يموه الأجسام في اتجاه حركتها ليجعل<br>الحركة تبدو أكثر سلاسة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16212,
+    "key": "PCGRAPHICSSETTINGS_MOTIONBLUR_UPPERCASE",
+    "source_sha256": "ba436f120d3f4ada8390598d906f3bb56810c6b6339f2b066eaa9b5477069541",
+    "before": "شدة ضبابية الحركة",
+    "after": "شدة Motion Blur",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16213,
+    "key": "PCGRAPHICSSETTINGS_OBJECTRANGE",
+    "source_sha256": "34af7c3f5986d499ac2a6179b35414bde97b72d1705d72a6e86bc8a9f5d6676c",
+    "before": "مدى تتبع الأجسام",
+    "after": "مدى تتبع الأجسام",
+    "decision": "keep"
+  },
+  {
+    "index": 16214,
+    "key": "PCGRAPHICSSETTINGS_OBJECTRANGE_DESC",
+    "source_sha256": "7021067a2d284adf30eea4879d86b1549410ad20706514e1f9bd24da9471146c",
+    "before": "اضبط مدى الأجسام المشمولة في<br>حسابات Ray Tracing. تقلل القيم<br>المنخفضة حمل هذه الحسابات على<br>المعالج.",
+    "after": "اضبط مدى الأجسام المشمولة في<br>حسابات Ray Tracing. تقلل القيم<br>المنخفضة حمل هذه الحسابات على<br>المعالج.",
+    "decision": "keep"
+  },
+  {
+    "index": 16215,
+    "key": "PCGRAPHICSSETTINGS_OBJECTRANGE_UPPERCASE",
+    "source_sha256": "b226b1a9696856a64367c510bc41ad633057e4b28c810a622601f1874f6549f1",
+    "before": "مدى تتبع الأجسام",
+    "after": "مدى تتبع الأجسام",
+    "decision": "keep"
+  },
+  {
+    "index": 16221,
+    "key": "PCGRAPHICSSETTINGS_PARTICLELIGHTING_DESC",
+    "source_sha256": "6ffdd543f2d9af58239412c40a72fa31bf52110e95db3cc266c3c837ef4c24a2",
+    "before": "اضبط جودة مؤثرات جسيمات الطقس في<br>اللعبة.",
+    "after": "اضبط جودة مؤثرات جسيمات الطقس في<br>اللعبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16224,
+    "key": "PCGRAPHICSSETTINGS_PHANTOMDASHEFFECT_DESC",
+    "source_sha256": "32cc0bfd893ffeef8bdd862e1fd6ac8ea210008130768cc37ae7f254720cbdad",
+    "before": "يفعل الأثر البصري المصاحب لاندفاعة<br>الطيف، أو يعطله.",
+    "after": "يفعل الأثر البصري المصاحب للاندفاع الطيفي<br>أو يعطله.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16226,
+    "key": "PCGRAPHICSSETTINGS_PRESET",
+    "source_sha256": "7252e7ce008587e1180459d95c2536df954971d6c51e6ac753518a6fe15da563",
+    "before": "إعدادات مسبقة",
+    "after": "إعدادات مسبقة",
+    "decision": "keep"
+  },
+  {
+    "index": 16227,
+    "key": "PCGRAPHICSSETTINGS_PRESET_DESC",
+    "source_sha256": "8f6182c7623a96b1b3b64acfe933cc18be54c310d1a0f7bb0c5e387c2c440b0a",
+    "before": "اختر مجموعة إعدادات رسومية جاهزة<br>تناسب مستوى الأداء المطلوب.",
+    "after": "اختر مجموعة إعدادات رسومية جاهزة<br>تناسب مستوى الأداء المطلوب.",
+    "decision": "keep"
+  },
+  {
+    "index": 16228,
+    "key": "PCGRAPHICSSETTINGS_PRESET_UPPERCASE",
+    "source_sha256": "2ac620c6a7e03d42cab0d35de06aa6f698120cebdc73e4b5828092e5633cd2cf",
+    "before": "إعدادات مسبقة",
+    "after": "إعدادات مسبقة",
+    "decision": "keep"
+  },
+  {
+    "index": 16229,
+    "key": "PCGRAPHICSSETTINGS_RAYTRACING",
+    "source_sha256": "d75d3fa6cc2d78bc0b2727f7aab168ddf623fd3d85b9353c2dc0683b0c66f593",
+    "before": "Ray Tracing",
+    "after": "Ray Tracing",
+    "decision": "keep"
+  },
+  {
+    "index": 16230,
+    "key": "PCGRAPHICSSETTINGS_RAYTRACING_DESC",
+    "source_sha256": "d27cbfd58febbfe7d73894ce956c1de3ec9f6502ea3a05bdbf2237545f4f849f",
+    "before": "يفعل Ray Tracing.",
+    "after": "يفعل Ray Tracing.",
+    "decision": "keep"
+  },
+  {
+    "index": 16231,
+    "key": "PCGRAPHICSSETTINGS_RAYTRACING_UPPERCASE",
+    "source_sha256": "6597b1bf7757bd994953c589d709f8d306272afc95fcfc3650b799bca21b9bfd",
+    "before": "Ray Tracing",
+    "after": "Ray Tracing",
+    "decision": "keep"
+  },
+  {
+    "index": 16232,
+    "key": "PCGRAPHICSSETTINGS_REFLECTIONRESOLUTION",
+    "source_sha256": "bb9e2d7a81abe17d1285d47d86898be522cf401781ec0712ddc48be7c75ef0a7",
+    "before": "دقة الانعكاسات",
+    "after": "دقة الانعكاسات",
+    "decision": "keep"
+  },
+  {
+    "index": 16233,
+    "key": "PCGRAPHICSSETTINGS_REFLECTIONRESOLUTION_DESC",
+    "source_sha256": "e039d209065f25ddee32028d513975f7970dadc7b2f787e06d67ea35a746c106",
+    "before": "اضبط عدد الأشعة المستخدمة لرسم<br>الانعكاسات. قد يقلل الخيار عالي<br>جدًا معدل الإطارات، خصوصًا عند<br>استخدام دقة عرض مرتفعة.",
+    "after": "اضبط عدد الأشعة المستخدمة لرسم الانعكاسات.<br>قد يؤثر خيار «عال جدًّا» بشدة في معدل<br>الإطارات، خصوصًا مع دقة عرض مرتفعة. يوصى<br>به فقط لبطاقات الرسوميات القوية أو عند<br>استخدام دقة عرض منخفضة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16234,
+    "key": "PCGRAPHICSSETTINGS_REFLECTIONRESOLUTION_UPPERCASE",
+    "source_sha256": "fbac8b9a81b17172e4c7063c3deba0ac6cfee790613df5fcdbf6b915e461a495",
+    "before": "دقة الانعكاسات",
+    "after": "دقة الانعكاسات",
+    "decision": "keep"
+  },
+  {
+    "index": 16235,
+    "key": "PCGRAPHICSSETTINGS_RTAO",
+    "source_sha256": "d7da0714ded9ce57ae5efc9b819a5d11ee2249e20a0f077d059f9abbed5382cc",
+    "before": "RTAO",
+    "after": "RTAO",
+    "decision": "keep"
+  },
+  {
+    "index": 16236,
+    "key": "PCGRAPHICSSETTINGS_RT_AMBIENTOCCLUSION",
+    "source_sha256": "4c24f7d616a3c038b164cf8013333980edb654f50f08b20e92c2ab8307435901",
+    "before": "Ray-Traced Ambient Occlusion",
+    "after": "Ray-Traced Ambient Occlusion",
+    "decision": "keep"
+  },
+  {
+    "index": 16237,
+    "key": "PCGRAPHICSSETTINGS_RT_AMBIENTOCCLUSION_DESC",
+    "source_sha256": "702481d58cf47aab74fe6278e5be06452dbc4f5592bc53f04b06f3bb08d215dc",
+    "before": "يستخدم Ray Tracing لإضافة ظلال<br>واقعية إلى الشقوق والزوايا وإبراز<br>عمق المشهد.",
+    "after": "يستخدم Ray Tracing لإضافة ظلال<br>واقعية إلى الشقوق والزوايا وإبراز<br>عمق المشهد.",
+    "decision": "keep"
+  },
+  {
+    "index": 16238,
+    "key": "PCGRAPHICSSETTINGS_RT_AMBIENTOCCLUSION_UPPERCASE",
+    "source_sha256": "fb0a99a6d41c0ca88b7ec65eea6b6b2cb9e4c2d6e5053ad921eda2b3ed82f2bf",
+    "before": "Ray-Traced Ambient Occlusion",
+    "after": "Ray-Traced Ambient Occlusion",
+    "decision": "keep"
+  },
+  {
+    "index": 16239,
+    "key": "PCGRAPHICSSETTINGS_RT_REFLECTIONS",
+    "source_sha256": "fbf00f7e9d755db8b272398e2bbc3d727d6c7139f7c84d0e6b0d9f553f00da0b",
+    "before": "Ray-Traced Reflections",
+    "after": "Ray-Traced Reflections",
+    "decision": "keep"
+  },
+  {
+    "index": 16240,
+    "key": "PCGRAPHICSSETTINGS_RT_REFLECTIONS_DESC",
+    "source_sha256": "98bf82e2cc3fcfcf9a3208bd0a71ea42103982460f635c76b23c364e0bd3878c",
+    "before": "يستخدم Ray Tracing لعرض انعكاسات<br>واقعية تشمل الأجسام المتحركة<br>والأجسام خارج الشاشة. قد يؤثر بشدة<br>في الأداء عند رفع الجودة.",
+    "after": "يستخدم Ray Tracing لعرض انعكاسات<br>واقعية تشمل الأجسام المتحركة<br>والأجسام خارج الشاشة. قد يؤثر بشدة<br>في الأداء عند رفع الجودة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16241,
+    "key": "PCGRAPHICSSETTINGS_RT_REFLECTIONS_UPPERCASE",
+    "source_sha256": "5e49ef1fadfd735736a9a7e8d8980734180aa1dc880e82fef40e45e8ff09ef7d",
+    "before": "Ray-Traced Reflections",
+    "after": "Ray-Traced Reflections",
+    "decision": "keep"
+  },
+  {
+    "index": 16242,
+    "key": "PCGRAPHICSSETTINGS_RT_SHADOWS",
+    "source_sha256": "90c6204177443dfe0fbdf00d745d2f71116890aceec6d76f499d1112eb11031c",
+    "before": "Ray-Traced Shadows",
+    "after": "Ray-Traced Shadows",
+    "decision": "keep"
+  },
+  {
+    "index": 16243,
+    "key": "PCGRAPHICSSETTINGS_RT_SHADOWS_DESC",
+    "source_sha256": "9b86f826331ac3ef9ddbd673a7c81244d777ac170b999ceb208154d8989f3280",
+    "before": "يستخدم Ray Tracing لإظهار ظلال<br>الشمس بصورة أكثر واقعية وتفصيلًا.",
+    "after": "يستخدم Ray Tracing لإظهار ظلال<br>الشمس بصورة أكثر واقعية وتفصيلًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16244,
+    "key": "PCGRAPHICSSETTINGS_RT_SHADOWS_UPPERCASE",
+    "source_sha256": "20a42707ec594683c3da0371b334a335a6712f368d7df9ca3622fc3e894b37c4",
+    "before": "Ray-Traced Shadows",
+    "after": "Ray-Traced Shadows",
+    "decision": "keep"
+  },
+  {
+    "index": 16246,
+    "key": "PCGRAPHICSSETTINGS_SCREENSHAKE_DESC",
+    "source_sha256": "f929d5271c982b3b250f8396e48d2840c9c4006ac568c024a641bca8d6a78c3c",
+    "before": "يفعل اهتزاز الشاشة أثناء اللعب، أو<br>يعطله.",
+    "after": "يفعل اهتزاز الشاشة أثناء اللعب، أو<br>يعطله.",
+    "decision": "keep"
+  },
+  {
+    "index": 16248,
+    "key": "PCGRAPHICSSETTINGS_SCREENSPACEREFLECTIONS",
+    "source_sha256": "acd8913a8a09bf8b93710914b9bde219d4eb51ba0c47610311aebf765ff7f2f9",
+    "before": "انعكاسات حيز الشاشة",
+    "after": "انعكاسات حيز الشاشة",
+    "decision": "keep"
+  },
+  {
+    "index": 16249,
+    "key": "PCGRAPHICSSETTINGS_SCREENSPACEREFLECTIONS_DESC",
+    "source_sha256": "0fdd20c68a7bd4f7ad28e0be883322bcee18ad9440ebc4d7fcec855d963280d3",
+    "before": "يفعل الانعكاسات المعتمدة على<br>العناصر الظاهرة في الشاشة، أو<br>يعطلها.",
+    "after": "يفعل الانعكاسات المعتمدة على<br>العناصر الظاهرة في الشاشة، أو<br>يعطلها.",
+    "decision": "keep"
+  },
+  {
+    "index": 16250,
+    "key": "PCGRAPHICSSETTINGS_SCREENSPACEREFLECTIONS_UPPERCASE",
+    "source_sha256": "403f982afb29cc6f286f4daa23b59c4aa41c557422999afad8427048a58a4f26",
+    "before": "انعكاسات حيز الشاشة",
+    "after": "انعكاسات حيز الشاشة",
+    "decision": "keep"
+  },
+  {
+    "index": 16252,
+    "key": "PCGRAPHICSSETTINGS_SHADOWQUALITY_DESC",
+    "source_sha256": "8639adcfa322599904e1e3ce3e960166bbf789fd06e7f0e22701799f96516944",
+    "before": "تزيد الجودة الأعلى تفاصيل الظلال،<br>بينما تقلل الجودة المنخفضة الحمل<br>على بطاقة الرسوميات.",
+    "after": "تزيد الجودة الأعلى تفاصيل الظلال،<br>بينما تقلل الجودة المنخفضة الحمل<br>على بطاقة الرسوميات.",
+    "decision": "keep"
+  },
+  {
+    "index": 16255,
+    "key": "PCGRAPHICSSETTINGS_SHARPNESS_DESC",
+    "source_sha256": "52b47c551536b474fcc6bab4b9a7341010f5d75099abe8fd7b72f3b510b18315",
+    "before": "اضبط حدة الصورة. تزيد القيم الأعلى<br>وضوح التفاصيل.",
+    "after": "اضبط حدة الصورة. تزيد القيم الأعلى<br>وضوح التفاصيل.",
+    "decision": "keep"
+  },
+  {
+    "index": 16257,
+    "key": "PCGRAPHICSSETTINGS_SMAA",
+    "source_sha256": "5fe1c37d5453e497789f2e1ddfc5c0f8ae5c0a769a5a14034067cb07a451b3f3",
+    "before": "SMAA",
+    "after": "SMAA",
+    "decision": "keep"
+  },
+  {
+    "index": 16258,
+    "key": "PCGRAPHICSSETTINGS_SSAA",
+    "source_sha256": "4b7b839aed900849b447ddb6a9b49e74ae015bb9422a950dc7b5389200263af2",
+    "before": "تنعيم الحواف",
+    "after": "تنعيم الحواف",
+    "decision": "keep"
+  },
+  {
+    "index": 16259,
+    "key": "PCGRAPHICSSETTINGS_SSAA_DESC",
+    "source_sha256": "ed5abb1914a9eb8d03f4d270ccc08d1c15506a50d6aa05cbb96c7b914ad49aef",
+    "before": "يحدد تقنية تنعيم حواف المجسمات.",
+    "after": "يحدد تقنية تنعيم حواف المجسمات.",
+    "decision": "keep"
+  },
+  {
+    "index": 16260,
+    "key": "PCGRAPHICSSETTINGS_SSAA_UPPERCASE",
+    "source_sha256": "4bd4cc7abb671fa34c95be33912d1cd339835be696805421d41f7e01771a4a47",
+    "before": "تنعيم الحواف",
+    "after": "تنعيم الحواف",
+    "decision": "keep"
+  },
+  {
+    "index": 16261,
+    "key": "PCGRAPHICSSETTINGS_SSAO",
+    "source_sha256": "1149521d649ec8b4d5a2551339193d5e55b3dcfd2f19895d035c017492e5692a",
+    "before": "SSAO",
+    "after": "SSAO",
+    "decision": "keep"
+  },
+  {
+    "index": 16262,
+    "key": "PCGRAPHICSSETTINGS_TAA",
+    "source_sha256": "6273a002bf1413e21563a99baf470468223fca63b52b00584ef173c311e246ca",
+    "before": "TAA",
+    "after": "TAA",
+    "decision": "keep"
+  },
+  {
+    "index": 16264,
+    "key": "PCGRAPHICSSETTINGS_TESSELLATION_DESC",
+    "source_sha256": "b5329b20f672c510c969a6eecb02c72cc9f699cfe39faf9f06ed4af86bed97a8",
+    "before": "يضيف تفاصيل هندسية إلى أسطح<br>المجسمات القريبة.",
+    "after": "يضيف تفاصيل هندسية إلى أسطح<br>المجسمات القريبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 16266,
+    "key": "PCGRAPHICSSETTINGS_TEXTUREFILTERING",
+    "source_sha256": "794ee7c012118f94dcfe7c44ac2ead73efaf47e4e19c566159b9c2d4cb4445e5",
+    "before": "ترشيح الخامات",
+    "after": "ترشيح الخامات",
+    "decision": "keep"
+  },
+  {
+    "index": 16267,
+    "key": "PCGRAPHICSSETTINGS_TEXTUREFILTERING_DESC",
+    "source_sha256": "678e716f58e9932322af9615442ade41476812b721a2a8718f407a8c691a4ca2",
+    "before": "تحسن الجودة الأعلى وضوح الخامات<br>عند النظر إليها بزاوية، بينما تحسن<br>الجودة المنخفضة أداء بطاقة<br>الرسوميات.",
+    "after": "تحسن الجودة الأعلى وضوح الخامات<br>عند النظر إليها بزاوية، بينما تحسن<br>الجودة المنخفضة أداء بطاقة<br>الرسوميات.",
+    "decision": "keep"
+  },
+  {
+    "index": 16268,
+    "key": "PCGRAPHICSSETTINGS_TEXTUREFILTERING_UPPERCASE",
+    "source_sha256": "2fb7d9ee95be1896147d96abb92293ec872751254d2606e938506d798995d23d",
+    "before": "ترشيح الخامات",
+    "after": "ترشيح الخامات",
+    "decision": "keep"
+  },
+  {
+    "index": 16269,
+    "key": "PCGRAPHICSSETTINGS_TEXTUREQUALITY",
+    "source_sha256": "b9e6f1bb561f9e3ea920ea46b0063e85a6078c13091dcbfdf4493d359c2c45b8",
+    "before": "جودة الخامات",
+    "after": "جودة الخامات",
+    "decision": "keep"
+  },
+  {
+    "index": 16270,
+    "key": "PCGRAPHICSSETTINGS_TEXTUREQUALITY_DESC",
+    "source_sha256": "86e0f525c8f2d690e6f34d5bf31a0e2b38ab6f521b34cb68067d00beb36fd867",
+    "before": "تستخدم الجودة الأعلى ذاكرة أكبر<br>لعرض خامات أكثر تفصيلًا.",
+    "after": "تستخدم الجودة الأعلى ذاكرة أكبر<br>لعرض خامات أكثر تفصيلًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16271,
+    "key": "PCGRAPHICSSETTINGS_TEXTUREQUALITY_UPPERCASE",
+    "source_sha256": "4bade7ebff3730f321f1308b181a95c21f08fff4442c7355969e6b134190fbc9",
+    "before": "جودة الخامات",
+    "after": "جودة الخامات",
+    "decision": "keep"
+  },
+  {
+    "index": 16274,
+    "key": "PCGRAPHICSSETTINGS_TRAFFICDENSITY_DESC",
+    "source_sha256": "ae1f05e6462c0755603b09fe4e2775cc3dd28d283b15bfc946ccd4c3d100e8db",
+    "before": "اضبط عدد المركبات في المدينة. قد<br>تقلل القيم المنخفضة حمل المعالج.<br>تظهر التغييرات تدريجيًا أثناء<br>التنقل.",
+    "after": "اضبط عدد المركبات في المدينة. قد<br>تقلل القيم المنخفضة حمل المعالج.<br>تظهر التغييرات تدريجيًا أثناء<br>التنقل.",
+    "decision": "keep"
+  },
+  {
+    "index": 16276,
+    "key": "PCGRAPHICSSETTINGS_TRILINEAR",
+    "source_sha256": "7e7be88a1279444be80b97d7b99780f5cbec9283d38b0195c7bd5b574ef64a6e",
+    "before": "ترشيح ثلاثي الخطية",
+    "after": "ترشيح ثلاثي الخطية",
+    "decision": "keep"
+  },
+  {
+    "index": 16277,
+    "key": "PCGRAPHICSSETTINGS_TRILINEAR_UPPERCASE",
+    "source_sha256": "96553b1f4f8a3dfebdde386f5bbf8ba941f95ebd879d910f106648b2a7b08d34",
+    "before": "ترشيح ثلاثي الخطية",
+    "after": "ترشيح ثلاثي الخطية",
+    "decision": "keep"
+  },
+  {
+    "index": 16286,
+    "key": "PCGRAPHICSSETTINGS_VIGNETTE_DESC",
+    "source_sha256": "ea1f5dce301f6b5d95c03c92746e1c834c53521e5c6016feeacd128e7121c59e",
+    "before": "يضيف تظليلًا إلى حواف الصورة<br>لمحاكاة عدسة الكاميرا.",
+    "after": "يضيف تظليلًا إلى حواف الصورة<br>لمحاكاة عدسة الكاميرا.",
+    "decision": "keep"
+  },
+  {
+    "index": 16288,
+    "key": "PCGRAPHICSSETTINGS_XEAA",
+    "source_sha256": "f25cc73e6c8554351a1f85b03b96d5465b052239f28351e61194b10e62765ccc",
+    "before": "XeSS Native AA",
+    "after": "XeSS Native AA",
+    "decision": "keep"
+  },
+  {
+    "index": 16289,
+    "key": "PCGRAPHICSSETTINGS_XEGTAO",
+    "source_sha256": "f9349358568c2e33f79b74e268786da4f8c8af701cc72feb578b707d7fd72e87",
+    "before": "XeGTAO",
+    "after": "XeGTAO",
+    "decision": "keep"
+  },
+  {
+    "index": 18148,
+    "key": "PROPH_ANOMALY_BLIZ_GP_004",
+    "source_sha256": "ebfadc59aa8d08c69a2549048483175f5f8a57b31af70f81505b0c36ce4d14a8",
+    "before": "<ts=&quot;0;5.296&quot;>لكنني خرجت عن الموضوع. احتمالاتك تنتظر أن<br>توجهها إلى الطرفية العامة.",
+    "after": "<ts=&quot;0;5.296&quot;>لكنني استطردت. احتمالاتك تنتظر أن توجهها<br>إلى الطرفية العليا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 18149,
+    "key": "PROPH_ANOMALY_BLIZ_GP_009",
+    "source_sha256": "b6073dbd76b7a5d42f151e9696961664d7b27f27e1df6a7d89817914adce2f06",
+    "before": "<ts=&quot;0.024;3.51&quot;>آه! أصلحت الشذوذ البعدي في بليزار!<ts=&quot;3.673;4.926&quot;>أحسنت يا كلانك!",
+    "after": "<ts=&quot;0.024;3.51&quot;>آه! أصلح اختلال بليزار!<ts=&quot;3.673;4.926&quot;>عمل رائع، يا كلانك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 18150,
+    "key": "PROPH_ANOMALY_BLIZ_GP_010",
+    "source_sha256": "cafb5279db38a7756ce55c43d715d92d21c7ea6856065cbf889352203109e4c0",
+    "before": "<ts=&quot;0.022;2.135&quot;>آه، تلك كرة ثقيلة!<ts=&quot;2.198;4.779&quot;>تزيد وزن كل شيء تلمسه...<ts=&quot;4.853;8.033&quot;>وهذا يبدو بديهيًا حين أقوله بصوت عالٍ، ها!",
+    "after": "<ts=&quot;0.022;2.135&quot;>آه، تلك كرة ثقيلة!<ts=&quot;2.198;4.779&quot;>تزيد وزن كل شيء تلمسه...<ts=&quot;4.853;8.033&quot;>وهذا يبدو بديهيًا حين أقوله بصوت عالٍ، ها!",
+    "decision": "keep"
+  },
+  {
+    "index": 18151,
+    "key": "PROPH_ANOMALY_BLIZ_GP_011",
+    "source_sha256": "7c0d86b40c0430d5b8554b30dd6cb72c1a8862f1c0b968b160673cda44e108d2",
+    "before": "<ts=&quot;0;1.75&quot;>كلانك! رأيت راتشت للتو!<ts=&quot;2.1;2.95&quot;>في سافالي!",
+    "after": "<ts=&quot;0;1.75&quot;>كلانك! رأيت راتشت للتو!<ts=&quot;2.1;2.95&quot;>في سافالي!",
+    "decision": "keep"
+  },
+  {
+    "index": 18152,
+    "key": "PROPH_ANOMALY_BLIZ_GP_012",
+    "source_sha256": "a596fb30bc288561adc4eb6660597fd824aad3a4ce9ca1400d4b2cb0c71010b5",
+    "before": "<ts=&quot;0.047;4.099&quot;>بخير! أنحف مما تخيلت، لكنه بطل بحق.",
+    "after": "<ts=&quot;0.047;4.099&quot;>بخير! أنحف مما تخيلت، لكنه بطل بحق.",
+    "decision": "keep"
+  },
+  {
+    "index": 18153,
+    "key": "PROPH_ANOMALY_BLIZ_GP_013",
+    "source_sha256": "f5dcc8c6253604296a34765ab9b7e7a6240dcf6316cb968dab2493133b813258",
+    "before": "<ts=&quot;0.35;3.5&quot;>كلانك! لقد وصلت! بدأت أقلق عليك.",
+    "after": "<ts=&quot;0.35;3.5&quot;>كلانك! لقد وصلت! بدأت أقلق عليك.",
+    "decision": "keep"
+  },
+  {
+    "index": 18154,
+    "key": "PROPH_ANOMALY_BLIZ_GP_014",
+    "source_sha256": "64784f0e868a7f19046186cc88344baac4369172d97a6e8f3bcee553c83fde17",
+    "before": "<ts=&quot;0;2.109&quot;>بضع دقائق فقط، لكن لا بأس!<ts=&quot;2.316;4.693&quot;>استغللت الوقت في إحصاء مخاوفي.",
+    "after": "<ts=&quot;0;2.109&quot;>بضع دقائق فقط، لكن لا بأس!<ts=&quot;2.316;4.693&quot;>استغللت الوقت في إحصاء مخاوفي.",
+    "decision": "keep"
+  },
+  {
+    "index": 18155,
+    "key": "PROPH_ANOMALY_BLIZ_GP_015",
+    "source_sha256": "5cc2cbe37a23a9e181f8ed581f104c7e03fe983f001b2a8943c946ef4f8dcd48",
+    "before": "<ts=&quot;0;2.151&quot;>في الحقيقة، لم أختر هذا الاسم.<ts=&quot;2.228;7.254&quot;>منحني إياه رهبان سافالي بعد أن ساعدتهم في<br>فك رموز بعض أرشيفاتهم.",
+    "after": "<ts=&quot;0;2.151&quot;>في الحقيقة، لم أختر هذا الاسم.<ts=&quot;2.228;7.254&quot;>منحني إياه رهبان سافالي بعد أن ساعدتهم في<br>فك رموز بعض أرشيفاتهم.",
+    "decision": "keep"
+  },
+  {
+    "index": 18156,
+    "key": "PROPH_ANOMALY_BLIZ_GP_017",
+    "source_sha256": "af9debd83a385f653024dbc7ee63a48eab78e6e8f3dc5e6218bf25968613f9f0",
+    "before": "<ts=&quot;0;0.7&quot;>يا إلهي...<ts=&quot;1.389;6.843&quot;>علي أن أدون هذا! كان ذلك مذهلًا يا كلانك!<br>لم يبق إلا اثنان!",
+    "after": "<ts=&quot;0;0.7&quot;>يا إلهي...<ts=&quot;1.389;6.843&quot;>علي أن أدون هذا! كان ذلك مذهلًا يا كلانك!<br>لم يبق إلا اثنان!",
+    "decision": "keep"
+  },
+  {
+    "index": 18157,
+    "key": "PROPH_ANOMALY_BLIZ_GP_018",
+    "source_sha256": "dfb2f1cd61db250f49a237638687d155f12d2405281a1615fc7088082d921e95",
+    "before": "<ts=&quot;0.03;1.851&quot;>كيف تسير الأمور مع ريفت؟",
+    "after": "<ts=&quot;0.03;1.851&quot;>كيف تسير الأمور مع ريفت؟",
+    "decision": "keep"
+  },
+  {
+    "index": 18158,
+    "key": "PROPH_ANOMALY_BLIZ_GP_019",
+    "source_sha256": "26b56c1276d401b7da4a262c853acaa0ba35348437b155c1098e958c14548a5c",
+    "before": "<ts=&quot;0.199;2.909&quot;>أهذا ما تفعله الأجيال الجديدة هذه الأيام؟<ts=&quot;2.909;4.659&quot;>يبدو أنني لا أواكب العصر.",
+    "after": "<ts=&quot;0.199;2.909&quot;>أهذا ما تفعله الأجيال الجديدة هذه الأيام؟<ts=&quot;2.909;4.659&quot;>يبدو أنني لا أواكب العصر.",
+    "decision": "keep"
+  },
+  {
+    "index": 18159,
+    "key": "PROPH_ANOMALY_BLIZ_GP_021",
+    "source_sha256": "1fdd4b9d41e7f9767d89f51e261e8a4f132d8350ec03d125233a9ae16cac02c2",
+    "before": "<ts=&quot;0;2.53&quot;>ربما بعدك هو الاستثناء؟<ts=&quot;2.92;7.079&quot;>لعل نظراء راتشت في بقية الأبعاد لا يحبون<br>الروبوتات أيضًا.",
+    "after": "<ts=&quot;0;2.53&quot;>ربما بعدك هو الاستثناء؟<ts=&quot;2.92;7.079&quot;>لعل نظراء راتشت في بقية الأبعاد لا يحبون<br>الروبوتات أيضًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 18160,
+    "key": "PROPH_ANOMALY_BLIZ_GP_022",
+    "source_sha256": "b1311a4d2c80a89c122a0dbc9e790b6a6b9db19e9242b34626a9da11e104cf54",
+    "before": "<ts=&quot;0.059;3.978&quot;>رائع! لم أفكر في استخدام الكرة بهذه<br>الطريقة...",
+    "after": "<ts=&quot;0.059;3.978&quot;>رائع! لم أفكر في استخدام الكرة بهذه<br>الطريقة...",
+    "decision": "keep"
+  },
+  {
+    "index": 18161,
+    "key": "PROPH_ANOMALY_BLIZ_GP_023",
+    "source_sha256": "1fe430c068bdfea6fa9c14b0872bda04a27c5159dcd1e214c3ba23cf7c6f4a79",
+    "before": "<ts=&quot;0;3.5&quot;>هل يشترك راتشت وريفت في أي شيء؟",
+    "after": "<ts=&quot;0;3.5&quot;>هل يشترك راتشت وريفت في أي شيء؟",
+    "decision": "keep"
+  },
+  {
+    "index": 18162,
+    "key": "PROPH_ANOMALY_BLIZ_GP_024",
+    "source_sha256": "1040bd860a3d7064758b26c1f80464bc9d537a4038a95df3ee351ac40c7f57f5",
+    "before": "<ts=&quot;0;2.64&quot;>وتتمنى لو كنت أفضل في ذلك؟",
+    "after": "<ts=&quot;0;2.64&quot;>وتتمنى لو كنت أفضل في ذلك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 18163,
+    "key": "PROPH_ANOMALY_BLIZ_GP_025",
+    "source_sha256": "825edd431d60d089b78d80e63575a07fa7db17b2a7b01ea4eb2c8b983de650e8",
+    "before": "<ts=&quot;0;6.3&quot;>آه يا كلانك! أظنني عرفت حل مشكلتك مع الغرق<br>في التفاصيل!<ts=&quot;6.43;8.25&quot;>عليك فقط أن تثق بنفسك!",
+    "after": "<ts=&quot;0;6.3&quot;>آه يا كلانك! أظنني عرفت حل مشكلتك مع الغرق<br>في التفاصيل!<ts=&quot;6.43;8.25&quot;>عليك فقط أن تثق بنفسك!",
+    "decision": "keep"
+  },
+  {
+    "index": 18164,
+    "key": "PROPH_ANOMALY_BLIZ_GP_026",
+    "source_sha256": "4ba3536f755b59d0426e3a0c3f41b0ece36c227ca13a8c0c92129f2733ab5ae1",
+    "before": "<ts=&quot;0;2.548&quot;>إن تعلمت شيئًا من أبي،<ts=&quot;2.568;7.145&quot;>فهو أن التصرف بثقة وكأنك تعرف ما تفعل يفتح<br>لك أبواب الحياة.<ts=&quot;7.304;9.03&quot;>هذا، وحمل مكبس تسليك.",
+    "after": "<ts=&quot;0;2.548&quot;>إن تعلمت شيئًا من أبي،<ts=&quot;2.568;7.145&quot;>فهو أن التصرف بثقة وكأنك تعرف ما تفعل يفتح<br>لك أبواب الحياة.<ts=&quot;7.304;9.03&quot;>هذا، وحمل مكبس تسليك.",
+    "decision": "keep"
+  },
+  {
+    "index": 18165,
+    "key": "PROPH_ANOMALY_BLIZ_GP_028",
+    "source_sha256": "b4e086b40e568cf35b365db1f1b481552927d582cd7b912a01a3e919883a5acd",
+    "before": "<ts=&quot;0;1.25&quot;>بل الشكر لك!<ts=&quot;1.68;3.78&quot;>وتذكر: الثقة هي المفتاح!",
+    "after": "<ts=&quot;0;1.25&quot;>بل الشكر لك!<ts=&quot;1.68;3.78&quot;>وتذكر: الثقة هي المفتاح!",
+    "decision": "keep"
+  },
+  {
+    "index": 18166,
+    "key": "PROPH_ANOMALY_BLIZ_GP_029",
+    "source_sha256": "58b1f877113e473905d3076e1ec8c74ab1655080f54d80cfc78b6e555e3db6ca",
+    "before": "<ts=&quot;0;3.05&quot;>أوه، يشير إلى الأشياء ويقول مثلًا:<ts=&quot;3.063;8.943&quot;>«هذا دليل هاتف بلارغي، وذلك سن كيرتشو،<br>وهذه قصيدة حب تيراكلونية...»",
+    "after": "<ts=&quot;0;3.05&quot;>أوه، يشير إلى الأشياء ويقول مثلًا:<ts=&quot;3.063;8.943&quot;>«هذا دليل هاتف بلارغي، وذلك سن كيرتشو،<br>وهذه قصيدة حب تيراكلونية...»",
+    "decision": "keep"
+  },
+  {
+    "index": 18167,
+    "key": "PROPH_ANOMALY_BLIZ_GP_030",
+    "source_sha256": "0601aece94aa584b0ebe09cd163c20e2f7cd64ce9a4fd9ff75cb99e803075fe7",
+    "before": "<ts=&quot;0;4.542&quot;>أحدث مجموعة معارف في الكون...<ts=&quot;4.641;6.667&quot;>بحسب ما جمعه أبي ووثقه.",
+    "after": "<ts=&quot;0;4.542&quot;>أحدث مجموعة معارف في الكون...<ts=&quot;4.641;6.667&quot;>بحسب ما جمعه أبي ووثقه.",
+    "decision": "keep"
+  },
+  {
+    "index": 18168,
+    "key": "PROPH_ANOMALY_BLIZ_GP_031",
+    "source_sha256": "ad30299c4616854d0fc6a6c3b2ad6a233c104092aaaa921784fa2c598b5201f5",
+    "before": "<ts=&quot;0.04;2.462&quot;>أظنك تعرفه باسم السباك؟",
+    "after": "<ts=&quot;0.04;2.462&quot;>أظنك تعرفه باسم السباك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 18169,
+    "key": "PROPH_ANOMALY_BLIZ_GP_032",
+    "source_sha256": "bfc8ab2575b8465644ec16e1178f34f8979d3b04e1ab01d1bba7643d4e1a740a",
+    "before": "<ts=&quot;0;1.469&quot;>يقضي أول إجازة له...<ts=&quot;2.08;4.692&quot;>في حياته. لذا ترك المسؤولية لي،<ts=&quot;4.746;6.233&quot;>وأنا أبذل قصارى جهدي،<ts=&quot;6.285;12.266&quot;>لكن الارتقاء إلى مستواه صعب، حتى حين لا<br>يكون الكون في خطر.",
+    "after": "<ts=&quot;0;1.469&quot;>يقضي أول إجازة له...<ts=&quot;2.08;4.692&quot;>في حياته. لذا ترك المسؤولية لي،<ts=&quot;4.746;6.233&quot;>وأنا أبذل قصارى جهدي،<ts=&quot;6.285;12.266&quot;>لكن الارتقاء إلى مستواه صعب، حتى حين لا<br>يكون الكون في خطر.",
+    "decision": "keep"
+  },
+  {
+    "index": 18805,
+    "key": "RATC_ANIMATICS_DRNEF2_001",
+    "source_sha256": "99a2a9c35025e9093d557daee7d38ecd161eea6a1bcca235d1de6fe3c2c07087",
+    "before": "<ts=&quot;0;1.419&quot;>أجل، إنه...<ts=&quot;1.92;2.749&quot;>حالة فريدة فعلًا.",
+    "after": "<ts=&quot;0;1.419&quot;>أجل، إنه...<ts=&quot;1.92;2.749&quot;>حالة فريدة فعلًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 20346,
+    "key": "RIVE_ANIMATICS_DRNEF1_002",
+    "source_sha256": "361cf5312b6d5db449bfdba9629f5469c003db6ca5616ef9f75c72ec67e06d9f",
+    "before": "<ts=&quot;0.03;3.078&quot;>رائع. أصبحت الآن على قائمتي اغتيال<br>لنيفاريوس.",
+    "after": "<ts=&quot;0.03;3.078&quot;>رائع. أصبحت الآن على قائمتي اغتيال<br>لنيفاريوس.",
+    "decision": "keep"
+  },
+  {
+    "index": 20347,
+    "key": "RIVE_ANIMATICS_DRNEF2_001",
+    "source_sha256": "f8b1b70c3d59f7c2e8533a8dd6a4bb4d916df4e03bda3c522c0a443d1f4d73bc",
+    "before": "<ts=&quot;0;1.22&quot;>علينا أن نواصل السير.",
+    "after": "<ts=&quot;0;1.22&quot;>علينا أن نواصل السير.",
+    "decision": "keep"
+  },
+  {
+    "index": 22046,
+    "key": "SETTINGS_CONNECTIONS_HEADER",
+    "source_sha256": "2737ebc8fe39470e9028773e8e9177931ead3b7b014e420817c024de752fb2c8",
+    "before": "إدارة الحسابات المرتبطة.",
+    "after": "إدارة الحسابات المرتبطة.",
+    "decision": "keep"
+  },
+  {
+    "index": 22047,
+    "key": "SETTINGS_CONNECTIONS_TAB",
+    "source_sha256": "53c3eb283e25bc9dd6df9f23a7c419e9883a8a597a0d2ae73046585d3f8349c3",
+    "before": "ربط الحسابات",
+    "after": "ربط الحسابات",
+    "decision": "keep"
+  },
+  {
+    "index": 22048,
+    "key": "SETTINGS_DISPLAY_GRAPHICS_DESC",
+    "source_sha256": "e0158b6fe1ce7da5c2f77dc7e554f7a1cc06d51ede9d734b4237b4a1f5b99b7e",
+    "before": "اضبط إعدادات الشاشة والرسوميات<br>والأداء.",
+    "after": "اضبط إعدادات الشاشة والرسوميات<br>والأداء.",
+    "decision": "keep"
+  },
+  {
+    "index": 22049,
+    "key": "SETTINGS_DISPLAY_GRAPHICS_HEADER",
+    "source_sha256": "85bf438bf6a3e56e5665c083dfc7814092febdf87369d9bffca4a0ad217dc5ac",
+    "before": "إعدادات الشاشة والرسوميات",
+    "after": "إعدادات الشاشة والرسوميات",
+    "decision": "keep"
+  },
+  {
+    "index": 22050,
+    "key": "SETTINGS_DISPLAY_GRAPHICS_TAB",
+    "source_sha256": "c3cafe20f288b1490b4a23729e6cad5334a8f1940eb0321b83e2a7793d24b022",
+    "before": "الشاشة والرسوميات",
+    "after": "الشاشة والرسوميات",
+    "decision": "keep"
+  },
+  {
+    "index": 22057,
+    "key": "SETTINGS_KEY_BINDING_HEADER",
+    "source_sha256": "d95a1c85005703bd4d3b4b19e0ac54ee51664da1bb47aab850ff445e8cf0d535",
+    "before": "خصص أزرار لوحة المفاتيح والفأرة.",
+    "after": "خصص أزرار لوحة المفاتيح والفأرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 22063,
+    "key": "SETTING_CLOSE_GAME_BODY",
+    "source_sha256": "137bdeaaabcbc3d5c28807e8e8a0f23f0fe54f3f304aaeba661439636310d224",
+    "before": "لن تسري التغييرات على هذا الخيار<br>إلا بعد إغلاق اللعبة وتشغيلها<br>مجددًا.",
+    "after": "لن تسري التغييرات على هذا الخيار<br>إلا بعد إغلاق اللعبة وتشغيلها<br>مجددًا.",
+    "decision": "keep"
+  },
+  {
+    "index": 22065,
+    "key": "SETTING_RELOAD_CONFIRM_BODY",
+    "source_sha256": "40433f3dd52f7e990b9f760b3a470d1520a7bc70c418ac88a5d9c0f6f89fa9f5",
+    "before": "يتطلب تغيير هذا الإعداد إعادة<br>اللعب من آخر نقطة حفظ.",
+    "after": "يتطلب تغيير هذا الإعداد إعادة<br>اللعب من آخر نقطة حفظ.",
+    "decision": "keep"
+  },
+  {
+    "index": 22066,
+    "key": "SETTING_RELOAD_CONFIRM_HEADER",
+    "source_sha256": "166015ade6665cf3fa9b85bd6bb5ec9958e75a21dc6a6fbce764d29bae16bd07",
+    "before": "إعادة اللعب من آخر نقطة حفظ؟",
+    "after": "إعادة اللعب من آخر نقطة حفظ؟",
+    "decision": "keep"
+  },
+  {
+    "index": 22067,
+    "key": "SETTING_RELOAD_LOBBY_BODY",
+    "source_sha256": "4d0a51479ba035f24121217c315a29340660297a672dbb65069bc21084e3e50a",
+    "before": "يتطلب تغيير هذا الإعداد إعادة<br>تحميل القائمة الرئيسية.",
+    "after": "يتطلب تغيير هذا الإعداد إعادة<br>تحميل القائمة الرئيسية.",
+    "decision": "keep"
+  },
+  {
+    "index": 22068,
+    "key": "SETTING_RELOAD_LOBBY_HEADER",
+    "source_sha256": "1711a37246928aea0ce108d4db79a50730588792c1ecff7700d5beeecd67d205",
+    "before": "إعادة التحميل؟",
+    "after": "إعادة التحميل؟",
+    "decision": "keep"
+  }
+]

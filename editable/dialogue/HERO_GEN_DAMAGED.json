@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.099;1.5&quot;>بدا ذلك مؤلما نوعا ما.",
     "arabic_edit": "<ts=&quot;0.099;1.5&quot;>بدا ذلك مؤلما نوعا ما.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "7d79e1eac5eb506aeec1b954af2e3c4b5e846de00aa1b19f28707ec63ad08dce",
+      "candidate_sha256": "41076ecef796c5f6c30ee5dbb9d3d0f3d72f8ab74f5412e1e6aa7007b4c7fba3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1978,
@@ -21,14 +29,22 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;2.042&quot;>الأفضل ألا تتلقى ضربة<br>كهذه.",
-    "arabic_edit": "<ts=&quot;0;2.042&quot;>الأفضل ألا تتلقى ضربة كهذه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.042&quot;>من الأفضل تجنب ضربات كهذه.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "9f5f690f63567a65fa43852407672d08c58ff794cebf43be0c9336e87f48062b",
+      "candidate_sha256": "65d4fd3c3696e03e8e7482269177b8f0d07180b36b44f2c7a18b26a2f481f82b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1979,
@@ -37,13 +53,21 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;0.75&quot;>كن حذرا!",
-    "arabic_edit": "<ts=&quot;0;0.75&quot;>كن حذرا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.75&quot;>الحذر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "9771f1c2d4256dc9614315cfd88d80ce3883a0fb9bd6dec4390d4b042b16afc8",
+      "candidate_sha256": "530edecb3ac457f81f0192dd2d1bfa9e6078e54725160d78469bc34097989291",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1980,
@@ -52,14 +76,22 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;2.22&quot;>حاول ألا تتعرض لإصابة بعد<br>الآن.",
-    "arabic_edit": "<ts=&quot;0;2.22&quot;>حاول ألا تتعرض لإصابة بعد الآن.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.22&quot;>ينبغي تجنب الإصابة بعد الآن.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "d6c3709b6b3a3dc4c49f6b790650d2e55bc47950f3a97c6ec40b9f93f2571a39",
+      "candidate_sha256": "586142d25f26e0c474488d31f29ef03fa346ae78492a705efa89458c78095c18",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1981,
@@ -69,12 +101,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.394&quot;>لقد تلقيت ضربة.",
     "arabic_edit": "<ts=&quot;0;1.394&quot;>لقد تلقيت ضربة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "310689491910791d4bbad2075a203a6f42fcec2abf98851defa3e3afaed22793",
+      "candidate_sha256": "55d97ad3475f95fb0e46afa47c6e95176ecb335e2f270d65719dd026d72be25e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1982,
@@ -84,12 +124,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.05&quot;>هل أنت بخير؟",
     "arabic_edit": "<ts=&quot;0;1.05&quot;>هل أنت بخير؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "13c981f33e67eb6e65ce91999b3e2542900ec3b2a2b7649742c4cb82902098dc",
+      "candidate_sha256": "165e531810d94d868dbe810e1700d8780d34eaf791d0bc637330c50e6d1693fe",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1983,
@@ -99,12 +147,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;0.75&quot;>يا إلهي!",
     "arabic_edit": "<ts=&quot;0;0.75&quot;>يا إلهي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "4601175cefd05fa6ce6837eab9078530507645ef1c41fbe3533376d05adcda23",
+      "candidate_sha256": "9135de6f323ce12852fd79b33dc3e9ebea74d1f254d08e6918632eb6d6bfee53",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1984,
@@ -113,13 +169,21 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;0.7&quot;>انتبه!",
-    "arabic_edit": "<ts=&quot;0;0.7&quot;>انتبه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.7&quot;>الحذر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "12c45abd520254f3c4a9a94a37194fd5139ee6b8cc4551c291b4340fb6082394",
+      "candidate_sha256": "bda736155efbfbabdc05516fad1ba866c7ce0da5f376ff5a7d2561e8115ffa5a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1985,
@@ -129,12 +193,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.099;1.578&quot;>لن يوقفنا ذلك!",
     "arabic_edit": "<ts=&quot;0.099;1.578&quot;>لن يوقفنا ذلك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "5a30fe4d4d8e7e74c84a8b8167b2ccf3426519d422a4dd12e608492be14b55cc",
+      "candidate_sha256": "ab9cbf77e5a6885ec494ba43877107a37e5c314f5811e72f679c8b291cd313b2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1986,
@@ -143,13 +215,21 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.5&quot;>علينا أن نواصل الط!",
-    "arabic_edit": "<ts=&quot;0;1.5&quot;>علينا أن نواصل الط!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.5&quot;>علينا مواصلة التقدم!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "bf137de4be5fca404fb69ec8bcbb7c679e1e242d8363abade9b0032599eb4514",
+      "candidate_sha256": "98b5502d7baf70d7ba3c984f0d8cb6004826e971b013b369a02403228d25eb1a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8281,
@@ -158,13 +238,21 @@
     "speaker_code": "GLIT",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.046;1.235&quot;>يجب أن أكون أكثر حذرا!",
-    "arabic_edit": "<ts=&quot;0.046;1.235&quot;>يجب أن أكون أكثر حذرا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.046;1.235&quot;>علي أن أكون أكثر حذرًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "b02f81dcd7b3a3f303cfc668a76906981bebc98dac960f7320b68fae2c7977b6",
+      "candidate_sha256": "6e140d260bec376ea6c29fb509a0cd1cd233fd632dd3d0d09e1ea76ecd8d450a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8282,
@@ -174,12 +262,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.019;2.178&quot;>لن أترك ذلك يوقفني!",
     "arabic_edit": "<ts=&quot;0.019;2.178&quot;>لن أترك ذلك يوقفني!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "a6ef487cf59b2be4aebc27599af0d41ff88bb160de37904b701227e884780b5d",
+      "candidate_sha256": "2c5b4bb86ab9561badef6c1bfbd9fc40548d3daa1691571cbab979822881170f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8283,
@@ -188,14 +284,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.329;2.079&quot;>حسنا. ركزي نفسك يا<br>جليتش!",
-    "arabic_edit": "<ts=&quot;0.329;2.079&quot;>حسنا. ركزي نفسك يا جليتش!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.329;2.079&quot;>حسنًا. تماسكي يا جليتش!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "e9f69b5f5e986941bc663cf69ec8bb11283e2796589c2b685b6817f7189b1e0c",
+      "candidate_sha256": "a13d443c58d179165ab7c3ba6f3a2659ceb74275cd601fa6ff5e984a0e041c25",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8284,
@@ -205,12 +309,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.006;2.781&quot;>قرف! هذه الأشياء مقززة.",
     "arabic_edit": "<ts=&quot;0.006;2.781&quot;>قرف! هذه الأشياء مقززة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "8b6c0dda0b12bde0389d40367cc0f1aca0052811772ceb36f5cf727cbd9c46e2",
+      "candidate_sha256": "c59a3c024c92151fcf5e28240b35dc08696b40c1d879c414a54e4a367bee9d64",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8285,
@@ -220,12 +332,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.017;2.492&quot;>حشرات بشعة!",
     "arabic_edit": "<ts=&quot;0.017;2.492&quot;>حشرات بشعة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "48fb879f92b936108bca3383fadec5ac83ba60797dd995d82731b89101e3a7a5",
+      "candidate_sha256": "e07a4fee2422ec27bf098de61f502f857b7f2e11f73cf34723905d5e9d39b1fb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8286,
@@ -235,12 +355,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.052;1.894&quot;>حسنا. اهدئي.",
     "arabic_edit": "<ts=&quot;0.052;1.894&quot;>حسنا. اهدئي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "9af94fe211773b58ca378b75250a49633114976231cb06eecdf4844fc680ff7e",
+      "candidate_sha256": "ed8208c140c3bc0da63fd98425e0988ac31184ba7edaeda826413eb5df4d90c4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8287,
@@ -250,12 +378,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.011;1.516&quot;>لم أنته بعد!",
     "arabic_edit": "<ts=&quot;0.011;1.516&quot;>لم أنته بعد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "34864a32afe727844477bd3f9e6f769f89c2e6f39dd70a98523a816145901bf9",
+      "candidate_sha256": "245282eb4c9f5aebc052cf9253c02ef16267369e94850294dc00b832d04ef2e0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8288,
@@ -265,12 +401,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.011;2.998&quot;>أوو! ضربة مؤلمة!",
     "arabic_edit": "<ts=&quot;0.011;2.998&quot;>أوو! ضربة مؤلمة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "0afb104b36075493fbe854cd900d14ad8d126faf692873f4bee34e8bee2004b0",
+      "candidate_sha256": "78adb5569865d2200a4d3d79b0e72b01f6950e6bae92d1a2ac9fe8eb53352f74",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11169,
@@ -280,12 +424,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.049;0.947&quot;>هل أنت بخير؟",
     "arabic_edit": "<ts=&quot;0.049;0.947&quot;>هل أنت بخير؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "1c88c7b72b8c307b68b9985e15637a32980d8a13afa6b29dfac2d31e241984cb",
+      "candidate_sha256": "a5248211cda67582ea916df795787f3a76b62dc262a3cf229d49548637d482fe",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11170,
@@ -294,13 +446,21 @@
     "speaker_code": "KIT",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.038;1.694&quot;>بدا ذلك... ليس جيدا.",
-    "arabic_edit": "<ts=&quot;0.038;1.694&quot;>بدا ذلك... ليس جيدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.038;1.694&quot;>لم يبد ذلك... جيدًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "4aad503deb707c76afa2ab4e56e249458ad9f55e90919e3a4ed2c881693fdbec",
+      "candidate_sha256": "929bec5acb3b875c7f17d8c97cb75482c8cd6d20bb3d5a7d4aa7e76b1a132f57",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11171,
@@ -309,14 +469,22 @@
     "speaker_code": "KIT",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.051;2.317&quot;>يا أسف! كانت هذه ضربة<br>محظوظة.",
-    "arabic_edit": "<ts=&quot;0.051;2.317&quot;>يا أسف! كانت هذه ضربة محظوظة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.051;2.317&quot;>أوه، لا! أصابتك ضربة بالحظ.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "be05c78053c33ab4294c9eda638d4a0d01c887be541951e06de1d48d9900b04f",
+      "candidate_sha256": "db4131526dc02e85b226451eade1984b3aab6fa243744ca0422b01808292a06c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11172,
@@ -326,12 +494,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.044;1.24&quot;>كانت ضربة قوية!",
     "arabic_edit": "<ts=&quot;0.044;1.24&quot;>كانت ضربة قوية!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "331da2cd795f2ac3d3dd70be280c6f8a94afe470b46eb0908105c050790b3652",
+      "candidate_sha256": "365c27b98c09a3c40f299dec240935a906081350ac232ececf7df9bf731fb216",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11173,
@@ -341,12 +517,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.015;0.831&quot;>انتبه لنفسك!",
     "arabic_edit": "<ts=&quot;0.015;0.831&quot;>انتبه لنفسك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "ff6c5ad9b58790b63a9475900365c97014f5c4e74b5f03136710f5de3b92aa35",
+      "candidate_sha256": "1723886b2a35e363bd5058514c40fe4de5ff173a778f0be4320e21b64f85a370",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11174,
@@ -356,12 +540,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.043;1.305&quot;>يجب أن نكون أكثر حذرا.",
     "arabic_edit": "<ts=&quot;0.043;1.305&quot;>يجب أن نكون أكثر حذرا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "4f82cb2807375e61cb87f02df84c30f94ba981d4128a8aeea533ff772f9928a4",
+      "candidate_sha256": "075f4a89361c37bfddf83c58cab9967d01b4ce25b64bf968976a9172cf373142",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11175,
@@ -370,13 +562,21 @@
     "speaker_code": "KIT",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.359&quot;>أرجوك، كن حذرا!",
-    "arabic_edit": "<ts=&quot;0;1.359&quot;>أرجوك، كن حذرا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.359&quot;>أرجوك، توخ الحذر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "d2956d844822d9779cbc502d2b9349fd1829f68271176e84488dc152258a5212",
+      "candidate_sha256": "22deb6456eb75cb727c35af59c356732fd4fc51a69defb9a6e2fccb7af3d8dff",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11176,
@@ -386,12 +586,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.05&quot;>سنتعافى!",
     "arabic_edit": "<ts=&quot;0;1.05&quot;>سنتعافى!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "f12c256906806b9517fd9bf02da8d6addd0e0f0c514c3ad483ff20ecebd739a6",
+      "candidate_sha256": "d2086ccd0724a7a15f614c29b352dd661f5939b73e414379b115ff481534ba6c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11177,
@@ -401,12 +609,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.061;0.698&quot;>يا إلهي!",
     "arabic_edit": "<ts=&quot;0.061;0.698&quot;>يا إلهي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "ffc375a0d158cd433bcfd9695eb5164b57af26e0c80e8430b105e70c0b0e980e",
+      "candidate_sha256": "f26dc2e876a8b35f2f1b068af3cf3b8b937bcb0816698b817ae620a15d1fb9f2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11178,
@@ -416,12 +632,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.315&quot;>هذا خطير!",
     "arabic_edit": "<ts=&quot;0;1.315&quot;>هذا خطير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "fe1e4d9aa28d7060cf546bdfcdd62002a9eb6bb71bb1bcac7f157cd721cc7fc2",
+      "candidate_sha256": "6e1756ba8070e3635b1695a1c49133b683227baf9e1a3f94f37a867f39e487cc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19462,
@@ -430,13 +654,21 @@
     "speaker_code": "RATC",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.729&quot;>لن أكذب... هذه وجعت!",
-    "arabic_edit": "<ts=&quot;0;1.729&quot;>لن أكذب... هذه وجعت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.729&quot;>لن أكذب... تلك الضربة آلمتني!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "03191287f1e71179cd5300b6ac476c8aa23b7eed6b65a2355b60179e29a3b11a",
+      "candidate_sha256": "021afefca466f64b18ca6065f600d620aed2bbdf8f5fef5279ac946f7fe3e870",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19463,
@@ -446,12 +678,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.05;1.325&quot;>لا أحتمل المزيد من هذا!",
     "arabic_edit": "<ts=&quot;0.05;1.325&quot;>لا أحتمل المزيد من هذا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "e8a9cbbe4275f26d173e0ee11203c79e2b1466d3bdebc8d9a15ff0a3679ab03d",
+      "candidate_sha256": "987407542deac9df626b371f52e20fed813f713c02aeb5aa0e488da7521b243b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19464,
@@ -461,12 +701,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.049;1.461&quot;>تراجعوا الآن!",
     "arabic_edit": "<ts=&quot;0.049;1.461&quot;>تراجعوا الآن!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "036a456f3d275843943f81d1ecf0f9671bda1794349ad5709663784202c73f09",
+      "candidate_sha256": "c62f2c7b6e472d9fe6ef1fcbdf5cd2b1422f9bc48858034b43d0bf289215a852",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19465,
@@ -476,12 +724,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.658&quot;>استنفدت صبري عليكم!",
     "arabic_edit": "<ts=&quot;0;1.658&quot;>استنفدت صبري عليكم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "566f69de73b7ebfe04b8d97548c4dc76a1733960c9bd34bee322db76457689e5",
+      "candidate_sha256": "a15692657c480fcf55e366d087a0cd5fc1901bb9c88bff8d0a5ca501ed58baf5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19466,
@@ -491,12 +747,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.015;1.445&quot;>رأيت أسوأ من هذا!",
     "arabic_edit": "<ts=&quot;0.015;1.445&quot;>رأيت أسوأ من هذا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "7d7cf3ad21bc2bfa136cd01690c8def72d1ab27238bcc6b7acc7560869811f68",
+      "candidate_sha256": "07153a0c8e2b854c833325aeda1035c194ed2930e2bb5ba9b02c2d5a88df4ae4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19467,
@@ -506,12 +770,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.05;0.851&quot;>ياوي!",
     "arabic_edit": "<ts=&quot;0.05;0.851&quot;>ياوي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "0c8644bbe0f39fbecd43d8dc560e64a88453d8a0e10562dac4dc722affa0c0de",
+      "candidate_sha256": "92051e6f005fdadc7aa6a34ba9deb350951146fcd7e71441a56ee0c0b86963b0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19468,
@@ -520,13 +792,21 @@
     "speaker_code": "RATC",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.023;1.151&quot;>هز رأسك ونسها يا راتشت.",
-    "arabic_edit": "<ts=&quot;0.023;1.151&quot;>هز رأسك ونسها يا راتشت.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.023;1.151&quot;>تجاوز الأمر، يا راتشت.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "42d44788e01f44074e35d48a120ba93ad165259365fad93260381a2eef06e661",
+      "candidate_sha256": "199a3ade995cead6e76a0a11f5ebe82ea4ecacea40134929df4cd523dd21273d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19469,
@@ -536,12 +816,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.049;1.267&quot;>حسنا. هذه وجعت!",
     "arabic_edit": "<ts=&quot;0.049;1.267&quot;>حسنا. هذه وجعت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "1fa5457848a53060ea4a89a36826904ddd13262ddcc15e93cca3eac7a85d3cc0",
+      "candidate_sha256": "312067811fcde40d345ce43b3bddc96bb177688b2f95e1186578d134ca2fbadf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19470,
@@ -551,12 +839,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.042;1.402&quot;>لن يوقفوني!",
     "arabic_edit": "<ts=&quot;0.042;1.402&quot;>لن يوقفوني!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "5992862b918fbd5e65ae564076eb3324ba2362ccca1b503d29ae1f8916f12890",
+      "candidate_sha256": "efe841e29c390f6731c77fcb11244d37e5b3c51963b963837cdadb6278006797",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19471,
@@ -566,12 +862,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.039;1.357&quot;>كان علي توقع هذه!",
     "arabic_edit": "<ts=&quot;0.039;1.357&quot;>كان علي توقع هذه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "6fe924a6b6cf307b7ba9a5da42b241b7557802950cb7a9907bddecf808b9345b",
+      "candidate_sha256": "5b7ba9d207fe9de332243849912d776d166d46f588314b3c6f4185bb29310489",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20759,
@@ -581,12 +885,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.05;1.354&quot;>لا أقول إن هذا أعجبني!",
     "arabic_edit": "<ts=&quot;0.05;1.354&quot;>لا أقول إن هذا أعجبني!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "90e394a8f8a5fc4218b64041f82906480bf069c4bae08d8cf9a2ca7723c60e7a",
+      "candidate_sha256": "57b9ccbc6b8389c563e19938990f11eba23e0d4248101356624c3ff6c1043220",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20760,
@@ -596,12 +908,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.023;1.182&quot;>هي! كف عني!",
     "arabic_edit": "<ts=&quot;0.023;1.182&quot;>هي! كف عني!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "6920620f268337800073f65cc77f384e9511dccb4b68cd951aed23814ab6119e",
+      "candidate_sha256": "4f8ed66dd3db329bddd9ab7c3d09de96ebc4f11da15f41b6fa9bad8f08089088",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20761,
@@ -611,12 +931,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.038;1.164&quot;>الرد قادم إليك!",
     "arabic_edit": "<ts=&quot;0.038;1.164&quot;>الرد قادم إليك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "e9f283a2c553f7707a880d14355597580531c5a47758b41e103415222e24d701",
+      "candidate_sha256": "8b5849b91a4150c6d560dbd9b678d8c5650a213473af60b7144e7214ab66cff1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20762,
@@ -625,13 +953,21 @@
     "speaker_code": "RIVE",
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.048;1.689&quot;>أوف، فرائي محترقة!",
-    "arabic_edit": "<ts=&quot;0.048;1.689&quot;>أوف، فرائي محترقة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.048;1.689&quot;>أوف، احترق فرائي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "9d4fe07e7b137f5c807c9f67f315dd4ce8489b47a0763a885e4ce35dc84e9115",
+      "candidate_sha256": "6113e8f1a09b4b89abe686724b342344e6c4c7c12c95f3806674b45d3e36ee1c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20763,
@@ -641,13 +977,21 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.031;1.613&quot;>هذه ستصير ندبة جميلة<br>أخرى!",
     "arabic_edit": "<ts=&quot;0.031;1.613&quot;>هذه ستصير ندبة جميلة أخرى!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "889fb6f08a07ff96a5da1e6bc44f50ab155471cb44e4395664f6aaf8db531917",
+      "candidate_sha256": "021c08b67f5ba46fef464a074fda4035d32a650e785adb9725f1a3846369b542",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20764,
@@ -657,12 +1001,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;1.089;1.478&quot;>آخ! كفى!",
     "arabic_edit": "<ts=&quot;1.089;1.478&quot;>آخ! كفى!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "46b64387a8690b7afe2cbde165fc32524e21b5b8d149b9fbf553b4a77b09cc06",
+      "candidate_sha256": "d169abf56af4996b27d1a42b7dbc9cd4672ccb2718d7cd8b697e1518250fe64e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20765,
@@ -672,12 +1024,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.003;1.127&quot;>هذه وجعت!",
     "arabic_edit": "<ts=&quot;0.003;1.127&quot;>هذه وجعت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "ca0260b0b6f19631fa28b38179a4f5181e62bf49941eb2725b05e6ce432a21de",
+      "candidate_sha256": "179d5ce32e3367f893364fa2f3d9491f5d2cb006f981c0ca29d480dec091d03f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20766,
@@ -687,12 +1047,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.049;0.998&quot;>طلقة حظ!",
     "arabic_edit": "<ts=&quot;0.049;0.998&quot;>طلقة حظ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "d6a5280009b3d8fae47136b435488f5ef2168397b9959e24cd0bf3a7fa9eaeee",
+      "candidate_sha256": "8bc4dd1983c8cbb25f0002db4595a0f5a32116bb5dd5de4652a5010eefaf53e1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20767,
@@ -702,12 +1070,20 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.042;1.09&quot;>علي أن أنتبه أكثر.",
     "arabic_edit": "<ts=&quot;0.042;1.09&quot;>علي أن أنتبه أكثر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "b027c3a0f22ce28dac0f5a4404464b6ff1bf10c8c2c90e1ccffa901225bc81b4",
+      "candidate_sha256": "9a8240c6f65894c10be4bced52ab1d07df12cb3cd70665084c4f5fdccbeb40db",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20768,
@@ -717,11 +1093,19 @@
     "scene_code": "HERO_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.051;1.413&quot;>أوف! هذا وجع!",
     "arabic_edit": "<ts=&quot;0.051;1.413&quot;>أوف! هذا وجع!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "fea5c2800a2f885db872067c8146cd07eb0b3559b4ce0457c48b81c65c6c7372",
+      "candidate_sha256": "17dde037355d42e276d517f33f235aec30dcb730a85440c1e835a823b101c4b1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

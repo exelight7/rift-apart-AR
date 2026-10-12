@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_BUYRICO",
     "arabic_current": "<ts=&quot;0.065;5.493&quot;>هدية لا تتوقف عن العطاء! ما<br>دمت تواصل الضغط على<br>الزناد.",
     "arabic_edit": "<ts=&quot;0.065;5.493&quot;>هدية لا تتوقف عن العطاء! ما دمت تواصل<br>الضغط على الزناد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "be0d90e367d541aa253178fadc6af624622bafb03a7a07e4210cc5e90deccad1",
+      "candidate_sha256": "65155418d207f3f270fad3579c14eb2537cd88e0dab3b40845b054b0ee4c1184",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

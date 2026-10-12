@@ -7,12 +7,20 @@
     "scene_code": "CORV_GP1_CINE_DEMO_NEFTHREAT",
     "arabic_current": "<ts=&quot;0.031;1.531&quot;>راتشت وكلانك!",
     "arabic_edit": "<ts=&quot;0.031;1.531&quot;>راتشت وكلانك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "99e7c5e86d84513046051792023fc36355999e57181c4a14104237446f54e9f7",
+      "candidate_sha256": "3ed74e094919610040f23ecd3a046067d20621217d9c14b743076d62a743fb94",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7216,
@@ -22,13 +30,21 @@
     "scene_code": "CORV_GP1_CINE_DEMO_NEFTHREAT",
     "arabic_current": "<ts=&quot;0.036;3.083&quot;>لقد كنت أبحث عنكما في كل<br>مكان!",
     "arabic_edit": "<ts=&quot;0.036;3.083&quot;>لقد كنت أبحث عنكما في كل مكان!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "bf44d2a1e85d74a45b5a62bb3fee6f433c061a529bf6a4d841a795157b328cf2",
+      "candidate_sha256": "155c90420ae9d323adece2ec74b31026be40a97ae56e99f79ad8f81126be874d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19019,
@@ -37,13 +53,21 @@
     "speaker_code": "RATC",
     "scene_code": "CORV_GP1_CINE_DEMO_NEFTHREAT",
     "arabic_current": "<ts=&quot;0.05;2.091&quot;>ضع الناقلة البعدية أرضا يا<br>نيفاريوس!",
-    "arabic_edit": "<ts=&quot;0.05;2.091&quot;>ضع الناقلة البعدية أرضا يا نيفاريوس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.05;2.091&quot;>ضع جهاز الأبعاد أرضًا، يا نيفاريوس!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "d092a7ed900b7d4c93ac785b02c87f8fd9f0bb0b191f0d29668cc0124cc5c5f0",
+      "candidate_sha256": "26df35300bbc4d6a6b52def0f205c9fcbe2ff87d1845d5d0e04502a9d8514427",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

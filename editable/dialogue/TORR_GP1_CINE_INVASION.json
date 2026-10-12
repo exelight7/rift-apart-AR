@@ -6,14 +6,22 @@
     "speaker_code": "PILF",
     "scene_code": "TORR_GP1_CINE_INVASION",
     "arabic_current": "<ts=&quot;0;5&quot;>،يبدو أن القدر جمعنا من جديد<br>أيتها الصغيرة يا ريفت.",
-    "arabic_edit": "<ts=&quot;0;5&quot;>،يبدو أن القدر جمعنا من جديد أيتها الصغيرة<br>يا ريفت.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;5&quot;>يبدو أن القدر جمعنا مجددًا، يا ريفت<br>الصغيرة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "60a6e21d4bd5e043f10d00dec0c0722267a22d22ab328a10e6d1cf30f13ef5b3",
+      "candidate_sha256": "a6ff6fb19be7f8535b645e8a13505bcd9668aed80c861a379f057f5a391f1904",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16615,
@@ -23,12 +31,20 @@
     "scene_code": "TORR_GP1_CINE_INVASION",
     "arabic_current": "<ts=&quot;0;1.23&quot;>آآآرررر...<ts=&quot;1.66;4.43&quot;>يا هوو، أيها القراصنة، هاجموا!",
     "arabic_edit": "<ts=&quot;0;1.23&quot;>آآآرررر...<ts=&quot;1.66;4.43&quot;>يا هوو، أيها القراصنة، هاجموا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "495567c9a2d4d5dacb0eb58c403f5e439c19d4af3853ef01bd7b2bcfe5fab0ea",
+      "candidate_sha256": "d434b6c9fd4fbafbffb75cd7ae8231055798ec21a46e31e4ed9e1dc817f5dd05",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17032,
@@ -38,13 +54,21 @@
     "scene_code": "TORR_GP1_CINE_INVASION",
     "arabic_current": "<ts=&quot;0.08;3.679&quot;>قف! أهاه! هو-هو يو-يو! لقد حل<br>وقتنا أخيرا!",
     "arabic_edit": "<ts=&quot;0.08;3.679&quot;>قف! أهاه! هو-هو يو-يو! لقد حل وقتنا أخيرا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "e46e137a98439b0621bad224abfcfd59d5b284b2bdad40cef97316221bebba19",
+      "candidate_sha256": "7f73553173dd2828c0db77f0d2fcb78dd8e59e4aa60a907f432e11d35e6aad64",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17033,
@@ -65,14 +89,22 @@
     "speaker_code": "PIR2",
     "scene_code": "TORR_GP1_CINE_INVASION",
     "arabic_current": "<ts=&quot;0;3.859&quot;>لننهب مهتاجين ونفسد في<br>الأرض، فرجل التصليح أوشك<br>على الانتهاء!",
-    "arabic_edit": "<ts=&quot;0;3.859&quot;>لننهب مهتاجين ونفسد في الأرض، فرجل التصليح<br>أوشك على الانتهاء!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.859&quot;>لننهب بجنون ونعث فسادًا، فالمصلح أوشك على<br>الهلاك!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "2ec66f2db7d57ec343b85a60a985933b1914873a1136f6237ed382069a402a64",
+      "candidate_sha256": "29acfe44dcee98a45a5ef344befb7f129f0626451829fcf97fc8e068e685f15a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17378,
@@ -94,13 +126,21 @@
     "scene_code": "TORR_GP1_CINE_INVASION",
     "arabic_current": "<ts=&quot;0;5.749&quot;>انظروا هنا يا رفاقي، يبدو هذا<br>مفيدا! في الواقع أعتقد أنه<br>حيوي!",
     "arabic_edit": "<ts=&quot;0;5.749&quot;>انظروا هنا يا رفاقي، يبدو هذا مفيدا! في<br>الواقع أعتقد أنه حيوي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "dc3fd2e3968043a3519b206e41bec108e173f6692bc7ed71e65d402053f691fd",
+      "candidate_sha256": "8a290f1629ef571c587463f44242270fd5de195922b83a807b0f572c0954b9f2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17701,
@@ -122,12 +162,20 @@
     "scene_code": "TORR_GP1_CINE_INVASION",
     "arabic_current": "<ts=&quot;0.279;0.979&quot;>أوه لا.",
     "arabic_edit": "<ts=&quot;0.279;0.979&quot;>أوه لا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "3fba86664ecfbb871ba9e8cb8bb4ed1b25cb06a0291e62612f8f48a2582e4c79",
+      "candidate_sha256": "c1da5a676a325d2070430f90b44204c2fbe157a276cb15b049bfcdd1ef5583e0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21486,
@@ -136,14 +184,22 @@
     "speaker_code": "RIVE",
     "scene_code": "TORR_GP1_CINE_INVASION",
     "arabic_current": "<ts=&quot;0;3.005&quot;>يبدو أن القدر يعشق رؤيتك<br>تضرب على مؤخرتك يا بيير.",
-    "arabic_edit": "<ts=&quot;0;3.005&quot;>يبدو أن القدر يعشق رؤيتك تضرب على مؤخرتك<br>يا بيير.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.005&quot;>يبدو أن القدر يحب حقًّا رؤيتك تتلقى الضرب،<br>يا بيير.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "92105e1757789a15b081bec47bcaec845399453197c8f4ec5cb57aa5f7661df8",
+      "candidate_sha256": "75719b4dcab3649ea3b69bfbd1f1672f8a0949fe85a43f351e7debed3d1fcdd4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24711,

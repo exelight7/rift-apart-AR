@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_RODAVAIL",
     "arabic_current": "<ts=&quot;0;2.831&quot;>أتريد لأعدائك أن يصيبهم<br>البرق؟<ts=&quot;3.457;5.461&quot;>امسك قاذف الصاعقة!",
     "arabic_edit": "<ts=&quot;0;2.831&quot;>أتريد لأعدائك أن يصيبهم البرق؟<ts=&quot;3.457;5.461&quot;>امسك قاذف الصاعقة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "0661ae678f1faa77e67114db3fbd9bd2727d16f5b513149f4772472acee17887",
+      "candidate_sha256": "90bfe11ec016e5ecf34ad351e8d7fd466b80316ad7749ba9cba2ca5e096dd2fe",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

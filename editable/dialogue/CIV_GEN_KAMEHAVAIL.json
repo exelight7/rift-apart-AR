@@ -6,12 +6,20 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_KAMEHAVAIL",
     "arabic_current": "<ts=&quot;0;2.335&quot;>تحتاج شعاعا لا يتوقف؟<ts=&quot;2.409;4.701&quot;>جرب مصادم النغاترون.<ts=&quot;4.724;7.484&quot;>ليخترق كل ما تضعه أمامه!",
-    "arabic_edit": "<ts=&quot;0;2.335&quot;>تحتاج شعاعا لا يتوقف؟<ts=&quot;2.409;4.701&quot;>جرب مصادم النغاترون.<ts=&quot;4.724;7.484&quot;>ليخترق كل ما تضعه أمامه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.335&quot;>أتحتاج إلى شعاع لا ينقطع؟<ts=&quot;2.409;4.701&quot;>جرب مصادم النيجاترون،<ts=&quot;4.724;7.484&quot;>ليخترق كل ما تضعه أمامه!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "4d93ac77bdb075d2e9a4814bc34a273dacde0e2a6366dafccb4eaaa21953ec50",
+      "candidate_sha256": "808a9dfe3c1ab9db4457b18d08563365a04d8bff1324d9a44d9c94fb005440b6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -6,13 +6,21 @@
     "speaker_code": "BRAN",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0;1.75&quot;>،سنتقابل من جديد قريبا<ts=&quot;2.02;2.96&quot;>يا خلل.<ts=&quot;3.679;7.529&quot;>إذا ظل حظك معك.",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>،سنتقابل من جديد قريبا<ts=&quot;2.02;2.96&quot;>يا خلل.<ts=&quot;3.679;7.529&quot;>إذا ظل حظك معك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>سنراك مجددًا قريبًا،<ts=&quot;2.02;2.96&quot;>يا جليتش.<ts=&quot;3.679;7.529&quot;>إن استمر حظك الجيد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "5b1970b983ce5600f84797d8e1d370b579dd5821692bbb24aa89f513a8860b24",
+      "candidate_sha256": "42b6b81a9d682c049ffffb965a45249dea96275b6ccf2630c8e1785c364e0a10",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8214,
@@ -22,13 +30,21 @@
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.049;4.974&quot;>أصبحت تطير الآن أيضا؟!<br>فماذا؟! سيحذف الجميع<br>بالطريقة نفسها!",
     "arabic_edit": "<ts=&quot;0.049;4.974&quot;>أصبحت تطير الآن أيضا؟! فماذا؟! سيحذف<br>الجميع بالطريقة نفسها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "26843488bdd926529ce635b21f30473bd90de09d722cb70da855b24f8020babc",
+      "candidate_sha256": "5f5a6acb2890e6edba9eca6cbf1bd8ea343bbf47f2e07cc3e78fdac3207d8f58",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8215,
@@ -38,13 +54,21 @@
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.054;4.658&quot;>وقت اللعب! انتظر... هل في هذا<br>البعد فيروسات أيضا؟!",
     "arabic_edit": "<ts=&quot;0.054;4.658&quot;>وقت اللعب! انتظر... هل في هذا البعد<br>فيروسات أيضا؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "96a6687d64dfaa7b5a76cb72c0d21d81f061de5955697d1cf9e2529f65335a68",
+      "candidate_sha256": "3f1a068e751a46bb92eaa9375d15bd4919d17b4b8711530fc25531130dee281e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8216,
@@ -53,13 +77,21 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.035;5.164&quot;>انتشر إلى هذا الحد؟! كيف؟!",
-    "arabic_edit": "<ts=&quot;0.035;5.164&quot;>انتشر إلى هذا الحد؟! كيف؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.035;5.164&quot;>انتشرت إلى هذا الحد؟! كيف؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "7a0b60ccf2124c56dfb266bcbafc173e52c4d1a12540543e3a99c95fa4921d04",
+      "candidate_sha256": "d5e8126bdc96c35b3ef08f0194c773476dac5890bf934aae4de37f8b384635f5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8217,
@@ -68,13 +100,21 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.035;2.06&quot;>هذه تطوير للنبضة النووية!",
-    "arabic_edit": "<ts=&quot;0.035;2.06&quot;>هذه تطوير للنبضة النووية!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.035;2.06&quot;>هذا تطوير للنبضة النووية!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "24ed49a8ec1b72cf32dde5cea756fe0491871f8a98619bdfe93b6f6e5e0b174b",
+      "candidate_sha256": "0b6be17bdd736fcf911cc78febd01e653d2976ef44b4714c7f8b2633db087a1b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8218,
@@ -83,14 +123,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.027;2.028&quot;>ما التدريب مرة أخرى؟<ts=&quot;2.028;8.962&quot;>«إذا حذفت فيروسا، يمكنك<br>امتصاص الطاقة التي سرقها<br>واستخدامها لتشغيل<br>النبضة النووية!»",
-    "arabic_edit": "<ts=&quot;0.027;2.028&quot;>ما التدريب مرة أخرى؟<ts=&quot;2.028;8.962&quot;>«إذا حذفت فيروسا، يمكنك امتصاص الطاقة التي<br>سرقها واستخدامها لتشغيل النبضة النووية!»",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.027;2.028&quot;>ماذا قال التدريب؟<ts=&quot;2.028;8.962&quot;>«إذا حذفت فيروسًا، فيمكنك امتصاص الطاقة<br>التي سرقها لشحن النبضة النووية!»",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "bb289c7fb7f92c63be313ed02a65bd09f3498975f183a9873ea2fb1945d0cc1c",
+      "candidate_sha256": "ae5a5da67aaf81a2fa1735e3a852a167b6e93dd448b6e6f77b63e6050810fab0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8219,
@@ -99,14 +147,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.049;3.513&quot;>اختطفوا الجدار الناري<br>للحاسوب. حسنا.<ts=&quot;3.513;9.21&quot;>لكنني أرجح أنهم لا يعرفون<br>أنني ما زلت أستطيع المرور إذا<br>أسقطت الكبسولات!",
-    "arabic_edit": "<ts=&quot;0.049;3.513&quot;>اختطفوا الجدار الناري للحاسوب. حسنا.<ts=&quot;3.513;9.21&quot;>لكنني أرجح أنهم لا يعرفون أنني ما زلت<br>أستطيع المرور إذا أسقطت الكبسولات!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;3.513&quot;>سيطرت على جدار حماية الحاسوب. حسنًا.<ts=&quot;3.513;9.21&quot;>لكنني أراهن أنها لا تعرف أنني أستطيع<br>العبور إن دمرت الحويصلات!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "2b3b10fff89f208d1cf96b193e626962f8250df20aef44475af170c677e54c80",
+      "candidate_sha256": "18630e96f735f545bb141745044616b6ad8761c0920e3f5404c0416aae662b7f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8220,
@@ -115,14 +171,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.048;2.992&quot;>نعم! الحاسوب يبدأ بالعودة<br>إلى الشبكة!<ts=&quot;2.992;6.231&quot;>وهذا يعني أن الجدار الناري<br>أصبح خاليا تماما.",
-    "arabic_edit": "<ts=&quot;0.048;2.992&quot;>نعم! الحاسوب يبدأ بالعودة إلى الشبكة!<ts=&quot;2.992;6.231&quot;>وهذا يعني أن الجدار الناري أصبح خاليا<br>تماما.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.048;2.992&quot;>نعم! بدأ الحاسوب يعمل مجددًا!<ts=&quot;2.992;6.231&quot;>وهذا يعني أن جدار الحماية أصبح خاليًا من<br>الفيروسات تمامًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "ac12d009588be82889d124c1ea5b81918aadd119197891820c87152f2a74dd70",
+      "candidate_sha256": "db110df56825d930dbee4e37d543f684de70fbd8f2dfbea82d12c12fbdaf2e11",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8221,
@@ -131,14 +195,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.049;7.101&quot;>أوه، خائف من جليتش<br>الشريرة الآن؟! ينبغي أن<br>تكون كذلك! لأنني أملك ال--",
-    "arabic_edit": "<ts=&quot;0.049;7.101&quot;>أوه، خائف من جليتش الشريرة الآن؟! ينبغي أن<br>تكون كذلك! لأنني أملك ال--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;7.101&quot;>أوه، أتخافون الآن من جليتش الكبيرة<br>الشريرة؟! ويجدر بكم ذلك! لأن معي الـ...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "8c0e7f4add6de8cee70425a516c9e6c26b4a2ad4a3f37159b13a400722b4a180",
+      "candidate_sha256": "3ebcfe1781b1310a67d803c6b36b3af66859371fc1cefda8570176a772f5ca5d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8222,
@@ -147,13 +219,21 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.044;3.216&quot;>آه! هذه خديعة!",
-    "arabic_edit": "<ts=&quot;0.044;3.216&quot;>آه! هذه خديعة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.044;3.216&quot;>آآآه! إنه فخ!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "c8f71af35a850fe02334bef2df0ba9e66ac267f8fec14790b5b334eeb6cbdcf7",
+      "candidate_sha256": "7f690070568f3ec70cd7161a6754c0f6150a560691658b1d4b9a725652d48cd1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8223,
@@ -163,13 +243,21 @@
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.044;2.855&quot;>علينا إيقافهم قبل أن<br>يتطوروا أكثر.",
     "arabic_edit": "<ts=&quot;0.044;2.855&quot;>علينا إيقافهم قبل أن يتطوروا أكثر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "0b76ffccef00a65f1525d56251115e652b319e1f8be0575cb75c7ff06b9afdcf",
+      "candidate_sha256": "7ccaf8c57165ed2a0672b609f386e8173da76102d503da65d5fe249fafe04e8d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8224,
@@ -179,12 +267,20 @@
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.046;3.893&quot;>أنت *لي*.",
     "arabic_edit": "<ts=&quot;0.046;3.893&quot;>أنت *لي*.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "eed5005db4490793a3a0d754699f20b7ad99c2f3705c40207f0a156f4e34eef5",
+      "candidate_sha256": "788a40545fa770769f4c5aafd552bb9dc719cabdfc8f70b17039169b30a21773",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8225,
@@ -193,14 +289,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.046;1.636&quot;>لكن هذه ليست مشكلة هنا؛<ts=&quot;1.92;6.464&quot;>فمصنع الروبيون خال تماما<br>من العدوى الآن، فبوسعك أن<br>تتولى المهمة يا راتشت!",
-    "arabic_edit": "<ts=&quot;0.046;1.636&quot;>لكن هذه ليست مشكلة هنا؛<ts=&quot;1.92;6.464&quot;>فمصنع الروبيون خال تماما من العدوى الآن،<br>فبوسعك أن تتولى المهمة يا راتشت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.046;1.636&quot;>لكن هذه لم تعد مشكلة هنا؛<ts=&quot;1.92;6.464&quot;>مسبك الروبيون خال من العدوى الآن، فتول<br>الأمر يا راتشت!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "5e6596c61cbd9f172fdd7940e119bf6483fe4c85704eb1f368cc45d0ba6c5dcf",
+      "candidate_sha256": "822de3c1f98b1ecffcea68233519d54f9ba53566b88d26075c6f49f31334d1a2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8226,
@@ -209,13 +313,21 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.05;1.952&quot;>برودووووو!!!",
-    "arabic_edit": "<ts=&quot;0.05;1.952&quot;>برودووووو!!!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.05;1.952&quot;>راااائع!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "f19c61c28229ed165a92ed2efb0e24087ec771c0bb8a7fd38e229a960717fb89",
+      "candidate_sha256": "66cca25577e3095959c21f3581c439a8b401edba0334796df7fa88db48e8eab6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8227,
@@ -225,12 +337,20 @@
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.038;2.042&quot;>لا، لا، لا، لا، لا!",
     "arabic_edit": "<ts=&quot;0.038;2.042&quot;>لا، لا، لا، لا، لا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "9442470fb860f376c22832175782d62326aae1e613ec50ec0ba21584ace6bda2",
+      "candidate_sha256": "8fe0bc05f65295df1bc94779aa6d3ae77b70750686467ab5450e7e8f6b73518f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8228,
@@ -240,11 +360,19 @@
     "scene_code": "HACK_GP_KEDARO",
     "arabic_current": "<ts=&quot;0.041;2.313&quot;>هل هذا... الفيروس؟",
     "arabic_edit": "<ts=&quot;0.041;2.313&quot;>هل هذا... الفيروس؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "4ba301613563570f9a3f34949557aa16c988af873331eef5cb516bbb89bdf60f",
+      "candidate_sha256": "52e309e911c1b57741c7318270e3c211bd1cf7cf66c9f6223b0c13ea76caf779",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

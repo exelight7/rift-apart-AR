@@ -7,12 +7,20 @@
     "scene_code": "",
     "arabic_current": "تعقيد الصوت",
     "arabic_edit": "تعقيد الصوت",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "26c731e8f73a26a058bea56c22cec58b12943f44b4debfbf6bbb801f7b486415",
+      "candidate_sha256": "0aac4ee8f5b9afb4f7f9cdf0fd952aca564a5ff04fb46b1f8e1244514e4b8b28",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16293,
@@ -21,14 +29,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "متوسط: يقلل عدد الأصوات<br>التي تعمل في وقت واحد<br>لتحسين الأداء. عال: يزيد عدد<br>الأصوات التي تشغل في<br>وقت واحد، لكنه قد يؤثر على<br>الأداء.",
-    "arabic_edit": "متوسط: يقلل عدد الأصوات التي تعمل<br>في وقت واحد لتحسين الأداء. عال:<br>يزيد عدد الأصوات التي تشغل في وقت<br>واحد، لكنه قد يؤثر على الأداء.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "متوسط: يقلل عدد الأصوات التي تشغل في الوقت<br>نفسه لتحسين الأداء.<br>عال: يزيد عدد الأصوات التي تشغل في الوقت<br>نفسه، وقد يؤثر في الأداء.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "0ca9575ec59594bea2519001d4a5fe190407c5fa46e0224b02c61a2b61e6cdb6",
+      "candidate_sha256": "98e7bccf31035137de9cbe198cca589cd8859daa7dc6b7c405504008e5ccbb32",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16294,
@@ -38,12 +54,20 @@
     "scene_code": "",
     "arabic_current": "عال",
     "arabic_edit": "عال",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3",
+      "candidate_sha256": "bd8dfadf3a6b907148a44e506548fd90895c740a756b9d52a2354d86c51746db",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16295,
@@ -53,12 +77,20 @@
     "scene_code": "",
     "arabic_current": "متوسط",
     "arabic_edit": "متوسط",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "7c48dd672a68098c3a9dac57805004a146db39c8d60c81d091537ee9c4a76054",
+      "candidate_sha256": "42a5dadf6e45148828c93cea39741b4230c27afab0e5b4b31c5f7882003a0c9a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16296,
@@ -67,15 +99,23 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "تعرض نقاط الإرشاد عند<br>الضغط على الزر. مناسب<br>للاعبين الذين يفضلون<br>استخدام الذراعين الأيسر<br>والأيمن للحركة والقتال.<br><br>يمكن تغيير الإعدادات فرديا<br>من قائمة الخيارات في أي<br>وقت.",
-    "arabic_edit": "تعرض نقاط الإرشاد عند الضغط على<br>الزر. مناسب للاعبين الذين يفضلون<br>استخدام الذراعين الأيسر والأيمن<br>للحركة والقتال.<br><br>يمكن تغيير الإعدادات فرديا من<br>قائمة الخيارات في أي وقت.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تظهر نقاط التوجيه عند الضغط على الزر.<br>مناسب لمن يلعبون بجهاز التحكم ويفضلون<br>استخدام العصوين اليسرى واليمنى للحركة<br>والقتال.<br><br>يمكن تغيير كل إعداد على حدة من قائمة<br>الخيارات في أي وقت.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
+      "prose_full_review",
       "terminology"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "4f02487d28b42c84b8c9caf74c2ab7fc7a98f2415ec6553b583d36e282643192",
+      "candidate_sha256": "cbc58177d0770c59edc7da8e8aba07f1d8db1d544d4cfaf6a085b089e309c3b8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16297,
@@ -84,14 +124,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اتجاه السير أوضح والسقوط<br>عن الحواف أصعب. وتحتاج<br>التنقل إلى أزرار أقل، كما<br>يتلقى التصويب مساعدة<br>عند اللعب بجهاز التحكم.<br><br>يمكن تغيير الإعدادات فرديا<br>من قائمة الخيارات في أي<br>وقت.",
-    "arabic_edit": "اتجاه السير أوضح والسقوط عن الحواف<br>أصعب. وتحتاج التنقل إلى أزرار أقل،<br>كما يتلقى التصويب مساعدة عند اللعب<br>بجهاز التحكم.<br><br>يمكن تغيير الإعدادات فرديا من<br>قائمة الخيارات في أي وقت.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تصبح وجهتك أوضح وتحصل على حماية أكبر من<br>السقوط عن الحواف. تحتاج إلى أزرار أقل<br>للتنقل، وتحصل على مساعدة في التصويب عند<br>اللعب بجهاز التحكم.<br><br>يمكن تغيير كل إعداد على حدة من قائمة<br>الخيارات في أي وقت.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
+      "prose_full_review",
       "terminology"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "37de4be36898c131a2647c413eab5e739e14eedf29971899c0e99862f50805a1",
+      "candidate_sha256": "530e28f2d78e90837f054d1d50d07584f0e827068ca79c5a6ba1a820d11a0bb6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

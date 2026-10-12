@@ -71,11 +71,11 @@ class Window(QWidget):
         QProgressBar::chunk{background:#75dedb;border-radius:3px;}
         ''')
         outer=QHBoxLayout(self);outer.setContentsMargins(0,0,0,0);outer.setSpacing(0);outer.setDirection(QHBoxLayout.LeftToRight);outer.addWidget(Portal())
-        body=QWidget();outer.addWidget(body,1);v=QVBoxLayout(body);v.setContentsMargins(32,24,32,22);v.setSpacing(12)
-        top=QHBoxLayout();ey=QLabel('مجتمع التعريب  /  RIFT APART AR');ey.setObjectName('eyebrow');top.addWidget(ey);top.addStretch();badge=QLabel('v0.2.1 • تجريبية');badge.setObjectName('badge');top.addWidget(badge);v.addLayout(top)
+        body=QWidget();outer.addWidget(body,1);v=QVBoxLayout(body);v.setContentsMargins(32,24,32,22);v.setSpacing(8)
+        top=QHBoxLayout();ey=QLabel('مجتمع التعريب  /  RIFT APART AR');ey.setObjectName('eyebrow');top.addWidget(ey);top.addStretch();badge=QLabel('v0.3.0 • تجريبية');badge.setObjectName('badge');top.addWidget(badge);v.addLayout(top)
         title=QLabel('افتح بوابة المغامرة.');title.setObjectName('title');v.addWidget(title)
         desc=QLabel('تعريب راتشت وكلانك، بخط واضح ونصوص محسّنة.\nثبّت الحزمة بخطوة واحدة واحتفظ بنسخة للعودة.');desc.setObjectName('muted');desc.setWordWrap(True);v.addWidget(desc)
-        card=QFrame();card.setObjectName('card');card.setMinimumHeight(170);cv=QVBoxLayout(card);cv.setContentsMargins(20,18,20,20);cv.setSpacing(12)
+        card=QFrame();card.setObjectName('card');card.setMinimumHeight(170);cv=QVBoxLayout(card);cv.setContentsMargins(20,18,20,20);cv.setSpacing(8)
         row=QHBoxLayout();row.addWidget(QLabel('01   موقع اللعبة'));row.addStretch();self.detect=QLabel('اكتشاف تلقائي');self.detect.setObjectName('eyebrow');row.addWidget(self.detect);cv.addLayout(row)
         self.path=QLineEdit();self.path.setLayoutDirection(Qt.LeftToRight);self.path.setPlaceholderText('Steam / steamapps / common / Ratchet & Clank - Rift Apart');cv.addWidget(self.path)
         pr=QHBoxLayout();self.browse=QPushButton('اختيار مجلد');self.browse.clicked.connect(self.choose);pr.addWidget(self.browse);pr.addStretch();self.location=QLabel('اختر المجلد الذي يحتوي على toc');self.location.setObjectName('muted');pr.addWidget(self.location);cv.addLayout(pr);v.addWidget(card)
@@ -83,7 +83,7 @@ class Window(QWidget):
         for text in ['✓  حوارات وواجهة مع تصحيح اتجاه النص وتنسيق السطور','✓  DLSS · FSR · XeSS · Ray Tracing تبقى بالإنجليزية','✓  تثبيت دون إنترنت، مع فحص سلامة ونسخة احتياطية']:
             l=QLabel(text);l.setObjectName('muted');l.setWordWrap(True);cv2.addWidget(l)
         v.addWidget(card2)
-        notice=QLabel('إصدار تجريبي: تصحيح التنسيق أوسع من المراجعة اللغوية.\nأغلق اللعبة واللانشر قبل التثبيت أو الاستعادة.');notice.setObjectName('muted');notice.setWordWrap(True);v.addWidget(notice)
+        notice=QLabel('مراجعة لغوية لجميع النصوص؛ اختبار المشاهد بصريًا مستمر.\nأغلق اللعبة واللانشر قبل التثبيت أو الاستعادة.');notice.setObjectName('muted');notice.setWordWrap(True);v.addWidget(notice)
         v.addStretch(1);self.status=QLabel('جاهز. ملفات الحفظ لا تتغير.');self.status.setObjectName('muted');self.status.setWordWrap(True);v.addWidget(self.status)
         self.progress=QProgressBar();self.progress.setFixedHeight(6);self.progress.setRange(0,100);self.progress.setValue(0);self.progress.setTextVisible(False);v.addWidget(self.progress)
         actions=QHBoxLayout();self.install_btn=QPushButton('تثبيت التعريب  ←');self.install_btn.setObjectName('primary');self.install_btn.clicked.connect(lambda:self.start('install'));actions.addWidget(self.install_btn,2);self.restore_btn=QPushButton('استعادة الأصل');self.restore_btn.clicked.connect(lambda:self.start('restore'));actions.addWidget(self.restore_btn,1);v.addLayout(actions)

@@ -30,13 +30,21 @@
     "speaker_code": "MORT",
     "scene_code": "SARG_GP1_CINE_JPINTRO",
     "arabic_current": "<ts=&quot;0.022;1.893&quot;>تمهل هناك-ها-ها--",
-    "arabic_edit": "<ts=&quot;0.022;1.893&quot;>تمهل هناك-ها-ها--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.022;1.893&quot;>مهـ... مهلًا، تمهل الآن...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "21d9d61a727b9774b1f4d59c246b46656292ea75ae2dee51e2a90e463e15d091",
+      "candidate_sha256": "4a2d9572481d095d4f5cd527b07445e04ffcfcf402cf5e952031fb674307159d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23931,
@@ -46,13 +54,21 @@
     "scene_code": "SARG_GP1_CINE_JPINTRO",
     "arabic_current": "<ts=&quot;0;5.151&quot;>إذن لديك تسع ثوان ونصف<br>لتخبرنا أين هم. واحد...",
     "arabic_edit": "<ts=&quot;0;5.151&quot;>إذن لديك تسع ثوان ونصف لتخبرنا أين هم.<br>واحد...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "a37c7f069e62dbd732064e350be80f288ebfe24b870f4ec049c958c77623c32e",
+      "candidate_sha256": "84340c3bd8198993bd111809f1bb0cb215b4e24b85174dd41bfd6e3bb0b45130",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23932,
@@ -61,13 +77,21 @@
     "speaker_code": "T4L4",
     "scene_code": "SARG_GP1_CINE_JPINTRO",
     "arabic_current": "<ts=&quot;0.045;6.157&quot;>لم نتبع ذلك اللومباكس<br>وروبوت أليف عبر الأبعاد<ts=&quot;6.157;6.828&quot;>لنوقفنا بعض كرات الوبر.",
-    "arabic_edit": "<ts=&quot;0.045;6.157&quot;>لم نتبع ذلك اللومباكس وروبوت أليف عبر<br>الأبعاد<ts=&quot;6.157;6.828&quot;>لنوقفنا بعض كرات الوبر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.045;6.157&quot;>لم نلاحق ذلك اللومباكس وروبوته الأليف عبر<br>الأبعاد<ts=&quot;6.157;6.828&quot;>لتوقفنا بعض كرات الفرو.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "c5e7547d8ea85ef5d8a2282771a2fd318521e23b199dd5bcf7442ff91c3e4db2",
+      "candidate_sha256": "23e42d841ba16573cdb3441c797a10ad2d413ace3a79ca734018a8bdcd5592d6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

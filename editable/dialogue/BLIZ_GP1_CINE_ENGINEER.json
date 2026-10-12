@@ -6,13 +6,21 @@
     "speaker_code": "CHEN",
     "scene_code": "BLIZ_GP1_CINE_ENGINEER",
     "arabic_current": "<ts=&quot;0;1.174&quot;>هل تسمع ذلك؟",
-    "arabic_edit": "<ts=&quot;0;1.174&quot;>هل تسمع ذلك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.174&quot;>هل تسمعين ذلك؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "cd2dba6866373ba4249d2f3178aff0ca3049db26840b23be3c9f03be38be410c",
+      "candidate_sha256": "bf21607b6c50276dc7d6a2a1175720074ac7355cb570a1c18bb4d6266ee3f0c7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1525,
@@ -21,14 +29,22 @@
     "speaker_code": "CHEN",
     "scene_code": "BLIZ_GP1_CINE_ENGINEER",
     "arabic_current": "<ts=&quot;0;1.009&quot;>أصوات.<ts=&quot;1.532;3.421&quot;>لم أسمعها منذ وقت ليس<br>،بطويل<ts=&quot;3.828;7.591&quot;>،لكن أينما كان البنفسجي<br>تكون هناك أيضا.",
-    "arabic_edit": "<ts=&quot;0;1.009&quot;>أصوات.<ts=&quot;1.532;3.421&quot;>لم أسمعها منذ وقت ليس ،بطويل<ts=&quot;3.828;7.591&quot;>،لكن أينما كان البنفسجي تكون هناك أيضا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.009&quot;>أصوات.<ts=&quot;1.532;3.421&quot;>لم يمض وقت طويل على بدء سماعي لها،<ts=&quot;3.828;7.591&quot;>لكنها توجد حيث يوجد ذلك الشيء البنفسجي.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "28543bb90c56b479154579c6ab91eda9b8599286909ed69e7db1125b7ed4fc9d",
+      "candidate_sha256": "422630bff12b49d021a40b2433fd861ef92e99b781710695fd42d8f18d090bc9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1526,
@@ -37,13 +53,21 @@
     "speaker_code": "CHEN",
     "scene_code": "BLIZ_GP1_CINE_ENGINEER",
     "arabic_current": "<ts=&quot;0;2.1&quot;>،أولا الزلازل والبليزون<ts=&quot;2.598;3.442&quot;>والآن هذا...",
-    "arabic_edit": "<ts=&quot;0;2.1&quot;>،أولا الزلازل والبليزون<ts=&quot;2.598;3.442&quot;>والآن هذا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.1&quot;>بدأ الأمر بالزلازل والبليزون،<ts=&quot;2.598;3.442&quot;>والآن هذا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "6da533b138c60572515c5821136fa6e245935cfa4037d70399b57b18f2b99e45",
+      "candidate_sha256": "1ab340e9740fbe1fa59f2275759b226f8989730f4c746abaf1e0bf5d39e62968",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1527,
@@ -53,13 +77,21 @@
     "scene_code": "BLIZ_GP1_CINE_ENGINEER",
     "arabic_current": "<ts=&quot;0;2.45&quot;>ليس قبل أن أتبين ما<br>يحدث.<ts=&quot;2.79;6.29&quot;>فمن يدري، ربما كان موقع<br>الحفر كله مسكونا.",
     "arabic_edit": "<ts=&quot;0;2.45&quot;>ليس قبل أن أتبين ما يحدث.<ts=&quot;2.79;6.29&quot;>فمن يدري، ربما كان موقع الحفر كله مسكونا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "8a64cff1c6c473f5359a1c72d2b15f833b54ba066babfb25824196811f2214e2",
+      "candidate_sha256": "a6a43b471be745cf209166b6ce538f78c279c98a5d78e36f137f5c1e5ef77593",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1528,
@@ -69,13 +101,21 @@
     "scene_code": "BLIZ_GP1_CINE_ENGINEER",
     "arabic_current": "<ts=&quot;0;3.696&quot;>لذلك أرسلت روبوتات العلوم<br>لمسح ذلك البنفسجي.",
     "arabic_edit": "<ts=&quot;0;3.696&quot;>لذلك أرسلت روبوتات العلوم لمسح ذلك<br>البنفسجي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "34559239ab593afce3830dac255944b3151be308a5c1ab480214487788fd7ef6",
+      "candidate_sha256": "1f0bcca240af50ecfe3e01650189af5ceb9121ea172927d0110e89a4e3e60243",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1529,
@@ -84,13 +124,21 @@
     "speaker_code": "CHEN",
     "scene_code": "BLIZ_GP1_CINE_ENGINEER",
     "arabic_current": "<ts=&quot;0;2.09&quot;>علي أن أستعيدها.<ts=&quot;2.09;3.818&quot;>حين أعرف أنها آمنة...",
-    "arabic_edit": "<ts=&quot;0;2.09&quot;>علي أن أستعيدها.<ts=&quot;2.09;3.818&quot;>حين أعرف أنها آمنة...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.09&quot;>علي استعادتها.<ts=&quot;2.09;3.818&quot;>حالما أتأكد من أن الوضع آمن...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "ac4cbb47ed84ea1f40865c64b22741d68e5779a6c352ccc94eb810bc8596cac7",
+      "candidate_sha256": "d62a07c85e5c4769ef9e559b0da8f9950a63ca557870ef44de46dcdb0aa3f2ff",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20517,
@@ -100,12 +148,20 @@
     "scene_code": "BLIZ_GP1_CINE_ENGINEER",
     "arabic_current": "<ts=&quot;0.014;1.054&quot;>لا؟",
     "arabic_edit": "<ts=&quot;0.014;1.054&quot;>لا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "efa7baad617abcbf69cfcf60eae3c3f5dc10bca72ab1c340598e4c7a264800c6",
+      "candidate_sha256": "2ce510d521191bab1145bad9a3f240ec294800a676936d2062c4aadca8139bde",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20518,
@@ -114,14 +170,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BLIZ_GP1_CINE_ENGINEER",
     "arabic_current": "<ts=&quot;0.03;1.206&quot;>لا أسمع شيئا...<ts=&quot;1.687;5.373&quot;>إلا شخصا يسأل هل ستحفر<br>بحثا عن كوارتز المرحلة؟",
-    "arabic_edit": "<ts=&quot;0.03;1.206&quot;>لا أسمع شيئا...<ts=&quot;1.687;5.373&quot;>إلا شخصا يسأل هل ستحفر بحثا عن كوارتز<br>المرحلة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.03;1.206&quot;>لا أسمع شيئًا...<ts=&quot;1.687;5.373&quot;>إلا شخصًا يسأل إن كنت ستحفر بحثًا عن<br>كوارتز الطور قريبًا؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "2c0505c3b082e594eb4b97a264596a879abf9f029ada58fba00f762203eb8daa",
+      "candidate_sha256": "ea9e22ab0f5b87c52af4f39e274d317f99f3ab2f98dfca9a6a84469630993c0d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20519,
@@ -131,11 +195,19 @@
     "scene_code": "BLIZ_GP1_CINE_ENGINEER",
     "arabic_current": "<ts=&quot;0.023;0.989&quot;>و؟",
     "arabic_edit": "<ts=&quot;0.023;0.989&quot;>و؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "04d72427f7c339ad12e309eb65979536d5c78cb0e227f81191127ab26543a5d7",
+      "candidate_sha256": "4cd22c93d5c1937333657ca8776fe6df5d4f7ccf928efae5303575e1ed450f01",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

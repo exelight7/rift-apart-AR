@@ -1,0 +1,1602 @@
+[
+  {
+    "index": 24532,
+    "key": "UPGRADE_RYNO_DIRECT_DAMAGE_DESC",
+    "source_sha256": "74007f6208d9a8bc61564c0ed63b5cbca4a84d17b34e61a892760a284f7c4b5f",
+    "before": "الضربات المباشرة تلحق ضررا أكبر.",
+    "after": "الضربات المباشرة تلحق ضررا أكبر.",
+    "decision": "keep"
+  },
+  {
+    "index": 24533,
+    "key": "UPGRADE_RYNO_PORTAL_COUNT",
+    "source_sha256": "5d8131f37cdcc9b0c3bf1e9f807e9bd9edc2e72df94ce2395c95d1467bf6a038",
+    "before": "عدد البوابات",
+    "after": "عدد البوابات",
+    "decision": "keep"
+  },
+  {
+    "index": 24534,
+    "key": "UPGRADE_RYNO_PORTAL_COUNT_DESC",
+    "source_sha256": "d3edcfd1ebad8898ba629c5ec11a59dd45cea02705ace84cf3794f22be8f6bf3",
+    "before": "تفتح بوابات أصغر إضافية عند<br>الإطلاق.",
+    "after": "تفتح بوابات أصغر إضافية عند<br>الإطلاق.",
+    "decision": "keep"
+  },
+  {
+    "index": 24535,
+    "key": "UPGRADE_RYNO_SPEED",
+    "source_sha256": "ae0d0f6db657a21327ae40e53f5f6ce095f331c8f9b10bcd94ac6f3f00c20f2d",
+    "before": "زيادة السرعة",
+    "after": "زيادة السرعة",
+    "decision": "keep"
+  },
+  {
+    "index": 24536,
+    "key": "UPGRADE_RYNO_SPEED_DESC",
+    "source_sha256": "82875440ae7805cda4ae7fa5707e38a37db30fdfcad5e4a179f8563cb05ba617",
+    "before": "زد سرعة فتح البوابات وإسقاط<br>الأشياء.",
+    "after": "زد سرعة فتح البوابات وإسقاط<br>الأشياء.",
+    "decision": "keep"
+  },
+  {
+    "index": 24537,
+    "key": "UPGRADE_SHATTERBOMB_EXPLODE_CHANCE_DESC",
+    "source_sha256": "66448d81d5a7527e87e5ea63d229bae9b3e9089431d609430068364b265fb1f7",
+    "before": "زد احتمال تحول الأعداء إلى قنابل<br>تحطيم وانفجارها.",
+    "after": "زد احتمال تحول الأعداء إلى قنابل<br>تحطيم تنفجر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24538,
+    "key": "UPGRADE_SHATTERBOMB_EXPLODE_CHANCE_TITLE",
+    "source_sha256": "3023e46bfed66cdcad204ca98e4c30903e6aebc6c81a52363faf82feb64cfc40",
+    "before": "احتمال الانفجار",
+    "after": "احتمال الانفجار",
+    "decision": "keep"
+  },
+  {
+    "index": 24539,
+    "key": "UPGRADE_SHATTERBOMB_PROJ_SPEED",
+    "source_sha256": "a22e3f39ca0a01fa3031d5a0cc99ddc2f45a9430746adc6e18c4bc4259b08537",
+    "before": "رمي أسرع",
+    "after": "رمي أسرع",
+    "decision": "keep"
+  },
+  {
+    "index": 24540,
+    "key": "UPGRADE_SHATTERBOMB_PROJ_SPEED_DESC",
+    "source_sha256": "37cb9be075ddb329aa4577fa43c463f2f11536ccb4bf40213260b97dbbcb6892",
+    "before": "تطير قنابل التحطيم في الهواء بسرعة<br>أكبر بكثير.",
+    "after": "تطير قنابل التحطيم في الهواء بسرعة<br>أكبر بكثير.",
+    "decision": "keep"
+  },
+  {
+    "index": 24541,
+    "key": "UPGRADE_TOPIARYBLASTER_DAMAGE",
+    "source_sha256": "cf65741ff04014551aadb0a40c39bbaa4c242f5f0ff565ffdc001852b3e54dc4",
+    "before": "ضرر إضافي",
+    "after": "ضرر إضافي",
+    "decision": "keep"
+  },
+  {
+    "index": 24542,
+    "key": "UPGRADE_TOPIARYBLASTER_DAMAGE_DESC",
+    "source_sha256": "f5cf879f82bec1163b32e86be4781e2b0194d679b27ff0a334e11b4f2a85b912",
+    "before": "أعداء التشذيب يتحملون ضررا إضافيا.",
+    "after": "يتلقى الأعداء المتحولون إلى شجيرات<br>ضررًا إضافيًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24543,
+    "key": "UPGRADE_TOPIARYBLASTER_DURATION",
+    "source_sha256": "0afacecf55d52f2f9b46f1184da4bae34c6dd97a53a461db418a3e601b11cb1a",
+    "before": "مدة التأثير",
+    "after": "مدة التأثير",
+    "decision": "keep"
+  },
+  {
+    "index": 24544,
+    "key": "UPGRADE_TOPIARYBLASTER_DURATION_DESC",
+    "source_sha256": "1d0aacc23197a92acb270c83309b82436b333b67f7d4126ac2e7cc00f38633ff",
+    "before": "تدوم الأشجار المقصوصة مدة أطول.",
+    "after": "يدوم تحول الأعداء إلى شجيرات مدة<br>أطول.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24545,
+    "key": "UPGRADE_TOPIARYBLASTER_LIFETIME",
+    "source_sha256": "b63f53a612e88a460ecf5d5aa7047d7f85c9aaea5321c561728247a18cafc764",
+    "before": "عمر الرشاش",
+    "after": "عمر الرشاش",
+    "decision": "keep"
+  },
+  {
+    "index": 24546,
+    "key": "UPGRADE_TOPIARYBLASTER_LIFETIME_DESC",
+    "source_sha256": "627b77db556c471a2a05faa9942fe27afe98ab2255f1092fe478cd4051e8619e",
+    "before": "زد عمر الرشاش.",
+    "after": "زد عمر الرشاش.",
+    "decision": "keep"
+  },
+  {
+    "index": 24547,
+    "key": "UPGRADE_TUNNELER_LOCK_SPEED",
+    "source_sha256": "f9fcbf478358719ba7f1dfe9f211ff31ae266650070443c0526f095f66152f5f",
+    "before": "سرعة التثبيت",
+    "after": "سرعة التثبيت",
+    "decision": "keep"
+  },
+  {
+    "index": 24548,
+    "key": "UPGRADE_TUNNELER_LOCK_SPEED_DESC",
+    "source_sha256": "2e027afa76c8a14a87f9a0a440501b48c09129c5aeb243b43ff6625eb02681bb",
+    "before": "قلل الوقت اللازم للتثبيت على<br>الهدف.",
+    "after": "قلل الوقت اللازم للتثبيت على<br>الهدف.",
+    "decision": "keep"
+  },
+  {
+    "index": 24549,
+    "key": "UPGRADE_TUNNELER_MOVEMENT",
+    "source_sha256": "3f91c25095692d80e654871202566d339e1171b30df04af8539a9b917e6e7761",
+    "before": "سرعة الحركة",
+    "after": "سرعة الحركة",
+    "decision": "keep"
+  },
+  {
+    "index": 24550,
+    "key": "UPGRADE_TUNNELER_MOVEMENT_DESC",
+    "source_sha256": "a5f6374b652e0ad3ff95fecb548ee470a4602b6df235c436024d6ea23e6084e7",
+    "before": "زد سرعة حركة الكلب.",
+    "after": "زد سرعة حركة الكلب.",
+    "decision": "keep"
+  },
+  {
+    "index": 24551,
+    "key": "UPGRADE_TUNNELER_RADIUS",
+    "source_sha256": "c9d1e020c6beff0bb6fd33b5d084d0442864be4e954aad543a434ea360945c27",
+    "before": "نصف قطر الانفجار",
+    "after": "نصف قطر الانفجار",
+    "decision": "keep"
+  },
+  {
+    "index": 24552,
+    "key": "UPGRADE_TUNNELER_RADIUS_DESC",
+    "source_sha256": "3cfe6572919e8299c1f7cff9d447d113fc1ddf10068a86902fcff3bec56de3b8",
+    "before": "يزيد نصف قطر الانفجار.",
+    "after": "يزيد نصف قطر الانفجار.",
+    "decision": "keep"
+  },
+  {
+    "index": 24553,
+    "key": "UPGRADE_WARMONGER_DIRECT_DAMAGE",
+    "source_sha256": "a3ae0f6212339e07caf214c05adb895ff4f41e1e546132dd7c28e2f365299cd9",
+    "before": "الضرر المباشر",
+    "after": "الضرر المباشر",
+    "decision": "keep"
+  },
+  {
+    "index": 24554,
+    "key": "UPGRADE_WARMONGER_DIRECT_DAMAGE_DESC",
+    "source_sha256": "74007f6208d9a8bc61564c0ed63b5cbca4a84d17b34e61a892760a284f7c4b5f",
+    "before": "الضربات المباشرة تلحق ضررا أكبر.",
+    "after": "الضربات المباشرة تلحق ضررا أكبر.",
+    "decision": "keep"
+  },
+  {
+    "index": 24555,
+    "key": "UPGRADE_WARMONGER_MICRO_ROCKET_RANGE",
+    "source_sha256": "443a0bc6436752cde17f77f4f9ec1bdf195833c1b84860957ea2ff6cc81a661b",
+    "before": "مدى الصواريخ الدقيقة",
+    "after": "مدى الصواريخ المصغرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24556,
+    "key": "UPGRADE_WARMONGER_MICRO_ROCKET_RANGE_DESC",
+    "source_sha256": "251fc10cde6be8fee2d83ae8ec1053d8560490c93297c791bf25f9fccf54b388",
+    "before": "زد مدى الصواريخ الدقيقة.",
+    "after": "زد مدى الصواريخ المصغرة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24557,
+    "key": "UPGRADE_WARPRIFLE_COOLDOWN",
+    "source_sha256": "6530120c98e36f30745cbe94eb99032384c88f6458322521f2cba96759b39c4e",
+    "before": "معدل التبريد",
+    "after": "معدل التبريد",
+    "decision": "keep"
+  },
+  {
+    "index": 24558,
+    "key": "UPGRADE_WARPRIFLE_COOLDOWN_DESC",
+    "source_sha256": "40b7f9d0e86a82a9b7a821ca732d4d5e5cd3bb8a9b8de3d48377d082061d1f4c",
+    "before": "يبرد السلاح أسرع.",
+    "after": "يبرد السلاح أسرع.",
+    "decision": "keep"
+  },
+  {
+    "index": 24559,
+    "key": "UPGRADE_WARPRIFLE_OVERHEAT",
+    "source_sha256": "b886619e7a7d28f685dea16c91302cb78f526f4ecf8c7f0e13c538ca4c57f7f6",
+    "before": "سعة حرارية عالية",
+    "after": "سعة حرارية عالية",
+    "decision": "keep"
+  },
+  {
+    "index": 24560,
+    "key": "UPGRADE_WARPRIFLE_OVERHEAT_DESC",
+    "source_sha256": "95621987f95d59d34c8f8f881ac466ca5bdf25fcb9e5c2a984b6bc3acc8f4bf1",
+    "before": "زد الزمن قبل أن يفرط السلاح في<br>التسخين.",
+    "after": "زد المدة قبل أن ترتفع حرارة السلاح<br>أكثر من اللازم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24561,
+    "key": "UPGRADE_WARPRIFLE_ROF",
+    "source_sha256": "f64ebc65d99b5a1633cfd09de02df48ac993a93c8a203ee4125f5c0d23d391af",
+    "before": "معدل الإطلاق",
+    "after": "معدل الإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 24562,
+    "key": "UPGRADE_WARPRIFLE_ROF_DESC",
+    "source_sha256": "c50f167d88b3d6de4f781b0b0744cf07174d0a64bbb9da21bb0feeee6bac9fb7",
+    "before": "زد معدل الإطلاق.",
+    "after": "زد معدل الإطلاق.",
+    "decision": "keep"
+  },
+  {
+    "index": 24744,
+    "key": "WEAPON_BOUNCER",
+    "source_sha256": "39e88b1351e5f1e0db418f1eeea5b26d8bf52bc836b86f3b791dc1639c7e2bcb",
+    "before": "الباونسر",
+    "after": "الباونسر",
+    "decision": "keep"
+  },
+  {
+    "index": 24745,
+    "key": "WEAPON_BOUNCER_DESC",
+    "source_sha256": "25ca676aa2b8348fc749b25962d713e9d46a1c076f4b61493a0823c26efa4fc8",
+    "before": "الدمار الشامل قد يأتي بمقاسات<br>مختلفة! ارم قنبلة تطلق قنبيبات<br>دقيقة عند ارتطامها بعدو أو بأرض<br>الميدان!",
+    "after": "قد يأتي الدمار الشامل بكل الأحجام!<br>أطلق قنبلة تحرر قنابل مصغرة حين<br>تصطدم بعدو أو بما حولها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24746,
+    "key": "WEAPON_BOUNCER_DESC_SOON",
+    "source_sha256": "6fccaad334b4094aed24d74c03c411b3ef48bc5c33188fddd39d6fbfde266120",
+    "before": "إن لم يكن أعداؤك قد سئموا القنابل<br>من قبل فسيفعلون قريبا!",
+    "after": "إن لم يكن أعداؤك قد سئموا القنابل<br>من قبل فسيفعلون قريبا!",
+    "decision": "keep"
+  },
+  {
+    "index": 24747,
+    "key": "WEAPON_BOUNCER_DESC_UPGRADE",
+    "source_sha256": "b1699d8d0e88c4a0a8f88425fb97b80fcb4b0d03266b584406aeaf4527456fa5",
+    "before": "يطلق قنابل تطلق قنبيبات دقيقة عند<br>ارتطامها بعدو أو بأرض الميدان.",
+    "after": "يطلق قنابل تحرر قنابل مصغرة حين<br>تصطدم بعدو أو بما حولها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24748,
+    "key": "WEAPON_BOUNCER_OMEGA",
+    "source_sha256": "c81db2363c3b2376d70f7ef26d9fb6ca18ab47d9a52dc6ebdbc40f53aacbe2ae",
+    "before": "Ω الباونسر الثقيل",
+    "after": "Ω الباونسر الثقيل",
+    "decision": "keep"
+  },
+  {
+    "index": 24749,
+    "key": "WEAPON_BOUNCER_OMEGA_DESC",
+    "source_sha256": "478d6a8115faf38a957f8d21900302d4b500bbeec0ff262c13f9e200995fe3e4",
+    "before": "نسخة أوميغا من الباونسر الثقيل.",
+    "after": "نسخة أوميغا من الباونسر الثقيل.",
+    "decision": "keep"
+  },
+  {
+    "index": 24750,
+    "key": "WEAPON_BOUNCER_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24751,
+    "key": "WEAPON_BOUNCER_OMEGA_DESC_UPGRADE",
+    "source_sha256": "aedeb4755be53bde2c7ffe63da7a1064ec01a34bfdca4164e5c4e5b52b709869",
+    "before": "يطلق قنابل تطلق قنبيبات دقيقة عند<br>،ارتطامها بعدو أو بأرض الميدان<br>وتنفجر كل قنبلة عند كل ارتداد.",
+    "after": "يطلق قنابل تحرر قنابل مصغرة حين<br>تصطدم بعدو أو بما حولها، وتنفجر<br>القنابل مع كل ارتداد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24752,
+    "key": "WEAPON_BOUNCER_OMEGA_UC",
+    "source_sha256": "9e03310cd57c0d3ad5d0c749f46d08609ebd1c3f5200a04a83ea87faca1516c8",
+    "before": "Ω الباونسر الثقيل",
+    "after": "Ω الباونسر الثقيل",
+    "decision": "keep"
+  },
+  {
+    "index": 24753,
+    "key": "WEAPON_BOUNCER_UC",
+    "source_sha256": "8c01b42f748ea3d16206b02d541d98936735a1d99bb195e135c84f43e660d012",
+    "before": "الباونسر",
+    "after": "الباونسر",
+    "decision": "keep"
+  },
+  {
+    "index": 24754,
+    "key": "WEAPON_BOUNCER_V5",
+    "source_sha256": "a151b9db4b86bcd432e147c55890aee7918f00d45079b8b1c2a398e909226f78",
+    "before": "الباونسر الثقيل",
+    "after": "الباونسر الثقيل",
+    "decision": "keep"
+  },
+  {
+    "index": 24755,
+    "key": "WEAPON_BOUNCER_V5_DESC",
+    "source_sha256": "7c99fb03b7288a70a6ed4c9417cda3a71f9d1c60cd6683a2de8d42bd6c52c6e0",
+    "before": "قنابل باونسر تنفجر مرة واحدة؟<br>بوووو! قنابل باونسر تنفجر عند كل<br>ارتداد؟ بووو!",
+    "after": "قنابل باونسر تنفجر مرة واحدة؟ يا<br>للملل! قنابل باونسر تنفجر مع كل<br>ارتداد؟ مرحى!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24756,
+    "key": "WEAPON_BOUNCER_V5_DESC_UPGRADE",
+    "source_sha256": "aedeb4755be53bde2c7ffe63da7a1064ec01a34bfdca4164e5c4e5b52b709869",
+    "before": "يطلق قنابل تطلق قنبيبات دقيقة عند<br>،ارتطامها بعدو أو بأرض الميدان<br>وتنفجر كل قنبلة عند كل ارتداد.",
+    "after": "يطلق قنابل تحرر قنابل مصغرة حين<br>تصطدم بعدو أو بما حولها، وتنفجر<br>القنابل مع كل ارتداد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24757,
+    "key": "WEAPON_BOUNCER_V5_UC",
+    "source_sha256": "78009dc90f2c21d5822032d1249d8ca7ced9b8297d1cfa3578ec142dbe71eae6",
+    "before": "الباونسر الثقيل",
+    "after": "الباونسر الثقيل",
+    "decision": "keep"
+  },
+  {
+    "index": 24758,
+    "key": "WEAPON_BURSTPISTOL",
+    "source_sha256": "113703aa823c2fd0d50379ee5ccc21071a31b652649418171fab5bb3adc0e205",
+    "before": "مسدس الرشقات",
+    "after": "مسدس الرشقات",
+    "decision": "keep"
+  },
+  {
+    "index": 24759,
+    "key": "WEAPON_BURSTPISTOL_DESC",
+    "source_sha256": "a28505716a0d4d24d73f8525c3e1f760bbe337edcd4a5e3c0184e47c2762ae11",
+    "before": "أفضل وسيلة إيصال للبلازما الحامية<br>على الكوكب بأكمله!",
+    "after": "أفضل وسيلة إيصال للبلازما الحامية<br>على الكوكب بأكمله!",
+    "decision": "keep"
+  },
+  {
+    "index": 24760,
+    "key": "WEAPON_BURSTPISTOL_DESC_SOON",
+    "source_sha256": "6515f1bcb4d3601aa6658063a86a8e18ca2916ff462abaa52a2cbde67262a36c",
+    "before": "وصف قريبا",
+    "after": "وصف: قريبًا",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24761,
+    "key": "WEAPON_BURSTPISTOL_DESC_UPGRADE",
+    "source_sha256": "7313c48d6d405fc73d924a8400e4745a9bed99b6e4b89552c03e87d471445520",
+    "before": "يطلق طلقات بلازما حامية مفردة بدقة<br>عالية، أو دفقا ثابتا بدقة أقل<br>قليلا.",
+    "after": "يطلق طلقات بلازما حامية مفردة بدقة<br>عالية، أو دفقا ثابتا بدقة أقل<br>قليلا.",
+    "decision": "keep"
+  },
+  {
+    "index": 24762,
+    "key": "WEAPON_BURSTPISTOL_OMEGA",
+    "source_sha256": "36ba59366222c781efab8f4cd08636d7b9e742b68852cf2d9fcd01fdb13fca52",
+    "before": "Ω مسدس القصف",
+    "after": "Ω مسدس القصف",
+    "decision": "keep"
+  },
+  {
+    "index": 24763,
+    "key": "WEAPON_BURSTPISTOL_OMEGA_DESC",
+    "source_sha256": "ec45f8d4086bc7f97393ca147b05a68ab7131247cd92cb3ac7e8a708e6bbf910",
+    "before": "نسخة أوميغا من مسدس القصف!",
+    "after": "نسخة أوميغا من مسدس القصف!",
+    "decision": "keep"
+  },
+  {
+    "index": 24764,
+    "key": "WEAPON_BURSTPISTOL_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24765,
+    "key": "WEAPON_BURSTPISTOL_OMEGA_DESC_UPGRADE",
+    "source_sha256": "e447511bccf00b7194ff29befcf780418e4a1fb49ad18fc1ed734bca209bf0de",
+    "before": "يطلق ثلاث طلقات من البلازما<br>الحامية دفعة واحدة. وتقل دقته إذا<br>أمطرته طلقات متتابعة.",
+    "after": "يطلق ثلاث طلقات من البلازما الحارة<br>دفعة واحدة. تقل الدقة عند الإطلاق<br>المتتابع.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24766,
+    "key": "WEAPON_BURSTPISTOL_OMEGA_UC",
+    "source_sha256": "e0b3b8aa032db599f78e317159006acef2acd0fd641fb3de847241e06df70453",
+    "before": "Ω مسدس القصف",
+    "after": "Ω مسدس القصف",
+    "decision": "keep"
+  },
+  {
+    "index": 24767,
+    "key": "WEAPON_BURSTPISTOL_UC",
+    "source_sha256": "fc090c506ec3d5afebc095920115392240a4a44eb494c51ba9b93c09b60a3a10",
+    "before": "مسدس الرشقات",
+    "after": "مسدس الرشقات",
+    "decision": "keep"
+  },
+  {
+    "index": 24768,
+    "key": "WEAPON_BURSTPISTOL_V5",
+    "source_sha256": "de102efac6e8666229dde47fc29e09eea5faaee5e4e0d6426b82996461f5b024",
+    "before": "مسدس القصف",
+    "after": "مسدس القصف",
+    "decision": "keep"
+  },
+  {
+    "index": 24769,
+    "key": "WEAPON_BURSTPISTOL_V5_DESC",
+    "source_sha256": "a75ae3e5741f4c9d48c5c81c195598c5603f337ab577dc9de0162316de5e1015",
+    "before": "بدلا من دفق واحد من البلازما<br>،الحامية من مسدس الرشقات ما رأيك<br>في ثلاثة دفقات؟",
+    "after": "بدلًا من دفق واحد من البلازما<br>الحارة يخرج من مسدس الرشقات، ما<br>رأيك في ثلاثة دفقات؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24770,
+    "key": "WEAPON_BURSTPISTOL_V5_DESC_UPGRADE",
+    "source_sha256": "e447511bccf00b7194ff29befcf780418e4a1fb49ad18fc1ed734bca209bf0de",
+    "before": "يطلق ثلاث طلقات من البلازما<br>الحامية دفعة واحدة. وتقل دقته إذا<br>أمطرته طلقات متتابعة.",
+    "after": "يطلق ثلاث طلقات من البلازما الحارة<br>دفعة واحدة. تقل الدقة عند الإطلاق<br>المتتابع.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24771,
+    "key": "WEAPON_BURSTPISTOL_V5_UC",
+    "source_sha256": "ea58a89ead157a5395686a52524707b4a4ae38dfc61dd70cc8afb2835a7b3b5a",
+    "before": "مسدس القصف",
+    "after": "مسدس القصف",
+    "decision": "keep"
+  },
+  {
+    "index": 24772,
+    "key": "WEAPON_BUZZ_BLADES",
+    "source_sha256": "0bba96794c376d3f3c89390ac6c56f23f36a5a1b556fd3081a4aacd992edf2ac",
+    "before": "نصال الأزيز",
+    "after": "نصال الأزيز",
+    "decision": "keep"
+  },
+  {
+    "index": 24773,
+    "key": "WEAPON_BUZZ_BLADES_DESC",
+    "source_sha256": "723688aab5cd85905e5ef6ec774119c6731771a930fd733824f0eb46e656f303",
+    "before": "تقطع وتفتت! وبما أن النصال ترتد عن<br>أعدائك وعن الميدان جميعا، ستواصل<br>التقطيع والتمزيق حتى إذا كففت عن<br>الإطلاق!",
+    "after": "تقطع وتفتت! وبما أن النصال ترتد عن<br>أعدائك وعن الميدان جميعا، ستواصل<br>التقطيع والتمزيق حتى إذا كففت عن<br>الإطلاق!",
+    "decision": "keep"
+  },
+  {
+    "index": 24774,
+    "key": "WEAPON_BUZZ_BLADES_DESC_SOON",
+    "source_sha256": "36ef6fb615efc70e9bde0b94063670fe944b78c56f5f9cd81c3ff225565b8fb6",
+    "before": "تقطع وتفتت... وترتد أيضا؟!",
+    "after": "تقطع وتفتت... وترتد أيضا؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 24775,
+    "key": "WEAPON_BUZZ_BLADES_DESC_UPGRADE",
+    "source_sha256": "4fa227887fc34801073c63fbc01361cc32cb96d2599324b798b8da90ffc33821",
+    "before": "يطلق نصال ترتد عن الأعداء<br>والميدان.",
+    "after": "يطلق نصالًا ترتد عن الأعداء وما<br>حولهم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24776,
+    "key": "WEAPON_BUZZ_BLADES_OMEGA",
+    "source_sha256": "ae9a62b9f05075b64eac61757f2ab39a228c2ba77c6e6eb3f6ac7908e0ea9586",
+    "before": "Ω نصال الهلاك",
+    "after": "Ω نصال الهلاك",
+    "decision": "keep"
+  },
+  {
+    "index": 24777,
+    "key": "WEAPON_BUZZ_BLADES_OMEGA_DESC",
+    "source_sha256": "e568ce1c78bf9d987cea7fe98cf437afcd5ede1cd197584dacbf277168f9ed96",
+    "before": "نسخة أوميغا من نصال الهلاك!",
+    "after": "نسخة أوميغا من نصال الهلاك!",
+    "decision": "keep"
+  },
+  {
+    "index": 24778,
+    "key": "WEAPON_BUZZ_BLADES_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24779,
+    "key": "WEAPON_BUZZ_BLADES_OMEGA_DESC_UPGRADE",
+    "source_sha256": "5c4dadeb5d3f0699ddf04dc951239da98c0955adb4360530bf75e933bee5c566",
+    "before": "يطلق نصال ترتد عن الأعداء<br>والميدان، وتنشق نصفين عند<br>الارتطام.",
+    "after": "يطلق نصالًا ترتد عن الأعداء وما<br>حولهم وتنقسم إلى نصفين عند<br>الارتطام.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24780,
+    "key": "WEAPON_BUZZ_BLADES_OMEGA_UC",
+    "source_sha256": "b385548f2bcf7d84e6393df7836afdd011f3612d87ec558f8cb79ed5637862c5",
+    "before": "Ω نصال الهلاك",
+    "after": "Ω نصال الهلاك",
+    "decision": "keep"
+  },
+  {
+    "index": 24781,
+    "key": "WEAPON_BUZZ_BLADES_UC",
+    "source_sha256": "ec9136ec10747b8b596ffb5eaaa70c051241f8073f546bf12c9da22e8d0d2073",
+    "before": "نصال الأزيز",
+    "after": "نصال الأزيز",
+    "decision": "keep"
+  },
+  {
+    "index": 24782,
+    "key": "WEAPON_BUZZ_BLADES_V5",
+    "source_sha256": "d66e2c5d5b0b5b5cdb0f60701bf5157a8e1bb02f1e448f90d0bbe73826571f8c",
+    "before": "نصال الهلاك",
+    "after": "نصال الهلاك",
+    "decision": "keep"
+  },
+  {
+    "index": 24783,
+    "key": "WEAPON_BUZZ_BLADES_V5_DESC",
+    "source_sha256": "5ed6bb029ac75a9680c170c93e8770c3427926aa57a8f125d8e5f859da40821a",
+    "before": "ألا يروعك الفرح حين تنشق نصال<br>الأزيز نصفين عند الارتطام فتصبح<br>نصلي هلاك يرتدان؟!",
+    "after": "ألا تحب أن تنقسم نصال الأزيز إلى<br>نصفين عند الارتطام لتصبح نصلي موت<br>مرتدين؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24784,
+    "key": "WEAPON_BUZZ_BLADES_V5_DESC_UPGRADE",
+    "source_sha256": "5c4dadeb5d3f0699ddf04dc951239da98c0955adb4360530bf75e933bee5c566",
+    "before": "يطلق نصال ترتد عن الأعداء<br>والميدان، وتنشق نصفين عند<br>الارتطام.",
+    "after": "يطلق نصالًا ترتد عن الأعداء وما<br>حولهم وتنقسم إلى نصفين عند<br>الارتطام.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24785,
+    "key": "WEAPON_BUZZ_BLADES_V5_UC",
+    "source_sha256": "2cfe40b394ac209f2d8f405a26c424ae388f40dac6f2efb5a7cc5998b3b2134a",
+    "before": "نصال الهلاك",
+    "after": "نصال الهلاك",
+    "decision": "keep"
+  },
+  {
+    "index": 24786,
+    "key": "WEAPON_CARPETBOMBER",
+    "source_sha256": "df2065165e3e70355070e083e674110736117280bf99411085f4a92ccc349095",
+    "before": "قاذف القنابل",
+    "after": "قاذف القنابل",
+    "decision": "keep"
+  },
+  {
+    "index": 24787,
+    "key": "WEAPON_CARPETBOMBER_DESC",
+    "source_sha256": "2c0e32a0063ef0edda384d3d169aca2b8b4ecd7ce2219e42f53f95526cd5a0a3",
+    "before": "لماذا تكتفي بقنبلة واحدة وأمكنك<br>العشرات؟ أطلق سيارة طائرة تطير خطا<br>مستقيما وتلقي القنابل في أثرها!",
+    "after": "لماذا تكتفي بقنبلة واحدة حين يمكنك<br>الحصول على الكثير؟ انشر طائرة<br>مسيرة تطير في خط مستقيم وتلقي<br>القنابل أثناء تقدمها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24788,
+    "key": "WEAPON_CARPETBOMBER_DESC_SOON",
+    "source_sha256": "673059933af20eb14ccdbec7e82344007919f759ae86fe1d4e5ef2567036bfbe",
+    "before": "إلقاء القنابل هو علة وجودها.<br>حرفيا.",
+    "after": "إلقاء القنابل هو علة وجودها.<br>حرفيا.",
+    "decision": "keep"
+  },
+  {
+    "index": 24789,
+    "key": "WEAPON_CARPETBOMBER_DESC_UPGRADE",
+    "source_sha256": "0a7779e34049be9b1af0e82e64841d73e3002488d51d6e3747d7a4fcc8e0fa7f",
+    "before": "يطلق سيارة طائرة تطير خطا مستقيما<br>وتلقي القنابل في أثرها.",
+    "after": "ينشر طائرة مسيرة تطير في خط مستقيم<br>وتلقي القنابل أثناء تقدمها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24790,
+    "key": "WEAPON_CARPETBOMBER_OMEGA",
+    "source_sha256": "1877f2c76feae33fd26fbc2f53b5cac9eb652b6d54d301a06bea078069c2facb",
+    "before": "Ω رحلة القنابل",
+    "after": "Ω رحلة القنابل",
+    "decision": "keep"
+  },
+  {
+    "index": 24791,
+    "key": "WEAPON_CARPETBOMBER_OMEGA_DESC",
+    "source_sha256": "72f690ecea42e3f8190a3a7088d16df2754ce5a83ca46e64ba783dd8c19e9c11",
+    "before": "نسخة أوميغا من رحلة القنابل!",
+    "after": "نسخة أوميغا من رحلة القنابل!",
+    "decision": "keep"
+  },
+  {
+    "index": 24792,
+    "key": "WEAPON_CARPETBOMBER_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24793,
+    "key": "WEAPON_CARPETBOMBER_OMEGA_DESC_UPGRADE",
+    "source_sha256": "43b7f37f868dd783efc27b71c3bfc77fe1cb6e714f113650e7ea571183f21638",
+    "before": "يطلق سيارة طائرة تطير خطا ،مستقيما<br>وتلقي القنابل ثم تنفجر عنقودا من<br>قنبيبات صغيرة في نهاية مسارها.",
+    "after": "ينشر طائرة مسيرة تطير في خط مستقيم<br>وتلقي القنابل، ثم تنفجر إلى مجموعة<br>من القنابل الصغيرة عند نهاية<br>مسارها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24794,
+    "key": "WEAPON_CARPETBOMBER_OMEGA_UC",
+    "source_sha256": "75fb71412503a903104c8593592fbfbf83e274825050643effe06aabf2a2e5d5",
+    "before": "Ω رحلة القنابل",
+    "after": "Ω رحلة القنابل",
+    "decision": "keep"
+  },
+  {
+    "index": 24795,
+    "key": "WEAPON_CARPETBOMBER_UC",
+    "source_sha256": "bca95d8ccb65a691bb26d0aef935b296bca141cbccb6676a72cc827aeb5c57c7",
+    "before": "قاذف القنابل",
+    "after": "قاذف القنابل",
+    "decision": "keep"
+  },
+  {
+    "index": 24796,
+    "key": "WEAPON_CARPETBOMBER_V5",
+    "source_sha256": "1d0bddf5007bce283c158c7a1e99b07f2bfa2600cbbdc116272de05b17e4d5a2",
+    "before": "رحلة القنابل",
+    "after": "رحلة القنابل",
+    "decision": "keep"
+  },
+  {
+    "index": 24797,
+    "key": "WEAPON_CARPETBOMBER_V5_DESC",
+    "source_sha256": "e884e5325070b0519210ec5d58d6df25b9f80db5a2b25c3c7e713cd646d572a6",
+    "before": "ألعل سيارة قاذف القنابل قصرت في<br>عملها؟ ها هي تلقي القنابل أسرع<br>وتنفجر عنقودا من قنبيبات صغيرة في<br>نهاية مسارها!",
+    "after": "هل تتكاسل طائرة قاذف القنابل<br>المسيرة عن عملها؟ الآن تلقي<br>القنابل أسرع وتنفجر إلى مجموعة من<br>القنابل الصغيرة عند نهاية مسارها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24798,
+    "key": "WEAPON_CARPETBOMBER_V5_DESC_UPGRADE",
+    "source_sha256": "43b7f37f868dd783efc27b71c3bfc77fe1cb6e714f113650e7ea571183f21638",
+    "before": "يطلق سيارة طائرة تطير خطا ،مستقيما<br>وتلقي القنابل ثم تنفجر عنقودا من<br>قنبيبات صغيرة في نهاية مسارها.",
+    "after": "ينشر طائرة مسيرة تطير في خط مستقيم<br>وتلقي القنابل، ثم تنفجر إلى مجموعة<br>من القنابل الصغيرة عند نهاية<br>مسارها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24799,
+    "key": "WEAPON_CARPETBOMBER_V5_UC",
+    "source_sha256": "cda6cd52ace0ee0100a2b06199eb0b5ae708d0e65c69714aa53a9600e0c578aa",
+    "before": "رحلة القنابل",
+    "after": "رحلة القنابل",
+    "decision": "keep"
+  },
+  {
+    "index": 24800,
+    "key": "WEAPON_FOSSILIZER",
+    "source_sha256": "7f6475cc08272202ad9cf84ac9d6c303684a87e95ae3c9433b0f4acf3b6e8ad2",
+    "before": "الصياد",
+    "after": "قناص الرؤوس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24801,
+    "key": "WEAPON_FOSSILIZER_DESC",
+    "source_sha256": "abcd3b39a73c67a1a23c8f8e32b81edfdf83bb8a1d78bbe62584b567469f1481",
+    "before": "أعدوك اللدود يتفادى الرصاص جبانة؟<br>أبطئ الزمن بالمنظار المرفق فافتك<br>به افتكاك المحارب الباسل!",
+    "after": "هل يحاول عدوك اللدود تفادي الرصاص<br>كجبان؟ أبطئ الزمن بالمنظار المرفق،<br>ثم اقض عليه كالمحارب الباسل الذي<br>أنت عليه.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24802,
+    "key": "WEAPON_FOSSILIZER_DESC_SOON",
+    "source_sha256": "12787c3465129efef5c7649ffe3d5ee5a39e4df4bc357925dcc50f2f9969526f",
+    "before": "أتحب علاقة أبعد مدى بأعدائك؟",
+    "after": "أتحب علاقة أبعد مدى بأعدائك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 24803,
+    "key": "WEAPON_FOSSILIZER_DESC_UPGRADE",
+    "source_sha256": "accf4988a5fde64a86fe2f7995b8dc917a0b3972e8424e668918cec4ee38fdf2",
+    "before": "أبطئ الزمن لترمي أعداءك قريبهم<br>وبعيدهم.",
+    "after": "أبطئ الزمن لترمي أعداءك قريبهم<br>وبعيدهم.",
+    "decision": "keep"
+  },
+  {
+    "index": 24804,
+    "key": "WEAPON_FOSSILIZER_OMEGA",
+    "source_sha256": "546538132c87cecd4dff46d1ccd4655a30eb3e589df79556b1f2429900d3933c",
+    "before": "Ω الصدعيقة",
+    "after": "Ω الصداع النصفي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24805,
+    "key": "WEAPON_FOSSILIZER_OMEGA_DESC",
+    "source_sha256": "9833964a721fc43ae85e8a716e0f9f9108a3ac460bb2b62e80662c10c186cad1",
+    "before": "نسخة أوميغا من الصدعيقة!",
+    "after": "نسخة أوميغا من الصداع النصفي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24806,
+    "key": "WEAPON_FOSSILIZER_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24807,
+    "key": "WEAPON_FOSSILIZER_OMEGA_DESC_UPGRADE",
+    "source_sha256": "0e74260eb1f63a3d580e7e214c547ea1e5e73cf19c7637050fd2ab18488b1636",
+    "before": "أبطئ الزمن لترمي أعداءك قريبهم<br>وبعيدهم، مع القدرة على حشو عدة<br>رصاصات وإطلاقها دفعة واحدة.",
+    "after": "أبطئ الزمن لترمي أعداءك قريبهم<br>وبعيدهم، مع القدرة على حشو عدة<br>رصاصات وإطلاقها دفعة واحدة.",
+    "decision": "keep"
+  },
+  {
+    "index": 24808,
+    "key": "WEAPON_FOSSILIZER_OMEGA_UC",
+    "source_sha256": "9f4605f4ac3cea48a1836113564d8a5964c57d9f006ca5fb0930e67c4511f618",
+    "before": "Ω الصدعيقة",
+    "after": "Ω الصداع النصفي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24809,
+    "key": "WEAPON_FOSSILIZER_UC",
+    "source_sha256": "d1cba079ddeb3404904e47328098e9aca0884ee9f87d93c62c22981ed760da26",
+    "before": "الصياد",
+    "after": "قناص الرؤوس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24810,
+    "key": "WEAPON_FOSSILIZER_V5",
+    "source_sha256": "b1ded69f15e13bc0fbb5084f2a93faf3996f588cbc209158407f015b1f30a9d8",
+    "before": "الصدعيقة",
+    "after": "الصداع النصفي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24811,
+    "key": "WEAPON_FOSSILIZER_V5_DESC",
+    "source_sha256": "16b8dcacb02916b4cfddb52207d84cf1797ef9d1ce4387d488c4bd14d65fa7aa",
+    "before": "لقد كان عيش أعدائك هنيئا والصياد<br>لا يفعل سوى إبطاء الزمن؛ أما الآن<br>فيحشو ويطلق عدة رصاصات دفعة واحدة!",
+    "after": "عاش أعداؤك في راحة أكثر من اللازم<br>حين اقتصر قناص الرؤوس على إبطاء<br>الزمن. الآن يستطيع تجهيز عدة<br>رصاصات وإطلاقها معًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24812,
+    "key": "WEAPON_FOSSILIZER_V5_DESC_UPGRADE",
+    "source_sha256": "0e74260eb1f63a3d580e7e214c547ea1e5e73cf19c7637050fd2ab18488b1636",
+    "before": "أبطئ الزمن لترمي أعداءك قريبهم<br>وبعيدهم، مع القدرة على حشو عدة<br>رصاصات وإطلاقها دفعة واحدة.",
+    "after": "أبطئ الزمن لترمي أعداءك قريبهم<br>وبعيدهم، مع القدرة على حشو عدة<br>رصاصات وإطلاقها دفعة واحدة.",
+    "decision": "keep"
+  },
+  {
+    "index": 24813,
+    "key": "WEAPON_FOSSILIZER_V5_UC",
+    "source_sha256": "d1529452bf8de4c45e6743d7403b8dc3f217a17dbfc3bd19635eef40edb7b502",
+    "before": "الصدعيقة",
+    "after": "الصداع النصفي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24814,
+    "key": "WEAPON_GLOVE_OF_DOOM",
+    "source_sha256": "14ac5bbac9776f46f23724850653593dc1c27670aa3869344097a72b49cfce8e",
+    "before": "قفاز الهلاك",
+    "after": "قفاز الهلاك",
+    "decision": "keep"
+  },
+  {
+    "index": 24815,
+    "key": "WEAPON_GLOVE_OF_DOOM_DESC",
+    "source_sha256": "35beb3112ae5a7a696ad01a38782a912c29aaca475a3612ea0e963643330f1da",
+    "before": "قولوا مرحبا لكلاء الهلاك الشخصيين!<br>ما عليك إلا أن ترمي بيضة هلاك<br>ليخرجوا وينهشوا أقرب أعدائهم إليك!",
+    "after": "رحب بوكلاء الهلاك الخاصين بك! ارم<br>بيضة هلاك لتحريرهم، وسينهشون أقرب<br>الأعداء الذين يرونهم!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24816,
+    "key": "WEAPON_GLOVE_OF_DOOM_DESC_SOON",
+    "source_sha256": "0aaed09ab9acb1470f37cf03b8effc05948396539b2fe2f0658497979666ed95",
+    "before": "لمن يعرف عدوا يخاف أن تنهشه وحوش<br>ميكانيكية صغيرة.",
+    "after": "لمن يعرف عدوا يخاف أن تنهشه وحوش<br>ميكانيكية صغيرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 24817,
+    "key": "WEAPON_GLOVE_OF_DOOM_DESC_UPGRADE",
+    "source_sha256": "2d624540a11a1348a73c64ef374115be68f672a85c6441e86e791f01ad7b02de",
+    "before": "يطلق بيض هلاك مليئا بوكلاء الهلاك:<br>رفاق صغار ينهشون أقرب أعدائهم.",
+    "after": "يطلق بيض هلاك مليئا بوكلاء الهلاك:<br>رفاق صغار ينهشون أقرب أعدائهم.",
+    "decision": "keep"
+  },
+  {
+    "index": 24818,
+    "key": "WEAPON_GLOVE_OF_DOOM_OMEGA",
+    "source_sha256": "1a83ab134bf7ae97325eb60ef2e4c4a39b175dc928b20d90d3f2b2d9e46be8a1",
+    "before": "Ω قفاز القيامة",
+    "after": "Ω قفاز القيامة",
+    "decision": "keep"
+  },
+  {
+    "index": 24819,
+    "key": "WEAPON_GLOVE_OF_DOOM_OMEGA_DESC",
+    "source_sha256": "fdcd09943d9c382dcfc5f2d5f376b2893389185d613fc6684d36ff317eab4f28",
+    "before": "نسخة أوميغا من قفاز القيامة!",
+    "after": "نسخة أوميغا من قفاز القيامة!",
+    "decision": "keep"
+  },
+  {
+    "index": 24820,
+    "key": "WEAPON_GLOVE_OF_DOOM_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24821,
+    "key": "WEAPON_GLOVE_OF_DOOM_OMEGA_DESC_UPGRADE",
+    "source_sha256": "ef57d1371497c9309906b3f17b017f357da335a0d5f62c5e961ac4cb0757a679",
+    "before": "يطلق بيض هلاك مليئا بوكلاء الهلاك:<br>رفاق صغار ينهشون أقرب أعدائهم ثم<br>يفجرون أنفسهم.",
+    "after": "يطلق بيض هلاك مليئا بوكلاء الهلاك:<br>رفاق صغار ينهشون أقرب أعدائهم ثم<br>يفجرون أنفسهم.",
+    "decision": "keep"
+  },
+  {
+    "index": 24822,
+    "key": "WEAPON_GLOVE_OF_DOOM_OMEGA_UC",
+    "source_sha256": "316963d0c018675da25153860ed23d8311cadc9031520840414e1dfaa5c436b4",
+    "before": "Ω قفاز القيامة",
+    "after": "Ω قفاز القيامة",
+    "decision": "keep"
+  },
+  {
+    "index": 24823,
+    "key": "WEAPON_GLOVE_OF_DOOM_UC",
+    "source_sha256": "ba2681d572772ded0efe9190f37d00d115c1169c606dc412f4d47e1d33723838",
+    "before": "قفاز الهلاك",
+    "after": "قفاز الهلاك",
+    "decision": "keep"
+  },
+  {
+    "index": 24824,
+    "key": "WEAPON_GLOVE_OF_DOOM_V5",
+    "source_sha256": "732c69f4b6504d37e9c7d4a636102e372faec36c0b7c817efdcc3a5ecb373f2d",
+    "before": "قفاز القيامة",
+    "after": "قفاز القيامة",
+    "decision": "keep"
+  },
+  {
+    "index": 24825,
+    "key": "WEAPON_GLOVE_OF_DOOM_V5_DESC",
+    "source_sha256": "5fe0e44c73d5492bbc7d9ad8f7ca4e408cf33d8014874686da493b6fa544d121",
+    "before": "،لقد قل الهلاك في هذه الأيام فصار<br>وكلاء قفاز الهلاك يفجرون أنفسهم<br>بعد قضمة أو قضمتين من العدو!",
+    "after": "قل الهلاك مؤخرًا بشكل ملحوظ، لذا<br>سيفجر وكلاء قفاز الهلاك أنفسهم بعد<br>بضع عضات من عدو!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24826,
+    "key": "WEAPON_GLOVE_OF_DOOM_V5_DESC_UPGRADE",
+    "source_sha256": "ef57d1371497c9309906b3f17b017f357da335a0d5f62c5e961ac4cb0757a679",
+    "before": "يطلق بيض هلاك مليئا بوكلاء الهلاك:<br>رفاق صغار ينهشون أقرب أعدائهم ثم<br>يفجرون أنفسهم.",
+    "after": "يطلق بيض هلاك مليئا بوكلاء الهلاك:<br>رفاق صغار ينهشون أقرب أعدائهم ثم<br>يفجرون أنفسهم.",
+    "decision": "keep"
+  },
+  {
+    "index": 24827,
+    "key": "WEAPON_GLOVE_OF_DOOM_V5_UC",
+    "source_sha256": "1512eb04748e9438a45471e2150ed8a5cd862284251bcc344d05164e0c0158a0",
+    "before": "قفاز القيامة",
+    "after": "قفاز القيامة",
+    "decision": "keep"
+  },
+  {
+    "index": 24828,
+    "key": "WEAPON_HAMMER",
+    "source_sha256": "3061c9e7a079a91c13e5109d1a7326445543dfb1603354fa04750b9ab4ed0173",
+    "before": "المطرقة",
+    "after": "المطرقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24829,
+    "key": "WEAPON_ICICLEBLAST",
+    "source_sha256": "839dfd49c321adaa8024180ad7ecde32c6c90a98827a6516c2503a2b96e59f9d",
+    "before": "الانكسار البارد",
+    "after": "موجة الصقيع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24830,
+    "key": "WEAPON_ICICLEBLAST_DESC",
+    "source_sha256": "01ff79b0dd0738472f2ba2e7f7406d779693bde1e2becffdcca6b3d3f0fa5817",
+    "before": "من يطمع في عدو ثلجي?! جمد خصومك عن<br>آخرهم بنفحة هواء بارد قريب!",
+    "after": "من يريد مصاصة من الأعداء؟! جمد<br>خصومك تمامًا بدفقة هواء بارد قصيرة<br>المدى!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24831,
+    "key": "WEAPON_ICICLEBLAST_DESC_SOON",
+    "source_sha256": "2bf37a1d6137f9774a5dd3da43aa3db5a3b1e0e1c355e8235d20fab2d244f34d",
+    "before": "لمن يرى أعداءه أكثر اشتعالا مما<br>ينبغي.",
+    "after": "لمن يرى أعداءه أكثر اشتعالا مما<br>ينبغي.",
+    "decision": "keep"
+  },
+  {
+    "index": 24832,
+    "key": "WEAPON_ICICLEBLAST_DESC_UPGRADE",
+    "source_sha256": "85e2768ea9305e003d6103c462e4082be80a17a2e8e14b7012aae0b41fd0d05e",
+    "before": "يجمد الأعداء بنفحة هواء بارد قريبة<br>المدى.",
+    "after": "يجمد الأعداء بنفحة هواء بارد قريبة<br>المدى.",
+    "decision": "keep"
+  },
+  {
+    "index": 24833,
+    "key": "WEAPON_ICICLEBLAST_OMEGA",
+    "source_sha256": "b1fd44b8604c39d959d2b03c57d45ce8f395397499dc8d01a250e278703e5c50",
+    "before": "Ω الجبهة الباردة",
+    "after": "Ω الجبهة الباردة",
+    "decision": "keep"
+  },
+  {
+    "index": 24834,
+    "key": "WEAPON_ICICLEBLAST_OMEGA_DESC",
+    "source_sha256": "2fcf34cdc75eb22903dd2931b32d469311ef84ee1a872413ad34b7c64d3ec7c2",
+    "before": "نسخة أوميغا من الجبهة الباردة!",
+    "after": "نسخة أوميغا من الجبهة الباردة!",
+    "decision": "keep"
+  },
+  {
+    "index": 24835,
+    "key": "WEAPON_ICICLEBLAST_OMEGA_DESC_SOON",
+    "source_sha256": "78607af9eae8b1311f685130b242dcc29a1a12119e7e1a02ba1a266ea537803c",
+    "before": "بتطويرات أكثر الآن!",
+    "after": "بتطويرات أكثر الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 24836,
+    "key": "WEAPON_ICICLEBLAST_OMEGA_DESC_UPGRADE",
+    "source_sha256": "8564ec44371a2f42c1a574a5623e273b5f63ffc30a27b3788e9f9591bed8a711",
+    "before": "يجمد الأعداء بنفحة هواء بارد قريبة<br>المدى، ويخلف سحابة من الغاز تجمد<br>كل من يدخلها.",
+    "after": "يجمد الأعداء بنفحة هواء بارد قريبة<br>المدى، ويخلف سحابة من الغاز تجمد<br>كل من يدخلها.",
+    "decision": "keep"
+  },
+  {
+    "index": 24837,
+    "key": "WEAPON_ICICLEBLAST_OMEGA_UC",
+    "source_sha256": "3cb3f8da3db6c57f6c60db286d257d74112d91b0c28f2b3588396f307dc531ef",
+    "before": "Ω الجبهة الباردة",
+    "after": "Ω الجبهة الباردة",
+    "decision": "keep"
+  },
+  {
+    "index": 24838,
+    "key": "WEAPON_ICICLEBLAST_UC",
+    "source_sha256": "e1d12fdb02ac03433f5ffa9a10db17b2eef9d450fb71405f7dbe1fe020516a6d",
+    "before": "الانكسار البارد",
+    "after": "موجة الصقيع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24839,
+    "key": "WEAPON_ICICLEBLAST_V5",
+    "source_sha256": "99d7a18877a825a143ab473240c51526f54620226b7342fab891677d4029aa11",
+    "before": "الجبهة الباردة",
+    "after": "الجبهة الباردة",
+    "decision": "keep"
+  },
+  {
+    "index": 24840,
+    "key": "WEAPON_ICICLEBLAST_V5_DESC",
+    "source_sha256": "3427f6665c60c5299f51b84c4e9bc4504e8827bfe7df539100d3fd6ab0dd5143",
+    "before": "إن كنت تظن البرد قد بلغ مداه فأعد<br>التفكير! فالانكسار البارد صار إلى<br>جانب تجميد الأعداء بالنفحة الأولى<br>يخلف سحابة غاز تجمد كل من يدخلها!",
+    "after": "إن ظننت أن الأمور كانت باردة من<br>قبل، فأعد التفكير! إلى جانب تجميد<br>الأعداء بالدفقة الأولى، تخلف موجة<br>الصقيع الآن سحابة غاز تجمد كل من<br>يدخلها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24841,
+    "key": "WEAPON_ICICLEBLAST_V5_DESC_UPGRADE",
+    "source_sha256": "8564ec44371a2f42c1a574a5623e273b5f63ffc30a27b3788e9f9591bed8a711",
+    "before": "يجمد الأعداء بنفحة هواء بارد قريبة<br>المدى، ويخلف سحابة من الغاز تجمد<br>كل من يدخلها.",
+    "after": "يجمد الأعداء بنفحة هواء بارد قريبة<br>المدى، ويخلف سحابة من الغاز تجمد<br>كل من يدخلها.",
+    "decision": "keep"
+  },
+  {
+    "index": 24842,
+    "key": "WEAPON_ICICLEBLAST_V5_UC",
+    "source_sha256": "b917c5555a17fdae3bf1275b931d4766bd3fd016c2d7bd96ad43c2a72b4bec43",
+    "before": "الجبهة الباردة",
+    "after": "الجبهة الباردة",
+    "decision": "keep"
+  },
+  {
+    "index": 24843,
+    "key": "WEAPON_KAMEHAMEHA",
+    "source_sha256": "9bd49938770856f16b09902a2e7d3ed975d6dbb2f5c31d58e2dac2cc38671ffb",
+    "before": "مصادم النغاترون",
+    "after": "مصادم النيجاترون",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24844,
+    "key": "WEAPON_KAMEHAMEHA_DESC",
+    "source_sha256": "2e3a01443e98867d659afb2d8b77f804857c444488655eed815cd53f42b97c45",
+    "before": "أيسوؤك أن يمر أحدهم أمام هدفك<br>فيحجب رميتك؟ ودع السخط: بهذا<br>السلاح تشحن شعاعا ينفذ من الجميع!",
+    "after": "أيسوؤك أن يمر أحدهم أمام هدفك<br>فيحجب رميتك؟ ودع السخط: بهذا<br>السلاح تشحن شعاعا ينفذ من الجميع!",
+    "decision": "keep"
+  },
+  {
+    "index": 24845,
+    "key": "WEAPON_KAMEHAMEHA_DESC_SOON",
+    "source_sha256": "322d82f25432c81f6dca83b108e5d9817a2e132ddff3b0d44961d75be4b3120c",
+    "before": "شعاع لا يتوقف عند حد جمال في حد<br>ذاته.",
+    "after": "شعاع لا يتوقف عند حد جمال في حد<br>ذاته.",
+    "decision": "keep"
+  },
+  {
+    "index": 24846,
+    "key": "WEAPON_KAMEHAMEHA_DESC_UPGRADE",
+    "source_sha256": "986ed2483234096e617eb0b7fcdea765208be35dce484761a8ae86d2799c6e3b",
+    "before": "يشحن شعاعا ينفذ في عدة أعداء.",
+    "after": "يشحن شعاعا ينفذ في عدة أعداء.",
+    "decision": "keep"
+  },
+  {
+    "index": 24847,
+    "key": "WEAPON_KAMEHAMEHA_OMEGA",
+    "source_sha256": "8d505f0d0073a7dfb4bd8bca43dbc9c2c9a0d50b7b1c8bac3bb2f5b4d655f569",
+    "before": "Ω مصادم النغاترون الضخم",
+    "after": "Ω مصادم النيجاترون الكبير",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24848,
+    "key": "WEAPON_KAMEHAMEHA_OMEGA_DESC",
+    "source_sha256": "aa910ffdf1d14c70efdd64c4f77078bd6728703e18c564b54b1576f871d89973",
+    "before": "نسخة أوميغا من مصادم النغاترون<br>الضخم!",
+    "after": "نسخة أوميغا من مصادم النيجاترون<br>الكبير!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24849,
+    "key": "WEAPON_KAMEHAMEHA_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24850,
+    "key": "WEAPON_KAMEHAMEHA_OMEGA_DESC_UPGRADE",
+    "source_sha256": "9e17dc1583ecf284244e21951e56264bf182b0eb05b58b95a0b225a3c70d5b98",
+    "before": "يشحن شعاعا ينفذ في عدة أعداء ثم<br>يشعل انفجارا هائلا.",
+    "after": "يشحن شعاعا ينفذ في عدة أعداء ثم<br>يشعل انفجارا هائلا.",
+    "decision": "keep"
+  },
+  {
+    "index": 24851,
+    "key": "WEAPON_KAMEHAMEHA_OMEGA_UC",
+    "source_sha256": "33ebc7fbff6ac040e75115cf2e7b9d4b3ed537391b81d8db6d831e3069c1675a",
+    "before": "Ω مصادم النغاترون الضخم",
+    "after": "Ω مصادم النيجاترون الكبير",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24852,
+    "key": "WEAPON_KAMEHAMEHA_UC",
+    "source_sha256": "f729432ea5235cdbcefbcad499904c4e4f92816f6300a8f4a36989b6b28cff1e",
+    "before": "مصادم النغاترون",
+    "after": "مصادم النيجاترون",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24853,
+    "key": "WEAPON_KAMEHAMEHA_V5",
+    "source_sha256": "647d5dd0f2c46d410386a45cea7c842a2e218e97c691217dffd15167a54fe377",
+    "before": "مصادم النغاترون الضخم",
+    "after": "مصادم النيجاترون الكبير",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24854,
+    "key": "WEAPON_KAMEHAMEHA_V5_DESC",
+    "source_sha256": "6e3ab15bc8e9147bda47d8b97b4373df3b5c5b164b60b1e55f7eb19b9140af19",
+    "before": "أتعرف ما يقال عن المصادمات<br>بالنغاترونات الضخمة؟ ها هو طرف<br>شعاعها يشعل انفجارا هائلا حين<br>ينقضي!",
+    "after": "أتعرف ما يقال عن المصادمات ذات<br>النيجاترونات الكبيرة؟ نهايات<br>أشعتها تحدث الآن انفجارًا هائلًا<br>عندما تتلاشى!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24855,
+    "key": "WEAPON_KAMEHAMEHA_V5_DESC_UPGRADE",
+    "source_sha256": "9e17dc1583ecf284244e21951e56264bf182b0eb05b58b95a0b225a3c70d5b98",
+    "before": "يشحن شعاعا ينفذ في عدة أعداء ثم<br>يشعل انفجارا هائلا.",
+    "after": "يشحن شعاعا ينفذ في عدة أعداء ثم<br>يشعل انفجارا هائلا.",
+    "decision": "keep"
+  },
+  {
+    "index": 24856,
+    "key": "WEAPON_KAMEHAMEHA_V5_UC",
+    "source_sha256": "8f06b4c628a6f6cfde99d64fcaf018e50c579d40f0af84bc7b95bf2ec0cbcb13",
+    "before": "مصادم النغاترون الضخم",
+    "after": "مصادم النيجاترون الكبير",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24857,
+    "key": "WEAPON_LIGHTNINGROD",
+    "source_sha256": "5d907e09f9c22fec429d7e0e83ddf443cd4f6d0204328c3d7203456032a48dab",
+    "before": "قاذف الصاعقة",
+    "after": "قاذف الصاعقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24858,
+    "key": "WEAPON_LIGHTNINGROD_DESC",
+    "source_sha256": "5462a16abfe1d19ca1f2a2b895d3edc156cc47859e29aa48a96ae503db4c0fa3",
+    "before": "هل خطر لك أنغرس في خصومك إبرا<br>كهربائية؟ لا?! فما رأيك أن يهزم<br>المصعوق فينقل صعقه إلى من حوله؟<br>الآن تحدثنا!",
+    "after": "هل شعرت يومًا برغبة في غرس إبر<br>مكهربة في خصومك؟ لا؟! ماذا لو<br>جعلتهم ينشرون الكهرباء حولهم حين<br>يهزمون؟ نعم، هكذا يكون الكلام!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24859,
+    "key": "WEAPON_LIGHTNINGROD_DESC_SOON",
+    "source_sha256": "6389359db9c49ccafb75b0ea722a8d47ddac6e7af2d893e35f7a181fca759abe",
+    "before": "لابد أنك تشتاق لرؤية هياكل أعدائك<br>العظمية... إن كان لهم هياكل أصلا.",
+    "after": "لا بد أنك تريد رؤية هياكل أعدائك<br>العظمية... إن كانت لهم هياكل<br>أصلًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24860,
+    "key": "WEAPON_LIGHTNINGROD_DESC_UPGRADE",
+    "source_sha256": "7d0e9100dc135270e54a6e8b9a93823146a677e6965ab4c6c15d668c3920d99f",
+    "before": "يطلق إبرا كهربائية، فإن مات عدو<br>وهو مصعوق تعدى صعقه إلى من يجاوره<br>من الأعداء.",
+    "after": "يطلق إبرا كهربائية، فإن مات عدو<br>وهو مصعوق تعدى صعقه إلى من يجاوره<br>من الأعداء.",
+    "decision": "keep"
+  },
+  {
+    "index": 24861,
+    "key": "WEAPON_LIGHTNINGROD_OMEGA",
+    "source_sha256": "25ba3f41548e767164532fedf8cd836307a608b7ffc084ffc74fec8d8422dbaa",
+    "before": "Ω ضربة الصاعقة",
+    "after": "Ω ضربة الصاعقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24862,
+    "key": "WEAPON_LIGHTNINGROD_OMEGA_DESC",
+    "source_sha256": "5da5e786db9c2f17965130a6ebb563fb542aaae728d4d773e0dbd49fdb354de9",
+    "before": "نسخة أوميغا من ضربة الصاعقة!",
+    "after": "نسخة أوميغا من ضربة الصاعقة!",
+    "decision": "keep"
+  },
+  {
+    "index": 24863,
+    "key": "WEAPON_LIGHTNINGROD_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24864,
+    "key": "WEAPON_LIGHTNINGROD_OMEGA_DESC_UPGRADE",
+    "source_sha256": "1c7f67d669d0facbba9ad182cfa4b39a11c89031872db9568e2ab9f35cc9832f",
+    "before": "الطلقات المشحونة تصعق أسرع، فإن<br>مات عدو وهو مصعوق تعدى صعقه إلى من<br>يجاوره من الأعداء.",
+    "after": "الطلقات المشحونة تصعق أسرع، فإن<br>مات عدو وهو مصعوق تعدى صعقه إلى من<br>يجاوره من الأعداء.",
+    "decision": "keep"
+  },
+  {
+    "index": 24865,
+    "key": "WEAPON_LIGHTNINGROD_OMEGA_UC",
+    "source_sha256": "763a8ac47ca777a9f801c7d5dc3c9e3672daff9d6819e900ada9eb290888cac2",
+    "before": "Ω ضربة الصاعقة",
+    "after": "Ω ضربة الصاعقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24866,
+    "key": "WEAPON_LIGHTNINGROD_UC",
+    "source_sha256": "d450b115cac8d3423c8314542ca6a2de5bc39f02c8787b132d0ace04cfa59c58",
+    "before": "قاذف الصاعقة",
+    "after": "قاذف الصاعقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24867,
+    "key": "WEAPON_LIGHTNINGROD_V5",
+    "source_sha256": "13f745dcf1c5c37a52a89d0b5642f0c290dd9262a9c06fb39d67c1b4f1d1afd2",
+    "before": "ضربة الصاعقة",
+    "after": "ضربة الصاعقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24868,
+    "key": "WEAPON_LIGHTNINGROD_V5_DESC",
+    "source_sha256": "1f5c1bb8b5f6df5b74a4a5bd03e26b428e61d3e0ae3709bc6c9587b67caa08c4",
+    "before": "ألا تطيق صبرا حتى يصرخ أعداؤك<br>&quot;بززززككتتتت؟&quot; اصعقهم أسرع بشحن<br>طلقات قاذف الصاعقة قبل إطلاقها!",
+    "after": "ألا تطيق صبرا حتى يصرخ أعداؤك<br>&quot;بززززككتتتت؟&quot; اصعقهم أسرع بشحن<br>طلقات قاذف الصاعقة قبل إطلاقها!",
+    "decision": "keep"
+  },
+  {
+    "index": 24869,
+    "key": "WEAPON_LIGHTNINGROD_V5_DESC_UPGRADE",
+    "source_sha256": "1c7f67d669d0facbba9ad182cfa4b39a11c89031872db9568e2ab9f35cc9832f",
+    "before": "الطلقات المشحونة تصعق أسرع، فإن<br>مات عدو وهو مصعوق تعدى صعقه إلى من<br>يجاوره من الأعداء.",
+    "after": "الطلقات المشحونة تصعق أسرع، فإن<br>مات عدو وهو مصعوق تعدى صعقه إلى من<br>يجاوره من الأعداء.",
+    "decision": "keep"
+  },
+  {
+    "index": 24870,
+    "key": "WEAPON_LIGHTNINGROD_V5_UC",
+    "source_sha256": "982d746698e4db307b9eb13fcad3b5c744b1a86b639a71eb9040541fbca7a32e",
+    "before": "ضربة الصاعقة",
+    "after": "ضربة الصاعقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24871,
+    "key": "WEAPON_MAGSHIELD",
+    "source_sha256": "d2a76f29459f8e48b9a476fc15eb1050e8203a24d0f3d0348cd0074945ff16f3",
+    "before": "دافع الفراغ",
+    "after": "دافع الفراغ",
+    "decision": "keep"
+  },
+  {
+    "index": 24872,
+    "key": "WEAPON_MAGSHIELD_DESC",
+    "source_sha256": "9495b167f29964c9f8f5ba96f7ba47ba3bf99dd8d93ee043244d6739d2cd7aff",
+    "before": "لو كان الدرع سلاحا في آن واحد؟ ترد<br>النار لحظة ثم تقذف دفعة واسعة من<br>الطاقة في اللحظة التالية!",
+    "after": "لو كان الدرع سلاحا في آن واحد؟ ترد<br>النار لحظة ثم تقذف دفعة واسعة من<br>الطاقة في اللحظة التالية!",
+    "decision": "keep"
+  },
+  {
+    "index": 24873,
+    "key": "WEAPON_MAGSHIELD_DESC_SOON",
+    "source_sha256": "3a6b8429acdeeda8352cda1e1613f92f43ae486f953cb3e9bd96e0c75bc765b9",
+    "before": "ربما كان خير الهجوم حقا حسن<br>الدفاع.",
+    "after": "ربما كان خير الهجوم حقا حسن<br>الدفاع.",
+    "decision": "keep"
+  },
+  {
+    "index": 24874,
+    "key": "WEAPON_MAGSHIELD_DESC_UPGRADE",
+    "source_sha256": "5ab8340ec11c73e68024f0f0db88fc8e87645aa5b1da3e0433f9134ac64d787d",
+    "before": "يشكل درعا واقية ويقذف دفعة واسعة<br>من الطاقة قريبة المدى.",
+    "after": "يشكل درعا واقية ويقذف دفعة واسعة<br>من الطاقة قريبة المدى.",
+    "decision": "keep"
+  },
+  {
+    "index": 24875,
+    "key": "WEAPON_MAGSHIELD_OMEGA",
+    "source_sha256": "8e75814a84ee29b7946910d50489e7fc201556048eca206aa498c702ce89719c",
+    "before": "Ω مفاعل الفراغ",
+    "after": "Ω مفاعل الفراغ",
+    "decision": "keep"
+  },
+  {
+    "index": 24876,
+    "key": "WEAPON_MAGSHIELD_OMEGA_DESC",
+    "source_sha256": "eaa30aca80c0573ea9296aa0064658e25cdc7810bb230c415191d24144ec44e7",
+    "before": "نسخة أوميغا من مفاعل الفراغ!",
+    "after": "نسخة أوميغا من مفاعل الفراغ!",
+    "decision": "keep"
+  },
+  {
+    "index": 24877,
+    "key": "WEAPON_MAGSHIELD_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24878,
+    "key": "WEAPON_MAGSHIELD_OMEGA_DESC_UPGRADE",
+    "source_sha256": "43823ec8b1196926e40ba04fa0f5a0c9be4d07bae2eb5d0db5dd4882ef4415b9",
+    "before": "يشكل درعا واقية تلتقط نار العدو<br>وتردها عليه، وتقذف دفعة واسعة من<br>طاقتها قريبة المدى.",
+    "after": "يشكل درعا واقية تلتقط نار العدو<br>وتردها عليه، وتقذف دفعة واسعة من<br>طاقتها قريبة المدى.",
+    "decision": "keep"
+  },
+  {
+    "index": 24879,
+    "key": "WEAPON_MAGSHIELD_OMEGA_UC",
+    "source_sha256": "542c6e780dc4a3f53f8a63f4235549f70bac82c25fca966bb6f2894756e0977c",
+    "before": "Ω مفاعل الفراغ",
+    "after": "Ω مفاعل الفراغ",
+    "decision": "keep"
+  },
+  {
+    "index": 24880,
+    "key": "WEAPON_MAGSHIELD_UC",
+    "source_sha256": "5ecccd9fe69e22b5e24cdebc57dadd30b900a09dccd67a65d22918edf5ca91c7",
+    "before": "دافع الفراغ",
+    "after": "دافع الفراغ",
+    "decision": "keep"
+  },
+  {
+    "index": 24881,
+    "key": "WEAPON_MAGSHIELD_V5",
+    "source_sha256": "29dcc435749a5bf76f70f2484407e4fe68122fb47eec162910f6896d84d7eb7c",
+    "before": "مفاعل الفراغ",
+    "after": "مفاعل الفراغ",
+    "decision": "keep"
+  },
+  {
+    "index": 24882,
+    "key": "WEAPON_MAGSHIELD_V5_DESC",
+    "source_sha256": "ab9c51cd4dc317e88cce5f87215384000c01d8133ce32fe21c038e55bdaa65c3",
+    "before": "ها أنت إذا رد دافع الفراغ نار<br>العدو قادر على ردها بأسرها إلى<br>أعدائك! لن يتوقعوا ذلك!",
+    "after": "الآن، حين يصد دافع الفراغ نيران<br>العدو، يمكنك ردها كلها عليهم!<br>أراهن أنهم لم يتوقعوا ذلك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24883,
+    "key": "WEAPON_MAGSHIELD_V5_DESC_UPGRADE",
+    "source_sha256": "43823ec8b1196926e40ba04fa0f5a0c9be4d07bae2eb5d0db5dd4882ef4415b9",
+    "before": "يشكل درعا واقية تلتقط نار العدو<br>وتردها عليه، وتقذف دفعة واسعة من<br>طاقتها قريبة المدى.",
+    "after": "يشكل درعا واقية تلتقط نار العدو<br>وتردها عليه، وتقذف دفعة واسعة من<br>طاقتها قريبة المدى.",
+    "decision": "keep"
+  },
+  {
+    "index": 24884,
+    "key": "WEAPON_MAGSHIELD_V5_UC",
+    "source_sha256": "36ea19ad922a46b085f38c2971ccaaedcfc2a429fa07aeb9fd300c07c9cb7b09",
+    "before": "مفاعل الفراغ",
+    "after": "مفاعل الفراغ",
+    "decision": "keep"
+  },
+  {
+    "index": 24885,
+    "key": "WEAPON_MRFUNGI",
+    "source_sha256": "3cc124c8f7869b832a6c860f1eb2b65ac71510a1a20be34486c8ac9e2b4e0115",
+    "before": "السيد فنغاي",
+    "after": "السيد فنغاي",
+    "decision": "keep"
+  },
+  {
+    "index": 24886,
+    "key": "WEAPON_MRFUNGI_DESC",
+    "source_sha256": "7cff03d3a83d9b2077c18154432eb47d5e5ea1d78eef982f58e43e168e2a1462",
+    "before": "أسئمت من كونك روح الحفلة؟ السيد<br>فنغاي هنا لمساعدتك! سيهاجم أعداءك<br>بشراسة تكاد تنسيهم وجودك فلا يرون<br>سواه!",
+    "after": "أسئمت من كونك روح الحفلة؟ السيد<br>فنغاي هنا لمساعدتك! سيهاجم أعداءك<br>بشراسة تكاد تنسيهم وجودك فلا يرون<br>سواه!",
+    "decision": "keep"
+  },
+  {
+    "index": 24887,
+    "key": "WEAPON_MRFUNGI_DESC_SOON",
+    "source_sha256": "eb9873bd47e4f594d0a1cfec4b271346766b4bb682a6bcf2d31e6616be3aa3b7",
+    "before": "ما احتفل أعداؤك احتفالا كهذا من<br>قبل.",
+    "after": "ما احتفل أعداؤك احتفالا كهذا من<br>قبل.",
+    "decision": "keep"
+  },
+  {
+    "index": 24888,
+    "key": "WEAPON_MRFUNGI_DESC_UPGRADE",
+    "source_sha256": "769b5c80ea1fbf1c372197ae0004b3eac8b3efea8cad7dca4973c26271844d99",
+    "before": "يهاجم الأعداء وقد يلهيهم عنك.",
+    "after": "يهاجم الأعداء وقد يلهيهم عنك.",
+    "decision": "keep"
+  },
+  {
+    "index": 24889,
+    "key": "WEAPON_MRFUNGI_OMEGA",
+    "source_sha256": "b18c0307c48e4c42756d56b7553dd8c347e788a55773cc438446de469b3b37cd",
+    "before": "Ω الآنسة فنغال",
+    "after": "Ω الآنسة فنغال",
+    "decision": "keep"
+  },
+  {
+    "index": 24890,
+    "key": "WEAPON_MRFUNGI_OMEGA_DESC",
+    "source_sha256": "b972a0938d6d9473ab1ee4f59652fd9d186e38515d6a9d1f14d519a6b7a398d3",
+    "before": "نسخة أوميغا من الآنسة فنغال!",
+    "after": "نسخة أوميغا من الآنسة فنغال!",
+    "decision": "keep"
+  },
+  {
+    "index": 24891,
+    "key": "WEAPON_MRFUNGI_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24892,
+    "key": "WEAPON_MRFUNGI_OMEGA_DESC_UPGRADE",
+    "source_sha256": "3f87aa07c705c7dfa791c7fb69eec28c0fc83707997d2dd3089a22aeb7e6646d",
+    "before": "السيد فنغاي والآنسة فنغال يهاجمان<br>الأعداء وقد يلهيانهم عنك.",
+    "after": "السيد فنغاي والآنسة فنغال يهاجمان<br>الأعداء وقد يلهيانهم عنك.",
+    "decision": "keep"
+  },
+  {
+    "index": 24893,
+    "key": "WEAPON_MRFUNGI_OMEGA_UC",
+    "source_sha256": "75ea9046292396423596d81d333dc81304fcabcdca7f01da5a8bc1acccce6ef7",
+    "before": "Ω الآنسة فنغال",
+    "after": "Ω الآنسة فنغال",
+    "decision": "keep"
+  },
+  {
+    "index": 24894,
+    "key": "WEAPON_MRFUNGI_UC",
+    "source_sha256": "f18860fe88bf3bfd9808021990df34d485e4e1d9065ea8fcf2dd9f135da27c10",
+    "before": "السيد فنغاي",
+    "after": "السيد فنغاي",
+    "decision": "keep"
+  },
+  {
+    "index": 24895,
+    "key": "WEAPON_MRFUNGI_V5",
+    "source_sha256": "a1613ace4ed8e732647194adeda0dff92aedf84fd4484b3f7e1cc0061dc01b80",
+    "before": "الآنسة فنغال",
+    "after": "الآنسة فنغال",
+    "decision": "keep"
+  },
+  {
+    "index": 24896,
+    "key": "WEAPON_MRFUNGI_V5_DESC",
+    "source_sha256": "52db3416a2ff89ef231f3d996a5f7ca39a5f688a927f0ac2488faf8469adf546",
+    "before": "السيد فنغاي يحضر كل حفلة ومعه<br>ضيفة: الآنسة فنغال!",
+    "after": "السيد فنغاي يحضر كل حفلة ومعه<br>ضيفة: الآنسة فنغال!",
+    "decision": "keep"
+  },
+  {
+    "index": 24897,
+    "key": "WEAPON_MRFUNGI_V5_DESC_UPGRADE",
+    "source_sha256": "3f87aa07c705c7dfa791c7fb69eec28c0fc83707997d2dd3089a22aeb7e6646d",
+    "before": "السيد فنغاي والآنسة فنغال يهاجمان<br>الأعداء وقد يلهيانهم عنك.",
+    "after": "السيد فنغاي والآنسة فنغال يهاجمان<br>الأعداء وقد يلهيانهم عنك.",
+    "decision": "keep"
+  },
+  {
+    "index": 24898,
+    "key": "WEAPON_MRFUNGI_V5_UC",
+    "source_sha256": "a34ae908cb4786a85625f12628028e7b6aae5695ae82d4b696a32971504e345d",
+    "before": "الآنسة فنغال",
+    "after": "الآنسة فنغال",
+    "decision": "keep"
+  },
+  {
+    "index": 24899,
+    "key": "WEAPON_PIXELIZER",
+    "source_sha256": "1781fba26f73aa4d39cb5300cd23c631b6b1f7d1c6be4015b7434eafda1974fb",
+    "before": "المبكسل",
+    "after": "المبكسل",
+    "decision": "keep"
+  },
+  {
+    "index": 24900,
+    "key": "WEAPON_PIXELIZER_DESC",
+    "source_sha256": "900d6984b65146b554e783011ff52d4fc5beff1c0972c9cb441700e36afaf022",
+    "before": "تحن إلى أيام الموسيقى الرقمية<br>وألعاب المنصات ثنائية الأبعاد؟ أعد<br>أعداءك إلى العصر الحجري الرقمي<br>بالمبكسل!",
+    "after": "تحن إلى أيام الموسيقى الرقمية<br>وألعاب المنصات ثنائية الأبعاد؟ أعد<br>أعداءك إلى العصر الحجري الرقمي<br>بالمبكسل!",
+    "decision": "keep"
+  },
+  {
+    "index": 24901,
+    "key": "WEAPON_PIXELIZER_DESC_SOON",
+    "source_sha256": "d5869ee4617c91f2416eaf8e6090912240fdfc786819388c737957e559d70815",
+    "before": "الجديد صار قديما.",
+    "after": "الجديد صار قديما.",
+    "decision": "keep"
+  },
+  {
+    "index": 24902,
+    "key": "WEAPON_PIXELIZER_DESC_UPGRADE",
+    "source_sha256": "188ddbfa09194702e3deab162d1d58ad1202a0b445e79df709f730e57300b5b2",
+    "before": "يطلق طلقات تبكسل الأعداء.",
+    "after": "يطلق طلقات تبكسل الأعداء.",
+    "decision": "keep"
+  },
+  {
+    "index": 24903,
+    "key": "WEAPON_PIXELIZER_OMEGA",
+    "source_sha256": "172ffebf27b92fe1b0295ce23909eed6fd79f8eac6eaa5afe1efe255a3c3231b",
+    "before": "Ω المبكسل HD",
+    "after": "Ω المبكسل HD",
+    "decision": "keep"
+  },
+  {
+    "index": 24904,
+    "key": "WEAPON_PIXELIZER_OMEGA_DESC",
+    "source_sha256": "dd75e6d9c41d7c7b12ed466c4a684bc1f43decde2ff2162ad040643199ab7487",
+    "before": "نسخة أوميغا من المبكسل HD!",
+    "after": "نسخة أوميغا من المبكسل HD!",
+    "decision": "keep"
+  },
+  {
+    "index": 24905,
+    "key": "WEAPON_PIXELIZER_OMEGA_DESC_SOON",
+    "source_sha256": "9f4cca371e99d023098e10005ae74699f6e2c4ab88c128def78af2a2a3fe43fa",
+    "before": "بضرر أعظم وتطويرات أكثر!",
+    "after": "بضرر أعظم وتطويرات أكثر!",
+    "decision": "keep"
+  },
+  {
+    "index": 24906,
+    "key": "WEAPON_PIXELIZER_OMEGA_DESC_UPGRADE",
+    "source_sha256": "22591d52a867efef9b182f50ddd993a57a3d0b2e6ae4c982b0b966a0e7c035a4",
+    "before": "،يطلق طلقات تبكسل الأعداء ويمكن<br>شحنها لانفجارات أكبر.",
+    "after": "يطلق طلقات تحول الأعداء إلى<br>بكسلات، ويمكن شحنها لإحداث<br>انفجارات أكبر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24907,
+    "key": "WEAPON_PIXELIZER_OMEGA_UC",
+    "source_sha256": "316f13e2465f326256a323b45dc7e0ae141d1ab3810557364a60bc2d63183200",
+    "before": "Ω المبكسل HD",
+    "after": "Ω المبكسل HD",
+    "decision": "keep"
+  },
+  {
+    "index": 24908,
+    "key": "WEAPON_PIXELIZER_UC",
+    "source_sha256": "824dac40dac7ff1e5e7b5c01545c130ffe6ab53dc0d65871a8d4ca1838266340",
+    "before": "المبكسل",
+    "after": "المبكسل",
+    "decision": "keep"
+  },
+  {
+    "index": 24909,
+    "key": "WEAPON_PIXELIZER_V5",
+    "source_sha256": "8edaefa415be930773157f3767ef84f26a9d92d6c9a6a1c5a0437131d37c7e4c",
+    "before": "المبكسل HD",
+    "after": "المبكسل HD",
+    "decision": "keep"
+  },
+  {
+    "index": 24910,
+    "key": "WEAPON_PIXELIZER_V5_DESC",
+    "source_sha256": "a2d312aa170e24aa51b4c327ce31c427b6e49d743afde2916de933b09e68be65",
+    "before": "يمكنك الآن شحن طلقات المبكسل<br>لانفجار أضخم من جودة الثماني بت!",
+    "after": "يمكنك الآن شحن طلقات المبكسل<br>لإحداث انفجار أكبر من روعة رسوم 8<br>بت!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24911,
+    "key": "WEAPON_PIXELIZER_V5_DESC_SOON",
+    "source_sha256": "22591d52a867efef9b182f50ddd993a57a3d0b2e6ae4c982b0b966a0e7c035a4",
+    "before": "،يطلق طلقات تبكسل الأعداء ويمكن<br>شحنها لانفجارات أكبر.",
+    "after": "يطلق طلقات تحول الأعداء إلى<br>بكسلات، ويمكن شحنها لإحداث<br>انفجارات أكبر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24912,
+    "key": "WEAPON_PIXELIZER_V5_UC",
+    "source_sha256": "40e11ddaf2e89d5365297b8c01850f51c36745169cdb4c7b9d512d426a94ea57",
+    "before": "المبكسل HD",
+    "after": "المبكسل HD",
+    "decision": "keep"
+  }
+]

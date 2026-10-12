@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_RYNOUP",
     "arabic_current": "<ts=&quot;0;0.42&quot;>،أووه<ts=&quot;0.909;5.459&quot;>يا إلهي، الآن صار هذا ما أسميه<br>أداة تدمير!",
-    "arabic_edit": "<ts=&quot;0;0.42&quot;>،أووه<ts=&quot;0.909;5.459&quot;>يا إلهي، الآن صار هذا ما أسميه أداة تدمير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.42&quot;>أوه،<ts=&quot;0.909;5.459&quot;>يا للعجب! هذا ما أسميه أداة تدمير!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "48f13a3223b01f6ff0d26ae56c706169958f19d5cf5e7598ea86a2f4b5c260cd",
+      "candidate_sha256": "1f226e1ae8fa9666e1327e71f287c9ee8ba6a7d210e3d38ed669b914d3ef4db7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

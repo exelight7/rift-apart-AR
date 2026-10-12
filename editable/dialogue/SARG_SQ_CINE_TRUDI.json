@@ -6,14 +6,22 @@
     "speaker_code": "MORT1",
     "scene_code": "SARG_SQ_CINE_TRUDI",
     "arabic_current": "<ts=&quot;0;1.4&quot;>أوه، مرحبا يا ريفت.<ts=&quot;1.49;3.24&quot;>إنها مجوعة وتحتاج إلى<br>الزوربستون.",
-    "arabic_edit": "<ts=&quot;0;1.4&quot;>أوه، مرحبا يا ريفت.<ts=&quot;1.49;3.24&quot;>إنها مجوعة وتحتاج إلى الزوربستون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.4&quot;>أوه، أهلًا، يا ريفت.<ts=&quot;1.49;3.24&quot;>إنها جائعة وتشتهي أحجار الزورب فحسب.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "e612ae654082425a200eb5df93287235e072dd4c5d4cc758f4d6578fcb7f7295",
+      "candidate_sha256": "5ea7e823af4b518d21fc0a9438f3f9f6dd81480815ff1adf1bdaef12a1478e57",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12876,
@@ -22,14 +30,22 @@
     "speaker_code": "MORT1",
     "scene_code": "SARG_SQ_CINE_TRUDI",
     "arabic_current": "<ts=&quot;0;5.144&quot;>عادة تلتقطها من تلك الجزر<br>،الصخرية هناك في الأعلى<br>لكني أظن أنها لا تملك طاقة<br>للطيران اليوم.",
-    "arabic_edit": "<ts=&quot;0;5.144&quot;>عادة تلتقطها من تلك الجزر ،الصخرية هناك في<br>الأعلى لكني أظن أنها لا تملك طاقة للطيران<br>اليوم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;5.144&quot;>عادةً تلتقطها من تلك الجزر الصخرية في<br>الأعلى، لكن يبدو أنها متعبة جدًّا للطيران<br>اليوم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "2cd4c83c5294846fe230b3d34bf599d9d45d617469777ccc21c551a7aa7123b3",
+      "candidate_sha256": "c4441ac6dff30a66c915c85fe3b189bfb4dc5de38c34fb6c9ad302c8a82e3248",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12877,
@@ -39,13 +55,21 @@
     "scene_code": "SARG_SQ_CINE_TRUDI",
     "arabic_current": "<ts=&quot;0.026;4.204&quot;>أوه، أنت حبيبة! سننتظرك<br>هنا تماما حين تعودين.",
     "arabic_edit": "<ts=&quot;0.026;4.204&quot;>أوه، أنت حبيبة! سننتظرك هنا تماما حين<br>تعودين.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "89ba1feaae7313407af0646aca59b58963aea5cc6deeb8168a9b16f4a45831ce",
+      "candidate_sha256": "54c86b6c98b87e3c0d2c616ea594d96008830681839a928f9d3e1c153804ac61",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21369,
@@ -55,12 +79,20 @@
     "scene_code": "SARG_SQ_CINE_TRUDI",
     "arabic_current": "<ts=&quot;0.03;1.061&quot;>ما خطب ترودي؟",
     "arabic_edit": "<ts=&quot;0.03;1.061&quot;>ما خطب ترودي؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "83f8eb1452183d60be14f32c5c65ed473bae963c1486410ffc7a05243e43798f",
+      "candidate_sha256": "b8c4f577deebd2b6dd9ed9bf3dfc05d1a2799a1a3c3c6a326f6cfe118ebb9689",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21370,
@@ -70,13 +102,21 @@
     "scene_code": "SARG_SQ_CINE_TRUDI",
     "arabic_current": "<ts=&quot;0.13;2.352&quot;>أوه، سهرت في الحفلات مرة<br>أخرى؟<ts=&quot;2.693;4.173&quot;>لا تقلقي، سأحضرها<br>بنفسي.",
     "arabic_edit": "<ts=&quot;0.13;2.352&quot;>أوه، سهرت في الحفلات مرة أخرى؟<ts=&quot;2.693;4.173&quot;>لا تقلقي، سأحضرها بنفسي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "9e8a7f8b483be36cc4149ad15f77df678e8a626c4654d9b507b7dad9df113947",
+      "candidate_sha256": "c155f9203209b02311ee242faed155b3a54995b7704f942dde332365c0027ac1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24122,
@@ -85,13 +125,21 @@
     "speaker_code": "TRUD",
     "scene_code": "SARG_SQ_CINE_TRUDI",
     "arabic_current": "<ts=&quot;0.015;1.789&quot;>[يئن من الجوع.]",
-    "arabic_edit": "<ts=&quot;0.015;1.789&quot;>[يئن من الجوع.]",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.015;1.789&quot;>[تئن من الجوع]",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "62c67504a8c78c58eb78daaa52c4503bc35e2d75c99850bde3eba0f4ac7d8906",
+      "candidate_sha256": "b096fc222b60386cf5c5375273e6de37ef2e63abfa17bb0e6ba40c7b6b6d3e1c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24123,
@@ -100,13 +148,21 @@
     "speaker_code": "TRUD",
     "scene_code": "SARG_SQ_CINE_TRUDI",
     "arabic_current": "<ts=&quot;0.021;1.065&quot;>[يئن من الجوع.]",
-    "arabic_edit": "<ts=&quot;0.021;1.065&quot;>[يئن من الجوع.]",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.021;1.065&quot;>[تئن من الجوع]",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "abd8db321f7b6ef44703f4b5b95f42c7c089e2c14673d41139e4e956a415d688",
+      "candidate_sha256": "0a2199690add5a9d1eab2c6508fa5c86ec7a28ca6ed56ffced5988048d2280df",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24124,

@@ -1,0 +1,1602 @@
+[
+  {
+    "index": 1,
+    "key": "ACCESS_LEGAL_PC_GLOBAL",
+    "source_sha256": "11b6e2804d48a4a7511b4b68c163d2615d8fb08a7943902597a8394ca6aa7734",
+    "before": "،بتفعيلك لهذه الإعدادات فإنك توافق<br>على أن تتلقى شركة سوني إنتراكتيف<br>إنترتينمنت المحدودة بيانات عن<br>الإعدادات التي اخترتها، وتستخدمها<br>لغرض وحيد هو تحليل ميزات إمكانية<br>الوصول وتحسينها.",
+    "after": "بتفعيل هذه الإعدادات، توافق على أن تتلقى<br>شركة سوني إنتراكتيف إنترتينمنت ذات<br>المسؤولية المحدودة بيانات عن الإعدادات<br>التي اخترتها وتستخدمها حصريًا لتحليل ميزات<br>إمكانية الوصول وتحسينها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 36,
+    "key": "AC_BRONZE_A1_BANNER",
+    "source_sha256": "ad2e43710e01dd22e3219c0601fb9d1fccfc19faa699ef19605ff452ed45e561",
+    "before": "لجنة الاستقبال اهزم طاقم بيير",
+    "after": "لجنة الاستقبال<br>اهزم طاقم بيير",
+    "decision": "rewrite"
+  },
+  {
+    "index": 37,
+    "key": "AC_BRONZE_A1_DESC",
+    "source_sha256": "f3af016c6e5294f35af3237906962ec986fe951a1356a8038408bd3bb25329e3",
+    "before": "اهزم طاقم بيير",
+    "after": "اهزم طاقم بيير",
+    "decision": "keep"
+  },
+  {
+    "index": 38,
+    "key": "AC_BRONZE_A1_OBJ",
+    "source_sha256": "af927e356992f0fdfe6bad5d537f3276ab57f938aad42a609aadc2e7df6c137f",
+    "before": "اهزم خمس موجات من القراصنة",
+    "after": "اهزم خمس موجات من القراصنة",
+    "decision": "keep"
+  },
+  {
+    "index": 39,
+    "key": "AC_BRONZE_A1_TITLE",
+    "source_sha256": "a08a61e702c24a3d30e3711d8a700ff6da6cea8b15a380911da248382aa3e24e",
+    "before": "لجنة الاستقبال",
+    "after": "لجنة الاستقبال",
+    "decision": "keep"
+  },
+  {
+    "index": 40,
+    "key": "AC_BRONZE_A2_BANNER",
+    "source_sha256": "14860c6dfd1749d02a3d99a7fb2ad77ad945d82055e2c1bd57ace49af110ea87",
+    "before": "السيد فرانسوا اهزم فرانسوا",
+    "after": "السيد فرانسوا<br>اهزم فرانسوا",
+    "decision": "rewrite"
+  },
+  {
+    "index": 41,
+    "key": "AC_BRONZE_A2_DESC",
+    "source_sha256": "96bf4389340eec12ab890d247b8a50f725b405862f75ca8ca3d95ec428037003",
+    "before": "اهزم فرانسوا",
+    "after": "اهزم فرانسوا",
+    "decision": "keep"
+  },
+  {
+    "index": 42,
+    "key": "AC_BRONZE_A2_OBJ",
+    "source_sha256": "96bf4389340eec12ab890d247b8a50f725b405862f75ca8ca3d95ec428037003",
+    "before": "اهزم فرانسوا",
+    "after": "اهزم فرانسوا",
+    "decision": "keep"
+  },
+  {
+    "index": 43,
+    "key": "AC_BRONZE_A2_TITLE",
+    "source_sha256": "68fa3131eaf9ae8fb84f8d8f0a49cb0dce2e1668996c621ed7e9d8f7d44083b6",
+    "before": "السيد فرانسوا",
+    "after": "السيد فرانسوا",
+    "decision": "keep"
+  },
+  {
+    "index": 44,
+    "key": "AC_BRONZE_A3_BANNER",
+    "source_sha256": "6a01988fc13288ea54123d3c62ce6f259f8c0490d39f019d8930368cb9a14397",
+    "before": "انفجار البندقية غونا بالإنفورسر 25<br>اهزم",
+    "after": "انفجار البندقية<br>اهزم 25 من الغونز باستخدام إنفورسر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 45,
+    "key": "AC_BRONZE_A3_DESC",
+    "source_sha256": "675bac45c0583b14628237afc9af59de7e7b5dbce80a7306912fe3580c676306",
+    "before": "غونا بالإنفورسر فقط 25 اهزم",
+    "after": "اهزم 25 من الغونز باستخدام إنفورسر فقط",
+    "decision": "rewrite"
+  },
+  {
+    "index": 46,
+    "key": "AC_BRONZE_A3_OBJ",
+    "source_sha256": "382700bc676eb5883f33cf8bcab5a5ae7fce3932395d8c71bc0386ff8bb9afe5",
+    "before": "غونا بالإنفورسر 25 اهزم",
+    "after": "اهزم 25 من الغونز باستخدام إنفورسر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 47,
+    "key": "AC_BRONZE_A3_TITLE",
+    "source_sha256": "e7130bb7842640bd08b88b8caebb97e35341f457eb4e86a315b7e6069d660b0c",
+    "before": "انفجار البندقية",
+    "after": "انفجار البندقية",
+    "decision": "keep"
+  },
+  {
+    "index": 48,
+    "key": "AC_BRONZE_A4_BANNER",
+    "source_sha256": "f41c09f683fd071dcc69b60e538d7c29f11f00af6444fff93ed486b5362482f1",
+    "before": "مكافحة الآفات آفة قبل أن تقتلك 50<br>اهزم السموم",
+    "after": "مكافحة الآفات<br>اهزم 50 آفة قبل أن يقتلك السم",
+    "decision": "rewrite"
+  },
+  {
+    "index": 49,
+    "key": "AC_BRONZE_A4_DESC",
+    "source_sha256": "b136a0d0f2e672aa17ce0887741cefcb43711cd62726a03c71ccc6e43fe94e30",
+    "before": "آفة قبل أن يقتلك 50 اهزم الغاز<br>السام",
+    "after": "اهزم 50 آفة قبل أن يقتلك الغاز السام",
+    "decision": "rewrite"
+  },
+  {
+    "index": 50,
+    "key": "AC_BRONZE_A4_OBJ",
+    "source_sha256": "4c1d6f811abe4ff1410cdc5e2d0d5a03ee3f96727010f3ee4f1c900cb23050e7",
+    "before": "آفة قبل أن تقتلك 50 اهزم السموم",
+    "after": "اهزم 50 آفة قبل أن يقتلك السم",
+    "decision": "rewrite"
+  },
+  {
+    "index": 51,
+    "key": "AC_BRONZE_A4_TITLE",
+    "source_sha256": "6aa3a41452a15415fc46efc5982224538e26c8a16d508169681c95ec3ea3c6d0",
+    "before": "مكافحة الآفات",
+    "after": "مكافحة الآفات",
+    "decision": "keep"
+  },
+  {
+    "index": 52,
+    "key": "AC_BRONZE_A5_BANNER",
+    "source_sha256": "c26262004df99678a3ff7ad4d65332f8a6ce53dafd14444270eb6a35b9490c28",
+    "before": "بغتراك سريع ورائع تحدي زمن: أنه<br>مسار الخنفساء في الوقت المحدد",
+    "after": "بغتراك سريع ورائع<br>سباق زمني: أكمل مسار سبيتل في الوقت المحدد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 53,
+    "key": "AC_BRONZE_A5_DESC",
+    "source_sha256": "0caa950930e1f4775c40726e5f59bc162b3891615b27d520d25b014a0726ff51",
+    "before": "تحدي زمن: أنه مسار الخنفساء!<br>بسرعة!",
+    "after": "سباق زمني: أكمل مسار سبيتل! بسرعة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 54,
+    "key": "AC_BRONZE_A5_OBJ",
+    "source_sha256": "f260e8df0cce63dca41e1694513f2b0705292edb50881844e40614a15ee05ccc",
+    "before": "أنه مسار الخنفساء في الوقت المحدد",
+    "after": "أكمل مسار سبيتل في الوقت المحدد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 55,
+    "key": "AC_BRONZE_A5_TITLE",
+    "source_sha256": "afb51fb5d52c27142c8d3b010625e154fe7ff01feb7983341e87c459ec7ce34c",
+    "before": "بغتراك سريع ورائع",
+    "after": "بغتراك سريع ورائع",
+    "decision": "keep"
+  },
+  {
+    "index": 56,
+    "key": "AC_BRONZE_A6_BANNER",
+    "source_sha256": "08e6d8acccf1ee8d0a0206a96671680620ec53191e00fe7958b2d7c57a170d10",
+    "before": "غرانثور اسمها سو اهزم الغرانثور<br>الهيكل",
+    "after": "غرانثور اسمها سو<br>اهزم الغرانثور الحي الميت",
+    "decision": "rewrite"
+  },
+  {
+    "index": 57,
+    "key": "AC_BRONZE_A6_DESC",
+    "source_sha256": "5e892a56ffc9b34f3d925d48b87a5c7acdd2b65c967fd4a82004ccc945579100",
+    "before": "اهزم الغرانثور الهيكل",
+    "after": "اهزم الغرانثور الحي الميت",
+    "decision": "rewrite"
+  },
+  {
+    "index": 58,
+    "key": "AC_BRONZE_A6_OBJ",
+    "source_sha256": "a0f462bbe82667b85c1cfaf03060b7fc03e4c8d4fdff1a5e94fbe293a1f18a98",
+    "before": "اهزم سو",
+    "after": "اهزم سو",
+    "decision": "keep"
+  },
+  {
+    "index": 59,
+    "key": "AC_BRONZE_A6_TITLE",
+    "source_sha256": "d0e1e6f1db2f10708c6f9144b8a54f48c34d84872f19a1c540a8a18c586182d1",
+    "before": "غرانثور اسمها سو",
+    "after": "غرانثور اسمها سو",
+    "decision": "keep"
+  },
+  {
+    "index": 60,
+    "key": "AC_GOLD_C1_BANNER",
+    "source_sha256": "bd6f309f3c89b232378236803f6beb70e7c1a5610ab1cdcdf2e67c414c885673",
+    "before": "تجميد جماعي أميبة متجمدة 25 اهزم",
+    "after": "تجميد جماعي<br>اهزم 25 أميبة متجمدة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 61,
+    "key": "AC_GOLD_C1_DESC",
+    "source_sha256": "d449662bc60a6eb32468e785ab868ff166f2bafbd2581dc84aa2892ef10609e1",
+    "before": "أميبة متجمدة 25 اهزم",
+    "after": "اهزم 25 أميبة متجمدة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 62,
+    "key": "AC_GOLD_C1_OBJ",
+    "source_sha256": "a7e92931cc47cd5f9098936fab815d272813e05535351a138ab2f056c25d917d",
+    "before": "اهزم الأميبات المتجمدة",
+    "after": "اهزم الأميبات المتجمدة",
+    "decision": "keep"
+  },
+  {
+    "index": 63,
+    "key": "AC_GOLD_C1_TITLE",
+    "source_sha256": "bdacbb6fb30c5014999921944221a82b1df1d936c9545d3be0860e1c99a427e9",
+    "before": "تجميد جماعي",
+    "after": "تجميد جماعي",
+    "decision": "keep"
+  },
+  {
+    "index": 64,
+    "key": "AC_GOLD_C2_BANNER",
+    "source_sha256": "a9b004d1e5ee5ebe7bf49f00f79c946e6dbd2cde394d65692a3e65bbb798baed",
+    "before": "المانغلر إلى الأبد انج من المانغلر<br>المنبعث",
+    "after": "المانغلر إلى الأبد<br>انج من المانغلر العائد للحياة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 65,
+    "key": "AC_GOLD_C2_DESC",
+    "source_sha256": "e0d56b890781404f3496eb80b5bc12549cd32365600c9309d98db3fae3d04c1c",
+    "before": "انج من المانغلر المنبعث",
+    "after": "انج من المانغلر العائد للحياة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 66,
+    "key": "AC_GOLD_C2_OBJ",
+    "source_sha256": "134e7a536919c905476a760246a64f16a463c96b13e730f17a84a35737a92b22",
+    "before": "انج من خمس موجات من الأعداء",
+    "after": "انج من خمس موجات من الأعداء",
+    "decision": "keep"
+  },
+  {
+    "index": 67,
+    "key": "AC_GOLD_C2_TITLE",
+    "source_sha256": "e98b070865214e633bb1ba1262e1070568676ea302e877973616cfaabefe35e1",
+    "before": "المانغلر إلى الأبد",
+    "after": "المانغلر إلى الأبد",
+    "decision": "keep"
+  },
+  {
+    "index": 68,
+    "key": "AC_GOLD_C3_BANNER",
+    "source_sha256": "74413ec15930c31e26c4a5ee00feb2e04faaac186b85f156eb3a34463326fed3",
+    "before": "ههه، هذا عشوائي قاتل بأسلحة<br>عشوائية",
+    "after": "ههه، هذا عشوائي!<br>قاتل بأسلحة عشوائية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 69,
+    "key": "AC_GOLD_C3_DESC",
+    "source_sha256": "3625f0fae44a7912aa18ecd343774f102631e4f120ecfba86411e32b7f61e2c3",
+    "before": "قاتل بأسلحة عشوائية",
+    "after": "قاتل بأسلحة عشوائية",
+    "decision": "keep"
+  },
+  {
+    "index": 70,
+    "key": "AC_GOLD_C3_OBJ",
+    "source_sha256": "4be1109c55f2b5ef0b51abd3cf25b1eb13bb87631e9b9189f8f28686d672f4eb",
+    "before": "اهزم خمس موجات من الأعداء",
+    "after": "اهزم خمس موجات من الأعداء",
+    "decision": "keep"
+  },
+  {
+    "index": 71,
+    "key": "AC_GOLD_C3_TITLE",
+    "source_sha256": "a63235adbcb340f14b273b54597748010ff91162c819dd7b9ae95dc16503c884",
+    "before": "ههه، هذا عشوائي!",
+    "after": "ههه، هذا عشوائي!",
+    "decision": "keep"
+  },
+  {
+    "index": 72,
+    "key": "AC_GOLD_C4_BANNER",
+    "source_sha256": "9222c5a43918d3e8fbc9dd5a7c7dbda4031625e132a5127b525d5beddba52ff3",
+    "before": "أنجح أغانيهم اهزم ثلاث موجات بينما<br>تعزف الفرقة",
+    "after": "أنجح أغانيهم<br>اهزم ثلاث موجات بينما تعزف الفرقة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 73,
+    "key": "AC_GOLD_C4_DESC",
+    "source_sha256": "51d7e3bd141bcb03b65155decc79b26b11b115c893eb1ee59213098d1df543d1",
+    "before": "اهزم ثلاث موجات بينما تعزف الفرقة",
+    "after": "اهزم ثلاث موجات بينما تعزف الفرقة",
+    "decision": "keep"
+  },
+  {
+    "index": 74,
+    "key": "AC_GOLD_C4_OBJ",
+    "source_sha256": "8232e6b2630468a8fb2885e4afaa1f02b2f848b518ea04ee6738598af84f231f",
+    "before": "اهزم ثلاث موجات من الأعداء",
+    "after": "اهزم ثلاث موجات من الأعداء",
+    "decision": "keep"
+  },
+  {
+    "index": 75,
+    "key": "AC_GOLD_C4_TITLE",
+    "source_sha256": "f17b9749e0e7bad89da5fea19fe4de10f7d1759aacb7dba21bfa41908205b8cc",
+    "before": "أنجح أغانيهم",
+    "after": "أنجح أغانيهم",
+    "decision": "keep"
+  },
+  {
+    "index": 76,
+    "key": "AC_GOLD_C5_BANNER",
+    "source_sha256": "867b7508c6e9aeb284ecb1bd936a41ad820cf30123a946159d33911a102ec14b",
+    "before": "وقت مناسب للتكبير اهزم ثلاث موجات<br>بالصياد",
+    "after": "وقت مناسب للتكبير<br>اهزم ثلاث موجات باستخدام قناص الرؤوس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 77,
+    "key": "AC_GOLD_C5_DESC",
+    "source_sha256": "5fbb05ad62169cafeafa6aac00a5da029cf36883b661945ed51b0feae629a59d",
+    "before": "اهزم ثلاث موجات بالصياد",
+    "after": "اهزم ثلاث موجات باستخدام قناص الرؤوس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 78,
+    "key": "AC_GOLD_C5_OBJ",
+    "source_sha256": "9b99482013453efd05618f17e134312547da5bfcf11cd5acafe883e2fb6d82b8",
+    "before": "موجات من الأعداء 3 اهزم بالصياد",
+    "after": "اهزم 3 موجات من الأعداء باستخدام قناص<br>الرؤوس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 79,
+    "key": "AC_GOLD_C5_TITLE",
+    "source_sha256": "449474bfd1e6e64bb045c375c37d9d3239031940fb24000789ba3080a24600cf",
+    "before": "وقت مناسب للتكبير",
+    "after": "وقت مناسب للتكبير",
+    "decision": "keep"
+  },
+  {
+    "index": 80,
+    "key": "AC_GOLD_C6_BANNER",
+    "source_sha256": "bc7038c84cd6614a9651c0dd460e4beb7b91aa78476493ac881ef5e3e9f384bf",
+    "before": "أجمل بمرتين اهزم الأعداء العائدين",
+    "after": "أجمل بمرتين<br>اهزم الأعداء العائدين",
+    "decision": "rewrite"
+  },
+  {
+    "index": 81,
+    "key": "AC_GOLD_C6_DESC",
+    "source_sha256": "bddf90d9987ff96cedbc9f9e7fe0de8a7c657f4a2450a72d8e6e627e5ae61227",
+    "before": "اهزم الأعداء العائدين",
+    "after": "اهزم الأعداء العائدين",
+    "decision": "keep"
+  },
+  {
+    "index": 82,
+    "key": "AC_GOLD_C6_OBJ",
+    "source_sha256": "6a5910b27ba106223cd9160df29f0771784fa41524ffc4d300d28d582fa45e70",
+    "before": "اهزم سو وسكولو",
+    "after": "اهزم سو وسكولو",
+    "decision": "keep"
+  },
+  {
+    "index": 83,
+    "key": "AC_GOLD_C6_TITLE",
+    "source_sha256": "b5115bfe62d5cddb2507928d7065a22a665ac5797f3fce009cabccc814c64596",
+    "before": "أجمل بمرتين",
+    "after": "أجمل بمرتين",
+    "decision": "keep"
+  },
+  {
+    "index": 84,
+    "key": "AC_REWARD_BOLTS",
+    "source_sha256": "c75134156afb0d20a015b806fe806e2c7830b2d6c23364ce2285f756d3c67ad6",
+    "before": "%d مسامير",
+    "after": "%d مسامير",
+    "decision": "keep"
+  },
+  {
+    "index": 85,
+    "key": "AC_REWARD_BOXBREAKER",
+    "source_sha256": "15b840a302bc98a4a0eb2aa5579ec07e0851d9b8a7126bf3a15899c8b6c214b1",
+    "before": "محطم الصناديق",
+    "after": "محطم الصناديق",
+    "decision": "keep"
+  },
+  {
+    "index": 86,
+    "key": "AC_REWARD_CLANKPART",
+    "source_sha256": "f09d35ee9c47bc6e98f348f9a8e1208ee4a16e2f4287de5d0a330c7a862a4961",
+    "before": "مقوم الإشارة",
+    "after": "مقوي إشارة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 87,
+    "key": "AC_REWARD_GOLDBOLT",
+    "source_sha256": "f7a35f3f375aa404c1310c93728b9acb2847635ca013a34144ee88da1f642522",
+    "before": "المسمار الذهبي",
+    "after": "المسمار الذهبي",
+    "decision": "keep"
+  },
+  {
+    "index": 88,
+    "key": "AC_REWARD_RARITANIUM",
+    "source_sha256": "0543ca9a9a5df5002fffd214a09dfd3a5a5ba0a8d6fea39a71b9856d394ff3d4",
+    "before": "%d راريتانيوم",
+    "after": "%d راريتانيوم",
+    "decision": "keep"
+  },
+  {
+    "index": 89,
+    "key": "AC_REWARD_RYNOPLANS",
+    "source_sha256": "101611ac3c21af737663d80386c48842a486e7152b13a6502716e105b30525bb",
+    "before": "مخططات رينو",
+    "after": "مخططات رينو",
+    "decision": "keep"
+  },
+  {
+    "index": 90,
+    "key": "AC_SILVER_B1_BANNER",
+    "source_sha256": "d0e1622aaa4a898fa6d8c9b7cf4016865e32e972bcb1c9599c161242b3bbda8f",
+    "before": "المانغلة انج من خمس موجات ضد<br>المانغلر",
+    "after": "تمزيق شامل<br>انج من خمس موجات ضد المانغلر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 91,
+    "key": "AC_SILVER_B1_DESC",
+    "source_sha256": "e09039423e0d73e3d1a03817b6a3116c2472b61ec21577900c018e07bb08fe4d",
+    "before": "انج من خمس موجات ضد المانغلر",
+    "after": "انج من خمس موجات ضد المانغلر",
+    "decision": "keep"
+  },
+  {
+    "index": 92,
+    "key": "AC_SILVER_B1_OBJ",
+    "source_sha256": "134e7a536919c905476a760246a64f16a463c96b13e730f17a84a35737a92b22",
+    "before": "انج من خمس موجات من الأعداء",
+    "after": "انج من خمس موجات من الأعداء",
+    "decision": "keep"
+  },
+  {
+    "index": 93,
+    "key": "AC_SILVER_B1_TITLE",
+    "source_sha256": "397acc383751fd3db5f6f357a044435a9d607d3eecbf6d2dbfc76258338646fe",
+    "before": "المانغلة",
+    "after": "تمزيق شامل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 94,
+    "key": "AC_SILVER_B2_BANNER",
+    "source_sha256": "4a35b006415c80d124ccb1d9c6eb2c3e0f4326316d4129ffde3815b4d290bb60",
+    "before": "انفجار طاوش بوم اهزم أربع موجات<br>بتاجر الحروب",
+    "after": "انفجار كابوم<br>اهزم أربع موجات باستخدام مؤجج الحروب",
+    "decision": "rewrite"
+  },
+  {
+    "index": 95,
+    "key": "AC_SILVER_B2_DESC",
+    "source_sha256": "5a0cbf0c5b8c69b3cf09edbe74bf67346a56f0d757e7116534066c1718961d69",
+    "before": "اهزم أربع موجات من الأعداء بتاجر<br>الحروب",
+    "after": "اهزم أربع موجات من الأعداء باستخدام مؤجج<br>الحروب",
+    "decision": "rewrite"
+  },
+  {
+    "index": 96,
+    "key": "AC_SILVER_B2_OBJ",
+    "source_sha256": "f77810786219a5908616d4a9351486c2d0104ab054cd85647faf327480a77804",
+    "before": "اهزم أربع موجات من الأعداء",
+    "after": "اهزم أربع موجات من الأعداء",
+    "decision": "keep"
+  },
+  {
+    "index": 97,
+    "key": "AC_SILVER_B2_TITLE",
+    "source_sha256": "7b720da7775a6aaafb41095a7eb20ee7d2f253c3e2fbfaa5809e3010df2fb915",
+    "before": "انفجار طاوش بوم",
+    "after": "انفجار كابوم",
+    "decision": "rewrite"
+  },
+  {
+    "index": 98,
+    "key": "AC_SILVER_B3_BANNER",
+    "source_sha256": "e4e1a207e2f0f8153c75c9cb9d3a5349260cb1f7e84d5050fcf29e6b444a31c4",
+    "before": "دردشة الطريق اهزم غون الزحافات في<br>جاذبية منخفضة",
+    "after": "جولة بالدراجة<br>اهزم غون الدراجات في جاذبية منخفضة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 99,
+    "key": "AC_SILVER_B3_DESC",
+    "source_sha256": "8d5f1536eb188e250df209bc5a83416a6fabdd977945b3b162db93c222895007",
+    "before": "اهزم غون الزحافات في جاذبية منخفضة",
+    "after": "اهزم غون الدراجات في جاذبية منخفضة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 100,
+    "key": "AC_SILVER_B3_OBJ",
+    "source_sha256": "8232e6b2630468a8fb2885e4afaa1f02b2f848b518ea04ee6738598af84f231f",
+    "before": "اهزم ثلاث موجات من الأعداء",
+    "after": "اهزم ثلاث موجات من الأعداء",
+    "decision": "keep"
+  },
+  {
+    "index": 101,
+    "key": "AC_SILVER_B3_TITLE",
+    "source_sha256": "df2954d997b7d413a90de3fd22b2e4af607e296911275d7c1b5e1dc144e85bf4",
+    "before": "دردشة الطريق",
+    "after": "جولة بالدراجة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 102,
+    "key": "AC_SILVER_B4_BANNER",
+    "source_sha256": "6f4b359820a2432ec8e2e84a5310ec592325486b886b558531d90eeeb32d81a3",
+    "before": "البغتراك تحدي زمن: أنه مسار<br>الخنفساء في الوقت المحدد",
+    "after": "البغتراك<br>سباق زمني: أكمل مسار سبيتل في الوقت المحدد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 103,
+    "key": "AC_SILVER_B4_DESC",
+    "source_sha256": "888b43109fca32209e29b8f46d1c275b116aef70713bb14215be8447778eadbb",
+    "before": "تحدي زمن: أنه مسار الخنفساء في<br>الوقت المحدد",
+    "after": "سباق زمني: أكمل مسار سبيتل في الوقت المحدد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 104,
+    "key": "AC_SILVER_B4_OBJ",
+    "source_sha256": "f260e8df0cce63dca41e1694513f2b0705292edb50881844e40614a15ee05ccc",
+    "before": "أنه مسار الخنفساء في الوقت المحدد",
+    "after": "أكمل مسار سبيتل في الوقت المحدد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 105,
+    "key": "AC_SILVER_B4_TITLE",
+    "source_sha256": "ca61d4872b8a5fd69ebd46041101439e6357d4b3186718b7f3f8b106426a54c4",
+    "before": "البغتراك",
+    "after": "البغتراك",
+    "decision": "keep"
+  },
+  {
+    "index": 106,
+    "key": "AC_SILVER_B5_BANNER",
+    "source_sha256": "7ec7ccd343a93c642bf22978d7947b4cf0f240b2496f92ba7cb31a46d60235f8",
+    "before": "مقص الحشائش عدوا متحولا إلى شجيرة<br>20 اهزم",
+    "after": "مقص الشجيرات<br>اهزم 20 عدوًا متحولًا إلى شجيرات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 107,
+    "key": "AC_SILVER_B5_DESC",
+    "source_sha256": "6d1ac5ab2eef2c1705cc6a563acf6aef2e5607e3d0e57122f3a728b18abe261d",
+    "before": "عدوا متحولا إلى شجيرة 20 اهزم",
+    "after": "اهزم 20 عدوًا متحولًا إلى شجيرات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 108,
+    "key": "AC_SILVER_B5_OBJ",
+    "source_sha256": "b77a4bcf4d739a22abeb20c82b08ec91d0b762295bf12cc77f666117d9dd9d6c",
+    "before": "اهزم الأعداء وهم متحولون إلى<br>شجيرات",
+    "after": "اهزم الأعداء وهم متحولون إلى<br>شجيرات",
+    "decision": "keep"
+  },
+  {
+    "index": 109,
+    "key": "AC_SILVER_B5_TITLE",
+    "source_sha256": "812e4686aad2d9c4df5a37a473e9e5aa0678b7403e228d006903b1bf04b86fd5",
+    "before": "مقص الحشائش",
+    "after": "مقص الشجيرات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 110,
+    "key": "AC_SILVER_B6_BANNER",
+    "source_sha256": "fe186ff5ac35cd4b02a5a7e8739240912fc8b8e725e87bae457dca36b1b674ea",
+    "before": "انتقام سيكيربيد اهزم سكولو<br>سيكيربيد",
+    "after": "انتقام السيكيربيد<br>اهزم سكولو السيكيربيد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 111,
+    "key": "AC_SILVER_B6_DESC",
+    "source_sha256": "6400c3043f23f4940b7ded3caa21b8e635dc9e4474bd40f1abfcdc7abb383eec",
+    "before": "اهزم سكولو سيكيربيد",
+    "after": "اهزم سكولو سيكيربيد",
+    "decision": "keep"
+  },
+  {
+    "index": 112,
+    "key": "AC_SILVER_B6_OBJ",
+    "source_sha256": "17208748695e9c448373fb2b39335191499c9a65571346fa33d00840345c0f64",
+    "before": "اهزم سكولو",
+    "after": "اهزم سكولو",
+    "decision": "keep"
+  },
+  {
+    "index": 113,
+    "key": "AC_SILVER_B6_TITLE",
+    "source_sha256": "5fcc1c57a17fa9d08b33c5491b3f87b26f22c5af27e7a034057a6b001ead2e27",
+    "before": "انتقام سيكيربيد",
+    "after": "انتقام سيكيربيد",
+    "decision": "keep"
+  },
+  {
+    "index": 114,
+    "key": "ALERT_ENDGAME_HEADER",
+    "source_sha256": "c40f7f053b0cc39ee16991cc201cf0adea2ecd5506df66eb8927f38edc82ca19",
+    "before": "هل أنت مستعد؟",
+    "after": "هل أنت مستعد؟",
+    "decision": "keep"
+  },
+  {
+    "index": 115,
+    "key": "ALERT_ENDGAME_MESSAGE",
+    "source_sha256": "e949634b975e73b4ee8d14443fe7e9ae2ffe16d4cde46ddcf604fd1e3658a2e9",
+    "before": "المواجهة الأخيرة على الأبواب! هذه<br>فرصتك الأخيرة للحصول على الدروع<br>وجمع المقتنيات قبل نهاية القصة. هل<br>أنت متأكد من رغبتك في المتابعة؟",
+    "after": "المواجهة الأخيرة على الأبواب! هذه<br>فرصتك الأخيرة للحصول على الدروع<br>وجمع المقتنيات قبل نهاية القصة. هل<br>أنت متأكد من رغبتك في المتابعة؟",
+    "decision": "keep"
+  },
+  {
+    "index": 119,
+    "key": "ANALYTICS_ACCEPT",
+    "source_sha256": "22655acc6c5508dc185b492655bc695af0445c3e374e1d75244c7fa348e5b9b2",
+    "before": "موافقة",
+    "after": "موافقة",
+    "decision": "keep"
+  },
+  {
+    "index": 120,
+    "key": "ANALYTICS_DECLINE",
+    "source_sha256": "160fad7466f038b54534e4ddea445ca718f5ba4446b5733c5ac18ee096b54980",
+    "before": "رفض",
+    "after": "رفض",
+    "decision": "keep"
+  },
+  {
+    "index": 121,
+    "key": "ANALYTICS_LEARN_MORE",
+    "source_sha256": "9c8b41e90c0a7564fc2970f441613663d6a79405d66e7136e320918d89974fd2",
+    "before": "معرفة المزيد",
+    "after": "معرفة المزيد",
+    "decision": "keep"
+  },
+  {
+    "index": 122,
+    "key": "ANALYTICS_OPTION",
+    "source_sha256": "c03587bd627060a38e314fbe23efa720fda1d299c0ea7d7450bc44f1a35aa0bd",
+    "before": "جمع البيانات",
+    "after": "جمع البيانات",
+    "decision": "keep"
+  },
+  {
+    "index": 123,
+    "key": "ANALYTICS_OPTION_DESC",
+    "source_sha256": "62abac4cfdbf3eed57dec462e100d6317acd8505180e09a64a834ee8cd6730c7",
+    "before": "السماح بجمع بيانات معينة عن<br>استخدامك للعبة راتشت وكلانك:<br>انفصال البعد، كما هو موضح في سياسة<br>الخصوصية لدينا المنشورة على موقع<br>بلايستيشن.",
+    "after": "السماح بجمع بيانات معينة عن استخدامك للعبة<br>راتشت وكلانك: انفصال البعد، كما هو موضح في<br>سياسة الخصوصية لدينا<br>(www.playstation.com/legal/privacy-policy).",
+    "decision": "rewrite"
+  },
+  {
+    "index": 124,
+    "key": "ANALYTICS_OPTION_FULL",
+    "source_sha256": "cb6839cad0217d04d215050e8d6306dd9d4904dddc86a6b36e377d08509e5240",
+    "before": "كامل",
+    "after": "كامل",
+    "decision": "keep"
+  },
+  {
+    "index": 125,
+    "key": "ANALYTICS_OPTION_LIMITED",
+    "source_sha256": "c9b062eec89e082951728d271756409d24bf36e2a6c06b966101f4b5da657e85",
+    "before": "محدود",
+    "after": "محدود",
+    "decision": "keep"
+  },
+  {
+    "index": 126,
+    "key": "ANALYTICS_POPUP_DESC_0",
+    "source_sha256": "86aad0441d80502d027be84df26ccb26792d0b7c8d247bb739a2138a6e406c95",
+    "before": "ساعدنا في بناء أفضل تجربة على<br>بلايستيشن®!<br><br>عند لعبك هذه اللعبة، تجمع سوني<br>إنتراكتيف إنترتينمنت البيانات<br>اللازمة لتشغيل راتشت وكلانك:<br>انفصال البعد. وإذا وافقت، فقد تجمع<br>سوني إنتراكتيف إنترتينمنت أيضا<br>بيانات عن تفاعلك مع راتشت وكلانك:<br>انفصال البعد وعن الأخطاء التي<br>تحدث.<br><br>تستخدم هذه البيانات كما هو موضح في<br>سياسة الخصوصية لدينا.<br><br>يمكنك تغيير هذا الإعداد في أي وقت<br>للسماح بجمع بيانات كاملة أو بيانات<br>محدودة.",
+    "after": "ساعدنا في بناء أفضل تجربة على<br>بلايستيشن®!<br><br>عند لعبك هذه اللعبة، تجمع سوني<br>إنتراكتيف إنترتينمنت البيانات<br>اللازمة لتشغيل راتشت وكلانك:<br>انفصال البعد. وإذا وافقت، فقد تجمع<br>سوني إنتراكتيف إنترتينمنت أيضا<br>بيانات عن تفاعلك مع راتشت وكلانك:<br>انفصال البعد وعن الأخطاء التي<br>تحدث.<br><br>تستخدم هذه البيانات كما هو موضح في<br>سياسة الخصوصية لدينا.<br><br>يمكنك تغيير هذا الإعداد في أي وقت<br>للسماح بجمع بيانات كاملة أو بيانات<br>محدودة.",
+    "decision": "keep"
+  },
+  {
+    "index": 127,
+    "key": "ANALYTICS_POPUP_DESC_1",
+    "source_sha256": "7833458ef0608a163b955f8d9f8f9928ad776d1a6f6a053ba22194cdabddbf32",
+    "before": "نحن سوني إنتراكتيف إنترتينمنت.<br><br>يرجى الاطلاع على سياسة الخصوصية<br>لدينا على موقع بلايستيشن، لمزيد من<br>المعلومات عن كيفية جمع معلوماتك<br>الشخصية ومعالجتها، وعن كيفية<br>التواصل معنا.",
+    "after": "نحن سوني إنتراكتيف إنترتينمنت.<br><br>يرجى الاطلاع على سياسة الخصوصية لدينا<br>لمزيد من المعلومات عن كيفية جمع معلوماتك<br>الشخصية ومعالجتها وطرق التواصل معنا:<br>www.playstation.com/legal/privacy-policy.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 128,
+    "key": "ANALYTICS_POPUP_DESC_2",
+    "source_sha256": "b66922ae552a8f14175b2d54fcf4b40f3626cb0ccb24797705ea89302f602bd2",
+    "before": "(1) بيانات محدودة إذا لعبت هذه<br>اللعبة، فعلينا دائما جمع بيانات<br>محدودة أو تخزينها على الجهاز الذي<br>تستخدمه عند الضرورة اللازمة لتقديم<br>اللعبة، ومنها: - بيانات الإعداد:<br>معلومات عن إعداد جهازك والعبة التي<br>تلعبها، مثل إعداد تاريخ ،الجهاز<br>والوقت واللغة وتفضيلاتك وإعداداتك<br>داخل اللعبة. - بيانات الحساب: إذا<br>سجلت الدخول إلى حسابك على شبكة<br>بلايستيشن، فهذه هي المعلومات<br>اللازمة للتحقق من تسجيل الدخول<br>وتفعيله. - بيانات الأمان:<br>المعلومات اللازمة لكشف النشاط<br>الخبيث أو غير المصرح به أو<br>الاحتيالي والتحقيق فيه. - البيانات<br>القانونية: المعلومات التي تشترطها<br>القوانين السارية وإثبات الامتثال<br>لها.<br><br>(2) بيانات كاملة إذا وافقت، فقد<br>نجمع أيضا معلومات أكثر تفصيلا عن<br>كيفية تفاعلك مع لعبتنا. وقد تشمل<br>ذلك متى تستخدم واجهة المستخدم في<br>،اللعبة وكيف تستخدمها ،وأجزاء<br>اللعبة التي تزورها ،والأسلحة التي<br>تستخدمها ،والشخصيات التي تلعب بها<br>وأي أخطاء تصادفها.<br><br>ترسل بيانات اللعبة عادة إلينا<br>وتخزن مع معرف فريد أو أكثر للشبكة<br>أو الجهاز أو الحساب.",
+    "after": "(1) بيانات محدودة<br>عند لعب هذه اللعبة، يجب علينا دائمًا جمع<br>بيانات محدودة أو تخزينها على الجهاز الذي<br>تستخدمه متى كان ذلك ضروريًا لتقديم اللعبة،<br>ومنها:<br>- بيانات الإعداد: معلومات عن إعداد جهازك<br>واللعبة التي تلعبها، مثل إعدادات تاريخ<br>الجهاز ووقته ولغته وتفضيلاتك وإعداداتك<br>داخل اللعبة.<br>- بيانات الحساب: إذا سجلت الدخول إلى حسابك<br>على PlayStation™Network، فالمعلومات<br>اللازمة للتحقق من تسجيل دخولك وتمكينه.<br>- بيانات الأمان: المعلومات اللازمة لكشف<br>الأنشطة الخبيثة أو غير المصرح بها أو<br>الاحتيالية والتحقيق فيها.<br>- البيانات القانونية: المعلومات التي<br>يتطلبها القانون الساري ولإثبات الامتثال<br>له.<br><br>(2) بيانات كاملة<br>إذا وافقت، فقد نجمع أيضًا معلومات أكثر<br>تفصيلًا عن كيفية تفاعلك مع لعبتنا. قد تشمل<br>هذه المعلومات متى وكيف تستخدم واجهة<br>اللعبة، والأجزاء التي تزورها، والأسلحة<br>التي تستخدمها، والشخصيات التي تلعب بها،<br>وأي أخطاء تواجهها.<br><br>ترسل بيانات اللعبة عادة إلينا وتخزن مع<br>معرف فريد واحد أو أكثر للشبكة أو الجهاز أو<br>الحساب.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 129,
+    "key": "ANALYTICS_POPUP_DESC_3",
+    "source_sha256": "e286be021f3ae51d9e7d5d34bb60e0c41b08c17bf7b87bfb0551479e4b582f30",
+    "before": "تستخدم بيانات اللعبة كما هو موضح<br>في سياسة الخصوصية لدينا المنشورة<br>على موقع بلايستيشن.<br><br>يشمل ذلك استخدام بيانات اللعبة من<br>أجل: - تقديم ألعابنا لك. - فهم<br>استخدام اللعبة التي تلعبها<br>وأدائها، وتطوير تحسينات لها. -<br>تطوير منتجات وخدمات جديدة. - كشف<br>السلوك الخبيث أو ،غير المصرح به أو<br>الاحتيالي والتحقيق فيه، والحد منه.<br>- أغراض التدقيق والامتثال مثل)<br>والأمور القانونية تقديم الادعاءات<br>أو الدفاع عنها، أو تنفيذ الأنشطة<br>التي تفرضها القوانين).",
+    "after": "تستخدم بيانات اللعبة كما هو موضح في سياسة<br>الخصوصية لدينا<br>(www.playstation.com/legal/privacy-policy).<br><br>يشمل ذلك استخدامها من أجل:<br>- تقديم ألعابنا لك.<br>- فهم استخدام اللعبة التي تلعبها وأدائها،<br>وإدخال تحسينات عليها.<br>- تطوير منتجات وخدمات جديدة.<br>- كشف السلوك الخبيث أو غير المصرح به أو<br>الاحتيالي والتحقيق فيه والحد منه.<br>- أغراض التدقيق والامتثال والأغراض<br>القانونية (مثل تقديم المطالبات أو الدفاع<br>عنها، أو الأنشطة اللازمة للامتثال<br>للقانون).",
+    "decision": "rewrite"
+  },
+  {
+    "index": 130,
+    "key": "ANALYTICS_POPUP_DESC_4",
+    "source_sha256": "590600e88610e200181c77008963372da7fe99011b03bd73dc2528a830e446b2",
+    "before": "تتيح لك إعدادات جمع البيانات<br>التحكم في ما إذا كان يتم الوصول<br>إلى بيانات اللعبة المحدودة أو<br>الكاملة وتخزينها من هذا الجهاز أم<br>لا.<br><br>يمكنك تغيير إعداداتك في أي وقت من<br>قائمة الإعدادات.",
+    "after": "تتيح لك إعدادات جمع البيانات التحكم في<br>الوصول إلى بيانات اللعبة المحدودة أو<br>الكاملة من هذا الجهاز وتخزينها.<br><br>يمكنك تغيير هذه الإعدادات في أي وقت من<br>قائمة الإعدادات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 131,
+    "key": "ANALYTICS_POPUP_TITLE_0",
+    "source_sha256": "6c4b08cc9ee92a6e21db3ea0e01eb50404ef8575e701ecfa52aa219c0a6189b5",
+    "before": "بيانات اللعبة",
+    "after": "بيانات اللعبة",
+    "decision": "keep"
+  },
+  {
+    "index": 132,
+    "key": "ANALYTICS_POPUP_TITLE_1",
+    "source_sha256": "213fafa0abb27712c9c134d2cb0c5b3994b895f44d01c53fd27eee84e66004d5",
+    "before": "من نحن",
+    "after": "من نحن",
+    "decision": "keep"
+  },
+  {
+    "index": 133,
+    "key": "ANALYTICS_POPUP_TITLE_2",
+    "source_sha256": "0716bdaf57f041efb52f5664a156ba4c02604003d9bcbcbe2fa1cf45bcdd431c",
+    "before": "ما هي بيانات اللعبة؟",
+    "after": "ما هي بيانات اللعبة؟",
+    "decision": "keep"
+  },
+  {
+    "index": 134,
+    "key": "ANALYTICS_POPUP_TITLE_3",
+    "source_sha256": "643be395d2e751819a73757570a537a94fe508e962d4be5d50d376ae72537de9",
+    "before": "فيم نستخدم بيانات اللعبة؟",
+    "after": "فيم نستخدم بيانات اللعبة؟",
+    "decision": "keep"
+  },
+  {
+    "index": 135,
+    "key": "ANALYTICS_POPUP_TITLE_4",
+    "source_sha256": "57ee5a097e8af250d12523eaabe6d8c638df90f3c1acfcc1723f074b349e3e3c",
+    "before": "ماذا تتحكم به إعدادات بيانات<br>اللعبة؟",
+    "after": "ما الذي تتحكم فيه إعدادات بيانات اللعبة؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 136,
+    "key": "APPLY_PC_SETTINGS_BODY",
+    "source_sha256": "2a91c400a5a7f3f62855989f21e32c0f7dd826bc626bf67bc6615dc7d825c628",
+    "before": "هل أنت متأكد من رغبتك في الإبقاء<br>على التغييرات المطبقة؟ سيعاد ضبط<br>التغييرات خلال %d ثانية.",
+    "after": "هل تريد الاحتفاظ بالتغييرات المطبقة؟ سيتم<br>التراجع عنها خلال %d ثانية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 137,
+    "key": "APPLY_PC_SETTINGS_HEADER",
+    "source_sha256": "33bf9eeb20a998d4f62ee1ed4ee92f541edadc48ee6d32b0cca96fc39c52ee87",
+    "before": "تطبيق التغييرات",
+    "after": "تطبيق التغييرات",
+    "decision": "keep"
+  },
+  {
+    "index": 293,
+    "key": "ART_TEXT_ARTOF",
+    "source_sha256": "3ba12f485ef3d906ada1440f5dc3f40794d1719cbc3841079ecfe727145fecf8",
+    "before": "فن",
+    "after": "فن",
+    "decision": "keep"
+  },
+  {
+    "index": 294,
+    "key": "ART_TEXT_CHARACTERS",
+    "source_sha256": "1f94a4d0dc148c0e7a00cf89551d543f6f9b62a1bdd17394a51b4f8bd0895fae",
+    "before": "الشخصيات",
+    "after": "الشخصيات",
+    "decision": "keep"
+  },
+  {
+    "index": 295,
+    "key": "ART_TEXT_DIMENSIONALCHAOS",
+    "source_sha256": "51c4496a24cd779b7dfbca6dd341896a8d6469955305520cc5cd09a35455e787",
+    "before": "فوضى الأبعاد",
+    "after": "فوضى الأبعاد",
+    "decision": "keep"
+  },
+  {
+    "index": 296,
+    "key": "ART_TEXT_HEROES",
+    "source_sha256": "1fd91af9757e2b6924c14c71400e876dedc4e84ca8511a4cf4d4e6dce99c6d7f",
+    "before": "الأبطال",
+    "after": "الأبطال",
+    "decision": "keep"
+  },
+  {
+    "index": 297,
+    "key": "ART_TEXT_LOCATIONS",
+    "source_sha256": "6d42b8a54f630efeb9a8900bb90d7750828cf5a97c49dd30a878dbfe54804c6e",
+    "before": "الأماكن",
+    "after": "الأماكن",
+    "decision": "keep"
+  },
+  {
+    "index": 298,
+    "key": "ART_TEXT_MUSICOF",
+    "source_sha256": "32c69a6e4f57c981f4d11c0c18085f26d4953571a7b825fc0bfa32ffc7b81218",
+    "before": "موسيقى",
+    "after": "موسيقى",
+    "decision": "keep"
+  },
+  {
+    "index": 299,
+    "key": "ART_TEXT_VILLAINS",
+    "source_sha256": "653422645bb017a7da55b9da18c2e5765ba0e8d23ece11ee44f30f8f1d78196a",
+    "before": "الأشرار",
+    "after": "الأشرار",
+    "decision": "keep"
+  },
+  {
+    "index": 300,
+    "key": "ART_TEXT_WEAPONSGADGETS",
+    "source_sha256": "15426738f45c0a736f2e0fd7973e83c94e75ae077ebf98b1c381258e5904591c",
+    "before": "الأدوات / الأسلحة",
+    "after": "الأسلحة / الأدوات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 380,
+    "key": "AUDIOLANGUAGE_DESC",
+    "source_sha256": "9b8fdf622ccd898344961c9e0ac9bb15bbcc1b9823e73aa930955e248b5b1849",
+    "before": "غير لغة التعليق الصوتي",
+    "after": "تغيير لغة التمثيل الصوتي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 381,
+    "key": "AUDIOLANGUAGE_TITLE",
+    "source_sha256": "3cc9e562bd3dbe4da5c0730c31460335ffa0e6f06d488b637e69972e3a7ff587",
+    "before": "لغة الصوت",
+    "after": "لغة الصوت",
+    "decision": "keep"
+  },
+  {
+    "index": 385,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_AUTO_TITLE",
+    "source_sha256": "6ea56fae9eacbb0ebed74bbbe731cf1179b7d41146162fe9b8c26cf0615c2367",
+    "before": "تلقائي",
+    "after": "تلقائي",
+    "decision": "keep"
+  },
+  {
+    "index": 390,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSETSPEAKER_TITLE",
+    "source_sha256": "8c458494c5d04df54c112ea5142a090edd9784bc432ad1a43c16cf4bd7b3ac9e",
+    "before": "كلاهما",
+    "after": "كلاهما",
+    "decision": "keep"
+  },
+  {
+    "index": 394,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_OFF_TITLE",
+    "source_sha256": "38cca6bea010af8adaf4be7d270456fa9adef8c0252db91f2767c607d077319b",
+    "before": "معطل",
+    "after": "معطل",
+    "decision": "keep"
+  },
+  {
+    "index": 396,
+    "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_SPEAKER_TITLE",
+    "source_sha256": "5ce1f0d402c476bd9f67fcfd18a38347bf0a38b3eeffb3d35b59ddb03080808e",
+    "before": "السماعات",
+    "after": "السماعات",
+    "decision": "keep"
+  },
+  {
+    "index": 622,
+    "key": "BTN_APPLY_CHANGES",
+    "source_sha256": "33bf9eeb20a998d4f62ee1ed4ee92f541edadc48ee6d32b0cca96fc39c52ee87",
+    "before": "تطبيق التغييرات",
+    "after": "تطبيق التغييرات",
+    "decision": "keep"
+  },
+  {
+    "index": 623,
+    "key": "BTN_ARENA_SELECT",
+    "source_sha256": "3cb83ca414763bcc625403712764a89efc85f1275d6782a6a14b9d5ce1997d05",
+    "before": "اضغط مطولا للاختيار",
+    "after": "اضغط مطولا للاختيار",
+    "decision": "keep"
+  },
+  {
+    "index": 624,
+    "key": "BTN_ARMOR_COLOR",
+    "source_sha256": "c583d9468350fcbf1de7bd841f3f1f6cb209611a40f8642186e9e91daae72a12",
+    "before": "تعديل اللون",
+    "after": "تعديل اللون",
+    "decision": "keep"
+  },
+  {
+    "index": 625,
+    "key": "BTN_ARMOR_EQUIP",
+    "source_sha256": "e7fdd497282c1bb35ac970a720f53eb5615dccfde60a824a1fcb78733456c8c3",
+    "before": "تجهيز",
+    "after": "تجهيز",
+    "decision": "keep"
+  },
+  {
+    "index": 626,
+    "key": "BTN_ARMOR_EQUIPSET",
+    "source_sha256": "fc9ad0a1f2073df54f66b7f2d3a7b668995855d012b516e359423bb91d052589",
+    "before": "تجهيز الطقم",
+    "after": "تجهيز الطقم",
+    "decision": "keep"
+  },
+  {
+    "index": 627,
+    "key": "BTN_ARMOR_ROTATE",
+    "source_sha256": "e5e86f0f7fce93ab8940c22e7a3310418cccd334cc632107f7ac7562d8cc75ee",
+    "before": "تدوير",
+    "after": "تدوير",
+    "decision": "keep"
+  },
+  {
+    "index": 628,
+    "key": "BTN_ARMOR_SELECTSLOT",
+    "source_sha256": "4b76dc5ad73dd81968f33abbc0d9bf3cf7d775d0cad749008ec98317fc075a2b",
+    "before": "اختيار خانة",
+    "after": "اختيار خانة",
+    "decision": "keep"
+  },
+  {
+    "index": 629,
+    "key": "BTN_ARMOR_UNEQUIOSET",
+    "source_sha256": "070adafd8fb19b07e611124848cfc47c0ed9dea283967437e1b8cc57aafe6f40",
+    "before": "نزع الطقم",
+    "after": "نزع الطقم",
+    "decision": "keep"
+  },
+  {
+    "index": 630,
+    "key": "BTN_ARMOR_UNEQUIP",
+    "source_sha256": "510d223601ae7df42d46341258b6b9fdc97973e726b6db70ab23dc1cd1a818da",
+    "before": "نزع",
+    "after": "نزع",
+    "decision": "keep"
+  },
+  {
+    "index": 631,
+    "key": "BTN_CLOSE",
+    "source_sha256": "f13a1ed0cf3c4197ec8f4301b169908f52e45cab428eb604f79aab4a4b10dee3",
+    "before": "إغلاق",
+    "after": "إغلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 632,
+    "key": "BTN_COL_PLAYLOG",
+    "source_sha256": "0f63c704b25d3ef126f17c3a3cb331396c80bdc8b06247358b03ae6176fa2c10",
+    "before": "تشغيل السجل",
+    "after": "تشغيل السجل",
+    "decision": "keep"
+  },
+  {
+    "index": 633,
+    "key": "BTN_COL_ROTATE",
+    "source_sha256": "e5e86f0f7fce93ab8940c22e7a3310418cccd334cc632107f7ac7562d8cc75ee",
+    "before": "تدوير",
+    "after": "تدوير",
+    "decision": "keep"
+  },
+  {
+    "index": 634,
+    "key": "BTN_COL_SCROLL",
+    "source_sha256": "8fdbadc3bcfa716f8e86771fc0b2dc649148897c58dda995868864e0a0c66343",
+    "before": "تمرير",
+    "after": "تمرير",
+    "decision": "keep"
+  },
+  {
+    "index": 635,
+    "key": "BTN_COL_STOPLOG",
+    "source_sha256": "c886b3c1a3d641adb1f801214b153ec17c9a1368fa386c70f20b8618b3ea2ca7",
+    "before": "إيقاف السجل",
+    "after": "إيقاف السجل",
+    "decision": "keep"
+  },
+  {
+    "index": 636,
+    "key": "BTN_CONTINUE",
+    "source_sha256": "628db0c7598820b101769164f5228a5096e4f531ee71ee7e5e31d734dd38fe64",
+    "before": "متابعة",
+    "after": "متابعة",
+    "decision": "keep"
+  },
+  {
+    "index": 637,
+    "key": "BTN_CTRL_MAP_CUSTOMIZE",
+    "source_sha256": "5b6728469b192620a47d6e12723f3180553bffc934d5ab62ebb1a0ea9cb4d8aa",
+    "before": "تخصيص",
+    "after": "تخصيص",
+    "decision": "keep"
+  },
+  {
+    "index": 638,
+    "key": "BTN_CTRL_MAP_SAVE_NO",
+    "source_sha256": "23794d91c53ae875c8e247d72561e35d9d06ee07c70c9e0dbcc977a6d161504a",
+    "before": "لا",
+    "after": "لا",
+    "decision": "keep"
+  },
+  {
+    "index": 639,
+    "key": "BTN_CTRL_MAP_SAVE_YES",
+    "source_sha256": "f9171164593756e56fb197327b529a4955590566560dbe62d586bff41be9d297",
+    "before": "نعم",
+    "after": "نعم",
+    "decision": "keep"
+  },
+  {
+    "index": 640,
+    "key": "BTN_ENDGAME_ACCEPT",
+    "source_sha256": "462332ec0db661bc671c15661bf4efc34bd3c32bcaaa4574d07bfe6c2c469191",
+    "before": "نعم، أنا مستعد",
+    "after": "نعم، أنا مستعد",
+    "decision": "keep"
+  },
+  {
+    "index": 641,
+    "key": "BTN_ENDGAME_CANCEL",
+    "source_sha256": "e4e0f64a57f9bc631a0dbf761c43e1cac175b29166e1bbc493fa68a0df67ca68",
+    "before": "ليس بعد",
+    "after": "ليس بعد",
+    "decision": "keep"
+  },
+  {
+    "index": 642,
+    "key": "BTN_GADGET_ROTATE",
+    "source_sha256": "e5e86f0f7fce93ab8940c22e7a3310418cccd334cc632107f7ac7562d8cc75ee",
+    "before": "تدوير",
+    "after": "تدوير",
+    "decision": "keep"
+  },
+  {
+    "index": 643,
+    "key": "BTN_GALLERY_INSPECT",
+    "source_sha256": "52688800e0e45223cfa7460804ba8d05c90d9dba0d6e7b6a3821a14143ba278e",
+    "before": "معاينة",
+    "after": "معاينة",
+    "decision": "keep"
+  },
+  {
+    "index": 644,
+    "key": "BTN_GALLERY_PAN",
+    "source_sha256": "e6205bc8ab80302276cc2b94e571d9aeafa567c0517146ac4396a4f6a8cead1a",
+    "before": "إزاحة",
+    "after": "إزاحة",
+    "decision": "keep"
+  },
+  {
+    "index": 645,
+    "key": "BTN_GALLERY_ROTATE",
+    "source_sha256": "e5e86f0f7fce93ab8940c22e7a3310418cccd334cc632107f7ac7562d8cc75ee",
+    "before": "تدوير",
+    "after": "تدوير",
+    "decision": "keep"
+  },
+  {
+    "index": 646,
+    "key": "BTN_GALLERY_SCROLL",
+    "source_sha256": "8fdbadc3bcfa716f8e86771fc0b2dc649148897c58dda995868864e0a0c66343",
+    "before": "تمرير",
+    "after": "تمرير",
+    "decision": "keep"
+  },
+  {
+    "index": 647,
+    "key": "BTN_GALLERY_ZOOMIN",
+    "source_sha256": "2ffe3072c183da58e9c12314669e48ae65dad2fb9e4e301bbdce4b9f8951c637",
+    "before": "تكبير",
+    "after": "تكبير",
+    "decision": "keep"
+  },
+  {
+    "index": 648,
+    "key": "BTN_GALLERY_ZOOMOUT",
+    "source_sha256": "7862504b42fb7da0d5e4dcd374a87279ed7859398ee7d9ba93cf8279083c5cac",
+    "before": "تصغير",
+    "after": "تصغير",
+    "decision": "keep"
+  },
+  {
+    "index": 649,
+    "key": "BTN_GOLDBOLT_TOGGLEREWARD",
+    "source_sha256": "e2945f8d7d56d77bbee3282c2195a9874eefa36acf6827e2e2927356f21150b7",
+    "before": "تبديل المكافأة",
+    "after": "تبديل المكافأة",
+    "decision": "keep"
+  },
+  {
+    "index": 650,
+    "key": "BTN_MAP_PIN",
+    "source_sha256": "709e58acb65ef4a59dbe454de9d7fd7a6f3d5c31b24d757285c60b850941071d",
+    "before": "تثبيت علامة",
+    "after": "تثبيت علامة",
+    "decision": "keep"
+  },
+  {
+    "index": 651,
+    "key": "BTN_MAP_REMOVEPIN",
+    "source_sha256": "4693499546db47ea1cd4b35e7a370833a33df694ac57efb269c8097e230612e7",
+    "before": "إزالة العلامة",
+    "after": "إزالة العلامة",
+    "decision": "keep"
+  },
+  {
+    "index": 652,
+    "key": "BTN_MAP_RESET",
+    "source_sha256": "b2d00c2304a77d334e88140265f9eb0ccdd3d3beb13e564feb10a3edc99b5b43",
+    "before": "إعادة ضبط الكاميرا",
+    "after": "إعادة ضبط الكاميرا",
+    "decision": "keep"
+  },
+  {
+    "index": 653,
+    "key": "BTN_MAP_ZOOMIN",
+    "source_sha256": "2ffe3072c183da58e9c12314669e48ae65dad2fb9e4e301bbdce4b9f8951c637",
+    "before": "تكبير",
+    "after": "تكبير",
+    "decision": "keep"
+  },
+  {
+    "index": 654,
+    "key": "BTN_MAP_ZOOMOUT",
+    "source_sha256": "7862504b42fb7da0d5e4dcd374a87279ed7859398ee7d9ba93cf8279083c5cac",
+    "before": "تصغير",
+    "after": "تصغير",
+    "decision": "keep"
+  },
+  {
+    "index": 655,
+    "key": "BTN_MENU_ADJUST",
+    "source_sha256": "b0da66f86167f35189bb329a4c9460cff899b091e4abbae3da2190714dbd3a01",
+    "before": "ضبط",
+    "after": "ضبط",
+    "decision": "keep"
+  },
+  {
+    "index": 656,
+    "key": "BTN_MENU_CHANGE",
+    "source_sha256": "7886016c640975f8362f7bb792dd26be3af962887943f1a28658d0c4c52a8fe7",
+    "before": "تغيير",
+    "after": "تغيير",
+    "decision": "keep"
+  },
+  {
+    "index": 657,
+    "key": "BTN_MENU_DELETE_PROFILE",
+    "source_sha256": "e3f4b769381e8ded7c76894afb82e310116ececc398cfe8ee68452fd186dd899",
+    "before": "حذف الملف الشخصي",
+    "after": "حذف الملف الشخصي",
+    "decision": "keep"
+  },
+  {
+    "index": 658,
+    "key": "BTN_MENU_RESET",
+    "source_sha256": "433b26e1b58596b749481e1a3b5809c3a7bdf64ef0867e43c0f5f0f8ff7aa307",
+    "before": "إعادة الضبط الافتراضي",
+    "after": "إعادة الضبط الافتراضي",
+    "decision": "keep"
+  },
+  {
+    "index": 659,
+    "key": "BTN_MENU_RESET_ALL",
+    "source_sha256": "959c1a6587f913f663ed5b7cd769bbd44b89a7797ea00c7bcc192a841edddb3d",
+    "before": "إعادة ضبط الكل إلى الافتراضي",
+    "after": "إعادة ضبط الكل إلى الافتراضي",
+    "decision": "keep"
+  },
+  {
+    "index": 660,
+    "key": "BTN_PHOTO_ADJUST",
+    "source_sha256": "b0da66f86167f35189bb329a4c9460cff899b091e4abbae3da2190714dbd3a01",
+    "before": "ضبط",
+    "after": "ضبط",
+    "decision": "keep"
+  },
+  {
+    "index": 661,
+    "key": "BTN_PHOTO_CAM_CONTROL",
+    "source_sha256": "4724252a57788c1bee2b426670629a3278694161ac537e6d905b5721b17362b2",
+    "before": "(التحكم (اضغط مطولا بالكاميرا",
+    "after": "التحكم بالكاميرا (اضغط مطولًا)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 662,
+    "key": "BTN_PHOTO_CAM_DISTANCE",
+    "source_sha256": "b234616c5bccd95050ff95205b0aed7856d6a93ba57c9cc5a43cf17120cd120f",
+    "before": "مسافة الكاميرا",
+    "after": "مسافة الكاميرا",
+    "decision": "keep"
+  },
+  {
+    "index": 663,
+    "key": "BTN_PHOTO_CAM_UPDOWN",
+    "source_sha256": "4a6bf55bdc8f94a1b861049408c2e817ae6172be9dfd6acfde82fc7ce3c4f647",
+    "before": "أعلى/الكاميرا لأسفل",
+    "after": "الكاميرا لأسفل/لأعلى",
+    "decision": "rewrite"
+  },
+  {
+    "index": 664,
+    "key": "BTN_PHOTO_CHARACTERMODE",
+    "source_sha256": "225f947719856fc935e79e3e20ca1ffc96728e7a51098b861e18b006be49a3a8",
+    "before": "وضع الشخصية",
+    "after": "وضع الشخصية",
+    "decision": "keep"
+  },
+  {
+    "index": 665,
+    "key": "BTN_PHOTO_CLEARLAYER",
+    "source_sha256": "40596ae4b235837edec0c8902b3dd322fb1c3147fbdc342c03f6b8df9858774c",
+    "before": "مسح الطبقة",
+    "after": "مسح الطبقة",
+    "decision": "keep"
+  },
+  {
+    "index": 666,
+    "key": "BTN_PHOTO_HIDEUI",
+    "source_sha256": "55d68cc4a2c19b31b22fb379908972bbbe8ce6bff602b28f2041af3607cb628e",
+    "before": "إخفاء الواجهة",
+    "after": "إخفاء الواجهة",
+    "decision": "keep"
+  },
+  {
+    "index": 667,
+    "key": "BTN_PHOTO_LIGHTMODE",
+    "source_sha256": "d2d2feb420a25b46bc990ba207b7645a63b3980ccdef717b3b56ddb58ecb58d4",
+    "before": "وضع الإضاءة",
+    "after": "وضع الإضاءة",
+    "decision": "keep"
+  },
+  {
+    "index": 668,
+    "key": "BTN_PHOTO_LIGHT_ANGLE",
+    "source_sha256": "d80f03cf1ec215a825becb779108b97822e6f79edffc06c8a70d07cbc28fad03",
+    "before": "زاوية الإضاءة",
+    "after": "زاوية الإضاءة",
+    "decision": "keep"
+  },
+  {
+    "index": 669,
+    "key": "BTN_PHOTO_LIGHT_LIGHTDOWN",
+    "source_sha256": "35ccf2aaa3818e93051833feea6405246fed3e6e70a41ea51da92b1f43c09f1a",
+    "before": "الإضاءة لأسفل",
+    "after": "الإضاءة لأسفل",
+    "decision": "keep"
+  },
+  {
+    "index": 670,
+    "key": "BTN_PHOTO_LIGHT_LIGHTUP",
+    "source_sha256": "8786d7301e1b54a45dc16440ba3b0b33976121ca68b83b21cf6dde1214825113",
+    "before": "الإضاءة لأعلى",
+    "after": "الإضاءة لأعلى",
+    "decision": "keep"
+  },
+  {
+    "index": 671,
+    "key": "BTN_PHOTO_LIGHT_MOVE",
+    "source_sha256": "20ec0e9757b349f11bf611763beef7e0c218f6b5d89df28a69fe4accaae42c91",
+    "before": "تحريك الإضاءة",
+    "after": "تحريك الإضاءة",
+    "decision": "keep"
+  },
+  {
+    "index": 672,
+    "key": "BTN_PHOTO_MOVECAM",
+    "source_sha256": "02ff643a1bf7c3ef14c6f3574f2ce3e9b9507bb5818749e42ace3146aa7ec816",
+    "before": "تحريك الكاميرا",
+    "after": "تحريك الكاميرا",
+    "decision": "keep"
+  },
+  {
+    "index": 673,
+    "key": "BTN_PHOTO_MOVELAYER",
+    "source_sha256": "a36960512a91f0f570a8725f2968e2063b3bf18abf096e0411ddb0c9a5f89555",
+    "before": "تحريك الطبقة",
+    "after": "تحريك الطبقة",
+    "decision": "keep"
+  },
+  {
+    "index": 674,
+    "key": "BTN_PHOTO_PHOTOMODE",
+    "source_sha256": "339aa1af8625033d7e93bdb40763d4226b487859b45e4ddbbe88e046a7981127",
+    "before": "وضع الكاميرا",
+    "after": "وضع الكاميرا",
+    "decision": "keep"
+  },
+  {
+    "index": 675,
+    "key": "BTN_PHOTO_RESET",
+    "source_sha256": "7ef2fad58d1f2f12f5d78bdf7fc7ba3ad9529010ebd071c14d69394153f6106b",
+    "before": "إعادة الضبط",
+    "after": "إعادة الضبط",
+    "decision": "keep"
+  },
+  {
+    "index": 676,
+    "key": "BTN_PHOTO_ROTATE",
+    "source_sha256": "e5e86f0f7fce93ab8940c22e7a3310418cccd334cc632107f7ac7562d8cc75ee",
+    "before": "تدوير",
+    "after": "تدوير",
+    "decision": "keep"
+  },
+  {
+    "index": 677,
+    "key": "BTN_PHOTO_ROTLAYER",
+    "source_sha256": "4155a3224a123f159fe7fd606008054f45bf2f48714770432d9e27dcf4d7ca91",
+    "before": "تدوير الطبقة",
+    "after": "تدوير الطبقة",
+    "decision": "keep"
+  },
+  {
+    "index": 678,
+    "key": "BTN_PHOTO_SCALELAYER",
+    "source_sha256": "d1cf23e7068ef3a3bf031128a3f5169cbf8501569f75324bab5b01728f644d4e",
+    "before": "تحجيم الطبقة",
+    "after": "تحجيم الطبقة",
+    "decision": "keep"
+  },
+  {
+    "index": 679,
+    "key": "BTN_PHOTO_STICKERS",
+    "source_sha256": "086a2f96fd1f453306f0d13289ec1170320281d4a333a169f6071c9667927254",
+    "before": "وضع الملصقات",
+    "after": "وضع الملصقات",
+    "decision": "keep"
+  },
+  {
+    "index": 680,
+    "key": "BTN_PHOTO_TAKE_PICTURE",
+    "source_sha256": "2db5d2a7c9abe68fcc680ed24da43396860838a82a64d0a724bdda2f910359bc",
+    "before": "التقاط صورة",
+    "after": "التقاط صورة",
+    "decision": "keep"
+  },
+  {
+    "index": 681,
+    "key": "BTN_PROFILE_SELECT",
+    "source_sha256": "26bece65e8b5909710d34c41c389da35d5e3f49806df96fa79dc7634d7daffe6",
+    "before": "اختيار الملف الشخصي",
+    "after": "اختيار الملف الشخصي",
+    "decision": "keep"
+  },
+  {
+    "index": 682,
+    "key": "BTN_SAVESLOT_COPY",
+    "source_sha256": "dc26bc50abf8ce9cf2d137c98479bb8dbfd0a7f3c7f96a30d60fe49d984d7d42",
+    "before": "نسخ",
+    "after": "نسخ",
+    "decision": "keep"
+  },
+  {
+    "index": 683,
+    "key": "BTN_SAVESLOT_DELETE",
+    "source_sha256": "65daeb378bdec35d90224389f6e10917bcc0b94c90c489014ba156dd6cbf9350",
+    "before": "حذف",
+    "after": "حذف",
+    "decision": "keep"
+  },
+  {
+    "index": 684,
+    "key": "BTN_SAVESLOT_NGPLUS",
+    "source_sha256": "0bd7e1a221acaf55523d129c5be459b8b9a76c6cfb1d7d5528e7779913edfc7b",
+    "before": "إنشاء وضع التحدي",
+    "after": "إنشاء وضع التحدي",
+    "decision": "keep"
+  },
+  {
+    "index": 685,
+    "key": "BTN_SAVESLOT_NGPLUS_CONTINUE",
+    "source_sha256": "c610667f1592d906670380defcd5db483de6e29808808b48a6b037e7b191432e",
+    "before": "المتابعة من حانة زوركيز",
+    "after": "المتابعة من حانة زوركيز",
+    "decision": "keep"
+  },
+  {
+    "index": 686,
+    "key": "BTN_SAVESLOT_UPGRADE",
+    "source_sha256": "f7cb250dae17dba6795e29d135c6b7c4bbd0b889482babaa04d890b2c236b91d",
+    "before": "الترقية إلى النسخة الفاخرة",
+    "after": "الترقية إلى النسخة الفاخرة",
+    "decision": "keep"
+  },
+  {
+    "index": 687,
+    "key": "BTN_SHIP_EXIT",
+    "source_sha256": "3a0931580d18a6e0308c1135ee9c807f0aaa83cad286d951d3a8dfa6017aecf1",
+    "before": "خروج",
+    "after": "خروج",
+    "decision": "keep"
+  },
+  {
+    "index": 688,
+    "key": "BTN_SHIP_TRAVEL",
+    "source_sha256": "548d5be4aa6761aeaba3ec59dbaf63d039f4f745a6637e56958e2734a3370dca",
+    "before": "السفر",
+    "after": "السفر",
+    "decision": "keep"
+  },
+  {
+    "index": 689,
+    "key": "BTN_SWITCH_TABS",
+    "source_sha256": "2fc96b445eef6eb8e69594569658790db32c484e6580156396cd14d96709dcb9",
+    "before": "التنقل بين التبويبات",
+    "after": "التنقل بين التبويبات",
+    "decision": "keep"
+  },
+  {
+    "index": 690,
+    "key": "BTN_WEAPON_EQUIPTOSLOT",
+    "source_sha256": "e7fdd497282c1bb35ac970a720f53eb5615dccfde60a824a1fcb78733456c8c3",
+    "before": "تجهيز",
+    "after": "تجهيز",
+    "decision": "keep"
+  },
+  {
+    "index": 691,
+    "key": "BTN_WEAPON_REMAP",
+    "source_sha256": "18820e9348ce02b1a6e5a33ba8c5e89ad479d68721d2edf8499641e7771bd18d",
+    "before": "إعادة تعيين السلاح",
+    "after": "إعادة تعيين السلاح",
+    "decision": "keep"
+  },
+  {
+    "index": 692,
+    "key": "BTN_WEAPON_ROTATE",
+    "source_sha256": "e5e86f0f7fce93ab8940c22e7a3310418cccd334cc632107f7ac7562d8cc75ee",
+    "before": "تدوير",
+    "after": "تدوير",
+    "decision": "keep"
+  },
+  {
+    "index": 693,
+    "key": "BTN_WEAPON_SELECTSLOT",
+    "source_sha256": "6e4261695ad1aa36aac75303151674266d135fc12c26f8dc64bba0546d4238f2",
+    "before": "اختيار",
+    "after": "اختيار",
+    "decision": "keep"
+  },
+  {
+    "index": 2604,
+    "key": "CLUSTER_BOMBER_AMMO",
+    "source_sha256": "e9b4ee5050075da1f00c3b7ad90d49b6b062048ff05299e53ff570d2cd935b1d",
+    "before": "أقصى ذخيرة",
+    "after": "أقصى ذخيرة",
+    "decision": "keep"
+  },
+  {
+    "index": 2605,
+    "key": "CLUSTER_BOMBER_AMMO_DESC",
+    "source_sha256": "2c9374403ff3b809c52402132ab10295c73a038dac65ba8166d9471b3915619d",
+    "before": "زيادة الذخيرة القصوى بمقدار %d.",
+    "after": "زيادة الذخيرة القصوى بمقدار %d.",
+    "decision": "keep"
+  },
+  {
+    "index": 2606,
+    "key": "CLUSTER_BOMBER_COUNT",
+    "source_sha256": "f41cdd2de74329e787aba6dd12ff866179ea2306d27c9ad12f1996db1f662e9b",
+    "before": "سرب القاذفات",
+    "after": "سرب القاذفات",
+    "decision": "keep"
+  },
+  {
+    "index": 2607,
+    "key": "CLUSTER_BOMBER_COUNT_DESC",
+    "source_sha256": "76a80040f3242eac534742b434633e8276b2290193939c7621c1619f5876d971",
+    "before": "يمكنك نشر سيارتين طائرتين في الوقت<br>نفسه.",
+    "after": "يمكن نشر طائرتين مسيرتين في الوقت نفسه.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 2608,
+    "key": "CLUSTER_BOUNCER_AMMO",
+    "source_sha256": "e9b4ee5050075da1f00c3b7ad90d49b6b062048ff05299e53ff570d2cd935b1d",
+    "before": "أقصى ذخيرة",
+    "after": "أقصى ذخيرة",
+    "decision": "keep"
+  },
+  {
+    "index": 2609,
+    "key": "CLUSTER_BOUNCER_AMMO_DESC",
+    "source_sha256": "2c9374403ff3b809c52402132ab10295c73a038dac65ba8166d9471b3915619d",
+    "before": "زيادة الذخيرة القصوى بمقدار %d.",
+    "after": "زيادة الذخيرة القصوى بمقدار %d.",
+    "decision": "keep"
+  },
+  {
+    "index": 2610,
+    "key": "CLUSTER_BOUNCER_MINI_BOMB_COUNT",
+    "source_sha256": "e13010d6110e2b8eb4e9c22a357a22b5e6b88685d3fb3570feb9a4cdccf4e805",
+    "before": "عدد القنبيبات الدقيقة",
+    "after": "عدد القنابل المصغرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 2611,
+    "key": "CLUSTER_BOUNCER_MINI_BOMB_COUNT_DESC",
+    "source_sha256": "c2e91fa1344d10cfc7a3dc518b5e6b5ff69501ad4b8f31d454f3c377c384b254",
+    "before": "يزيد عدد القنبيبات الدقيقة<br>المطلقة.",
+    "after": "يزيد عدد القنابل المصغرة المطلقة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 2612,
+    "key": "CLUSTER_BURSTPISTOL_EASYHEADSHOT",
+    "source_sha256": "48be1aaab51945a05bed7e76e667e3f2430fc612c22b116c1e0d2a6b963c8db1",
+    "before": "ضرر إصابة الرأس",
+    "after": "ضرر إصابة الرأس",
+    "decision": "keep"
+  },
+  {
+    "index": 2613,
+    "key": "CLUSTER_BURSTPISTOL_EASYHEADSHOT_DESC",
+    "source_sha256": "41c66e94c26ae6a081ac2a13c4bd96ea51eebaaa20c304ce0799bf9a7e5912e4",
+    "before": "تسبب إصابات الرأس ضررا إضافيا.",
+    "after": "تسبب إصابات الرأس ضررا إضافيا.",
+    "decision": "keep"
+  },
+  {
+    "index": 2614,
+    "key": "CLUSTER_BURSTPISTOL_FLIGHTSPEED",
+    "source_sha256": "08822cd0d9b01610305b5ed270285364cd8f82124cbb4ca47461147fe4a6f800",
+    "before": "سرعة الطلقات",
+    "after": "سرعة الطلقات",
+    "decision": "keep"
+  },
+  {
+    "index": 2615,
+    "key": "CLUSTER_BURSTPISTOL_FLIGHTSPEED_DESC",
+    "source_sha256": "d9cfc20b4f80cfa61c6663bf844f53b67f0d9c193d3a213fdff620fa3346804c",
+    "before": "تسير الطلقات أسرع.",
+    "after": "تسير الطلقات أسرع.",
+    "decision": "keep"
+  },
+  {
+    "index": 2616,
+    "key": "CLUSTER_BURSTPISTOL_KNOCKBACK",
+    "source_sha256": "abbe4eb9a960978a2731e10c499dbbffd4d36b30da2766e2ea073e58a9efa1ea",
+    "before": "قذائف عالية الارتطام",
+    "after": "قذائف عالية الارتطام",
+    "decision": "keep"
+  },
+  {
+    "index": 2617,
+    "key": "CLUSTER_BURSTPISTOL_KNOCKBACK_DESC",
+    "source_sha256": "968b129bbe7d8b997d6e1848d4bb6634dd1293e8bcc2a261cb962ac9183fdd8d",
+    "before": "البلازما الأكثف تكاد تسقط خصومك<br>على الأرض مع كل إصابة.",
+    "after": "البلازما الأكثف تكاد تسقط خصومك<br>على الأرض مع كل إصابة.",
+    "decision": "keep"
+  }
+]

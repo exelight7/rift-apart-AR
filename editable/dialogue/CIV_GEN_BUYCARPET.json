@@ -7,11 +7,19 @@
     "scene_code": "CIV_GEN_BUYCARPET",
     "arabic_current": "<ts=&quot;0.03;2.13&quot;>قنابل كثيرة ووقت قليل!",
     "arabic_edit": "<ts=&quot;0.03;2.13&quot;>قنابل كثيرة ووقت قليل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "60e94345c1366e793002f98df92eb7ad215af31feb7202f71894d1a05e026a47",
+      "candidate_sha256": "26e2898326c5d4be573af81926405927d9578b4b40331eb511ced490260ffa59",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

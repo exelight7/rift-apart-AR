@@ -6,14 +6,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CELLOWNED",
     "arabic_current": "<ts=&quot;0.072;3.772&quot;>الله في قلبك. أنت تملك<br>تلك بالفعل.",
-    "arabic_edit": "<ts=&quot;0.072;3.772&quot;>الله في قلبك. أنت تملك تلك بالفعل.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.072;3.772&quot;>يا طيب القلب، هذا موجود لديك بالفعل.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "e82ebf595c14a679b0edaafbc9e7c7fe1d62065ee737438027aa7c525746b154",
+      "candidate_sha256": "348dedb133908b55eb17478747bc1e27c87b68ddc4c18522f0608ecebef68094",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13448,
@@ -23,13 +31,21 @@
     "scene_code": "CIV_GEN_CELLOWNED",
     "arabic_current": "<ts=&quot;0.016;3.261&quot;>أنت... أنت اشتريت تلك<br>بالفعل!",
     "arabic_edit": "<ts=&quot;0.016;3.261&quot;>أنت... أنت اشتريت تلك بالفعل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "01c81148448f6af56e8561c210f196ff43491ce2091fdcb958ed6d1743604763",
+      "candidate_sha256": "d9b1c5b58b4e3fedd075070b7e74bccd4255ed89a50d7405bdfb88ecfd3a4697",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13449,
@@ -39,12 +55,20 @@
     "scene_code": "CIV_GEN_CELLOWNED",
     "arabic_current": "<ts=&quot;0.11;1.9&quot;>لا داعي لشرائها مرة أخرى.",
     "arabic_edit": "<ts=&quot;0.11;1.9&quot;>لا داعي لشرائها مرة أخرى.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "1090fc4988634735fc3813d3d02d4031914ac07bcd552aa808b2578f8566565c",
+      "candidate_sha256": "4976e22b923b773da7a932a8e1f1cb57b2795ecc4fba6c17780b8ef1742228b2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13450,
@@ -53,13 +77,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CELLOWNED",
     "arabic_current": "<ts=&quot;0.051;3.221&quot;>لقد أجريت تلك التطوير<br>بالفعل أيها الغبي!",
-    "arabic_edit": "<ts=&quot;0.051;3.221&quot;>لقد أجريت تلك التطوير بالفعل أيها الغبي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.051;3.221&quot;>لقد أجريت هذا التطوير بالفعل، يا مشاغب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "4b9d98b3c3cbdc5df6c57007d11f98b8808ba20ae18926bd9475021691fab837",
+      "candidate_sha256": "953c5984e0af04277860260820241d5f47d672f44dbe4be92183ded9b70a2191",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

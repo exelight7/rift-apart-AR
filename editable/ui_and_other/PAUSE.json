@@ -7,12 +7,20 @@
     "scene_code": "",
     "arabic_current": "الخيارات",
     "arabic_edit": "الخيارات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "d0b1a869600d21076a3fa8b5f52546e55920588ce73dfb7e56ca9dc08bdcaf3e",
+      "candidate_sha256": "0492e23e702dc49afa552bfce2969fad50b0cde4c63c7c568e6635ec9062517e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16038,
@@ -23,13 +31,21 @@
     "arabic_current": "استعرض تخطيط جهاز التحكم<br>.وأعد تعيين الأزرار",
     "arabic_edit": "اعرض توزيع أزرار جهاز التحكم وخصص<br>وظائفها.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "aff604ea6368aff3ac7b853b95885ae45699876fee3ac3c7711fe0589e72b1b5",
+      "candidate_sha256": "e10be94e73826cd85fe4e702e8f902ad602f3ddb3303fa9ff8b4c8ec8de8a9e1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16039,
@@ -40,12 +56,20 @@
     "arabic_current": ".استعرض تخطيط جهاز التحكم",
     "arabic_edit": "اعرض توزيع أزرار جهاز التحكم.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "04121100e041b6348fc2ff5af3265c0cb8ec2b6b48a419b6b39c104695df22c6",
+      "candidate_sha256": "828887b515d338f7481e9db143cd750cf3d26cb946a1f8f9ab63f10dab9ce161",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16040,
@@ -56,12 +80,20 @@
     "arabic_current": "تخطيط جهاز التحكم",
     "arabic_edit": "توزيع أزرار جهاز التحكم",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "cfb4b11ee38f97a20cde50ad059abb6b8a322c9a757f080327c1bca94a614de7",
+      "candidate_sha256": "15bec9f8d8c94263bea5cf9e96c6ec1ee5c4f393a6077c272da9ed8b247507ac",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16041,
@@ -70,14 +102,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "عد إلى حانة زوركيز قبل<br>المواجهة الأخيرة.",
-    "arabic_edit": "عد إلى حانة زوركيز قبل المواجهة<br>الأخيرة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عد إلى حانة زوركي قبل المواجهة<br>الأخيرة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "7154d1d8dbce6c1b26fa7a4500319bb7da5a145ac4909c9df96614f50638bf4b",
+      "candidate_sha256": "e221c66b3e81959960cb7362889578606c964cc14f6b2e96d3b48d6735468ccc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16042,
@@ -86,13 +126,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "العودة إلى حانة زوركيز",
-    "arabic_edit": "العودة إلى حانة زوركيز",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "العودة إلى حانة زوركي",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "caf2b857679e8ce451070ab349682d708ff402c1f381b0060acaee5b7c1d7b2a",
+      "candidate_sha256": "fed538a04401c18ed9d82dd3cc99e29a284b6b38f5ad74b9ff92e1ed4b12647d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16043,
@@ -103,12 +151,20 @@
     "arabic_current": ".أنشئ حفظا يدويا للعبة",
     "arabic_edit": "احفظ تقدمك يدويًا.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "8db6484411eb174cf494d48539b0bca438d4fcc8fef09ce0bb60d45f111af9c8",
+      "candidate_sha256": "fd26cef0f7adfc24e252f4bac32e8a4d3081e7358d98341cc0e5900105476708",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16044,
@@ -118,12 +174,20 @@
     "scene_code": "",
     "arabic_current": "حفظ يدوي",
     "arabic_edit": "حفظ يدوي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "e23216d7b519b7a2ab103ecc3df117320f64344ac57a00b8bcc0eb610fe1be4a",
+      "candidate_sha256": "70b32ab72d5fcb32caacf96005e795bf9d24904f2d163d98770eb15ed4929d51",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16045,
@@ -134,13 +198,21 @@
     "arabic_current": ".ادخل وضع التصوير<br><br>يمكنك تعيين وضع<br>التصوير كاختصار في قائمة<br>> الخيارات تحت الإعدادات<br>.التحكم والاختصارات",
     "arabic_edit": "ادخل وضع التصوير. يمكنك تعيين<br>اختصار له من الإعدادات، ثم التحكم<br>والاختصارات.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "7d5d4aaf8925477e06d192cdd9d8e90022e5a4d9183e54d8234655b1218ae590",
+      "candidate_sha256": "879805132a1340b32452465a0c216f7fbae995328cb1794ffa5416a31fd0149e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16046,
@@ -151,13 +223,21 @@
     "arabic_current": ".ادخل وضع التصوير<br><br>يمكنك تعيين وضع<br>التصوير كاختصار في قائمة<br>> الخيارات تحت الإعدادات<br>> الفأرة ولوحة المفاتيح<br>.الاختصارات وسرعة اللعبة",
     "arabic_edit": "ادخل وضع التصوير. يمكنك تعيين<br>اختصار له من الإعدادات، ثم الفأرة<br>ولوحة المفاتيح، ثم الاختصارات<br>وسرعة اللعبة.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "ab4ec848a68c8d4f20e436190492ff2509d23ada133025ffff7eb5c7bf9f362f",
+      "candidate_sha256": "12890039b9cfc9e154656a551fa4d0e8bb8552176f9815de144aef57b5a36f3e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16047,
@@ -167,12 +247,20 @@
     "scene_code": "",
     "arabic_current": "وضع التصوير",
     "arabic_edit": "وضع التصوير",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "cf3ae48cfcbef0fec5da9b6b2fdb7c63372f427ee23f87819edce03f8d06dd7b",
+      "candidate_sha256": "19bd83a2ac160e38a299dbf449e93a4b091d0891445d9cca49809654c080a035",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16048,
@@ -183,12 +271,20 @@
     "arabic_current": ".أنه جلسة اللعبة",
     "arabic_edit": "أنه جلسة اللعب.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "0a8d4f3cd295f9ce5ac630fb53432f0c51a6becee3f4385b0586d4be0c0653cf",
+      "candidate_sha256": "6455328bf52a672bfa7de05816d38f1bb5716e74726074dc9057d58ff33eb5b7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16049,
@@ -198,12 +294,20 @@
     "scene_code": "",
     "arabic_current": "خروج",
     "arabic_edit": "خروج",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "a872f67384948f79440eb93bc12a47d2f25f6e0067bc252559f9af76c9e8257e",
+      "candidate_sha256": "39db927c23ae2f247aa6727be57ab7cd85d25e4617adc39839a9aa2688b8144f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16050,
@@ -214,12 +318,20 @@
     "arabic_current": "أعد البدء من آخر نقطة<br>.تفتيش",
     "arabic_edit": "أعد اللعب من آخر نقطة حفظ.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "51bdfd250adae82937091284fe33a1deabf792b9ca90c9a8366315a5a49408fd",
+      "candidate_sha256": "a0c32884983c11fda554266a6347538619a51d83d0d31290ca5e1e433b949138",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16051,
@@ -230,12 +342,20 @@
     "arabic_current": "إعادة آخر نقطة تفتيش",
     "arabic_edit": "العودة إلى آخر نقطة حفظ",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "c3706f3fb43a427fa91b7d0e57664dac7045c04ae8d288b0d077c8effd6f0044",
+      "candidate_sha256": "9bc4858d726ce5a9dae122552719243d7f4452236ac748e4873739824a7e94be",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16052,
@@ -246,12 +366,20 @@
     "arabic_current": ".أكد الإعدادات واستأنف اللعبة",
     "arabic_edit": "أكد الإعدادات واستأنف اللعب.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "ac1cb013ef5746a492e3f76323d7787159c835e334a577a14a4a7fd080c2f96b",
+      "candidate_sha256": "e04940003b8547ed291db52a512a22152a93e5f31a80114f61286ffa2773bf93",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16053,
@@ -261,12 +389,20 @@
     "scene_code": "",
     "arabic_current": "استئناف",
     "arabic_edit": "استئناف",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "0747c96a23dbfa586507337fc4ed4bdddb7b05833243622c4e6bb357b87adb0c",
+      "candidate_sha256": "fca33febc479f21c89bd0b4114bbbc2bc8778f10ce691fe7a2919ee4cafd0b5a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16054,
@@ -277,12 +413,20 @@
     "arabic_current": ".إعدادات اللعبة",
     "arabic_edit": "اضبط إعدادات اللعبة.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "60b2db03dc49542980cfd876c0ed584ca191906dce48f8f3ce46a2b006b87fee",
+      "candidate_sha256": "1991460b8f5c47239f1897d987fe62c666a6cfb135396234f51777bcea9b1e99",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16055,
@@ -292,12 +436,20 @@
     "scene_code": "",
     "arabic_current": "الإعدادات",
     "arabic_edit": "الإعدادات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "02f6ea12816a9e7b8ce846f149281b130033cf5145d260dfea7405bc8866ee1e",
+      "candidate_sha256": "5fd9563e68467077618b9b8ea0b9fe9d7f66a2ddfab3266e1143cd268525177a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16056,
@@ -308,12 +460,20 @@
     "arabic_current": ".تخط المشهد السينمائي",
     "arabic_edit": "تخط المشهد السينمائي الحالي.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "9e7c93b5f059561f08de90db41635adde6091288417f827e3352d1bf91597c97",
+      "candidate_sha256": "5020eb3acb77a69df9cef795135fb2fb7b507ccfcd9bccac5e0b9e1be6b29af6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16057,
@@ -323,12 +483,20 @@
     "scene_code": "",
     "arabic_current": "تخطي المشهد السينمائي",
     "arabic_edit": "تخطي المشهد السينمائي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "d1ebfe776535beb29dcb1d44fb5423e0014c2007d9f0436fe3f1ce082ec921e5",
+      "candidate_sha256": "f363902674a1e0ceaaddda24fd149578a76cf89941154a2c9e654d6114d2dd5c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16058,
@@ -339,12 +507,20 @@
     "arabic_current": "Glitch( ينجز تحدي جليتش<br>الحالي تلقائيا )Challenge<br>.ويعيدك إلى راتشت",
     "arabic_edit": "أكمل تحدي جليتش الحالي تلقائيًا<br>وعد إلى راتشت.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "701a4baa49eafd3925c3212f7e2b9fe36ac4ede1e61bf9e25e00a510acf050eb",
+      "candidate_sha256": "61720a9841de06a83f0b1baa611fae4472b9d9879fbf69dac1d5f393e0444f31",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16059,
@@ -354,12 +530,20 @@
     "scene_code": "",
     "arabic_current": "تخطي تحدي جليتش",
     "arabic_edit": "تخطي تحدي جليتش",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "b0bc72955dc3074b29b7725110cd6c7b67f80429a75074d855609c0f1c4a4b37",
+      "candidate_sha256": "ddf735d58136ab91326cba6d78a09743e5cfeaa21871a0bfc894ca1ff2aa55b5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16060,
@@ -370,12 +554,20 @@
     "arabic_current": ".تخط اللغز الحالي",
     "arabic_edit": "تخط اللغز الحالي.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "144e5ef71086444a44fe38e6ac07273c9464f85a30df15a45064b68a59e51d17",
+      "candidate_sha256": "9954c71b8f066a55c541d183258482fe293ed7f941277e42e447b65fd9227251",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16061,
@@ -385,11 +577,19 @@
     "scene_code": "",
     "arabic_current": "تخطي اللغز",
     "arabic_edit": "تخطي اللغز",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "31acb27b6452e93d9cd45d276dd2533cbf92143d6e3d77b7fbd087f1e2a5f39b",
+      "candidate_sha256": "d745fee5a3d647850946e460068ea547dd4536bf84a744a0ea68f8664a87b19e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

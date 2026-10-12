@@ -6,13 +6,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "،بتفعيلك لهذه الإعدادات<br>فإنك توافق على أن تتلقى<br>شركة سوني إنتراكتيف<br>إنترتينمنت المحدودة<br>بيانات عن الإعدادات التي<br>اخترتها، وتستخدمها لغرض<br>وحيد هو تحليل ميزات<br>إمكانية الوصول وتحسينها.",
-    "arabic_edit": "،بتفعيلك لهذه الإعدادات فإنك توافق<br>على أن تتلقى شركة سوني إنتراكتيف<br>إنترتينمنت المحدودة بيانات عن<br>الإعدادات التي اخترتها، وتستخدمها<br>لغرض وحيد هو تحليل ميزات إمكانية<br>الوصول وتحسينها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "بتفعيل هذه الإعدادات، توافق على أن تتلقى<br>شركة سوني إنتراكتيف إنترتينمنت ذات<br>المسؤولية المحدودة بيانات عن الإعدادات<br>التي اخترتها وتستخدمها حصريًا لتحليل ميزات<br>إمكانية الوصول وتحسينها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-001",
+      "source_sha256": "11b6e2804d48a4a7511b4b68c163d2615d8fb08a7943902597a8394ca6aa7734",
+      "candidate_sha256": "4308343ce3b374a8ad83d178e6fbb3d2645c9df5e3e14f69813c4f11756eb8d6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

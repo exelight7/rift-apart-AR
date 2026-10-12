@@ -6,13 +6,21 @@
     "speaker_code": "CLANK",
     "scene_code": "SAVA_GP2_CINE_BONE",
     "arabic_current": "<ts=&quot;0;0.92&quot;>بلطجيو العظام.<ts=&quot;1.52;2.819&quot;>بالطبع.",
-    "arabic_edit": "<ts=&quot;0;0.92&quot;>بلطجيو العظام.<ts=&quot;1.52;2.819&quot;>بالطبع.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.92&quot;>غونز العظام.<ts=&quot;1.52;2.819&quot;>بالطبع سنواجههم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "6bd2ec1cceb894d58d58b4c2e8f83adc1141d5c201979988b96c095bcf47c21e",
+      "candidate_sha256": "89cb0d3298282f2cd78b79f9efbb362d5adfbd6686fb2f57f651be1ec38fd8b5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2327,
@@ -21,14 +29,22 @@
     "speaker_code": "CLANK",
     "scene_code": "SAVA_GP2_CINE_BONE",
     "arabic_current": "<ts=&quot;0;2.357&quot;>إنه يفرط في استخدام<br>الناقلة البعدية.<ts=&quot;2.512;5.898&quot;>الحدود بين الأكوان تتفكك...",
-    "arabic_edit": "<ts=&quot;0;2.357&quot;>إنه يفرط في استخدام الناقلة البعدية.<ts=&quot;2.512;5.898&quot;>الحدود بين الأكوان تتفكك...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.357&quot;>إنه يفرط في استخدام جهاز الأبعاد.<ts=&quot;2.512;5.898&quot;>الحدود بين الأكوان تتفكك...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "03e47e2d4f43a15497d1258d18fed214c34b79f29a4778c6aaebe1aaeb18708b",
+      "candidate_sha256": "56c709215e3816037a92054829fd374decea60b2ccda494000a69d420c5ae8f4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20157,
@@ -37,14 +53,22 @@
     "speaker_code": "RATC",
     "scene_code": "SAVA_GP2_CINE_BONE",
     "arabic_current": "<ts=&quot;0.02;3.651&quot;>لا بد أن الإمبراطور متجه إلى<br>الأرشيف. علينا الوصول إلى<br>هناك في أقرب—.",
-    "arabic_edit": "<ts=&quot;0.02;3.651&quot;>لا بد أن الإمبراطور متجه إلى الأرشيف.<br>علينا الوصول إلى هناك في أقرب—.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.02;3.651&quot;>لا بد أن الإمبراطور متجه إلى الأرشيف.<br>علينا أن نسبقه إلى هنا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "0d64b6bc9bd25160ffe512031db3e5f4993eff5e84d30cf53f649ebb8875d7a1",
+      "candidate_sha256": "d926131772b5a6d6fd379f22be3fad85324c2c083b7ef0534d81d4cb8303c9e1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20158,
@@ -54,11 +78,19 @@
     "scene_code": "SAVA_GP2_CINE_BONE",
     "arabic_current": "<ts=&quot;0;2.1&quot;>إذن صار عندنا... غونز عظام الآن؟",
     "arabic_edit": "<ts=&quot;0;2.1&quot;>إذن صار عندنا... غونز عظام الآن؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "f5be95583388d14f28144fc073540b3bf3be05a34c86e1858943f3fff8f5453d",
+      "candidate_sha256": "ad54bdcdd4616c0f9d13393c90cb78afe3b7fa8e0166aa63e6c1b7ca3146097c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

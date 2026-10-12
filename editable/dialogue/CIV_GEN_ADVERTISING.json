@@ -6,14 +6,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0.05;5.658&quot;>هو-يو! متجر السيدة زوركون<br>مفتوح وجاهز للعمل!",
-    "arabic_edit": "<ts=&quot;0.05;5.658&quot;>هو-يو! متجر السيدة زوركون مفتوح وجاهز<br>للعمل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.05;5.658&quot;>يوهو! متجر السيدة زوركون مفتوح وجاهز<br>للعمل!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "34c228523cba4baf4391ab9074750618d59bf088e98e8a8afa15bce34679c16d",
+      "candidate_sha256": "7e209b9a7d1061ca21c2c39915e211834c5d3598c0a37e135bdb14397100d341",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13333,
@@ -22,14 +30,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0.032;3.527&quot;>لا تترددوا أيها القوم! تعالوا<br>إلينا!",
-    "arabic_edit": "<ts=&quot;0.032;3.527&quot;>لا تترددوا أيها القوم! تعالوا إلينا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.032;3.527&quot;>لا تخجلوا، يا جماعة! تفضلوا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "b43341b2ac17fdc0f42e85a56439aec6f20f4528ba1ed2fb66e3803a606c9b2f",
+      "candidate_sha256": "cc0efe2ba978dfe964e9de927c63362ca203bdc81f1fbcb8b143b9bc04f65b6b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13334,
@@ -39,13 +55,21 @@
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0.04;3.19&quot;>تعالوا إلى متجر السيدة<br>زوركون لكل احتياجاتكم من<br>الأسلحة!",
     "arabic_edit": "<ts=&quot;0.04;3.19&quot;>تعالوا إلى متجر السيدة زوركون لكل<br>احتياجاتكم من الأسلحة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "89b58b75ac9157b89c506c0745df04ad4c0d97118ebf12ec88d9fa09bba20fa1",
+      "candidate_sha256": "a66a5ceed34de4ddb303741ec1c58cf429b2935dc1e9bd113553fbaf0d91ceb9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13335,
@@ -54,14 +78,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0;4.55&quot;>لدينا من كل أنواع التسليح!<br>إذا كان ينفجر فلدينا منه!",
-    "arabic_edit": "<ts=&quot;0;4.55&quot;>لدينا من كل أنواع التسليح! إذا كان ينفجر<br>فلدينا منه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.55&quot;>لدينا أسلحة من كل نوع! كل ما يحدث انفجارًا<br>موجود عندنا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "1f3e7d9678ed53115aa00a0bceb2e2c1d73c79cb609e40da24a0143cde541d90",
+      "candidate_sha256": "4750302a04f45cfa0ea7237fa77035b33512b98a146baa96c5cf41e72324a3dc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13336,
@@ -71,13 +103,21 @@
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0;2.048&quot;>تعالوا جميعا!<ts=&quot;2.127;5.921&quot;>من هذا الاتجاه لتجدوا أقوى<br>الأسلحة حولكم!",
     "arabic_edit": "<ts=&quot;0;2.048&quot;>تعالوا جميعا!<ts=&quot;2.127;5.921&quot;>من هذا الاتجاه لتجدوا أقوى الأسلحة حولكم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "5c01f98e2fd8e112b0b828682be3cbeaf9b18c66cb7881bd144b41950596c379",
+      "candidate_sha256": "f6f07c9fbf4992a93c2d7f35e6760932c9a291f2fce36d53853d141768d9ca9e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13337,
@@ -86,14 +126,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0;4.78&quot;>متجر السيدة زوركون أفضل<br>بائع أسلحة تقييما في<br>المجرة كلها!<ts=&quot;4.945;6.886&quot;>خمس نجوم للجميع!",
-    "arabic_edit": "<ts=&quot;0;4.78&quot;>متجر السيدة زوركون أفضل بائع أسلحة تقييما<br>في المجرة كلها!<ts=&quot;4.945;6.886&quot;>خمس نجوم للجميع!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.78&quot;>متجر السيدة زوركون أعلى متاجر الأسلحة<br>تقييمًا في المجرة!<ts=&quot;4.945;6.886&quot;>خمس نجوم، يا جماعة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "e8419572ff10876318e0d86d3c9ab5e3564fc5e8bc5a6805fd18424be316e133",
+      "candidate_sha256": "6a2bc38f99ad89b92a4883db578397ef2c17d4c8783eb0c293bda6109ce03355",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13338,
@@ -103,12 +151,20 @@
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0.078;3.625&quot;>أوه، أؤكد لك أننا مفتوحون!",
     "arabic_edit": "<ts=&quot;0.078;3.625&quot;>أوه، أؤكد لك أننا مفتوحون!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "06361cfe224ccb49acfd6a1db93ce70c1382ab3a5dc56c1391f67f40f84ad88b",
+      "candidate_sha256": "36f64b72385c4296d62c55f0835c3ed72863b6a5816e4ac43a967e9827cf9926",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13339,
@@ -117,14 +173,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0.061;4.85&quot;>اقترب أكثر وانظر إلى<br>البضاعة! أنا لا ألدغ!",
-    "arabic_edit": "<ts=&quot;0.061;4.85&quot;>اقترب أكثر وانظر إلى البضاعة! أنا لا ألدغ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.061;4.85&quot;>هيا، لنلق نظرة أقرب على البضاعة! أنا لا<br>أعض!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "198bb4c607e1e3753db7f7b96410535a08a74a87d28e40d72b97bc0618c93b73",
+      "candidate_sha256": "651eff2b24a91556f72dcda973540a0249b0b34fbe584c5c285f0106458695c4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13340,
@@ -134,12 +198,20 @@
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0.026;2.92&quot;>نفخر بخدمتنا من الطراز الأول!<ts=&quot;2.999;5.334&quot;>العميل دائما على حق!<ts=&quot;5.603;7.544&quot;>إلا عندما لا يكون.",
     "arabic_edit": "<ts=&quot;0.026;2.92&quot;>نفخر بخدمتنا من الطراز الأول!<ts=&quot;2.999;5.334&quot;>العميل دائما على حق!<ts=&quot;5.603;7.544&quot;>إلا عندما لا يكون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "390f939ce01df0bb65d9f40a4d5b6b5a9c136a11441c9514cc39888992d4eb6c",
+      "candidate_sha256": "a8e3892ef3407c359e676fbe5b4e84bd14205e499eb9ff412caaf042feb4d618",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13341,
@@ -148,14 +220,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0.028;5.588&quot;>من المدافع إلى القنابل، ومن<br>الصواريخ إلى البنادق، لدينا<br>كل شيء يا حبيبي!",
-    "arabic_edit": "<ts=&quot;0.028;5.588&quot;>من المدافع إلى القنابل، ومن الصواريخ إلى<br>البنادق، لدينا كل شيء يا حبيبي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.028;5.588&quot;>من المسدسات إلى القنابل، ومن الصواريخ إلى<br>البنادق، لدينا كل شيء، يا قمر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "35757ea5d4e89773eb434292d15232fb2081ae73e08b7b2e03a8eea2f7e10c81",
+      "candidate_sha256": "586a4ea8e86de792dfafec235066a2b4b0d403b52c97beffb58584373bf43789",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13342,
@@ -165,13 +245,21 @@
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0;1.867&quot;>تبحث عن نار؟<ts=&quot;1.983;5.627&quot;>متجر السيدة زوركون يملك<br>أشد الأسلحة حرارة!",
     "arabic_edit": "<ts=&quot;0;1.867&quot;>تبحث عن نار؟<ts=&quot;1.983;5.627&quot;>متجر السيدة زوركون يملك أشد الأسلحة حرارة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "19de38c56369a98d28d3a6344767354d320a0bf05c6abdf15d971e2ba13d9c16",
+      "candidate_sha256": "1d92bea8a6881a0bb8bf7dbf150a4f27d5caf2320862f91a655e2b5d1d432591",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13343,
@@ -181,12 +269,20 @@
     "scene_code": "CIV_GEN_ADVERTISING",
     "arabic_current": "<ts=&quot;0.039;3.669&quot;>أسلحة وذخيرة وتطويرات!<br>تعالوا خذوا بعضها!",
     "arabic_edit": "<ts=&quot;0.039;3.669&quot;>أسلحة وذخيرة وتطويرات! تعالوا خذوا بعضها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "244d65f94e59a9575a3782754da5271e6c4376d859dac8856f11e4d274375e7f",
+      "candidate_sha256": "7f2c0885331ffcbb76578bf988625b5d18421573209f1c163d11b83ec55183e9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

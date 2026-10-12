@@ -6,13 +6,21 @@
     "speaker_code": "DRNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لا يمكنهم تجاوز ذلك!",
-    "arabic_edit": "لا يمكنهم تجاوز ذلك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لا يمكنهم الصعود!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "45f63559f61a8a25cf97436ad1e360c303506e41dc373ff6876e44c88966fbe3",
+      "candidate_sha256": "002536e2b51d8b27e907413a87036b4501a63b09bb5a26fc0aaec22ecde87714",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7378,
@@ -22,12 +30,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "لا!",
     "arabic_edit": "لا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "9b39223391793bc1daf558ddc85d7f22f0cdd412972469565c8479137b3c9eba",
+      "candidate_sha256": "c8293eba3edc9c6e0b54fca9afce34a783588c2c424248205afc3655408a9608",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7379,
@@ -37,12 +53,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "ها!",
     "arabic_edit": "ها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "364ea49c3b6c9895a119ab7c1325548bd750b627dd72b5e3157f65e0e24db520",
+      "candidate_sha256": "2a495577221d12e44649fbe85336c647b6811a6cc7653b137ac35542fe2b8c82",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7380,
@@ -51,13 +75,21 @@
     "speaker_code": "DRNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "[هذا جيد جدا [يهمهم...",
-    "arabic_edit": "[هذا جيد جدا [يهمهم...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "[يهمهم] هذا جيد جدًا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "1e4067cd0b1a1eec0fad0d9bbe862deb862c0ff7cca15f5b08e2de1411a0143f",
+      "candidate_sha256": "32f07577e08e50640c5c5e41fe0f85b8520fe6a527b9b7ea053b1186604f8fc8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7381,
@@ -66,13 +98,21 @@
     "speaker_code": "DRNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "يا له من رائع!",
-    "arabic_edit": "يا له من رائع!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أوه، إنه رائع!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "11e0ae7fce4a405f1da99c9aa295514f5e248773b13e58a7c9484e546391788a",
+      "candidate_sha256": "cf8453aaec741987d098b23b0c9886d70afca255ee773916d692c51d05860235",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7382,
@@ -82,12 +122,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "سينضمون إليك في القمة!",
     "arabic_edit": "سينضمون إليك في القمة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "42e9f39f3293bea468aa0db68643033f5824cc33dd71b1f7fe1bfdfc5c44a5e3",
+      "candidate_sha256": "4121e060e232ee425f0915dcd592ab055c2181a99bd29287c145b13e6b98ae07",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7383,
@@ -97,13 +145,21 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "سينضمون إليك حيث تتألق<br>النجوم",
     "arabic_edit": "سينضمون إليك حيث تتألق النجوم",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "e96bb84109d6b48e86ba632ab22a4fb384d6b2f874afd1677d88e5b201127248",
+      "candidate_sha256": "0e1648c02638715b622d80a4bccfa49293f424352b4ae3b4fba911bf5b239ed8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7384,
@@ -113,12 +169,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "ومضحك!",
     "arabic_edit": "ومضحك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "4d3d80d19fcc7db791eb382d3c2f26e3c536de741e587a43bd0b1f11c5d98235",
+      "candidate_sha256": "6151e79bb647c029a48e6770e1bf84b8f3c6beb14e9fc1c0f1e7fe426b43f1ab",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7385,
@@ -128,12 +192,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "ونيفاريوس!",
     "arabic_edit": "ونيفاريوس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "90ad7158f520d900a59461dd30c1d745ed0fdac28d0f182c6f64771e227d0004",
+      "candidate_sha256": "38d63fd19830a975fca0d6a816c8abd0ff634f1a4c11292ad0990a1ef3042d69",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7386,
@@ -142,13 +214,21 @@
     "speaker_code": "DRNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لا بأس، نسيت...",
-    "arabic_edit": "لا بأس، نسيت...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لا عليك، نسيت...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "b644dd501a913baf2853c8ac5fa3591b8bcb7277e77a1a769b5edb42dbefd311",
+      "candidate_sha256": "56f3a413c78d87bfaf7cd65f29868c9b91f403d3e8e9ab7b87fbe4aa6d5dde9d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7387,
@@ -158,12 +238,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "نيفاريوس في القمة!",
     "arabic_edit": "نيفاريوس في القمة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "ac784a4d19ddfb559adb8f19c8771e23bc73deecf266667e8bf8265a0737048d",
+      "candidate_sha256": "b7d4f0ab0033fc59c30104a0f7a605a926a52ad68c8d51ff9a4af558facde8b3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7388,
@@ -185,12 +273,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "أنت تحترق...",
     "arabic_edit": "أنت تحترق...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "d572ee649d47ae52f34878d30cec71191738b10d6d9f38b09d6c6ad8dcabacf8",
+      "candidate_sha256": "803957d8df5e3f70f680063cbda346e9b82899f5d690866677fae06a90a6c9de",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7390,
@@ -199,13 +295,21 @@
     "speaker_code": "DRNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لكنك لن تحترق!",
-    "arabic_edit": "لكنك لن تحترق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لكنك لن تفعل!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "2b5bde1ffc129d507df3c80a9a84735aa314b36c628f4024dc104bef4282b762",
+      "candidate_sha256": "1d9df3c58815538042e27bea4227f48885ffbcc082f1543f65ba06a876b99720",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7391,
@@ -215,12 +319,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "عظمتنا!",
     "arabic_edit": "عظمتنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "416fa397f64cd1d6c54408e791102a507b757dd77bfb6509e09e15d1e0bc6ee8",
+      "candidate_sha256": "f62794cb972d4988e2e6f5ab7e4a5a7dc3f21aeb7bad1dcdb1f839355199e718",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7392,
@@ -230,12 +342,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "في انتظار أرباحي.",
     "arabic_edit": "في انتظار أرباحي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "f98101b986bfb208fb1f2e990a1075c20728decddbffea4ba7621972c9a80bf9",
+      "candidate_sha256": "8ae25e12dd8a61d009c0c1390067f8958e30e6c9f3c9e3fdda90875cf8f74842",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7393,
@@ -244,13 +364,21 @@
     "speaker_code": "DRNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "[عظمتنا؟ [محتارا",
-    "arabic_edit": "[عظمتنا؟ [محتارا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "[بحيرة] عظمتنا؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "391869c509a9824e132c9d3e75e6ca8fe9c55448e2c7465d9790eb7ff8c2e2bc",
+      "candidate_sha256": "2423d58e1447f49fb9faf49885c987128c9c6b6329b682b3ae5ffaeb3cfdb134",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7394,
@@ -259,14 +387,22 @@
     "speaker_code": "DRNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "[مهلا، مهلا لن أقول [يشتكي<br>هذا...",
-    "arabic_edit": "[مهلا، مهلا لن أقول [يشتكي هذا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "[يتذمر] مهلًا، مهلًا، لن أقول هذا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "ea6ddb9e7b67d055889e946075d3482a4766ebc41dc58de7e1c140accfb5ca8e",
+      "candidate_sha256": "8613bf1804151a7e961c88117f045c11128253d3f0f9468f482b8b2f2e587f60",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7395,
@@ -276,12 +412,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "عظمتنا!",
     "arabic_edit": "عظمتنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "240913bc82de018c71b09238aeb4ceb8cb7bffd720ddeeabadf8f2e560fef55a",
+      "candidate_sha256": "f62794cb972d4988e2e6f5ab7e4a5a7dc3f21aeb7bad1dcdb1f839355199e718",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7396,
@@ -291,12 +435,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "... عظمة أيضا؟",
     "arabic_edit": "... عظمة أيضا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "1fcd17a98af5e3fc3df8b0fe85fa4d0fee6176f371bafdf85812fb0db3ab31c0",
+      "candidate_sha256": "3fb8c7cbc845c77ceeeda5175b6ac77d4fc37fa2da5cd9d9eaa2b6bedc652008",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7397,
@@ -306,12 +458,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "عظمتنا!",
     "arabic_edit": "عظمتنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "240913bc82de018c71b09238aeb4ceb8cb7bffd720ddeeabadf8f2e560fef55a",
+      "candidate_sha256": "f62794cb972d4988e2e6f5ab7e4a5a7dc3f21aeb7bad1dcdb1f839355199e718",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7398,
@@ -321,12 +481,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "لكن مضيعة؟!",
     "arabic_edit": "لكن مضيعة؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "5a702607d9e93aa5c26dcdd9fd32dc25127a4aefa3352d71f3a229ef0882aec6",
+      "candidate_sha256": "34e0c01d7972aeb52dc8ec96879eb5c8d089b870a550a6ac50d0de4222fb8f2f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7399,
@@ -336,12 +504,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "عظمتنا!",
     "arabic_edit": "عظمتنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "240913bc82de018c71b09238aeb4ceb8cb7bffd720ddeeabadf8f2e560fef55a",
+      "candidate_sha256": "f62794cb972d4988e2e6f5ab7e4a5a7dc3f21aeb7bad1dcdb1f839355199e718",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7400,
@@ -351,12 +527,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "لكن مضيعة!",
     "arabic_edit": "لكن مضيعة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "4ec083587e4abaf6aeedc9e06e478521a04190bed769f43ece034cc91045bb4a",
+      "candidate_sha256": "fe2df9f2a233d74a7f2e8f0c697e1df320b01bad9a20b5f240b1ae59bf78ff24",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7592,
@@ -366,13 +550,21 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "لا لا لا لا لا لا لا لا لا لا لا لااا<br>لا!",
     "arabic_edit": "لا لا لا لا لا لا لا لا لا لا لا لااا لا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "b0c545cce8a502e24d618c30d49df45dc4e69781c8391a21cc4af578fe1c9d71",
+      "candidate_sha256": "663fc832e1409c585099f8308b5b8c6575c3fb158ac260b3b4e47d5c8617181a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7593,
@@ -382,12 +574,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "وحيدا أخيرا",
     "arabic_edit": "وحيدا أخيرا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "0e30073558de25c97ab1b324c430192a48469df8273160a9919094cf6c4e2029",
+      "candidate_sha256": "0891584415a94839591e4e7b6bd3ae01977efdb3327718b552df66f187416ddd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7594,
@@ -397,12 +597,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "محتجزا في القمة",
     "arabic_edit": "محتجزا في القمة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "c844da0777d19eef0de3036317bca22d3d27593e9abc60afee432f6eb8800756",
+      "candidate_sha256": "a66e8589750e9d14c98bf7048c13c69416c1658a35834b191528fc9251756d58",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7595,
@@ -411,13 +619,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لو فقدت يوما",
-    "arabic_edit": "لو فقدت يوما",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لو هزمت يومًا",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "418e29101644404388d76fa0c5e453b88d28d2d24a7602bb6a80197c03c40571",
+      "candidate_sha256": "539eb43a7bb048d4079019aaa5dcf1a7989c3d0e10cdabd21a43f36a75badc2f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7596,
@@ -426,13 +642,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "أظن أنني سأفلت",
-    "arabic_edit": "أظن أنني سأفلت",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "فأظن أنني سأسقط",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "a1085a1ff4311291dc3b8a1bbdca56949e30c9fe695ff06b2d2953ff214f1bfa",
+      "candidate_sha256": "6080d800073cbe058dd25e3ca06a947546109d5435ecd8c0fe643eee69fdbbbc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7597,
@@ -442,13 +666,21 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "حكايتي التي لا تنتهي من<br>النجاح",
     "arabic_edit": "حكايتي التي لا تنتهي من النجاح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "5cc92c4bfdb8f761e48f98a5ed038743f671f6cabeb6fb747989c8473c81ffdd",
+      "candidate_sha256": "ec0802ae0e315fb109ebb0b738185e99a3768c3d681696fac9740ce3ddab37b4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7598,
@@ -458,12 +690,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "لحن وحيد يرن في فراغ",
     "arabic_edit": "لحن وحيد يرن في فراغ",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "1fa05a7775b9b6bad05eee9e66f026400c58e6ee355bd77c7196bdba35f8ece1",
+      "candidate_sha256": "f0183ce4fcf543fc55a83ee2475333ae3e5c8d898f39c27ef07a8a7f1db383bb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7599,
@@ -473,12 +713,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "لدي إذن طلب واحد",
     "arabic_edit": "لدي إذن طلب واحد",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "881a8bff7b08001596ecc6fa38b35e9f7ac019a69f76cc424e7c6700ef63b24e",
+      "candidate_sha256": "a9a9e5e3c77647cf024a5c2038c4e17136adefdd1e3769b478376404a9ea4d59",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7600,
@@ -487,13 +735,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لماذا لا) انضم إلي في القمة)",
-    "arabic_edit": "لماذا لا) انضم إلي في القمة)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "انضم إلي في القمة (لم لا؟)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "846d33e9176f06da650598f1ad7dfd80fba632da08427de2d4a1ed1912f5222f",
+      "candidate_sha256": "7132ce6b7426ab7828804b7f13e0b4239dee07887f39513737401f871f3b3910",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7601,
@@ -502,14 +758,22 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "انضم إلي حيث تتلألأ النجوم<br>،كلها",
-    "arabic_edit": "انضم إلي حيث تتلألأ النجوم ،كلها",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "انضم إلي حيث تتلألأ النجوم، و...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "4d9fb6618c798262c6a8066e0ad5dc92a5dd2b4b87876cea38e06edef30778dc",
+      "candidate_sha256": "dc1d5871b9e1a390cd583c8f9436b1374bce9f65d7be6eb8cdf9502028fe3e2b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7602,
@@ -518,13 +782,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لماذا لا) انضم إلي في القمة)",
-    "arabic_edit": "لماذا لا) انضم إلي في القمة)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "انضم إلي في القمة (لم لا تنضم؟)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "006d09690c42a744ed2cd7fc02e6146abf6b0e98be216f5b83360fb77c89d48b",
+      "candidate_sha256": "73bd5757efa59c6fb2d2f29d4a8086b49823e39a6faf9b39c3fa58b586b5a4de",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7603,
@@ -534,12 +806,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "انضموا إلي، لتتحد قوتنا",
     "arabic_edit": "انضموا إلي، لتتحد قوتنا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "ae479064e5a1d23f94b08c5080d08e6279a7407b0f8ed8e4660955e0ade21321",
+      "candidate_sha256": "17c98855412a006e0e7df7fdf942b479a9fa4973ea32fb21b8bb2c96a8add2ac",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7604,
@@ -548,14 +828,22 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "تعرفون أنني لا أصدق رداء<br>صغيرا",
-    "arabic_edit": "تعرفون أنني لا أصدق رداء صغيرا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تعرف أنني لا أقاوم أغنية قصيرة",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "f84abde9347d340b4ef03597e12677bc2466152e6b1ad64c315dbe91ea0a46aa",
+      "candidate_sha256": "3c61f835f86c0dc3cb2e58a70740908a5646eaf33034c815485b6136db274698",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7605,
@@ -564,14 +852,22 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "آه، لحظة --إذن انضم إلي--<br>يا للأسف --لكن",
-    "arabic_edit": "آه، لحظة --إذن انضم إلي-- يا للأسف --لكن",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "إذن انضم إلي... أوه، مهلًا... يا للأسف",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "0dbe89613a256d203dbbed2293585187b745a6292b2ca6fe0c28fee374d7e928",
+      "candidate_sha256": "4be787e17d836673f3b8d13120634d0d6b442263d1f69a2b5ab8e3959332be60",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7606,
@@ -581,12 +877,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "يبدو أنني نسيت!",
     "arabic_edit": "يبدو أنني نسيت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "0cd73dcc97bf072e59845db7989b08a37dc2f508d9d767808855abe59e6418c1",
+      "candidate_sha256": "a2005c659bf129c285a408d5d7044a498b3dc67137568eae0a6b9711ea7bdfa1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7607,
@@ -595,13 +899,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لأنني كل ما لا تكون أنت!",
-    "arabic_edit": "لأنني كل ما لا تكون أنت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لأنني كل ما تعجز عن أن تكونه!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "acc347f85fa77bb1c2df3cccf2aba52fdbde1eb4b0885de8c57f80d8b5ce446e",
+      "candidate_sha256": "65483738c3d5fd80009c9769b6b9768175079cfe45ea4981d6a7f33f3bec7227",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7608,
@@ -611,12 +923,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "ها!",
     "arabic_edit": "ها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "364ea49c3b6c9895a119ab7c1325548bd750b627dd72b5e3157f65e0e24db520",
+      "candidate_sha256": "2a495577221d12e44649fbe85336c647b6811a6cc7653b137ac35542fe2b8c82",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7609,
@@ -626,12 +946,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "هاهههه. هذا جيد إلى حد ما.",
     "arabic_edit": "هاهههه. هذا جيد إلى حد ما.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "dc379b304d5db6a63b7c199ef2b85730038471a491d81fc2d4983987409fe28d",
+      "candidate_sha256": "dc07892525dcec203c5e3c7cc0c4492ae1f96870d992724ed139b38262130f48",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7610,
@@ -641,12 +969,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "قلت إنه جيد إلى حد ما!",
     "arabic_edit": "قلت إنه جيد إلى حد ما!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "710e9c8ab6241340c01442370baa8ef66a0a6c97dd8cc2743546be4c220ea544",
+      "candidate_sha256": "9ffb1e16be7ed634e759c5375d1539ee0cc8b4a9851ac240725e0aece74f5760",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7611,
@@ -656,12 +992,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "انظر إلي",
     "arabic_edit": "انظر إلي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "0af0da5fca32b9f2b7cc7c103ccdcff75c1dc56d5c8cf27298d5a5f83378bfdd",
+      "candidate_sha256": "4de35774d0889464dc0fb3ea00629fa1ce2306cc499404aab9e0268f2cca43ba",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7612,
@@ -671,13 +1015,21 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "وإلى مخططاتي الخالية من<br>العيوب",
     "arabic_edit": "وإلى مخططاتي الخالية من العيوب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "5bb71cfd2ce1555df4bad801297b323cf73cf810f42f79167d5c6d2f9d056320",
+      "candidate_sha256": "2b8409225cd9c4f3a9f126a4a2bc4b677afea3724d5e44c9a626a56f036d34b4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7613,
@@ -687,13 +1039,21 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "من النوع الذي لن تحلم به<br>أبدا",
     "arabic_edit": "من النوع الذي لن تحلم به أبدا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "d5cc2d62cd639c5bebf832784d98df22ac6bb1c4cf7494e77fcbd7807100a412",
+      "candidate_sha256": "80177337e13fda915802c5d6b1d98cb1de7a5dc6bbc6a4b42b3b7be8f7d686c2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7614,
@@ -703,12 +1063,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "ولا في أحلى أحلامك!",
     "arabic_edit": "ولا في أحلى أحلامك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "546c7b4015b1d99fefe7e6fa913ce9f1913d65f6606f1d2cc911d662dac723a5",
+      "candidate_sha256": "3cc5794c7490a2f36e81fd8c6cc49d177e438717c466c5342098d091f2e8ceb3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7615,
@@ -717,13 +1085,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "أليس محظوظا بك",
-    "arabic_edit": "أليس محظوظا بك",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "ألست محظوظًا جدًا",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "7742f81db3d6d357035ddf2a6068391c34aa73d167904f48876e7d24b6829022",
+      "candidate_sha256": "5d880160a1424409c91f748f7547421ad02c3a340f3c4b32b3aaba5ba19e24cb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7616,
@@ -732,13 +1108,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "أن تملكني أنا لتعبدني",
-    "arabic_edit": "أن تملكني أنا لتعبدني",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "بأنني هنا لتحظى بشرف تبجيلي",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "8bb564510752c1b3663c360e33bfddbcd1648f2f66959d5052563a64cee906bc",
+      "candidate_sha256": "d3b5e9d8673ba3827e59e4f51797906fe4a98f0ddee4eb6e51e6c505b45642cd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7617,
@@ -747,13 +1131,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "إمبراطورك الخالي من العيوب",
-    "arabic_edit": "إمبراطورك الخالي من العيوب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "بلا عيوب وخارج عن القانون،",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "c802753871ed3b4a6e116460876715d99bae845b59db942e7afb52dc4a6dcd88",
+      "candidate_sha256": "c5a4505d98161e625e4bcf34b0b765d170fcc8f063f62e0dcac96f6f964e639c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7618,
@@ -762,14 +1154,22 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "والذي لا يراعي القانون هنا<br>تماما",
-    "arabic_edit": "والذي لا يراعي القانون هنا تماما",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "إمبراطورك هنا أمامك",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "45c7d7fbf18fb531256fb0e353a7369a40261393366f78c4143486b75c27196c",
+      "candidate_sha256": "4d8f4793aa15d8dcbfaeee23c6edd0af7681162f53a631c28ed423a129d8d755",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7619,
@@ -778,13 +1178,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لماذا لا) انضم إلي في القمة)",
-    "arabic_edit": "لماذا لا) انضم إلي في القمة)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "انضم إلي في القمة (لم لا؟)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "846d33e9176f06da650598f1ad7dfd80fba632da08427de2d4a1ed1912f5222f",
+      "candidate_sha256": "7132ce6b7426ab7828804b7f13e0b4239dee07887f39513737401f871f3b3910",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7620,
@@ -794,13 +1202,21 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "انضم إلي حيث تتلألأ النجوم<br>كلها",
     "arabic_edit": "انضم إلي حيث تتلألأ النجوم كلها",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "132a096a135093a4758583e30d7eca15bc336cc692d6a970d333164086df7742",
+      "candidate_sha256": "a010cdaaba52cde63d9ea2c85f1c23e8add868516378b4bd54f0c491a37a5f70",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7621,
@@ -809,13 +1225,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لا، لن أفلت) ولن أفلت أبدا!)",
-    "arabic_edit": "لا، لن أفلت) ولن أفلت أبدا!)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "ولن أفشل أبدًا (كلا، لن أفشل!)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "3467fe7b7534f5e97e3f2bb66dcb5c41c542a69e609078c5c5e87632a16df988",
+      "candidate_sha256": "8a2ea211b49b893376c5353dfa9b2aa48133859eadd397fbea743f3635ac650a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7622,
@@ -825,13 +1249,21 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "انضم إلي فحسب، هيا، اصطف<br>في الصف",
     "arabic_edit": "انضم إلي فحسب، هيا، اصطف في الصف",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "d39af8812c699607c1d44aeaea28a6472c64f4d383467a63f5d7847e81dbf92e",
+      "candidate_sha256": "b9c474a110dc18fc277266788c4a0d6d79f3d5fd5eaa255387433e3b014e070e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7623,
@@ -841,12 +1273,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "ولم يعطني أحد سببا وجيها",
     "arabic_edit": "ولم يعطني أحد سببا وجيها",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "6cee99dfb791deb23a893fa84831c279851223225639f689ec128025ba4d0f65",
+      "candidate_sha256": "9fde41643b84543d784e3d6ea28cd4de20b472a5e2e394616a56f097695205d8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7624,
@@ -855,14 +1295,22 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "ليوقف ما اعتدته من إيقاع<br>قوتي",
-    "arabic_edit": "ليوقف ما اعتدته من إيقاع قوتي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "للتوقف عن انتزاع السلطة كعادتي",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "0fcf434d21a08ee33bfd4fd913b61f00c2aa715d1ae5b790403e027ce38b0f1b",
+      "candidate_sha256": "4351091eed8e918e90ef51c9b997d853bdc460e25080136b10798e61f368ed1c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7625,
@@ -872,12 +1320,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "انضم إلي في هذا المكان!",
     "arabic_edit": "انضم إلي في هذا المكان!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "634e0509e7e8fb815d081ded8d7f26d9167bf97ea767582ad58af59f6d5d9147",
+      "candidate_sha256": "412270b1cfc96c651861cb424a1901cebe2e2e8397110bfe048be98c2035b90b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7626,
@@ -886,13 +1342,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "نسيت --أوه!",
-    "arabic_edit": "نسيت --أوه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أوه... نسيت!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "7915a61df3093b9cd1e03d7d76d2abe132677cf54508135a0b495d0c2b68471b",
+      "candidate_sha256": "f76b8360ad2ab841add29693b6d2d47f13749034a98ca1e61cbb762e4cf48832",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7627,
@@ -901,13 +1365,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "أنا كل ما لا تكون أنت",
-    "arabic_edit": "أنا كل ما لا تكون أنت",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أنا كل ما تعجز عن أن تكونه",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "88c642a255289c8118ebfa02c3391fa3fd48f0b8d309c8ee2ecbc2a5fd2de703",
+      "candidate_sha256": "fa74f877dc193bd4992352f247dbeea75e4a636aa55814df1e9e400e66f92be1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7628,
@@ -917,12 +1389,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "من أنا؟",
     "arabic_edit": "من أنا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "942009d6789b0fcf1276dd1a1d4a3dcf00350dfcd322d1f6fc1334e27f823a6e",
+      "candidate_sha256": "00474d4d07b81dd6c36ff4b253486d3ff59244f11a6b3da3d7dc4e6f39f70187",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7629,
@@ -932,12 +1412,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "ومن أنت؟",
     "arabic_edit": "ومن أنت؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "e45610eae6ef85a8c3c0ccfe535b0fcc6fd9a7e1aa386e0704ed622ab4eec63c",
+      "candidate_sha256": "00a018f5127bf9d92e4e2efee6b44c630d7e38f7c99d8ce9d7128861093920e2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7630,
@@ -947,12 +1435,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "أنت لا شيء بدوني!",
     "arabic_edit": "أنت لا شيء بدوني!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "50f74c558ab6cdbe61e075098f13a94e7ba71a85efaa954c7818849133f82bd2",
+      "candidate_sha256": "d7bc50afb683602062e93f15f2cd3494a558150074fe97d98b5b0e50073976d5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7631,
@@ -961,13 +1457,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "كيف تجرؤ على شكي!",
-    "arabic_edit": "كيف تجرؤ على شكي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "كيف تجرؤ على الشك في قدراتي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "130db0acbb0d38f02af32a71ae0b22c3a5f3bf8f56e67ad327262599a7e98481",
+      "candidate_sha256": "1c4b297ac672e027c36ac7b86a368013354f9c42657c19adcbcfb90473cfe8ea",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7632,
@@ -976,14 +1480,22 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "الآن استمع إلى الدكتور وهو<br>يغني الأمر!",
-    "arabic_edit": "الآن استمع إلى الدكتور وهو يغني الأمر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "والآن اسمع الدكتور يغني حجته!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "3ee385fd82e06d57222e4b787aaf99f5ae763db439e9dd0c385ff029df0b9588",
+      "candidate_sha256": "ddd061af9129963a0ee4af1a9381e92330b31bb547a2925035cfe8f4c1be0c51",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7633,
@@ -993,12 +1505,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "نعم، سيفعلون!",
     "arabic_edit": "نعم، سيفعلون!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "496e49012c6318be0850721b2e313af0574e523f9b513642e992ff2f59b8147a",
+      "candidate_sha256": "753c267388a4ea4c5089139e9759f860ea5c96f8fd2285ba363f4f2a2e09c7c1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7634,
@@ -1007,14 +1527,22 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "يا فتى، أنا ساخن إلى حد<br>خرافي!",
-    "arabic_edit": "يا فتى، أنا ساخن إلى حد خرافي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "ويا لروعة جاذبيتي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "6a27d4d18b746e0b36844707227b3597ce94c757f15dd28331906cfc68f50389",
+      "candidate_sha256": "4930b7e67ac1662eaaff5bf332751931ff27bb2d196613f72bfa537b23488d12",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7635,
@@ -1023,13 +1551,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "إنه مثير إلى حد ما",
-    "arabic_edit": "إنه مثير إلى حد ما",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "إنه رائع بكل المقاييس",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "d7aa0bff73f5b8b6f2935695a4b72510d9fed34bc80dbd59d78f3c266f18aae8",
+      "candidate_sha256": "3e8b4d03e757c7cdf61e867336df57b2f54afb19c54b1bb992f75a2b02e8f4ef",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7636,
@@ -1039,12 +1575,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "ومضحك!",
     "arabic_edit": "ومضحك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "4d3d80d19fcc7db791eb382d3c2f26e3c536de741e587a43bd0b1f11c5d98235",
+      "candidate_sha256": "6151e79bb647c029a48e6770e1bf84b8f3c6beb14e9fc1c0f1e7fe426b43f1ab",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7637,
@@ -1053,13 +1597,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "لأكون كبيرا وسيئا",
-    "arabic_edit": "لأكون كبيرا وسيئا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أن أكون عظيمًا وشريرًا",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "255f36e3cf30472454857e8c526a15f1d383a2c2e1e145dd04a17915d522676c",
+      "candidate_sha256": "f53e6f72d9df96d1f3fc22737808d02be6b22f8a64d9fe27b5ccc81dbd1563a8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7638,
@@ -1069,12 +1621,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "ونيفاريوس!",
     "arabic_edit": "ونيفاريوس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "90ad7158f520d900a59461dd30c1d745ed0fdac28d0f182c6f64771e227d0004",
+      "candidate_sha256": "38d63fd19830a975fca0d6a816c8abd0ff634f1a4c11292ad0990a1ef3042d69",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7639,
@@ -1084,12 +1644,20 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "فانضم إلي في مخططي!",
     "arabic_edit": "فانضم إلي في مخططي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "c7b571331d36aef7f48573d1016b5ea1eabe6e1613bfb24049a0c4d8a3ebde04",
+      "candidate_sha256": "21458ea943b14d2c40bee6b4e1f25101edb091813c8399885b0f202c12071231",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7640,
@@ -1098,13 +1666,21 @@
     "speaker_code": "EPNF",
     "scene_code": "MINI_SONG",
     "arabic_current": "أنا كل ما لا تكون أنت!",
-    "arabic_edit": "أنا كل ما لا تكون أنت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أنا كل ما تعجز عن أن تكونه!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "806d6f59f17157dafe8bf983cd576000dfceee2635d0a2bc36f079a3810240f0",
+      "candidate_sha256": "8fae05b3392882c13c1595bcff90382db628e14515d00e6be790cae2a29556bb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7641,
@@ -1138,11 +1714,19 @@
     "scene_code": "MINI_SONG",
     "arabic_current": "كان ينبغي أن أصعدهم.",
     "arabic_edit": "كان ينبغي أن أصعدهم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "2a3f70aab46d8ba6c324090642e4220af44cd29c07ccffc38c4aa74481483112",
+      "candidate_sha256": "446b9d83dca076c95a9a87e774c8f5f2012c55e59d9acc3c5395fd463224d373",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

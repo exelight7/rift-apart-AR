@@ -6,14 +6,22 @@
     "speaker_code": "NEFC2",
     "scene_code": "CIV_GEN_BAR_IDLE",
     "arabic_current": "<name=&quot;BARP&quot;><ts=&quot;0.046;2.156&quot;>يا لله، حانة زوركيز مزدحم جدا<br>هذه الأيام.",
-    "arabic_edit": "<name=&quot;BARP&quot;><ts=&quot;0.046;2.156&quot;>يا لله، حانة زوركيز مزدحم جدا هذه الأيام.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<name=&quot;BARP&quot;><ts=&quot;0.046;2.156&quot;>يا للعجب، حانة زوركي مزدحمة جدًّا هذه<br>الأيام.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "18674995606a6b82abf1a635b4293615fd09896ec06827f523bbc8fb55ab6cea",
+      "candidate_sha256": "c55fd1b94bab2ecc5202516456f49c0697bff399b45855eeff9e79328c083a45",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13985,
@@ -23,12 +31,20 @@
     "scene_code": "CIV_GEN_BAR_IDLE",
     "arabic_current": "<name=&quot;BARP&quot;><ts=&quot;0.035;2.907&quot;>أحتاج إلى شراب. ربما اثنين.",
     "arabic_edit": "<name=&quot;BARP&quot;><ts=&quot;0.035;2.907&quot;>أحتاج إلى شراب. ربما اثنين.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "7a5b30cd760170276549320bd8b7eb16ee60a72c731d5dd2725340ed8f4972ac",
+      "candidate_sha256": "a76bbc308f073e269dcef3a0b61733d31b08b99e2e9d7a64dd64bcd5d728740d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13986,
@@ -38,13 +54,21 @@
     "scene_code": "CIV_GEN_BAR_IDLE",
     "arabic_current": "<name=&quot;BARP&quot;><ts=&quot;0.036;2.018&quot;>من الرائع أن أخرج من المدينة<br>أخيرا.",
     "arabic_edit": "<name=&quot;BARP&quot;><ts=&quot;0.036;2.018&quot;>من الرائع أن أخرج من المدينة أخيرا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "f52c02982e167622bd2b54f5292363cb6a1651740a8cafa9607c8b22282082ba",
+      "candidate_sha256": "2b7c13f0d16b99eccdab5e6d4a7c11d150182ecf658579ea25cc9e417a9b6bc3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13987,
@@ -54,12 +78,20 @@
     "scene_code": "CIV_GEN_BAR_IDLE",
     "arabic_current": "<name=&quot;BARP&quot;><ts=&quot;0.049;1.446&quot;>على الأغلب علي أن أبدأ في<br>الدردشة.",
     "arabic_edit": "<name=&quot;BARP&quot;><ts=&quot;0.049;1.446&quot;>على الأغلب علي أن أبدأ في الدردشة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "9b4ff1bbd922530d3535e450c9b1aa9fe8e6402d7197138004abd06670b9645f",
+      "candidate_sha256": "f48c916ce3a9317cd421aad8497d4c79cdaeb786b2911c67a0f32825b480f063",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

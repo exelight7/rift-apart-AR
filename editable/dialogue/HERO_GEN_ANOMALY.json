@@ -7,13 +7,21 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0;4.758&quot;>رياح هذه المروحة قوية جدا.<br>ينبغي أن أجد شيئا يزيد<br>ثقل وزني.",
     "arabic_edit": "<ts=&quot;0;4.758&quot;>رياح هذه المروحة قوية جدا. ينبغي أن أجد<br>شيئا يزيد ثقل وزني.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "19d562b00affe0de97653ddb36620b78de7e4e815957280f976a5ffaa606de42",
+      "candidate_sha256": "acf22f9e96b6afd63f0e1952083ae83526ab276b67ff33b9d5d006d4399cbc3e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1945,
@@ -23,13 +31,21 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0.024;4.734&quot;>هممم. الطريق مسدود. أظن أن<br>ذلك المنشار قد يفتح لنا<br>الطريق.",
     "arabic_edit": "<ts=&quot;0.024;4.734&quot;>هممم. الطريق مسدود. أظن أن ذلك المنشار قد<br>يفتح لنا الطريق.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "9913f1ce3a6286210342b1997fa6821fe72be42f94cb284b84f54d1d231aa0a9",
+      "candidate_sha256": "cd1453474313f9ba16a232ce564999b58ec26e1666b5dd4943ab0657e1f95894",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1946,
@@ -39,13 +55,21 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0;2.795&quot;>ينبغي أن أبحث عن كرة<br>كهربائية قد تساعدني.",
     "arabic_edit": "<ts=&quot;0;2.795&quot;>ينبغي أن أبحث عن كرة كهربائية قد تساعدني.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "164045afafecbb4cc04df758e13d1b20817addd90e80cb2f887fe28d2a74e419",
+      "candidate_sha256": "6528ae020a93dba4f557da67e484f05f4d822d80cf94a901153ba0368d511324",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1947,
@@ -55,12 +79,20 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0;3.5&quot;>ربما لو ضممت كرتين معا...",
     "arabic_edit": "<ts=&quot;0;3.5&quot;>ربما لو ضممت كرتين معا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "c8c700e4cabb0a96d7d4a04885647455862fec8a6b30ca1f798252d443dc7150",
+      "candidate_sha256": "7a31f29094ef274993d14c54aa904a36c784d1bc8ff5012ab862c86a97583a45",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1948,
@@ -70,13 +102,21 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0.099;0.559&quot;>هممم.<ts=&quot;0.94;4.639&quot;>أراهن أن بعض السرعة<br>الإضافية ستتخلص من ذلك<br>الحاجز بسهولة.",
     "arabic_edit": "<ts=&quot;0.099;0.559&quot;>هممم.<ts=&quot;0.94;4.639&quot;>أراهن أن بعض السرعة الإضافية ستتخلص من ذلك<br>الحاجز بسهولة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "9b79ca5b964a489b5464a6d07f1012c4383609b311a5406be141c5f706bf3da0",
+      "candidate_sha256": "b35c5aca1d8aa31b69106edcb58135db970ce29e13de006225ed2dee23a4eff7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1949,
@@ -86,13 +126,21 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0;5.122&quot;>إن استطعت توجيه احتمالاتي<br>فوق جهاز الدوران، أظن أنني<br>سأتمكن من المضي.",
     "arabic_edit": "<ts=&quot;0;5.122&quot;>إن استطعت توجيه احتمالاتي فوق جهاز<br>الدوران، أظن أنني سأتمكن من المضي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "a6fb8df959b4a03f5886cbc34e624e8b9ef180f7174ca6c179ad49acf5a9d495",
+      "candidate_sha256": "8b7b92466866863c21033dcad467f31df6039f64345afaaad4d28b38cf6f464c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1950,
@@ -102,13 +150,21 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0;3.123&quot;>أراهن أن احتمالاتي قادرة على<br>الضغط على ذلك الزر...",
     "arabic_edit": "<ts=&quot;0;3.123&quot;>أراهن أن احتمالاتي قادرة على الضغط على ذلك<br>الزر...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "d45f81deeea7f281d6dd86794bfcb3d29b7b25e72ada1c8ab5775263e992295d",
+      "candidate_sha256": "54b3377597c1612655c5ce5c8e587a998a9a2afa86d255adc22b1b0d5e2715e1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1951,
@@ -118,13 +174,21 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0;2.908&quot;>أحتاج إلى طريقة لإنزال ذلك<br>العمود المتحرك.",
     "arabic_edit": "<ts=&quot;0;2.908&quot;>أحتاج إلى طريقة لإنزال ذلك العمود المتحرك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "5f4e2b9b6e23136a3602423fdb314630b1f98b072bbceba8f01bbeabc0359aaf",
+      "candidate_sha256": "638bbfb4e8936b3bf81c09ee048bf6dbcdeb9a713902a737e932bbe064eb503f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1952,
@@ -134,13 +198,21 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0;4.104&quot;>ينبغي أن أجد طريقة لتوجيه<br>احتمالاتي فوق ذلك الزر.",
     "arabic_edit": "<ts=&quot;0;4.104&quot;>ينبغي أن أجد طريقة لتوجيه احتمالاتي فوق<br>ذلك الزر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "912f9064ef30d35696f13c09b1b7f415830e8a3a41344e82684f7505d16f3ac5",
+      "candidate_sha256": "da106fd5d8a8c3013cbb662be5a297311a1e2706909494f79f497d35657117a6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1953,
@@ -150,13 +222,21 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0;4&quot;>إن وجهت احتمالاتي نحو تلك<br>الكرة الكهربائية، ربما...",
     "arabic_edit": "<ts=&quot;0;4&quot;>إن وجهت احتمالاتي نحو تلك الكرة<br>الكهربائية، ربما...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "87960827e3c7cec32a58a5be099a6a37e821eaaf326c3208cf4faa225a9dc8c5",
+      "candidate_sha256": "2e2a2792376edbc80bfcaf419127e61989bf5379b8588c36bbcab1aedad241e4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18226,
@@ -166,12 +246,20 @@
     "scene_code": "HERO_GEN_ANOMALY",
     "arabic_current": "<ts=&quot;0;3.371&quot;>تلك الصناديق تسد<br>الطريق. جرب إزالتها.",
     "arabic_edit": "<ts=&quot;0;3.371&quot;>تلك الصناديق تسد الطريق. جرب إزالتها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "bb4b13df08d6d281bc72677c64c61f70014928bb7da4d3053426a23b61d65137",
+      "candidate_sha256": "923b7488870dfab9320dd6b5b57bd75dd31fc212fbd8bdb6ae0293c22164a0db",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

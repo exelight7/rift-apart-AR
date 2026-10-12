@@ -6,13 +6,21 @@
     "speaker_code": "PIR1",
     "scene_code": "VSPLAY_BOOTCAMP",
     "arabic_current": "<ts=&quot;0;1.016&quot;>حبسهم!",
-    "arabic_edit": "<ts=&quot;0;1.016&quot;>حبسهم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.016&quot;>احبسوهم!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "1b9080fb50299fef95f3e762794118e7bfe45b010bdb5ef04cda873fbe7fc452",
+      "candidate_sha256": "15b4c0a6d6114f215bea0bfe9daa7b3cdddb6d308d90acdfbcd562eaf25bdaa0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17040,
@@ -22,12 +30,20 @@
     "scene_code": "VSPLAY_BOOTCAMP",
     "arabic_current": "<ts=&quot;0.099;1.5&quot;>من هذا الحقير؟",
     "arabic_edit": "<ts=&quot;0.099;1.5&quot;>من هذا الحقير؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "aec6ae0d02e301337da13c2f8adedfd978df49eed7af835e5395405a22b4afe5",
+      "candidate_sha256": "c66bc5d98add41da1d1ca7b3b378fe8cf01249bbfe90d3b2f551664888ddf111",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17384,
@@ -37,13 +53,21 @@
     "scene_code": "VSPLAY_BOOTCAMP",
     "arabic_current": "<ts=&quot;0.014;2.874&quot;>لن تخرج من هنا حيا أيها<br>اللومباكس!",
     "arabic_edit": "<ts=&quot;0.014;2.874&quot;>لن تخرج من هنا حيا أيها اللومباكس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "7873fa8aa7fe69db6b1ce2162d81fe3e60332aac478486d210774e1ee4f99653",
+      "candidate_sha256": "1f07a83728858355439168bde18983ef207dde3db411ba22a033eadad05f5bef",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17385,
@@ -53,12 +77,20 @@
     "scene_code": "VSPLAY_BOOTCAMP",
     "arabic_current": "<ts=&quot;0.06;1.11&quot;>لومباكس ميت!",
     "arabic_edit": "<ts=&quot;0.06;1.11&quot;>لومباكس ميت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "6d5e3ff8673891a70010fd8f1f3fbdea86be6e6c8da3d09568de938e82a6501c",
+      "candidate_sha256": "ce71ea4b61e3432e2a25fe5056d2c75ece98fc74e71ba8e6d9918ab141dd7c3f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17705,
@@ -68,13 +100,21 @@
     "scene_code": "VSPLAY_BOOTCAMP",
     "arabic_current": "<ts=&quot;0;2.8&quot;>اثبتوا يا شباب! لا<br>يستطيع قتلنا جميعا!",
     "arabic_edit": "<ts=&quot;0;2.8&quot;>اثبتوا يا شباب! لا يستطيع قتلنا جميعا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "2bb1cbb3e193be0277ad0eeebb4891377947d39ca6ee29f204911568d0299b92",
+      "candidate_sha256": "1dc160e6a0f60b76d908ab6ff3c6eb262f9bef57da0aa2e7fdfb2be0790df147",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18029,
@@ -83,12 +123,20 @@
     "speaker_code": "PIR4",
     "scene_code": "VSPLAY_BOOTCAMP",
     "arabic_current": "<ts=&quot;0;1.4&quot;>لا تدعه يهرب!",
-    "arabic_edit": "<ts=&quot;0;1.4&quot;>لا تدعه يهرب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.4&quot;>لا تدعوه يهرب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "4da47c0cdef27bff8819623bf438cc236bfac78ea9a21ae99769d9537903e14c",
+      "candidate_sha256": "54494bc3bb8a549e1a7eb487995c174fbd28a233071b5929ed37f4ce943c653d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

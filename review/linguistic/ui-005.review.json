@@ -1,0 +1,1922 @@
+[
+  {
+    "index": 11060,
+    "key": "KEY_NUM_ENTER",
+    "source_sha256": "6103c1948f7f058d62735dcf5f16a66d7a3ac167206f9733cf4ec0d59d806d72",
+    "before": "الأرقام إدخال",
+    "after": "NUM ENTER",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11061,
+    "key": "KEY_NUM_LOCK",
+    "source_sha256": "f50f2a71c476f23dc5fcf17b1633b408a19105e22819d920c0edc3beac6b768b",
+    "before": "الأرقام قفل",
+    "after": "NUM LOCK",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11062,
+    "key": "KEY_NUM_MULT",
+    "source_sha256": "3daa71130a13bc73058d9d95213d441dcff8385129c884f446e1cd20c6913733",
+    "before": "الأرقام ضرب",
+    "after": "NUM MULT",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11063,
+    "key": "KEY_NUM_PLUS",
+    "source_sha256": "b5ffe3d05e76e1cf995da607862d61e7eaa2edce00eb89f44197b5763eb48686",
+    "before": "الأرقام جمع",
+    "after": "NUM PLUS",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11064,
+    "key": "KEY_NUM_SUB",
+    "source_sha256": "58ff9de429d8994b800f4f3dbde885572273d8d7834cd8d978debc95a77d188c",
+    "before": "الأرقام طرح",
+    "after": "NUM SUB",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11065,
+    "key": "KEY_PAGEDOWN",
+    "source_sha256": "2ccc2dd2445cd5b7221d9ac5bc9b2ee003186508ac6a28baf57739308f6dcebe",
+    "before": "صفحة لأسفل",
+    "after": "PGDOWN",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11066,
+    "key": "KEY_PAGEUP",
+    "source_sha256": "22a3876959578ac1a2d24158744a6888ec84a146eb4451f2f2cfa2f9434e4b45",
+    "before": "صفحة لأعلى",
+    "after": "PGUP",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11067,
+    "key": "KEY_PAUSE",
+    "source_sha256": "ca6456daeccf73b1804061c5870895ff04f19f02f425939ce93e20ec9a5ce6f0",
+    "before": "إيقاف مؤقت",
+    "after": "PAUSE",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11068,
+    "key": "KEY_PRINTSCRN",
+    "source_sha256": "62db27ac3b9cfc67594499aa30c6f2f96077c0ebbe3afff0e15aa3603aa9994b",
+    "before": "طباعة الشاشة",
+    "after": "PRNT SCRN",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11069,
+    "key": "KEY_SCROLLLOCK",
+    "source_sha256": "65c097ecb8e768acdbebd36809cc7d5f1c610f42478204ecb3831a1a92f12d87",
+    "before": "قفل التمرير",
+    "after": "SCROLL LOCK",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11070,
+    "key": "KEY_SHIFT_LEFT",
+    "source_sha256": "b8102f08bc9f6bb1753da908077819fc3bb5f2d3cc33b0b8acb20c34dee95da4",
+    "before": "شيفت يسار",
+    "after": "L-SHIFT",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11071,
+    "key": "KEY_SHIFT_RIGHT",
+    "source_sha256": "539ec4ae033fbad817e82854cedc37b4a8afb901cd32d4bb5b3b5bb16549d22c",
+    "before": "شيفت يمين",
+    "after": "R-SHIFT",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11821,
+    "key": "LAMS_RecordingScript_Export_Settings",
+    "source_sha256": "1d73c2c959f9af53e7917f6c8c225e3510da9024a43e0682c8c81885496f2d74",
+    "before": "غير مسجل لالتقاط نسخة تجريبية",
+    "after": "غير مسجل / تسجيل إضافي / يعاد التسجيل /<br>تسجيل تجريبي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11822,
+    "key": "LANGUAGE_ARABIC",
+    "source_sha256": "c115f5e9a32f0bc07706f68045bd4757d9764295dded15aa11bd22e625c5f96a",
+    "before": "العربية",
+    "after": "العربية",
+    "decision": "keep"
+  },
+  {
+    "index": 11823,
+    "key": "LANGUAGE_BR_PORTUGUESE",
+    "source_sha256": "86784fc5d1a4b73f7f8dd0f6a65c0146448388d7341fe3002f436f20928a6260",
+    "before": "البرتغالية البرازيلية",
+    "after": "البرتغالية البرازيلية",
+    "decision": "keep"
+  },
+  {
+    "index": 11824,
+    "key": "LANGUAGE_CA_FRENCH",
+    "source_sha256": "ad5f286cb212f3083e9d639b31dbc11eda8cce0b822623ba9ce11b71e6b2a072",
+    "before": "الفرنسية الكندية",
+    "after": "الفرنسية الكندية",
+    "decision": "keep"
+  },
+  {
+    "index": 11825,
+    "key": "LANGUAGE_CHINESE_S",
+    "source_sha256": "2df568a48e2ff91c95a8ff0cf067fe15157dd06d577aa62f237d465a80ceab1d",
+    "before": "الصينية المبسطة",
+    "after": "الصينية المبسطة",
+    "decision": "keep"
+  },
+  {
+    "index": 11826,
+    "key": "LANGUAGE_CHINESE_T",
+    "source_sha256": "560cebdefa1234f8deb3dfd65e3ace17ca0587d0e954c2c47fa5d915f48f3018",
+    "before": "الصينية التقليدية",
+    "after": "الصينية التقليدية",
+    "decision": "keep"
+  },
+  {
+    "index": 11827,
+    "key": "LANGUAGE_CROATIAN",
+    "source_sha256": "d3d86a169adf988dc08e5509bb959dc5676a9662f2dabda75880b436df2cc2b4",
+    "before": "الكرواتية",
+    "after": "الكرواتية",
+    "decision": "keep"
+  },
+  {
+    "index": 11828,
+    "key": "LANGUAGE_CZECH",
+    "source_sha256": "ddd69adb4b7e1deff3a9e728b74294268a53d373cb4e8754fbdd8a69c87e1b88",
+    "before": "التشيكية",
+    "after": "التشيكية",
+    "decision": "keep"
+  },
+  {
+    "index": 11829,
+    "key": "LANGUAGE_DANISH",
+    "source_sha256": "e07bc9c1761f2202a217300cb261f03bf18739e769cc27f420cc1da640ded65d",
+    "before": "الدنماركية",
+    "after": "الدنماركية",
+    "decision": "keep"
+  },
+  {
+    "index": 11830,
+    "key": "LANGUAGE_DUTCH",
+    "source_sha256": "2e4be615d00bd3a303360c1f09db6d8ff4402249e4b44d506badeb2fdad3ac2e",
+    "before": "الهولندية",
+    "after": "الهولندية",
+    "decision": "keep"
+  },
+  {
+    "index": 11831,
+    "key": "LANGUAGE_ENGLISH",
+    "source_sha256": "ee56c51f554915fbc0dca59e8cea774b91e932d8bb6995c6e0e10073f9d83d34",
+    "before": "الإنجليزية",
+    "after": "الإنجليزية",
+    "decision": "keep"
+  },
+  {
+    "index": 11832,
+    "key": "LANGUAGE_ENGLISHUK",
+    "source_sha256": "56b4cffb70950e7a49f18b4ab112d68982ae713e0edcd4954e5703ef274626a9",
+    "before": "الإنجليزية البريطانية",
+    "after": "الإنجليزية البريطانية",
+    "decision": "keep"
+  },
+  {
+    "index": 11833,
+    "key": "LANGUAGE_FINNISH",
+    "source_sha256": "5e55c08e8bacca625de79212184e4b6504756cb53bbb378166220ebcd9a069f1",
+    "before": "الفنلندية",
+    "after": "الفنلندية",
+    "decision": "keep"
+  },
+  {
+    "index": 11834,
+    "key": "LANGUAGE_FRENCH",
+    "source_sha256": "f792c0b5ef6ea349e8906e17b21d6ae6ac2596262270bd45b0eed5b9cf9548f5",
+    "before": "الفرنسية",
+    "after": "الفرنسية",
+    "decision": "keep"
+  },
+  {
+    "index": 11835,
+    "key": "LANGUAGE_GERMAN",
+    "source_sha256": "552cb75e8b82760680bcdda8abf56169c114466929ba5cf64555673577bda742",
+    "before": "الألمانية",
+    "after": "الألمانية",
+    "decision": "keep"
+  },
+  {
+    "index": 11836,
+    "key": "LANGUAGE_GREEK",
+    "source_sha256": "d97cd5a71089a3f69a95611500c68b649c44793ea1422c7f4065bfb8fa54706d",
+    "before": "اليونانية",
+    "after": "اليونانية",
+    "decision": "keep"
+  },
+  {
+    "index": 11837,
+    "key": "LANGUAGE_HUNGARIAN",
+    "source_sha256": "1f91730d5553431e1160ff98789a8ed799cf7b73e7ce93faf2191bcac322b487",
+    "before": "المجرية",
+    "after": "المجرية",
+    "decision": "keep"
+  },
+  {
+    "index": 11838,
+    "key": "LANGUAGE_INDONESIAN",
+    "source_sha256": "dcf2e9ccb466225f199481cd18d340b267a2fb4126eadaa909c9129a1efd42c1",
+    "before": "الإندونيسية",
+    "after": "الإندونيسية",
+    "decision": "keep"
+  },
+  {
+    "index": 11839,
+    "key": "LANGUAGE_ITALIAN",
+    "source_sha256": "585e172ee2ab2b9bfc30cc20af9d74be2b49dea3af5edcc31f56e05685e7627e",
+    "before": "الإيطالية",
+    "after": "الإيطالية",
+    "decision": "keep"
+  },
+  {
+    "index": 11840,
+    "key": "LANGUAGE_JAPANESE",
+    "source_sha256": "67695698b17762480aa73247a9011d114176c32eada60722dbddb7b9df2c70c9",
+    "before": "اليابانية",
+    "after": "اليابانية",
+    "decision": "keep"
+  },
+  {
+    "index": 11841,
+    "key": "LANGUAGE_KOREAN",
+    "source_sha256": "30fbde8ae584b9d47c1c36ca23940002759a282b6d45804fe1c5c0f7b0fba8fe",
+    "before": "الكورية",
+    "after": "الكورية",
+    "decision": "keep"
+  },
+  {
+    "index": 11842,
+    "key": "LANGUAGE_LA_SPANISH",
+    "source_sha256": "d15a3e0c0fcebc6cc0c651caeda96bca0c62715185e3a0d541acf83e111fedf4",
+    "before": "الإسبانية اللاتينية",
+    "after": "الإسبانية اللاتينية",
+    "decision": "keep"
+  },
+  {
+    "index": 11843,
+    "key": "LANGUAGE_MX_SPANISH",
+    "source_sha256": "2fd878e84aced79d7cc823605b217bc9c77f59aba8beec53a7a12e37eb8723b5",
+    "before": "الإسبانية المكسيكية",
+    "after": "الإسبانية المكسيكية",
+    "decision": "keep"
+  },
+  {
+    "index": 11844,
+    "key": "LANGUAGE_NORWEGIAN",
+    "source_sha256": "d3b5e6f83e4bb255936c2fa67ab22b06aa0aece22bd8bae8bdfafe3fd13f41c0",
+    "before": "النرويجية",
+    "after": "النرويجية",
+    "decision": "keep"
+  },
+  {
+    "index": 11845,
+    "key": "LANGUAGE_POLISH",
+    "source_sha256": "f6635cc81d13c17dc0837b8a0f3ede7dcdfeb1c1e3431d06dd2ad99b72984fdd",
+    "before": "البولندية",
+    "after": "البولندية",
+    "decision": "keep"
+  },
+  {
+    "index": 11846,
+    "key": "LANGUAGE_PORTUGESE",
+    "source_sha256": "356d479eaae70c1ebad48b1471fd6c6432c29b2ce6aa04d49e79ce9733a7ea4d",
+    "before": "البرتغالية",
+    "after": "البرتغالية",
+    "decision": "keep"
+  },
+  {
+    "index": 11847,
+    "key": "LANGUAGE_PORTUGUESE",
+    "source_sha256": "e3b46125269bb0652ed524640119cf9b9068d5438552dc5607bade11b6d4daac",
+    "before": "البرتغالية",
+    "after": "البرتغالية",
+    "decision": "keep"
+  },
+  {
+    "index": 11848,
+    "key": "LANGUAGE_ROMANIAN",
+    "source_sha256": "fb6981c216f8bef7f18a2c2020e55a2e7970fb80c5aecd3622b83d7012f7bbf7",
+    "before": "الرومانية",
+    "after": "الرومانية",
+    "decision": "keep"
+  },
+  {
+    "index": 11849,
+    "key": "LANGUAGE_RUSSIAN",
+    "source_sha256": "2cefb264fc3f4593d9865dd3ce6331321e9a70f923520dcb55ffd47bf2262008",
+    "before": "الروسية",
+    "after": "الروسية",
+    "decision": "keep"
+  },
+  {
+    "index": 11850,
+    "key": "LANGUAGE_SPANISH",
+    "source_sha256": "ff302be3e5511ccaa8e5ca2a8e4fe970a465d7663e730aa9b86fe6467c9c8a3d",
+    "before": "الإسبانية",
+    "after": "الإسبانية",
+    "decision": "keep"
+  },
+  {
+    "index": 11851,
+    "key": "LANGUAGE_SWEDISH",
+    "source_sha256": "aa3a53dafe9bd714a312b1b170ef432d73456ac0a65d9a54d044df73a05be12d",
+    "before": "السويدية",
+    "after": "السويدية",
+    "decision": "keep"
+  },
+  {
+    "index": 11852,
+    "key": "LANGUAGE_THAI",
+    "source_sha256": "fc3de17dd7419c860fca71089a390c6d2d48607f2a48e22193978ada65abc16b",
+    "before": "التايلاندية",
+    "after": "التايلاندية",
+    "decision": "keep"
+  },
+  {
+    "index": 11853,
+    "key": "LANGUAGE_TURKISH",
+    "source_sha256": "9200927cddb784fea1e288277adde8267e2fab799c7d734ea3dbc8d105c26e9e",
+    "before": "التركية",
+    "after": "التركية",
+    "decision": "keep"
+  },
+  {
+    "index": 11854,
+    "key": "LANGUAGE_VIETNAMESE",
+    "source_sha256": "90191b4da4f4dfaf84e5ec1ddf0ab9a9c40cfd7da827ed1f18a517e7c0635802",
+    "before": "الفيتنامية",
+    "after": "الفيتنامية",
+    "decision": "keep"
+  },
+  {
+    "index": 11855,
+    "key": "LAUNCHER_D3D12NOTINSTALLED_MESSAGE",
+    "source_sha256": "1e1a3139e72f7e99dc73d4fc72e0a09ca46eccfc31aca01ecf1c476c2240ebdd",
+    "before": "لم يكتشف دعم دايركت إكس 12. تأكد<br>من أن بطاقة الرسوميات لديك تدعم 12<br>دايركت إكس.",
+    "after": "لم يكتشف دعم DirectX 12. تأكد من أن بطاقة<br>الرسوميات تدعم DirectX 12.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11856,
+    "key": "LAUNCHER_ENABLED",
+    "source_sha256": "35796bf8fe35dfc010585ee323f1d4bc3ae32b4eff27522a9ac1c8706cd64c23",
+    "before": "إظهار مشغل اللعبة",
+    "after": "إظهار مشغل اللعبة",
+    "decision": "keep"
+  },
+  {
+    "index": 11857,
+    "key": "LAUNCHER_ENABLEDDESC",
+    "source_sha256": "1a64a6f55eececcd0c7249e68317b3d4ad96b5f565f179b13e072d53511b1a47",
+    "before": "اعرض نافذة تصل إلى إعدادات الشاشة<br>والرسوميات قبل بدء اللعبة.",
+    "after": "عرض نافذة للوصول إلى إعدادات العرض<br>والرسوميات قبل بدء اللعبة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11858,
+    "key": "LAUNCHER_ENABLED_UPPERCASE",
+    "source_sha256": "16b800d457a4761e1d8a8dba83649e8837ad5bd2d43b448e0864b6f21ff26685",
+    "before": "إظهار مشغل اللعبة",
+    "after": "إظهار مشغل اللعبة",
+    "decision": "keep"
+  },
+  {
+    "index": 11859,
+    "key": "LAUNCHER_INSUFFICIENTPAGEFILE",
+    "source_sha256": "bd21c9e7fa2c51918a0f5855eaa8a44387e0111d5fa8789ef3ed068f4c532518",
+    "before": "المساحة المتاحة في ملف تبديل<br>ويندوز غير كافية لتشغيل هذه اللعبة<br>جيدا. إغلاق التطبيقات غير الضرورية<br>في الخلفية، وإعادة أو زيادة/تشغيل<br>الحاسوب و حجم ملف التبديل، يساعد<br>على تحسين الثبات والأداء.",
+    "after": "المساحة المتاحة في ملف ترحيل الصفحات في<br>Windows غير كافية لتشغيل هذه اللعبة جيدًا.<br>يساعد إغلاق التطبيقات غير الضرورية في<br>الخلفية، وإعادة تشغيل الحاسوب، أو زيادة<br>حجم ملف ترحيل الصفحات على تحسين الاستقرار<br>والأداء.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11860,
+    "key": "LAUNCHER_LOGACCESSFAILED",
+    "source_sha256": "1316153c451b76caec93787ab5b527b90852729e399847757b60182708fae95b",
+    "before": "تعذرت الكتابة في مجلد المستخدم<br>الخاص باللعبة. يلزم الوصول إلى هذا<br>المجلد لحفظ تقدمك وتفضيلاتك.<br><br>قد يحدث هذا، مثلا، إذا كان الوصول<br>المنضبط إلى المجلدات مفعلا لهذا<br>المسار، أو كان مانع الفيروسات<br>يعمل، أو كانت محتويات المجلد معلمة<br>للقراءة فقط.<br><br>تأكد من أن التطبيق يملك صلاحية<br>الكتابة في المجلد التالي:<br><br>",
+    "after": "تعذرت الكتابة في مجلد المستخدم<br>الخاص باللعبة. يلزم الوصول إلى هذا<br>المجلد لحفظ تقدمك وتفضيلاتك.<br><br>قد يحدث هذا، مثلا، إذا كان الوصول<br>المنضبط إلى المجلدات مفعلا لهذا<br>المسار، أو كان مانع الفيروسات<br>يعمل، أو كانت محتويات المجلد معلمة<br>للقراءة فقط.<br><br>تأكد من أن التطبيق يملك صلاحية<br>الكتابة في المجلد التالي:<br><br>",
+    "decision": "keep"
+  },
+  {
+    "index": 11861,
+    "key": "LAUNCHER_NOGPUINSTALLEDDESC",
+    "source_sha256": "fab212dcb2edf47d68369e9a1c8a16f7c3c04c0757c53c61cb781985cc6237ac",
+    "before": "لم تكتشف أي بطاقة رسوميات مثبتة<br>على هذا الحاسوب. تأكد من تثبيت<br>بطاقة الرسوميات بشكل صحيح ومن<br>توصيل شاشتك بها. إذا كنت تستخدم<br>حاسوبا محمولا يحتوي على أكثر من<br>بطاقة رسوميات وكان يستخدم البطاقة<br>المدمجة افتراضيا، فيمكنك تغيير<br>البطاقة المستخدمة مع هذه اللعبة من<br>«إعدادات الرسوميات» عبر قائمة<br>ابدأ.",
+    "after": "لم تكتشف أي بطاقة رسوميات مثبتة<br>على هذا الحاسوب. تأكد من تثبيت<br>بطاقة الرسوميات بشكل صحيح ومن<br>توصيل شاشتك بها. إذا كنت تستخدم<br>حاسوبا محمولا يحتوي على أكثر من<br>بطاقة رسوميات وكان يستخدم البطاقة<br>المدمجة افتراضيا، فيمكنك تغيير<br>البطاقة المستخدمة مع هذه اللعبة من<br>«إعدادات الرسوميات» عبر قائمة<br>ابدأ.",
+    "decision": "keep"
+  },
+  {
+    "index": 11862,
+    "key": "LAUNCHER_OLDDRIVERDESC",
+    "source_sha256": "0b08dfc6c9de0995080cbba002b1f05e80b45d108aa51245cd07e2450a02e246",
+    "before": "بطاقة الرسوميات «{GPU_NAME}» متوافقة مع<br>اللعبة، لكن للحصول على أفضل تجربة<br>نوصي بشدة باستخدام تعريفات أحدث<br>(الإصدار {MIN_DRIVER_VERSION} على الأقل). قد تظهر<br>مشكلات بصرية أو مشاكل في الثبات<br>الإصدار) مع تعريفك الحالي {CURRENT_DRIVER_VERSION}). يرجى<br>تنزيل أحدث التعريفات من موقع<br>الشركة المصنعة لبطاقة الرسوميات.",
+    "after": "بطاقة الرسوميات «{GPU_NAME}» متوافقة مع اللعبة،<br>لكننا نوصي بشدة باستخدام تعريف أحدث للحصول<br>على أفضل تجربة (الإصدار {MIN_DRIVER_VERSION} على الأقل). قد<br>تظهر مشكلات بصرية أو مشكلات استقرار مع<br>تعريفك الحالي (الإصدار {CURRENT_DRIVER_VERSION}). يرجى تنزيل أحدث<br>التعريفات من موقع الشركة المصنعة لبطاقة<br>الرسوميات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11863,
+    "key": "LAUNCHER_OPTIONS",
+    "source_sha256": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+    "before": "الإعدادات",
+    "after": "الإعدادات",
+    "decision": "keep"
+  },
+  {
+    "index": 11864,
+    "key": "LAUNCHER_OPTIONS_CANCEL",
+    "source_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+    "before": "إلغاء",
+    "after": "إلغاء",
+    "decision": "keep"
+  },
+  {
+    "index": 11865,
+    "key": "LAUNCHER_OPTIONS_OK",
+    "source_sha256": "843ac01149cced785dfebd0028d3b03ba78e286e1c6f9517ebfcdb609d97af4c",
+    "before": "موافق",
+    "after": "موافق",
+    "decision": "keep"
+  },
+  {
+    "index": 11866,
+    "key": "LAUNCHER_OPTIONS_RESET",
+    "source_sha256": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303",
+    "before": "إعادة الضبط",
+    "after": "إعادة الضبط",
+    "decision": "keep"
+  },
+  {
+    "index": 11867,
+    "key": "LAUNCHER_OPTIONS_TITLE",
+    "source_sha256": "b9b82479d2ad378d3dd010289a8bb51dcfc379bd1ce1c4aa8dd94c130cc8a154",
+    "before": "راتشت وكلانك: انفصال الإعداد -<br>البعد",
+    "after": "راتشت وكلانك: انفصال البعد - الإعدادات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11868,
+    "key": "LAUNCHER_PLAY",
+    "source_sha256": "436e61016e26fcb773b9725745cbbf0afe7f001ea26041a814a7712c2925c442",
+    "before": "ابدأ اللعب",
+    "after": "ابدأ اللعب",
+    "decision": "keep"
+  },
+  {
+    "index": 11869,
+    "key": "LAUNCHER_PLAYSTATION_PC",
+    "source_sha256": "19b87cbcb3390ce75dfb2d3068395b22bac7cf7336eb01370eea26f9e78a4a57",
+    "before": "بلايستيشن على الحاسوب",
+    "after": "PlayStation PC",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11870,
+    "key": "LAUNCHER_QUIT",
+    "source_sha256": "b3eb37acb66ba4bbe8fb1ba296815daf194be94f5a5fb50dab2fb5e4a57ba29e",
+    "before": "خروج",
+    "after": "خروج",
+    "decision": "keep"
+  },
+  {
+    "index": 11871,
+    "key": "LAUNCHER_UNSUPPORTEDGPU",
+    "source_sha256": "4335ed1a17be00e0f0cec498bf5ec6ecca38df1abee09bd9ad2b9e302b9e7be4",
+    "before": "للأسف، لا تدعم اللعبة بطاقة<br>الرسوميات لديك. يرجى مراجعة الحد<br>الأدنى لمتطلبات النظام. بطاقة<br>الرسوميات الحالية:",
+    "after": "للأسف، لا تدعم اللعبة بطاقة<br>الرسوميات لديك. يرجى مراجعة الحد<br>الأدنى لمتطلبات النظام. بطاقة<br>الرسوميات الحالية:",
+    "decision": "keep"
+  },
+  {
+    "index": 11872,
+    "key": "LAUNCHER_UNSUPPORTED_CPU_MESSAGE",
+    "source_sha256": "dc076a2cab0ca7909aefc61be57ce1fc46b4922994e176310e7e42be65b2cc75",
+    "before": "تتطلب هذه اللعبة معالجا 4 يدعم<br>تعليمات إس إس إي.1.",
+    "after": "تتطلب هذه اللعبة معالجًا يدعم تعليمات SSE<br>4.1.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11873,
+    "key": "LAUNCHER_UNSUPPORTED_OS_MESSAGE",
+    "source_sha256": "f8ec25092f4853bb1c2e5960e44d9a7db34d18a8f808c872c3d33816a41a426b",
+    "before": "10 تتطلب هذه اللعبة ويندوز أو<br>(18363 بناء) 1909 الإصدار أحدث.",
+    "after": "تتطلب هذه اللعبة Windows 10 بالإصدار 1909<br>(البنية 18363) أو أحدث.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12173,
+    "key": "MENU_3DAUDIO_DESC",
+    "source_sha256": "1ab8573318173052fd3f0054739b898714b38a28063899a36213c7104db6ce33",
+    "before": "يحدد الصوت ثلاثي الأبعاد (3D) عبر<br>برامج النظام لديك. يرجى التوجه إلى<br>الإعدادات > الصوت > مخرج الصوت ><br>تمكين الصوت ثلاثي الأبعاد لتحديث<br>إعداداتك.<br><br>لا يمكن تمكين الصوت ثلاثي الأبعاد<br>إلا عند توصيل سماعات بفتحة سماعات<br>جهاز التحكم، أو باستخدام سماعات<br>USB متوافقة مثل سماعة PULSE 3D™<br>اللاسلكية.",
+    "after": "يحدد الصوت ثلاثي الأبعاد (3D) عبر<br>برامج النظام لديك. يرجى التوجه إلى<br>الإعدادات > الصوت > مخرج الصوت ><br>تمكين الصوت ثلاثي الأبعاد لتحديث<br>إعداداتك.<br><br>لا يمكن تمكين الصوت ثلاثي الأبعاد<br>إلا عند توصيل سماعات بفتحة سماعات<br>جهاز التحكم، أو باستخدام سماعات<br>USB متوافقة مثل سماعة PULSE 3D™<br>اللاسلكية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12174,
+    "key": "MENU_3DAUDIO_TITLE",
+    "source_sha256": "d0caef56c54beb7a7d14d37b1a5fac0a3d41e1d895d3a1e41abe16c897e9078f",
+    "before": "الصوت ثلاثي الأبعاد",
+    "after": "3D Audio",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12177,
+    "key": "MENU_ACCESSIBILITY_CAT_CONTRASTOPTIONS",
+    "source_sha256": "b6177aacba78296aca54d596a801b5e143b4f1fb4efd878372e18d59da1ddd8f",
+    "before": "خيارات التباين",
+    "after": "خيارات التباين",
+    "decision": "keep"
+  },
+  {
+    "index": 12178,
+    "key": "MENU_ACCESSIBILITY_CAT_CONTROLLER",
+    "source_sha256": "b0eea89d283ca74cfd9db0fcd353cd96c5b4da124c687700b585fbb63d84307d",
+    "before": "جهاز التحكم",
+    "after": "جهاز التحكم",
+    "decision": "keep"
+  },
+  {
+    "index": 12179,
+    "key": "MENU_ACCESSIBILITY_CAT_GAMEPLAYANDCAMERA",
+    "source_sha256": "8188ab18be6e371e29d31fe4b394f70233ba5ff9d2ad97faf0e880f44e87fbae",
+    "before": "اللعب والكاميرا",
+    "after": "اللعب والكاميرا",
+    "decision": "keep"
+  },
+  {
+    "index": 12181,
+    "key": "MENU_ACCESSIBILITY_CAT_MOTIONSICKNESS",
+    "source_sha256": "d98a73d356c0b4cfa495025e42bd987e41d799820d769b52dce695c25bfcf573",
+    "before": "دوار الحركة",
+    "after": "دوار الحركة",
+    "decision": "keep"
+  },
+  {
+    "index": 12182,
+    "key": "MENU_ACCESSIBILITY_CAT_PRESETS",
+    "source_sha256": "3111fdc6a141956e37fa90d8a34f3eabff97012c9a86b97373c6f999b443b338",
+    "before": "الإعدادات المسبقة",
+    "after": "الإعدادات المسبقة",
+    "decision": "keep"
+  },
+  {
+    "index": 12184,
+    "key": "MENU_ACCESSIBILITY_CAT_VISUAL",
+    "source_sha256": "f89e2807a9880ee3b4cd2f952137b75bf4a4bf25ffdfd3503ff6ff1e54d9641b",
+    "before": "خيارات العرض والتباين",
+    "after": "خيارات العرض والتباين",
+    "decision": "keep"
+  },
+  {
+    "index": 12188,
+    "key": "MENU_ACCESSIBILITY_HEADER",
+    "source_sha256": "6ce4593a0723e16ec97e3f91f43a26799fb25646bcb8d0762fd6e05e8de27392",
+    "before": "إعدادات إمكانية الوصول",
+    "after": "إعدادات إمكانية الوصول",
+    "decision": "keep"
+  },
+  {
+    "index": 12191,
+    "key": "MENU_ACCESSIBILITY_TITLE",
+    "source_sha256": "62ee3e97f6a4e3b190972b1e30ed2eadc7e8e09ec327dcdda7d1c78d6da10d4e",
+    "before": "إمكانية الوصول",
+    "after": "إمكانية الوصول",
+    "decision": "keep"
+  },
+  {
+    "index": 12192,
+    "key": "MENU_ACCESS_LEGAL_EU",
+    "source_sha256": "79a8d7cc8672406a887f5635c24601177f2cbc2d377660fb7e1f80cbb13802bd",
+    "before": "،بتفعيلك لهذه الإعدادات فإنك توافق<br>على أن تتلقى شركة سوني إنتراكتيف<br>إنترتينمنت أوروبا المحدودة بيانات<br>عن الإعدادات التي اخترتها،<br>وتستخدمها لغرض وحيد هو تحليل ميزات<br>إمكانية الوصول وتحسينها.",
+    "after": "بتفعيل هذه الإعدادات، توافق على أن تتلقى<br>شركة Sony Interactive Entertainment Europe<br>Ltd. بيانات عن الإعدادات التي اخترتها<br>وتستخدمها حصريًا لتحليل ميزات إمكانية<br>الوصول وتحسينها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12193,
+    "key": "MENU_ACCESS_LEGAL_JP",
+    "source_sha256": "f87e287368cffa7358ac3f8430aa1a3a4b87cf3dfe3eb939b741b1b6295cf3cb",
+    "before": "،بتفعيلك لهذه الإعدادات فإنك توافق<br>على أن تتلقى شركة سوني إنتراكتيف<br>إنترتينمنت المحدودة (بيانات عن<br>الإعدادات (اليابان التي اخترتها،<br>وتستخدمها لغرض وحيد هو تحليل ميزات<br>إمكانية الوصول وتحسينها.",
+    "after": "بتفعيل هذه الإعدادات، توافق على أن تتلقى<br>شركة Sony Interactive Entertainment Inc.<br>بيانات عن الإعدادات التي اخترتها وتستخدمها<br>حصريًا لتحليل ميزات إمكانية الوصول<br>وتحسينها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12194,
+    "key": "MENU_ACCESS_LEGAL_NA",
+    "source_sha256": "11b6e2804d48a4a7511b4b68c163d2615d8fb08a7943902597a8394ca6aa7734",
+    "before": "،بتفعيلك لهذه الإعدادات فإنك توافق<br>على أن تتلقى شركة سوني إنتراكتيف<br>ش) إنترتينمنت المحدودة. ذ. م.<br>بيانات عن الإعدادات (م التي<br>اخترتها، وتستخدمها لغرض وحيد هو<br>تحليل ميزات إمكانية الوصول<br>وتحسينها.",
+    "after": "بتفعيل هذه الإعدادات، توافق على أن تتلقى<br>شركة Sony Interactive Entertainment LLC<br>بيانات عن الإعدادات التي اخترتها وتستخدمها<br>حصريًا لتحليل ميزات إمكانية الوصول<br>وتحسينها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12197,
+    "key": "MENU_ADAPTIVETRIGGERS_OPTION_FUNCTIONAL",
+    "source_sha256": "b350c286039bbcc38fd4d1d01e417269ebd78d1d95c2ccbf0852c0953ec25984",
+    "before": "وظيفي",
+    "after": "وظيفي",
+    "decision": "keep"
+  },
+  {
+    "index": 12199,
+    "key": "MENU_ADAPTIVETRIGGERS_OPTION_NONE",
+    "source_sha256": "c627c09c14e58e44bc51622dac392958ec88244e414b508020634f53cfcd1e69",
+    "before": "بدون",
+    "after": "بدون",
+    "decision": "keep"
+  },
+  {
+    "index": 12203,
+    "key": "MENU_AIMARC_TITLE",
+    "source_sha256": "d7020afe6a14195200ea139d43963793222873a5b04408a0917e78503f0ea3f5",
+    "before": "لون قوس التصويب",
+    "after": "لون قوس التصويب",
+    "decision": "keep"
+  },
+  {
+    "index": 12204,
+    "key": "MENU_AIMASSIST_DESC",
+    "source_sha256": "5d29f5c24eaa0123cce7e4ded2f99fa7c5b970e9219c6a2b0af19b647631aafe",
+    "before": "يعدل سرعة الكاميرا والمصوبة<br>تلقائيا لمساعدتك على إبقاء الهدف<br>في منتصف الشاشة. ضبط هذا الخيار<br>على «قوي» يزيد من قوة المساعدات.<br><br>تنطبق هذه الإعدادات على جهاز<br>التحكم [GAMEPAD_ANNOTATION_INPUT] فقط.",
+    "after": "يضبط سرعة الكاميرا وعلامة التصويب تلقائيًا<br>للمساعدة في إبقاء الهدف في وسط الشاشة.<br>اختيار «قوي» يزيد قوة المساعدة.<br><br>ينطبق هذا الإعداد على يد التحكم [GAMEPAD_ANNOTATION_INPUT] فقط.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12205,
+    "key": "MENU_AIMASSIST_OPTION_DEFAULT",
+    "source_sha256": "89dbf71048801678ca4abfbaa3ea8f7c651aae193357a3e23d68e21512cd07f5",
+    "before": "افتراضي",
+    "after": "افتراضي",
+    "decision": "keep"
+  },
+  {
+    "index": 12206,
+    "key": "MENU_AIMASSIST_OPTION_STRONG",
+    "source_sha256": "dcd2295c2192619be3d287f32493ab1e439f47fa52e2655d303605506753cffa",
+    "before": "قوي",
+    "after": "قوي",
+    "decision": "keep"
+  },
+  {
+    "index": 12207,
+    "key": "MENU_AIMASSIST_TITLE",
+    "source_sha256": "3625b6281b220cf5c694d7090e09618d14f8ebfa24c251511cc08c6f022aba9f",
+    "before": "مساعدة التصويب",
+    "after": "مساعدة التصويب",
+    "decision": "keep"
+  },
+  {
+    "index": 12209,
+    "key": "MENU_AIMMODE_DESC_DAY1",
+    "source_sha256": "f4985d040c66312e8d1a9eda9dfb01f3b268a02db07677ac2c79e3c96c9a39f2",
+    "before": "يجعل إجراء التصويب يعمل بالضغط<br>المستمر أو بالتبديل بين التشغيل<br>والإيقاف.<br><br>تظهر الأيقونة أدناه عند الضبط على<br>«تبديل».",
+    "after": "يجعل إجراء التصويب يعمل بالضغط<br>المستمر أو بالتبديل بين التشغيل<br>والإيقاف.<br><br>تظهر الأيقونة أدناه عند الضبط على<br>«تبديل».",
+    "decision": "keep"
+  },
+  {
+    "index": 12210,
+    "key": "MENU_AIMMODE_TITLE",
+    "source_sha256": "7ac887edf84a63a546943b1a6312dfd058bc53e1505972f2e97f383481dd3f8e",
+    "before": "وضع التصويب",
+    "after": "وضع التصويب",
+    "decision": "keep"
+  },
+  {
+    "index": 12214,
+    "key": "MENU_AIMSENSITIVITY_TITLE",
+    "source_sha256": "c643946a0e076b67283540d21a65aac034bc3e8c907b476ba1fd0d8db05f7828",
+    "before": "حساسية التصويب",
+    "after": "حساسية التصويب",
+    "decision": "keep"
+  },
+  {
+    "index": 12222,
+    "key": "MENU_AUDIOBALANCE_TITLE",
+    "source_sha256": "395df67a82e0e67cdd402df6f00107a0ab08168819010c84c3dd49d0a6fa77ee",
+    "before": "توازن الصوت",
+    "after": "توازن الصوت",
+    "decision": "keep"
+  },
+  {
+    "index": 12224,
+    "key": "MENU_AUDIO_HEADER",
+    "source_sha256": "96ee1c4d48f48914ad04aeba529a835ddfbf759802a3af9ae5c385e09946e5e7",
+    "before": "إعدادات الصوت",
+    "after": "إعدادات الصوت",
+    "decision": "keep"
+  },
+  {
+    "index": 12225,
+    "key": "MENU_AUDIO_TITLE",
+    "source_sha256": "859e89a729c204abec0eab669abb9ba41f6fd5fe35e8377a238bab7ecd07f215",
+    "before": "الصوت",
+    "after": "الصوت",
+    "decision": "keep"
+  },
+  {
+    "index": 12226,
+    "key": "MENU_AUTOAIM_DESC",
+    "source_sha256": "bd7b0b46b01507b9bf06b789f590a6e25b1ae075aee94ac516f887060c3f9a72",
+    "before": "يوجه الكاميرا نحو أقرب عدو عند<br>الإطلاق.<br><br>تنطبق هذه الإعدادات على جهاز<br>التحكم [GAMEPAD_ANNOTATION_INPUT] فقط.",
+    "after": "يوجه الكاميرا نحو أقرب عدو عند<br>الإطلاق.<br><br>تنطبق هذه الإعدادات على جهاز<br>التحكم [GAMEPAD_ANNOTATION_INPUT] فقط.",
+    "decision": "keep"
+  },
+  {
+    "index": 12227,
+    "key": "MENU_AUTOAIM_TITLE",
+    "source_sha256": "827406a9e1ed8333947f5a666648971f0c217dc2c1e15d1ead51bce91a0bc708",
+    "before": "التصويب التلقائي",
+    "after": "التصويب التلقائي",
+    "decision": "keep"
+  },
+  {
+    "index": 12228,
+    "key": "MENU_AUTOGLIDE_DESC",
+    "source_sha256": "c466d46d2c9250b40e0610fbd2257576d772b77da201cea159964b99c2980731",
+    "before": "يبدأ الانزلاق تلقائيا كلما كنت في<br>الهواء.<br><br>يمكن ضبطه كاختصار في قائمة<br>الاختصارات.<br><br>تظهر الأيقونة أدناه عند الضبط على<br>«مفعل».",
+    "after": "يبدأ الانزلاق تلقائيا كلما كنت في<br>الهواء.<br><br>يمكن ضبطه كاختصار في قائمة<br>الاختصارات.<br><br>تظهر الأيقونة أدناه عند الضبط على<br>«مفعل».",
+    "decision": "keep"
+  },
+  {
+    "index": 12229,
+    "key": "MENU_AUTOGLIDE_DESC_ALT",
+    "source_sha256": "bfcb0be97640c3aface8ceebd7a3ae323b78fce4e1fcea372c25d57adc3939a4",
+    "before": "يبدأ الانزلاق تلقائيا كلما كنت في<br>الهواء.<br><br>يمكن ضبطه كاختصار في قائمة<br>الاختصارات.",
+    "after": "يبدأ الانزلاق تلقائيا كلما كنت في<br>الهواء.<br><br>يمكن ضبطه كاختصار في قائمة<br>الاختصارات.",
+    "decision": "keep"
+  },
+  {
+    "index": 12230,
+    "key": "MENU_AUTOGLIDE_TITLE",
+    "source_sha256": "a2217ea76229ea0260f101107d8f52951648dcab7e17b12dff120b3718a4296d",
+    "before": "الانزلاق التلقائي",
+    "after": "الانزلاق التلقائي",
+    "decision": "keep"
+  },
+  {
+    "index": 12233,
+    "key": "MENU_AUTOLEDGERECOVERY_OPTION_COMBAT",
+    "source_sha256": "f64339b836406e426495379eff88413a989e6310ca34fb63bcc0bcee8067b36a",
+    "before": "في القتال فقط",
+    "after": "في القتال فقط",
+    "decision": "keep"
+  },
+  {
+    "index": 12238,
+    "key": "MENU_BOOSTMODE_TITLE",
+    "source_sha256": "79d32bf7957214c7d6083476fa65d021013cc864107d56ebcc9786b917cd10a1",
+    "before": "وضع التسريع",
+    "after": "وضع التسريع",
+    "decision": "keep"
+  },
+  {
+    "index": 12242,
+    "key": "MENU_BRIGHTNESS_TITLE",
+    "source_sha256": "67298f78a4f0de9ead1317c9cae3766c55e509458c353f1200d4eec6109fbc06",
+    "before": "السطوع",
+    "after": "السطوع",
+    "decision": "keep"
+  },
+  {
+    "index": 12243,
+    "key": "MENU_BTN_SKIP",
+    "source_sha256": "6ad446059a8bb8d8722e1420110f2784368a2ad5a56384d516c602530e5af256",
+    "before": "تخط",
+    "after": "تخط",
+    "decision": "keep"
+  },
+  {
+    "index": 12245,
+    "key": "MENU_CAMERAFOLLOW_TITLE",
+    "source_sha256": "2e7e194a17d3bb1f53df9eccbcb48b893b154c68b2f78485ba387a07ba0c46c4",
+    "before": "تتبع الكاميرا",
+    "after": "تتبع الكاميرا",
+    "decision": "keep"
+  },
+  {
+    "index": 12246,
+    "key": "MENU_CAMFOLLOW_OPTION_FAST_TITLE",
+    "source_sha256": "8d5ebd1c930faf660cac2ac3f0db91c40eb9e17f68ab667fe75823cfc1a24599",
+    "before": "سريع",
+    "after": "سريع",
+    "decision": "keep"
+  },
+  {
+    "index": 12248,
+    "key": "MENU_CAMSENSITIVITY_TITLE",
+    "source_sha256": "35a4f48a69b02dfa039b5b0e62c003efee14d0b150edef04d6593c67f8bc925d",
+    "before": "حساسية الكاميرا",
+    "after": "حساسية الكاميرا",
+    "decision": "keep"
+  },
+  {
+    "index": 12250,
+    "key": "MENU_CAMSHAKE_TITLE",
+    "source_sha256": "86a0d9684315f208f4e734006cb5f17139ca3fb0318c41c7a3a0044f8fb2f3ec",
+    "before": "اهتزاز الشاشة",
+    "after": "اهتزاز الشاشة",
+    "decision": "keep"
+  },
+  {
+    "index": 12251,
+    "key": "MENU_CENTERDOT_DESC",
+    "source_sha256": "3f6d62d5171cdb8f40682e067023a491c7a072b34f96ed4601f0359bbe950280",
+    "before": "يفعل نقطة ثابتة في مركز الشاشة.<br>تحل محلها مصوبات الأسلحة، وتختفي<br>أثناء المشاهد السينمائية.",
+    "after": "يفعل نقطة ثابتة في مركز الشاشة.<br>تحل محلها مصوبات الأسلحة، وتختفي<br>أثناء المشاهد السينمائية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12252,
+    "key": "MENU_CENTERDOT_OPTION_ALWAYSON_DESC",
+    "source_sha256": "d8f31bd96e6954fb7928d44c8c6ae2062157d2705f91e93d9a61cf7ba5bf6d7e",
+    "before": "يفعل نقطة ثابتة في مركز الشاشة.<br>تحل محلها مصوبات الأسلحة، وتظهر<br>حتى أثناء المشاهد السينمائية.",
+    "after": "يفعل نقطة ثابتة في مركز الشاشة.<br>تحل محلها مصوبات الأسلحة، وتظهر<br>حتى أثناء المشاهد السينمائية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12253,
+    "key": "MENU_CENTERDOT_OPTION_ALWAYSON_TITLE",
+    "source_sha256": "236f415b20e87a4e01ee028eadc822be56a817bbfa301f9f602f95a9d95d03c4",
+    "before": "دائما مفعلة",
+    "after": "دائما مفعلة",
+    "decision": "keep"
+  },
+  {
+    "index": 12254,
+    "key": "MENU_CENTERDOT_OPTION_GAMEPLAYONLY_DESC",
+    "source_sha256": "7b1e05e6078abfc3fb5393a4a24c7d3101456bf7d638b406b66a13c2e6f018ab",
+    "before": "يفعل نقطة ثابتة في مركز الشاشة.<br>تحل محلها مصوبات الأسلحة، وتختفي<br>أثناء المشاهد السينمائية.",
+    "after": "يفعل نقطة ثابتة في مركز الشاشة.<br>تحل محلها مصوبات الأسلحة، وتختفي<br>أثناء المشاهد السينمائية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12255,
+    "key": "MENU_CENTERDOT_OPTION_GAMEPLAYONLY_TITLE",
+    "source_sha256": "67b26b8b40037fb675ee4217f9307599c332e16e31febbe48e02f5453aa4e765",
+    "before": "أثناء اللعب فقط",
+    "after": "أثناء اللعب فقط",
+    "decision": "keep"
+  },
+  {
+    "index": 12256,
+    "key": "MENU_CENTERDOT_OPTION_OFF_DESC",
+    "source_sha256": "a9bb0566388ed4df8fd7021a8737181efde0734c9de4f8326a02ca70eb159de9",
+    "before": "النقطة الثابتة في مركز الشاشة<br>معطلة.",
+    "after": "النقطة الثابتة في مركز الشاشة<br>معطلة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12257,
+    "key": "MENU_CENTERDOT_OPTION_OFF_TITLE",
+    "source_sha256": "38cca6bea010af8adaf4be7d270456fa9adef8c0252db91f2767c607d077319b",
+    "before": "معطلة",
+    "after": "معطلة",
+    "decision": "keep"
+  },
+  {
+    "index": 12258,
+    "key": "MENU_CENTERDOT_TITLE",
+    "source_sha256": "9f25731d29dd76b35a69dd5e04fe8dbd349ad260c63d641e08df2a4ba6e5dafd",
+    "before": "نقطة المركز",
+    "after": "نقطة المركز",
+    "decision": "keep"
+  },
+  {
+    "index": 12259,
+    "key": "MENU_CHALLENGEMODESLOT_BODY",
+    "source_sha256": "459f7593f42b638ffc433f344f20a603aa79c6dc0dfd7a4928eaf6618f541590",
+    "before": "جميع خانات الحفظ قيد الاستخدام<br>حاليا. وضع التحدي يتطلب خانة حفظ<br>فارغة.",
+    "after": "جميع خانات الحفظ قيد الاستخدام<br>حاليا. وضع التحدي يتطلب خانة حفظ<br>فارغة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12260,
+    "key": "MENU_CHALLENGEMODESLOT_HEADER",
+    "source_sha256": "b8bfbb641ee67a535931944dd3a4599c578a1ff172006776f26591faf23cd5ef",
+    "before": "تحذير!",
+    "after": "تحذير!",
+    "decision": "keep"
+  },
+  {
+    "index": 12261,
+    "key": "MENU_CHASEASSIST_DESC",
+    "source_sha256": "3ff3297e0a770805e9fcceb1a47f08d0d847610c9ec25404c76a4c4c116886f9",
+    "before": "الشريط المطاطي/رابط السرعة",
+    "after": "قيد التحديد: ربط السرعة / تعويض فارق<br>المسافة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12262,
+    "key": "MENU_CHASEASSIST_TITLE",
+    "source_sha256": "e850818443ececc77255291cf36e49bb23690f0ecb37e301c855d6b3d7e788a3",
+    "before": "مساعدة المطاردة",
+    "after": "مساعدة المطاردة",
+    "decision": "keep"
+  },
+  {
+    "index": 12264,
+    "key": "MENU_CHROMATICABERRATION_TITLE",
+    "source_sha256": "83d7ba1a241869e91ef7735ca22c5def137ab4143056013cca4f9479d983d41b",
+    "before": "الانحراف اللوني",
+    "after": "Chromatic Aberration",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12267,
+    "key": "MENU_COLORPICKER_HEADER",
+    "source_sha256": "66523bedbfb51ed01523f2c00b1ff6ebdfcd1ef93635e08383f2c5b1ef9c41a2",
+    "before": "اللون - %s",
+    "after": "اللون - %s",
+    "decision": "keep"
+  },
+  {
+    "index": 12268,
+    "key": "MENU_COLOR_OPTION_BLACK",
+    "source_sha256": "5d1d1c000f66504af11cbd6dc0fefb74adcb841152e573a67052f32004915921",
+    "before": "أسود",
+    "after": "أسود",
+    "decision": "keep"
+  },
+  {
+    "index": 12269,
+    "key": "MENU_COLOR_OPTION_BLUE",
+    "source_sha256": "24a866f4940f1b00083a71ba4df7323bac1486f28dc81d500bbc4bb02c6e0e16",
+    "before": "أزرق",
+    "after": "أزرق",
+    "decision": "keep"
+  },
+  {
+    "index": 12270,
+    "key": "MENU_COLOR_OPTION_CYAN",
+    "source_sha256": "37e9150abe238c832396696d4379456d4053a6e3c6c993816dad25f3dc2ed03b",
+    "before": "سماوي",
+    "after": "سماوي",
+    "decision": "keep"
+  },
+  {
+    "index": 12271,
+    "key": "MENU_COLOR_OPTION_DEFAULT",
+    "source_sha256": "89dbf71048801678ca4abfbaa3ea8f7c651aae193357a3e23d68e21512cd07f5",
+    "before": "افتراضي",
+    "after": "افتراضي",
+    "decision": "keep"
+  },
+  {
+    "index": 12272,
+    "key": "MENU_COLOR_OPTION_GREEN",
+    "source_sha256": "cd9fcbf0c0b40bf7cdb35b1bb9b377dfdb180e0c8aa602fa903c522f6eebcae7",
+    "before": "أخضر",
+    "after": "أخضر",
+    "decision": "keep"
+  },
+  {
+    "index": 12273,
+    "key": "MENU_COLOR_OPTION_LIGHTGREEN",
+    "source_sha256": "9bc0d5cd9b1f962db920ac6112bd988c7e6abf8155e2b01bc0578b9e08f59b75",
+    "before": "أخضر فاتح",
+    "after": "أخضر فاتح",
+    "decision": "keep"
+  },
+  {
+    "index": 12275,
+    "key": "MENU_COLOR_OPTION_NONE",
+    "source_sha256": "c627c09c14e58e44bc51622dac392958ec88244e414b508020634f53cfcd1e69",
+    "before": "بدون",
+    "after": "بدون",
+    "decision": "keep"
+  },
+  {
+    "index": 12276,
+    "key": "MENU_COLOR_OPTION_ORANGE",
+    "source_sha256": "6f943458264a2e5b9136549a82127f03c161bd91afbe0f93e807e35f9cb1e7ca",
+    "before": "برتقالي",
+    "after": "برتقالي",
+    "decision": "keep"
+  },
+  {
+    "index": 12277,
+    "key": "MENU_COLOR_OPTION_PINK",
+    "source_sha256": "994487a3a975b64310ae265fbef581e092e47a94cf8eecf03eb8d8eb13abb915",
+    "before": "وردي",
+    "after": "وردي",
+    "decision": "keep"
+  },
+  {
+    "index": 12278,
+    "key": "MENU_COLOR_OPTION_RED",
+    "source_sha256": "65cbe1e19791d49b023800b3e22714e2589b6339bef5e660b628dd1023506ebd",
+    "before": "أحمر",
+    "after": "أحمر",
+    "decision": "keep"
+  },
+  {
+    "index": 12279,
+    "key": "MENU_COLOR_OPTION_VIOLET",
+    "source_sha256": "177cc8f2275cf4a7a97c025db190a9451addd9ed813cf22324a2d19e8d029e50",
+    "before": "بنفسجي",
+    "after": "بنفسجي",
+    "decision": "keep"
+  },
+  {
+    "index": 12280,
+    "key": "MENU_COLOR_OPTION_WHITE",
+    "source_sha256": "e05d8feee2b07636f84e1feb7760ee9c090b941f1273c6a7b3f626da7a902575",
+    "before": "أبيض",
+    "after": "أبيض",
+    "decision": "keep"
+  },
+  {
+    "index": 12281,
+    "key": "MENU_COLOR_OPTION_YELLOW",
+    "source_sha256": "975b2258fece7de165ebf57a30675dafb4a76e1adad0eb706b3d7c47778b0685",
+    "before": "أصفر",
+    "after": "أصفر",
+    "decision": "keep"
+  },
+  {
+    "index": 12284,
+    "key": "MENU_CONTINUEGAME_HEADER",
+    "source_sha256": "1b34473cdc808bfcbdf94b42f549c0b28380c7f745d4cc98af0df15878a3b69b",
+    "before": "متابعة اللعبة",
+    "after": "متابعة اللعبة",
+    "decision": "keep"
+  },
+  {
+    "index": 12285,
+    "key": "MENU_CONTINUEGAME_RESUME_DESC",
+    "source_sha256": "ac1cb013ef5746a492e3f76323d7787159c835e334a577a14a4a7fd080c2f96b",
+    "before": "أكد الإعدادات واستأنف اللعبة.",
+    "after": "أكد الإعدادات واستأنف اللعبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12286,
+    "key": "MENU_CONTINUEGAME_RESUME_TITLE",
+    "source_sha256": "0747c96a23dbfa586507337fc4ed4bdddb7b05833243622c4e6bb357b87adb0c",
+    "before": "استئناف",
+    "after": "استئناف",
+    "decision": "keep"
+  },
+  {
+    "index": 12287,
+    "key": "MENU_CONTRASTOPTIONS_CUSTOM",
+    "source_sha256": "7cd5885327fd60e825d67d32f9d22b018227a208aa3c4819da15b36b5d5869d3",
+    "before": "مخصص",
+    "after": "مخصص",
+    "decision": "keep"
+  },
+  {
+    "index": 12289,
+    "key": "MENU_CONTRASTOPTIONS_PRESET1",
+    "source_sha256": "ce1ed79a18375fbb155012f2cf944858e4d3528f83d6ae30fee359cca900e7d5",
+    "before": "1 إعداد مسبق",
+    "after": "إعداد مسبق 1",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12290,
+    "key": "MENU_CONTRASTOPTIONS_PRESET2",
+    "source_sha256": "fecb2f7c717f223b4cf7bf871de395471f39b9847b6a3a5adeeeaf350c8f7104",
+    "before": "2 إعداد مسبق",
+    "after": "إعداد مسبق 2",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12291,
+    "key": "MENU_CONTRASTOPTIONS_PRESET3",
+    "source_sha256": "47fa0abf47b51a9c254769f46e560b6b98ea0acb76f02dde184b330dfa54d6f5",
+    "before": "3 إعداد مسبق",
+    "after": "إعداد مسبق 3",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12292,
+    "key": "MENU_CONTRASTOPTIONS_TITLE",
+    "source_sha256": "b6177aacba78296aca54d596a801b5e143b4f1fb4efd878372e18d59da1ddd8f",
+    "before": "خيارات التباين",
+    "after": "خيارات التباين",
+    "decision": "keep"
+  },
+  {
+    "index": 12294,
+    "key": "MENU_CONTRAST_TITLE",
+    "source_sha256": "116f7fcc2aa41f82fae7efe5261320715241b39ae807d68ba4a68c39359d95d6",
+    "before": "التباين",
+    "after": "التباين",
+    "decision": "keep"
+  },
+  {
+    "index": 12296,
+    "key": "MENU_CONTROLLERLAYOUT_TITLE",
+    "source_sha256": "a5d2d6383e0a7fcec63daae2e0b4f1987651de5a4c0cd2514cbef832e4468f45",
+    "before": "إعادة تعيين أزرار جهاز التحكم",
+    "after": "إعادة تعيين أزرار جهاز التحكم",
+    "decision": "keep"
+  },
+  {
+    "index": 12297,
+    "key": "MENU_CONTROLSPEAKER_DESC",
+    "source_sha256": "5bb01029ac811c238f04b5ec75924d5558bbc2d6df9dcc6a3a8275e81db8b1c0",
+    "before": "يسمح بتشغيل بعض الأصوات عبر مكبر<br>جهاز التحكم.<br><br>غير متاح عند ضبط جهاز مخرج الصوت<br>على سماعات الرأس أو سماعة PULSE<br>3D™ اللاسلكية.",
+    "after": "يسمح بتشغيل بعض الأصوات عبر مكبر<br>جهاز التحكم.<br><br>غير متاح عند ضبط جهاز مخرج الصوت<br>على سماعات الرأس أو سماعة PULSE<br>3D™ اللاسلكية.",
+    "decision": "keep"
+  },
+  {
+    "index": 12298,
+    "key": "MENU_CONTROLSPEAKER_DESC_PC",
+    "source_sha256": "75a073b4bdc7dc07bbb3735042a1df2d573796502721d5471c15b1ac25b90abb",
+    "before": "يسمح بتشغيل بعض الأصوات عبر مكبر<br>جهاز التحكم.<br><br>غير متاح عند ضبط وضع الاستماع على<br>سماعات الرأس.",
+    "after": "يسمح بتشغيل بعض الأصوات عبر مكبر<br>جهاز التحكم.<br><br>غير متاح عند ضبط وضع الاستماع على<br>سماعات الرأس.",
+    "decision": "keep"
+  },
+  {
+    "index": 12299,
+    "key": "MENU_CONTROLSPEAKER_OPTION_EXPERIMENTAL_DESC",
+    "source_sha256": "be911ef7b697374f8f6773c233014e51ac44f724dc502398f59be4bcb225e8ff",
+    "before": "وصف وضع مكبر جهاز التحكم التجريبي.",
+    "after": "وصف وضع التجربة الغامرة لمكبر صوت يد<br>التحكم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12300,
+    "key": "MENU_CONTROLSPEAKER_OPTION_EXPERIMENTAL_TITLE",
+    "source_sha256": "14d2f220b1f1adf260f3f3f965a32e507060cf11bd66699b5522bce9b5bd14cd",
+    "before": "تجريبي",
+    "after": "غامر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12301,
+    "key": "MENU_CONTROLSPEAKER_OPTION_FUNCTIONAL_DESC",
+    "source_sha256": "4885668b31bb39d46f6ea1e2453badc281d61471aae43c214237ec753f6b1269",
+    "before": "وصف وضع مكبر جهاز التحكم الوظيفي.",
+    "after": "وصف وضع مكبر جهاز التحكم الوظيفي.",
+    "decision": "keep"
+  },
+  {
+    "index": 12302,
+    "key": "MENU_CONTROLSPEAKER_OPTION_FUNCTIONAL_TITLE",
+    "source_sha256": "b350c286039bbcc38fd4d1d01e417269ebd78d1d95c2ccbf0852c0953ec25984",
+    "before": "وظيفي",
+    "after": "وظيفي",
+    "decision": "keep"
+  },
+  {
+    "index": 12304,
+    "key": "MENU_CONTROLSPEAKER_OPTION_NONE_TITLE",
+    "source_sha256": "c627c09c14e58e44bc51622dac392958ec88244e414b508020634f53cfcd1e69",
+    "before": "بدون",
+    "after": "بدون",
+    "decision": "keep"
+  },
+  {
+    "index": 12311,
+    "key": "MENU_CONTROLS_HEADER",
+    "source_sha256": "0ee5655a482a72505bc8ba66c4db7a0830d571024cf8671a2de5bec43f75b85d",
+    "before": "التحكم والاختصارات",
+    "after": "التحكم والاختصارات",
+    "decision": "keep"
+  },
+  {
+    "index": 12312,
+    "key": "MENU_CONTROLS_TITLE",
+    "source_sha256": "0ee5655a482a72505bc8ba66c4db7a0830d571024cf8671a2de5bec43f75b85d",
+    "before": "التحكم والاختصارات",
+    "after": "التحكم والاختصارات",
+    "decision": "keep"
+  },
+  {
+    "index": 12313,
+    "key": "MENU_CROATIANTEXT_DESC",
+    "source_sha256": "bb581e444016ee4babe09a917b09f526d4a8561c63bfa2ab041ae939c41d949e",
+    "before": "استخدم اللغة الكرواتية لجميع<br>النصوص على الشاشة والردود<br>المكتوبة.",
+    "after": "استخدام الكرواتية لجميع النصوص على الشاشة<br>وترجمة الحوارات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12314,
+    "key": "MENU_CROATIANTEXT_TITLE",
+    "source_sha256": "64549b457db8cb236d969703bf3adf45e94ad27f2310ca5de72d304c7f8d074e",
+    "before": "نص كرواتي",
+    "after": "نص كرواتي",
+    "decision": "keep"
+  },
+  {
+    "index": 12316,
+    "key": "MENU_DELETESAVE_HEADER",
+    "source_sha256": "bfef6c5b8f086ebfb7aeee8230ef5bb21b2ba961b500049bc33b41ec5c5cf3cb",
+    "before": "حذف الحفظ؟",
+    "after": "حذف الحفظ؟",
+    "decision": "keep"
+  },
+  {
+    "index": 12318,
+    "key": "MENU_DEPTHOFFIELDENABLED_TITLE",
+    "source_sha256": "cf5111327edb3a6405048ba9559eb3af145d057c2d0777759f89cf27f8426f88",
+    "before": "عمق المجال",
+    "after": "Depth of Field",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12319,
+    "key": "MENU_DIFFICULTY_BARS_AGGRO",
+    "source_sha256": "6c7105a56bea3d1ccea9f97c096fb25530cdbb1a154f0ab71ced439a77f7b1fe",
+    "before": "العدوانية",
+    "after": "العدوانية",
+    "decision": "keep"
+  },
+  {
+    "index": 12320,
+    "key": "MENU_DIFFICULTY_BARS_DAMAGE",
+    "source_sha256": "0c874f581a4534f15f1ed12c4a9c84723b647e51a0385aa92ea270691cb76b29",
+    "before": "الضرر",
+    "after": "الضرر",
+    "decision": "keep"
+  },
+  {
+    "index": 12321,
+    "key": "MENU_DIFFICULTY_BARS_HEALTH",
+    "source_sha256": "55898449eb74fb2e348d13e5a5d84ab019bb87ea92687b50b3d3302eb409b784",
+    "before": "الصحة",
+    "after": "الصحة",
+    "decision": "keep"
+  },
+  {
+    "index": 12322,
+    "key": "MENU_DIFFICULTY_BARS_TITLE",
+    "source_sha256": "fa671011b4d8bba4efccfa32cbeb74ad5df49cb3e6ed7c49464adb33974a3124",
+    "before": "الأعداء",
+    "after": "الأعداء",
+    "decision": "keep"
+  },
+  {
+    "index": 12324,
+    "key": "MENU_DIFFICULTY_HEADER",
+    "source_sha256": "7656a8542a3b47cc7d05f035210186b992e7ebf93b6852c2a63282b95396249e",
+    "before": "اختر الصعوبة",
+    "after": "اختر الصعوبة",
+    "decision": "keep"
+  },
+  {
+    "index": 12325,
+    "key": "MENU_DIFFICULTY_INFO_TITLE",
+    "source_sha256": "5bbc0ca50f29fef7d5a7536e4f4cc59af90119f409a19410d211bacfd5203aae",
+    "before": "معلومات الصعوبة",
+    "after": "معلومات الصعوبة",
+    "decision": "keep"
+  },
+  {
+    "index": 12327,
+    "key": "MENU_DIFFICULTY_OPTION_EASY_TITLE",
+    "source_sha256": "1cf1a791387e8f7229f0585280a50b233a5371e01c5575dd1ec4cba55af35e4a",
+    "before": "جندي ناشئ",
+    "after": "جندي ناشئ",
+    "decision": "keep"
+  },
+  {
+    "index": 12329,
+    "key": "MENU_DIFFICULTY_OPTION_HARDEST_TITLE",
+    "source_sha256": "f6371e633f50e607c54ae480db1b0fc41f16e25b7f2cddaf6ec2d6a03ef33713",
+    "before": "أسطورة المتمردين",
+    "after": "أسطورة المتمردين",
+    "decision": "keep"
+  },
+  {
+    "index": 12331,
+    "key": "MENU_DIFFICULTY_OPTION_HARD_TITLE",
+    "source_sha256": "2b769e2dc7dc8d99318559a96a96a69956f1adc033b3638db00b6ea5195759f2",
+    "before": "زعيم المقاومة",
+    "after": "زعيم المقاومة",
+    "decision": "keep"
+  },
+  {
+    "index": 12333,
+    "key": "MENU_DIFFICULTY_OPTION_NORMAL_TITLE",
+    "source_sha256": "9e7467441ba66b228259c7ec9381e215733d432cc753b6b419e80b5f74c212ed",
+    "before": "عميل متمرد",
+    "after": "عميل متمرد",
+    "decision": "keep"
+  },
+  {
+    "index": 12335,
+    "key": "MENU_DIFFICULTY_OPTION_SUPEREASY_TITLE",
+    "source_sha256": "2d8fa0e23ccda77f0428518a3fcda7480b2d737c015d426d046c7365f1b05e60",
+    "before": "مستكشف ناشئ",
+    "after": "مستكشف ناشئ",
+    "decision": "keep"
+  },
+  {
+    "index": 12336,
+    "key": "MENU_DIFFICULTY_TITLE",
+    "source_sha256": "25df06def4b63ddcdb2146716220d30cf4451114247e3c56f95d89414ac25297",
+    "before": "الصعوبة",
+    "after": "الصعوبة",
+    "decision": "keep"
+  },
+  {
+    "index": 12338,
+    "key": "MENU_DISABLEFULLSCREENFX_TITLE",
+    "source_sha256": "c983f4c24ebbe1c9748f8ad0056daf22f25d09dc54f1c1ae62c46521aa387226",
+    "before": "المؤثرات الشاملة للشاشة",
+    "after": "المؤثرات الشاملة للشاشة",
+    "decision": "keep"
+  },
+  {
+    "index": 12341,
+    "key": "MENU_DPADMOVE_DESC",
+    "source_sha256": "112a899377c322b75d39bc47f0783281e4b037cf6c1c5f317ef020de53c2b821",
+    "before": "يفعل الحركة باستخدام أزرار<br>الاتجاهات. تفعيل هذه الميزة سيعطل<br>إمكانية استخدام اختصارات الأزرار.<br><br>تنطبق هذه الإعدادات على جهاز<br>التحكم [GAMEPAD_ANNOTATION_INPUT] فقط.",
+    "after": "يفعل الحركة باستخدام أزرار<br>الاتجاهات. تفعيل هذه الميزة سيعطل<br>إمكانية استخدام اختصارات الأزرار.<br><br>تنطبق هذه الإعدادات على جهاز<br>التحكم [GAMEPAD_ANNOTATION_INPUT] فقط.",
+    "decision": "keep"
+  },
+  {
+    "index": 12342,
+    "key": "MENU_DPADMOVE_TITLE",
+    "source_sha256": "0e2bf0ef2ddaaf4db6eac3be8ef80ce3db8b9753034d6c258e76e25ae563758b",
+    "before": "الحركة بأزرار الاتجاهات",
+    "after": "الحركة بأزرار الاتجاهات",
+    "decision": "keep"
+  },
+  {
+    "index": 12345,
+    "key": "MENU_EMPHASISCOLOR_DESC",
+    "source_sha256": "5f9b64edf18e4a719e485c7e7618a035bd4bba290491090fc4c709f423997c17",
+    "before": "يحدد لون النصوص المبرزة.<br><br>اشتر التطويرات مقابل<span class='emphasis'>الراريتانيوم</span>.",
+    "after": "حدد لون النص المميز.<br><br>اشتر التطويرات باستخدام <span class='emphasis'>الراريتانيوم</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12351,
+    "key": "MENU_ENGLISH_VO_DESC",
+    "source_sha256": "5d28048d74b5395082a57157b2bfd99b6a778d039dd14a55b36abd41646ecd96",
+    "before": "بشكل افتراضي، تدار لغة التعليق<br>الصوتي داخل اللعبة عبر اللغة<br>المحددة للعبة في Steam. يتيح لك<br>هذا الخيار سماع التعليق الصوتي<br>الأصلي بالإنجليزية بدلا من ذلك.<br>ولعب اللعبة بلغة تعليق صوتي أخرى،<br>يرجى اختيار لغة مختلفة في Steam.<br>ملاحظة: لا تدعم جميع اللغات<br>التعليق الصوتي.",
+    "after": "تحدد لغة التمثيل الصوتي داخل اللعبة<br>افتراضيًا بحسب لغة اللعبة المختارة في<br>Steam. يتيح هذا الخيار سماع الأصوات<br>الإنجليزية الأصلية بدلًا منها. للعب بلغة<br>صوتية أخرى، اختر لغة مختلفة في Steam. لا<br>تتوفر الأصوات بجميع اللغات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12353,
+    "key": "MENU_EXIT_TO_FRONTEND",
+    "source_sha256": "117282fd5a8e8144c88fe67b55b2aa001ef2b5d3e4466422dbf01c5c083b43aa",
+    "before": "الخروج إلى القائمة الرئيسية",
+    "after": "الخروج إلى القائمة الرئيسية",
+    "decision": "keep"
+  },
+  {
+    "index": 12356,
+    "key": "MENU_FIREMODE_DESC",
+    "source_sha256": "9b138ceac67a9a423b8aadef8a8af4963bdf895668176379ffa08617b8dc381f",
+    "before": "يجعل إجراء الإطلاق يعمل بالتبديل<br>بين التشغيل والإيقاف، أو بالضغط<br>المستمر، أو بالضغط الخاطف.",
+    "after": "يجعل إجراء الإطلاق يعمل بالتبديل<br>بين التشغيل والإيقاف، أو بالضغط<br>المستمر، أو بالضغط الخاطف.",
+    "decision": "keep"
+  },
+  {
+    "index": 12357,
+    "key": "MENU_FIREMODE_DESC_DAY1",
+    "source_sha256": "bd58b21af00481ca60ea16d20d2426327ac6e0508a62427c7a879c45dc42094b",
+    "before": "يجعل إجراء الإطلاق يعمل بالتبديل<br>بين التشغيل والإيقاف، أو بالضغط<br>المستمر، أو بالضغط الخاطف.<br><br>يمكن الاطلاع على تحكمات الأسلحة في<br>قائمة الأسلحة.",
+    "after": "يجعل إجراء الإطلاق يعمل بالتبديل<br>بين التشغيل والإيقاف، أو بالضغط<br>المستمر، أو بالضغط الخاطف.<br><br>يمكن الاطلاع على تحكمات الأسلحة في<br>قائمة الأسلحة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12358,
+    "key": "MENU_FIREMODE_OPTION_DEFAULT",
+    "source_sha256": "89dbf71048801678ca4abfbaa3ea8f7c651aae193357a3e23d68e21512cd07f5",
+    "before": "افتراضي",
+    "after": "افتراضي",
+    "decision": "keep"
+  },
+  {
+    "index": 12359,
+    "key": "MENU_FIREMODE_OPTION_DEFAULT_DESC",
+    "source_sha256": "157c361b39376f35d62a756dd98cdaf79ed92a369fd90c13500ab17b9e1d7336",
+    "before": "تطلق الأسلحة حسب نوع السلاح. قد<br>تتطلب ضغطات أو/خاطفة، وضغطا<br>مستمرا، و إفلات الزر.",
+    "after": "تختلف طريقة الإطلاق بحسب نوع السلاح، وقد<br>تتطلب ضغطة سريعة أو ضغطًا مستمرًا أو تحرير<br>الزر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12360,
+    "key": "MENU_FIREMODE_OPTION_DEFAULT_DESC_DAY1",
+    "source_sha256": "d7a80063cedea90d0a51e12004280f1dc131e0a9cc0ba77fba5a93543c3c70b4",
+    "before": "تطلق الأسلحة حسب نوع السلاح. قد<br>تتطلب ضغطات أو/خاطفة، وضغطا<br>مستمرا، و إفلات الزر.<br><br>يمكن الاطلاع على تحكمات الأسلحة في<br>قائمة الأسلحة.",
+    "after": "تختلف طريقة الإطلاق بحسب نوع السلاح، وقد<br>تتطلب ضغطة سريعة أو ضغطًا مستمرًا أو تحرير<br>الزر.<br><br>يمكن استعراض طرق التحكم بالأسلحة في قائمة<br>الأسلحة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12361,
+    "key": "MENU_FIREMODE_OPTION_HOLD",
+    "source_sha256": "aacf94b7be62f4948e03aa845eeab5649eed97292900c2b9d9c934fc852d23e4",
+    "before": "الضغط المستمر",
+    "after": "الضغط المستمر",
+    "decision": "keep"
+  },
+  {
+    "index": 12362,
+    "key": "MENU_FIREMODE_OPTION_HOLD_DESC",
+    "source_sha256": "d19881306fd0690e21b7d733c67b47b1a1867f7652c452c3b41bca26a5380b9f",
+    "before": "تطلق الأسلحة بشكل متكرر عند الضغط<br>المستمر. تبقى الأسلحة بطيئة<br>الإطلاق ومنخفضة الذخيرة، كالقنابل<br>اليدوية، على الإطلاق المفرد.",
+    "after": "تطلق الأسلحة بشكل متكرر عند الضغط<br>المستمر. تبقى الأسلحة بطيئة<br>الإطلاق ومنخفضة الذخيرة، كالقنابل<br>اليدوية، على الإطلاق المفرد.",
+    "decision": "keep"
+  },
+  {
+    "index": 12363,
+    "key": "MENU_FIREMODE_OPTION_HOLD_DESC_DAY1",
+    "source_sha256": "c08b6d429bb840b635b4fbfc85dc821b27c339c6c6b7ea5deca05f6d3e1ba3a9",
+    "before": "تطلق الأسلحة بشكل متكرر عند الضغط<br>المستمر. تبقى الأسلحة بطيئة<br>الإطلاق ومنخفضة الذخيرة، كالقنابل<br>اليدوية، على الإطلاق المفرد.<br><br>يمكن الاطلاع على تحكمات الأسلحة في<br>قائمة الأسلحة.",
+    "after": "تطلق الأسلحة بشكل متكرر عند الضغط<br>المستمر. تبقى الأسلحة بطيئة<br>الإطلاق ومنخفضة الذخيرة، كالقنابل<br>اليدوية، على الإطلاق المفرد.<br><br>يمكن الاطلاع على تحكمات الأسلحة في<br>قائمة الأسلحة.",
+    "decision": "keep"
+  },
+  {
+    "index": 12364,
+    "key": "MENU_FIREMODE_OPTION_TOGGLE",
+    "source_sha256": "d2c4b7798d1c7d30bcc663c2eec5acdbcd8a9b731d2fe3e33b78c65f655b6c5f",
+    "before": "التبديل",
+    "after": "التبديل",
+    "decision": "keep"
+  },
+  {
+    "index": 12365,
+    "key": "MENU_FIREMODE_OPTION_TOGGLE_DESC",
+    "source_sha256": "6e9c81a6038ecb0b417b2432bec280133b9605d4016cab06f62f65f441eaa65f",
+    "before": "تطلق الأسلحة بشكل متكرر ،عند تفعيل<br>التبديل وتبقى تطلق حتى يعاد<br>تفعيله. تبقى الأسلحة بطيئة الإطلاق<br>ومنخفضة ،الذخيرة، كالقنابل اليدوية<br>على الإطلاق المفرد.",
+    "after": "تطلق الأسلحة باستمرار بعد ضغطة واحدة،<br>وتتوقف عند الضغط مجددًا. تظل الأسلحة<br>البطيئة ذات الذخيرة المحدودة، مثل القنابل،<br>على الإطلاق الفردي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12366,
+    "key": "MENU_FIREMODE_OPTION_TOGGLE_DESC_DAY1",
+    "source_sha256": "4a55b503b3fcc281272d96d321cdf4549c95e3e01840abb8b707ed175e0dcaef",
+    "before": "تطلق الأسلحة بشكل متكرر ،عند تفعيل<br>التبديل وتستمر في الإطلاق حتى<br>يعطل. تبقى الأسلحة بطيئة الإطلاق<br>ومنخفضة ،الذخيرة، كالقنابل اليدوية<br>على الإطلاق المفرد.<br><br>يمكن الاطلاع على تحكمات الأسلحة في<br>قائمة الأسلحة.<br><br>تظهر الأيقونة أدناه عند الضبط على<br>«تبديل».",
+    "after": "تطلق الأسلحة باستمرار بعد ضغطة واحدة،<br>وتتوقف عند الضغط مجددًا. تظل الأسلحة<br>البطيئة ذات الذخيرة المحدودة، مثل القنابل،<br>على الإطلاق الفردي.<br><br>يمكن استعراض طرق التحكم بالأسلحة في قائمة<br>الأسلحة.<br><br>تظهر الأيقونة أدناه عند اختيار «التبديل».",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12367,
+    "key": "MENU_FIREMODE_TITLE",
+    "source_sha256": "69e5666d46549e349734e8262ca2b402e60fa986e4e86c1b0735684feaecb668",
+    "before": "وضع الإطلاق",
+    "after": "وضع الإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 12368,
+    "key": "MENU_FLIGHTASSIST_DESC",
+    "source_sha256": "0c8313caa8358b37e580842d565f390c5ad588d55ca6757966fee78bbdc22a2e",
+    "before": "يستوي الطيران تلقائيا أثناء مقاطع<br>الطيران.<br><br>تنطبق هذه الإعدادات على جهاز<br>التحكم [GAMEPAD_ANNOTATION_INPUT] فقط.",
+    "after": "يستوي الطيران تلقائيا أثناء مقاطع<br>الطيران.<br><br>تنطبق هذه الإعدادات على جهاز<br>التحكم [GAMEPAD_ANNOTATION_INPUT] فقط.",
+    "decision": "keep"
+  },
+  {
+    "index": 12369,
+    "key": "MENU_FLIGHTASSIST_TITLE",
+    "source_sha256": "b1017a10186667cdd45a6e03232a612c40108d9012c4a3113ebb06b03ea5e2cd",
+    "before": "مساعدة الطيران",
+    "after": "مساعدة الطيران",
+    "decision": "keep"
+  },
+  {
+    "index": 12371,
+    "key": "MENU_FLIGHTSTICK_OPTION_LEFT",
+    "source_sha256": "2cba9d25c1eaf7f3ef0e86b1562165b1d66e950ff5155de71b68049916145faf",
+    "before": "يسار",
+    "after": "يسار",
+    "decision": "keep"
+  },
+  {
+    "index": 12372,
+    "key": "MENU_FLIGHTSTICK_OPTION_RIGHT",
+    "source_sha256": "c4ce3c7ad82c8235da21fae8ea48e071a10e7b1c6df6a9e5b4603852d8b3001c",
+    "before": "يمين",
+    "after": "يمين",
+    "decision": "keep"
+  },
+  {
+    "index": 12381,
+    "key": "MENU_GAME_HEADER",
+    "source_sha256": "e7d9b8c6e712adcad6efbf5f06131030fb2d5a42ac51b4292507b8e31fa1674b",
+    "before": "إعدادات اللعبة",
+    "after": "إعدادات اللعبة",
+    "decision": "keep"
+  },
+  {
+    "index": 12382,
+    "key": "MENU_GAME_TITLE",
+    "source_sha256": "1fd5f5a768d30b9b6651dc6e35f6702a918fa8c2d2bbdc7826e975156cf1c401",
+    "before": "اللعبة",
+    "after": "اللعبة",
+    "decision": "keep"
+  },
+  {
+    "index": 12383,
+    "key": "MENU_GRAPHICS_OPTION_FIDELITY_BOOST_DESC",
+    "source_sha256": "53a2c8ef074aba6b3f0c0151f31050a18644d906d7a93fd18197b41bf0abad6a",
+    "before": "هذا إصدار بديل لوضع «الدقة». عند<br>ضبط «120 تمكين مخرج هرتز» بشكل<br>مناسب في إعدادات النظام وتوصيل<br>شاشة متوافقة، يستهدف هذا الوضع 40<br>إطارا في الثانية. وإلا فسيطابق وضع<br>«الدقة».",
+    "after": "هذا إصدار بديل من وضع «الجودة». حين يضبط<br>خيار «تمكين إخراج 120 هرتز» في إعدادات<br>النظام وتوصل شاشة متوافقة، يستهدف هذا<br>الوضع 40 إطارًا في الثانية. وإلا، فإنه<br>يطابق وضع «الجودة».",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12384,
+    "key": "MENU_GRAPHICS_OPTION_FIDELITY_BOOST_TITLE",
+    "source_sha256": "65edf5159df4565d9b0ec843ebba02b099d1cd47c119238d50350900a5e1d867",
+    "before": "دقة معززة",
+    "after": "تعزيز الجودة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12387,
+    "key": "MENU_GRAPHICS_OPTION_FIDELITY_TITLE",
+    "source_sha256": "c31a0971cb3a83e3f6546aa072db0883a119275b112c2aaa13adcbe61bbd32a8",
+    "before": "الدقة",
+    "after": "الجودة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12394,
+    "key": "MENU_GRAPHICS_OPTION_PERFORMANCE_RT_TITLE",
+    "source_sha256": "ea6afea111a1440110fb29ee719965d741e2b8bd6d25daf5bad7daa86b948198",
+    "before": "الأداء مع Ray Tracing",
+    "after": "الأداء مع Ray Tracing",
+    "decision": "keep"
+  },
+  {
+    "index": 12395,
+    "key": "MENU_GRAPHICS_OPTION_PERFORMANCE_TITLE",
+    "source_sha256": "d5e2b3962e0b2fa505eeb6b7b954b7867ff7c13a6210a5a2690ca7373cb38612",
+    "before": "الأداء",
+    "after": "الأداء",
+    "decision": "keep"
+  },
+  {
+    "index": 12396,
+    "key": "MENU_GRAPHICS_TITLE",
+    "source_sha256": "5e5a9fcfa3627cf30e89ae324084a0c5a355cbb4ea5cf0ff805807a07e3f5b48",
+    "before": "الوضع الرسومي",
+    "after": "الوضع الرسومي",
+    "decision": "keep"
+  },
+  {
+    "index": 12398,
+    "key": "MENU_GRINDASSIST_TITLE",
+    "source_sha256": "8387c00326e6b513ddcfac0df6e5c673d837c6c1c44ae2d7b7968cc0f54be0f7",
+    "before": "مساعدة الانزلاق",
+    "after": "مساعدة الانزلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 12400,
+    "key": "MENU_HAPTICS_HEADER",
+    "source_sha256": "2c139b74278f3ccb97997ebd4f939bb272221f1c1f0025de8acb0384d6eb5630",
+    "before": "إعدادات جهاز التحكم",
+    "after": "إعدادات جهاز التحكم",
+    "decision": "keep"
+  },
+  {
+    "index": 12401,
+    "key": "MENU_HAPTICS_TITLE",
+    "source_sha256": "b0eea89d283ca74cfd9db0fcd353cd96c5b4da124c687700b585fbb63d84307d",
+    "before": "جهاز التحكم",
+    "after": "جهاز التحكم",
+    "decision": "keep"
+  },
+  {
+    "index": 12405,
+    "key": "MENU_HDR_TITLE",
+    "source_sha256": "607901812664e2261afcea97bdb6b6f74ab4a91cf88987b2dec0e46f31139b05",
+    "before": "HDR",
+    "after": "HDR",
+    "decision": "keep"
+  },
+  {
+    "index": 12408,
+    "key": "MENU_HFRBOOST_AUTO",
+    "source_sha256": "6ea56fae9eacbb0ebed74bbbe731cf1179b7d41146162fe9b8c26cf0615c2367",
+    "before": "تلقائي",
+    "after": "تلقائي",
+    "decision": "keep"
+  },
+  {
+    "index": 12409,
+    "key": "MENU_HFRBOOST_DESC",
+    "source_sha256": "cca7f736a6386989c87f7b0e4a6579080830afc645a622b437385485505445f7",
+    "before": "عند ضبط «120 تمكين مخرج هرتز» بشكل<br>مناسب في إعدادات النظام، يستفيد من<br>هرتز 120 معدل تحديث شاشة لإعطاء<br>الأولوية لمعدل إطارات أعلى<br>واستجابة تحكم أفضل. في الوضع<br>الرسومي «الدقة»، 40 يصبح هدف معدل<br>الإطارات إطارا في الثانية. في<br>أوضاع «الأداء»يكون معدل الإطارات ،<br>إطارا في 60 مرنا ويتجاوز الثانية<br>بحسب ما تسمح به اللعبة.",
+    "after": "عند ضبط «تمكين إخراج 120 هرتز» في إعدادات<br>النظام، يستخدم معدل تحديث الشاشة البالغ<br>120 هرتز لإعطاء الأولوية لمعدل إطارات أعلى<br>واستجابة تحكم أفضل. يستهدف وضع الرسوميات<br>«الجودة» 40 إطارًا في الثانية. وفي أوضاع<br>«الأداء»، يكون معدل الإطارات مرنًا ويتجاوز<br>60 إطارًا في الثانية بحسب مجريات اللعب.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12410,
+    "key": "MENU_HFRBOOST_DESC_ALT",
+    "source_sha256": "e1c511dd08760245f9c497ccc188b5b4c527cd39e6c1b13983ba111eb043de44",
+    "before": "عند ضبط «120 تمكين مخرج هرتز» بشكل<br>مناسب في إعدادات النظام، يستفيد من<br>معدل تحديث شاشة متوافقة 120 هرتز<br>لتقليل زمن استجابة الإدخال وتمكين<br>معدلات إطارات أعلى. يرتفع هدف معدل<br>الإطارات في الوضع الرسومي «الدقة»<br>إطارا 40 إلى في الثانية. وإذا كان<br>VRR مفعلا أيضا في إعدادات النظام،<br>ترتفع معدلات الإطارات أكثر وتتغير<br>بحسب مجريات اللعب.",
+    "after": "عند ضبط «تمكين إخراج 120 هرتز» في إعدادات<br>النظام، يستخدم معدل تحديث الشاشة المتوافقة<br>البالغ 120 هرتز لتقليل تأخر الإدخال وتمكين<br>معدلات إطارات أعلى. يرتفع المعدل المستهدف<br>في وضع الرسوميات «الجودة» إلى 40 إطارًا في<br>الثانية. إذا فعل VRR أيضًا في إعدادات<br>النظام، فسترتفع معدلات الإطارات أكثر<br>وتتغير بحسب مجريات اللعب.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12411,
+    "key": "MENU_HFRBOOST_TITLE",
+    "source_sha256": "d8b44a189e9f74ddca314b4ec232840ff0bb3556baa16d05c95549defd7c1b9c",
+    "before": "تعزيز معدل الإطارات",
+    "after": "تعزيز معدل الإطارات",
+    "decision": "keep"
+  },
+  {
+    "index": 12412,
+    "key": "MENU_HFRBOOST_TITLE_ALT",
+    "source_sha256": "0cdf75414f704ae6d606649e02f82df7bc3bdeeb7a810d60f1748201bbb88572",
+    "before": "هرتز 120 وضع شاشة",
+    "after": "وضع شاشة 120 هرتز",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12413,
+    "key": "MENU_HIGHCONTRASTBG_DESC",
+    "source_sha256": "ac1028c582d534186a8cac9949fd96a4e4e70752e392b6a17df0b9102bf0f919",
+    "before": "يفعل خلفية عالية التباين للمساعدة<br>على الوضوح البصري في بعض العناصر.",
+    "after": "يفعل خلفية عالية التباين للمساعدة<br>على الوضوح البصري في بعض العناصر.",
+    "decision": "keep"
+  },
+  {
+    "index": 12414,
+    "key": "MENU_HIGHCONTRASTBG_TITLE",
+    "source_sha256": "75ddfdc0ef33b6fd9ed0e89b7682ae37d8dd5a2c1ea117440cb6be2c810821ac",
+    "before": "خلفية عالية التباين",
+    "after": "خلفية عالية التباين",
+    "decision": "keep"
+  },
+  {
+    "index": 12415,
+    "key": "MENU_HITCONFIRM_VOL_DESC",
+    "source_sha256": "fb1ae854a127c4255603794827eadca206357f220a853f897dc04fec0c4cc7ee",
+    "before": "اضبط مستوى مؤثرات صوت الضربات<br>وإلحاق الضرر بالأعداء.",
+    "after": "اضبط مستوى مؤثرات صوت الضربات<br>وإلحاق الضرر بالأعداء.",
+    "decision": "keep"
+  },
+  {
+    "index": 12416,
+    "key": "MENU_HITCONFIRM_VOL_TITLE",
+    "source_sha256": "a3f4bbf309ac9efd89309354868c28d4b2d70700d395b90e7511d629e8aac985",
+    "before": "مستوى صوت تأكيد الإصابة",
+    "after": "مستوى صوت تأكيد الإصابة",
+    "decision": "keep"
+  },
+  {
+    "index": 12417,
+    "key": "MENU_HOVERBOOTPUMP_DESC",
+    "source_sha256": "95368977d9e6a2b9742f7d727d2765d2a3b54daea9aa2890160ddbcbd2bbf45e",
+    "before": "يضخ تلقائيا إلى السرعة القصوى عند<br>استخدام حذاء الطفو.",
+    "after": "يسرع تلقائيًا إلى السرعة القصوى عند<br>استخدام حذاء الطفو.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12418,
+    "key": "MENU_HOVERBOOTPUMP_TITLE",
+    "source_sha256": "1631bf4afde2862fa829bf4083c757f09c384f46a3e9bc4fe6068bec377e4f0d",
+    "before": "ضخ تلقائي لحذاء الطفو",
+    "after": "تسارع حذاء الطفو التلقائي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12419,
+    "key": "MENU_HOVERBOOTTOGGLE_DESC",
+    "source_sha256": "70fa0945d1600c733f358ec53e06a45be068bc1a5c3124e320b719fbcf7e5ed9",
+    "before": "يجعل إجراء حذاء الطفو يعمل<br>بالتبديل بين التشغيل والإيقاف أو<br>بالضغط المستمر. يعمل كجري قبل<br>الحصول على حذاء الطفو.<br><br>تظهر الأيقونة أدناه عند الضبط على<br>«تبديل».",
+    "after": "يجعل إجراء حذاء الطفو يعمل<br>بالتبديل بين التشغيل والإيقاف أو<br>بالضغط المستمر. يعمل كجري قبل<br>الحصول على حذاء الطفو.<br><br>تظهر الأيقونة أدناه عند الضبط على<br>«تبديل».",
+    "decision": "keep"
+  },
+  {
+    "index": 12420,
+    "key": "MENU_HOVERBOOTTOGGLE_DESC_ALT",
+    "source_sha256": "7bfae7acfe43e352eb94966b8bec5b80105125d9a5b89a7d0778ca3e62dcac5b",
+    "before": "يجعل إجراء حذاء الطفو يعمل<br>بالتبديل بين التشغيل والإيقاف أو<br>بالضغط المستمر. يعمل كجري قبل<br>الحصول على حذاء الطفو.",
+    "after": "يجعل إجراء حذاء الطفو يعمل<br>بالتبديل بين التشغيل والإيقاف أو<br>بالضغط المستمر. يعمل كجري قبل<br>الحصول على حذاء الطفو.",
+    "decision": "keep"
+  },
+  {
+    "index": 12421,
+    "key": "MENU_HOVERBOOTTOGGLE_TITLE",
+    "source_sha256": "95cc651662651ef244ad1be73bc4ccf422cd71f95e17a1df58b75b416cf26bc2",
+    "before": "وضع حذاء الطفو",
+    "after": "وضع حذاء الطفو",
+    "decision": "keep"
+  },
+  {
+    "index": 12422,
+    "key": "MENU_HUDHITEFFECT_DESC",
+    "source_sha256": "45fa41c1677e9d0525830201fbf4dcd7cf9d55044616ba32dc34eac63c3ca270",
+    "before": "فعل أو عطل المؤثرات على عناصر شاشة<br>المعلومات (HUD) عند تلقي ضرر.",
+    "after": "تفعيل أو تعطيل مؤثرات عناصر واجهة اللعب<br>(HUD) عند تلقي الضرر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12423,
+    "key": "MENU_HUDHITEFFECT_TITLE",
+    "source_sha256": "5ec4b1a4073c193e4684e5b39c6319442dc48d9d971557950f437a3003229e54",
+    "before": "مؤثر إصابة شاشة المعلومات",
+    "after": "مؤثر إصابة واجهة اللعب",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12424,
+    "key": "MENU_HUD_DESC",
+    "source_sha256": "6322ae562b312f6bfc85ca7e7b47f51f09f75f7c2d88e48b48b956a337c8507b",
+    "before": "اضبط إعدادات شاشة المعلومات (HUD).",
+    "after": "ضبط إعدادات واجهة اللعب (HUD).",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12425,
+    "key": "MENU_HUD_HEADER",
+    "source_sha256": "7db17d603fb62277e0752d475d22d52ed6e862f768a9637f33d6d1cd075763d7",
+    "before": "إعدادات شاشة المعلومات",
+    "after": "إعدادات واجهة اللعب",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12426,
+    "key": "MENU_HUD_TITLE",
+    "source_sha256": "c8fa7038589e138906e1306b3fcad9f1a05694bf57ec6c6cd7575a44bf09f881",
+    "before": "شاشة المعلومات (HUD)",
+    "after": "واجهة اللعب (HUD)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12427,
+    "key": "MENU_ICONPROMPTSIZE_DESC",
+    "source_sha256": "964263b31463fdff2ac056883c768c0ad6bb187cd58cc996cb72ef3f9336a9d6",
+    "before": "يحدد حجم نقاط التوجيه والأيقونات<br>والتلميحات داخل العالم.",
+    "after": "يحدد حجم نقاط التوجيه والأيقونات<br>والتلميحات داخل العالم.",
+    "decision": "keep"
+  },
+  {
+    "index": 12428,
+    "key": "MENU_ICONPROMPTSIZE_OPTION_LARGE",
+    "source_sha256": "4f7ccb5f68b2ed962c9c99e91d619e15ede3a187d8ee8fe0d9c8b661e39f0df3",
+    "before": "كبير",
+    "after": "كبير",
+    "decision": "keep"
+  },
+  {
+    "index": 12429,
+    "key": "MENU_ICONPROMPTSIZE_OPTION_STANDARD",
+    "source_sha256": "335fd665f279a081079a603243547268742c8e8d0af2f06b6a4b09b40c06e243",
+    "before": "قياسي",
+    "after": "قياسي",
+    "decision": "keep"
+  },
+  {
+    "index": 12430,
+    "key": "MENU_ICONPROMPTSIZE_TITLE",
+    "source_sha256": "36381d421ac1d3352183c7a84f7ebdf0b057847768bdbcafcac7324461e4928f",
+    "before": "حجم الأيقونات والتلميحات",
+    "after": "حجم الأيقونات والتلميحات",
+    "decision": "keep"
+  },
+  {
+    "index": 12431,
+    "key": "MENU_INTERACTSHADER_DESC",
+    "source_sha256": "348c843a5b7c4d9d3928538a5f734eeebe5cb1ddb38012aa5bf7afa4e26da4d2",
+    "before": "يطبق مادة مظللة (Shader) بلون واحد<br>على العناصر التفاعلية لتحسين<br>وضوحها. وتشمل هذه العناصر بائع<br>الأسلحة وأدوات الحركة والخنفساء<br>(Speetles) وصناديق الصحة والذخيرة<br>وأجهزة الحاسوب.",
+    "after": "يطبق Shader بلون واحد على العناصر القابلة<br>للتفاعل لتحسين وضوحها. يشمل ذلك بائع<br>الأسلحة وأدوات التنقل وخنافس سبيتل وصناديق<br>الصحة والذخيرة ووحدات تحكم الحاسوب.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12432,
+    "key": "MENU_INTERACTSHADER_TITLE",
+    "source_sha256": "99cd317035dc0736dac271f04d72bc77f11403414c4ad179e0fe91923e96668a",
+    "before": "المادة المظللة للعناصر التفاعلية",
+    "after": "Shader العناصر التفاعلية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12433,
+    "key": "MENU_INVERTX_DESC",
+    "source_sha256": "f9d7f1e2a426025b449a0cf4e6735abf17a6343085e4c1ee3f1b6b57a9e791bc",
+    "before": "يعكس اتجاهي اليمين واليسار في<br>تحكمات الكاميرا.",
+    "after": "يعكس اتجاهي اليمين واليسار في<br>تحكمات الكاميرا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12434,
+    "key": "MENU_INVERTX_TITLE",
+    "source_sha256": "293c0a593d877482902e65c827c80d1d161965db69eafbacafd59123559dc254",
+    "before": "يسارا/عكس يمينا",
+    "after": "عكس اليسار/اليمين",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12435,
+    "key": "MENU_INVERTY_DESC",
+    "source_sha256": "dc22c6c47365928217c5376ca868ac72750a53b83883e10f9d3e587a24bd42c9",
+    "before": "يعكس اتجاهي الأعلى والأسفل في<br>تحكمات الكاميرا.",
+    "after": "يعكس اتجاهي الأعلى والأسفل في<br>تحكمات الكاميرا.",
+    "decision": "keep"
+  },
+  {
+    "index": 12436,
+    "key": "MENU_INVERTY_TITLE",
+    "source_sha256": "e62034396b5ac33995a6a92797e33d0be7cca63a6659548d42ebf4de48251188",
+    "before": "أسفل/عكس أعلى",
+    "after": "عكس الأعلى/الأسفل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12437,
+    "key": "MENU_LEVELUPSLOW_DESC",
+    "source_sha256": "bca381be966a16d9c19ff4d71f1f7f26515be2f6cd471de378ed5223b60c6e94",
+    "before": "يبطئ سرعة اللعبة لحظة عند تطوير<br>مستوى البطل أو السلاح لتوفير وقت<br>إضافي لقراءة معلومات التطوير.",
+    "after": "يبطئ اللعبة لحظيًا حين يرتفع مستوى البطل<br>أو السلاح، لإتاحة وقت إضافي لقراءة معلومات<br>المستوى الجديد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12438,
+    "key": "MENU_LEVELUPSLOW_TITLE",
+    "source_sha256": "ddcad2c85c12ff8961c7a98a0db0c031ef667d65de8d22f39fec23c7e9290eec",
+    "before": "إبطاء عند التطوير",
+    "after": "إبطاء عند رفع المستوى",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12439,
+    "key": "MENU_LISTENINGMODE_DESC",
+    "source_sha256": "03ad73d0a7e075ba686131c2068927307a32a8c0a88b568c2cf6b76cebe57fc2",
+    "before": "يحدد جهاز مخرج الصوت عبر برامج<br>النظام لديك. يرجى التوجه إلى<br>الإعدادات > الصوت > مخرج الصوت ><br>نوع جهاز HDMI لتحديث إعداداتك.",
+    "after": "يحدد جهاز مخرج الصوت عبر برامج<br>النظام لديك. يرجى التوجه إلى<br>الإعدادات > الصوت > مخرج الصوت ><br>نوع جهاز HDMI لتحديث إعداداتك.",
+    "decision": "keep"
+  },
+  {
+    "index": 12440,
+    "key": "MENU_LISTENINGMODE_OPTION_3DHEADSET_DESC",
+    "source_sha256": "da988171d101e059f86fb1f9cc633f214c40c41af49e74f837fe4f71afb11a37",
+    "before": "تم اكتشاف سماعات الرأس. إذا كنت<br>تستخدم سماعة PULSE 3D™ اللاسلكية،<br>اضبط هذا الخيار على PULSE 3D™<br>اللاسلكية. وإلا فاضبطه على سماعات<br>الرأس.",
+    "after": "تم اكتشاف سماعات الرأس. إذا كنت<br>تستخدم سماعة PULSE 3D™ اللاسلكية،<br>اضبط هذا الخيار على PULSE 3D™<br>اللاسلكية. وإلا فاضبطه على سماعات<br>الرأس.",
+    "decision": "keep"
+  },
+  {
+    "index": 12441,
+    "key": "MENU_LISTENINGMODE_OPTION_3DHEADSET_TITLE",
+    "source_sha256": "ca0d12c60c7be24a78466c7d47b9638d699b1948b15d6bb3aa4dc817c8c79ad7",
+    "before": "سماعة PULSE 3D™ اللاسلكية",
+    "after": "سماعة PULSE 3D™ اللاسلكية",
+    "decision": "keep"
+  },
+  {
+    "index": 12442,
+    "key": "MENU_LISTENINGMODE_OPTION_HEADPHONES_TITLE",
+    "source_sha256": "7e7b997153ea4bc99613a36f0966a6bde0f4515f8d1103a866cc3741295d1d8a",
+    "before": "سماعات الرأس",
+    "after": "سماعات الرأس",
+    "decision": "keep"
+  },
+  {
+    "index": 12443,
+    "key": "MENU_LISTENINGMODE_OPTION_HOME_TITLE",
+    "source_sha256": "6e20a8e66ac763f2beab39d35604a1fde50ae79e28a1e5bd9468ab9042b7497c",
+    "before": "مسرح منزلي",
+    "after": "مسرح منزلي",
+    "decision": "keep"
+  },
+  {
+    "index": 12444,
+    "key": "MENU_LISTENINGMODE_OPTION_MAX_TITLE",
+    "source_sha256": "21a523724f056758ef8bd05490be0efa2fcc42c592b5949aa4ba746420f216cb",
+    "before": "أقصى مستوى",
+    "after": "أقصى مستوى",
+    "decision": "keep"
+  },
+  {
+    "index": 12445,
+    "key": "MENU_LISTENINGMODE_OPTION_SOUNDBAR_TITLE",
+    "source_sha256": "c1b5fe668b85111a2040b6949f0eeb0576e6dec2541f204711a4679f73927710",
+    "before": "شريط صوت",
+    "after": "Soundbar",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12446,
+    "key": "MENU_LISTENINGMODE_OPTION_TV_TITLE",
+    "source_sha256": "ca8f7cf1a1429dd159f4834ac06ce3b9fba962ca6983cc30f5d03b58f9e2169a",
+    "before": "التلفاز",
+    "after": "التلفاز",
+    "decision": "keep"
+  },
+  {
+    "index": 12447,
+    "key": "MENU_LISTENINGMODE_TITLE",
+    "source_sha256": "2648310e8e84815dd706b0d1c9db0b646e2c9df8a581fd403e633da2a751d54b",
+    "before": "جهاز مخرج الصوت",
+    "after": "جهاز مخرج الصوت",
+    "decision": "keep"
+  }
+]

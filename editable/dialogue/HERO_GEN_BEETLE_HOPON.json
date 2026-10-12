@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_BEETLE_HOPON",
     "arabic_current": "<ts=&quot;0.049;0.815&quot;>هيا بنا!",
     "arabic_edit": "<ts=&quot;0.049;0.815&quot;>هيا بنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "572c959d841095e0e9e148fbdf8916e89f4fd3b258325ed5b73921d0719460b3",
+      "candidate_sha256": "558efcd087d94d4938aa0d1dab4bee9be5620aec60a6d7fce4a0a801259a3f9d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20732,
@@ -22,12 +30,20 @@
     "scene_code": "HERO_GEN_BEETLE_HOPON",
     "arabic_current": "<ts=&quot;0;0.35&quot;>حان وقت<ts=&quot;0.659;1.258&quot;>الركوب!",
     "arabic_edit": "<ts=&quot;0;0.35&quot;>حان وقت<ts=&quot;0.659;1.258&quot;>الركوب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "76bc64cd8c56688e04aed0ce8234d39c5d3f9fc3e94b8c53c4cfe7edc852e7d2",
+      "candidate_sha256": "2e5da3abc0663dd7aca17c6d4a9fd895e3f4d3359d103675317ca689d57c448e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20733,
@@ -37,11 +53,19 @@
     "scene_code": "HERO_GEN_BEETLE_HOPON",
     "arabic_current": "<ts=&quot;0.051;0.482&quot;>هيا بنا!",
     "arabic_edit": "<ts=&quot;0.051;0.482&quot;>هيا بنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "fcbe0a8b2735623381efb4cac6bf066bf5c5ea7c8fc287c7844f986bb9061030",
+      "candidate_sha256": "44c9d1f15e70696d01873ea1e1c9da06d70773d9ab13db0cfabd36e7ecdd82a5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

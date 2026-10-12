@@ -7,12 +7,20 @@
     "scene_code": "",
     "arabic_current": "<ts=&quot;0;1.27&quot;>اكتمل العمل -<ts=&quot;1.66;3.5&quot;>أنتقل إلى المهمة التالية.",
     "arabic_edit": "<ts=&quot;0;1.27&quot;>اكتمل العمل -<ts=&quot;1.66;3.5&quot;>أنتقل إلى المهمة التالية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-010",
+      "source_sha256": "25262073dbf0e222015436fbf62d99ded6283428c2a53ecd4c5cda39b7a97063",
+      "candidate_sha256": "14b0cb5ef413e3e1681d79f7908b425d27cb0155ed554b9555b50ed54e27f789",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22039,
@@ -22,12 +30,20 @@
     "scene_code": "",
     "arabic_current": "<ts=&quot;0;1.75&quot;>آه... انتهى كل شيء!",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>آه... انتهى كل شيء!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-010",
+      "source_sha256": "51e4df5e0bbadc0851a85e76e40cc356d6be5f3d82ce91aa7cd18ad38ce9cd7d",
+      "candidate_sha256": "49ec7a4fb26759ae85769091a024f7c1de8c5389f388e3327c55d63083873e2a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22040,
@@ -36,14 +52,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "<ts=&quot;0.044;4.874&quot;>أشعر أنني مبتور أكثر من<br>اللازم اليوم.",
-    "arabic_edit": "<ts=&quot;0.044;4.874&quot;>أشعر أنني مبتور أكثر من اللازم<br>اليوم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.044;4.874&quot;>أشعر بأنني مستعد للشجار اليوم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-010",
+      "source_sha256": "72d984971331d0e51f29b98915577861d36906855b1b2d02eea92016d9e5a6ef",
+      "candidate_sha256": "bfd5c46037e3e148fa02b81818bb0474427c758f1ef6c3752e9b6cefc15bba79",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22041,
@@ -53,12 +77,20 @@
     "scene_code": "",
     "arabic_current": "<ts=&quot;0.049;6.826&quot;>أوهو... ربما سأصنع تمثالا من<br>الخردة لإمبراطورنا. سيعجبه<br>ذلك.",
     "arabic_edit": "<ts=&quot;0.049;6.826&quot;>أوهو... ربما سأصنع تمثالا من<br>الخردة لإمبراطورنا. سيعجبه ذلك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-010",
+      "source_sha256": "6bd58301036c1ad4df6bea6baa21260ce2fe666748e9f5ac2d5d87717aeea002",
+      "candidate_sha256": "a54c0838082d99b7f1dea64f21a6ba3b59c12918a0ea3a2837b86e66dd3ea809",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

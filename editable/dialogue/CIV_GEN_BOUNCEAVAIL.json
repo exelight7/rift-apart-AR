@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_BOUNCEAVAIL",
     "arabic_current": "<ts=&quot;0.03;3.755&quot;>لدينا الباونسر جاهزا<br>للانفجار!",
     "arabic_edit": "<ts=&quot;0.03;3.755&quot;>لدينا الباونسر جاهزا للانفجار!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "674f63a2f6075eaee8117e4cacc366377dc0e85a7bf747494bad0c1e1e60c5a0",
+      "candidate_sha256": "cb29485c3c42144a9ae95b88448f4870d9e47adb9edf1fcfa1f9c2ede66fede9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

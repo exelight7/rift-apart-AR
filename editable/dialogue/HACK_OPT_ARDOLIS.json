@@ -6,14 +6,22 @@
     "speaker_code": "BRAN",
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.049;2.5&quot;>يسعدنا جدا أن نسمع هذا، يا<br>خلل.",
-    "arabic_edit": "<ts=&quot;0.049;2.5&quot;>يسعدنا جدا أن نسمع هذا، يا خلل.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;2.5&quot;>يسرنا سماع ذلك يا جليتش.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "7697218c3835993642fb7e087cc798feece1818b514872da510ea871e0f4b6c8",
+      "candidate_sha256": "61e5024879bca310a8edbb0aa241810b891582254da3e2161c41d53bca4ffd9f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 606,
@@ -22,14 +30,22 @@
     "speaker_code": "BRAN",
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.018;2.362&quot;>لم نرد أن نقاطعك.<ts=&quot;2.66;9.395&quot;>لكن لا تقلق، في المرة<br>القادمة سنتحدث وجها إلى وجه.",
-    "arabic_edit": "<ts=&quot;0.018;2.362&quot;>لم نرد أن نقاطعك.<ts=&quot;2.66;9.395&quot;>لكن لا تقلق، في المرة القادمة سنتحدث وجها<br>إلى وجه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.018;2.362&quot;>لم نرد مقاطعتك.<ts=&quot;2.66;9.395&quot;>لكن لا تقلقي، سنتحدث وجهًا لوجه في المرة<br>القادمة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "59958aa39f3a6964622904c618f684a5e13ff3667b7df7a0d6b9c2742a508b5f",
+      "candidate_sha256": "b3ca8ed060b604e9be3440438c6fcfaba6c8dffdf018ae66c8fbd64c8bbbd06b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8258,
@@ -38,14 +54,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0;1.788&quot;>،على مهل وهدوء<ts=&quot;1.919;6.38&quot;>وسيصلح هذا الحاسوب<br>لراتشت في وقت قصير جدا.",
-    "arabic_edit": "<ts=&quot;0;1.788&quot;>،على مهل وهدوء<ts=&quot;1.919;6.38&quot;>وسيصلح هذا الحاسوب لراتشت في وقت قصير جدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.788&quot;>خذي الأمر بهدوء وثبات،<ts=&quot;1.919;6.38&quot;>وسيكون هذا الحاسوب جاهزًا لراتشت في وقت<br>قصير.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "23d6f0ec9943b5d1fab955524b3230f0dd22430fbe868f36041106b37eadb696",
+      "candidate_sha256": "d88b044c2ef4a406dcc4475993b6b3a30cf9fa9a425cce69e8d27c37b7b8ad14",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8259,
@@ -55,13 +79,21 @@
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.043;4.16&quot;>طالما لم أدع الفيروسات<br>تحاصرني مرة أخرى...",
     "arabic_edit": "<ts=&quot;0.043;4.16&quot;>طالما لم أدع الفيروسات تحاصرني مرة أخرى...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "500d966420cdbc5d3c34953cf88881760f7ff8374aa274167cbf51e1945f1f8a",
+      "candidate_sha256": "2d4cef914f35eac9d0a8927f2d0d940dbd663b91b3edfdcfda1cf352cfa3cfd1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8260,
@@ -71,12 +103,20 @@
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.033;2.487&quot;>هناك! الحاسوب خال تماما!",
     "arabic_edit": "<ts=&quot;0.033;2.487&quot;>هناك! الحاسوب خال تماما!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "25319d380ebadc80203c9a3a766f8457b1971b8919fb1438721ad225260b8a6c",
+      "candidate_sha256": "dae5510155ee022c81bdba7d08efe6de93b42d27e263e5088334e564dcc2dbab",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8261,
@@ -86,12 +126,20 @@
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.046;0.696&quot;>أنت؟!",
     "arabic_edit": "<ts=&quot;0.046;0.696&quot;>أنت؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "2a56b822853e0491db22b7df6cd27236b938d8ed6bc35136152e9d2cb42de9a9",
+      "candidate_sha256": "8f088913d96986cb0b8ebedb4a5de06ee769c4e30584892f9550c1faf4609270",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8262,
@@ -100,14 +148,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.042;4.228&quot;>الفيروسات هادئة تماما... علي<br>البقاء متيقظا.",
-    "arabic_edit": "<ts=&quot;0.042;4.228&quot;>الفيروسات هادئة تماما... علي البقاء<br>متيقظا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.042;4.228&quot;>الفيروسات هادئة جدًا... من الأفضل أن أبقى<br>حذرة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "b2f5860d37485be6bb96b4adc27710c344a2b8a99be9f4558dfd8d893657a0ac",
+      "candidate_sha256": "6806e041cc47349a464e4593a429ab86d1b1f28b96b6353ba9e637fde8e86a8c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8263,
@@ -116,14 +172,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0;6.59&quot;>إن كانت الفيروسات *تتطور*<br>أكثر، فهل أنا كافية حقا<br>لإيقافها؟<ts=&quot;6.59;9.323&quot;>ماذا إن أخطأت مرة أخرى؟<ts=&quot;9.323;11.731&quot;>أو جعلت الأمور أسوأ...",
-    "arabic_edit": "<ts=&quot;0;6.59&quot;>إن كانت الفيروسات *تتطور* أكثر، فهل أنا<br>كافية حقا لإيقافها؟<ts=&quot;6.59;9.323&quot;>ماذا إن أخطأت مرة أخرى؟<ts=&quot;9.323;11.731&quot;>أو جعلت الأمور أسوأ...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;6.59&quot;>إن كانت الفيروسات *تتطور* أكثر، فهل أنا<br>بارعة بما يكفي لإيقافها؟<ts=&quot;6.59;9.323&quot;>ماذا لو أخفقت مجددًا؟<ts=&quot;9.323;11.731&quot;>أو جعلت الأمور أسوأ...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "93252eb00c07ee2aafb264d53bcf48af8db4fcdc9188617312155f771e5a3ba1",
+      "candidate_sha256": "0cc1afa222e28d76457eafdb75a5441c7c3007bc3a96b356875003d060fe506d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8264,
@@ -132,14 +196,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.048;5.495&quot;>بماذا أفكر؟ أنا *مضطرة* أن<br>أفعل شيئا! ،إن لم أفعل<ts=&quot;5.495;10.291&quot;>فمن سيفعل؟ راتشت يظن<br>هذا فيروس حاسوب عاديا...",
-    "arabic_edit": "<ts=&quot;0.048;5.495&quot;>بماذا أفكر؟ أنا *مضطرة* أن أفعل شيئا! ،إن<br>لم أفعل<ts=&quot;5.495;10.291&quot;>فمن سيفعل؟ راتشت يظن هذا فيروس حاسوب<br>عاديا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.048;5.495&quot;>بماذا أفكر؟ *علي* فعل شيء! إن لم أفعل،<ts=&quot;5.495;10.291&quot;>فمن سيفعل؟ راتشت يظن أنه مجرد فيروس حاسوب<br>عادي...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "38eeb0d8ea559c8e4875943000ef0f8a4b35cfaa5a84008ceba8c81926d02ab1",
+      "candidate_sha256": "f2fb88346937b95e1243120ad30ab8b981667f0381ae79499d3d077fed337bc0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8265,
@@ -149,13 +221,21 @@
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.05;6.031&quot;>لكن الآن يعتمد كل شيء<br>علي... ربما مصير الكون<br>نفسه!<ts=&quot;6.031;10.517&quot;>لماذا قلت ذلك بصوت عال؟<br>اصمتي، يا جليتش.",
     "arabic_edit": "<ts=&quot;0.05;6.031&quot;>لكن الآن يعتمد كل شيء علي... ربما مصير<br>الكون نفسه!<ts=&quot;6.031;10.517&quot;>لماذا قلت ذلك بصوت عال؟ اصمتي، يا جليتش.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "b0fc5b54841599d46c34d9f83a5f01d5bdddb6234733528ce382817e8dacd415",
+      "candidate_sha256": "2e8f6edd672cb1bc45b21e4866e5b6886c7f4608aae6f20fa503a1de91073ac6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8266,
@@ -164,14 +244,22 @@
     "speaker_code": "GLIT",
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.039;6.504&quot;>إن كانت الفيروسات ذكية كما<br>أظن، فلن تسقط الكبسولات<br>الأخيرة دون مقاومة.",
-    "arabic_edit": "<ts=&quot;0.039;6.504&quot;>إن كانت الفيروسات ذكية كما أظن، فلن تسقط<br>الكبسولات الأخيرة دون مقاومة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.039;6.504&quot;>إن كانت الفيروسات ذكية كما أظن، فلن تسقط<br>هذه الحويصلات الأخيرة دون قتال.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "75331595bdd89d8885dd94854986ea90fe37ca3615e14603d066eeccad16f446",
+      "candidate_sha256": "47de49739f7857d254686139482473277efa5577deaf1fc9f92f6e9cc8284b9d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8267,
@@ -181,13 +269,21 @@
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0;5.548&quot;>لقد وصلت إلى هذا الحد.<br>وراتشت يثق بي. إنني<br>أستحق أن أكون هنا.",
     "arabic_edit": "<ts=&quot;0;5.548&quot;>لقد وصلت إلى هذا الحد. وراتشت يثق بي. إنني<br>أستحق أن أكون هنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "a8464e25cd8587d06360e583e34e72e3ea54c2fd8e0a6458c46216fec7fa670f",
+      "candidate_sha256": "d0b96ba5afb511d5956dc8851f138a6d81affa63a76588213467d79bc0aea1c1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8268,
@@ -197,11 +293,19 @@
     "scene_code": "HACK_OPT_ARDOLIS",
     "arabic_current": "<ts=&quot;0.048;2.203&quot;>أنا أتطلع إليه!",
     "arabic_edit": "<ts=&quot;0.048;2.203&quot;>أنا أتطلع إليه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "c172bac4c25555569c95a88eee58cda56e43acaf101d7b88fa23bb32f01a2d0b",
+      "candidate_sha256": "f7f3c5374d86ff0870cb1b9d0b10c2e5e17a68b3a235161ef0c17995b19a7fb4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,12 +7,20 @@
     "scene_code": "BOSS_GEN_DEPLOY",
     "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.041;2.036&quot;>يا أصدقاء! انضموا إلي!",
     "arabic_edit": "<name=&quot;SEEK&quot;><ts=&quot;0.041;2.036&quot;>يا أصدقاء! انضموا إلي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "1b48d7b137bd89e40ca27419d309e383c7e3684d4fd43a168dd21338c7328234",
+      "candidate_sha256": "9a0e505dd5384f172d528612655821c9ff10cb0e07247409cb23a6ba4dc3149c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14267,
@@ -21,14 +29,22 @@
     "speaker_code": "NEFT1",
     "scene_code": "BOSS_GEN_DEPLOY",
     "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.04;4.05&quot;>بعض الجنود يكرهون مشاركة<br>أما أنا فلا - الدمار!",
-    "arabic_edit": "<name=&quot;SEEK&quot;><ts=&quot;0.04;4.05&quot;>بعض الجنود يكرهون مشاركة أما أنا فلا -<br>الدمار!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<name=&quot;SEEK&quot;><ts=&quot;0.04;4.05&quot;>بعض الجنود يكرهون مشاركة الدمار... أما أنا<br>فلا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "b483d6419f56f23d62d9a77b9f1e529ce5faf015bb7e794f48e0552895828a0f",
+      "candidate_sha256": "6bdf8b7e233332620f9af08cf690bba9828afc1525a3c533f69d4ea79c8af3cb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14268,
@@ -38,13 +54,21 @@
     "scene_code": "BOSS_GEN_DEPLOY",
     "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.049;3.388&quot;>ممارسة التعذيب أمتع دائما<br>في مجموعة!",
     "arabic_edit": "<name=&quot;SEEK&quot;><ts=&quot;0.049;3.388&quot;>ممارسة التعذيب أمتع دائما في مجموعة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "4811a464f71e4c73c15abd822db7f23f24eb072e8b39ddc40dd8ec94beb95d78",
+      "candidate_sha256": "3a48086d30bd4f32e898ce75e7367a2dba0688bd428d90724a66d12c56192380",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14269,
@@ -54,12 +78,20 @@
     "scene_code": "BOSS_GEN_DEPLOY",
     "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.047;5.41&quot;>ماذا قلت أيها اللومباكس؟<br>تريد المزيد؟ أستطيع أن<br>أضيف لك!",
     "arabic_edit": "<name=&quot;SEEK&quot;><ts=&quot;0.047;5.41&quot;>ماذا قلت أيها اللومباكس؟ تريد المزيد؟<br>أستطيع أن أضيف لك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "087c3e7cd183f3ad95247e933441f1660503348a8deaeaa409eee89531f31f1c",
+      "candidate_sha256": "a6fde1fe1efe1848e2a5bde24b1b8984957dc19455647e00597231ac25ac670e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

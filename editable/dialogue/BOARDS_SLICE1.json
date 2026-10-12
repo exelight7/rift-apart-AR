@@ -7,13 +7,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "هنا على كورسون الخامسة<br>نحتفل بالوحدة الكونية! وما<br>أفضل من الاحتفال بعربات<br>مزينة تكريما لأبطال المجرة:<br>أنا وكلانك!",
     "arabic_edit": "هنا على كورسون الخامسة نحتفل بالوحدة<br>الكونية! وما أفضل من الاحتفال بعربات مزينة<br>تكريما لأبطال المجرة: أنا وكلانك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "f7147b0f1020cb3459044e4298d4fea658437b331b55f8121d51dec4c02391c6",
+      "candidate_sha256": "566b7dfaf5ccfb29f10ee6f5bab3244e109d317990c230b1715638b171720e3b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18977,
@@ -23,13 +31,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "بينما أنا وكلانك مشغولان<br>بمقاتلة نيفاريوس، تصدم<br>عربتنا حقل طاقة غريبا<br>يحيط بالبرج فيقذفنا<br>أميالا بعيدا.",
     "arabic_edit": "بينما أنا وكلانك مشغولان بمقاتلة نيفاريوس،<br>تصدم عربتنا حقل طاقة غريبا يحيط بالبرج<br>فيقذفنا أميالا بعيدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "117bc91455d9b10ac0de34b4807f7d851cce8d5a89344343db95e5683aff2b84",
+      "candidate_sha256": "0efff9c13b4d0d82eb8e3ddc3854a4c7acb4cd25def9d48ca22eeadc4690b53c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18978,
@@ -39,13 +55,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "يستيقظ كلانك تالفا وسط<br>الأنقاض. يلقى لومباكس<br>أخرى... أنا، من بعد آخر. ينادي<br>تلك اللومباكس «ريفت».",
     "arabic_edit": "يستيقظ كلانك تالفا وسط الأنقاض. يلقى<br>لومباكس أخرى... أنا، من بعد آخر. ينادي تلك<br>اللومباكس «ريفت».",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "ccb872c19f16a8bf12cba8ade27dd2d844d5ffa8164ce6f132dcecaed744df07",
+      "candidate_sha256": "caa0a4074f6db6777e83298135b7faf697fa83396c2391b879bd28ac061485ab",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18979,
@@ -55,13 +79,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "لم أكن محظوظا مثله. وجدت<br>نفسي أصرخ وحيدا في<br>الظلام، في نسخة روبوتية<br>من كورسون الخامسة. لا<br>مسدسات، لا كلانك، ولا فكرة<br>عن كيف وصلت إلى هنا أصلا.<br>الآن علي فقط أن أعرف كيف<br>أعود إلى البيت.",
     "arabic_edit": "لم أكن محظوظا مثله. وجدت نفسي أصرخ وحيدا<br>في الظلام، في نسخة روبوتية من كورسون<br>الخامسة. لا مسدسات، لا كلانك، ولا فكرة عن<br>كيف وصلت إلى هنا أصلا. الآن علي فقط أن<br>أعرف كيف أعود إلى البيت.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "3df92ae532c989b304e7bf72775ab04b944343db726aafe75d994563db03a4a5",
+      "candidate_sha256": "c8b5d3d4f1c3b37323f91bb575e07b4dbc3fc0292453e443a56dfe21a0a54650",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18980,
@@ -71,13 +103,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "أجد الإمبراطور نيفاريوس<br>ومساعدته الروبوتية مالوري<br>واقفين حول الشيء الذي بدأ<br>كل هذه الفوضى البعدية—<br>جهاز يدعى الريموت الكوني.",
     "arabic_edit": "أجد الإمبراطور نيفاريوس ومساعدته الروبوتية<br>مالوري واقفين حول الشيء الذي بدأ كل هذه<br>الفوضى البعدية— جهاز يدعى الريموت الكوني.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "0067c6813283d0b2666ce78b5ad904fcab0beee80bf8db401a01e8d9f5a2073d",
+      "candidate_sha256": "95d3fab7234d31c1df27d9a9b62d76e0d4cda24b73f82bcac98ae2647eea5460",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18981,
@@ -86,14 +126,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "بعد أن سيطر على بعده<br>سئم، والإمبراطور نيفاريوس<br>يريد المزيد. بمساعدة<br>الريموت الكوني العبقري<br>،الذي صنعته مارلوري<br>يستطيع الإمبراطور هدم<br>،الجدران بين الأبعاد<br>والاستيلاء على بعدنا<br>تاليا!",
-    "arabic_edit": "بعد أن سيطر على بعده سئم، والإمبراطور<br>نيفاريوس يريد المزيد. بمساعدة الريموت<br>الكوني العبقري ،الذي صنعته مارلوري يستطيع<br>الإمبراطور هدم ،الجدران بين الأبعاد<br>والاستيلاء على بعدنا تاليا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "بعد أن مل السيطرة على بعده، أراد<br>الإمبراطور نيفاريوس المزيد. وبمساعدة جهاز<br>التحكم الكوني العبقري الذي صنعته مالوري،<br>يمكنه هدم الحواجز بين الأبعاد، ثم<br>الاستيلاء على بعدنا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "cd573a0a538c79b88750600301e1b2e6f241a9e448c05207ed8a9caaadc343da",
+      "candidate_sha256": "385a0163c0da43b7bc1dd5e1de8acb756b29b02b56021b2037f7c47d3ef89490",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18982,
@@ -103,13 +151,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "تخطر لي فكرة عبقرية: أهرع<br>وأحطم الريموت بمفتاحي...<br>ويبدو أن ريفت خطرت لها<br>الفكرة نفسها في بعدها في<br>الوقت نفسه.",
     "arabic_edit": "تخطر لي فكرة عبقرية: أهرع وأحطم الريموت<br>بمفتاحي... ويبدو أن ريفت خطرت لها الفكرة<br>نفسها في بعدها في الوقت نفسه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "7cc7269b4699bbf0421f918ee35652b704519fdc6c0461f90e9727e0583e31d4",
+      "candidate_sha256": "6000ff2cb365852a14ed4a2e884867b083647655bb14237915f05aedd2e22889",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18983,
@@ -118,14 +174,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "لكن حين لمسته نحن الاثنان<br>في اللحظة نفسها، انفجر!<br>فطار كل منا وطارت معه شظايا<br>الريموت عبر كلا البعدين.",
-    "arabic_edit": "لكن حين لمسته نحن الاثنان في اللحظة نفسها،<br>انفجر! فطار كل منا وطارت معه شظايا الريموت<br>عبر كلا البعدين.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لكن عندما يلمسه كلانا في اللحظة نفسها،<br>ينفجر! فيقذفنا جميعًا، مع قطع الجهاز، عبر<br>البعدين.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "86dafda88cd22d42ccb8182b5e331f7ab611d7af955af5abca5c8484ba9d4adb",
+      "candidate_sha256": "10c75172bc7ef3dbbf7cea36fad399ee1964ca94d413926abe6707a742fe908e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18984,
@@ -135,13 +199,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "ما يعني في حالتي أنني<br>هبطت مباشرة في مدينة<br>نيفاريوس، حيث ألقى جنود<br>الإمبراطور نيفاريوس القبض<br>علي فورا.",
     "arabic_edit": "ما يعني في حالتي أنني هبطت مباشرة في مدينة<br>نيفاريوس، حيث ألقى جنود الإمبراطور<br>نيفاريوس القبض علي فورا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "5f421ede10f46ef80f932467c308f78deae21a441ba28001d4eb42352c0aa93c",
+      "candidate_sha256": "dadcc96434a506eca40600696cea45675f38ed95310b2079d7665f89b854ad7d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18985,
@@ -150,14 +222,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "انتهى بي المطاف مرميا على<br>سفينة نقل إلى سجن زردوم.",
-    "arabic_edit": "انتهى بي المطاف مرميا على سفينة نقل إلى<br>سجن زردوم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "وينتهي بي الأمر مرميًّا على سفينة نقل<br>متجهة إلى سجن زوردوم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "b25825a188b4b21e8cc093b4be01fb9e711a1cac1b44e56abd315a95f6d930ea",
+      "candidate_sha256": "2723f4afbc78fcc0def8c66f88f228c1e368a40c05483d82e0e44277a7bd4c57",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18986,
@@ -166,14 +246,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "محظوظون، رفيقي في الزنزانة<br>يكره الإمبراطور نيفاريوس<br>بقدر ما أكرهه.",
-    "arabic_edit": "محظوظون، رفيقي في الزنزانة يكره الإمبراطور<br>نيفاريوس بقدر ما أكرهه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لحسن الحظ، يكره زميلي في الزنزانة<br>الإمبراطور نيفاريوس بقدر ما أكرهه.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "9938824aa844836e7bbea009fa0db6e06f6a23480e5af4203446850f111c85a6",
+      "candidate_sha256": "f6582f5ae5fc278d0e6c71da06694fdaeaad42989e5f472542cc937ef44feb8b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18987,
@@ -182,14 +270,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "،بقليل من الإقناع<br>يساعدني على سرقة طراد<br>شرطة والهرب من هناك. وكان<br>الأمر رائعا...",
-    "arabic_edit": "،بقليل من الإقناع يساعدني على سرقة طراد<br>شرطة والهرب من هناك. وكان الأمر رائعا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "وبقليل من الإقناع، يساعدني على سرقة طراد<br>شرطة والفرار من هناك. وكان الأمر رائعًا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "final-meaning-002",
+      "source_sha256": "6986fb173b707f072230a7b24004d91df5c96a249ed9a229d2f1a20d48a47af9",
+      "candidate_sha256": "35180987059edf2d5e6cd12f7a182f446ce76ac2c1682c2a8e7367e2ea9c4152",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18988,
@@ -198,14 +294,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "... حتى وجدت نفسي أطير بلا<br>هدف وحيدا، ومعي قطعة<br>معدنية سميتها «كلانك»<br>كمساعد طيار.",
-    "arabic_edit": "... حتى وجدت نفسي أطير بلا هدف وحيدا، ومعي<br>قطعة معدنية سميتها «كلانك» كمساعد طيار.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "... حتى أجد نفسي أطير وحيدًا وبلا هدف،<br>ومعي قطعة معدنية سميتها «كلارك» مساعدًا<br>للطيار.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "639f600e78b154071bcada43bcd0a36f33ca7050a55ab57f161d5755ab5388f2",
+      "candidate_sha256": "d13f0d7071b9064b91f8f986e3c07051186699faa850fa8078ccac3521e8c846",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18989,
@@ -214,14 +318,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "ولذلك حين عرض إعلان عن مكان<br>اسمه حانة زوركيز ومجمع<br>المذابح، توجهت مباشرة إلى<br>هناك.",
-    "arabic_edit": "ولذلك حين عرض إعلان عن مكان اسمه حانة<br>زوركيز ومجمع المذابح، توجهت مباشرة إلى<br>هناك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لذا، عندما يعرض إعلان عن مكان يسمى «حانة<br>زوركي ومجمع المذابح»، أتوجه إليه مباشرة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "55104e7afd9c0c33ed59a785cba06065119192e985ab68ff756cb7d3701720a5",
+      "candidate_sha256": "eb194b312a8b3f3f9f9772403943a233f89a43579d878f6cac26322f725399a3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18990,
@@ -230,14 +342,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "انطلقت إلى سافالي. لكن<br>حين وصلت، اكتشفت أنني<br>لست الوحيد الذي يبحث عن<br>قطعة الريموت. مساعدة<br>،الإمبراطور نيفاريوس<br>مارلوري، كانت هناك هي الأخرى.",
-    "arabic_edit": "انطلقت إلى سافالي. لكن حين وصلت، اكتشفت<br>أنني لست الوحيد الذي يبحث عن قطعة الريموت.<br>مساعدة ،الإمبراطور نيفاريوس مارلوري، كانت<br>هناك هي الأخرى.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أنطلق إلى سافالي. لكن عندما أصل، أكتشف<br>أنني لست الوحيد الذي يبحث عن قطعة جهاز<br>التحكم. مساعدة الإمبراطور نيفاريوس،<br>مالوري، موجودة هناك أيضًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "4356f3139755f74414ea39ee749de8ffebb31e441ea078fe75caeb8d02f84cee",
+      "candidate_sha256": "fb0f1f8067cdb501bd6a6638ebfd821b6cdef5780adbb37ba0dc24d86107ec8f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18991,
@@ -247,13 +367,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "تخبرني أنها تكره العمل عند<br>الإمبراطور نيفاريوس وتحاول<br>منعه من تنفيذ خطته.",
     "arabic_edit": "تخبرني أنها تكره العمل عند الإمبراطور<br>نيفاريوس وتحاول منعه من تنفيذ خطته.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "3b3388fa0a351bdd9d739e2f6d26335a4cafe95d5bdcabe69ea4a31b9b4b816e",
+      "candidate_sha256": "8d9eee9343c64a64a773573b5806ae58e3e6f74be898e4b6ae45b9b7a3d241db",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18992,
@@ -262,14 +390,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "فقلت في نفسي، عدو عدوي<br>صديقي، صحيح؟ ثم نحن<br>نستفيد من مساعدة بعضنا.<br>بقوتي وذكائها، نحن زوج<br>مثالي! أمسكنا القطعة وغادرنا<br>الكوكب معا.",
-    "arabic_edit": "فقلت في نفسي، عدو عدوي صديقي، صحيح؟ ثم نحن<br>نستفيد من مساعدة بعضنا. بقوتي وذكائها، نحن<br>زوج مثالي! أمسكنا القطعة وغادرنا الكوكب<br>معا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "فأفكر: عدو عدوي صديقي، صحيح؟ وإلى جانب<br>ذلك، يمكننا مساعدة بعضنا. بقوتي وذكائها،<br>نشكل فريقًا مثاليًّا! نأخذ القطعة ونغادر<br>الكوكب معًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "232c4c8d6176624ad677d28f2fb458c8b9cacd63314c9da74178d4899a2af1d5",
+      "candidate_sha256": "9df7b578ed0aecfa78a33c94b2fee2fd4aba5bf6c3ff5c22f52ca98f7e107416",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18993,
@@ -278,14 +414,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "في الأثناء، تطير ريفت<br>وكلانك إلى سارجاسو للظفر<br>بغلاف الريموت قبل أن يصل<br>إليها نيفاريوس.",
-    "arabic_edit": "في الأثناء، تطير ريفت وكلانك إلى سارجاسو<br>للظفر بغلاف الريموت قبل أن يصل إليها<br>نيفاريوس.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "في هذه الأثناء، تطير ريفت وكلانك إلى<br>سارجاسو للحصول على غلاف جهاز التحكم قبل أن<br>يقع في يد نيفاريوس.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "bb335c5cf8e1a0818de89e4a384a0235481229061de3a0750cae4a1e5612ad78",
+      "candidate_sha256": "3b5975ec65b70af6783ab1305cbeffafaad627aee43ef1cdd85aeb4a2c3ef79e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18994,
@@ -294,14 +438,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "تشرح مارلوري أن البلورة<br>النادرة التي استخدمت<br>بطارية للريموت توجد على<br>كوكب بليزار برايم.",
-    "arabic_edit": "تشرح مارلوري أن البلورة النادرة التي<br>استخدمت بطارية للريموت توجد على كوكب<br>بليزار برايم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "توضح مالوري أن البلورة النادرة المستخدمة<br>بطارية لجهاز التحكم يمكن العثور عليها على<br>كوكب بليزار برايم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "41b37ac09aaa2e2b3dfd39e9cedfae707bf3b692a139c28040e92f09898f3e84",
+      "candidate_sha256": "4e487b9f2d8fd10635c102e2e51034a12636d8bb3ab7a4caf668cb6a5d36ae26",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18995,
@@ -310,14 +462,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "حين وصلنا اكتشفنا أن<br>نيفاريوس حطم الكوكب لئلا<br>،يستطيع أحد أن يفعل<br>حسنا... بالضبط ما نفعله<br>نحن.",
-    "arabic_edit": "حين وصلنا اكتشفنا أن نيفاريوس حطم الكوكب<br>لئلا ،يستطيع أحد أن يفعل حسنا... بالضبط ما<br>نفعله نحن.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عندما نصل، نكتشف أن نيفاريوس حطم الكوكب<br>ليمنع أي شخص من فعل... حسنًا، ما نفعله<br>بالضبط.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "ce2908446547d4aaccee8752efd5f2a2cff3ffb3471531e0fc9bf3d8c7978771",
+      "candidate_sha256": "33105207af1d86542749a20b80205cd60a95677a2a91f25a8879a81957f04bfb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18996,
@@ -326,14 +486,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "محظوظون نحن، الكوكب مخترق<br>بشقوق إلى بعدي أنا حيث<br>الكوكب في حالة مثالية.",
-    "arabic_edit": "محظوظون نحن، الكوكب مخترق بشقوق إلى بعدي<br>أنا حيث الكوكب في حالة مثالية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لحسن حظنا، الكوكب مغطى بشقوق تؤدي إلى بعدي<br>أنا، حيث ما زال الكوكب سليمًا تمامًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "0b1ab617ea394a4f48577e6a7a403a32bea2d7c99c2285c73f2fe269347fb26a",
+      "candidate_sha256": "b497086ded3f4267bcdb25e90d1a71a92878f9986a0d206e662ba531cf5069d7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18997,
@@ -343,13 +511,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "جمعنا البلورات التي نحتاجها<br>وتوجهنا إلى وجهتنا التالية.",
     "arabic_edit": "جمعنا البلورات التي نحتاجها وتوجهنا إلى<br>وجهتنا التالية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "35862bb537061cc0d081523d2f6a1c67fb18d858b836658d00396c842c10ce99",
+      "candidate_sha256": "68bdad3cf13af7fd2c6032402131eef67f1bceca10aaa4f5d428b3037b0e38c5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18998,
@@ -358,14 +534,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "أنا ومارلوري توقفنا عند كوكب<br>مولونوث للحصول على<br>مساعدة في إعادة تجميع<br>الريموت.",
-    "arabic_edit": "أنا ومارلوري توقفنا عند كوكب مولونوث<br>للحصول على مساعدة في إعادة تجميع الريموت.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أتوقف أنا ومالوري على كوكب مولونوث لطلب<br>المساعدة في إعادة تجميع جهاز التحكم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "9698878ce616f330e3509bb19e94ee125df86e4949aa529cc514da414ce835a5",
+      "candidate_sha256": "9635fab33feb8f91fbea330b9905732f6f54b3176b172f1aa7fe1cee051e9d46",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18999,
@@ -374,14 +558,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "،بكل ما نحتاج لإنهاء الريموت<br>أنا ومارلوري هبطنا في محطة<br>كيدارو للعثور على مصدر<br>الطاقة لتشغيله. حان وقت<br>إنهاء هذا.",
-    "arabic_edit": "،بكل ما نحتاج لإنهاء الريموت أنا ومارلوري<br>هبطنا في محطة كيدارو للعثور على مصدر<br>الطاقة لتشغيله. حان وقت إنهاء هذا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "وبحوزتنا كل ما نحتاجه لإكمال جهاز التحكم،<br>نهبط أنا ومالوري في محطة كيدارو بحثًا عن<br>مصدر الطاقة اللازم لتشغيله. حان وقت إنهاء<br>هذا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "1241ef314b370d5dea4ad80b5c6709d7726864892590c5847bad126d33b23199",
+      "candidate_sha256": "00526ed516895123a26a44453225620b8b3079346e3b0e6f51966c36fd8cb3fe",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19000,
@@ -390,14 +582,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "أثناء معركتنا ضد الإمبراطور<br>نيفاريوس، أرمي الريموت إلى<br>مارلوري. تشغله فينجح الأمر!",
-    "arabic_edit": "أثناء معركتنا ضد الإمبراطور نيفاريوس، أرمي<br>الريموت إلى مارلوري. تشغله فينجح الأمر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أثناء قتالنا مع الإمبراطور نيفاريوس، أقذف<br>جهاز التحكم إلى مالوري. تشغله، وينجح<br>الأمر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "31d12fb1a5d1769512c53288d80da7de9c11bc691261dd48530a9a0881487175",
+      "candidate_sha256": "f773968d82dbfe01ef307a79ade56e57e3ae1f54064dd5f65414b91b19d0acfd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19001,
@@ -406,14 +606,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "... وحينها تشرح مالوري أنها<br>ستتبنى خطته لنفسها.<br>لكن هذه المرة من أجل<br>«القضية النبيلة»<br>المتمثلة في جمع الجميع.<br>كروبوتات. ،واثقة أنها ستنجح<br>ولن تسمح لأحد بالوقوف في<br>طريقها.",
-    "arabic_edit": "... وحينها تشرح مالوري أنها ستتبنى خطته<br>لنفسها. لكن هذه المرة من أجل «القضية<br>النبيلة» المتمثلة في جمع الجميع. كروبوتات.<br>،واثقة أنها ستنجح ولن تسمح لأحد بالوقوف في<br>طريقها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "... ثم تشرح مالوري أنها ستنفذ خطته<br>لمصلحتها، لكن من أجل «القضية النبيلة»<br>المتمثلة في جمع الجميع معًا. كروبوتات. وهي<br>واثقة من قدرتها على النجاح، ولن تسمح لأحد<br>بالوقوف في طريقها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "final-meaning-002",
+      "source_sha256": "6c553b56cedd7853121bf986dab747bc1f2edcd2092a3270461ec501546a4787",
+      "candidate_sha256": "a4294e1d2c52b28140fcf072a9208bbfda41f014a076be970fa463500dfdb2ac",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19002,
@@ -422,14 +630,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "أحاول أن أردعها، لكن مارلوري<br>تستخدم الريموت لإرسالي<br>عائدا إلى حانة زوركيز.",
-    "arabic_edit": "أحاول أن أردعها، لكن مارلوري تستخدم<br>الريموت لإرسالي عائدا إلى حانة زوركيز.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أحاول إقناعها بالعدول عن ذلك، لكن مالوري<br>تستخدم جهاز التحكم لإعادتي إلى حانة زوركي.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "56411888e3fc8fc624de7d70258468ec3f679e76804fb6d7a308578b042d75dc",
+      "candidate_sha256": "971e61493239feb65f8ec08c2b92c04d1571fbcc87a55fbb37d0513a35f99a1d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19003,
@@ -438,14 +654,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "مع اختفاء الريموت ومارلوري<br>المتحصنة في كورسون<br>الخامسة تجهز خططها، الأمور لا<br>تبدو جيدة. نحتاج كل<br>المساعدة الممكنة لاقتحام<br>المكان وإيقافها.",
-    "arabic_edit": "مع اختفاء الريموت ومارلوري المتحصنة في<br>كورسون الخامسة تجهز خططها، الأمور لا تبدو<br>جيدة. نحتاج كل المساعدة الممكنة لاقتحام<br>المكان وإيقافها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "بعد اختفاء جهاز التحكم وتحصن مالوري على<br>كورسون الخامسة للاستعداد لخططها، لا تبدو<br>الأمور مبشرة. نحتاج إلى كل مساعدة ممكنة<br>لاقتحام المكان وإيقافها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "d86927d84fe1788e72ea6170f2cf5428336e6ec73f57f5f3ef595b846733b505",
+      "candidate_sha256": "5dec38e6bf51619735084aa9f921e1faece5fbcce063812b130442cab510b4cc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19004,
@@ -454,14 +678,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "علينا أنا وريفت وكلانك أن<br>نبحث في الكون عن حلفاء كي<br>نوقف مارلوري قبل أن<br>تستولي على كل شيء.",
-    "arabic_edit": "علينا أنا وريفت وكلانك أن نبحث في الكون عن<br>حلفاء كي نوقف مارلوري قبل أن تستولي على كل<br>شيء.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "علي أنا وريفت وكلانك البحث في الكون عن<br>حلفاء لنوقف مالوري قبل أن تستولي عليه.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "6d71a59338c8f85107013ac96eefd5dbf9dc12f727200e09d8eb2eb0167afd63",
+      "candidate_sha256": "baceb11c4d740383b16b9e653ea14dee07676a651ec27ff1af62455d03d90342",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19005,
@@ -470,14 +702,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "حتى مع كل حلفائنا، نحتاج<br>أسطولا لمحاربة جيش مارلوري.<br>فذهبت إلى أردوليس لأطلب<br>مساعدة قراصنة الفضاء<br>الروبوتيين.",
-    "arabic_edit": "حتى مع كل حلفائنا، نحتاج أسطولا لمحاربة<br>جيش مارلوري. فذهبت إلى أردوليس لأطلب<br>مساعدة قراصنة الفضاء الروبوتيين.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "حتى بوجود جميع حلفائنا، نحتاج إلى أسطول<br>لمحاربة جيش مالوري. لذا أذهب إلى أردوليس<br>لطلب مساعدة قراصنة الفضاء الروبوتيين.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "0c97728f316176bc0ebae2894859870cb445236a3b65afa493b106ba9505d406",
+      "candidate_sha256": "ef42a44a0eeccfe975edb4a3c8604362708149d0cedcd6d768b737e5ac4cf65a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19006,
@@ -487,13 +727,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "ألتقي بقائدهم الذي يقول<br>إنهم سيفعلون ما بوسعهم.<br>لكن بلا وعود قاطعة.",
     "arabic_edit": "ألتقي بقائدهم الذي يقول إنهم سيفعلون ما<br>بوسعهم. لكن بلا وعود قاطعة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "bdc0004b0f3edc20f1443ab5f1e98079debc95ec11897f7977a7b10bfda34f74",
+      "candidate_sha256": "752fa172277d1ea7e03154fb69cadd88165912effd92ccf09fe1133b67a2f1c5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19007,
@@ -502,14 +750,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "ها قد وصلنا. لدينا كل ما<br>يمكن أن نحتاجه لمجابهة<br>مارلوري.",
-    "arabic_edit": "ها قد وصلنا. لدينا كل ما يمكن أن نحتاجه<br>لمجابهة مارلوري.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "حانت اللحظة. لدينا كل ما قد نحتاجه لمواجهة<br>مالوري.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "5d2863bc84f53188dab917c22677374d814a1782f9b62207c0e3888c1da23eb8",
+      "candidate_sha256": "80c2a756482b079d2888c2172597e398c952e51b1111dbf460bb66aef957056d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19008,
@@ -519,13 +775,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "قبل أن نرحل، أنا وريفت<br>نفاجئ كلانك: بنيت له جسدا<br>جديدا بقطع سرقتها ريفت<br>من مولونوث.",
     "arabic_edit": "قبل أن نرحل، أنا وريفت نفاجئ كلانك: بنيت<br>له جسدا جديدا بقطع سرقتها ريفت من مولونوث.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "c960d4f6e30c1f89a7135eda97a3fe1e8333a0b45407560a654b9904783bc031",
+      "candidate_sha256": "bb0497a04348118cbc576571808dd4aee3aef56f293d8b82ec4979e7b5d87408",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19009,
@@ -535,13 +799,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "إنها لحظة مؤثرة فعلا. لنا<br>جميعا.",
     "arabic_edit": "إنها لحظة مؤثرة فعلا. لنا جميعا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "f911b904fb3cbda7ccf81b1402c2694179df357bdcfa89fce926adf79eb47a77",
+      "candidate_sha256": "138c9366b4fb831bc987bafb9ee262b61f7819fc7cdfd4acc41f9925c0a0cb87",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19010,
@@ -550,14 +822,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "لكن لا يتسع الوقت حقا<br>للاستمتاع بها. قوات مارلوري<br>تفوقنا عددا بكثير. لكن<br>تماما حين يبدو الأمل<br>مفقودا...",
-    "arabic_edit": "لكن لا يتسع الوقت حقا للاستمتاع بها. قوات<br>مارلوري تفوقنا عددا بكثير. لكن تماما حين<br>يبدو الأمل مفقودا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "ولا يتسنى لنا الاستمتاع باللحظة حقًّا.<br>فقوات مالوري تفوقنا عددًا بكثير. لكن حين<br>يبدو أن كل أمل قد ضاع...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "ba18b813228204e1bbd4a19fe4b9e8604c875a0bbdd81d38f7a8e11d43210854",
+      "candidate_sha256": "7ad034fb3f9f811b1ef6bbbe0bf43ab92808fff0e45a0bbbb72cb192ecd68e35",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19011,
@@ -567,13 +847,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "قائد القراصنة يظهر<br>ليتولى بقية المعركة!<br>وبينما يقاتلون، نتسلل<br>نحن إلى مدينة نيفاريوس.",
     "arabic_edit": "قائد القراصنة يظهر ليتولى بقية المعركة!<br>وبينما يقاتلون، نتسلل نحن إلى مدينة<br>نيفاريوس.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "492dba56a32097ea4fed4541c603e84d4e191c2897cc2612b262fb4767ec307a",
+      "candidate_sha256": "a4028ff0a69ad6bc7aac9110885836bad8e008ac968951eb1d5530183fa1e07e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19012,
@@ -582,14 +870,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "،بينما تخفت طاقة مارلوري<br>يعود الإمبراطور نيفاريوس<br>للظهور عبر أحد الصدوع التي<br>سببها الريموت، ويشده<br>إليه.",
-    "arabic_edit": "،بينما تخفت طاقة مارلوري يعود الإمبراطور<br>نيفاريوس للظهور عبر أحد الصدوع التي سببها<br>الريموت، ويشده إليه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "وبينما تتوقف مالوري عن العمل، يظهر<br>الإمبراطور نيفاريوس مجددًا عبر أحد الشقوق<br>التي أحدثها جهاز التحكم، ويستولي عليه.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "21aa783aa7b2a681937afe0748d4448d6baeaa1943178a48e4105d9be5b0b5fc",
+      "candidate_sha256": "66497ab1f686e64843ae83b5d0ba1c1f2e1259fde7dbdb56ff4ab298d11b85ef",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19013,
@@ -598,14 +894,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "في اللحظة نفسها، يحاصر<br>سرب من الروبوتات كلانك.<br>أركض لمحاولة إنقاذه. وبينما<br>نقصي يمينا ويسارا، نعد<br>بعضنا ألا ننسى أبدا<br>التقدير المتبادل بيننا.",
-    "arabic_edit": "في اللحظة نفسها، يحاصر سرب من الروبوتات<br>كلانك. أركض لمحاولة إنقاذه. وبينما نقصي<br>يمينا ويسارا، نعد بعضنا ألا ننسى أبدا<br>التقدير المتبادل بيننا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "في الوقت نفسه، يحاصر حشد من الروبوتات<br>كلانك. أركض لإنقاذه. وبينما نتعرض للضرب،<br>نتعاهد على ألا ننسى تقدير بعضنا مجددًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "97799e7f77b8db140b7be41c6060b4a65b5b0b5fa7ecbf15835a578ac875d07f",
+      "candidate_sha256": "cd1785efed13e693d5fa6408c87c084fc0ecde5fa00bf1168b086dc29d473eac",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19014,
@@ -615,13 +919,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "نقاتل جميعا فريقا واحدا<br>ونسقط الإمبراطور نيفاريوس<br>نهائيا وإلى الأبد!",
     "arabic_edit": "نقاتل جميعا فريقا واحدا ونسقط الإمبراطور<br>نيفاريوس نهائيا وإلى الأبد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "446f499f48617591d01b8e260197b0e3fc20ec7a614091b1a3f0241da99c7b4e",
+      "candidate_sha256": "1d0cef73c30c717a5adfb36dea50fc9a0aebd2a1d20df4c525c1968389a114fc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19015,
@@ -631,13 +943,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "وبينما أعود أنا وكلانك إلى<br>شؤون البطولة...",
     "arabic_edit": "وبينما أعود أنا وكلانك إلى شؤون البطولة...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "320fb61f7292b16fea88e175a976a97d8aa36be906ee478d54134e2d80ad8156",
+      "candidate_sha256": "8fe225d0b1975119a0fbac5d5b933b2762433e3254b9fdd7b4582ffb238214aa",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19016,
@@ -646,14 +966,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "،صداقات جديدة ولدت<br>والصداقات القديمة أقوى من<br>أي وقت...",
-    "arabic_edit": "،صداقات جديدة ولدت والصداقات القديمة أقوى<br>من أي وقت...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تكوّنت صداقات جديدة، وأصبحت الصداقات<br>القديمة أقوى من أي وقت مضى...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "final-meaning-002",
+      "source_sha256": "7477e44c0cab8fc352794eb904781ef78ae07bf07be0eb512597913c380dd299",
+      "candidate_sha256": "c1bba98f153283dbebda29e67e6c0add194670256eb9510eb9fb76096d2ed6d8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19017,
@@ -662,14 +990,22 @@
     "speaker_code": "RATC",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "تستخدم مارلوري الريموت<br>لفتح شق، وتركل رئيسها<br>السابق الإمبراطور<br>نيفاريوس إلى أقصى الكون<br>المعروف.",
-    "arabic_edit": "تستخدم مارلوري الريموت لفتح شق، وتركل<br>رئيسها السابق الإمبراطور نيفاريوس إلى أقصى<br>الكون المعروف.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تستخدم مالوري جهاز التحكم لفتح شق، وتركل<br>رئيسها السابق، الإمبراطور نيفاريوس، إلى<br>الطرف الآخر من الكون المعروف.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "e4feea6c2d640f9ec6861a5510cc3a3118f3a5523157276801c9d5663e1ba295",
+      "candidate_sha256": "2ad39176d14f7f5e38ba6a0062003ebef6d5a8cb05f4906bc887fe1f81a44c78",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20556,
@@ -679,13 +1015,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "أجل! هذه أنا! أشرح له أنه في<br>بعدي استولى الإمبراطور<br>نيفاريوس على الكون<br>واستبدل كل حياة عضوية<br>بالروبوتات. وأنا أقاومه. ،ونعم<br>سأعمل مع كلانك. لكن فقط<br>لأنني مضطرة.",
     "arabic_edit": "أجل! هذه أنا! أشرح له أنه في بعدي استولى<br>الإمبراطور نيفاريوس على الكون واستبدل كل<br>حياة عضوية بالروبوتات. وأنا أقاومه. ،ونعم<br>سأعمل مع كلانك. لكن فقط لأنني مضطرة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "01844f18d961f5428076a1c977b8ad3e64db41636c99e26d3e389f9f8e9d41fa",
+      "candidate_sha256": "38dee511b527cb95373c00f24e271ebdf9c0564cced106ce6c448e38127c7d40",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20557,
@@ -695,13 +1039,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "بينما يواصل الاثنان<br>مغامرتهما، أتتبع أنا وكلانك<br>الإمبراطور نيفاريوس إلى<br>وادي كريل لاستعادة غلاف<br>الريموت الكوني.",
     "arabic_edit": "بينما يواصل الاثنان مغامرتهما، أتتبع أنا<br>وكلانك الإمبراطور نيفاريوس إلى وادي كريل<br>لاستعادة غلاف الريموت الكوني.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "2b1a8ef105ac31cfba551c462980c106936d67ae048234f4e4cfff54f8670dc0",
+      "candidate_sha256": "9eed0ae8c5994011043199b94016304c797b6dc81c2088f7238c737bb66bc626",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20558,
@@ -710,14 +1062,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "أثناء سفرنا، أفتح لكلانك<br>قليلا عن ماضي وكيف فقدت<br>ذراعي.",
-    "arabic_edit": "أثناء سفرنا، أفتح لكلانك قليلا عن ماضي<br>وكيف فقدت ذراعي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "خلال رحلتنا، أبوح لكلانك ببعض ماضي وكيف<br>فقدت ذراعي.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "b3c018ea4e13188fdd9345008f47334a9e82b2d0b0f298cdb149a8f9b6e4b452",
+      "candidate_sha256": "f8d1251d43abb593767a477ef95d42434c1d69c3c5c5865f2bcedc135a75f35f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20559,
@@ -727,13 +1087,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "بدأت فعلا أثق به، ويبدو أنه<br>يثق بي أيضا.",
     "arabic_edit": "بدأت فعلا أثق به، ويبدو أنه يثق بي أيضا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "48f044111dd39b4423e10ae7952f93e72fddf2402b0b5ad5658a61164a8dfe3f",
+      "candidate_sha256": "d2aad268fc3fc2894a97cffc6ea842050dd94429954ca5a199134e4954f93fda",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20560,
@@ -743,13 +1111,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "معا نستعيد الغلاف من<br>نيفاريوس، الذي يقسم<br>ليمسك بنا مهما ذهبنا<br>بعيدا.",
     "arabic_edit": "معا نستعيد الغلاف من نيفاريوس، الذي يقسم<br>ليمسك بنا مهما ذهبنا بعيدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "de9b1f578c3ac9d7ec3fe90bcfe0c0ffe2f0d9b90e7b1aded3ade985a927df6d",
+      "candidate_sha256": "20788657e466fd3d956d47cfb951b1f0956fbe2f27fc339bb73baacb3af9f850",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20561,
@@ -758,14 +1134,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "نخرج من هناك مسرعين لنلحق<br>براتشت ومارلوري في محطة<br>كيدارو لتشغيل الريموت<br>الكوني بعد إعادة بنائه.",
-    "arabic_edit": "نخرج من هناك مسرعين لنلحق براتشت ومارلوري<br>في محطة كيدارو لتشغيل الريموت الكوني بعد<br>إعادة بنائه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "نسرع إلى المغادرة لننضم إلى راتشت ومالوري<br>في محطة كيدارو، لتشغيل جهاز التحكم بعد<br>إعادة تجميعه.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "fd60da5842a285afea4e0609b88f6b98ded80284aa636a0bee4ecf5a3353f52b",
+      "candidate_sha256": "56681efe9b63282153251310b1bf12f2ed86d16e47035189633e928873dce142",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20562,
@@ -774,14 +1158,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "،يعود راتشت إلى وادي كريل<br>،وأعود أنا وكلانك إلى سافالي<br>لنرى إن استطعنا إقناع<br>المحليين بمساعدتنا على<br>إيقاف مارلوري. وبقليل من<br>الإقناع، نضيف فريقين<br>آخرين إلى قائمة حلفائنا.",
-    "arabic_edit": "،يعود راتشت إلى وادي كريل ،وأعود أنا<br>وكلانك إلى سافالي لنرى إن استطعنا إقناع<br>المحليين بمساعدتنا على إيقاف مارلوري.<br>وبقليل من الإقناع، نضيف فريقين آخرين إلى<br>قائمة حلفائنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يعود راتشت إلى وادي كريل، وأتوجه أنا<br>وكلانك إلى سافالي لنرى إن كان بوسعنا إقناع<br>السكان بمساعدتنا على إيقاف مالوري. وبقليل<br>من الإقناع، نضيف فريقين آخرين إلى قائمة<br>حلفائنا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "a35bfdfe7c7d2762fea0ed8186dec6c17d8a988589dd91af981516a76d1753ab",
+      "candidate_sha256": "97b1598109ea5bd1197baff8172b09b67c1ac5301d9cd304aed36004d21159a0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20563,
@@ -791,13 +1183,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "طمعا بضم طاقم آخر إلى<br>جيشنا، أطير أنا وكلانك إلى<br>سارجاسو للاطمئنان على<br>عاملات المنجم.",
     "arabic_edit": "طمعا بضم طاقم آخر إلى جيشنا، أطير أنا<br>وكلانك إلى سارجاسو للاطمئنان على عاملات<br>المنجم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "6e7441afa635f4f408e545ff4ab874386d99d13bcafe6adde990896c985699e3",
+      "candidate_sha256": "72a0be1ec37373a04a5736bff4c5fcedd1c9976298d6840909ff5d8413f18acd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20564,
@@ -806,14 +1206,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "في حانة زوركيز، يكتشف<br>كلانك أمرا صادما وهو يحلل<br>شيفرة مارلوري البرمجية:<br>مارلوري هي كلانك من بعدي<br>أنا!",
-    "arabic_edit": "في حانة زوركيز، يكتشف كلانك أمرا صادما وهو<br>يحلل شيفرة مارلوري البرمجية: مارلوري هي<br>كلانك من بعدي أنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عند عودتنا إلى حانة زوركي، يكتشف كلانك<br>أمرًا صادمًا أثناء تحليل الشفرة المصدرية<br>لمالوري: مالوري هي كلانك من بعدي أنا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "d151168f1c34dcbb9ed9a91f94c44efeaaa3f643dbd8492727c88e97b33d5d28",
+      "candidate_sha256": "51ee77a7ab50b483064c08f487a8feba2a6138c9e03f6b0a66a3948b6fdedd3a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20565,
@@ -822,14 +1230,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "يستطيع كلانك تنظيف<br>التلف الذي جعل مارلوري<br>شريرة بإعادة تشغيلها.<br>المشكلة أنها داخل حصن<br>تدافع عنه جيش بأكملها.",
-    "arabic_edit": "يستطيع كلانك تنظيف التلف الذي جعل مارلوري<br>شريرة بإعادة تشغيلها. المشكلة أنها داخل<br>حصن تدافع عنه جيش بأكملها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يمكن لكلانك إزالة الفساد الذي جعل مالوري<br>شريرة بإعادة تشغيلها. المشكلة أنها داخل<br>حصن يحرسه جيش.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "cd302912a26dda18847cb32c4af472179527605e0bae4f1caeebd318522f187d",
+      "candidate_sha256": "0539cee522dfafbe9f45d82c2ae3bac1e30d136c0d8abc6315319e0af355bd39",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20566,
@@ -838,14 +1254,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "أذهب أنا وكلانك إلى مصنع<br>روبوتات مارلوري في مولونوث<br>لتعطيله قبل أن تكبر<br>جيشها أكثر.",
-    "arabic_edit": "أذهب أنا وكلانك إلى مصنع روبوتات مارلوري<br>في مولونوث لتعطيله قبل أن تكبر جيشها أكثر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أتوجه أنا وكلانك إلى مصنع روبوتات مالوري<br>على مولونوث لتعطيله قبل أن تزيد حجم جيشها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "d9513edc1e9b62c8ea58a4a5dce4c64a248ba996867d75195f3146a89686154a",
+      "candidate_sha256": "a4957af63891453fea4706eb4fb4141a97a8388d5aa3d5ed483114ac2dcb9ef5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20567,
@@ -854,14 +1278,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "هناك ينقذني كلانك رغم أنه<br>ما زال غير مكتمل الأداء، أدرك أن<br>ربما لم أكن محقة حول أن كل<br>الروبوتات أشرار.",
-    "arabic_edit": "هناك ينقذني كلانك رغم أنه ما زال غير مكتمل<br>الأداء، أدرك أن ربما لم أكن محقة حول أن كل<br>الروبوتات أشرار.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "هناك، ينقذني كلانك رغم أنه لم يستعد كامل<br>وظائفه بعد، فأدرك أنني ربما أخطأت عندما<br>اعتقدت أن كل الروبوتات شريرة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "6abeeff8acdf17bae6388d931f5afa9d3f03aa4457a84621de537d4ebcd29d3f",
+      "candidate_sha256": "48e2955e68c114c55835c1cdb622277c47dcf0f904d370b9d904ae61bcaaf05b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20568,
@@ -870,14 +1302,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "نعطل المصنع ونسرع عائدين<br>إلى حانة زوركيز.",
-    "arabic_edit": "نعطل المصنع ونسرع عائدين إلى حانة زوركيز.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "نعطل المصنع ونسرع بالعودة إلى حانة زوركي.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "c201924e07d1d378c33b259cf8ba741311ed9665ef063f503cc818557cc51c30",
+      "candidate_sha256": "10be80ce001e50c66315b7c80bc35fd4b3e93efab6511eeb240d8d5499edbc90",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20569,
@@ -886,14 +1326,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "حين نصل نجد أن زوركي أرسل<br>إلى سجن زردوم! ننطلق أنا<br>وكلانك لإنقاذه.",
-    "arabic_edit": "حين نصل نجد أن زوركي أرسل إلى سجن زردوم!<br>ننطلق أنا وكلانك لإنقاذه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عندما نصل، نكتشف أن زوركي أرسل إلى سجن<br>زوردوم! ننطلق أنا وكلانك لإنقاذه.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "1968d468f657cd42e95c67061f6e31f63087143c34216c9252e27a2bb10fcf32",
+      "candidate_sha256": "797331339d14e77993791545a5087d3a2b1677d20021b85926f5a89390249a0a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20570,
@@ -902,14 +1350,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "يتضح أن رفيقه في الزنزانة<br>لا أحد أقل من الدكتور<br>نيفاريوس، الذي يتوسل<br>ليساعدنا. هو أيضا لا يريد أن<br>يحكمه مارلوري! أسمح له.",
-    "arabic_edit": "يتضح أن رفيقه في الزنزانة لا أحد أقل من<br>الدكتور نيفاريوس، الذي يتوسل ليساعدنا. هو<br>أيضا لا يريد أن يحكمه مارلوري! أسمح له.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يتضح أن زميله في الزنزانة ليس سوى الدكتور<br>نيفاريوس، الذي يتوسل إلينا للسماح له<br>بالمساعدة. فهو أيضًا لا يريد العيش تحت حكم<br>مالوري! وأسمح له.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "9552e3b20878e57d95652d90cdd489f91a4f651d9bf133de346eba41189b2523",
+      "candidate_sha256": "ebe2f34bc8c4214b1cbb4d073cf319828315cf54697654159425f407852f8cdb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20571,
@@ -918,14 +1374,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "نقاتل طريقنا خارج السجن<br>ونعود إلى حانة زوركيز.",
-    "arabic_edit": "نقاتل طريقنا خارج السجن ونعود إلى حانة<br>زوركيز.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "نشق طريقنا بالقتال خارج السجن، ونعود إلى<br>حانة زوركي.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "f789e9b53a40e9bdbf60f75ab2124b6be70567154bfb6524443c2a5635e37c4f",
+      "candidate_sha256": "0a678bf8c60ee2060c5ec104fbd38d03a60d71bb5fed69b5b8f8c741b0163607",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20572,
@@ -935,13 +1399,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "أصبحت الآن أثق أن كلانك لن<br>يغتالني، وراتشت عبر عن<br>امتنانه لصديقه.",
     "arabic_edit": "أصبحت الآن أثق أن كلانك لن يغتالني، وراتشت<br>عبر عن امتنانه لصديقه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "ef2f7ab6570844a29d9cee9f7f556728f758fbd35b22fe816447500f6592d55d",
+      "candidate_sha256": "164d37a9b60c01b0a4be1b94c4a8149e3c06510e2bafd5583563447931cd2281",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20573,
@@ -950,14 +1422,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "ومع كل حلفائنا، نذهب إلى<br>كورسون الخامسة لمواجهة<br>مارلوري.",
-    "arabic_edit": "ومع كل حلفائنا، نذهب إلى كورسون الخامسة<br>لمواجهة مارلوري.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "وبصحبة جميع حلفائنا، نتوجه إلى كورسون<br>الخامسة لمواجهة مالوري.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "3034c667184c5b5a45b7769c597f3c3af5d625eb426ac6f4e3b5679dba77faf9",
+      "candidate_sha256": "d9101e5c1269f16529cf8cb1d4d0631ad22b8ed95e6ab7b14b903608f9da594b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20574,
@@ -967,13 +1447,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "حين تدخل سفينتنا<br>الحربية الصدع، نستطيع<br>جميعا شغل نفس البعد.<br>وأخيرا يعود كلانك إلى<br>راتشت.",
     "arabic_edit": "حين تدخل سفينتنا الحربية الصدع، نستطيع<br>جميعا شغل نفس البعد. وأخيرا يعود كلانك إلى<br>راتشت.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "e7562984c4cd6fad008256abe12db3ea1978bd6d6f80ec389824c183a5a9292e",
+      "candidate_sha256": "d9e2bc90ec143a0d07580b4aaf71c7ae02510359fcd2a69879ebfbc56bc1cf52",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20575,
@@ -982,14 +1470,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "حين نصل إلى الريموت<br>الكوني... تكون مارلوري بجواره<br>تماما.",
-    "arabic_edit": "حين نصل إلى الريموت الكوني... تكون مارلوري<br>بجواره تماما.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عندما نصل إلى جهاز التحكم الكوني... تكون<br>مالوري بجواره مباشرة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "6fde9d50a18f04c209422caab8b840494a257a17d7edf79bc759fc22a2341a49",
+      "candidate_sha256": "5132286503cfd6bc786961e049742c0bd685ccbf1751ae60a9ff555fe47dfb3b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20576,
@@ -999,13 +1495,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "نقاتل حتى يقترب كلانك<br>كفاية ويعيد تشغيلها.",
     "arabic_edit": "نقاتل حتى يقترب كلانك كفاية ويعيد تشغيلها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "ee4fe10fe4a96fb3add0ce815b8d37216ce3ea4e836072603f42c449d233faeb",
+      "candidate_sha256": "868b0b47092e71283be96299014752e377115752367536e51381b635171c76b4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20577,
@@ -1014,14 +1518,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "وفي تلك اللحظة تعود مارلوري<br>للعمل بعد محو شيفرتها<br>التالفة. علينا أن نتحد.",
-    "arabic_edit": "وفي تلك اللحظة تعود مارلوري للعمل بعد محو<br>شيفرتها التالفة. علينا أن نتحد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عندها، تعود مالوري إلى العمل بعد محو<br>شفرتها الفاسدة. علينا العمل معًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "89fd5a59a3791e667a599eae6df1ea92d93f5d7593a2327fb8af8689ec12a1ea",
+      "candidate_sha256": "f343f6b80444663811b904eb57ded2255b297554c5226a4a15610f21bd2a8738",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20578,
@@ -1031,13 +1543,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "نمد أيدينا... وتتطابق<br>بشكل مثالي. الرابطة<br>الجديدة تمنحنا قوة خارقة<br>تساعدنا على إنقاذ راتشت<br>وكلانك.",
     "arabic_edit": "نمد أيدينا... وتتطابق بشكل مثالي. الرابطة<br>الجديدة تمنحنا قوة خارقة تساعدنا على إنقاذ<br>راتشت وكلانك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "ae3f82c49b046804993539d9e4b0d87ab9dde452cf1d460cbf7ba90fd98bd899",
+      "candidate_sha256": "9164375e0989a453066cf67539cf367710a36cd34e144095bc37525578873815",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20579,
@@ -1046,14 +1566,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "في النهاية تعدل مارلوري<br>كلانك ليبقي الجدران بين<br>الأبعاد مفتوحة. صار بإمكان<br>العضويين والروبوتات<br>العيش معا بسلام.",
-    "arabic_edit": "في النهاية تعدل مارلوري كلانك ليبقي<br>الجدران بين الأبعاد مفتوحة. صار بإمكان<br>العضويين والروبوتات العيش معا بسلام.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "في النهاية، تعدل مالوري كلارك لإبقاء<br>الحواجز بين الأبعاد مفتوحة. ويمكن للعضويين<br>والروبوتات الآن العيش معًا في انسجام.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "a6b61a4a4c27cdff0707eee0a1d322e8a082b1ca1ff110c7cd565ff163e35ff5",
+      "candidate_sha256": "29aaeb88b927fc250687dc93b0373269b8ef724bcdd7baae02058a34307aceee",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20580,
@@ -1062,14 +1590,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "... وأنا ومارلوري ننطلقان<br>لمغامراتنا الخاصة.",
-    "arabic_edit": "... وأنا ومارلوري ننطلقان لمغامراتنا<br>الخاصة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "... وأنطلق أنا ومالوري لنخوض مغامراتنا<br>الخاصة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "b94035218b104fabe25204bd59f4605497a5881ea036ec49d52087bdac97f808",
+      "candidate_sha256": "804d82ffe352c6cd1e0f271a481130f32bc441804a34cacd606984c7b6078863",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20581,
@@ -1079,12 +1615,20 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "وما كنا لننجح لولا بعضنا.",
     "arabic_edit": "وما كنا لننجح لولا بعضنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "02f68a440c314c9fcd5f6fecea626755a70e01a80e8380f16148e0e830c24701",
+      "candidate_sha256": "9e9eef2009946290e4df6f5ff4a8c35669ecdc637fe551e37d9dcaf0131a0512",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20582,
@@ -1094,13 +1638,21 @@
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "يمكنك أن تتفهم على الأغلب<br>أنني لا أحب الروبوتات هذه<br>الأيام.",
     "arabic_edit": "يمكنك أن تتفهم على الأغلب أنني لا أحب<br>الروبوتات هذه الأيام.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "51e94369a41d46d66d8fbd11e258e9ce54099c421124b699992a4cc550a2799e",
+      "candidate_sha256": "9508d184fca84b7c17b978be0769f4a3de5017acc92ab80ae9729fae9838f026",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20583,
@@ -1109,13 +1661,21 @@
     "speaker_code": "RIVE",
     "scene_code": "BOARDS_SLICE1",
     "arabic_current": "كانت تريد إسقاط منظمة<br>الإمبراطور نيفاريوس من<br>الداخل، فانتهى بها الأمر<br>مفاسدة بشيفرته بدلا من<br>ذلك.",
-    "arabic_edit": "كانت تريد إسقاط منظمة الإمبراطور نيفاريوس<br>من الداخل، فانتهى بها الأمر مفاسدة بشيفرته<br>بدلا من ذلك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أرادت إسقاط نظام الإمبراطور نيفاريوس من<br>الداخل، لكن شفرته أفسدتها بدلًا من ذلك.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "8694cf59617a592128128f360fc8a0d79e196b203af510c2bbdf041e8635e35d",
+      "candidate_sha256": "d9290906861e57f33ce3a9a9b2412ca9e2f2bfed0e8b9880acfced84e88b117d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

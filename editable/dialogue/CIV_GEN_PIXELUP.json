@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_PIXELUP",
     "arabic_current": "<ts=&quot;0.067;4.242&quot;>أوو، لا يمكن أن يكون عنفك<br>أكثر قدما من ذلك!",
     "arabic_edit": "<ts=&quot;0.067;4.242&quot;>أوو، لا يمكن أن يكون عنفك أكثر قدما من<br>ذلك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "037e0848e2018a2fe806fbdcd26b42d480693940e701cb5fe715546fbde7a5ca",
+      "candidate_sha256": "9f409bd93b8c296f68f24ffdf8875e44b6582ec38e47ee112d0be5708f9f2b1f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

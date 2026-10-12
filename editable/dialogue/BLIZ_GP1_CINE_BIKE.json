@@ -19,12 +19,20 @@
     "scene_code": "BLIZ_GP1_CINE_BIKE",
     "arabic_current": "<ts=&quot;0;1.75&quot;>يبدو أننا وجدنا بونتيفيل!",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>يبدو أننا وجدنا بونتيفيل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "ada3f021af56525a988c904d92c8ac9fb8cb6f8b336a72974b1477aec19d682d",
+      "candidate_sha256": "f80c2241476185975f10789f211553b6a6015e5c33622596d13781d40c693409",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23314,
@@ -34,12 +42,20 @@
     "scene_code": "BLIZ_GP1_CINE_BIKE",
     "arabic_current": "<ts=&quot;0.041;2.851&quot;>من يهتم؟! أمسك اللومباكس!",
     "arabic_edit": "<ts=&quot;0.041;2.851&quot;>من يهتم؟! أمسك اللومباكس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "df471ab62cdb9a851e270f200c6d3ba0e63cba92aaf57cca95ac4b0e8396f027",
+      "candidate_sha256": "d9f97464e2076a8c462c10d355c3eaf4f4d5e1534939720987d3fa4f2adf7e9b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23616,
@@ -49,11 +65,19 @@
     "scene_code": "BLIZ_GP1_CINE_BIKE",
     "arabic_current": "<ts=&quot;0;1.4&quot;>يا صاح، أين نحن؟!",
     "arabic_edit": "<ts=&quot;0;1.4&quot;>يا صاح، أين نحن؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "2c567032cc6009a329672187f9f806580066284e45205f4858ab8f3771c6fb33",
+      "candidate_sha256": "b3b5e1388373fdf1edc9835f1a4403df0272bb0ca062fa425aef2c5ed3932664",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

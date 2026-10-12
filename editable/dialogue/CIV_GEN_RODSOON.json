@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_RODSOON",
     "arabic_current": "<ts=&quot;0.064;4.839&quot;>ما زلت أعالج تلك، التيارات<br>يجب أن تكون مضبوطة تماما!",
-    "arabic_edit": "<ts=&quot;0.064;4.839&quot;>ما زلت أعالج تلك، التيارات يجب أن تكون<br>مضبوطة تماما!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.064;4.839&quot;>ما زلت أضبط هذا السلاح. يجب معايرة<br>التيارات بدقة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "6a1310a68ee7ebbb12fe625adc3db4e90693e80800fdf71dba6205ea2e435513",
+      "candidate_sha256": "157dfd93aa683aa5c75a653276c9518e096fa9b480cf093d8f4415f714baf49e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

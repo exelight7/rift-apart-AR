@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_WARPUP",
     "arabic_current": "<ts=&quot;0;0.35&quot;>،اسمع جيدا<ts=&quot;2.05;5.325&quot;>لا شيء يهرب من الثقب<br>الأسود، والآن لا أحد يهرب منك!",
-    "arabic_edit": "<ts=&quot;0;0.35&quot;>،اسمع جيدا<ts=&quot;2.05;5.325&quot;>لا شيء يهرب من الثقب الأسود، والآن لا أحد<br>يهرب منك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.35&quot;>أتعلم...<ts=&quot;2.05;5.325&quot;>كيف لا يفلت شيء من الثقب الأسود؟ الآن لن<br>يفلت أحد منك!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "c6dbd2e64fad7646d17d3f25a8c71db3ac1b15b950be0ed9e3d24c4f1d4134f0",
+      "candidate_sha256": "adb922618eedf65fec6c80ad612b4d5da59013ea139576a8be0d96b7e854b6af",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

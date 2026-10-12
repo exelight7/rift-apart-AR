@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_PIXELAVAIL",
     "arabic_current": "<ts=&quot;0;5.384&quot;>الستايل القديم عاد، وعادت<br>مبكسلاتنا الحاصلة على<br>براءة الاختراع!",
-    "arabic_edit": "<ts=&quot;0;5.384&quot;>الستايل القديم عاد، وعادت مبكسلاتنا<br>الحاصلة على براءة الاختراع!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;5.384&quot;>عاد أسلوب الألعاب القديمة، وعادت معه<br>مبكسلاتنا الحاصلة على براءة اختراع!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "3fb05c84fb04ec21936a3e7307450a78f068fe9501b1071e6f1c5dddcccfe02f",
+      "candidate_sha256": "47d46b2e204a4554a5d140fdc3deef6e3812a8ef17f1a56432b58875caa8e85c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

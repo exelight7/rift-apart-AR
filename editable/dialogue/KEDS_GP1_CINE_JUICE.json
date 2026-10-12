@@ -7,11 +7,19 @@
     "scene_code": "KEDS_GP1_CINE_JUICE",
     "arabic_current": "<ts=&quot;0;0.966&quot;>ما هذا؟!",
     "arabic_edit": "<ts=&quot;0;0.966&quot;>ما هذا؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "51a7f21805c3d552cb589e221e018daaf92586e944638684a41eb28faa3ca7cd",
+      "candidate_sha256": "d0f2895c31dda3cc5a1e6061d2b86cfdefd016bc217f37221f47810325a5bfe6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

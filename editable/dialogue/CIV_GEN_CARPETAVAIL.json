@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_CARPETAVAIL",
     "arabic_current": "<ts=&quot;0;3.102&quot;>أبهر الجميع بدخولك مع قاذف<br>القنابل؛<ts=&quot;3.146;6.555&quot;>ومتعة الانفجارات مضمونة!",
     "arabic_edit": "<ts=&quot;0;3.102&quot;>أبهر الجميع بدخولك مع قاذف القنابل؛<ts=&quot;3.146;6.555&quot;>ومتعة الانفجارات مضمونة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "1397b4efa8e030274ef13bcae8966327596fff8f208667f1854ff32df7200502",
+      "candidate_sha256": "776fa3492f86396c513b2a311cbefb17904863f0ffa01574f0ca2e9bc14b656d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

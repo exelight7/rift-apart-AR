@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_BUYSHATT",
     "arabic_current": "<ts=&quot;1.119;4.524&quot;>أوه هوهو! حان وقت تفجير بعض<br>الأشرار!",
     "arabic_edit": "<ts=&quot;1.119;4.524&quot;>أوه هوهو! حان وقت تفجير بعض الأشرار!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "6c47261cde8105aeae6fd968ee428666a5970cc9fdd92bacef2c405a943abe72",
+      "candidate_sha256": "7c265aed4a3f873241504575f4e46e6c86a26c3a0c9645434f5f3e25bb0d1b01",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

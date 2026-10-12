@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_PIXELSOON",
     "arabic_current": "<ts=&quot;0.069;4.619&quot;>آسفة يا حبيبتي.<br>سيتعين عليك الانتظار<br>وقتا أطول قليلا من أجل ذلك<br>المبكسل.",
-    "arabic_edit": "<ts=&quot;0.069;4.619&quot;>آسفة يا حبيبتي. سيتعين عليك الانتظار وقتا<br>أطول قليلا من أجل ذلك المبكسل.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.069;4.619&quot;>آسفة، يا قمر. سيتأخر وصول المبكسل قليلًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "7b9d1b24d6903a1da4aff3a24e4e0bcbae569f7ff274ba509dc63045b243f5e5",
+      "candidate_sha256": "021eb1b5f57080790f016e5a068be2ae1791a56f0e7fe086e020368b1f0939da",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,12 +7,20 @@
     "scene_code": "",
     "arabic_current": "هل أنت مستعد؟",
     "arabic_edit": "هل أنت مستعد؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-001",
+      "source_sha256": "c40f7f053b0cc39ee16991cc201cf0adea2ecd5506df66eb8927f38edc82ca19",
+      "candidate_sha256": "964cb6607bdfcd46759a4abf45feb687277769dc14499538e20618eca890ecd5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 115,
@@ -22,12 +30,20 @@
     "scene_code": "",
     "arabic_current": "المواجهة الأخيرة على الأبواب!<br>هذه فرصتك الأخيرة للحصول<br>على الدروع وجمع المقتنيات<br>قبل نهاية القصة. هل أنت<br>متأكد من رغبتك في<br>المتابعة؟",
     "arabic_edit": "المواجهة الأخيرة على الأبواب! هذه<br>فرصتك الأخيرة للحصول على الدروع<br>وجمع المقتنيات قبل نهاية القصة. هل<br>أنت متأكد من رغبتك في المتابعة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-001",
+      "source_sha256": "e949634b975e73b4ee8d14443fe7e9ae2ffe16d4cde46ddcf604fd1e3658a2e9",
+      "candidate_sha256": "da9850508ac8ccddc74b9c09d4f3ac8620aca2b3c9f0d347a309d84dee7b1f80",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

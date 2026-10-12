@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_RICOUP",
     "arabic_current": "<ts=&quot;0.067;4.608&quot;>أحب حقا أن يضاف الانفجار إلى<br>المشهد!",
     "arabic_edit": "<ts=&quot;0.067;4.608&quot;>أحب حقا أن يضاف الانفجار إلى المشهد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "423bd90de2911ab24d731698299e0c31aea57d5eb0d7b27903a8541a555e1a59",
+      "candidate_sha256": "40ab0dbb2b4daa26ad6d672997931074574474adcf15d6565da67cc3338c38bf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

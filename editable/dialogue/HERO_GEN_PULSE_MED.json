@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_PULSE_MED",
     "arabic_current": "<ts=&quot;0.048;1.22&quot;>النبضة النووية جاهزة.",
     "arabic_edit": "<ts=&quot;0.048;1.22&quot;>النبضة النووية جاهزة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "86e72deeb369fce96b3f05cd4a9d80ba49af9e68872c3b001bcd94005cd95a3b",
+      "candidate_sha256": "3c7364cc5b11d839beb448dc9f97e36e20ab223ebb1de2c95a40c41f0048c3fb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8391,
@@ -22,13 +30,21 @@
     "scene_code": "HERO_GEN_PULSE_MED",
     "arabic_current": "<ts=&quot;0.049;1.481&quot;>النبضة النووية جاهزة<br>للانطلاق.",
     "arabic_edit": "<ts=&quot;0.049;1.481&quot;>النبضة النووية جاهزة للانطلاق.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "78999c861377e42cf7d4f255e9c2b574cda94fe77f1523efa148a008ec47a9a0",
+      "candidate_sha256": "064289012f476786828ff738b77b6d2ea16b5847d4b859f6c522868fe793633e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8392,
@@ -38,12 +54,20 @@
     "scene_code": "HERO_GEN_PULSE_MED",
     "arabic_current": "<ts=&quot;0.042;1.376&quot;>من يحتاج قنبلة...",
     "arabic_edit": "<ts=&quot;0.042;1.376&quot;>من يحتاج قنبلة...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "53a7ed4d63f7a04a0b085480cd50e1fc995cfd174fa741149806a3fa57161b8d",
+      "candidate_sha256": "a0207c0a42b088072fb60d9876eadc919776040c33b93ddcc83ab152d63727e5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8393,
@@ -53,11 +77,19 @@
     "scene_code": "HERO_GEN_PULSE_MED",
     "arabic_current": "<ts=&quot;0.047;0.936&quot;>لدينا نبضة.",
     "arabic_edit": "<ts=&quot;0.047;0.936&quot;>لدينا نبضة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "8de0f29fe1a225190913fbad9308a41a708925b496117e78ede24d8234a4d2b7",
+      "candidate_sha256": "cf4db8f1ed84b7807c45044f143936b86c61105927130fe6aa552df2a25bee52",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

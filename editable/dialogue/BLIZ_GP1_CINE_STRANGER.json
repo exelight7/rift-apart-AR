@@ -7,13 +7,21 @@
     "scene_code": "BLIZ_GP1_CINE_STRANGER",
     "arabic_current": "<ts=&quot;0;4.88&quot;>إن كان هذا يواسي، عرفت للتو<br>أن هناك بعدا آخر لا يزال فيه<br>بليزار سليما، إذا...",
     "arabic_edit": "<ts=&quot;0;4.88&quot;>إن كان هذا يواسي، عرفت للتو أن هناك بعدا<br>آخر لا يزال فيه بليزار سليما، إذا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "c6114abaa2bdb93049b8f2ff2b0aa17f5ac8c968ce1ce7bef6c192adafb490a9",
+      "candidate_sha256": "0c7f48bca7425048be19d657add23ecd10ef8055d15a5c778272bd5fdf3ec5f3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20530,
@@ -23,12 +31,20 @@
     "scene_code": "BLIZ_GP1_CINE_STRANGER",
     "arabic_current": "<ts=&quot;0.046;0.494&quot;>مه—!",
     "arabic_edit": "<ts=&quot;0.046;0.494&quot;>مه—!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "0897ef3e460ed0c38c906b6c21970aa145c0946594c73363a5ff7a994230b0b5",
+      "candidate_sha256": "dce5ffca2686d024189c740f3c83efbc7b019d704c0604ea3e0c187dcfc62f87",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22636,
@@ -37,13 +53,21 @@
     "speaker_code": "STRAN",
     "scene_code": "BLIZ_GP1_CINE_STRANGER",
     "arabic_current": "<ts=&quot;0;1.99&quot;>،ألم تعاقبني بما يكفي<ts=&quot;2.52;4.749&quot;>أيها الكون الغبي؟!",
-    "arabic_edit": "<ts=&quot;0;1.99&quot;>،ألم تعاقبني بما يكفي<ts=&quot;2.52;4.749&quot;>أيها الكون الغبي؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.99&quot;>ألم تعاقبني بما يكفي،<ts=&quot;2.52;4.749&quot;>أيها الكون الغبي؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "44e4629bc2abbf73353855f7bca1440951bb7b4735b2c2be3d60e1e17543b456",
+      "candidate_sha256": "f37a31d96eff0b089d8695d1876429911cd63c518f6a4d4d8fdc195f15ee5051",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22637,
@@ -52,14 +76,22 @@
     "speaker_code": "STRAN",
     "scene_code": "BLIZ_GP1_CINE_STRANGER",
     "arabic_current": "<ts=&quot;0;4.436&quot;>لا عمل، لا كوارتز المرحلة، لا<br>*كوكب*!<ts=&quot;4.84;6.288&quot;>ماذا تريد أيضا، ها؟!<ts=&quot;6.482;9.758&quot;>عقلي؟! حسنا، خذه!",
-    "arabic_edit": "<ts=&quot;0;4.436&quot;>لا عمل، لا كوارتز المرحلة، لا *كوكب*!<ts=&quot;4.84;6.288&quot;>ماذا تريد أيضا، ها؟!<ts=&quot;6.482;9.758&quot;>عقلي؟! حسنا، خذه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.436&quot;>لا عمل، ولا كوارتز طور، ولا كوكب!<ts=&quot;4.84;6.288&quot;>ماذا تريد أيضًا؟!<ts=&quot;6.482;9.758&quot;>عقلي؟! حسنًا، خذه!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "6670a089166a02da97160979f42b47140c5554bd3541e2e4b4c80d9f4622d00f",
+      "candidate_sha256": "0eed22a7c93fae9990f10c1f022a22397c092662b1a6b205e66014cc8b63f1a7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22638,
@@ -68,13 +100,21 @@
     "speaker_code": "STRAN",
     "scene_code": "BLIZ_GP1_CINE_STRANGER",
     "arabic_current": "<ts=&quot;0;2.201&quot;>ما زال سليما؟! ؟--كيف!<ts=&quot;3.324;6.139&quot;>بالطبع؛ بليزون!",
-    "arabic_edit": "<ts=&quot;0;2.201&quot;>ما زال سليما؟! ؟--كيف!<ts=&quot;3.324;6.139&quot;>بالطبع؛ بليزون!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.201&quot;>ما زال سليمًا؟! كيف...؟!<ts=&quot;3.324;6.139&quot;>بالطبع، البليزون!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "606c18f2b774bb32aa7d1717a9c779fc4e9591cc5a7e339d69950b274bac6b89",
+      "candidate_sha256": "874618f7582edf72bd0962d506f850efd017ff2bf6128137d9a8500c4a8790b8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22639,
@@ -84,12 +124,20 @@
     "scene_code": "BLIZ_GP1_CINE_STRANGER",
     "arabic_current": "<ts=&quot;0;2.278&quot;>إذا لم يكن الكوكب قد دمر<br>بعد...",
     "arabic_edit": "<ts=&quot;0;2.278&quot;>إذا لم يكن الكوكب قد دمر بعد...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "4a7cafaed6b96194d610369c0942aa7085a69a0ba081532b4e7f1a43426e27d6",
+      "candidate_sha256": "4fa006a7d86f67446ca1eb526eb9bb002b56c4aca4be3b1884f4db80e350bcb2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

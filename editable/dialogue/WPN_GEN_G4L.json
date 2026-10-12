@@ -7,12 +7,20 @@
     "scene_code": "WPN_GEN_G4L",
     "arabic_current": "<ts=&quot;0.035;1.49&quot;>ما هذا المرح يا صديقي؟",
     "arabic_edit": "<ts=&quot;0.035;1.49&quot;>ما هذا المرح يا صديقي؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "646ab5078f1ab93dc3d7bed7d1a8877bbd150b24f65e8144b5dad232b6dad88b",
+      "candidate_sha256": "54f128c8574d8e0812df03c5796128fa73ce7043c3d10f6ef78c73f78c0f26a7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8034,
@@ -21,14 +29,22 @@
     "speaker_code": "FUNG",
     "scene_code": "WPN_GEN_G4L",
     "arabic_current": "<ts=&quot;0;2.195&quot;>تبدو كأنك تعرف كيف تمسك<br>الحفلات!",
-    "arabic_edit": "<ts=&quot;0;2.195&quot;>تبدو كأنك تعرف كيف تمسك الحفلات!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.195&quot;>يبدو أنك تعرف كيف تستمتع بالحفلات!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "bd6fbd33ec0a7af373381bc8c83aa1e88b40ccb954b00cf7daac0f9dd471edff",
+      "candidate_sha256": "fdb38062fb39ba78d366b866a3ffac57a8a2509a6788d558dbed318b721bb7a3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8035,
@@ -38,12 +54,20 @@
     "scene_code": "WPN_GEN_G4L",
     "arabic_current": "<ts=&quot;0;1.25&quot;>فكر بسرعة يا صاحب!",
     "arabic_edit": "<ts=&quot;0;1.25&quot;>فكر بسرعة يا صاحب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "6e0cb10693950e150ee48716cabf35b42239c2a42d3770474bcf812610e76074",
+      "candidate_sha256": "c18bcd5dff0efaed6f14ec76267252ee1b355a0aa7ab309b30ec66d4d7464b48",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8036,
@@ -53,13 +77,21 @@
     "scene_code": "WPN_GEN_G4L",
     "arabic_current": "<ts=&quot;0;2.45&quot;>أنا السيد فنغاي، لست<br>السيد المرح!",
     "arabic_edit": "<ts=&quot;0;2.45&quot;>أنا السيد فنغاي، لست السيد المرح!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "a8bb5def6a85e128a0995fff6d8e45df7e2bd72f5a9b23bf045e75d284492739",
+      "candidate_sha256": "5d88202275cd9f9ddaccd1a744c9374d9c7bbbf657b8105f2a12457b6d40fa60",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8037,
@@ -69,12 +101,20 @@
     "scene_code": "WPN_GEN_G4L",
     "arabic_current": "<ts=&quot;0.029;2.057&quot;>يا صديقي! يا صديقي! يا<br>صديقي!",
     "arabic_edit": "<ts=&quot;0.029;2.057&quot;>يا صديقي! يا صديقي! يا صديقي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "dd9423660be0bfe4f7a2df948cc3472d6c30d7b07303c9d3d9ad62933eddf239",
+      "candidate_sha256": "994c2651e02b5dd83052d5a5b62f0bab24bc62b57bb2c58f76cd0e177a81296f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

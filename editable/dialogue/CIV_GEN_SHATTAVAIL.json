@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_SHATTAVAIL",
     "arabic_current": "<ts=&quot;0;4.9&quot;>وصلتنا قنابل التحطيم!<br>أحدث وأفضل طريقة لتفجير<br>أعدائك إلى أشتات!",
     "arabic_edit": "<ts=&quot;0;4.9&quot;>وصلتنا قنابل التحطيم! أحدث وأفضل طريقة<br>لتفجير أعدائك إلى أشتات!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "b2196a9da8d31a48e9364b474547112df01d559554477a127de6e6ed1996290e",
+      "candidate_sha256": "4557b9ea40d837b403c684c45bfb8b3822ee53e6f6a0a9d548808db3ef152178",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

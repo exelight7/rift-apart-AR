@@ -1,0 +1,1282 @@
+[
+  {
+    "index": 2,
+    "key": "ACTIVITY_CARD_CAT_ARENA",
+    "source_sha256": "37044e11eb53ef87ca5b38232a685d268f821092e5157a2f22fd91975ea32c7b",
+    "before": "باتلبلكس",
+    "after": "باتلبلكس",
+    "decision": "keep"
+  },
+  {
+    "index": 3,
+    "key": "ACTIVITY_CARD_CAT_ARENA_BRONZE",
+    "source_sha256": "dea33b9685563ba6d49ff1e6146b3b979bc66538038d9e03d01770538b1b67a0",
+    "before": "كأس البرونز",
+    "after": "الكأس البرونزية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 4,
+    "key": "ACTIVITY_CARD_CAT_ARENA_GOLD",
+    "source_sha256": "4efe657cbb94cc59bc14430417b70174f08dc077afc9e6bc72252b75602774e2",
+    "before": "كأس الذهب",
+    "after": "الكأس الذهبية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 5,
+    "key": "ACTIVITY_CARD_CAT_ARENA_SILVER",
+    "source_sha256": "78ffb31e4d07b33c396754ef5c97e655480d0457cb78d08147a09ebf0b71cb38",
+    "before": "كأس الفضة",
+    "after": "الكأس الفضية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 6,
+    "key": "ACTIVITY_CARD_CAT_BOSSES",
+    "source_sha256": "addb8394e9ecb296ca2c7617edfc5f1c5c819500bd17112bd502f4db14b362b8",
+    "before": "الزعماء",
+    "after": "الزعماء",
+    "decision": "keep"
+  },
+  {
+    "index": 7,
+    "key": "ACTIVITY_CARD_CAT_GOLDBOLTS",
+    "source_sha256": "16d42d0606d95571447498c85cbb92b26ed57fa2a21079890df083a472477814",
+    "before": "مسامير الذهب",
+    "after": "المسامير الذهبية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8,
+    "key": "ACTIVITY_CARD_CAT_HACKING",
+    "source_sha256": "acb937cc89be822f00a614292ec8606fa6e19c32994fa6670cb4a7108e82a448",
+    "before": "تحديات جليتش",
+    "after": "تحديات جليتش",
+    "decision": "keep"
+  },
+  {
+    "index": 9,
+    "key": "ACTIVITY_CARD_CAT_MAIN",
+    "source_sha256": "3208c78ab6e32b03597419ada09f2c9e81afd557b4727fed35bb2a4dce9a2839",
+    "before": "مهمة القصة",
+    "after": "مهمة القصة",
+    "decision": "keep"
+  },
+  {
+    "index": 10,
+    "key": "ACTIVITY_CARD_CAT_PLANET",
+    "source_sha256": "b6e3957877afbac525ff73eb32395fb9f6b1ff6ca664dfa6deb9cd9a69aaac7d",
+    "before": "الكوكب",
+    "after": "الكوكب",
+    "decision": "keep"
+  },
+  {
+    "index": 11,
+    "key": "ACTIVITY_CARD_CAT_POCKETDIMENSION",
+    "source_sha256": "1ca09f33c5362ad677fa2845b42bb1c961ed87bbb794469d12922d808f82487c",
+    "before": "البعد الجيبي",
+    "after": "البعد الجيبي",
+    "decision": "keep"
+  },
+  {
+    "index": 12,
+    "key": "ACTIVITY_CARD_CAT_PUZZLES",
+    "source_sha256": "6cb64d6facd08ffad5faac7d0b115f54805403a708ffaa1112d561d79ff45f10",
+    "before": "شذوذات الأبعاد",
+    "after": "الاختلالات البعدية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13,
+    "key": "ACTIVITY_CARD_CAT_SIDE",
+    "source_sha256": "1bd6e00fbaaa943abd954d3f0d78676e4ed85a445ff132b50148f00d0899735d",
+    "before": "مهمة فرعية",
+    "after": "مهمة فرعية",
+    "decision": "keep"
+  },
+  {
+    "index": 14,
+    "key": "ACTIVITY_CARD_CAT_SPYBOTS",
+    "source_sha256": "a1325cf5bcc78f074100f290202871b39c0f0d0a7e334d5ccb926edd2ffadda2",
+    "before": "سبايبوتس",
+    "after": "روبوتات التجسس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 15,
+    "key": "ACTIVITY_CARD_CAT_SPYBOTS_OBJ",
+    "source_sha256": "6c35a28560195a01dbfaaa4b1b78792fdf60e292a8e63fbc1903f30b283d02c6",
+    "before": "اجمع جميع السبايبوتات",
+    "after": "اجمع جميع روبوتات التجسس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16,
+    "key": "ACTIVITY_CARD_PLANET_ARDOLIS",
+    "source_sha256": "3d6c46c9ad70e379b85c7ca4fbcaefc3bb4f2ce4d32596ddc157c091fcbbb8d2",
+    "before": "أردوليس",
+    "after": "أردوليس",
+    "decision": "keep"
+  },
+  {
+    "index": 17,
+    "key": "ACTIVITY_CARD_PLANET_ARDOLIS_DESC",
+    "source_sha256": "9eb4db1d00a06e85b008ca3eb32c37cc5d3caa7602554f7c591ae39777e6b664",
+    "before": "قاعدة القراصنة الرئيسية — حصن —<br>التي لم تعد سرا للروبوتات التي<br>تطمح إلى حياة من المغامرة والحرية<br>والأفعال الملتبسة أخلاقيا.",
+    "after": "قاعدة القراصنة الرئيسية، التي ليست<br>سرية تمامًا، معقل للروبوتات<br>الراغبة في حياة من المغامرة<br>والحرية والأعمال الملتبسة<br>أخلاقيًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 18,
+    "key": "ACTIVITY_CARD_PLANET_BLIZAR",
+    "source_sha256": "82d4f231ea31dad75f80991cb108652dfe02efc37553d096965f520f15faf8d2",
+    "before": "بليزار برايم",
+    "after": "بليزار برايم",
+    "decision": "keep"
+  },
+  {
+    "index": 19,
+    "key": "ACTIVITY_CARD_PLANET_BLIZAR_DESC",
+    "source_sha256": "2e55a59406262aabcbcc9550dccd009a6c4b68024839d96f60153e970ca1e5f3",
+    "before": "تشتهر بليزار برايم بجمالها<br>ووظيفتها على حد سواء؛ فهي موطن<br>لعمليات تعدين توفر المصدر الرئيسي<br>للمجرة من بلورات البليزون، ومن<br>كوارتز المرحلة عند الضرورة القصوى.",
+    "after": "تشتهر بليزار برايم بجمالها<br>وأهميتها العملية. تضم مناجم تزود<br>المجرة بمعظم بلورات البليزون،<br>وبكوارتز الطور عند الضرورة القصوى.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 20,
+    "key": "ACTIVITY_CARD_PLANET_CORDELION",
+    "source_sha256": "3306fc18ee62af4d30746321a1a7ae62c3fd9dfe280ce3756756b32126f7ffd8",
+    "before": "كوردليون",
+    "after": "كوردليون",
+    "decision": "keep"
+  },
+  {
+    "index": 21,
+    "key": "ACTIVITY_CARD_PLANET_CORDELION_DESC",
+    "source_sha256": "64ef99b6c662ccd9f25b73e9adfa6dcbc7f695d8c16c39e25d7866e39928a752",
+    "before": "لا تسكن محيطات كوردليون الممتدة<br>بلا ضفاف مخلوقات جميلة وخطيرة<br>فحسب، بل فيها محطة كيدارو السرية<br>المحصنة، حيث تكمن في أعماقها مصنع<br>الروبيون التجريبية للإمبراطور.",
+    "after": "تضم محيطات كوردليون الشاسعة<br>مخلوقات كثيرة جميلة وخطيرة، فضلًا<br>عن محطة كيدارو السرية شديدة<br>التحصين، حيث يختبئ مسبك الروبيون<br>التجريبي الخاص بالإمبراطور في<br>الأعماق.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 22,
+    "key": "ACTIVITY_CARD_PLANET_CORSON",
+    "source_sha256": "0a1b2960edab311f5dac3b41dbccb467b10096b63a912d2d8da18b3880c1aa03",
+    "before": "كورسون الخامس",
+    "after": "كورسون الخامس",
+    "decision": "keep"
+  },
+  {
+    "index": 23,
+    "key": "ACTIVITY_CARD_PLANET_CORSON_DESC",
+    "source_sha256": "74031864ffe0a89fd580bab3841829f66e77628a61746afd5e54ed9ae69a91c7",
+    "before": "،كوكب متنوع نابض بالحياة يعد من<br>أسعد كواكب قطاعه؛ ،فبقدر ما هو<br>مشمس ودود تبقى عاصمته ميغالوبوليس<br>الوجهة السياحية الأشهر في الكون<br>بأسره!",
+    "after": "كوكب متنوع يعج بالحياة، ويعد من<br>أسعد كواكب قطاعه. أما عاصمته<br>ميغالوبوليس، المشمسة والودودة، فما<br>تزال الوجهة السياحية الأشهر في<br>الكون بأسره!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24,
+    "key": "ACTIVITY_CARD_PLANET_NEFCITY",
+    "source_sha256": "0a1b2960edab311f5dac3b41dbccb467b10096b63a912d2d8da18b3880c1aa03",
+    "before": "كورسون الخامس",
+    "after": "كورسون الخامس",
+    "decision": "keep"
+  },
+  {
+    "index": 25,
+    "key": "ACTIVITY_CARD_PLANET_NEFCITY_DESC",
+    "source_sha256": "1bfa7931be8aa7a2ace49b6f93fd29939549773620d7dfb7bf47d9a0c77d22b1",
+    "before": "كوكب عابس ممطر يخيم عليه وهج<br>النيون، صيغ على ذوق الإمبراطور<br>نفسه الذي لا تشوبه شائبة. وعاصمته<br>مدينة نيفاريوس من أكثر مقاصد الكون<br>زيارة لدى من يحالفهم الحظ فيسمح<br>لهم بدخول الغلاف الجوي.",
+    "after": "يكتنف كورسون الخامس الظلام والمطر<br>وأضواء النيون، وقد صمم على ذوق<br>الإمبراطور نفسه الذي لا تشوبه<br>شائبة. وعاصمته، مدينة نيفاريوس، من<br>أكثر وجهات الكون زيارة لدى<br>المحظوظين الذين يسمح لهم بدخول<br>غلافه الجوي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 26,
+    "key": "ACTIVITY_CARD_PLANET_SARGASSO",
+    "source_sha256": "625fa000810d7baa028bbe69b6b3232cca6a0e226487becd6f0043b3bcc897e4",
+    "before": "سارجاسو",
+    "after": "سارجاسو",
+    "decision": "keep"
+  },
+  {
+    "index": 27,
+    "key": "ACTIVITY_CARD_PLANET_SARGASSO_DESC",
+    "source_sha256": "1c529f4361cd3fd4d68abea2951997b75a4cb9d3788255a162612e4215175108",
+    "before": "سارجاسو؛ الأرض التي نسيها الزمن.<br>أو بالأحرى، الأرض التي ،ألقى<br>الإمبراطور نظرة عليها فلم يستطع أن<br>ينساها بسرعة كافية. أرض تغمرها<br>،المستنقعات الحمضية ،وتفعمها<br>الوحوش البدائية وتزحف فيها<br>الحشرات... الكثير الكثير من<br>الحشرات.",
+    "after": "سارجاسو، الأرض التي نسيها الزمن.<br>أو بالأحرى، الأرض التي ألقى عليها<br>الإمبراطور نظرة واحدة ثم تمنى<br>نسيانها فورًا. تملؤها المستنقعات<br>الحمضية والوحوش البدائية<br>والحشرات... حشرات كثيرة جدًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 28,
+    "key": "ACTIVITY_CARD_PLANET_SAVALI",
+    "source_sha256": "4fea25988e7773351c678d21f59761c97c810bd68f400e0f077b88f3fa134e0d",
+    "before": "سافالي",
+    "after": "سافالي",
+    "decision": "keep"
+  },
+  {
+    "index": 29,
+    "key": "ACTIVITY_CARD_PLANET_SAVALI_DESC",
+    "source_sha256": "44727e6c97d3a34585c89b4a4f9f8578d5e9ec79e3105c2a53a41fbd19893dbb",
+    "before": "كوكب هادئ يتوارى على أطراف المجرة،<br>يسكنه نساك يأوون إلى أنقاض المواقع<br>الحامية اللومباكسات القديمة<br>المتناثرة على سطحه.",
+    "after": "كوكب مسالم عند أطراف المجرة، يسكن<br>رهبانه أطلال مواقع اللومباكس<br>القديمة المتناثرة على سطحه.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 30,
+    "key": "ACTIVITY_CARD_PLANET_TORREN",
+    "source_sha256": "b2d075d2a692a9bfd9de92ee29f8d4b7f1b8f491e3f4bdfe163c24dd8a83f4d6",
+    "before": "تورين الرابع",
+    "after": "تورين الرابع",
+    "decision": "keep"
+  },
+  {
+    "index": 31,
+    "key": "ACTIVITY_CARD_PLANET_TORREN_DESC",
+    "source_sha256": "f35897bc4c261d9a1c9588a3f74e3326e15a8194f60941bc888ebc514d533eec",
+    "before": "تورين الرابع، بقدر ما هو جاف فهو<br>جبلي، موطن لآلاف الفولارد، وأكبر<br>مقلب خردة في المجرة بأسرها.",
+    "after": "تورين الرابع كوكب جاف تكسوه<br>الجبال، وموطن لأعداد لا تحصى من<br>الفولارد ولأكبر ساحة خردة في<br>المجرة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 32,
+    "key": "ACTIVITY_CARD_PLANET_VICERON",
+    "source_sha256": "4290b374aac71e1c65499e43565d520a2463fb1881061581c8d92b46ce44b650",
+    "before": "فيسرون",
+    "after": "فيسرون",
+    "decision": "keep"
+  },
+  {
+    "index": 33,
+    "key": "ACTIVITY_CARD_PLANET_VICERON_DESC",
+    "source_sha256": "58fe66dea86765542af2aeb14bfe78d1bf8d0270cea64ff18ae97109e27e8ad2",
+    "before": "تشتهر فيسرون بعواصفها القاتلة التي<br>لا تكاد تهدأ ومياهها الخادعة،<br>لكنها الأشهر بوصفها موطنا لسجن<br>زردوم — الوجهة الأخيرة لكل من يجرؤ<br>على تحدي الإمبراطور.",
+    "after": "رغم شهرة فيسرون بعواصفه القاتلة<br>الدائمة ومياهه الغادرة، فإن أشهر<br>معالمه سجن زردوم، المحطة الأخيرة<br>لكل من يجرؤ على معارضة الإمبراطور.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 34,
+    "key": "ACTIVITY_CARD_PLANET_ZURKIES",
+    "source_sha256": "1a9839126ceec9c4fd2d7aaa8ab78588b6fe4fcc4b08dff6f345133c31b8b523",
+    "before": "حقل أنقاض سكارستو",
+    "after": "حقل أنقاض سكارستو",
+    "decision": "keep"
+  },
+  {
+    "index": 35,
+    "key": "ACTIVITY_CARD_PLANET_ZURKIES_DESC",
+    "source_sha256": "b2ffb35619a83045ecca23b3dd0e96a20f5b303104d3feeb447a5627bf66cf98",
+    "before": "[[دمرها الإمبراطور نيفاريوس / بات<br>/ كوكب مزقته الحرب اليوم موطنا<br>لحانة زوركيز ،الغاستروب وباتلبلكس<br>محطة راحة تديرها عائلة للمسافرين<br>عبر المجرة الذين يودون البقاء<br>بعيدا عن الأنظار.]]",
+    "after": "[[دمره الإمبراطور نيفاريوس / كوكب<br>مزقته الحرب / بات موطنًا لحانة<br>زوركيز وساحة باتلبلكس، وهي محطة<br>استراحة تديرها عائلة للمسافرين عبر<br>المجرة ممن يرغبون في البقاء بعيدًا<br>عن الأنظار.]]",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11874,
+    "key": "LOC_ARDOLIS_BARRACKS",
+    "source_sha256": "c8d3db13eb911f488fcc778fd5fc483e4a1f60250d4cf9d9f92db358d4246924",
+    "before": "الثكنات",
+    "after": "الثكنات",
+    "decision": "keep"
+  },
+  {
+    "index": 11875,
+    "key": "LOC_ARDOLIS_BASE",
+    "source_sha256": "755ef8bf646edd420daa102aad251c22919cbf26b90a6b7e6208fdcd234c9e44",
+    "before": "كهوف القراصنة",
+    "after": "كهوف القراصنة",
+    "decision": "keep"
+  },
+  {
+    "index": 11876,
+    "key": "LOC_ARDOLIS_BEACH",
+    "source_sha256": "18681c612c460e6bc9267a401c9857fc85df08f6ac241ed012da656763587860",
+    "before": "شاطئ التيار",
+    "after": "شاطئ التيار السفلي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11877,
+    "key": "LOC_ARDOLIS_DOCK",
+    "source_sha256": "4ef68623dc079af406334d1d8f54445898544b4f18bf21ea2737a922a60c6f48",
+    "before": "ميناء كابتن",
+    "after": "ميناء القبطان",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11878,
+    "key": "LOC_ARDOLIS_ISLAND",
+    "source_sha256": "6618831f69193fadd62c7c6d09b89d465d8c3ce9abda3aa53caeedf0d6f32d92",
+    "before": "جبل الجمجمة",
+    "after": "جبل الجمجمة",
+    "decision": "keep"
+  },
+  {
+    "index": 11879,
+    "key": "LOC_ARDOLIS_LANDING",
+    "source_sha256": "f0c9d8bb5318307bfc95fae7adfba67b6551e624ec83e52d9e3e0fa9b5158d63",
+    "before": "مرسى بلاكستار",
+    "after": "مرسى بلاكستار",
+    "decision": "keep"
+  },
+  {
+    "index": 11880,
+    "key": "LOC_ARDOLIS_MARKETPLACE",
+    "source_sha256": "02dff4dafd68f13732020993aa4f71373e715bd5b5df2fad0cb83d72a9bb3b19",
+    "before": "سوق النهب",
+    "after": "سوق النهب",
+    "decision": "keep"
+  },
+  {
+    "index": 11881,
+    "key": "LOC_ARDOLIS_PIER",
+    "source_sha256": "c8bcd1b0d152bec040a256ce8f4f01dca15c5b6d94d6ebf5dc529ee5445c56ea",
+    "before": "رصيف الصيادين",
+    "after": "رصيف الصيادين",
+    "decision": "keep"
+  },
+  {
+    "index": 11882,
+    "key": "LOC_ARDOLIS_SEA",
+    "source_sha256": "faf1b5b622c974241bf47284a692207f330ca49a2e133d692115f575b4beb702",
+    "before": "بحر مفتوح",
+    "after": "البحر المفتوح",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11883,
+    "key": "LOC_ARDOLIS_TRIALS",
+    "source_sha256": "9ec4517985a046a590e40a8b96b6083809ac86275a1b0a4ab812e5ef3bd625c2",
+    "before": "اختبارات القراصنة",
+    "after": "اختبارات القراصنة",
+    "decision": "keep"
+  },
+  {
+    "index": 11884,
+    "key": "LOC_BLIZAR_ABANDONEDSITE",
+    "source_sha256": "4605d3ae7ea66f1a62622cbb1475174db7d983aa6d49ccc82c7e46e500baa2a6",
+    "before": "موقع مهجور",
+    "after": "موقع مهجور",
+    "decision": "keep"
+  },
+  {
+    "index": 11885,
+    "key": "LOC_BLIZAR_DRILL",
+    "source_sha256": "00b43ec33a278bf5f59b1b416fe60e3fe76b220879524b93282e2ea255aa54fa",
+    "before": "الحفار",
+    "after": "الحفار",
+    "decision": "keep"
+  },
+  {
+    "index": 11886,
+    "key": "LOC_BLIZAR_DRILL_RECEIVING",
+    "source_sha256": "c925cc8d8812999f5213566ec5d535478b95034e1fd17323b819755c9149cc3c",
+    "before": "منطقة استقبال الحفار",
+    "after": "منطقة استقبال الحفار",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11887,
+    "key": "LOC_BLIZAR_HONEY_CAVERNS",
+    "source_sha256": "90252b1a14a44b27a586d264d2dc1dcf3c368bf086cbad0d02924f79c6781c62",
+    "before": "كهوف الدبابير",
+    "after": "كهوف الدبابير",
+    "decision": "keep"
+  },
+  {
+    "index": 11888,
+    "key": "LOC_BLIZAR_HONEY_RIDGE",
+    "source_sha256": "bb41f7f33e43d1121bed719d3e1967665fac7c31626aa2517851861d9a424342",
+    "before": "حافة البلورات",
+    "after": "الحافة البلورية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11889,
+    "key": "LOC_BLIZAR_HONEY_ROAD",
+    "source_sha256": "fb4afb98871ac6959e0e311b44f102a055692e91ccd028e1aa1b820af56eba43",
+    "before": "طريق العسل",
+    "after": "طريق العسل",
+    "decision": "keep"
+  },
+  {
+    "index": 11890,
+    "key": "LOC_BLIZAR_LANDING",
+    "source_sha256": "d910b2096d61fcb7ad9bfef8e7f7162d32d0f56acedd2f018e98a5c561491979",
+    "before": "مهبط الهبوط؟",
+    "after": "مهبط؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11891,
+    "key": "LOC_BLIZAR_MINING",
+    "source_sha256": "2a399676529491657e33b78a0d595b993393d5b4085065dd6dfe6c3376526bb5",
+    "before": "مركز التعدين",
+    "after": "مركز التعدين",
+    "decision": "keep"
+  },
+  {
+    "index": 11892,
+    "key": "LOC_BLIZAR_OLDSITE",
+    "source_sha256": "88626b7c493d50a4d3a87d2390043ebbda3a969200655b0a0cb744c8cc5665c8",
+    "before": "موقع التعدين القديم",
+    "after": "موقع التعدين القديم",
+    "decision": "keep"
+  },
+  {
+    "index": 11893,
+    "key": "LOC_BLIZAR_PUMP",
+    "source_sha256": "21d3779e64f1bd9050cadc0fc3181527aa092cc9229c74e8b3b8c82cd989e176",
+    "before": "المضخة الهيدروليكية",
+    "after": "المضخة الهيدروليكية",
+    "decision": "keep"
+  },
+  {
+    "index": 11894,
+    "key": "LOC_BLIZAR_RESEARCH",
+    "source_sha256": "908d797699045180c83cda1a2af77ef8bf439d903d9796e25f76bebe275c1cf2",
+    "before": "منشأة الأبحاث",
+    "after": "منشأة الأبحاث",
+    "decision": "keep"
+  },
+  {
+    "index": 11895,
+    "key": "LOC_BLIZAR_RICHDEPOSIT",
+    "source_sha256": "da4dbae29da3b8c009b34886ac369e9b7f3e2b0a53d1b06e2ed605435208fe41",
+    "before": "مستودع البليزون الغني",
+    "after": "مكمن بليزون غني",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11896,
+    "key": "LOC_BLIZAR_SURVEY",
+    "source_sha256": "3f28b9fa9d88971390ecd1ae5f0dcee946e72525173ad35a826ab5d8a5e550da",
+    "before": "محطة المسح",
+    "after": "محطة المسح",
+    "decision": "keep"
+  },
+  {
+    "index": 11897,
+    "key": "LOC_BLIZAR_TRANSPORT",
+    "source_sha256": "d57f87d6fe2a0e11a40e62804d024a01c93d161f79335cbf42fa891440dcf2de",
+    "before": "نقطة نقل العمال",
+    "after": "نقطة نقل العمال",
+    "decision": "keep"
+  },
+  {
+    "index": 11898,
+    "key": "LOC_BLIZAR_WELCOME",
+    "source_sha256": "047c955264ba8e7c7ea9745cca808e1da1b26d17ffd62156669e9a57198b59df",
+    "before": "مركز الترحيب",
+    "after": "مركز الترحيب",
+    "decision": "keep"
+  },
+  {
+    "index": 11899,
+    "key": "LOC_CORDELION_BIOLOGY",
+    "source_sha256": "117be03209e9b86c66f526a37142227bd424cdb29f8bc3a57678236295dad90d",
+    "before": "قسم الأحياء",
+    "after": "قسم الأحياء",
+    "decision": "keep"
+  },
+  {
+    "index": 11900,
+    "key": "LOC_CORDELION_CONTAINMENT",
+    "source_sha256": "4b497040fe516f06e47e53665a1485af7bdab3613c09a155506a8b0d44fe7617",
+    "before": "قسم الحصاد الحيوي",
+    "after": "قسم الحصاد الحيوي",
+    "decision": "keep"
+  },
+  {
+    "index": 11901,
+    "key": "LOC_CORDELION_KEDARO_DIMENSION_OMEGA",
+    "source_sha256": "04138b20ea3d97c500eb57fe66a356e85070a71caddc89a8c7093ebd7e2eac28",
+    "before": "بعد أوميغا - محطة كيدارو",
+    "after": "محطة كيدارو — بعد أوميغا",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11902,
+    "key": "LOC_CORDELION_KEDARO_DIMENSION_UNKNOWN",
+    "source_sha256": "9d076aef685615972f8f2de32aa4055ca6de7f3f9a3027cc810c8fb22975691c",
+    "before": "بعد ؟؟؟ - محطة كيدارو",
+    "after": "محطة كيدارو — البعد ؟؟؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11903,
+    "key": "LOC_CORDELION_KEDARO_PLANET",
+    "source_sha256": "7648ef5a4d1004fda278e8304bdebb91987d18537feb6f4f53741ca66b899ac3",
+    "before": "نقطة تفتيش أمن المحطة",
+    "after": "نقطة تفتيش أمن المحطة",
+    "decision": "keep"
+  },
+  {
+    "index": 11904,
+    "key": "LOC_CORDELION_MANUFACTURING",
+    "source_sha256": "70ab62dcf87ac1248377bce801eb4057ed65af548af8cf6e7934bc40418b055f",
+    "before": "قسم التصنيع",
+    "after": "قسم التصنيع",
+    "decision": "keep"
+  },
+  {
+    "index": 11905,
+    "key": "LOC_CORDELION_MANUFACTURING_OMEGA",
+    "source_sha256": "805635c6c296520b54e2dc8de291bbdef84644b9698cdaf29b8e03cc5c9dc539",
+    "before": "مصنع الروبيون",
+    "after": "مسبك الروبيون",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11906,
+    "key": "LOC_CORDELION_OUTSIDE",
+    "source_sha256": "f4088a750a8f226b1ddb5a6ee70661a52e19ab9a1bb9e20af448f4963c2c4be9",
+    "before": "متر 300 - خندق فينيسي",
+    "after": "خندق فينيسي — 300 متر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11907,
+    "key": "LOC_CORDELION_RESEARCH",
+    "source_sha256": "3cee460c810a16766db5facca1adda19068f6005fd839ff40996ae32cb068277",
+    "before": "قسم الأبحاث",
+    "after": "قسم الأبحاث",
+    "decision": "keep"
+  },
+  {
+    "index": 11908,
+    "key": "LOC_MEGALOPOLIS_ATRIUM",
+    "source_sha256": "1438e78221e38ba2619ce30d2bcb5a385927d79af37649d1020db295e55fe835",
+    "before": "بهو وسط المدينة",
+    "after": "بهو وسط المدينة",
+    "decision": "keep"
+  },
+  {
+    "index": 11909,
+    "key": "LOC_MEGALOPOLIS_DEBRIS",
+    "source_sha256": "02bd06e1b55ec5c9a9e199fbd75674135f052f215cd00c49ccdd451abd04aaa1",
+    "before": "حقل أنقاض الأبعاد",
+    "after": "حقل أنقاض الأبعاد",
+    "decision": "keep"
+  },
+  {
+    "index": 11910,
+    "key": "LOC_MEGALOPOLIS_MALL",
+    "source_sha256": "58fa2b753350230b105a94f091800ad03c6effb774404f456064b56b2b4c5e29",
+    "before": "مركز تسوق وسط المدينة",
+    "after": "مركز تسوق وسط المدينة",
+    "decision": "keep"
+  },
+  {
+    "index": 11911,
+    "key": "LOC_MEGALOPOLIS_MECH_HEART",
+    "source_sha256": "1592504708bc117bec0a8ab1ece754f0eb6937f04f82db4116c2adbdfcee4217",
+    "before": "حجرة القلب",
+    "after": "حجرة القلب",
+    "decision": "keep"
+  },
+  {
+    "index": 11912,
+    "key": "LOC_MEGALOPOLIS_ROOFTOP",
+    "source_sha256": "23b1d78f8146a590a8bd7ea0935035876847ebd7461b17faa979401f2215a797",
+    "before": "السطح",
+    "after": "السطح",
+    "decision": "keep"
+  },
+  {
+    "index": 11913,
+    "key": "LOC_MEGALOPOLIS_SKYWAY",
+    "source_sha256": "84f3d54849da3fde6ad05cdd1826a15d9b0d853828a694ebfafd77e875a7c5fc",
+    "before": "الممر العلوي في وسط المدينة",
+    "after": "الممر العلوي في وسط المدينة",
+    "decision": "keep"
+  },
+  {
+    "index": 11914,
+    "key": "LOC_MEGALOPOLIS_TRAINSTATION",
+    "source_sha256": "80d1090c2f3f53e227c780e1f6b0981098d632c253a5e43f44d2d3b2da6dbf6c",
+    "before": "محطة القطار",
+    "after": "محطة القطار",
+    "decision": "keep"
+  },
+  {
+    "index": 11915,
+    "key": "LOC_MOLONOTH_ADJACENT",
+    "source_sha256": "b323eb9c3a15b0bf7f70be2cf219d24270014aa33018ae875a7dc69b7e94bec4",
+    "before": "بجوار لاندجكتاون",
+    "after": "محيط بلدة الخردة الصغيرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11916,
+    "key": "LOC_MOLONOTH_CAVE",
+    "source_sha256": "6faf59059dda5511579f8735f929ea4516f109cb71e737757e72e92c476784b6",
+    "before": "مغارة سايك",
+    "after": "مغارة سبايك",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11917,
+    "key": "LOC_MOLONOTH_GRAVEYARD",
+    "source_sha256": "cc7c732acebe66aa2fe2f3ab9e6494a210cb5662e99b77bd368ee3d66d533255",
+    "before": "مقبرة الآليات",
+    "after": "مقبرة الآليات",
+    "decision": "keep"
+  },
+  {
+    "index": 11918,
+    "key": "LOC_MOLONOTH_HEIGHTS",
+    "source_sha256": "8cef95778f4a785bd91e3973a6292035156b75d0795d60b5fb7061d89ef3f4a8",
+    "before": "مرتفعات الخردة",
+    "after": "مرتفعات الخردة",
+    "decision": "keep"
+  },
+  {
+    "index": 11919,
+    "key": "LOC_MOLONOTH_MINES",
+    "source_sha256": "62f5811464bbb0c1de7c89e109206b2f8e9b9de993ab0ecc8892c6c7f9b0a3a2",
+    "before": "المناجم المهجورة",
+    "after": "المناجم المهجورة",
+    "decision": "keep"
+  },
+  {
+    "index": 11920,
+    "key": "LOC_MOLONOTH_OUTSKIRTS",
+    "source_sha256": "e4f2937757400388ed2458a97a9bd6fa749f0ae63fa570fbd6c8856291fe2c50",
+    "before": "الأطراف",
+    "after": "الأطراف",
+    "decision": "keep"
+  },
+  {
+    "index": 11921,
+    "key": "LOC_MOLONOTH_PIT",
+    "source_sha256": "b73dbdc9540524502c9efdba9f68a7a926fb8a2bdebe1b166bd63463fb17a18e",
+    "before": "حفرة الصهر",
+    "after": "حفرة الصهر",
+    "decision": "keep"
+  },
+  {
+    "index": 11922,
+    "key": "LOC_MOLONOTH_SHANTYTOWN",
+    "source_sha256": "6f3ad097d7b4f862077b8eafca135b6597637a6531a0f4776a3a6d2edfd8b55c",
+    "before": "لاندجكتاون",
+    "after": "بلدة الخردة الصغيرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11923,
+    "key": "LOC_NEFCITY_ALLEY",
+    "source_sha256": "23dd95f535a5f5711ad8b300093bb9b81bcb2ad73c4962a260e7a648ce8ef5f6",
+    "before": "زقاق الخردة",
+    "after": "زقاق الخردة",
+    "decision": "keep"
+  },
+  {
+    "index": 11924,
+    "key": "LOC_NEFCITY_BAZAAR",
+    "source_sha256": "bb999af030576141cb2829458f97008a815da47f50f44928fd075fe3645a3806",
+    "before": "سوق مدينة نيفاريوس",
+    "after": "سوق مدينة نيفاريوس",
+    "decision": "keep"
+  },
+  {
+    "index": 11925,
+    "key": "LOC_NEFCITY_CLUB",
+    "source_sha256": "6faa30f2514e3dd5a4d22148a0b6836638b6ed3dbe7ff005207b19624e5d698a",
+    "before": "نادي نيفاريوس",
+    "after": "نادي نيفاريوس",
+    "decision": "keep"
+  },
+  {
+    "index": 11926,
+    "key": "LOC_NEFCITY_FACTORY",
+    "source_sha256": "6b7ff37d22684621eff217687d512589a6de1bdbd556bd1459898e4a06912ed2",
+    "before": "مصنع أعمال نيفاريوس",
+    "after": "مصنع أعمال نيفاريوس",
+    "decision": "keep"
+  },
+  {
+    "index": 11927,
+    "key": "LOC_NEFCITY_PLAZA",
+    "source_sha256": "cfd2a68d6466c818e531a73687d44fac801becd2fc7299cd4ecaa2a50ab7cf8f",
+    "before": "ساحة نيفاريوس",
+    "after": "ساحة نيفاريوس",
+    "decision": "keep"
+  },
+  {
+    "index": 11928,
+    "key": "LOC_NEFCITY_ROOFTOPS",
+    "source_sha256": "af08c7c317eb313539be0a2ea8e7d33eb57fd5b27fc117c7b3982b67b28d9749",
+    "before": "أسطح الأبراج",
+    "after": "أسطح الأبراج",
+    "decision": "keep"
+  },
+  {
+    "index": 11929,
+    "key": "LOC_NEFCITY_SHOPPING",
+    "source_sha256": "7b3c4fc2fa1941935b60c5ca88418c04a1849d00ca37de9f709d398a1b8ee327",
+    "before": "مستودع شحن نيفاريوس",
+    "after": "مستودع شحن نيفاريوس",
+    "decision": "keep"
+  },
+  {
+    "index": 11930,
+    "key": "LOC_NEFCITY_SLUMS",
+    "source_sha256": "a03b221c6c6eae7122ca51695d456d5222e524889136394944b2f9763b483615",
+    "before": "؟؟؟",
+    "after": "؟؟؟",
+    "decision": "keep"
+  },
+  {
+    "index": 11931,
+    "key": "LOC_NEFCITY_SPA",
+    "source_sha256": "3583faaaf166a3662d234bbc8493395131b44533f78f9ed074869d9dcdd9a13e",
+    "before": "منتجع نيفاريوس النهاري",
+    "after": "منتجع نيفاريوس النهاري",
+    "decision": "keep"
+  },
+  {
+    "index": 11932,
+    "key": "LOC_NEFCITY_STATION",
+    "source_sha256": "2f12d5c56a3d1cea258d6fb8d791b484f6d081f93772a64f75fb3c65f68d2e22",
+    "before": "محطة نيفاريوس",
+    "after": "محطة نيفاريوس",
+    "decision": "keep"
+  },
+  {
+    "index": 11933,
+    "key": "LOC_NEFCITY_TENEMENTS",
+    "source_sha256": "890f09bcc8deb9274be7ab0f15f8f20b11044e6e004db779cba691ca24fea49b",
+    "before": "شقق نيفاريوس الفاخرة",
+    "after": "شقق نيفاريوس الفاخرة",
+    "decision": "keep"
+  },
+  {
+    "index": 11934,
+    "key": "LOC_POCKETDIMENSION_01",
+    "source_sha256": "3d2d332212f8a797a3cadc99a567e0752443ea9503229d4fe9e0fe1e4ce7ac06",
+    "before": "بعد جيبي: 22-54-97 (اختياري)",
+    "after": "بعد جيبي: 22-54-97 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11935,
+    "key": "LOC_POCKETDIMENSION_02",
+    "source_sha256": "891441af1a11c0bdf166b99ae9baf0e0aa53c5d60012f103a6c52dee19b08986",
+    "before": "بعد جيبي: 729-2110-01 (اختياري)",
+    "after": "بعد جيبي: 729-2110-01 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11936,
+    "key": "LOC_POCKETDIMENSION_03",
+    "source_sha256": "17beb11627b23f45877fb7f0cf3144b738fe99ff419e0cd527f2a1d62e522399",
+    "before": "بعد جيبي: 78-89-50 (اختياري)",
+    "after": "بعد جيبي: 78-89-50 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11937,
+    "key": "LOC_POCKETDIMENSION_04",
+    "source_sha256": "0b418fca524484fd69421ce6fd311bbda89fdfd78c9b4e90fe130cb08775a156",
+    "before": "بعد جيبي: 731-71-86 (اختياري)",
+    "after": "بعد جيبي: 731-71-86 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11938,
+    "key": "LOC_POCKETDIMENSION_05",
+    "source_sha256": "66c3996790dfcf1806cdc4a0345354571932e8455163ce4b33aca53017b8c957",
+    "before": "بعد جيبي: 4-11-81 (اختياري)",
+    "after": "بعد جيبي: 4-11-81 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11939,
+    "key": "LOC_POCKETDIMENSION_06",
+    "source_sha256": "572aa843a3fa7457fca7b704e465bdfe7d550e5e706a417ee9003ab1e94efce1",
+    "before": "بعد جيبي: 66-66-67 (اختياري)",
+    "after": "بعد جيبي: 66-66-67 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11940,
+    "key": "LOC_POCKETDIMENSION_07",
+    "source_sha256": "c445593653f6d68271f0b5ae684bc8f0a06ae4399e92d54d94480d51d7a31d83",
+    "before": "بعد جيبي: 87-84-20 (اختياري)",
+    "after": "بعد جيبي: 87-84-20 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11941,
+    "key": "LOC_POCKETDIMENSION_08",
+    "source_sha256": "4415ad4981779024af5e3b11688e9f4560e914fd3c09f39dc0899eb3cc1bf34a",
+    "before": "بعد جيبي: 21-66-72 (اختياري)",
+    "after": "بعد جيبي: 21-66-72 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11942,
+    "key": "LOC_POCKETDIMENSION_09",
+    "source_sha256": "26a67de877c6a149ba9f170f4b8fe85bd6bf2b3e29c2fd8eda00f3f0fb9000f1",
+    "before": "بعد جيبي: 08-08-08 (اختياري)",
+    "after": "بعد جيبي: 08-08-08 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11943,
+    "key": "LOC_POCKETDIMENSION_10",
+    "source_sha256": "7ef6b264c47e2844b366a10db55165a7edbce8f0daa84bcf3674f157df7ebe59",
+    "before": "بعد جيبي: 43-63-08 (اختياري)",
+    "after": "بعد جيبي: 43-63-08 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11944,
+    "key": "LOC_POCKETDIMENSION_11",
+    "source_sha256": "6826d3b4c3b4fc8f1808f34038787b60c1de346c2ab9ee6ddf64077f7303ac93",
+    "before": "بعد جيبي: 32-34-99 (اختياري)",
+    "after": "بعد جيبي: 32-34-99 (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 11945,
+    "key": "LOC_POCKETDIMENSION_12",
+    "source_sha256": "5dcb3a006f44afdfaed2dbd744b8ccc836a92d6143ae1551e8ac0cd5df188380",
+    "before": "بعد جيبي: 65-31-99",
+    "after": "بعد جيبي: 65-31-99",
+    "decision": "keep"
+  },
+  {
+    "index": 11946,
+    "key": "LOC_SARGASSO_BRIDGE",
+    "source_sha256": "ff9e8308b3c7bf0f80ee0deadf02845c48d7ee7b9b0ee0f8cf2604a791ee62a0",
+    "before": "منشأة التحكم في الجسر",
+    "after": "منشأة التحكم في الجسر",
+    "decision": "keep"
+  },
+  {
+    "index": 11947,
+    "key": "LOC_SARGASSO_CRUISER",
+    "source_sha256": "2d693652228f4b6e8a463fc6d8c3cca668b7503160a9bb7a8187a013381e01ff",
+    "before": "طراد معركة نيفاريوس",
+    "after": "طراد نيفاريوس الحربي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11948,
+    "key": "LOC_SARGASSO_FACTORY",
+    "source_sha256": "bfb0617190f23ec0ab8590bb42789c8037ef7e1c9d62bcb96ebdc01919d59984",
+    "before": "مصنع الجيلاتونيوم",
+    "after": "مصنع الجيلاتونيوم",
+    "decision": "keep"
+  },
+  {
+    "index": 11949,
+    "key": "LOC_SARGASSO_HIDEOUT",
+    "source_sha256": "335a5b6b81591a610bfd58da4c109c49ca04b6dbff6435e18ceccb5fd9b8e739",
+    "before": "مدخل المخبأ",
+    "after": "مدخل المخبأ",
+    "decision": "keep"
+  },
+  {
+    "index": 11950,
+    "key": "LOC_SARGASSO_SWAMP",
+    "source_sha256": "83d9178934056a6b2fbc808d876bcbc592aa9ed5623d02c01e72081598b08b51",
+    "before": "موقع الحادث",
+    "after": "موقع التحطم",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11951,
+    "key": "LOC_SAVALI_AQUEDUCTS",
+    "source_sha256": "8529f857f7feafc14eea2d05554f25cc2e6a015c4b2d3d68cc4612d1ec97774f",
+    "before": "القنوات القديمة",
+    "after": "القنوات القديمة",
+    "decision": "keep"
+  },
+  {
+    "index": 11952,
+    "key": "LOC_SAVALI_ARCHIVES",
+    "source_sha256": "f0f8b3364b7b0d5489bcf43efd208b80c7e41e918405f97d68189a0932c68d31",
+    "before": "أرشيف الأبعاد",
+    "after": "أرشيف الأبعاد",
+    "decision": "keep"
+  },
+  {
+    "index": 11953,
+    "key": "LOC_SAVALI_BADLANDS",
+    "source_sha256": "8bc111fd9f4be5b74cdfa2671ce9658bccce55330772ecebb327badf4a028d2f",
+    "before": "الأراضي القشبة",
+    "after": "الأراضي الوعرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11954,
+    "key": "LOC_SAVALI_CATACOMBS",
+    "source_sha256": "aa0df5712f1fe03f69e6c471a944caff9b426514d568d92f7927f1479cc866db",
+    "before": "سراديب الموتى",
+    "after": "سراديب الموتى",
+    "decision": "keep"
+  },
+  {
+    "index": 11955,
+    "key": "LOC_SAVALI_EARTH_TEMPLE",
+    "source_sha256": "8bf5d17ec498ab0576360202cf93f10b3d0374fad1108f5bc987331b86eb057e",
+    "before": "معبد الأراضي القشبة",
+    "after": "معبد الأراضي الوعرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11956,
+    "key": "LOC_SAVALI_FLAGSHIP",
+    "source_sha256": "799e8bd68d2cb322a5698caa87f86af39ec2c321044a7bac0c1ab7409c01e667",
+    "before": "سفينة الإمبراطور نيفاريوس الأم",
+    "after": "سفينة الإمبراطور نيفاريوس الأم",
+    "decision": "keep"
+  },
+  {
+    "index": 11957,
+    "key": "LOC_SAVALI_FOREST_TEMPLE_SANCTUM",
+    "source_sha256": "c9fb3a33f3a2922c6f9a9203a96f927fb1601fb6484e120d185a1ba52f0a93ec",
+    "before": "قدس معبد الغابة",
+    "after": "حرم معبد الغابة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11958,
+    "key": "LOC_SAVALI_FOREST_TEMPLE_STEPS",
+    "source_sha256": "7e7ef4d84b6c9fb6b2501ef385d1097f4ef51334c20e8ae5c2eced969d0aa3a4",
+    "before": "درج معبد الغابة",
+    "after": "درج معبد الغابة",
+    "decision": "keep"
+  },
+  {
+    "index": 11959,
+    "key": "LOC_SAVALI_MONKTOWN",
+    "source_sha256": "8e4769c55413b2c9ed6695863ce4195c48111aee8c5a037b819000aeece4130f",
+    "before": "بلدة الرهبان",
+    "after": "بلدة الرهبان",
+    "decision": "keep"
+  },
+  {
+    "index": 11960,
+    "key": "LOC_SAVALI_PLATEAU",
+    "source_sha256": "32fd6e3f35abeeb1c2b535bdb81d9430dd51ff510398b81e83053d7bf1eb847c",
+    "before": "الهضبة",
+    "after": "الهضبة",
+    "decision": "keep"
+  },
+  {
+    "index": 11961,
+    "key": "LOC_SAVALI_ROCK_TEMPLE_PATH",
+    "source_sha256": "890ceb5020d0d2f04ea71daeac76a2942de7a8ffdac221c8ee2ae79bc39f7c0a",
+    "before": "طريق معبد الجبل",
+    "after": "طريق معبد الجبل",
+    "decision": "keep"
+  },
+  {
+    "index": 11962,
+    "key": "LOC_SAVALI_ROCK_TEMPLE_SUMMIT",
+    "source_sha256": "9cc4f6d38248fca13d68d77b5e3a0c5dd0490f6a19f6fc9e96c2fb02b0a4b088",
+    "before": "قمة معبد الجبل",
+    "after": "قمة معبد الجبل",
+    "decision": "keep"
+  },
+  {
+    "index": 11963,
+    "key": "LOC_ZORDOOM_BONEYARD",
+    "source_sha256": "ec332b060455dedce08b93ecd8c21eb777b95e234f6dc3be718cfd522048addd",
+    "before": "مقبرة العظام",
+    "after": "مقبرة العظام",
+    "decision": "keep"
+  },
+  {
+    "index": 11964,
+    "key": "LOC_ZORDOOM_CELLS",
+    "source_sha256": "0d224534f197a9d37335009b1271f951a823151b0e31e9922fd1afb907b55237",
+    "before": "زنازين التوقيف",
+    "after": "زنازين التوقيف",
+    "decision": "keep"
+  },
+  {
+    "index": 11965,
+    "key": "LOC_ZORDOOM_DISPOSAL",
+    "source_sha256": "7b96fb2c4bd4837f9225424c340d0641fad90c77a5e6701d822591ebf6825084",
+    "before": "مركز التخلص IG-29",
+    "after": "مركز التخلص من النفايات IG-29",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11966,
+    "key": "LOC_ZORDOOM_EVAC",
+    "source_sha256": "8cbcf93784c7845c1baeb82689aa5402ed18fd05a44f3a6cad910665c95aef34",
+    "before": "منصات الإخلاء الطارئ",
+    "after": "منصات الإخلاء الطارئ",
+    "decision": "keep"
+  },
+  {
+    "index": 11967,
+    "key": "LOC_ZORDOOM_GENERATOR",
+    "source_sha256": "6c6bc83bb572e4128e5afd032676ba9a9b1c96008591c5b4d462f8cfbf277dfe",
+    "before": "المولد الاحتياطي",
+    "after": "المولد الاحتياطي",
+    "decision": "keep"
+  },
+  {
+    "index": 11968,
+    "key": "LOC_ZORDOOM_HANGARS",
+    "source_sha256": "0e446a39ed1b1de61cb91b33651b25da5af99db1032a3ab08880f13ee802b67e",
+    "before": "حظائر المصادرة",
+    "after": "حظائر المركبات المصادرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11969,
+    "key": "LOC_ZORDOOM_MAXSECURITY",
+    "source_sha256": "a1f7d1f216eec406ac3f6d7d2fa4978b053f5b3053676db53b8733c18ec64fa6",
+    "before": "الأمن الأقصى",
+    "after": "قسم الحراسة المشددة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11970,
+    "key": "LOC_ZORDOOM_PROCESSING",
+    "source_sha256": "dcf60baf382845267d2843a38e53afc4a47cba01b44e336a7c6c732a3047c332",
+    "before": "مركز المعالجة",
+    "after": "مركز المعالجة",
+    "decision": "keep"
+  },
+  {
+    "index": 11971,
+    "key": "LOC_ZORDOOM_SOUTHENTRANCE",
+    "source_sha256": "f85e836e043b5204e962da5aa2a42c3b0bee6080fb958c8c17e0bb3c9c01d8bd",
+    "before": "المدخل الجنوبي",
+    "after": "المدخل الجنوبي",
+    "decision": "keep"
+  },
+  {
+    "index": 11972,
+    "key": "LOC_ZORDOOM_TRANSFER",
+    "source_sha256": "9c1db9f586eca86706a2743c100974366f49eb2350a8867a065fa1a9262a96e4",
+    "before": "مركز نقل المساجين",
+    "after": "مركز نقل السجناء",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11973,
+    "key": "LOC_ZORDOOM_TRANSFER_ALPHA",
+    "source_sha256": "f280bf158ae78a79c911a24969b44a7c11adcc5cce1412cca53aa2833d36f4e6",
+    "before": "منصة النقل ألفا",
+    "after": "منصة النقل ألفا",
+    "decision": "keep"
+  },
+  {
+    "index": 11974,
+    "key": "LOC_ZORDOOM_WARDEN",
+    "source_sha256": "27391855dd775214a8959f18be2dd5508fdba1e0a761e5a6189e244d59d05596",
+    "before": "مكتب المديرة",
+    "after": "مكتب المديرة",
+    "decision": "keep"
+  },
+  {
+    "index": 11975,
+    "key": "LOC_ZORDOOM_WESTWING",
+    "source_sha256": "788f9fb61eab6e71d0853a222f5fef61e6b9aa604f81bd16b11436c15aef2a3f",
+    "before": "كبار الزوار - الجناح الغربي",
+    "after": "الجناح الغربي — كبار الشخصيات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11976,
+    "key": "LOC_ZURKIES_PUB",
+    "source_sha256": "ffb2eeb5a5a698db9d1750efd2de46dc0b975d2b83abc257cef371a258da81b8",
+    "before": "حانة زوركيز الغاستروب والباتلبلكس",
+    "after": "حانة زوركيز وساحة باتلبلكس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12675,
+    "key": "MISSION_HUD_ARDOLIS_GP",
+    "source_sha256": "0d141f023bacfd3395a8971be05bc98e885eb1706c987ee421f8358ebb8ed7b3",
+    "before": "أنقذ كابتن كوانتوم",
+    "after": "أنقذ القبطان كوانتوم",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12676,
+    "key": "MISSION_HUD_ARDOLIS_SQ",
+    "source_sha256": "5ca8ca7ae3379d94525143a2248de07f8b3c2e602426e685e2c3fd4e3190dfc4",
+    "before": "اختياري) البحث عن الكنز)",
+    "after": "ابحث عن الكنز (اختياري)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12677,
+    "key": "MISSION_HUD_BLIZAR_GP",
+    "source_sha256": "b47035d6ddf160cb1819cb712e7d539413230b26db7ac88cc800012e83eece34",
+    "before": "ابحث عن كوارتز المرحلة",
+    "after": "اعثر على كوارتز الطور",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12678,
+    "key": "MISSION_HUD_BLIZAR_SQ",
+    "source_sha256": "b3e7d8ccc4a9494dd95cc7d24003d8f728eda6c2a7543660ec0826c57ae039d6",
+    "before": "اعثر على الطاهي المفقود (اختياري)",
+    "after": "اعثر على الطاهي المفقود (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 12679,
+    "key": "MISSION_HUD_CORSONV_GP1",
+    "source_sha256": "04ee6b6069ad6e0d28b52d4de097c7a89bc827335bac8a848ea7759bf91b7ba2",
+    "before": "اتبع مسار العرض",
+    "after": "اتبع مسار العرض",
+    "decision": "keep"
+  },
+  {
+    "index": 12680,
+    "key": "MISSION_HUD_CORSONV_GP2",
+    "source_sha256": "5c432380dfd4292594078e8ca081ec6e2a2452a36b5f1e72fe2a34153cc9dc1a",
+    "before": "ابحث عن كلانك",
+    "after": "ابحث عن كلانك",
+    "decision": "keep"
+  },
+  {
+    "index": 12681,
+    "key": "MISSION_HUD_CORSONV_GP3",
+    "source_sha256": "2e7770c25116f8264d404f4771a8577c4c802e8994ff259ae72c8f6031a956d8",
+    "before": "اهزم الإمبراطور",
+    "after": "اهزم الإمبراطور",
+    "decision": "keep"
+  },
+  {
+    "index": 12682,
+    "key": "MISSION_HUD_CORSONV_SQ",
+    "source_sha256": "10723f66c92ef9456767adf13a0950396ffc241abc36725252b843f6c19b8406",
+    "before": "اختياري) فتش في المصنع)",
+    "after": "فتش المصنع (اختياري)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12683,
+    "key": "MISSION_HUD_KEDARO_GP",
+    "source_sha256": "2037501a0866ea24023afe62283b773020b1b6863a558b332bbe079d997a9cca",
+    "before": "اصنع الناقلة البعدية",
+    "after": "اصنع جهاز الأبعاد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12684,
+    "key": "MISSION_HUD_MOLONOTH_GP",
+    "source_sha256": "6875a3d3b7dac04b9a8fe3c6eb92d6536da3ddafa00f2a9c8fe08fec1c8e25ea",
+    "before": "أصلح كوارتز المرحلة المكسور",
+    "after": "أصلح كوارتز الطور المكسور",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12685,
+    "key": "MISSION_HUD_SARGASSO_GP1",
+    "source_sha256": "27d9d76926b78a5a266e1277a37d7ae92fcb2b4de8ccad2b9319d183355c86e0",
+    "before": "خذ كلانك إلى مخبأ ريفت",
+    "after": "خذ كلانك إلى مخبأ ريفت",
+    "decision": "keep"
+  },
+  {
+    "index": 12686,
+    "key": "MISSION_HUD_SARGASSO_GP2",
+    "source_sha256": "0b67161eb1534863b8513ecb02c3aad38e2907fbfae0ab1669082f2fe933c7d0",
+    "before": "أوقف غزو الإمبراطور",
+    "after": "أوقف غزو الإمبراطور",
+    "decision": "keep"
+  },
+  {
+    "index": 12687,
+    "key": "MISSION_HUD_SARGASSO_SQ",
+    "source_sha256": "898e20cd57b99dd1a63e0b0009e7e809161771feaeea3f2682a4a2371440a44c",
+    "before": "اختياري) ساعد ترودي)",
+    "after": "ساعد ترودي (اختياري)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12688,
+    "key": "MISSION_HUD_SAVALI_GP1",
+    "source_sha256": "a383c39765018da98230d07778f9fe1ceec6806c7248725811b11f9332b90495",
+    "before": "اعثر على مخططات الناقلة البعدية",
+    "after": "اعثر على مخططات جهاز الأبعاد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12689,
+    "key": "MISSION_HUD_SAVALI_GP2",
+    "source_sha256": "16e0cf6f4fa5830efb7ebd6b20114c21d3f9d084fa088a1a56a947b65e737400",
+    "before": "اعثر على خريطة الأبعاد قبل<br>الإمبراطور",
+    "after": "اعثر على خريطة الأبعاد قبل<br>الإمبراطور",
+    "decision": "keep"
+  },
+  {
+    "index": 12690,
+    "key": "MISSION_HUD_SAVALI_SQ",
+    "source_sha256": "d100d20365b5b6d20259e90e6623033d5d4b62574e90cc1ad3d8079aed9e8310",
+    "before": "ابحث عن تاريخ اللومباكس (اختياري)",
+    "after": "ابحث عن تاريخ اللومباكس (اختياري)",
+    "decision": "keep"
+  },
+  {
+    "index": 12691,
+    "key": "MISSION_HUD_ZORDOOM_GP",
+    "source_sha256": "dc4f632c24dae165b83d42e59a91aa952c730825303402a0858d6ae059673a00",
+    "before": "أنقذ الجميع من سجن زردوم",
+    "after": "أنقذ الجميع من سجن زردوم",
+    "decision": "keep"
+  },
+  {
+    "index": 12692,
+    "key": "MISSION_HUD_ZURKIES_BRONZE_SQ",
+    "source_sha256": "5f2e1d8f0d2cf6ae8a3f36e824c2c05fb26143fb8a647f48e7459b50e72210fd",
+    "before": "اختياري) الكأس البرونزي)",
+    "after": "الكأس البرونزية (اختياري)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12693,
+    "key": "MISSION_HUD_ZURKIES_GOLD_SQ",
+    "source_sha256": "e433ffae1c03e883be603159e0e1ee2cf660fbddc16f59d43a0ca805f40f6798",
+    "before": "اختياري) الكأس الذهبي)",
+    "after": "الكأس الذهبية (اختياري)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12694,
+    "key": "MISSION_HUD_ZURKIES_GP1",
+    "source_sha256": "1e0d077e55d8f96f6990c303cff44895d8b1fb44224611bcfd5bf90b9af0cf41",
+    "before": "اعثر على القطعة لإصلاح كلانك",
+    "after": "اعثر على قطعة لإصلاح كلانك",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12695,
+    "key": "MISSION_HUD_ZURKIES_GP2",
+    "source_sha256": "4ed46670e5c0feea92a99ed8e543aad01b14fbaeaadb54aa0a1c96d5fdc903fc",
+    "before": "ابن الناقلة البعدية",
+    "after": "اصنع جهاز الأبعاد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12696,
+    "key": "MISSION_HUD_ZURKIES_GP3",
+    "source_sha256": "d9384874326fcd424438777b08f2844ba4c0cd009f45c4fbbfdb9408979e7b91",
+    "before": "أعد التجمع في حانة زوركيز",
+    "after": "اجتمع بالآخرين في حانة زوركيز",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12697,
+    "key": "MISSION_HUD_ZURKIES_GP4",
+    "source_sha256": "51cc72456ad81d4d0f07428b35cbafc79ae5a97c71f2515bd0bfc9f66bfc510e",
+    "before": "خطط للهجوم الأخير",
+    "after": "خطط للهجوم الأخير",
+    "decision": "keep"
+  }
+]

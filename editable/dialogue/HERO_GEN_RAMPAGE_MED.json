@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_RAMPAGE_MED",
     "arabic_current": "<ts=&quot;0.049;1.813&quot;>حذف، حذف، حذف!",
     "arabic_edit": "<ts=&quot;0.049;1.813&quot;>حذف، حذف، حذف!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "90053706e13b240ead87f4fd388a24f3f9f67e726df075e1e5249079b38aad37",
+      "candidate_sha256": "ee2312fb0b6ef2c270d2024a62bb26561dd3b241bfa81b28b96a1fbab364a191",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8406,
@@ -22,12 +30,20 @@
     "scene_code": "HERO_GEN_RAMPAGE_MED",
     "arabic_current": "<ts=&quot;0.042;2.402&quot;>هذه الفيروسات انتهى أمرها!",
     "arabic_edit": "<ts=&quot;0.042;2.402&quot;>هذه الفيروسات انتهى أمرها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "171e4fe1ed1099516179b092dc6e2106ad0bc1c791cfa5e100348d9fa05a42a5",
+      "candidate_sha256": "7cdf0dff44e2de7d5307b13ab46eabf153c982138849a1897c879bb7765e7057",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8407,
@@ -37,11 +53,19 @@
     "scene_code": "HERO_GEN_RAMPAGE_MED",
     "arabic_current": "<ts=&quot;0.043;1.619&quot;>الأمور تسير على ما يرام!",
     "arabic_edit": "<ts=&quot;0.043;1.619&quot;>الأمور تسير على ما يرام!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "b33dc5d2b046225fc5ff9c84df14e4b1178a2a990f60c780faa39dc739a4e42b",
+      "candidate_sha256": "fbd4588b37599f33253c9eedb357319a62ba4499eaa5b2c790ab112af4572aaa",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

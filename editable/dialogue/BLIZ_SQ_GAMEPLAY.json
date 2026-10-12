@@ -6,14 +6,22 @@
     "speaker_code": "CHEF1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.75&quot;>هيا، أين هي؟<ts=&quot;2.04;3.614&quot;>لا أستطيع إطالة صبرهم إلى<br>الأبد...",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>هيا، أين هي؟<ts=&quot;2.04;3.614&quot;>لا أستطيع إطالة صبرهم إلى الأبد...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>هيا، أين هي؟<ts=&quot;2.04;3.614&quot;>لا أستطيع إشغالهم إلى الأبد...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "f9fd1f70a7c555c8bc0c68e9f73279d2144da053aa857bf94e58c2a555ed65a2",
+      "candidate_sha256": "47ebed233570cbbfcea591857b109ac34a0001430cfb9f5a4925df8f853acfa9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1434,
@@ -22,14 +30,22 @@
     "speaker_code": "CHEF1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.009;1.522&quot;>يا لومباكس!<ts=&quot;1.853;2.825&quot;>،لا أعرف ما الذي فعلته<ts=&quot;2.854;6.656&quot;>لكن شكرا لك، شكرا لك، شكرا<br>لأنك جعلت رئيسة الطهاة<br>توليو «ملهمة» من جديد!",
-    "arabic_edit": "<ts=&quot;0.009;1.522&quot;>يا لومباكس!<ts=&quot;1.853;2.825&quot;>،لا أعرف ما الذي فعلته<ts=&quot;2.854;6.656&quot;>لكن شكرا لك، شكرا لك، شكرا لأنك جعلت رئيسة<br>الطهاة توليو «ملهمة» من جديد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.009;1.522&quot;>يا لومباكس!<ts=&quot;1.853;2.825&quot;>لا أعرف ما الذي فعلته،<ts=&quot;2.854;6.656&quot;>لكن شكرًا لك، شكرًا، شكرًا لأنك أعدت<br>«الإلهام» إلى الطاهية توليو!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "f271913ae0dedfbd612e4eea035c6d1ad0b35cd4e3b3d3b853d0bc73774219ca",
+      "candidate_sha256": "4821ea74380ae4ae7cfa13b438fab390555ead870de2f8e54baf36c6dab67d02",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1435,
@@ -38,14 +54,22 @@
     "speaker_code": "CHEF1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.048;4.115&quot;>عذرا! إذا كنت ذاهبا إلى هناك، هل<br>يمكنك البحث عن الشيف<br>توليو؟<ts=&quot;4.115;7.886&quot;>كانت، آه، يفترض أن تعود<br>بمكونات قبل ساعة.<ts=&quot;7.97;9.001&quot;>لا أعرف إن كانت قد أصيبت.",
-    "arabic_edit": "<ts=&quot;0.048;4.115&quot;>عذرا! إذا كنت ذاهبا إلى هناك، هل يمكنك<br>البحث عن الشيف توليو؟<ts=&quot;4.115;7.886&quot;>كانت، آه، يفترض أن تعود بمكونات قبل ساعة.<ts=&quot;7.97;9.001&quot;>لا أعرف إن كانت قد أصيبت.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.048;4.115&quot;>عذرًا! إن كنت ذاهبة إلى هناك، فهل تبحثين<br>عن الطاهية توليو؟<ts=&quot;4.115;7.886&quot;>كان يفترض أن تعود بالمكونات قبل ساعة.<ts=&quot;7.97;9.001&quot;>لا أعرف إن كانت قد أصيبت.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "e98cea3b427008cbfd132e80b3746a2dcb500eae8a7cba5b88a88ac8f8de73d2",
+      "candidate_sha256": "8b610e588cc2698222c8c630fc68d83a55858caa3819d121fbdb0cd71cea41b6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1436,
@@ -54,14 +78,22 @@
     "speaker_code": "CHEF1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;4.5&quot;>سيقدم الطعام بعد قليل!<br>رئيسة الطهاة توليو تشكرك<br>على صبرك!",
-    "arabic_edit": "<ts=&quot;0;4.5&quot;>سيقدم الطعام بعد قليل! رئيسة الطهاة توليو<br>تشكرك على صبرك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.5&quot;>سيقدم الطعام قريبًا! تشكركم الطاهية توليو<br>على صبركم!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "afe59b7949ee0d0a0b3d5850e7742c2590e4248fa21a2914adf467702d58b0b2",
+      "candidate_sha256": "b9b5020d47ede5ac0129374952d14fdd90f64a761fdaba885b0b3f310d339250",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1437,
@@ -71,13 +103,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.995&quot;>إن لم تعد، ربما أستفيد من<br>وصفاتي ولو مرة واحدة...",
     "arabic_edit": "<ts=&quot;0;3.995&quot;>إن لم تعد، ربما أستفيد من وصفاتي ولو مرة<br>واحدة...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "de1d7bff9b0af02127e21f0fd9ebf18740e21a704509112cb27893de344048a7",
+      "candidate_sha256": "47a0b3463dd4c0a5acd5c0ca98e5890b259a768ca9778d940e392b4b424f8070",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1438,
@@ -87,13 +127,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.412&quot;>هل حدث لها شيء فعلا هذه<br>المرة؟",
     "arabic_edit": "<ts=&quot;0;2.412&quot;>هل حدث لها شيء فعلا هذه المرة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "054d2a900407b344a02a1958ba136613bd18780309f4c23065b134d0f8328553",
+      "candidate_sha256": "96ae905e248ceb8a871ad2e90c01d565a401b0aeef6cc282cf91f4ff46fa354b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1439,
@@ -102,14 +150,22 @@
     "speaker_code": "CHEF1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.042;1.178&quot;>نشكرك!<ts=&quot;1.369;4.935&quot;>لقد كان اليوم قاسيا على<br>هؤلاء العمال، لذا سنطبخ ما<br>نستطيع<ts=&quot;4.968;7.495&quot;>لأجلهم... إن عادت توليو إلى<br>هنا أصلا.",
-    "arabic_edit": "<ts=&quot;0.042;1.178&quot;>نشكرك!<ts=&quot;1.369;4.935&quot;>لقد كان اليوم قاسيا على هؤلاء العمال، لذا<br>سنطبخ ما نستطيع<ts=&quot;4.968;7.495&quot;>لأجلهم... إن عادت توليو إلى هنا أصلا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.042;1.178&quot;>أقدر مساعدتك!<ts=&quot;1.369;4.935&quot;>مر عمال المناجم بيوم عصيب، لذا سنعد لهم<br>وليمة تواسيهم!<ts=&quot;4.968;7.495&quot;>... إن عادت توليو إلى هنا يومًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "bc2e995a1576317a60d163ff54f691e119c029c9a37f6f7ffb733f0477580e9e",
+      "candidate_sha256": "3b4a676620616cfe04abc2f8ef8d41d081b8fb6f4b96e960649574f16574e172",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1440,
@@ -118,14 +174,22 @@
     "speaker_code": "CHEF1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.023;1.958&quot;>لا بد أنني سأطلب تلك<br>الزيادة الآن.",
-    "arabic_edit": "<ts=&quot;0.023;1.958&quot;>لا بد أنني سأطلب تلك الزيادة الآن.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.023;1.958&quot;>سأطالب بتلك الزيادة في راتبي حتمًا الآن.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "b91e7be421352add3691702ecc2523bbf0e1004bd16aa39cffc56eeac487b92b",
+      "candidate_sha256": "91cb7e03eeee7714c661cdf7158f1c2a76c66824626a3866071d18e0edd3b4d3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1441,
@@ -134,14 +198,22 @@
     "speaker_code": "CHEF1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.85&quot;>توليو هي من ابتكرت هذه<br>كلها؟ همم... لا بد عظيم.",
-    "arabic_edit": "<ts=&quot;0;3.85&quot;>توليو هي من ابتكرت هذه كلها؟ همم... لا بد<br>عظيم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.85&quot;>ابتكرت توليو كل هذا؟ هم... يا لها من<br>مفاجأة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "5358c7765db3d8a9bc179ff062acf0d81b1370961c361b09adaf5e6c7c0afda0",
+      "candidate_sha256": "6d79f762f2507b44ec32d28abc7d80ab0f2ccc9fd264b189d1d5e3c285c70f12",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1442,
@@ -150,14 +222,22 @@
     "speaker_code": "CHEF1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.996&quot;>،لا أحب أن أجعلها موضوعا كبيرا<ts=&quot;1.996;4.208&quot;>لكنني أؤلف وصفاتي عبر...<ts=&quot;4.208;6.568&quot;>أن أرمي الأشياء في قدر<br>وأطبخها.",
-    "arabic_edit": "<ts=&quot;0;1.996&quot;>،لا أحب أن أجعلها موضوعا كبيرا<ts=&quot;1.996;4.208&quot;>لكنني أؤلف وصفاتي عبر...<ts=&quot;4.208;6.568&quot;>أن أرمي الأشياء في قدر وأطبخها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.996&quot;>لا أريد تضخيم الأمر،<ts=&quot;1.996;4.208&quot;>لكنني أبتكر وصفاتي بأن...<ts=&quot;4.208;6.568&quot;>ألقي أشياء في قدر وأطهوها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "e291dab382d9239638c5f3dde31859d54dff1fc3cd9caabdb20e2298d99563c3",
+      "candidate_sha256": "a13f1ad644d4cf755ccd6ef8fe44b6a25e2208d20a9f8eea56a400d631f8b8fb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1449,
@@ -166,14 +246,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.8&quot;>أنت هناك! صاحب الوبر<br>والأذنين!<ts=&quot;3.219;8.5&quot;>فكيف تحب أن تساعدنا في<br>صناعة طبق القرن القادم في<br>مجرتنا؟",
-    "arabic_edit": "<ts=&quot;0;2.8&quot;>أنت هناك! صاحب الوبر والأذنين!<ts=&quot;3.219;8.5&quot;>فكيف تحب أن تساعدنا في صناعة طبق القرن<br>القادم في مجرتنا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.8&quot;>أنت هناك! يا ذات الفرو والأذنين!<ts=&quot;3.219;8.5&quot;>ما رأيك بالمساعدة في إعداد طبق القرن<br>القادم في مجرتنا؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "617ba2924667ce167922257ebb5f7e0fb52f5610bda393f7ca48052d469e67f9",
+      "candidate_sha256": "0348b16bb6e6c66cce234a9c72b4de439ff28114f34add7a976a3e8c85bd0955",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1450,
@@ -182,14 +270,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.032;1.757&quot;>لا تجب، فالسؤال بلاغي.<ts=&quot;2.032;6.546&quot;>اصعد إلى حافة البلورات<br>وسنبدأ.",
-    "arabic_edit": "<ts=&quot;0.032;1.757&quot;>لا تجب، فالسؤال بلاغي.<ts=&quot;2.032;6.546&quot;>اصعد إلى حافة البلورات وسنبدأ.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.032;1.757&quot;>لا تجيبي، إنه سؤال بلاغي.<ts=&quot;2.032;6.546&quot;>اصعدي إلى حافة البلورات وسنبدأ.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "1419084df45d2273946e2049c99ecb18e47cf06a1706ae0e8ec301ce78b6b54f",
+      "candidate_sha256": "9e171d0c1753a832814883d514c8439743efe77a7c173d5838c3468ae6f8ebc7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1451,
@@ -198,14 +294,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.38&quot;>أرى أن حياة الطبخ تناديك<br>أيضا!<ts=&quot;3.76;7.589&quot;>ويجب أن تكون هناك قافزات<br>في المحاجر ترفعك إلى هنا.",
-    "arabic_edit": "<ts=&quot;0;3.38&quot;>أرى أن حياة الطبخ تناديك أيضا!<ts=&quot;3.76;7.589&quot;>ويجب أن تكون هناك قافزات في المحاجر ترفعك<br>إلى هنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.38&quot;>أرى أن حياة الطهو تناديك أيضًا!<ts=&quot;3.76;7.589&quot;>يفترض أن تجدي قافزات المحاجر بالقرب منك<br>لتساعدك على الصعود إلى هنا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "603bb9f0c70b4577a04c2c2c87b3b70d1ea0610c1045d469a2aadcd6f7340742",
+      "candidate_sha256": "5669c6a662d4dc4c5ddb8f7ba6b46c840c2a9bea2d80452fd9fa54059734af00",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1452,
@@ -215,12 +319,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;1.189&quot;>هيا! هيا!",
     "arabic_edit": "<ts=&quot;0.049;1.189&quot;>هيا! هيا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "10c9258e0ca74cef7b74b8eb8beef92d5a6f2088bcddee84aa4b45f050252abd",
+      "candidate_sha256": "317fac798c60fd9a094cbf56404faac7d3ffb7f9d84a2c6e85e0f76cf37ef4a8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1453,
@@ -229,14 +341,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.8&quot;>الآن، ستستغرق الآلة لحظة<br>،لتسخن<ts=&quot;2.8;5.25&quot;>فكن منتبها للمتسللين.",
-    "arabic_edit": "<ts=&quot;0;2.8&quot;>الآن، ستستغرق الآلة لحظة ،لتسخن<ts=&quot;2.8;5.25&quot;>فكن منتبها للمتسللين.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.8&quot;>تحتاج الآلة إلى لحظة حتى تسخن،<ts=&quot;2.8;5.25&quot;>لذا راقبي أي متسللين.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "91c790ac8d19c07b28332788400c62cfbfe80184e6d7d4498db56a80bce643cf",
+      "candidate_sha256": "a5633093d3df21219292472a0b035ce12529d10cbd293082e69aa607848817f6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1454,
@@ -245,14 +365,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.579&quot;>ها! ها هم قادمون من اليسار!<ts=&quot;2.893;6.065&quot;>استعمل الزر في تلك الجهة<br>لتفعيل فخي!",
-    "arabic_edit": "<ts=&quot;0;2.579&quot;>ها! ها هم قادمون من اليسار!<ts=&quot;2.893;6.065&quot;>استعمل الزر في تلك الجهة لتفعيل فخي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.579&quot;>ها! إنهم قادمون من اليسار!<ts=&quot;2.893;6.065&quot;>استخدمي الزر في تلك الجهة لتفعيل فخي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "d022018594c228111218cd45b53fb2319a68c6f03b2f5357f4203a3e85a0665a",
+      "candidate_sha256": "09cb17f036ff47d35ddafc071de68f41c6cae7f541e035f1ab8fb33bcbc421b2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1455,
@@ -261,14 +389,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.006;1.553&quot;>رائع!<ts=&quot;1.627;4.712&quot;>لم أستطع تحمل رائحة<br>،المبيدات<ts=&quot;4.78;7.788&quot;>فقلت: لعلني أعود إلى<br>جذوري:<ts=&quot;7.971;9.537&quot;>الشواء!",
-    "arabic_edit": "<ts=&quot;0.006;1.553&quot;>رائع!<ts=&quot;1.627;4.712&quot;>لم أستطع تحمل رائحة ،المبيدات<ts=&quot;4.78;7.788&quot;>فقلت: لعلني أعود إلى جذوري:<ts=&quot;7.971;9.537&quot;>الشواء!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.006;1.553&quot;>ممتاز!<ts=&quot;1.627;4.712&quot;>لم أحتمل رائحة المبيدات،<ts=&quot;4.78;7.788&quot;>فقلت: لم لا أعود إلى جذوري؟<ts=&quot;7.971;9.537&quot;>الشواء!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "1bd73290025ea3c84222f1617040c6845598b3ac54a9ac842419aa5c8efe612b",
+      "candidate_sha256": "83e2fb9645be9dfa98d172aac23045f641349c673c0a9bb146ea200c4a3910a2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1456,
@@ -278,12 +414,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.023;1.873&quot;>ها، قادمون من اليمين!",
     "arabic_edit": "<ts=&quot;0.023;1.873&quot;>ها، قادمون من اليمين!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "76d8f5bdb3ff7b87c79436998b097c31d9a8baae5a198c1e48d75c0aad2d27b6",
+      "candidate_sha256": "e6cb550f0a976810fd71c6c3d94bb4d2e0f8deb012d4e3d7454d01bd7a00700f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1457,
@@ -292,14 +436,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;1.999&quot;>فعل الفخ في اليمين!<ts=&quot;2.145;6.065&quot;>سوك-ي-قبل أن يضروا الفاك<br>ويبددوا ملهمتي!",
-    "arabic_edit": "<ts=&quot;0.049;1.999&quot;>فعل الفخ في اليمين!<ts=&quot;2.145;6.065&quot;>سوك-ي-قبل أن يضروا الفاك ويبددوا ملهمتي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;1.999&quot;>فعلي الفخ على اليمين!<ts=&quot;2.145;6.065&quot;>قبل أن يتلفوا جهاز VAC-U-SUK ويطردوا<br>ملهمتي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "a86721c56c41e1efd7a241c54deb918b22d19e954c146d127afc7897a3d173a1",
+      "candidate_sha256": "f7a60e743ec95fa9b11bca1a17804f731f243c1ce7e5358d72e02df3d9bacc11",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1458,
@@ -308,14 +460,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.05&quot;>لذيذ!<ts=&quot;1.47;6.019&quot;>سوك،-ي-تحمي الأفخاخ الفاك<br>لكنها تحتاج وقتا لإعادة<br>التعبئة.<ts=&quot;6.019;8.5&quot;>،لا نريدها تفرط في الحرارة<br>أليس كذلك؟",
-    "arabic_edit": "<ts=&quot;0;1.05&quot;>لذيذ!<ts=&quot;1.47;6.019&quot;>سوك،-ي-تحمي الأفخاخ الفاك لكنها تحتاج وقتا<br>لإعادة التعبئة.<ts=&quot;6.019;8.5&quot;>،لا نريدها تفرط في الحرارة أليس كذلك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.05&quot;>لذيذ!<ts=&quot;1.47;6.019&quot;>تحمي الفخاخ جهاز VAC-U-SUK، لكنها تحتاج<br>إلى وقت لتصبح جاهزة مجددًا.<ts=&quot;6.019;8.5&quot;>لا نريد أن ترتفع حرارتها أكثر من اللازم،<br>صحيح؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "b43dea8cd1679424bc343e4760d6844bafa4c40d3e74f0dc81e60b457e720dbe",
+      "candidate_sha256": "0e876f3974c4052928d8d03d54ef2125b743bda840bf42edbb30a421cd180b3e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1459,
@@ -324,14 +484,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.604&quot;>لكن، إن فرطت في الحرارة<br>فعلا، فستدخل في وضع<br>الإغلاق<ts=&quot;3.696;6.648&quot;>وتحتاج وقتا أطول لإعادة<br>التعبئة.",
-    "arabic_edit": "<ts=&quot;0;3.604&quot;>لكن، إن فرطت في الحرارة فعلا، فستدخل في<br>وضع الإغلاق<ts=&quot;3.696;6.648&quot;>وتحتاج وقتا أطول لإعادة التعبئة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.604&quot;>لكن إن ارتفعت حرارتها فعلًا، فستتعطل،<ts=&quot;3.696;6.648&quot;>وتحتاج إلى وقت أطول لتصبح جاهزة مجددًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "63bbeb2f7add271e3b013467e507b76740031a8a417d012064fc39d900fee939",
+      "candidate_sha256": "6d54c3d58be624d878f639d24aa832810a2a607f245e886664912f7d8933ece4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1460,
@@ -341,13 +509,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.048;6.914&quot;>وتلك مقدمتي، أو كما نقول<br>في عالم الطبخ: المقبلات.<ts=&quot;6.914;10.341&quot;>والآن حان وقت الطبق<br>الرئيسي!",
     "arabic_edit": "<ts=&quot;0.048;6.914&quot;>وتلك مقدمتي، أو كما نقول في عالم الطبخ:<br>المقبلات.<ts=&quot;6.914;10.341&quot;>والآن حان وقت الطبق الرئيسي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "732d6d906161f84f2c13f6ee7eabfc298f2e724fa849e6340930020907fd2891",
+      "candidate_sha256": "060c09e1fe7cbae0c55f7a81f751eb81016a3de7beb23162a42a8c91dd40f015",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1461,
@@ -356,14 +532,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.569;3.019&quot;>،اليسار، قادمين بحرارة، حرارة<br>حرارة!",
-    "arabic_edit": "<ts=&quot;0.569;3.019&quot;>،اليسار، قادمين بحرارة، حرارة حرارة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.569;3.019&quot;>من اليسار! إنهم قادمون على نار حامية!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "44f95e3f07631356b853ff85e766acd302a78b81af7d326f4edb8bdfd9f4992a",
+      "candidate_sha256": "d3f223190cbb7b498e4cdaa2836dcfab58b5e71a20798cdc51f24e9449a52b01",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1462,
@@ -373,12 +557,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.022;2.494&quot;>متسللون على اليسار!",
     "arabic_edit": "<ts=&quot;0.022;2.494&quot;>متسللون على اليسار!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "1b022d60dbd77025e363087204d186a08c76deced94ab52858100a8096110dfe",
+      "candidate_sha256": "bfbd07dd9c79d8c36e9e53969aac448c98165f2be7dafcc0599ba9bce90bd2ec",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1463,
@@ -387,13 +579,21 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.043;1.914&quot;>اليمين، انتبه!",
-    "arabic_edit": "<ts=&quot;0.043;1.914&quot;>اليمين، انتبه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.043;1.914&quot;>اليمين، انتبهي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "350c5c57220117944fb5a621bf343c3833a731f47ead30b8e997f77b3e697e0a",
+      "candidate_sha256": "cfe8f273f92a68eebc6ceb35caca59b89836f2bd0f7ae95b320a06428f6a31e2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1464,
@@ -402,13 +602,21 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;1.88&quot;>راقب اليمين!",
-    "arabic_edit": "<ts=&quot;0.049;1.88&quot;>راقب اليمين!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;1.88&quot;>راقبي اليمين!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "7267fed864d98b494f0ac70aab2093f574fdeba84c48fa9242971d89bf940865",
+      "candidate_sha256": "63c734668de16f5dcf58ca88ed7d2363bcc93ec891d643eec25ad8d0bc17bab0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1465,
@@ -417,14 +625,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.24;3.74&quot;>لا أستطيع التركيز وهم<br>سوك-ي-يضرون فاك!",
-    "arabic_edit": "<ts=&quot;0.24;3.74&quot;>لا أستطيع التركيز وهم سوك-ي-يضرون فاك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.24;3.74&quot;>لا أستطيع التركيز وهم يتلفون جهاز<br>VAC-U-SUK!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "52ee4a3d08d5924559fb8bb9d9491a097df323a782f695a5ad458f10b9b17676",
+      "candidate_sha256": "95f790363a98d82c5629c1ff1ddc8b102b3ee12b32b942676ca66ae043cda165",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1466,
@@ -433,13 +649,21 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;2.93&quot;>سوك-ي-أبعدهم عن الفاك!",
-    "arabic_edit": "<ts=&quot;0.049;2.93&quot;>سوك-ي-أبعدهم عن الفاك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;2.93&quot;>أبعديهم عن جهاز VAC-U-SUK!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "225e424e67812b07a6f6d3f22e5c0e396994f8c46cd0d44cf9923e06a7d18d6d",
+      "candidate_sha256": "afe91fa081edba36f70f251b2b008df5e08e97bbd73389a51ee821c79962623d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1467,
@@ -448,13 +672,21 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.034;3.093&quot;>سوك-ي-الفاك! سوك-ي-الفاك!",
-    "arabic_edit": "<ts=&quot;0.034;3.093&quot;>سوك-ي-الفاك! سوك-ي-الفاك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.034;3.093&quot;>جهاز VAC-U-SUK! جهاز VAC-U-SUK!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "cab24c365be98f9f90aba65717dfd009a25e4964fdd397928ed0fa47c0a36dfc",
+      "candidate_sha256": "f4d126527cb5e1fe6b4e13a0cc37de7f6d671342b6e22a8002e6118670f95fe7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1468,
@@ -463,14 +695,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.034;6.845&quot;>لا، العسل بدأ يتخثر! لا تدع<br>سوك يتلقى المزيد-ي-الفاك<br>من الضرر!",
-    "arabic_edit": "<ts=&quot;0.034;6.845&quot;>لا، العسل بدأ يتخثر! لا تدع سوك يتلقى<br>المزيد-ي-الفاك من الضرر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.034;6.845&quot;>لا، بدأ العسل يتخثر! لا تدعي جهاز<br>VAC-U-SUK يتلقى مزيدًا من الضرر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "470cbf873a0959f7535abfd62693ccca2f61577530fee57387385d1edeaa00af",
+      "candidate_sha256": "53fb705872e43a0d01cf476966b7d893455b4175460369507796f4910f9b7e33",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1469,
@@ -480,12 +720,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.019;3.565&quot;>إنه يبدأ!",
     "arabic_edit": "<ts=&quot;0.019;3.565&quot;>إنه يبدأ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "f197dc773d996497f45ecf4768a2e432de080db8ead525f5a4247088242df218",
+      "candidate_sha256": "91cd0e434cb48ec043a776675244d4600819fb2e03bbc801e6526494d8f17812",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1470,
@@ -494,14 +742,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;5.692&quot;>ها هم قادمون! ادافع عني بينما<br>أنبش عميقا بحثا عن<br>ملهمتي!",
-    "arabic_edit": "<ts=&quot;0;5.692&quot;>ها هم قادمون! ادافع عني بينما أنبش عميقا<br>بحثا عن ملهمتي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;5.692&quot;>ها قد أتوا! احميني بينما أغوص في أعماقي<br>بحثًا عن الإلهام!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "411697331107512bdddf076e5c81b938b5eefe51d313926964db84c3a94fdc03",
+      "candidate_sha256": "8c9e8294e46a351188ca9a640585fd7ecad66a725a3f556fda1868edd1688f01",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1471,
@@ -510,14 +766,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.033;2.024&quot;>رائع!<ts=&quot;2.033;7.537&quot;>نعم، أحس بفكرة تطلع إلي...<ts=&quot;7.951;14.224&quot;>نفخود مزين بطبقة من عسل<br>سيرانج...!",
-    "arabic_edit": "<ts=&quot;0.033;2.024&quot;>رائع!<ts=&quot;2.033;7.537&quot;>نعم، أحس بفكرة تطلع إلي...<ts=&quot;7.951;14.224&quot;>نفخود مزين بطبقة من عسل سيرانج...!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.033;2.024&quot;>رائع!<ts=&quot;2.033;7.537&quot;>نعم، أشعر بفكرة تراودني...<ts=&quot;7.951;14.224&quot;>نفخود مغطى بطبقة من عسل سيرانج!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "6b601bf3288ffd732170320769820282db4bd54c7d2b367d14d20f7c99e695c6",
+      "candidate_sha256": "28979fd86bee51f8c1cc0b11d918e79e1d31adaa349bfc11b2aa9da14ea7050f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1472,
@@ -526,14 +790,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.31;3.512&quot;>وبمناسبة الحديث عن ذلك--<br>إن احتجت ذخيرة أكثر، فالأخذ<br>بها الآن أذكى!",
-    "arabic_edit": "<ts=&quot;0.31;3.512&quot;>وبمناسبة الحديث عن ذلك-- إن احتجت ذخيرة<br>أكثر، فالأخذ بها الآن أذكى!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.31;3.512&quot;>بالمناسبة... إن احتجت إلى ذخيرة إضافية،<br>فاجمعيها الآن!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "85c5241814c7e0b6446037e8c13305623a4b370fa3714de861848d82caa26e88",
+      "candidate_sha256": "12ad72f12d5185ba4921087bec1445305706585d7e981edba4b67a11dd9d56e4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1473,
@@ -542,14 +814,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.047;8.121&quot;>حسنا، أنا مستعدة للمعاناة<br>مرة أخرى. لنعد تسلسل<br>الاستخراج!",
-    "arabic_edit": "<ts=&quot;0.047;8.121&quot;>حسنا، أنا مستعدة للمعاناة مرة أخرى. لنعد<br>تسلسل الاستخراج!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.047;8.121&quot;>حسنًا، أنا مستعدة للمعاناة مجددًا. نستأنف<br>عملية الاستخراج!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "81ece6d6b2610261f74f813c4a09960ce7bd8227ad639f22d77272f4ca11a695",
+      "candidate_sha256": "84b1b6977cf2e0898f2abfbb093653e704c4e128ac14a89d50737dfdf15a1942",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1474,
@@ -558,14 +838,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.02;3.772&quot;>مذهل! نعم! نعم! نعم!<ts=&quot;3.986;9.426&quot;>سيكون المشروب... خمر حمم<br>معسر بزورب!",
-    "arabic_edit": "<ts=&quot;0.02;3.772&quot;>مذهل! نعم! نعم! نعم!<ts=&quot;3.986;9.426&quot;>سيكون المشروب... خمر حمم معسر بزورب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.02;3.772&quot;>مذهل! نعم! نعم! نعم!<ts=&quot;3.986;9.426&quot;>سيكون المشروب... نبيذ عسل الحمم بنكهة<br>الزورب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "568107a37d82450fee15dda602a063863f604096e98f55db394136661fcb27cd",
+      "candidate_sha256": "f062fa4717d4121a695e007149b78690e14e78b1cddca545d819ff20d6ea7daf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1475,
@@ -575,13 +863,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.72;3.87&quot;>لكن أولئك العمال يستحقون<br>حلوى أيضا...<ts=&quot;4.5;5.2&quot;>وهذا يعني<ts=&quot;6;7.589&quot;>أن علينا أن نعاني<ts=&quot;8.01;8.66&quot;>مرة<ts=&quot;9.08;9.63&quot;>واحدة<ts=&quot;10.229;10.679&quot;>أخيرة!",
     "arabic_edit": "<ts=&quot;0.72;3.87&quot;>لكن أولئك العمال يستحقون حلوى أيضا...<ts=&quot;4.5;5.2&quot;>وهذا يعني<ts=&quot;6;7.589&quot;>أن علينا أن نعاني<ts=&quot;8.01;8.66&quot;>مرة<ts=&quot;9.08;9.63&quot;>واحدة<ts=&quot;10.229;10.679&quot;>أخيرة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "dee2c92da6e38db6ff09f175350bfd9443ad0aee3ca09d7adda6a6ddaf5ca066",
+      "candidate_sha256": "a97bdec398dfd9ae4c4a0c03de62a50e13b21fd6a2763d9437777824830e3a0c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1476,
@@ -591,12 +887,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.159&quot;>لنبدأ الاستخراج الأخير!",
     "arabic_edit": "<ts=&quot;0;3.159&quot;>لنبدأ الاستخراج الأخير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "1bf9cbad75aa2dab7a3bed19082c873a09b0c0159a94d2ef2652595f61d5c1cb",
+      "candidate_sha256": "5f74a809f4bef5d78747ac51583e8a0d8c9984732fd5f408f33240462cea3597",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1477,
@@ -605,14 +909,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.047;3.536&quot;>لا تدع أولئك اللحميين<br>المعرقين يلمسون<br>سوك-ي-الفاك!<ts=&quot;3.754;7.104&quot;>تحفةنا وشيكا أن تكتمل!",
-    "arabic_edit": "<ts=&quot;0.047;3.536&quot;>لا تدع أولئك اللحميين المعرقين يلمسون<br>سوك-ي-الفاك!<ts=&quot;3.754;7.104&quot;>تحفةنا وشيكا أن تكتمل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.047;3.536&quot;>لا تدعي أولئك الحمقى المتعرقين يلمسون جهاز<br>VAC-U-SUK!<ts=&quot;3.754;7.104&quot;>أوشكت تحفتنا أن تكتمل!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "c7c5df458bd549f6efb2b60713a06dded8eddb9665403a08cee1d9029437e030",
+      "candidate_sha256": "4d662fd509e59bbef20aa1f2982609c2c81ef6787c5a27c37149877df36010c6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1478,
@@ -621,14 +933,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.04&quot;>اكتشفت!<ts=&quot;1.684;6.49&quot;>ستكون الحلوى موس عسل<br>سناغل بيست مقلوبا على<br>وجهه!<ts=&quot;6.602;8.253&quot;>أوه... نعم.",
-    "arabic_edit": "<ts=&quot;0;1.04&quot;>اكتشفت!<ts=&quot;1.684;6.49&quot;>ستكون الحلوى موس عسل سناغل بيست مقلوبا على<br>وجهه!<ts=&quot;6.602;8.253&quot;>أوه... نعم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.04&quot;>وجدتها!<ts=&quot;1.684;6.49&quot;>ستكون الحلوى موس عسل وحش سناغل المقلوب!<ts=&quot;6.602;8.253&quot;>أوووه، نعم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "f186f39617c7fc81cec3b64775d55c4013b4f746ccd04b9f50c4eb95729a68c9",
+      "candidate_sha256": "7b1f3b434784e645fd57d46de656903cb82da73fc947904782d61e7c1eff528f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1479,
@@ -637,14 +957,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.023;6.612&quot;>اسمع، يمكنك أن تبني<br>مستقبلك كطباخ مساعد لي.<br>ماذا تعرف عن لحم الدبابير<br>الطرة؟",
-    "arabic_edit": "<ts=&quot;0.023;6.612&quot;>اسمع، يمكنك أن تبني مستقبلك كطباخ مساعد<br>لي. ماذا تعرف عن لحم الدبابير الطرة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.023;6.612&quot;>تعلمين، يمكنك العمل مساعدة طاهية لدي. ماذا<br>تعرفين عن لحم الدبابير الطليقة؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "9079bba313dbee82e859e00ade675ad29ac4e7a9cba13b362535b65e08120bfe",
+      "candidate_sha256": "482a290429b7ba8b34b1c70c1798e51031c9ea6f218b49e5c96561cc68215de7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1480,
@@ -653,14 +981,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;6.747&quot;>أنت تغادر؟! الآن؟! لكننا على<br>وشك أن نسلم أولئك العمال<br>روائعنا!",
-    "arabic_edit": "<ts=&quot;0;6.747&quot;>أنت تغادر؟! الآن؟! لكننا على وشك أن نسلم<br>أولئك العمال روائعنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;6.747&quot;>أتغادرين؟! الآن؟! لكننا أوشكنا أن نقدم<br>روائعنا لعمال المناجم!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "ac178079930fde237d2c52ef60945aaeb0152e00dc5ac49c5dc158cef8ff797e",
+      "candidate_sha256": "5a20761bd05eb1af3c27f683cb5442d2f0da9ff0c0c13bf64880049d22c7bc52",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1481,
@@ -669,14 +1005,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.75&quot;>تريد استراحة؟!<ts=&quot;1.75;7.749&quot;>حسنا... لكن عد حين تكون<br>مستعدا! ما زال لدينا الكثير<br>من الامتصاصات!",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>تريد استراحة؟!<ts=&quot;1.75;7.749&quot;>حسنا... لكن عد حين تكون مستعدا! ما زال<br>لدينا الكثير من الامتصاصات!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>أتريدين استراحة؟!<ts=&quot;1.75;7.749&quot;>حسنًا... لكن عودي حين تستعدين! ما زال<br>أمامنا الكثير من الشفط!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "44c80dcc16d1d2399c9eb1862cf6acbd9e4d1468a129c6f2940c4b39e7665e92",
+      "candidate_sha256": "49ed85d8cf35015c6efe95819f343abc7b7e37ff4558d4c9ddf7e8500c8fcd91",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1482,
@@ -685,14 +1029,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;5.813&quot;>أكره التعليق على أسلوبك<br>سوك-ي-الفني، لكن الفاك<br>يتلقى ضررا كبيرا!",
-    "arabic_edit": "<ts=&quot;0;5.813&quot;>أكره التعليق على أسلوبك سوك-ي-الفني، لكن<br>الفاك يتلقى ضررا كبيرا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;5.813&quot;>أكره التعليق على أسلوبك الفني، لكن جهاز<br>VAC-U-SUK يتلقى ضررًا كبيرًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "e7ff84a12a5a75797e895570c8b76b7c708c17f4446a8032001660bf7ac0b592",
+      "candidate_sha256": "733bee24909f7a4191530132cd2ffcf14ea85e27a1e24db087a2f5bf9fbc3b3c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1483,
@@ -701,14 +1053,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;8.142&quot;>أولئك العمال لا يعلمون<br>شيئا عن الكمائات الإلهية<br>التي ستنهمل على أفواههم.",
-    "arabic_edit": "<ts=&quot;0;8.142&quot;>أولئك العمال لا يعلمون شيئا عن الكمائات<br>الإلهية التي ستنهمل على أفواههم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;8.142&quot;>لا يعلم عمال المناجم شيئًا عن الأطباق<br>الشهية السماوية التي توشك أن تصل إلى<br>أفواههم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "42826157a4b022029748744140ac9f6296b239381e31a0da47471fb23eae505b",
+      "candidate_sha256": "669ffc07be62bfa40487ec5f614683a9148d8a43507e770797ba29866e7670f5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1484,
@@ -717,13 +1077,21 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.009&quot;>،توليو، أنت ملكة عظيمة<ts=&quot;3.489;5.25&quot;>كيف تفعلين ذلك؟",
-    "arabic_edit": "<ts=&quot;0;3.009&quot;>،توليو، أنت ملكة عظيمة<ts=&quot;3.489;5.25&quot;>كيف تفعلين ذلك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.009&quot;>يا توليو، أيتها الملكة الرائعة،<ts=&quot;3.489;5.25&quot;>كيف تفعلين ذلك؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "dd0ecd8cb3c3239d23f1b57c35bb6042d34246b7e9096d7be59f835a9d7e9492",
+      "candidate_sha256": "23bb320275b6297ff48d819a71c0a45d84ea531161cca39d0a1112dc54aee281",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1485,
@@ -732,14 +1100,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;4.019&quot;>،لم يعن أحد بما يكفي مؤخرا<br>،لذا لا أعرف بعد<ts=&quot;4.019;5.769&quot;>لكنها ستأتي قريبا.<ts=&quot;5.92;7.29&quot;>أشعر بها.",
-    "arabic_edit": "<ts=&quot;0;4.019&quot;>،لم يعن أحد بما يكفي مؤخرا ،لذا لا أعرف<br>بعد<ts=&quot;4.019;5.769&quot;>لكنها ستأتي قريبا.<ts=&quot;5.92;7.29&quot;>أشعر بها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.019&quot;>لم أعان بما يكفي مؤخرًا، لذا لا أعرف بعد،<ts=&quot;4.019;5.769&quot;>لكن الإلهام سيأتي قريبًا.<ts=&quot;5.92;7.29&quot;>أشعر بذلك.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "ed8916b724a48f611d1fb50519fd8002e47f91a46982ef77fd29e8dc98b608a4",
+      "candidate_sha256": "c7fe6f124b6475c2e3bfa6db1d3b0e2ec980c5dce2952f73f88697517f2fe431",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1486,
@@ -749,12 +1125,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;2.875&quot;>إنهم يفسدون عسلنا!",
     "arabic_edit": "<ts=&quot;0.049;2.875&quot;>إنهم يفسدون عسلنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "ab7e1b9cc9d5ed68f08502e6f4737d0dadeb29a46bffa55e9277cd62e1169133",
+      "candidate_sha256": "e538dfab3296d3e6969f3013ff38318f99fe7c0b6815da05f42f2359cfb4ad99",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1487,
@@ -763,14 +1147,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.048;2.75&quot;>لكن أي مشروب نطابقه معها...<ts=&quot;2.869;4.026&quot;>أحتاج المزيد.<ts=&quot;4.393;8.458&quot;>مزيد من الإلهام. مزيد من<br>العسل!",
-    "arabic_edit": "<ts=&quot;0.048;2.75&quot;>لكن أي مشروب نطابقه معها...<ts=&quot;2.869;4.026&quot;>أحتاج المزيد.<ts=&quot;4.393;8.458&quot;>مزيد من الإلهام. مزيد من العسل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.048;2.75&quot;>لكن أي مشروب نقدمه معه...<ts=&quot;2.869;4.026&quot;>أحتاج إلى المزيد.<ts=&quot;4.393;8.458&quot;>مزيد من الإلهام. مزيد من العسل!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "a7399d3aae06da6f97b3a4f29ea012674fdbe41bc43281c574545723ce2fe937",
+      "candidate_sha256": "5760d600c512ebba484ae06caa2004de8a11405275478fade05cdd544b798d7f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1767,
@@ -780,12 +1172,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.024;3.124&quot;>هممم، ألتقط بثا إذاعيا...",
     "arabic_edit": "<ts=&quot;0.024;3.124&quot;>هممم، ألتقط بثا إذاعيا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-003",
+      "source_sha256": "8e596e3715fdf197b800c3dc064aab3b0436d1ff579aab35428c58d0b6c3fa48",
+      "candidate_sha256": "0eb5b0387586ec4a166ad35712b3789979b1e8f62c464043e572a05e38a26768",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1768,
@@ -794,14 +1194,22 @@
     "speaker_code": "CLANK",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.86&quot;>أظن أنها الشيف توليو؟<ts=&quot;2.32;3.45&quot;>تبدو سليمة...<ts=&quot;4.01;7.189&quot;>أتساءل ما الذي يمنعها من<br>العودة إلى عاملات المنجم.",
-    "arabic_edit": "<ts=&quot;0;1.86&quot;>أظن أنها الشيف توليو؟<ts=&quot;2.32;3.45&quot;>تبدو سليمة...<ts=&quot;4.01;7.189&quot;>أتساءل ما الذي يمنعها من العودة إلى عاملات<br>المنجم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.86&quot;>الطاهية توليو، على ما أظن؟<ts=&quot;2.32;3.45&quot;>تبدو بخير...<ts=&quot;4.01;7.189&quot;>أتساءل ما الذي أخر عودتها إلى عمال<br>المناجم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-003",
+      "source_sha256": "991d0257b3268d3678dd119a3c174fbcfd64b5995103aa87ff4d658bdd1f4fee",
+      "candidate_sha256": "1b5b3b7757d3e6b01343d7e9767ba07b9ae6d5e796352dcbc9453727c8b69b4b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1769,
@@ -811,13 +1219,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;0.883&quot;>يا إلهي.<ts=&quot;1.071;4.899&quot;>إني آمل ألا نشارك مصير<br>ماركوس...",
     "arabic_edit": "<ts=&quot;0;0.883&quot;>يا إلهي.<ts=&quot;1.071;4.899&quot;>إني آمل ألا نشارك مصير ماركوس...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-003",
+      "source_sha256": "7ed1229b928a1177c49a5ede893ec8c104f54ce74de9d8e9a2776169503a6a6d",
+      "candidate_sha256": "5209df29d8ffd21444fe5f86562631f50a83ec411b60504059f35c203fa0f9da",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1770,
@@ -827,12 +1243,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.026;2.338&quot;>أوه... يا إلهي.",
     "arabic_edit": "<ts=&quot;0.026;2.338&quot;>أوه... يا إلهي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-003",
+      "source_sha256": "f0a9addb71c9fbe5d87f219e6d921cabb16eb1466c0ada1a54fe39ef1ad7da82",
+      "candidate_sha256": "1f76a19c326133264b8709c1209004c6c6400b6c622ac531601fd00091001e84",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1771,
@@ -842,12 +1266,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.499&quot;>أوه، الأمر ليس مسابقة أبدا.",
     "arabic_edit": "<ts=&quot;0;2.499&quot;>أوه، الأمر ليس مسابقة أبدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-003",
+      "source_sha256": "d0e67c2c0cd0ddf52110357b072a178b3c11123ccf44b55326ffdd6a3ce3bbbc",
+      "candidate_sha256": "dc45a7fc27a3526adafff9b385be76298c4ea23c85eb93dc0e50aa31d2ca17eb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2723,
@@ -857,12 +1289,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.017;1.78&quot;>هل الطعام قادم أم ماذا؟",
     "arabic_edit": "<ts=&quot;0.017;1.78&quot;>هل الطعام قادم أم ماذا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "e0edc7c0b15a66d295e06fe339c17960ebdb5935c3b86c928765589e8ec01e10",
+      "candidate_sha256": "ee1f5e1b45adda171f2337e87696e8cee2830a22e1835aa8c267a96e74766986",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2724,
@@ -872,12 +1312,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.042;1.902&quot;>العسل فيه ما يحتاجه العمال!",
     "arabic_edit": "<ts=&quot;0.042;1.902&quot;>العسل فيه ما يحتاجه العمال!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "70a969f145fdb6b0f99218a438b108182a9c6f164a4a29b3c6b467dc4b9ec59c",
+      "candidate_sha256": "c4102cf0cb440467eea0670b146a5a94d1ad779f273fcc0c8e8cf4542052f512",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2747,
@@ -887,12 +1335,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.777&quot;>كم ستستغرق هذه العملية؟<ts=&quot;1.857;3.586&quot;>استراحتي على وشك الانتهاء!",
     "arabic_edit": "<ts=&quot;0;1.777&quot;>كم ستستغرق هذه العملية؟<ts=&quot;1.857;3.586&quot;>استراحتي على وشك الانتهاء!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "7a3e70abea6334ab1097e90cc18eed5574bf54cfcb339a80aac83c164c9954cf",
+      "candidate_sha256": "de3508169ff019fcf8b6988e18b20472d894ead123c9a6415c95031dbe431604",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2748,
@@ -902,12 +1358,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.047;1.824&quot;>دع العسل يتدفق!",
     "arabic_edit": "<ts=&quot;0.047;1.824&quot;>دع العسل يتدفق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "21ab7fc20346c6df615fa81c3bbc619f632064dd186fb1b4aac98dda40b95077",
+      "candidate_sha256": "bbcd69a8c837d0eaa9df7b2fbe26fb1dc917b746566b587d851002690d501ea9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2773,
@@ -917,12 +1381,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.035;2.699&quot;>لماذا لا ينجح أي شيء اليوم؟",
     "arabic_edit": "<ts=&quot;0.035;2.699&quot;>لماذا لا ينجح أي شيء اليوم؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "abcb5601b28426d284038ef12cfcddb82aa0534ef797c416afd020f12135ce37",
+      "candidate_sha256": "9a68a1b654591fc891ca8fda81333c134dbe016ed58a05bad0a9dca1522596b3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2774,
@@ -932,12 +1404,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.139&quot;>أشمه! يا *رجل*.",
     "arabic_edit": "<ts=&quot;0;3.139&quot;>أشمه! يا *رجل*.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "c60a48f1db51f3590e79b8a2351ca19e746b7d6c4eff538f7e1aab1de6faa162",
+      "candidate_sha256": "4bbd7b55a5dbe9cfcc06bf09734dd49eddf54c4b1bd6b1194e0e6f3c4b64dcda",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2788,
@@ -947,13 +1427,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.592&quot;>ليس آمنا أن تعمل على معدة<br>فارغة!",
     "arabic_edit": "<ts=&quot;0;2.592&quot;>ليس آمنا أن تعمل على معدة فارغة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "f100714f8d7357a3b1014d4ec193cc8624287977274c0dde490768571005c906",
+      "candidate_sha256": "6a9cd033ce830937df4090e19fb8c72bafa798856203914668f39fdb4cc2918d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2789,
@@ -963,13 +1451,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.539&quot;>صبه في فمي! صبه في<br>فمي!",
     "arabic_edit": "<ts=&quot;0;2.539&quot;>صبه في فمي! صبه في فمي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "230a42e54ce892ba5dfed4cbf0cb7e81da9b612de3b9b6aca8c27e92eb06f16c",
+      "candidate_sha256": "d536fa7975a0f2c9862e7af0218cf6bfc6b52d960c80fad7cf4cc21c894a6f3e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11103,
@@ -979,13 +1475,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.72&quot;>ريفت؟ لدي اتصال لاسلكي<br>قادم...",
     "arabic_edit": "<ts=&quot;0;2.72&quot;>ريفت؟ لدي اتصال لاسلكي قادم...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "d4bbada61803a3e28dd4a6923403874586855680893c63adffb0cc7ae2648485",
+      "candidate_sha256": "51ee13e3b928435c981cdf90be0c5af9e845a50014938f64327ffaebacdc6c44",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11104,
@@ -994,14 +1498,22 @@
     "speaker_code": "KIT",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.75&quot;>لا بد أنها الشيف توليو.<ts=&quot;2.12;4.069&quot;>لم يبد أنها في خطر...<ts=&quot;4.069;6.774&quot;>لكن لا بد أن هناك أمرا لا<br>تذكره...",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>لا بد أنها الشيف توليو.<ts=&quot;2.12;4.069&quot;>لم يبد أنها في خطر...<ts=&quot;4.069;6.774&quot;>لكن لا بد أن هناك أمرا لا تذكره...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>لا بد أنها الطاهية توليو!<ts=&quot;2.12;4.069&quot;>لم يبد من صوتها أنها في خطر...<ts=&quot;4.069;6.774&quot;>لكن لا بد من مشكلة لم تذكرها...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "9ba906f971eb2ab1613a15739e35fdb14004b8e3c498a23c2d20a135da0611fd",
+      "candidate_sha256": "92c00ec69726299ea67b7e30828df73b106441cfc81442a50a9f4211e3b4e959",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11105,
@@ -1011,12 +1523,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;2.503&quot;>هل هذا... يا إلهي.",
     "arabic_edit": "<ts=&quot;0.049;2.503&quot;>هل هذا... يا إلهي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "21c0cac2336ac8057aea6ebbdf7b9a9a668bb770297e47ff7d4892242a3fbda7",
+      "candidate_sha256": "7e59d8acece2092d85fa1f393c50841124f930067402928930cc402fd8e38710",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11106,
@@ -1025,14 +1545,22 @@
     "speaker_code": "KIT",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.449&quot;>كان كل من هنا سعيدا جدا<br>برؤيتك، ريفت.<ts=&quot;3.449;4.69&quot;>منذ متى تعرفهم؟",
-    "arabic_edit": "<ts=&quot;0;3.449&quot;>كان كل من هنا سعيدا جدا برؤيتك، ريفت.<ts=&quot;3.449;4.69&quot;>منذ متى تعرفهم؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.449&quot;>سعد الجميع هنا برؤيتك، يا ريفت.<ts=&quot;3.449;4.69&quot;>منذ متى تعرفينهم؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "06b2f1aefbd8b24ac6d26c65ee6abac837ce3815fe2004900ea055abbd6e4730",
+      "candidate_sha256": "7dc20e7c61c417ad92c6420378009c898a3968e0ba750c9117bd77b94ba13a2d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11107,
@@ -1042,12 +1570,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.04;0.706&quot;>يا إلهي.",
     "arabic_edit": "<ts=&quot;0.04;0.706&quot;>يا إلهي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "91bfaf51a7c9631e433e58fc5f4b2f083cdb822382ef70c28fd6a04aa1eec2ad",
+      "candidate_sha256": "ed59357f286eba79a218d1de5dcd6dd46dff330c34708ca98300302db5537116",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14999,
@@ -1056,14 +1592,22 @@
     "speaker_code": "NEFT3",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.044;4.472&quot;>يجب أن نجد اللومباكس باسم<br>إمبراطورنا المعجب!",
-    "arabic_edit": "<ts=&quot;0.044;4.472&quot;>يجب أن نجد اللومباكس باسم إمبراطورنا<br>المعجب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.044;4.472&quot;>علينا العثور على اللومباكس، باسم<br>إمبراطورنا المحب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "86404e241dc78112bbd638f694d49ced81df126664de5da9fa37a8a579e36033",
+      "candidate_sha256": "dcddf5cca919bd13234fe29ba0ce788314788176213080bdcdda30c4eae05b2e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15000,
@@ -1073,13 +1617,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.042;4.115&quot;>رصد اللومباكس في الكهوف!<br>رائع!",
     "arabic_edit": "<ts=&quot;0.042;4.115&quot;>رصد اللومباكس في الكهوف! رائع!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "9f1863a0c7ded458e88ee541ab5075359fa3f80c51ea64e3b3fbf5b17e9da9e3",
+      "candidate_sha256": "ed501ed15f096a9a948c4cd4c3396219342e779f5bc3dc22a73c6220a7b9652b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20535,
@@ -1089,13 +1641,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.046;2.987&quot;>هناك... متأكدة تقريبا أننا<br>نستطيع الوصول إلى حافة<br>البلورات عبر هذا الكهف.",
     "arabic_edit": "<ts=&quot;0.046;2.987&quot;>هناك... متأكدة تقريبا أننا نستطيع الوصول<br>إلى حافة البلورات عبر هذا الكهف.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-equivalent-001",
+      "source_sha256": "4ad195e0ad73bf910dfca9e6c9cf0d46308dcafd324db417f9594bfd944fcbc3",
+      "candidate_sha256": "491200882eb1f251e26f04d6de1ad3f2be72cc47fda9fe24b2e87caca83308dd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20537,
@@ -1104,14 +1664,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;3.357&quot;>هذا... ثالث أكبر خلية أعشاش<br>رأيتها في حياتي.",
-    "arabic_edit": "<ts=&quot;0.049;3.357&quot;>هذا... ثالث أكبر خلية أعشاش رأيتها في<br>حياتي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;3.357&quot;>هذه... ثالث أكبر خلية رأيتها في حياتي.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-equivalent-001",
+      "source_sha256": "465d1d4fe215b877bc480ad3a9b4ba5575f29c1d816c48deefe042ab0529bfc9",
+      "candidate_sha256": "53085220a60e4c77abc1bb78862839c559f4edc9940f677caa896853336c3d41",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20539,
@@ -1121,13 +1689,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.039;2.916&quot;>يكفيني سرورا أن عاملات<br>المنجم أولئك سيحصلن<br>أخيرا على طعام.",
     "arabic_edit": "<ts=&quot;0.039;2.916&quot;>يكفيني سرورا أن عاملات المنجم أولئك سيحصلن<br>أخيرا على طعام.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-equivalent-001",
+      "source_sha256": "d305fb2de081400bf12f1fa2be8acd54329ed434451fd16335f0c3cc71b67bc4",
+      "candidate_sha256": "5977edb43305de971a5cdc012f6b295f67ddf4ca1569bc7393712e22e0308035",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20541,
@@ -1137,13 +1713,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.017;1.516&quot;>أكيد، أستطيع إبقاء عيني<br>مفتوحة.",
     "arabic_edit": "<ts=&quot;0.017;1.516&quot;>أكيد، أستطيع إبقاء عيني مفتوحة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "6850bfa3791944b0dad85cbf178106ff6aff51f072d926b02d780b8bd003cfeb",
+      "candidate_sha256": "c41388ebd99231954d95be0cdfec4aa425625038a91326c4e4caf9633c3e98fb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20542,
@@ -1153,13 +1737,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.036;2.954&quot;>هم؟ يصلني نوع من البث<br>الإذاعي...",
     "arabic_edit": "<ts=&quot;0.036;2.954&quot;>هم؟ يصلني نوع من البث الإذاعي...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "9af51ed82f49b3586dd0098f0fe3c44cb9be91b9aebe50315a3ba1fc94ca38cc",
+      "candidate_sha256": "0a99f252288f338a3c453feaeca4ff1d4c6e0300f0100288494ad8414ef9eb93",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20543,
@@ -1169,13 +1761,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.046;3.661&quot;>إذن هذه هي الطاهية التي<br>تنتظرها عاملات المنجم؟<br>صوتها لطيف، لكن...<ts=&quot;3.661;5.239&quot;>ما الذي يشغلها كل هذا الوقت؟",
     "arabic_edit": "<ts=&quot;0.046;3.661&quot;>إذن هذه هي الطاهية التي تنتظرها عاملات<br>المنجم؟ صوتها لطيف، لكن...<ts=&quot;3.661;5.239&quot;>ما الذي يشغلها كل هذا الوقت؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-equivalent-001",
+      "source_sha256": "26ec2211d2dfb40211a868de73d8c4aa12daaa9cfddd7089612437023a9fc376",
+      "candidate_sha256": "c739229e33ecfeb0344cad18526a17c5ba57550cbc5a87e15a18d748193034bd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20545,
@@ -1185,12 +1785,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.169;1.75&quot;>إذن ما هو الطبق؟",
     "arabic_edit": "<ts=&quot;0.169;1.75&quot;>إذن ما هو الطبق؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "239cb8c7d9701997071afae2b6f40a04acfe04dcace81b1deec31dddb29479d8",
+      "candidate_sha256": "77c0456a1baffdcb0b17dd4d29e9d8dc17ade46f009a4736503d987eb7df1ba3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20546,
@@ -1200,13 +1808,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.45&quot;>فكري فقط في عاملات<br>المنجم الجائعات يا ريفت.<ts=&quot;2.85;3.9&quot;>هن في حاجة لهذا.",
     "arabic_edit": "<ts=&quot;0;2.45&quot;>فكري فقط في عاملات المنجم الجائعات يا<br>ريفت.<ts=&quot;2.85;3.9&quot;>هن في حاجة لهذا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "61394e22f38c83345ca3fac562891570c81d80938145c69bc7e6a14993f2044d",
+      "candidate_sha256": "c69e7ff584b9937f2d60a006b5a3e0018a1a961174b8a0cfc5d900725912fef3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20547,
@@ -1215,14 +1831,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.043;4.591&quot;>والآن كيف أعود إليهما... ،أوه<br>سيارة الأجرة الأمنية تلك<br>ستفي بالغرض.",
-    "arabic_edit": "<ts=&quot;0.043;4.591&quot;>والآن كيف أعود إليهما... ،أوه سيارة الأجرة<br>الأمنية تلك ستفي بالغرض.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.043;4.591&quot;>والآن، كيف أعود إليهم... أوه، سيارة الأجرة<br>الأمنية تلك ستفي بالغرض.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-equivalent-001",
+      "source_sha256": "d3f45e9bcae8b259b6bbc8946dc7fd089ac4e113d50d25fcbecae4ad41c5bce6",
+      "candidate_sha256": "0dc804c94a85c7b057995a3569a4d5662ed558e58d155b0afff42bd5a95b0654",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20549,
@@ -1231,14 +1855,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.75&quot;>ليتهن يحصلن على<ts=&quot;2.55;3.25&quot;>أفضل<ts=&quot;3.76;4.769&quot;>وجبة في التاريخ بعد كل ما<br>جرى مع الحفار.",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>ليتهن يحصلن على<ts=&quot;2.55;3.25&quot;>أفضل<ts=&quot;3.76;4.769&quot;>وجبة في التاريخ بعد كل ما جرى مع الحفار.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>آمل أن يحصل عمال المناجم على<ts=&quot;2.55;3.25&quot;>أفضل<ts=&quot;3.76;4.769&quot;>وجبة على الإطلاق بعد كل ما حدث مع المثقاب.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "cab212fef2f6d0c01eb05815b36915fd6a1ca3748e02c5c26274fb548864b528",
+      "candidate_sha256": "da986291b927a5887e771e1aedbe163062ea99008275489257f0673cf139314a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20550,
@@ -1248,13 +1880,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.41&quot;>زانكي مقلي، وضفادع<br>،بلفائف الخبز<ts=&quot;3.969;6.769&quot;>وتمساح قرشي مشوي على<br>اللهب ورشة زورب...",
     "arabic_edit": "<ts=&quot;0;3.41&quot;>زانكي مقلي، وضفادع ،بلفائف الخبز<ts=&quot;3.969;6.769&quot;>وتمساح قرشي مشوي على اللهب ورشة زورب...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "6139d3b28178980c3917ec15ca59756a0549232185fe14a0eb52ef024f30779d",
+      "candidate_sha256": "33d2a43c0bd9caaf4487c7b6529541188fe3f083f352abf55bafdc2859bd3a6f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20551,
@@ -1264,12 +1904,20 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.036;0.96&quot;>وا، أنا جائعة الآن.",
     "arabic_edit": "<ts=&quot;0.036;0.96&quot;>وا، أنا جائعة الآن.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "afdff659b0bbfff821df5128e432d04aaf062163d88c7edc6ea2e5901fa4a11a",
+      "candidate_sha256": "672ef2fa1b41d52ed01fa164ab4ca6c04eeb71c9413717dbee733abc88b1fbf5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20552,
@@ -1279,13 +1927,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.046;1.775&quot;>في الحقيقة التقينا للتو<br>فقط.<ts=&quot;1.775;7.024&quot;>التقطت أنا وكلانك بعض<br>البليزون قبل قليل، و...<br>انتهى بنا الأمر بإنقاذ<br>الكوكب كله.",
     "arabic_edit": "<ts=&quot;0.046;1.775&quot;>في الحقيقة التقينا للتو فقط.<ts=&quot;1.775;7.024&quot;>التقطت أنا وكلانك بعض البليزون قبل قليل،<br>و... انتهى بنا الأمر بإنقاذ الكوكب كله.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "efc9f0abe5db3397db0d19e0a9d5452ff0097d348dac7bf75a453dcf685f22c7",
+      "candidate_sha256": "bd1a97fd76049c568ced7d6635f6cb6d1c884c1ad43aff946301869d3887a42d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20553,
@@ -1295,13 +1951,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.04;5.181&quot;>كل هذا الكلام عن الطعام<br>يجعلني أتساءل يا مسامير؛<br>من الطاهي الأفضل، أنت أم<br>راتشت؟",
     "arabic_edit": "<ts=&quot;0.04;5.181&quot;>كل هذا الكلام عن الطعام يجعلني أتساءل يا<br>مسامير؛ من الطاهي الأفضل، أنت أم راتشت؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "21a262790d390837129889c267c4dc82e29a49449a20155ac0a8f08afd2fe260",
+      "candidate_sha256": "b95fcdb8a48494ea5f839f9cdc634791e06329d3d2cbfff7f4022757e53ac3e2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20554,
@@ -1310,14 +1974,22 @@
     "speaker_code": "RIVE",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.048;2.702&quot;>أوه، إنها أنت أليس كذلك. كنت<br>أعرف.",
-    "arabic_edit": "<ts=&quot;0.048;2.702&quot;>أوه، إنها أنت أليس كذلك. كنت أعرف.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.048;2.702&quot;>أوه، أنت الأفضل، أليس كذلك؟ كنت أعرف.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "3973ec3bd633409b5a85322d59f9a6f87592a445245ffe47f6db88c1be144b32",
+      "candidate_sha256": "93a8ff05c2df57d06a7500478f97c06c71ec6d162347c476692a205ce016ab23",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22648,
@@ -1326,13 +1998,21 @@
     "speaker_code": "T4L1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.19&quot;>ماركوس! ؟!<ts=&quot;1.569;2.969&quot;>يا رفاق، هل رآه أحدكم؟",
-    "arabic_edit": "<ts=&quot;0;1.19&quot;>ماركوس! ؟!<ts=&quot;1.569;2.969&quot;>يا رفاق، هل رآه أحدكم؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.19&quot;>ماركوس؟!<ts=&quot;1.569;2.969&quot;>يا رفاق، هل رآه أحد؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "227a57497340f3ee99f57772f3e404a942cfb32b95cc94bfd5982c6c85a0459d",
+      "candidate_sha256": "600f987e0118fcb868bdf12751da3e4f6bcfeebb60f79a42f9c6d3ec7c5dc582",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22649,
@@ -1342,13 +2022,21 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;5.784&quot;>حشرات! أوه، أوه، أوه، لمستني!<br>أزله عني يا صاحبي، أزله<br>عني!!!",
     "arabic_edit": "<ts=&quot;0.049;5.784&quot;>حشرات! أوه، أوه، أوه، لمستني! أزله عني يا<br>صاحبي، أزله عني!!!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "e025ee8fabdbdedcffc33ff20ab012f2a1556b075b0081ee190c1559b47757be",
+      "candidate_sha256": "a0cd0bb10c2459e9d345d31f00bf12f110c19ab9fef89ce8fc3c2986904463d0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22650,
@@ -1357,14 +2045,22 @@
     "speaker_code": "T4L1",
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.84&quot;>واو، هل شمتم ذلك يا رفاقي؟!<br>إنه حقا...<ts=&quot;3.21;5.02&quot;>لعسلي!",
-    "arabic_edit": "<ts=&quot;0;2.84&quot;>واو، هل شمتم ذلك يا رفاقي؟! إنه حقا...<ts=&quot;3.21;5.02&quot;>لعسلي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.84&quot;>واو! أتشمون ذلك، يا رفاق؟! إنه...<ts=&quot;3.21;5.02&quot;>عسلي لذيذ!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "fa7d8fff67666ad0fb7f3828086d15167f3b2ed1eeed5c3ebe13c9a57826cd3a",
+      "candidate_sha256": "79362908ddbf8ab11bf5310593aa1fd7b28debf7f70c140d2b550654344699d0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22974,
@@ -1374,11 +2070,19 @@
     "scene_code": "BLIZ_SQ_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.22;1.27&quot;>ما هذا الصوت؟",
     "arabic_edit": "<ts=&quot;0.22;1.27&quot;>ما هذا الصوت؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "0311438c650c6676244f5a60502da12dc71a20337a78e503950eb49588b07f7f",
+      "candidate_sha256": "a14c6b613dc85a84b7805e3fc2b6d4f26c52d6b2583287437eed73b49827c2a4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

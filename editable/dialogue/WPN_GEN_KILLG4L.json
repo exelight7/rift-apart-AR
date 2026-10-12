@@ -7,12 +7,20 @@
     "scene_code": "WPN_GEN_KILLG4L",
     "arabic_current": "<ts=&quot;0.052;1.271&quot;>لا تنادني يا صديقي!",
     "arabic_edit": "<ts=&quot;0.052;1.271&quot;>لا تنادني يا صديقي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "f721eced9157fe4e1bbfc8b96967c41b0fa312310b6a46ffdc178736473f1787",
+      "candidate_sha256": "9ec19e0ee09d62a17b59d45b8628637a0e22a03ba0d4e0dab0fabcf6aef85aa0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8073,
@@ -21,13 +29,21 @@
     "speaker_code": "FUNG",
     "scene_code": "WPN_GEN_KILLG4L",
     "arabic_current": "<ts=&quot;0;2.286&quot;>المكان هنا يتسع لواحد فقط!",
-    "arabic_edit": "<ts=&quot;0;2.286&quot;>المكان هنا يتسع لواحد فقط!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.286&quot;>لا يتسع المكان إلا لاستعراض واحد!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "721672e6184f9ebe4f378af28f01377c52b9dc6447567eba9dd5141fa3157350",
+      "candidate_sha256": "fdf83901dca60338d445ad2c332ae4d2e1e492365f6b0f152d87e8e7ed9171a8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8074,
@@ -37,12 +53,20 @@
     "scene_code": "WPN_GEN_KILLG4L",
     "arabic_current": "<ts=&quot;0.035;1.747&quot;>المرح قبل الصحبة!",
     "arabic_edit": "<ts=&quot;0.035;1.747&quot;>المرح قبل الصحبة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "91bf85d2d007fa53c22e72760ddc9e59cda363c5374bce41987befb408777a72",
+      "candidate_sha256": "761248fbc7a4cd1eb9e7cd1d495f4fa98d6483d92c9fbbed8fd54998c662a951",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8075,
@@ -52,13 +76,21 @@
     "scene_code": "WPN_GEN_KILLG4L",
     "arabic_current": "<ts=&quot;0.038;2.656&quot;>يا أصدقائي، ألم تروا فطرا<br>يتكلم من قبل؟",
     "arabic_edit": "<ts=&quot;0.038;2.656&quot;>يا أصدقائي، ألم تروا فطرا يتكلم من قبل؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "255ea371df5f0133cc370d8bc175e33ef99ef0d65b4a984491922657bc74bd86",
+      "candidate_sha256": "b04f30108ba4638bad596356a6450c89599b52006abf2924d395e395da2831de",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8076,
@@ -67,13 +99,21 @@
     "speaker_code": "FUNG",
     "scene_code": "WPN_GEN_KILLG4L",
     "arabic_current": "<ts=&quot;0;3&quot;>نصيحة: عليكم أن تطلبو<br>ثمنا أكبر.",
-    "arabic_edit": "<ts=&quot;0;3&quot;>نصيحة: عليكم أن تطلبو ثمنا أكبر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3&quot;>نصيحة: عليكم أن تطلبوا أجرًا أعلى.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "3bd970f3e65d945d6a3d1f2dd6cefc4b425596f90571fbc978227a71da7c8cb0",
+      "candidate_sha256": "bbb444f423e5758ba557ee847e08e29978d750f182106f85a34f532546337b27",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

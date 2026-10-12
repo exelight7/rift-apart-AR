@@ -6,14 +6,22 @@
     "speaker_code": "PILF",
     "scene_code": "ZURK_GP1_CINE_SHINGLEINTRO",
     "arabic_current": "<ts=&quot;0.041;7.008&quot;>يا إلهي! لقد لويت كاحلي!<ts=&quot;8.884;13.162&quot;>لكن لا تخف، فبديل<br>تمثيلي أقل جاذبية<br>سيقاتل بدلا مني!<ts=&quot;13.303;14.038&quot;>فرانسوا!",
-    "arabic_edit": "<ts=&quot;0.041;7.008&quot;>يا إلهي! لقد لويت كاحلي!<ts=&quot;8.884;13.162&quot;>لكن لا تخف، فبديل تمثيلي أقل جاذبية سيقاتل<br>بدلا مني!<ts=&quot;13.303;14.038&quot;>فرانسوا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.041;7.008&quot;>يا إلهي! التوى كاحلي!<ts=&quot;8.884;13.162&quot;>لكن لا تخافي، سيقاتل بدلًا مني بديلي في<br>المشاهد الخطرة، وهو أقل مني جاذبية!<ts=&quot;13.303;14.038&quot;>فرانسوا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "e57f83649222982c90fb307b1d3227c6ccb2cabdf72aac84b702c903da164665",
+      "candidate_sha256": "6b91a8daaf928fad9de58eebd2fcb739570b9b87eb43f2e09e8253f45fd6d225",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21951,
@@ -22,13 +30,21 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_CINE_SHINGLEINTRO",
     "arabic_current": "<ts=&quot;0.042;2.983&quot;>قد تسلم ذلك المقوم الآن يا<br>بيير!",
-    "arabic_edit": "<ts=&quot;0.042;2.983&quot;>قد تسلم ذلك المقوم الآن يا بيير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.042;2.983&quot;>من الأفضل أن تسلم مقوي الإشارة الآن، يا<br>بيير!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "593dc5b83660936513a41c3a8b9eefccebe54a8904f0eb2b526553a202766f75",
+      "candidate_sha256": "df781bf61621bfce513a5dbf346d77eae257c013655076163846e974847c437e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

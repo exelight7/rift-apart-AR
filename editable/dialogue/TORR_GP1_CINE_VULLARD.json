@@ -6,14 +6,22 @@
     "speaker_code": "CLANK",
     "scene_code": "TORR_GP1_CINE_VULLARD",
     "arabic_current": "<ts=&quot;0;2.819&quot;>أخبرنا أنه يستطيع إصلاح<br>كوارتز المرحلة.",
-    "arabic_edit": "<ts=&quot;0;2.819&quot;>أخبرنا أنه يستطيع إصلاح كوارتز المرحلة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.819&quot;>أخبرونا أنه يستطيع إصلاح كوارتز الطور.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "63c5fd6cdc98dcc7275f6f3505a57edceb9e3ed1fdaf7f00ce27c31e75fa0471",
+      "candidate_sha256": "be7571958644138ea258ed3fb225bd7ee6b6a76a130bbbd01e6f58206770adc9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2388,
@@ -23,12 +31,20 @@
     "scene_code": "TORR_GP1_CINE_VULLARD",
     "arabic_current": "<ts=&quot;0;2&quot;>ربما يمكننا إصلاحه؟",
     "arabic_edit": "<ts=&quot;0;2&quot;>ربما يمكننا إصلاحه؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "542b11f24c7e2e1ea926750ae95e63847eeef220a80360d1ab467cc0424ea528",
+      "candidate_sha256": "48e2bb3f1ccadbab6f87c25f09e1b2ef892c96aee2ad5b52bedfe450e9fb7881",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21509,
@@ -37,14 +53,22 @@
     "speaker_code": "RIVE",
     "scene_code": "TORR_GP1_CINE_VULLARD",
     "arabic_current": "<ts=&quot;0;1.963&quot;>هل رجل التصليح على هذا<br>الكوكب؟",
-    "arabic_edit": "<ts=&quot;0;1.963&quot;>هل رجل التصليح على هذا الكوكب؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.963&quot;>هل المصلح على هذا الكوكب؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "b360edc221417881cd90457f7fe87386aba9a60f72734c9a76840c2a939bcd63",
+      "candidate_sha256": "21c18ea0d671868368c4c118f71659e3b3eb4bfbb3e6588ad21010cfa0368c8b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24582,
@@ -53,14 +77,22 @@
     "speaker_code": "VLRD1",
     "scene_code": "TORR_GP1_CINE_VULLARD",
     "arabic_current": "<ts=&quot;0;1.4&quot;>بالتأكيد هو!<ts=&quot;1.65;5.85&quot;>رجل رائع. الأفضل. و*أعزب*إن ،<br>كان أحدكما مهتما.",
-    "arabic_edit": "<ts=&quot;0;1.4&quot;>بالتأكيد هو!<ts=&quot;1.65;5.85&quot;>رجل رائع. الأفضل. و*أعزب*إن ، كان أحدكما<br>مهتما.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.4&quot;>إنه كذلك بالتأكيد!<ts=&quot;1.65;5.85&quot;>رجل رائع. الأفضل. وأعزب، إن كان أحدكما<br>مهتمًّا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "final-meaning-001",
+      "source_sha256": "7fc325e1849ed32a53170ddda9d907e519d6d1a6fa37075675698ed079cc7a57",
+      "candidate_sha256": "d588d5d8233633ae52d6c6e2548518b1e8784523cc1c9d35b4b31863734f81f3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24583,
@@ -69,14 +101,22 @@
     "speaker_code": "VLRD1",
     "scene_code": "TORR_GP1_CINE_VULLARD",
     "arabic_current": "<ts=&quot;0.023;4.098&quot;>،كوارتز المرحلة، كوارتز اللهب<br>*أي* ،كوارتز *أي* شيء!",
-    "arabic_edit": "<ts=&quot;0.023;4.098&quot;>،كوارتز المرحلة، كوارتز اللهب *أي* ،كوارتز<br>*أي* شيء!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.023;4.098&quot;>كوارتز الطور، وكوارتز اللهب، وأي كوارتز،<br>وأي شيء!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "4f62167fb6dfb6cb3925cfd723ed0f97eb1224c1f81eb9b4caf214e71a31555d",
+      "candidate_sha256": "7e76974f69d2dfa10fefa89669cd15575e7ffe7fbc228533f7ef910e92ad3c7c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24584,
@@ -85,14 +125,22 @@
     "speaker_code": "VLRD1",
     "scene_code": "TORR_GP1_CINE_VULLARD",
     "arabic_current": "<ts=&quot;0.037;3.921&quot;>نواجه مشكلة مع القراصنة<br>فطلبنا مساعدته لأنه رجل<br>،ضخم<ts=&quot;3.96;7.872&quot;>لكن بعد بضعة أيام من<br>سحقهم تماما، انكسر<br>فحسب...",
-    "arabic_edit": "<ts=&quot;0.037;3.921&quot;>نواجه مشكلة مع القراصنة فطلبنا مساعدته<br>لأنه رجل ،ضخم<ts=&quot;3.96;7.872&quot;>لكن بعد بضعة أيام من سحقهم تماما، انكسر<br>فحسب...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.037;3.921&quot;>كنا نعاني مشكلة مع القراصنة، فطلبنا<br>مساعدته لأنه، تعرفين، ضخم،<ts=&quot;3.96;7.872&quot;>لكن بعد أيام قليلة من سحقهم تمامًا، تعطل<br>فحسب.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "333d0ffc6bf34f4eaf52198154de1076369b2eb5962ce8bec7277dc5f019b995",
+      "candidate_sha256": "a3357884c9b4a6e1def3d6a89fe7f8cf748397588769e9c4e2f6aa7bf0d32bb0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24585,
@@ -101,14 +149,22 @@
     "speaker_code": "VLRD1",
     "scene_code": "TORR_GP1_CINE_VULLARD",
     "arabic_current": "<ts=&quot;0;3.56&quot;>يبدو إنكما تستطيعان<br>إصلاح حالته في دقيقة<br>مولونوث!<ts=&quot;3.56;9.195&quot;>لكن الطريق إليه دمر في آخر<br>غارة للقراصنة، لذا ستحتاجان<br>الهيرلشوت!",
-    "arabic_edit": "<ts=&quot;0;3.56&quot;>يبدو إنكما تستطيعان إصلاح حالته في دقيقة<br>مولونوث!<ts=&quot;3.56;9.195&quot;>لكن الطريق إليه دمر في آخر غارة للقراصنة،<br>لذا ستحتاجان الهيرلشوت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.56&quot;>يبدو أنكما تستطيعان إعادته إلى صوابه في<br>دقيقة مولونوثية!<ts=&quot;3.56;9.195&quot;>لكن الطريق إليه دمر في غارة القراصنة<br>الأخيرة، لذا ستحتاجان إلى هيرلشوت!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "e16a3ae2d312ad381406150dfd8cde27de6b1d79a3cf8b856dd81acb89042cbb",
+      "candidate_sha256": "85afafab5e6294074a272db92603d0b414ba3bd23b89ed6a42ce91ddc6dae17c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24586,
@@ -118,13 +174,21 @@
     "scene_code": "TORR_GP1_CINE_VULLARD",
     "arabic_current": "<ts=&quot;0.045;5.442&quot;>سياح جدد؟! أوه، أهلا بكم في<br>*جوهرة* مجرتنا! استمتعوا<br>بزيارتكم!<ts=&quot;5.442;8.706&quot;>هل كنتم تعرفون أن مولونوث<br>تعني الجنة بلغة الخردة؟",
     "arabic_edit": "<ts=&quot;0.045;5.442&quot;>سياح جدد؟! أوه، أهلا بكم في *جوهرة*<br>مجرتنا! استمتعوا بزيارتكم!<ts=&quot;5.442;8.706&quot;>هل كنتم تعرفون أن مولونوث تعني الجنة بلغة<br>الخردة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "68a73fa434b45eb261526ba6259a68f09c5cf1fd97c5fca9097f7cb0705e9344",
+      "candidate_sha256": "62d178c4df2e9656dc52a941579ef5246f3d90e3a6b90df5480d579a096a8cda",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24587,
@@ -134,11 +198,19 @@
     "scene_code": "TORR_GP1_CINE_VULLARD",
     "arabic_current": "<ts=&quot;0.03;1.16&quot;>لكن... أوه.",
     "arabic_edit": "<ts=&quot;0.03;1.16&quot;>لكن... أوه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "b6799c6b90e64d796006393868237c50dd8e80753578ab9ad4581e1a9562b5d2",
+      "candidate_sha256": "89a3ac9da8ab854e1eb0bf9d7fe816f68f04c8c538377689f8b531268febd7fa",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

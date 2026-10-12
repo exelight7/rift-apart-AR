@@ -25,11 +25,15 @@ def wrap_text(text, width=42):
     out=[]
     for p in parts:
         if p.startswith('<'): out.append('<br><br>' if p=='<PARAGRAPH>' else p); continue
+        # Spaces at inline style boundaries separate words across fragments.
+        # textwrap strips them, so restore those supplied by the editor.
+        leading = ' ' if p[:1].isspace() else ''
+        trailing = ' ' if p[-1:].isspace() else ''
         tokens=[]
         def hold(m): tokens.append(m.group());return chr(0xe000+len(tokens)-1)
         p = re.sub(PROTECTED,hold,p)
         p = re.sub(r'[ \t]+',' ',p).strip()
         p = '<br>'.join(textwrap.wrap(p,width,break_long_words=False,break_on_hyphens=False))
         for i,t in enumerate(tokens):p=p.replace(chr(0xe000+i),t)
-        out.append(p)
+        out.append(leading+p+trailing if p else leading or trailing)
     return ''.join(out)

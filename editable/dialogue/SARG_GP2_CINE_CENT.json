@@ -7,13 +7,21 @@
     "scene_code": "SARG_GP2_CINE_CENT",
     "arabic_current": "<ts=&quot;0.009;4.115&quot;>لكن أحد تلك الأشياء<br>البعدية الغريبة يمنعها من<br>الإقلاع.",
     "arabic_edit": "<ts=&quot;0.009;4.115&quot;>لكن أحد تلك الأشياء البعدية الغريبة يمنعها<br>من الإقلاع.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "7aaa217805d18211724076f0289b29841dd694cd438aaf2061ac5f50734ed149",
+      "candidate_sha256": "b147219eb104faba690447cd5ebd48cd37c54de16c8d00fb96356ee98c2468b5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13233,
@@ -22,14 +30,22 @@
     "speaker_code": "MORT",
     "scene_code": "SARG_GP2_CINE_CENT",
     "arabic_current": "<ts=&quot;0;0.729&quot;>،آه، ريفت<ts=&quot;1.21;2.821&quot;>آسف أن اضطررت للحضور<br>لإنقاذنا مرة أخرى.<ts=&quot;2.821;6.833&quot;>،حاولنا صدهم بأنفسنا<br>وأصلحنا سيكيربيد وكل<br>شيء--",
-    "arabic_edit": "<ts=&quot;0;0.729&quot;>،آه، ريفت<ts=&quot;1.21;2.821&quot;>آسف أن اضطررت للحضور لإنقاذنا مرة أخرى.<ts=&quot;2.821;6.833&quot;>،حاولنا صدهم بأنفسنا وأصلحنا سيكيربيد وكل<br>شيء--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.729&quot;>آه، يا ريفت،<ts=&quot;1.21;2.821&quot;>يؤسفني أنك اضطررت إلى إنقاذنا مجددًا.<ts=&quot;2.821;6.833&quot;>حاولنا الصمود وحدنا، وأصلحنا السيكيربيد<br>وكل شيء...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "30e61de8df435edff244a62b9b63574ab42635d6f8b1e60a361036329b189ae5",
+      "candidate_sha256": "f05a8f57508200acca033db3ce9e9491219644b3313667705f87a25d058d59b2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13234,
@@ -39,12 +55,20 @@
     "scene_code": "SARG_GP2_CINE_CENT",
     "arabic_current": "<ts=&quot;0.049;0.987&quot;>ارفعها!",
     "arabic_edit": "<ts=&quot;0.049;0.987&quot;>ارفعها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "268851056893a617d03b40bcbf62871ee09e5cbe755ebbd6edc7a84d661bc529",
+      "candidate_sha256": "bb5aabec34193393012f0308f46fdf4aae1098f6314a79a2e972a18613e50b9b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21251,
@@ -54,12 +78,20 @@
     "scene_code": "SARG_GP2_CINE_CENT",
     "arabic_current": "<ts=&quot;0;2.8&quot;>أولا، لا شيء من هذا كان<br>بخطئك.<ts=&quot;3.31;5.41&quot;>ثانيا، اتركوا الجهاز لنا.",
     "arabic_edit": "<ts=&quot;0;2.8&quot;>أولا، لا شيء من هذا كان بخطئك.<ts=&quot;3.31;5.41&quot;>ثانيا، اتركوا الجهاز لنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "d05de388a8bff19c6c20e4d145931b0260e836d177c9a0ddd6f893963cc2ed4d",
+      "candidate_sha256": "f5015da569ec628584732be5bc1cd296b9e1f9fa223d0476025d634b05250192",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

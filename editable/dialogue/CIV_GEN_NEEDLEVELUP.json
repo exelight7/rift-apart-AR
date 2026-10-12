@@ -7,13 +7,21 @@
     "scene_code": "CIV_GEN_NEEDLEVELUP",
     "arabic_current": "<ts=&quot;0;2.45&quot;>عليك رفع مستوى ذلك<br>السلاح أولا!",
     "arabic_edit": "<ts=&quot;0;2.45&quot;>عليك رفع مستوى ذلك السلاح أولا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "1f208085afbfe0e835e42360d6289d14170f53e679605fca7481a70e9aac458a",
+      "candidate_sha256": "c020602b3cbc05a85c4d9442d12d36e5b0db97e93ecdda830487668a033d85c4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13579,
@@ -22,14 +30,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_NEEDLEVELUP",
     "arabic_current": "<ts=&quot;0.079;3.142&quot;>ارفع مستوى سلاحك لتفتح<br>تلك التطوير!",
-    "arabic_edit": "<ts=&quot;0.079;3.142&quot;>ارفع مستوى سلاحك لتفتح تلك التطوير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.079;3.142&quot;>ارفع مستوى سلاحك لإتاحة هذا التطوير!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "a50b9593abd22dc9c778f908bf126f0149c1896c04f2cead258cc161e59abfd2",
+      "candidate_sha256": "bcfa88e3113208f45410f6b897266f8f9337958ed0f7beba5e1b6fd36a94cf26",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13580,
@@ -39,13 +55,21 @@
     "scene_code": "CIV_GEN_NEEDLEVELUP",
     "arabic_current": "<ts=&quot;0;2.36&quot;>ارفع مستوى ذلك السلاح أولا.<ts=&quot;2.82;4.57&quot;>ثم يمكننا الحديث عن<br>التطويرات.",
     "arabic_edit": "<ts=&quot;0;2.36&quot;>ارفع مستوى ذلك السلاح أولا.<ts=&quot;2.82;4.57&quot;>ثم يمكننا الحديث عن التطويرات.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "d404d60b01809bba2ace8c5eb7bb2ff68752a255a824f844998bda0569edde8c",
+      "candidate_sha256": "d82f84fdf28e1d97133cdb9e26726dc7dc635ecf8c59c313b9e37b5dd9cf4f97",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13581,
@@ -54,13 +78,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_NEEDLEVELUP",
     "arabic_current": "<ts=&quot;0.044;4.277&quot;>أنا واثقة إنك ستفتح تلك<br>قريبا!",
-    "arabic_edit": "<ts=&quot;0.044;4.277&quot;>أنا واثقة إنك ستفتح تلك قريبا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.044;4.277&quot;>أنا واثقة بأنك ستتيحه قريبًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "c4bf3f85a5fd2b6c07ece3715cb43728d9af60de76bf6f0f5ef5636907c8823e",
+      "candidate_sha256": "def999d7b64d7e27ceb361339d7055d05dc558e53ad85f1b89b0a5b5391c7353",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,12 +7,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.499&quot;>أسلحة ثقيلة قادمة!",
     "arabic_edit": "<ts=&quot;0;1.499&quot;>أسلحة ثقيلة قادمة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "74f24ed9693e538ad5005241633c761bee76083efff940a821f0d2286e8317e7",
+      "candidate_sha256": "3cc46c58e94599ad43870b373fec05af560b75229415e8ffc18fd90e5efc9399",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14551,
@@ -22,12 +30,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1&quot;>رصدت صواريخ!",
     "arabic_edit": "<ts=&quot;0;1&quot;>رصدت صواريخ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "9b8e4593a1f6b74c6f2a36c3a5cc7be1ce8e8d49b7a7891e26a4dd3e21d537d4",
+      "candidate_sha256": "511a408ad84f111463aa05ba186630e46d06a37d108002ff2251d58a0c3a1ab8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14552,
@@ -37,12 +53,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.749&quot;>قذائف كبيرة قادمة!",
     "arabic_edit": "<ts=&quot;0;1.749&quot;>قذائف كبيرة قادمة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "87751febbe2c9c52ae58e5d0848520faa10be994053c8f8918088f3aa0a9d3e5",
+      "candidate_sha256": "a0be651018756bae13d90712b76c4bbc23c713b776abf467a831b213ab81b860",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14553,
@@ -52,12 +76,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.05&quot;>انتشروا أيها الأصدقاء!",
     "arabic_edit": "<ts=&quot;0;1.05&quot;>انتشروا أيها الأصدقاء!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "cb6fe690b5322d7400472e971a7841cc0e5c2893517023a7e948b9d568901a9c",
+      "candidate_sha256": "34255d302ea04f89c5d736c4ed69d8fee744fb0b2f5be180f1b1631356f79b6e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14554,
@@ -66,13 +98,21 @@
     "speaker_code": "NEFT1",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.749&quot;>سلم تاجر الحروب!",
-    "arabic_edit": "<ts=&quot;0;1.749&quot;>سلم تاجر الحروب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.749&quot;>سلم مؤجج الحروب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "180397d963fbe67297b7de5fe1b9203b72c2ff19e18f3740d9b731eb493d7ae1",
+      "candidate_sha256": "bbe5dd8cd1accf33caabda7fceb1043d1f20b0fa70f42124bcb2435f20442bbe",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14926,
@@ -82,12 +122,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.033;2.343&quot;>ابتعد عن صواريخ الطري!",
     "arabic_edit": "<ts=&quot;0.033;2.343&quot;>ابتعد عن صواريخ الطري!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "452a0c310ad42bc3f68ba5e30250277e320837349f86665d1b340d8f22a96157",
+      "candidate_sha256": "c1a612d7b77e887d9f2993d84c234f5f091cd007165e40870d91afb95f105af2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14927,
@@ -97,12 +145,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.044;2.293&quot;>الكائن الحي له صواريخ!",
     "arabic_edit": "<ts=&quot;0.044;2.293&quot;>الكائن الحي له صواريخ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "ebf91afc8b6683286983c52b3e2cbe392eb67074ae24f739187dbfe33c0094b9",
+      "candidate_sha256": "fc817e11567254e6cb151c1c2b11db54d86a9fd86e1de71e45ea5b93466254e1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14928,
@@ -112,12 +168,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;2.45&quot;>لهذا لا ينبغي أن يكون الطري<ts=&quot;2.5;2.85&quot;>مسلحا!",
     "arabic_edit": "<ts=&quot;0;2.45&quot;>لهذا لا ينبغي أن يكون الطري<ts=&quot;2.5;2.85&quot;>مسلحا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "5d7a8db65f0cb5930af3f7b25d1ef5e8d7e6c11ab2c06d141457b92c509a9e44",
+      "candidate_sha256": "e0f8d1f7a361d503142f50dbe55b72295f1285271e3e6a541cfb81ce28c53f8f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14929,
@@ -126,14 +190,22 @@
     "speaker_code": "NEFT2",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;2.72&quot;>من أين حصلت على تاجر<br>الحروب أيها الطري! ؟",
-    "arabic_edit": "<ts=&quot;0;2.72&quot;>من أين حصلت على تاجر الحروب أيها الطري! ؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.72&quot;>من أين حصلت على مؤجج الحروب، أيها العضوي؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "f2ad733effc3832726e3eb02ab2e7214d678930db803fc075ec31a95611e5370",
+      "candidate_sha256": "86c1bf4a5ffa5eb4d97fefffbf317d72e988751014d60776bb2d8e34fa100ce4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15336,
@@ -143,12 +215,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.007;2.286&quot;>عضوي، مسلح وخطير!",
     "arabic_edit": "<ts=&quot;0.007;2.286&quot;>عضوي، مسلح وخطير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "b2dabb0d9dc32fa84a069fd8ef51ef54c37978d855e26e99191fdda43113d053",
+      "candidate_sha256": "1a67a7549bf3cfcbf6d93725644b1e584e990121a3e226cfae4c8fca68aad0bf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15337,
@@ -158,12 +238,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.004;2.23&quot;>أيها الجنود، احذروا الصواريخ!",
     "arabic_edit": "<ts=&quot;0.004;2.23&quot;>أيها الجنود، احذروا الصواريخ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "a28d850ad92ca2e4e1581ac7ab0bee30b317fb85ea7d05fc529f3a2b55550174",
+      "candidate_sha256": "059a30e38a0218b86163585cd26e4a6e1ca9532df5e3bcc86a85ae2bb63d4da9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15338,
@@ -173,13 +261,21 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.01;2.512&quot;>ستتلف تلك الصواريخ<br>حساساتي!",
     "arabic_edit": "<ts=&quot;0.01;2.512&quot;>ستتلف تلك الصواريخ حساساتي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "1f26d23f5df6fe54f51204e8db540790d7c2657fabdd49b4130ca74f73092f8b",
+      "candidate_sha256": "b22df2e2101968bd038d80257ab0f47a0c70ae10b36c03a6a73e843b72a5814b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15339,
@@ -188,13 +284,21 @@
     "speaker_code": "NEFT3",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.4&quot;>أمسك أحدكم تاجر الحروب!",
-    "arabic_edit": "<ts=&quot;0;1.4&quot;>أمسك أحدكم تاجر الحروب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.4&quot;>ليصادر أحدكم مؤجج الحروب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "f9d1ef10215eb9c9839a105c57359c738b86a0faff828bdf5867f936087953b6",
+      "candidate_sha256": "7893d3d2136382e085e25c8bf90fcff52557f0fa5a96bfc531b2c6d242b9ebf5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15340,
@@ -203,13 +307,21 @@
     "speaker_code": "NEFT3",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.038;1.525&quot;>انتبهوا لتاجر حروب المتمرد!",
-    "arabic_edit": "<ts=&quot;0.038;1.525&quot;>انتبهوا لتاجر حروب المتمرد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.038;1.525&quot;>احذروا مؤجج الحروب الذي يحمله المتمرد!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "412d9e4676f8079a5b45dfd5c06910a43a6b83d6289cc82e8b9f8bdd297c58a0",
+      "candidate_sha256": "c9e34e92e3a8f12b9fee17ad5c698b7a8aad62916049f8426651749f5d1b5e26",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15686,
@@ -219,12 +331,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.864&quot;>أود أن أبقى سليما!",
     "arabic_edit": "<ts=&quot;0;1.864&quot;>أود أن أبقى سليما!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "55aec02adb9bef1ee32be33421d311407726cedf55ffea0717aa3a46f67ec9d2",
+      "candidate_sha256": "3c67bd448981dd31d95e67a258030593703bc1321717d3e0c32fbd4394d7e1df",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15687,
@@ -234,12 +354,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.905&quot;>لن تمزقني إلى قطع!",
     "arabic_edit": "<ts=&quot;0;1.905&quot;>لن تمزقني إلى قطع!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "14c2a6039e23dfd71a529339f50819ba42b311147fe33468f7a3844cf232f18f",
+      "candidate_sha256": "8ab94f15c5c0c61d8afefa70545e587847eda8736fbfef5010bd1cb9faf7ccb3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15688,
@@ -249,13 +377,21 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;2.999&quot;>الطريون والصواريخ، توليفة<br>سيئة!",
     "arabic_edit": "<ts=&quot;0;2.999&quot;>الطريون والصواريخ، توليفة سيئة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "21680e32f5427d80a908890498533027107642e052f2688b79f8b55da7a69079",
+      "candidate_sha256": "67d6fe032bec1e7b16ec59e6e7da3afad326f96613f1edb7116be78a1b0e9e77",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 15689,
@@ -264,13 +400,21 @@
     "speaker_code": "NEFT4",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.03;1.572&quot;>تاجر الحروب في الميدان!",
-    "arabic_edit": "<ts=&quot;0.03;1.572&quot;>تاجر الحروب في الميدان!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.03;1.572&quot;>مؤجج الحروب في الميدان!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "5222e84ca1e1a182ae6c11f46d35132788cc6528b07ee7c862b643f33158aed6",
+      "candidate_sha256": "cc1331d6d36a8b200fd034f500cf6424c76d17045bbd7f9a9c58aef64cc66d02",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17017,
@@ -280,12 +424,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.16;1.56&quot;>الصواريخ قادمة بسرعة!",
     "arabic_edit": "<ts=&quot;0.16;1.56&quot;>الصواريخ قادمة بسرعة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "67451a28229c55cb215a7f60d1894f52a49a1a615ad8ab452fdb75ce894f2169",
+      "candidate_sha256": "ea81f1742536d9b5d0507a6aff6c358bf5d94f25c596fd7cc09a538c864cf8fd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17018,
@@ -294,13 +446,21 @@
     "speaker_code": "PIR1",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.003;1.576&quot;>هاه، هذه مدفعية!",
-    "arabic_edit": "<ts=&quot;0.003;1.576&quot;>هاه، هذه مدفعية!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.003;1.576&quot;>هذا ما أسميه مدفعًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "1cec15117a1c8345a19ca41df9133c56e5ef7973303d335a880c4771bbb866a4",
+      "candidate_sha256": "60ea54b16f6fcfbcfc061c2fd35fc01e07491742b1e2b0d9149bbf9f517532e2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17019,
@@ -309,13 +469,21 @@
     "speaker_code": "PIR1",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.036;1.209&quot;>تاجر الحروب!",
-    "arabic_edit": "<ts=&quot;0.036;1.209&quot;>تاجر الحروب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.036;1.209&quot;>مؤجج الحروب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "93d0a57abe2abe522ee5b2d22e507c903ba78acb38500ef20cd338d588680644",
+      "candidate_sha256": "5549fdac9994d095b48389f6c0def255c3f9df6f9a8cc959af4f80a900f58a00",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17020,
@@ -325,12 +493,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.024;2.136&quot;>لن أكون طعاما للأسماك!",
     "arabic_edit": "<ts=&quot;0.024;2.136&quot;>لن أكون طعاما للأسماك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "aaee9da1dc7c320b46fe64f9d318d3f31863a51ff83807dac8aa8485df97e297",
+      "candidate_sha256": "6f7a61703b44b089dc12a92bf08eae021f12af8cf02c3f10645c508f541540b9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17021,
@@ -339,14 +515,22 @@
     "speaker_code": "PIR1",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;0.35&quot;>أبقوا<ts=&quot;1.17;1.841&quot;>رؤوسكم على أمانكم يا<br>رفاقي!",
-    "arabic_edit": "<ts=&quot;0;0.35&quot;>أبقوا<ts=&quot;1.17;1.841&quot;>رؤوسكم على أمانكم يا رفاقي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.35&quot;>احموا<ts=&quot;1.17;1.841&quot;>رؤوسكم، يا رفاقي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "e9a5ea8a71a120ffdcbcf99901c3949fc8759da415e1116a0cb05da832bc0a7f",
+      "candidate_sha256": "05f3eb95d24fc9669ffa8d9d055be6eb39eedd10c1c2d77407152ef4bd6821da",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17363,
@@ -356,12 +540,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.499&quot;>الصواريخ قادمة!",
     "arabic_edit": "<ts=&quot;0;1.499&quot;>الصواريخ قادمة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "d21a409d19be287476b44a358b53227eb5db29d0e0c5a0a50900c052050830ff",
+      "candidate_sha256": "5d086e1594b7b0d0f2083e5083696a1b2119f8ff4e5699b499c8e0ac7c4d0062",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17364,
@@ -371,12 +563,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.24;2.949&quot;>اللومباكس يستخرج المدافع!",
     "arabic_edit": "<ts=&quot;0.24;2.949&quot;>اللومباكس يستخرج المدافع!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "111b83011cbb15f556f7b36359ae005ada7483a85b1c5b7a2383d2a5c488cd49",
+      "candidate_sha256": "73098f2a9916d1fad6e014e693f5316043ab9194f406165eccf92de26f9fd211",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17365,
@@ -385,13 +585,21 @@
     "speaker_code": "PIR2",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.051;0.937&quot;>احتم!",
-    "arabic_edit": "<ts=&quot;0.051;0.937&quot;>احتم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.051;0.937&quot;>احتموا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "3dc2bf060c0a61de19a26bbb0c4295ad4e4ece851c53973bf3f19fbce50e564d",
+      "candidate_sha256": "ba306b5c5767673212ae2caec25643a96d51ebd6415f8fa1590e39b06dedf96f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17366,
@@ -400,13 +608,21 @@
     "speaker_code": "PIR2",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.169;1.749&quot;>احذروا تاجر الحروب!",
-    "arabic_edit": "<ts=&quot;0.169;1.749&quot;>احذروا تاجر الحروب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.169;1.749&quot;>احذروا مؤجج الحروب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "8cf0aa55d89c01982c69d6732ef4e192ee594b13b63df7d70672957a68bd5096",
+      "candidate_sha256": "1a39275ce67431999c69e505da0c1abc284edb8827d1c8e30fc5f986e8fed5dc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17367,
@@ -416,12 +632,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.036;1.461&quot;>ها هي الصواريخ!",
     "arabic_edit": "<ts=&quot;0.036;1.461&quot;>ها هي الصواريخ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "8ec81ea884a14d7c7102e8b10d4542577215a328b7f60843d802514641878d38",
+      "candidate_sha256": "2f6020144807d98c35479ac67f695ac2ee2b9ac8b1813e664097463ae89d60bb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17685,
@@ -431,12 +655,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.036;2.026&quot;>ذلك الشيء يضرب بقوة!",
     "arabic_edit": "<ts=&quot;0.036;2.026&quot;>ذلك الشيء يضرب بقوة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "4ec23e74999efb4eb2098b5b805d3e3cd687ffb6400e79a8a1b94e49b046786c",
+      "candidate_sha256": "2d9e77d56c456198bc662765b82c2a8ada87cd4c40146ab2a31f9f8bc5577715",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17686,
@@ -446,12 +678,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.102;1.502&quot;>انبطح واحتم!",
     "arabic_edit": "<ts=&quot;0.102;1.502&quot;>انبطح واحتم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "55e4d08e160f8387af1af3732799926a55102838ece91b5909ed5078b1bf7090",
+      "candidate_sha256": "0b3a77f56fddfa2af1eb2952834e05c46fe3930d025f5aef79b743823a8db799",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17687,
@@ -461,12 +701,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;1.88;2.559&quot;>صواريخ! انبطح على الأرض!",
     "arabic_edit": "<ts=&quot;1.88;2.559&quot;>صواريخ! انبطح على الأرض!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "4df9ae67311ef3d95fa308b29ee8e2dd4f1cc2f5696091ec9bdd9aa1195f16b8",
+      "candidate_sha256": "79fa9aa7576dda00596830c738a7fc982c7d9df9217bc91f5517105e90700b3f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17688,
@@ -476,12 +724,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.043;1.558&quot;>وابل ناري!",
     "arabic_edit": "<ts=&quot;0.043;1.558&quot;>وابل ناري!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "74ee3897a389e994ee466f70ac8736d309036dbc5cf42afd5538e30a42fb3688",
+      "candidate_sha256": "70f51e54e29ed4825e9e729ab19a41a551776f380e400b7ba1a77009c19be686",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17689,
@@ -490,13 +746,21 @@
     "speaker_code": "PIR3",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.047;2.016&quot;>من أين أتيتم بتاجر الحروب! ؟",
-    "arabic_edit": "<ts=&quot;0.047;2.016&quot;>من أين أتيتم بتاجر الحروب! ؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.047;2.016&quot;>من أين أتيت بمؤجج الحروب؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "218224b075fc785204455b29fe1554b4aac8c9313bae81315cce4859e43f9312",
+      "candidate_sha256": "913b19758e723346f7b35290790a0284f83a951b7bbe30aa4df2314b034d4d6d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18014,
@@ -506,12 +770,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.04;1.999&quot;>انبطح واحتم!",
     "arabic_edit": "<ts=&quot;0.04;1.999&quot;>انبطح واحتم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "d3070a50210db27bf58bd54ebc8dd66d74c409472912bb756d8be46f6239c455",
+      "candidate_sha256": "c2e42e8f4a1e972d108c9c4197d144010024fedf254ad71a12046f4b4aebe803",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18015,
@@ -521,13 +793,21 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.048;2.789&quot;>ضع ساترا بينك وبين تلك<br>الصواريخ!",
     "arabic_edit": "<ts=&quot;0.048;2.789&quot;>ضع ساترا بينك وبين تلك الصواريخ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "d521a0c24d0b2d6fb32e59e89ec7a4256e149847b9dd8e1c560c27efee7db9ef",
+      "candidate_sha256": "96040f72c25c38d22554240962301a420c1993ac9b105f40d4c261ce1558a24c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18016,
@@ -537,12 +817,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.041;2.11&quot;>سيغرقنا ذلك بالتأكيد!",
     "arabic_edit": "<ts=&quot;0.041;2.11&quot;>سيغرقنا ذلك بالتأكيد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "51afc6be95b10d333a9b8d3206fea5cffc3024fa139756327efdbd5e851e245b",
+      "candidate_sha256": "898f963eab009c4f5488802a77995d1db7cde86cf411785d4bc07e5ff260cd03",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18017,
@@ -551,13 +839,21 @@
     "speaker_code": "PIR4",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.042;2.049&quot;>هذا تاجر حروب أيها الرفاق!",
-    "arabic_edit": "<ts=&quot;0.042;2.049&quot;>هذا تاجر حروب أيها الرفاق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.042;2.049&quot;>هذا مؤجج الحروب، يا رفاقي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "53d52ff0ec7868150da28a43d44aed9cb96ac32f983acdd1e46b5f13c66cc4e7",
+      "candidate_sha256": "d3a60970bf6cff3f9f6f247e36f9d3d103cafab25541c27653b498dad4590d90",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18018,
@@ -567,12 +863,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.049;2.247&quot;>نيران المدافع قادمة!",
     "arabic_edit": "<ts=&quot;0.049;2.247&quot;>نيران المدافع قادمة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "74d5219f1b3c3ebe479bb0f941c57bcdb7e66e7b6064c6ad1530d36848307dc5",
+      "candidate_sha256": "3446ec5d5775ddccff384b86919b5f0fa14a64ea07b7ffa0d58cb8bb6d34ecbd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22926,
@@ -582,12 +886,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.047;1.473&quot;>قادم!",
     "arabic_edit": "<ts=&quot;0.047;1.473&quot;>قادم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "b183bbd31787b0e7b994d27464d19c2a34743f48abada56df7e8065f89dd6047",
+      "candidate_sha256": "cb9fa510bc8d7b1c7a49f3645581b3f1fd738d227f355d2b12d90ea8c7d8eed3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22927,
@@ -597,12 +909,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.049;1.661&quot;>انتبهوا للصواريخ يا رفاقي!",
     "arabic_edit": "<ts=&quot;0.049;1.661&quot;>انتبهوا للصواريخ يا رفاقي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "7331f17677a6edbc8f9314c938fad3a4ef4e9ebc4040b4ef3acf43abd14b865b",
+      "candidate_sha256": "d9800be16d27a6be5ac0123c0a41cd45920b1ef9325f7ec592d5f5e50e16ce52",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22928,
@@ -612,12 +932,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.4&quot;>الصواريخ في الطريق!",
     "arabic_edit": "<ts=&quot;0;1.4&quot;>الصواريخ في الطريق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "2a16a61c713a7101eca21713842fd57aec62bafa8cef19444181e37c4d44f7d2",
+      "candidate_sha256": "fcac0209757fb08a4b3666b8e9bcb9841b2f98c9713119c0be1c03a66f4d11dd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23266,
@@ -627,12 +955,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.049;1.914&quot;>انتبه أين توجهه!",
     "arabic_edit": "<ts=&quot;0.049;1.914&quot;>انتبه أين توجهه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "71aa481b47a4033223f5f0a427fe4be1d246d8251704a13eac97c6e4a42af27d",
+      "candidate_sha256": "b0b28414b2c7ffaef16ffa9810b15d803e8f80db87b6b097bfd0eea90802e7b5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23267,
@@ -642,13 +978,21 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.679&quot;>اللومباكس لديه صواريخ<br>الآن!",
     "arabic_edit": "<ts=&quot;0;1.679&quot;>اللومباكس لديه صواريخ الآن!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "a9a5c5eb9d672d6631b871d77ced3a12bf90022ba70d91c8d2e5a21b8d7fe796",
+      "candidate_sha256": "7417c64f90b7ff7b4b92ce9bb0de345203c7bd7545da2f02ccbfc7a735945d86",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23268,
@@ -658,12 +1002,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.099;1.499&quot;>الصواريخ لن توقفني!",
     "arabic_edit": "<ts=&quot;0.099;1.499&quot;>الصواريخ لن توقفني!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "c34826ba38a7db493d11e9680891d321f9ff4deb5d44fcd564360c435a3442e5",
+      "candidate_sha256": "c9c590bebb0beaf9f84b135d680114dfc46d2f103c746311c707bcd69df3c57b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23580,
@@ -673,12 +1025,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.045;1.81&quot;>كيف ترفع ذلك أصلا؟",
     "arabic_edit": "<ts=&quot;0.045;1.81&quot;>كيف ترفع ذلك أصلا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "001a13acf87aa87380b1ec00d6ea97318a5e819c89e9a25672802be9214600a6",
+      "candidate_sha256": "60798190ac4e16fff6c844ba04a10fe01fd5b481b70cad62ab736ca6873ab210",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23581,
@@ -687,13 +1047,21 @@
     "speaker_code": "T4L3",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.035;1.731&quot;>لدينا تاجر حروب يا رفاقي!",
-    "arabic_edit": "<ts=&quot;0.035;1.731&quot;>لدينا تاجر حروب يا رفاقي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.035;1.731&quot;>مؤجج الحروب في الميدان، يا رفاق!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "a349528c239019bd6852aeb19b910384bc2ca14a6316e33eb7b82a2c9779093f",
+      "candidate_sha256": "bed2361b3734bfe6a2a4ff6d7c79c1583a78d8479f5437029ab7355113fa3f8f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23582,
@@ -703,12 +1071,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.05&quot;>ما هذا الإفراط في القوة!",
     "arabic_edit": "<ts=&quot;0;1.05&quot;>ما هذا الإفراط في القوة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "aac5dd7d5f51a906f068e7cafb8036945d7b27bdc01cc5dcabeb1e0af364d70b",
+      "candidate_sha256": "72556b2b8c10fd0953ae7146fbafbb8724e4e10355f84f0f454fa380153e8bd1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23583,
@@ -718,13 +1094,21 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;1.66;2.021&quot;>انتبهوا، الصواريخ في<br>الطريق!",
     "arabic_edit": "<ts=&quot;1.66;2.021&quot;>انتبهوا، الصواريخ في الطريق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "07f80df03a29538e0a9a1e9c6a91c4968d6b70e89f5f04fb3ee972aa623dfe8d",
+      "candidate_sha256": "abad25f11c0b80290f7144c5938d5e2e4f7627aca05138d52d131ba6cf9a3116",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23584,
@@ -733,13 +1117,21 @@
     "speaker_code": "T4L3",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;1.4&quot;>انتبه لتاجر حروب اللومباكس!",
-    "arabic_edit": "<ts=&quot;0;1.4&quot;>انتبه لتاجر حروب اللومباكس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.4&quot;>احذروا مؤجج الحروب الذي يحمله اللومباكس!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "ac8e90e44b055dac4402e6dff8a64529a3668fb9e155d2eca1c5c83608178473",
+      "candidate_sha256": "68b94b514e55184fe08dfe7d14792cc49d6ad1525570a976e19266bd33057360",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23916,
@@ -749,12 +1141,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.139;1.189&quot;>الصواريخ قادمة!",
     "arabic_edit": "<ts=&quot;0.139;1.189&quot;>الصواريخ قادمة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "52efd132dafbfa60e6f9fa72e19cd085d66822200eecb92d5b618ece000c1675",
+      "candidate_sha256": "a2ad429d049223f2fcd111d50806d42046f7b6ed8e066f58896598b830e2fc03",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23917,
@@ -763,14 +1163,22 @@
     "speaker_code": "T4L4",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0;0.7&quot;>،يا شباب<ts=&quot;1.089;2.75&quot;>اللومباكس صار يطلق<br>الصواريخ!",
-    "arabic_edit": "<ts=&quot;0;0.7&quot;>،يا شباب<ts=&quot;1.089;2.75&quot;>اللومباكس صار يطلق الصواريخ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.7&quot;>يا شباب،<ts=&quot;1.089;2.75&quot;>اللومباكس صار يطلق الصواريخ!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "final-meaning-002",
+      "source_sha256": "d1a1641ff594e040fc5e2addea9ed3489136f3a65dfe96a4f78f9e66810d41b2",
+      "candidate_sha256": "805dd769cddac8b88feebc21d7653786496fa6d0f0a3c690652175971e496289",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23918,
@@ -780,12 +1188,20 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.049;2.404&quot;>كرة الوبر تحمل الصواريخ!",
     "arabic_edit": "<ts=&quot;0.049;2.404&quot;>كرة الوبر تحمل الصواريخ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "d63163d964cb592504130fe4b28771902dbac34e9418838f86943c2c97ee53fe",
+      "candidate_sha256": "4946e5ea44a3f9e7f52ec1b3f8fe00ab6487a49ccb850f987d8226bd018ce85d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23919,
@@ -794,13 +1210,21 @@
     "speaker_code": "T4L4",
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.05;1.631&quot;>هل ذاك تاجر حروب! ؟",
-    "arabic_edit": "<ts=&quot;0.05;1.631&quot;>هل ذاك تاجر حروب! ؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.05;1.631&quot;>أهذا مؤجج الحروب؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "43958805733cfdf743c0436888c2b1fbad777fb6e106a1a8853133f70bfb7feb",
+      "candidate_sha256": "134a6f7aa2a3a6b02a1deea0d7a9cd9f2070f350c71d2f897120e330157eed44",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23920,
@@ -810,11 +1234,19 @@
     "scene_code": "ENM_GEN_WARMONGER",
     "arabic_current": "<ts=&quot;0.036;1.825&quot;>لن أترك أحدا يفجرني!",
     "arabic_edit": "<ts=&quot;0.036;1.825&quot;>لن أترك أحدا يفجرني!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "0c147c6139356f15f5ab5c44be684176c03ee6ebec831cf38601149d114cd783",
+      "candidate_sha256": "e227dcf0b1ef158407c01d9f32943fe3e6ba8fba4b8baf6b0133b64f6504d8ba",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

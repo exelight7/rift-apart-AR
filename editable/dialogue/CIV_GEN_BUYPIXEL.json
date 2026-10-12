@@ -7,11 +7,19 @@
     "scene_code": "CIV_GEN_BUYPIXEL",
     "arabic_current": "<ts=&quot;0.056;3.202&quot;>المبكسل لك أخيرا!",
     "arabic_edit": "<ts=&quot;0.056;3.202&quot;>المبكسل لك أخيرا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "7413e0a58cadd3949b845350e829b1b1c07ccfd419dffe01fff3dc06f6eff729",
+      "candidate_sha256": "bbeeefb0f2763afea01d1f284cc9d784ce82415ceb455d313145acf754d937d3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

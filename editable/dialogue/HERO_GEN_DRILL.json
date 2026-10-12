@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_DRILL",
     "arabic_current": "<ts=&quot;0;1.989&quot;>جاهز لمطاردة الأشرار؟",
     "arabic_edit": "<ts=&quot;0;1.989&quot;>جاهز لمطاردة الأشرار؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "c59248ced145c23d6ecdd282e9b1655e3c6bf4ee15ecf59b14a807e78f0d23cb",
+      "candidate_sha256": "a191a55d52c8a3ef825b4da4123c8f8ffe557c22be2899d6f2e0d3a18a4529c5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19493,
@@ -22,12 +30,20 @@
     "scene_code": "HERO_GEN_DRILL",
     "arabic_current": "<ts=&quot;0;1.75&quot;>هل يريد دريلهاوند أن ينفجر؟<ts=&quot;1.91;2.485&quot;>هل يريد؟",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>هل يريد دريلهاوند أن ينفجر؟<ts=&quot;1.91;2.485&quot;>هل يريد؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "233c86d690957fa205d217f524ee331d66a8cb04dabfd7444849aefc0a309ba4",
+      "candidate_sha256": "6661dd02cb2d599165431ae41bad70fa7dd4c1c472f2a58426f464f6d8dd2d69",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20787,
@@ -37,12 +53,20 @@
     "scene_code": "HERO_GEN_DRILL",
     "arabic_current": "<ts=&quot;0.046;1.176&quot;>من الفتى الشاطر؟",
     "arabic_edit": "<ts=&quot;0.046;1.176&quot;>من الفتى الشاطر؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "ea9808ab1929a74e85805526a2dbd2ef28dc7bea26f073384c88a85a09c82504",
+      "candidate_sha256": "f6b7c487e1466c9d2a0b20863a8765067cc55c8aec561286aedeb4e4e04f29fc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20788,
@@ -52,11 +76,19 @@
     "scene_code": "HERO_GEN_DRILL",
     "arabic_current": "<ts=&quot;0.26;2.102&quot;>أوووه، هل يريد أحد أن يلعب؟",
     "arabic_edit": "<ts=&quot;0.26;2.102&quot;>أوووه، هل يريد أحد أن يلعب؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "6a439a380d620a6ddbffa125a02e38774240a2b90108b60b3c4d4f1536182787",
+      "candidate_sha256": "484bcc1c82805e2199ce0ebec3ec00ad6fc1beedb71f702931ac717ea686750b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

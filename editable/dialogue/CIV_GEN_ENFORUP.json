@@ -7,11 +7,19 @@
     "scene_code": "CIV_GEN_ENFORUP",
     "arabic_current": "<ts=&quot;0;3.844&quot;>الآن هذا إنفاذ من مستوى آخر!",
     "arabic_edit": "<ts=&quot;0;3.844&quot;>الآن هذا إنفاذ من مستوى آخر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "5c6ca2a290e39dc749295fbcdefb8881ca5b13f43fbdd58788c23284abc5136f",
+      "candidate_sha256": "3cd0c71f0cede1f9ad032c0847e42ad0d432e29ed133d830cd6c63a29b7dfb2a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

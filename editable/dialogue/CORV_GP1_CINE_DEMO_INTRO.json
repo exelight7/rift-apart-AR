@@ -7,12 +7,20 @@
     "scene_code": "CORV_GP1_CINE_DEMO_INTRO",
     "arabic_current": "<ts=&quot;0;1&quot;>اطلب بلطف؟",
     "arabic_edit": "<ts=&quot;0;1&quot;>اطلب بلطف؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-003",
+      "source_sha256": "9df4bb510e88f46a55fa38094b14f98c9fd067c29a4c6785a76d8808bdde71ac",
+      "candidate_sha256": "d02f5e4571a121b88359d13e900fca2a09245a77e10d03fdd021f1b9c234e723",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14298,
@@ -58,11 +66,19 @@
     "scene_code": "CORV_GP1_CINE_DEMO_INTRO",
     "arabic_current": "<ts=&quot;0;1.562&quot;>كيف أقود هذا الشيء؟",
     "arabic_edit": "<ts=&quot;0;1.562&quot;>كيف أقود هذا الشيء؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "84ef2e8e0f12b3781f0db8d92fcd89c507dd67ed42b9585766ad8cc2bcbb354c",
+      "candidate_sha256": "61e0aa258e5b3c0d0a7f89afb620e185766a5e598a07da0e52337b62da96b23b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

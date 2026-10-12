@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_TOPASOON",
     "arabic_current": "<ts=&quot;0;0.909&quot;>ستزهر الحدائق حين يصل<br>رشاش التشذيب قريبا!",
     "arabic_edit": "<ts=&quot;0;0.909&quot;>ستزهر الحدائق حين يصل رشاش التشذيب قريبا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "23daf74f9391bde84e2f0c760464808487cd80a967d3b6a254daf4dd2405163a",
+      "candidate_sha256": "afa25b0f28d51db7215ed67e4943b6ed8bbbd9b1cbb9ea4d283618cd5d577eeb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

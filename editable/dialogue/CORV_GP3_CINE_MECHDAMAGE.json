@@ -6,14 +6,22 @@
     "speaker_code": "EPNF",
     "scene_code": "CORV_GP3_CINE_MECHDAMAGE",
     "arabic_current": "<ts=&quot;0.02;1.149&quot;>آه!<ts=&quot;1.639;4.114&quot;>[يضحك بجنون]<ts=&quot;4.13;7.113&quot;>لقد ظننت فعلا أن لك<br>فرصة...",
-    "arabic_edit": "<ts=&quot;0.02;1.149&quot;>آه!<ts=&quot;1.639;4.114&quot;>[يضحك بجنون]<ts=&quot;4.13;7.113&quot;>لقد ظننت فعلا أن لك فرصة...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.02;1.149&quot;>آه!<ts=&quot;1.639;4.114&quot;>[يضحك بجنون]<ts=&quot;4.13;7.113&quot;>أتظن حقًا أن لديك فرصة...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "8d57fd5a4fe3fac275920df115c23c40ddcb517bb5c6821c5b20e320698d0855",
+      "candidate_sha256": "aba36adcfb08a5ee845719ebbff3451ade0e439f30e0cf8f65068e3e9f3c9347",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7482,
@@ -23,12 +31,20 @@
     "scene_code": "CORV_GP3_CINE_MECHDAMAGE",
     "arabic_current": "<ts=&quot;0.046;1.781&quot;>أوه، أنت....",
     "arabic_edit": "<ts=&quot;0.046;1.781&quot;>أوه، أنت....",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-008",
+      "source_sha256": "3f5d8d54ada7938b71a2f767c3ab406618f7383e4c95222294cb50d9694d457a",
+      "candidate_sha256": "c6cfd20b6c92d7b131455299f03b2db259dea1589c29be53fb736d05bbdd0136",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16591,
@@ -37,14 +53,22 @@
     "speaker_code": "PILF",
     "scene_code": "CORV_GP3_CINE_MECHDAMAGE",
     "arabic_current": "<ts=&quot;0;2.8&quot;>هيا، هناك معركة تنتظر الفوز<br>بها!",
-    "arabic_edit": "<ts=&quot;0;2.8&quot;>هيا، هناك معركة تنتظر الفوز بها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.8&quot;>هيا، تنتظرنا معركة علينا الفوز بها!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "762785aeb3ea8cfa22de0812ae1ee36ecd1cee3a94637e665bb93f741058df5d",
+      "candidate_sha256": "813a9521687d35f1597e7057ad0edad5351b673d7e0b0330fbaea843569a7b16",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18684,
@@ -53,14 +77,22 @@
     "speaker_code": "QUTM",
     "scene_code": "CORV_GP3_CINE_MECHDAMAGE",
     "arabic_current": "<ts=&quot;0.22;5.187&quot;>إمبراطور نيفاريوس، حملتك<br>في الدمار والقسوة<ts=&quot;5.23;8.72&quot;>والتكبر الفاحش انتهت!<ts=&quot;9.238;10.009&quot;>أعجبك؟",
-    "arabic_edit": "<ts=&quot;0.22;5.187&quot;>إمبراطور نيفاريوس، حملتك في الدمار والقسوة<ts=&quot;5.23;8.72&quot;>والتكبر الفاحش انتهت!<ts=&quot;9.238;10.009&quot;>أعجبك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.22;5.187&quot;>أيها الإمبراطور نيفاريوس، انتهت حملتك من<br>الدمار والقسوة،<ts=&quot;5.23;8.72&quot;>والغطرسة المتفشية!<ts=&quot;9.238;10.009&quot;>ما رأيكم؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "3768e3c2078491a8b5d1de75838a143094f89dbc5cc004ac2ccb122553972e61",
+      "candidate_sha256": "20090881e443608c37a53b4e3f9c91af6ecc5adfb819c6a67c097230a546892c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18802,
@@ -70,12 +102,20 @@
     "scene_code": "CORV_GP3_CINE_MECHDAMAGE",
     "arabic_current": "<ts=&quot;0;2.729&quot;>تنتابني قشعريرة!",
     "arabic_edit": "<ts=&quot;0;2.729&quot;>تنتابني قشعريرة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "e83e2bd9bb35883dfdb7e64928cd2b3181639dc5bc1283bb56bb26c789299760",
+      "candidate_sha256": "17e75f19a9d9a8aa4df77522cc021bfcb878cf406c5f95f6b0dbe7279ee86611",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19369,
@@ -85,12 +125,20 @@
     "scene_code": "CORV_GP3_CINE_MECHDAMAGE",
     "arabic_current": "<ts=&quot;0.044;1.823&quot;>الأمر بيدك يا كوانتوم!",
     "arabic_edit": "<ts=&quot;0.044;1.823&quot;>الأمر بيدك يا كوانتوم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "b24a32e58107a3e618651807758de26e3647010fa9e21a7e9021b507f1cb9e98",
+      "candidate_sha256": "7c7870eedb32ce52aa3d058058b748ef39024d38e5774e4b729bda21fb32c713",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19370,
@@ -99,12 +147,20 @@
     "speaker_code": "RATC",
     "scene_code": "CORV_GP3_CINE_MECHDAMAGE",
     "arabic_current": "<ts=&quot;0;1.16&quot;>أصبت الدقيقة.<ts=&quot;1.639;2.339&quot;>والآن اقفزي!",
-    "arabic_edit": "<ts=&quot;0;1.16&quot;>أصبت الدقيقة.<ts=&quot;1.639;2.339&quot;>والآن اقفزي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.16&quot;>أتقنتها.<ts=&quot;1.639;2.339&quot;>والآن اقفزي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "ae9e12d32ab5c28dee580f684efaeaaf12bd2370c756cf7c08d287128fe43629",
+      "candidate_sha256": "f4963e33293117982cff8692715ffde759f733d32b3d9c8282b1a5358ff75e58",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ICESOON",
     "arabic_current": "<ts=&quot;0.03;2.371&quot;>،تلك مجمدة الآن<ts=&quot;2.41;5.838&quot;>ها! تصلنا شحنة جديدة<br>قريبا.",
-    "arabic_edit": "<ts=&quot;0.03;2.371&quot;>،تلك مجمدة الآن<ts=&quot;2.41;5.838&quot;>ها! تصلنا شحنة جديدة قريبا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.03;2.371&quot;>هذا السلاح مجمد مؤقتًا،<ts=&quot;2.41;5.838&quot;>ها! ستصل شحنة جديدة قريبًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "83c43879e796cf7dc4ca786bd464ac84f159c3be2101364667719c3f98e227c8",
+      "candidate_sha256": "afd8e62c1c67eb4403223d385c5004cf21677fb6bd5d0cd7443d33b9910984ea",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

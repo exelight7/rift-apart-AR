@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_DOOMUP",
     "arabic_current": "<ts=&quot;0;4.592&quot;>لا يمكنك الحصول على ما<br>يكفي من الهلاك مهما قلت!",
-    "arabic_edit": "<ts=&quot;0;4.592&quot;>لا يمكنك الحصول على ما يكفي من الهلاك مهما<br>قلت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.592&quot;>في رأيي، مهما زاد الهلاك، فلن يكفي أبدًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "1c02272a6987ed2675b59bf0a39fd25d45dd5445e969dfeec301d50dfce5f878",
+      "candidate_sha256": "ddaa4d36965a8b91c597e05e5f144a1427756f1e8ec30bc1cfa12d607f7d2a65",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

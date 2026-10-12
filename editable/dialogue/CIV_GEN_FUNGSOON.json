@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_FUNGSOON",
     "arabic_current": "<ts=&quot;0.04;3.89&quot;>أعتقد إنك لا تطيق الانتظار<br>للحفل مع السيد فنغاي!",
-    "arabic_edit": "<ts=&quot;0.04;3.89&quot;>أعتقد إنك لا تطيق الانتظار للحفل مع السيد<br>فنغاي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.04;3.89&quot;>أراهن أنك تتوق إلى الاحتفال مع السيد<br>فنغاي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "e6da1c52d3ed4e54a7a0c49024f0fcc23e660cb9dd6b799c2b22ffc1771085e4",
+      "candidate_sha256": "9afd511a1db6d91876b06b9463d06e1bb1c206da56e2f92dc648ded8a74ebfac",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

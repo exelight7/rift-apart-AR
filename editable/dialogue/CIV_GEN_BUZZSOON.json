@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_BUZZSOON",
     "arabic_current": "<ts=&quot;0.03;3.88&quot;>تتفرج على نصال الأزيز؟<br>يجب أن تعود من أجلها!",
     "arabic_edit": "<ts=&quot;0.03;3.88&quot;>تتفرج على نصال الأزيز؟ يجب أن تعود من<br>أجلها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "f6bd4833430055887b0f06e53a2d6faadf80e0cf7bac86b01db917dc3253b56c",
+      "candidate_sha256": "d7507e23e007437ceb92f54d19fd69b6feb2c745de236e08c9807618a26af4a1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

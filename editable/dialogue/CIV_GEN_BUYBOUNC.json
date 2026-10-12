@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_BUYBOUNC",
     "arabic_current": "<ts=&quot;0;2.738&quot;>ستحب تلك!<ts=&quot;2.814;5.902&quot;>الباونسر سلاح كلاسيكي<br>أصيل!",
     "arabic_edit": "<ts=&quot;0;2.738&quot;>ستحب تلك!<ts=&quot;2.814;5.902&quot;>الباونسر سلاح كلاسيكي أصيل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "016b47e06afd7b09c1ac5fabdbb738c1a159cbb988a38d1713a0c0ea6fc5ba4e",
+      "candidate_sha256": "39b2f6373842212ab3d1efcba4bb986ce18b2463aee6a49fe2917b9a2d0d823c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

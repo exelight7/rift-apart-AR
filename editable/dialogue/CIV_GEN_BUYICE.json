@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BUYICE",
     "arabic_current": "<ts=&quot;0.16;3.104&quot;>وأنا أيضا أفضل عدائي على<br>الصخور!",
-    "arabic_edit": "<ts=&quot;0.16;3.104&quot;>وأنا أيضا أفضل عدائي على الصخور!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.16;3.104&quot;>وأنا أيضًا أفضل أعدائي مع الثلج!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "2fcf300c4cb6c7cf208fc5225113f431a6d3990f80c68629425c794f2f409c1a",
+      "candidate_sha256": "c560627a23e8360192cc45edd7bb84414ba58121202014784558572f5d178f69",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

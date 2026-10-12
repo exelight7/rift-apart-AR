@@ -7,12 +7,20 @@
     "scene_code": "SARG_GP2_CINE_STEPUP",
     "arabic_current": "<ts=&quot;0.052;1.282&quot;>إنه مثل ما--",
     "arabic_edit": "<ts=&quot;0.052;1.282&quot;>إنه مثل ما--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "c0463cc7fc114f3af97bb32fcd7245a3665af292fedb4a1cd13492dfca6bb5ff",
+      "candidate_sha256": "64a51fd6fa8cf123d77f3047a0df7e31174fef8c5102a58ccfc791eba4337cf3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11517,
@@ -22,12 +30,20 @@
     "scene_code": "SARG_GP2_CINE_STEPUP",
     "arabic_current": "<ts=&quot;0;1.22&quot;>--تخيلته.",
     "arabic_edit": "<ts=&quot;0;1.22&quot;>--تخيلته.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "3e325c9c7c2d24226504cf1e753db148e3ea4820ce19cc3c36c31ab94f66d3dd",
+      "candidate_sha256": "9a83e8287636c00db8bb81dcd210cf6f23c86c8ecd7c91bf840fdbfa4c8c6905",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11518,
@@ -37,12 +53,20 @@
     "scene_code": "SARG_GP2_CINE_STEPUP",
     "arabic_current": "<ts=&quot;0.049;0.686&quot;>غاري؟",
     "arabic_edit": "<ts=&quot;0.049;0.686&quot;>غاري؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "fc700e104a7c1afe256b51cc0cbdb96de7cd97d21e40f6169a829943bdb7eee5",
+      "candidate_sha256": "b0419b948155493fb76b65c40ed40d7ac5b6df9343a23d232396f71adf22bcd0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21279,
@@ -52,11 +76,19 @@
     "scene_code": "SARG_GP2_CINE_STEPUP",
     "arabic_current": "<ts=&quot;0.037;1.758&quot;>إذن عندما كنت مع كلانك، هو—",
     "arabic_edit": "<ts=&quot;0.037;1.758&quot;>إذن عندما كنت مع كلانك، هو—",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "ac133d40f8245593a9fc6d369affbdfa11ce5eddbd7b97d975d86a0475c54516",
+      "candidate_sha256": "9372501c963e2b3711c35b14ba5a88ac87896f17d095628c7e2a2331e05cc64c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

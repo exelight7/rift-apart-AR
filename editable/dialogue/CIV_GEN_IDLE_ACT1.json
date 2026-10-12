@@ -7,13 +7,21 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.05;4.354&quot;>إلى أين يذهب الجميع؟ كل هذا<br>مجرد استعراض! صحيح... ؟",
     "arabic_edit": "<ts=&quot;0.05;4.354&quot;>إلى أين يذهب الجميع؟ كل هذا مجرد استعراض!<br>صحيح... ؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "58096657eeda16d1535e238bfb1ee56a7c2b1b5b3b2eadc62e6c3f8699a5e319",
+      "candidate_sha256": "2c2f2e1f6ce67083900c7a8f5c2501ba642c2df08a648cbf427181b79ad12760",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11989,
@@ -23,12 +31,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.04;0.39&quot;>كيف<ts=&quot;1.28;1.9&quot;>يفعلون هذا؟!",
     "arabic_edit": "<ts=&quot;0.04;0.39&quot;>كيف<ts=&quot;1.28;1.9&quot;>يفعلون هذا؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "b96b472607bdf55767ecadbc899bc73955aff7f33947cfddb3f5d6bd9e355a01",
+      "candidate_sha256": "16b3fff2b08090f5efe97c8424c5de347135029988ad56ec9d1ab47b4be6c95e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11990,
@@ -38,12 +54,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.05;1.681&quot;>ما الذي يحدث هنا؟!",
     "arabic_edit": "<ts=&quot;0.05;1.681&quot;>ما الذي يحدث هنا؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "2904638b782d07f9aa5be7b69a3cad98dfff5c959277015a7917466b6b8e2271",
+      "candidate_sha256": "fca9f6c6a7e9e0c99850e1bc5b15149fd267869915605ff66abeacf147690ae8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11991,
@@ -53,12 +77,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.05;2.186&quot;>لا أصدق أن هذا يحدث.",
     "arabic_edit": "<ts=&quot;0.05;2.186&quot;>لا أصدق أن هذا يحدث.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "6ea408fb6d1b76b1e0569f07737b15bc134f7cdf4f87930af14a1181467d78a7",
+      "candidate_sha256": "a4ddc8816bce858b680856f46f3218b41b84416d4353c562d29b5d80169fa37a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11992,
@@ -68,12 +100,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.49;1.89&quot;>هل السماء... تتصدع؟",
     "arabic_edit": "<ts=&quot;0.49;1.89&quot;>هل السماء... تتصدع؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "0ca2b7cf34fd63fc9a1054cd8247672b9c99613f58eb49511c16caef35efbd06",
+      "candidate_sha256": "712c66015a67acb534bc77f73427da84feaa09bfeca03157c489dab46c2794da",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12030,
@@ -82,13 +122,21 @@
     "speaker_code": "MEGF2",
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0;1.926&quot;>حسنا أن راتشت وكلانك هنا.",
-    "arabic_edit": "<ts=&quot;0;1.926&quot;>حسنا أن راتشت وكلانك هنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.926&quot;>لحسن الحظ، راتشت وكلانك هنا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "66a08c8c92f34c3c54c2875919f2d1faf4ee93f68922f66f2145de3d2bd36f9f",
+      "candidate_sha256": "dba16df1a4d2d9c868bc94038614bb2ff9882400603e5d6c9e8e922ce4069869",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12031,
@@ -98,13 +146,21 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0;1.454&quot;>كان ينبغي أن أبقى في<br>البيت!",
     "arabic_edit": "<ts=&quot;0;1.454&quot;>كان ينبغي أن أبقى في البيت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "117bcabbbcd8bd1775abc49b80fab7a8a22110d11e473366f78704420582b8f8",
+      "candidate_sha256": "f69f48501dfba36d9a2f4d051fa1574cce89443e280221be813a9fe1e0c0e1ee",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12032,
@@ -114,12 +170,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0;1.683&quot;>هل سيفعل كوارك شيئا؟",
     "arabic_edit": "<ts=&quot;0;1.683&quot;>هل سيفعل كوارك شيئا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "db70d1362d9bf42bd17a1523031e9a5805366f8f3bde7cfd7720727f8e769ab2",
+      "candidate_sha256": "708df1963fcd216cfb908327d64c94e1db866895bfbb0958b3bf09e048abc046",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12033,
@@ -129,13 +193,21 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.929;1.695&quot;>أعتقد أنني أحتاج إلى أن<br>أستلقي.",
     "arabic_edit": "<ts=&quot;0.929;1.695&quot;>أعتقد أنني أحتاج إلى أن أستلقي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "103f85e8b1d78c718e3c2c8662343eee7302e7c2fdb0074f607bf9a5b67e8b4f",
+      "candidate_sha256": "b41bcdcb67968778c89a49dda11e567635044f6f555e661f79f08f436f1a275e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12034,
@@ -145,13 +217,21 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.028;2.926&quot;>هل كان ذلك الدكتور<br>نيفاريوس فعلا؟!",
     "arabic_edit": "<ts=&quot;0.028;2.926&quot;>هل كان ذلك الدكتور نيفاريوس فعلا؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "0c91d8c1ecbb48e43b62bf90316adef9213f58f1f6f4a0128f40f385ff398d70",
+      "candidate_sha256": "98ed9b0666e017f8dded7437493fa15772d5792094ec91bc746e90cae0e427c8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12075,
@@ -161,12 +241,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.057;2.501&quot;>ما تلك الأشياء في السماء؟!",
     "arabic_edit": "<ts=&quot;0.057;2.501&quot;>ما تلك الأشياء في السماء؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "340ea5fe165657e4d822aa01498d23dff178259d63c103d48bf77b872d526d24",
+      "candidate_sha256": "77a2040dd669e723904c1d7a868542a897b30c3622d4e6992ae795c89e7d439c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12076,
@@ -176,12 +264,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0;1.789&quot;>لقد رأيت قروش الرمال للتو...<ts=&quot;2.42;4.52&quot;>كيف رأيت قروش الرمال للتو؟",
     "arabic_edit": "<ts=&quot;0;1.789&quot;>لقد رأيت قروش الرمال للتو...<ts=&quot;2.42;4.52&quot;>كيف رأيت قروش الرمال للتو؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "733ad2d559259e15912c776bbb2e8236512e5c6ad1212ab74564340b65000b54",
+      "candidate_sha256": "6694bb7a7097b644bea4b773913413395bd507942e736199a56b2dc35607fa95",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12077,
@@ -191,13 +287,21 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.034;2.908&quot;>حقا؟! الدكتور نيفاريوس؟ مرة<br>أخرى؟!",
     "arabic_edit": "<ts=&quot;0.034;2.908&quot;>حقا؟! الدكتور نيفاريوس؟ مرة أخرى؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "8343922ce87a0ce56e946aea6f349b845fb5e487d1c6119172d8d4027491d56e",
+      "candidate_sha256": "af09953e856159530ba0bd80001281d4a8d6ccb9ba15c487be97df2ccffc947b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12078,
@@ -207,12 +311,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.052;2.128&quot;>ما ذاك؟!",
     "arabic_edit": "<ts=&quot;0.052;2.128&quot;>ما ذاك؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "2c59d901487b06d655e886c90bc3791fe705e213c34247df16efd66e059a4a0a",
+      "candidate_sha256": "c80daeb24e9673d96722948b5f82c7de1ff2d2f8a3f94482657bd1e5bb7059cf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12079,
@@ -222,13 +334,21 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.05;2.249&quot;>هل الدكتور نيفاريوس هو من<br>يفعل هذا؟",
     "arabic_edit": "<ts=&quot;0.05;2.249&quot;>هل الدكتور نيفاريوس هو من يفعل هذا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "792cc12c51885f7bfdcbfb7c38eb9c18676bce751cee80c377b611eb9889a5f8",
+      "candidate_sha256": "a51a638588150de3465b7e402bae4a0bceb2db8365754c6da4a308bdf5fbfeb3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12112,
@@ -238,12 +358,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.11;0.46&quot;>هذا ليس<ts=&quot;0.799;2.754&quot;>جزءا من العرض، أليس كذلك؟",
     "arabic_edit": "<ts=&quot;0.11;0.46&quot;>هذا ليس<ts=&quot;0.799;2.754&quot;>جزءا من العرض، أليس كذلك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "cd8e5302982609e7b129c2acc44353601586574515065bb8eabc0b6eff23959c",
+      "candidate_sha256": "12cdb892df0fe43c62bc7bee8217c0941e51a957435e33bfcb75b71019a5dba9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12113,
@@ -253,12 +381,20 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0;1.5&quot;>ربما المكان آمن هنا؟",
     "arabic_edit": "<ts=&quot;0;1.5&quot;>ربما المكان آمن هنا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "f16adb6519904a615797ae376295d64c53798c95d7b786a703fcc33c82113aea",
+      "candidate_sha256": "46f174d268a2ec9e7538bb5fd994f0114f0bad536a027ead11fecbb3e4dbce2b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12114,
@@ -268,13 +404,21 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.05;4.407&quot;>راتشت وكلانك سيتكفلان<br>بذلك. كل شيء بخير.",
     "arabic_edit": "<ts=&quot;0.05;4.407&quot;>راتشت وكلانك سيتكفلان بذلك. كل شيء بخير.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "a356bc0364d3c87b13912848fad841ef15d33501f53d2c62c02e6eb6cbf07cc2",
+      "candidate_sha256": "4c31d4f1ed765dd7554ad0a0b0710d16b5419e70cb361012f31efc2545050d2e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12115,
@@ -284,11 +428,19 @@
     "scene_code": "CIV_GEN_IDLE_ACT1",
     "arabic_current": "<ts=&quot;0.05;2.68&quot;>هذه آخر مرة أحاول فيها الخروج.",
     "arabic_edit": "<ts=&quot;0.05;2.68&quot;>هذه آخر مرة أحاول فيها الخروج.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "2e41088c77aa3613e47686363fba5e45f846b738cfe5dca34c21c830f6d49752",
+      "candidate_sha256": "cd9d94bd5113002c8c3bb5683c3a1e81fbb44f2268a101eae0722311c2e2dbf3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

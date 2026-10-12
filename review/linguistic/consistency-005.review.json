@@ -1,0 +1,770 @@
+[
+  {
+    "index": 33,
+    "key": "ACTIVITY_CARD_PLANET_VICERON_DESC",
+    "source_sha256": "58fe66dea86765542af2aeb14bfe78d1bf8d0270cea64ff18ae97109e27e8ad2",
+    "before": "رغم شهرة فيسرون بعواصفه القاتلة<br>الدائمة ومياهه الغادرة، فإن أشهر<br>معالمه سجن زردوم، المحطة الأخيرة<br>لكل من يجرؤ على معارضة الإمبراطور.",
+    "after": "رغم شهرة فيسرون بعواصفه القاتلة<br>الدائمة ومياهه الغادرة، فإن أشهر<br>معالمه سجن زوردوم، المحطة الأخيرة<br>لكل من يجرؤ على معارضة الإمبراطور.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 35,
+    "key": "ACTIVITY_CARD_PLANET_ZURKIES_DESC",
+    "source_sha256": "b2ffb35619a83045ecca23b3dd0e96a20f5b303104d3feeb447a5627bf66cf98",
+    "before": "[[دمره الإمبراطور نيفاريوس / كوكب<br>مزقته الحرب / بات موطنًا لحانة<br>زوركيز وساحة باتلبلكس، وهي محطة<br>استراحة تديرها عائلة للمسافرين عبر<br>المجرة ممن يرغبون في البقاء بعيدًا<br>عن الأنظار.]]",
+    "after": "[[دمره الإمبراطور نيفاريوس / كوكب<br>مزقته الحرب / بات موطنًا لحانة<br>زوركي وساحة باتلبلكس، وهي محطة<br>استراحة تديرها عائلة للمسافرين عبر<br>المجرة ممن يرغبون في البقاء بعيدًا<br>عن الأنظار.]]",
+    "decision": "rewrite"
+  },
+  {
+    "index": 570,
+    "key": "BIO_SHEEP_DESC",
+    "source_sha256": "5893505afbd225d2e5e5213a5af01eb1c7719f2a3cb7e7cf36761751586ab078",
+    "before": "أكثر زبائن زوركيز مواظبة لثلاث<br>سنوات متتالية. لهذا الخروف مقعد<br>محجوز عند منضدة الحانة، حيث يقضي<br>أيامه يمضغ العشب ويحدق أمامه،<br>وكأنه ينظر إلى الفراغ.<br><br>يقول بعضهم إنهم سمعوه يتمتم بكلمات<br>محبطة لا معنى لها، ويهمس آخرون<br>بأنهم لم يروه يغادر مقعده قط. لكن<br>الجميع يعرف شيئًا واحدًا يقينًا:<br>منذ أن حول الإمبراطور دريك إلى<br>خروف قبل كل تلك السنوات، لم يعد<br>كما كان.",
+    "after": "أكثر زبائن زوركي مواظبة لثلاث<br>سنوات متتالية. لهذا الخروف مقعد<br>محجوز عند منضدة الحانة، حيث يقضي<br>أيامه يمضغ العشب ويحدق أمامه،<br>وكأنه ينظر إلى الفراغ.<br><br>يقول بعضهم إنهم سمعوه يتمتم بكلمات<br>محبطة لا معنى لها، ويهمس آخرون<br>بأنهم لم يروه يغادر مقعده قط. لكن<br>الجميع يعرف شيئًا واحدًا يقينًا:<br>منذ أن حول الإمبراطور دريك إلى<br>خروف قبل كل تلك السنوات، لم يعد<br>كما كان.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 602,
+    "key": "BIO_ZURKONJR_DESC",
+    "source_sha256": "b78be174f8bdff8df56cdc44c18ba9b819883c5bb1953ed25a7db5918eec7979",
+    "before": "مقدم العروض والعقل المدبر لمجمع<br>الذبح في زوركيز. بينما كرس والده<br>حياته للسلام، يستمتع زوركون جونيور<br>بالمجازر والفوضى، ويستضيف مباريات<br>موت مثيرة لرواد حانة عائلته. من<br>الجيد أن تكون للطفل هوايات.",
+    "after": "مقدم العروض والعقل المدبر لمجمع<br>الذبح في زوركي. بينما كرس والده<br>حياته للسلام، يستمتع زوركون جونيور<br>بالمجازر والفوضى، ويستضيف مباريات<br>موت مثيرة لرواد حانة عائلته. من<br>الجيد أن تكون للطفل هوايات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 685,
+    "key": "BTN_SAVESLOT_NGPLUS_CONTINUE",
+    "source_sha256": "c610667f1592d906670380defcd5db483de6e29808808b48a6b037e7b191432e",
+    "before": "المتابعة من حانة زوركيز",
+    "after": "المتابعة من حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 850,
+    "key": "CARD_BOSS_GEN_GRUNTHORGOONS_A_DESC",
+    "source_sha256": "a6163cc1d49bd6ea2c64b1cf502eec2038546bfab707a319fd89735efaccc696",
+    "before": "إذا حك الغرانثور أقدامه، انتبه!<br>فهو على وشك الاندفاع. اركض أو<br>انطلق باندفاعة الطيف جانبا لتجنب<br>أن يدوسك.",
+    "after": "إذا حك الغرانثور أقدامه، انتبه!<br>فهو على وشك الاندفاع. اركض أو<br>انطلق بالاندفاع الطيفي جانبا لتجنب<br>أن يدوسك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 852,
+    "key": "CARD_BOSS_GEN_GRUNTHORGOONS_B_DESC",
+    "source_sha256": "ae45f81c9575000fd19ddb4f36a30c1105c5ec39a6e15ba32ca1b3653d22e6c5",
+    "before": "حين يدفع الغرانثور قرنيه في الأرض،<br>فهو على وشك قذف صخرة نحوك. اركض أو<br>انطلق باندفاعة الطيف لتجنب الضرر.",
+    "after": "حين يدفع الغرانثور قرنيه في الأرض،<br>فهو على وشك قذف صخرة نحوك. اركض أو<br>انطلق بالاندفاع الطيفي لتجنب<br>الضرر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 858,
+    "key": "CARD_BOSS_GEN_JUGGERNAUT_B_DESC",
+    "source_sha256": "3e87d8f3d4b460b90e91fc50785536eee9643fa4f3057389d24d8a281bcdacfd",
+    "before": "انطلق باندفاعة الطيف أو اقفز لتجنب<br>شعاع العملاق المدرع.",
+    "after": "انطلق بالاندفاع الطيفي أو اقفز<br>لتجنب شعاع العملاق المدرع.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 908,
+    "key": "CARD_BOSS_SARG_SEEKER_BATTLE2_B_DESC",
+    "source_sha256": "0b90a892fa3c6f8f097e8be27ba63fa374dd315b31742797f794cdbe7779cfe7",
+    "before": "حين ترتفع سيكيربيد إلى أعلى، فإنها<br>ستندفع فوق المنطقة وتحك ذيلها<br>بالأرض. اركض أو انطلق باندفاعة<br>الطيف لتجنب الشفرات.",
+    "after": "حين ترتفع سيكيربيد إلى أعلى، فإنها<br>ستندفع فوق المنطقة وتحك ذيلها<br>بالأرض. اركض أو انطلق بالاندفاع<br>الطيفي لتجنب الشفرات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1082,
+    "key": "CARD_M_ARD_CHALLENGE_03_COMPLETE_TITLE",
+    "source_sha256": "b200855eb85ebb0210afa816759ddd23cef526cd615a46003be654f015c4c208",
+    "before": "التق بكابتن كوانتوم",
+    "after": "التق بالقبطان كوانتوم",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1122,
+    "key": "CARD_M_BLIZ_LUBE_TUBE_PRE_TITLE",
+    "source_sha256": "619932071901cd1b3a5acbcbd339d4125edd71b57fab1debb390954f96410997",
+    "before": "أصلح الشذوذ",
+    "after": "أصلح الاختلال",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1227,
+    "key": "CARD_M_MOL_SHINGLE_PIRATE_DESC",
+    "source_sha256": "7f67cfbcb6db52713993f53be1f04784cb3e1c7acc11639944b03ec7a11f8200",
+    "before": "المغيرون أعداء صلبون. استخدم<br>اندفاعة الطيف وكل أسلحتك للنجاة.",
+    "after": "المغيرون أعداء صلبون. استخدم<br>الاندفاع الطيفي وكل أسلحتك للنجاة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1345,
+    "key": "CARD_M_ZURK01_VISIT_DESC",
+    "source_sha256": "5e8aaca92098d1a4f843b599150784693e2e905af3a86aa1e9ffbd57c6645f04",
+    "before": "ادخل حانة زوركيز من الباب عند<br>قاعدة المبنى. اعبر موقف السيارات<br>واصعد المنحدر للوصول إليه.",
+    "after": "ادخل حانة زوركي من الباب عند قاعدة<br>المبنى. اعبر موقف السيارات واصعد<br>المنحدر للوصول إليه.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1399,
+    "key": "CARD_POCKET_SAV2_C_DESC",
+    "source_sha256": "37ed0d17ad164f9b6362b320e68d97c99044d22060a83f16b0d8d829dc3238e8",
+    "before": "اقفز من لوحة الركض على الجدار<br>وانطلق باندفاعة الطيف لتتجاوز حلقة<br>الصناديق المتفجرة. وتأكد من<br>استخدام رابطة الصدع لعبور الفجوة<br>الأخيرة.",
+    "after": "اقفز من لوحة الركض على الجدار<br>وانطلق بالاندفاع الطيفي لتتجاوز<br>حلقة الصناديق المتفجرة. وتأكد من<br>استخدام رابطة الصدع لعبور الفجوة<br>الأخيرة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1405,
+    "key": "CARD_POCKET_SAV_C_DESC",
+    "source_sha256": "1eb91f70894b69c7ca9b33c2914716cee8df9a56df3f775361958336248ef5dd",
+    "before": "للانتقالات الأكثر تعقيدا أو<br>لتتعافى من قفزة في غير توقيتها،<br>جرب استخدام اندفاعة الطيف لإبقاء<br>نفسك حيا.",
+    "after": "للانتقالات الأكثر تعقيدا أو<br>لتتعافى من قفزة في غير توقيتها،<br>جرب استخدام الاندفاع الطيفي لإبقاء<br>نفسك حيا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1431,
+    "key": "CARD_SPYBOT_ZURKIES_DESC",
+    "source_sha256": "482b1e21949581bf6a3a81e6a41ea57ed1bc89ed588b597e79aa8dfd02b7bbe4",
+    "before": "بعد الحصول على الهيرلشوت في<br>مولونوث، اتجه إلى يمين مدخل حانة<br>زوركيز لتقفز بنفسك إلى روبوت<br>التجسس.",
+    "after": "بعد الحصول على الهيرلشوت في<br>مولونوث، اتجه إلى يمين مدخل حانة<br>زوركي لتقفز بنفسك إلى روبوت<br>التجسس.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 2567,
+    "key": "CLANK_ZURK_GP1_GAMEPLAY_002",
+    "source_sha256": "199da3d0baba547f84b012560479d55c062a13e7b88c0186b0f5a4b8754bafa7",
+    "before": "<ts=&quot;0;1.75&quot;>لحانة زوركيز مدخل، أمم...<ts=&quot;2.409;3.749&quot;>متقن جدًا.",
+    "after": "<ts=&quot;0;1.75&quot;>لحانة زوركي مدخل، أمم...<ts=&quot;2.409;3.749&quot;>متقن جدًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 2864,
+    "key": "COL_GOLDBOLT_REWARD_MUSIC1_DESC",
+    "source_sha256": "16b54470a83e7cee34d65740314606c69c9ea72568b70ff217a888330b302a80",
+    "before": "افتح موسيقى إضافية تعزف على صندوق<br>موسيقى حانة زوركيز.",
+    "after": "افتح موسيقى إضافية تعزف على صندوق<br>موسيقى حانة زوركي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 2866,
+    "key": "COL_GOLDBOLT_REWARD_MUSIC2_DESC",
+    "source_sha256": "081314cb65501bb8a0314c6c490898b6203ff906f96011f3dc07d560979ad6a6",
+    "before": "افتح مزيدا من الموسيقى تعزف على<br>صندوق موسيقى حانة زوركيز.",
+    "after": "افتح مزيدا من الموسيقى تعزف على<br>صندوق موسيقى حانة زوركي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 3026,
+    "key": "COL_SPYBOT_03_DESC",
+    "source_sha256": "f8f6f34b209e52bb339b242af6ceb17831e02624ac75f06c449a9213f9a61186",
+    "before": "تاريخ حانة زوركيز المضياف.",
+    "after": "تاريخ حانة زوركي المضياف.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 3027,
+    "key": "COL_SPYBOT_03_TITLE",
+    "source_sha256": "05c9082233c62543aa19cc68f9e5ac2976d5137c1cfeee75e001af9ce8388ace",
+    "before": "حانة زوركيز",
+    "after": "حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8508,
+    "key": "HELP_WPN_ENFORCER_LABEL",
+    "source_sha256": "685e35265dd525a261c6ccf7ae2d10f84f34f9d48653a28e99582ce96d55edb3",
+    "before": "الإنفورسر",
+    "after": "إنفورسر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8900,
+    "key": "HNEF2_ENM_GEN_LASER_003",
+    "source_sha256": "2ec6051afa9ec7eb277e2f4eee408fb00c57e3c1f026410766f5bf04be575ac0",
+    "before": "<ts=&quot;0;1.75&quot;>سيحرق فروك!",
+    "after": "<ts=&quot;0;1.75&quot;>سيحرق فراءك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 9311,
+    "key": "HUD_COMPLETE_RETURN_DESC",
+    "source_sha256": "ffedf868240b4b49f2ad1a66f4d94a013c6888185871ed71c563396d7dcaca16",
+    "before": "عد إلى حانة زوركيز قبل المعركة<br>الأخيرة",
+    "after": "عد إلى حانة زوركي قبل المعركة<br>الأخيرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 9312,
+    "key": "HUD_COMPLETE_RETURN_TITLE",
+    "source_sha256": "caf2b857679e8ce451070ab349682d708ff402c1f381b0060acaee5b7c1d7b2a",
+    "before": "العودة إلى حانة زوركيز",
+    "after": "العودة إلى حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 10533,
+    "key": "JRZK_CIV_GEN_BAR_001",
+    "source_sha256": "e1fcd7ab793ae4ccbede2b7c330584c4c880915c283d2f6a55ea879940226aba",
+    "before": "<ts=&quot;0.03;3.53&quot;>أهلا بك في حانة زوركيز، هل آخذ طلبك؟",
+    "after": "<ts=&quot;0.03;3.53&quot;>أهلا بك في حانة زوركي، هل آخذ طلبك؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 10680,
+    "key": "JRZK_ZURK_ARENA_GAMEPLAY_012",
+    "source_sha256": "08a3970bff568821a1c560eaa60c54dbd58fe6f483adb6da67668422c80e83da",
+    "before": "<ts=&quot;0.064;5.208&quot;>ما هذا؟! لحظة! هذه ليست حفرة الحمض واليأس!<ts=&quot;5.208;11.225&quot;>إنه... الطابق السفلي لموقف سيارات زوركيز؟!<br>آآه!",
+    "after": "<ts=&quot;0.064;5.208&quot;>ما هذا؟! لحظة! هذه ليست حفرة الحمض واليأس!<ts=&quot;5.208;11.225&quot;>إنه... الطابق السفلي لموقف سيارات زوركي؟!<br>آآه!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 11976,
+    "key": "LOC_ZURKIES_PUB",
+    "source_sha256": "ffb2eeb5a5a698db9d1750efd2de46dc0b975d2b83abc257cef371a258da81b8",
+    "before": "حانة زوركيز وساحة باتلبلكس",
+    "after": "حانة زوركي وساحة باتلبلكس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12017,
+    "key": "MEGF1_CIV_GEN_VISIT3_001",
+    "source_sha256": "77a1f7f456649dc881a75259c9a50ee5feafdbb3ce855cdbd0a78a8296aa0816",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.037;6.06&quot;>يبدو أن الأمور خرجت عن السيطرة تماما. حتى<br>حانة زوركيز لم تعد آمنة...",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.037;6.06&quot;>يبدو أن الأمور خرجت عن السيطرة تماما. حتى<br>حانة زوركي لم تعد آمنة...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12100,
+    "key": "MEGM1_CIV_GEN_VISIT3_001",
+    "source_sha256": "ec218dfa4e0e4759730715905b3cb50ee3b6f2e986352851df589f62056510a1",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.047;4.617&quot;>لن أغادر حانة زوركيز قبل أن ينتهي هذا كله.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.047;4.617&quot;>لن أغادر حانة زوركي قبل أن ينتهي هذا كله.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12102,
+    "key": "MEGM1_CIV_GEN_VISIT4_001",
+    "source_sha256": "73fea93a48bbf772349568acdbc30159686b85725da4919b79456214065dba91",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.043;7.165&quot;>لا. ليست هذه المرة. لقد فزت خمس مرات<br>بالمركز البرونزي في بطولة زوركيز...<ts=&quot;7.165;11.043&quot;>اليوم، تستطيع أخيرا الفوز بالمركز الفضي.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.043;7.165&quot;>لا. ليست هذه المرة. لقد فزت خمس مرات<br>بالمركز البرونزي في بطولة زوركي...<ts=&quot;7.165;11.043&quot;>اليوم، تستطيع أخيرا الفوز بالمركز الفضي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12145,
+    "key": "MEGM6_CIV_GEN_IDLE_002",
+    "source_sha256": "aee2be7821ca0369d30a97d78244ea948dc0f42978cda8ec1c9612834254a39f",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.043;3.285&quot;>حانة زوركيز هي الأفضل.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.043;3.285&quot;>حانة زوركي هي الأفضل.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12149,
+    "key": "MEGM6_CIV_GEN_VISIT1_002",
+    "source_sha256": "1eaf3eded5a2a0ef00422d43636667344495d4aecd95d04d302a30b0edb88ce4",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.041;4.873&quot;>الأحوال في الخارج مجنونة. سعيد حقا أن حانة<br>زوركيز ما زالت مفتوحة.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.041;4.873&quot;>الأحوال في الخارج مجنونة. سعيد حقا أن حانة<br>زوركي ما زالت مفتوحة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12691,
+    "key": "MISSION_HUD_ZORDOOM_GP",
+    "source_sha256": "dc4f632c24dae165b83d42e59a91aa952c730825303402a0858d6ae059673a00",
+    "before": "أنقذ الجميع من سجن زردوم",
+    "after": "أنقذ الجميع من سجن زوردوم",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12696,
+    "key": "MISSION_HUD_ZURKIES_GP3",
+    "source_sha256": "d9384874326fcd424438777b08f2844ba4c0cd009f45c4fbbfdb9408979e7b91",
+    "before": "اجتمع بالآخرين في حانة زوركيز",
+    "after": "اجتمع بالآخرين في حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 12715,
+    "key": "MISSION_MAP_ZORDOOM_GP",
+    "source_sha256": "e551f3c8990c185fecfaba2ac2bf0b87036c6e313b758263df1202400ed3b153",
+    "before": "أودع راتشت وكلانك وكيت سجن زردوم.",
+    "after": "أودع راتشت وكلانك وكيت سجن زوردوم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13185,
+    "key": "MORT_CIV_GEN_IDLE_001",
+    "source_sha256": "c09b48e17061bf596cbd0d7b3a1dc1b50e6a32b08ddac50fe066b51f464f9f33",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.004;4.043&quot;>بحق مورت! نسيت بطاقة مكافآت زوركيز مجددًا!",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.004;4.043&quot;>بحق مورت! نسيت بطاقة مكافآت زوركي مجددًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13220,
+    "key": "MORT_SARG_GP1_CINE_MINER_008",
+    "source_sha256": "e432b220dccbb58cf38f0310455690fec92f9c4836d572ffdcea8fc52acf4f89",
+    "before": "<ts=&quot;0;0.67&quot;>حانة زوركيز؟!<ts=&quot;1.369;2.419&quot;>أوه، أولئك القراصنة<ts=&quot;2.55;3.632&quot;>ألم يسببوا لك أي مشكلة؟",
+    "after": "<ts=&quot;0;0.67&quot;>حانة زوركي؟!<ts=&quot;1.369;2.419&quot;>أوه، أولئك القراصنة<ts=&quot;2.55;3.632&quot;>ألم يسببوا لك أي مشكلة؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13720,
+    "key": "MSZK_MINI_COLLECT_RYNO_003",
+    "source_sha256": "9eeb27f344a30bca085a226d32d396db6c52c61c826a840229ac28557b07df61",
+    "before": "<ts=&quot;0.04;3.458&quot;>عائمة وسط حطام ما كان يومًا سكارستو...<ts=&quot;3.458;5.421&quot;>شكرًا لك، أيها الإمبراطور نيفاريوس...<ts=&quot;5.421;11.828&quot;>زوركيز استراحة عائلية لمسافري المجرة الذين<br>يرغبون في التخفي عن الأنظار.<ts=&quot;11.828;15.965&quot;>بمنصات التزود بالوقود ومطعم متكامل<br>الخدمات،<ts=&quot;15.965;20.088&quot;>تخدم المهربين والقراصنة وأعضاء المقاومة،<ts=&quot;20.088;25.73&quot;>وكل من يشتهي أفضل فطيرة فلورغبيري في هذا<br>الجانب من زانيفر.<ts=&quot;25.73;32.188&quot;>وقد أحدثت أزمة الأبعاد الأخيرة تغييرات غير<br>متوقعة في المكان،<ts=&quot;32.188;36.812&quot;>لكن حين يكون معظم زبائنك مجرمين ومناضلين<br>من أجل الحرية،<ts=&quot;32.188;40.923&quot;>تصبح قاعة الطعام الواقعة في بعد آخر ميزة<br>رائعة.",
+    "after": "<ts=&quot;0.04;3.458&quot;>عائمة وسط حطام ما كان يومًا سكارستو...<ts=&quot;3.458;5.421&quot;>شكرًا لك، أيها الإمبراطور نيفاريوس...<ts=&quot;5.421;11.828&quot;>زوركي استراحة عائلية لمسافري المجرة الذين<br>يرغبون في التخفي عن الأنظار.<ts=&quot;11.828;15.965&quot;>بمنصات التزود بالوقود ومطعم متكامل<br>الخدمات،<ts=&quot;15.965;20.088&quot;>تخدم المهربين والقراصنة وأعضاء المقاومة،<ts=&quot;20.088;25.73&quot;>وكل من يشتهي أفضل فطيرة فلورغبيري في هذا<br>الجانب من زانيفر.<ts=&quot;25.73;32.188&quot;>وقد أحدثت أزمة الأبعاد الأخيرة تغييرات غير<br>متوقعة في المكان،<ts=&quot;32.188;36.812&quot;>لكن حين يكون معظم زبائنك مجرمين ومناضلين<br>من أجل الحرية،<ts=&quot;32.188;40.923&quot;>تصبح قاعة الطعام الواقعة في بعد آخر ميزة<br>رائعة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13984,
+    "key": "NEFC2_CIV_GEN_BAR_IDLE_001",
+    "source_sha256": "18674995606a6b82abf1a635b4293615fd09896ec06827f523bbc8fb55ab6cea",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.046;2.156&quot;>يا للعجب، حانة زوركيز مزدحمة جدًّا هذه<br>الأيام.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.046;2.156&quot;>يا للعجب، حانة زوركي مزدحمة جدًّا هذه<br>الأيام.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14219,
+    "key": "NEFC4_ZURK_G2_GAMEPLAY_001",
+    "source_sha256": "555e02c5ddb03378de04a6c3f4feaa6ccf4dd2aa94869674564ae537aab651ee",
+    "before": "<ts=&quot;0.046;4.343&quot;>أوه، أقصد، أمم، شكرا على قدومك إلى حانة<br>زوركيز.<ts=&quot;4.343;7.207&quot;>خذ أسلحتك؛ ستحتاجها...",
+    "after": "<ts=&quot;0.046;4.343&quot;>أوه، أقصد، أمم، شكرا على قدومك إلى حانة<br>زوركي.<ts=&quot;4.343;7.207&quot;>خذ أسلحتك؛ ستحتاجها...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14220,
+    "key": "NEFC4_ZURK_G2_GAMEPLAY_002",
+    "source_sha256": "c7b51e695ecf479e8f234e368e28de32194f6a94367922521f9d6a06395db5a8",
+    "before": "<ts=&quot;0;2.45&quot;>نأمل أن نراك في حانة زوركيز مرة أخرى...<ts=&quot;2.699;3.049&quot;>ربما...",
+    "after": "<ts=&quot;0;2.45&quot;>نأمل أن نراك في حانة زوركي مرة أخرى...<ts=&quot;2.699;3.049&quot;>ربما...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14221,
+    "key": "NEFC4_ZURK_GP1_GAMEPLAY_001",
+    "source_sha256": "49360fba5dad569c6cb0b6a8156c48053cf2abc2cc5e206a4d18e2a31a86689d",
+    "before": "<ts=&quot;0;4.079&quot;>أهلًا بك في زوركيز، حانتك ومجمع معاركك<br>اللذين صارا داخل بعد آخر!<ts=&quot;4.445;7.227&quot;>سآخذ معطفك وكل أسلحتك أيضًا!",
+    "after": "<ts=&quot;0;4.079&quot;>أهلًا بك في زوركي، حانتك ومجمع معاركك<br>اللذين صارا داخل بعد آخر!<ts=&quot;4.445;7.227&quot;>سآخذ معطفك وكل أسلحتك أيضًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14222,
+    "key": "NEFC4_ZURK_GP1_GAMEPLAY_002",
+    "source_sha256": "f5bfb3043c506bbcd5495145e3ac55087b13ca36344841e48fd2d394207f14d9",
+    "before": "<ts=&quot;0;3.378&quot;>شكرًا لزيارتك زوركيز، حيث نذبح بابتسامة!",
+    "after": "<ts=&quot;0;3.378&quot;>شكرًا لزيارتك زوركي، حيث نذبح بابتسامة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14223,
+    "key": "NEFC4_ZURK_GP1_GAMEPLAY_003",
+    "source_sha256": "5839298aebc78f80ddeae188c7587a960a7ba0b3235b8d42dc0d1dcea961a307",
+    "before": "<ts=&quot;0;1.4&quot;>أهلا بعودتك إلى حانة زوركيز.",
+    "after": "<ts=&quot;0;1.4&quot;>أهلا بعودتك إلى حانة زوركي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14226,
+    "key": "NEFC4_ZURK_GP4_GAMEPLAY_002",
+    "source_sha256": "dfcc5b347880593fd6f5a71412bc263d41a252c615da5c9eb1a1c62cb76eb77d",
+    "before": "<ts=&quot;0;2.617&quot;>شكرًا لمجيئك إلى زوركيز! هيا بنا!",
+    "after": "<ts=&quot;0;2.617&quot;>شكرًا لمجيئك إلى زوركي! هيا بنا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14732,
+    "key": "NEFT2_ENM_GEN_ENFORCER_001",
+    "source_sha256": "f2a202746c2a04ccc556203da811c97511a84326a40bac5350927dce40e46aa1",
+    "before": "<ts=&quot;0.001;2.111&quot;>سلم الإنفورسر، أيها المتمرد!",
+    "after": "<ts=&quot;0.001;2.111&quot;>سلم إنفورسر، أيها المتمرد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 15476,
+    "key": "NEFT4_ENM_GEN_ENFORCER_001",
+    "source_sha256": "c0257fcd2c1d4535c1acdc8caa7d109ede6519edcd51832a25ce9eeb249135c8",
+    "before": "<ts=&quot;0.03;2.132&quot;>اللومباكس يحمل الإنفورسر!",
+    "after": "<ts=&quot;0.03;2.132&quot;>اللومباكس يحمل إنفورسر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 15705,
+    "key": "NEFT4_ZORD_GP1_ZORD_GP_002",
+    "source_sha256": "8f57b7808be7cdf0e4033c36f84ae36ae473db8c4f358c10c346be50396ef84f",
+    "before": "<ts=&quot;0;5.5&quot;>لا بد أنك تبحث عن سجناءنا ذوي الأولوية!<br>حان وقت الانضمام إليهم.",
+    "after": "<ts=&quot;0;5.5&quot;>لا بد أنك تبحث عن سجنائنا ذوي الأولوية!<br>حان وقت الانضمام إليهم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 15880,
+    "key": "OBJ_HUD_ZURKIES_GP1_FINDZURKIE",
+    "source_sha256": "f0abac0fc38796a688cfb3962d9868e2d8522b092a76cfb0fa9a9f2ee76946c8",
+    "before": "ابحث عن زوركي في حانة زوركيز",
+    "after": "ابحث عن زوركي في حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 15884,
+    "key": "OBJ_HUD_ZURKIES_GP2_MEET",
+    "source_sha256": "aca7371daa670e0d8d00332034c96f7807dfe5b452f6137076ddfc69b7330262",
+    "before": "التق براتشت في حانة زوركيز",
+    "after": "التق براتشت في حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 15885,
+    "key": "OBJ_HUD_ZURKIES_GP3_SYNC",
+    "source_sha256": "516c9c4fd0609d424f05db9f21c62901cec70ee19fd58f23ed76f3b0ae30154f",
+    "before": "تحدث إلى راتشت وكلانك في حانة<br>زوركيز",
+    "after": "تحدث إلى راتشت وكلانك في حانة<br>زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 15887,
+    "key": "OBJ_HUD_ZURKIES_GP4_REGROUP",
+    "source_sha256": "0f92a9cb9205a1ab603557f03c65d2f85f49d8c4ab3505b67b2827752401712b",
+    "before": "اجتمع بالآخرين في حانة زوركيز",
+    "after": "اجتمع بالآخرين في حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16027,
+    "key": "OBJ_MAP_ZURKIES_GP1_FINDZURKIE",
+    "source_sha256": "f0abac0fc38796a688cfb3962d9868e2d8522b092a76cfb0fa9a9f2ee76946c8",
+    "before": "ابحث عن زوركي في حانة زوركيز",
+    "after": "ابحث عن زوركي في حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16031,
+    "key": "OBJ_MAP_ZURKIES_GP2_MEET",
+    "source_sha256": "aca7371daa670e0d8d00332034c96f7807dfe5b452f6137076ddfc69b7330262",
+    "before": "التق براتشت في حانة زوركيز",
+    "after": "التق براتشت في حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16032,
+    "key": "OBJ_MAP_ZURKIES_GP3_SYNC",
+    "source_sha256": "516c9c4fd0609d424f05db9f21c62901cec70ee19fd58f23ed76f3b0ae30154f",
+    "before": "تحدث إلى راتشت وكلانك في حانة<br>زوركيز",
+    "after": "تحدث إلى راتشت وكلانك في حانة<br>زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16034,
+    "key": "OBJ_MAP_ZURKIES_GP4_REGROUP",
+    "source_sha256": "0f92a9cb9205a1ab603557f03c65d2f85f49d8c4ab3505b67b2827752401712b",
+    "before": "اجتمع بالآخرين في حانة زوركيز",
+    "after": "اجتمع بالآخرين في حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16041,
+    "key": "PAUSE_OPTION_EXITFINALE_DESC",
+    "source_sha256": "7154d1d8dbce6c1b26fa7a4500319bb7da5a145ac4909c9df96614f50638bf4b",
+    "before": "عد إلى حانة زوركيز قبل المواجهة<br>الأخيرة.",
+    "after": "عد إلى حانة زوركي قبل المواجهة<br>الأخيرة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16042,
+    "key": "PAUSE_OPTION_EXITFINALE_TITLE",
+    "source_sha256": "caf2b857679e8ce451070ab349682d708ff402c1f381b0060acaee5b7c1d7b2a",
+    "before": "العودة إلى حانة زوركيز",
+    "after": "العودة إلى حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16520,
+    "key": "PHOTO_FRAME_ZURKIES",
+    "source_sha256": "05c9082233c62543aa19cc68f9e5ac2976d5137c1cfeee75e001af9ce8388ace",
+    "before": "حانة زوركيز",
+    "after": "حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16521,
+    "key": "PHOTO_FRAME_ZURKIESTV",
+    "source_sha256": "cc13c6e0de83f2bc0acaf79da066ce7da0c2beb085229b43f3dbc27b051a4dd2",
+    "before": "تلفزيون حانة زوركيز 1",
+    "after": "تلفزيون حانة زوركي 1",
+    "decision": "rewrite"
+  },
+  {
+    "index": 16522,
+    "key": "PHOTO_FRAME_ZURKIESTV2",
+    "source_sha256": "1d9a2e286d4658ca0388eb02c01076e177cec4986f4708de1c063c7336fe1775",
+    "before": "تلفزيون حانة زوركيز 2",
+    "after": "تلفزيون حانة زوركي 2",
+    "decision": "rewrite"
+  },
+  {
+    "index": 17219,
+    "key": "PIR2_ENM_GEN_IDLE_003",
+    "source_sha256": "0158bbd0087a8039b3cc025f0060be71a1b14584c0138009b3d7474ec5be16b6",
+    "before": "<ts=&quot;0;4.25&quot;>سيفي المقوس يحتاج إلى شحذ. ذلك الشيء<br>الملعون أثلم من أسنان تروغلوصور!",
+    "after": "<ts=&quot;0;4.25&quot;>سيفي المقوس يحتاج إلى شحذ. ذلك الشيء<br>الملعون أبلد من تروغلوصور!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 18028,
+    "key": "PIR4_TORR_GP1_TORR_GP_002",
+    "source_sha256": "d70dd70e41a7358df9f532c91425e106e4d47441a05cb6c991f02c2802c54d14",
+    "before": "<ts=&quot;0;3.664&quot;>إذًا، أتريد أن تلقى مصير المصلح نفسه؟<ts=&quot;3.891;6.663&quot;>يسعدنا تحقيق رغبتها!",
+    "after": "<ts=&quot;0;3.664&quot;>إذًا، هل هي عازمة على أن تلقى مصير المصلح<br>نفسه؟<ts=&quot;3.891;6.663&quot;>يسعدنا تحقيق رغبتها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 18132,
+    "key": "POPUP_MENU_EXITFINALE_DESC",
+    "source_sha256": "675dd985b49f8622355526645ffc1e016fff3ff7c4d6a144aeed789eeb1c7d76",
+    "before": "هل تريد العودة إلى حانة زوركيز؟",
+    "after": "هل تريد العودة إلى حانة زوركي؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 18254,
+    "key": "PROPH_SAVA_GP1_SAVA_GP1_011",
+    "source_sha256": "e2679ffe0ceed19ec7e036d6ba529bffcccba84eee48af5a2ef4cf4c5d40d9e1",
+    "before": "<ts=&quot;0;3.031&quot;>حسنًا، أنتما جاهزان معنويًّا.<ts=&quot;3.174;7.016&quot;>لكن عليكما تجاوز نظام الدفاع المعقد في<br>المعبد،<ts=&quot;7.08;11.18&quot;>أو كما نسميه بمحبة: مسار التحديات المائلة<br>إلى الهلاك.",
+    "after": "<ts=&quot;0;3.031&quot;>حسنًا، أنتما جاهزان معنويًّا.<ts=&quot;3.174;7.016&quot;>لكن عليكما تجاوز نظام الدفاع المعقد في<br>المعبد،<ts=&quot;7.08;11.18&quot;>أو كما نسميه بمحبة: مسار التحديات... أو<br>الهلاك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 18689,
+    "key": "QUTM_ZORD_GP1_ZORD_GP_001",
+    "source_sha256": "3e4eaed78c8d2afff9e0b468fa2c6a2e0d9e3c232d6e0131e7783e6012747672",
+    "before": "<ts=&quot;0.047;4.996&quot;>إن استطعت إقناع القراصنة بأنني أنا حقًّا،<ts=&quot;4.996;9.097&quot;>فسنشـ... سنشق طريقنا إلى الخارج بقتال<br>مجيد...",
+    "after": "<ts=&quot;0.047;4.996&quot;>إن استطعت إقناع القراصنة بأنني أنا حقًّا،<ts=&quot;4.996;9.097&quot;>فيمكننا شق طريقنا إلى الخارج بقتال مجيد...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 18720,
+    "key": "QWRK_BOARDS_DEC19_VIDEO_020",
+    "source_sha256": "943ec3b9fc4e23490b1234e13398507a8cb1fbd79489cbbaa3340a0254c409f3",
+    "before": "خذوا مدفع التشذيب مثلًا. تتيح الزنادين<br>التكيفيين للاعبين الشعور بالرشاش وهو يغادر<br>أيديهم، بينما تحاكي الاستجابة اللمسية<br>دوران الماء ورشه! تأملوا... التشجير!",
+    "after": "خذوا مدفع التشذيب مثلًا. تتيح الزنادات<br>التكيفية للاعبين الشعور بالرشاش وهو يغادر<br>أيديهم، بينما تحاكي الاستجابة اللمسية<br>دوران الماء ورشه! تأملوا... التشجير!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 19271,
+    "key": "RATC_CORV_GP2_GP_NEFCITY_063",
+    "source_sha256": "d613feaa82b6339a93d8719da8fef0ca015265124ed28664b7f312d48ae68d23",
+    "before": "<ts=&quot;0;3.19&quot;>مهلًا، أنت تعرف اللومباكس الأخرى؟! إلى أين<br>ذهبت؟!",
+    "after": "<ts=&quot;0;3.19&quot;>مهلًا، أنت تعرف اللومباكس الأخرى؟! إلى أين<br>ذهبت؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 19331,
+    "key": "RATC_CORV_GP2_GP_NEFCITY_144",
+    "source_sha256": "21b68fef853faad01be38db87c9e24d75f5927392fe9e556184a5e1c4a3b4b60",
+    "before": "<ts=&quot;0;3.15&quot;>أرجوك، لا مفاجآت على هذا السطح.<ts=&quot;3.409;5.835&quot;>سيكون رائعًا لو كان أمل سطح على الإطلاق.",
+    "after": "<ts=&quot;0;3.15&quot;>أرجوك، لا مفاجآت على هذا السطح.<ts=&quot;3.409;5.835&quot;>سيكون رائعًا لو كان أكثر سطح ممل على<br>الإطلاق.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 19785,
+    "key": "RATC_KEDS_GP1_KEDS_GP_127",
+    "source_sha256": "0c158f16b38ccc9aa30462b14fd692b71d0c776068eee6a8cb833232a872a68e",
+    "before": "<ts=&quot;0.02;2.681&quot;>سعدت بلقائك، يا جانكبوت! هذه كيت!",
+    "after": "<ts=&quot;0.02;2.681&quot;>سعدت بلقائك، يا جانكبوت! هذه كيت!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 20113,
+    "key": "RATC_SAVA_GP1_SAVA_GP1_170",
+    "source_sha256": "193a8f3aa067c1e0bec647c54d2da56f5f65f28bd6a211886f3437c049b42dbc",
+    "before": "<ts=&quot;0;0.855&quot;>كلهم؟<ts=&quot;1.312;5.499&quot;>هل تظنين... أمم، انسي الأمر.",
+    "after": "<ts=&quot;0;0.855&quot;>كلهم؟<ts=&quot;1.312;5.499&quot;>هل تظنين... أمم، انسي الأمر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 20238,
+    "key": "RATC_SAVA_SQ_GAMEPLAY_003",
+    "source_sha256": "8e7d8ce252e8ddd56dc0601c7f3ae7d9dc347af56ccb8b955aa59aba1dbe47e5",
+    "before": "<ts=&quot;0.045;3.6&quot;>آخ، يبدو أنني لن أحصل على ذلك اللورب حتى<br>أتخلص من الأعداء!",
+    "after": "<ts=&quot;0.045;3.6&quot;>آخ، يبدو أنني لن أحصل على ذلك اللورب حتى<br>أتخلص من الأعداء!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 20239,
+    "key": "RATC_SAVA_SQ_GAMEPLAY_003_EX",
+    "source_sha256": "3ef6d54596adadc8b64f04efe527017cad1de6e54ec370b78fd09a48754851fc",
+    "before": "<ts=&quot;0.15;4.228&quot;>آخ، يبدو أنني لا أستطيع الوصول إلى<br>تلك اللورب قبل التخلص من الأعداء!",
+    "after": "<ts=&quot;0.15;4.228&quot;>آخ، يبدو أنني لا أستطيع الوصول إلى ذلك<br>اللورب قبل التخلص من الأعداء!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 20241,
+    "key": "RATC_SAVA_SQ_GAMEPLAY_004_EX",
+    "source_sha256": "82c1b1e597e71fe037dd7fe366cc5aab41e58a24b3de62d7b01a36bae38eccf7",
+    "before": "<ts=&quot;0;0.46&quot;>كايدن...<ts=&quot;1.07;2.43&quot;>يعني أبي؟ ...<ts=&quot;2.989;6.25&quot;>منذ متى حدث هذا؟ ومن صاحب الصوت؟",
+    "after": "<ts=&quot;0;0.46&quot;>كادن...<ts=&quot;1.07;2.43&quot;>يعني أبي؟ ...<ts=&quot;2.989;6.25&quot;>منذ متى حدث هذا؟ ومن صاحب الصوت؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21689,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_026_EX",
+    "source_sha256": "726549e37fdcebeaceab145d25e18b8148cc57acf7ee3a57de9f8f522737f714",
+    "before": "<ts=&quot;0;1.4&quot;>مركز التجهيز—<ts=&quot;1.859;6.148&quot;>لا بد أنه المكان الذي يحتجزون فيه<br>راتشت وكلانك... وكيت.",
+    "after": "<ts=&quot;0;1.4&quot;>مركز المعالجة—<ts=&quot;1.859;6.148&quot;>لا بد أنه المكان الذي يحتجزون فيه<br>راتشت وكلانك... وكيت.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21690,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_027",
+    "source_sha256": "2345287147ed44becafa32fe3cca2f1b50045fb4ea270f3c9d918528cca5fed4",
+    "before": "<ts=&quot;0.38;4.08&quot;>أوف، لا إنذارات. والآن، لأجد طريقًا إلى<br>مركز المعالجة.",
+    "after": "<ts=&quot;0.38;4.08&quot;>أوف، لا إنذارات. والآن، لأجد طريقًا إلى<br>مركز المعالجة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21691,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_027_EX",
+    "source_sha256": "bd0cc43da7aa44c83f911faacab50a4fcd9412d2d49228ae95e0fb39bd296c7d",
+    "before": "<ts=&quot;0;3.963&quot;>أوف، لا إنذارات. الآن أجد طريقا<br>إلى مركز التجهيز.",
+    "after": "<ts=&quot;0;3.963&quot;>أوف، لا إنذارات. الآن أجد طريقا<br>إلى مركز المعالجة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21692,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_028",
+    "source_sha256": "2324f4163bd635d7b1bc3dfe26b62315918bb9d0feb4d20843bc14e16cfd0d59",
+    "before": "<ts=&quot;0.87;3.041&quot;>همم... كيف أصل إلى مركز المعالجة من هنا؟",
+    "after": "<ts=&quot;0.87;3.041&quot;>همم... كيف أصل إلى مركز المعالجة من هنا؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21693,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_028_EX",
+    "source_sha256": "bba4b9e2b2981a1d8644ad9c981a09891691b02b1b2d9d97e470c50be0152782",
+    "before": "<ts=&quot;0;3.485&quot;>هم... كيف أصل إلى مركز التجهيز من هنا؟",
+    "after": "<ts=&quot;0;3.485&quot;>هم... كيف أصل إلى مركز المعالجة من هنا؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21705,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_035_EX",
+    "source_sha256": "460104057d17ba6dd4cae0a96782bd606fb2d4adc2069e269baaa719cee700be",
+    "before": "<ts=&quot;0.06;0.621&quot;>هناك!<ts=&quot;0.977;4.045&quot;>الآن علي فقط إيجاد مدخل آخر إلى<br>مركز التجهيز.",
+    "after": "<ts=&quot;0.06;0.621&quot;>هناك!<ts=&quot;0.977;4.045&quot;>الآن علي فقط إيجاد مدخل آخر إلى<br>مركز المعالجة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21767,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_073",
+    "source_sha256": "e229c214548d163b98cdd601c6b3a502e0a31ce0c0daa10cedddb7c6a771f0c6",
+    "before": "<ts=&quot;0.046;5.334&quot;>عادت الكهرباء! تمامًا كما عادت كيت من<br>ماضيّ الغبي!",
+    "after": "<ts=&quot;0.046;5.334&quot;>عادت الكهرباء! تمامًا كما عادت كيت من<br>ماضيّ الغبي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21768,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_073_EX",
+    "source_sha256": "745e5e2fc85c473cd8fa8bd82614e3935200a6c71e5fb1c1ef9c41b05d6b6bf8",
+    "before": "<ts=&quot;0.04;5.482&quot;>عادت الكهرباء! تمامًا كما عادت كيت من ماضي<br>الغبي!",
+    "after": "<ts=&quot;0.04;5.482&quot;>عادت الكهرباء! تمامًا كما عادت كيت من<br>ماضيّ الغبي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21787,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_083_EX",
+    "source_sha256": "c5039e22bdb6d78da0e118e330b1c8ffe9977082e464314cc22f761178feef17",
+    "before": "<ts=&quot;0;0.7&quot;>علي<ts=&quot;1.809;2.482&quot;>إيجاد طريق إلى مركز التجهيز.",
+    "after": "<ts=&quot;0;0.7&quot;>علي<ts=&quot;1.809;2.482&quot;>إيجاد طريق إلى مركز المعالجة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21830,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_114",
+    "source_sha256": "bef714bab016b75d116dea8ab1aa6cbe3e413ace3fa5bc0686d310f5a414641d",
+    "before": "<ts=&quot;0;2.257&quot;>علي إعادة زنزانتهم إلى هنا في الأسفل الآن!",
+    "after": "<ts=&quot;0;2.257&quot;>علي إعادة زنزانتهم إلى هنا في الأسفل الآن!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21833,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_115_EX",
+    "source_sha256": "15467ab3557a10f7128f99f966bc23ff0bb000d3ef7d7e3382e38527e6657476",
+    "before": "<ts=&quot;0;0.729&quot;>لا بد أن أسرع.<ts=&quot;1.109;5.812&quot;>الحراس لن يبقوهم في مركز التجهيز<br>سوى وقت قصير قبل أن... أمم.",
+    "after": "<ts=&quot;0;0.729&quot;>لا بد أن أسرع.<ts=&quot;1.109;5.812&quot;>الحراس لن يبقوهم في مركز المعالجة<br>سوى وقت قصير قبل أن... أمم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 21841,
+    "key": "RIVE_ZORD_GP1_ZORD_GP_121",
+    "source_sha256": "33aec955fe5cfbf73604ad3b0ab2b8ab772655890e12401473bc2d18a86cc329",
+    "before": "<ts=&quot;0.04;2.589&quot;>قد يكفي قليل من الجهد لفتح هذه الأقفال.",
+    "after": "<ts=&quot;0.04;2.589&quot;>قد يكفي قليل من الجهد لفتح هذه الأقفال.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 22260,
+    "key": "STICKER_BALLOON_ENFORCER",
+    "source_sha256": "43496d937e9c1f50e2f2421d58fd13fd4f36b55a12ce0a2a54cca3446ebafcd9",
+    "before": "الإنفورسر",
+    "after": "إنفورسر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 22595,
+    "key": "STICKER_WEAPON_ENFORCER",
+    "source_sha256": "43496d937e9c1f50e2f2421d58fd13fd4f36b55a12ce0a2a54cca3446ebafcd9",
+    "before": "الإنفورسر",
+    "after": "إنفورسر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 22672,
+    "key": "T4L1_ENM_GEN_AIMING_001",
+    "source_sha256": "f349425ec53ebf2e9b4cc92b6a2dc4aee45db99258fed3c081929a3d14a65844",
+    "before": "<ts=&quot;0;2.1&quot;>استعد لتناثر فروك كالقصاصات!",
+    "after": "<ts=&quot;0;2.1&quot;>استعد لتناثر فرائك كالقصاصات!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 23738,
+    "key": "T4L4_ENM_GEN_ENGAGED_003",
+    "source_sha256": "21ff8dc54f777186db8146ad4b383f184718b6bb6319b4cddbabbf29ef39c88b",
+    "before": "<ts=&quot;0;1.4&quot;>لتبدأ الحفلة!",
+    "after": "<ts=&quot;0;1.4&quot;>لتبدأ الحيل واستعراض العضلات!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24023,
+    "key": "TROPHY_005_DESC",
+    "source_sha256": "a285a52bd5efe969222d03a3ab48aa2b2f0fe1aea2047b07670f2c496368f364",
+    "before": "شغل ثلاث أغانٍ على صندوق الموسيقى<br>في زوركيز",
+    "after": "شغل ثلاث أغانٍ على صندوق الموسيقى<br>في زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24316,
+    "key": "UI_COLLECTIBLES_JUKEBOX_REWARD",
+    "source_sha256": "b96704455ed1de2a6bcb56fb3d6777a93bf314030dc1be34badc2b362f92ba37",
+    "before": "يتضمن مقطوعات موسيقية لجهاز تشغيل<br>حانة زوركيز.",
+    "after": "يتضمن مقطوعات موسيقية لجهاز تشغيل<br>حانة زوركي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24374,
+    "key": "UI_PLANET_LOCATION_ZURKIES",
+    "source_sha256": "05c9082233c62543aa19cc68f9e5ac2976d5137c1cfeee75e001af9ce8388ace",
+    "before": "حانة زوركيز",
+    "after": "حانة زوركي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24927,
+    "key": "WEAPON_PROTOSHOTGUN",
+    "source_sha256": "6f9ed0d3e6964adac92a0ab3c9304b40606dcc8ef897e547f72a998297ee3f53",
+    "before": "الإنفورسر",
+    "after": "إنفورسر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24936,
+    "key": "WEAPON_PROTOSHOTGUN_UC",
+    "source_sha256": "43496d937e9c1f50e2f2421d58fd13fd4f36b55a12ce0a2a54cca3446ebafcd9",
+    "before": "الإنفورسر",
+    "after": "إنفورسر",
+    "decision": "rewrite"
+  }
+]

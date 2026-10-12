@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_CARPETUP",
     "arabic_current": "<ts=&quot;0.04;3.265&quot;>يا لها من متعة قصف<br>حقيقية!",
     "arabic_edit": "<ts=&quot;0.04;3.265&quot;>يا لها من متعة قصف حقيقية!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "336878f4f31ca50a3b327679256236429abfadbc22a2dc8f3c43aa9752414d80",
+      "candidate_sha256": "7105f11e1b810ed48b2add4594f6daa6337aed049815a5db741925c31b448d22",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

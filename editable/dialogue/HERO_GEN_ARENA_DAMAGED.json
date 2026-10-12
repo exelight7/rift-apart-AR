@@ -6,13 +6,21 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_ARENA_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.249&quot;>واصل، ريفت!",
-    "arabic_edit": "<ts=&quot;0;1.249&quot;>واصل، ريفت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.249&quot;>واصلي يا ريفت!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "dd4d41e7be310ce0811d2d4cddfd1170b5b81123239da4ce09d7f4481f76ad13",
+      "candidate_sha256": "8e99319cef01ec428194a9ad1d5848fcb7e3b82f03d4e6d107e22301e4e2746f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1955,
@@ -22,12 +30,20 @@
     "scene_code": "HERO_GEN_ARENA_DAMAGED",
     "arabic_current": "<ts=&quot;0;1.75&quot;>يمكنك الفوز بهذا، يا ريفت!",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>يمكنك الفوز بهذا، يا ريفت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "a81bf5d83bb44111a60a175d0a4bdf887a0c9371e58c44994701b2ea9455731f",
+      "candidate_sha256": "7c65ae00af3d3cd5d66c55772d35ff6e2cc12396d358c8345359c9cc8f82f025",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11138,
@@ -37,12 +53,20 @@
     "scene_code": "HERO_GEN_ARENA_DAMAGED",
     "arabic_current": "<ts=&quot;0.049;1.291&quot;>أؤمن بك، ريفت!",
     "arabic_edit": "<ts=&quot;0.049;1.291&quot;>أؤمن بك، ريفت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "c98637892154be162be900f19ee2e1b0602f566e90649b249bd61a58b8a93194",
+      "candidate_sha256": "055fd2a4a1e130ab04351006912e2426e24dca20191973dfcf4f59c27399c722",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11139,
@@ -52,11 +76,19 @@
     "scene_code": "HERO_GEN_ARENA_DAMAGED",
     "arabic_current": "<ts=&quot;0.048;1.249&quot;>يمكنك فعل ذلك، ريفت!",
     "arabic_edit": "<ts=&quot;0.048;1.249&quot;>يمكنك فعل ذلك، ريفت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "0a92792a43aa4e8fab7df8e0a0595ce5eba688509c540721e744b0baf520ef46",
+      "candidate_sha256": "2ce5375973a95bb8e87de71f4670037ff799bac6d1c8af450feb7b77255647cc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

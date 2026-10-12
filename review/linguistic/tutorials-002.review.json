@@ -1,0 +1,1218 @@
+[
+  {
+    "index": 24148,
+    "key": "TUT_CLANKPUZZLE_SWAP",
+    "source_sha256": "f7c7bc257a16afd7188e116169fbaf300b3b660058361424e8bf787d1ab1b541",
+    "before": "استمر بالضغط على [BTN_SWAP_WEAPONS] لتبديل الكرة<br>المجهزة",
+    "after": "استمر بالضغط على [BTN_SWAP_WEAPONS] لتبديل الكرة<br>المجهزة",
+    "decision": "keep"
+  },
+  {
+    "index": 24149,
+    "key": "TUT_CLANKPUZZLE_VIDEOHINT",
+    "source_sha256": "3f944c931c7290abc42b9f88223b0c3ca74e3c81cfb6321cda90a7160d5b11a0",
+    "before": "اضغط [BTN_B] لمشاهدة فيديو التلميح",
+    "after": "اضغط [BTN_B] لمشاهدة فيديو التلميح",
+    "decision": "keep"
+  },
+  {
+    "index": 24150,
+    "key": "TUT_CRANK_DETACH",
+    "source_sha256": "8c7e715f5c4d252379f5a84dc3d87c98cf6c7cc8ac8318f56f328da2aa8ab529",
+    "before": "اضغط [BTN_MELEE] للانفصال",
+    "after": "اضغط [BTN_MELEE] للإفلات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24151,
+    "key": "TUT_DOUBLEJUMP",
+    "source_sha256": "1486a6f1349cd70b016567469bd5f5733035fd417479cee34bd1a97a982b59c2",
+    "before": "اضغط [BTN_JUMP] ثم [BTN_JUMP] في الهواء للقفز<br>المزدوج",
+    "after": "اضغط [BTN_JUMP] ثم [BTN_JUMP] في الهواء للقفز<br>المزدوج",
+    "decision": "keep"
+  },
+  {
+    "index": 24152,
+    "key": "TUT_DPAD_QUICKSELECT",
+    "source_sha256": "820d074f626dccab380e37c53b894bf23c8b7f7c43e833a04c75796726b0218d",
+    "before": "يمكنك تعيين [BTN_SHORTCUT_1] أو [BTN_SHORTCUT_2] أو [BTN_SHORTCUT_3] أو [BTN_SHORTCUT_4] في أي<br>وقت للاختيار السريع.",
+    "after": "عيّن [BTN_SHORTCUT_1] أو [BTN_SHORTCUT_2] أو [BTN_SHORTCUT_3] أو [BTN_SHORTCUT_4] للاختيار السريع في<br>أي وقت.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24153,
+    "key": "TUT_EQUIP_ARMOR",
+    "source_sha256": "5dce4020464221a9cf3d80006abdc140907f3bed4e67fb275591ab86c7bc24e9",
+    "before": "اضغط [BTN_SELECT] لتجهيز الدرع",
+    "after": "اضغط [BTN_SELECT] لتجهيز الدرع",
+    "decision": "keep"
+  },
+  {
+    "index": 24154,
+    "key": "TUT_FLY_CONTROLS",
+    "source_sha256": "08e6eb4ea46e8648e1aa93a9155acad178883fd10c18c11ecc0d2b320105736f",
+    "before": "استعمل [BTN_MOVE] مع [BTN_FLY] لتوجيه ترودي",
+    "after": "استعمل [BTN_MOVE] مع [BTN_FLY] لتوجيه ترودي",
+    "decision": "keep"
+  },
+  {
+    "index": 24155,
+    "key": "TUT_FLY_INVERT",
+    "source_sha256": "4ecccb0cdde9d4782b8a8f125d1b3a7121a69f7fc2e76fc645f00cb07e213af2",
+    "before": "اضغط [BTN_START] لعكس عناصر تحكم الطيران أو<br>تغيير عصي الطيران في الإعدادات.",
+    "after": "اضغط [BTN_START] لعكس اتجاه تحكم الطيران أو تغيير<br>عصي التحكم المخصصة للطيران من الإعدادات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24156,
+    "key": "TUT_FLY_INVERT_TITLE",
+    "source_sha256": "74c8567e27352e3821465ac93e9f2b729c83b24b1b1200ae151a85cbb4717f13",
+    "before": "إعدادات تحكم ترودي",
+    "after": "إعدادات تحكم ترودي",
+    "decision": "keep"
+  },
+  {
+    "index": 24157,
+    "key": "TUT_FLY_SHOOT_ZURPSTONES",
+    "source_sha256": "b15ce36844b7dbaa054c1da40ae0f7f89e7559031c8457c387384d9eba5184d0",
+    "before": "أصبحت ترودي قادرة على<span class='emphasis'>إطلاق النار</span>على الزوربستون لجمعها!",
+    "after": "أصبحت ترودي قادرة على <span class='emphasis'>إطلاق النار</span> على أحجار الزورب لجمعها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24158,
+    "key": "TUT_GADGET_BOXBREAKER",
+    "source_sha256": "cb82b58ad58c490d07027cd781780f6436c7d2ae91a32035f3fcafa620368f99",
+    "before": "اضغط [BTN_JUMP] ثم [BTN_MELEE] في الهواء لسحق السلاح<br>القريب",
+    "after": "اضغط [BTN_JUMP] ثم [BTN_MELEE] في الهواء لتنفيذ ضربة أرضية<br>بسلاح الاشتباك",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24159,
+    "key": "TUT_GADGET_HOVERBOOTS",
+    "source_sha256": "92970b47844fefde52b59a3400437f07d351c8b8578695235973a7c6dfaa548e",
+    "before": "استمر بالضغط على [BTN_HOVERBOOT] لتحلق بحذاء<br>الطفو استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_AIM]<br>مرارا لتتسارع",
+    "after": "استمر بالضغط على [BTN_HOVERBOOT] لاستخدام حذاء الطفو<br>استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_AIM] مرارًا للتسارع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24160,
+    "key": "TUT_GADGET_HOVERBOOTS_MKB",
+    "source_sha256": "870840a78bd35f75cd3adb720c7bed77fcd447f52c116eb371e50103eac312a3",
+    "before": "استمر بالضغط على [BTN_HOVERBOOT] لتحلق بحذاء<br>الطفو استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_HOVERBOOT_KICK]<br>مرارا لتتسارع",
+    "after": "استمر بالضغط على [BTN_HOVERBOOT] لاستخدام حذاء الطفو<br>استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_HOVERBOOT_KICK] مرارًا للتسارع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24161,
+    "key": "TUT_GADGET_HURLSHOT",
+    "source_sha256": "caf8e38b83d6f09badb461fbb86d5a2ffe9a8250250834abfe521c7fc842d3c2",
+    "before": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف<br>التأرجح والخطافات وأهداف الربط [BTN_PORTAL_TETHER]<br>رابطة الصدع [BTN_DASH] اندفاعة الطيف استمر<br>بالضغط على [BTN_SWINGSHOT] لشحن الهيرلشوت ثم<br>أفلت",
+    "after": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف التأرجح<br>والخطافات والربط<br>[BTN_PORTAL_TETHER] لاستخدام رابطة الصدع<br>[BTN_DASH] للاندفاع الطيفي<br>استمر بالضغط على [BTN_SWINGSHOT] لشحن الهيرلشوت، ثم حرره",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24162,
+    "key": "TUT_GADGET_MAGLAUNCH",
+    "source_sha256": "e8b8d84b32e1aab44f6177400a092912d5b30d5345a5efd25c62c7ef1f1a8df2",
+    "before": "اضغط [BTN_MAGBOOT_LAUNCH] للإطلاق المغناطيسي",
+    "after": "اضغط [BTN_MAGBOOT_LAUNCH] للإطلاق المغناطيسي",
+    "decision": "keep"
+  },
+  {
+    "index": 24163,
+    "key": "TUT_GADGET_MAPOMATIC",
+    "source_sha256": "7308935c6905bf42e9d8c47cce42b3de1e358ea12377bcf6875198bfe4e6098b",
+    "before": "اضغط [BTN_SELECT] لفتح الخريطة",
+    "after": "اضغط [BTN_SELECT] لفتح الخريطة",
+    "decision": "keep"
+  },
+  {
+    "index": 24164,
+    "key": "TUT_GADGET_OMNIBOOTS",
+    "source_sha256": "bdbb37ba5905db707cb60b94edd7604832b73968e3652a8d3eb151d7743df2f8",
+    "before": "اضغط [BTN_JUMP] للقفز [BTN_JUMP] ثم [BTN_JUMP] في الهواء<br>للقفز المزدوج [BTN_SPRINT] للعدو استمر بالضغط<br>على [BTN_GLIDE] لتنزلق",
+    "after": "[BTN_JUMP] للقفز<br>[BTN_JUMP] ثم [BTN_JUMP] في الهواء للقفز المزدوج<br>[BTN_SPRINT] للعدو<br>استمر بالضغط على [BTN_GLIDE] للانزلاق جوًا",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24165,
+    "key": "TUT_GADGET_OMNIBOOTS_MKB",
+    "source_sha256": "d9685773f7da28406629a99ef94f2ff3a2a5476b836a7de1c7c451990e9f8d5d",
+    "before": "اضغط [BTN_JUMP] للقفز [BTN_JUMP] ثم [BTN_JUMP] في الهواء<br>للقفز المزدوج استمر بالضغط على [BTN_SPRINT]<br>للعدو استمر بالضغط على [BTN_GLIDE] لتنزلق",
+    "after": "[BTN_JUMP] للقفز<br>[BTN_JUMP] ثم [BTN_JUMP] في الهواء للقفز المزدوج<br>استمر بالضغط على [BTN_SPRINT] للعدو<br>استمر بالضغط على [BTN_GLIDE] للانزلاق جوًا",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24166,
+    "key": "TUT_GADGET_OMNIGLOVE",
+    "source_sha256": "759cbfe906a780b7f28f0b91e1d86d03875e0acdccd49fe1b670f99151e35d68",
+    "before": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف<br>التأرجح والخطافات والربط",
+    "after": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف<br>التأرجح والخطافات والربط",
+    "decision": "keep"
+  },
+  {
+    "index": 24167,
+    "key": "TUT_GADGET_PHANTOMDASH",
+    "source_sha256": "118363818ea76469c2a3ccba2e8d17042e09e710be3b001cbf8368b20cf6506b",
+    "before": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف<br>التأرجح والخطافات وأهداف الربط [BTN_PORTAL_TETHER]<br>رابطة الصدع [BTN_DASH] اندفاعة الطيف",
+    "after": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف التأرجح<br>والخطافات والربط<br>[BTN_PORTAL_TETHER] لاستخدام رابطة الصدع<br>[BTN_DASH] للاندفاع الطيفي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24168,
+    "key": "TUT_GADGET_RIFTTETHER",
+    "source_sha256": "76a7d16255cdb2fb70ae079bf5eba249e65576f8ac04857f25566fd8e23392b2",
+    "before": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف<br>التأرجح والخطافات وأهداف الربط [BTN_PORTAL_TETHER]<br>رابطة الصدع",
+    "after": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف التأرجح<br>والخطافات والربط<br>[BTN_PORTAL_TETHER] لاستخدام رابطة الصدع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24169,
+    "key": "TUT_GLIDE",
+    "source_sha256": "6e13018d4021977ffce8d68d3e0ab5382b24755e3616e974668fedef6dd4ab7f",
+    "before": "استمر بالضغط على [BTN_GLIDE] لتنزلق نزولا",
+    "after": "استمر بالضغط على [BTN_GLIDE] للهبوط انزلاقًا",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24170,
+    "key": "TUT_GRINDRAIL_JUMP_HAZARDS",
+    "source_sha256": "5bfb2a5f1d552d808a76bfde02304ee388fe98fc1714dea9c179d89e6cedf4d6",
+    "before": "اضغط [BTN_JUMP] لتقفز فوق المخاطر",
+    "after": "اضغط [BTN_JUMP] لتقفز فوق المخاطر",
+    "decision": "keep"
+  },
+  {
+    "index": 24171,
+    "key": "TUT_GRINDRAIL_SWITCH",
+    "source_sha256": "be8f05f7f806f53747edad770d3718a1a7100eb823a6aa18ffa6832fec845530",
+    "before": "استعمل [BTN_LS_HORIZONTAL] مع [BTN_JUMP] لتبديل سكة الانزلاق",
+    "after": "استعمل [BTN_LS_HORIZONTAL] مع [BTN_JUMP] لتبديل سكة الانزلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 24172,
+    "key": "TUT_GRINDRAIL_SWITCH_TITLE",
+    "source_sha256": "40357f8e38eaa146f4804963f1b9a27d34c11dc8fb64ee2ac2c7e4bdfa540e75",
+    "before": "تبديل سكة الانزلاق",
+    "after": "تبديل سكة الانزلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 24173,
+    "key": "TUT_GRINDRAIL_TRICKJUMP",
+    "source_sha256": "3a7eb57a032a2f9e17a4bba8109406311e3640edb7c67a862b60d8b89cc67cce",
+    "before": "اضغط [BTN_JUMP] ثم [BTN_JUMP] للقفزة البهلوانية",
+    "after": "اضغط [BTN_JUMP] ثم [BTN_JUMP] للقفزة البهلوانية",
+    "decision": "keep"
+  },
+  {
+    "index": 24174,
+    "key": "TUT_HAMMERCRANK_ATTACH",
+    "source_sha256": "5d86c67f971e91c44df377a287b767f461008d1fe1e07796c35a6b78b1e9de5c",
+    "before": "اضغط [BTN_MELEE] للتعلق بمرفق المطرقة",
+    "after": "اضغط [BTN_MELEE] للإمساك بذراع تدوير المطرقة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24175,
+    "key": "TUT_HAMMERCRANK_TURN",
+    "source_sha256": "d1e38f6b504262057283ffed19d9789ea07556c2fa75339c61e0c32ba1769380",
+    "before": "استعمل [BTN_MOVE] لتدوير مرفق المطرقة",
+    "after": "استخدم [BTN_MOVE] للف ذراع تدوير المطرقة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24176,
+    "key": "TUT_HAMMER_THROW",
+    "source_sha256": "41fd6325435f99f026150405dcf47cb05562a61ca39bb1b6bb2fedcab34d7606",
+    "before": "استمر بالضغط على [BTN_AIM] مع [BTN_MELEE] لترمي<br>المطرقة",
+    "after": "استمر بالضغط على [BTN_AIM] مع [BTN_MELEE] لترمي<br>المطرقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24177,
+    "key": "TUT_HAMMER_THROW_BREAKFANS",
+    "source_sha256": "2eac38b60f55fe8dfc4ba228c571c6714edd985ecd3c14e0d5bdf0a25deecc61",
+    "before": "استمر بالضغط على [BTN_AIM] مع [BTN_MELEE] لترمي<br>المطرقة وتكسر المراوح",
+    "after": "استمر بالضغط على [BTN_AIM] مع [BTN_MELEE] لترمي<br>المطرقة وتكسر المراوح",
+    "decision": "keep"
+  },
+  {
+    "index": 24178,
+    "key": "TUT_HAMMER_THROW_PRESS",
+    "source_sha256": "7fad573b26df96adb7f962849bb216fc104899b5414b34e5806f172da2789abf",
+    "before": "اضغط [BTN_HAMMER_THROW] لترمي المطرقة",
+    "after": "اضغط [BTN_HAMMER_THROW] لترمي المطرقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24179,
+    "key": "TUT_HAX_BASIC_CONTROLS",
+    "source_sha256": "ca812d4169a46ec26ae00ae0a5ed0e25dd124dc382899bb01c041856ff419caf",
+    "before": "استعمل [BTN_MOVE] للتحرك و[BTN_LOOK] للتصويب",
+    "after": "استعمل [BTN_MOVE] للتحرك و[BTN_LOOK] للتصويب",
+    "decision": "keep"
+  },
+  {
+    "index": 24180,
+    "key": "TUT_HAX_BLITZ_ON_FLYERS",
+    "source_sha256": "a0ca1345609784b9f228b2c0869505582b8e2b358522fa171869bc21c547dac3",
+    "before": "اضغط [BTN_AIM] لاستخدام نفاثات العدوى على<br>الشراعات فيروسية زيتا.",
+    "after": "اضغط [BTN_AIM] لاستخدام بليتز إنفكتورز ضد الكائنات<br>الشراعية لفيروس زيتا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24181,
+    "key": "TUT_HAX_WPN_BLITZINFECTORS",
+    "source_sha256": "102a79a1b67f441f9145027ba5f2d0d37a391a64db91a9dc103043574c5cc8de",
+    "before": "اضغط [BTN_AIM] لنفاثات العدوى",
+    "after": "[BTN_AIM] لاستخدام بليتز إنفكتورز",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24182,
+    "key": "TUT_HAX_WPN_ELECTROGUNS",
+    "source_sha256": "3e96e5735a4a955f6599538e519214e63d19b827b8392e70cb483a3a017c8302",
+    "before": "اضغط [BTN_FIRE] للمدافع الكهربائية",
+    "after": "اضغط [BTN_FIRE] للمدافع الكهربائية",
+    "decision": "keep"
+  },
+  {
+    "index": 24183,
+    "key": "TUT_HAX_WPN_NUKEPULSE",
+    "source_sha256": "b0412eb736d2e7a6a1b67e9f8ee512f6d72a56067b8a230a40249185c0a59924",
+    "before": "اضغط [BTN_A] للنبضة النووية",
+    "after": "اضغط [BTN_A] للنبضة النووية",
+    "decision": "keep"
+  },
+  {
+    "index": 24184,
+    "key": "TUT_HERO_DASH_QUICK",
+    "source_sha256": "add5bb81fd166509f05fb42f0dd05e95104f366396b595f02fa1b1eb13dbb26d",
+    "before": "اضغط [BTN_DASH] للاندفاع السريع",
+    "after": "اضغط [BTN_DASH] للاندفاع السريع",
+    "decision": "keep"
+  },
+  {
+    "index": 24185,
+    "key": "TUT_HERO_DASH_SIDEWAYS",
+    "source_sha256": "283d226d15afbe98bf2e4d420be6c0da29af17d30c8801d0938af26d3506c466",
+    "before": "استعمل [BTN_MOVE] مع [BTN_DASH] للاندفاع الجانبي",
+    "after": "استعمل [BTN_MOVE] مع [BTN_DASH] للاندفاع الجانبي",
+    "decision": "keep"
+  },
+  {
+    "index": 24186,
+    "key": "TUT_HOOKSHOT",
+    "source_sha256": "da2e546fbb75e3acc734a3cbb608ad131db1c01255f201b26a23a663f239d87c",
+    "before": "استمر بالضغط على [BTN_SWINGSHOT] للخطاف",
+    "after": "استمر بالضغط على [BTN_SWINGSHOT] لاستخدام الخطاف",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24187,
+    "key": "TUT_HOVERBOOT",
+    "source_sha256": "274e576f79854832145c3fe76454480b80f50c3d15f7250a50e7437ef6b83780",
+    "before": "استمر بالضغط على [BTN_HOVERBOOT] لتحلق بحذاء<br>الطفو",
+    "after": "استمر بالضغط على [BTN_HOVERBOOT] لاستخدام حذاء الطفو",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24188,
+    "key": "TUT_HOVERBOOT_ACCELERATE",
+    "source_sha256": "a9ad7be75d1906e962507973b40c2b1c2a82c57342de5919a50fa7281a2435ac",
+    "before": "استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_HOVERBOOT_KICK] مرارا<br>لتتسارع",
+    "after": "استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_HOVERBOOT_KICK] مرارا<br>لتتسارع",
+    "decision": "keep"
+  },
+  {
+    "index": 24189,
+    "key": "TUT_HOVERBOOT_PUMP",
+    "source_sha256": "6baeaaf31092c1be2dc3c592725fd4b0945be51db487b12e59f33584f0d98667",
+    "before": "أثناء التحليق، اضغط [BTN_HOVERBOOT_KICK] بشكل متقطع<br>لزيادة السرعة",
+    "after": "أثناء التحليق، اضغط [BTN_HOVERBOOT_KICK] بشكل متقطع<br>لزيادة السرعة",
+    "decision": "keep"
+  },
+  {
+    "index": 24190,
+    "key": "TUT_HOVERBOOT_TOGGLE",
+    "source_sha256": "981319a4febe15dae5830ad6554d3dee3e60ac2cfb1b0358a20a6d3cbddcae33",
+    "before": "اضغط [BTN_HOVERBOOT] لتبديل حذاء الطفو",
+    "after": "اضغط [BTN_HOVERBOOT] لتشغيل حذاء الطفو أو إيقافه",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24191,
+    "key": "TUT_HURLSHOT_ATTACH",
+    "source_sha256": "5255e304db4a0be5855974e0d51803d7d132e0fc1fee1fb5e95bbcbb7ec754ce",
+    "before": "اضغط واستمر بالضغط على [BTN_SWINGSHOT] لاستخدام<br>الهيرلشوت",
+    "after": "اضغط واستمر بالضغط على [BTN_SWINGSHOT] لاستخدام<br>الهيرلشوت",
+    "decision": "keep"
+  },
+  {
+    "index": 24192,
+    "key": "TUT_HURLSHOT_BUILDSPEED",
+    "source_sha256": "cabbf3d8ff3f71f37e4dd7e5ed54bc8e7fafc3cd8cf251e701233f84692beca9",
+    "before": "استمر بالضغط على [BTN_SWINGSHOT] لتجميع السرعة<br>ثم أفلت!",
+    "after": "استمر بالضغط على [BTN_SWINGSHOT] لزيادة السرعة، ثم حرره!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24193,
+    "key": "TUT_INTRO_DRNEF_DODGELASER",
+    "source_sha256": "d2c93e3769767b9ae99747def3fc8508ba4db9b15a482a20e9e218c12cc0406c",
+    "before": "استعمل [BTN_MOVE] مع [BTN_JUMP] ثم [BTN_JUMP] لتتفادى الليزر",
+    "after": "استعمل [BTN_MOVE] مع [BTN_JUMP] ثم [BTN_JUMP] لتتفادى الليزر",
+    "decision": "keep"
+  },
+  {
+    "index": 24194,
+    "key": "TUT_JUMP",
+    "source_sha256": "a9262df80dba45ec68fa9c9a1c61a176d745e243d0bad76b11180082f6edbc03",
+    "before": "اضغط [BTN_JUMP] للقفز",
+    "after": "اضغط [BTN_JUMP] للقفز",
+    "decision": "keep"
+  },
+  {
+    "index": 24195,
+    "key": "TUT_LORB_LISTEN",
+    "source_sha256": "7202245879005d45e2d0ab8e77841d694d067256a830e31c7548336327fec20a",
+    "before": "اضغط [BTN_SELECT] للاستماع إلى اللورب",
+    "after": "اضغط [BTN_SELECT] للاستماع إلى اللورب",
+    "decision": "keep"
+  },
+  {
+    "index": 24196,
+    "key": "TUT_MAGBOOTS_LEAP",
+    "source_sha256": "bfedacd83f4752c91da60515e8a4304014360e39b258f8505601da9f4e9138b3",
+    "before": "اضغط [BTN_MAGBOOT_JUMP] لتقفز إلى السطح المغناطيسي",
+    "after": "اضغط [BTN_MAGBOOT_JUMP] لتقفز إلى السطح المغناطيسي",
+    "decision": "keep"
+  },
+  {
+    "index": 24197,
+    "key": "TUT_MAGBOOT_JUMP",
+    "source_sha256": "77cdb326a3340b1af6a3855612e216354e9de00d54f675de6c702aef34ca15ac",
+    "before": "استعمل [BTN_LOOK] للتصويب نحو السطح<br>،المغناطيسي و[BTN_MAGBOOT_JUMP] للقفز المغناطيسي<br>إليه",
+    "after": "استخدم [BTN_LOOK] للتصويب نحو سطح مغناطيسي، ثم [BTN_MAGBOOT_JUMP]<br>للقفز إليه مغناطيسيًا",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24198,
+    "key": "TUT_MAGBOOT_LAUNCH",
+    "source_sha256": "58dddbf0f5ff480285381ddfb31699c0dff3c389bc7602bcdebcfe57b7d66257",
+    "before": "اضغط [BTN_MAGBOOT_LAUNCH] للإطلاق المغناطيسي",
+    "after": "اضغط [BTN_MAGBOOT_LAUNCH] للإطلاق المغناطيسي",
+    "decision": "keep"
+  },
+  {
+    "index": 24199,
+    "key": "TUT_MAP",
+    "source_sha256": "7eac3ee515c8da0e37b9e29d4eb5fa9eaa85b34211532059d3020df665a39dab",
+    "before": "اضغط [BTN_SELECT] لفتح الخريطة",
+    "after": "اضغط [BTN_SELECT] لفتح الخريطة",
+    "decision": "keep"
+  },
+  {
+    "index": 24200,
+    "key": "TUT_MAP_ZURPSTONES",
+    "source_sha256": "f547a56d896dcf940410cddf8f25bd3f51f810d8f99ac79af9e9747d8211b710",
+    "before": "اضغط [BTN_SELECT] لعرض الزوربستون على الخريطة",
+    "after": "اضغط [BTN_SELECT] لعرض أحجار الزورب على الخريطة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24201,
+    "key": "TUT_MELEE",
+    "source_sha256": "e96b6c75422c21d4ab765de57cf440c9c85d6acc8270fdb4fcba1b5ade0b7c18",
+    "before": "اضغط [BTN_MELEE] لتلوح بالمفتاح",
+    "after": "اضغط [BTN_MELEE] لتلوح بالمفتاح",
+    "decision": "keep"
+  },
+  {
+    "index": 24202,
+    "key": "TUT_MELEE_HAMMER",
+    "source_sha256": "5f075a9fb83620830d0ccb4700b77398b9b7c65a68680fab9a9fefb96461fe08",
+    "before": "اضغط [BTN_MELEE] لتلوح بالمطرقة",
+    "after": "اضغط [BTN_MELEE] لتلوح بالمطرقة",
+    "decision": "keep"
+  },
+  {
+    "index": 24203,
+    "key": "TUT_MOVE_LOOK",
+    "source_sha256": "aeab1697332feef6d26a4f6c64a6351369f8d015a1ec85b68f0a6cc8e643df15",
+    "before": "استعمل [BTN_MOVE] للتحرك و[BTN_LOOK] للنظر",
+    "after": "استعمل [BTN_MOVE] للتحرك و[BTN_LOOK] للنظر",
+    "decision": "keep"
+  },
+  {
+    "index": 24204,
+    "key": "TUT_OBJECTIVE_PING",
+    "source_sha256": "b18cd2974d64f19cf56d6f849d1f70201ffeb463734ec0702302a9705f7be16b",
+    "before": "اضغط [BTN_OBJECTIVE_PING] لمراجعة الهدف",
+    "after": "اضغط [BTN_OBJECTIVE_PING] لمراجعة الهدف",
+    "decision": "keep"
+  },
+  {
+    "index": 24205,
+    "key": "TUT_OMEGA_AVAILABLE",
+    "source_sha256": "79af30c779de62ace800b6e0a3977dea48715deaa8675064597de91c40ee2d26",
+    "before": "أصبحت<span class='emphasis'>أسلحة أوميغا</span>متاحة للشراء للأسلحة التي بلغت<br>المستوى V5.",
+    "after": "يمكن الآن شراء <span class='emphasis'>أسلحة أوميغا</span> للأسلحة التي بلغت المستوى V5.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24206,
+    "key": "TUT_OMEGA_AVAILABLE2",
+    "source_sha256": "97f6d7d370f627092f3ce752fc54edf56b381ed6ee5fac24f2efbd0899195512",
+    "before": "أسلحة أوميغا أقوى، وقد تصل إلى<br>المستوى V10وتفتح ، لك الفئة<br>الأخيرة من تطويرات الأسلحة.",
+    "after": "أسلحة أوميغا أقوى، ويمكن رفع مستواها حتى<br>V10، وتتيح لك الوصول إلى الفئة الأخيرة من<br>تطويرات الأسلحة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24207,
+    "key": "TUT_OMEGA_WEAPON",
+    "source_sha256": "00657216caddb051665257f3b2a6a1317f4feb25bb42247ad7f4eadfb26b4679",
+    "before": "سلاح أوميغا",
+    "after": "سلاح أوميغا",
+    "decision": "keep"
+  },
+  {
+    "index": 24208,
+    "key": "TUT_OMEGA_WEAPON_POST_PURCHASE",
+    "source_sha256": "2f386486d8292c263b4d152b47f6940419b21faa84198501eebb998058a954b6",
+    "before": "أصبحت تطوير هذا السلاح 10 ممكنة<br>حتى المستوى.",
+    "after": "يمكنك الآن تطوير هذا السلاح حتى المستوى<br>10.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24209,
+    "key": "TUT_OMNIBOOT_GLIDE",
+    "source_sha256": "6e13018d4021977ffce8d68d3e0ab5382b24755e3616e974668fedef6dd4ab7f",
+    "before": "استمر بالضغط على [BTN_GLIDE] لتنزلق نزولا",
+    "after": "استمر بالضغط على [BTN_GLIDE] للهبوط انزلاقًا",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24210,
+    "key": "TUT_PAUSE_GOLDBOLTS",
+    "source_sha256": "155633e32382be8c94531fe9929461fcc61f3444eb9842326342cea2e7cb216c",
+    "before": "المسامير الذهبية",
+    "after": "المسامير الذهبية",
+    "decision": "keep"
+  },
+  {
+    "index": 24211,
+    "key": "TUT_PAUSE_GOLDBOLTS_01",
+    "source_sha256": "f16d9136aa9f856b3539437036017074dbd8f20432229de65bf0e738461f6fa0",
+    "before": "عثرت على مسمار ذهبي! يفتح لك كل<br>منها مكافأة أو غشا فريدا.",
+    "after": "عثرت على مسمار ذهبي! يمنحك كل مسمار مكافأة<br>أو خيار غش فريدًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24212,
+    "key": "TUT_PAUSE_LORBS",
+    "source_sha256": "dca6cda4b97ff09fef4d0dcf4eab25d27d56b753799dc9713041115e5a0d5221",
+    "before": "اللوربات",
+    "after": "اللوربات",
+    "decision": "keep"
+  },
+  {
+    "index": 24213,
+    "key": "TUT_PAUSE_LORBS_01",
+    "source_sha256": "75351768e2a1d72ad87bff798b107d1c07574893e50b9ddd858a5c3d3729107a",
+    "before": "عثرت على لورب غامض! تحوي هذه التحف<br>تسجيلات صوتية من الماضي.",
+    "after": "عثرت على لورب غامض! تحوي هذه التحف<br>تسجيلات صوتية من الماضي.",
+    "decision": "keep"
+  },
+  {
+    "index": 24214,
+    "key": "TUT_PAUSE_LORBS_02",
+    "source_sha256": "2b9dc5517d74f19a5fcd05361ef56b2cdb223d1dfd3384c0eea4036d53b5f29d",
+    "before": "سيقوم أحدهم في سافالي بمكافأتك<br>سخاء على جمعها.",
+    "after": "سيكافئك أحد سكان سافالي بسخاء على جمعها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24215,
+    "key": "TUT_PAUSE_MAP",
+    "source_sha256": "38d06a4f7027cf2ec6185d36933c1161b4bbd8fb175fa68f1b5e302cfeb472fd",
+    "before": "خريطة المستوى",
+    "after": "خريطة المستوى",
+    "decision": "keep"
+  },
+  {
+    "index": 24216,
+    "key": "TUT_PAUSE_MAP_01",
+    "source_sha256": "5fa87645fe7627dc3a69f246b0872851a4819f621fde4113cb57259039b17acb",
+    "before": "،كلما استكشفت الكوكب انكشفت<br>العناصر القابلة للجمع وبقية<br>المعالم على خريطتك.",
+    "after": "أثناء استكشافك للكوكب، ستظهر العناصر<br>القابلة للجمع وغيرها من المعالم المهمة على<br>خريطتك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24217,
+    "key": "TUT_PAUSE_MAP_02",
+    "source_sha256": "f00616bd7104bbc3aa75a24933615ce0c83da15cfd37685fe711cd8558fc81fe",
+    "before": "حدد أيقونة ثم اضغط [BTN_A] لتثبتها على<br>واجهة اللعب.",
+    "after": "حدد أيقونة ثم اضغط [BTN_A] لتثبتها على<br>واجهة اللعب.",
+    "decision": "keep"
+  },
+  {
+    "index": 24218,
+    "key": "TUT_PAUSE_SPYBOTS",
+    "source_sha256": "76084b26bff00fc7b122aa266566530539258ab970bdf8a3a7e8f0b58560287c",
+    "before": "السبايبوتات",
+    "after": "روبوتات التجسس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24219,
+    "key": "TUT_PAUSE_SPYBOTS_01",
+    "source_sha256": "e39654b9c42405e7ba92399f80f1c4eeb0425894a64a1d305e5aebb06e0f6c40",
+    "before": "عثرت على سبايبوت تابع للمقاومة!<br>يحوي كل منها معلومات سرية يمكنك<br>الاستماع إليها.",
+    "after": "عثرت على روبوت تجسس تابع للمقاومة! يحتوي<br>كل روبوت على معلومات سرية يمكنك الاستماع<br>إليها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24220,
+    "key": "TUT_PAUSE_SPYBOTS_02",
+    "source_sha256": "731f531508db10b2d9be83a52c99d19f2ba6a5f3d6d2a02cf98a8e7ddb5a949e",
+    "before": "وتحوي كذلك أبحاث أسلحة مشفرة. اعثر<br>عليها جميعا لتصنع لك السيدة زوركون<br>السلاح الأمثل!",
+    "after": "وتحوي كذلك أبحاث أسلحة مشفرة. اعثر<br>عليها جميعا لتصنع لك السيدة زوركون<br>السلاح الأمثل!",
+    "decision": "keep"
+  },
+  {
+    "index": 24221,
+    "key": "TUT_PAUSE_VANITY",
+    "source_sha256": "a70dee0b771b81cad30db8a3ca0f1297b6d64be215a479f59e6d28fb0232755e",
+    "before": "كبسولات الدروع",
+    "after": "كبسولات الدروع",
+    "decision": "keep"
+  },
+  {
+    "index": 24222,
+    "key": "TUT_PAUSE_VANITYCOLOR",
+    "source_sha256": "d6ef4be1197f7abff20020150d2c216c90cba66bb3067cbc6d69aa1532ab3a0c",
+    "before": "تخصيص المظهر",
+    "after": "تخصيص المظهر",
+    "decision": "keep"
+  },
+  {
+    "index": 24223,
+    "key": "TUT_PAUSE_VANITYCOLOR_01",
+    "source_sha256": "9880c46d048db6335af203f84a659aab97ea4483f81298caeb56b5015814aeae",
+    "before": "غير مظهرك بالضغط على [BTN_A] لتجهيز درع.<br>واضغط [BTN_X] لتخصيص لون الدرع المجهز!",
+    "after": "غير مظهرك بالضغط على [BTN_A] لتجهيز درع.<br>واضغط [BTN_X] لتخصيص لون الدرع المجهز!",
+    "decision": "keep"
+  },
+  {
+    "index": 24224,
+    "key": "TUT_PAUSE_VANITY_01",
+    "source_sha256": "0a5218803aa7f060c044b891f511e390d0f5f1abd5492035c6460a623484389b",
+    "before": "عثرت على كبسولة درع! تمنحك دفعة<br>دائمة، تجهزتها أم لا.",
+    "after": "عثرت على كبسولة درع! تمنحك هذه الكبسولات<br>تعزيزًا دائمًا، سواء جهزت الدروع أم لا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24225,
+    "key": "TUT_PAUSE_VANITY_02",
+    "source_sha256": "8ffa5d48162b6f942839a3eaf6205d91b4eaaa38aca250f17ee658d45f5901e4",
+    "before": "اجمع المزيد بإكمال جيوب الأبعاد،<br>أو استكشاف الكواكب، أو إنجاز<br>المحتوى الاختياري.",
+    "after": "اجمع المزيد بإكمال جيوب الأبعاد،<br>أو استكشاف الكواكب، أو إنجاز<br>المحتوى الاختياري.",
+    "decision": "keep"
+  },
+  {
+    "index": 24226,
+    "key": "TUT_PAUSE_WEAPONS_REMAP",
+    "source_sha256": "044b9ea1f51ca21b2e52c0845b2da6b21be5996ce0824b40e0efae8f1c426b4f",
+    "before": "إعادة تعيين عجلة الأسلحة",
+    "after": "إعادة تعيين عجلة الأسلحة",
+    "decision": "keep"
+  },
+  {
+    "index": 24227,
+    "key": "TUT_PAUSE_WEAPONS_REMAP_DESC",
+    "source_sha256": "6a05d4c42ded89c6b55f7a65fe1e0be3f81bc85b4d34db0bb2fad6263fff39bd",
+    "before": "يمكنك إعادة ترتيب مواقع الأسلحة<br>على عجلة أسلحتك بتحديدها والضغط<br>على [BTN_ACCEPT] لإعادة التعيين.",
+    "after": "يمكنك إعادة ترتيب مواقع الأسلحة<br>على عجلة أسلحتك بتحديدها والضغط<br>على [BTN_ACCEPT] لإعادة التعيين.",
+    "decision": "keep"
+  },
+  {
+    "index": 24228,
+    "key": "TUT_PHANTOM_DASH",
+    "source_sha256": "5aaade2a3da1f57e8d94c22748125ea62d917ba05bd5142bb0df71eadc457b53",
+    "before": "اضغط [BTN_DASH] للاندفاع الطيف",
+    "after": "اضغط [BTN_DASH] للاندفاع الطيفي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24229,
+    "key": "TUT_PHANTOM_DASH_AIR",
+    "source_sha256": "8c28a3e38b41aa33ebb3a99d03a362db44c9cdf83bff013d52268fb557bdfcb5",
+    "before": "اضغط [BTN_JUMP] ثم [BTN_DASH] للاندفاع الطيف الهوائي",
+    "after": "اضغط [BTN_JUMP] ثم [BTN_DASH] للاندفاع الطيفي في الهواء",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24230,
+    "key": "TUT_PHASE_DODGE",
+    "source_sha256": "39b8873453727b61916f3e5731e6949c7aa81b5315624d78e9a74ec3eaea9f8b",
+    "before": "استعمل [BTN_MOVE] مع [BTN_DASH] للتفادي",
+    "after": "استعمل [BTN_MOVE] مع [BTN_DASH] للتفادي",
+    "decision": "keep"
+  },
+  {
+    "index": 24231,
+    "key": "TUT_PING_NESTANDMAYNARD",
+    "source_sha256": "22ee21c30119d1cd873b7911aa1dada000c99a5188b8d1a666b1b356dd309500",
+    "before": "اضغط [BTN_OBJECTIVE_PING] للعثور على عش الخنفساء<br>والروبوت ماينارد",
+    "after": "اضغط [BTN_OBJECTIVE_PING] لتحديد موقع عش خنافس سبيتل والروبوت<br>ماينارد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24232,
+    "key": "TUT_PING_NESTS",
+    "source_sha256": "5f87a9e7d7e07280f819eb5327f2d860ecfee303e2c965b08893c3fd8015ccf9",
+    "before": "اضغط [BTN_OBJECTIVE_PING] للعثور على عش الخنفساء",
+    "after": "اضغط [BTN_OBJECTIVE_PING] لتحديد موقع عش خنافس سبيتل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24233,
+    "key": "TUT_PINICON",
+    "source_sha256": "b8065c6fdd80c7644138534cf7c4ca5445a7e0de1c8dac03d65651b989f729d6",
+    "before": "اضغط [BTN_ACCEPT] لتثبيت الأيقونة",
+    "after": "اضغط [BTN_ACCEPT] لتثبيت الأيقونة",
+    "decision": "keep"
+  },
+  {
+    "index": 24234,
+    "key": "TUT_REMAP_WEAPONS",
+    "source_sha256": "5e44830e3986c0dd5f6f1d7c2c33f74f058a435cd365b9751590fd0be4c644ac",
+    "before": "اضغط [BTN_SELECT] لإعادة تعيين عجلة الأسلحة",
+    "after": "اضغط [BTN_SELECT] لإعادة تعيين عجلة الأسلحة",
+    "decision": "keep"
+  },
+  {
+    "index": 24235,
+    "key": "TUT_RIDE_BRAKE",
+    "source_sha256": "3d8c544c12a6d326a6cf64173ff4041269df3f757ebe4b15778f75a56852da7d",
+    "before": "استمر بالضغط على [BTN_AIM] للفرملة",
+    "after": "استمر بالضغط على [BTN_AIM] للفرملة",
+    "decision": "keep"
+  },
+  {
+    "index": 24236,
+    "key": "TUT_RIDE_SHOOT",
+    "source_sha256": "901315e8bd3bbcee11335f38e0f3ef4c8be9c59014397170cee45499392308a3",
+    "before": "استمر بالضغط على [BTN_FIRE] لإطلاق كرات<br>اللهب",
+    "after": "استمر بالضغط على [BTN_FIRE] لإطلاق كرات<br>اللهب",
+    "decision": "keep"
+  },
+  {
+    "index": 24237,
+    "key": "TUT_RIDE_SPEEDBOOST",
+    "source_sha256": "eb24ec030aa3631f197ec80afb118411680d69412f06f8fea2b4ced4d1fb3077",
+    "before": "استمر بالضغط على [BTN_MOUNT_BOOST] للتسارع",
+    "after": "استمر بالضغط على [BTN_MOUNT_BOOST] للتسارع",
+    "decision": "keep"
+  },
+  {
+    "index": 24238,
+    "key": "TUT_RIDE_SPEETLE_DISTURB",
+    "source_sha256": "2bc0574f55668460d448c2110ad26ca99a81a39329a7a75f4c97d50cceaa1205",
+    "before": "اضغط [BTN_MELEE] لإزعاج العش",
+    "after": "اضغط [BTN_MELEE] لإزعاج العش",
+    "decision": "keep"
+  },
+  {
+    "index": 24239,
+    "key": "TUT_RIDE_SPEETLE_JUMP_OFF",
+    "source_sha256": "9bdf1bcc245181e72ed10bfdad94bb27c4fdfbafab2e21f48bbcd46aacca8449",
+    "before": "اضغط [BTN_B] لتنزل عن الخنفساء",
+    "after": "اضغط [BTN_B] للقفز عن خنفساء سبيتل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24240,
+    "key": "TUT_RIDE_SPEETLE_RAMP",
+    "source_sha256": "c878d8cf6d235182f5a8c099dee0701cc6f1de81c2f789cbacbce15ef402ebd6",
+    "before": "استمر بالضغط على [BTN_MOUNT_BOOST] لتنطلق من<br>المنحدرات",
+    "after": "استمر بالضغط على [BTN_MOUNT_BOOST] لتنطلق من<br>المنحدرات",
+    "decision": "keep"
+  },
+  {
+    "index": 24241,
+    "key": "TUT_RIDE_SPEETLE_SPEED",
+    "source_sha256": "053bae5f180383b661ace7e057f0c0765df71f8dbbc92c1f02fe89c82ca141d3",
+    "before": "حافظ على<span class='emphasis'>سرعتك</span>فوق المنحدرات والفجوات الكبيرة.",
+    "after": "حافظ على <span class='emphasis'>سرعتك</span> لعبور المنحدرات الكبيرة والفجوات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24242,
+    "key": "TUT_RIDE_STEER_LOOK",
+    "source_sha256": "f360b8d42b12ba441ac177e6a10ea1223356f1a8bf0ad88607902d81e025cb0a",
+    "before": "استعمل [BTN_LOOK] لتوجيه ترودي",
+    "after": "استعمل [BTN_LOOK] لتوجيه ترودي",
+    "decision": "keep"
+  },
+  {
+    "index": 24243,
+    "key": "TUT_RIDE_STEER_MOVE",
+    "source_sha256": "121fca6d91132e78ee597c7bbb69e6b2f12764314e4a4a3ac70014aef4778372",
+    "before": "استعمل [BTN_MOVE] لتوجيه ترودي",
+    "after": "استعمل [BTN_MOVE] لتوجيه ترودي",
+    "decision": "keep"
+  },
+  {
+    "index": 24244,
+    "key": "TUT_RIDE_TOSS_BOMB",
+    "source_sha256": "1059170bf28732952bde432246a68374bef798be794fbf61e03266745c30d740",
+    "before": "اضغط [BTN_MELEE] لترم قنبلة",
+    "after": "اضغط [BTN_MELEE] لرمي قنبلة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24245,
+    "key": "TUT_RIFTTETHER",
+    "source_sha256": "b48752b5e0259cd7ac74ac9d17ce225bd893967e993d422276d3d63b619e891b",
+    "before": "اضغط [BTN_PORTAL_TETHER] لرابطة الصدع",
+    "after": "اضغط [BTN_PORTAL_TETHER] لرابطة الصدع",
+    "decision": "keep"
+  },
+  {
+    "index": 24246,
+    "key": "TUT_RIFT_OPEN",
+    "source_sha256": "a18c299809ea67c9d5754484f1bd406cdc6c016fab9556d20dc83ef0cee0cccc",
+    "before": "اضغط [BTN_PORTAL_TETHER] لتفتح شقا",
+    "after": "اضغط [BTN_PORTAL_TETHER] لفتح صدع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24247,
+    "key": "TUT_RIFT_TETHER",
+    "source_sha256": "f27a0ec8552c67c8efed95e7e9b0175f68e6fcc8e4d39862ecb0de1cd12cd7c5",
+    "before": "صوب نحو شق ذهبي ثم اضغط [BTN_PORTAL_TETHER] لاستخدام<br>رابطة الصدع.",
+    "after": "صوب نحو صدع ذهبي، ثم اضغط [BTN_PORTAL_TETHER] لاستخدام رابطة<br>الصدع.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24248,
+    "key": "TUT_SHOOT",
+    "source_sha256": "9e7f630913d84af1047daeeca95eb9d903cf3297359d8f5182cd1e3815ed7c56",
+    "before": "اضغط [BTN_FIRE] للإطلاق",
+    "after": "اضغط [BTN_FIRE] للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 24249,
+    "key": "TUT_SHOOT_BLARGSHIPS",
+    "source_sha256": "732c0f535bc18b970cd28f725e910ab7e12333fdefe0ef99cf1b0d4695b1b7bc",
+    "before": "اضغط [BTN_FIRE] لإطلاق النار على سفن البلرغ",
+    "after": "اضغط [BTN_FIRE] لإطلاق النار على سفن البلرغ",
+    "decision": "keep"
+  },
+  {
+    "index": 24250,
+    "key": "TUT_SLINGSHOT",
+    "source_sha256": "df7d99f5e0b6fc16dc4a6f67818f7a10695b619fefd609d9cb4c6632ac161084",
+    "before": "استمر بالضغط على [BTN_SWINGSHOT] ،لتتسارع ثم<br>أفلت [BTN_SWINGSHOT] لتحلق",
+    "after": "استمر بالضغط على [BTN_SWINGSHOT] لزيادة سرعة الدوران، ثم<br>حرر [BTN_SWINGSHOT] للتحليق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24251,
+    "key": "TUT_SPRINT",
+    "source_sha256": "997e7ed13862332e51b4a0ff9c88da075a26b25383857a031f2a8ce6afc81838",
+    "before": "اضغط [BTN_SPRINT] للعدو",
+    "after": "اضغط [BTN_SPRINT] للعدو",
+    "decision": "keep"
+  },
+  {
+    "index": 24252,
+    "key": "TUT_SPRINT_MKB",
+    "source_sha256": "1e4da64b3d034a707a66e65e9484eb3b1ff1dfa901551d12a489d7b38d975489",
+    "before": "استمر بالضغط على [BTN_SPRINT] للعدو",
+    "after": "استمر بالضغط على [BTN_SPRINT] للعدو",
+    "decision": "keep"
+  },
+  {
+    "index": 24253,
+    "key": "TUT_SPYBOT_REVIEW",
+    "source_sha256": "b1ffcb07a72a675405bc68bb50f90fda57abad7cfca7e85a39e5c392a886b6ce",
+    "before": "اضغط [BTN_SELECT] لمراجعة السبايبوتات",
+    "after": "اضغط [BTN_SELECT] لاستعراض روبوتات التجسس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24254,
+    "key": "TUT_START_KARAOKE_CHALLENGE",
+    "source_sha256": "0a96e5e9cf1b78a195b16f66a3564e209697d68645bce0629c4b141043d9ca32",
+    "before": "اضغط [BTN_JUMP] ثم [BTN_MELEE] للسحق لبدء تحدي<br>كاريوكي الأناشيد",
+    "after": "اضغط [BTN_JUMP] ثم [BTN_MELEE] لتنفيذ ضربة أرضية وبدء تحدي<br>كاريوكي الأناشيد البحرية",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24255,
+    "key": "TUT_SWINGSHOT",
+    "source_sha256": "ec0ee9bc5161203ea6546ca0ecdb5d23c89b4e173558838e6ad8d75021fd66ba",
+    "before": "استمر بالضغط على [BTN_SWINGSHOT] للتأرجح",
+    "after": "استمر بالضغط على [BTN_SWINGSHOT] للتأرجح",
+    "decision": "keep"
+  },
+  {
+    "index": 24256,
+    "key": "TUT_TETHERSHOT",
+    "source_sha256": "778977f6fd7fd4a21969da4ae0e705aca223101cfb3c10fad7956cb8215c78c0",
+    "before": "اضغط [BTN_SWINGSHOT] للربط",
+    "after": "اضغط [BTN_SWINGSHOT] للربط",
+    "decision": "keep"
+  },
+  {
+    "index": 24257,
+    "key": "TUT_TURBOBOOST",
+    "source_sha256": "2a583da71b142dced50a9eddb7639bebf94adcd2bea6bad3ea30d37f835beb28",
+    "before": "استمر بالضغط على [BTN_RB] لتسارع توربيني",
+    "after": "استمر بالضغط على [BTN_RB] لتسارع توربيني",
+    "decision": "keep"
+  },
+  {
+    "index": 24258,
+    "key": "TUT_VENDOR_EXIT",
+    "source_sha256": "87a2d46655e7516fffec20d9f2e33167d6263dd11a9962784b479961aeeb7d62",
+    "before": "اضغط [BTN_CANCEL] للخروج من قائمة البائع",
+    "after": "اضغط [BTN_CANCEL] للخروج من قائمة البائع",
+    "decision": "keep"
+  },
+  {
+    "index": 24259,
+    "key": "TUT_VENDOR_PRESS_PURCHASE_CHAIN",
+    "source_sha256": "3e8db7a51900ee6ec416ffe4230ea0a89e25af2bc622f57259bd47713ffcfcd4",
+    "before": "اضغط [BTN_ACCEPT] لشراء سلسلة التطوير",
+    "after": "اضغط [BTN_ACCEPT] لشراء سلسلة التطوير",
+    "decision": "keep"
+  },
+  {
+    "index": 24260,
+    "key": "TUT_VENDOR_PRESS_PURCHASE_CHAIN_START",
+    "source_sha256": "346c9c2341865a69e7b5b97b00f74845717f52a595f6b587829daeed2f112c53",
+    "before": "اضغط [BTN_ACCEPT] لبدء سلسلة التطوير",
+    "after": "اضغط [BTN_ACCEPT] لبدء سلسلة التطوير",
+    "decision": "keep"
+  },
+  {
+    "index": 24261,
+    "key": "TUT_VENDOR_PREVIEW_WEAPON",
+    "source_sha256": "3531150c4429354f335aac2ee876102264f7ee9eb57da6cd4ec1deb59ec681cb",
+    "before": "اضغط [BTN_X] لمعاينة سلاح",
+    "after": "اضغط [BTN_X] لمعاينة سلاح",
+    "decision": "keep"
+  },
+  {
+    "index": 24262,
+    "key": "TUT_VENDOR_PURCHASE",
+    "source_sha256": "dbfc8e82fd4ce7e33ec36693a02480245ef1652ded3e6fac3bdb7e9dadbd3e85",
+    "before": "شراء من البائع",
+    "after": "شراء من البائع",
+    "decision": "keep"
+  },
+  {
+    "index": 24263,
+    "key": "TUT_VENDOR_PURCHASE_COMPARE_PREVIEW",
+    "source_sha256": "2428a5fbb55e4ae57482fae2df601aecf92db4ae47a9472fde41057bc4fea43e",
+    "before": "استعمل [BTN_LS_VERTICAL] لمقارنة الأسلحة واضغط [BTN_MELEE]<br>لمشاهدة معاينة.",
+    "after": "استعمل [BTN_LS_VERTICAL] لمقارنة الأسلحة واضغط [BTN_MELEE]<br>لمشاهدة معاينة.",
+    "decision": "keep"
+  },
+  {
+    "index": 24264,
+    "key": "TUT_VENDOR_PURCHASE_SUMMARY",
+    "source_sha256": "e8cc982f53e5a5f708db42538a9144bf3ab5804f00826091b3dffbc79e3a26dd",
+    "before": "هنيئا لك بشرائك! لا تنس تفقد متجر<br>السيدة زوركون باستمرار لاكتشاف<br>أسلحة جديدة.",
+    "after": "هنيئا لك بشرائك! لا تنس تفقد متجر<br>السيدة زوركون باستمرار لاكتشاف<br>أسلحة جديدة.",
+    "decision": "keep"
+  },
+  {
+    "index": 24265,
+    "key": "TUT_VENDOR_PURCHASE_UPGRADES",
+    "source_sha256": "d0550d601754892a7108ff731a11a53106bbbe1cf795edb5308bec551c47ecff",
+    "before": "استعمل الراريتانيوم لشراء<br>التطويرات [BTN_ACCEPT]",
+    "after": "استعمل الراريتانيوم لشراء<br>التطويرات [BTN_ACCEPT]",
+    "decision": "keep"
+  },
+  {
+    "index": 24266,
+    "key": "TUT_VENDOR_PURCHASE_WEAPON",
+    "source_sha256": "b3e732d2b20d0b1960c12a6594e8aeddda425b146cdd60a9a799345b14b2cc9f",
+    "before": "،حدد السلاح الذي تريد شراءه ثم<br>اضغط واستمر بالضغط على [BTN_ACCEPT] لتشتريه!",
+    "after": "حدد السلاح الذي تريد شراءه، ثم استمر<br>بالضغط على [BTN_ACCEPT] لشرائه!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24267,
+    "key": "TUT_VENDOR_PURCHASE_WELCOME",
+    "source_sha256": "47d1eab0e3e24c9ada63586e8dd0d318b3ee184a9b7c412478f713d376aec50c",
+    "before": "أهلا بك في متجر السيدة زوركون،<br>وجهتك الوحيدة لتقوية ترسانتك!",
+    "after": "أهلًا بك في متجر السيدة زوركون، وجهتك<br>الشاملة لتعزيز ترسانتك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24268,
+    "key": "TUT_VENDOR_SELECT_REMAINING_CELLS",
+    "source_sha256": "a38a2d922b497c45304b4173ab041a815223025a5593ad939b55806c2883161d",
+    "before": "تابع سلسلة التطوير باختيار الخلايا<br>المحيطة بالتطوير الوسطى",
+    "after": "تابع سلسلة التطوير باختيار الخلايا المحيطة<br>بالتطوير المركزي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24269,
+    "key": "TUT_VENDOR_TOGGLE_WEAPONS",
+    "source_sha256": "57b4c78340eb30dceb22cf8252baefd13929373e2e30c0dc9f74cfdf5fba8908",
+    "before": "استعمل [STICK_LEFT] لتحديد الأسلحة المختلفة<br>المتاحة للشراء ومقارنتها",
+    "after": "استعمل [STICK_LEFT] لتحديد الأسلحة المختلفة<br>المتاحة للشراء ومقارنتها",
+    "decision": "keep"
+  },
+  {
+    "index": 24270,
+    "key": "TUT_VENDOR_UPGRADE",
+    "source_sha256": "1869c3e8f8130e712f0304d44b01c2e9ee251d223dd39adb86f9302439a20684",
+    "before": "تطوير البائع",
+    "after": "تطوير لدى البائع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24271,
+    "key": "TUT_VENDOR_UPGRADE_CELL_INFO",
+    "source_sha256": "0f3f7d5489806d0a13c657a77efa06c34d09398ba67ab85a906b6b80a1a40d61",
+    "before": "تزيد هذه التطوير الذخيرة القصوى<br>للسلاح.",
+    "after": "يزيد هذا التطوير الحد الأقصى لذخيرة<br>السلاح.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24272,
+    "key": "TUT_VENDOR_UPGRADE_CHAIN_PURCHASED",
+    "source_sha256": "b4e9542b48bd81f3de695fd21f7aa371712e7fa362299d6763b8b4bca375dca0",
+    "before": "إذا امتلكت جميع الخلايا ،المحيطة<br>بعنقود برتقالي فأنت تفعل التطوير<br>الخاصة [BTN_ACCEPT]",
+    "after": "امتلاك جميع الخلايا المحيطة بعنقود برتقالي<br>يفتح التطوير الخاص [BTN_ACCEPT]",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24273,
+    "key": "TUT_VENDOR_UPGRADE_CLUSTER_INFO",
+    "source_sha256": "c5461e120888176e381cdae82e907b4795bb6fd64d98664d8eb5b0f1a612737c",
+    "before": "تحتوي أعناقيد الخلايا الذهبية<br>تطويرات خاصة. اشتر جميع التطويرات<br>المتصلة بعنقود ذهبي لتفتحها!",
+    "after": "تحتوي عناقيد الخلايا الذهبية على تطويرات<br>خاصة. اشتر جميع التطويرات المتصلة بعنقود<br>خلايا ذهبي لفتحها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24274,
+    "key": "TUT_VENDOR_UPGRADE_CLUSTER_UNLOCK",
+    "source_sha256": "674e459dea066720306175634d0aa89f06a426dff3624776772f211417473aed",
+    "before": "اشتر الآن جميع التطويرات المتصلة<br>بالخلية الذهبية.",
+    "after": "اشتر الآن جميع التطويرات المتصلة<br>بالخلية الذهبية.",
+    "decision": "keep"
+  },
+  {
+    "index": 24275,
+    "key": "TUT_VENDOR_UPGRADE_COMPLETE",
+    "source_sha256": "05dc3293288c0086d984af5c92c81c1ef36cdfc5f6065077d65c64610c6f98e6",
+    "before": "انتهى الشرح! زر السيدة زوركون<br>لتطوير أسلحتك بالراريتانيوم!",
+    "after": "انتهى الشرح! زر السيدة زوركون<br>لتطوير أسلحتك بالراريتانيوم!",
+    "decision": "keep"
+  },
+  {
+    "index": 24276,
+    "key": "TUT_VENDOR_UPGRADE_HIGHLIGHT_CELLS",
+    "source_sha256": "67704133f92aa6872b6cc832d7cf748456c56f9482ffe2d3b7409ca3916bbbc1",
+    "before": "استعمل [MENU_STICK_LEFT] لتحديد التطوير المتصلة<br>بنقطة البداية.",
+    "after": "استخدم [MENU_STICK_LEFT] لتحديد التطوير المتصل بنقطة<br>البداية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24277,
+    "key": "TUT_VENDOR_UPGRADE_HIGHLIGHT_CLUSTER",
+    "source_sha256": "1f5fd1f5c32c8607eaf0467b33fb2db5760ad881a34e2cd643d6b80b7e71ad36",
+    "before": "استعمل [MENU_STICK_LEFT] لتحديد الخلية الذهبية.",
+    "after": "استعمل [MENU_STICK_LEFT] لتحديد الخلية الذهبية.",
+    "decision": "keep"
+  },
+  {
+    "index": 24278,
+    "key": "TUT_VENDOR_UPGRADE_INFO",
+    "source_sha256": "7e47bc147f5479e9bd95b3789b0883c3a505cef844d448a06dfa053f5376ef0a",
+    "before": "اشتر تطويرات الأسلحة لتحسن الذخيرة<br>القصوى ومعدل الإطلاق وغير ذلك<br>كثيرا.",
+    "after": "اشتر تطويرات الأسلحة لزيادة الحد الأقصى<br>للذخيرة ومعدل الإطلاق وغير ذلك الكثير.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24279,
+    "key": "TUT_VENDOR_UPGRADE_OWNED_WEAPON",
+    "source_sha256": "8a9a1f9e0bd1a5aa3aa77746aa4c93345d77104a321670fa0d8b0367f9713dc8",
+    "before": "أنفق بعض الراريتانيوم لتطوير أحد<br>أسلحتك!",
+    "after": "أنفق بعض الراريتانيوم لتطوير أحد<br>أسلحتك!",
+    "decision": "keep"
+  },
+  {
+    "index": 24280,
+    "key": "TUT_VENDOR_UPGRADE_PROMPT",
+    "source_sha256": "985337ab28a8b6776955c5215a9207d055a67672e650c2c875a4b629de3986d8",
+    "before": "الأمر بهذه البساطة! ارق أحد<br>أسلحتك!",
+    "after": "الأمر بهذه البساطة! طور أحد أسلحتك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24281,
+    "key": "TUT_VENDOR_UPGRADE_PURCHASE",
+    "source_sha256": "f1430d41a7cc08b6a769e9bcc7cf8486d56a7db5f0a96359ad4914694e61d997",
+    "before": "اضغط واستمر بالضغط على [BTN_ACCEPT] لشراء<br>التطوير راريتانيوم) بالراريتانيوم<br>الشرح على الحساب)!",
+    "after": "استمر بالضغط على [BTN_ACCEPT] لشراء التطوير<br>بالراريتانيوم (الراريتانيوم المستخدم في<br>هذا الشرح مجاني)!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24282,
+    "key": "TUT_VENDOR_UPGRADE_PURCHASE_MKB",
+    "source_sha256": "cee8c46fe38ad401bba94095cddca08b5cec1c2035bce4f734fed7005a1865f4",
+    "before": "انقر واستمر بالضغط على [BTN_CLICK_LEFT] فوق<br>التطوير لتشتريها راريتانيوم)<br>بالراريتانيوم الشرح على الحساب)!",
+    "after": "استمر بالنقر على التطوير باستخدام [BTN_CLICK_LEFT] لشرائه<br>بالراريتانيوم (الراريتانيوم المستخدم في<br>هذا الشرح مجاني)!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24283,
+    "key": "TUT_VENDOR_UPGRADE_SWITCH_TAB",
+    "source_sha256": "25b8711c34ca261d417f799661dacbae50050d3f0bce6e3ba758902561a8d2db",
+    "before": "اضغط [MENU_RB] للتبديل إلى تبويب<br>التطويرات.",
+    "after": "اضغط [MENU_RB] للتبديل إلى تبويب<br>التطويرات.",
+    "decision": "keep"
+  },
+  {
+    "index": 24284,
+    "key": "TUT_VENDOR_UPGRADE_SWITCH_TAB_MKB",
+    "source_sha256": "f92beabced9def684a9d749328984a3bdf1077da3d4a333c1e7f3994a3cad5b1",
+    "before": "انقر تبويب التطويرات أو اضغط [MENU_RB]<br>لتبدأ تطوير أسلحتك.",
+    "after": "انقر تبويب التطويرات أو اضغط [MENU_RB]<br>لتبدأ تطوير أسلحتك.",
+    "decision": "keep"
+  },
+  {
+    "index": 24285,
+    "key": "TUT_VENDOR_UPGRADE_TUTORIALIZER",
+    "source_sha256": "8cf52819314762d9878c1fcb0b359fb8ebbf3432d7c200291ecc517c90cd5d99",
+    "before": "اضغط [BTN_ACCEPT] لاختيار المعلم وتتعلم كيفية<br>تطوير الأسلحة.",
+    "after": "اضغط [BTN_ACCEPT] لاختيار المعلم وتعلم كيفية تطوير<br>الأسلحة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24286,
+    "key": "TUT_VENDOR_UPGRADE_TUTORIALIZER_MKB",
+    "source_sha256": "c2b6ab1a3cf03ebced7470ea624814a9f9d401d265978955dd4b818d738d808c",
+    "before": "انقر المعلم لتتعلم كيفية تطوير<br>الأسلحة.",
+    "after": "انقر المعلم لتتعلم كيفية تطوير<br>الأسلحة.",
+    "decision": "keep"
+  },
+  {
+    "index": 24287,
+    "key": "TUT_VENDOR_WEAPON_DESC",
+    "source_sha256": "2e744e19e611cb1a0356c4179815515ed986accb71b7b42ca6184c7aeabfccea",
+    "before": "نعلم اللومباكس منذ أجيال!",
+    "after": "نعلم اللومباكس منذ أجيال!",
+    "decision": "keep"
+  },
+  {
+    "index": 24288,
+    "key": "TUT_WALLJUMP",
+    "source_sha256": "73a924c9d9863799104e80a6db23bcc388439db15792eae77ca86602876f12af",
+    "before": "اضغط [BTN_JUMP] باتجاه جدار لتقفز منه",
+    "after": "اضغط [BTN_JUMP] باتجاه جدار لتقفز منه",
+    "decision": "keep"
+  },
+  {
+    "index": 24289,
+    "key": "TUT_WALLRUN",
+    "source_sha256": "a0d3747fda69fb3a2f1b1e446cc05c659e71caf7eafc23e0d1e6c87e5110a166",
+    "before": "اضغط [BTN_JUMP] على لوحة لتجري على الجدار",
+    "after": "اضغط [BTN_JUMP] على لوحة لتجري على الجدار",
+    "decision": "keep"
+  },
+  {
+    "index": 24290,
+    "key": "TUT_WEAPONSWAP",
+    "source_sha256": "c246c629677b7166b4e0b4db0d85ca18ca196298f60f4b782483d474ecc11384",
+    "before": "استمر بالضغط على [BTN_SWAP_WEAPONS] لاختيار سلاح",
+    "after": "استمر بالضغط على [BTN_SWAP_WEAPONS] لاختيار سلاح",
+    "decision": "keep"
+  },
+  {
+    "index": 24291,
+    "key": "TUT_WEAPONSWAP_QUICK",
+    "source_sha256": "03c1522cfe7b450000c3da16e44e57158f9d6d68d5db7e4d4629bc930a4222fd",
+    "before": "اضغط [BTN_SWAP_WEAPONS] بإيجاز لتبديل السلاح",
+    "after": "اضغط [BTN_SWAP_WEAPONS] بإيجاز لتبديل السلاح",
+    "decision": "keep"
+  },
+  {
+    "index": 24292,
+    "key": "TUT_WEAPONSWAP_TITLE",
+    "source_sha256": "5518cfcc51a8aca09f4fa423313d892ae8c1852745ae320f4230fc180ca1602e",
+    "before": "عجلة الأسلحة",
+    "after": "عجلة الأسلحة",
+    "decision": "keep"
+  },
+  {
+    "index": 24293,
+    "key": "TUT_WEAPON_REMAP",
+    "source_sha256": "8171e98c220456c4aff99e7a7c4a3c54052f85f81b63f594144f46e2ad8d4aae",
+    "before": "اختر خانة جديدة لهذا السلاح.",
+    "after": "اختر خانة جديدة لهذا السلاح.",
+    "decision": "keep"
+  },
+  {
+    "index": 24294,
+    "key": "TUT_WPN_BOMB_TOSS",
+    "source_sha256": "9f7e6058213313df81f7341abeffada530581a4c91ee4ce6433b4c46b1a6ed51",
+    "before": "اضغط [BTN_FIRE] لترم قنبلة",
+    "after": "اضغط [BTN_FIRE] لرمي قنبلة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24295,
+    "key": "TUT_WRENCH_SLAM",
+    "source_sha256": "509fba8b7c0d9d7a960fba47b7be1d22428b1d1d92d09eb1d7ddac43ab041d1e",
+    "before": "اضغط [BTN_JUMP] ثم [BTN_MELEE] لسحق المفتاح",
+    "after": "اضغط [BTN_JUMP] ثم [BTN_MELEE] لتنفيذ ضربة أرضية بالمفتاح",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24296,
+    "key": "TUT_WRENCH_THROW",
+    "source_sha256": "7043233cfaa7dac022a862d7554c0320f17917ca9be948f662aaf83f6f3878bb",
+    "before": "استمر بالضغط على [BTN_AIM] مع [BTN_MELEE] لترمي<br>المفتاح",
+    "after": "استمر بالضغط على [BTN_AIM] مع [BTN_MELEE] لترمي<br>المفتاح",
+    "decision": "keep"
+  },
+  {
+    "index": 24297,
+    "key": "TUT_WRENCH_THROW_PRESS",
+    "source_sha256": "987fca58096cdc143a5255b09dee6a9b9d7cec0a974065415bae00f71c6c60b4",
+    "before": "اضغط [BTN_WRENCH_THROW] لترمي المفتاح",
+    "after": "اضغط [BTN_WRENCH_THROW] لترمي المفتاح",
+    "decision": "keep"
+  },
+  {
+    "index": 24298,
+    "key": "TUT_ZUPRSTONE_LANDINGPADS",
+    "source_sha256": "0359e83216c3f84e9905734ceb480c76ecf21c45311472e27c85bb7acf36efa1",
+    "before": "استعمل<span class='emphasis'>مجاثم ترودي</span>لتحط قرب الزوربستون.",
+    "after": "استخدم <span class='emphasis'>مجاثم ترودي</span> للهبوط قرب أحجار الزورب.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24299,
+    "key": "TUT_ZURPSTONE_HUNT",
+    "source_sha256": "012cdb01dc7e6ba7cd58f2f55d621825ce2f42333602f096186a9d851cbb7cac",
+    "before": "حلق بين<span class='emphasis'>مجاثم ترودي</span>للبحث عن الزوربستون.",
+    "after": "حلق بين <span class='emphasis'>مجاثم ترودي</span> للبحث عن أحجار الزورب.",
+    "decision": "rewrite"
+  }
+]

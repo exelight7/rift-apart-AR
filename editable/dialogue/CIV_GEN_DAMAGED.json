@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.065;2.14&quot;>أوووه! يؤلم!",
     "arabic_edit": "<ts=&quot;0.065;2.14&quot;>أوووه! يؤلم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "59a283769b8075e2e0cd33f1c303c385bc243669bce610333f9a4a74e6dadada",
+      "candidate_sha256": "387e85df37ea48775f5f8ba40faf24ea353e3e62d78aab3543fe97324b23097f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10555,
@@ -22,12 +30,20 @@
     "scene_code": "CIV_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.066;1.737&quot;>تلقت الضربة!",
     "arabic_edit": "<ts=&quot;0.066;1.737&quot;>تلقت الضربة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "af0955410a324908dfc325ad0346d4c759807ce2b4567a5fa3fb30bb38659273",
+      "candidate_sha256": "4a0a18d017277f0b1fe978d93264a1b17882f258894c7aa79904e56b69c19def",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10556,
@@ -36,14 +52,22 @@
     "speaker_code": "JRZK",
     "scene_code": "CIV_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.066;3.714&quot;>لا تدعهم يهاجمونك أنت! بل<br>هاجمهم!",
-    "arabic_edit": "<ts=&quot;0.066;3.714&quot;>لا تدعهم يهاجمونك أنت! بل هاجمهم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;3.714&quot;>لا تدعيهم يهاجمونك! هاجميهم أنت!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "0178ad28b7c2fab0a80c949eadad307f644c79a8430eff24f3cbf340a908f053",
+      "candidate_sha256": "1004b37008081e1ad92260cf270b6d10bed8c5b7c21712dafe1d716b68ad5724",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10557,
@@ -52,13 +76,21 @@
     "speaker_code": "JRZK",
     "scene_code": "CIV_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.064;3.548&quot;>أوووه، أصيب بطلنا!",
-    "arabic_edit": "<ts=&quot;0.064;3.548&quot;>أوووه، أصيب بطلنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.064;3.548&quot;>أوووه، تلقت بطلتنا ضربة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "8c6819ac00b31b52b785734bbad79c87c6fbaa8b4138b475a97ba0897e3f73ac",
+      "candidate_sha256": "d1133789c1096c46c33a6f83008d2f46f4a43fa640e24392febca9c2ac81b570",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10558,
@@ -67,13 +99,21 @@
     "speaker_code": "JRZK",
     "scene_code": "CIV_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.064;2.948&quot;>هووواه! وأصاب الخصم!",
-    "arabic_edit": "<ts=&quot;0.064;2.948&quot;>هووواه! وأصاب الخصم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.064;2.948&quot;>هوواه! تلقى الخصم ضربة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "d0de6aa52c2b4cce17299668f64f82fa5f62efa79c0681e501fd0943b576ff65",
+      "candidate_sha256": "8929d50ac8eafacb20129695baa03fa4cac28a9c2573240ebb6e163af5f30de0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10559,
@@ -82,12 +122,20 @@
     "speaker_code": "JRZK",
     "scene_code": "CIV_GEN_DAMAGED",
     "arabic_current": "<ts=&quot;0.066;2.331&quot;>شد عنك يا ريفت!",
-    "arabic_edit": "<ts=&quot;0.066;2.331&quot;>شد عنك يا ريفت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;2.331&quot;>تماسكي يا ريفت!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "0057a6f0fe9f3adaade4702c977397adb67bb052e3e323412cf27ae8a9040ebc",
+      "candidate_sha256": "3b82ddf53c401f4404ce4de3941e295f96d9cb73940e6d74bb77c3c2d1341315",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,12 +7,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;2.219;3.141&quot;>*الآن* جاء المرح!",
     "arabic_edit": "<ts=&quot;2.219;3.141&quot;>*الآن* جاء المرح!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "2ac66731df903511538b5d3b5dd2c20f3094cc278d73dc91f9ecb2321528fdeb",
+      "candidate_sha256": "36fde54d32b1ed213f55dc081890dbb03f9c0d7c0ca24021c78e0ff63bc410b3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7908,
@@ -22,12 +30,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.22;2.32&quot;>هل قال أحد حرف الفاء؟",
     "arabic_edit": "<ts=&quot;0.22;2.32&quot;>هل قال أحد حرف الفاء؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "9357dd19b567b0f0f1c95a3887d881dd569899d66439f6e180ab795722a3c3cc",
+      "candidate_sha256": "b69f10fcf8d1e64f87561007255068ae1e31c43dcd1fdc76ed6bfcf0d27e32a6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7909,
@@ -36,14 +52,22 @@
     "speaker_code": "FUNGA",
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.047;5.544&quot;>أنا لا أحب إلا ثلاثة أشياء:<br>،مرح *مرح*ومرح ،!",
-    "arabic_edit": "<ts=&quot;0.047;5.544&quot;>أنا لا أحب إلا ثلاثة أشياء: ،مرح *مرح*ومرح<br>،!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.047;5.544&quot;>كل ما يهمني ثلاثة أشياء: المرح، و*المرح*،<br>والمرح!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "bf36aac6ccaa9ff4b0f6326e14a612b62c1bdc566444448d8a19919e1f0144f1",
+      "candidate_sha256": "5e30d2533c16b5d7d18fb68d394165540bf8df93e6fabf8793291a03cada434c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7910,
@@ -53,13 +77,21 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.199;2.299&quot;>ههاها! لا شيء يوقف عائلة<br>المرح!",
     "arabic_edit": "<ts=&quot;0.199;2.299&quot;>ههاها! لا شيء يوقف عائلة المرح!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "0e11bd804e2a4306f496b5a3e2a8f42d3ea60777f48add7afa019a322ace102f",
+      "candidate_sha256": "3e27e89aebea94fd0e4561feb42e46fb791af7b2e2ff25e15a8b205269b6957e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7911,
@@ -69,12 +101,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.047;1.881&quot;>*مرحبا!* مرحبا مرحبا! مرحبا!",
     "arabic_edit": "<ts=&quot;0.047;1.881&quot;>*مرحبا!* مرحبا مرحبا! مرحبا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "9a0efb1c6124bc68ea2091b916e4da305be07d80148fee12ae07099f598225a4",
+      "candidate_sha256": "9d67d30f257746b181c24b2492757274a1c8f594a8577561f9caa7102e695b0d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7912,
@@ -83,13 +123,21 @@
     "speaker_code": "FUNGA",
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.047;0.819&quot;>مااا!",
-    "arabic_edit": "<ts=&quot;0.047;0.819&quot;>مااا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.047;0.819&quot;>كيف الحال!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "9ac77d6cffd1a83784cb1f228d719ad311a379edeb9676db98297b88065f3cc7",
+      "candidate_sha256": "ffd66571ef7ba602a0e31fe739f44acd66837e6b1c08fb80861c6017cebfa677",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7913,
@@ -98,14 +146,22 @@
     "speaker_code": "FUNGA",
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.017;3.565&quot;>هل اشترى أحدكم تذاكر عرض<br>*المرح*؟",
-    "arabic_edit": "<ts=&quot;0.017;3.565&quot;>هل اشترى أحدكم تذاكر عرض *المرح*؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.017;3.565&quot;>هل ستشترون تذاكر عرض *المرح*؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "c32a35d4798272d7cf95049d46e04045b2ea959818e0c50ef79e302e6b73e4c2",
+      "candidate_sha256": "b0dc8e65e373af4f1cf26373e01703735c22f38b27d4d0ef6a7305bad0f04527",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7914,
@@ -115,12 +171,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.045;2.984&quot;>ووووو! هيا بنا!",
     "arabic_edit": "<ts=&quot;0.045;2.984&quot;>ووووو! هيا بنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "484bfc72cbecc7a07f7b85d6d4fc21811d7fdc2830784ce0719a18a5a914ef02",
+      "candidate_sha256": "0dc931bddfaaa8b2c298475e7f2a5b41a6ed2ec0924d7a6fff9473b66a2e9ad0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7915,
@@ -130,12 +194,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.036;1.312&quot;>أخيرا!",
     "arabic_edit": "<ts=&quot;0.036;1.312&quot;>أخيرا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "11dc0d321495c4df7f07c09e9e984a574d7e4becf60b6818598f7eed059fac66",
+      "candidate_sha256": "140d281d03064089630026fa64a0aab6f5a7f7c2b7889e0084165207395579a8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7916,
@@ -144,14 +216,22 @@
     "speaker_code": "FUNGA",
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.038;4.121&quot;>فنغال وفنغاي هنا لبداية مرح<br>كبير!",
-    "arabic_edit": "<ts=&quot;0.038;4.121&quot;>فنغال وفنغاي هنا لبداية مرح كبير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.038;4.121&quot;>فنغال وفنغاي هنا لإشعال المرح!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-009",
+      "source_sha256": "733ba94675c7a1275a9e98b37c4dbfbabf0b379a315a39b04413d26aab77aae6",
+      "candidate_sha256": "ded3258070d4fca5ddb13148b46cfe86d620e20c489b7c11641b8f454c08ce03",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8144,
@@ -161,12 +241,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.047;2.167&quot;>لنمرح قليلا!",
     "arabic_edit": "<ts=&quot;0.047;2.167&quot;>لنمرح قليلا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "54826d9cd1f97963dce9f466ab756597916cd6d736e074500aa3420aa2b6a27a",
+      "candidate_sha256": "868a06442839dc3d9a3fd6effc9cc83f970eb96e0c29a94d2ddda304422e07c6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8145,
@@ -176,13 +264,21 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.047;4.603&quot;>أنا السيد فنغاي! وجئت<br>لأشعل هذه الحفلة!",
     "arabic_edit": "<ts=&quot;0.047;4.603&quot;>أنا السيد فنغاي! وجئت لأشعل هذه الحفلة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "74565482a3983935dd5ec9efe306e7ffe95a7fa4db00ee640daaf3b62674b869",
+      "candidate_sha256": "c2bdce2f9909985284de631a76db2c98f18188d481ed10f467b43afb961ab5b8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8146,
@@ -192,13 +288,21 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0;0.73&quot;>مرة أخرى؟<ts=&quot;1.23;6.014&quot;>أي، هيا! «لنرتجل! ارتجل!<br>ارتجل!»",
     "arabic_edit": "<ts=&quot;0;0.73&quot;>مرة أخرى؟<ts=&quot;1.23;6.014&quot;>أي، هيا! «لنرتجل! ارتجل! ارتجل!»",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "58aef9edd9b4137ded9b7f4c11272f5d20d5bb33afcfebc00af4b9bc189dcbae",
+      "candidate_sha256": "235511258d95a67d58a3f5f5e8df438fe735ebac60ee941a86ee392d40b4866f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8147,
@@ -208,12 +312,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0;1.05&quot;>القتال الآن؟<ts=&quot;1.579;2.049&quot;>حسنا.<ts=&quot;2.969;3.669&quot;><ts=&quot;4.79;5.14&quot;>ووووو!",
     "arabic_edit": "<ts=&quot;0;1.05&quot;>القتال الآن؟<ts=&quot;1.579;2.049&quot;>حسنا.<ts=&quot;2.969;3.669&quot;><ts=&quot;4.79;5.14&quot;>ووووو!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "bf26de119883959f2de0340f664e3ee69a31cf20656395d74724186765c7fccc",
+      "candidate_sha256": "c260a566289a8be1311e9f6d629acb844a11f1a149a74eed63315acd8c9023d2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8148,
@@ -223,12 +335,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.24;1.99&quot;>يا لها من حفلة ستكون!",
     "arabic_edit": "<ts=&quot;0.24;1.99&quot;>يا لها من حفلة ستكون!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "f8a94eacfa496bf7ab38139b56ac9b3f67d550b7043dae4de25c9b8303830b1a",
+      "candidate_sha256": "29e52ff61263d55d1b46349b927031155b043d74ffafdd2205110482550acf38",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8149,
@@ -238,12 +358,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0;3.179&quot;>حان وقت أن يبدأ هذا الفطر<ts=&quot;3.929;6.33&quot;>هذا... الضجيج... و...",
     "arabic_edit": "<ts=&quot;0;3.179&quot;>حان وقت أن يبدأ هذا الفطر<ts=&quot;3.929;6.33&quot;>هذا... الضجيج... و...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "3260e48d0a29aa8241c850017c0c77b67dd0140341f7353323b77891ab4a67e5",
+      "candidate_sha256": "c1d7cbb50743a00956637ac109012db37156d1b9ea1efef512b5e0a0a8d1ce29",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8150,
@@ -253,12 +381,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0;2.199&quot;>لا أسلحة، بل نكت فقط!",
     "arabic_edit": "<ts=&quot;0;2.199&quot;>لا أسلحة، بل نكت فقط!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "f0dff5ed5427ec174a7421e2e32ae24e2b9f3768098c64260674403fdece002c",
+      "candidate_sha256": "eeaeae8d44eb012e56c82ba69d361ebac44a2146e1b987f020670b3f8d390e56",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8151,
@@ -268,13 +404,21 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.03;4.492&quot;>السيد فنغاي يحب المرح<br>حتى حين لا يريده!",
     "arabic_edit": "<ts=&quot;0.03;4.492&quot;>السيد فنغاي يحب المرح حتى حين لا يريده!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "eca2a436389ce6d93476ede8e4ebcb141ac53f58d31c126e73a0e0ca65452bc6",
+      "candidate_sha256": "7b4c9834dbb8565a30eee9ab19ec78ac065ca96e1719a34c36625d6a3037ebe6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8152,
@@ -283,14 +427,22 @@
     "speaker_code": "FUNG",
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0;2.45&quot;>،كنت ما زلت في استراحتي<br>لكن حسنا!",
-    "arabic_edit": "<ts=&quot;0;2.45&quot;>،كنت ما زلت في استراحتي لكن حسنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.45&quot;>كنت ما زلت في الاستراحة، لكن حسنًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "963aa4b57c1e819c616c72b2792388cb8d4c795dd8ba8517497d130baf99cdb2",
+      "candidate_sha256": "8aca034f39a355bacad57873d1a583b106a868f847d43eddaf68da4555eb5211",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8153,
@@ -300,13 +452,21 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.043;4.051&quot;>المرح لا يتوقف! المرح لا<br>يتوقف!",
     "arabic_edit": "<ts=&quot;0.043;4.051&quot;>المرح لا يتوقف! المرح لا يتوقف!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "7f2e92d42dd497631ebf9ea4181c2716908866e758dec6acbc3b7fb9534e7b8d",
+      "candidate_sha256": "d3c33692acd07c6b2e1fb926016342ff3f31c056cecc638e594c87f7b18d6531",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8154,
@@ -316,13 +476,21 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.043;4.413&quot;>المرح لا يتوقف! المرح لا<br>يتوقف...",
     "arabic_edit": "<ts=&quot;0.043;4.413&quot;>المرح لا يتوقف! المرح لا يتوقف...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "7964149a5748ed35775ac5eefeac3c6d7fd47b8c7fafa4bb681d3f1c5bbad801",
+      "candidate_sha256": "5312d3259446cc4f0ba5c6387fb56a14466d464f3f388d345184f5c99c965dde",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8155,
@@ -332,13 +500,21 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.056;4.198&quot;>المرح لا يتوقف... المرح لا<br>يتوقف.",
     "arabic_edit": "<ts=&quot;0.056;4.198&quot;>المرح لا يتوقف... المرح لا يتوقف.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "4bed7ae24bfcf612a8b71c4cd0a9808e78236fd5761260e1cec37890014a1c7f",
+      "candidate_sha256": "a395836735291e58186f09b52fedffdf31b18824452df5d33cd6e343b3467ad9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8156,
@@ -348,12 +524,20 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.046;1.855&quot;>لنمرح قليلا!",
     "arabic_edit": "<ts=&quot;0.046;1.855&quot;>لنمرح قليلا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "0eef3ca4b53f48bced8ddba3df6d517bee7b450b5dfaeb0ebb58cfe78173a7fb",
+      "candidate_sha256": "1738aa2f1f98166af3cc01d8e398a93852e37e4835e8c45eeff536ef3104ac1d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8157,
@@ -363,11 +547,19 @@
     "scene_code": "WPN_GEN_SPAWN",
     "arabic_current": "<ts=&quot;0.047;1.882&quot;>لنمرح قليلا.",
     "arabic_edit": "<ts=&quot;0.047;1.882&quot;>لنمرح قليلا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "5abeb6416a0afdbce66aa687fc1bbcf76e5e1f3ed39ab9aadf5579ae36e66594",
+      "candidate_sha256": "fbecb3a4e3a7ebb0c3910756c696fbdf0d9a3367a1bd56fa07599eb721b3e9dc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

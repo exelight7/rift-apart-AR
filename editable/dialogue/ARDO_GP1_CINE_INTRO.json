@@ -7,13 +7,21 @@
     "scene_code": "ARDO_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0;3&quot;>أخشى أن الكارثة البعدية<br>تتفاقم...",
     "arabic_edit": "<ts=&quot;0;3&quot;>أخشى أن الكارثة البعدية تتفاقم...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "17de682bdcfd3d11f860989910cd0927a7ad33aa4cb9cf044b405e71296f675d",
+      "candidate_sha256": "409200a2c3711b5f9f548ea5303ba8031d038ef1842c951eb6b91c40e48cb7f3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1652,
@@ -23,12 +31,20 @@
     "scene_code": "ARDO_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0;1.75&quot;>سنجد طريقة.<ts=&quot;1.829;2.749&quot;>كما في كل مرة.",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>سنجد طريقة.<ts=&quot;1.829;2.749&quot;>كما في كل مرة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "a95b6493090f2b9c6312a6c3a8ca7adb5e9b72adc4d12c1a6ca74ae7b88bbfd6",
+      "candidate_sha256": "2d29efb1e21024cd6d938275a54f54f03a3e253fc1ea593bb2bf15371554441d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17414,
@@ -37,14 +53,22 @@
     "speaker_code": "PIR3",
     "scene_code": "ARDO_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0;2.246&quot;>آه، ما أجمل اللحن!<ts=&quot;2.349;3.954&quot;>،وفي خبر لا علاقة له<ts=&quot;4.023;7.701&quot;>أردوليس مغلقة اليوم<br>بسبب مناسبة خاصة:<ts=&quot;7.794;11.193&quot;>إعدام بيير لو فير!",
-    "arabic_edit": "<ts=&quot;0;2.246&quot;>آه، ما أجمل اللحن!<ts=&quot;2.349;3.954&quot;>،وفي خبر لا علاقة له<ts=&quot;4.023;7.701&quot;>أردوليس مغلقة اليوم بسبب مناسبة خاصة:<ts=&quot;7.794;11.193&quot;>إعدام بيير لو فير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.246&quot;>آه، يا له من لحن!<ts=&quot;2.349;3.954&quot;>وفي خبر آخر،<ts=&quot;4.023;7.701&quot;>أردوليس مغلقة اليوم لمناسبة خاصة:<ts=&quot;7.794;11.193&quot;>إعدام بيير لو فير!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "f8588fdba663232f0717862690d76d0cae3b0ed033d12f79acd0d9c4e676d416",
+      "candidate_sha256": "9dbabd6c5e9a7c0106f55ba44b388e82b38e4dfaf2ed723319d164fe988e6782",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17415,
@@ -53,14 +77,22 @@
     "speaker_code": "PIR3",
     "scene_code": "ARDO_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0;6.81&quot;>كل متسلل سيطلق عليه<br>،النار أو تطعن في الحال<br>وتذكروا المادة الرابعة من<br>قانون القراصنة:<ts=&quot;7.609;9.942&quot;>لا تفجر سفينتك اللعينة<br>بنفسك أبدا.",
-    "arabic_edit": "<ts=&quot;0;6.81&quot;>كل متسلل سيطلق عليه ،النار أو تطعن في<br>الحال وتذكروا المادة الرابعة من قانون<br>القراصنة:<ts=&quot;7.609;9.942&quot;>لا تفجر سفينتك اللعينة بنفسك أبدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;6.81&quot;>سيطلق النار على كل متسلل أو يطعن فور<br>رؤيته، وتذكروا المادة الرابعة من ميثاق<br>القراصنة:<ts=&quot;7.609;9.942&quot;>لا تفجروا سفينتكم اللعينة بأنفسكم أبدًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "680a9b8a3e1f95bdaeeac56eb2172d0e35130261ccc6fa86c0842f86537bdd0f",
+      "candidate_sha256": "531f3f34ace021fddab70e076af19d99e43ce7070acc587ee5cbf9fb6396b4e3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18937,
@@ -69,13 +101,21 @@
     "speaker_code": "RATC",
     "scene_code": "ARDO_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0.269;2.009&quot;>واو! ،هل أنا فقط أم<ts=&quot;2.009;3.923&quot;>أن عدد هذه الأشياء زاد؟!",
-    "arabic_edit": "<ts=&quot;0.269;2.009&quot;>واو! ،هل أنا فقط أم<ts=&quot;2.009;3.923&quot;>أن عدد هذه الأشياء زاد؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.269;2.009&quot;>واو! أهذا مجرد تخيل مني،<ts=&quot;2.009;3.923&quot;>أم أن عدد تلك الأشياء قد زاد؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "e6455a0d1b4a4c7669d9a2549a75acdd67fee854b2b2dc63bf264b80d0068f28",
+      "candidate_sha256": "40d60dc2d5b9dcb6ae3761793f693765c97a529c97236622244461828c7b29b3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18938,
@@ -84,13 +124,21 @@
     "speaker_code": "RATC",
     "scene_code": "ARDO_GP1_CINE_INTRO",
     "arabic_current": "<ts=&quot;0;4.64&quot;>،حسنا، كلما وجدنا بيير أسرع<br>كلما بدأنا إصلاح كل هذا<br>أسرع...<ts=&quot;4.64;5.25&quot;>بأي طريقة.",
-    "arabic_edit": "<ts=&quot;0;4.64&quot;>،حسنا، كلما وجدنا بيير أسرع كلما بدأنا<br>إصلاح كل هذا أسرع...<ts=&quot;4.64;5.25&quot;>بأي طريقة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.64&quot;>حسنًا، كلما عثرنا على بيير أسرع، تمكنا من<br>البدء بإصلاح كل هذا أسرع...<ts=&quot;4.64;5.25&quot;>بطريقة ما.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "a65d6f57897767ffeca35aeaf4da6fe874f3fb5041d2d901a0a69d91ebc3393d",
+      "candidate_sha256": "0552ac61cc010433833abd7b0863cd22e34e9ba8e60cff8abafee4f5f07484d6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

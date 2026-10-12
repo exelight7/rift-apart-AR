@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_ENFORCAVAIL",
     "arabic_current": "<ts=&quot;0;1.41&quot;>تحتاج شيئا فيه ركلة<br>قوية؟<ts=&quot;3.099;4.849&quot;>تفضل على الإنفورسرات<br>الجديدة!",
-    "arabic_edit": "<ts=&quot;0;1.41&quot;>تحتاج شيئا فيه ركلة قوية؟<ts=&quot;3.099;4.849&quot;>تفضل على الإنفورسرات الجديدة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.41&quot;>ما رأيك في سلاح بقوة ارتداد هائلة؟<ts=&quot;3.099;4.849&quot;>إليك أسلحة إنفورسر الجديدة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "f722ccf22a2b716c6492a5a45febd555e7ab3d95389cfd2797351305e13eae83",
+      "candidate_sha256": "cc1748095e283e7c5d412ca93027221913aa0206d9e54570c81fd13214eda178",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

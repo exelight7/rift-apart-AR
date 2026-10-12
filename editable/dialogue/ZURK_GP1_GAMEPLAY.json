@@ -6,13 +6,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.75&quot;>حانة زوركيز لها مدخل أمم--<ts=&quot;2.409;3.749&quot;>فخم جدا.",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>حانة زوركيز لها مدخل أمم--<ts=&quot;2.409;3.749&quot;>فخم جدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>لحانة زوركي مدخل، أمم...<ts=&quot;2.409;3.749&quot;>متقن جدًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "199da3d0baba547f84b012560479d55c062a13e7b88c0186b0f5a4b8754bafa7",
+      "candidate_sha256": "9bcb3869f453374309fd96f49f839d5c8be6d1d4855a816452d4984096d87501",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2568,
@@ -22,13 +30,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.149&quot;>يا إلهي...<ts=&quot;1.5;4.75&quot;>لماذا يجب أن يكون لكل بعد<br>ساحة معارك خطرة؟",
     "arabic_edit": "<ts=&quot;0;1.149&quot;>يا إلهي...<ts=&quot;1.5;4.75&quot;>لماذا يجب أن يكون لكل بعد ساحة معارك خطرة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "eb3401c98a9fc94170a5e316c5e82e31487242624206d0d313920ce92f130f60",
+      "candidate_sha256": "5fc9e352a37bff7f89edf3544a364f086f8be848ca4b34d19faa643bd619b5ae",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2569,
@@ -37,14 +53,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.1&quot;>يأتون عبر --القراصنة<br>الصدوع؟!",
-    "arabic_edit": "<ts=&quot;0;2.1&quot;>يأتون عبر --القراصنة الصدوع؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.1&quot;>القراصنة... يأتون عبر الصدوع؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "5c035ba727c447ace95d6e444f4bd627a4294b51711af67cfc386d45b6838043",
+      "candidate_sha256": "ee3c6dea800ef22eeb90465334f786db6ec1f958c65c7a207b9b09b1a4e5340c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2570,
@@ -53,13 +77,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.058;3.708&quot;>كبيرا --آه--فرانسوا يبدو.",
-    "arabic_edit": "<ts=&quot;0.058;3.708&quot;>كبيرا --آه--فرانسوا يبدو.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.058;3.708&quot;>يبدو فرانسوا، أمم... ضخمًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "8c05f9b843f18cfe18498e4737f7ba194330b21d3a8e7db8309d2f25babec495",
+      "candidate_sha256": "76e422a249e0703657dd0bb5e8a880a1f0fb223459a0c1e333f5dbd57597534e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2571,
@@ -68,13 +100,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.937&quot;>هل تقضي وقتا كثيرا هنا؟",
-    "arabic_edit": "<ts=&quot;0;1.937&quot;>هل تقضي وقتا كثيرا هنا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.937&quot;>هل تقضين وقتًا كثيرًا هنا؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "ba5e6b9e81a22bfadb24f61363bc5108d9e5c47d1425c82d0ed342f92e02264d",
+      "candidate_sha256": "046aa91a825ab2794aced4442248d5394d3f0ac796d27aaa987f158187b46b82",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2572,
@@ -84,13 +124,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.819&quot;>هل يمكننا أن نذهب ونتحدث<br>إلى زوركي؟<ts=&quot;1.819;4.227&quot;>كلما أصلحنا جهاز الاتصال<br>الخاص بي أسرع كان أفضل.",
     "arabic_edit": "<ts=&quot;0;1.819&quot;>هل يمكننا أن نذهب ونتحدث إلى زوركي؟<ts=&quot;1.819;4.227&quot;>كلما أصلحنا جهاز الاتصال الخاص بي أسرع كان<br>أفضل.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "4fedf0543e382d25cfd944feee6648c69d624d644c4a8d7d5eeb7c459f5f8b1a",
+      "candidate_sha256": "7d4a53fab7ce8bf22175907a9e8458fce30578ee5f06ec9fb69c54204dbec751",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2573,
@@ -99,14 +147,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.4&quot;>لا أريد أن أستعجلك-<ts=&quot;1.47;6.009&quot;>لكن أ يمكننا الذهاب إلى<br>الحانة والتحدث مع زوركي؟<br>أحتاج إلى إصلاح جهاز اتصالي.",
-    "arabic_edit": "<ts=&quot;0;1.4&quot;>لا أريد أن أستعجلك-<ts=&quot;1.47;6.009&quot;>لكن أ يمكننا الذهاب إلى الحانة والتحدث مع<br>زوركي؟ أحتاج إلى إصلاح جهاز اتصالي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.4&quot;>لا أريد استعجالك،<ts=&quot;1.47;6.009&quot;>لكن هل نذهب إلى البار لنتحدث إلى زوركي؟<br>أحتاج إلى إصلاح جهاز اتصالي.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "1d58cdcf173adee56acddb7cae3d6819c6906083bd8e006defad1f9b993a6d5a",
+      "candidate_sha256": "fc2170ae3f119c268e18de2e3edc5da7193b7a90233ff5203af44ba702b2ebb0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2574,
@@ -115,14 +171,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.09;3.75&quot;>يبدو الكون أكثر عدم استقرارا<br>للأسف.",
-    "arabic_edit": "<ts=&quot;0.09;3.75&quot;>يبدو الكون أكثر عدم استقرارا للأسف.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.09;3.75&quot;>للأسف، يبدو الكون أشد اضطرابًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "995e13badceed3ac038a5348775b3e445b27c660a14a3931c41f3a3e3baaa996",
+      "candidate_sha256": "ba742681dcb69d36aba2270bc4cb5ed2832db1598e706fa540a42b91b84b2ab3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2575,
@@ -131,13 +195,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.743&quot;>أين نسجل لأن نقاتل؟",
-    "arabic_edit": "<ts=&quot;0;1.743&quot;>أين نسجل لأن نقاتل؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.743&quot;>أين نسجل للمشاركة في القتال؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "1f7855fd0a3841d3b7bd89aa22352ade22915cf72374ba65ad3b0fc279267f75",
+      "candidate_sha256": "60dd04a71a899de64bf2ee63bf6e88229fbd8a14f1d15e286f52682c9c204add",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2576,
@@ -146,14 +218,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;5.5&quot;>ربما قللت قليلا من مدى<br>صعوبة بناء الناقلة<br>البعدية.",
-    "arabic_edit": "<ts=&quot;0;5.5&quot;>ربما قللت قليلا من مدى صعوبة بناء الناقلة<br>البعدية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;5.5&quot;>ربما هونت قليلًا من صعوبة صنع جهاز أبعاد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "2f6ef8984844e37bda5c01ff0eb6f9aab1684eaa0ed8ca81beddfb49b9c47cf0",
+      "candidate_sha256": "6d744074337efd2ca970fbc2d9ba6d8ce84472b80840112812f4d7d9f75a0637",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2577,
@@ -162,13 +242,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.069;0.679&quot;>...<ts=&quot;1.129;2.83&quot;>هناك خطر أن تزيد*<ts=&quot;2.83;6.25&quot;>ناقلة أخرى* الوضع سوءا.",
-    "arabic_edit": "<ts=&quot;0.069;0.679&quot;>...<ts=&quot;1.129;2.83&quot;>هناك خطر أن تزيد*<ts=&quot;2.83;6.25&quot;>ناقلة أخرى* الوضع سوءا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.069;0.679&quot;>...<ts=&quot;1.129;2.83&quot;>وهناك احتمال أن يؤدي جهاز أبعاد *<ts=&quot;2.83;6.25&quot;>آخر* إلى تفاقم الوضع فحسب.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "ea0b0b02c6e045cdfc096e49a1fa451d9aebfa4a2b23e2b31f5430042ca69f5a",
+      "candidate_sha256": "62fc05ace9c0702313fb4938974eab210b51c664620536e80d38d651fb0fbe40",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2578,
@@ -177,14 +265,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.15&quot;>أتطلع إلى الذهاب إلى بليزار<br>برايم.<ts=&quot;3.29;9.195&quot;>إن استطعنا الحصول على<br>كوارتز المرحلة، سنتمكن من<br>حل هذه الكارثة البعدية.",
-    "arabic_edit": "<ts=&quot;0;3.15&quot;>أتطلع إلى الذهاب إلى بليزار برايم.<ts=&quot;3.29;9.195&quot;>إن استطعنا الحصول على كوارتز المرحلة،<br>سنتمكن من حل هذه الكارثة البعدية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.15&quot;>أتطلع إلى الذهاب إلى بليزار برايم.<ts=&quot;3.29;9.195&quot;>إن حصلنا على كوارتز الطور، فسنتمكن من<br>إيقاف كارثة الأبعاد هذه.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "7d2e1717a8d8f49afe4aaa478030d5b51f4b3a9ca0ce81f130d2aac193c04661",
+      "candidate_sha256": "9e3006f60584b61329a84cfcc57ad334cb7effcdc3e7fa134489cf9014cdcdcd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2579,
@@ -193,14 +289,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.15&quot;>من في …إذن أنت «قائمة<br>الضحايا» تلك؟",
-    "arabic_edit": "<ts=&quot;0;3.15&quot;>من في …إذن أنت «قائمة الضحايا» تلك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.15&quot;>إذن، بخصوص «قائمة اغتيالات» الإمبراطور...<br>هل أنت...؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "cda5f524a847c59ffa2744b2d57131e5f5b87b8fd204d8222946deba711af903",
+      "candidate_sha256": "cd23c11918377569f5fe95b0112d214c780f00cfcc8ac5cd3aca5dbed10a62b3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2580,
@@ -209,13 +313,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.779&quot;>لطيفا؟ --يبدو بيير، آه",
-    "arabic_edit": "<ts=&quot;0;1.779&quot;>لطيفا؟ --يبدو بيير، آه",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.779&quot;>يبدو بيير، أمم... لطيفًا؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "5d0906c9c5ae337ffb96e217e2be7a62d7f67d4e1b8cd227a606c4a9c08622ff",
+      "candidate_sha256": "37ac30d731aeae372c102772e915ce46a1bf59b0b2ca792dd1e3821e5ced34a7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2581,
@@ -224,14 +336,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.046;4.22&quot;>آمل ألا يكون الدكتور<br>نيفاريوس يسبب أي<br>مشكلة.<ts=&quot;4.22;7.589&quot;>لن نكون -لكن بمعرفتي به<br>محظوظين إلى هذا الحد.",
-    "arabic_edit": "<ts=&quot;0.046;4.22&quot;>آمل ألا يكون الدكتور نيفاريوس يسبب أي<br>مشكلة.<ts=&quot;4.22;7.589&quot;>لن نكون -لكن بمعرفتي به محظوظين إلى هذا<br>الحد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.046;4.22&quot;>آمل ألا يسبب *الدكتور* نيفاريوس أي متاعب.<ts=&quot;4.22;7.589&quot;>لكن بحكم معرفتي به، أشك في أننا سنكون<br>محظوظين إلى هذا الحد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "2de6859e400a690d77857e94c3095cf1aa540fa7a98d6569897758acc3b5573f",
+      "candidate_sha256": "7975e1494958edf725d326b6db227ed5bd65813a1a547ec412d4ee5ceaa13699",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2582,
@@ -240,13 +360,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.87&quot;>إذن إذا كان زوركون--<ts=&quot;2.239;5.019&quot;>،آه، زوركي لا يستخدم العنف<ts=&quot;5.37;7.295&quot;>فلماذا لديه حلبة قتال؟",
-    "arabic_edit": "<ts=&quot;0;1.87&quot;>إذن إذا كان زوركون--<ts=&quot;2.239;5.019&quot;>،آه، زوركي لا يستخدم العنف<ts=&quot;5.37;7.295&quot;>فلماذا لديه حلبة قتال؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.87&quot;>إذن، إن كان زوركون الذي عندك...<ts=&quot;2.239;5.019&quot;>أقصد، زوركي، مسالمًا،<ts=&quot;5.37;7.295&quot;>فلماذا لديه ساحة قتال؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "9a1a5dc522e3f65f888e52fef0010da264e510d11f346638905fff701e544609",
+      "candidate_sha256": "8243b7dbfd077e6c2fe4c7b5f319873aba448670b73c96be60e9935c3e6d6676",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2583,
@@ -255,13 +383,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.139;1.189&quot;>ذلك آه-<ts=&quot;1.54;2&quot;>غريبة؟",
-    "arabic_edit": "<ts=&quot;0.139;1.189&quot;>ذلك آه-<ts=&quot;1.54;2&quot;>غريبة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.139;1.189&quot;>هذا، أمم...<ts=&quot;1.54;2&quot;>طريف؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "f6243f9429e8eec0221d7f3d0dfef6cab288719ecfeb7861fa5d15e53598792e",
+      "candidate_sha256": "d0d9476205b540da7ee3e7a9f4bcbc9b34853a79d783cf98adae650bca031e02",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2584,
@@ -271,12 +407,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.02;2.013&quot;>تلك آخرها تقريبا!",
     "arabic_edit": "<ts=&quot;0.02;2.013&quot;>تلك آخرها تقريبا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "9bedf4db0501b2068af85441bf02f783b12be4f6f69bffee5a8ad42c53cda190",
+      "candidate_sha256": "562ad6730f1cb741ee1add544d7b28d22fb9e96e27d84a8e7e5ddc978cc73011",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2585,
@@ -285,13 +429,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;4.149&quot;>نعم لكن، كوارتز المرحلة هو...",
-    "arabic_edit": "<ts=&quot;0;4.149&quot;>نعم لكن، كوارتز المرحلة هو...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.149&quot;>نعم، لكن كوارتز الطور...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "4a9d57f80bc3b542d0990db76d347fddbc568219c2761492d6cf9b093c9e20c5",
+      "candidate_sha256": "914f47918c0293a9b4ac235c351f67dd54109ca760b27932fc750e0acbf0d2f4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2586,
@@ -300,13 +452,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.249&quot;>أأندر المعادن في الكون.",
-    "arabic_edit": "<ts=&quot;0;3.249&quot;>أأندر المعادن في الكون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.249&quot;>من أندر المعادن في الكون.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "e6fc7c75220527c5e1e04b791f47c1a591ad653c2d2f88d59a873094c7fd4537",
+      "candidate_sha256": "60180bf2eb69def1cca506d8f8095700661aa0626fbf6dcfbc7dad0504f02bfb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2587,
@@ -315,14 +475,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.75&quot;>آمل أن تكون على حق.<ts=&quot;2.02;5.45&quot;>يبدو أن تدمير الناقلة<br>البعدية سبب نوعا من...<ts=&quot;5.45;7.22&quot;>الكارثة البعدية...<ts=&quot;7.88;9.854&quot;>وإن لم أستطع العثور على<br>راتشت...",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>آمل أن تكون على حق.<ts=&quot;2.02;5.45&quot;>يبدو أن تدمير الناقلة البعدية سبب نوعا<br>من...<ts=&quot;5.45;7.22&quot;>الكارثة البعدية...<ts=&quot;7.88;9.854&quot;>وإن لم أستطع العثور على راتشت...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>آمل أن تكوني محقة.<ts=&quot;2.02;5.45&quot;>يبدو أن تحطم جهاز الأبعاد سبب نوعًا من...<ts=&quot;5.45;7.22&quot;>كارثة الأبعاد...<ts=&quot;7.88;9.854&quot;>وإن لم أجد راتشت...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "c32aeac34039a6dfbcf4974b88ed01733772e6fa42641e6471c803b461efa91e",
+      "candidate_sha256": "798ca1f8e13149e18daa859914c4d87a300a70583c6f5ae73e948f5d9431c258",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10872,
@@ -331,14 +499,22 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.059;1.478&quot;>أهاااوهو!<ts=&quot;1.584;7.871&quot;>استدعى بيير الضعيف<br>المسكين شريكه الذي<ts=&quot;8.431;11.568&quot;>آآآ - مهيأ للسحق!",
-    "arabic_edit": "<ts=&quot;0.059;1.478&quot;>أهاااوهو!<ts=&quot;1.584;7.871&quot;>استدعى بيير الضعيف المسكين شريكه الذي<ts=&quot;8.431;11.568&quot;>آآآ - مهيأ للسحق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.059;1.478&quot;>أهااوهو!<ts=&quot;1.584;7.871&quot;>استدعى بيير الضعيف المثير للشفقة شريكه،<ts=&quot;8.431;11.568&quot;>المصمم للسحق... آآآ!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "159e710c80d8615e964214cded6506944f4a5a017f617a9dbd43a8dfe9712bf0",
+      "candidate_sha256": "22f1ac9a9d321ece701ca0966d40838c398f6d93930e655dd1b29ec6967762a4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10873,
@@ -347,14 +523,22 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.066;5.593&quot;>أهلا بكم أيها الأوباش في<br>باتلبلكس ذبح زوركون<br>جونيور!<ts=&quot;5.593;16.106&quot;>هل أنتم مستعدون لشهد<br>الحماس والألم والمذبحة؟!",
-    "arabic_edit": "<ts=&quot;0.066;5.593&quot;>أهلا بكم أيها الأوباش في باتلبلكس ذبح<br>زوركون جونيور!<ts=&quot;5.593;16.106&quot;>هل أنتم مستعدون لشهد الحماس والألم<br>والمذبحة؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;5.593&quot;>أهلًا بكم، أيها الأوباش، في مجمع زوركون<br>جونيور للمذابح!<ts=&quot;5.593;16.106&quot;>هل أنتم مستعدون لمشاهدة الإثارة والألم<br>والمجازر؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "ca058ade548e8e31f963373241f4f0eb6533f41407ad09a0a78fa0fdb3d11ba9",
+      "candidate_sha256": "ef02face1c87f23d72b9894c2bfd79b1d490d80d9074cace2f0726573614b6ef",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10874,
@@ -363,14 +547,22 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.063;10.541&quot;>أعيدت إليكم أسلحتكم<br>لتحدث فيضا من الفوضى!<br>هاهاها!",
-    "arabic_edit": "<ts=&quot;0.063;10.541&quot;>أعيدت إليكم أسلحتكم لتحدث فيضا من الفوضى!<br>هاهاها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.063;10.541&quot;>أعيدت إليك أسلحتك لتحدثي فيضًا من الفوضى!<br>هاهاها!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "e393b03d62fdea14023b54816e4e6473716bd60425fc45330b53329730cd2bf5",
+      "candidate_sha256": "6113f6462c19b58f9cf8d8ebd86e7359c460fa0e0e70c54012e2dfe2694552bb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10875,
@@ -379,14 +571,22 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.068;10.207&quot;>الليلة! ريفت المفضلة لدى<br>الأوباش ستقاتل القراصنة<br>الساروقين الخونة!<ts=&quot;10.207;15.221&quot;>يدخل عدد لا يحصى. ويخرج<br>واحد! من سيكون؟!",
-    "arabic_edit": "<ts=&quot;0.068;10.207&quot;>الليلة! ريفت المفضلة لدى الأوباش ستقاتل<br>القراصنة الساروقين الخونة!<ts=&quot;10.207;15.221&quot;>يدخل عدد لا يحصى. ويخرج واحد! من سيكون؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.068;10.207&quot;>الليلة ستقاتل ريفت، محبوبة الأوباش،<br>القراصنة اللصوص الخونة!<ts=&quot;10.207;15.221&quot;>يدخل عدد لا يحصى، ويخرج واحد! فمن سيكون؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "6f7729be574b4e8ffee1fd46f409de04642929ad035a8474b5ab5afe68925685",
+      "candidate_sha256": "5293c362116e5b252dd1f41707be5a56fcd2e1f822181feaee13b9c848a5801f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10876,
@@ -395,14 +595,22 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.066;1.934&quot;>ماذا حدث الآن؟!<ts=&quot;2.065;6.964&quot;>خرجت ريفت من مزبحة المعركة<br>منتصرة!<ts=&quot;7.095;10.245&quot;>هتفوا أيها الأوباش، هتفوا!",
-    "arabic_edit": "<ts=&quot;0.066;1.934&quot;>ماذا حدث الآن؟!<ts=&quot;2.065;6.964&quot;>خرجت ريفت من مزبحة المعركة منتصرة!<ts=&quot;7.095;10.245&quot;>هتفوا أيها الأوباش، هتفوا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;1.934&quot;>ما الذي حدث للتو؟!<ts=&quot;2.065;6.964&quot;>خرجت ريفت منتصرة من أهوال المعركة!<ts=&quot;7.095;10.245&quot;>هتفوا، أيها الأوباش! هتفوا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "44d8a3a0d9e539cc937ac9664bdecf8545a5b9fc3cd3ae93c2e3f58f1148b00e",
+      "candidate_sha256": "d69ec4eda7358d671617cb14ceff5d101f5e1fa1beeb9bb80742c45564fcf8d1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10877,
@@ -411,14 +619,22 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.066;11.395&quot;>انتصار شيطاني لريفت<br>بالفعل! لكن عليها الآن أن<br>تواجه... بيير لو فير! بلاش<br>بلاش...",
-    "arabic_edit": "<ts=&quot;0.066;11.395&quot;>انتصار شيطاني لريفت بالفعل! لكن عليها الآن<br>أن تواجه... بيير لو فير! بلاش بلاش...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;11.395&quot;>انتصار شيطاني لريفت بالفعل! لكن عليها الآن<br>أن تواجه... بيير لو فير! بلا بلا بلا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-013",
+      "source_sha256": "cd8f4c07aff06c3428fa1369abc4aa4bbab5b90d39243f30016ef225f65c6124",
+      "candidate_sha256": "08838ba69827b397ac383e885fccc66f09cfa8ca3f6fa80bb79bf392ab63f531",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10878,
@@ -427,14 +643,22 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.063;4.339&quot;>ماذا؟! هل يصل القراصنة عبر<br>الصدوع؟!<ts=&quot;4.339;10.421&quot;>هتفوا أيها الأوباش من أجل<br>نبوغة القرصان النادرة!!!",
-    "arabic_edit": "<ts=&quot;0.063;4.339&quot;>ماذا؟! هل يصل القراصنة عبر الصدوع؟!<ts=&quot;4.339;10.421&quot;>هتفوا أيها الأوباش من أجل نبوغة القرصان<br>النادرة!!!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.063;4.339&quot;>ماذا؟! القراصنة يصلون عبر الصدوع؟!<ts=&quot;4.339;10.421&quot;>هتفوا، أيها الأوباش، لبراعة القراصنة<br>النادرة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "f2b276a62b8f3cf48bacc0c2de86e2a25c68a81fd635ed061cde192845711eb7",
+      "candidate_sha256": "2ce01d70a2b82c5a6f5a63c08557b114454a918dd920aebe9bf934fabdb0774b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10879,
@@ -443,13 +667,21 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.061;6.311&quot;>نعم نعم نعم نعم! نعم! اهدمهم!",
-    "arabic_edit": "<ts=&quot;0.061;6.311&quot;>نعم نعم نعم نعم! نعم! اهدمهم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.061;6.311&quot;>نعم، نعم، نعم، نعم! نعم! دمريهم!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "8d31894ec4297227146b64cfc0dcd44d362a6b132c1b3dcae330c033d59adaee",
+      "candidate_sha256": "e007bcb1109916c68b32a6c21d10f82b6dfa4db45c40a8862b6edc2d0e803ba7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10880,
@@ -459,13 +691,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.06;6.764&quot;>لهذا نحب اللومباكس أيها<br>الأوباش! اصرخوا!",
     "arabic_edit": "<ts=&quot;0.06;6.764&quot;>لهذا نحب اللومباكس أيها الأوباش! اصرخوا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "d5cab41c7272bf9dd1066f84d6cf367d78f4ec35c5d9b04761f44bd3c251dc06",
+      "candidate_sha256": "6e5bfae9b969d9f0979c1a0ceebc9cd9e12d4d8d921f52bc12f12233a144db46",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10881,
@@ -474,14 +714,22 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.043;5.096&quot;>تلقي الضربات ليس<br>الطريق للفوز يا ريفت!<br>عاقبهم!",
-    "arabic_edit": "<ts=&quot;0.043;5.096&quot;>تلقي الضربات ليس الطريق للفوز يا ريفت!<br>عاقبهم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.043;5.096&quot;>تلقي الضربات لن يحقق لك الفوز، يا ريفت!<br>عاقبيهم!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "0aaf51a1c962dd9042cf28d8bb984f295a2d6fd91507bb93fb4e6d4957f3e3d2",
+      "candidate_sha256": "11fc1ae9d558a4e2a5e71b7205aac2e9d2046a8f5ed370c9a2174d1e4bafe5af",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10882,
@@ -490,14 +738,22 @@
     "speaker_code": "JRZK",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.066;8.211&quot;>بطلتنا ستنمو من معاناتها!<br>شاهدوا تطورها وهو يولد من<br>البؤس!",
-    "arabic_edit": "<ts=&quot;0.066;8.211&quot;>بطلتنا ستنمو من معاناتها! شاهدوا تطورها<br>وهو يولد من البؤس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;8.211&quot;>ستزداد بطلتنا قوة بمعاناتها! شاهدوا الشقاء<br>الذي يصقل قدراتها!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "ca1ba21746dd7364738ae628cefe293505123b7a837d543a19840051dd8e5916",
+      "candidate_sha256": "11cdb91d027d406c0cd1ef19183e6127b40df01bde262452cf9d58a645f3c7e3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12966,
@@ -506,14 +762,22 @@
     "speaker_code": "MORT2",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.051;4.479&quot;>ثلاث حبات ليمون، وقطرة من<br>لا، لا --الجيلاتونيوم. أربع<br>حبات.",
-    "arabic_edit": "<ts=&quot;0.051;4.479&quot;>ثلاث حبات ليمون، وقطرة من لا، لا<br>--الجيلاتونيوم. أربع حبات.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.051;4.479&quot;>ثلاث حبات ليمون أخضر، ورشة ريغاتونيوم...<br>لا، لا. أربع حبات ليمون أخضر.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "af80fae0993460043768dc9624f8189bd2677afad394009ba909d2541376d389",
+      "candidate_sha256": "22a1af002b01c9ee69a33eb479822a789ba81ee596b0f4dffae7d3804ac6ca5d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13042,
@@ -523,12 +787,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;0.7&quot;>أوه حقا؟",
     "arabic_edit": "<ts=&quot;0;0.7&quot;>أوه حقا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "c9bc37b0d25b87840bc2ac8636d95229816bd9f475fea8ad58339cd3713becc6",
+      "candidate_sha256": "c1c1780b02378319ca2594594c22bea686c652e06b425ff356d2f7e3a9f3c715",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13043,
@@ -538,12 +810,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.4&quot;>أوه، ذلك الصغير<ts=&quot;2.83;3.763&quot;>اللامع؟ إنه مهذب جدا.",
     "arabic_edit": "<ts=&quot;0;1.4&quot;>أوه، ذلك الصغير<ts=&quot;2.83;3.763&quot;>اللامع؟ إنه مهذب جدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "aee715e14e40c00aeb5e0cf664629a6125559e62f6e2954c5d50155cd74c694c",
+      "candidate_sha256": "9ac875b5279b948a92596b29c292994fc2a09db5a85c7958f6b522df21cce48d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13044,
@@ -553,13 +833,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;5.172&quot;>هيه، هل سمعت بما حدث هنا<br>الأسبوع الماضي؟ مورت<br>الكبير حاول الذهاب ليقاتل<br>في الساحة!",
     "arabic_edit": "<ts=&quot;0;5.172&quot;>هيه، هل سمعت بما حدث هنا الأسبوع الماضي؟<br>مورت الكبير حاول الذهاب ليقاتل في الساحة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "7721f2f542bd8742ea1be455c01447bf5d6c81ea67476dabf949078d0417fae1",
+      "candidate_sha256": "f4b485705c2a0c992d438368e8649f636c6952273a60a56c4dc00cbfca1a98d1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13045,
@@ -569,13 +857,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;6.333&quot;>وكاد ينجح في ذلك أيضا!<br>حلق جسمه كله من الرأس إلى<br>القدم حتى لا يتعرف عليه<br>أحد.",
     "arabic_edit": "<ts=&quot;0;6.333&quot;>وكاد ينجح في ذلك أيضا! حلق جسمه كله من<br>الرأس إلى القدم حتى لا يتعرف عليه أحد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "d926dbafc20ba645a1f5cac1ed4c870691bb8e1e49ff3b3aba7a55c3f37e74a4",
+      "candidate_sha256": "9c63e7d058adace572913c0c275ebdd4fc78ab6f08b0be3ae7088dd26a499ea0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13046,
@@ -585,12 +881,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.09;1.49&quot;>أصابهم البرد!<ts=&quot;2.17;2.52&quot;>",
     "arabic_edit": "<ts=&quot;0.09;1.49&quot;>أصابهم البرد!<ts=&quot;2.17;2.52&quot;>",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "94a976a3cd3c916bdbfd2c107eb53cae78873f2abc4457c219b6e52cfbc42f38",
+      "candidate_sha256": "4ceb5e4577e9b1d9ae35844b08e03d0f00ac118af71e28c259abcab53c6a887d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13252,
@@ -599,14 +903,22 @@
     "speaker_code": "MORT",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.03;5.98&quot;>فقفزت وضربت تلك<br>السيكيربيد بقوة حتى<br>انهار بالكامل!",
-    "arabic_edit": "<ts=&quot;0.03;5.98&quot;>فقفزت وضربت تلك السيكيربيد بقوة حتى انهار<br>بالكامل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.03;5.98&quot;>فقفزت وضربت السيكيربيد بقوة، حتى تحطمت<br>الآلة كلها!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "90a4b62a6656a89e2265c6d77d2df4566309b269e6b567e1a01fa000207aa4dd",
+      "candidate_sha256": "df152e4e8085e9eda2a18a15f95fa5c849f0660d9ca2449eb03e5c7d8cb0adad",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13253,
@@ -616,13 +928,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;0.35&quot;>أجل!<ts=&quot;2.48;3.774&quot;>ثم حملت ذلك الصغير وركبته<br>على ظهرها.",
     "arabic_edit": "<ts=&quot;0;0.35&quot;>أجل!<ts=&quot;2.48;3.774&quot;>ثم حملت ذلك الصغير وركبته على ظهرها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "b74a1df4096ba17cca49a304e00814675b008d878cdf0d20ca714311a07dde32",
+      "candidate_sha256": "5e4392c5b59276b06961b5051b104ec8f521cd819fec40bc2393c3710cdd1ca9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13254,
@@ -632,12 +952,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.036;1.12&quot;>هذا ما قلته!",
     "arabic_edit": "<ts=&quot;0.036;1.12&quot;>هذا ما قلته!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "4838a2d155944f80db23a2c60a535e5b010e334fcf3f9674810072e3be55f976",
+      "candidate_sha256": "dfa65f1223cc4322602f6a4a1c4ba1d59047d1f0bd03ff06e270ebf4f944de88",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13255,
@@ -647,12 +975,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.052;1.44&quot;>لا! مرة أخرى؟",
     "arabic_edit": "<ts=&quot;0.052;1.44&quot;>لا! مرة أخرى؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "622aa9f50a98580aa9a75ec5ce2d7853a519f50c3245d11ed898e9248f30e434",
+      "candidate_sha256": "3731e7cb9249e08fd39ebafcf2d67c1f2a9491e7c0eced2edf0e6ea23fbb950b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13256,
@@ -662,12 +998,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.037;2.198&quot;>حقا؟ ماذا حدث؟",
     "arabic_edit": "<ts=&quot;0.037;2.198&quot;>حقا؟ ماذا حدث؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "ba103200f7bb54807c932e3a387455b9cdd20b6b4e2e7b77eedcf67ee7bdcad0",
+      "candidate_sha256": "657e36614a9056103465ba24ba5ec9b86d7fec9443680de25b4b9f23e2e4cb5c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14221,
@@ -676,14 +1020,22 @@
     "speaker_code": "NEFC4",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;4.079&quot;>،أهلا بك في حانة زوركيز<br>حانتك وباتلبلكس الجديدان<br>عبر الأبعاد.<ts=&quot;4.445;7.227&quot;>سآخذ معطفك، وكل أسلحتك<br>أيضا!",
-    "arabic_edit": "<ts=&quot;0;4.079&quot;>،أهلا بك في حانة زوركيز حانتك وباتلبلكس<br>الجديدان عبر الأبعاد.<ts=&quot;4.445;7.227&quot;>سآخذ معطفك، وكل أسلحتك أيضا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.079&quot;>أهلًا بك في زوركي، حانتك ومجمع معاركك<br>اللذين صارا داخل بعد آخر!<ts=&quot;4.445;7.227&quot;>سآخذ معطفك وكل أسلحتك أيضًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "49360fba5dad569c6cb0b6a8156c48053cf2abc2cc5e206a4d18e2a31a86689d",
+      "candidate_sha256": "70b17b6a6c5ecca3057a111215e54e050af2e24ae5636849ded99f7e9068d586",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14222,
@@ -692,14 +1044,22 @@
     "speaker_code": "NEFC4",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.378&quot;>شكرا لحضورك إلى حانة<br>زوركيز، حيث نمذبح<br>بابتسامة!",
-    "arabic_edit": "<ts=&quot;0;3.378&quot;>شكرا لحضورك إلى حانة زوركيز، حيث نمذبح<br>بابتسامة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.378&quot;>شكرًا لزيارتك زوركي، حيث نذبح بابتسامة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "f5bfb3043c506bbcd5495145e3ac55087b13ca36344841e48fd2d394207f14d9",
+      "candidate_sha256": "da1fca4a760c2a7e6e8d07062e1fc608b1f0885b69d517f11bea7fb39eab5edb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14223,
@@ -708,13 +1068,21 @@
     "speaker_code": "NEFC4",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;1.4&quot;>أهلا بعودتك إلى حانة زوركيز.",
-    "arabic_edit": "<ts=&quot;0;1.4&quot;>أهلا بعودتك إلى حانة زوركيز.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.4&quot;>أهلا بعودتك إلى حانة زوركي.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "5839298aebc78f80ddeae188c7587a960a7ba0b3235b8d42dc0d1dcea961a307",
+      "candidate_sha256": "50e3d1707fc13cd755bd35eac684cc90a918214d0dc47e8c9d325cc70181eda9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14224,
@@ -724,12 +1092,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.008&quot;>لا تنس معطفك وأسلحتك!",
     "arabic_edit": "<ts=&quot;0;2.008&quot;>لا تنس معطفك وأسلحتك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "78fd20838ffd1e9c0d91ed5b1716402ffb20e2a30ed0a66948d5df39760f2f2f",
+      "candidate_sha256": "eceacf48e64a012d3f894393f7eda654c184158416bafee3477a2a82c3be1aea",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16646,
@@ -738,14 +1114,22 @@
     "speaker_code": "PILF",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.019;6.16&quot;>مثير للشفقة؟! أنا مجروح!<br>طرد مشرف--آه--إنه!",
-    "arabic_edit": "<ts=&quot;0.019;6.16&quot;>مثير للشفقة؟! أنا مجروح! طرد<br>مشرف--آه--إنه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.019;6.16&quot;>مثير للشفقة؟! جرحت مشاعري! إنه، آه...<br>تسريح مشرف!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "cc46cffd88f48e8e96630cc868bef61fa69d7cfd38e9d43f7c3d1ef67a04b61f",
+      "candidate_sha256": "ab7a35b78235afa9ba49e110cfc51a3a42e32370198fab1cc82b028883c6a2cd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16647,
@@ -754,14 +1138,22 @@
     "speaker_code": "PILF",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.042;5.306&quot;>ها! مجرد أنه يضرب بقسوة لا<br>يعني إنك ستنتصر!",
-    "arabic_edit": "<ts=&quot;0.042;5.306&quot;>ها! مجرد أنه يضرب بقسوة لا يعني إنك<br>ستنتصر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.042;5.306&quot;>ها! تعرضه للضرب المبرح لا يعني أنك<br>ستفوزين!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "0cde24afc0adfadcb6236a8172124a0be182f3cd8034dc0838583a3955b66ca1",
+      "candidate_sha256": "f3779a2f6b2e16576122884c8f7bb3c9695e6c252def4e8ec25d5a34226e6fa6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16648,
@@ -771,13 +1163,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.036;8.876&quot;>ها ها ها! هو بخير! لا يقلق أحد!<br>صحيح، فرانسوا؟ فرانسوا!؟",
     "arabic_edit": "<ts=&quot;0.036;8.876&quot;>ها ها ها! هو بخير! لا يقلق أحد! صحيح،<br>فرانسوا؟ فرانسوا!؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "e6ef83f68d8de6bea4a5010593eff6ac7135af540330d1d3c3cbb6fbf38f73e5",
+      "candidate_sha256": "a16f19a4069c6137e1b01f842af2ed2e8a82f65e7f493ccafd4036709010f0e2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16649,
@@ -787,13 +1187,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;4.9&quot;>سأقاتلكما بنفسي، لكن<br>عليكما أولا أن تثبتا<br>جدارتكما!",
     "arabic_edit": "<ts=&quot;0;4.9&quot;>سأقاتلكما بنفسي، لكن عليكما أولا أن تثبتا<br>جدارتكما!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "9f383a1ffc7a4c23b3074233bbbdbec75c68afec3f5de722b896464a706015e1",
+      "candidate_sha256": "2fdb589eaab52a8fc00dc32cbf5aafa32e9a7e7f6af2baae65513a009c072f49",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16650,
@@ -802,14 +1210,22 @@
     "speaker_code": "PILF",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.045;4.117&quot;>آه نعم، آه..<ts=&quot;4.117;9.387&quot;>،تمزيق نسيج المكان والزمن<br>توقيع حقيقي للقرصان!",
-    "arabic_edit": "<ts=&quot;0.045;4.117&quot;>آه نعم، آه..<ts=&quot;4.117;9.387&quot;>،تمزيق نسيج المكان والزمن توقيع حقيقي<br>للقرصان!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.045;4.117&quot;>آه، نعم، أمم...<ts=&quot;4.117;9.387&quot;>تمزيق نسيج الزمكان، هذه سمة القراصنة<br>الحقيقيين!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "5cbff3363b383d09a7eb2cdf76189c49f793e0c1e68466c814c68304c2f8a46a",
+      "candidate_sha256": "e3c62161a55ba1e6a2160583f8f6d48549382379e9c99fb6339656c3fdf531bc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16651,
@@ -819,13 +1235,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;5.459&quot;>هاها! خذ هذه! ضربة موفقة!<br>هاهاها!",
     "arabic_edit": "<ts=&quot;0.049;5.459&quot;>هاها! خذ هذه! ضربة موفقة! هاهاها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "444f7adafa553aa0a409dd7afbcb443002fb6ad85fb03114708087479c0942b7",
+      "candidate_sha256": "82dbe1a078679db4e23c8c61eafd41c0ea0d2aa7f67e9060bc4ee0052596e5ae",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16652,
@@ -834,13 +1258,21 @@
     "speaker_code": "PILF",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.329;3.129&quot;>آه! أنت تجعل قائدنا فخورا جدا!",
-    "arabic_edit": "<ts=&quot;0.329;3.129&quot;>آه! أنت تجعل قائدنا فخورا جدا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.329;3.129&quot;>آه! أنت تجعلين قبطاننا فخورًا جدًّا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "6f8e0d75fb425b205128e8815ce22fc2f1fd91f911714470ea2fffbcf12c89b0",
+      "candidate_sha256": "da41bf1c7433736c73f781d8f732d3f956fcdd7be78b9aa053b69ca4eb87f9e7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16653,
@@ -849,14 +1281,22 @@
     "speaker_code": "PILF",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;3.007&quot;>هيا يا ريفت! ظننت إنك أنت<ts=&quot;3.099;6.736&quot;>وحقيبة ظهرك الجريئة<br>ستقدم عرضا أفضل!<ts=&quot;6.81;8.617&quot;>ها ها ها!",
-    "arabic_edit": "<ts=&quot;0.049;3.007&quot;>هيا يا ريفت! ظننت إنك أنت<ts=&quot;3.099;6.736&quot;>وحقيبة ظهرك الجريئة ستقدم عرضا أفضل!<ts=&quot;6.81;8.617&quot;>ها ها ها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;3.007&quot;>هيا يا ريفت! ظننت أنك أنت<ts=&quot;3.099;6.736&quot;>وحقيبة ظهرك المشاكسة ستقدمان عرضًا أفضل!<ts=&quot;6.81;8.617&quot;>هاهاها!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "468791f0f170f92945f2c67ca03178d889a7a59d2a70ef50c5d90a1bdde94791",
+      "candidate_sha256": "40a7137f25027ffad92bad67f0cf1d7937572404da93f8b45c6618ba35bf8a36",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16654,
@@ -865,14 +1305,22 @@
     "speaker_code": "PILF",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;4.762&quot;>حتى مع متعة المشاهدة--<br>أطلق النار، أيها الرفاق، أطلق<br>النار!",
-    "arabic_edit": "<ts=&quot;0;4.762&quot;>حتى مع متعة المشاهدة-- أطلق النار، أيها<br>الرفاق، أطلق النار!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;4.762&quot;>رغم متعة المشاهدة... أطلقوا النار، يا<br>رفاقي، أطلقوا النار!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "e387ea556ff1bd049bf9ef17e0f779b7199bbe73dbcee8b0d6bb4f9d0faf72a5",
+      "candidate_sha256": "8ab76f04f3f373b049db194014dc940bee836f2d15bcbba13446fcc6d724d4a0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16655,
@@ -882,13 +1330,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;4.368&quot;>هذا محرج! لو كنت في القتال<br>لفزنا الآن!",
     "arabic_edit": "<ts=&quot;0;4.368&quot;>هذا محرج! لو كنت في القتال لفزنا الآن!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "12a419d752654ae0f0119e03b998d510ad8fc554d54078671a3cf0ee1e896923",
+      "candidate_sha256": "6ad7ca940e500c25173320abe3990f4c56dabf63b280f08fa039a436c670c819",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16656,
@@ -897,14 +1353,22 @@
     "speaker_code": "PILF",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.08;3.58&quot;>آه... أسلحتهم معطوبة؟! ما<br>يحدث؟!",
-    "arabic_edit": "<ts=&quot;0.08;3.58&quot;>آه... أسلحتهم معطوبة؟! ما يحدث؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.08;3.58&quot;>أمم... أتعطلت أسلحتهم؟! ماذا يجري؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "d8710b99ee3ea090d27f30a5c2c6519cf0b71baa304874ed6342fb950ee711f8",
+      "candidate_sha256": "00054bd6bdbe0e76019450031747ff76dc5e8cea55c6785cd21d2cfa9f881f4b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17707,
@@ -913,14 +1377,22 @@
     "speaker_code": "PIR3",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.066;5.615&quot;>لماذا أغني دائما عن الغروغ<br>بينما أحلم بعظمة تتجاوز<br>أبسط<ts=&quot;5.615;6.93&quot;>متعة بالنفس؟",
-    "arabic_edit": "<ts=&quot;0.066;5.615&quot;>لماذا أغني دائما عن الغروغ بينما أحلم<br>بعظمة تتجاوز أبسط<ts=&quot;5.615;6.93&quot;>متعة بالنفس؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;5.615&quot;>لماذا علي أن أغني دومًا عن الغروغ بينما<br>أحلم بعظمة تتجاوز مجرد<ts=&quot;5.615;6.93&quot;>إشباع الرغبات البسيطة؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "00fbe89f81fe7c774d1e7521070b93385f0ca8a12b6b7c3714be6aa1acc56e42",
+      "candidate_sha256": "098eb66985375cb24f5a350dc16c40d8821bb66826259ccf4433bec42c502c09",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17708,
@@ -930,13 +1402,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.044;3.622&quot;>وماذا عن القراصنة الذين<br>يتمنون أمورا أرقى في<br>الحياة...",
     "arabic_edit": "<ts=&quot;0.044;3.622&quot;>وماذا عن القراصنة الذين يتمنون أمورا أرقى<br>في الحياة...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "d8a18d783b9c6c33bcbb079917cb080eafc012f45418b7e7bb0614c00591bd3c",
+      "candidate_sha256": "eae897587da4713c55dce4412f550e8b94a700b82d48ba20c245035387040ebc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21953,
@@ -945,14 +1425,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.457&quot;>إذن! هذا هو، أمم، حانة ومجمع<br>معارك زوركيز.<ts=&quot;3.57;7.1&quot;>إن كان في الكون كله مكان نجد<br>فيه قطعة لإصلاحك، فهو هنا.",
-    "arabic_edit": "<ts=&quot;0;3.457&quot;>إذن! هذا هو، أمم، حانة ومجمع معارك زوركيز.<ts=&quot;3.57;7.1&quot;>إن كان في الكون كله مكان نجد فيه قطعة<br>لإصلاحك، فهو هنا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.457&quot;>إذًا! هذه، أمم، حانة زوركي ومجمع المعارك.<ts=&quot;3.57;7.1&quot;>إن كان هناك مكان في الكون نجد فيه قطعة<br>لإصلاحك، فهو هنا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "d139faacc3235118510ff2a4fac3d78ca2499f51ea008dae80c1230e66989193",
+      "candidate_sha256": "f66da6a5ca468f0b0eb7f9bc934e4b249a593ef9c5cca68e7c80ef0d03636e2a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21954,
@@ -961,13 +1449,21 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.039;2.012&quot;>أمم، التصنع مبالغ فيه.",
-    "arabic_edit": "<ts=&quot;0.039;2.012&quot;>أمم، التصنع مبالغ فيه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.039;2.012&quot;>أمم، التكتم مبالغ في تقديره.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "59458008f923bf3100ae14b7b91ea5842c7f1d88c762d8016ec0d285a848b32e",
+      "candidate_sha256": "b2f0b44ed78467766ae7ef25f35ec3cfec475090cfaa5a97c9def10d3ad1af4c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21955,
@@ -976,14 +1472,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;2.1&quot;>،زوركي عادة خلف الحانة<ts=&quot;4.319;4.955&quot;>سيعرف بالضبط أين تجد<br>القرصان الذي أبحث عنه.",
-    "arabic_edit": "<ts=&quot;0;2.1&quot;>،زوركي عادة خلف الحانة<ts=&quot;4.319;4.955&quot;>سيعرف بالضبط أين تجد القرصان الذي أبحث<br>عنه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.1&quot;>عادة يكون زوركي خلف المنضدة،<ts=&quot;4.319;4.955&quot;>وسيعرف بالضبط أين أجد القرصان الذي أبحث<br>عنه.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "ae3bd1e5bbadebf62415946618525b22a3add2497c0374720459cdadff095433",
+      "candidate_sha256": "39b6637367d8885254357a787dd4563bae3b9018d0dc05a87060eeffd4d46327",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21956,
@@ -993,13 +1497,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.059;2.412&quot;>يوجد وحدة تحكم على جدار<br>النوافذ الكبير ذلك هناك.<ts=&quot;2.525;3.967&quot;>لا بأس، سأريك!",
     "arabic_edit": "<ts=&quot;0.059;2.412&quot;>يوجد وحدة تحكم على جدار النوافذ الكبير ذلك<br>هناك.<ts=&quot;2.525;3.967&quot;>لا بأس، سأريك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "d00c0e8c11fd1f7b393f2a1903c6771966a8c94b8f6e5475dfa61b3782df0956",
+      "candidate_sha256": "1c3730a00b9744e23b1ca0860a92b52b0213c66ea07f4154261126ae78b36e0a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21957,
@@ -1009,13 +1521,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.029;3.656&quot;>أحيانا؟ لكن لا تقلق، الأمر<br>تحت السيطرة!",
     "arabic_edit": "<ts=&quot;0.029;3.656&quot;>أحيانا؟ لكن لا تقلق، الأمر تحت السيطرة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "6804f215f9fd33557915cacda795c2f1acbde2e167bec5dad69f0b4a3b3bfca0",
+      "candidate_sha256": "6b152e7c22bd4770d8018655e18e936a7d07ea4c2421f8ddec353f0e66e512e2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21958,
@@ -1025,13 +1545,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;2.833&quot;>لا بد أن تعجب بهم لاختراعهم<br>طرقا جديدة للغش دائما!",
     "arabic_edit": "<ts=&quot;0.049;2.833&quot;>لا بد أن تعجب بهم لاختراعهم طرقا جديدة<br>للغش دائما!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "64a16f8b8e82f9bdf6d51fe70a3d8d222584ccc66c7cd80fc3b212d709733b9a",
+      "candidate_sha256": "b0911737ba7759a4223cfeb81b518d561a6e3a00c2694475d44672163f8f7b2e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21959,
@@ -1041,13 +1569,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.669;3.233&quot;>لماذا اندهشت من هرب بيير من<br>معركة؟",
     "arabic_edit": "<ts=&quot;0.669;3.233&quot;>لماذا اندهشت من هرب بيير من معركة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "890185bac721d81d316ad92f6d4659ce7bbc1b3c4da8b35b46a8dd93d643ee53",
+      "candidate_sha256": "cee0a4f8da0c89239b823b610d254e1cf493c87f03e07e3684233a5c9f2ff636",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21960,
@@ -1056,14 +1592,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.035;4.669&quot;>عمل متقن هناك. أراهن أننا<br>نستطيع الفوز بكأس<br>البرونز قبل التوجه إلى<br>بليزار برايم...<ts=&quot;4.669;6.828&quot;>لا مانع عندي عند مسامير<br>إضافية للتسليح.",
-    "arabic_edit": "<ts=&quot;0.035;4.669&quot;>عمل متقن هناك. أراهن أننا نستطيع الفوز<br>بكأس البرونز قبل التوجه إلى بليزار<br>برايم...<ts=&quot;4.669;6.828&quot;>لا مانع عندي عند مسامير إضافية للتسليح.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.035;4.669&quot;>أحسنت هناك. أراهن أن بإمكاننا الفوز بالكأس<br>البرونزية قبل التوجه إلى بليزار برايم...<ts=&quot;4.669;6.828&quot;>ستفيدنا المسامير الإضافية في تجهيز<br>أسلحتنا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "ce3110b1144ab0aff6a195cad466804de2fa7c111bcb7f19835911888c10cce9",
+      "candidate_sha256": "e7f191de4d2f0dc3a633d6987375e2e294d1af7c6a2ef08b4d7fdae66ccb59dc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21961,
@@ -1072,14 +1616,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;0.35&quot;>إذن!<ts=&quot;0.88;1.93&quot;>هذا، أمم...<ts=&quot;2.469;4.19&quot;>حانة زوركيز!<ts=&quot;9.92;10.28&quot;>ملهى<ts=&quot;10.5;10.863&quot;>مشبوه عند حافة الكون، وحيث<br>لحسن حظنا نجد قرصانا<br>يدين لي بمضخم إشارة.",
-    "arabic_edit": "<ts=&quot;0;0.35&quot;>إذن!<ts=&quot;0.88;1.93&quot;>هذا، أمم...<ts=&quot;2.469;4.19&quot;>حانة زوركيز!<ts=&quot;9.92;10.28&quot;>ملهى<ts=&quot;10.5;10.863&quot;>مشبوه عند حافة الكون، وحيث لحسن حظنا نجد<br>قرصانا يدين لي بمضخم إشارة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.35&quot;>إذًا!<ts=&quot;0.88;1.93&quot;>هذه، أمم...<ts=&quot;2.469;4.19&quot;>حانة زوركي! إنها مكان<ts=&quot;9.92;10.28&quot;>تجمع<ts=&quot;10.5;10.863&quot;>مشبوه عند حافة الكون، حيث يمكننا، لحسن<br>حظنا، العثور على قرصان يدين لي بمقوي<br>إشارة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "82f573fb2a9a3c86efa5b428ac898a5c25fdd489ab4cb51f45f94be03a25130d",
+      "candidate_sha256": "b48b7ef802683da822b1d4146a7e150abb76edea01246c135999d3f4b4e6bcb4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21962,
@@ -1089,13 +1641,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.047;2.938&quot;>لا تقلق يا مسامير.<br>سأصلحك. أعدك.",
     "arabic_edit": "<ts=&quot;0.047;2.938&quot;>لا تقلق يا مسامير. سأصلحك. أعدك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "d6e0628024f47033aca68d803aea8c0ef1d90a5495508349539de9053e1605e7",
+      "candidate_sha256": "875aa06603434ad95d132ccbb25d1247b27f906c3840bd5529ba361ff9828a8b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21963,
@@ -1105,12 +1665,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.066;0.67&quot;>واو...",
     "arabic_edit": "<ts=&quot;0.066;0.67&quot;>واو...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "a954a4dc319389cc27ec607c8ba7bfca52774fdc19ed4296538e40ebd151147e",
+      "candidate_sha256": "077ce0ec43610de8e4ecbbf1afc76de346f17d8dd61df5bb149b4f13b63855f8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21964,
@@ -1120,13 +1688,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.047;3.477&quot;>أجل. هذا المكان أشبه بملاذ آمن<br>للمقاومة...<ts=&quot;3.477;5.981&quot;>آمل ألا يكون الإمبراطور قد<br>اكتشف هذا هو الآخر.",
     "arabic_edit": "<ts=&quot;0.047;3.477&quot;>أجل. هذا المكان أشبه بملاذ آمن للمقاومة...<ts=&quot;3.477;5.981&quot;>آمل ألا يكون الإمبراطور قد اكتشف هذا هو<br>الآخر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "d0f5781cbe81aac1e12afd19ca60b18c5889b11d7f8de2202aef069f59b8ccf2",
+      "candidate_sha256": "701eb418dc2f8cba0fbcdba7b9a9868bf2b9e717d9331feb8011fc45d19760d0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21965,
@@ -1135,14 +1711,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.92&quot;>زوركي عادة خلف الحانة.<br>سيعرف أين تجد القرصان<br>الذي يملك القطع<br>الاحتياطية.",
-    "arabic_edit": "<ts=&quot;0;3.92&quot;>زوركي عادة خلف الحانة. سيعرف أين تجد<br>القرصان الذي يملك القطع الاحتياطية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.92&quot;>عادة يكون زوركي خلف المنضدة. سيعرف أين نجد<br>القرصان الذي يملك قطع الغيار.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "e097454c1b8da8c206889c8c0b848ac63e271215356dd13e77ead016b9190afd",
+      "candidate_sha256": "26cab598b2d188bcea884cc002e792986791c03cc2f5d94c21b1dcf65156edcd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21966,
@@ -1152,12 +1736,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.038;2.342&quot;>واو! ساحة المعركة...",
     "arabic_edit": "<ts=&quot;0.038;2.342&quot;>واو! ساحة المعركة...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "5f01eac042a4ec7fd8769b493933c8dd934874e8e9848a37ab8b8d23a3654f17",
+      "candidate_sha256": "c3c67e339ced961eca84eec00cd3fd7f0f0028bc276524bb4b80305a2fa9863b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21967,
@@ -1166,14 +1758,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.044;4.447&quot;>علينا التسجيل للقضاء<br>على أولئك القراصنة. لا<br>تقلق، سأفوز لك تلك<br>القطعة.",
-    "arabic_edit": "<ts=&quot;0.044;4.447&quot;>علينا التسجيل للقضاء على أولئك القراصنة.<br>لا تقلق، سأفوز لك تلك القطعة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.044;4.447&quot;>علينا التسجيل لمواجهة أولئك القراصنة. لا<br>تقلق، سأفوز لك بتلك القطعة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "550aecd2711f2a44ad632bc28b217f8723196f0c36bcb5f008c515ddc400b510",
+      "candidate_sha256": "14848cce2c1a23e4cdec144ddc8a9201c0cb2470b4a25eb9a8498e3f624ae86d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21968,
@@ -1182,14 +1782,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.065;2.634&quot;>لا يهم. سأحصل على مقوم<br>الإشارة ذاك.",
-    "arabic_edit": "<ts=&quot;0.065;2.634&quot;>لا يهم. سأحصل على مقوم الإشارة ذاك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.065;2.634&quot;>لا يهم. سأحصل على مقوي الإشارة ذاك.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "4af9d71f40ce41f42526cc6850120a84ae7baa97dfeeaf5ec1bfcbe71efc8d28",
+      "candidate_sha256": "052b7c9a487d9d3837ae1127f26f7852a43788dc8c335e640b1d14a5756cf0ca",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21969,
@@ -1198,14 +1806,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.047;4.527&quot;>واو— «راتشت». من كان<br>؟—يتخيل",
-    "arabic_edit": "<ts=&quot;0.047;4.527&quot;>واو— «راتشت». من كان ؟—يتخيل",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.047;4.527&quot;>واو... «راتشت». من كان ليتخيل...؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "2965efe212faf642316645375d4daa3e93a799524a2312ceae0488a1731d71cd",
+      "candidate_sha256": "821e95b5ff09400c28bf2ecdd8109b58b355cbf0a1e8e7b10ab64a867930039f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21970,
@@ -1215,13 +1831,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.031;3.207&quot;>صرت هادئا قليلا في<br>الخلف... كل شيء بخير؟",
     "arabic_edit": "<ts=&quot;0.031;3.207&quot;>صرت هادئا قليلا في الخلف... كل شيء بخير؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "1d42fbaf3d552c26afb110aeaa8695b7e71084968c85f0051a3c8e3329c94f04",
+      "candidate_sha256": "f1e952afe2c152fc1ecc3ac9785f314e270c94b74739b5915b0d9ffe549c1ccb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21971,
@@ -1230,14 +1854,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;3.12&quot;>لنذهب إلى بليزار برايم ونر<br>إن وجدنا كوارتز المرحلة.",
-    "arabic_edit": "<ts=&quot;0.049;3.12&quot;>لنذهب إلى بليزار برايم ونر إن وجدنا كوارتز<br>المرحلة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.049;3.12&quot;>لنذهب إلى بليزار برايم ونر إن كان بإمكاننا<br>العثور على كوارتز الطور.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "0097ce4910b1b7aeb73d4b3d70c78b9606118e1c17f92899e41c966bd42ded9f",
+      "candidate_sha256": "a135c16240f123731531d44bca8b5dcd63f94f8c1be187d5ff7eec3be1849eab",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21972,
@@ -1247,13 +1879,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.053;5.531&quot;>إنه غير مؤذ... حسنا، معظم<br>الوقت. فقط *مزعج* للغاية.",
     "arabic_edit": "<ts=&quot;0.053;5.531&quot;>إنه غير مؤذ... حسنا، معظم الوقت. فقط<br>*مزعج* للغاية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "f6821a62e27cd0a65a756f56a686e1e9e5bc38c3a05ba55a3cb871f9a8f4446f",
+      "candidate_sha256": "9f6df8f97d43c8548685747c481dbc51ca467e09ea68a1267cbc0a6bcc2972d3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21973,
@@ -1263,13 +1903,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.045;3.32&quot;>أنت *تبدو* نافد الصبر. لا<br>تقلق، أنا قادمة.",
     "arabic_edit": "<ts=&quot;0.045;3.32&quot;>أنت *تبدو* نافد الصبر. لا تقلق، أنا قادمة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "80691ded4d58382a5041194e60c8cb087676258ee5e0892514b4d4c3a3c94c4a",
+      "candidate_sha256": "9a8f9940b999b52a18e0daa6a993cedf1258495269f6fa82c5c6ffe36715361c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21974,
@@ -1278,14 +1926,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.046;2.558&quot;>يبدو إنك ستحتاج شريكا<br>جديدا يا بيير!",
-    "arabic_edit": "<ts=&quot;0.046;2.558&quot;>يبدو إنك ستحتاج شريكا جديدا يا بيير!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.046;2.558&quot;>يبدو أنك ستحتاج إلى شريك جديد يا بيير!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-equivalent-001",
+      "source_sha256": "4fc417a2561849d330c2d6e6554ae637806e16715662b9eba1b8218a7bc2c6c5",
+      "candidate_sha256": "69a093f1faaad0b181b4ce2d710611ea6e630aefa90b81d37277647e137fa21f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21976,
@@ -1295,12 +1951,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;0.856&quot;>كدت أمسك به...",
     "arabic_edit": "<ts=&quot;0.049;0.856&quot;>كدت أمسك به...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-equivalent-001",
+      "source_sha256": "d7b98b6ff6886043992d542ec905fafe057352c460a845eb63ee5f08d0b97b90",
+      "candidate_sha256": "274ba157a8282a47690039f8c0c9c8962cb227669cd61c8d2c427fced52ad358",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21978,
@@ -1310,12 +1974,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.043;2.302&quot;>... في القمة؟ بالتأكيد.",
     "arabic_edit": "<ts=&quot;0.043;2.302&quot;>... في القمة؟ بالتأكيد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "227dc9466bd637e8b1725ff6ca74064e83e1829560ad058f30fba6f082f0de29",
+      "candidate_sha256": "ea56837ef0cd3ac5b0a8bceea28570a86a4ae4a5ade6861e5ae47e9402898dae",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21979,
@@ -1324,14 +1996,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.021;3.247&quot;>أممم، حانة زوركيز عمل عائلي.<ts=&quot;3.247;7.264&quot;>هو يدير الحانة، و*السيدة*<br>زوركون ترعى تلك الساحة.<ts=&quot;7.264;10.622&quot;>أما *زوركي الابن* فهو<br>للساحة —المهذب—المذيع.",
-    "arabic_edit": "<ts=&quot;0.021;3.247&quot;>أممم، حانة زوركيز عمل عائلي.<ts=&quot;3.247;7.264&quot;>هو يدير الحانة، و*السيدة* زوركون ترعى تلك<br>الساحة.<ts=&quot;7.264;10.622&quot;>أما *زوركي الابن* فهو للساحة<br>—المهذب—المذيع.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.021;3.247&quot;>حسنًا، حانة زوركي مشروع عائلي.<ts=&quot;3.247;7.264&quot;>هو يدير الحانة، والسيدة زوركون ترعى<br>الساحة.<ts=&quot;7.264;10.622&quot;>أما زوركي الابن فهو مذيع الساحة... الساحر.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "073b5cabe750ee2ce3b5049c308ba0d4cd85cbbc3524b0050b6e9beade6408c1",
+      "candidate_sha256": "cffc1a85f6a0b919ce0f4bcc15bc7ee83ecbe3943febcd1b44f2079834fce40e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21980,
@@ -1341,12 +2021,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.049;1.853&quot;>تعبتم من الخسارة بعد؟!",
     "arabic_edit": "<ts=&quot;0.049;1.853&quot;>تعبتم من الخسارة بعد؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "7eb29b2a6cb4dd724b73484299e385eb430cd19556657b58060b610c0419c07f",
+      "candidate_sha256": "0efa7ae8ea2732308f8dca9cf6a1206ddb64b643565399869a95d4beaa6f2dd8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21981,
@@ -1356,13 +2044,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.019;2.793&quot;>أعني طبعا، كنا كلنا نعرف أنها<br>لن تكون سهلة!",
     "arabic_edit": "<ts=&quot;0.019;2.793&quot;>أعني طبعا، كنا كلنا نعرف أنها لن تكون<br>سهلة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "a467969979f34738a790a48792397f907d3be5cc6c1bf3e29fc838cd79f268ac",
+      "candidate_sha256": "c78c40a75746eb16237dea09d00ac35ba30f6e6a73d737380b6701283048638d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21982,
@@ -1372,12 +2068,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;3.869&quot;>واحد من أندر المعادن في الكون.",
     "arabic_edit": "<ts=&quot;0;3.869&quot;>واحد من أندر المعادن في الكون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "561fa5f320b0efc090d759a011382a00d415ef25a4dca4c919c430a15ad9fdf3",
+      "candidate_sha256": "a9d3c46e088926b5962b2d7dc7548718206d048b0e3d39b0324327deaa28e0c6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21983,
@@ -1387,12 +2091,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.047;1.623&quot;>صحيح.",
     "arabic_edit": "<ts=&quot;0.047;1.623&quot;>صحيح.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "f6b16d1b33b15964d10db1dc4c9731a71530a1df8b7210ca59fef902457fe048",
+      "candidate_sha256": "a1715f74bedaa6e2e2a9bb15b0805549e7687d105f309ed4f75a245aa6b9ff5f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21984,
@@ -1402,13 +2114,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.043;3.88&quot;>وصفة عصير الليمون عند<br>مورت تتقدم ببطء شديد.",
     "arabic_edit": "<ts=&quot;0.043;3.88&quot;>وصفة عصير الليمون عند مورت تتقدم ببطء<br>شديد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "5ff6ed14751241bb84185c36d84e183a4c4556fb6efccbe49cc5644d0188f509",
+      "candidate_sha256": "ce07bbacbbdc21ff8b1eeeafdb6d8a8c592f17aa6ed2bf8553a4ff1843f6e393",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21985,
@@ -1418,13 +2138,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.041;2.438&quot;>أظن أنني اعتدت على هذا<br>بحلول الآن.",
     "arabic_edit": "<ts=&quot;0.041;2.438&quot;>أظن أنني اعتدت على هذا بحلول الآن.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "47ec28f0055edcd810265cedd3c50a369bd5308e2295c16f5924bf71170adb44",
+      "candidate_sha256": "2386f3a48a808500110bb3c0cf2fc4195d04b00cac04d5defa523e44cc9abece",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24598,
@@ -1434,13 +2162,21 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0;4.75&quot;>اشتريت للتو ثمانية عشر<br>رطلا من الخردة من القراصنة.<br>نادرة جدا.",
     "arabic_edit": "<ts=&quot;0;4.75&quot;>اشتريت للتو ثمانية عشر رطلا من الخردة من<br>القراصنة. نادرة جدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "9788d82593518f5547e5dd5e1cb9226de0c2fb09e0c3fef6448e4cd23e73ff97",
+      "candidate_sha256": "31dedd90b642ca83f52390466e4c00c2b278afd23eb54cf37fd2e1a50ad84ab5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24599,
@@ -1449,14 +2185,22 @@
     "speaker_code": "VLRD1",
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.087;6.298&quot;>لا --لا! لن أكون قد أنفقت كل<br>مدخراتي على أغراضي الخاصة!",
-    "arabic_edit": "<ts=&quot;0.087;6.298&quot;>لا --لا! لن أكون قد أنفقت كل مدخراتي على<br>أغراضي الخاصة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.087;6.298&quot;>أنا... لا! لم أكن لأنفق كل مدخراتي على<br>أغراضي أنا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "6fef2432bf756ffa92a8a5b7a75b22fa95e9bf5796731b8293dee2bf74b280af",
+      "candidate_sha256": "4e6ce28dbde236419ea87821627367a3c8f6b71ff571d10e0837e8f16233cdc6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24617,
@@ -1466,12 +2210,20 @@
     "scene_code": "ZURK_GP1_GAMEPLAY",
     "arabic_current": "<ts=&quot;0.066;4.702&quot;>أوه، ألم يكونوا... هه، هل هذه هي<br>الزخارف التي سرقوها من كومك<br>قبل أسبوع؟",
     "arabic_edit": "<ts=&quot;0.066;4.702&quot;>أوه، ألم يكونوا... هه، هل هذه هي الزخارف<br>التي سرقوها من كومك قبل أسبوع؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "9ab72486b263e39d45843b326f538502c5633e1bee25ba268ac6f551f7625744",
+      "candidate_sha256": "79616965248808202a51b74c9417ee2d969127b20f2a0c3e4e06ebb3c2bfe766",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

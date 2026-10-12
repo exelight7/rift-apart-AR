@@ -7,13 +7,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_TAKEDOWN",
     "arabic_current": "<ts=&quot;0.036;1.923&quot;>يا سلام، من أين تعلمت<br>كيف--",
     "arabic_edit": "<ts=&quot;0.036;1.923&quot;>يا سلام، من أين تعلمت كيف--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "e806ad542fedcddece798468b26641c4466e7944c04fe19dc63d9c1b2e1bace4",
+      "candidate_sha256": "13a3bcf60eb1f7ff0ac526922d1bfc19b44294ae42279ed571bb2828a802331d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16337,
@@ -23,13 +31,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_TAKEDOWN",
     "arabic_current": "<ts=&quot;0;2.1&quot;>يبدو أنني لمست عصبا<br>حساسا.<ts=&quot;2.23;3.75&quot;>حسنا، الاتفاق اتفاق.",
     "arabic_edit": "<ts=&quot;0;2.1&quot;>يبدو أنني لمست عصبا حساسا.<ts=&quot;2.23;3.75&quot;>حسنا، الاتفاق اتفاق.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "1164f716fd5d0f45574479cb0221e49c46bbae2f2d0d9e99eb6b4f8001b3770f",
+      "candidate_sha256": "32aa818c26ade270e546a838b5c9e65e3ef5c05b533f89b2d8dccd44c5892136",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16338,
@@ -38,14 +54,22 @@
     "speaker_code": "PHAN",
     "scene_code": "CORV_GP2_CINE_NEFCITY_TAKEDOWN",
     "arabic_current": "<ts=&quot;0.099;4.527&quot;>هذه هي جليتش. ستساعدك<br>على ركوب عبارة الإمبراطور<br>الخاصة المتجهة إلى البرج.",
-    "arabic_edit": "<ts=&quot;0.099;4.527&quot;>هذه هي جليتش. ستساعدك على ركوب عبارة<br>الإمبراطور الخاصة المتجهة إلى البرج.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.099;4.527&quot;>هذه جليتش. ستساعدك على ركوب مكوك<br>الإمبراطور الخاص المتجه إلى البرج.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "851333bac9fd14607fc9e594b2572b44b3119ce479b9dec42d7c068f15d80c2a",
+      "candidate_sha256": "c10888c54819117e223f2f47dafc21f6dc5b33c13a73c2e81a1ebf6d7ee2f936",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16339,
@@ -55,13 +79,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_TAKEDOWN",
     "arabic_current": "<ts=&quot;0;4.16&quot;>طرفية الوصول موجودة في<br>تمثال نيفاريوس الضخم<br>وسط المدينة.<ts=&quot;4.16;6.778&quot;>فقط صلها، وستتولى<br>الباقي.",
     "arabic_edit": "<ts=&quot;0;4.16&quot;>طرفية الوصول موجودة في تمثال نيفاريوس<br>الضخم وسط المدينة.<ts=&quot;4.16;6.778&quot;>فقط صلها، وستتولى الباقي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "60a87c3f0d90f2c5f5f551e89322b5c9f2eb573f0a1ad6b4cc2c47e07fe406b0",
+      "candidate_sha256": "d18d08df6b9dfb35e5d6ade0753272d7d2f95d1f1d7b348e415d91093b538f3a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16340,
@@ -71,13 +103,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_TAKEDOWN",
     "arabic_current": "<ts=&quot;0;3.75&quot;>لأفكك هذا العالم الفاسد من<br>الداخل.",
     "arabic_edit": "<ts=&quot;0;3.75&quot;>لأفكك هذا العالم الفاسد من الداخل.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "ffaa32bb8b243b52965163c4ca3e0eacb6fea2ab9c6fd999d0524244442bcd1e",
+      "candidate_sha256": "0c9ce115742fdd03cfafd148abb82865254235e68ec1576468f0e3534eee5889",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16341,
@@ -87,12 +127,20 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_TAKEDOWN",
     "arabic_current": "<ts=&quot;0;1.5&quot;>اصمد يا أخي!",
     "arabic_edit": "<ts=&quot;0;1.5&quot;>اصمد يا أخي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "d564392f11efc8c4b507b22fd0de3e5fb89ae951ce9e133190b8f2dda38c5b56",
+      "candidate_sha256": "d3f28e46077583a499a87b56aec12b0dda98c6da424bb6882ffab5983b03b175",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19207,
@@ -102,11 +150,19 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_TAKEDOWN",
     "arabic_current": "<ts=&quot;0.04;0.945&quot;>ماذا تفعل؟",
     "arabic_edit": "<ts=&quot;0.04;0.945&quot;>ماذا تفعل؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "d5417cc2a71cc734aaa4e9e1d7effe28cc5329a3df8bbf2de363b8c68c9e6c72",
+      "candidate_sha256": "70493924d8b9e20ce8b3231316945c0eb33e3848e6e704b1c9e2907b77ddf417",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

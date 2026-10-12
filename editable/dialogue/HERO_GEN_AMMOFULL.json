@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_AMMOFULL",
     "arabic_current": "<ts=&quot;0.049;0.878&quot;>حصلت على ما يكفي من هذا.",
     "arabic_edit": "<ts=&quot;0.049;0.878&quot;>حصلت على ما يكفي من هذا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "7921df2dab6fb362a954556cdc9f1789d656b77549ad63d7af59bebee16c770a",
+      "candidate_sha256": "aa755e3f766163093f196ae564a1ce942289622ff57ee8b5176187bc7276e1cc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20715,
@@ -22,12 +30,20 @@
     "scene_code": "HERO_GEN_AMMOFULL",
     "arabic_current": "<ts=&quot;0;1.112&quot;>لا أحتاج هذا بعد.",
     "arabic_edit": "<ts=&quot;0;1.112&quot;>لا أحتاج هذا بعد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "0715f0ff83a027fdc7d06bd891c5d34ea90989c18ab4137de962a5ef5074307d",
+      "candidate_sha256": "85a86279242f0b0df403538e5a667fb66099770e04b261757f95d65556877c10",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20716,
@@ -37,12 +53,20 @@
     "scene_code": "HERO_GEN_AMMOFULL",
     "arabic_current": "<ts=&quot;0;0.985&quot;>عندي كفاية من هذا.",
     "arabic_edit": "<ts=&quot;0;0.985&quot;>عندي كفاية من هذا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "5fa04358df8a0acd28c2c5022babe2f5ea6b059fbaa4ac81015ae4dcfdf196eb",
+      "candidate_sha256": "4ee43971aae1b4b39cc6a675976be56ff563f5240f2251360a53b05329ff0b7c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20717,
@@ -52,11 +76,19 @@
     "scene_code": "HERO_GEN_AMMOFULL",
     "arabic_current": "<ts=&quot;0;0.7&quot;>ممتلئ.",
     "arabic_edit": "<ts=&quot;0;0.7&quot;>ممتلئ.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "1be9ce4202c8a3b6ac655d31d779e8aef4128fdf0f130aedd8fee7dff73ded69",
+      "candidate_sha256": "edfe9e2a8c459f357343fce733e5cb35455eda305cc1d85ed1eb0962c8b71650",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

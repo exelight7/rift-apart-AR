@@ -7,11 +7,19 @@
     "scene_code": "CIV_GEN_SHATTSOON",
     "arabic_current": "<ts=&quot;0.04;2.14&quot;>قنابل التحطيم في الطريق!",
     "arabic_edit": "<ts=&quot;0.04;2.14&quot;>قنابل التحطيم في الطريق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "0f7f7e724d4429a612323ea49dbfbfc48feb76e78c4fba81eb7d090f7f61ffb5",
+      "candidate_sha256": "9776d700539838c22ef8e829f77a044aa668a6081b40dfef39241f700e67e1eb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

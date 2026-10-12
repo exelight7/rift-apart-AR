@@ -7,12 +7,20 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_AIM] للتصويب",
     "arabic_edit": "اضغط [BTN_AIM] للتصويب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "507da498ce2a6ced5be601ab15553c976f24166dfa5ca30a21b06bb4096a8865",
+      "candidate_sha256": "96fe10c28e8fbef71cef45974bce1cdbbb0d3f7615e80984dd040151943c70cd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24132,
@@ -21,14 +29,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "ازر [BTN_AIM] مع [BTN_LOOK]<br>للتصويب، و[BTN_FIRE]<br>للإطلاق",
-    "arabic_edit": "ازر [BTN_AIM] مع [BTN_LOOK] للتصويب، و[BTN_FIRE] للإطلاق",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "[BTN_AIM] + [BTN_LOOK] للتصويب، و[BTN_FIRE] للإطلاق",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "ac053f5d1c20f42464983853183f42e6978360a05ae3f00ac0a95c8a8cc0807a",
+      "candidate_sha256": "7a08faa80bea01262c7548a4344c77da7abb61b851c1293411f7d1ac0e6790c9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24133,
@@ -38,13 +54,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_AIM] وحرك [BTN_LOOK]<br>للتصويب",
     "arabic_edit": "استمر بالضغط على [BTN_AIM] وحرك [BTN_LOOK] للتصويب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "6c0d201cbcde8fbafbb6de62398b350291a72cb2faf7331b3e8965e75599a9a8",
+      "candidate_sha256": "1c9758e05de9920838c7b4b77f36324933e6738d25905b9aef269a85ce9e1ff0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24134,
@@ -53,14 +77,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] ثم<br>[BTN_DASH] للاندفاع الطيف<br>الهوائي عبر الماسحات",
-    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_DASH] للاندفاع الطيف الهوائي<br>عبر الماسحات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_DASH] لتنفيذ اندفاع طيفي في الهواء<br>عبر الماسحات",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "6ce7b76bd042c47c58899673f8b776e4a700c91930788867d317a72d340146a7",
+      "candidate_sha256": "06064130d891ac46800dd1f53a214bf751542021783bdf4fdba6ce20e3f74af1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24135,
@@ -70,13 +102,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MELEE] لضرب<br>بلورة البليزون",
     "arabic_edit": "اضغط [BTN_MELEE] لضرب بلورة البليزون",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "389938c8130f73e882947e5e73f2ab0f163dcffe72b14d42f4c60ebd65d26496",
+      "candidate_sha256": "c924ed7ba94444ee797e87d2a58ccd85596f196f84f76c0be031ce61003947ff",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24136,
@@ -85,14 +125,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MELEE] للتعلق<br>بمرفق المسامير",
-    "arabic_edit": "اضغط [BTN_MELEE] للتعلق بمرفق المسامير",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_MELEE] للإمساك بذراع التدوير",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "13b50d4266d3ff11a3780ff20fe1c7556674fd3d8b29a44aca893a81f91078fc",
+      "candidate_sha256": "fc90ebbb29ebc1bf6824845434cbe461e45eca4d47698fc65417f0bf9f0097ae",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24137,
@@ -101,14 +149,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استعمل [BTN_MOVE] لتدوير<br>مرفق المسامير",
-    "arabic_edit": "استعمل [BTN_MOVE] لتدوير مرفق المسامير",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استخدم [BTN_MOVE] للف ذراع التدوير",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "dc08a841fbe542b08c5a910519298bda699058a58cb5e8a3cdefb3e1916d5a36",
+      "candidate_sha256": "7b7859e6702d8a141336f7dbb494d7124b751b975c60855451e513202dc56a14",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24138,
@@ -117,14 +173,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] للقفز<br>على فتحات النط",
-    "arabic_edit": "اضغط [BTN_JUMP] للقفز على فتحات النط",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_JUMP] للقفز على فتحات الوثب",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "74c85f9a70985cd087c678f54ebfef5b5a90b0480077de36ff54a893e7d5e1eb",
+      "candidate_sha256": "32719ac44ab844e15a733f3cedec4c07654df17b3bbcb70856952cece3c6c6ac",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24139,
@@ -134,13 +198,21 @@
     "scene_code": "",
     "arabic_current": "حطم المذبح لتحصل على<br>اللورب",
     "arabic_edit": "حطم المذبح لتحصل على اللورب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "67850febb08c6a38cbaca3e1039d46889abe7d25263072aac31644921b1ce58a",
+      "candidate_sha256": "787ea753be5e8eaeab99334d2577b5b56bcb31503b92daa33b59bab8da370306",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24140,
@@ -150,13 +222,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على [BTN_LT]<br>لركوب الثور الآلي",
     "arabic_edit": "استمر بالضغط على [BTN_LT] لركوب الثور<br>الآلي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "873119825ebf95ebdf0b6cd1cd0a00aaa0c7bd8ad16ecb990cf55c8bacf94781",
+      "candidate_sha256": "a8952f159deed795b15479a12cdb1d0b105138d40c5a8474885001c757ca29d2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24141,
@@ -166,13 +246,21 @@
     "scene_code": "",
     "arabic_current": "استعمل المسامير لشراء<br>الأسلحة من السيدة زوركون",
     "arabic_edit": "استعمل المسامير لشراء الأسلحة من<br>السيدة زوركون",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "ba30a6ddef41ab5c6438a5e7c8f109ca88def797bd81f2ded5e2e10393f10c17",
+      "candidate_sha256": "10c978d0900a15c5889f356d27b888d70414ceeff221a0ff595b12ae0618d922",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24142,
@@ -182,12 +270,20 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_AIM] للتصويب",
     "arabic_edit": "اضغط [BTN_AIM] للتصويب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "507da498ce2a6ced5be601ab15553c976f24166dfa5ca30a21b06bb4096a8865",
+      "candidate_sha256": "96fe10c28e8fbef71cef45974bce1cdbbb0d3f7615e80984dd040151943c70cd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24143,
@@ -197,12 +293,20 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_FIRE] لترمي كرة",
     "arabic_edit": "اضغط [BTN_FIRE] لترمي كرة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "27215cbac99e2996d5a049409709d4dc91e51fbfae24859ac4905971655a197b",
+      "candidate_sha256": "e8f6bc4d96579da06b8decd16b5d27bbece4015815fbd609b05293df47cc8bdb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24144,
@@ -211,14 +315,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_FIRE] لترمي<br>الكرات أو تستدعيها",
-    "arabic_edit": "اضغط [BTN_FIRE] لترمي الكرات أو تستدعيها",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_FIRE] لرمي الكرات أو استعادتها",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "e672cfbc52f5fd309d6ca2bdd9679310da0e98377ac03d47df3e0f42a0763e56",
+      "candidate_sha256": "7e64c97584cb332cf22bbb4abfa336c129e253b0b298e6b4d18303f565b3a48a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24145,
@@ -228,12 +340,20 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MELEE] لتلكم",
     "arabic_edit": "اضغط [BTN_MELEE] لتلكم",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "eda7b17582226a0be364b53fe8d5d216be5cc3ffc7840dde549f68eddfc0377d",
+      "candidate_sha256": "dc74a036a644299fcd14b4111e1f5aa1263d462ecf9d3f648af0cef676623646",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24146,
@@ -242,14 +362,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_FIRE] لاستدعاء<br>الكرة",
-    "arabic_edit": "اضغط [BTN_FIRE] لاستدعاء الكرة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_FIRE] لاستعادة الكرة",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "5fb1f350bcaf00ee4a7c7c6034acab0b805d48026de0548cf64fca95123ca070",
+      "candidate_sha256": "8594fa3d55f072610cace55e0f9047b7ebcc02f54d2e5cecef9d05d3de1c7c68",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24147,
@@ -258,14 +386,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استدع كرة بالنظر إليها<br>والضغط على [BTN_LB]",
-    "arabic_edit": "استدع كرة بالنظر إليها والضغط على<br>[BTN_LB]",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استعد الكرة بالنظر إليها والضغط على [BTN_LB]",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-001",
+      "source_sha256": "0da22065f45d7a488314ce70b525db989415abd893a924a3d6675872afd58e34",
+      "candidate_sha256": "0e2d6b882e9554e131bc3eea60a8bc5abadf31744a71b16b578af9272b43b28d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24148,
@@ -275,13 +411,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWAP_WEAPONS]<br>لتبديل الكرة المجهزة",
     "arabic_edit": "استمر بالضغط على [BTN_SWAP_WEAPONS] لتبديل الكرة<br>المجهزة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "f7c7bc257a16afd7188e116169fbaf300b3b660058361424e8bf787d1ab1b541",
+      "candidate_sha256": "403cec144fa86d5ffa94dfa4c49fb15d5344072f3939a48775350894baa88a9f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24149,
@@ -291,13 +435,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_B] لمشاهدة<br>فيديو التلميح",
     "arabic_edit": "اضغط [BTN_B] لمشاهدة فيديو التلميح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "3f944c931c7290abc42b9f88223b0c3ca74e3c81cfb6321cda90a7160d5b11a0",
+      "candidate_sha256": "783d748774de73b688e22fa94a94d199c61280d97a4d4ebf9e57c3b9e3563ec7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24150,
@@ -306,13 +458,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MELEE] للانفصال",
-    "arabic_edit": "اضغط [BTN_MELEE] للانفصال",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_MELEE] للإفلات",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "8c7e715f5c4d252379f5a84dc3d87c98cf6c7cc8ac8318f56f328da2aa8ab529",
+      "candidate_sha256": "444b5e2e3e4995f3f4b4a7d38c549b33620d07c548fac536d236be2489421ef1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24151,
@@ -322,13 +482,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] ثم<br>[BTN_JUMP] في الهواء للقفز<br>المزدوج",
     "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_JUMP] في الهواء للقفز<br>المزدوج",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "1486a6f1349cd70b016567469bd5f5733035fd417479cee34bd1a97a982b59c2",
+      "candidate_sha256": "48d7649994db3b4fa7080a4a0c739dff049ea552bf8644f57a591d168423449d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24152,
@@ -337,14 +505,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يمكنك تعيين<br>[BTN_SHORTCUT_1] أو<br>[BTN_SHORTCUT_2] أو<br>[BTN_SHORTCUT_3] أو<br>[BTN_SHORTCUT_4] في أي<br>وقت للاختيار السريع.",
-    "arabic_edit": "يمكنك تعيين [BTN_SHORTCUT_1] أو [BTN_SHORTCUT_2] أو [BTN_SHORTCUT_3] أو [BTN_SHORTCUT_4] في أي<br>وقت للاختيار السريع.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عيّن [BTN_SHORTCUT_1] أو [BTN_SHORTCUT_2] أو [BTN_SHORTCUT_3] أو [BTN_SHORTCUT_4] للاختيار السريع في<br>أي وقت.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "820d074f626dccab380e37c53b894bf23c8b7f7c43e833a04c75796726b0218d",
+      "candidate_sha256": "fda0b2f415087313f4e60ab0dbef7cbd232ab0aad7cfc7defce75b753954fcf9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24153,
@@ -354,13 +530,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SELECT] لتجهيز<br>الدرع",
     "arabic_edit": "اضغط [BTN_SELECT] لتجهيز الدرع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5dce4020464221a9cf3d80006abdc140907f3bed4e67fb275591ab86c7bc24e9",
+      "candidate_sha256": "c7b3be70f8e0b4d9d71750622cd8bcca2bf288110af25e648205bd061bb569e1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24154,
@@ -370,13 +554,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [BTN_MOVE] مع<br>[BTN_FLY] لتوجيه ترودي",
     "arabic_edit": "استعمل [BTN_MOVE] مع [BTN_FLY] لتوجيه ترودي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "08e6eb4ea46e8648e1aa93a9155acad178883fd10c18c11ecc0d2b320105736f",
+      "candidate_sha256": "7941a2a4474a1025280ed861d7931523b9582cc5390fd0f27857992fbe064274",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24155,
@@ -385,14 +577,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_START] لعكس<br>عناصر تحكم الطيران أو<br>تغيير عصي الطيران في<br>الإعدادات.",
-    "arabic_edit": "اضغط [BTN_START] لعكس عناصر تحكم الطيران أو<br>تغيير عصي الطيران في الإعدادات.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_START] لعكس اتجاه تحكم الطيران أو تغيير<br>عصي التحكم المخصصة للطيران من الإعدادات.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "4ecccb0cdde9d4782b8a8f125d1b3a7121a69f7fc2e76fc645f00cb07e213af2",
+      "candidate_sha256": "1f71b16187741876204a2f6d025ca9e50590bf22fb15018bf67175d129600345",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24156,
@@ -402,12 +602,20 @@
     "scene_code": "",
     "arabic_current": "إعدادات تحكم ترودي",
     "arabic_edit": "إعدادات تحكم ترودي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "74c8567e27352e3821465ac93e9f2b729c83b24b1b1200ae151a85cbb4717f13",
+      "candidate_sha256": "389a6e35cb703ae1163ccc573be19b66b43fd02bd29dafee52a04b6533405397",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24157,
@@ -416,13 +624,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "أصبحت ترودي قادرة على<span class='emphasis'>إطلاق النار</span>على الزوربستون لجمعها!",
-    "arabic_edit": "أصبحت ترودي قادرة على<span class='emphasis'>إطلاق النار</span>على الزوربستون لجمعها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أصبحت ترودي قادرة على <span class='emphasis'>إطلاق النار</span> على أحجار الزورب لجمعها!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "b15ce36844b7dbaa054c1da40ae0f7f89e7559031c8457c387384d9eba5184d0",
+      "candidate_sha256": "cb616d25f75cb348b6b1fd486401f80e369374ca10aaefd50ce31837f4f38a66",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24158,
@@ -431,14 +647,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] ثم<br>[BTN_MELEE] في الهواء لسحق<br>السلاح القريب",
-    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_MELEE] في الهواء لسحق السلاح<br>القريب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_MELEE] في الهواء لتنفيذ ضربة أرضية<br>بسلاح الاشتباك",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "cb82b58ad58c490d07027cd781780f6436c7d2ae91a32035f3fcafa620368f99",
+      "candidate_sha256": "201591de318308ffdf817e313c88146ce15eb3a65bdceb23ed34b9d95801d9ba",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24159,
@@ -447,14 +671,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_HOVERBOOT] لتحلق<br>بحذاء الطفو<br>استمر بالضغط على<br>[BTN_HOVERBOOT] واضغط<br>[BTN_AIM] مرارا لتتسارع",
-    "arabic_edit": "استمر بالضغط على [BTN_HOVERBOOT] لتحلق بحذاء<br>الطفو استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_AIM]<br>مرارا لتتسارع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_HOVERBOOT] لاستخدام حذاء الطفو<br>استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_AIM] مرارًا للتسارع",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "92970b47844fefde52b59a3400437f07d351c8b8578695235973a7c6dfaa548e",
+      "candidate_sha256": "2b30d78933401139a67352891189431f1afb11c03610417c72dcbb92d9ff5fff",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24160,
@@ -463,14 +695,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_HOVERBOOT] لتحلق<br>بحذاء الطفو<br>استمر بالضغط على<br>[BTN_HOVERBOOT] واضغط<br>[BTN_HOVERBOOT_KICK] مرارا<br>لتتسارع",
-    "arabic_edit": "استمر بالضغط على [BTN_HOVERBOOT] لتحلق بحذاء<br>الطفو استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_HOVERBOOT_KICK]<br>مرارا لتتسارع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_HOVERBOOT] لاستخدام حذاء الطفو<br>استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_HOVERBOOT_KICK] مرارًا للتسارع",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "870840a78bd35f75cd3adb720c7bed77fcd447f52c116eb371e50103eac312a3",
+      "candidate_sha256": "20348454a78148a579f236dc587226d6de3a71047a90daf6ca6f211e1eabdc01",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24161,
@@ -479,14 +719,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWINGSHOT] للتعلق<br>بأهداف التأرجح والخطافات<br>وأهداف الربط<br>[BTN_PORTAL_TETHER] رابطة<br>الصدع<br>[BTN_DASH] اندفاعة الطيف<br>استمر بالضغط على<br>[BTN_SWINGSHOT] لشحن<br>الهيرلشوت ثم أفلت",
-    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف<br>التأرجح والخطافات وأهداف الربط [BTN_PORTAL_TETHER]<br>رابطة الصدع [BTN_DASH] اندفاعة الطيف استمر<br>بالضغط على [BTN_SWINGSHOT] لشحن الهيرلشوت ثم<br>أفلت",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف التأرجح<br>والخطافات والربط<br>[BTN_PORTAL_TETHER] لاستخدام رابطة الصدع<br>[BTN_DASH] للاندفاع الطيفي<br>استمر بالضغط على [BTN_SWINGSHOT] لشحن الهيرلشوت، ثم حرره",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "caf8e38b83d6f09badb461fbb86d5a2ffe9a8250250834abfe521c7fc842d3c2",
+      "candidate_sha256": "229c2606c3dbf37c7023b8ede2c74ebb06e3c3335f815c31b07087ca2e2e3855",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24162,
@@ -496,13 +744,21 @@
     "scene_code": "",
     "arabic_current": "اضغط<br>[BTN_MAGBOOT_LAUNCH]<br>للإطلاق المغناطيسي",
     "arabic_edit": "اضغط [BTN_MAGBOOT_LAUNCH] للإطلاق المغناطيسي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "e8b8d84b32e1aab44f6177400a092912d5b30d5345a5efd25c62c7ef1f1a8df2",
+      "candidate_sha256": "87e021989cb839381b966af850d59184b722e55331bd7d83b3461777b4a23729",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24163,
@@ -512,13 +768,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SELECT] لفتح<br>الخريطة",
     "arabic_edit": "اضغط [BTN_SELECT] لفتح الخريطة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "7308935c6905bf42e9d8c47cce42b3de1e358ea12377bcf6875198bfe4e6098b",
+      "candidate_sha256": "7eca1b48ecbc1c95a4c276f8461c5731cc2aa063daf6ec23fe5bca441a8d4212",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24164,
@@ -527,14 +791,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] للقفز<br>[BTN_JUMP] ثم [BTN_JUMP]<br>في الهواء للقفز المزدوج<br>[BTN_SPRINT] للعدو<br>استمر بالضغط على<br>[BTN_GLIDE] لتنزلق",
-    "arabic_edit": "اضغط [BTN_JUMP] للقفز [BTN_JUMP] ثم [BTN_JUMP] في الهواء<br>للقفز المزدوج [BTN_SPRINT] للعدو استمر بالضغط<br>على [BTN_GLIDE] لتنزلق",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "[BTN_JUMP] للقفز<br>[BTN_JUMP] ثم [BTN_JUMP] في الهواء للقفز المزدوج<br>[BTN_SPRINT] للعدو<br>استمر بالضغط على [BTN_GLIDE] للانزلاق جوًا",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "bdbb37ba5905db707cb60b94edd7604832b73968e3652a8d3eb151d7743df2f8",
+      "candidate_sha256": "c2e675d6173e5197008d8d54f6b44d9402bc22024fbe4d22ea03358e9c1b0f96",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24165,
@@ -543,14 +815,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] للقفز<br>[BTN_JUMP] ثم [BTN_JUMP]<br>في الهواء للقفز المزدوج<br>استمر بالضغط على<br>[BTN_SPRINT] للعدو<br>استمر بالضغط على<br>[BTN_GLIDE] لتنزلق",
-    "arabic_edit": "اضغط [BTN_JUMP] للقفز [BTN_JUMP] ثم [BTN_JUMP] في الهواء<br>للقفز المزدوج استمر بالضغط على [BTN_SPRINT]<br>للعدو استمر بالضغط على [BTN_GLIDE] لتنزلق",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "[BTN_JUMP] للقفز<br>[BTN_JUMP] ثم [BTN_JUMP] في الهواء للقفز المزدوج<br>استمر بالضغط على [BTN_SPRINT] للعدو<br>استمر بالضغط على [BTN_GLIDE] للانزلاق جوًا",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "d9685773f7da28406629a99ef94f2ff3a2a5476b836a7de1c7c451990e9f8d5d",
+      "candidate_sha256": "1f7b11e4c8294652e82eb26e767eea740d8180b3a56e18cf722b35d870353ba2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24166,
@@ -560,13 +840,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWINGSHOT] للتعلق<br>بأهداف التأرجح والخطافات<br>والربط",
     "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف<br>التأرجح والخطافات والربط",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "759cbfe906a780b7f28f0b91e1d86d03875e0acdccd49fe1b670f99151e35d68",
+      "candidate_sha256": "d1d64e8296a2773cd0493e8ccfd8f6b32dec582fac498aad113d6d706e325a8a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24167,
@@ -575,14 +863,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWINGSHOT] للتعلق<br>بأهداف التأرجح والخطافات<br>وأهداف الربط<br>[BTN_PORTAL_TETHER] رابطة<br>الصدع<br>[BTN_DASH] اندفاعة الطيف",
-    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف<br>التأرجح والخطافات وأهداف الربط [BTN_PORTAL_TETHER]<br>رابطة الصدع [BTN_DASH] اندفاعة الطيف",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف التأرجح<br>والخطافات والربط<br>[BTN_PORTAL_TETHER] لاستخدام رابطة الصدع<br>[BTN_DASH] للاندفاع الطيفي",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "118363818ea76469c2a3ccba2e8d17042e09e710be3b001cbf8368b20cf6506b",
+      "candidate_sha256": "c247ea2543c65842cd1c642ffe889ee3744e4834cb8fa37087f392b5b7964028",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24168,
@@ -591,14 +887,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWINGSHOT] للتعلق<br>بأهداف التأرجح والخطافات<br>وأهداف الربط<br>[BTN_PORTAL_TETHER] رابطة<br>الصدع",
-    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف<br>التأرجح والخطافات وأهداف الربط [BTN_PORTAL_TETHER]<br>رابطة الصدع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] للتعلق بأهداف التأرجح<br>والخطافات والربط<br>[BTN_PORTAL_TETHER] لاستخدام رابطة الصدع",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "76a7d16255cdb2fb70ae079bf5eba249e65576f8ac04857f25566fd8e23392b2",
+      "candidate_sha256": "f8597b400d1a5ddf2e5cfaf89dd5e627b8095742e0092fca15b1cec453636f79",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24169,
@@ -607,14 +911,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_GLIDE] لتنزلق نزولا",
-    "arabic_edit": "استمر بالضغط على [BTN_GLIDE] لتنزلق نزولا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_GLIDE] للهبوط انزلاقًا",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "6e13018d4021977ffce8d68d3e0ab5382b24755e3616e974668fedef6dd4ab7f",
+      "candidate_sha256": "84ff64cf5cb987a419f6c22729601fa2354497063855f481ec88f50664b9f890",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24170,
@@ -624,13 +936,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] لتقفز<br>فوق المخاطر",
     "arabic_edit": "اضغط [BTN_JUMP] لتقفز فوق المخاطر",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5bfb2a5f1d552d808a76bfde02304ee388fe98fc1714dea9c179d89e6cedf4d6",
+      "candidate_sha256": "74e901cadf32c76dcfa944c4fca708aecebe87a7ce9476e6a21ba504cef12536",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24171,
@@ -640,13 +960,21 @@
     "scene_code": "",
     "arabic_current": "استعمل<br>[BTN_LS_HORIZONTAL] مع<br>[BTN_JUMP] لتبديل سكة<br>الانزلاق",
     "arabic_edit": "استعمل [BTN_LS_HORIZONTAL] مع [BTN_JUMP] لتبديل سكة الانزلاق",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "be8f05f7f806f53747edad770d3718a1a7100eb823a6aa18ffa6832fec845530",
+      "candidate_sha256": "79db42fa2be7d1c582106a65d1841ad3d4eccba34a472f3291b3a8d655590354",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24172,
@@ -656,12 +984,20 @@
     "scene_code": "",
     "arabic_current": "تبديل سكة الانزلاق",
     "arabic_edit": "تبديل سكة الانزلاق",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "40357f8e38eaa146f4804963f1b9a27d34c11dc8fb64ee2ac2c7e4bdfa540e75",
+      "candidate_sha256": "f249526ee2a21bad13c59dcf8201da40ed7f4b8b75afb00dd36336c287580952",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24173,
@@ -671,13 +1007,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] ثم<br>[BTN_JUMP] للقفزة<br>البهلوانية",
     "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_JUMP] للقفزة البهلوانية",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "3a7eb57a032a2f9e17a4bba8109406311e3640edb7c67a862b60d8b89cc67cce",
+      "candidate_sha256": "3f882e3e196a0fc3b1413abe60248a371801bf1cf9be3750de3cfe8733a7608c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24174,
@@ -686,14 +1030,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MELEE] للتعلق<br>بمرفق المطرقة",
-    "arabic_edit": "اضغط [BTN_MELEE] للتعلق بمرفق المطرقة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_MELEE] للإمساك بذراع تدوير المطرقة",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5d86c67f971e91c44df377a287b767f461008d1fe1e07796c35a6b78b1e9de5c",
+      "candidate_sha256": "b5b1ebfc5f01540acad3e16ab13e9fed606b93190674c824e5a782c653ca4a6c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24175,
@@ -702,14 +1054,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استعمل [BTN_MOVE] لتدوير<br>مرفق المطرقة",
-    "arabic_edit": "استعمل [BTN_MOVE] لتدوير مرفق المطرقة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استخدم [BTN_MOVE] للف ذراع تدوير المطرقة",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "d1e38f6b504262057283ffed19d9789ea07556c2fa75339c61e0c32ba1769380",
+      "candidate_sha256": "1333f03aeeaf4fe1808413c14ba403a05eea367002b405e44f3ffc7b93c30a09",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24176,
@@ -719,13 +1079,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_AIM] مع [BTN_MELEE]<br>لترمي المطرقة",
     "arabic_edit": "استمر بالضغط على [BTN_AIM] مع [BTN_MELEE] لترمي<br>المطرقة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "41fd6325435f99f026150405dcf47cb05562a61ca39bb1b6bb2fedcab34d7606",
+      "candidate_sha256": "a20c5c003c317c16a5dc6990d3365923c31566ead2ce60195dd18cdedec89e35",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24177,
@@ -735,13 +1103,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_AIM] مع [BTN_MELEE]<br>لترمي المطرقة وتكسر<br>المراوح",
     "arabic_edit": "استمر بالضغط على [BTN_AIM] مع [BTN_MELEE] لترمي<br>المطرقة وتكسر المراوح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "2eac38b60f55fe8dfc4ba228c571c6714edd985ecd3c14e0d5bdf0a25deecc61",
+      "candidate_sha256": "cba44cd6f866cfd6acfce6464d53156579dc4cea99c513ba5853874dd67b5d14",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24178,
@@ -751,13 +1127,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_HAMMER_THROW]<br>لترمي المطرقة",
     "arabic_edit": "اضغط [BTN_HAMMER_THROW] لترمي المطرقة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "7fad573b26df96adb7f962849bb216fc104899b5414b34e5806f172da2789abf",
+      "candidate_sha256": "9ed4f5013a9021bfdc61afe6ddb3939f7320390ba7e41feabfcdc3f9de533eb0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24179,
@@ -767,13 +1151,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [BTN_MOVE] للتحرك<br>و[BTN_LOOK] للتصويب",
     "arabic_edit": "استعمل [BTN_MOVE] للتحرك و[BTN_LOOK] للتصويب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "ca812d4169a46ec26ae00ae0a5ed0e25dd124dc382899bb01c041856ff419caf",
+      "candidate_sha256": "2d82e24d2a929263bd7b33117d7517685b5b5741dc67695dee91dd81fbe1a1b4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24180,
@@ -782,14 +1174,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_AIM] لاستخدام<br>نفاثات العدوى على الشراعات<br>فيروسية زيتا.",
-    "arabic_edit": "اضغط [BTN_AIM] لاستخدام نفاثات العدوى على<br>الشراعات فيروسية زيتا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_AIM] لاستخدام بليتز إنفكتورز ضد الكائنات<br>الشراعية لفيروس زيتا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "a0ca1345609784b9f228b2c0869505582b8e2b358522fa171869bc21c547dac3",
+      "candidate_sha256": "2c909c1a3853b56700f042f209ffd0ea597af3f46f8c154d75f4231d92aab2d9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24181,
@@ -798,14 +1198,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_AIM] لنفاثات<br>العدوى",
-    "arabic_edit": "اضغط [BTN_AIM] لنفاثات العدوى",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "[BTN_AIM] لاستخدام بليتز إنفكتورز",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "102a79a1b67f441f9145027ba5f2d0d37a391a64db91a9dc103043574c5cc8de",
+      "candidate_sha256": "2be9d84a7d575f5e602400be6dc3dd7e13901ad60a1ff23e0ed9614ecb6309c8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24182,
@@ -815,13 +1223,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_FIRE] للمدافع<br>الكهربائية",
     "arabic_edit": "اضغط [BTN_FIRE] للمدافع الكهربائية",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "3e96e5735a4a955f6599538e519214e63d19b827b8392e70cb483a3a017c8302",
+      "candidate_sha256": "d7d8ef2ac454a88cde114e2a6709d7fcbe64d9091a2a2642980f266bd7d68f17",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24183,
@@ -831,13 +1247,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_A] للنبضة<br>النووية",
     "arabic_edit": "اضغط [BTN_A] للنبضة النووية",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "b0412eb736d2e7a6a1b67e9f8ee512f6d72a56067b8a230a40249185c0a59924",
+      "candidate_sha256": "4fd9d2a93e4b375d19b6a19024d14a7bf56179702427300d453846e3722819b3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24184,
@@ -847,13 +1271,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_DASH] للاندفاع<br>السريع",
     "arabic_edit": "اضغط [BTN_DASH] للاندفاع السريع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "add5bb81fd166509f05fb42f0dd05e95104f366396b595f02fa1b1eb13dbb26d",
+      "candidate_sha256": "a85f7129d2019967c51dea263a227bee2e2e5fbcce208b644cde46161c0152b9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24185,
@@ -863,13 +1295,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [BTN_MOVE] مع<br>[BTN_DASH] للاندفاع<br>الجانبي",
     "arabic_edit": "استعمل [BTN_MOVE] مع [BTN_DASH] للاندفاع الجانبي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "283d226d15afbe98bf2e4d420be6c0da29af17d30c8801d0938af26d3506c466",
+      "candidate_sha256": "a1ab59649cf1f328a34464c5e1b031a151b70545e3a003c484317150013577d1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24186,
@@ -878,14 +1318,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWINGSHOT] للخطاف",
-    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] للخطاف",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] لاستخدام الخطاف",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "da2e546fbb75e3acc734a3cbb608ad131db1c01255f201b26a23a663f239d87c",
+      "candidate_sha256": "2c80898e52652e3dd0644e52c9ef23d5b560602b73fbc4b15404675b0a9be32a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24187,
@@ -894,14 +1342,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_HOVERBOOT] لتحلق<br>بحذاء الطفو",
-    "arabic_edit": "استمر بالضغط على [BTN_HOVERBOOT] لتحلق بحذاء<br>الطفو",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_HOVERBOOT] لاستخدام حذاء الطفو",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "274e576f79854832145c3fe76454480b80f50c3d15f7250a50e7437ef6b83780",
+      "candidate_sha256": "f25f018f6c6a0f4b313f432f70657423c3dc34484b5d311a65dba93b51a4c843",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24188,
@@ -911,13 +1367,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_HOVERBOOT] واضغط<br>[BTN_HOVERBOOT_KICK] مرارا<br>لتتسارع",
     "arabic_edit": "استمر بالضغط على [BTN_HOVERBOOT] واضغط [BTN_HOVERBOOT_KICK] مرارا<br>لتتسارع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "a9ad7be75d1906e962507973b40c2b1c2a82c57342de5919a50fa7281a2435ac",
+      "candidate_sha256": "f6f2144bf6d6e766f93c0b80338211e3d8ad9e6d55a2bd04d094a7dc4243ca09",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24189,
@@ -927,13 +1391,21 @@
     "scene_code": "",
     "arabic_current": "أثناء التحليق، اضغط<br>[BTN_HOVERBOOT_KICK]<br>بشكل متقطع لزيادة السرعة",
     "arabic_edit": "أثناء التحليق، اضغط [BTN_HOVERBOOT_KICK] بشكل متقطع<br>لزيادة السرعة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "6baeaaf31092c1be2dc3c592725fd4b0945be51db487b12e59f33584f0d98667",
+      "candidate_sha256": "16e3c199906403d4c48a7bd72f9bd0d7571491b4bc4b1fd8200cb3d490276441",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24190,
@@ -942,14 +1414,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_HOVERBOOT]<br>لتبديل حذاء الطفو",
-    "arabic_edit": "اضغط [BTN_HOVERBOOT] لتبديل حذاء الطفو",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_HOVERBOOT] لتشغيل حذاء الطفو أو إيقافه",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "981319a4febe15dae5830ad6554d3dee3e60ac2cfb1b0358a20a6d3cbddcae33",
+      "candidate_sha256": "a58dd1829dcbe5361ec243c77ba4fccf88d9b8c7fdea64dff815d6fef254f22e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24191,
@@ -959,13 +1439,21 @@
     "scene_code": "",
     "arabic_current": "اضغط واستمر بالضغط على<br>[BTN_SWINGSHOT] لاستخدام<br>الهيرلشوت",
     "arabic_edit": "اضغط واستمر بالضغط على [BTN_SWINGSHOT] لاستخدام<br>الهيرلشوت",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5255e304db4a0be5855974e0d51803d7d132e0fc1fee1fb5e95bbcbb7ec754ce",
+      "candidate_sha256": "f2ffba8c352407fb46c957ee476ab150d136d43a1f28910142df1bf7a9111260",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24192,
@@ -974,14 +1462,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWINGSHOT] لتجميع<br>السرعة ثم أفلت!",
-    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] لتجميع السرعة<br>ثم أفلت!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] لزيادة السرعة، ثم حرره!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "cabbf3d8ff3f71f37e4dd7e5ed54bc8e7fafc3cd8cf251e701233f84692beca9",
+      "candidate_sha256": "eff7d8b0c503b98d79ffbfabdce5d5d1adbeb0f602de71440f100327656a165a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24193,
@@ -991,13 +1487,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [BTN_MOVE] مع<br>[BTN_JUMP] ثم [BTN_JUMP]<br>لتتفادى الليزر",
     "arabic_edit": "استعمل [BTN_MOVE] مع [BTN_JUMP] ثم [BTN_JUMP] لتتفادى الليزر",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "d2c93e3769767b9ae99747def3fc8508ba4db9b15a482a20e9e218c12cc0406c",
+      "candidate_sha256": "922b26b779cf559075acc6e579bde5cc0e5003b7db39d7a431c0e0436259727c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24194,
@@ -1007,12 +1511,20 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] للقفز",
     "arabic_edit": "اضغط [BTN_JUMP] للقفز",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "a9262df80dba45ec68fa9c9a1c61a176d745e243d0bad76b11180082f6edbc03",
+      "candidate_sha256": "7df14f69f740fc764a5442974f1bfa3f3154fd11f0060a71b915af6eeed9033a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24195,
@@ -1022,13 +1534,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SELECT]<br>للاستماع إلى اللورب",
     "arabic_edit": "اضغط [BTN_SELECT] للاستماع إلى اللورب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "7202245879005d45e2d0ab8e77841d694d067256a830e31c7548336327fec20a",
+      "candidate_sha256": "12da80dcc934013e7cd187781cae30ad550ab78da6c698404e6c556b63752f62",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24196,
@@ -1038,13 +1558,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MAGBOOT_JUMP]<br>لتقفز إلى السطح<br>المغناطيسي",
     "arabic_edit": "اضغط [BTN_MAGBOOT_JUMP] لتقفز إلى السطح المغناطيسي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "bfedacd83f4752c91da60515e8a4304014360e39b258f8505601da9f4e9138b3",
+      "candidate_sha256": "abda8848ede41f81d677afc45f0dbf17850828bc5acfc30e1604ac8b8b82d3dc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24197,
@@ -1053,14 +1581,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استعمل [BTN_LOOK]<br>للتصويب نحو السطح<br>،المغناطيسي<br>و[BTN_MAGBOOT_JUMP]<br>للقفز المغناطيسي إليه",
-    "arabic_edit": "استعمل [BTN_LOOK] للتصويب نحو السطح<br>،المغناطيسي و[BTN_MAGBOOT_JUMP] للقفز المغناطيسي<br>إليه",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استخدم [BTN_LOOK] للتصويب نحو سطح مغناطيسي، ثم [BTN_MAGBOOT_JUMP]<br>للقفز إليه مغناطيسيًا",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "77cdb326a3340b1af6a3855612e216354e9de00d54f675de6c702aef34ca15ac",
+      "candidate_sha256": "0d8d05befc4f99651300cc1f098172c97e63d8055a17c2fce9b1ffd7327b96eb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24198,
@@ -1070,13 +1606,21 @@
     "scene_code": "",
     "arabic_current": "اضغط<br>[BTN_MAGBOOT_LAUNCH]<br>للإطلاق المغناطيسي",
     "arabic_edit": "اضغط [BTN_MAGBOOT_LAUNCH] للإطلاق المغناطيسي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "58dddbf0f5ff480285381ddfb31699c0dff3c389bc7602bcdebcfe57b7d66257",
+      "candidate_sha256": "87e021989cb839381b966af850d59184b722e55331bd7d83b3461777b4a23729",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24199,
@@ -1086,13 +1630,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SELECT] لفتح<br>الخريطة",
     "arabic_edit": "اضغط [BTN_SELECT] لفتح الخريطة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "7eac3ee515c8da0e37b9e29d4eb5fa9eaa85b34211532059d3020df665a39dab",
+      "candidate_sha256": "7eca1b48ecbc1c95a4c276f8461c5731cc2aa063daf6ec23fe5bca441a8d4212",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24200,
@@ -1101,14 +1653,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SELECT] لعرض<br>الزوربستون على الخريطة",
-    "arabic_edit": "اضغط [BTN_SELECT] لعرض الزوربستون على الخريطة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_SELECT] لعرض أحجار الزورب على الخريطة",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "f547a56d896dcf940410cddf8f25bd3f51f810d8f99ac79af9e9747d8211b710",
+      "candidate_sha256": "a19c805c8dae48019016032be3e57397873885bdbd19283bc4547466562837e3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24201,
@@ -1118,13 +1678,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MELEE] لتلوح<br>بالمفتاح",
     "arabic_edit": "اضغط [BTN_MELEE] لتلوح بالمفتاح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "e96b6c75422c21d4ab765de57cf440c9c85d6acc8270fdb4fcba1b5ade0b7c18",
+      "candidate_sha256": "a82f6097b5c285a334488a779897e31bf03b4a616e297071d553f550fee267a5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24202,
@@ -1134,13 +1702,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MELEE] لتلوح<br>بالمطرقة",
     "arabic_edit": "اضغط [BTN_MELEE] لتلوح بالمطرقة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5f075a9fb83620830d0ccb4700b77398b9b7c65a68680fab9a9fefb96461fe08",
+      "candidate_sha256": "3b0a9cb42d05c9910327b8aacf5f8ff446ce57bcf9b133adf3d31d6904bcbe13",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24203,
@@ -1150,13 +1726,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [BTN_MOVE] للتحرك<br>و[BTN_LOOK] للنظر",
     "arabic_edit": "استعمل [BTN_MOVE] للتحرك و[BTN_LOOK] للنظر",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "aeab1697332feef6d26a4f6c64a6351369f8d015a1ec85b68f0a6cc8e643df15",
+      "candidate_sha256": "eff90097dad8a98911a4de96c9a3c8dbfa827480c4a55e7f2d0e54690aa3027f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24204,
@@ -1166,13 +1750,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_OBJECTIVE_PING]<br>لمراجعة الهدف",
     "arabic_edit": "اضغط [BTN_OBJECTIVE_PING] لمراجعة الهدف",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "b18cd2974d64f19cf56d6f849d1f70201ffeb463734ec0702302a9705f7be16b",
+      "candidate_sha256": "b96bd4e1dc0aaa499bcd7286c687fa7d057e841428111b6f5e76793cbbd1a32f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24205,
@@ -1181,14 +1773,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "أصبحت<span class='emphasis'>أسلحة أوميغا</span>متاحة للشراء للأسلحة التي<br>بلغت المستوى V5.",
-    "arabic_edit": "أصبحت<span class='emphasis'>أسلحة أوميغا</span>متاحة للشراء للأسلحة التي بلغت<br>المستوى V5.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يمكن الآن شراء <span class='emphasis'>أسلحة أوميغا</span> للأسلحة التي بلغت المستوى V5.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "79af30c779de62ace800b6e0a3977dea48715deaa8675064597de91c40ee2d26",
+      "candidate_sha256": "6f55658c9f1f6b5063054aa4e1ed7d91e8600032f8a3e51758b0eb86e131e72e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24206,
@@ -1197,14 +1797,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "أسلحة أوميغا أقوى، وقد تصل<br>إلى المستوى V10وتفتح ،<br>لك الفئة الأخيرة من تطويرات<br>الأسلحة.",
-    "arabic_edit": "أسلحة أوميغا أقوى، وقد تصل إلى<br>المستوى V10وتفتح ، لك الفئة<br>الأخيرة من تطويرات الأسلحة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أسلحة أوميغا أقوى، ويمكن رفع مستواها حتى<br>V10، وتتيح لك الوصول إلى الفئة الأخيرة من<br>تطويرات الأسلحة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "97f6d7d370f627092f3ce752fc54edf56b381ed6ee5fac24f2efbd0899195512",
+      "candidate_sha256": "1933444e9171de65146962dd770726e83f154988ce53d49d50ba25cf827a483c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24207,
@@ -1214,12 +1822,20 @@
     "scene_code": "",
     "arabic_current": "سلاح أوميغا",
     "arabic_edit": "سلاح أوميغا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "00657216caddb051665257f3b2a6a1317f4feb25bb42247ad7f4eadfb26b4679",
+      "candidate_sha256": "4e3ff2f715fab6806f7c7749ffe640039b8b6b05aa097c0e6e126c0c59055676",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24208,
@@ -1228,14 +1844,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "أصبحت تطوير هذا السلاح<br>10 ممكنة حتى المستوى.",
-    "arabic_edit": "أصبحت تطوير هذا السلاح 10 ممكنة<br>حتى المستوى.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يمكنك الآن تطوير هذا السلاح حتى المستوى<br>10.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "2f386486d8292c263b4d152b47f6940419b21faa84198501eebb998058a954b6",
+      "candidate_sha256": "b4489c7476582b7c7cd3e7731099ba1e83a1eb38e975ee6d4908528237788913",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24209,
@@ -1244,14 +1868,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_GLIDE] لتنزلق نزولا",
-    "arabic_edit": "استمر بالضغط على [BTN_GLIDE] لتنزلق نزولا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_GLIDE] للهبوط انزلاقًا",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "6e13018d4021977ffce8d68d3e0ab5382b24755e3616e974668fedef6dd4ab7f",
+      "candidate_sha256": "84ff64cf5cb987a419f6c22729601fa2354497063855f481ec88f50664b9f890",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24210,
@@ -1261,12 +1893,20 @@
     "scene_code": "",
     "arabic_current": "المسامير الذهبية",
     "arabic_edit": "المسامير الذهبية",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "155633e32382be8c94531fe9929461fcc61f3444eb9842326342cea2e7cb216c",
+      "candidate_sha256": "bfe07136aae315ba7224ae16454486298ea25cff7b5cfc6a89894e64af401776",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24211,
@@ -1275,14 +1915,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "عثرت على مسمار ذهبي!<br>يفتح لك كل منها مكافأة أو<br>غشا فريدا.",
-    "arabic_edit": "عثرت على مسمار ذهبي! يفتح لك كل<br>منها مكافأة أو غشا فريدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عثرت على مسمار ذهبي! يمنحك كل مسمار مكافأة<br>أو خيار غش فريدًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "f16d9136aa9f856b3539437036017074dbd8f20432229de65bf0e738461f6fa0",
+      "candidate_sha256": "5edf0b185239c4e5ea3b981c1f5d42e3e81f58e3fd958eff9b7605de3f04d954",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24212,
@@ -1292,12 +1940,20 @@
     "scene_code": "",
     "arabic_current": "اللوربات",
     "arabic_edit": "اللوربات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "dca6cda4b97ff09fef4d0dcf4eab25d27d56b753799dc9713041115e5a0d5221",
+      "candidate_sha256": "40ba58628f9628c5d3059e753f315b6376516bf186b5f36e30b1d15b74455b6a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24213,
@@ -1307,13 +1963,21 @@
     "scene_code": "",
     "arabic_current": "عثرت على لورب غامض! تحوي<br>هذه التحف تسجيلات صوتية<br>من الماضي.",
     "arabic_edit": "عثرت على لورب غامض! تحوي هذه التحف<br>تسجيلات صوتية من الماضي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "75351768e2a1d72ad87bff798b107d1c07574893e50b9ddd858a5c3d3729107a",
+      "candidate_sha256": "5a3b7b1a42b4eb45a25115d9ef3adc1152af9d7fcbfee50f6e64aed75ddb7e72",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24214,
@@ -1322,14 +1986,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "سيقوم أحدهم في سافالي<br>بمكافأتك سخاء على جمعها.",
-    "arabic_edit": "سيقوم أحدهم في سافالي بمكافأتك<br>سخاء على جمعها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "سيكافئك أحد سكان سافالي بسخاء على جمعها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "2b9dc5517d74f19a5fcd05361ef56b2cdb223d1dfd3384c0eea4036d53b5f29d",
+      "candidate_sha256": "cbe078bf74aa0829ce249a759ef9c2b95d0228cdb6e0fcab6eabd885dcbedc1f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24215,
@@ -1339,12 +2011,20 @@
     "scene_code": "",
     "arabic_current": "خريطة المستوى",
     "arabic_edit": "خريطة المستوى",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "38d06a4f7027cf2ec6185d36933c1161b4bbd8fb175fa68f1b5e302cfeb472fd",
+      "candidate_sha256": "47646da40893aeccf073a6f7b386e04d5c86b42bf899d13ef046a3fa87839b5a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24216,
@@ -1353,14 +2033,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "،كلما استكشفت الكوكب<br>انكشفت العناصر القابلة<br>للجمع وبقية المعالم على<br>خريطتك.",
-    "arabic_edit": "،كلما استكشفت الكوكب انكشفت<br>العناصر القابلة للجمع وبقية<br>المعالم على خريطتك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أثناء استكشافك للكوكب، ستظهر العناصر<br>القابلة للجمع وغيرها من المعالم المهمة على<br>خريطتك.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5fa87645fe7627dc3a69f246b0872851a4819f621fde4113cb57259039b17acb",
+      "candidate_sha256": "3684cbb662c4320a295c0253f8ec4b97efe381819d5c563358bdf24f0a178090",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24217,
@@ -1370,13 +2058,21 @@
     "scene_code": "",
     "arabic_current": "حدد أيقونة ثم اضغط [BTN_A]<br>لتثبتها على واجهة اللعب.",
     "arabic_edit": "حدد أيقونة ثم اضغط [BTN_A] لتثبتها على<br>واجهة اللعب.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "f00616bd7104bbc3aa75a24933615ce0c83da15cfd37685fe711cd8558fc81fe",
+      "candidate_sha256": "a8a201a631c9670c9aecf8b3f5c83af6df90a321cc6b54adbc8f1c7b409ffb3c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24218,
@@ -1385,13 +2081,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "السبايبوتات",
-    "arabic_edit": "السبايبوتات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "روبوتات التجسس",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "76084b26bff00fc7b122aa266566530539258ab970bdf8a3a7e8f0b58560287c",
+      "candidate_sha256": "14038142b92bd00d8ba20d50ce3b25fd97c863c195d333902d23cff155aaa8ff",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24219,
@@ -1400,14 +2104,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "عثرت على سبايبوت تابع<br>للمقاومة! يحوي كل منها<br>معلومات سرية يمكنك<br>الاستماع إليها.",
-    "arabic_edit": "عثرت على سبايبوت تابع للمقاومة!<br>يحوي كل منها معلومات سرية يمكنك<br>الاستماع إليها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عثرت على روبوت تجسس تابع للمقاومة! يحتوي<br>كل روبوت على معلومات سرية يمكنك الاستماع<br>إليها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "e39654b9c42405e7ba92399f80f1c4eeb0425894a64a1d305e5aebb06e0f6c40",
+      "candidate_sha256": "4cc246f682dcb1f1da6271d814cc77f7d817334510c075323e80efe9fa8cc431",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24220,
@@ -1417,13 +2129,21 @@
     "scene_code": "",
     "arabic_current": "وتحوي كذلك أبحاث أسلحة<br>مشفرة. اعثر عليها جميعا<br>لتصنع لك السيدة زوركون<br>السلاح الأمثل!",
     "arabic_edit": "وتحوي كذلك أبحاث أسلحة مشفرة. اعثر<br>عليها جميعا لتصنع لك السيدة زوركون<br>السلاح الأمثل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "731f531508db10b2d9be83a52c99d19f2ba6a5f3d6d2a02cf98a8e7ddb5a949e",
+      "candidate_sha256": "7c04e7fb6e4ec7257b56ad1d7b265ea45d0ab9096f851526d9f92cb82dbc8121",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24221,
@@ -1433,12 +2153,20 @@
     "scene_code": "",
     "arabic_current": "كبسولات الدروع",
     "arabic_edit": "كبسولات الدروع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "a70dee0b771b81cad30db8a3ca0f1297b6d64be215a479f59e6d28fb0232755e",
+      "candidate_sha256": "415291217d37202b00d5d05fa0d8d89460cb4a71e91f28f8d23803c7ac94d7c0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24222,
@@ -1448,12 +2176,20 @@
     "scene_code": "",
     "arabic_current": "تخصيص المظهر",
     "arabic_edit": "تخصيص المظهر",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "d6ef4be1197f7abff20020150d2c216c90cba66bb3067cbc6d69aa1532ab3a0c",
+      "candidate_sha256": "b31e666831f289487f0f95143d9565ec476905f943f14ec5c11b3ff238dea704",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24223,
@@ -1463,13 +2199,21 @@
     "scene_code": "",
     "arabic_current": "غير مظهرك بالضغط على<br>[BTN_A] لتجهيز درع. واضغط<br>[BTN_X] لتخصيص لون الدرع<br>المجهز!",
     "arabic_edit": "غير مظهرك بالضغط على [BTN_A] لتجهيز درع.<br>واضغط [BTN_X] لتخصيص لون الدرع المجهز!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "9880c46d048db6335af203f84a659aab97ea4483f81298caeb56b5015814aeae",
+      "candidate_sha256": "bf50a914b25ee4e98368d1d3814a8a47e03ba3b6e3b19f9940f7f61132d56f68",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24224,
@@ -1478,14 +2222,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "عثرت على كبسولة درع!<br>تمنحك دفعة دائمة، تجهزتها أم<br>لا.",
-    "arabic_edit": "عثرت على كبسولة درع! تمنحك دفعة<br>دائمة، تجهزتها أم لا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عثرت على كبسولة درع! تمنحك هذه الكبسولات<br>تعزيزًا دائمًا، سواء جهزت الدروع أم لا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "0a5218803aa7f060c044b891f511e390d0f5f1abd5492035c6460a623484389b",
+      "candidate_sha256": "698da03065ad6206bd7ae8bf3fd98b2ae81e40c7ef8c36bdeaf6d21a1b2f4203",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24225,
@@ -1495,13 +2247,21 @@
     "scene_code": "",
     "arabic_current": "اجمع المزيد بإكمال جيوب<br>الأبعاد، أو استكشاف<br>الكواكب، أو إنجاز المحتوى<br>الاختياري.",
     "arabic_edit": "اجمع المزيد بإكمال جيوب الأبعاد،<br>أو استكشاف الكواكب، أو إنجاز<br>المحتوى الاختياري.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "8ffa5d48162b6f942839a3eaf6205d91b4eaaa38aca250f17ee658d45f5901e4",
+      "candidate_sha256": "3bb971b1678d18c36d886d46b0986c379527c4071fd7502b89b92fc89512d585",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24226,
@@ -1511,12 +2271,20 @@
     "scene_code": "",
     "arabic_current": "إعادة تعيين عجلة الأسلحة",
     "arabic_edit": "إعادة تعيين عجلة الأسلحة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "044b9ea1f51ca21b2e52c0845b2da6b21be5996ce0824b40e0efae8f1c426b4f",
+      "candidate_sha256": "e2a65951284eb87188409582c79db9fcc7772520f03fba25d011b7ab063204e4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24227,
@@ -1526,13 +2294,21 @@
     "scene_code": "",
     "arabic_current": "يمكنك إعادة ترتيب مواقع<br>الأسلحة على عجلة أسلحتك<br>بتحديدها والضغط على<br>[BTN_ACCEPT] لإعادة<br>التعيين.",
     "arabic_edit": "يمكنك إعادة ترتيب مواقع الأسلحة<br>على عجلة أسلحتك بتحديدها والضغط<br>على [BTN_ACCEPT] لإعادة التعيين.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "6a05d4c42ded89c6b55f7a65fe1e0be3f81bc85b4d34db0bb2fad6263fff39bd",
+      "candidate_sha256": "b97ce53de855c3711f78e40cfb848b7ee0751f48c876e57eea5f11f4e877d9ce",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24228,
@@ -1541,14 +2317,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_DASH] للاندفاع<br>الطيف",
-    "arabic_edit": "اضغط [BTN_DASH] للاندفاع الطيف",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_DASH] للاندفاع الطيفي",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5aaade2a3da1f57e8d94c22748125ea62d917ba05bd5142bb0df71eadc457b53",
+      "candidate_sha256": "4013d76da8a7d1f380476e96ae5335fbd3d886fc942902994e9ed6ec79be3f4b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24229,
@@ -1557,14 +2341,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] ثم<br>[BTN_DASH] للاندفاع الطيف<br>الهوائي",
-    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_DASH] للاندفاع الطيف الهوائي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_DASH] للاندفاع الطيفي في الهواء",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "8c28a3e38b41aa33ebb3a99d03a362db44c9cdf83bff013d52268fb557bdfcb5",
+      "candidate_sha256": "860f0f7e63ba3c95acc565c18065c37a6f87a18373e7724b8bb847612acdddc0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24230,
@@ -1574,13 +2366,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [BTN_MOVE] مع<br>[BTN_DASH] للتفادي",
     "arabic_edit": "استعمل [BTN_MOVE] مع [BTN_DASH] للتفادي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "39b8873453727b61916f3e5731e6949c7aa81b5315624d78e9a74ec3eaea9f8b",
+      "candidate_sha256": "728aaad6c0b10e34f07654931ec841acc4ffe44f5df87f2b23aedac9571666d8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24231,
@@ -1589,14 +2389,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_OBJECTIVE_PING]<br>للعثور على عش الخنفساء<br>والروبوت ماينارد",
-    "arabic_edit": "اضغط [BTN_OBJECTIVE_PING] للعثور على عش الخنفساء<br>والروبوت ماينارد",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_OBJECTIVE_PING] لتحديد موقع عش خنافس سبيتل والروبوت<br>ماينارد",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "22ee21c30119d1cd873b7911aa1dada000c99a5188b8d1a666b1b356dd309500",
+      "candidate_sha256": "c5d554851d492ce4787ef695a779feb155a8b0776990459b6d93c2a37f6b4c4f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24232,
@@ -1605,14 +2413,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_OBJECTIVE_PING]<br>للعثور على عش الخنفساء",
-    "arabic_edit": "اضغط [BTN_OBJECTIVE_PING] للعثور على عش الخنفساء",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_OBJECTIVE_PING] لتحديد موقع عش خنافس سبيتل",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5f87a9e7d7e07280f819eb5327f2d860ecfee303e2c965b08893c3fd8015ccf9",
+      "candidate_sha256": "4efba6ee0c3485cdafc6a5a505ee7b1cdb6990960f2f4d3d8da910cdf6e362fc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24233,
@@ -1622,13 +2438,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_ACCEPT]<br>لتثبيت الأيقونة",
     "arabic_edit": "اضغط [BTN_ACCEPT] لتثبيت الأيقونة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "b8065c6fdd80c7644138534cf7c4ca5445a7e0de1c8dac03d65651b989f729d6",
+      "candidate_sha256": "7be2bb1b245d8f272207995c4922913b66336d4d7adb3a82a0f684a66450c0b6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24234,
@@ -1638,13 +2462,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SELECT] لإعادة<br>تعيين عجلة الأسلحة",
     "arabic_edit": "اضغط [BTN_SELECT] لإعادة تعيين عجلة الأسلحة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5e44830e3986c0dd5f6f1d7c2c33f74f058a435cd365b9751590fd0be4c644ac",
+      "candidate_sha256": "7fd9b284607590554a3060c74cbdfc588c0832a06d2f2cc4e813398597e02e18",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24235,
@@ -1654,13 +2486,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_AIM] للفرملة",
     "arabic_edit": "استمر بالضغط على [BTN_AIM] للفرملة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "3d8c544c12a6d326a6cf64173ff4041269df3f757ebe4b15778f75a56852da7d",
+      "candidate_sha256": "f66bc48fa945f22f62b994f12a8332c5bcf4a273ff3e314909e5eab26aea1c41",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24236,
@@ -1670,13 +2510,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_FIRE] لإطلاق كرات اللهب",
     "arabic_edit": "استمر بالضغط على [BTN_FIRE] لإطلاق كرات<br>اللهب",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "901315e8bd3bbcee11335f38e0f3ef4c8be9c59014397170cee45499392308a3",
+      "candidate_sha256": "7c7397bcd3c8c53f0b3b9060176dc58a458b0bf7ab984ada4b331416b7cb8144",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24237,
@@ -1686,13 +2534,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_MOUNT_BOOST]<br>للتسارع",
     "arabic_edit": "استمر بالضغط على [BTN_MOUNT_BOOST] للتسارع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "eb24ec030aa3631f197ec80afb118411680d69412f06f8fea2b4ced4d1fb3077",
+      "candidate_sha256": "a5a944f294ffa237cadedc61940dcfee21e03e1d214c47d01eefcf93cda11993",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24238,
@@ -1702,13 +2558,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MELEE] لإزعاج<br>العش",
     "arabic_edit": "اضغط [BTN_MELEE] لإزعاج العش",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "2bc0574f55668460d448c2110ad26ca99a81a39329a7a75f4c97d50cceaa1205",
+      "candidate_sha256": "daf2e12f053af10436bf5c1a7ebf7a32fb12f88a9914ad1a7ab2b7315747c569",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24239,
@@ -1717,14 +2581,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_B] لتنزل عن<br>الخنفساء",
-    "arabic_edit": "اضغط [BTN_B] لتنزل عن الخنفساء",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_B] للقفز عن خنفساء سبيتل",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "9bdf1bcc245181e72ed10bfdad94bb27c4fdfbafab2e21f48bbcd46aacca8449",
+      "candidate_sha256": "7372ea95b3bde712d24373ba618f1ae857686ca64db5ad27b7d1dba782ed9bcb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24240,
@@ -1734,13 +2606,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_MOUNT_BOOST]<br>لتنطلق من المنحدرات",
     "arabic_edit": "استمر بالضغط على [BTN_MOUNT_BOOST] لتنطلق من<br>المنحدرات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "c878d8cf6d235182f5a8c099dee0701cc6f1de81c2f789cbacbce15ef402ebd6",
+      "candidate_sha256": "c513e54a17e33c97d5379b8035cffe7ce98a07b4abface72bc71e15a9a27e8de",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24241,
@@ -1749,14 +2629,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "حافظ على<span class='emphasis'>سرعتك</span>فوق المنحدرات والفجوات<br>الكبيرة.",
-    "arabic_edit": "حافظ على<span class='emphasis'>سرعتك</span>فوق المنحدرات والفجوات الكبيرة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "حافظ على <span class='emphasis'>سرعتك</span> لعبور المنحدرات الكبيرة والفجوات.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "053bae5f180383b661ace7e057f0c0765df71f8dbbc92c1f02fe89c82ca141d3",
+      "candidate_sha256": "ef4f50730e2c8b4666b676d8ca8515262bd7927a6e6764b4eaa6cd9662a647b2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24242,
@@ -1766,13 +2654,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [BTN_LOOK] لتوجيه<br>ترودي",
     "arabic_edit": "استعمل [BTN_LOOK] لتوجيه ترودي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "f360b8d42b12ba441ac177e6a10ea1223356f1a8bf0ad88607902d81e025cb0a",
+      "candidate_sha256": "f7864a096a8de9e53cb4e4835e8450d08bb4b0cdbc6a18ef2c3d88c2fb2c24d0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24243,
@@ -1782,13 +2678,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [BTN_MOVE] لتوجيه<br>ترودي",
     "arabic_edit": "استعمل [BTN_MOVE] لتوجيه ترودي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "121fca6d91132e78ee597c7bbb69e6b2f12764314e4a4a3ac70014aef4778372",
+      "candidate_sha256": "8be91caace7b5b563bd82c6a89fd3d5c5a7ac9b9582329e7680ae64af7f07b27",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24244,
@@ -1797,14 +2701,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_MELEE] لترم<br>قنبلة",
-    "arabic_edit": "اضغط [BTN_MELEE] لترم قنبلة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_MELEE] لرمي قنبلة",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "1059170bf28732952bde432246a68374bef798be794fbf61e03266745c30d740",
+      "candidate_sha256": "fc6a4e422c5a1f04e6c51b450b05d8521cb9c476fd05f43e93cb8e23487f2f02",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24245,
@@ -1814,13 +2726,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_PORTAL_TETHER]<br>لرابطة الصدع",
     "arabic_edit": "اضغط [BTN_PORTAL_TETHER] لرابطة الصدع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "b48752b5e0259cd7ac74ac9d17ce225bd893967e993d422276d3d63b619e891b",
+      "candidate_sha256": "0cfa9ea33d151ec04e176e6868278234f9413d0a05537666884cf7f2b30ca36c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24246,
@@ -1829,14 +2749,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_PORTAL_TETHER]<br>لتفتح شقا",
-    "arabic_edit": "اضغط [BTN_PORTAL_TETHER] لتفتح شقا",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_PORTAL_TETHER] لفتح صدع",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "a18c299809ea67c9d5754484f1bd406cdc6c016fab9556d20dc83ef0cee0cccc",
+      "candidate_sha256": "4fa5986829ac51143c34620b92c9181b77c00a1b1d3439178bddb53db39f5cd5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24247,
@@ -1845,14 +2773,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "صوب نحو شق ذهبي ثم اضغط<br>[BTN_PORTAL_TETHER]<br>لاستخدام رابطة الصدع.",
-    "arabic_edit": "صوب نحو شق ذهبي ثم اضغط [BTN_PORTAL_TETHER] لاستخدام<br>رابطة الصدع.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "صوب نحو صدع ذهبي، ثم اضغط [BTN_PORTAL_TETHER] لاستخدام رابطة<br>الصدع.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "f27a0ec8552c67c8efed95e7e9b0175f68e6fcc8e4d39862ecb0de1cd12cd7c5",
+      "candidate_sha256": "1a3ac21572ec44b111f1211890441ce05d045dc09f0c8741ea345655f005feeb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24248,
@@ -1862,12 +2798,20 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_FIRE] للإطلاق",
     "arabic_edit": "اضغط [BTN_FIRE] للإطلاق",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "9e7f630913d84af1047daeeca95eb9d903cf3297359d8f5182cd1e3815ed7c56",
+      "candidate_sha256": "48f423ece4309bf7813cf4be1c2f5edc43735f836b8807f57b02906781e3aa12",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24249,
@@ -1877,13 +2821,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_FIRE] لإطلاق النار<br>على سفن البلرغ",
     "arabic_edit": "اضغط [BTN_FIRE] لإطلاق النار على سفن البلرغ",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "732c0f535bc18b970cd28f725e910ab7e12333fdefe0ef99cf1b0d4695b1b7bc",
+      "candidate_sha256": "480af8c58e1630b20903f187620093c829fbcd4c13f5ae22604807b105136b3b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24250,
@@ -1892,14 +2844,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWINGSHOT] ،لتتسارع<br>ثم أفلت [BTN_SWINGSHOT]<br>لتحلق",
-    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] ،لتتسارع ثم<br>أفلت [BTN_SWINGSHOT] لتحلق",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] لزيادة سرعة الدوران، ثم<br>حرر [BTN_SWINGSHOT] للتحليق",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "df7d99f5e0b6fc16dc4a6f67818f7a10695b619fefd609d9cb4c6632ac161084",
+      "candidate_sha256": "a6ba7dde32648dd633ec4361883267785dca1b706804decf44a666e8632fd4bb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24251,
@@ -1909,12 +2869,20 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SPRINT] للعدو",
     "arabic_edit": "اضغط [BTN_SPRINT] للعدو",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "997e7ed13862332e51b4a0ff9c88da075a26b25383857a031f2a8ce6afc81838",
+      "candidate_sha256": "4864aee8c8ac717637422caee4ccf72b9c8bddb3f62beb23db28d52601e9b752",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24252,
@@ -1924,13 +2892,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SPRINT] للعدو",
     "arabic_edit": "استمر بالضغط على [BTN_SPRINT] للعدو",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "1e4da64b3d034a707a66e65e9484eb3b1ff1dfa901551d12a489d7b38d975489",
+      "candidate_sha256": "97338f37db29f3772b7efa981e3b4d42b35933d2b39a175288b3866e6dcb7e0f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24253,
@@ -1939,14 +2915,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SELECT] لمراجعة<br>السبايبوتات",
-    "arabic_edit": "اضغط [BTN_SELECT] لمراجعة السبايبوتات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_SELECT] لاستعراض روبوتات التجسس",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "b1ffcb07a72a675405bc68bb50f90fda57abad7cfca7e85a39e5c392a886b6ce",
+      "candidate_sha256": "fdbc5e174f856c9f6e914b6ef5e5394b6f45b06dbfd3def11b792e55628bc853",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24254,
@@ -1955,14 +2939,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] ثم<br>[BTN_MELEE] للسحق لبدء<br>تحدي كاريوكي الأناشيد",
-    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_MELEE] للسحق لبدء تحدي<br>كاريوكي الأناشيد",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_MELEE] لتنفيذ ضربة أرضية وبدء تحدي<br>كاريوكي الأناشيد البحرية",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "0a96e5e9cf1b78a195b16f66a3564e209697d68645bce0629c4b141043d9ca32",
+      "candidate_sha256": "31286577d3313cdc1775c13439ae9ecd271755dfb29c1fc6c0b8d650fe841cf7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24255,
@@ -1972,13 +2964,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWINGSHOT] للتأرجح",
     "arabic_edit": "استمر بالضغط على [BTN_SWINGSHOT] للتأرجح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "ec0ee9bc5161203ea6546ca0ecdb5d23c89b4e173558838e6ad8d75021fd66ba",
+      "candidate_sha256": "4147eb3ad073369a526df367f2418aff09f248263b00bd1095ffb647dbe52f2e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24256,
@@ -1988,13 +2988,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SWINGSHOT]<br>للربط",
     "arabic_edit": "اضغط [BTN_SWINGSHOT] للربط",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "778977f6fd7fd4a21969da4ae0e705aca223101cfb3c10fad7956cb8215c78c0",
+      "candidate_sha256": "b085b958f41e23216be28bc7a2f586932f681f7df487b2c00f32856c3a45f587",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24257,
@@ -2004,13 +3012,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_RB] لتسارع توربيني",
     "arabic_edit": "استمر بالضغط على [BTN_RB] لتسارع توربيني",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "2a583da71b142dced50a9eddb7639bebf94adcd2bea6bad3ea30d37f835beb28",
+      "candidate_sha256": "3c0f46aa360c204f3004eb914e9d650c3b0fa79e09cd3ac4e9050060a51d686e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24258,
@@ -2020,13 +3036,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_CANCEL] للخروج<br>من قائمة البائع",
     "arabic_edit": "اضغط [BTN_CANCEL] للخروج من قائمة البائع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "87a2d46655e7516fffec20d9f2e33167d6263dd11a9962784b479961aeeb7d62",
+      "candidate_sha256": "8306b150ea4b070fcb3e7f05275197aa72838b6145739a16fa862eef83300a7e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24259,
@@ -2036,13 +3060,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_ACCEPT] لشراء<br>سلسلة التطوير",
     "arabic_edit": "اضغط [BTN_ACCEPT] لشراء سلسلة التطوير",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "3e8db7a51900ee6ec416ffe4230ea0a89e25af2bc622f57259bd47713ffcfcd4",
+      "candidate_sha256": "99071bda58bd233d5130e676d50ecb2cdd6a5c88a28714c0432d276077f6a84e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24260,
@@ -2052,13 +3084,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_ACCEPT] لبدء<br>سلسلة التطوير",
     "arabic_edit": "اضغط [BTN_ACCEPT] لبدء سلسلة التطوير",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "346c9c2341865a69e7b5b97b00f74845717f52a595f6b587829daeed2f112c53",
+      "candidate_sha256": "5bb1216a40fdbda86cb42eeaba6fb7dababd3bbe7d1745975058ebafdc03f9b3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24261,
@@ -2068,12 +3108,20 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_X] لمعاينة سلاح",
     "arabic_edit": "اضغط [BTN_X] لمعاينة سلاح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "3531150c4429354f335aac2ee876102264f7ee9eb57da6cd4ec1deb59ec681cb",
+      "candidate_sha256": "f0ca102ad00a3c462d36e2e51b8416f45382e60966d033f771f1a01b5c4e0379",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24262,
@@ -2083,12 +3131,20 @@
     "scene_code": "",
     "arabic_current": "شراء من البائع",
     "arabic_edit": "شراء من البائع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "dbfc8e82fd4ce7e33ec36693a02480245ef1652ded3e6fac3bdb7e9dadbd3e85",
+      "candidate_sha256": "72995f28fa270c974a52a825647c7de3902577d8b9475ac840923714ea044791",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24263,
@@ -2098,13 +3154,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [BTN_LS_VERTICAL]<br>لمقارنة الأسلحة واضغط<br>[BTN_MELEE] لمشاهدة معاينة.",
     "arabic_edit": "استعمل [BTN_LS_VERTICAL] لمقارنة الأسلحة واضغط [BTN_MELEE]<br>لمشاهدة معاينة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "2428a5fbb55e4ae57482fae2df601aecf92db4ae47a9472fde41057bc4fea43e",
+      "candidate_sha256": "86cce58cd7dcf502ed0d8cc0e775c6b9a7eaed4aad96355f56af23e547b453fd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24264,
@@ -2114,13 +3178,21 @@
     "scene_code": "",
     "arabic_current": "هنيئا لك بشرائك! لا تنس<br>تفقد متجر السيدة زوركون<br>باستمرار لاكتشاف أسلحة<br>جديدة.",
     "arabic_edit": "هنيئا لك بشرائك! لا تنس تفقد متجر<br>السيدة زوركون باستمرار لاكتشاف<br>أسلحة جديدة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "e8cc982f53e5a5f708db42538a9144bf3ab5804f00826091b3dffbc79e3a26dd",
+      "candidate_sha256": "efda105e3059a8f6f9baf6d785983a6f0973b0f9ee6a23d5050961847bd4a074",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24265,
@@ -2130,12 +3202,20 @@
     "scene_code": "",
     "arabic_current": "استعمل الراريتانيوم لشراء<br>التطويرات [BTN_ACCEPT]",
     "arabic_edit": "استعمل الراريتانيوم لشراء<br>التطويرات [BTN_ACCEPT]",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "d0550d601754892a7108ff731a11a53106bbbe1cf795edb5308bec551c47ecff",
+      "candidate_sha256": "48807e21f99f169027afc0c6736ed456561283a0f7036673e473ea24bf7ffe64",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24266,
@@ -2144,14 +3224,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "،حدد السلاح الذي تريد شراءه<br>ثم اضغط واستمر بالضغط<br>على [BTN_ACCEPT]<br>لتشتريه!",
-    "arabic_edit": "،حدد السلاح الذي تريد شراءه ثم<br>اضغط واستمر بالضغط على [BTN_ACCEPT] لتشتريه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "حدد السلاح الذي تريد شراءه، ثم استمر<br>بالضغط على [BTN_ACCEPT] لشرائه!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "b3e732d2b20d0b1960c12a6594e8aeddda425b146cdd60a9a799345b14b2cc9f",
+      "candidate_sha256": "d1ceebd0b560f84008ce270a1a96862b89a25d02bfe446e04be012faa3cc77e8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24267,
@@ -2160,14 +3248,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "أهلا بك في متجر السيدة<br>زوركون، وجهتك الوحيدة<br>لتقوية ترسانتك!",
-    "arabic_edit": "أهلا بك في متجر السيدة زوركون،<br>وجهتك الوحيدة لتقوية ترسانتك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أهلًا بك في متجر السيدة زوركون، وجهتك<br>الشاملة لتعزيز ترسانتك!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "47d1eab0e3e24c9ada63586e8dd0d318b3ee184a9b7c412478f713d376aec50c",
+      "candidate_sha256": "43ac5d178db1c33e0937c2b0a46a96e0c162e927fc7d73aaa20bdf58cd47131b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24268,
@@ -2176,14 +3272,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "تابع سلسلة التطوير<br>باختيار الخلايا المحيطة<br>بالتطوير الوسطى",
-    "arabic_edit": "تابع سلسلة التطوير باختيار الخلايا<br>المحيطة بالتطوير الوسطى",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تابع سلسلة التطوير باختيار الخلايا المحيطة<br>بالتطوير المركزي",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "a38a2d922b497c45304b4173ab041a815223025a5593ad939b55806c2883161d",
+      "candidate_sha256": "1be353330b441740a7ef1d394fc66a61022d9b8778d4371f69ce010932dd1b06",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24269,
@@ -2193,13 +3297,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [STICK_LEFT]<br>لتحديد الأسلحة المختلفة<br>المتاحة للشراء ومقارنتها",
     "arabic_edit": "استعمل [STICK_LEFT] لتحديد الأسلحة المختلفة<br>المتاحة للشراء ومقارنتها",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "57b4c78340eb30dceb22cf8252baefd13929373e2e30c0dc9f74cfdf5fba8908",
+      "candidate_sha256": "e3e18ed00c074ec3c04a81f080629cdda97ace833fcad02770101dc6ab90a42c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24270,
@@ -2208,13 +3320,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "تطوير البائع",
-    "arabic_edit": "تطوير البائع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تطوير لدى البائع",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "1869c3e8f8130e712f0304d44b01c2e9ee251d223dd39adb86f9302439a20684",
+      "candidate_sha256": "daa4da4c182247c7e30ea7a3af27995900e97c9e8ba2aac8200fde3dbe394ca5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24271,
@@ -2223,14 +3343,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "تزيد هذه التطوير الذخيرة<br>القصوى للسلاح.",
-    "arabic_edit": "تزيد هذه التطوير الذخيرة القصوى<br>للسلاح.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يزيد هذا التطوير الحد الأقصى لذخيرة<br>السلاح.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "0f3f7d5489806d0a13c657a77efa06c34d09398ba67ab85a906b6b80a1a40d61",
+      "candidate_sha256": "434217a8df7ebda6417cc9bde6fe41aba2adf845607e28c2cb07d6693630b714",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24272,
@@ -2239,14 +3367,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "إذا امتلكت جميع الخلايا<br>،المحيطة بعنقود برتقالي<br>فأنت تفعل التطوير الخاصة<br>[BTN_ACCEPT]",
-    "arabic_edit": "إذا امتلكت جميع الخلايا ،المحيطة<br>بعنقود برتقالي فأنت تفعل التطوير<br>الخاصة [BTN_ACCEPT]",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "امتلاك جميع الخلايا المحيطة بعنقود برتقالي<br>يفتح التطوير الخاص [BTN_ACCEPT]",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "b4e9542b48bd81f3de695fd21f7aa371712e7fa362299d6763b8b4bca375dca0",
+      "candidate_sha256": "3aff6cea749199711f31611e4e2bf8d3213b0f9346a328c83f313e682949fef9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24273,
@@ -2255,14 +3391,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "تحتوي أعناقيد الخلايا<br>الذهبية تطويرات خاصة. اشتر<br>جميع التطويرات المتصلة<br>بعنقود ذهبي لتفتحها!",
-    "arabic_edit": "تحتوي أعناقيد الخلايا الذهبية<br>تطويرات خاصة. اشتر جميع التطويرات<br>المتصلة بعنقود ذهبي لتفتحها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تحتوي عناقيد الخلايا الذهبية على تطويرات<br>خاصة. اشتر جميع التطويرات المتصلة بعنقود<br>خلايا ذهبي لفتحها!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "c5461e120888176e381cdae82e907b4795bb6fd64d98664d8eb5b0f1a612737c",
+      "candidate_sha256": "273bf9cc4dfd2a2d320533185b27760dc81f2773448ed2cca706006f1228e485",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24274,
@@ -2272,13 +3416,21 @@
     "scene_code": "",
     "arabic_current": "اشتر الآن جميع التطويرات<br>المتصلة بالخلية الذهبية.",
     "arabic_edit": "اشتر الآن جميع التطويرات المتصلة<br>بالخلية الذهبية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "674e459dea066720306175634d0aa89f06a426dff3624776772f211417473aed",
+      "candidate_sha256": "c9fb101135275d7f122ffd42906ea0ff0093b598acb7b206772a3ebb05750593",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24275,
@@ -2288,13 +3440,21 @@
     "scene_code": "",
     "arabic_current": "انتهى الشرح! زر السيدة<br>زوركون لتطوير أسلحتك<br>بالراريتانيوم!",
     "arabic_edit": "انتهى الشرح! زر السيدة زوركون<br>لتطوير أسلحتك بالراريتانيوم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "05dc3293288c0086d984af5c92c81c1ef36cdfc5f6065077d65c64610c6f98e6",
+      "candidate_sha256": "7c783345000fe97f16f131c50bc52d061bae44569eef4e0759d40b757876830e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24276,
@@ -2303,14 +3463,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استعمل [MENU_STICK_LEFT]<br>لتحديد التطوير المتصلة<br>بنقطة البداية.",
-    "arabic_edit": "استعمل [MENU_STICK_LEFT] لتحديد التطوير المتصلة<br>بنقطة البداية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استخدم [MENU_STICK_LEFT] لتحديد التطوير المتصل بنقطة<br>البداية.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "67704133f92aa6872b6cc832d7cf748456c56f9482ffe2d3b7409ca3916bbbc1",
+      "candidate_sha256": "5475fd19af7da5987ffdb76aba5a8fbed43420a0a4c571b4889560a9791c5fda",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24277,
@@ -2320,13 +3488,21 @@
     "scene_code": "",
     "arabic_current": "استعمل [MENU_STICK_LEFT]<br>لتحديد الخلية الذهبية.",
     "arabic_edit": "استعمل [MENU_STICK_LEFT] لتحديد الخلية الذهبية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "1f5fd1f5c32c8607eaf0467b33fb2db5760ad881a34e2cd643d6b80b7e71ad36",
+      "candidate_sha256": "b23fd027b88af98d36992c1352381d662cbbedeada1965f20a378fc7ecfccb5e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24278,
@@ -2335,14 +3511,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اشتر تطويرات الأسلحة<br>لتحسن الذخيرة القصوى<br>ومعدل الإطلاق وغير ذلك<br>كثيرا.",
-    "arabic_edit": "اشتر تطويرات الأسلحة لتحسن الذخيرة<br>القصوى ومعدل الإطلاق وغير ذلك<br>كثيرا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اشتر تطويرات الأسلحة لزيادة الحد الأقصى<br>للذخيرة ومعدل الإطلاق وغير ذلك الكثير.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "7e47bc147f5479e9bd95b3789b0883c3a505cef844d448a06dfa053f5376ef0a",
+      "candidate_sha256": "a5c829cdd849c1e453ce26bf52ce3bc228ccaf9315f930c896eeb18147d9016c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24279,
@@ -2352,13 +3536,21 @@
     "scene_code": "",
     "arabic_current": "أنفق بعض الراريتانيوم<br>لتطوير أحد أسلحتك!",
     "arabic_edit": "أنفق بعض الراريتانيوم لتطوير أحد<br>أسلحتك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "8a9a1f9e0bd1a5aa3aa77746aa4c93345d77104a321670fa0d8b0367f9713dc8",
+      "candidate_sha256": "91ed42034e7f71dc97662067847b93c55ba09693d72163ef0c39670bd417eb5b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24280,
@@ -2367,13 +3559,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "الأمر بهذه البساطة! ارق أحد<br>أسلحتك!",
-    "arabic_edit": "الأمر بهذه البساطة! ارق أحد<br>أسلحتك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "الأمر بهذه البساطة! طور أحد أسلحتك!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "985337ab28a8b6776955c5215a9207d055a67672e650c2c875a4b629de3986d8",
+      "candidate_sha256": "b8741a7bdcad384dc2af22adb5e3004f8f05dab96d07e1bcf75d55857e4ec484",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24281,
@@ -2382,14 +3582,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط واستمر بالضغط على<br>[BTN_ACCEPT] لشراء التطوير<br>راريتانيوم) بالراريتانيوم<br>الشرح على الحساب)!",
-    "arabic_edit": "اضغط واستمر بالضغط على [BTN_ACCEPT] لشراء<br>التطوير راريتانيوم) بالراريتانيوم<br>الشرح على الحساب)!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالضغط على [BTN_ACCEPT] لشراء التطوير<br>بالراريتانيوم (الراريتانيوم المستخدم في<br>هذا الشرح مجاني)!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "f1430d41a7cc08b6a769e9bcc7cf8486d56a7db5f0a96359ad4914694e61d997",
+      "candidate_sha256": "97ade5946c717adcb680a1131e573c1d1feeb1c4d37c5466ba8b6fa45f5806d5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24282,
@@ -2398,14 +3606,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "انقر واستمر بالضغط على<br>[BTN_CLICK_LEFT] فوق<br>التطوير لتشتريها<br>راريتانيوم) بالراريتانيوم<br>الشرح على الحساب)!",
-    "arabic_edit": "انقر واستمر بالضغط على [BTN_CLICK_LEFT] فوق<br>التطوير لتشتريها راريتانيوم)<br>بالراريتانيوم الشرح على الحساب)!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استمر بالنقر على التطوير باستخدام [BTN_CLICK_LEFT] لشرائه<br>بالراريتانيوم (الراريتانيوم المستخدم في<br>هذا الشرح مجاني)!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "cee8c46fe38ad401bba94095cddca08b5cec1c2035bce4f734fed7005a1865f4",
+      "candidate_sha256": "1b4a2c10754592e1fb5bfa5fbeea713e1b157ffaf17cf255ff3752fed1a6ea81",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24283,
@@ -2415,13 +3631,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [MENU_RB] للتبديل<br>إلى تبويب التطويرات.",
     "arabic_edit": "اضغط [MENU_RB] للتبديل إلى تبويب<br>التطويرات.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "25b8711c34ca261d417f799661dacbae50050d3f0bce6e3ba758902561a8d2db",
+      "candidate_sha256": "d036f1d262a646b43a0f1a513bb7629fa0b746fd5762bd0bfc18cbf7dfe275d0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24284,
@@ -2431,13 +3655,21 @@
     "scene_code": "",
     "arabic_current": "انقر تبويب التطويرات أو<br>اضغط [MENU_RB] لتبدأ<br>تطوير أسلحتك.",
     "arabic_edit": "انقر تبويب التطويرات أو اضغط [MENU_RB]<br>لتبدأ تطوير أسلحتك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "f92beabced9def684a9d749328984a3bdf1077da3d4a333c1e7f3994a3cad5b1",
+      "candidate_sha256": "7353d8f7e6f2669b84e52279527173c071a15a878305b264bab86e1f7bb0cb6d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24285,
@@ -2446,14 +3678,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_ACCEPT] لاختيار<br>المعلم وتتعلم كيفية<br>تطوير الأسلحة.",
-    "arabic_edit": "اضغط [BTN_ACCEPT] لاختيار المعلم وتتعلم كيفية<br>تطوير الأسلحة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_ACCEPT] لاختيار المعلم وتعلم كيفية تطوير<br>الأسلحة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "8cf52819314762d9878c1fcb0b359fb8ebbf3432d7c200291ecc517c90cd5d99",
+      "candidate_sha256": "b3deae95834500e528ae41131c6d757bfd616c9927c1299b47bfaaea49509539",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24286,
@@ -2463,13 +3703,21 @@
     "scene_code": "",
     "arabic_current": "انقر المعلم لتتعلم كيفية<br>تطوير الأسلحة.",
     "arabic_edit": "انقر المعلم لتتعلم كيفية تطوير<br>الأسلحة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "c2b6ab1a3cf03ebced7470ea624814a9f9d401d265978955dd4b818d738d808c",
+      "candidate_sha256": "99a1c4b9436b76e614e624b0ce6702440f73490960362bb6447096ce0ff12f76",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24287,
@@ -2479,12 +3727,20 @@
     "scene_code": "",
     "arabic_current": "نعلم اللومباكس منذ أجيال!",
     "arabic_edit": "نعلم اللومباكس منذ أجيال!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "2e744e19e611cb1a0356c4179815515ed986accb71b7b42ca6184c7aeabfccea",
+      "candidate_sha256": "ee913026b0d38dcc75706c7914ef779f8f2c7c1679895440dc78cc49d60fb352",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24288,
@@ -2494,13 +3750,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] باتجاه جدار<br>لتقفز منه",
     "arabic_edit": "اضغط [BTN_JUMP] باتجاه جدار لتقفز منه",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "73a924c9d9863799104e80a6db23bcc388439db15792eae77ca86602876f12af",
+      "candidate_sha256": "f8f0e6f47f4895b4ff979c0166d7ada67909a3640559974198fd54d102a2cdf8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24289,
@@ -2510,13 +3774,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] على لوحة<br>لتجري على الجدار",
     "arabic_edit": "اضغط [BTN_JUMP] على لوحة لتجري على الجدار",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "a0d3747fda69fb3a2f1b1e446cc05c659e71caf7eafc23e0d1e6c87e5110a166",
+      "candidate_sha256": "d3e8c57266b54bc34c2c435272a07e8b7637c81e212e557107e65cd37b2dc2a5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24290,
@@ -2526,13 +3798,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_SWAP_WEAPONS]<br>لاختيار سلاح",
     "arabic_edit": "استمر بالضغط على [BTN_SWAP_WEAPONS] لاختيار سلاح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "c246c629677b7166b4e0b4db0d85ca18ca196298f60f4b782483d474ecc11384",
+      "candidate_sha256": "746588303b3275b59d379c26f75e3d860fb2df66cf619cab1f9427b7c2a150d4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24291,
@@ -2542,13 +3822,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_SWAP_WEAPONS]<br>بإيجاز لتبديل السلاح",
     "arabic_edit": "اضغط [BTN_SWAP_WEAPONS] بإيجاز لتبديل السلاح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "03c1522cfe7b450000c3da16e44e57158f9d6d68d5db7e4d4629bc930a4222fd",
+      "candidate_sha256": "1536ff209db4cc87af78e426ccd084b5558577b5f307864af8ce7d4fbf1f0c30",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24292,
@@ -2558,12 +3846,20 @@
     "scene_code": "",
     "arabic_current": "عجلة الأسلحة",
     "arabic_edit": "عجلة الأسلحة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "5518cfcc51a8aca09f4fa423313d892ae8c1852745ae320f4230fc180ca1602e",
+      "candidate_sha256": "e8206462e91caa910ced7c7b9076c01c10edbefc41b223ca5e45ef26ca14acf9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24293,
@@ -2573,12 +3869,20 @@
     "scene_code": "",
     "arabic_current": "اختر خانة جديدة لهذا السلاح.",
     "arabic_edit": "اختر خانة جديدة لهذا السلاح.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "8171e98c220456c4aff99e7a7c4a3c54052f85f81b63f594144f46e2ad8d4aae",
+      "candidate_sha256": "c0f5446ea2631952a5b77897d21d39a22dbeef20adf8804a1cea7f33723cc58d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24294,
@@ -2587,14 +3891,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_FIRE] لترم<br>قنبلة",
-    "arabic_edit": "اضغط [BTN_FIRE] لترم قنبلة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_FIRE] لرمي قنبلة",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "9f7e6058213313df81f7341abeffada530581a4c91ee4ce6433b4c46b1a6ed51",
+      "candidate_sha256": "fcc45c8b0736217e224c04605f888322c8ea58d5305352fe0236cadde0356a5c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24295,
@@ -2603,14 +3915,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اضغط [BTN_JUMP] ثم<br>[BTN_MELEE] لسحق المفتاح",
-    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_MELEE] لسحق المفتاح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اضغط [BTN_JUMP] ثم [BTN_MELEE] لتنفيذ ضربة أرضية بالمفتاح",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "509fba8b7c0d9d7a960fba47b7be1d22428b1d1d92d09eb1d7ddac43ab041d1e",
+      "candidate_sha256": "68b260ea34c6c28cf9979c93c731608d80c3e2c586a7c1a1134135f81ef99953",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24296,
@@ -2620,13 +3940,21 @@
     "scene_code": "",
     "arabic_current": "استمر بالضغط على<br>[BTN_AIM] مع [BTN_MELEE]<br>لترمي المفتاح",
     "arabic_edit": "استمر بالضغط على [BTN_AIM] مع [BTN_MELEE] لترمي<br>المفتاح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "7043233cfaa7dac022a862d7554c0320f17917ca9be948f662aaf83f6f3878bb",
+      "candidate_sha256": "c8307cce2eaa8fd24832bef3718c3925b53666e8255471f80ba5953f8ae14cda",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24297,
@@ -2636,13 +3964,21 @@
     "scene_code": "",
     "arabic_current": "اضغط [BTN_WRENCH_THROW]<br>لترمي المفتاح",
     "arabic_edit": "اضغط [BTN_WRENCH_THROW] لترمي المفتاح",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "987fca58096cdc143a5255b09dee6a9b9d7cec0a974065415bae00f71c6c60b4",
+      "candidate_sha256": "3eb18bd68fa7592b6100296ac4b2d9cefd60844584bb8418fcf4f81b7a6f3dba",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24298,
@@ -2651,13 +3987,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "استعمل<span class='emphasis'>مجاثم ترودي</span>لتحط قرب الزوربستون.",
-    "arabic_edit": "استعمل<span class='emphasis'>مجاثم ترودي</span>لتحط قرب الزوربستون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "استخدم <span class='emphasis'>مجاثم ترودي</span> للهبوط قرب أحجار الزورب.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "0359e83216c3f84e9905734ceb480c76ecf21c45311472e27c85bb7acf36efa1",
+      "candidate_sha256": "dc9cb1cbfca0178fbb6d2e12ad7558e596870e5bbe557bac4c20bdd3e89e4a68",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24299,
@@ -2666,12 +4010,20 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "حلق بين<span class='emphasis'>مجاثم ترودي</span>للبحث عن الزوربستون.",
-    "arabic_edit": "حلق بين<span class='emphasis'>مجاثم ترودي</span>للبحث عن الزوربستون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "حلق بين <span class='emphasis'>مجاثم ترودي</span> للبحث عن أحجار الزورب.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "tutorials-002",
+      "source_sha256": "012cdb01dc7e6ba7cd58f2f55d621825ce2f42333602f096186a9d851cbb7cac",
+      "candidate_sha256": "ddd15ed12904a06ece620ba1a52b18ec22161a99faefa43b2e56ff996f1e60a0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

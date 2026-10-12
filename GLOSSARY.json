@@ -38,8 +38,9 @@
     },
     {
       "source": "HUD",
-      "arabic": "واجهة المعلومات",
-      "status": "proposed"
+      "arabic": "واجهة اللعب (HUD)",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
     },
     {
       "source": "Speedrunning",
@@ -144,27 +145,555 @@
     {
       "source": "Ratchet",
       "arabic": "راتشت",
-      "status": "reviewed_in_context"
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
     },
     {
       "source": "Rivet",
       "arabic": "ريفت",
-      "status": "reviewed_in_context"
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
     },
     {
       "source": "Clank",
       "arabic": "كلانك",
-      "status": "reviewed_in_context"
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
     },
     {
       "source": "Kit",
       "arabic": "كيت",
-      "status": "reviewed_in_context"
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
     },
     {
       "source": "Plumber",
       "arabic": "السباك",
       "status": "reviewed_in_context"
+    },
+    {
+      "source": "Dimensionator",
+      "arabic": "جهاز الأبعاد",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Phase Quartz",
+      "arabic": "كوارتز الطور",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Rubion Forge",
+      "arabic": "مسبك الروبيون",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Spybot",
+      "arabic": "روبوت تجسس",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Spybots",
+      "arabic": "روبوتات التجسس",
+      "status": "editorial_standard"
+    },
+    {
+      "source": "Gold Bolts",
+      "arabic": "المسامير الذهبية",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Dimensional Anomaly",
+      "arabic": "اختلال بعدي",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Dimensional Anomalies",
+      "arabic": "الاختلالات البعدية",
+      "status": "editorial_standard"
+    },
+    {
+      "source": "Captain Quantum",
+      "arabic": "القبطان كوانتوم",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Little Junktown",
+      "arabic": "بلدة الخردة الصغيرة",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Badlands",
+      "arabic": "الأراضي الوعرة",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Fixer",
+      "arabic": "المصلح",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Meta-Terminal",
+      "arabic": "الطرفية العليا",
+      "status": "editorial_standard"
+    },
+    {
+      "source": "Zurpstones",
+      "arabic": "أحجار الزورب",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Goons-4-Less",
+      "arabic": "غونز فور ليس",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Infobot",
+      "arabic": "روبوت معلومات",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Signal Booster",
+      "arabic": "مقوي إشارة",
+      "status": "editorial_standard"
+    },
+    {
+      "source": "Monktown",
+      "arabic": "بلدة الرهبان",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Dimensional Map",
+      "arabic": "خريطة الأبعاد",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Bolts",
+      "arabic": "المسامير",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Captain Qwark",
+      "arabic": "القبطان كوارك",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Meta Terminal",
+      "arabic": "الطرفية العليا",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Monks-4-More",
+      "arabic": "رهبان فور مور",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Glitch",
+      "arabic": "جليتش",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Chef Tulio",
+      "arabic": "الطاهية توليو",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Chief Engineer",
+      "arabic": "رئيسة المهندسين",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Speetle",
+      "arabic": "خنفساء سبيتل",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Hurlshot",
+      "arabic": "الهيرلشوت",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Swingshot",
+      "arabic": "خطاف التأرجح",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Boltcrank",
+      "arabic": "ذراع التدوير",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Hammercrank",
+      "arabic": "ذراع تدوير المطرقة",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Blizon",
+      "arabic": "البليزون",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Raritanium",
+      "arabic": "الراريتانيوم",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Junk Bot",
+      "arabic": "جانكبوت",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Blarg",
+      "arabic": "البلارغ",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Juggernaut",
+      "arabic": "العملاق المدرع",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Seekerpede",
+      "arabic": "سيكيربيد",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Zordoom",
+      "arabic": "زوردوم",
+      "status": "editorial_choice",
+      "consistency_sweep": "checked"
+    },
+    {
+      "source": "Warden",
+      "arabic": "مديرة السجن",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Processing Center",
+      "arabic": "مركز المعالجة",
+      "status": "editorial_choice",
+      "consistency_sweep": "checked"
+    },
+    {
+      "source": "Transfer Facility",
+      "arabic": "منشأة النقل",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Energy Bridge",
+      "arabic": "جسر الطاقة",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Trudi",
+      "arabic": "ترودي",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Juice",
+      "arabic": "جوس",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Skidd McMarx",
+      "arabic": "سكيد مكماركس",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Big Al",
+      "arabic": "بيغ آل",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Gold Cup",
+      "arabic": "الكأس الذهبية",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Silver Cup",
+      "arabic": "الكأس الفضية",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Bronze Cup",
+      "arabic": "الكأس البرونزية",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Lorbs",
+      "arabic": "اللوربات",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Virus Nests",
+      "arabic": "أعشاش الفيروس",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Cold Snap",
+      "arabic": "موجة الصقيع",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Negatron Collider",
+      "arabic": "مصادم النيجاترون",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Mr. Fungi",
+      "arabic": "السيد فنغاي",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Ms. Fungal",
+      "arabic": "الآنسة فنغال",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Warmonger",
+      "arabic": "مؤجج الحروب",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Headhunter",
+      "arabic": "قناص الرؤوس",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "RYNO 8",
+      "arabic": "رينو 8",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Lightning Rod",
+      "arabic": "قاذف الصاعقة",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Topiary Sprinkler",
+      "arabic": "رشاش التشذيب",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Glove of Doom",
+      "arabic": "قفاز الهلاك",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Enforcer",
+      "arabic": "إنفورسر",
+      "status": "editorial_choice",
+      "consistency_sweep": "checked"
+    },
+    {
+      "source": "Omniwrench",
+      "arabic": "المفتاح الشامل",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Phantom Dash",
+      "arabic": "الاندفاع الطيفي",
+      "status": "editorial_choice",
+      "consistency_sweep": "checked"
+    },
+    {
+      "source": "Hoverboots",
+      "arabic": "حذاء الطفو",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Nanotech",
+      "arabic": "النانوتك",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Drill",
+      "arabic": "المثقاب",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Drillhound",
+      "arabic": "دريلهاوند",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Blast Door",
+      "arabic": "الباب المقاوم للانفجارات",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Celestial Alignment",
+      "arabic": "الاصطفاف السماوي",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Mateys",
+      "arabic": "فرقة مايتيز",
+      "status": "editorial_choice",
+      "consistency_sweep": "pending"
+    },
+    {
+      "source": "Mangler",
+      "arabic": "الممزقة",
+      "status": "editorial_choice",
+      "consistency_sweep": "checked"
+    },
+    {
+      "source": "Kaden",
+      "arabic": "كادن",
+      "status": "editorial_choice",
+      "consistency_sweep": "checked"
+    },
+    {
+      "source": "DLSS",
+      "arabic": "DLSS",
+      "status": "keep_english"
+    },
+    {
+      "source": "FSR",
+      "arabic": "FSR",
+      "status": "keep_english"
+    },
+    {
+      "source": "XeSS",
+      "arabic": "XeSS",
+      "status": "keep_english"
+    },
+    {
+      "source": "DLAA",
+      "arabic": "DLAA",
+      "status": "keep_english"
+    },
+    {
+      "source": "DirectX 12",
+      "arabic": "DirectX 12",
+      "status": "keep_english"
+    },
+    {
+      "source": "VRR",
+      "arabic": "VRR",
+      "status": "keep_english"
+    },
+    {
+      "source": "Motion Blur",
+      "arabic": "Motion Blur",
+      "status": "keep_english"
+    },
+    {
+      "source": "Chromatic Aberration",
+      "arabic": "Chromatic Aberration",
+      "status": "keep_english"
+    },
+    {
+      "source": "Depth of Field",
+      "arabic": "Depth of Field",
+      "status": "keep_english"
+    },
+    {
+      "source": "3D Audio",
+      "arabic": "3D Audio",
+      "status": "keep_english"
+    },
+    {
+      "source": "Mono Audio",
+      "arabic": "Mono Audio",
+      "status": "keep_english"
+    },
+    {
+      "source": "Soundbar",
+      "arabic": "Soundbar",
+      "status": "keep_english"
+    },
+    {
+      "source": "Shader",
+      "arabic": "Shader",
+      "status": "keep_english"
+    },
+    {
+      "source": "UI Parallax",
+      "arabic": "UI Parallax",
+      "status": "keep_english"
+    },
+    {
+      "source": "ASMR",
+      "arabic": "ASMR",
+      "status": "keep_english"
     }
-  ]
+  ],
+  "consistency_review": {
+    "state": "completed_for_known_variants",
+    "scope": [
+      "settings technology names",
+      "Zurkie",
+      "Zordoom",
+      "Kaden",
+      "Phantom Dash",
+      "Processing Center",
+      "Enforcer",
+      "Mangler",
+      "shanty fragments"
+    ],
+    "visual_approval": "pending"
+  }
 }

@@ -1,0 +1,2402 @@
+[
+  {
+    "index": 13164,
+    "key": "MORT6_SARG_GP1_SARG_GP1_001",
+    "source_sha256": "f35ed1cb3564ad7b4a3d44099ce3e9fd78d2b85bb0f121e88877b773a8b181a7",
+    "before": "<ts=&quot;0.048;3.294&quot;>يا إلهي، يا إلهي، لا!",
+    "after": "<ts=&quot;0.048;3.294&quot;>يا إلهي، يا إلهي، لا!",
+    "decision": "keep"
+  },
+  {
+    "index": 13165,
+    "key": "MORT6_SARG_GP1_SARG_GP1_002",
+    "source_sha256": "d6577e56a54c3729e54f85b43d28cb2f4ba2ecc615194632b942cb853d756c5e",
+    "before": "<ts=&quot;0.038;3.471&quot;>اخترت يوما رائعا لتنسى سدادات أذني!",
+    "after": "<ts=&quot;0.038;3.471&quot;>يا له من يوم مناسب لأنسى سدادات أذني!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13166,
+    "key": "MORT6_SARG_GP1_SARG_GP1_003",
+    "source_sha256": "61f0c07a2436e58dfd33e5999378b7a7798a3a4cdcb5ea414e92545099773c6e",
+    "before": "<ts=&quot;0;3.812&quot;>لماذا اليوم؟! لماذا اليوم؟!",
+    "after": "<ts=&quot;0;3.812&quot;>لماذا اليوم؟! لماذا اليوم؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 13167,
+    "key": "MORT6_SARG_GP1_SARG_GP1_004",
+    "source_sha256": "488b9bff6bfa9e745b302b726c519250ce42eeae392f8a2ecde05b248587ceb7",
+    "before": "<ts=&quot;0;3.11&quot;>يبدو أن سارجاسو ستبرد غدا؛<ts=&quot;3.599;5.896&quot;>قد أحتاج إلى ارتداء ملابس الصوف!",
+    "after": "<ts=&quot;0;3.11&quot;>يبدو أن سارجاسو ستبرد غدا؛<ts=&quot;3.599;5.896&quot;>قد أحتاج إلى ارتداء ملابس الصوف!",
+    "decision": "keep"
+  },
+  {
+    "index": 13168,
+    "key": "MORT6_SARG_GP1_SARG_GP1_005",
+    "source_sha256": "48e4e9e8c81e33b556751cb32e0ce049e2a0fa20090af07c1a94925e0883b895",
+    "before": "<ts=&quot;0.045;4.361&quot;>أتوقع أن يكون محصول ،الجيلاتونيوم جيدا هذا<br>العام هممم.",
+    "after": "<ts=&quot;0.045;4.361&quot;>أتوقع محصول جيلاتونيوم جيدًا هذا العام.<br>ممم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13169,
+    "key": "MORT6_SARG_GP1_SARG_GP1_006",
+    "source_sha256": "fed6e874ffbd33439ce9c42377449cb148b33b789a44059b26d1c16014077448",
+    "before": "<ts=&quot;0.042;3.92&quot;>لا أطيق الانتظار حتى أنزع جواربي بعد<br>انتهاء العمل.",
+    "after": "<ts=&quot;0.042;3.92&quot;>لا أطيق الانتظار حتى أنزع جواربي بعد<br>انتهاء العمل.",
+    "decision": "keep"
+  },
+  {
+    "index": 13170,
+    "key": "MORT6_SARG_GP1_SARG_GP1_007",
+    "source_sha256": "8c0f2bdd982f8ecd9d4591a537454d5ca564ab085e2c594877be088a0be716f7",
+    "before": "<ts=&quot;0.08;3.5&quot;>آه، أنا بجد أعشق حياة المستنقعات.",
+    "after": "<ts=&quot;0.08;3.5&quot;>آه، أعشق حياة المستنقعات حقًّا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13185,
+    "key": "MORT_CIV_GEN_IDLE_001",
+    "source_sha256": "c09b48e17061bf596cbd0d7b3a1dc1b50e6a32b08ddac50fe066b51f464f9f33",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.004;4.043&quot;>يا لمورت! نسيت بطاقة ختم حانة زوركيز مرة<br>أخرى!",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.004;4.043&quot;>بحق مورت! نسيت بطاقة مكافآت زوركيز مجددًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13186,
+    "key": "MORT_CIV_GEN_IDLE_002",
+    "source_sha256": "68849ee47edf5e9557db18afa417eb4b122b66f8bff33db16184bc7f207deb19",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.019;3.194&quot;>مريح جدا أن أخرج من المستنقع.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.019;3.194&quot;>مريح جدا أن أخرج من المستنقع.",
+    "decision": "keep"
+  },
+  {
+    "index": 13187,
+    "key": "MORT_CIV_GEN_IDLE_003",
+    "source_sha256": "0e4be60a98d7e05649306158e4510387c900b26b17959979f4447eb506037776",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.039;2.508&quot;>أتساءل ما الذي يطبخه مورت الطيب للعشاء...",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.039;2.508&quot;>أتساءل ما الذي يطبخه مورت الطيب للعشاء...",
+    "decision": "keep"
+  },
+  {
+    "index": 13188,
+    "key": "MORT_CIV_GEN_IDLE_004",
+    "source_sha256": "9b228075d7c65b79668d3f0ef5f4e54637b79f9306e752b567eb64b2272701b7",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.051;2.424&quot;>لا أطيق الانتظار لأرى من في الساحة اليوم.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.051;2.424&quot;>لا أطيق الانتظار لأرى من في الساحة اليوم.",
+    "decision": "keep"
+  },
+  {
+    "index": 13207,
+    "key": "MORT_CIV_GEN_VISIT1_001",
+    "source_sha256": "fbc22a8c777e7ab758c0264c585640ba9ed3cbc096088c3a43d984b6709e181b",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.059;3.634&quot;>على الأغلب أستطيع العودة إلى سارجاسو الآن<br>بعد خروج تلك السيكيربيد من الخدمة.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.059;3.634&quot;>على الأغلب أستطيع العودة إلى سارجاسو الآن<br>بعد خروج تلك السيكيربيد من الخدمة.",
+    "decision": "keep"
+  },
+  {
+    "index": 13208,
+    "key": "MORT_CIV_GEN_VISIT1_002",
+    "source_sha256": "8f4233e020bc31f4c96b368b526bb8688ea538c104a65d969a7d397a9885e574",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.029;1.849&quot;>القراصنة يثيرون التوتر في فعلا...",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.029;1.849&quot;>القراصنة يوترونني حقًّا...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13209,
+    "key": "MORT_CIV_GEN_VISIT2_001",
+    "source_sha256": "54a8596d47581ca8c4d83c67e5af70e6e4cad7a0885f16fc0ba1432961f40cb7",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.068;5.232&quot;>هاه! ريفت ساحقت طاقم بيير في الساحة يوم<br>الاثنين الماضي.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.068;5.232&quot;>ها! لقد سحقت ريفت طاقم بيير في الساحة قبل<br>أيام.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13210,
+    "key": "MORT_CIV_GEN_VISIT2_002",
+    "source_sha256": "fd9756ee8f2cba04d363026047288d9954ac5212efce7faa0d9f9eb01e835aa5",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.066;0.868&quot;>،آه<ts=&quot;0.868;5.785&quot;>لقد أصبح مصنع الجيلاتونيوم هادئا وجميلا في<br>الآونة الأخيرة من دون أولئك الغونز<br>المتكبرين.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.066;0.868&quot;>آه،<ts=&quot;0.868;5.785&quot;>صار مصنع الجيلاتونيوم هادئًا ومريحًا<br>مؤخرًا، بعد رحيل أولئك الغونز.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13211,
+    "key": "MORT_CIV_GEN_VISIT3_001",
+    "source_sha256": "14ff5ff1f7e4d02bdd8ab75fca1ce5da6ca291e86501807a09f46031998362c4",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.027;5.496&quot;>كان ذلك قريبا جدا من الكارثة عندنا. ترودي<br>تستحق كل حجر من الزوربستون تريده!<ts=&quot;5.496;6.511&quot;>مع مرقة إضافية!",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.027;5.496&quot;>كدنا نهلك في موطننا! تستحق ترودي كل ما<br>تشتهي من أحجار الزورب!<ts=&quot;5.496;6.511&quot;>مع صلصة إضافية!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13212,
+    "key": "MORT_CIV_GEN_VISIT3_002",
+    "source_sha256": "916b663b91910c89b59c280a5d743d84e12bd8c0bf71eeb5915e0583e5933883",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.038;4.773&quot;>الإمبراطور يخرج عن السيطرة. حتى سارجاسو لم<br>تعد آمنة هذه الأيام.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.038;4.773&quot;>الإمبراطور يخرج عن السيطرة. حتى سارجاسو لم<br>تعد آمنة هذه الأيام.",
+    "decision": "keep"
+  },
+  {
+    "index": 13213,
+    "key": "MORT_CIV_GEN_VISIT4_001",
+    "source_sha256": "fbeec0ffc9cf314d3a12acc274ea585eb2f7e78ba3737a7fc393e8234e50a1f3",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.055;2.609&quot;>ريفت ورفاقها يبدوون متوترين حقا...<ts=&quot;2.609;4.98&quot;>ربما حان وقت إخراج محبي الوبر القدامى.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.055;2.609&quot;>تبدو ريفت ورفاقها متوترين جدًّا...<ts=&quot;2.609;4.98&quot;>ربما حان وقت توزيع عناقات مورت الدافئة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13214,
+    "key": "MORT_CIV_GEN_VISIT4_002",
+    "source_sha256": "52d33efeac9519826155d19bad077a9860276a1586756860c6e1c862f583d67c",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.032;6.203&quot;>هل أطلب كتلتين... لا، ولماذا لا ثلاثا؟<br>لدينا نزال قادم.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.032;6.203&quot;>هل أطلب كرتي مثلجات؟ بل لم لا ثلاثًا؟<br>لدينا معركة كبيرة قادمة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13215,
+    "key": "MORT_SARG_GP1_CINE_INTRO_001",
+    "source_sha256": "bbd494c60ff4bfe84e4d8ddd3b3fb2b2cb3cbdd9ef9035619b9c6ee24a236877",
+    "before": "<ts=&quot;0.038;3.813&quot;>النجدة! نحن... نهاجم! ... أحد--!",
+    "after": "<ts=&quot;0.038;3.813&quot;>النجدة! نحن... نتعرض لهجوم! ... أي أحد...!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13216,
+    "key": "MORT_SARG_GP1_CINE_JPINTRO_001",
+    "source_sha256": "21d9d61a727b9774b1f4d59c246b46656292ea75ae2dee51e2a90e463e15d091",
+    "before": "<ts=&quot;0.022;1.893&quot;>تمهل هناك-ها-ها--",
+    "after": "<ts=&quot;0.022;1.893&quot;>مهـ... مهلًا، تمهل الآن...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13217,
+    "key": "MORT_SARG_GP1_CINE_MINER_005",
+    "source_sha256": "374abe45748f3ef3dd0ef9f6af664062e95bd2612c768e6a0df09e8a7337cf7c",
+    "before": "<ts=&quot;0.046;4.685&quot;>نحن؟! أوه، حين سمعنا أن هؤلاء يطاردون<br>لومباكس، كنا قلقين عليك!<ts=&quot;4.685;7.612&quot;>وفي اللحظة التالية، كنت هنا تنقذين ظهورنا.",
+    "after": "<ts=&quot;0.046;4.685&quot;>نحن؟! حين سمعنا أن أولئك يطاردون لومباكس،<br>خفنا عليك!<ts=&quot;4.685;7.612&quot;>وفجأة وجدناك هنا تنقذيننا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13218,
+    "key": "MORT_SARG_GP1_CINE_MINER_006",
+    "source_sha256": "ea5c4980cda3511da7f1fbe68ab294c746de97ab6ecfda0c4db1f03e4e973629",
+    "before": "<ts=&quot;0.044;3.951&quot;>حسنا... بعض المورت عالقون في تلك الفوضى<br>هناك.",
+    "after": "<ts=&quot;0.044;3.951&quot;>حسنا... بعض المورت عالقون في تلك الفوضى<br>هناك.",
+    "decision": "keep"
+  },
+  {
+    "index": 13219,
+    "key": "MORT_SARG_GP1_CINE_MINER_007",
+    "source_sha256": "6d68b009f22255b53261c9d8eea6b3e3aaa30d9a6bf80b030230e371404f47d0",
+    "before": "<ts=&quot;0;1.532&quot;>لا فكرة لدي عما هو...<ts=&quot;1.832;3.73&quot;>كل ما أعرفه أنه يكبر باستمرار.<ts=&quot;4.281;8.477&quot;>بين ذلك وجارنا الجديد في الأعلى، لا يبدو<br>أننا بخير.",
+    "after": "<ts=&quot;0;1.532&quot;>لا نعرف ما هي...<ts=&quot;1.832;3.73&quot;>كل ما أعرفه أنها تكبر باستمرار.<ts=&quot;4.281;8.477&quot;>وبوجودها ووجود جارنا الجديد في الأعلى،<br>حالنا ليس بخير إطلاقًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13220,
+    "key": "MORT_SARG_GP1_CINE_MINER_008",
+    "source_sha256": "e432b220dccbb58cf38f0310455690fec92f9c4836d572ffdcea8fc52acf4f89",
+    "before": "<ts=&quot;0;0.67&quot;>حانة زوركيز؟!<ts=&quot;1.369;2.419&quot;>أوه، أولئك القراصنة<ts=&quot;2.55;3.632&quot;>ألم يسببوا لك أي مشكلة؟",
+    "after": "<ts=&quot;0;0.67&quot;>حانة زوركيز؟!<ts=&quot;1.369;2.419&quot;>أوه، أولئك القراصنة<ts=&quot;2.55;3.632&quot;>ألم يسببوا لك أي مشكلة؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13221,
+    "key": "MORT_SARG_GP1_CINE_MINER_009",
+    "source_sha256": "bfc9a15506ed3aec495ae6ae9669cfba32ae38e5df60e9efc30e79d3526083fc",
+    "before": "<ts=&quot;0;4.08&quot;>يمكنك أن تعطي هذا لمورت بنفسك عندما تخرجها<br>من تلك الفوضى البنفسجية هناك.",
+    "after": "<ts=&quot;0;4.08&quot;>يمكنك إعطاء هذا لمورت بنفسك بعد إخراجها من<br>تلك الفوضى البنفسجية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13223,
+    "key": "MORT_SARG_GP1_SARG_GP1_001",
+    "source_sha256": "f75dfb20c50004a97a1de437b047db8b3c8e605f41298337755f2facd55539f9",
+    "before": "<ts=&quot;0.033;2.999&quot;>رأيتك تسقط تلك السيكيربيد! عمل رائع!",
+    "after": "<ts=&quot;0.033;2.999&quot;>رأيتك تسقطين السيكيربيد! أحسنت!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13224,
+    "key": "MORT_SARG_GP1_SARG_GP1_003",
+    "source_sha256": "9edc9e6ca52ed6bfc924567e7bd47f0d88d5663e19ecf7040f566cdd6cf3368b",
+    "before": "<ts=&quot;0.032;3.085&quot;>واصل، فأنت على ما يرام حتى الآن.",
+    "after": "<ts=&quot;0.032;3.085&quot;>واصلي، فأداؤك جيد حتى الآن.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13225,
+    "key": "MORT_SARG_GP1_SARG_GP1_004",
+    "source_sha256": "68719b1c14b1a2a99b1c215659f11a2e9ad7da618b3c95354e8e145b7c95d436",
+    "before": "<ts=&quot;0;0.53&quot;>أربعة!<ts=&quot;0.909;2.468&quot;>ودورك على الأربعة بعد ذلك!",
+    "after": "<ts=&quot;0;0.53&quot;>أربعة!<ts=&quot;0.909;2.468&quot;>كنت على وشك قول أربعة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13226,
+    "key": "MORT_SARG_GP1_SARG_GP1_005",
+    "source_sha256": "75ddc4198ad4c11059624f2ad49f50fc25f7a744625215f41cef27fcd00f46a5",
+    "before": "<ts=&quot;0.048;4.805&quot;>أوه، تلك السيكيربيد المزعجة من شيء ما!<br>أتساءل عما يبحث...",
+    "after": "<ts=&quot;0.048;4.805&quot;>أوه، السيكيربيد غاضبة من أمر ما! أتساءل<br>عما تبحث عنه...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13227,
+    "key": "MORT_SARG_GP1_SARG_GP1_006",
+    "source_sha256": "62b00da93f03770035ae98033fccba47f3785e51d2e3ded52621822ecc888ee0",
+    "before": "<ts=&quot;0.015;4.671&quot;>لا أعرف ما تلك الفوضى البنفسجية، لكني آمل<br>أن تكون مورت وسائرنا بخير...<ts=&quot;4.671;6.402&quot;>لدينا ليلة أسئلة وأجوبة لاحقا.",
+    "after": "<ts=&quot;0.015;4.671&quot;>لا أعرف ما تلك الفوضى البنفسجية، لكني آمل<br>أن تكون مورت وسائرنا بخير...<ts=&quot;4.671;6.402&quot;>لدينا ليلة أسئلة وأجوبة لاحقا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13228,
+    "key": "MORT_SARG_GP1_SARG_GP1_007",
+    "source_sha256": "5c98fbb502c322802736135d9070a5d4b16d00f46327bf86015b2f00bf8ba6c3",
+    "before": "<ts=&quot;0.041;2.438&quot;>انتبه لنفسك حول تلك الغرانثورات، ريفت.<ts=&quot;2.438;5.565&quot;>كل تلك الانفجارات والدوي جعلتها أعنف مزاجا<br>من المعتاد!",
+    "after": "<ts=&quot;0.041;2.438&quot;>توخي الحذر قرب الغرانثورات، يا ريفت.<ts=&quot;2.438;5.565&quot;>كل إطلاق النار والضوضاء جعلاها أشد شراسة<br>من المعتاد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13229,
+    "key": "MORT_SARG_GP1_SARG_GP1_008",
+    "source_sha256": "8f82c2b2f0283f88a3c0149872546257c58b5e24745997bf5e7ecc5160208365",
+    "before": "<ts=&quot;0.449;2.549&quot;>كل هذا الدوشة أرهقتني!<ts=&quot;3.48;5.22&quot;>أود بعض عصير الليمون...",
+    "after": "<ts=&quot;0.449;2.549&quot;>كل هذه الأحداث أرهقتني!<ts=&quot;3.48;5.22&quot;>أحتاج إلى بعض عصير الليمون...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13230,
+    "key": "MORT_SARG_GP1_SARG_GP1_009",
+    "source_sha256": "90e1d5404a7bd60ebc27e186997142ff2e3954917adf1bb39f8a90707e6c2959",
+    "before": "<ts=&quot;0.057;4.068&quot;>على أن أعود إلى العمل! الجيلاتونيوم لن يضخ<br>نفسه، هاها!",
+    "after": "<ts=&quot;0.057;4.068&quot;>علي العودة إلى العمل! الجيلاتونيوم لن يضخ<br>نفسه، هاها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13231,
+    "key": "MORT_SARG_GP1_SARG_GP1_010",
+    "source_sha256": "ad421171b6a54a4e5e776f7d98152f05c321bf5c1fbfbe580622d2292e63d3ba",
+    "before": "<ts=&quot;0.052;2.574&quot;>آمل أن يكون مورت قد حافظ على نظافة أقفال<br>الضغط.<ts=&quot;2.574;5.344&quot;>تلك الغرانثورات تحب أن تفرغ محتواها عليها!",
+    "after": "<ts=&quot;0.052;2.574&quot;>آمل أن مورت أبقى أقفال الضغط نظيفة.<ts=&quot;2.574;5.344&quot;>فالغرانثورات تحب قضاء حاجتها عليها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13232,
+    "key": "MORT_SARG_GP1_SARG_GP1_011",
+    "source_sha256": "cb11d51ac1febe05d23948a03254c0d0dc80287abc8cdc8965839dd6d06943b7",
+    "before": "<ts=&quot;0.032;3.8&quot;>على الإمبراطور أن يفكر مرتين قبل إثارة<br>الفوضى هنا مرة أخرى.<ts=&quot;3.8;6.367&quot;>سأضطر إلى تبديل قبعة الود بقبعة الصرامة!",
+    "after": "<ts=&quot;0.032;3.8&quot;>على الإمبراطور أن يفكر مرتين قبل إثارة<br>الفوضى هنا مرة أخرى.<ts=&quot;3.8;6.367&quot;>سأضطر إلى تبديل قبعة الود بقبعة الصرامة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13233,
+    "key": "MORT_SARG_GP2_CINE_CENT_002",
+    "source_sha256": "30e61de8df435edff244a62b9b63574ab42635d6f8b1e60a361036329b189ae5",
+    "before": "<ts=&quot;0;0.729&quot;>،آه، ريفت<ts=&quot;1.21;2.821&quot;>آسف أن اضطررت للحضور لإنقاذنا مرة أخرى.<ts=&quot;2.821;6.833&quot;>،حاولنا صدهم بأنفسنا وأصلحنا سيكيربيد وكل<br>شيء--",
+    "after": "<ts=&quot;0;0.729&quot;>آه، يا ريفت،<ts=&quot;1.21;2.821&quot;>يؤسفني أنك اضطررت إلى إنقاذنا مجددًا.<ts=&quot;2.821;6.833&quot;>حاولنا الصمود وحدنا، وأصلحنا السيكيربيد<br>وكل شيء...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13234,
+    "key": "MORT_SARG_GP2_CINE_CENT_003",
+    "source_sha256": "268851056893a617d03b40bcbf62871ee09e5cbe755ebbd6edc7a84d661bc529",
+    "before": "<ts=&quot;0.049;0.987&quot;>ارفعها!",
+    "after": "<ts=&quot;0.049;0.987&quot;>ارفعها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13235,
+    "key": "MORT_SARG_GP2_CINE_FINAL_001",
+    "source_sha256": "67efb148552195d5ff7354c884de062a0c3c1e8f40bfb2035aa9f4b2c2320e04",
+    "before": "<ts=&quot;0.059;1.342&quot;>ريفت وكيت!",
+    "after": "<ts=&quot;0.059;1.342&quot;>ريفت وكيت!",
+    "decision": "keep"
+  },
+  {
+    "index": 13237,
+    "key": "MORT_SARG_GP2_SARG_GP2_004",
+    "source_sha256": "4d701551916f71e7b846ac6c5662ec36181befeb13a677859a9a5dc22b2e0f2a",
+    "before": "<ts=&quot;0.058;5.131&quot;>ريفت، أجهزتنا في فوضى تامة! طرادات المعركة<br>تخترق قشرة الكوكب مباشرة!",
+    "after": "<ts=&quot;0.058;5.131&quot;>ريفت، أجهزتنا في فوضى تامة! طرادات المعركة<br>تخترق قشرة الكوكب مباشرة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13238,
+    "key": "MORT_SARG_GP2_SARG_GP2_005",
+    "source_sha256": "28d6e729a2a712aa5a2a2a5ac6351b6be3565c3eb0798735a03661cf86a07359",
+    "before": "<ts=&quot;0.045;2.494&quot;>يمكن لترودي التقاطها ورميها على طرادات<br>المعركة!",
+    "after": "<ts=&quot;0.045;2.494&quot;>يمكن لترودي التقاطها ورميها على طرادات<br>المعركة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13239,
+    "key": "MORT_SARG_GP2_SARG_GP2_006",
+    "source_sha256": "6ad0307bea7408c93a7910da00ecf6c362b3c78d6cf9bb0a0661ce2fd1f1667e",
+    "before": "<ts=&quot;0.028;5.829&quot;>يا إلهي! تتصادم وتتدحرج الأشياء هنا<br>الأسفل، ريفت! نحن جميعا نرجو أن تنقذانا!",
+    "after": "<ts=&quot;0.028;5.829&quot;>يا إلهي! كل شيء يهتز ويتهاوى هنا بالأسفل،<br>يا ريفت! نعتمد عليكما جميعًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13240,
+    "key": "MORT_SARG_GP2_SARG_GP2_007",
+    "source_sha256": "7df77c6114e99f81da3522cc443503425e6ef8757dda0db815dc2c0b107452ed",
+    "before": "<ts=&quot;0.047;2.273&quot;>ريفت، أنت الأفضل حقا.",
+    "after": "<ts=&quot;0.047;2.273&quot;>ريفت، أنت الأفضل حقا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13241,
+    "key": "MORT_SARG_GP2_SARG_GP2_008",
+    "source_sha256": "784ce2f0d12667126e748a6db83ace96c67c5b13e09a850922ad7b0feacfcad5",
+    "before": "<ts=&quot;0.03;2.221&quot;>سنصمد هنا، وأنت اذهبي وافعلي ما تعرفين.",
+    "after": "<ts=&quot;0.03;2.221&quot;>سنصمد هنا، وأنت اذهبي وافعلي ما تعرفين.",
+    "decision": "keep"
+  },
+  {
+    "index": 13242,
+    "key": "MORT_SARG_GP2_SARG_GP2_009",
+    "source_sha256": "e2d1d7f25a34e236958cdf74b69ce7b9f7a807bddaf62455034eac3b0c7f7359",
+    "before": "<ts=&quot;0.025;3.505&quot;>أهلا يا كيت! أي صديق لريفت صديق لنا.",
+    "after": "<ts=&quot;0.025;3.505&quot;>أهلًا، يا كيت! أصدقاء ريفت أصدقاؤنا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13243,
+    "key": "MORT_SARG_GP2_SARG_GP2_010",
+    "source_sha256": "ecd53be79c21c1e903b530a359b8a770668c87c8a39bd8327ebbff958f258595",
+    "before": "<ts=&quot;0.058;2.139&quot;>أوو أوو أوو!",
+    "after": "<ts=&quot;0.058;2.139&quot;>أوو أوو أوو!",
+    "decision": "keep"
+  },
+  {
+    "index": 13244,
+    "key": "MORT_SARG_GP2_SARG_GP2_011",
+    "source_sha256": "f376de9bff190332d1d0fb3789fbdc7722bef895146380eea8c3c02eb5507ab6",
+    "before": "<ts=&quot;0.037;3.271&quot;>أوه نعم! واحد! ،شعور رائع صحيح؟ ها ها!",
+    "after": "<ts=&quot;0.037;3.271&quot;>أوه، نعم! آه! شعور رائع، أليس كذلك؟ هاها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13245,
+    "key": "MORT_SARG_GP2_SARG_GP2_012",
+    "source_sha256": "fe1c0e7973e6bad056b1c3bc8d72dc52470e4726557e7310a5864b2d28e2432e",
+    "before": "<ts=&quot;0.055;3.038&quot;>تحيات لريفت! صديقة لمورت وللجميع!",
+    "after": "<ts=&quot;0.055;3.038&quot;>تحيات لريفت! صديقة لمورت وللجميع!",
+    "decision": "keep"
+  },
+  {
+    "index": 13246,
+    "key": "MORT_ZURK_G2_GAMEPLAY_001",
+    "source_sha256": "5eb010e984d36efee2847974dee60a14a082032b5e59fc2358aed90d0e66d7b5",
+    "before": "<ts=&quot;0.067;1.239&quot;>لا شيء البتة!",
+    "after": "<ts=&quot;0.067;1.239&quot;>لا شيء البتة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13247,
+    "key": "MORT_ZURK_G2_GAMEPLAY_002",
+    "source_sha256": "c157659fc776501090911f85ce7a2d7a038b3204399312bd8e6cdc1a0b62c426",
+    "before": "<ts=&quot;0.049;1.333&quot;>صوته مضحك منذ الأزل.",
+    "after": "<ts=&quot;0.049;1.333&quot;>صوته مضحك منذ الأزل.",
+    "decision": "keep"
+  },
+  {
+    "index": 13248,
+    "key": "MORT_ZURK_G2_GAMEPLAY_003",
+    "source_sha256": "db1b8883938c41c6978e1d8e345ab183b2e3b039d53fb94d727dcbd78c01fe68",
+    "before": "<ts=&quot;2.159;3.017&quot;>لا... لن أذهب إلى هذا الحد.",
+    "after": "<ts=&quot;2.159;3.017&quot;>لا... لن أذهب إلى هذا الحد.",
+    "decision": "keep"
+  },
+  {
+    "index": 13249,
+    "key": "MORT_ZURK_G2_GAMEPLAY_004",
+    "source_sha256": "91b3415143a097092edfa23e510035a789678a3ff90d25983365f3773d7e95cf",
+    "before": "<ts=&quot;0.047;1.73&quot;>كيف حال مورت الكبير على أي حال؟",
+    "after": "<ts=&quot;0.047;1.73&quot;>كيف حال مورت الكبير على أي حال؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13250,
+    "key": "MORT_ZURK_G2_GAMEPLAY_005",
+    "source_sha256": "3338f3c57d2effb16547dd4d31ca5f8b91fe170764962d1461e103823c3c8249",
+    "before": "<ts=&quot;0;0.7&quot;>تعرف...<ts=&quot;1.599;3.482&quot;>لقد حلقت كل شعري مرة أيضا.",
+    "after": "<ts=&quot;0;0.7&quot;>تعرف...<ts=&quot;1.599;3.482&quot;>لقد حلقت كل شعري مرة أيضا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13251,
+    "key": "MORT_ZURK_G2_GAMEPLAY_006",
+    "source_sha256": "29c7757b5acd937883309d626623b6db3b81cf85c98d361d62ab8106f8be9f81",
+    "before": "<ts=&quot;0;0.7&quot;>في أيام المدرسة.<ts=&quot;1.52;6.069&quot;>كان هناك مورت؛ كنت في صف الآداب، وهم في صف<br>النجارة.<ts=&quot;6.069;7.075&quot;>تعرف كيف تجري الأمور.",
+    "after": "<ts=&quot;0;0.7&quot;>أيام الدراسة.<ts=&quot;1.52;6.069&quot;>كان هناك مورت؛ كنت أدرس الآداب، ومورت ذاك<br>كان يدرس النجارة.<ts=&quot;6.069;7.075&quot;>تعرف كيف تسير الأمور.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13252,
+    "key": "MORT_ZURK_GP1_GAMEPLAY_001",
+    "source_sha256": "90a4b62a6656a89e2265c6d77d2df4566309b269e6b567e1a01fa000207aa4dd",
+    "before": "<ts=&quot;0.03;5.98&quot;>فقفزت وضربت تلك السيكيربيد بقوة حتى انهار<br>بالكامل!",
+    "after": "<ts=&quot;0.03;5.98&quot;>فقفزت وضربت السيكيربيد بقوة، حتى تحطمت<br>الآلة كلها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13253,
+    "key": "MORT_ZURK_GP1_GAMEPLAY_002",
+    "source_sha256": "b74a1df4096ba17cca49a304e00814675b008d878cdf0d20ca714311a07dde32",
+    "before": "<ts=&quot;0;0.35&quot;>أجل!<ts=&quot;2.48;3.774&quot;>ثم حملت ذلك الصغير وركبته على ظهرها.",
+    "after": "<ts=&quot;0;0.35&quot;>أجل!<ts=&quot;2.48;3.774&quot;>ثم حملت ذلك الصغير وركبته على ظهرها.",
+    "decision": "keep"
+  },
+  {
+    "index": 13254,
+    "key": "MORT_ZURK_GP1_GAMEPLAY_003",
+    "source_sha256": "4838a2d155944f80db23a2c60a535e5b010e334fcf3f9674810072e3be55f976",
+    "before": "<ts=&quot;0.036;1.12&quot;>هذا ما قلته!",
+    "after": "<ts=&quot;0.036;1.12&quot;>هذا ما قلته!",
+    "decision": "keep"
+  },
+  {
+    "index": 13255,
+    "key": "MORT_ZURK_GP1_GAMEPLAY_004",
+    "source_sha256": "622aa9f50a98580aa9a75ec5ce2d7853a519f50c3245d11ed898e9248f30e434",
+    "before": "<ts=&quot;0.052;1.44&quot;>لا! مرة أخرى؟",
+    "after": "<ts=&quot;0.052;1.44&quot;>لا! مرة أخرى؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13256,
+    "key": "MORT_ZURK_GP1_GAMEPLAY_005",
+    "source_sha256": "ba103200f7bb54807c932e3a387455b9cdd20b6b4e2e7b77eedcf67ee7bdcad0",
+    "before": "<ts=&quot;0.037;2.198&quot;>حقا؟ ماذا حدث؟",
+    "after": "<ts=&quot;0.037;2.198&quot;>حقا؟ ماذا حدث؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13257,
+    "key": "MORT_ZURK_GP3_GAMEPLAY_001",
+    "source_sha256": "1aeffc224ccbcc77afb5662f3650668e234248eb46a9773ebf8478ffdb694506",
+    "before": "<ts=&quot;0.035;5.601&quot;>إذا لم يكن ذلك *هو* الإمبراطور؟ ذلك كان<br>شبيها تاما من بعد آخر؟",
+    "after": "<ts=&quot;0.035;5.601&quot;>إذا لم يكن ذلك *هو* الإمبراطور؟ ذلك كان<br>شبيها تاما من بعد آخر؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13258,
+    "key": "MORT_ZURK_GP3_GAMEPLAY_002",
+    "source_sha256": "88978e3d5b09a0306b73e622709c08b50449be708e64984e69dcd2ad58ae76c9",
+    "before": "<ts=&quot;0.035;0.943&quot;>وماذا بشأنه؟",
+    "after": "<ts=&quot;0.035;0.943&quot;>وماذا بشأنه؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13259,
+    "key": "MORT_ZURK_GP3_GAMEPLAY_003",
+    "source_sha256": "43047af54e241f6dd89fcf50f6939f37a5c83500249c01b7272002ed895c3499",
+    "before": "<ts=&quot;0.039;1.426&quot;>أغلق الباب الأمامي!",
+    "after": "<ts=&quot;0.039;1.426&quot;>لا أصدق!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13260,
+    "key": "MORT_ZURK_GP3_GAMEPLAY_004",
+    "source_sha256": "b41344175290cd3060497b341aa27c9e8533b7b80e2d9a5ff0467146415f2529",
+    "before": "<ts=&quot;0.036;2.853&quot;>لكن لم ينم شعرهم بعد! سيتجمدون!",
+    "after": "<ts=&quot;0.036;2.853&quot;>لكن لم ينم شعرهم بعد! سيتجمدون!",
+    "decision": "keep"
+  },
+  {
+    "index": 13261,
+    "key": "MORT_ZURK_GP3_GAMEPLAY_005",
+    "source_sha256": "0a106f96a4599cf7bfee943b418a10469547ed952f88f30f2be783aae2906405",
+    "before": "<ts=&quot;0.033;3.503&quot;>يا له من هراء! وبقدر من البالونغ!",
+    "after": "<ts=&quot;0.033;3.503&quot;>يا له من هراء! يضاف إليه المزيد من الهراء!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13262,
+    "key": "MORT_ZURK_GP4_GAMEPLAY_005",
+    "source_sha256": "adfc7261ab60510f6258572fe04684fbfffdc36d77d2f654c42cb11327070c63",
+    "before": "<ts=&quot;0.04;3.998&quot;>هيا، هل لاحظت أن صديق ريفت الأصفر الصغير<br>لم يأت مع المجموعة؟",
+    "after": "<ts=&quot;0.04;3.998&quot;>هل لاحظت أن صديقة ريفت الصفراء الصغيرة لم<br>تأت مع المجموعة؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13263,
+    "key": "MORT_ZURK_GP4_GAMEPLAY_006",
+    "source_sha256": "f4960fa905a9b11d49e313417f11eb22c64077f5a54e92ff1037b136a9c0ef78",
+    "before": "<ts=&quot;0.033;4.855&quot;>أرجو ألا يكون قد حدث شيء. لقد ساعدتنا حقا<br>على الخروج من المأزق في سارجاسو.",
+    "after": "<ts=&quot;0.033;4.855&quot;>أرجو ألا يكون قد حدث شيء. لقد ساعدتنا حقا<br>على الخروج من المأزق في سارجاسو.",
+    "decision": "keep"
+  },
+  {
+    "index": 13264,
+    "key": "MORT_ZURK_GP4_GAMEPLAY_007",
+    "source_sha256": "c9bc37b0d25b87840bc2ac8636d95229816bd9f475fea8ad58339cd3713becc6",
+    "before": "<ts=&quot;0;0.7&quot;>أجل؟",
+    "after": "<ts=&quot;0;0.7&quot;>أجل؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13265,
+    "key": "MORT_ZURK_GP4_GAMEPLAY_008",
+    "source_sha256": "b21b0dea628f2ea64b474c38e5dba569f31ea860c2edf6f3617c3fa72a2f0502",
+    "before": "<ts=&quot;0;1.05&quot;>هل أنت جاد؟",
+    "after": "<ts=&quot;0;1.05&quot;>هل أنت جاد؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13266,
+    "key": "MORT_ZURK_GP4_GAMEPLAY_009",
+    "source_sha256": "54cca99f62544e2d4541f9b8521ee3c45ed48d20a31085e5f81f3b2782c0dc7c",
+    "before": "<ts=&quot;0.066;7.199&quot;>أريد أن أفعل ذلك منذ أن رأيت ريفت تسحق تلك<br>السيكيربيد! نعم!<ts=&quot;7.199;9.792&quot;>عندما ينتهي كل هذا، هيا نفعلها!",
+    "after": "<ts=&quot;0.066;7.199&quot;>أريد أن أفعل ذلك منذ أن رأيت ريفت تسحق تلك<br>السيكيربيد! نعم!<ts=&quot;7.199;9.792&quot;>عندما ينتهي كل هذا، هيا نفعلها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13291,
+    "key": "MRSZ_CIV_GEN_BUYUPGRADE_001",
+    "source_sha256": "0c08f97cd8f7322d30e2101d931a01ec218361b3986aca604fe315e1fa650a06",
+    "before": "<ts=&quot;0.01;4.75&quot;>لم تعرف السيدة زوركون أنه يمكن أن يبدو<br>بهذا الجمال.",
+    "after": "<ts=&quot;0.01;4.75&quot;>لم تعرف السيدة زوركون أنه يمكن أن يبدو<br>بهذا الجمال.",
+    "decision": "keep"
+  },
+  {
+    "index": 13292,
+    "key": "MRSZ_CIV_GEN_BUYUPGRADE_002",
+    "source_sha256": "baab0cb4f8434d11136640be209aec3063b37dd21f388ec7834d813be0c7bddd",
+    "before": "<ts=&quot;0.03;4.919&quot;>كل سلاح يستحق الشراء يستحق التطوير.",
+    "after": "<ts=&quot;0.03;4.919&quot;>كل سلاح يستحق الشراء يستحق التطوير.",
+    "decision": "keep"
+  },
+  {
+    "index": 13293,
+    "key": "MRSZ_CIV_GEN_BUYUPGRADE_003",
+    "source_sha256": "8a59230aec1c64431b73e812d1cade4bc4e50ce25f62a213e42ce871bac86fe4",
+    "before": "<ts=&quot;0.03;2.349&quot;>استثمار يستحق العناء.",
+    "after": "<ts=&quot;0.03;2.349&quot;>استثمار يستحق العناء.",
+    "decision": "keep"
+  },
+  {
+    "index": 13294,
+    "key": "MRSZ_CIV_GEN_BUYUPGRADE_004",
+    "source_sha256": "d8429eda62a2e69a237f2710b5aed742bd44c6e31245ba33fec25c8c83863629",
+    "before": "<ts=&quot;0.067;3.053&quot;>سيبدو ذلك رائعا.",
+    "after": "<ts=&quot;0.067;3.053&quot;>سيفي ذلك بالغرض على أكمل وجه.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13295,
+    "key": "MRSZ_CIV_GEN_EXITSTORE_001",
+    "source_sha256": "c75b79208decedf7d50704eda51f3f121b37e95de644c8dddda6ded00b6823f1",
+    "before": "<ts=&quot;0.049;0.799&quot;>إلى اللقاء.",
+    "after": "<ts=&quot;0.049;0.799&quot;>إلى اللقاء.",
+    "decision": "keep"
+  },
+  {
+    "index": 13296,
+    "key": "MRSZ_CIV_GEN_EXITSTORE_002",
+    "source_sha256": "bee33a75ef37fb0fa96a87114b114fd7b50c35fbcb5e9084c06d318e6ef0fed8",
+    "before": "<ts=&quot;0.064;2.077&quot;>حتى اللقاء.",
+    "after": "<ts=&quot;0.064;2.077&quot;>إلى اللقاء مجددًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13297,
+    "key": "MRSZ_CIV_GEN_EXITSTORE_003",
+    "source_sha256": "dd5679e2bc0d35a8280704d5c0541f803a33312ecf32d757b895f30fbb04d731",
+    "before": "<ts=&quot;0.26;2.75&quot;>ستودعك السيدة زوركون قريبا.",
+    "after": "<ts=&quot;0.26;2.75&quot;>ستراك السيدة زوركون مجددًا قريبًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13298,
+    "key": "MRSZ_CIV_GEN_EXITSTORE_004",
+    "source_sha256": "ee8b56e3000401ef9c137cee41dcff29f4514faddc75846e9dfc608f13b6a622",
+    "before": "<ts=&quot;0.067;3.393&quot;>ستكون السيدة زوركون هنا.",
+    "after": "<ts=&quot;0.067;3.393&quot;>ستكون السيدة زوركون هنا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13299,
+    "key": "MRSZ_CIV_GEN_GREETING_001",
+    "source_sha256": "f15c5e6ad286bf435bf4bbbd71ced80f43c61052ce515f32c9472f8d78f68b25",
+    "before": "<ts=&quot;0.044;1.544&quot;>مرحبا بك مجددا.",
+    "after": "<ts=&quot;0.044;1.544&quot;>مرحبا بك مجددا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13300,
+    "key": "MRSZ_CIV_GEN_GREETING_002",
+    "source_sha256": "f78b00fdeb8136418405689b6c603d78d8a7c8720966d9b75345b512343fd4b8",
+    "before": "<ts=&quot;0.03;1.25&quot;>تحياتي، أيها اللومباكس.",
+    "after": "<ts=&quot;0.03;1.25&quot;>تحياتي، يا لومباكس.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13301,
+    "key": "MRSZ_CIV_GEN_GREETING_003",
+    "source_sha256": "82b77fda48cccf85155b63499343803a020d68289576e49534933d3eab5f9b91",
+    "before": "<ts=&quot;0.31;2.999&quot;>السيدة زوركون سعيدة بعودتك.",
+    "after": "<ts=&quot;0.31;2.999&quot;>السيدة زوركون سعيدة بعودتك.",
+    "decision": "keep"
+  },
+  {
+    "index": 13302,
+    "key": "MRSZ_CIV_GEN_GREETING_004",
+    "source_sha256": "979a84aa3bc4034c5cce664f6f233bad0c3d4e31d142e997c4cd734ac2be19a8",
+    "before": "<ts=&quot;0.069;2.835&quot;>عدت مجددا؟ جيد.",
+    "after": "<ts=&quot;0.069;2.835&quot;>عدت مجددا؟ جيد.",
+    "decision": "keep"
+  },
+  {
+    "index": 13303,
+    "key": "MRSZ_CIV_GEN_HEROINTERACT_001",
+    "source_sha256": "b424511f2ca48613a89d3eaca2a2463da4b27e3a0b2ef5d7c498b0363423c51f",
+    "before": "<ts=&quot;0.03;1.444&quot;>،هل أنت مستعد للشراء<ts=&quot;1.53;4.33&quot;>أم إنك تتابع صيحات الموضة فحسب؟",
+    "after": "<ts=&quot;0.03;1.444&quot;>هل حان وقت الشراء،<ts=&quot;1.53;4.33&quot;>أم إنها متابعة لأحدث الصيحات فحسب؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13304,
+    "key": "MRSZ_CIV_GEN_HEROINTERACT_002",
+    "source_sha256": "b0912d7cd2f3e598aec103b62870050c1456a13fc384f8fb1f32eb3d7fcff587",
+    "before": "<ts=&quot;0.066;4.293&quot;>تتوقع السيدة زوركون رؤية اختياراتك.",
+    "after": "<ts=&quot;0.066;4.293&quot;>تتوق السيدة زوركون إلى رؤية اختيارك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13305,
+    "key": "MRSZ_CIV_GEN_HEROINTERACT_003",
+    "source_sha256": "e3fa673aa754405df3c902293c1945ce1823c9a8e705cee770281229fa1e0a88",
+    "before": "<ts=&quot;0;3.999&quot;>لدى السيدة زوركون خيارات رائعة لك.",
+    "after": "<ts=&quot;0;3.999&quot;>لدى السيدة زوركون خيارات رائعة لك.",
+    "decision": "keep"
+  },
+  {
+    "index": 13306,
+    "key": "MRSZ_CIV_GEN_HEROINTERACT_004",
+    "source_sha256": "d3cb1950083a40970ce64c2b4f0cb918acac0e9f208f423e1c5ed7593e2dd54c",
+    "before": "<ts=&quot;0;3.75&quot;>لا تنطلق بين الكواكب من دون مؤن وافرة.",
+    "after": "<ts=&quot;0;3.75&quot;>لا تنطلق بين الكواكب من دون مؤن وافرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 13307,
+    "key": "MRSZ_CIV_GEN_HEROINTERACT_005",
+    "source_sha256": "eb2b665b8fd5aafe8b6d1f9658c53862446170e295743553ce9cdbf1fd5a9cc0",
+    "before": "<ts=&quot;0;3&quot;>لن تندم على هذه البضاعة.",
+    "after": "<ts=&quot;0;3&quot;>لن تندم على هذه البضاعة.",
+    "decision": "keep"
+  },
+  {
+    "index": 13308,
+    "key": "MRSZ_CIV_GEN_IDLE_001",
+    "source_sha256": "5f57c5a21b9e0ca752e8417b568fef1eb647e57a6e09276958becfce2f5a35de",
+    "before": "<ts=&quot;0.04;3.7&quot;>،ستة وأربعون، أربعة وأربعون أربعون...<ts=&quot;4.21;5.447&quot;>أربعون...",
+    "after": "<ts=&quot;0.04;3.7&quot;>ستة وأربعون، أربعة وأربعون، أربعون...<ts=&quot;4.21;5.447&quot;>أربعون...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13309,
+    "key": "MRSZ_CIV_GEN_IDLE_002",
+    "source_sha256": "73818525d90a19ee45ee995ee98e1f463b41b63118b015818edd49bbec1d590b",
+    "before": "<ts=&quot;0.069;5.728&quot;>كانت السيدة زوركون تظن أن هذا الطلب لن يصل<br>إلا في الأسبوع المقبل...",
+    "after": "<ts=&quot;0.069;5.728&quot;>كانت السيدة زوركون تظن أن هذا الطلب لن يصل<br>إلا في الأسبوع المقبل...",
+    "decision": "keep"
+  },
+  {
+    "index": 13310,
+    "key": "MRSZ_CIV_GEN_IDLE_003",
+    "source_sha256": "8baab682bc95698f2dfe5c403dcf1b1235964031386320ca1f3ac49c528f66c2",
+    "before": "<ts=&quot;0.064;5.222&quot;>تنتظر السيدة زوركون هذا الطلب منذ زمن!",
+    "after": "<ts=&quot;0.064;5.222&quot;>تنتظر السيدة زوركون هذا الطلب منذ زمن!",
+    "decision": "keep"
+  },
+  {
+    "index": 13311,
+    "key": "MRSZ_CIV_GEN_IDLE_004",
+    "source_sha256": "cfe9af1e236e472dd881474cb2ad03e2511d6e5ec3f8dc041894c2f3141a814f",
+    "before": "<ts=&quot;0.03;3.749&quot;>لا بد أن هناك صندوقا آخر من هذه في مكان<br>ما...",
+    "after": "<ts=&quot;0.03;3.749&quot;>لا بد أن هناك صندوقا آخر من هذه في مكان<br>ما...",
+    "decision": "keep"
+  },
+  {
+    "index": 13312,
+    "key": "MRSZ_CIV_GEN_NEEDBOLTS_001",
+    "source_sha256": "d631907cb91559adcf444a2004e68df2b1c34d8062bd3376e607320ba549f1fa",
+    "before": "<ts=&quot;0.066;2.532&quot;>تنقصك بعض المسامير.",
+    "after": "<ts=&quot;0.066;2.532&quot;>تنقصك بعض المسامير.",
+    "decision": "keep"
+  },
+  {
+    "index": 13313,
+    "key": "MRSZ_CIV_GEN_NEEDBOLTS_002",
+    "source_sha256": "26c6f9eb3560a2a2d6d0d244c9e994e059921e026c5705a0faa5725579530c9a",
+    "before": "<ts=&quot;0.03;3.88&quot;>ثمنها بضع مسامير أكثر مما لديك الآن.",
+    "after": "<ts=&quot;0.03;3.88&quot;>ثمنها بضع مسامير أكثر مما لديك الآن.",
+    "decision": "keep"
+  },
+  {
+    "index": 13314,
+    "key": "MRSZ_CIV_GEN_NEEDBOLTS_003",
+    "source_sha256": "8ea411bca6bff269436b330d978c7a69c201a3dca3f5d8041d7ee72f0955a53b",
+    "before": "<ts=&quot;0.03;4.176&quot;>عد بمسامير أكثر، وستجده في انتظارك.",
+    "after": "<ts=&quot;0.03;4.176&quot;>عد بمسامير أكثر، وستجده في انتظارك.",
+    "decision": "keep"
+  },
+  {
+    "index": 13315,
+    "key": "MRSZ_CIV_GEN_NEEDBOLTS_004",
+    "source_sha256": "53df66e62990078131254b00e711b92557875fa48847bf262782ce94cbb4bdb9",
+    "before": "<ts=&quot;0.027;4.295&quot;>أحضر مسامير أكثر، وهذا لك وحدك.",
+    "after": "<ts=&quot;0.027;4.295&quot;>أحضر مسامير أكثر، وهذا لك وحدك.",
+    "decision": "keep"
+  },
+  {
+    "index": 13316,
+    "key": "MRSZ_CIV_GEN_POSTPURCHASE_001",
+    "source_sha256": "25c27a41311940d71f7168cc4ab7fb33dcb36e292c02025add7bda4b7bd64503",
+    "before": "<ts=&quot;0.03;4.249&quot;>سيبدو ذلك رائعا في ترسانتك.",
+    "after": "<ts=&quot;0.03;4.249&quot;>سيبدو ذلك رائعا في ترسانتك.",
+    "decision": "keep"
+  },
+  {
+    "index": 13317,
+    "key": "MRSZ_CIV_GEN_POSTPURCHASE_002",
+    "source_sha256": "a664c6347cf24ce9dfdf8f520c59c244583f5b4835fe19a43e14786ca76f43dd",
+    "before": "<ts=&quot;0;1.75&quot;>عينك ثاقبة.",
+    "after": "<ts=&quot;0;1.75&quot;>عينك ثاقبة.",
+    "decision": "keep"
+  },
+  {
+    "index": 13318,
+    "key": "MRSZ_CIV_GEN_POSTPURCHASE_003",
+    "source_sha256": "1621fccdfb1366781e0c7679227c0b0d1a01f830a2108f0c8a5f2d5244413386",
+    "before": "<ts=&quot;0.067;4.437&quot;>راهنت السيدة زوركون على إنك ستختار ذاك.",
+    "after": "<ts=&quot;0.067;4.437&quot;>راهنت السيدة زوركون على أنك ستختار ذاك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13319,
+    "key": "MRSZ_CIV_GEN_POSTPURCHASE_004",
+    "source_sha256": "1102c0c0d0082e81b523951cb262037fbaff39edb042dc0b5fb71dd91b4be700",
+    "before": "<ts=&quot;0.067;1.883&quot;>اختيار ممتاز.",
+    "after": "<ts=&quot;0.067;1.883&quot;>اختيار ممتاز.",
+    "decision": "keep"
+  },
+  {
+    "index": 13320,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_001",
+    "source_sha256": "8972682db9d26fffbd88b2d44ae7e3e4190793078026ac63f3bc974bbea11f0c",
+    "before": "<ts=&quot;0.03;3&quot;>تحتاج سلاحا؟ لدى السيدة زوركون كل شيء.",
+    "after": "<ts=&quot;0.03;3&quot;>تحتاج سلاحا؟ لدى السيدة زوركون كل شيء.",
+    "decision": "keep"
+  },
+  {
+    "index": 13321,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_002",
+    "source_sha256": "d37ee2caafb80ef79ed3bde6e33d01ee5091892c44a13ca6e9fc479127af148a",
+    "before": "<ts=&quot;0.03;1.43&quot;>أراك، يا راتشت.<ts=&quot;2.71;3.06&quot;>هيا<ts=&quot;3.44;4.423&quot;>اشتر سلاحا من السيدة زوركون.",
+    "after": "<ts=&quot;0.03;1.43&quot;>أراك، يا راتشت.<ts=&quot;2.71;3.06&quot;>هيا<ts=&quot;3.44;4.423&quot;>اشتر سلاحا من السيدة زوركون.",
+    "decision": "keep"
+  },
+  {
+    "index": 13322,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_003",
+    "source_sha256": "0e7a7a2c8db5626139ac5c15ad7af5cd37e68730047274b626d9c75a0d5a0c44",
+    "before": "<ts=&quot;0.069;3.751&quot;>أسلحة السيدة زوركون مؤلمة ،للخصوم<ts=&quot;3.914;9.565&quot;>،آمنة على المدنيين ومضمونة السفر بين<br>الأبعاد.",
+    "after": "<ts=&quot;0.069;3.751&quot;>أسلحة السيدة زوركون مؤلمة للأعداء،<ts=&quot;3.914;9.565&quot;>وآمنة على المدنيين، ومضمونة للعمل عبر<br>الأبعاد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13323,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_004",
+    "source_sha256": "0ff6bc59a913e75d02dea2c7f39db4e8c665b16c363966d54049f5547932b918",
+    "before": "<ts=&quot;0.009;4.26&quot;>تتابع السيدة زوركون اتجاهات السوق عن قرب.",
+    "after": "<ts=&quot;0.009;4.26&quot;>تتابع السيدة زوركون اتجاهات السوق عن قرب.",
+    "decision": "keep"
+  },
+  {
+    "index": 13324,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_005",
+    "source_sha256": "0f38959772817d4cba81d4861762c9b5ecb7c6e84fdfa32d60f819717f57c9b1",
+    "before": "<ts=&quot;0.065;6.827&quot;>يأتي ذلك بضمان مدى الحياة. ليس حياتك، بل<br>شيء أقصر عمرا بكثير.<ts=&quot;6.827;8.418&quot;>مثل سمك الصخور.",
+    "after": "<ts=&quot;0.065;6.827&quot;>يأتي ذلك بضمان مدى الحياة. ليس حياتك، بل<br>شيء أقصر عمرا بكثير.<ts=&quot;6.827;8.418&quot;>مثل سمك الصخور.",
+    "decision": "keep"
+  },
+  {
+    "index": 13325,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_006",
+    "source_sha256": "14483d7f19005b6dc70a3e61ee445399556c084dbb710e517c10c20c5924d63a",
+    "before": "<ts=&quot;0.04;2.14&quot;>في جولة تسوق، صحيح؟",
+    "after": "<ts=&quot;0.04;2.14&quot;>في جولة تسوق، صحيح؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13326,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_007",
+    "source_sha256": "3495bd2f7db0e0edc44f61b60211eb7bbdff4b960ac91bff05d9487a727d3345",
+    "before": "<ts=&quot;0;4.5&quot;>لم تعرف السيدة زوركون إنك من هذا الإنفاق.",
+    "after": "<ts=&quot;0;4.5&quot;>لم تكن السيدة زوركون تعلم أنك بهذا السخاء<br>في الإنفاق.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13327,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_008",
+    "source_sha256": "040bb04a48c95249eef0c9698663cca833789e4868627c038442e4e1d494e1ea",
+    "before": "<ts=&quot;0.063;5.245&quot;>تذكر السيدة زوركون وأنت تدمر أعداءك!",
+    "after": "<ts=&quot;0.063;5.245&quot;>تذكر السيدة زوركون وأنت تدمر أعداءك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13328,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_009",
+    "source_sha256": "73411535c85c5aeb535baee7acdfa1f388719ed41bc6d209a0c6903be428787c",
+    "before": "<ts=&quot;0;3.119&quot;>لا تشعر بالرغبة اليوم؟ ستود<ts=&quot;3.929;5.679&quot;>زيارة السيدة زوركون قريبا.",
+    "after": "<ts=&quot;0;3.119&quot;>لا تشعر بالرغبة اليوم؟ ستود<ts=&quot;3.929;5.679&quot;>زيارة السيدة زوركون قريبا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13329,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_010",
+    "source_sha256": "5aa31dee3a03d1f02d16887e0686e257f532b95cf4f5377c5dfdee21fd197be1",
+    "before": "<ts=&quot;0.04;2.772&quot;>،راتشت، يا أعز زبائن<ts=&quot;2.942;7.914&quot;>صار لك الآن دخول إلى تشكيلة أوميغا من<br>الأسلحة.<ts=&quot;8.037;11.457&quot;>حصرية جدا.",
+    "after": "<ts=&quot;0.04;2.772&quot;>راتشت، يا زبوني المفضل،<ts=&quot;2.942;7.914&quot;>أصبحت تشكيلة أسلحة أوميغا متاحة لك الآن.<ts=&quot;8.037;11.457&quot;>حصرية جدًّا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13330,
+    "key": "MRSZ_CORV_GP1_GP_PARADE_011",
+    "source_sha256": "902a405002e24205eff2e27d3e22a607099ec7f52bd8c3795a98afe624ba6c1e",
+    "before": "<ts=&quot;0.067;3.664&quot;>استمتع بتدمير أوميغا.",
+    "after": "<ts=&quot;0.067;3.664&quot;>استمتع بتدمير أوميغا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13332,
+    "key": "MSZK_CIV_GEN_ADVERTISING_001",
+    "source_sha256": "34c228523cba4baf4391ab9074750618d59bf088e98e8a8afa15bce34679c16d",
+    "before": "<ts=&quot;0.05;5.658&quot;>هو-يو! متجر السيدة زوركون مفتوح وجاهز<br>للعمل!",
+    "after": "<ts=&quot;0.05;5.658&quot;>يوهو! متجر السيدة زوركون مفتوح وجاهز<br>للعمل!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13333,
+    "key": "MSZK_CIV_GEN_ADVERTISING_002",
+    "source_sha256": "b43341b2ac17fdc0f42e85a56439aec6f20f4528ba1ed2fb66e3803a606c9b2f",
+    "before": "<ts=&quot;0.032;3.527&quot;>لا تترددوا أيها القوم! تعالوا إلينا!",
+    "after": "<ts=&quot;0.032;3.527&quot;>لا تخجلوا، يا جماعة! تفضلوا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13334,
+    "key": "MSZK_CIV_GEN_ADVERTISING_003",
+    "source_sha256": "89b58b75ac9157b89c506c0745df04ad4c0d97118ebf12ec88d9fa09bba20fa1",
+    "before": "<ts=&quot;0.04;3.19&quot;>تعالوا إلى متجر السيدة زوركون لكل<br>احتياجاتكم من الأسلحة!",
+    "after": "<ts=&quot;0.04;3.19&quot;>تعالوا إلى متجر السيدة زوركون لكل<br>احتياجاتكم من الأسلحة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13335,
+    "key": "MSZK_CIV_GEN_ADVERTISING_004",
+    "source_sha256": "1f3e7d9678ed53115aa00a0bceb2e2c1d73c79cb609e40da24a0143cde541d90",
+    "before": "<ts=&quot;0;4.55&quot;>لدينا من كل أنواع التسليح! إذا كان ينفجر<br>فلدينا منه!",
+    "after": "<ts=&quot;0;4.55&quot;>لدينا أسلحة من كل نوع! كل ما يحدث انفجارًا<br>موجود عندنا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13336,
+    "key": "MSZK_CIV_GEN_ADVERTISING_005",
+    "source_sha256": "5c01f98e2fd8e112b0b828682be3cbeaf9b18c66cb7881bd144b41950596c379",
+    "before": "<ts=&quot;0;2.048&quot;>تعالوا جميعا!<ts=&quot;2.127;5.921&quot;>من هذا الاتجاه لتجدوا أقوى الأسلحة حولكم!",
+    "after": "<ts=&quot;0;2.048&quot;>تعالوا جميعا!<ts=&quot;2.127;5.921&quot;>من هذا الاتجاه لتجدوا أقوى الأسلحة حولكم!",
+    "decision": "keep"
+  },
+  {
+    "index": 13337,
+    "key": "MSZK_CIV_GEN_ADVERTISING_006",
+    "source_sha256": "e8419572ff10876318e0d86d3c9ab5e3564fc5e8bc5a6805fd18424be316e133",
+    "before": "<ts=&quot;0;4.78&quot;>متجر السيدة زوركون أفضل بائع أسلحة تقييما<br>في المجرة كلها!<ts=&quot;4.945;6.886&quot;>خمس نجوم للجميع!",
+    "after": "<ts=&quot;0;4.78&quot;>متجر السيدة زوركون أعلى متاجر الأسلحة<br>تقييمًا في المجرة!<ts=&quot;4.945;6.886&quot;>خمس نجوم، يا جماعة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13338,
+    "key": "MSZK_CIV_GEN_ADVERTISING_007",
+    "source_sha256": "06361cfe224ccb49acfd6a1db93ce70c1382ab3a5dc56c1391f67f40f84ad88b",
+    "before": "<ts=&quot;0.078;3.625&quot;>أوه، أؤكد لك أننا مفتوحون!",
+    "after": "<ts=&quot;0.078;3.625&quot;>أوه، أؤكد لك أننا مفتوحون!",
+    "decision": "keep"
+  },
+  {
+    "index": 13339,
+    "key": "MSZK_CIV_GEN_ADVERTISING_008",
+    "source_sha256": "198bb4c607e1e3753db7f7b96410535a08a74a87d28e40d72b97bc0618c93b73",
+    "before": "<ts=&quot;0.061;4.85&quot;>اقترب أكثر وانظر إلى البضاعة! أنا لا ألدغ!",
+    "after": "<ts=&quot;0.061;4.85&quot;>هيا، لنلق نظرة أقرب على البضاعة! أنا لا<br>أعض!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13340,
+    "key": "MSZK_CIV_GEN_ADVERTISING_009",
+    "source_sha256": "390f939ce01df0bb65d9f40a4d5b6b5a9c136a11441c9514cc39888992d4eb6c",
+    "before": "<ts=&quot;0.026;2.92&quot;>نفخر بخدمتنا من الطراز الأول!<ts=&quot;2.999;5.334&quot;>العميل دائما على حق!<ts=&quot;5.603;7.544&quot;>إلا عندما لا يكون.",
+    "after": "<ts=&quot;0.026;2.92&quot;>نفخر بخدمتنا من الطراز الأول!<ts=&quot;2.999;5.334&quot;>العميل دائما على حق!<ts=&quot;5.603;7.544&quot;>إلا عندما لا يكون.",
+    "decision": "keep"
+  },
+  {
+    "index": 13341,
+    "key": "MSZK_CIV_GEN_ADVERTISING_010",
+    "source_sha256": "35757ea5d4e89773eb434292d15232fb2081ae73e08b7b2e03a8eea2f7e10c81",
+    "before": "<ts=&quot;0.028;5.588&quot;>من المدافع إلى القنابل، ومن الصواريخ إلى<br>البنادق، لدينا كل شيء يا حبيبي!",
+    "after": "<ts=&quot;0.028;5.588&quot;>من المسدسات إلى القنابل، ومن الصواريخ إلى<br>البنادق، لدينا كل شيء، يا قمر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13342,
+    "key": "MSZK_CIV_GEN_ADVERTISING_011",
+    "source_sha256": "19de38c56369a98d28d3a6344767354d320a0bf05c6abdf15d971e2ba13d9c16",
+    "before": "<ts=&quot;0;1.867&quot;>تبحث عن نار؟<ts=&quot;1.983;5.627&quot;>متجر السيدة زوركون يملك أشد الأسلحة حرارة!",
+    "after": "<ts=&quot;0;1.867&quot;>تبحث عن نار؟<ts=&quot;1.983;5.627&quot;>متجر السيدة زوركون يملك أشد الأسلحة حرارة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13343,
+    "key": "MSZK_CIV_GEN_ADVERTISING_012",
+    "source_sha256": "244d65f94e59a9575a3782754da5271e6c4376d859dac8856f11e4d274375e7f",
+    "before": "<ts=&quot;0.039;3.669&quot;>أسلحة وذخيرة وتطويرات! تعالوا خذوا بعضها!",
+    "after": "<ts=&quot;0.039;3.669&quot;>أسلحة وذخيرة وتطويرات! تعالوا خذوا بعضها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13344,
+    "key": "MSZK_CIV_GEN_AVAILSOON_001",
+    "source_sha256": "0d78cf1adb9aa4b727aad5611ed4a24f9deeaf63c87f9b88739f2413a393612e",
+    "before": "<ts=&quot;0.18;2.622&quot;>عدوا قريبا من أجل تلك!",
+    "after": "<ts=&quot;0.18;2.622&quot;>عدوا قريبا من أجل تلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13345,
+    "key": "MSZK_CIV_GEN_AVAILSOON_002",
+    "source_sha256": "67bf570315cd7ad370747de8036265e4a1e4eefa601869de49d6d41587ce812e",
+    "before": "<ts=&quot;0.051;2.869&quot;>هل تتسلل وترااقب؟",
+    "after": "<ts=&quot;0.051;2.869&quot;>محاولة لاختلاس نظرة، أليس كذلك؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13346,
+    "key": "MSZK_CIV_GEN_AVAILSOON_003",
+    "source_sha256": "53960d54532abee526ae3efabde3a0b954db2f289fe1aa39da97fdb7afbc3c48",
+    "before": "<ts=&quot;0.03;2.13&quot;>تلك ستكون عجيبة!",
+    "after": "<ts=&quot;0.03;2.13&quot;>تلك ستكون عجيبة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13347,
+    "key": "MSZK_CIV_GEN_AVAILSOON_004",
+    "source_sha256": "d3475dd2e7ffd418cb6a91a10100cd97d387667e58e6c895e94dc30bcc59f882",
+    "before": "<ts=&quot;0.028;3.105&quot;>لا أطيق الانتظار لأبيعك تلك!",
+    "after": "<ts=&quot;0.028;3.105&quot;>لا أطيق الانتظار لأبيعك تلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13348,
+    "key": "MSZK_CIV_GEN_AVAILSOON_005",
+    "source_sha256": "e22c144c1563e8699feea5370a0a4eda7ee2aa451946ef74fe3be06135dc3af0",
+    "before": "<ts=&quot;0;2.8&quot;>بالتأكيد ستعود من أجلها!",
+    "after": "<ts=&quot;0;2.8&quot;>بالتأكيد ستعود من أجلها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13349,
+    "key": "MSZK_CIV_GEN_AVAILSOON_006",
+    "source_sha256": "f943abc39c1ce58f200b48d10dad631297dc96f322a11c65888f6a6fa56ae03c",
+    "before": "<ts=&quot;0.02;2.47&quot;>تلك قادمة حقا قريبا يا حبيبي!",
+    "after": "<ts=&quot;0.02;2.47&quot;>تلك قادمة حقا قريبا يا حبيبي!",
+    "decision": "keep"
+  },
+  {
+    "index": 13350,
+    "key": "MSZK_CIV_GEN_AVAILSOON_007",
+    "source_sha256": "5b408402b9977976236a2a526de32ff3034b61e91160bc722ba459ce2306b719",
+    "before": "<ts=&quot;0.02;3.142&quot;>سأخبرك عندما تصلني!",
+    "after": "<ts=&quot;0.02;3.142&quot;>سأخبرك عندما تصلني!",
+    "decision": "keep"
+  },
+  {
+    "index": 13351,
+    "key": "MSZK_CIV_GEN_BOUNCEAVAIL_001",
+    "source_sha256": "674f63a2f6075eaee8117e4cacc366377dc0e85a7bf747494bad0c1e1e60c5a0",
+    "before": "<ts=&quot;0.03;3.755&quot;>لدينا الباونسر جاهزا للانفجار!",
+    "after": "<ts=&quot;0.03;3.755&quot;>لدينا الباونسر جاهزا للانفجار!",
+    "decision": "keep"
+  },
+  {
+    "index": 13352,
+    "key": "MSZK_CIV_GEN_BOUNCESOON_001",
+    "source_sha256": "afe6e5e82beaea27b3ac0ad74cb6da00534d0472f46d49c20c2bc84ab7032190",
+    "before": "<ts=&quot;0.035;5.079&quot;>ذلك الباونسر ليس جاهزا بعد يا خدود الخوخ.<br>عد قريبا!",
+    "after": "<ts=&quot;0.035;5.079&quot;>ذلك الباونسر ليس جاهزا بعد يا خدود الخوخ.<br>عد قريبا!",
+    "decision": "keep"
+  },
+  {
+    "index": 13353,
+    "key": "MSZK_CIV_GEN_BOUNCEUP_001",
+    "source_sha256": "937279860324a7641cad86971f2c3309d7c36e1a482f43abce163df6598f674e",
+    "before": "<ts=&quot;0.065;5.682&quot;>ستقفز *فزا-ف-ف* من الفرح مع تلك الجميلة<br>بعد التطوير.",
+    "after": "<ts=&quot;0.065;5.682&quot;>سوف *تـ... تـ... تقفز* فرحًا باستخدام ذلك<br>السلاح الرائع بعد تطويره!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13354,
+    "key": "MSZK_CIV_GEN_BURSTAVAIL_001",
+    "source_sha256": "633ad3c2d4e1bab50100d1a0b79485f942238d6bc75d14c654aab97e5e417a86",
+    "before": "<ts=&quot;0;3.55&quot;>وصلتنا شحنة من مسدسات الرشقات! أنت محظوظ!",
+    "after": "<ts=&quot;0;3.55&quot;>وصلتنا شحنة من مسدسات الرشقات! أنت محظوظ!",
+    "decision": "keep"
+  },
+  {
+    "index": 13355,
+    "key": "MSZK_CIV_GEN_BURSTSOON_001",
+    "source_sha256": "8e93f8cde7ccc9c0924e6b280ae319f6254fb5b9be14964ef91bd772012c02e7",
+    "before": "<ts=&quot;0.075;2.382&quot;>مسدس الرشقات قريبا!",
+    "after": "<ts=&quot;0.075;2.382&quot;>مسدس الرشقات قريبا!",
+    "decision": "keep"
+  },
+  {
+    "index": 13356,
+    "key": "MSZK_CIV_GEN_BURSTUP_001",
+    "source_sha256": "12e1cb3539bd73bbf6ed901a3ec08f29c8082559f6ef236d030a565588586e0a",
+    "before": "<ts=&quot;0.36;3.18&quot;>أوه، إنها الآن تكاد *تنفجر* بالقوة!",
+    "after": "<ts=&quot;0.36;3.18&quot;>أوه، إنها الآن تكاد *تنفجر* بالقوة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13357,
+    "key": "MSZK_CIV_GEN_BUYAMMO_001",
+    "source_sha256": "4c773d10d744384a4417f7957429ffe376d3c056b1ca078c823fbe98783597e2",
+    "before": "<ts=&quot;0.05;1.387&quot;>حمل السلاح وابدأ!",
+    "after": "<ts=&quot;0.05;1.387&quot;>حان وقت التلقيم والاستعداد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13358,
+    "key": "MSZK_CIV_GEN_BUYAMMO_002",
+    "source_sha256": "5f1dfe52d1141a9271ebb9bc74c8bad1e37d5769795822859847e9247b886636",
+    "before": "<ts=&quot;0.049;2.807&quot;>احذر أين تضعها يا حبيبي.",
+    "after": "<ts=&quot;0.049;2.807&quot;>احذر أين تضعها يا حبيبي.",
+    "decision": "keep"
+  },
+  {
+    "index": 13359,
+    "key": "MSZK_CIV_GEN_BUYAMMO_003",
+    "source_sha256": "3f4330a25a8a0072fa79e0349a5dc9df4e2639a55d69ad3098cb67d44235e05a",
+    "before": "<ts=&quot;0.051;3.408&quot;>أعرف إنك ستجد لها فائدة كبيرة!",
+    "after": "<ts=&quot;0.051;3.408&quot;>أعرف أنك ستجد لها استخدامًا مفيدًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13360,
+    "key": "MSZK_CIV_GEN_BUYAMMO_004",
+    "source_sha256": "82995b8615a014766179ec9dfbde7f7c12e0759c49862f25254b7e56408d3524",
+    "before": "<ts=&quot;0;1.75&quot;>هل أنت متأكد إنك اشتريت ما يكفي؟",
+    "after": "<ts=&quot;0;1.75&quot;>هل اشتريت ما يكفي فعلًا؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13361,
+    "key": "MSZK_CIV_GEN_BUYAMMO_005",
+    "source_sha256": "fe3ffec3b694c8fc0b8d889fed31882e2a1c0ef9b791dfc6d62e03693681f1c2",
+    "before": "<ts=&quot;0.067;2.751&quot;>عد حين تحتاج مزيدا من السكر يا حبيبي!",
+    "after": "<ts=&quot;0.067;2.751&quot;>هيا، للعودة حين تحتاج إلى مزيد من هذا<br>السكر، يا قمر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13362,
+    "key": "MSZK_CIV_GEN_BUYAMMO_006",
+    "source_sha256": "338ac653de213410966483a08389cf15f5c93019a7fc48e3297b0aa90a6adc75",
+    "before": "<ts=&quot;0;2.45&quot;>لا شيء ألذ من رائحة البارود.",
+    "after": "<ts=&quot;0;2.45&quot;>لا شيء ألذ من رائحة البارود.",
+    "decision": "keep"
+  },
+  {
+    "index": 13363,
+    "key": "MSZK_CIV_GEN_BUYAMMO_007",
+    "source_sha256": "4a8708021d7778e60584e70a7c754540f739609635be6148bbd1993d616d5003",
+    "before": "<ts=&quot;0.058;3.412&quot;>أخبرهم أن السيدة زوركون ترسل تحياتها!",
+    "after": "<ts=&quot;0.058;3.412&quot;>أخبرهم أن السيدة زوركون ترسل تحياتها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13364,
+    "key": "MSZK_CIV_GEN_BUYAMMO_008",
+    "source_sha256": "c608c157e23eb081e8210aa7e6c543a57f78a8d41454d5d4e228239e981dc0f1",
+    "before": "<ts=&quot;0;2.73&quot;>اطمئن إلى أن مخزنك ممتلئ يا حلو!",
+    "after": "<ts=&quot;0;2.73&quot;>اطمئن إلى أن مخزنك ممتلئ يا حلو!",
+    "decision": "keep"
+  },
+  {
+    "index": 13365,
+    "key": "MSZK_CIV_GEN_BUYAMMO_009",
+    "source_sha256": "2f44c544564846345d8406240192600bacc527cdb21b17e2bd6da46d4cfde18d",
+    "before": "<ts=&quot;0;3.5&quot;>ستصنع بها ثقوبا كثيرة يا حبيبي!",
+    "after": "<ts=&quot;0;3.5&quot;>ستصنع بها ثقوبا كثيرة يا حبيبي!",
+    "decision": "keep"
+  },
+  {
+    "index": 13366,
+    "key": "MSZK_CIV_GEN_BUYAMMO_010",
+    "source_sha256": "f64ac21ed8f9152b6aec79f297d49044d577de8b284a1bfc4937f223d6f25641",
+    "before": "<ts=&quot;0;2.1&quot;>وهناك المزيد من حيث أتى!",
+    "after": "<ts=&quot;0;2.1&quot;>ولدينا المزيد دائمًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13367,
+    "key": "MSZK_CIV_GEN_BUYAMMO_011",
+    "source_sha256": "6bd2e9939aad0b3845bc5e4019d342b1571e8c61ff8fbfb504485501ed761d24",
+    "before": "<ts=&quot;0.062;3.823&quot;>انظر هنا. السيدة زوركون تحب تحويل المسامير<br>إلى رصاص!",
+    "after": "<ts=&quot;0.062;3.823&quot;>انظر هنا. السيدة زوركون تحب تحويل المسامير<br>إلى رصاص!",
+    "decision": "keep"
+  },
+  {
+    "index": 13368,
+    "key": "MSZK_CIV_GEN_BUYAMMO_012",
+    "source_sha256": "c4bc4cd78ec4fac126f0aff3b024903b6fa0ae5d6a3d1dddbc5a45ec8a62bbc4",
+    "before": "<ts=&quot;0.059;2.074&quot;>أواا! صرنا نملك أسلحة نارية الآن!",
+    "after": "<ts=&quot;0.059;2.074&quot;>أواا! صرنا نملك أسلحة نارية الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 13369,
+    "key": "MSZK_CIV_GEN_BUYBOUNC_001",
+    "source_sha256": "016b47e06afd7b09c1ac5fabdbb738c1a159cbb988a38d1713a0c0ea6fc5ba4e",
+    "before": "<ts=&quot;0;2.738&quot;>ستحب تلك!<ts=&quot;2.814;5.902&quot;>الباونسر سلاح كلاسيكي أصيل!",
+    "after": "<ts=&quot;0;2.738&quot;>ستحب تلك!<ts=&quot;2.814;5.902&quot;>الباونسر سلاح كلاسيكي أصيل!",
+    "decision": "keep"
+  },
+  {
+    "index": 13370,
+    "key": "MSZK_CIV_GEN_BUYBURST_001",
+    "source_sha256": "5ad7b570f396cd37cf116a85c3562b4c553a96830f8e649bf69b2e3f93aa341e",
+    "before": "<ts=&quot;0.068;4.656&quot;>ممم! مسدس الرشقات! اختيار ممتاز!",
+    "after": "<ts=&quot;0.068;4.656&quot;>ممم! مسدس الرشقات! اختيار ممتاز!",
+    "decision": "keep"
+  },
+  {
+    "index": 13371,
+    "key": "MSZK_CIV_GEN_BUYBUZZ_001",
+    "source_sha256": "87bcea52be8bb7132b2545daab87b757744881399634d11d6c51a5cae07f1a37",
+    "before": "<ts=&quot;0;3.5&quot;>احرص الآن على بقاء نصالك حادة يا حلو!",
+    "after": "<ts=&quot;0;3.5&quot;>احرص الآن على بقاء نصالك حادة يا حلو!",
+    "decision": "keep"
+  },
+  {
+    "index": 13372,
+    "key": "MSZK_CIV_GEN_BUYCARPET_001",
+    "source_sha256": "60e94345c1366e793002f98df92eb7ad215af31feb7202f71894d1a05e026a47",
+    "before": "<ts=&quot;0.03;2.13&quot;>قنابل كثيرة ووقت قليل!",
+    "after": "<ts=&quot;0.03;2.13&quot;>قنابل كثيرة ووقت قليل!",
+    "decision": "keep"
+  },
+  {
+    "index": 13373,
+    "key": "MSZK_CIV_GEN_BUYDOOM_001",
+    "source_sha256": "e725993026d01a6c4971e89973a12b88d6527c7666b1d5b8abcc42a55aa8d39f",
+    "before": "<ts=&quot;0.058;3.687&quot;>ستحب هذه الشياطين الصغيرة!",
+    "after": "<ts=&quot;0.058;3.687&quot;>ستحب هذه الشياطين الصغيرة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13374,
+    "key": "MSZK_CIV_GEN_BUYENFORC_001",
+    "source_sha256": "a418b6755d0c62b53c330cc8d7bd60e43e63d139b8ba31dfbcb19541e467889d",
+    "before": "<ts=&quot;0.06;2.815&quot;>مضاعفة الفوهات، ومضاعفة المتعة!",
+    "after": "<ts=&quot;0.06;2.815&quot;>مضاعفة الفوهات، ومضاعفة المتعة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13375,
+    "key": "MSZK_CIV_GEN_BUYFUNG_001",
+    "source_sha256": "9c5d25e8cbe024b1b9a2175a0bd9778dc111a2de0a8c73ba3cd63603559a91ee",
+    "before": "<ts=&quot;0.075;4.303&quot;>ستصبح حقا روح الحفلة الآن!",
+    "after": "<ts=&quot;0.075;4.303&quot;>ستصبح حقا روح الحفلة الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 13376,
+    "key": "MSZK_CIV_GEN_BUYICE_001",
+    "source_sha256": "2fcf300c4cb6c7cf208fc5225113f431a6d3990f80c68629425c794f2f409c1a",
+    "before": "<ts=&quot;0.16;3.104&quot;>وأنا أيضا أفضل عدائي على الصخور!",
+    "after": "<ts=&quot;0.16;3.104&quot;>وأنا أيضًا أفضل أعدائي مع الثلج!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13377,
+    "key": "MSZK_CIV_GEN_BUYKAMEH_001",
+    "source_sha256": "354a22f53f09634973e339a31a27c1716b5ae8ef51fa399b598f930f5d22faf4",
+    "before": "<ts=&quot;0.04;2.591&quot;>،ذلك المصادم سيغير حياتك<ts=&quot;2.694;4.346&quot;>أقسم!",
+    "after": "<ts=&quot;0.04;2.591&quot;>ذلك المصادم سيغير حياتك،<ts=&quot;2.694;4.346&quot;>هذا مؤكد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13378,
+    "key": "MSZK_CIV_GEN_BUYMAG_001",
+    "source_sha256": "51e3101a3adde0c106ec85f0edc25bc45984fb05a56a3d61dc5f55d06566bd21",
+    "before": "<ts=&quot;0;4.2&quot;>لديك الدفاع والهجوم في سلاح واحد هناك!",
+    "after": "<ts=&quot;0;4.2&quot;>لديك الدفاع والهجوم في سلاح واحد هناك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13379,
+    "key": "MSZK_CIV_GEN_BUYPIXEL_001",
+    "source_sha256": "7413e0a58cadd3949b845350e829b1b1c07ccfd419dffe01fff3dc06f6eff729",
+    "before": "<ts=&quot;0.056;3.202&quot;>المبكسل لك أخيرا!",
+    "after": "<ts=&quot;0.056;3.202&quot;>المبكسل لك أخيرا!",
+    "decision": "keep"
+  },
+  {
+    "index": 13380,
+    "key": "MSZK_CIV_GEN_BUYRICO_001",
+    "source_sha256": "be0d90e367d541aa253178fadc6af624622bafb03a7a07e4210cc5e90deccad1",
+    "before": "<ts=&quot;0.065;5.493&quot;>هدية لا تتوقف عن العطاء! ما دمت تواصل<br>الضغط على الزناد.",
+    "after": "<ts=&quot;0.065;5.493&quot;>هدية لا تتوقف عن العطاء! ما دمت تواصل<br>الضغط على الزناد.",
+    "decision": "keep"
+  },
+  {
+    "index": 13381,
+    "key": "MSZK_CIV_GEN_BUYROD_001",
+    "source_sha256": "dd3cece050046507e0026e20c8d508a7107f22d22fe6a0fde5520edc952b161e",
+    "before": "<ts=&quot;0;4.541&quot;>ستعجبك ردة الفعل التي تحصل عليها مع تلك<br>الجميلة المكهربة!",
+    "after": "<ts=&quot;0;4.541&quot;>ستعجبك ردة الفعل التي تحصل عليها مع تلك<br>الجميلة المكهربة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13382,
+    "key": "MSZK_CIV_GEN_BUYRYNO_001",
+    "source_sha256": "216ad4ef60f865b7a5c3c30a654e4152441ed8f2530baacaf9a3cb6b2d0ac338",
+    "before": "<ts=&quot;0.24;3.08&quot;>من أسلحتي 8 رينو المفضلة؛<ts=&quot;3.61;6.286&quot;>وأنا واثقة إنك ستشعر بالمثل في النهاية!",
+    "after": "<ts=&quot;0.24;3.08&quot;>رينو 8 من أسلحتي المفضلة شخصيًّا،<ts=&quot;3.61;6.286&quot;>وأنا واثقة بأنه سيصبح من مفضلاتك أيضًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13383,
+    "key": "MSZK_CIV_GEN_BUYSHATT_001",
+    "source_sha256": "6c47261cde8105aeae6fd968ee428666a5970cc9fdd92bacef2c405a943abe72",
+    "before": "<ts=&quot;1.119;4.524&quot;>أوه هوهو! حان وقت تفجير بعض الأشرار!",
+    "after": "<ts=&quot;1.119;4.524&quot;>أوه هوهو! حان وقت تفجير بعض الأشرار!",
+    "decision": "keep"
+  },
+  {
+    "index": 13384,
+    "key": "MSZK_CIV_GEN_BUYSNIPER_001",
+    "source_sha256": "345c3a5e9be189d648c097bf2c1b6b2ad6961526a2fbddc9b7cd089456f99105",
+    "before": "<ts=&quot;0.65;4.17&quot;>ستحطم بها أرقاما قياسية في التصويب الدقيق!",
+    "after": "<ts=&quot;0.65;4.17&quot;>ستحطم بها أرقاما قياسية في التصويب الدقيق!",
+    "decision": "keep"
+  },
+  {
+    "index": 13385,
+    "key": "MSZK_CIV_GEN_BUYTOP_001",
+    "source_sha256": "ab646446a9724b321038884a16d769bca343caacda42ef7ed3e38d5eeea30cdf",
+    "before": "<ts=&quot;0.07;3.272&quot;>حان وقت تحويل بعض الأعداء إلى سراخس!",
+    "after": "<ts=&quot;0.07;3.272&quot;>حان وقت تحويل بعض الأعداء إلى سراخس!",
+    "decision": "keep"
+  },
+  {
+    "index": 13386,
+    "key": "MSZK_CIV_GEN_BUYTUNNEL_001",
+    "source_sha256": "8679e94fc1bf48fd0d94ef1254f097eebc60149b5933e93b0fa2a1723fc0a21b",
+    "before": "<ts=&quot;0.067;3.396&quot;>استعد لحفر طريقك إلى النصر يا حبيبي.",
+    "after": "<ts=&quot;0.067;3.396&quot;>استعد لحفر طريقك إلى النصر يا حبيبي.",
+    "decision": "keep"
+  },
+  {
+    "index": 13387,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_001",
+    "source_sha256": "d332fccc10d7ac445e22f8dfb12551de8694e4a865a10563f9046c13ed6ff490",
+    "before": "<ts=&quot;0;2.75&quot;>أنت تطبخ بالغاز الآن يا حبيبي!",
+    "after": "<ts=&quot;0;2.75&quot;>الآن انطلقت الأمور كما ينبغي، يا قمر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13388,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_002",
+    "source_sha256": "53bee63d7112aa01c4213c6959e0b667228c2e8986575946f535312355c40660",
+    "before": "<ts=&quot;0.059;3.032&quot;>لا شيء أفضل من تطوير قاتلة!",
+    "after": "<ts=&quot;0.059;3.032&quot;>لا شيء أفضل من تطوير قاتل!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13389,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_003",
+    "source_sha256": "610056564ec98d36703a8f8fd17e48f3a934052d7d023c4adee79c6449a54e7c",
+    "before": "<ts=&quot;0;0.35&quot;>جديد!<ts=&quot;1.04;2.09&quot;>ومحسن! واو!",
+    "after": "<ts=&quot;0;0.35&quot;>جديد!<ts=&quot;1.04;2.09&quot;>ومحسن! واو!",
+    "decision": "keep"
+  },
+  {
+    "index": 13390,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_004",
+    "source_sha256": "031c7d017128c318c34edbc398712b15d9fb314560589e6074e72f3e1f1a6964",
+    "before": "<ts=&quot;0.05;2.252&quot;>تعديل أنيق يا حبيبي!",
+    "after": "<ts=&quot;0.05;2.252&quot;>تعديل أنيق يا حبيبي!",
+    "decision": "keep"
+  },
+  {
+    "index": 13391,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_005",
+    "source_sha256": "83983a31a106207eb873ea0ce95e0c4d13b8f26156cb5e06a754a83c2e38b72c",
+    "before": "<ts=&quot;0.054;2.739&quot;>،سنعيد الأمور إلى التوازن صحيح؟",
+    "after": "<ts=&quot;0.054;2.739&quot;>هكذا تتكافأ الفرص، أليس كذلك؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13392,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_006",
+    "source_sha256": "ac6fc51682a7026e75a4a75484de6229475f2062a2877db81a1dd3374de754e2",
+    "before": "<ts=&quot;0.059;1.615&quot;>سيسبب لهم وجعا شديدا.",
+    "after": "<ts=&quot;0.059;1.615&quot;>سيسبب لهم وجعا شديدا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13393,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_007",
+    "source_sha256": "e7878b0df602a66cdf4e9c36f26af0ad67b685da1e4a9eab40554a8fe8a1c696",
+    "before": "<ts=&quot;0;3.15&quot;>ستكون له ركلة قوية!",
+    "after": "<ts=&quot;0;3.15&quot;>ستكون له قوة هائلة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13394,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_008",
+    "source_sha256": "aeaf8c23149b2f3509bd3932b9da6fe14ef75de5c1a0334cdfafcdb82ee444dc",
+    "before": "<ts=&quot;0.064;2.193&quot;>أكبر وأفضل من أي وقت مضى!",
+    "after": "<ts=&quot;0.064;2.193&quot;>أكبر وأفضل من أي وقت مضى!",
+    "decision": "keep"
+  },
+  {
+    "index": 13395,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_009",
+    "source_sha256": "c1b05cf21ee0742e8879c21f7246b58ac1f1d1b6350efe6e01885d58bc00f5a3",
+    "before": "<ts=&quot;0;1.689&quot;>اجعلهم يغارون يا حبيبي.",
+    "after": "<ts=&quot;0;1.689&quot;>اجعلهم يغارون يا حبيبي.",
+    "decision": "keep"
+  },
+  {
+    "index": 13396,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_010",
+    "source_sha256": "9e3376a37b2daae0dd18a2f433ae9689a77016d212ddf4edce69409ab071580a",
+    "before": "<ts=&quot;0.053;3.628&quot;>واو، هذا تعديل يبدو رائعا.",
+    "after": "<ts=&quot;0.053;3.628&quot;>واو، هذا تعديل يبدو رائعا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13397,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_011",
+    "source_sha256": "f67fb573f386cb8199a22702a35065b054d81ebc2326b6546dbd27b8624f279c",
+    "before": "<ts=&quot;0.04;3.19&quot;>هذا ما أسميه سلسلة تطويرات!",
+    "after": "<ts=&quot;0.04;3.19&quot;>هذا ما أسميه سلسلة تطويرات!",
+    "decision": "keep"
+  },
+  {
+    "index": 13398,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_012",
+    "source_sha256": "6c76d12cb3ad873b491bf5d71e1f9763ad395b95a7848bfb3cc318c9848c9c3c",
+    "before": "<ts=&quot;0.061;3.663&quot;>سلسلة رائعة! عد من أجل المزيد!",
+    "after": "<ts=&quot;0.061;3.663&quot;>سلسلة رائعة! عد من أجل المزيد!",
+    "decision": "keep"
+  },
+  {
+    "index": 13399,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_013",
+    "source_sha256": "92c01d855bc761aa19daafa87a85327887a38a3df7814ae464bb566605854792",
+    "before": "<ts=&quot;0;3.85&quot;>أحب حقا أن أرى أسلحتي الصغيرة تصل إلى كامل<br>إمكاناتها!",
+    "after": "<ts=&quot;0;3.85&quot;>أحب حقا أن أرى أسلحتي الصغيرة تصل إلى كامل<br>إمكاناتها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13400,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_014",
+    "source_sha256": "93d372f30d09a912ba1c0c7120021f5e8b7db1f665d33bb92387545b491632ab",
+    "before": "<ts=&quot;0.052;3.545&quot;>تلك تطوير ممتازة لديك!",
+    "after": "<ts=&quot;0.052;3.545&quot;>هذا تطوير ممتاز حقًّا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13401,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_015",
+    "source_sha256": "96e16d3adc5edeed6ab7451fe35813d1c204b498e150c8a426810b48fc626bc6",
+    "before": "<ts=&quot;0.053;2.481&quot;>نحن فريق رائع!",
+    "after": "<ts=&quot;0.053;2.481&quot;>نحن فريق رائع!",
+    "decision": "keep"
+  },
+  {
+    "index": 13402,
+    "key": "MSZK_CIV_GEN_BUYUPGRADE_016",
+    "source_sha256": "fc9d746c1f6c56c0e53d17b63c2775d49a8b4b63aa62fda708174b0124176079",
+    "before": "<ts=&quot;0.099;2.899&quot;>التطوير الجيدة تملؤني حماسا!",
+    "after": "<ts=&quot;0.099;2.899&quot;>التطوير الجيد يشعل حماسي دائمًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13403,
+    "key": "MSZK_CIV_GEN_BUYWARP_001",
+    "source_sha256": "d063d8f0d485a54fc05483ebf8bed6c7d1739b3dff609941bbac05dd47cbee0f",
+    "before": "<ts=&quot;0.15;4.127&quot;>هذه الجميلة تطلق النار أسرع من خنفساء في<br>حريق السهول!<ts=&quot;4.292;6.569&quot;>وتعمل بحرارة مشتعلة أيضا!",
+    "after": "<ts=&quot;0.15;4.127&quot;>هذا السلاح يطلق أسرع من خنفساء سبيتل في<br>حريق سهول!<ts=&quot;4.292;6.569&quot;>وحرارته لا تقل عن حرارة الحريق!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13404,
+    "key": "MSZK_CIV_GEN_BUYWAR_001",
+    "source_sha256": "1f967510ea2918aeb19e703d370bee2b00fc1ac7738d47de5f1ee636f57e3c5e",
+    "before": "<ts=&quot;0.075;5.842&quot;>استمتع بتاجر الحروب يا حبيبي! لن يفعل<br>أعداؤك ذلك بالتأكيد!",
+    "after": "<ts=&quot;0.075;5.842&quot;>استمتع بمؤجج الحروب، يا قمر! أعداؤك لن<br>يستمتعوا به بالتأكيد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13405,
+    "key": "MSZK_CIV_GEN_BUZZAVAIL_001",
+    "source_sha256": "308735e4bcae14679faf741a4f1f6ab5eb9970511ec841e1b80608f1d5144b4b",
+    "before": "<ts=&quot;0.063;1.635&quot;>تريد حلاقة؟<ts=&quot;1.74;4.487&quot;>نصال الأزيز متوفر الآن!",
+    "after": "<ts=&quot;0.063;1.635&quot;>ما رأيك في حلاقة؟<ts=&quot;1.74;4.487&quot;>نصال الأزيز متوفرة الآن!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13406,
+    "key": "MSZK_CIV_GEN_BUZZSOON_001",
+    "source_sha256": "f6bd4833430055887b0f06e53a2d6faadf80e0cf7bac86b01db917dc3253b56c",
+    "before": "<ts=&quot;0.03;3.88&quot;>تتفرج على نصال الأزيز؟ يجب أن تعود من<br>أجلها!",
+    "after": "<ts=&quot;0.03;3.88&quot;>تتفرج على نصال الأزيز؟ يجب أن تعود من<br>أجلها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13407,
+    "key": "MSZK_CIV_GEN_BUZZUP_001",
+    "source_sha256": "8c110c59bb005b71c9a90b3287764c99f0b92294d71fa4b03c403cad98af6341",
+    "before": "<ts=&quot;0.066;6.343&quot;>إذا كان أعداؤك يعتبرون الطنين مزعجا من قبل<br>فانتظر... آهاهاها!",
+    "after": "<ts=&quot;0.066;6.343&quot;>إذا كان أعداؤك يعتبرون الطنين مزعجا من قبل<br>فانتظر... آهاهاها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13408,
+    "key": "MSZK_CIV_GEN_CANBUYREMIND_001",
+    "source_sha256": "abb8102f114c42a8f13ac99c35ce88279febbea38ba83604feb96403f9fb0b57",
+    "before": "<ts=&quot;0.03;3.88&quot;>أعرف أن مساميرك تحرق جيبك!",
+    "after": "<ts=&quot;0.03;3.88&quot;>أعرف أن مساميرك تحرق جيبك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13409,
+    "key": "MSZK_CIV_GEN_CANBUYREMIND_002",
+    "source_sha256": "0bc191b8b61f704267a7a1eabf4499192a463979430267860d141c3ccb1fc3b2",
+    "before": "<ts=&quot;0.3;2.75&quot;>هيا يا صغيري، لديك المسامير!",
+    "after": "<ts=&quot;0.3;2.75&quot;>هيا يا صغيري، لديك المسامير!",
+    "decision": "keep"
+  },
+  {
+    "index": 13410,
+    "key": "MSZK_CIV_GEN_CANBUYREMIND_003",
+    "source_sha256": "fd1f34d9d0dca2e8c1165c092f40deccf762be130a99e7c79933d212b6fe8428",
+    "before": "<ts=&quot;0;4.2&quot;>أوه، لدي كل وقت العالم للعملاء الدافعين!",
+    "after": "<ts=&quot;0;4.2&quot;>أوه، لدي كل وقت العالم للعملاء الدافعين!",
+    "decision": "keep"
+  },
+  {
+    "index": 13411,
+    "key": "MSZK_CIV_GEN_CANBUYREMIND_004",
+    "source_sha256": "c7f3c09984347d52aeda3f93c48ddaa4ff3ae2ed59fc88925825227aa70d37d2",
+    "before": "<ts=&quot;0.04;3.889&quot;>شعور رائع أن يكون جيبك مليئا بالمسامير،<br>أليس كذلك يا حبيبي؟",
+    "after": "<ts=&quot;0.04;3.889&quot;>شعور رائع أن يكون جيبك مليئا بالمسامير،<br>أليس كذلك يا حبيبي؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13412,
+    "key": "MSZK_CIV_GEN_CANBUY_001",
+    "source_sha256": "4ad87a0968dbd38672a9ab6c2003aec350a0fbefe71ab261d43bf7a9ca99a0d4",
+    "before": "<ts=&quot;0.084;2.402&quot;>يبدو أن لديك ما يكفي لتلك الجميلة!",
+    "after": "<ts=&quot;0.084;2.402&quot;>يبدو أن لديك ما يكفي لتلك الجميلة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13413,
+    "key": "MSZK_CIV_GEN_CANBUY_002",
+    "source_sha256": "879f6fb7cbc03f1b3d6479aa648088e98fad11bf0657a2f632b2a029526e0c9c",
+    "before": "<ts=&quot;0;3.737&quot;>لديك المسامير يا حبيبي! كافئ نفسك!",
+    "after": "<ts=&quot;0;3.737&quot;>لديك المسامير يا حبيبي! كافئ نفسك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13414,
+    "key": "MSZK_CIV_GEN_CANBUY_003",
+    "source_sha256": "775d958daa0e034a285d37014470a1b2a83c711548b3f8f91b09b4a600fe7cdc",
+    "before": "<ts=&quot;0.062;2.604&quot;>هيا. أنت تعرف إنك تريده!",
+    "after": "<ts=&quot;0.062;2.604&quot;>هيا، أنت تعرف أنك تريده!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13415,
+    "key": "MSZK_CIV_GEN_CANBUY_004",
+    "source_sha256": "0ef0e9b823e51a0d4f848c5c3d750fba976799db0bb75d4bc1efca9075eb3fcc",
+    "before": "<ts=&quot;0.04;4.039&quot;>تفضل يا حبيبتي، إنها صفقة رائعة!",
+    "after": "<ts=&quot;0.04;4.039&quot;>إنها صفقة رائعة، يا قمر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13416,
+    "key": "MSZK_CIV_GEN_CANBUY_005",
+    "source_sha256": "016f071465bb58397c413fe5a6b8f787c748b818af21486a61a8d48c4aee5ee1",
+    "before": "<ts=&quot;0.044;4.467&quot;>أوو! تلك السلعة ساخنة جدا الآن!",
+    "after": "<ts=&quot;0.044;4.467&quot;>أوه! هذا السلاح مطلوب جدًّا الآن!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13417,
+    "key": "MSZK_CIV_GEN_CANBUY_006",
+    "source_sha256": "96196263061657f2e8ec5b4aa80b66a88327633b72a3a5fcc3955842c8b4eba8",
+    "before": "<ts=&quot;0.033;2.971&quot;>اشترها ما دمت تستطيع يا خدود الخوخ!",
+    "after": "<ts=&quot;0.033;2.971&quot;>اشترها ما دمت تستطيع يا خدود الخوخ!",
+    "decision": "keep"
+  },
+  {
+    "index": 13418,
+    "key": "MSZK_CIV_GEN_CANTBUYREMIND_001",
+    "source_sha256": "eb27c6f44849fc745b218d18e38dd20197f4c2b0eb4fec1d7d9bf316e055bc7f",
+    "before": "<ts=&quot;0;3.22&quot;>عد حين تملك مسامير تنفقها.",
+    "after": "<ts=&quot;0;3.22&quot;>عد حين تملك مسامير تنفقها.",
+    "decision": "keep"
+  },
+  {
+    "index": 13419,
+    "key": "MSZK_CIV_GEN_CANTBUYREMIND_002",
+    "source_sha256": "2ca8e7fa3eb89c8f79a63954a8d4c4c557a0dfc69360e97d7aa5d8e94e5bc57f",
+    "before": "<ts=&quot;0.02;2.31&quot;>أنت تتصفح فحسب أم ماذا؟",
+    "after": "<ts=&quot;0.02;2.31&quot;>أنت تتصفح فحسب أم ماذا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13420,
+    "key": "MSZK_CIV_GEN_CANTBUYREMIND_003",
+    "source_sha256": "f20604cad107796d0e51ad358ad26825a6a6be526779a1ee7a8ab99764e33441",
+    "before": "<ts=&quot;0;4.1&quot;>تحتاج مسامير إن أردت شراء شيء، يا حلو.",
+    "after": "<ts=&quot;0;4.1&quot;>تحتاج مسامير إن أردت شراء شيء، يا حلو.",
+    "decision": "keep"
+  },
+  {
+    "index": 13421,
+    "key": "MSZK_CIV_GEN_CANTBUYREMIND_004",
+    "source_sha256": "90e14f58f46e31ce4e1ac712ed13720b2b8ebf905a5254e6a777c7df1adb1558",
+    "before": "<ts=&quot;0.009;4.293&quot;>آسفة يا حبيبي، أنا لا آخذ الآجال.",
+    "after": "<ts=&quot;0.009;4.293&quot;>آسفة، يا قمر، لا أبيع بالدين.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13422,
+    "key": "MSZK_CIV_GEN_CANTUPGRADE_001",
+    "source_sha256": "024d173f2bf2071ceed7aed2ccd59a3f1ae229b6e77837cdf39c80ea18ef4db7",
+    "before": "<ts=&quot;0;4.409&quot;>ارق هذه الفتاة القوية للحصول على مزيد من<br>التطويرات!",
+    "after": "<ts=&quot;0;4.409&quot;>رفع مستوى هذا السلاح يتيح المزيد من<br>التطويرات!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13423,
+    "key": "MSZK_CIV_GEN_CANTUPGRADE_002",
+    "source_sha256": "393861ca0d286b26a52366fc9268253c40c14c5e92bcbfae3d95981a4a462e44",
+    "before": "<ts=&quot;0;3.923&quot;>عليك أن تدمر المزيد من الأشرار قبل تطوير<br>تلك!",
+    "after": "<ts=&quot;0;3.923&quot;>عليك أن تدمر المزيد من الأشرار قبل تطوير<br>تلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13424,
+    "key": "MSZK_CIV_GEN_CANTUPGRADE_003",
+    "source_sha256": "ae5093ed58df996b8dcca3e1a7697dfff4f0d9e8e2daae9ba091413dcddb32a7",
+    "before": "<ts=&quot;0.069;1.819&quot;>آسفة، لا توجد خلايا مفتوحة هنا.",
+    "after": "<ts=&quot;0.069;1.819&quot;>آسفة، لا توجد خلايا مفتوحة هنا.",
+    "decision": "keep"
+  },
+  {
+    "index": 13425,
+    "key": "MSZK_CIV_GEN_CANTUPGRADE_004",
+    "source_sha256": "cd6b1a05596eecc45ea3cfb6953b304283d68e6186a30fb92b5ac8398f5ab165",
+    "before": "<ts=&quot;0.06;4.013&quot;>عد للتطويرات عندما ترفع مستواها!",
+    "after": "<ts=&quot;0.06;4.013&quot;>عد للتطويرات عندما ترفع مستواها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13426,
+    "key": "MSZK_CIV_GEN_CANUPGRADE_001",
+    "source_sha256": "45ebc33251b0720a5cf86ef070ae8d4c0a5a89ec0834ed60dff29119ac365eb2",
+    "before": "<ts=&quot;0.03;2.83&quot;>تلك تطلب تطوير بشدة!",
+    "after": "<ts=&quot;0.03;2.83&quot;>هذا السلاح يتوق إلى تطوير!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13427,
+    "key": "MSZK_CIV_GEN_CANUPGRADE_002",
+    "source_sha256": "8bb326bd660962fac53eb42c78937bb7fcce086787df54551909efb34ae3a8fa",
+    "before": "<ts=&quot;0.063;2.566&quot;>تفضل، رقها!",
+    "after": "<ts=&quot;0.063;2.566&quot;>هيا، حان وقت تطويره!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13428,
+    "key": "MSZK_CIV_GEN_CANUPGRADE_003",
+    "source_sha256": "4be64a6918c5809a3cd2ac1087079463efa59ddbdc03f21740026e0a98b46c4d",
+    "before": "<ts=&quot;0;4.2&quot;>يبدو أن لديك خلايا مفتوحة وراريتانيوم<br>يكفي!",
+    "after": "<ts=&quot;0;4.2&quot;>يبدو أن لديك خلايا مفتوحة وراريتانيوم<br>يكفي!",
+    "decision": "keep"
+  },
+  {
+    "index": 13429,
+    "key": "MSZK_CIV_GEN_CANUPGRADE_004",
+    "source_sha256": "065820261027431b064e3a1751a79216ab4cb6d2bf36f2f6aa8195f0768ff561",
+    "before": "<ts=&quot;0.065;3.393&quot;>المزيد من القوة دائما شيء جيد!",
+    "after": "<ts=&quot;0.065;3.393&quot;>المزيد من القوة دائما شيء جيد!",
+    "decision": "keep"
+  },
+  {
+    "index": 13430,
+    "key": "MSZK_CIV_GEN_CANUPGRADE_005",
+    "source_sha256": "9f8890d9ae65def44882e0bf3cd6bccd735233d10c3f4591f159125c534d54cd",
+    "before": "<ts=&quot;0.088;2.95&quot;>تحسينات في الطريق!",
+    "after": "<ts=&quot;0.088;2.95&quot;>تحسينات في الطريق!",
+    "decision": "keep"
+  },
+  {
+    "index": 13431,
+    "key": "MSZK_CIV_GEN_CANUPGRADE_006",
+    "source_sha256": "ef97aec5b5fe190792fcb84b1ca15a50b86362d44fa0f50a883934ecb8b0dc88",
+    "before": "<ts=&quot;0.073;2.085&quot;>قو ذلك الولد الشرس!",
+    "after": "<ts=&quot;0.073;2.085&quot;>حان وقت تعزيز هذا السلاح الشرس!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13432,
+    "key": "MSZK_CIV_GEN_CANUPGRADE_007",
+    "source_sha256": "2891f5e47a8699fa648491c044fec156c9f03f3a14b2a453b194eac8942d3c82",
+    "before": "<ts=&quot;0.075;3.547&quot;>كافئ نفسك بتطوير! لقد استحققتها!",
+    "after": "<ts=&quot;0.075;3.547&quot;>كافئ نفسك بتطوير! لقد استحققتها!",
+    "decision": "keep"
+  },
+  {
+    "index": 13433,
+    "key": "MSZK_CIV_GEN_CANUPGRADE_008",
+    "source_sha256": "22304403687ca4cc7ee1ab9acb1e4168cd6eaa08df63dec909373a31d1b9e56a",
+    "before": "<ts=&quot;0.074;2.86&quot;>التطويرات جاهزة! وأنت؟",
+    "after": "<ts=&quot;0.074;2.86&quot;>التطويرات جاهزة! وأنت؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13434,
+    "key": "MSZK_CIV_GEN_CARPETAVAIL_001",
+    "source_sha256": "1397b4efa8e030274ef13bcae8966327596fff8f208667f1854ff32df7200502",
+    "before": "<ts=&quot;0;3.102&quot;>أبهر الجميع بدخولك مع قاذف القنابل؛<ts=&quot;3.146;6.555&quot;>ومتعة الانفجارات مضمونة!",
+    "after": "<ts=&quot;0;3.102&quot;>أبهر الجميع بدخولك مع قاذف القنابل؛<ts=&quot;3.146;6.555&quot;>ومتعة الانفجارات مضمونة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13435,
+    "key": "MSZK_CIV_GEN_CARPETSOON_001",
+    "source_sha256": "7cb057f7413da130a7edcb3b9f5141c3e7397f519df50e3d6b2c4413cf5167e5",
+    "before": "<ts=&quot;0;3.95&quot;>اختيار متفجر. سيعود إلى المخزون قريبا!",
+    "after": "<ts=&quot;0;3.95&quot;>اختيار متفجر. سيعود إلى المخزون قريبا!",
+    "decision": "keep"
+  },
+  {
+    "index": 13436,
+    "key": "MSZK_CIV_GEN_CARPETUP_001",
+    "source_sha256": "336878f4f31ca50a3b327679256236429abfadbc22a2dc8f3c43aa9752414d80",
+    "before": "<ts=&quot;0.04;3.265&quot;>يا لها من متعة قصف حقيقية!",
+    "after": "<ts=&quot;0.04;3.265&quot;>يا لها من متعة قصف حقيقية!",
+    "decision": "keep"
+  },
+  {
+    "index": 13437,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_001",
+    "source_sha256": "4e8e4a60646712f77f42b870947546c72c0edd02407e444be2e3cbb71d867d40",
+    "before": "<ts=&quot;0.075;3.902&quot;>يا نجومي! تلك تطوير رائعة!",
+    "after": "<ts=&quot;0.075;3.902&quot;>يا نجومي! هذا تطوير ممتاز!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13438,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_002",
+    "source_sha256": "1681c1f823a71dd92235a02726e19cf6c5a959dd66e51e9cea29ffd4f0637351",
+    "before": "<ts=&quot;0.078;2.207&quot;>تعديل لطيف، صحيح؟",
+    "after": "<ts=&quot;0.078;2.207&quot;>تعديل لطيف، صحيح؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13439,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_003",
+    "source_sha256": "ea2371868a31331433a0ef6ff60ac3adffc8675c1d472ba15c871bd364cf6e8d",
+    "before": "<ts=&quot;0.085;3.159&quot;>ستحب تلك التطوير!",
+    "after": "<ts=&quot;0.085;3.159&quot;>سيعجبك هذا التطوير!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13440,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_004",
+    "source_sha256": "bfdd68e9e666a33c66596063a4eae1bedeaa1b3b7336585b479f64c420ced679",
+    "before": "<ts=&quot;0.063;1.601&quot;>افعلها يا حبيبي!",
+    "after": "<ts=&quot;0.063;1.601&quot;>افعلها يا حبيبي!",
+    "decision": "keep"
+  },
+  {
+    "index": 13441,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_005",
+    "source_sha256": "399216e21a6686fbb92f14534f542a1f6d5d8daa393fdf5d111bb22b97a81883",
+    "before": "<ts=&quot;0.065;3.096&quot;>لا تستهين بتلك، يا حبيبي!",
+    "after": "<ts=&quot;0.065;3.096&quot;>لا تدع هذا التطوير يفوتك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13442,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_006",
+    "source_sha256": "24faad54507cd0210a47152aa2f1ba230218a773f4ee9c7af2854f88e9c51c6c",
+    "before": "<ts=&quot;0.049;3.556&quot;>تلك تحسينات رائعة حقا!",
+    "after": "<ts=&quot;0.049;3.556&quot;>هذا تحسين رائع حقًّا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13443,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_007",
+    "source_sha256": "29b490b361658f28e6400f5bb458355c5e0f3a2eec3c59eeab1a5d4249940cb8",
+    "before": "<ts=&quot;0.08;2.6&quot;>لا وقت أفضل من الآن!",
+    "after": "<ts=&quot;0.08;2.6&quot;>لا وقت أفضل من الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 13444,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_008",
+    "source_sha256": "2545d35c88f10d7a3f56709c5e05a3c0b8328b65a372833000389d53ba00bdd3",
+    "before": "<ts=&quot;0.098;2.066&quot;>تك توك. حان وقت بدء سلسلة تطويرات!",
+    "after": "<ts=&quot;0.098;2.066&quot;>تك توك. حان وقت بدء سلسلة تطويرات!",
+    "decision": "keep"
+  },
+  {
+    "index": 13445,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_009",
+    "source_sha256": "c2816f37dc029400cc21cafc55fa50a958480ae32588fa2f685da326d32ba0c9",
+    "before": "<ts=&quot;0.04;0.74&quot;>دعني أقول<ts=&quot;1.42;2.939&quot;>إنها نقطة بداية رائعة!",
+    "after": "<ts=&quot;0.04;0.74&quot;>هذه...<ts=&quot;1.42;2.939&quot;>نقطة بداية رائعة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13446,
+    "key": "MSZK_CIV_GEN_CELLAVAIL_010",
+    "source_sha256": "0ce82ef811391bb780ebe4df293771e4f4e6734872031a977ee0c2970fa86225",
+    "before": "<ts=&quot;0.07;2.629&quot;>تلك من التطويرات الشائعة!",
+    "after": "<ts=&quot;0.07;2.629&quot;>تلك من التطويرات الشائعة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13447,
+    "key": "MSZK_CIV_GEN_CELLOWNED_001",
+    "source_sha256": "e82ebf595c14a679b0edaafbc9e7c7fe1d62065ee737438027aa7c525746b154",
+    "before": "<ts=&quot;0.072;3.772&quot;>الله في قلبك. أنت تملك تلك بالفعل.",
+    "after": "<ts=&quot;0.072;3.772&quot;>يا طيب القلب، هذا موجود لديك بالفعل.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13448,
+    "key": "MSZK_CIV_GEN_CELLOWNED_002",
+    "source_sha256": "01c81148448f6af56e8561c210f196ff43491ce2091fdcb958ed6d1743604763",
+    "before": "<ts=&quot;0.016;3.261&quot;>أنت... أنت اشتريت تلك بالفعل!",
+    "after": "<ts=&quot;0.016;3.261&quot;>أنت... أنت اشتريت تلك بالفعل!",
+    "decision": "keep"
+  },
+  {
+    "index": 13449,
+    "key": "MSZK_CIV_GEN_CELLOWNED_003",
+    "source_sha256": "1090fc4988634735fc3813d3d02d4031914ac07bcd552aa808b2578f8566565c",
+    "before": "<ts=&quot;0.11;1.9&quot;>لا داعي لشرائها مرة أخرى.",
+    "after": "<ts=&quot;0.11;1.9&quot;>لا داعي لشرائها مرة أخرى.",
+    "decision": "keep"
+  },
+  {
+    "index": 13450,
+    "key": "MSZK_CIV_GEN_CELLOWNED_004",
+    "source_sha256": "4b9d98b3c3cbdc5df6c57007d11f98b8808ba20ae18926bd9475021691fab837",
+    "before": "<ts=&quot;0.051;3.221&quot;>لقد أجريت تلك التطوير بالفعل أيها الغبي!",
+    "after": "<ts=&quot;0.051;3.221&quot;>لقد أجريت هذا التطوير بالفعل، يا مشاغب!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13451,
+    "key": "MSZK_CIV_GEN_CLOSING_001",
+    "source_sha256": "466e683076b48a03df8d5dd39b10eeaf986718edb08648e975cdafe8db7fd15f",
+    "before": "<ts=&quot;0.067;3.381&quot;>آسفة يا حبيبي، لكن هذا سيئ للأعمال!",
+    "after": "<ts=&quot;0.067;3.381&quot;>آسفة يا حبيبي، لكن هذا سيئ للأعمال!",
+    "decision": "keep"
+  },
+  {
+    "index": 13452,
+    "key": "MSZK_CIV_GEN_CLOSING_002",
+    "source_sha256": "51f4f52fcef260e83330aff44ed2ccf54f5a8d6d499a672596196d553a35483e",
+    "before": "<ts=&quot;0.062;2.436&quot;>يا إلهي! عد قريبا!",
+    "after": "<ts=&quot;0.062;2.436&quot;>يا إلهي! سأعود قريبًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13453,
+    "key": "MSZK_CIV_GEN_CLOSING_003",
+    "source_sha256": "bc0ad12a6e1e4c6424492435011d91e8e4e5b03c036379bb3e1943df06b7583d",
+    "before": "<ts=&quot;0.03;1.08&quot;>علينا أن نغلق!",
+    "after": "<ts=&quot;0.03;1.08&quot;>علينا أن نغلق!",
+    "decision": "keep"
+  },
+  {
+    "index": 13454,
+    "key": "MSZK_CIV_GEN_CLOSING_004",
+    "source_sha256": "3f7249dee718e9822dd20f1b497c92cb12a996d4121c8b3ed6a72da3ba907c05",
+    "before": "<ts=&quot;0.051;2.974&quot;>حسنا، يبدو أن وقت الإغلاق حان!",
+    "after": "<ts=&quot;0.051;2.974&quot;>حسنا، يبدو أن وقت الإغلاق حان!",
+    "decision": "keep"
+  },
+  {
+    "index": 13455,
+    "key": "MSZK_CIV_GEN_CLOSING_005",
+    "source_sha256": "fc607aec5f4d1cd828bf65b508beccde6568336c501864a322faca378ca4c3df",
+    "before": "<ts=&quot;0.03;2.48&quot;>هذا دوري، عد قريبا!",
+    "after": "<ts=&quot;0.03;2.48&quot;>هذه إشارة رحيلي! سأعود قريبًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13456,
+    "key": "MSZK_CIV_GEN_CLOSING_006",
+    "source_sha256": "8785d61f7a43923fc753f65a97a1734a02a9bfed066448ba5f0224f676f41d89",
+    "before": "<ts=&quot;0.09;2.89&quot;>لا أستطيع التسويق لبضائعي في هذه الظروف!",
+    "after": "<ts=&quot;0.09;2.89&quot;>لا أستطيع التسويق لبضائعي في هذه الظروف!",
+    "decision": "keep"
+  },
+  {
+    "index": 13457,
+    "key": "MSZK_CIV_GEN_CLOSING_007",
+    "source_sha256": "1ab38bf6269253eaf1e3844218c37ae49e4c17a5204f815bfb102b4684f43c78",
+    "before": "<ts=&quot;0.046;2.942&quot;>يا إلهي! أنا كبير جدا على هذا!",
+    "after": "<ts=&quot;0.046;2.942&quot;>أوه! أنا أكبر سنًّا من أن أتحمل هذا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13458,
+    "key": "MSZK_CIV_GEN_CLOSING_008",
+    "source_sha256": "2e2aaee54686d33012cef58a31a6846e5c62e5981373ee68376d38c3de2142fe",
+    "before": "<ts=&quot;0.059;2.231&quot;>عدوا حين يتوقف إطلاق النار!",
+    "after": "<ts=&quot;0.059;2.231&quot;>عدوا حين يتوقف إطلاق النار!",
+    "decision": "keep"
+  },
+  {
+    "index": 13459,
+    "key": "MSZK_CIV_GEN_DOOMAVAIL_001",
+    "source_sha256": "3f5f8657f2fe76f9b77606a74a16537dc9807a7d419b279eff89e00bc0e60a11",
+    "before": "<ts=&quot;0.028;5.806&quot;>قفاز الهلاك متوفر الآن! هل أحتاج أن أقول<br>المزيد؟",
+    "after": "<ts=&quot;0.028;5.806&quot;>قفاز الهلاك متوفر الآن! هل أحتاج أن أقول<br>المزيد؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13460,
+    "key": "MSZK_CIV_GEN_DOOMSOON_001",
+    "source_sha256": "5352bfed9bba7437a562aba395800c64d5da7118b37c1bef3684c41dcd7aa099",
+    "before": "<ts=&quot;0;1.05&quot;>قفاز الهلاك.<ts=&quot;1.5;4.3&quot;>سيعود إلى قائمتنا قريبا يا حبيبي!",
+    "after": "<ts=&quot;0;1.05&quot;>قفاز الهلاك.<ts=&quot;1.5;4.3&quot;>سيعود إلى قائمتنا قريبا يا حبيبي!",
+    "decision": "keep"
+  },
+  {
+    "index": 13461,
+    "key": "MSZK_CIV_GEN_DOOMUP_001",
+    "source_sha256": "1c02272a6987ed2675b59bf0a39fd25d45dd5445e969dfeec301d50dfce5f878",
+    "before": "<ts=&quot;0;4.592&quot;>لا يمكنك الحصول على ما يكفي من الهلاك مهما<br>قلت!",
+    "after": "<ts=&quot;0;4.592&quot;>في رأيي، مهما زاد الهلاك، فلن يكفي أبدًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13462,
+    "key": "MSZK_CIV_GEN_ENFORCAVAIL_001",
+    "source_sha256": "f722ccf22a2b716c6492a5a45febd555e7ab3d95389cfd2797351305e13eae83",
+    "before": "<ts=&quot;0;1.41&quot;>تحتاج شيئا فيه ركلة قوية؟<ts=&quot;3.099;4.849&quot;>تفضل على الإنفورسرات الجديدة!",
+    "after": "<ts=&quot;0;1.41&quot;>ما رأيك في سلاح بقوة ارتداد هائلة؟<ts=&quot;3.099;4.849&quot;>إليك أسلحة إنفورسر الجديدة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13463,
+    "key": "MSZK_CIV_GEN_ENFORSOON_001",
+    "source_sha256": "72a57e7e7a258a46d484639ce03aca200b1cf477683f95c6aa991ee80cdc5e1b",
+    "before": "<ts=&quot;0;3.01&quot;>الإنفورسرات تصل في أي يوم الآن يا حبيبتي!",
+    "after": "<ts=&quot;0;3.01&quot;>ستصل أسلحة إنفورسر قريبًا جدًّا، يا قمر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13464,
+    "key": "MSZK_CIV_GEN_ENFORUP_001",
+    "source_sha256": "5c6ca2a290e39dc749295fbcdefb8881ca5b13f43fbdd58788c23284abc5136f",
+    "before": "<ts=&quot;0;3.844&quot;>الآن هذا إنفاذ من مستوى آخر!",
+    "after": "<ts=&quot;0;3.844&quot;>الآن هذا إنفاذ من مستوى آخر!",
+    "decision": "keep"
+  },
+  {
+    "index": 13465,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_001",
+    "source_sha256": "335e0db3685c95f7b1e1d8811cc8803fe85e23489c1cf883102421ba75ebb5fd",
+    "before": "<ts=&quot;0.039;2.154&quot;>،أهلا يا حبيبي<ts=&quot;2.199;5.849&quot;>يبدو أن مساميرك تحرق جيبك.",
+    "after": "<ts=&quot;0.039;2.154&quot;>أهلًا، يا قمر،<ts=&quot;2.199;5.849&quot;>يبدو أن مساميرك تتحرق للخروج من جيبك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13466,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_002",
+    "source_sha256": "934c196901d77371448e490a6d7ed0379f24d91fe1eee2fd4a50ee8438be0b60",
+    "before": "<ts=&quot;0.02;2.25&quot;>لديك المسامير، ولدي الأسلحة.",
+    "after": "<ts=&quot;0.02;2.25&quot;>لديك المسامير، ولدي الأسلحة.",
+    "decision": "keep"
+  },
+  {
+    "index": 13467,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_003",
+    "source_sha256": "ad87885251b96f4c59b1dea41c4f79bda6142b7e2659ff1b37b1f45a784d914c",
+    "before": "<ts=&quot;0.03;3.479&quot;>تبحث عن مكان لتنفق فيه مساميرك الجميلة؟",
+    "after": "<ts=&quot;0.03;3.479&quot;>تبحث عن مكان لتنفق فيه مساميرك الجميلة؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13468,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_004",
+    "source_sha256": "1489b9c9a8dad1e4694d07c73a643dda6f1cace46f324c048acd34c6509f212a",
+    "before": "<ts=&quot;0.067;1.215&quot;>هذا صحيح.<ts=&quot;1.279;4.638&quot;>لدي أفضل الأسلحة في هذه الجوانب من المجرة.<ts=&quot;4.747;6.473&quot;>تفضل بزيارتنا!",
+    "after": "<ts=&quot;0.067;1.215&quot;>هذا صحيح.<ts=&quot;1.279;4.638&quot;>لدي أفضل الأسلحة في هذا الجانب من المجرة.<ts=&quot;4.747;6.473&quot;>تفضل بزيارتنا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13469,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_005",
+    "source_sha256": "e93bf85d2525573878e189701598ef4b72060784d121a90f98d098264c177a6d",
+    "before": "<ts=&quot;2.19;4.426&quot;>أوه وي! لدي السلاح المثالي لك.",
+    "after": "<ts=&quot;2.19;4.426&quot;>أوه وي! لدي السلاح المثالي لك.",
+    "decision": "keep"
+  },
+  {
+    "index": 13470,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_006",
+    "source_sha256": "602a9f2631c6e8fd70feced74e0aafb22e2c0658b4dfd97f3bea2518da15637d",
+    "before": "<ts=&quot;0;0.799&quot;>من هذا الاتجاه يا حبيبي.<ts=&quot;3.36;4.766&quot;>إلى سلاحك المفضل الجديد!",
+    "after": "<ts=&quot;0;0.799&quot;>من هنا،<ts=&quot;3.36;4.766&quot;>إلى سلاحك المفضل الجديد، يا قمر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13471,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_007",
+    "source_sha256": "ca81a5f276439585a9d9e838aad9af1b88b508573c7cbe8420c5c085be57a232",
+    "before": "<ts=&quot;0.07;4.146&quot;>تعال لتحصل على أسلحتك في متجر السيدة<br>زوركون!",
+    "after": "<ts=&quot;0.07;4.146&quot;>تعال لتحصل على أسلحتك في متجر السيدة<br>زوركون!",
+    "decision": "keep"
+  },
+  {
+    "index": 13472,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_008",
+    "source_sha256": "5dc6a1b4326ab9a96f54c72d8d843229c304d879e196f1cae6174e85d2f30c2c",
+    "before": "<ts=&quot;0.07;4.815&quot;>،لا تبحث عن شيء أبعد فمتجر السيدة زوركون<br>فيه كل ما تحتاج.",
+    "after": "<ts=&quot;0.07;4.815&quot;>انتهى البحث؛ لدى السيدة زوركون كل ما تحتاج<br>إليه.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13473,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_009",
+    "source_sha256": "47e089c777cdbf7125db67e8a7aebb88841fc37046115dbf62846a61de2c1ec8",
+    "before": "<ts=&quot;0.04;4.24&quot;>انظر إليك، بلا أي سلاح!<ts=&quot;4.96;7.75&quot;>دع السيدة زوركون تعالج ذلك.",
+    "after": "<ts=&quot;0.04;4.24&quot;>يا للعجب، تجهيزاتك لا تكفي إطلاقًا!<ts=&quot;4.96;7.75&quot;>هيا، دع السيدة زوركون تعالج ذلك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13474,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_010",
+    "source_sha256": "fc8e122925828d588d850621bbcfe8cf0349d24e8e08b8142d8787e2ab8d6ef1",
+    "before": "<ts=&quot;0.062;2.372&quot;>مرحبا! تحتاج سلاحا؟<ts=&quot;2.557;5.443&quot;>متجر السيدة زوركون لديه ما تحتاجه تماما!",
+    "after": "<ts=&quot;0.062;2.372&quot;>مرحبا! تحتاج سلاحا؟<ts=&quot;2.557;5.443&quot;>متجر السيدة زوركون لديه ما تحتاجه تماما!",
+    "decision": "keep"
+  },
+  {
+    "index": 13475,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_011",
+    "source_sha256": "b1902f56448861b2dc7bb237622127adccf83aed521ce20905889668d441fcca",
+    "before": "<ts=&quot;0.041;3.285&quot;>يبدو أن لديك مالا لتنفقه!<ts=&quot;3.349;5.866&quot;>تفضل بزيارتنا أيها المقامر.",
+    "after": "<ts=&quot;0.041;3.285&quot;>يبدو أن لديك مالًا لتنفقه!<ts=&quot;3.349;5.866&quot;>تفضل بزيارتنا، يا صاحب الإنفاق السخي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13476,
+    "key": "MSZK_CIV_GEN_ENOUGHBOLTS_012",
+    "source_sha256": "502f58534539302057e885f202cd48be16eed5f41e5a3af54f1b15f8801f0107",
+    "before": "<ts=&quot;0;1.189&quot;>حزام أدواتك خفيف؟<ts=&quot;1.88;3.28&quot;>اتبع هذا الاتجاه!",
+    "after": "<ts=&quot;0;1.189&quot;>حزام أدواتك خفيف؟<ts=&quot;1.88;3.28&quot;>اتبع هذا الاتجاه!",
+    "decision": "keep"
+  },
+  {
+    "index": 13477,
+    "key": "MSZK_CIV_GEN_ENOUGHRARE_001",
+    "source_sha256": "dc668961faa2284cc996981aa121d6d69da85ed3fbcac5a4c82bc1e412cc7021",
+    "before": "<ts=&quot;0;3.5&quot;>أهلا يا حبيبي! يبدو إنك تحتاج تطوير سلاح!",
+    "after": "<ts=&quot;0;3.5&quot;>أهلًا، يا قمر! يبدو أنك بحاجة إلى تطوير<br>سلاحك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13478,
+    "key": "MSZK_CIV_GEN_ENOUGHRARE_002",
+    "source_sha256": "b6928a7c83bc14c1c4c82bc92877fd9750e7f626d08b29573d3aafff78a27446",
+    "before": "<ts=&quot;0.045;3.506&quot;>تفضل بزيارتنا وأنفق راريتانيومك!",
+    "after": "<ts=&quot;0.045;3.506&quot;>تفضل بزيارتنا وأنفق راريتانيومك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13479,
+    "key": "MSZK_CIV_GEN_ENOUGHRARE_003",
+    "source_sha256": "f9240e546a94af51036a1104131be8dddef8ea5c4676cbd94f8576b4c6a560fc",
+    "before": "<ts=&quot;0.03;2.13&quot;>لديك راريتانيوم، ولدينا تطويرات!",
+    "after": "<ts=&quot;0.03;2.13&quot;>لديك راريتانيوم، ولدينا تطويرات!",
+    "decision": "keep"
+  },
+  {
+    "index": 13480,
+    "key": "MSZK_CIV_GEN_ENOUGHRARE_004",
+    "source_sha256": "902e19d8f8d5c9e73946798e3661b36503e95cfa328f58ce4a3aef1aa7b8ae22",
+    "before": "<ts=&quot;0.5;1.2&quot;>أوه!<ts=&quot;1.44;4.94&quot;>أرى أن لديك راريتانيوم لتنفقه. زرنا!",
+    "after": "<ts=&quot;0.5;1.2&quot;>أوه!<ts=&quot;1.44;4.94&quot;>أرى أن لديك راريتانيوم لتنفقه. زرنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 13481,
+    "key": "MSZK_CIV_GEN_ENOUGHRARE_005",
+    "source_sha256": "6f66d7450321010c3ce1a6a147e1fc2ade9651b2813425980cd8cd4b2daade6b",
+    "before": "<ts=&quot;0.049;2.149&quot;>هل تبحث عن تطوير سلاح؟",
+    "after": "<ts=&quot;0.049;2.149&quot;>هل تبحث عن تطوير سلاح؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13482,
+    "key": "MSZK_CIV_GEN_ENOUGHRARE_006",
+    "source_sha256": "9b2e36784a30cda3190a930c0309ad429e3e8a4c633a0876614ff46a14edb9c7",
+    "before": "<ts=&quot;0.139;0.92&quot;>تفضل بزيارتنا<ts=&quot;2.65;3.573&quot;>ورق تلك الأسلحة يا حبيبي!",
+    "after": "<ts=&quot;0.139;0.92&quot;>هيا، للمرور بمتجرنا،<ts=&quot;2.65;3.573&quot;>وتطوير تلك الأسلحة، يا قمر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13483,
+    "key": "MSZK_CIV_GEN_EXITSTORE_001",
+    "source_sha256": "645cda7c74df668afa4baefa6773e7266c3dadc0cd9f37ac0d6ae8e775a07101",
+    "before": "<ts=&quot;0.066;1.396&quot;>مع السلامة!",
+    "after": "<ts=&quot;0.066;1.396&quot;>مع السلامة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13484,
+    "key": "MSZK_CIV_GEN_EXITSTORE_002",
+    "source_sha256": "2a4192d4585510776bccd1438c9916e348e845301e1b67ea5deb2b46e0495119",
+    "before": "<ts=&quot;0.06;2.587&quot;>شكرا لتسوقك يا حلو!",
+    "after": "<ts=&quot;0.06;2.587&quot;>شكرا لتسوقك يا حلو!",
+    "decision": "keep"
+  },
+  {
+    "index": 13485,
+    "key": "MSZK_CIV_GEN_EXITSTORE_003",
+    "source_sha256": "e4c2b461b1423c496e93cdc6cbbc953b39bc6a0b8f5789257fbe3ede14d32545",
+    "before": "<ts=&quot;0.065;2.909&quot;>عدوا جميعا قريبا حقا!",
+    "after": "<ts=&quot;0.065;2.909&quot;>عدوا جميعا قريبا حقا!",
+    "decision": "keep"
+  },
+  {
+    "index": 13486,
+    "key": "MSZK_CIV_GEN_EXITSTORE_004",
+    "source_sha256": "5e5a652de4a52483aaf4446d24392702301573297d285fc63c120a5239aeb79b",
+    "before": "<ts=&quot;0.06;2.313&quot;>سعيدة بمساعدتك يا حبيبي.",
+    "after": "<ts=&quot;0.06;2.313&quot;>سعيدة بمساعدتك يا حبيبي.",
+    "decision": "keep"
+  },
+  {
+    "index": 13487,
+    "key": "MSZK_CIV_GEN_EXITSTORE_005",
+    "source_sha256": "2ecdb9c4afaac1c686c9b82e217c24f74aba6eb3cc4d534ddf2d313ba99b58fd",
+    "before": "<ts=&quot;0.021;2.635&quot;>لا تنس أن تخبر أصدقاءك!",
+    "after": "<ts=&quot;0.021;2.635&quot;>لا تنس أن تخبر أصدقاءك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13488,
+    "key": "MSZK_CIV_GEN_EXITSTORE_006",
+    "source_sha256": "3433a33269dcfa714ad389b5dcad8d232449864973f7fa185ac77411424aaca1",
+    "before": "<ts=&quot;0.06;1.46&quot;>إلى اللقاء في المرة القادمة!",
+    "after": "<ts=&quot;0.06;1.46&quot;>إلى اللقاء في المرة القادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13489,
+    "key": "MSZK_CIV_GEN_EXITSTORE_007",
+    "source_sha256": "913fb8f8f17d209c72b51b27b0f8cac2da32d0f603b70e82e9222efec5c19b5e",
+    "before": "<ts=&quot;0.069;1.537&quot;>تغادر قريبا هكذا؟",
+    "after": "<ts=&quot;0.069;1.537&quot;>أبهذه السرعة؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13490,
+    "key": "MSZK_CIV_GEN_EXITSTORE_008",
+    "source_sha256": "909b04684d6c6e98e4716a8797cf4dd049ccb097ec983abcb845158982610687",
+    "before": "<ts=&quot;0.029;3.165&quot;>سأشتاق إليك أيتها الحلوة!",
+    "after": "<ts=&quot;0.029;3.165&quot;>سأشتاق إليك، يا قمر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13491,
+    "key": "MSZK_CIV_GEN_EXITSTORE_009",
+    "source_sha256": "79f8ac8cbad7d2bc0970ae2664dc300596875431f8eea5eee5ca98b519e0411b",
+    "before": "<ts=&quot;0.03;2&quot;>سعيدة بخدمتك.",
+    "after": "<ts=&quot;0.03;2&quot;>سعيدة بخدمتك.",
+    "decision": "keep"
+  },
+  {
+    "index": 13492,
+    "key": "MSZK_CIV_GEN_EXITSTORE_010",
+    "source_sha256": "b95983a70984dbb9a9977fdecaafa0641e2e09f1a63ec1eda00c5eab787dde8b",
+    "before": "<ts=&quot;0.279;2.869&quot;>أكره حقا أن أراك تغادر يا حبيبي.",
+    "after": "<ts=&quot;0.279;2.869&quot;>أكره حقا أن أراك تغادر يا حبيبي.",
+    "decision": "keep"
+  },
+  {
+    "index": 13493,
+    "key": "MSZK_CIV_GEN_FUNGAVAIL_001",
+    "source_sha256": "229466ac782b138e905d143c949174f0622577af59c15ce49fdb63e00cc6aee1",
+    "before": "<ts=&quot;0.048;5.652&quot;>تريد أن تجعل الحفلة في كل معركة؟ السيد<br>فنغاي هو سلاحك!",
+    "after": "<ts=&quot;0.048;5.652&quot;>تريد أن تجعل الحفلة في كل معركة؟ السيد<br>فنغاي هو سلاحك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13494,
+    "key": "MSZK_CIV_GEN_FUNGSOON_001",
+    "source_sha256": "e6da1c52d3ed4e54a7a0c49024f0fcc23e660cb9dd6b799c2b22ffc1771085e4",
+    "before": "<ts=&quot;0.04;3.89&quot;>أعتقد إنك لا تطيق الانتظار للحفل مع السيد<br>فنغاي!",
+    "after": "<ts=&quot;0.04;3.89&quot;>أراهن أنك تتوق إلى الاحتفال مع السيد<br>فنغاي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13495,
+    "key": "MSZK_CIV_GEN_FUNGUP_001",
+    "source_sha256": "4391fe0106d6f9dad7720f5b56651791b629135700aad6cc862387e1a4cfa072",
+    "before": "<ts=&quot;3.929;4.417&quot;>لا شيء ممتع أكثر من ذلك حقا!",
+    "after": "<ts=&quot;3.929;4.417&quot;>لا شيء ممتع أكثر من ذلك حقا!",
+    "decision": "keep"
+  },
+  {
+    "index": 13496,
+    "key": "MSZK_CIV_GEN_GETRARE_001",
+    "source_sha256": "4fc512383446af45c6dec6bd64cffe888983ecfdc3792d25bf37381ddfebb2f9",
+    "before": "<ts=&quot;0.26;3.41&quot;>اذهب واحصل على مزيد من الراريتانيوم ثم عد!",
+    "after": "<ts=&quot;0.26;3.41&quot;>اذهب واحصل على مزيد من الراريتانيوم ثم عد!",
+    "decision": "keep"
+  },
+  {
+    "index": 13497,
+    "key": "MSZK_CIV_GEN_GETRARE_002",
+    "source_sha256": "751b58c4b957bd93c2d03f5c8881538bbf6d8c5436534f30ac21cd37d9f3e572",
+    "before": "<ts=&quot;0;3.15&quot;>لا يمكنك التطوير بدون ذلك الراريتانيوم<br>الحلو يا حبيبي.",
+    "after": "<ts=&quot;0;3.15&quot;>لا يمكنك التطوير بدون ذلك الراريتانيوم<br>الحلو يا حبيبي.",
+    "decision": "keep"
+  },
+  {
+    "index": 13498,
+    "key": "MSZK_CIV_GEN_GETRARE_003",
+    "source_sha256": "6758ec9bf0b9fe836f35a87a1bcbff52f9583226328562dd2e3195c15a07d598",
+    "before": "<ts=&quot;0.06;4.5&quot;>آسفة يا حبيبي. لا راريتانيوم، لا تطويرات.",
+    "after": "<ts=&quot;0.06;4.5&quot;>آسفة يا حبيبي. لا راريتانيوم، لا تطويرات.",
+    "decision": "keep"
+  },
+  {
+    "index": 13499,
+    "key": "MSZK_CIV_GEN_GETRARE_004",
+    "source_sha256": "3493615ccffe60b0d17b9c25e9560a158212509a96c50719dd50ceccffbcbd18",
+    "before": "<ts=&quot;0.16;4.01&quot;>يبدو إنك تحتاج بعض الراريتانيوم. حظا موفقا<br>في ذلك يا حبيبي.",
+    "after": "<ts=&quot;0.16;4.01&quot;>يبدو أنك تحتاج إلى بعض الراريتانيوم. حظًّا<br>موفقًا في جمعه، يا قمر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13500,
+    "key": "MSZK_CIV_GEN_GREETING_001",
+    "source_sha256": "11f382f56c978b17afd264063defc583416177a530f4f0fb935d8c8f4c9cc37b",
+    "before": "<ts=&quot;0.389;3&quot;>يا لها، هذا زبوني المفضل!",
+    "after": "<ts=&quot;0.389;3&quot;>أهلًا بأعز زبائني!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13501,
+    "key": "MSZK_CIV_GEN_GREETING_002",
+    "source_sha256": "424b9cd6af1aa41e3e5b7475c48a6b994a2562c0f3213b1cd5dc390c4d8fb678",
+    "before": "<ts=&quot;0.069;3.101&quot;>الآن، ماذا يمكن للالسيدة زوركون أن تفعل<br>لك؟",
+    "after": "<ts=&quot;0.069;3.101&quot;>إذن، ماذا يمكن للسيدة زوركون أن تقدم لك؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13502,
+    "key": "MSZK_CIV_GEN_GREETING_003",
+    "source_sha256": "7345d06aa1c89386d238ddebe3167145ecb14c4d272bdfeb0d757ab40378c656",
+    "before": "<ts=&quot;0.071;2.078&quot;>هو-يو! أهلا بك!",
+    "after": "<ts=&quot;0.071;2.078&quot;>هو-يو! أهلا بك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13503,
+    "key": "MSZK_CIV_GEN_GREETING_004",
+    "source_sha256": "9ce50264d3ebbdc87f1a65d34d2f3083b9d308139f5adc681924eb899b362dbd",
+    "before": "<ts=&quot;0.04;1.44&quot;>لم أرك منذ زمن.",
+    "after": "<ts=&quot;0.04;1.44&quot;>لم أرك منذ زمن.",
+    "decision": "keep"
+  },
+  {
+    "index": 13504,
+    "key": "MSZK_CIV_GEN_GREETING_005",
+    "source_sha256": "c5b703284a92fdcfdb1ae4c708da5a3adcf1fb0f1bf4c53be2ba54d9d0828ca6",
+    "before": "<ts=&quot;0.033;2.752&quot;>أوه! انظر من وصل!",
+    "after": "<ts=&quot;0.033;2.752&quot;>أوه! انظر من وصل!",
+    "decision": "keep"
+  },
+  {
+    "index": 13505,
+    "key": "MSZK_CIV_GEN_GREETING_006",
+    "source_sha256": "be44e8d44309095301df1312233d1095f585ba293cd00c593433c19c0d671fb3",
+    "before": "<ts=&quot;0.061;2.131&quot;>انظر إلى من أحضره القط.",
+    "after": "<ts=&quot;0.061;2.131&quot;>انظروا من شرفنا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13506,
+    "key": "MSZK_CIV_GEN_GREETING_007",
+    "source_sha256": "0f67953e55482483dd95aba3452c3ec7ce56ae9a4d5ebcddc40abe5aa4684794",
+    "before": "<ts=&quot;0.04;1.499&quot;>كيف كنت يا حبيبتي؟",
+    "after": "<ts=&quot;0.04;1.499&quot;>كيف حالك، يا قمر؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13507,
+    "key": "MSZK_CIV_GEN_GREETING_008",
+    "source_sha256": "6de7c04e681e6aeaff22ae8742672eaf89e790deafcf83857d5a7a9edfb25888",
+    "before": "<ts=&quot;0.067;2.858&quot;>أهلا بك في متجر السيدة زوركون!",
+    "after": "<ts=&quot;0.067;2.858&quot;>أهلا بك في متجر السيدة زوركون!",
+    "decision": "keep"
+  },
+  {
+    "index": 13508,
+    "key": "MSZK_CIV_GEN_GREETING_009",
+    "source_sha256": "be8cbad729e5538b748a3d4f72ed16fd242e9aae4659b3fe8bb207ec1b31344b",
+    "before": "<ts=&quot;0.42;1.82&quot;>سعيدة برؤيتك!",
+    "after": "<ts=&quot;0.42;1.82&quot;>سعيدة برؤيتك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13509,
+    "key": "MSZK_CIV_GEN_GREETING_010",
+    "source_sha256": "ff7ce8da4657919314226eb51ff94be378cfd069fc40ba27a15decf05cc831e6",
+    "before": "<ts=&quot;0.77;2.42&quot;>أهلا بعودتك!",
+    "after": "<ts=&quot;0.77;2.42&quot;>أهلا بعودتك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13510,
+    "key": "MSZK_CIV_GEN_GREETING_011",
+    "source_sha256": "73f291af9928e49f795265acee05c9cc9c14215ebee4b1898501893360538eca",
+    "before": "<ts=&quot;0.042;1.943&quot;>أهلا يا حبيبي!",
+    "after": "<ts=&quot;0.042;1.943&quot;>أهلا يا حبيبي!",
+    "decision": "keep"
+  },
+  {
+    "index": 13511,
+    "key": "MSZK_CIV_GEN_GREETING_012",
+    "source_sha256": "27c8fc2d9cc78af3ad1fe10ba9fa2aeea24eeb99eb18a7eb23258a9920648bc0",
+    "before": "<ts=&quot;0.04;1.79&quot;>أرجو إنك هنا للشراء؟",
+    "after": "<ts=&quot;0.04;1.79&quot;>هل جئت للشراء؟ هذا ما أرجوه!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13512,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_001",
+    "source_sha256": "c7f1179b8b4f8b744983295a1883656d32ec96f3152ba4a3f5f5b26e24e99c2e",
+    "before": "<ts=&quot;0.064;5.019&quot;>متجر السيدة زوركون فيه أسلحة أكثر من أي<br>وقت مضى. أليس هذا يوم حظك؟",
+    "after": "<ts=&quot;0.064;5.019&quot;>متجر السيدة زوركون فيه أسلحة أكثر من أي<br>وقت مضى. أليس هذا يوم حظك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 13513,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_002",
+    "source_sha256": "afb2f96c80988bf95641510f02e958e4eb0a51d35593e5f7c4d9ec70b8fd2582",
+    "before": "<ts=&quot;0.072;4.085&quot;>وصلت شحنة جديدة! خذها ما دامت ساخنة ساخنة<br>ساخنة!",
+    "after": "<ts=&quot;0.072;4.085&quot;>وصلت شحنة جديدة! خذها ما دامت ساخنة ساخنة<br>ساخنة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13514,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_003",
+    "source_sha256": "313ce91eca825f937ff169306b458a2ebd1f67e50aff52bc72f8619d7fe16f7a",
+    "before": "<ts=&quot;0.6;4.249&quot;>أهلا يا حبيبي! لدي شيء قد يهمك!",
+    "after": "<ts=&quot;0.6;4.249&quot;>أهلا يا حبيبي! لدي شيء قد يهمك!",
+    "decision": "keep"
+  },
+  {
+    "index": 13515,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_004",
+    "source_sha256": "f4e1cb16c99790ea9cc1e2349554c9e2a8285aa3c782092ad35ab0bcf3d94086",
+    "before": "<ts=&quot;0.069;3.949&quot;>هو-ي-يودل! أسلحة جديدة في المخزون!",
+    "after": "<ts=&quot;0.069;3.949&quot;>هو-ي-يودل! أسلحة جديدة في المخزون!",
+    "decision": "keep"
+  },
+  {
+    "index": 13516,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_005",
+    "source_sha256": "824b0d72779e055ffc54845d2d25e63aa32d401075c446eb6d564d22e7ee87a6",
+    "before": "<ts=&quot;0.071;4.148&quot;>متجر السيدة زوركون فيه أحدث ألعاب القتل!",
+    "after": "<ts=&quot;0.071;4.148&quot;>متجر السيدة زوركون فيه أحدث ألعاب القتل!",
+    "decision": "keep"
+  },
+  {
+    "index": 13517,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_006",
+    "source_sha256": "58649ca9810cb8da0fba8261a341cd8a62df0ccc45817d91e721d81c05a6c553",
+    "before": "<ts=&quot;0.03;3.18&quot;>دفعة جديدة من الأسلحة! خذ نظرة!",
+    "after": "<ts=&quot;0.03;3.18&quot;>دفعة جديدة من الأسلحة! هيا لإلقاء نظرة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13518,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_007",
+    "source_sha256": "2c9cf71f0f82f5e0e1dde31dbe4fd8ad3b279bc3671c85f6824561080a022056",
+    "before": "<ts=&quot;0;3.6&quot;>لا بد أن تزورنا قريبا!<ts=&quot;4.04;4.83&quot;>لدينا كل أنواع الأسلحة الجديدة!",
+    "after": "<ts=&quot;0;3.6&quot;>لا بد أن تزورنا قريبا!<ts=&quot;4.04;4.83&quot;>لدينا كل أنواع الأسلحة الجديدة!",
+    "decision": "keep"
+  },
+  {
+    "index": 13519,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_008",
+    "source_sha256": "f9398bf46510de1bb51e4427ef22537dc5f9bc972183438c92d9e333398b7616",
+    "before": "<ts=&quot;0.03;1.949&quot;>تحتاج سلاحا جديدا لامعا؟<ts=&quot;2.35;4.45&quot;>توجه إلى متجر السيدة زوركون.",
+    "after": "<ts=&quot;0.03;1.949&quot;>تحتاج سلاحا جديدا لامعا؟<ts=&quot;2.35;4.45&quot;>توجه إلى متجر السيدة زوركون.",
+    "decision": "keep"
+  },
+  {
+    "index": 13520,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_009",
+    "source_sha256": "83160a4c0426faa5a7ac9e0cd7bcbe70bacc43d89803dca2fdcbaa9888e537c2",
+    "before": "<ts=&quot;0.11;3.96&quot;>تخل عن القديم واستقبل الجديد في متجر<br>السيدة زوركون!",
+    "after": "<ts=&quot;0.11;3.96&quot;>تخل عن القديم واستقبل الجديد في متجر<br>السيدة زوركون!",
+    "decision": "keep"
+  },
+  {
+    "index": 13521,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_010",
+    "source_sha256": "bddf7a2ba14b22d4842df8bee773e344c973a200940820e4aac1b448c0fcf23d",
+    "before": "<ts=&quot;0.04;1.629&quot;>لترسانتك أقوى؛<ts=&quot;1.99;2.69&quot;>وأنت في المتجر الصحيح!",
+    "after": "<ts=&quot;0.04;1.629&quot;>لتوسيع ترسانتك،<ts=&quot;1.99;2.69&quot;>هذا هو المكان المناسب!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 13522,
+    "key": "MSZK_CIV_GEN_GUNSAVAILABLE_011",
+    "source_sha256": "629bb8679838352a91b8513c8748552d54fc03cd3cc4805fa675c0aa34c5da67",
+    "before": "<ts=&quot;0.329;3.129&quot;>،يا حبيبي، عندي جهاز جديد<ts=&quot;3.54;4.639&quot;>سيذهل عقلك تماما!",
+    "after": "<ts=&quot;0.329;3.129&quot;>يا قمر، لدي أداة جديدة،<ts=&quot;3.54;4.639&quot;>ستذهلك تمامًا!",
+    "decision": "rewrite"
+  }
+]

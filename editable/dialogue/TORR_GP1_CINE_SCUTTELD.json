@@ -6,14 +6,22 @@
     "speaker_code": "CLANK",
     "scene_code": "TORR_GP1_CINE_SCUTTELD",
     "arabic_current": "<ts=&quot;0;2&quot;>أقترح أن نتخلص من<br>السفينة!",
-    "arabic_edit": "<ts=&quot;0;2&quot;>أقترح أن نتخلص من السفينة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2&quot;>أقترح أن نهجر السفينة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-005",
+      "source_sha256": "2c60306cdc0b1ed7e4ef2cfd45e7fcfdf94fc971ecc3116e2c713b8cf5d180ea",
+      "candidate_sha256": "87a2ad1c08dba46675772d58f1f2d987039743edab8520939fb4af95780270de",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16617,
@@ -22,13 +30,21 @@
     "speaker_code": "PILF",
     "scene_code": "TORR_GP1_CINE_SCUTTELD",
     "arabic_current": "<ts=&quot;0.052;1.755&quot;>،اسمعوا أيها الرفاق<ts=&quot;1.862;3.882&quot;>سفينة قيادتنا ضاعت!<ts=&quot;4.046;7.803&quot;>دمروها الآن، وسنأكل...<ts=&quot;7.91;9.142&quot;>المصاريف!",
-    "arabic_edit": "<ts=&quot;0.052;1.755&quot;>،اسمعوا أيها الرفاق<ts=&quot;1.862;3.882&quot;>سفينة قيادتنا ضاعت!<ts=&quot;4.046;7.803&quot;>دمروها الآن، وسنأكل...<ts=&quot;7.91;9.142&quot;>المصاريف!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.052;1.755&quot;>اسمعوا يا رفاقي،<ts=&quot;1.862;3.882&quot;>لقد فقدنا سفينة القيادة!<ts=&quot;4.046;7.803&quot;>دمروها الآن، وسنتكبد...<ts=&quot;7.91;9.142&quot;>الخسائر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "4ddb220127cd3e3bc9c849cdd6de193ae97f4adb1e92b0c193ced65c01dadb0c",
+      "candidate_sha256": "80b9d07bcf937c69a5763687c4866ac6b307358df17ef033fa8bac57ec9cde8f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16618,
@@ -38,12 +54,20 @@
     "scene_code": "TORR_GP1_CINE_SCUTTELD",
     "arabic_current": "<ts=&quot;0.042;1.811&quot;>نعم!",
     "arabic_edit": "<ts=&quot;0.042;1.811&quot;>نعم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "acbf2402f7de2f6cf03dd2af8fc41029e44658512eb19147e4a654955a40f67a",
+      "candidate_sha256": "a147036c520e384d38eee5b3fa373ee73cf779705d3e5202a3e9ce2600a6c211",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17034,
@@ -53,12 +77,20 @@
     "scene_code": "TORR_GP1_CINE_SCUTTELD",
     "arabic_current": "<ts=&quot;0;2.065&quot;>هل أنت متأكد؟!",
     "arabic_edit": "<ts=&quot;0;2.065&quot;>هل أنت متأكد؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "fb4fa2300e84fc0c33b53d41e3d984655df8d353579d3f4c6989a98700c2e98f",
+      "candidate_sha256": "7c85c4f60c5669dd471109c44d2ecb0b4f69ae256f42b064db857dfc7f424e21",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21504,
@@ -68,12 +100,20 @@
     "scene_code": "TORR_GP1_CINE_SCUTTELD",
     "arabic_current": "<ts=&quot;0.052;1.601&quot;>الاقتراح مسجل!",
     "arabic_edit": "<ts=&quot;0.052;1.601&quot;>الاقتراح مسجل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "c424eb6226e5b2b1392060aa7b522ed22a71a3a46e7784954428c59fb6d766b8",
+      "candidate_sha256": "f0c5cb591396ef033ccac427a1de5e0bcbb172a1c7bd8c95b1070137501b39b0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21505,
@@ -83,12 +123,20 @@
     "scene_code": "TORR_GP1_CINE_SCUTTELD",
     "arabic_current": "<ts=&quot;0.04;1.413&quot;>آاااه!",
     "arabic_edit": "<ts=&quot;0.04;1.413&quot;>آاااه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "9a742730c22e3a39712b848d5b4fad501a822057e137bf2078dc6bc3b026a730",
+      "candidate_sha256": "ac6b362b94cecddf79be3e6606bc2e6a93d5cd358b6cb9ef122730c492bd6aa0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24713,

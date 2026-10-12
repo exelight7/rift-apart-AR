@@ -7,12 +7,20 @@
     "scene_code": "SAVA_GP2_CINE_FOUND",
     "arabic_current": "<ts=&quot;0;0.536&quot;>مهلا!",
     "arabic_edit": "<ts=&quot;0;0.536&quot;>مهلا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "2a715ab5e25fff4e200446994752566410d7cac897eb8a8a6bce377c5acf48a8",
+      "candidate_sha256": "b42129af719143e2733250a7ec31bc1f434bd28341bc4c020cb7c3d2efbdf4cf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11758,
@@ -22,12 +30,20 @@
     "scene_code": "SAVA_GP2_CINE_FOUND",
     "arabic_current": "<ts=&quot;0.042;1.356&quot;>ماذا تفعل هنا؟",
     "arabic_edit": "<ts=&quot;0.042;1.356&quot;>ماذا تفعل هنا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "21bcc3e7f0d9cda3bf7c3ba86ba4c6dc1c0cf6c0c8c7e397bc83c6e33ae828bc",
+      "candidate_sha256": "8d8723b0d52a082b9f4f412493a48097d127bc02e0936124a682a2428928b2dc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18259,
@@ -37,13 +53,21 @@
     "scene_code": "SAVA_GP2_CINE_FOUND",
     "arabic_current": "<ts=&quot;0;3.37&quot;>لا، لكنه يفتح الصدوع بلا<br>حساب ليصل إليها.<ts=&quot;3.55;6.319&quot;>ليس سوى مسألة وقت قبل<br>أن ينجح.",
     "arabic_edit": "<ts=&quot;0;3.37&quot;>لا، لكنه يفتح الصدوع بلا حساب ليصل إليها.<ts=&quot;3.55;6.319&quot;>ليس سوى مسألة وقت قبل أن ينجح.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "4ae93441951378ccdacd499ac81bf3387467671b0b3218a56c04a9436b243f4f",
+      "candidate_sha256": "4d99ccaf8d1b3c9586d6e04fb1a31a0d2f018aa77cf9b623f17355343dfcf769",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18260,
@@ -52,14 +76,22 @@
     "speaker_code": "PROPH",
     "scene_code": "SAVA_GP2_CINE_FOUND",
     "arabic_current": "<ts=&quot;0.047;4.194&quot;>آه! أنت. كنت أرجو أن تجدني—<br>،آه، آسف<ts=&quot;4.288;8.842&quot;>العودة إلى جسدك في أثناء<br>التأمل توجع.",
-    "arabic_edit": "<ts=&quot;0.047;4.194&quot;>آه! أنت. كنت أرجو أن تجدني— ،آه، آسف<ts=&quot;4.288;8.842&quot;>العودة إلى جسدك في أثناء التأمل توجع.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.047;4.194&quot;>آه! أنت. كنت آمل أن تجدني... آه، معذرة،<ts=&quot;4.288;8.842&quot;>العودة إلى الجسد في منتصف التأمل مؤلمة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "95c9f53f37265e96a7d6982606f60b9943cdb2e29b5190cb22197f89e1661186",
+      "candidate_sha256": "09e72d4bb34897eb22b1a104e967cf02c0ee9c14b189d4a19365af0081ced9bb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18261,
@@ -68,14 +100,22 @@
     "speaker_code": "PROPH",
     "scene_code": "SAVA_GP2_CINE_FOUND",
     "arabic_current": "<ts=&quot;0;2.297&quot;>اعتقلني الإمبراطور بعد أن<br>اكتشف<ts=&quot;2.431;5.044&quot;>أنني أخفيت خريطة الأبعاد<br>داخل شذوذ.",
-    "arabic_edit": "<ts=&quot;0;2.297&quot;>اعتقلني الإمبراطور بعد أن اكتشف<ts=&quot;2.431;5.044&quot;>أنني أخفيت خريطة الأبعاد داخل شذوذ.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.297&quot;>أسرني الإمبراطور بعدما اكتشف<ts=&quot;2.431;5.044&quot;>أنني أخفيت خريطة الأبعاد داخل اختلال.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "08cb90a9d33faaf2318d452c9e742628f02e404dc4ba16bb46dddf95b5bf9c35",
+      "candidate_sha256": "cee5ce2eb3b80fc709b7aa1b121fbd191a389e23b547bedc1d8c7a608e0bab20",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21420,
@@ -85,13 +125,21 @@
     "scene_code": "SAVA_GP2_CINE_FOUND",
     "arabic_current": "<ts=&quot;0;3.89&quot;>الإمبراطور نيفاريوس. هذه<br>اللحظة أنتظرها...",
     "arabic_edit": "<ts=&quot;0;3.89&quot;>الإمبراطور نيفاريوس. هذه اللحظة أنتظرها...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "51948d0403bf7f068875ce79e214c1bd0ed42ff213155a22b82a7639c98dff0a",
+      "candidate_sha256": "ef5405c1b61053426f70c112bfe261feeae71dc4a6e77fdfc87c2a65dc515011",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21421,
@@ -101,12 +149,20 @@
     "scene_code": "SAVA_GP2_CINE_FOUND",
     "arabic_current": "<ts=&quot;0;0.4&quot;>راتشت.",
     "arabic_edit": "<ts=&quot;0;0.4&quot;>راتشت.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "62cf52c5f513a2ef0d558db3dfca0adc4a932d141223beadc0e0d8b2917bc3c3",
+      "candidate_sha256": "20a434a72dfd6f60a3ef59542a43091107dfa526f9ecdcbc357e460d8184be7a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21422,
@@ -116,12 +172,20 @@
     "scene_code": "SAVA_GP2_CINE_FOUND",
     "arabic_current": "<ts=&quot;0;1.371&quot;>إذن لم يحصل عليه بعد.",
     "arabic_edit": "<ts=&quot;0;1.371&quot;>إذن لم يحصل عليه بعد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "29e6eddf23151523cd69de15f21bd50789dd488f8c87b6617317abd1398fee7d",
+      "candidate_sha256": "78f11000d758dd23a2b237bf8736a8e70be878cc516e8b20566fc6eb27718735",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21423,
@@ -131,11 +195,19 @@
     "scene_code": "SAVA_GP2_CINE_FOUND",
     "arabic_current": "<ts=&quot;0.039;1.624&quot;>خبر جيد وخبر سيئ.",
     "arabic_edit": "<ts=&quot;0.039;1.624&quot;>خبر جيد وخبر سيئ.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "899354bb09deb120e28e722ff7de8f6d244503c673935fa526b02b3fc7b6793e",
+      "candidate_sha256": "ef361e9c332892be0213f5a349bae202b73fa6117aaa0e3f82fa29476d074dbd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

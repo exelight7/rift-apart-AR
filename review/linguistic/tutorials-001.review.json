@@ -1,0 +1,1282 @@
+[
+  {
+    "index": 8428,
+    "key": "HELP_AMMO_CRATES",
+    "source_sha256": "f253fb2c321255cee4647d6920af951fdaa2c52d39b917024b32b707e4609058",
+    "before": "حلق<span class='emphasis'>صناديق الذخيرة</span>لتعيد ملء<span class='emphasis'>الذخيرة</span>.",
+    "after": "حطم <span class='emphasis'>صناديق الذخيرة</span> لتجديد <span class='emphasis'>ذخيرتك</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8429,
+    "key": "HELP_AMMO_CRATES_TITLE",
+    "source_sha256": "ae4f2d386de94f5390c0ad3717ede091d4fe39262c49d4a5ba4ad2886ef565cd",
+    "before": "جمع الذخيرة",
+    "after": "جمع الذخيرة",
+    "decision": "keep"
+  },
+  {
+    "index": 8430,
+    "key": "HELP_BLIZON_SWAP_RATCHET",
+    "source_sha256": "f291b86caa45f48f08aecc637515e249c40c89b00ef3821cece811b316f67dc5",
+    "before": "<span class='emphasis'>البليزون</span>إذا ضربته، يتيح لراتشت<span class='emphasis'>تبديل البعد</span>.",
+    "after": "ضرب <span class='emphasis'>البليزون</span> يتيح لراتشت <span class='emphasis'>الانتقال بين الأبعاد</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8431,
+    "key": "HELP_BLIZON_SWAP_RIVET",
+    "source_sha256": "2c01f5519a9b2eccf24346aa11bef7ea62f96fdf3521bbf7ea0c671a53466523",
+    "before": "<span class='emphasis'>البليزون</span>إذا ضربته، يتيح لريفت<span class='emphasis'>تبديل البعد</span>.",
+    "after": "ضرب <span class='emphasis'>البليزون</span> يتيح لريفت <span class='emphasis'>الانتقال بين الأبعاد</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8432,
+    "key": "HELP_BLIZON_SWAP_TITLE",
+    "source_sha256": "0a292ffac25b899385a68c13f736a892b396d01eb5beea7ae213325c2880e82c",
+    "before": "البليزون",
+    "after": "البليزون",
+    "decision": "keep"
+  },
+  {
+    "index": 8433,
+    "key": "HELP_BOLTIPLIER_INCREASE",
+    "source_sha256": "b1278418b3a8754b48daf0c9ae5ab203e3d0761af2de706567588ad9e7125423",
+    "before": "اقض على الأعداء دون أن تتلقى ضررا<br>لترفع<span class='emphasis'>مضاعف المسامير</span>.",
+    "after": "اهزم الأعداء دون تلقي ضرر لزيادة <span class='emphasis'>مضاعف المسامير</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8434,
+    "key": "HELP_BOLTIPLIER_RESET",
+    "source_sha256": "902bc3f1bc939bc50f130966e5481c9052706951c2b2e9d993d6733618795abb",
+    "before": "تلقي الضرر<span class='emphasis'>يعيد</span><span class='emphasis'>مضاعف المسامير</span>إلى الصفر، فاحذر.",
+    "after": "تلقي الضرر <span class='emphasis'>يعيد ضبط</span> <span class='emphasis'>مضاعف المسامير</span>، فاحذر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8435,
+    "key": "HELP_BOLTIPLIER_TITLE",
+    "source_sha256": "2d9c82264c19793d4c7fd76a15e6ce41cca50cac958d2c500bf846bdc99435e5",
+    "before": "مضاعف المسامير",
+    "after": "مضاعف المسامير",
+    "decision": "keep"
+  },
+  {
+    "index": 8436,
+    "key": "HELP_BOLTS",
+    "source_sha256": "aa7a3ca7e31e37d6c5d650db5ec3bccf5375e54109f9fc71330c41fa48bc0ded",
+    "before": "اجمع<span class='emphasis'>المسامير</span>لتشتري<span class='emphasis'>الأسلحة</span>.",
+    "after": "اجمع <span class='emphasis'>المسامير</span> لشراء <span class='emphasis'>الأسلحة</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8437,
+    "key": "HELP_BOLTS_TITLE",
+    "source_sha256": "53c7bc5085a85d0ce3eb3995de8736af96bb3d5d79ff32dc606ff09a353620bb",
+    "before": "مسامير، مسامير، مسامير!",
+    "after": "مسامير، مسامير، مسامير!",
+    "decision": "keep"
+  },
+  {
+    "index": 8438,
+    "key": "HELP_BOXBREAKER",
+    "source_sha256": "58df8654a2378a104825606a729685ee0ddc9989db7be4276a1618afc767f46b",
+    "before": "صرت لديك<span class='emphasis'>محطم الصناديق!</span>اضغط [BTN_JUMP] ثم [BTN_MELEE] لتحطم الصناديق في نطاق<br>أوسع.",
+    "after": "حصلت على <span class='emphasis'>محطم الصناديق!</span><br>اضغط [BTN_JUMP] ثم [BTN_MELEE] لتحطيم الصناديق في نطاق أوسع.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8439,
+    "key": "HELP_CHARACTERBIO",
+    "source_sha256": "9fca64877a54f58a7d75bc27f6cef38ef68eaf6f9820891f1b50030c1162d10d",
+    "before": "اضغط [BTN_SELECT] لعرض تراجم الشخصيات في<br>المعرض",
+    "after": "اضغط [BTN_SELECT] لاستعراض سير الشخصيات في المعرض",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8440,
+    "key": "HELP_CHARACTERBIO_TITLE",
+    "source_sha256": "0be6a8fa5aeb2be4507f3fbdbedc56a2d7f1f8fcb9b1ad6c41f1905290dfaff4",
+    "before": "تراجم الشخصيات",
+    "after": "سير الشخصيات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8441,
+    "key": "HELP_COVER_USAGE",
+    "source_sha256": "a0ed2418bca4653f6eb7084446e40ab4f6ddb75125c9fafd40ec666ce97c00ec",
+    "before": "احتم ب<span class='emphasis'>الغطاء</span>لتقي نفسك<span class='emphasis'>الضرر</span>.",
+    "after": "استخدم <span class='emphasis'>الساتر</span> لتجنب <span class='emphasis'>الضرر</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8442,
+    "key": "HELP_COVER_USAGE_TITLE",
+    "source_sha256": "8488bd3d99435643830005f2a76a3214832593b3fe6aa3cd99ae8836322d0b3e",
+    "before": "احتم",
+    "after": "احتم بساتر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8443,
+    "key": "HELP_DIFFICULTY_SET",
+    "source_sha256": "ed5257ebe53ccf3c40855ce2131bdc4aed191539224c133d43a206a056086b6e",
+    "before": "يمكن تعديل إعدادات<span class='emphasis'>الصعوبة</span>في أي وقت من<span class='emphasis'>قائمة الخيارات</span>.",
+    "after": "يمكن تعديل إعدادات <span class='emphasis'>الصعوبة</span> في أي وقت من <span class='emphasis'>قائمة الخيارات</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8444,
+    "key": "HELP_DIFFICULTY_SET_TITLE",
+    "source_sha256": "366e3323ab04ba9dd60aec494ceffca8f66555dfac01c715466513315182c83f",
+    "before": "إعدادات الصعوبة",
+    "after": "إعدادات الصعوبة",
+    "decision": "keep"
+  },
+  {
+    "index": 8445,
+    "key": "HELP_ENEMIES_SHIELD",
+    "source_sha256": "4953825b9f8b92921590af9bc80110ace109559b931ef42c1525ab24229fbd5f",
+    "before": "<span class='emphasis'>الدروع</span>صلبة. استخدم<span class='emphasis'>الأسلحة غير المباشرة</span>للالتفاف عليها.",
+    "after": "<span class='emphasis'>الدروع</span> متينة. استخدم <span class='emphasis'>الأسلحة ذات الهجمات غير المباشرة</span> لتجاوزها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8446,
+    "key": "HELP_ENEMIES_SHIELD_TITLE",
+    "source_sha256": "944c42c5ddd2001652892fc64061cf4314600a68172b01f95d1cd7f50b9ba950",
+    "before": "الأعداء المدرعون",
+    "after": "حاملو الدروع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8447,
+    "key": "HELP_EXPLOSIVE_CRATES",
+    "source_sha256": "d93bf3369bd2d3abadfc993b0fdd5ba536e85885881e3e0a22194b33fc90bc5b",
+    "before": "أطلق النار على<span class='emphasis'>الصناديق المتفجرة</span>لتصيب<span class='emphasis'>الأعداء</span>القريبين.",
+    "after": "أطلق على <span class='emphasis'>الصناديق المتفجرة</span> لإلحاق الضرر بـ<span class='emphasis'>الأعداء</span> القريبين منها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8448,
+    "key": "HELP_EXPLOSIVE_CRATES_TITLE",
+    "source_sha256": "8247ade3e125599f164702fa9511f342712cea25b65d7a26039477477db2bc83",
+    "before": "تفاعل متفجر",
+    "after": "تفاعل متفجر",
+    "decision": "keep"
+  },
+  {
+    "index": 8449,
+    "key": "HELP_FIND_SPEETLE_NEST",
+    "source_sha256": "efa50cbb62cd11b9362cc469d28760d4a5dbb5e1ff46011e5a3d97d67fdb6ec7",
+    "before": "اتبع مينارد لتعثر على عش آخر<br>للخنفساء",
+    "after": "اتبع ماينارد لتجد عشًا آخر لخنافس سبيتل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8450,
+    "key": "HELP_FLY_BOOST",
+    "source_sha256": "eb24ec030aa3631f197ec80afb118411680d69412f06f8fea2b4ced4d1fb3077",
+    "before": "استمر بالضغط على [BTN_MOUNT_BOOST] للتسارع",
+    "after": "استمر بالضغط على [BTN_MOUNT_BOOST] للتسارع",
+    "decision": "keep"
+  },
+  {
+    "index": 8451,
+    "key": "HELP_FLY_BOOST_BRAKE",
+    "source_sha256": "adeb7ff8deaef159e97775ffa42db1b8fcf9378af87b416d2db226697188a435",
+    "before": "استمر بالضغط على [BTN_MOUNT_BOOST] للتسارع استمر<br>بالضغط على [BTN_AIM] للفرملة",
+    "after": "استمر بالضغط على [BTN_MOUNT_BOOST] للتسارع استمر<br>بالضغط على [BTN_AIM] للفرملة",
+    "decision": "keep"
+  },
+  {
+    "index": 8452,
+    "key": "HELP_FLY_BOOST_BRAKE_TITLE",
+    "source_sha256": "e5bf9f20ac8bb28c0bf1875cd777588a111ca34d31c8f63a227000c9b096bc8f",
+    "before": "ترودي",
+    "after": "ترودي",
+    "decision": "keep"
+  },
+  {
+    "index": 8453,
+    "key": "HELP_FLY_BOOST_TITLE",
+    "source_sha256": "ba61786413d70a7106100ae920c1efc0f2f2a3a4d57b1b741efd6f05bdfaeb16",
+    "before": "انطلاقة الطائرة",
+    "after": "تسارع الطيران",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8454,
+    "key": "HELP_FLY_BREAK",
+    "source_sha256": "3d8c544c12a6d326a6cf64173ff4041269df3f757ebe4b15778f75a56852da7d",
+    "before": "استمر بالضغط على [BTN_AIM] للفرملة",
+    "after": "استمر بالضغط على [BTN_AIM] للفرملة",
+    "decision": "keep"
+  },
+  {
+    "index": 8455,
+    "key": "HELP_FLY_BREAK_TITLE",
+    "source_sha256": "47f6e0298ef0796021164aa8dab8d405f643b36714ef0e341586dceafa11b676",
+    "before": "كبح الطائرة",
+    "after": "كبح الطيران",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8456,
+    "key": "HELP_GOLDBOLTS",
+    "source_sha256": "2ebd674226dd472b6b75cc43377fc112836c6b8e8e63052980b947e9fd07e2fd",
+    "before": "اجمع<span class='emphasis'>المسامير الذهبية</span>لتفتح<span class='emphasis'>المكافآت</span>. تصفح المكافآت في القائمة ب[BTN_SELECT].",
+    "after": "اجمع <span class='emphasis'>المسامير الذهبية</span> لـ<span class='emphasis'>فتح المكافآت</span>. استعرض المكافآت في قائمة [BTN_SELECT].",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8457,
+    "key": "HELP_GOLDBOLTS_TITLE",
+    "source_sha256": "155633e32382be8c94531fe9929461fcc61f3444eb9842326342cea2e7cb216c",
+    "before": "المسامير الذهبية",
+    "after": "المسامير الذهبية",
+    "decision": "keep"
+  },
+  {
+    "index": 8458,
+    "key": "HELP_GRINDBOOTS",
+    "source_sha256": "4d1070606250c25c44cf119474651ce2d57c0399772ab7f482b3f453aec855af",
+    "before": "استخدم<span class='emphasis'>حذاء الانزلاق</span>على<span class='emphasis'>سكك الانزلاق</span>.",
+    "after": "استخدم <span class='emphasis'>حذاء الانزلاق</span> على <span class='emphasis'>قضبان الانزلاق</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8459,
+    "key": "HELP_GRINDBOOTS_TITLE",
+    "source_sha256": "617d72b9176c56e0bfd825a6f52e87641a5438411ec421b84ec2ed32a9c641e3",
+    "before": "حذاء الانزلاق",
+    "after": "حذاء الانزلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8460,
+    "key": "HELP_HAX_BLITZINFECTORS_VIRALPODS",
+    "source_sha256": "7e946de28085a975ab43e2b55924f2fed1a58983f46ac1bef02b38e37cb73617",
+    "before": "استخدم<span class='emphasis'>المعاتيات</span>لتدمر<span class='emphasis'>قرارات فيروس زيتا</span>غير المحمية.",
+    "after": "استخدم <span class='emphasis'>بليتز إنفكتورز</span> لتدمير <span class='emphasis'>حويصلات فيروس زيتا</span> غير المحمية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8461,
+    "key": "HELP_HAX_NUKEPULSE_SURROUNDED",
+    "source_sha256": "34d631deb7e1dc978e26af534e0e9028a6228d54a2e674d0be226724e5b1fc47",
+    "before": "استخدم<span class='emphasis'>نبضة النواة</span>إذا حاصرته<span class='emphasis'>حشرات فيروس زيتا</span>.",
+    "after": "استخدم <span class='emphasis'>النبضة النووية</span> عندما تحاصرك <span class='emphasis'>حشرات فيروس زيتا</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8462,
+    "key": "HELP_HAX_PODS",
+    "source_sha256": "0d2403bbd1c37a568d15d4e1d65cd7165964972d3963b2a0d7a8fd1fa7e0c594",
+    "before": "دمر<span class='emphasis'>الكبسولات</span>لتجمع الصحة.",
+    "after": "دمر <span class='emphasis'>الكبسولات</span> لاستعادة الصحة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8463,
+    "key": "HELP_HAX_WALLS_CEILINGS",
+    "source_sha256": "26d99f673e2d2a9d1174f45377beec9ad23f306b384e9f79885f21ef19387535",
+    "before": "يستطيع جليتش التنقل على<span class='emphasis'>الجدران</span><span class='emphasis'>والأسقف</span>.",
+    "after": "تستطيع جليتش التنقل على <span class='emphasis'>الجدران</span> و<span class='emphasis'>الأسقف</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8464,
+    "key": "HELP_HEADSHOTS",
+    "source_sha256": "4a87be988e31bc507bed69669c6cbfec72aa9bf95f648f82884b92c9cade4556",
+    "before": "إصابات<span class='emphasis'>الرأس</span>تحدث<span class='emphasis'>ضررا أكبر</span>بالخصوم.",
+    "after": "تسبب <span class='emphasis'>إصابات الرأس</span> <span class='emphasis'>ضررًا أكبر</span> للأعداء.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8465,
+    "key": "HELP_HEADSHOTS_TITLE",
+    "source_sha256": "3cc24771d41c851753e45435ba78f606c461166d925fb8c5404739e504953a54",
+    "before": "إصابات الرأس",
+    "after": "إصابات الرأس",
+    "decision": "keep"
+  },
+  {
+    "index": 8466,
+    "key": "HELP_HEALTH_CRATES",
+    "source_sha256": "261e1ac3c937b7ff913c8129ea107febbf30a3a107f6731f9d057923829c3209",
+    "before": "حلق<span class='emphasis'>صناديق الصحة</span>لتعيد ملء<span class='emphasis'>الصحة</span>.",
+    "after": "حطم <span class='emphasis'>صناديق الصحة</span> لاستعادة <span class='emphasis'>صحتك</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8467,
+    "key": "HELP_HEALTH_CRATES_TITLE",
+    "source_sha256": "55ecd67a83d17a6a7108a186adcced6eabd673f3952d2aa36a94fb6301ee8222",
+    "before": "استعد العافية",
+    "after": "استعد العافية",
+    "decision": "keep"
+  },
+  {
+    "index": 8468,
+    "key": "HELP_HOVERBOOT_RAMPS",
+    "source_sha256": "053bae5f180383b661ace7e057f0c0765df71f8dbbc92c1f02fe89c82ca141d3",
+    "before": "حافظ على<span class='emphasis'>سرعتك</span>فوق المنحدرات والفجوات الكبيرة.",
+    "after": "حافظ على <span class='emphasis'>سرعتك</span> لعبور المنحدرات الكبيرة والفجوات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8469,
+    "key": "HELP_HOVERBOOT_RAMPS_TITLE",
+    "source_sha256": "b82de6dfb38b7b6add9cebaecd398a6c9c37f67303fdedbd63d89ebdca1fbf49",
+    "before": "منحدرات حذاء الطفو",
+    "after": "منحدرات حذاء الطفو",
+    "decision": "keep"
+  },
+  {
+    "index": 8470,
+    "key": "HELP_JUICE_JELLY",
+    "source_sha256": "1e568cbf0be5185ee9bd2a45da5840cc429dcd3e05080f9767ad422b72c53f2c",
+    "before": "اكسر<span class='emphasis'>عبوات الهلام</span>لتلهي<span class='emphasis'>جوس</span>.",
+    "after": "اكسر <span class='emphasis'>حاويات الهلام</span> لتشتيت انتباه <span class='emphasis'>جوس</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8471,
+    "key": "HELP_JUICE_JELLY_TITLE",
+    "source_sha256": "26f9e3a4ac367bc2f7b134d46d8098ccc50ada9e63f923b32e487bc6ae14c463",
+    "before": "عبوات الهلام",
+    "after": "عبوات الهلام",
+    "decision": "keep"
+  },
+  {
+    "index": 8472,
+    "key": "HELP_MAPOMATIC",
+    "source_sha256": "82f6cb24f2744bfeb4c7f7baa31bef6a02c4e8823f76b7c04630f965e551314e",
+    "before": "يكشف<span class='emphasis'>الخريطة أوتوماتيك</span>ب[BTN_SELECT] مواقع الراريتانيوم والمسامير<br>الذهبية والسبايبوتات وغيرها مما لم<br>تكتشفه بعد على خريطتك.",
+    "after": "يكشف <span class='emphasis'>ماب-أو-ماتيك</span> [BTN_SELECT] مواقع الراريتانيوم والمسامير الذهبية<br>وروبوتات التجسس وغيرها من العناصر التي لم<br>تكتشفها على خريطتك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8473,
+    "key": "HELP_OBJECTIVE_PING",
+    "source_sha256": "ab0454f2d612b836eed14e834a7ebd109a21c47f73f8350bfcb433ac288c72c2",
+    "before": "اضغط [BTN_OBJECTIVE_PING] لتراجع<span class='emphasis'>هدفك</span>.",
+    "after": "اضغط [BTN_OBJECTIVE_PING] لاستعراض <span class='emphasis'>هدفك</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8474,
+    "key": "HELP_OBJECTIVE_PING_MAP",
+    "source_sha256": "00d29d7a8ca8de873a58978284145c39235ee3064e278d0c142bd77a596cdf0a",
+    "before": "اضغط [BTN_OBJECTIVE_PING] لتراجع<span class='emphasis'>هدفك</span>الحالي. واضغط [BTN_SELECT] لعرض<span class='emphasis'>خريطتك</span>.",
+    "after": "استخدم [BTN_OBJECTIVE_PING] لاستعراض <span class='emphasis'>هدفك</span> الحالي.<br>استخدم [BTN_SELECT] لعرض <span class='emphasis'>خريطتك</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8475,
+    "key": "HELP_OBJECTIVE_PING_MAP_TITLE",
+    "source_sha256": "b1f2eb43aeeabce09d9bda95b1cedc00e22fcda1f885dfbecd34c8d86403c4e9",
+    "before": "تذكير الهدف",
+    "after": "تذكير بالهدف",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8476,
+    "key": "HELP_OBJECTIVE_PING_TITLE",
+    "source_sha256": "3f8152da90f14deac4d15bf7ea88cd02b813c43240a95dc14c6dce756707bcab",
+    "before": "الأهداف",
+    "after": "الأهداف",
+    "decision": "keep"
+  },
+  {
+    "index": 8477,
+    "key": "HELP_PHOTOMODE",
+    "source_sha256": "fc08d002c2de5510363d3691becfbfe78921cade7481d3f655ccc20034bd4111",
+    "before": "اضغط [BTN_START] للدخول إلى<span class='emphasis'>وضع التصوير</span>.",
+    "after": "اضغط [BTN_START] لفتح <span class='emphasis'>وضع التصوير</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8478,
+    "key": "HELP_PHOTOMODE_TITLE",
+    "source_sha256": "cf3ae48cfcbef0fec5da9b6b2fdb7c63372f427ee23f87819edce03f8d06dd7b",
+    "before": "وضع التصوير",
+    "after": "وضع التصوير",
+    "decision": "keep"
+  },
+  {
+    "index": 8479,
+    "key": "HELP_PLAYER_LEVELS",
+    "source_sha256": "672be2a0a47aeb684e17d267100ef0dcda796175614e4b3dde2082404c14bf2f",
+    "before": "تمنحك<span class='emphasis'>مستويات اللاعب</span>مزيدا من<span class='emphasis'>الصحة</span>و<span class='emphasis'>ضرر الاقتتال القريب</span>.",
+    "after": "رفع <span class='emphasis'>مستوى اللاعب</span> يزيد <span class='emphasis'>الصحة</span> و<span class='emphasis'>ضرر الاشتباك</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8480,
+    "key": "HELP_PLAYER_LEVELS_TITLE",
+    "source_sha256": "72363b801e21db88737f3bb168eee7964c574e3662c76935f4cfc23770e75e00",
+    "before": "مستويات اللاعب",
+    "after": "مستويات اللاعب",
+    "decision": "keep"
+  },
+  {
+    "index": 8481,
+    "key": "HELP_RARITANIUM_COLLECT",
+    "source_sha256": "4d65d78f97870e7cfdfc7e24f41bff16181884206924721bb0cdf61d0d48f1d5",
+    "before": "اجمع<span class='emphasis'>الراريتانيوم</span>لترقي<span class='emphasis'>أسلحتك</span>لدى<span class='emphasis'>أكشاك البائعين</span>.",
+    "after": "اجمع <span class='emphasis'>الراريتانيوم</span> لـ<span class='emphasis'>تطوير الأسلحة</span> لدى <span class='emphasis'>الباعة</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8482,
+    "key": "HELP_RARITANIUM_COLLECT_TITLE",
+    "source_sha256": "ef5be4beb4f18cec4fda85e2f8d4a60f024e648bc706cd963d39c85ffc2b3ac5",
+    "before": "الراريتانيوم",
+    "after": "الراريتانيوم",
+    "decision": "keep"
+  },
+  {
+    "index": 8483,
+    "key": "HELP_SPYBOTS",
+    "source_sha256": "81ee5dd26d0c90c12caf4c9ceb9b917ce398d50a866b57660ccd4fbb0e031d3e",
+    "before": "اعثر على<span class='emphasis'>السبايبوتات</span>لتجمع<span class='emphasis'>بطاقات الرينو</span>.",
+    "after": "اعثر على <span class='emphasis'>روبوتات التجسس</span> لجمع <span class='emphasis'>بطاقات رينو</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8484,
+    "key": "HELP_SPYBOTS_TITLE",
+    "source_sha256": "76084b26bff00fc7b122aa266566530539258ab970bdf8a3a7e8f0b58560287c",
+    "before": "السبايبوتات",
+    "after": "روبوتات التجسس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8485,
+    "key": "HELP_WEAPON_LEVELS",
+    "source_sha256": "57c893ade7fd525ad6f7cdfd3ae6b66c98601db5f7400b8c3bbc36ebd5e945ce",
+    "before": "<span class='emphasis'>ارق أسلحتك</span>ل<span class='emphasis'>ضرر أكبر</span>ولتفتح مزيدا من<span class='emphasis'>خيارات التطوير</span>.",
+    "after": "<span class='emphasis'>ارفع مستوى أسلحتك</span> لإلحاق <span class='emphasis'>ضرر أكبر</span> وفتح المزيد من <span class='emphasis'>خيارات التطوير</span>.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8486,
+    "key": "HELP_WEAPON_LEVELS_TITLE",
+    "source_sha256": "69e97cc306ba706769f295cf04aa82d0b3ee26a59e33a7aba0ae1ddc8b72e6ba",
+    "before": "مستويات الأسلحة",
+    "after": "مستويات الأسلحة",
+    "decision": "keep"
+  },
+  {
+    "index": 8487,
+    "key": "HELP_WPN_BOMBARDIER",
+    "source_sha256": "adc718994e496ae79d947d5b166863c399ba5e47b88e2b13441d71cdd59fe818",
+    "before": "اضغط [BTN_FIRE] للتنصيب",
+    "after": "[BTN_FIRE] للنشر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8488,
+    "key": "HELP_WPN_BOMBARDIER_LABEL",
+    "source_sha256": "bca95d8ccb65a691bb26d0aef935b296bca141cbccb6676a72cc827aeb5c57c7",
+    "before": "قاذف القنابل",
+    "after": "قاذف القنابل",
+    "decision": "keep"
+  },
+  {
+    "index": 8489,
+    "key": "HELP_WPN_BOUNCER",
+    "source_sha256": "5d1903243dfb928cabb792117159c8527708e20bd631c2f717d31648b35cb3ac",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لرمية مقوسة واضغط<br>[BTN_FIRE] كاملا للتنصيب",
+    "after": "نصف ضغطة على [BTN_FIRE] لعرض مسار الرمي<br>ضغطة كاملة على [BTN_FIRE] للنشر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8490,
+    "key": "HELP_WPN_BOUNCER_LABEL",
+    "source_sha256": "8c01b42f748ea3d16206b02d541d98936735a1d99bb195e135c84f43e660d012",
+    "before": "الباونسر",
+    "after": "الباونسر",
+    "decision": "keep"
+  },
+  {
+    "index": 8491,
+    "key": "HELP_WPN_BOUNCER_MKB",
+    "source_sha256": "ad913cd1d0dc5c2af8027da3eef9fa6b6644e49fcb7fddb6273fd84825f58d8f",
+    "before": "استمر في الضغط على [BTN_FIRE] للتصويب<br>المقوس ثم حرر [BTN_FIRE] للرمي",
+    "after": "استمر بالضغط على [BTN_FIRE] لعرض مسار الرمي<br>حرر [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8492,
+    "key": "HELP_WPN_BURSTPISTOL",
+    "source_sha256": "5171edb2e307c821379ae4a66b32426a6fb16657cdb684c5458042523d706b08",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لرمية دقيقة واضغط<br>[BTN_FIRE] كاملا لرمية سريعة",
+    "after": "نصف ضغطة على [BTN_FIRE] لإطلاق دقيق<br>ضغطة كاملة على [BTN_FIRE] لإطلاق سريع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8493,
+    "key": "HELP_WPN_BURSTPISTOL_LABEL",
+    "source_sha256": "fc090c506ec3d5afebc095920115392240a4a44eb494c51ba9b93c09b60a3a10",
+    "before": "مسدس الرشقات",
+    "after": "مسدس الرشقات",
+    "decision": "keep"
+  },
+  {
+    "index": 8494,
+    "key": "HELP_WPN_BURSTPISTOL_MKB",
+    "source_sha256": "097c2b88b13567cc135022df4fa2340f51b1c3f85692a9b353ca6bcdd6130550",
+    "before": "اضغط [BTN_FIRE] لرمية دقيقة واستمر في الضغط<br>على [BTN_FIRE] لرمية سريعة",
+    "after": "اضغط [BTN_FIRE] لإطلاق دقيق<br>استمر بالضغط على [BTN_FIRE] لإطلاق سريع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8495,
+    "key": "HELP_WPN_BURSTPISTOL_TOGGLE",
+    "source_sha256": "396177603fcfa476958b23b2696c15d625612018c33193a991eaf3756ea5d8f2",
+    "before": "انقر [BTN_FIRE] نقرة نصفية لرمية دقيقة<br>وانقر [BTN_FIRE] نقرة كاملة لرمية سريعة<br>وانقر مرة أخرى لإيقاف الإطلاق",
+    "after": "نصف ضغطة على [BTN_FIRE] لإطلاق دقيق<br>ضغطة كاملة على [BTN_FIRE] لإطلاق سريع<br>اضغط مجددًا لإيقاف الإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8496,
+    "key": "HELP_WPN_BUZZBLADES",
+    "source_sha256": "41855c8f7feb1d126385da0b515fdae587c832f802cbf72a03b0e705fbc770df",
+    "before": "اضغط [BTN_FIRE] للإطلاق",
+    "after": "اضغط [BTN_FIRE] للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8497,
+    "key": "HELP_WPN_BUZZBLADES_LABEL",
+    "source_sha256": "ec9136ec10747b8b596ffb5eaaa70c051241f8073f546bf12c9da22e8d0d2073",
+    "before": "نصال الأزيز",
+    "after": "نصال الأزيز",
+    "decision": "keep"
+  },
+  {
+    "index": 8498,
+    "key": "HELP_WPN_BUZZBLADES_TOGGLE",
+    "source_sha256": "bee678843444b4ba805e80f8ea8c2f986c1cc6d5a757578a4700a894bb7377c9",
+    "before": "انقر [BTN_FIRE] للإطلاق وانقر مرة أخرى<br>لإيقاف الإطلاق",
+    "after": "انقر [BTN_FIRE] للإطلاق وانقر مرة أخرى<br>لإيقاف الإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8499,
+    "key": "HELP_WPN_COLDSNAP",
+    "source_sha256": "e89af507f077c1696939db46c15ae1600b9754e8c0ccef719245587e1972b2e9",
+    "before": "اضغط [BTN_AIM] لقوس التصويب و[BTN_FIRE] للإطلاق",
+    "after": "[BTN_AIM] لعرض مسار الرمي<br>[BTN_FIRE] للإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8500,
+    "key": "HELP_WPN_COLDSNAP_LABEL",
+    "source_sha256": "e1d12fdb02ac03433f5ffa9a10db17b2eef9d450fb71405f7dbe1fe020516a6d",
+    "before": "الانكسار البارد",
+    "after": "موجة الصقيع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8501,
+    "key": "HELP_WPN_DRILLHOUND",
+    "source_sha256": "f0c3b6f1015ffb563bb32cd5e06779abc13aa1ef897badc647630d4adb80a41f",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لقفل الهدف واضغط [BTN_FIRE]<br>كاملا للإطلاق",
+    "after": "نصف ضغطة على [BTN_FIRE] لتثبيت التصويب على الهدف<br>ضغطة كاملة على [BTN_FIRE] للإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8502,
+    "key": "HELP_WPN_DRILLHOUND_HOLD",
+    "source_sha256": "1516455f6fc8d99d1d692d131615234bfb594d6f8501c8fcd666bac714713ae5",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لقفل الهدف واضغط [BTN_FIRE]<br>كاملا للإطلاق واستمر في الضغط<br>للإطلاق المتكرر",
+    "after": "نصف ضغطة على [BTN_FIRE] لتثبيت التصويب على الهدف<br>ضغطة كاملة على [BTN_FIRE] للإطلاق<br>استمر بالضغط للإطلاق المتكرر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8503,
+    "key": "HELP_WPN_DRILLHOUND_LABEL",
+    "source_sha256": "b8009d48c54a758f6674c40daeda5d0ccf25368ad6e8ae98f78fd1ea758796ef",
+    "before": "دريلهاوند",
+    "after": "دريلهاوند",
+    "decision": "keep"
+  },
+  {
+    "index": 8504,
+    "key": "HELP_WPN_DRILLHOUND_MKB",
+    "source_sha256": "016888a1dcb894eab373cf348b308df2329ba527fa9b7dbe1f2069986a798242",
+    "before": "استمر في الضغط على [BTN_FIRE] لقفل الهدف ثم<br>حرر [BTN_FIRE] للإطلاق",
+    "after": "استمر في الضغط على [BTN_FIRE] لقفل الهدف ثم<br>حرر [BTN_FIRE] للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8505,
+    "key": "HELP_WPN_DRILLHOUND_TOGGLE",
+    "source_sha256": "039b0c2324de430343c5cefe1e14d8ed3c2f81fbc7044b57c73b60b6f73ea73e",
+    "before": "انقر [BTN_FIRE] لقفل الهدف والإطلاق وانقر<br>مرة أخرى لإيقاف الإطلاق",
+    "after": "انقر [BTN_FIRE] لقفل الهدف والإطلاق وانقر<br>مرة أخرى لإيقاف الإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8506,
+    "key": "HELP_WPN_ENFORCER",
+    "source_sha256": "896da36af2fb6da416f9e5bdc2eb60eaf074d541884801ee5244dc69a67198c3",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لطلقة ماسورة واحدة<br>واضغط [BTN_FIRE] كاملا لطلقة ماسورتين",
+    "after": "نصف ضغطة على [BTN_FIRE] للإطلاق من سبطانة واحدة<br>ضغطة كاملة على [BTN_FIRE] للإطلاق من سبطانتين",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8507,
+    "key": "HELP_WPN_ENFORCER_HOLD",
+    "source_sha256": "72689a7e011b36a5f1f9e156dff8423ddcfeb25e619f2f0c18fae35dd5696532",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لطلقة ماسورة واحدة<br>واضغط [BTN_FIRE] كاملا لطلقة ماسورتين<br>واستمر في الضغط للإطلاق المتكرر",
+    "after": "نصف ضغطة على [BTN_FIRE] للإطلاق من سبطانة واحدة<br>ضغطة كاملة على [BTN_FIRE] للإطلاق من سبطانتين<br>استمر بالضغط للإطلاق المتكرر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8508,
+    "key": "HELP_WPN_ENFORCER_LABEL",
+    "source_sha256": "685e35265dd525a261c6ccf7ae2d10f84f34f9d48653a28e99582ce96d55edb3",
+    "before": "الإنفورسر",
+    "after": "الإنفورسر",
+    "decision": "keep"
+  },
+  {
+    "index": 8509,
+    "key": "HELP_WPN_ENFORCER_MKB",
+    "source_sha256": "ab3cdf2f020eacb504ba83f91b17b7ec64491429778577e8d174888ae3063efe",
+    "before": "اضغط [BTN_FIRE] لطلقة ماسورة واحدة واستمر<br>في الضغط على [BTN_FIRE] لطلقة ماسورتين",
+    "after": "اضغط [BTN_FIRE] للإطلاق من سبطانة واحدة<br>استمر بالضغط على [BTN_FIRE] للإطلاق من سبطانتين",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8510,
+    "key": "HELP_WPN_ENFORCER_TOGGLE",
+    "source_sha256": "cc88fbbfd64271622ef1c241145afe81dfb9ad3d943f1ff39a0621095f0499ce",
+    "before": "انقر [BTN_FIRE] نقرة نصفية لطلقة ماسورة<br>واحدة وانقر [BTN_FIRE] نقرة كاملة لطلقة<br>ماسورتين وانقر مرة أخرى لإيقاف<br>الإطلاق",
+    "after": "نصف ضغطة على [BTN_FIRE] للإطلاق من سبطانة واحدة<br>ضغطة كاملة على [BTN_FIRE] للإطلاق من سبطانتين<br>اضغط مجددًا لإيقاف الإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8511,
+    "key": "HELP_WPN_ENFORCER_V5",
+    "source_sha256": "c381777b67a29fcf9e618c4f6aceb97e8bd31aeeb121a8bc5fc9e3c6f19b9708",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لطلقة ماسورتين<br>واضغط [BTN_FIRE] كاملا لطلقة أربع ماسورات",
+    "after": "نصف ضغطة على [BTN_FIRE] للإطلاق من سبطانتين<br>ضغطة كاملة على [BTN_FIRE] للإطلاق من أربع سبطانات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8512,
+    "key": "HELP_WPN_ENFORCER_V5_HOLD",
+    "source_sha256": "8a1f2808876e216e0259b5f5f6d3c81bca1c6f8ac4972ae96558c8adb03066c2",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لطلقة ماسورتين<br>واضغط [BTN_FIRE] كاملا لطلقة أربع ماسورات<br>واستمر في الضغط للإطلاق المتكرر",
+    "after": "نصف ضغطة على [BTN_FIRE] للإطلاق من سبطانتين<br>ضغطة كاملة على [BTN_FIRE] للإطلاق من أربع سبطانات<br>استمر بالضغط للإطلاق المتكرر",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8513,
+    "key": "HELP_WPN_ENFORCER_V5_MKB",
+    "source_sha256": "eaff17e7817d2cb744a2fcad869e38aadd365a8c91c5a5e88a0d9c61647358b8",
+    "before": "اضغط [BTN_FIRE] لطلقة ماسورتين واستمر في<br>الضغط على [BTN_FIRE] لطلقة أربع ماسورات<br>واستمر في الضغط أثناء إعادة<br>التلقيم لتطلق فور انتهائه",
+    "after": "اضغط [BTN_FIRE] للإطلاق من سبطانتين<br>استمر بالضغط على [BTN_FIRE] للإطلاق من أربع سبطانات<br>استمر بالضغط أثناء التلقيم للإطلاق فور<br>انتهائه",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8514,
+    "key": "HELP_WPN_ENFORCER_V5_TOGGLE",
+    "source_sha256": "0c694a63cefa0321857c7a853cb9e05a7f0070bc77e6ff0db1523976374549ae",
+    "before": "انقر [BTN_FIRE] نقرة نصفية لطلقة ماسورتين<br>وانقر [BTN_FIRE] نقرة كاملة لطلقة أربع<br>ماسورات وانقر مرة أخرى لإيقاف<br>الإطلاق",
+    "after": "نصف ضغطة على [BTN_FIRE] للإطلاق من سبطانتين<br>ضغطة كاملة على [BTN_FIRE] للإطلاق من أربع سبطانات<br>اضغط مجددًا لإيقاف الإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8515,
+    "key": "HELP_WPN_GEN_GRENADE",
+    "source_sha256": "a0ccc2396cd1275d951c378199561de93b85e9d82af190203c1fcab840e66f80",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لرمية مقوسة واضغط<br>[BTN_FIRE] كاملا لرمية مباشرة",
+    "after": "نصف ضغطة على [BTN_FIRE] لعرض مسار الرمي<br>ضغطة كاملة على [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8516,
+    "key": "HELP_WPN_GEN_GRENADE_LABEL",
+    "source_sha256": "f1e9abe2109a5a619bca79037910ea70c25aba9567f8e6364b38a747caa181d6",
+    "before": "أسلحة القنابل",
+    "after": "أسلحة القنابل",
+    "decision": "keep"
+  },
+  {
+    "index": 8517,
+    "key": "HELP_WPN_GEN_GRENADE_MKB",
+    "source_sha256": "ad913cd1d0dc5c2af8027da3eef9fa6b6644e49fcb7fddb6273fd84825f58d8f",
+    "before": "استمر في الضغط على [BTN_FIRE] للتصويب<br>المقوس ثم حرر [BTN_FIRE] للرمي",
+    "after": "استمر بالضغط على [BTN_FIRE] لعرض مسار الرمي<br>حرر [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8518,
+    "key": "HELP_WPN_GLOVEOFDOOM",
+    "source_sha256": "a0ccc2396cd1275d951c378199561de93b85e9d82af190203c1fcab840e66f80",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لرمية مقوسة واضغط<br>[BTN_FIRE] كاملا لرمية مباشرة",
+    "after": "نصف ضغطة على [BTN_FIRE] لعرض مسار الرمي<br>ضغطة كاملة على [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8519,
+    "key": "HELP_WPN_GLOVEOFDOOM_LABEL",
+    "source_sha256": "ba2681d572772ded0efe9190f37d00d115c1169c606dc412f4d47e1d33723838",
+    "before": "قفاز الهلاك",
+    "after": "قفاز الهلاك",
+    "decision": "keep"
+  },
+  {
+    "index": 8520,
+    "key": "HELP_WPN_GLOVEOFDOOM_MKB",
+    "source_sha256": "ad913cd1d0dc5c2af8027da3eef9fa6b6644e49fcb7fddb6273fd84825f58d8f",
+    "before": "استمر في الضغط على [BTN_FIRE] للتصويب<br>المقوس ثم حرر [BTN_FIRE] للرمي",
+    "after": "استمر بالضغط على [BTN_FIRE] لعرض مسار الرمي<br>حرر [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8521,
+    "key": "HELP_WPN_HEADHUNTER",
+    "source_sha256": "e5361d703fb3e817cb645d39d48d518b13b4bb0a5eff26dbe7517b5c63e3dbfd",
+    "before": "اضغط [BTN_AIM] نصف ضغطة للتقريب واضغط [BTN_AIM]<br>كاملا لإبطاء الزمن واضغط [BTN_FIRE] للإطلاق",
+    "after": "نصف ضغطة على [BTN_AIM] للتكبير<br>ضغطة كاملة على [BTN_AIM] لإبطاء الزمن<br>[BTN_FIRE] للإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8522,
+    "key": "HELP_WPN_HEADHUNTER_LABEL",
+    "source_sha256": "d1cba079ddeb3404904e47328098e9aca0884ee9f87d93c62c22981ed760da26",
+    "before": "الصياد",
+    "after": "قناص الرؤوس",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8523,
+    "key": "HELP_WPN_HEADHUNTER_MKB",
+    "source_sha256": "d64883b19b4dad62a5e4226f6a283a13252202d260f409576924fbbf12dd8238",
+    "before": "اضغط [BTN_AIM] للتقريب و[BTN_HOVERBOOT] لإبطاء أثناء<br>التصويب) الزمن) و[BTN_FIRE] للإطلاق",
+    "after": "[BTN_AIM] للتكبير<br>[BTN_HOVERBOOT] لإبطاء الزمن أثناء التصويب<br>[BTN_FIRE] للإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8524,
+    "key": "HELP_WPN_HEADHUNTER_V5",
+    "source_sha256": "d793d0d821a3e3e8573e671e7ed61ae03af60ba0f8faac365740b632cd9d3e12",
+    "before": "اضغط [BTN_AIM] نصف ضغطة للتقريب واضغط [BTN_AIM]<br>كاملا لإبطاء الزمن واضغط [BTN_FIRE] نصف<br>ضغطة لحشو عدة طلقات واضغط [BTN_FIRE] كاملا<br>لإطلاقها",
+    "after": "نصف ضغطة على [BTN_AIM] للتكبير<br>ضغطة كاملة على [BTN_AIM] لإبطاء الزمن<br>نصف ضغطة على [BTN_FIRE] لتجهيز عدة طلقات<br>ضغطة كاملة على [BTN_FIRE] لإطلاقها",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8525,
+    "key": "HELP_WPN_HEADHUNTER_V5_MKB",
+    "source_sha256": "dc602a7abf8b95be7b07ae64120bd237f7c6f33f3ce0f35058db9347d99bc35b",
+    "before": "اضغط [BTN_AIM] للتقريب و[BTN_SPRINT] لإبطاء الزمن<br>(أثناء التصويب) واستمر في الضغط<br>على [BTN_FIRE] لحشو عدة طلقات ثم حرر [BTN_FIRE]<br>لإطلاقها",
+    "after": "[BTN_AIM] للتكبير<br>[BTN_SPRINT] لإبطاء الزمن أثناء التصويب<br>استمر بالضغط على [BTN_FIRE] لتجهيز عدة طلقات<br>حرر [BTN_FIRE] لإطلاقها",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8526,
+    "key": "HELP_WPN_KAMEHAMEHA",
+    "source_sha256": "4ba6debb48b957d49d16e31b917d893e673ed74328e63b31863595c2f0e42477",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لشحن الطلقة واضغط<br>[BTN_FIRE] كاملا لإطلاقها",
+    "after": "اضغط [BTN_FIRE] نصف ضغطة لشحن الطلقة واضغط<br>[BTN_FIRE] كاملا لإطلاقها",
+    "decision": "keep"
+  },
+  {
+    "index": 8527,
+    "key": "HELP_WPN_KAMEHAMEHA_HOLD",
+    "source_sha256": "9cd8ed0c95a7c353753e9cb86903a5d5c2e347661624ce550624394ae52d72ae",
+    "before": "استمر في الضغط على [BTN_FIRE] لشحن الطلقة<br>وإطلاقها",
+    "after": "استمر في الضغط على [BTN_FIRE] لشحن الطلقة<br>وإطلاقها",
+    "decision": "keep"
+  },
+  {
+    "index": 8528,
+    "key": "HELP_WPN_KAMEHAMEHA_LABEL",
+    "source_sha256": "f729432ea5235cdbcefbcad499904c4e4f92816f6300a8f4a36989b6b28cff1e",
+    "before": "مصادم النغاترون",
+    "after": "مصادم النيجاترون",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8529,
+    "key": "HELP_WPN_KAMEHAMEHA_MKB",
+    "source_sha256": "5fe7c105effd69da882d2740b8fa1c0def044fff2fc7d1ce076262f2a2fed18c",
+    "before": "استمر في الضغط على [BTN_FIRE] لشحن الطلقة<br>ثم حرر [BTN_FIRE] لإطلاقها",
+    "after": "استمر في الضغط على [BTN_FIRE] لشحن الطلقة<br>ثم حرر [BTN_FIRE] لإطلاقها",
+    "decision": "keep"
+  },
+  {
+    "index": 8530,
+    "key": "HELP_WPN_KAMEHAMEHA_TOGGLE",
+    "source_sha256": "9439a9502d2a143058590335e5c18811f5a7a75b6048ded639a2d9885baadd75",
+    "before": "انقر [BTN_FIRE] لشحن الطلقة وإطلاقها وانقر<br>مرة أخرى لإيقاف الإطلاق",
+    "after": "انقر [BTN_FIRE] لشحن الطلقة وإطلاقها وانقر<br>مرة أخرى لإيقاف الإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8531,
+    "key": "HELP_WPN_LIGHTNINGROD",
+    "source_sha256": "41855c8f7feb1d126385da0b515fdae587c832f802cbf72a03b0e705fbc770df",
+    "before": "اضغط [BTN_FIRE] للإطلاق",
+    "after": "اضغط [BTN_FIRE] للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8532,
+    "key": "HELP_WPN_LIGHTNINGROD_LABEL",
+    "source_sha256": "d450b115cac8d3423c8314542ca6a2de5bc39f02c8787b132d0ace04cfa59c58",
+    "before": "قاذف الصاعقة",
+    "after": "قاذف الصاعقة",
+    "decision": "keep"
+  },
+  {
+    "index": 8533,
+    "key": "HELP_WPN_LIGHTNINGROD_TOGGLE",
+    "source_sha256": "a48a5ef8bf081a3a89923466801a2994ef6f1c3ec83a1c5866b2e4fda64cabe2",
+    "before": "انقر [BTN_FIRE] للإطلاق وانقر مرة أخرى<br>لإيقاف الإطلاق",
+    "after": "انقر [BTN_FIRE] للإطلاق وانقر مرة أخرى<br>لإيقاف الإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8534,
+    "key": "HELP_WPN_LIGHTNINGROD_V5",
+    "source_sha256": "c90866e008cf7150db3275813905b71aa2f2de8587130dd5570ea55cd20d390c",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لشحن الطلقة واضغط<br>[BTN_FIRE] كاملا للإطلاق",
+    "after": "اضغط [BTN_FIRE] نصف ضغطة لشحن الطلقة واضغط<br>[BTN_FIRE] كاملا للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8535,
+    "key": "HELP_WPN_LIGHTNINGROD_V5_MKB",
+    "source_sha256": "775d0a5c482bbdf4252ebb68f92fee20dab6b762174811551914d739da5bc22a",
+    "before": "اضغط [BTN_AIM] لشحن الطلقة و[BTN_FIRE] للإطلاق",
+    "after": "اضغط [BTN_AIM] لشحن الطلقة و[BTN_FIRE] للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8536,
+    "key": "HELP_WPN_MAGSHIELD",
+    "source_sha256": "1fd88fb214815aaed591b5f1a1e9c03809ce35f0e3bd06e5e2dd67ae860a80cd",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لنشر الدرع واضغط [BTN_FIRE]<br>كاملا لقذف دفعة الطاقة",
+    "after": "اضغط [BTN_FIRE] نصف ضغطة لنشر الدرع واضغط [BTN_FIRE]<br>كاملا لقذف دفعة الطاقة",
+    "decision": "keep"
+  },
+  {
+    "index": 8537,
+    "key": "HELP_WPN_MAGSHIELD_HOLD",
+    "source_sha256": "f23849cfdc8d46dc97aa41ed1c279369efa4dbe4109de937e9a3ceb6b0906e80",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لنشر الدرع واضغط [BTN_FIRE]<br>كاملا لقذف دفعة الطاقة واستمر في<br>الضغط للإطلاق المتكرر",
+    "after": "اضغط [BTN_FIRE] نصف ضغطة لنشر الدرع واضغط [BTN_FIRE]<br>كاملا لقذف دفعة الطاقة واستمر في<br>الضغط للإطلاق المتكرر",
+    "decision": "keep"
+  },
+  {
+    "index": 8538,
+    "key": "HELP_WPN_MAGSHIELD_LABEL",
+    "source_sha256": "5ecccd9fe69e22b5e24cdebc57dadd30b900a09dccd67a65d22918edf5ca91c7",
+    "before": "دافع الفراغ",
+    "after": "دافع الفراغ",
+    "decision": "keep"
+  },
+  {
+    "index": 8539,
+    "key": "HELP_WPN_MAGSHIELD_MKB",
+    "source_sha256": "9300adc55995337a219ad8ab9c4d3f6bb01efadd2a23209183a105cccff8af4d",
+    "before": "اضغط [BTN_AIM] لنشر الدرع و[BTN_FIRE] لقذف دفعة<br>الطاقة",
+    "after": "اضغط [BTN_AIM] لنشر الدرع و[BTN_FIRE] لقذف دفعة<br>الطاقة",
+    "decision": "keep"
+  },
+  {
+    "index": 8540,
+    "key": "HELP_WPN_MAGSHIELD_TOGGLE",
+    "source_sha256": "13636c1fb0b7d699e010aaec080b590eecfa5fd06383939baceb1b74cb6ed111",
+    "before": "اضغط [BTN_AIM] لنشر الدرع وانقر [BTN_FIRE] لقذف<br>دفعة الطاقة وانقر مرة أخرى لإيقاف<br>الإطلاق",
+    "after": "اضغط [BTN_AIM] لنشر الدرع وانقر [BTN_FIRE] لقذف<br>دفعة الطاقة وانقر مرة أخرى لإيقاف<br>الإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8541,
+    "key": "HELP_WPN_MRFUNGI",
+    "source_sha256": "a0ccc2396cd1275d951c378199561de93b85e9d82af190203c1fcab840e66f80",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لرمية مقوسة واضغط<br>[BTN_FIRE] كاملا لرمية مباشرة",
+    "after": "نصف ضغطة على [BTN_FIRE] لعرض مسار الرمي<br>ضغطة كاملة على [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8542,
+    "key": "HELP_WPN_MRFUNGI_LABEL",
+    "source_sha256": "f18860fe88bf3bfd9808021990df34d485e4e1d9065ea8fcf2dd9f135da27c10",
+    "before": "السيد فنغاي",
+    "after": "السيد فنغاي",
+    "decision": "keep"
+  },
+  {
+    "index": 8543,
+    "key": "HELP_WPN_MRFUNGI_MKB",
+    "source_sha256": "ad913cd1d0dc5c2af8027da3eef9fa6b6644e49fcb7fddb6273fd84825f58d8f",
+    "before": "استمر في الضغط على [BTN_FIRE] للتصويب<br>المقوس ثم حرر [BTN_FIRE] للرمي",
+    "after": "استمر بالضغط على [BTN_FIRE] لعرض مسار الرمي<br>حرر [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8544,
+    "key": "HELP_WPN_PIXELIZER",
+    "source_sha256": "41855c8f7feb1d126385da0b515fdae587c832f802cbf72a03b0e705fbc770df",
+    "before": "اضغط [BTN_FIRE] للإطلاق",
+    "after": "اضغط [BTN_FIRE] للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8545,
+    "key": "HELP_WPN_PIXELIZER_HOLD",
+    "source_sha256": "acfc86c7b9ff37ae6bf397f1008c999f54a942ba71f82b9fc369170cca6816e6",
+    "before": "اضغط [BTN_FIRE] للإطلاق واستمر في الضغط<br>للإطلاق المتكرر",
+    "after": "اضغط [BTN_FIRE] للإطلاق واستمر في الضغط<br>للإطلاق المتكرر",
+    "decision": "keep"
+  },
+  {
+    "index": 8546,
+    "key": "HELP_WPN_PIXELIZER_LABEL",
+    "source_sha256": "824dac40dac7ff1e5e7b5c01545c130ffe6ab53dc0d65871a8d4ca1838266340",
+    "before": "المبكسل",
+    "after": "المبكسل",
+    "decision": "keep"
+  },
+  {
+    "index": 8547,
+    "key": "HELP_WPN_PIXELIZER_TOGGLE",
+    "source_sha256": "bee678843444b4ba805e80f8ea8c2f986c1cc6d5a757578a4700a894bb7377c9",
+    "before": "انقر [BTN_FIRE] للإطلاق وانقر مرة أخرى<br>لإيقاف الإطلاق",
+    "after": "انقر [BTN_FIRE] للإطلاق وانقر مرة أخرى<br>لإيقاف الإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8548,
+    "key": "HELP_WPN_PIXELIZER_V5",
+    "source_sha256": "c90866e008cf7150db3275813905b71aa2f2de8587130dd5570ea55cd20d390c",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لشحن الطلقة واضغط<br>[BTN_FIRE] كاملا للإطلاق",
+    "after": "اضغط [BTN_FIRE] نصف ضغطة لشحن الطلقة واضغط<br>[BTN_FIRE] كاملا للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8549,
+    "key": "HELP_WPN_PIXELIZER_V5_MKB",
+    "source_sha256": "5ad0d385a0af30e1741d9311a080dd31b8742fb2dbd432657955fcda4a28a9a4",
+    "before": "استمر في الضغط على [BTN_FIRE] لشحن الطلقة<br>ثم حرر [BTN_FIRE] للإطلاق",
+    "after": "استمر في الضغط على [BTN_FIRE] لشحن الطلقة<br>ثم حرر [BTN_FIRE] للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8550,
+    "key": "HELP_WPN_RICOCHET",
+    "source_sha256": "d6525da2c6f81d1efc1b4f5d6fc8080c33e8607df258ef88cf1a9c85d914dee3",
+    "before": "اضغط [BTN_FIRE] مرارا على الهدف النشط",
+    "after": "اضغط [BTN_FIRE] مرارًا لإصابة الهدف الحالي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8551,
+    "key": "HELP_WPN_RICOCHET_HOLD",
+    "source_sha256": "1115106eebf637018d2094f9c570912b4dd3dc10264717ad5f30435687e9d601",
+    "before": "استمر في الضغط على [BTN_FIRE] لإطلاق<br>المقذوف وترديد ارتداده على الهدف<br>النشط",
+    "after": "استمر بالضغط على [BTN_FIRE] لإطلاق المقذوف وإصابة<br>الهدف الحالي بارتدادات متكررة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8552,
+    "key": "HELP_WPN_RICOCHET_LABEL",
+    "source_sha256": "34d93ced64e7ed932a80c2d64e35df941f8874e62d717daa50746aa623168027",
+    "before": "الارتداد",
+    "after": "الارتداد",
+    "decision": "keep"
+  },
+  {
+    "index": 8553,
+    "key": "HELP_WPN_RICOCHET_TOGGLE",
+    "source_sha256": "dafe11fafac8b1bf0f62a312e1cae60a15f80ff818fa2d08c8a21fbfcc31579d",
+    "before": "انقر [BTN_FIRE] لإطلاق المقذوف وترديد<br>ارتداده على الهدف النشط",
+    "after": "اضغط [BTN_FIRE] لإطلاق المقذوف وإصابة الهدف الحالي<br>بارتدادات متكررة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8554,
+    "key": "HELP_WPN_RYNO",
+    "source_sha256": "5f34545aafbcddd3dac4f02a3768c6b9a630c993f68e2d79c2f9ea3e1e935e75",
+    "before": "اضغط [BTN_FIRE] لتمزق المكان/نسيج الزمان",
+    "after": "اضغط [BTN_FIRE] لتمزيق نسيج الزمان والمكان",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8555,
+    "key": "HELP_WPN_RYNO_LABEL",
+    "source_sha256": "22a5154072de823c2c2cd6427072da65c66193375a26dd52b364d150d2ced139",
+    "before": "8 رينو",
+    "after": "رينو 8",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8556,
+    "key": "HELP_WPN_SHATTERBOMB",
+    "source_sha256": "a0ccc2396cd1275d951c378199561de93b85e9d82af190203c1fcab840e66f80",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لرمية مقوسة واضغط<br>[BTN_FIRE] كاملا لرمية مباشرة",
+    "after": "نصف ضغطة على [BTN_FIRE] لعرض مسار الرمي<br>ضغطة كاملة على [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8557,
+    "key": "HELP_WPN_SHATTERBOMB_LABEL",
+    "source_sha256": "8813d43f1d6b9c4054ca0497d161f7464b46cdd22223b49f531e6b4b10ad21ca",
+    "before": "قنبلة التحطيم",
+    "after": "قنبلة التحطيم",
+    "decision": "keep"
+  },
+  {
+    "index": 8558,
+    "key": "HELP_WPN_SHATTERBOMB_MKB",
+    "source_sha256": "ad913cd1d0dc5c2af8027da3eef9fa6b6644e49fcb7fddb6273fd84825f58d8f",
+    "before": "استمر في الضغط على [BTN_FIRE] للتصويب<br>المقوس ثم حرر [BTN_FIRE] للرمي",
+    "after": "استمر بالضغط على [BTN_FIRE] لعرض مسار الرمي<br>حرر [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8559,
+    "key": "HELP_WPN_TOPIARY",
+    "source_sha256": "a0ccc2396cd1275d951c378199561de93b85e9d82af190203c1fcab840e66f80",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة لرمية مقوسة واضغط<br>[BTN_FIRE] كاملا لرمية مباشرة",
+    "after": "نصف ضغطة على [BTN_FIRE] لعرض مسار الرمي<br>ضغطة كاملة على [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8560,
+    "key": "HELP_WPN_TOPIARY_LABEL",
+    "source_sha256": "9408d9b46189a16d726a01f85205fc44b8b345e038b45a66ca23024382731ec9",
+    "before": "رشاش التشذيب",
+    "after": "رشاش التشذيب",
+    "decision": "keep"
+  },
+  {
+    "index": 8561,
+    "key": "HELP_WPN_TOPIARY_MKB",
+    "source_sha256": "ad913cd1d0dc5c2af8027da3eef9fa6b6644e49fcb7fddb6273fd84825f58d8f",
+    "before": "استمر في الضغط على [BTN_FIRE] للتصويب<br>المقوس ثم حرر [BTN_FIRE] للرمي",
+    "after": "استمر بالضغط على [BTN_FIRE] لعرض مسار الرمي<br>حرر [BTN_FIRE] للرمي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8562,
+    "key": "HELP_WPN_WARMONGER",
+    "source_sha256": "41855c8f7feb1d126385da0b515fdae587c832f802cbf72a03b0e705fbc770df",
+    "before": "اضغط [BTN_FIRE] للإطلاق",
+    "after": "اضغط [BTN_FIRE] للإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8563,
+    "key": "HELP_WPN_WARMONGER_HOLD",
+    "source_sha256": "acfc86c7b9ff37ae6bf397f1008c999f54a942ba71f82b9fc369170cca6816e6",
+    "before": "اضغط [BTN_FIRE] للإطلاق واستمر في الضغط<br>للإطلاق المتكرر",
+    "after": "اضغط [BTN_FIRE] للإطلاق واستمر في الضغط<br>للإطلاق المتكرر",
+    "decision": "keep"
+  },
+  {
+    "index": 8564,
+    "key": "HELP_WPN_WARMONGER_LABEL",
+    "source_sha256": "92b0378aa207daf1f9c75f9e73851b161c12694145661e8a26632018f0d4a28e",
+    "before": "تاجر الحروب",
+    "after": "مؤجج الحروب",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8565,
+    "key": "HELP_WPN_WARMONGER_TOGGLE",
+    "source_sha256": "34a21b375c0ada2e7381fe9af3f2337c81139ca9022a13a93468552e837b8812",
+    "before": "انقر [BTN_FIRE] للإطلاق وانقر مرة أخرى<br>لإيقاف الإطلاق",
+    "after": "انقر [BTN_FIRE] للإطلاق وانقر مرة أخرى<br>لإيقاف الإطلاق",
+    "decision": "keep"
+  },
+  {
+    "index": 8566,
+    "key": "HELP_WPN_WARPRIFLE",
+    "source_sha256": "a7bb2860de33fb6534df6c093aca220479213b068daea146213141c1d15781e7",
+    "before": "اضغط [BTN_FIRE] نصف ضغطة للتدوير التحضيري<br>واضغط [BTN_FIRE] كاملا للإطلاق",
+    "after": "نصف ضغطة على [BTN_FIRE] لتدوير السبطانات<br>ضغطة كاملة على [BTN_FIRE] للإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8567,
+    "key": "HELP_WPN_WARPRIFLE_HOLD",
+    "source_sha256": "8cdb43ee816bcd2d0800493a328b300adaf26c65f844660fe34d37ec77fc2ea4",
+    "before": "استمر في الضغط على [BTN_FIRE] للتدوير<br>التحضيري والإطلاق",
+    "after": "استمر بالضغط على [BTN_FIRE] لتدوير السبطانات<br>والإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8568,
+    "key": "HELP_WPN_WARPRIFLE_LABEL",
+    "source_sha256": "3af3f0b52e8c4bc0a2e87d218e206188d4b1dd4cb4b4be01a911ead088c7f4b8",
+    "before": "عاصفة الثقب الأسود",
+    "after": "عاصفة الثقب الأسود",
+    "decision": "keep"
+  },
+  {
+    "index": 8569,
+    "key": "HELP_WPN_WARPRIFLE_MKB",
+    "source_sha256": "b0187cf2f2ede3292233e6530f902efc35ced9d68b2306d54d8e056f9d9f98fc",
+    "before": "اضغط [BTN_AIM] للتدوير التحضيري و[BTN_FIRE] للتدوير<br>التحضيري والإطلاق",
+    "after": "[BTN_AIM] لتدوير السبطانات<br>[BTN_FIRE] لتدوير السبطانات والإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8570,
+    "key": "HELP_WPN_WARPRIFLE_TOGGLE",
+    "source_sha256": "7aff9232db0f3aca901111886993eba96cc4d3dac14a016853caf15447b532f6",
+    "before": "انقر [BTN_FIRE] للتدوير التحضيري والإطلاق<br>وانقر مرة أخرى لإيقاف الإطلاق",
+    "after": "اضغط [BTN_FIRE] لتدوير السبطانات والإطلاق<br>اضغط مجددًا لإيقاف الإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24131,
+    "key": "TUT_AIM",
+    "source_sha256": "507da498ce2a6ced5be601ab15553c976f24166dfa5ca30a21b06bb4096a8865",
+    "before": "اضغط [BTN_AIM] للتصويب",
+    "after": "اضغط [BTN_AIM] للتصويب",
+    "decision": "keep"
+  },
+  {
+    "index": 24132,
+    "key": "TUT_AIMANDSHOOT",
+    "source_sha256": "ac053f5d1c20f42464983853183f42e6978360a05ae3f00ac0a95c8a8cc0807a",
+    "before": "ازر [BTN_AIM] مع [BTN_LOOK] للتصويب، و[BTN_FIRE] للإطلاق",
+    "after": "[BTN_AIM] + [BTN_LOOK] للتصويب، و[BTN_FIRE] للإطلاق",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24133,
+    "key": "TUT_AIM_SLOWDOWN",
+    "source_sha256": "6c0d201cbcde8fbafbb6de62398b350291a72cb2faf7331b3e8965e75599a9a8",
+    "before": "استمر بالضغط على [BTN_AIM] وحرك [BTN_LOOK] للتصويب",
+    "after": "استمر بالضغط على [BTN_AIM] وحرك [BTN_LOOK] للتصويب",
+    "decision": "keep"
+  },
+  {
+    "index": 24134,
+    "key": "TUT_AIRDASH_SCANNERS",
+    "source_sha256": "6ce7b76bd042c47c58899673f8b776e4a700c91930788867d317a72d340146a7",
+    "before": "اضغط [BTN_JUMP] ثم [BTN_DASH] للاندفاع الطيف الهوائي<br>عبر الماسحات",
+    "after": "اضغط [BTN_JUMP] ثم [BTN_DASH] لتنفيذ اندفاع طيفي في الهواء<br>عبر الماسحات",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24135,
+    "key": "TUT_BLIZON_CRYSTAL",
+    "source_sha256": "389938c8130f73e882947e5e73f2ab0f163dcffe72b14d42f4c60ebd65d26496",
+    "before": "اضغط [BTN_MELEE] لضرب بلورة البليزون",
+    "after": "اضغط [BTN_MELEE] لضرب بلورة البليزون",
+    "decision": "keep"
+  },
+  {
+    "index": 24136,
+    "key": "TUT_BOLTCRANK_ATTACH",
+    "source_sha256": "13b50d4266d3ff11a3780ff20fe1c7556674fd3d8b29a44aca893a81f91078fc",
+    "before": "اضغط [BTN_MELEE] للتعلق بمرفق المسامير",
+    "after": "اضغط [BTN_MELEE] للإمساك بذراع التدوير",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24137,
+    "key": "TUT_BOLTCRANK_TURN",
+    "source_sha256": "dc08a841fbe542b08c5a910519298bda699058a58cb5e8a3cdefb3e1916d5a36",
+    "before": "استعمل [BTN_MOVE] لتدوير مرفق المسامير",
+    "after": "استخدم [BTN_MOVE] للف ذراع التدوير",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24138,
+    "key": "TUT_BOUNCE_VENTS",
+    "source_sha256": "74c85f9a70985cd087c678f54ebfef5b5a90b0480077de36ff54a893e7d5e1eb",
+    "before": "اضغط [BTN_JUMP] للقفز على فتحات النط",
+    "after": "اضغط [BTN_JUMP] للقفز على فتحات الوثب",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24139,
+    "key": "TUT_BREAK_ALTAR_LORE",
+    "source_sha256": "67850febb08c6a38cbaca3e1039d46889abe7d25263072aac31644921b1ce58a",
+    "before": "حطم المذبح لتحصل على اللورب",
+    "after": "حطم المذبح لتحصل على اللورب",
+    "decision": "keep"
+  },
+  {
+    "index": 24140,
+    "key": "TUT_BULL_RIDE",
+    "source_sha256": "873119825ebf95ebdf0b6cd1cd0a00aaa0c7bd8ad16ecb990cf55c8bacf94781",
+    "before": "استمر بالضغط على [BTN_LT] لركوب الثور<br>الآلي",
+    "after": "استمر بالضغط على [BTN_LT] لركوب الثور<br>الآلي",
+    "decision": "keep"
+  },
+  {
+    "index": 24141,
+    "key": "TUT_BUYWEAPONS",
+    "source_sha256": "ba30a6ddef41ab5c6438a5e7c8f109ca88def797bd81f2ded5e2e10393f10c17",
+    "before": "استعمل المسامير لشراء الأسلحة من<br>السيدة زوركون",
+    "after": "استعمل المسامير لشراء الأسلحة من<br>السيدة زوركون",
+    "decision": "keep"
+  },
+  {
+    "index": 24142,
+    "key": "TUT_CLANKPUZZLE_AIM",
+    "source_sha256": "507da498ce2a6ced5be601ab15553c976f24166dfa5ca30a21b06bb4096a8865",
+    "before": "اضغط [BTN_AIM] للتصويب",
+    "after": "اضغط [BTN_AIM] للتصويب",
+    "decision": "keep"
+  },
+  {
+    "index": 24143,
+    "key": "TUT_CLANKPUZZLE_DEPLOY",
+    "source_sha256": "27215cbac99e2996d5a049409709d4dc91e51fbfae24859ac4905971655a197b",
+    "before": "اضغط [BTN_FIRE] لترمي كرة",
+    "after": "اضغط [BTN_FIRE] لترمي كرة",
+    "decision": "keep"
+  },
+  {
+    "index": 24144,
+    "key": "TUT_CLANKPUZZLE_DEPLOY_RECALL",
+    "source_sha256": "e672cfbc52f5fd309d6ca2bdd9679310da0e98377ac03d47df3e0f42a0763e56",
+    "before": "اضغط [BTN_FIRE] لترمي الكرات أو تستدعيها",
+    "after": "اضغط [BTN_FIRE] لرمي الكرات أو استعادتها",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24145,
+    "key": "TUT_CLANKPUZZLE_MELEE",
+    "source_sha256": "eda7b17582226a0be364b53fe8d5d216be5cc3ffc7840dde549f68eddfc0377d",
+    "before": "اضغط [BTN_MELEE] لتلكم",
+    "after": "اضغط [BTN_MELEE] لتلكم",
+    "decision": "keep"
+  },
+  {
+    "index": 24146,
+    "key": "TUT_CLANKPUZZLE_RECALL",
+    "source_sha256": "5fb1f350bcaf00ee4a7c7c6034acab0b805d48026de0548cf64fca95123ca070",
+    "before": "اضغط [BTN_FIRE] لاستدعاء الكرة",
+    "after": "اضغط [BTN_FIRE] لاستعادة الكرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 24147,
+    "key": "TUT_CLANKPUZZLE_RECALL_DESC",
+    "source_sha256": "0da22065f45d7a488314ce70b525db989415abd893a924a3d6675872afd58e34",
+    "before": "استدع كرة بالنظر إليها والضغط على<br>[BTN_LB]",
+    "after": "استعد الكرة بالنظر إليها والضغط على [BTN_LB]",
+    "decision": "rewrite"
+  }
+]

@@ -7,12 +7,20 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0;2.1&quot;>سأعود إلى سافالي.<ts=&quot;4.35;5.401&quot;>لم يكن يجب أن--",
     "arabic_edit": "<ts=&quot;0;2.1&quot;>سأعود إلى سافالي.<ts=&quot;4.35;5.401&quot;>لم يكن يجب أن--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "c71ac9a29073d06e56a93ce09da9cda6c1578803b48a8d9e7f18090c49f092f9",
+      "candidate_sha256": "9ca5e3414c77a8cf52564e17a719e67e0828560957c70645bff4cdf3f75651a1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11778,
@@ -21,13 +29,21 @@
     "speaker_code": "KIT",
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0;1.05&quot;>أنا حقا--<ts=&quot;2.509;4.26&quot;>أعني، أنا آسف، ريفت.<ts=&quot;5.559;6.559&quot;>على كل ما حدث.<ts=&quot;7.851;9.26&quot;>أنا--<ts=&quot;11.409;13.222&quot;>لست رفيقا جيدا...",
-    "arabic_edit": "<ts=&quot;0;1.05&quot;>أنا حقا--<ts=&quot;2.509;4.26&quot;>أعني، أنا آسف، ريفت.<ts=&quot;5.559;6.559&quot;>على كل ما حدث.<ts=&quot;7.851;9.26&quot;>أنا--<ts=&quot;11.409;13.222&quot;>لست رفيقا جيدا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.05&quot;>أنا حقًّا...<ts=&quot;2.509;4.26&quot;>أنا آسفة بصدق، يا ريفت.<ts=&quot;5.559;6.559&quot;>على كل شيء.<ts=&quot;7.851;9.26&quot;>أنا...<ts=&quot;11.409;13.222&quot;>لست شريكة جيدة...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "1d411e4c6737726febd00eb9f1999da93fd0dc79cb657fc25ff47d625b6cc850",
+      "candidate_sha256": "5f9efe9579a9160e9e306913cb79836819575cbfb65e38abb8fa1d51961550a9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11779,
@@ -36,14 +52,22 @@
     "speaker_code": "KIT",
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0.027;6.915&quot;>لماذا لا يفهمكم أحد؟! أنا<br>مكسورة. سأبقى مكسورة إلى<br>الأبد!",
-    "arabic_edit": "<ts=&quot;0.027;6.915&quot;>لماذا لا يفهمكم أحد؟! أنا مكسورة. سأبقى<br>مكسورة إلى الأبد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.027;6.915&quot;>لماذا لا يفهمني أي منكم؟! أنا معطوبة،<br>وسأظل معطوبة إلى الأبد!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "b14b645091089ffe0ccd732d4d29c2e1652d7a4b0325be40419e3b39adab974a",
+      "candidate_sha256": "f4a491d5e44e8ddb17932375c2c2dfa55a9f7d8087dbcd962a02f445a7cab173",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16408,
@@ -52,13 +76,21 @@
     "speaker_code": "PHAN",
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0.01;1.976&quot;>هل ينادي أحد على الإسناد؟!",
-    "arabic_edit": "<ts=&quot;0.01;1.976&quot;>هل ينادي أحد على الإسناد؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.01;1.976&quot;>هل طلب أحد دعمًا؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "bf614b8e7821c7a65b3227e378a492860a545e21c49727d9b966bf9e2d7000bf",
+      "candidate_sha256": "20d548149fba8d656cd8b7dfec113226ec22597e56f273d62ca79d44ccdf771e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20274,
@@ -68,13 +100,21 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0.007;3.775&quot;>شكرا على الإنقاذ. كيت، هل<br>أنت... ؟",
     "arabic_edit": "<ts=&quot;0.007;3.775&quot;>شكرا على الإنقاذ. كيت، هل أنت... ؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "abdfa221103833e1dbdcb073c597ff24286f908bbc4f48740e1eacf99b276a6c",
+      "candidate_sha256": "b7fba31173888003e14312f20d0629882e68b3a7f3364c10f95067806c695ebf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20275,
@@ -84,12 +124,20 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0.04;1.031&quot;>سنلقاك عند السفينة.",
     "arabic_edit": "<ts=&quot;0.04;1.031&quot;>سنلقاك عند السفينة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "b89b5a0a493fe22336c349586f2ea50546085e0b096e95735ca5501ffe8b37de",
+      "candidate_sha256": "0b603a27f70ac9e3ab06388d9e1b6ef7734d866affb7b7881aac9a4680ae2c6b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20276,
@@ -99,12 +147,20 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0;1.43&quot;>مهلا، أين كيت؟",
     "arabic_edit": "<ts=&quot;0;1.43&quot;>مهلا، أين كيت؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "85e9a7a7849367108686d6606c0078b17c4141bf1ebb87e5a3de3040c18d8d91",
+      "candidate_sha256": "b73c42d280b00789761471f0392ec98915b299d33128937604dad1c6a798ccd8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20277,
@@ -114,12 +170,20 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0.009;0.635&quot;>لكن...",
     "arabic_edit": "<ts=&quot;0.009;0.635&quot;>لكن...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "68a4b2e9c2677f557cb5224e520914703131a79be36a990836f63075009c3c0b",
+      "candidate_sha256": "301425be84dce3de725bcbff519e02c9f2a5d6d58a4c0c6f5bf4a14aacb4ab4d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21632,
@@ -129,12 +193,20 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0;0.805&quot;>أعطونا دقيقة.",
     "arabic_edit": "<ts=&quot;0;0.805&quot;>أعطونا دقيقة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "857141154c8bb4147ea1fccf95615ebe3cb8d6bbcf9423c4baed2e59dbc7c7f6",
+      "candidate_sha256": "6ff920d0f988ef26d21d730b24cf316e1b98d4e6e81bc894d85570f5f8ff861d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21633,
@@ -144,13 +216,21 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0;2.331&quot;>كلانك قال لي إن علي أن أحاول<br>مسامحتك...",
     "arabic_edit": "<ts=&quot;0;2.331&quot;>كلانك قال لي إن علي أن أحاول مسامحتك...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "9492fbe02880290b4b1bd06dd8b885e21faaade00db15a35d1e788a7663a99d0",
+      "candidate_sha256": "c9de8c208c3eb137e00852c0e9084c15cbb330346175793815e9f68df69b5244",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21634,
@@ -160,12 +240,20 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0.032;2.208&quot;>أنا أمم...",
     "arabic_edit": "<ts=&quot;0.032;2.208&quot;>أنا أمم...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "ea12052c60293c6ec71e418a593b1619b18ad6c3eea4512a8720e2e4ea1b4005",
+      "candidate_sha256": "d19e0fd507fd09f54ca2263a9923c147ce7a17e547d0c428aa78b6ecc87e4d4e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21635,
@@ -174,13 +262,21 @@
     "speaker_code": "RIVE",
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0;0.65&quot;>،مهلا<ts=&quot;1.389;3.489&quot;>هل ستختبئ مجددا؟ الآن؟",
-    "arabic_edit": "<ts=&quot;0;0.65&quot;>،مهلا<ts=&quot;1.389;3.489&quot;>هل ستختبئ مجددا؟ الآن؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.65&quot;>مهلًا،<ts=&quot;1.389;3.489&quot;>هل ستختبئين مجددًا؟ الآن؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "d9a19cc5b1977bd026972ad6892117ec919e654e88ddcb493207d75f86a59f70",
+      "candidate_sha256": "65a999a6bddf276e86b527fc32bdbc5d69abf81fd3d2b4b669af8c256b626231",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21636,
@@ -189,14 +285,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0.03;1.226&quot;>ربما كان بإمكانك —حسنا<br>ذلك!<ts=&quot;1.226;5.781&quot;>لو توقفت لمساعدتي تلك<br>الليلة بدل أن تهرب، لكان كل<br>شيء مختلفا.<ts=&quot;5.781;7.575&quot;>أو لو قلت الحقيقة فقط!<br>ربما...",
-    "arabic_edit": "<ts=&quot;0.03;1.226&quot;>ربما كان بإمكانك —حسنا ذلك!<ts=&quot;1.226;5.781&quot;>لو توقفت لمساعدتي تلك الليلة بدل أن تهرب،<br>لكان كل شيء مختلفا.<ts=&quot;5.781;7.575&quot;>أو لو قلت الحقيقة فقط! ربما...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.03;1.226&quot;>حسنًا... ربما يمكنك أن تكوني كذلك!<ts=&quot;1.226;5.781&quot;>لو توقفت لمساعدتي تلك الليلة بدلًا من<br>الهروب، لربما اختلفت الأمور.<ts=&quot;5.781;7.575&quot;>أو لو قلت الحقيقة فحسب! ربما...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "393497d84406f9689111256ba38b0788635a977646937f88b83401781002fa44",
+      "candidate_sha256": "503cc069c334a3586c35b5b410e8954a7f78f1128fee21f67178c33c366f71bc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21637,
@@ -205,13 +309,21 @@
     "speaker_code": "RIVE",
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0;0.731&quot;>فلين.<ts=&quot;1.78;2.83&quot;>اذهب واختبئ.<ts=&quot;2.909;4.952&quot;>لدينا كون ننقذه...<ts=&quot;5.189;7.061&quot;>أكثر من كون. لا يهم.",
-    "arabic_edit": "<ts=&quot;0;0.731&quot;>فلين.<ts=&quot;1.78;2.83&quot;>اذهب واختبئ.<ts=&quot;2.909;4.952&quot;>لدينا كون ننقذه...<ts=&quot;5.189;7.061&quot;>أكثر من كون. لا يهم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.731&quot;>حسنًا.<ts=&quot;1.78;2.83&quot;>اذهبي واختبئي.<ts=&quot;2.909;4.952&quot;>لدينا كون ننقذه...<ts=&quot;5.189;7.061&quot;>أكوان. لا يهم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "440b5d38af1d2becea2707ce9d974417de7bf7e25e132e2695f7e3fe940961c5",
+      "candidate_sha256": "4565a8bc31f6b4c409b9a2bdfbc54f64674e1877d5a6c916f0ae88b69f71221e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21638,
@@ -221,12 +333,20 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0;1.479&quot;>أصلا لا أحتاج شريكا.",
     "arabic_edit": "<ts=&quot;0;1.479&quot;>أصلا لا أحتاج شريكا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "f3ac4a747b14256717545ffd7faada4c575a1c450e6b80afd18186a134396f28",
+      "candidate_sha256": "b1322770bb58f2571cdf9d57c2131708f8bd2612fc39cb31a3878ecc6a1faeea",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21639,
@@ -236,11 +356,19 @@
     "scene_code": "ZORD_GP1_CINE_ESCAPE",
     "arabic_current": "<ts=&quot;0;0.928&quot;>هي لن تأتي.",
     "arabic_edit": "<ts=&quot;0;0.928&quot;>هي لن تأتي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "21ffc22a0580040c19792b8c3c56574b311bc8c7616488359e6c40b3f6a45538",
+      "candidate_sha256": "bf31b8580f89adbf72f224e4210b08e863497ca75942c3007622bb361e54811a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_ANTIGRAV",
     "arabic_current": "<ts=&quot;0;1.499&quot;>الطفو يزداد!",
     "arabic_edit": "<ts=&quot;0;1.499&quot;>الطفو يزداد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "a81a58b68f30f5419c03b350a5ce5442e1670caac26730aaa6b179b05c6a58ac",
+      "candidate_sha256": "53af00585be0e344fb2545ae76e6bfadb36ac801ced50aaa339e5ceb8235be28",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11800,
@@ -21,13 +29,21 @@
     "speaker_code": "KLEM",
     "scene_code": "HERO_GEN_ANTIGRAV",
     "arabic_current": "<ts=&quot;0;0.71&quot;>انطلق!",
-    "arabic_edit": "<ts=&quot;0;0.71&quot;>انطلق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.71&quot;>إقلاع!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "a7e0d782325f431aec2dd7aee98f77e2bfd62d114351e9294ea60d94d5edafbd",
+      "candidate_sha256": "01abe58b087d2740142ec759648cd848c573f9fea8d558816d9acfc1e5c4712e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11801,
@@ -37,11 +53,19 @@
     "scene_code": "HERO_GEN_ANTIGRAV",
     "arabic_current": "<ts=&quot;0.049;0.975&quot;>أنا في الطريق!",
     "arabic_edit": "<ts=&quot;0.049;0.975&quot;>أنا في الطريق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "9a4f3c18b093e03a828abd7d385fd8c7caa205eed4ec9257ffb027f44d103648",
+      "candidate_sha256": "eceff3f8da02c3ed366ebf49aae39ec32d23cf6b88041da79ba4cbcf88dc06d0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

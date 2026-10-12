@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BUYWARP",
     "arabic_current": "<ts=&quot;0.15;4.127&quot;>هذه الجميلة تطلق النار أسرع<br>من خنفساء في حريق<br>السهول!<ts=&quot;4.292;6.569&quot;>وتعمل بحرارة مشتعلة أيضا!",
-    "arabic_edit": "<ts=&quot;0.15;4.127&quot;>هذه الجميلة تطلق النار أسرع من خنفساء في<br>حريق السهول!<ts=&quot;4.292;6.569&quot;>وتعمل بحرارة مشتعلة أيضا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.15;4.127&quot;>هذا السلاح يطلق أسرع من خنفساء سبيتل في<br>حريق سهول!<ts=&quot;4.292;6.569&quot;>وحرارته لا تقل عن حرارة الحريق!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "d063d8f0d485a54fc05483ebf8bed6c7d1739b3dff609941bbac05dd47cbee0f",
+      "candidate_sha256": "85da9b60a52da921ecdef11ce8a18c2663a19281f7b9a40961fdbcf475c60433",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -19,13 +19,21 @@
     "scene_code": "ARDO_GP1_CINE_SAVED",
     "arabic_current": "<ts=&quot;0;4.017&quot;>بصراحة، تلك السفينة *كان<br>يجب* أن تنفجر في مولونوث!<ts=&quot;4.305;7.68&quot;>يمكن القول إنها دمرت نفسها!",
     "arabic_edit": "<ts=&quot;0;4.017&quot;>بصراحة، تلك السفينة *كان يجب* أن تنفجر في<br>مولونوث!<ts=&quot;4.305;7.68&quot;>يمكن القول إنها دمرت نفسها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "6450384634058d63219ea50b11480989771b9d992ca1bc48a260deeeb6aa5811",
+      "candidate_sha256": "8b6f0f1a3fd954b4131db5345ab0c5db3139b4c94b08e8d1ec4bdaa5bdb22a4b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16588,
@@ -35,13 +43,21 @@
     "scene_code": "ARDO_GP1_CINE_SAVED",
     "arabic_current": "<ts=&quot;0.067;3.827&quot;>لو أراد أحدهم إنقاذي، فالآن هو<br>الوقت--",
     "arabic_edit": "<ts=&quot;0.067;3.827&quot;>لو أراد أحدهم إنقاذي، فالآن هو الوقت--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "4cec2d7e0685344abd9e55501f34c6742c1156ce38c28d88aed9270993f98be2",
+      "candidate_sha256": "f38c3bd551f09e0222036ca3a3cb59e83b89ae8403ade4ebf3384ff068ba1710",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17416,
@@ -51,12 +67,20 @@
     "scene_code": "ARDO_GP1_CINE_SAVED",
     "arabic_current": "<ts=&quot;1.94;2.64&quot;>آه، بابلز!",
     "arabic_edit": "<ts=&quot;1.94;2.64&quot;>آه، بابلز!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "a1e6cbd1cecd43aca96ff1a61a743f38e28bb244a9300fc0e87716263e0e579d",
+      "candidate_sha256": "e92f09e5d42eaa4d99585cd2a09b46ca6ef1703e278613b2316bb1fbb35ac283",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17417,
@@ -65,14 +89,22 @@
     "speaker_code": "PIR3",
     "scene_code": "ARDO_GP1_CINE_SAVED",
     "arabic_current": "<ts=&quot;0.25;4.5&quot;>متسللون؟! لا يمكنكما<br>،إيقاف ذراع العدالة السريعة<br>أنتم--",
-    "arabic_edit": "<ts=&quot;0.25;4.5&quot;>متسللون؟! لا يمكنكما ،إيقاف ذراع العدالة<br>السريعة أنتم--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.25;4.5&quot;>متسللون؟! لن توقفوا يد العدالة السريعة،<br>أيها...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "66e6def8325b2ee7babeb48c11b7c0f19a06954fc2cdd8ce78efd17c983bd5ab",
+      "candidate_sha256": "54272d7d368faab05f216513414245d947094a862bb480a7be45dd57d6c317e5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17418,
@@ -82,12 +114,20 @@
     "scene_code": "ARDO_GP1_CINE_SAVED",
     "arabic_current": "<ts=&quot;0.044;1.97&quot;>غررررر!!!",
     "arabic_edit": "<ts=&quot;0.044;1.97&quot;>غررررر!!!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-023",
+      "source_sha256": "4fb0a3b8fa3dfe72f191ca7e7c6d378fb968338a0430e37164cc44a6703e59f0",
+      "candidate_sha256": "f6c9070d0d6775d56114892327032cd59c41da1c8e9f3cee5cca47026d94f1c7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18958,

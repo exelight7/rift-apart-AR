@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_CARPETSOON",
     "arabic_current": "<ts=&quot;0;3.95&quot;>اختيار متفجر. سيعود إلى<br>المخزون قريبا!",
     "arabic_edit": "<ts=&quot;0;3.95&quot;>اختيار متفجر. سيعود إلى المخزون قريبا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "7cb057f7413da130a7edcb3b9f5141c3e7397f519df50e3d6b2c4413cf5167e5",
+      "candidate_sha256": "63f9bdc6daf0ab5dc284b99a83915895c4c8d5e56f6b87999b54f4b2f9127850",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

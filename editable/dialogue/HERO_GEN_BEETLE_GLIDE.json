@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_BEETLE_GLIDE",
     "arabic_current": "<ts=&quot;0.026;1.92&quot;>هو-وو!",
     "arabic_edit": "<ts=&quot;0.026;1.92&quot;>هو-وو!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "d64d09183c5622664cc68f7f54de85f44b21ebe41e7af41d36af952e334a2fbb",
+      "candidate_sha256": "b1d3c3b4a38d0c0ae1bad0b9d4dd184d1ca54fcab561230f57a380597eeefb38",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20730,
@@ -21,12 +29,20 @@
     "speaker_code": "RIVE",
     "scene_code": "HERO_GEN_BEETLE_GLIDE",
     "arabic_current": "<ts=&quot;0.046;2.236&quot;>ما ألذ هذا الهواء!",
-    "arabic_edit": "<ts=&quot;0.046;2.236&quot;>ما ألذ هذا الهواء!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.046;2.236&quot;>يا لها من قفزة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-028",
+      "source_sha256": "d9a64eb3398b0ddf1b995e7ab11169ebfefd78ba85800a515d2b7f86661f67aa",
+      "candidate_sha256": "a2ba4e19bfd9f7b557a2093ad3954374a1e2ac493eac207f745dbe44fc50428a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

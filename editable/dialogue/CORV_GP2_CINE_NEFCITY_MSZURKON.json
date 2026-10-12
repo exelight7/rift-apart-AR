@@ -7,13 +7,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0.037;3.934&quot;>نسيت طلبك؟ تفضل، ادخل<br>مباشرة.",
     "arabic_edit": "<ts=&quot;0.037;3.934&quot;>نسيت طلبك؟ تفضل، ادخل مباشرة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "cc60b976c50e2770962e78ac3e8823b1086b7f3dad217fc79b3b8b4a8f325bec",
+      "candidate_sha256": "3bbc63ba197a983e26325cf24eee6afaf0297716ff0d9990bdfac8dc14ffe5b1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13691,
@@ -22,14 +30,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0;2.986&quot;>ستبيعك السيدة زوركون<br>،الأسلحة<ts=&quot;2.986;5.88&quot;>لكن يجب ألا تكون لفتا<br>،للانتباه<ts=&quot;5.946;9.175&quot;>وإلا لن تصمد المقاومة.",
-    "arabic_edit": "<ts=&quot;0;2.986&quot;>ستبيعك السيدة زوركون ،الأسلحة<ts=&quot;2.986;5.88&quot;>لكن يجب ألا تكون لفتا ،للانتباه<ts=&quot;5.946;9.175&quot;>وإلا لن تصمد المقاومة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.986&quot;>ستبيعك السيدة زوركون الأسلحة،<ts=&quot;2.986;5.88&quot;>لكن عليك تقليل لفت الانتباه،<ts=&quot;5.946;9.175&quot;>وإلا فلن تصمد المقاومة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "7a8c4edb220af7c4cc552a90241b9b818273835fdd02901c90b5d06bb13d1819",
+      "candidate_sha256": "4ff2db8a74697ff249c7f2f58bedbaae422b919a196e7cf9830e13d38cb2b600",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13692,
@@ -38,14 +54,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0.033;9.145&quot;>أوووو. ،آسفة يا حبيبتي<br>السيدة زوركون ما زالت جديدة<br>في كل هذا... التجسس. أنا--",
-    "arabic_edit": "<ts=&quot;0.033;9.145&quot;>أوووو. ،آسفة يا حبيبتي السيدة زوركون ما<br>زالت جديدة في كل هذا... التجسس. أنا--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.033;9.145&quot;>أوه، أعتذر، يا قمر؛ ما زالت السيدة زوركون<br>جديدة على أمور... التجسس. أنا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "635716e2cd50b9e10a83b860c718549980b4d765ad58f911f413a0b6d13d9098",
+      "candidate_sha256": "0e35888ed111fddcd14a157cc22e0aa7bdaf75aae2368464a8fa30cbc0688594",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13693,
@@ -55,13 +79,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0.29;5.963&quot;>هل هذا اختبار؟ يسمح<br>بالسفن الملكية وحدها<br>بالمغادرة. أي شيء آخر--",
     "arabic_edit": "<ts=&quot;0.29;5.963&quot;>هل هذا اختبار؟ يسمح بالسفن الملكية وحدها<br>بالمغادرة. أي شيء آخر--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "000cf5727293c32fe33d2c5d41ebae60764671bbb1cdd7652c273c79a5c73a89",
+      "candidate_sha256": "01e102520fc9e544f31f743ac604b1ca96d3ccbc08923352ae31a3c72b0e01c3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13694,
@@ -71,13 +103,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0;3.099&quot;>أوه، لكن الطيف يمكنه<br>المساعدة!<ts=&quot;3.202;8.089&quot;>اتبع الإيقاع حتى نادي<br>نيفاريوس وستجده هناك.",
     "arabic_edit": "<ts=&quot;0;3.099&quot;>أوه، لكن الطيف يمكنه المساعدة!<ts=&quot;3.202;8.089&quot;>اتبع الإيقاع حتى نادي نيفاريوس وستجده<br>هناك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "4123bece55beae2b7c4e2eb3e7ee01ac5fa1fc0e4c8be8f179f190b78f27817e",
+      "candidate_sha256": "b1cbbf6af1b275eff575aa30592cdecb93758db25291e64c14425dd68db866d9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13695,
@@ -87,12 +127,20 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0.052;4.873&quot;>أووهوهو، هذا مثير جدا.",
     "arabic_edit": "<ts=&quot;0.052;4.873&quot;>أووهوهو، هذا مثير جدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "dca5d1d9bdbff96d2daef3fbb810bbb5393f4f4ae1eb08d7fa3f1a764d4b2ab2",
+      "candidate_sha256": "f0e6dedd0eb35ca8a9dbad2b42f95e79e38bd1a6de91bfcba1b1406963ae9997",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14637,
@@ -102,12 +150,20 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0;1.999&quot;>توقف! أفلت الرهينة!",
     "arabic_edit": "<ts=&quot;0;1.999&quot;>توقف! أفلت الرهينة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-020",
+      "source_sha256": "9f1a43cbcb3e2990da11b47c9b18b1d863b053785960adc67a063489180dcf1b",
+      "candidate_sha256": "52647e63742f4122c1838e0e680b193e7a1756b657daa1d960acddb96623b139",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19189,
@@ -117,12 +173,20 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0.042;1.191&quot;>مهلا ثانية—",
     "arabic_edit": "<ts=&quot;0.042;1.191&quot;>مهلا ثانية—",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "bdf90817cd888f504658834f70670b20a195fb6dae275584fe27fa85fc7ab795",
+      "candidate_sha256": "2e5beef3e078e026802c4bf00e15f14b673ca39e19d72ff9295e8030877fea3f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19190,
@@ -132,12 +196,20 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0;1&quot;>المقاومة؟",
     "arabic_edit": "<ts=&quot;0;1&quot;>المقاومة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "60a22145df6e60bbbbb799e02889d92d8fc0d4c309db844050156f4f923875f0",
+      "candidate_sha256": "6c21cdbe53501a11e29f633fc26f6b460b5f92533267d062285a15d35f6ef944",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19191,
@@ -147,12 +219,20 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0.038;0.723&quot;>كلانك!",
     "arabic_edit": "<ts=&quot;0.038;0.723&quot;>كلانك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "5ab4bfbd855feb41582bc357a06f1d0b3fd721e92028a737fb87a19933c44a26",
+      "candidate_sha256": "65a9c2e71ba49482381fbc17a016b9f438816184567b822a3e1f725e6ddabe65",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19192,
@@ -162,12 +242,20 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0;0.852&quot;>لا...",
     "arabic_edit": "<ts=&quot;0;0.852&quot;>لا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "8a379625913a5da63860cd8758792e8a70b7bf0442736dcdb9456ff9d512ff36",
+      "candidate_sha256": "874ce8a70561cb36a744828198f811f79dba0aa9056061bc4e79ececa65640f4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19193,
@@ -177,13 +265,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0;3.064&quot;>علي اللحاق بتلك السفينة!<br>كيف أخرج من الكوكب؟",
     "arabic_edit": "<ts=&quot;0;3.064&quot;>علي اللحاق بتلك السفينة! كيف أخرج من<br>الكوكب؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "831ba5305223b8b4fde4442f5bb65adcc5dd8983aacab86b108f66ec3004f288",
+      "candidate_sha256": "54379a042ef0151674836a2216061b423b7c76006ba41a1949aafb95b61c15b9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19194,
@@ -193,13 +289,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_MSZURKON",
     "arabic_current": "<ts=&quot;0;3.733&quot;>نادي نيفاريوس، فهمت. وأوه...<br>عمل متقن أيتها الجاسوسة<br>السرية زوركون.",
     "arabic_edit": "<ts=&quot;0;3.733&quot;>نادي نيفاريوس، فهمت. وأوه... عمل متقن<br>أيتها الجاسوسة السرية زوركون.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "c74d4850b934641bdf2d8ad181e0fb947c7e65d64894d0f4baf6c9b9841e2403",
+      "candidate_sha256": "112927c65e254e063d4d1235e0582a3d0008b38444743d07e55ab3afb5da63e9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24699,

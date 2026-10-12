@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_WAVE",
     "arabic_current": "<ts=&quot;0.065;2.85&quot;>المزيد! أرسلوا المزيد!",
     "arabic_edit": "<ts=&quot;0.065;2.85&quot;>المزيد! أرسلوا المزيد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "a9251b3eff5236708ea455f9e783a07c3d9f77abf84352d9e6c0b559c7509e6e",
+      "candidate_sha256": "353122b3a5c0cbfe62a37527d5093af59ead21863dbf52c0bc2330890c60b00e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10599,
@@ -22,12 +30,20 @@
     "scene_code": "CIV_GEN_WAVE",
     "arabic_current": "<ts=&quot;0.064;2.74&quot;>أحضروا البدلاء!",
     "arabic_edit": "<ts=&quot;0.064;2.74&quot;>أحضروا البدلاء!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "b452928ca7afe515e404e0877237faa43ec57878a306314d9f5922b5038c7111",
+      "candidate_sha256": "dbb15cf1858e521249474335a41ab2ca68cb6943f49fde8d1cf887d22b5c0256",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10600,
@@ -37,13 +53,21 @@
     "scene_code": "CIV_GEN_WAVE",
     "arabic_current": "<ts=&quot;0.065;4.131&quot;>يدخل: فريق ب! أم أنه فريق<br>ج...",
     "arabic_edit": "<ts=&quot;0.065;4.131&quot;>يدخل: فريق ب! أم أنه فريق ج...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "a1abe0542b648de17b0b79a80a051e303b552b398304e7ca25f17b0247dfb81e",
+      "candidate_sha256": "ef21bac1d85c5853047d2c1d892b42227be848bed4d45ed6dbc0123268dfb8d5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10601,
@@ -53,12 +77,20 @@
     "scene_code": "CIV_GEN_WAVE",
     "arabic_current": "<ts=&quot;0.067;2.938&quot;>دع الفوضى تستمر!",
     "arabic_edit": "<ts=&quot;0.067;2.938&quot;>دع الفوضى تستمر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "e287e1ae6cceecf0d8a0a2c3b5fa87e5c836ce380a5e2bf6c8a2667bda901d6e",
+      "candidate_sha256": "33fc9e13e411c61e8e88fee86c1670d980ebe0d4f7831841a40e889dea0fb53b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10602,
@@ -68,12 +100,20 @@
     "scene_code": "CIV_GEN_WAVE",
     "arabic_current": "<ts=&quot;0.065;3.145&quot;>جولة أخرى من فضلك! أخرى!",
     "arabic_edit": "<ts=&quot;0.065;3.145&quot;>جولة أخرى من فضلك! أخرى!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "62125ee1c8d88b620e25c5673d5d7c4fef9e6853fce54303b8468621669e7dbd",
+      "candidate_sha256": "319254fb1bbc74bf3a88c431b1d4754b86142f0366f0ba31d3e76bdb3db1679b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10603,
@@ -82,14 +122,22 @@
     "speaker_code": "JRZK",
     "scene_code": "CIV_GEN_WAVE",
     "arabic_current": "<ts=&quot;0.053;3.807&quot;>زوركون الصغير يطالب بمزيد<br>من فريسة الأسلحة!",
-    "arabic_edit": "<ts=&quot;0.053;3.807&quot;>زوركون الصغير يطالب بمزيد من فريسة<br>الأسلحة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.053;3.807&quot;>زوركون الصغير يطالب بمزيد من الأهداف<br>لأسلحتك!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "ec7437cf08b129024d1e355c901fa073e686961eaf69c26fe367081e1e944990",
+      "candidate_sha256": "039611bf42bec2a77b06a855072fc61a870b313e4ede25937477396df388e465",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10604,
@@ -98,12 +146,20 @@
     "speaker_code": "JRZK",
     "scene_code": "CIV_GEN_WAVE",
     "arabic_current": "<ts=&quot;0.066;1.361&quot;>أبقوهم يأتون!",
-    "arabic_edit": "<ts=&quot;0.066;1.361&quot;>أبقوهم يأتون!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.066;1.361&quot;>واصلوا إرسالهم!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-012",
+      "source_sha256": "dc47911f52a0a9e3b4505e80cec8b9190ffb2e5c6fb5912cc23bcae4616bab2b",
+      "candidate_sha256": "469b2278106b4c21c1676ff65fb838520b96b417db91ad5021509c7d0c7e55e1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

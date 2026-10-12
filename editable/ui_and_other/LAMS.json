@@ -6,13 +6,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "غير مسجل لالتقاط نسخة<br>تجريبية",
-    "arabic_edit": "غير مسجل لالتقاط نسخة تجريبية",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "غير مسجل / تسجيل إضافي / يعاد التسجيل /<br>تسجيل تجريبي",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-005",
+      "source_sha256": "1d73c2c959f9af53e7917f6c8c225e3510da9024a43e0682c8c81885496f2d74",
+      "candidate_sha256": "66ceddce39079ae68cd1e87d46642f7cc452b58ed50cd9548754d50cb3ae328a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.044;1.544&quot;>مرحبا بك مجددا.",
     "arabic_edit": "<ts=&quot;0.044;1.544&quot;>مرحبا بك مجددا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "f15c5e6ad286bf435bf4bbbd71ced80f43c61052ce515f32c9472f8d78f68b25",
+      "candidate_sha256": "a44127805f773ddae056468a53ce8bb3f81ce2b68ea9d5120f369b6fa4573084",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13300,
@@ -21,13 +29,21 @@
     "speaker_code": "MRSZ",
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.03;1.25&quot;>تحياتي، أيها اللومباكس.",
-    "arabic_edit": "<ts=&quot;0.03;1.25&quot;>تحياتي، أيها اللومباكس.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.03;1.25&quot;>تحياتي، يا لومباكس.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "f78b00fdeb8136418405689b6c603d78d8a7c8720966d9b75345b512343fd4b8",
+      "candidate_sha256": "03ba0f804da181f628f5a4d0880236330b5844a223e28d4fc19b2229a99e8aba",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13301,
@@ -37,13 +53,21 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.31;2.999&quot;>السيدة زوركون سعيدة<br>بعودتك.",
     "arabic_edit": "<ts=&quot;0.31;2.999&quot;>السيدة زوركون سعيدة بعودتك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "82b77fda48cccf85155b63499343803a020d68289576e49534933d3eab5f9b91",
+      "candidate_sha256": "33ac158d4b8c64c25a0ba531fb1720a68b120f167da081937df8af211231154e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13302,
@@ -53,12 +77,20 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.069;2.835&quot;>عدت مجددا؟ جيد.",
     "arabic_edit": "<ts=&quot;0.069;2.835&quot;>عدت مجددا؟ جيد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "979a84aa3bc4034c5cce664f6f233bad0c3d4e31d142e997c4cd734ac2be19a8",
+      "candidate_sha256": "4786b998640c0bd553d3a4ed1ca7eb87dbeac51e220865cf5170261a86323f08",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13500,
@@ -67,13 +99,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.389;3&quot;>يا لها، هذا زبوني المفضل!",
-    "arabic_edit": "<ts=&quot;0.389;3&quot;>يا لها، هذا زبوني المفضل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.389;3&quot;>أهلًا بأعز زبائني!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "11f382f56c978b17afd264063defc583416177a530f4f0fb935d8c8f4c9cc37b",
+      "candidate_sha256": "544eac306cc816ebc1715006c850bb647326c198d7cc8e1e99d43c255cd60af1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13501,
@@ -82,14 +122,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.069;3.101&quot;>الآن، ماذا يمكن للالسيدة<br>زوركون أن تفعل لك؟",
-    "arabic_edit": "<ts=&quot;0.069;3.101&quot;>الآن، ماذا يمكن للالسيدة زوركون أن تفعل<br>لك؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.069;3.101&quot;>إذن، ماذا يمكن للسيدة زوركون أن تقدم لك؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "424b9cd6af1aa41e3e5b7475c48a6b994a2562c0f3213b1cd5dc390c4d8fb678",
+      "candidate_sha256": "4b473f6fa479519910b5c179ee3d5d463e7cd146f64bb868b2a4f5a26ed4996f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13502,
@@ -99,12 +147,20 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.071;2.078&quot;>هو-يو! أهلا بك!",
     "arabic_edit": "<ts=&quot;0.071;2.078&quot;>هو-يو! أهلا بك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "7345d06aa1c89386d238ddebe3167145ecb14c4d272bdfeb0d757ab40378c656",
+      "candidate_sha256": "f55f78e11b300b953e443dc30ec9db990cc18790f16c2500cd4551085dc3fa44",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13503,
@@ -114,12 +170,20 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.04;1.44&quot;>لم أرك منذ زمن.",
     "arabic_edit": "<ts=&quot;0.04;1.44&quot;>لم أرك منذ زمن.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "9ce50264d3ebbdc87f1a65d34d2f3083b9d308139f5adc681924eb899b362dbd",
+      "candidate_sha256": "eddc2c9ec28782c72940ec2743873e2442325d7b44f56adb6a99df87eeb5f5f4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13504,
@@ -129,12 +193,20 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.033;2.752&quot;>أوه! انظر من وصل!",
     "arabic_edit": "<ts=&quot;0.033;2.752&quot;>أوه! انظر من وصل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "c5b703284a92fdcfdb1ae4c708da5a3adcf1fb0f1bf4c53be2ba54d9d0828ca6",
+      "candidate_sha256": "9eb5f492de8e20fcc7348f26f608b56e24eae992651913d47aa2b0d151e0be1f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13505,
@@ -143,13 +215,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.061;2.131&quot;>انظر إلى من أحضره القط.",
-    "arabic_edit": "<ts=&quot;0.061;2.131&quot;>انظر إلى من أحضره القط.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.061;2.131&quot;>انظروا من شرفنا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "be44e8d44309095301df1312233d1095f585ba293cd00c593433c19c0d671fb3",
+      "candidate_sha256": "d41a2505a7f21a46b19b58f61f72f0e7d7c840495df16768c1f25103048fd9d3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13506,
@@ -158,13 +238,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.04;1.499&quot;>كيف كنت يا حبيبتي؟",
-    "arabic_edit": "<ts=&quot;0.04;1.499&quot;>كيف كنت يا حبيبتي؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.04;1.499&quot;>كيف حالك، يا قمر؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "0f67953e55482483dd95aba3452c3ec7ce56ae9a4d5ebcddc40abe5aa4684794",
+      "candidate_sha256": "55e27f4ddec63ccc0af0c36063ba13a5dd03d6136000235e4c8cf9f164eb475e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13507,
@@ -174,13 +262,21 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.067;2.858&quot;>أهلا بك في متجر السيدة<br>زوركون!",
     "arabic_edit": "<ts=&quot;0.067;2.858&quot;>أهلا بك في متجر السيدة زوركون!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "6de7c04e681e6aeaff22ae8742672eaf89e790deafcf83857d5a7a9edfb25888",
+      "candidate_sha256": "d11bbdc3e68765fabf1de273da5e1e59d5c5b9a8f045567b97444c4db51d77a7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13508,
@@ -190,12 +286,20 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.42;1.82&quot;>سعيدة برؤيتك!",
     "arabic_edit": "<ts=&quot;0.42;1.82&quot;>سعيدة برؤيتك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "be8cbad729e5538b748a3d4f72ed16fd242e9aae4659b3fe8bb207ec1b31344b",
+      "candidate_sha256": "fb4d9b5761c33eb8be4f3b8d68ac4959975c85c4bb2f15849af94558cf09fc8e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13509,
@@ -205,12 +309,20 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.77;2.42&quot;>أهلا بعودتك!",
     "arabic_edit": "<ts=&quot;0.77;2.42&quot;>أهلا بعودتك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "ff7ce8da4657919314226eb51ff94be378cfd069fc40ba27a15decf05cc831e6",
+      "candidate_sha256": "17cf90e97f304808372fec4161aa4cabec5e0c1824a6448d5ea44a14d4aa93a9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13510,
@@ -220,12 +332,20 @@
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.042;1.943&quot;>أهلا يا حبيبي!",
     "arabic_edit": "<ts=&quot;0.042;1.943&quot;>أهلا يا حبيبي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "73f291af9928e49f795265acee05c9cc9c14215ebee4b1898501893360538eca",
+      "candidate_sha256": "95f29e5eeb3cbc75f805095aefbd2181d7412971783a503f2d7b4b710c460a12",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13511,
@@ -234,12 +354,20 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_GREETING",
     "arabic_current": "<ts=&quot;0.04;1.79&quot;>أرجو إنك هنا للشراء؟",
-    "arabic_edit": "<ts=&quot;0.04;1.79&quot;>أرجو إنك هنا للشراء؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.04;1.79&quot;>هل جئت للشراء؟ هذا ما أرجوه!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "27c8fc2d9cc78af3ad1fe10ba9fa2aeea24eeb99eb18a7eb23258a9920648bc0",
+      "candidate_sha256": "a811289de1034bc1a92c6a4d82140024b156761ac58e0a779bb58735ed117fb6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

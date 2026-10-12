@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_UNLOCKMYST",
     "arabic_current": "<ts=&quot;0.068;2.058&quot;>لقد فتح لك، يا حبيبتي!",
-    "arabic_edit": "<ts=&quot;0.068;2.058&quot;>لقد فتح لك، يا حبيبتي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.068;2.058&quot;>لقد أتحته، يا قمر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "796c407fd8d2cb3cb434ece7d48dce8edebe4fd36efec9f7f25227b500b33cd8",
+      "candidate_sha256": "4964fac7635c56d6eb1354df8e1b2ab23f674dd7692373f2a54145593a2dbac0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13670,
@@ -21,14 +29,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_UNLOCKMYST",
     "arabic_current": "<ts=&quot;0;3.96&quot;>يبدو إنك تستطيع التقاط<br>إحدى التطويرات الخارقة.",
-    "arabic_edit": "<ts=&quot;0;3.96&quot;>يبدو إنك تستطيع التقاط إحدى التطويرات<br>الخارقة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.96&quot;>يبدو أنك تستطيع الحصول على أحد التطويرات<br>الخارقة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "d27a38bde0615c1209e566b75a034156e8370fb15b1e649bcfc6e4ef8f61ce7f",
+      "candidate_sha256": "421953ecd8cb78635b97157e12c266cba4609c5ad7438445f509c5c908ddc3ee",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13671,
@@ -37,13 +53,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_UNLOCKMYST",
     "arabic_current": "<ts=&quot;0;3.749&quot;>لديك تطوير كبيرة<br>بانتظارك، حبيبتي.",
-    "arabic_edit": "<ts=&quot;0;3.749&quot;>لديك تطوير كبيرة بانتظارك، حبيبتي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.749&quot;>هناك تطوير هائل متاح لك، يا قمر.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "aa618dac26b5d961b9430240cdd5ea31a764cd0d3625baec27a3542416c1334c",
+      "candidate_sha256": "336d66f3c9c62368b7135112e5eef55f96fc74ca75cb21429809ea63080af492",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

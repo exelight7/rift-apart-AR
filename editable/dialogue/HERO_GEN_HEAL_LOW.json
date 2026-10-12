@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_HEAL_LOW",
     "arabic_current": "<ts=&quot;0.041;1.654&quot;>كنت سأموت لولا ذلك.",
     "arabic_edit": "<ts=&quot;0.041;1.654&quot;>كنت سأموت لولا ذلك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "b66a0dc76482e54727084c831c16da7178311c3e1d519ad013a93adc619109e5",
+      "candidate_sha256": "aac10f1387717b5d80e2ec8d2b9c82492c002d3bb20322f8a12a156b2f710e22",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8326,
@@ -21,13 +29,21 @@
     "speaker_code": "GLIT",
     "scene_code": "HERO_GEN_HEAL_LOW",
     "arabic_current": "<ts=&quot;0.023;1.288&quot;>كان هذا قريبا!",
-    "arabic_edit": "<ts=&quot;0.023;1.288&quot;>كان هذا قريبا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.023;1.288&quot;>نجوت بأعجوبة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "e824df0e349f60e10057861c87f0b4deaac38d2fde55f499c55a414bbf4244f7",
+      "candidate_sha256": "4c5aaa3875e173069b47eefa8200e34bae5170b22a11995d9e2301f8f99eb938",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8327,
@@ -37,12 +53,20 @@
     "scene_code": "HERO_GEN_HEAL_LOW",
     "arabic_current": "<ts=&quot;0.047;1.342&quot;>من حسن حظي أنني وجدته.",
     "arabic_edit": "<ts=&quot;0.047;1.342&quot;>من حسن حظي أنني وجدته.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "432e3725c2e63da76d58dacb769e061073acb6318f9eabb3dde1b430ba240bb2",
+      "candidate_sha256": "4a4754114bd7b34574e42f9b75122804474f83b342a85ca08878c7e8e9602584",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8328,
@@ -52,11 +76,19 @@
     "scene_code": "HERO_GEN_HEAL_LOW",
     "arabic_current": "<ts=&quot;0.043;1.39&quot;>كاد يقتلني هناك...",
     "arabic_edit": "<ts=&quot;0.043;1.39&quot;>كاد يقتلني هناك...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-010",
+      "source_sha256": "11b0a507282eee424279c70af1d12daf8041ce89bc11eed65c02d6f1909136b8",
+      "candidate_sha256": "23e824c41b46e3fbcb3843c77e3ca80428b95f05baff5457ad7382b409b77dcf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -7,12 +7,20 @@
     "scene_code": "KEDS_GP1_TOGETHER",
     "arabic_current": "<ts=&quot;0.023;0.513&quot;>جوس.",
     "arabic_edit": "<ts=&quot;0.023;0.513&quot;>جوس.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "8e29d785541b1f3732da3476f88d6d7faa66e3bf72bdc9acb274bbc22f1cd39f",
+      "candidate_sha256": "d2139bba7930236beb3a54fed7aadf8f94ce05d2304f4d0bcedcb492395ad5b6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10960,
@@ -22,13 +30,21 @@
     "scene_code": "KEDS_GP1_TOGETHER",
     "arabic_current": "<ts=&quot;0.31;1.988&quot;>... حسنا، لا. ليس في الوقت<br>الحالي...",
     "arabic_edit": "<ts=&quot;0.31;1.988&quot;>... حسنا، لا. ليس في الوقت الحالي...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "22edac1ad56f71ea1c70c0fc313ced4e9b92f63d1be82f3269f2f955486a5064",
+      "candidate_sha256": "127deb4dd21e2ce8d39588d5dc0296d622ba8c9ca7d9b3108180ce037336591f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10961,
@@ -38,13 +54,21 @@
     "scene_code": "KEDS_GP1_TOGETHER",
     "arabic_current": "حسنا... سنحتاج إلى بيض<br>قنديل البحر لتشغيل<br>المولدات.",
     "arabic_edit": "حسنا... سنحتاج إلى بيض قنديل البحر لتشغيل<br>المولدات.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "631d52baa574c3fc1574a651adfefd4009d6ebce6c32df5c5659c4ff25e265f3",
+      "candidate_sha256": "8967a1d9b0a903d1d063c6348aa94d522430ddeb7642e3b22f1028ca79cf91b4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 10962,
@@ -53,14 +77,22 @@
     "speaker_code": "JUNB1",
     "scene_code": "KEDS_GP1_TOGETHER",
     "arabic_current": "،تكون هذه عادة في الحاضنات<br>لكن المحطة هجرت قبل أن<br>تصل شحنتنا...",
-    "arabic_edit": "،تكون هذه عادة في الحاضنات لكن المحطة هجرت<br>قبل أن تصل شحنتنا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "عادةً نجدها في المفرخة، لكن المحطة هجرت<br>قبل وصول شحنتنا...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "ff63ff24c41b76c6506cbce1f4f3bdf43b00eae17f58a2b436dbc002aed0d419",
+      "candidate_sha256": "a364e99a9e0f5f678f8639068ff2d38fffe98f598d6e1be90f0ca1ba8bd49c69",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19902,
@@ -70,12 +102,20 @@
     "scene_code": "KEDS_GP1_TOGETHER",
     "arabic_current": "<ts=&quot;0;0.7&quot;>انتهيت.<ts=&quot;0.899;2.299&quot;>إذن... ما التشخيص؟",
     "arabic_edit": "<ts=&quot;0;0.7&quot;>انتهيت.<ts=&quot;0.899;2.299&quot;>إذن... ما التشخيص؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "b87281f50a0b0121a6f84fa223d2218c401363542ede2c6ea7ef09c945fb8c77",
+      "candidate_sha256": "fa132607df6d428efff5a956f814a2b19c3a9dc873205c3b0f45c7c850d470ab",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19903,
@@ -85,13 +125,21 @@
     "scene_code": "KEDS_GP1_TOGETHER",
     "arabic_current": "<ts=&quot;0;2.23&quot;>حسنا. في طريقي. علي<br>فقط...<ts=&quot;2.81;4.25&quot;>مواجهة ذلك الوحش.",
     "arabic_edit": "<ts=&quot;0;2.23&quot;>حسنا. في طريقي. علي فقط...<ts=&quot;2.81;4.25&quot;>مواجهة ذلك الوحش.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "12221aa4273e11491e0d1a19a85ecb05b4a660b234fe4c23dd397530781bb692",
+      "candidate_sha256": "f53fd7906c0df9d5b673ef73c9f3b95e83004dcf0ca1a937cab12956c03fd026",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19904,
@@ -100,12 +148,20 @@
     "speaker_code": "RATC",
     "scene_code": "KEDS_GP1_TOGETHER",
     "arabic_current": "<ts=&quot;0;1.338&quot;>هل تريد مواجهته؟",
-    "arabic_edit": "<ts=&quot;0;1.338&quot;>هل تريد مواجهته؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.338&quot;>هل تريدين مواجهته؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-026",
+      "source_sha256": "aa1ee53d0f38363ced0ae59aa051cd79e8db959e060a2b8d78bbc20cfe764772",
+      "candidate_sha256": "7ecc69d509660d2f3321769beb57af05238b34452a31a8f31ee3fe52f5db469b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

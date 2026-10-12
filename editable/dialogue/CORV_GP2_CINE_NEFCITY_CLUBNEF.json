@@ -7,13 +7,21 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_CLUBNEF",
     "arabic_current": "<name=&quot;NCPA&quot;><ts=&quot;0.04;2.006&quot;>إنذار لومباكس! إنذار<br>لومباكس!",
     "arabic_edit": "<name=&quot;NCPA&quot;><ts=&quot;0.04;2.006&quot;>إنذار لومباكس! إنذار لومباكس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "eccc1b5c7ca2b51251cb3ccc7fb075b9a2ced7223f8452a3a9cc6afee596bfae",
+      "candidate_sha256": "ac854293ef69053f1fd63750b951c3810c501c3ad1ee809829430c2b926729f0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 306,
@@ -23,12 +31,20 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_CLUBNEF",
     "arabic_current": "<name=&quot;NCPA&quot;><ts=&quot;0.032;2.199&quot;>إنذار المقاومة! إنذار المقاومة!",
     "arabic_edit": "<name=&quot;NCPA&quot;><ts=&quot;0.032;2.199&quot;>إنذار المقاومة! إنذار المقاومة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "55a7e88ce99887ccce113a4c8b844002859fa6262c9c8094acd2d6376a121b89",
+      "candidate_sha256": "0c16f2e8ecce7d25c515e50abf52b1d347a7146edef1998d9aabd35b27ef8671",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8418,
@@ -61,14 +77,22 @@
     "speaker_code": "PHAN",
     "scene_code": "CORV_GP2_CINE_NEFCITY_CLUBNEF",
     "arabic_current": "<ts=&quot;0;0.99&quot;>لا أستطيع *تصديق*--<ts=&quot;1.41;4.022&quot;>،أول مهمة منذ زمن طويل<br>وانكشف سري...",
-    "arabic_edit": "<ts=&quot;0;0.99&quot;>لا أستطيع *تصديق*--<ts=&quot;1.41;4.022&quot;>،أول مهمة منذ زمن طويل وانكشف سري...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.99&quot;>لا *أصدق*...<ts=&quot;1.41;4.022&quot;>أول مهمة منذ زمن، وانكشف أمري...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-021",
+      "source_sha256": "4cbf3e3da6d9cde809c289446878c1e682b0830ee97ba9b5a7d8797141666fef",
+      "candidate_sha256": "70c254ff0afd722ce36660224c2ccf316d50809563d31abdd96df6ed64222306",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19174,
@@ -78,12 +102,20 @@
     "scene_code": "CORV_GP2_CINE_NEFCITY_CLUBNEF",
     "arabic_current": "<ts=&quot;0.24;0.94&quot;>الطيف...<ts=&quot;1.47;2.25&quot;>هو سكيد؟",
     "arabic_edit": "<ts=&quot;0.24;0.94&quot;>الطيف...<ts=&quot;1.47;2.25&quot;>هو سكيد؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "648ed06a429c3a38bb1753e8041dce08427753fa2cb00571375a7df523b57995",
+      "candidate_sha256": "522d95fdd636a0a065c1fe061c4e269ebc631beb556198ba5d7dc7996aff1a49",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24697,

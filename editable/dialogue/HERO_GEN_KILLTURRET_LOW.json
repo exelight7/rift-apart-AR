@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_KILLTURRET_LOW",
     "arabic_current": "<ts=&quot;0.049;1.138&quot;>حذف البرج.",
     "arabic_edit": "<ts=&quot;0.049;1.138&quot;>حذف البرج.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "2ba0ec82f77b8692f5a80302029dc5944ed341e93b0b88108bfd8651e38e84c1",
+      "candidate_sha256": "1390af6d87d874a60b5b67835f6d252c48e581f979af237aec4cd829b1da2a8e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8363,
@@ -21,13 +29,21 @@
     "speaker_code": "GLIT",
     "scene_code": "HERO_GEN_KILLTURRET_LOW",
     "arabic_current": "<ts=&quot;0.048;1.389&quot;>لن يوجد برج آخر.",
-    "arabic_edit": "<ts=&quot;0.048;1.389&quot;>لن يوجد برج آخر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.048;1.389&quot;>انتهى أمر البرج.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "c074012fe9db700fdc16c396185cc9068ef599983b8d05541097befa6f2ff8b2",
+      "candidate_sha256": "c98a8844616aab213f22a739bb16bbda04ffdf774047d2197ea86bd9743dc9bf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8364,
@@ -37,12 +53,20 @@
     "scene_code": "HERO_GEN_KILLTURRET_LOW",
     "arabic_current": "<ts=&quot;0.041;2.032&quot;>أوف، زال البرج.",
     "arabic_edit": "<ts=&quot;0.041;2.032&quot;>أوف، زال البرج.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "c0b34e5bbb6442236165f11bcad1313b76ebdd63eb9374b3c9d67502ad3029aa",
+      "candidate_sha256": "32f7edc479a9b15e7cd0f31c6b4c6cc2d1677f7d7feff06de3835f386c70fa97",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8365,
@@ -52,11 +76,19 @@
     "scene_code": "HERO_GEN_KILLTURRET_LOW",
     "arabic_current": "<ts=&quot;0.047;1.884&quot;>حظي ما زال معي...",
     "arabic_edit": "<ts=&quot;0.047;1.884&quot;>حظي ما زال معي...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "e396f9f05f8e0deaf9749fbc06b50c1028cb724098d6add0daff1c670508be6a",
+      "candidate_sha256": "6ff546b5bb7fd2a6144e82a5d73e96f43fb0c586256b44483768ace83a6dd04b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

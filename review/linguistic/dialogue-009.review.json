@@ -1,0 +1,1442 @@
+[
+  {
+    "index": 7671,
+    "key": "EPNF_SAVA_GP2_SAVA_GP2_004",
+    "source_sha256": "f264021cee8fdca1c03df9a9091c73312137f11c9fafdae4ad42b88d3cafc590",
+    "before": "<ts=&quot;0;2.249&quot;>السفينة الأم، تقرير التقدم!",
+    "after": "<ts=&quot;0;2.249&quot;>السفينة الأم، تقرير التقدم!",
+    "decision": "keep"
+  },
+  {
+    "index": 7672,
+    "key": "EPNF_ZURK_G2_CINE_EMPINTRO_011",
+    "source_sha256": "3e6cfe51d12c658dc9cf2d41a48f5832f29abf9d46b2054a5c56b018d401b5cd",
+    "before": "<ts=&quot;0.045;1.989&quot;>هاهاهاهاها!<ts=&quot;2.196;4.449&quot;>يا إلهي، أي معركة كانت!",
+    "after": "<ts=&quot;0.045;1.989&quot;>هاهاهاهاها!<ts=&quot;2.196;4.449&quot;>يا إلهي، أي معركة كانت!",
+    "decision": "keep"
+  },
+  {
+    "index": 7673,
+    "key": "EPNF_ZURK_G2_CINE_EMPINTRO_012",
+    "source_sha256": "668e0d035f00fc94de216f53d591330721cfc6b7a0142b635bd26fdbaf01d7ee",
+    "before": "<ts=&quot;0;5.749&quot;>هل انتهينا من المتعة؟ هيا! صفقوا لريفت في<br>أول انتصار لها!",
+    "after": "<ts=&quot;0;5.749&quot;>هل انتهينا من المتعة؟ هيا! صفقوا لريفت في<br>أول انتصار لها!",
+    "decision": "keep"
+  },
+  {
+    "index": 7674,
+    "key": "EPNF_ZURK_G2_CINE_EMPINTRO_014",
+    "source_sha256": "01298a5418dcb41499c321b24743fd29a14c7616ddd4d1dd2290dd25b5597254",
+    "before": "<ts=&quot;0.03;0.908&quot;>،على أي حال<ts=&quot;1.48;5.973&quot;>حين سمعت أن «اللومباكس المتمرد» يخوض معركة<br>معي<ts=&quot;6;7.398&quot;>اضطررت--",
+    "after": "<ts=&quot;0.03;0.908&quot;>على أي حال،<ts=&quot;1.48;5.973&quot;>حين سمعت أن «أنثى اللومباكس المتمردة»<br>تقاتلني،<ts=&quot;6;7.398&quot;>كان علي أن...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7675,
+    "key": "EPNF_ZURK_G2_CINE_EMPINTRO_015",
+    "source_sha256": "38a43cf19a96bbb38df67f97ee675162169a3965a61d5b52c238acbfdf061f2b",
+    "before": "<ts=&quot;0;1.619&quot;>من يحتفل؟<ts=&quot;2.32;3.529&quot;>تقصدهم؟",
+    "after": "<ts=&quot;0;1.619&quot;>من يحتفل؟<ts=&quot;2.32;3.529&quot;>تقصدهم؟",
+    "decision": "keep"
+  },
+  {
+    "index": 7676,
+    "key": "EPNF_ZURK_G2_CINE_EMPINTRO_016",
+    "source_sha256": "4d8f3759480856802fc7117bb0332b386c9e8e7890f03ed77bee7b1cc33ec2dd",
+    "before": "<ts=&quot;0.08;5.713&quot;>آه، معجبي الغريب يريد المساعدة؟ مثير.<ts=&quot;5.713;11.277&quot;>لماذا نجعلها أكثر تشويقا. مباراة في أرضنا،<br>ربما؟",
+    "after": "<ts=&quot;0.08;5.713&quot;>آه، معجبي الغريب يريد المساعدة؟ مغر جدًا.<ts=&quot;5.713;11.277&quot;>لنجعل الأمر مثيرًا. مباراة على أرضك، ربما؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7677,
+    "key": "EPNF_ZURK_G2_CINE_EMPINTRO_019",
+    "source_sha256": "0e85dc4be32a636d5072bd133148523bc1c69324aa91da42d18597ef39803387",
+    "before": "<ts=&quot;0.03;3.038&quot;>ليتني كنت هنا في وقت أقرب.<ts=&quot;3.103;9.134&quot;>غير أنني متهفج أن أعلن أنني أنهيت «تحييد»<br>أعدائي--<ts=&quot;9.459;13.148&quot;>باستثناء كابتن كوانتوم و...",
+    "after": "<ts=&quot;0.03;3.038&quot;>ليتني وصلت قبل الآن.<ts=&quot;3.103;9.134&quot;>لكن يسعدني أن أعلن انتهاء «تحييد»<br>أعدائي...<ts=&quot;9.459;13.148&quot;>باستثناء القبطان كوانتوم و...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7678,
+    "key": "EPNF_ZURK_G2_CINE_EMPINTRO_020",
+    "source_sha256": "6f99b37f6e72ee508b6cf02ea14e97c214e5137861877cf6cfc5aa2ea3a5afbb",
+    "before": "<ts=&quot;0.045;6.636&quot;>آه، معجبي الغريب جدا يريد المساعدة؟ مثير.<ts=&quot;6.636;11.265&quot;>لماذا لا نجعلها أكثر تشويقا؟<ts=&quot;11.265;14.639&quot;>سمعت أن سارجاسو جميلة في هذا الوقت من<br>العام.",
+    "after": "<ts=&quot;0.045;6.636&quot;>آه، معجبي الغريب جدا يريد المساعدة؟ مثير.<ts=&quot;6.636;11.265&quot;>لماذا لا نجعلها أكثر تشويقا؟<ts=&quot;11.265;14.639&quot;>سمعت أن سارجاسو جميلة في هذا الوقت من<br>العام.",
+    "decision": "keep"
+  },
+  {
+    "index": 7679,
+    "key": "EPNF_ZURK_GP3_CINE_THEMAP_001",
+    "source_sha256": "07cb2ba187445b864b1549a81ab93a4bec4f2f559dd9941e3a0b075346a7ce3f",
+    "before": "<ts=&quot;0;0.86&quot;>شعبي.<ts=&quot;2.079;3.129&quot;>فعلتها.<ts=&quot;3.33;4.499&quot;>أخيرا أخيرا.",
+    "after": "<ts=&quot;0;0.86&quot;>يا شعبي.<ts=&quot;2.079;3.129&quot;>لقد فعلتها.<ts=&quot;3.33;4.499&quot;>أخيرًا، بعد طول انتظار.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7680,
+    "key": "EPNF_ZURK_GP3_CINE_THEMAP_002",
+    "source_sha256": "fb2d7be35012e35176eb1a7fd917717fe36204b49992da5a62d4df02dde7a20e",
+    "before": "<ts=&quot;0;1.999&quot;>هزم القراصنة.",
+    "after": "<ts=&quot;0;1.999&quot;>هزم القراصنة.",
+    "decision": "keep"
+  },
+  {
+    "index": 7681,
+    "key": "EPNF_ZURK_GP3_CINE_THEMAP_003",
+    "source_sha256": "1cb2243f4656d6334e232ebfaa4303722cb60b4fccfd152a4f378ab19a6cb3b6",
+    "before": "<ts=&quot;0.05;1.005&quot;>هذا كل شيء؟<ts=&quot;1.69;4.069&quot;>أين المتعة؟ أين النعيم؟<ts=&quot;4.436;6.437&quot;>أين التنوير الإجرامي؟<ts=&quot;7.026;9.803&quot;>لماذا لا أشعر بأي اختلاف؟!",
+    "after": "<ts=&quot;0.05;1.005&quot;>هذا كل شيء؟<ts=&quot;1.69;4.069&quot;>أين المتعة؟ أين النعيم؟<ts=&quot;4.436;6.437&quot;>أين التنوير الإجرامي؟<ts=&quot;7.026;9.803&quot;>لماذا لا أشعر بأي اختلاف؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 7682,
+    "key": "EPNF_ZURK_GP3_CINE_THEMAP_005",
+    "source_sha256": "305ff2527cc6e1ff578440426688c883fe27a8f8f841c7e8687932a45ef701c6",
+    "before": "<ts=&quot;0;2.8&quot;>أنت؟ ما الذي يمكن أن *تعرفه* عن النجاح...<ts=&quot;4.42;5.29&quot;>كفى!",
+    "after": "<ts=&quot;0;2.8&quot;>ماذا يمكن أن تعرف *أصلًا* عن النجاح،<br>أيها...<ts=&quot;4.42;5.29&quot;>وجدتها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7683,
+    "key": "EPNF_ZURK_GP3_CINE_THEMAP_006",
+    "source_sha256": "448ad8e7f74aae8736adc2865659a19688fc0a8e0d3b3249058b265a42bc2946",
+    "before": "<ts=&quot;0;2.04&quot;>لم أفز حقا بعد.<ts=&quot;2.56;7.189&quot;>ما زال هناك *الكثير* جدا من الأبعاد الأخرى<br>التي تنتظر أن يفتحها...",
+    "after": "<ts=&quot;0;2.04&quot;>لم أنتصر حقًا بعد.<ts=&quot;2.56;7.189&quot;>ما زال هناك *الكثير* من الأبعاد الأخرى<br>التي تنتظر أن أغزوها...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7684,
+    "key": "EPNF_ZURK_GP3_CINE_THEMAP_007",
+    "source_sha256": "ac1493e047782ec4875776856e31e42820307d8aa10af9f754914acd2a517c0e",
+    "before": "<ts=&quot;0.19;4.25&quot;>لأنك نسيت القاعدة الأولى للرحلات البرية.",
+    "after": "<ts=&quot;0.19;4.25&quot;>لأنك نسيت القاعدة الأولى للرحلات البرية.",
+    "decision": "keep"
+  },
+  {
+    "index": 7685,
+    "key": "EPNF_ZURK_GP3_CINE_THEMAP_009",
+    "source_sha256": "4ec47291e3da017c448ff33756493f5c054aff7803529cf7117e18355b98ac30",
+    "before": "<ts=&quot;0;2&quot;>المقاومة مكسورة.",
+    "after": "<ts=&quot;0;2&quot;>المقاومة مكسورة.",
+    "decision": "keep"
+  },
+  {
+    "index": 7686,
+    "key": "EPNF_ZURK_GP3_CINE_THEMAP_010",
+    "source_sha256": "ba31d31b78ca414b244908da2452ad3b29e0efbb41c3e66197a6616a8d1e3a88",
+    "before": "<ts=&quot;0;2.94&quot;>وأخيرا، هذه المجرة *لي*!",
+    "after": "<ts=&quot;0;2.94&quot;>وأخيرا، هذه المجرة *لي*!",
+    "decision": "keep"
+  },
+  {
+    "index": 7687,
+    "key": "EPNF_ZURK_GP3_CINE_THEMAP_011",
+    "source_sha256": "7a677d06ccf6ca06755ddcfcf6b1381ce50f32ecef6631a27ac228e775b41ca0",
+    "before": "<ts=&quot;0;1.749&quot;>دائما احمل خريطة.",
+    "after": "<ts=&quot;0;1.749&quot;>دائما احمل خريطة.",
+    "decision": "keep"
+  },
+  {
+    "index": 7688,
+    "key": "EPNF_ZURK_GP4_CINE_PREPOUTRO_008",
+    "source_sha256": "1a48e37afd63ee56927d1f74b29e7206a140325a68b5324ed1428bb4c64304f6",
+    "before": "<ts=&quot;0.01;1.758&quot;>أتعرف على ذلك الصوت؟",
+    "after": "<ts=&quot;0.01;1.758&quot;>أتعرف ما هذا الصوت؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7689,
+    "key": "EPNF_ZURK_GP4_CINE_PREPOUTRO_009",
+    "source_sha256": "bd394d8d6041028e19a2d4146b1d643ca0f7449b7890d89f97b4c0c6229b9f17",
+    "before": "<ts=&quot;0;1&quot;>استمع *بتمعن*.",
+    "after": "<ts=&quot;0;1&quot;>استمع *بتمعن*.",
+    "decision": "keep"
+  },
+  {
+    "index": 7690,
+    "key": "EPNF_ZURK_GP4_CINE_PREPOUTRO_010",
+    "source_sha256": "e4801c488f0832d5898d27abdce11fd09fae59839bb2898596c2c0bb2e79eddb",
+    "before": "<ts=&quot;0.013;2.249&quot;>هل هو خوف؟ أمل؟<ts=&quot;3.057;5.876&quot;>الحتمية البطيئة للموت؟<ts=&quot;6.274;9.534&quot;>لا، إنه أنا.",
+    "after": "<ts=&quot;0.013;2.249&quot;>هل هو خوف؟ أمل؟<ts=&quot;3.057;5.876&quot;>الحتمية البطيئة للموت؟<ts=&quot;6.274;9.534&quot;>لا، إنه أنا.",
+    "decision": "keep"
+  },
+  {
+    "index": 7691,
+    "key": "EPNF_ZURK_GP4_CINE_PREPOUTRO_011",
+    "source_sha256": "f4d4c7ddf0aef5dce964dee490389d7dc387179a2dbb8fa93837e479aa1f18f7",
+    "before": "<ts=&quot;0.038;0.961&quot;>أفوز.",
+    "after": "<ts=&quot;0.038;0.961&quot;>أفوز.",
+    "decision": "keep"
+  },
+  {
+    "index": 7692,
+    "key": "EPNF_ZURK_GP4_CINE_PREPOUTRO_012",
+    "source_sha256": "c89c5d30a5899a709fcd74a1d155ae711337f96cc64f90c0a1c35e1c04de8f95",
+    "before": "<ts=&quot;0;1.489&quot;>«ما الجديد أيضا»تقول ،.<ts=&quot;1.544;6.887&quot;>أوه، صحيح تماما، لكن *أنت* جزء من *بعد<br>واحد* فحسب.<ts=&quot;7.445;8.642&quot;>فماذا عن الباقي؟",
+    "after": "<ts=&quot;0;1.489&quot;>تقولون: «وما الجديد؟».<ts=&quot;1.544;6.887&quot;>أوه، صحيح تمامًا، لكنكم جزء من بعد *واحد*<br>فقط.<ts=&quot;7.445;8.642&quot;>ماذا عن البقية؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7693,
+    "key": "EPNF_ZURK_GP4_CINE_PREPOUTRO_014",
+    "source_sha256": "0dab1c4c935544bdec613791f9617a1cb6dbf0cb54999ae4ac6ec2ea108f4ea7",
+    "before": "<ts=&quot;0;5.75&quot;>ربما أنا فقط من الطراز القديم، لكنني أعتقد<br>أن *الجميع* يستحق نصيبا من الخضوع.",
+    "after": "<ts=&quot;0;5.75&quot;>ربما أنا فقط من الطراز القديم، لكنني أعتقد<br>أن *الجميع* يستحق نصيبا من الخضوع.",
+    "decision": "keep"
+  },
+  {
+    "index": 7694,
+    "key": "EPNF_ZURK_GP4_CINE_PREPOUTRO_015",
+    "source_sha256": "26331558dea4d118fa053b756b72f49fc55c7a1087272b226afa94421393412a",
+    "before": "<ts=&quot;0;3.388&quot;>ولنحتفل بهذه المناسبة ،الجليلة<ts=&quot;3.388;8.111&quot;>أود أن أكرم الدكتور الطيب الذي ألهم هذه<br>الرحلة في المقام الأول.",
+    "after": "<ts=&quot;0;3.388&quot;>واحتفالًا بهذه المناسبة العظيمة،<ts=&quot;3.388;8.111&quot;>أود تكريم الدكتور الطيب الذي ألهم هذه<br>الرحلة أصلًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7695,
+    "key": "EPNF_ZURK_GP4_CINE_PREPOUTRO_016",
+    "source_sha256": "5e1d29f4cd06de1cea26c9c9e132549062d3585a0ebd9b4180b0651ac7f2adf4",
+    "before": "<ts=&quot;0;3&quot;>بأن أغزو بعده الأصلي *بشخصي*.",
+    "after": "<ts=&quot;0;3&quot;>بغزو بعده الأصلي *شخصيًا*.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7696,
+    "key": "EPNF_ZURK_GP4_CINE_PREPOUTRO_017",
+    "source_sha256": "e7f123e2ff45b25ec5b2328124f1a6209f7da96630bb4ea3517a45817818e391",
+    "before": "<ts=&quot;0;3.295&quot;>محطتي الأولى: ميغالوبوليس.<ts=&quot;3.421;8.123&quot;>أو كما أحب أن أسميها، مدينة نيفاريوس<br>*الجديدة*.",
+    "after": "<ts=&quot;0;3.295&quot;>محطتي الأولى: ميغالوبوليس.<ts=&quot;3.421;8.123&quot;>أو كما أحب أن أسميها، مدينة نيفاريوس<br>*الجديدة*.",
+    "decision": "keep"
+  },
+  {
+    "index": 7716,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_001",
+    "source_sha256": "0bfea814b2647a06a2021f56dd755b1055848725656f261a71649d60e732c396",
+    "before": "<ts=&quot;0.054;3.753&quot;>بدأ - رصدت كائنات محلية الإغلاق التام.",
+    "after": "<ts=&quot;0.054;3.753&quot;>رصدت كائنات محلية. بدأ الإغلاق التام.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7717,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_002",
+    "source_sha256": "7b36b822f10a8d803d73ba302971c402ffad8b89b334f6d7a601f59f82d3112c",
+    "before": "<ts=&quot;0.049;3.651&quot;>تحذير: تضرر المنشأة: فعل الإغلاق التام<br>للسلامة.",
+    "after": "<ts=&quot;0.049;3.651&quot;>تحذير من تضرر المنشأة: فعل الإغلاق التام<br>للسلامة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7718,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_003",
+    "source_sha256": "570d60565f2aca69a223b9518b6bda9fc283a9fa6b8fdf50ebcc52a146b0a4cb",
+    "before": "<ts=&quot;0.04;2.584&quot;>هذه المنطقة مغلقة الآن ضمن الإغلاق التام.<ts=&quot;2.584;7.39&quot;>يرجى مغادرة المنشأة في أقرب وقت آمن.<ts=&quot;7.39;10.287&quot;>شكرا لكم، وأتم لكم يوما رائعا في بليزار!",
+    "after": "<ts=&quot;0.04;2.584&quot;>هذه المنطقة في حالة إغلاق تام حاليًا.<ts=&quot;2.584;7.39&quot;>يرجى إخلاء المنشأة في أقرب فرصة آمنة.<ts=&quot;7.39;10.287&quot;>شكرًا، وأتمنى لكم يومًا متوهجًا في بليزار.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7719,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_004",
+    "source_sha256": "1045c4d5256ddd2e9eb27215201285c0ae711dc4346358423d7d2534ff97d4da",
+    "before": "<ts=&quot;0.022;6.316&quot;>ألغي الإغلاق التام: شكرا لكم، وأتم لكم<br>يوما آمنا ملتزما بالقواعد ورائعا في<br>بليزار.",
+    "after": "<ts=&quot;0.022;6.316&quot;>رفع الإغلاق التام. شكرًا، وأتمنى لكم يومًا<br>آمنًا ومتوهجًا في بليزار، تلتزمون فيه<br>بالقواعد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7720,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_005",
+    "source_sha256": "36b70a357bc4f5acd37ca96e97463c6121b62a59d87bf2fbaf48b5ed05335ca1",
+    "before": "<ts=&quot;0.048;1.937&quot;>المركبة الناقلة تصل الآن.",
+    "after": "<ts=&quot;0.048;1.937&quot;>المركبة الناقلة تصل الآن.",
+    "decision": "keep"
+  },
+  {
+    "index": 7721,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_006",
+    "source_sha256": "1623cb8891b0bee637033477b8e91ec1d6ea16bec63f4ed38614153b189afaff",
+    "before": "<ts=&quot;0.056;1.712&quot;>أهلا بكم في بليزار!<ts=&quot;1.75;5.749&quot;>نحن الآن في حالة إغلاق تام بسبب فوضى<br>الأبعاد<ts=&quot;5.788;7.854&quot;>التي تتفاقم كل ثانية.<ts=&quot;8.001;10.839&quot;>شكرا لكم، وأتم لكم يوما رائعا في بليزار!",
+    "after": "<ts=&quot;0.056;1.712&quot;>أهلًا بكم في بليزار!<ts=&quot;1.75;5.749&quot;>نحن في حالة إغلاق تام بسبب فوضى بين<br>الأبعاد،<ts=&quot;5.788;7.854&quot;>تزداد سوءًا كل ثانية.<ts=&quot;8.001;10.839&quot;>شكرًا، وأتمنى لكم يومًا متوهجًا في بليزار.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7722,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_007",
+    "source_sha256": "1bebe31826ce2dc52c4bb612c26a7dc4a08fffe373a05775f188393445eb31df",
+    "before": "<ts=&quot;0.048;6.477&quot;>تحذير قرب: رصدت أشكال فعل الإغلاق التام -<br>حياة خطرة الأمني.",
+    "after": "<ts=&quot;0.048;6.477&quot;>تحذير اقتراب: رصدت كائنات خطرة. فعل<br>الإغلاق الأمني التام للمنشأة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7723,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_008",
+    "source_sha256": "a6c0b7d2f11491e691fc04b572e87d593bb7f23585750b1e25d55e6fad42659f",
+    "before": "<ts=&quot;0.032;4.403&quot;>لم تعد أشكال الحياة المحلية مرصودة. فكت<br>الجدران الأمنية.<ts=&quot;4.403;7.248&quot;>شكرا لكم، وأتم لكم يوما رائعا في بليزار!",
+    "after": "<ts=&quot;0.032;4.403&quot;>لم تعد هناك كائنات محلية مرصودة. عطلت<br>الحواجز الأمنية.<ts=&quot;4.403;7.248&quot;>شكرًا، وأتمنى لكم يومًا متوهجًا في بليزار.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7724,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_009",
+    "source_sha256": "ef19dfc4623649b7a2012e1ca7eec33309e778912b635fa74cdc97032c2b77f3",
+    "before": "<ts=&quot;0.076;5.029&quot;>انتبه! تتعرض بليزوننا لصدوع غير مستقرة في<br>الكون.<ts=&quot;5.029;9.71&quot;>يرجى عدم الذعر، والتوجه في طابور واحد أمام<br>كل أكشاك الطعام.<ts=&quot;9.71;12.491&quot;>شكرا لكم، وأتم لكم يوما رائعا في بليزار!",
+    "after": "<ts=&quot;0.076;5.029&quot;>تنبيه! تتأثر بلورات البليزون لدينا بصدوع<br>غير مستقرة في الكون.<ts=&quot;5.029;9.71&quot;>يرجى عدم الذعر والاصطفاف في طابور واحد عند<br>كل كشك طعام.<ts=&quot;9.71;12.491&quot;>شكرًا، وأتمنى لكم يومًا متوهجًا في بليزار.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7725,
+    "key": "FAVI_BLIZ_GP1_BLIZ_GP_010",
+    "source_sha256": "6f9aac55f1063f7f7679978a4e4039ab1cdc101b9bf4668591695b9febb57f48",
+    "before": "<ts=&quot;0.04;2.533&quot;>يرجى إبقاء يديك وقدميك ،داخل المركبة<ts=&quot;2.641;6.099&quot;>وتجنب الحمم التي تقتل من فورها وهي تغلي في<br>كل مكان حولك!<ts=&quot;6.201;8.945&quot;>شكرا لكم، وأتم لكم يوما رائعا في بليزار!",
+    "after": "<ts=&quot;0.04;2.533&quot;>يرجى إبقاء أيديكم وأقدامكم في الداخل،<ts=&quot;2.641;6.099&quot;>وتجنب الحمم القاتلة فورًا التي تغلي حولكم!<ts=&quot;6.201;8.945&quot;>شكرًا، وأتمنى لكم يومًا متوهجًا في بليزار.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7726,
+    "key": "FIXER_TORR_GP1_CINE_MECH_001",
+    "source_sha256": "57daf84e6e3f6228adcd194355a012d9522629dfb259c04e1aed2c75fb4f3df3",
+    "before": "<ts=&quot;0;0.76&quot;>لا.<ts=&quot;1.29;4.249&quot;>أنا مكسور. وكل شيء مكسور.<ts=&quot;4.97;6.749&quot;>لا شيء يمكن إصلاحه.",
+    "after": "<ts=&quot;0;0.76&quot;>لا.<ts=&quot;1.29;4.249&quot;>أنا مكسور. وكل شيء مكسور.<ts=&quot;4.97;6.749&quot;>لا شيء يمكن إصلاحه.",
+    "decision": "keep"
+  },
+  {
+    "index": 7727,
+    "key": "FIXER_TORR_GP1_CINE_MECH_002",
+    "source_sha256": "3ff6121bb39868923dd7a8dae57900b16f91da19df1ed2d3136e5fc0c9dc4a60",
+    "before": "<ts=&quot;0.037;2.736&quot;>لا شيء!",
+    "after": "<ts=&quot;0.037;2.736&quot;>لا شيء!",
+    "decision": "keep"
+  },
+  {
+    "index": 7728,
+    "key": "FIXER_TORR_GP1_CINE_OUTRO_002",
+    "source_sha256": "22889624ea595ba13b35d16afc65f4027ca5bad2eb83809491ec9d4a74bac1b4",
+    "before": "<ts=&quot;0;0.71&quot;>أنا...<ts=&quot;1.67;2.999&quot;>مرتاح جدا حقا.",
+    "after": "<ts=&quot;0;0.71&quot;>أنا...<ts=&quot;1.67;2.999&quot;>مرتاح جدا حقا.",
+    "decision": "keep"
+  },
+  {
+    "index": 7729,
+    "key": "FIXER_TORR_GP1_CINE_OUTRO_003",
+    "source_sha256": "4d398b746c57752b79e66a17e88fa01852aa98e7a366de8d7e41b7cd04f28530",
+    "before": "<ts=&quot;0.03;2.13&quot;>،لكن إصلاح شيء آخر<ts=&quot;2.509;5.75&quot;>ورؤية أن ليس كل شيء ضائعا...",
+    "after": "<ts=&quot;0.03;2.13&quot;>لكن القدرة على إصلاح آخر،<ts=&quot;2.509;5.75&quot;>ورؤية أن الأمل لم يضع تمامًا...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7730,
+    "key": "FIXER_TORR_GP1_CINE_OUTRO_004",
+    "source_sha256": "95d2a7b8ca47aee89fedc14f7881f3d01f680f4cf37d2c0940c48e1dca4f1d33",
+    "before": "<ts=&quot;0;3&quot;>كيف يمكنني أن أعيد لكما هذا الجميل أبدا؟",
+    "after": "<ts=&quot;0;3&quot;>كيف أرد لكما هذا الجميل؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7731,
+    "key": "FIXER_TORR_GP1_CINE_OUTRO_005",
+    "source_sha256": "4cee898a80a0c314a435fb4a565d91936bcbf561336d2ba02035b645a7e6668c",
+    "before": "<ts=&quot;0;3.85&quot;>منحتما روبوتا عملاقا عجوزا هدية الأمل.<ts=&quot;4.019;6.819&quot;>والأحرى بي أن أشكركما.",
+    "after": "<ts=&quot;0;3.85&quot;>منحتما روبوتا عملاقا عجوزا هدية الأمل.<ts=&quot;4.019;6.819&quot;>والأحرى بي أن أشكركما.",
+    "decision": "keep"
+  },
+  {
+    "index": 7732,
+    "key": "FIXER_TORR_GP1_CINE_OUTRO_006",
+    "source_sha256": "8eb1d22223249b17b1cdd61e23044e29a18274e025240265d6c2815d6e81215a",
+    "before": "<ts=&quot;0;2.69&quot;>حين طلب مني الفولارد أن ،أحميهم<ts=&quot;2.69;6.779&quot;>انفتحت عيني على أشياء مكسورة كثيرة.<ts=&quot;7.68;9&quot;>كثيرة جدا.",
+    "after": "<ts=&quot;0;2.69&quot;>حين طلب مني الفولارد حمايتهم،<ts=&quot;2.69;6.779&quot;>فتحت عيناي على أشياء معطوبة كثيرة.<ts=&quot;7.68;9&quot;>كثيرة جدًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7735,
+    "key": "FIXER_TORR_GP1_TORR_GP_001",
+    "source_sha256": "05fbe108e1a2cdffe0898dc308e7a4260308aafb7006017bd2f87fcc7e27d7b3",
+    "before": "<ts=&quot;0;3.198&quot;>الإصلاح إجراء باطل وزائل.<ts=&quot;3.26;6.173&quot;>والدمار حالتنا الطبيعية.",
+    "after": "<ts=&quot;0;3.198&quot;>الإصلاح إجراء مؤقت لا جدوى منه.<ts=&quot;3.26;6.173&quot;>الدمار هو حالتنا الطبيعية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7736,
+    "key": "FIXER_TORR_GP1_TORR_GP_002",
+    "source_sha256": "c978a68688884b5b5084ec21254c7a868834c522e0c434640dd8990365313da1",
+    "before": "<ts=&quot;0.04;4.999&quot;>أرى مكسورا مثلي. عليك أن تقبل كسرك.",
+    "after": "<ts=&quot;0.04;4.999&quot;>أرى آخر معطوبًا مثلي. عليك تقبل عطبك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7737,
+    "key": "FIXER_TORR_GP1_TORR_GP_003",
+    "source_sha256": "e63d16f63aaf92cb4244909f1588abecd81ace40de5dac85177f63a6608d1369",
+    "before": "<ts=&quot;0;7&quot;>وكيف يدعى رجل التصليح والكون مكسور؟ أنا لا<br>أصليح أحدا.",
+    "after": "<ts=&quot;0;7&quot;>كيف أدعى المصلح والكون معطوب؟ أنا لا أصلح<br>شيئًا لأحد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7738,
+    "key": "FIXER_TORR_GP1_TORR_GP_004",
+    "source_sha256": "e367fa33b30e0c4eb94873852f44fe847695fdf3bfaeb60288dcd56a0980b2ea",
+    "before": "<ts=&quot;0;5.354&quot;>الإصلاح تنوير، لكنني لا أستحق التنوير.<ts=&quot;5.474;7.994&quot;>ليس لدي حكمة.",
+    "after": "<ts=&quot;0;5.354&quot;>الإصلاح تنوير، لكنني لا أستحق التنوير.<ts=&quot;5.474;7.994&quot;>ليس لدي حكمة.",
+    "decision": "keep"
+  },
+  {
+    "index": 7739,
+    "key": "FIXER_TORR_GP1_TORR_GP_005",
+    "source_sha256": "a7757d1fe7f09c38da80932422c7c813d7e3c29d2dc40da96f3415ce644c618f",
+    "before": "<ts=&quot;0;3.461&quot;>أنا مكسور. لا أستطيع الإصلاح.<ts=&quot;3.606;5.834&quot;>ولا يمكن إصلاحي.",
+    "after": "<ts=&quot;0;3.461&quot;>أنا مكسور. لا أستطيع الإصلاح.<ts=&quot;3.606;5.834&quot;>ولا يمكن إصلاحي.",
+    "decision": "keep"
+  },
+  {
+    "index": 7740,
+    "key": "FIXER_TORR_GP1_TORR_GP_006",
+    "source_sha256": "7662c872c0afd33d56db25ac2e0b6f27c593523e0059c9b25161c87a44780cee",
+    "before": "<ts=&quot;0;8.06&quot;>،هناك الكثير مما يجب إصلاحه ،لكن لن<br>ينسحقني ثقله فالطريق إلى الأمام هو إصلاح<ts=&quot;8.06;9.81&quot;>شيء واحد في كل مرة.",
+    "after": "<ts=&quot;0;8.06&quot;>هناك الكثير لإصلاحه، لكن ثقله لن يسحقني.<br>فسبيل التقدم هو إصلاح<ts=&quot;8.06;9.81&quot;>شيء واحد في كل مرة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7741,
+    "key": "FIXER_TORR_GP1_TORR_GP_007",
+    "source_sha256": "ccd02b22e82d94b0402869e161d1a09e9e24bdde141ccc635839e4bfd697d49d",
+    "before": "<ts=&quot;0;1.86&quot;>أنا رجل التصليح.<ts=&quot;2.279;3.749&quot;>أنا لست مكسورا.<ts=&quot;4.14;5.54&quot;>،أنا لست مصلحا<ts=&quot;5.91;7.64&quot;>لكنني *أعمل* على ذلك.",
+    "after": "<ts=&quot;0;1.86&quot;>أنا المصلح.<ts=&quot;2.279;3.749&quot;>أنا لست معطوبًا.<ts=&quot;4.14;5.54&quot;>لم أصلح بالكامل بعد،<ts=&quot;5.91;7.64&quot;>لكنني *أعمل* على ذلك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7742,
+    "key": "FIXER_TORR_GP1_TORR_GP_008",
+    "source_sha256": "4fed4168e7ba59973bfabb61f69e504d1c099b8a730831e2b36cb4c223a61d5d",
+    "before": "<ts=&quot;0;2.23&quot;>،اليوم جميل<ts=&quot;2.679;3.595&quot;>أليس كذلك؟",
+    "after": "<ts=&quot;0;2.23&quot;>اليوم جميل،<ts=&quot;2.679;3.595&quot;>أليس كذلك؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7743,
+    "key": "FIXER_TORR_GP1_TORR_GP_009",
+    "source_sha256": "385892eec00e7470ca1431a16e0b2635117ce3aebf2643397651afd3fe75f7f0",
+    "before": "<ts=&quot;0;2.12&quot;>الإصلاح تعلم.<ts=&quot;2.52;4.49&quot;>والتعلم نمو.<ts=&quot;4.859;6.439&quot;>والنمو هو...<ts=&quot;7.31;8.44&quot;>الإصلاح.<ts=&quot;8.869;9.419&quot;>نعم.",
+    "after": "<ts=&quot;0;2.12&quot;>الإصلاح تعلم.<ts=&quot;2.52;4.49&quot;>والتعلم نمو.<ts=&quot;4.859;6.439&quot;>والنمو هو...<ts=&quot;7.31;8.44&quot;>الإصلاح.<ts=&quot;8.869;9.419&quot;>نعم.",
+    "decision": "keep"
+  },
+  {
+    "index": 7744,
+    "key": "FIXER_TORR_GP1_TORR_GP_010",
+    "source_sha256": "2dc1fb834adc0e53b4db2a55442eea9ee36f63bdbdec2677f3b2095943b0f2a8",
+    "before": "<ts=&quot;0;4.17&quot;>،لسبب ما، حين حققت مزيدا صرت أكثر انشغالا.<ts=&quot;4.74;6.5&quot;>لم أتوقع هذا.",
+    "after": "<ts=&quot;0;4.17&quot;>لسبب ما، كلما أنجزت أكثر ازددت انشغالًا.<ts=&quot;4.74;6.5&quot;>لم أتوقع ذلك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7745,
+    "key": "FIXER_TORR_GP1_TORR_GP_011",
+    "source_sha256": "d8bb762efb906067e27636815b3f6b89d34ff9c72116b47b7a1828d0e82f8b58",
+    "before": "<ts=&quot;0;4.999&quot;>،ما زال الكثير مما يجب فعله لكن الكسل يحكم<br>بلا منازع.",
+    "after": "<ts=&quot;0;4.999&quot;>هناك الكثير لأفعله، ومع ذلك يهيمن التسويف.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7825,
+    "key": "FUNGA_WPN_GEN_EXIT_001",
+    "source_sha256": "dfe75bd81844ed4791143dfc418fae52a3a52f419b5c6bf3a6fa597d9eb2f2c5",
+    "before": "<ts=&quot;0.04;3.306&quot;>في المرة القادمة، اطلب فنغال فحسب!",
+    "after": "<ts=&quot;0.04;3.306&quot;>في المرة القادمة، اطلب فنغال فحسب!",
+    "decision": "keep"
+  },
+  {
+    "index": 7826,
+    "key": "FUNGA_WPN_GEN_EXIT_002",
+    "source_sha256": "01b88359db2b7aab16de430fbba09bd72bb43f2650b6677812feb5bb423aefb0",
+    "before": "<ts=&quot;0.047;2.106&quot;>*هذه* هي طريقة المرح!",
+    "after": "<ts=&quot;0.047;2.106&quot;>*هذه* هي طريقة المرح!",
+    "decision": "keep"
+  },
+  {
+    "index": 7827,
+    "key": "FUNGA_WPN_GEN_EXIT_003",
+    "source_sha256": "26dd43374293bfdccfdbd718488e4bee34cdb4ffd3415435bbce84e46556253f",
+    "before": "<ts=&quot;0.029;2.161&quot;>حسنا، مع السلامة!",
+    "after": "<ts=&quot;0.029;2.161&quot;>حسنا، مع السلامة!",
+    "decision": "keep"
+  },
+  {
+    "index": 7828,
+    "key": "FUNGA_WPN_GEN_EXIT_004",
+    "source_sha256": "c09f2b2832e8ae0264bbe916dfbdcd340c48aec03940b65f2b9c50dce4de1ebb",
+    "before": "<ts=&quot;0.049;2.041&quot;>كان وقتا ممتعا!",
+    "after": "<ts=&quot;0.049;2.041&quot;>كان وقتا ممتعا!",
+    "decision": "keep"
+  },
+  {
+    "index": 7829,
+    "key": "FUNGA_WPN_GEN_EXIT_005",
+    "source_sha256": "45c26524a608eb6fa3b7c89de247ba4d3e01ebc700986a714d85c1521ac3aa46",
+    "before": "<ts=&quot;0.045;1.829&quot;>لا شكر على واجب!",
+    "after": "<ts=&quot;0.045;1.829&quot;>لا شكر على واجب!",
+    "decision": "keep"
+  },
+  {
+    "index": 7830,
+    "key": "FUNGA_WPN_GEN_EXIT_006",
+    "source_sha256": "d53e1392e20ce17a3f1b14263b30e30e5211ec363cfadaa1217ba346064b3504",
+    "before": "<ts=&quot;0.032;1.931&quot;>مرحا حتى اللقاء!",
+    "after": "<ts=&quot;0.032;1.931&quot;>مرحا حتى اللقاء!",
+    "decision": "keep"
+  },
+  {
+    "index": 7831,
+    "key": "FUNGA_WPN_GEN_EXIT_007",
+    "source_sha256": "f5a6db29dd8acd501a1cddc75c8aba18dc9f25a99acc93c7d54ad5c129876d0c",
+    "before": "<ts=&quot;0.017;2.552&quot;>كن صادقا، أكان ذلك مرحا أم لا؟",
+    "after": "<ts=&quot;0.017;2.552&quot;>كن صادقا، أكان ذلك مرحا أم لا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 7832,
+    "key": "FUNGA_WPN_GEN_EXIT_008",
+    "source_sha256": "0af6e2161639a706247585d7b9aa10817a825aed8ccb84b676df8f099e3f653e",
+    "before": "<ts=&quot;0;3.15&quot;>والآن أعود إلى عالم المرح تحت الأرض! إلى<br>اللقاء!",
+    "after": "<ts=&quot;0;3.15&quot;>والآن أعود إلى عالم المرح تحت الأرض! إلى<br>اللقاء!",
+    "decision": "keep"
+  },
+  {
+    "index": 7833,
+    "key": "FUNGA_WPN_GEN_EXIT_009",
+    "source_sha256": "6b287a38f3be28dd5f2c2fd0bb436e2b3232f04e2dccc5140744d10d8eb3122a",
+    "before": "<ts=&quot;0;2.169&quot;>أنا *فقط* استمتعت!",
+    "after": "<ts=&quot;0;2.169&quot;>على الأقل، *أنا* استمتعت!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7834,
+    "key": "FUNGA_WPN_GEN_EXIT_010",
+    "source_sha256": "ee5e97bb386baa85e779e63bd5e59b87099961b750a57d961659c6dce9d21ecc",
+    "before": "<ts=&quot;0.049;0.903&quot;>إلى اللقاء!",
+    "after": "<ts=&quot;0.049;0.903&quot;>إلى اللقاء!",
+    "decision": "keep"
+  },
+  {
+    "index": 7875,
+    "key": "FUNGA_WPN_GEN_KILL_001",
+    "source_sha256": "e8b7d608832483997744efdf15bb3feba71b8226da049da7f8a268d91ac4a1ba",
+    "before": "<ts=&quot;0.049;1.253&quot;>نعممممممم!",
+    "after": "<ts=&quot;0.049;1.253&quot;>نعممممممم!",
+    "decision": "keep"
+  },
+  {
+    "index": 7876,
+    "key": "FUNGA_WPN_GEN_KILL_002",
+    "source_sha256": "d3a8f4ac8614c44e9f704a8122dc086cb1b39ccaf5156a95bba49318f0bc7859",
+    "before": "<ts=&quot;0.035;1.711&quot;>مرحمممممم!",
+    "after": "<ts=&quot;0.035;1.711&quot;>مررررح!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7877,
+    "key": "FUNGA_WPN_GEN_KILL_003",
+    "source_sha256": "fdbd03841cd76d2899566a1963580dce2fbb40ba4a01ccdb3bebca20e01f747e",
+    "before": "<ts=&quot;0.046;3.735&quot;>لا تكن *أنت* من يخبرني كيف أستمتع!",
+    "after": "<ts=&quot;0.046;3.735&quot;>لا تكن *أنت* من يخبرني كيف أستمتع!",
+    "decision": "keep"
+  },
+  {
+    "index": 7878,
+    "key": "FUNGA_WPN_GEN_KILL_004",
+    "source_sha256": "2bba9e0973fcffb2e2faec4f4dff956624d1b5176cbefb639fbe2aeaaadeae83",
+    "before": "<ts=&quot;0.046;0.362&quot;>بووب!",
+    "after": "<ts=&quot;0.046;0.362&quot;>بووب!",
+    "decision": "keep"
+  },
+  {
+    "index": 7879,
+    "key": "FUNGA_WPN_GEN_KILL_005",
+    "source_sha256": "f7aaa15e07d1c9dc213e5c04adc5ffe70aff515f774ad04e2dc913a1a2e190ba",
+    "before": "<ts=&quot;0.032;2.818&quot;>فنغال، أتقنتها من جديد.",
+    "after": "<ts=&quot;0.032;2.818&quot;>فنغال، لقد أبدعت مجددًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7880,
+    "key": "FUNGA_WPN_GEN_KILL_006",
+    "source_sha256": "8ee0fa3b877c5ea903ae668c8f635cb327cae4c636be4ab9dffb1a3b8465be4a",
+    "before": "<ts=&quot;0.19;2.594&quot;>أوه، لا أصدقاء لفنغال؟",
+    "after": "<ts=&quot;0.19;2.594&quot;>أوه، لا أصدقاء لفنغال؟",
+    "decision": "keep"
+  },
+  {
+    "index": 7881,
+    "key": "FUNGA_WPN_GEN_KILL_007",
+    "source_sha256": "6edbe421574267f76276309d0c09cf8e736d2e41b08579144aacb7fbf64c237e",
+    "before": "<ts=&quot;0.04;5.687&quot;>للفطر البرق، أما أنا فلي الضجيج!",
+    "after": "<ts=&quot;0.04;5.687&quot;>فنغاي لديه البرق، أما أنا فلدي رعد المرح!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7882,
+    "key": "FUNGA_WPN_GEN_KILL_008",
+    "source_sha256": "60c5d4155efe347c5daa6f8f4e176496a14a03e19fd2b7fbac3cea5c778653e9",
+    "before": "<ts=&quot;0.046;1.404&quot;>ههههههههههه.",
+    "after": "<ts=&quot;0.046;1.404&quot;>ههههههههههه.",
+    "decision": "keep"
+  },
+  {
+    "index": 7883,
+    "key": "FUNGA_WPN_GEN_KILL_009",
+    "source_sha256": "de9927edae7aa0c061ccef72d6cbfe2ff4045cccfa129214eeb5d6c8ca780d5a",
+    "before": "<ts=&quot;2.86;3.218&quot;>هل أحسنت؟ تعرف أنني أحسنت!",
+    "after": "<ts=&quot;2.86;3.218&quot;>هل أحسنت؟ تعرف أنني أحسنت!",
+    "decision": "keep"
+  },
+  {
+    "index": 7884,
+    "key": "FUNGA_WPN_GEN_KILL_010",
+    "source_sha256": "a4a4774b1ce44f3d9c590950a7e26a2bfa8aea051536708225a5c8bc6c82460c",
+    "before": "<ts=&quot;0;1.4&quot;>انتهت حفلك!",
+    "after": "<ts=&quot;0;1.4&quot;>انتهت الحفلة بالنسبة إليك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7907,
+    "key": "FUNGA_WPN_GEN_SPAWN_001",
+    "source_sha256": "2ac66731df903511538b5d3b5dd2c20f3094cc278d73dc91f9ecb2321528fdeb",
+    "before": "<ts=&quot;2.219;3.141&quot;>*الآن* جاء المرح!",
+    "after": "<ts=&quot;2.219;3.141&quot;>*الآن* جاء المرح!",
+    "decision": "keep"
+  },
+  {
+    "index": 7908,
+    "key": "FUNGA_WPN_GEN_SPAWN_002",
+    "source_sha256": "9357dd19b567b0f0f1c95a3887d881dd569899d66439f6e180ab795722a3c3cc",
+    "before": "<ts=&quot;0.22;2.32&quot;>هل قال أحد حرف الفاء؟",
+    "after": "<ts=&quot;0.22;2.32&quot;>هل قال أحد حرف الفاء؟",
+    "decision": "keep"
+  },
+  {
+    "index": 7909,
+    "key": "FUNGA_WPN_GEN_SPAWN_003",
+    "source_sha256": "bf36aac6ccaa9ff4b0f6326e14a612b62c1bdc566444448d8a19919e1f0144f1",
+    "before": "<ts=&quot;0.047;5.544&quot;>أنا لا أحب إلا ثلاثة أشياء: ،مرح *مرح*ومرح<br>،!",
+    "after": "<ts=&quot;0.047;5.544&quot;>كل ما يهمني ثلاثة أشياء: المرح، و*المرح*،<br>والمرح!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7910,
+    "key": "FUNGA_WPN_GEN_SPAWN_004",
+    "source_sha256": "0e11bd804e2a4306f496b5a3e2a8f42d3ea60777f48add7afa019a322ace102f",
+    "before": "<ts=&quot;0.199;2.299&quot;>ههاها! لا شيء يوقف عائلة المرح!",
+    "after": "<ts=&quot;0.199;2.299&quot;>ههاها! لا شيء يوقف عائلة المرح!",
+    "decision": "keep"
+  },
+  {
+    "index": 7911,
+    "key": "FUNGA_WPN_GEN_SPAWN_005",
+    "source_sha256": "9a0efb1c6124bc68ea2091b916e4da305be07d80148fee12ae07099f598225a4",
+    "before": "<ts=&quot;0.047;1.881&quot;>*مرحبا!* مرحبا مرحبا! مرحبا!",
+    "after": "<ts=&quot;0.047;1.881&quot;>*مرحبا!* مرحبا مرحبا! مرحبا!",
+    "decision": "keep"
+  },
+  {
+    "index": 7912,
+    "key": "FUNGA_WPN_GEN_SPAWN_006",
+    "source_sha256": "9ac77d6cffd1a83784cb1f228d719ad311a379edeb9676db98297b88065f3cc7",
+    "before": "<ts=&quot;0.047;0.819&quot;>مااا!",
+    "after": "<ts=&quot;0.047;0.819&quot;>كيف الحال!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7913,
+    "key": "FUNGA_WPN_GEN_SPAWN_007",
+    "source_sha256": "c32a35d4798272d7cf95049d46e04045b2ea959818e0c50ef79e302e6b73e4c2",
+    "before": "<ts=&quot;0.017;3.565&quot;>هل اشترى أحدكم تذاكر عرض *المرح*؟",
+    "after": "<ts=&quot;0.017;3.565&quot;>هل ستشترون تذاكر عرض *المرح*؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7914,
+    "key": "FUNGA_WPN_GEN_SPAWN_008",
+    "source_sha256": "484bfc72cbecc7a07f7b85d6d4fc21811d7fdc2830784ce0719a18a5a914ef02",
+    "before": "<ts=&quot;0.045;2.984&quot;>ووووو! هيا بنا!",
+    "after": "<ts=&quot;0.045;2.984&quot;>ووووو! هيا بنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 7915,
+    "key": "FUNGA_WPN_GEN_SPAWN_009",
+    "source_sha256": "11dc0d321495c4df7f07c09e9e984a574d7e4becf60b6818598f7eed059fac66",
+    "before": "<ts=&quot;0.036;1.312&quot;>أخيرا!",
+    "after": "<ts=&quot;0.036;1.312&quot;>أخيرا!",
+    "decision": "keep"
+  },
+  {
+    "index": 7916,
+    "key": "FUNGA_WPN_GEN_SPAWN_010",
+    "source_sha256": "733ba94675c7a1275a9e98b37c4dbfbabf0b379a315a39b04413d26aab77aae6",
+    "before": "<ts=&quot;0.038;4.121&quot;>فنغال وفنغاي هنا لبداية مرح كبير!",
+    "after": "<ts=&quot;0.038;4.121&quot;>فنغال وفنغاي هنا لإشعال المرح!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7917,
+    "key": "FUNGA_WPN_GEN_THROW_001",
+    "source_sha256": "3793fa74937897c2c5511e744474424882a7f860e0cade266a7aa5b1801084cd",
+    "before": "<ts=&quot;0.042;1.173&quot;>مرح مرح مرح مرح مرح مرح مرح!",
+    "after": "<ts=&quot;0.042;1.173&quot;>مرح مرح مرح مرح مرح مرح مرح!",
+    "decision": "keep"
+  },
+  {
+    "index": 7918,
+    "key": "FUNGA_WPN_GEN_THROW_002",
+    "source_sha256": "0c1278b7a722dbc5275a116449a02e0c18b3b00dcced63be250e855a63ef21b3",
+    "before": "<ts=&quot;0.047;2.607&quot;>هل تحتكر كل المرح لنفسك؟",
+    "after": "<ts=&quot;0.047;2.607&quot;>هل تحتكر كل المرح لنفسك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 7919,
+    "key": "FUNGA_WPN_GEN_THROW_003",
+    "source_sha256": "9d282d21960f73a5c40b7562f4102138029939b343bbd236996ff17950271044",
+    "before": "<ts=&quot;0.049;3.758&quot;>[يضحك بجنون من السعادة.]طوب طوب! طوب طوب!",
+    "after": "<ts=&quot;0.049;3.758&quot;>[تضحك بهستيريا من السعادة.] بيو بيو! بيو<br>بيو!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7920,
+    "key": "FUNGA_WPN_GEN_THROW_004",
+    "source_sha256": "6e515029be7df61f95c7a3bf101dce51158bc5927350298afbde909f5080a4cb",
+    "before": "<ts=&quot;0.047;2.143&quot;>خذ شيئا من المرح، إنه مفيد لك!",
+    "after": "<ts=&quot;0.047;2.143&quot;>خذ شيئا من المرح، إنه مفيد لك!",
+    "decision": "keep"
+  },
+  {
+    "index": 7921,
+    "key": "FUNGA_WPN_GEN_THROW_005",
+    "source_sha256": "786642ae0ea1c5c34522dff7b8e2386906bbe98f5fc93b619cb47eb3f859e630",
+    "before": "<ts=&quot;0.048;2.849&quot;>ن-ن-ن-ن-ن-و-ف!",
+    "after": "<ts=&quot;0.048;2.849&quot;>مـ... ر... ر... ر... ح!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7922,
+    "key": "FUNGA_WPN_GEN_THROW_006",
+    "source_sha256": "a293b7a4a84580ba61c995fee7890d740e043b0994c54cfcccc89b178f0cc4a2",
+    "before": "<ts=&quot;0.044;2.802&quot;>هل تشعر بالمرح؟ هل تشعر به فعلا؟",
+    "after": "<ts=&quot;0.044;2.802&quot;>هل تشعر بالمرح؟ هل تشعر به فعلا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 7923,
+    "key": "FUNGA_WPN_GEN_THROW_007",
+    "source_sha256": "6d0ed6194e703ae4414d8d51d040acb7bd8a5a595efb896a539e38da3943cd52",
+    "before": "<ts=&quot;0.047;1.85&quot;>أليس هذا مرحا؟!",
+    "after": "<ts=&quot;0.047;1.85&quot;>أليس هذا مرحا؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 7924,
+    "key": "FUNGA_WPN_GEN_THROW_008",
+    "source_sha256": "87aa30f2beca1acb2d6f3ec222073d98d0945f353a235c2667bd8b5dd61b0f22",
+    "before": "<ts=&quot;0.037;1.95&quot;>طوب طوب! طوب طوب طوب طوب طوب طوب!",
+    "after": "<ts=&quot;0.037;1.95&quot;>بيو بيو! بيو بيو بيو بيو بيو بيو!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7925,
+    "key": "FUNGA_WPN_GEN_THROW_009",
+    "source_sha256": "2dfd90cfb15dc971ff8ad1b516e056d9e948ca7eae16a2a0190d364c88fcdf26",
+    "before": "<ts=&quot;0.039;2.549&quot;>أوه نعم، أوه نعمممم!",
+    "after": "<ts=&quot;0.039;2.549&quot;>أوه نعم، أوه نعمممم!",
+    "decision": "keep"
+  },
+  {
+    "index": 7926,
+    "key": "FUNGA_WPN_GEN_THROW_010",
+    "source_sha256": "f1bc3c770554d97ffbe47b91e6c4570632c21d0e9d4eb278a4680bb1ff501f31",
+    "before": "<ts=&quot;0.049;2.786&quot;>أقدم لك هذا المرح *مجانا!*",
+    "after": "<ts=&quot;0.049;2.786&quot;>أقدم لك هذا المرح *مجانا!*",
+    "decision": "keep"
+  },
+  {
+    "index": 7937,
+    "key": "FUNGA_ZURK_GP4_GAMEPLAY_001",
+    "source_sha256": "d778227d3eae16c7c65e3495803089433dceb315e813dc43b6478dcb2c14ffca",
+    "before": "<ts=&quot;0.048;1.398&quot;>وأنا أعرف!",
+    "after": "<ts=&quot;0.048;1.398&quot;>لا تحدثني عن ذلك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 7938,
+    "key": "FUNGA_ZURK_GP4_GAMEPLAY_002",
+    "source_sha256": "38d19669c967b37a936ef9a33c9566351e5e2ad4885b85886ca3af912a2f9f80",
+    "before": "<ts=&quot;0;2.45&quot;>كيف تحافظ على حماسك يا مورت؟",
+    "after": "<ts=&quot;0;2.45&quot;>كيف تحافظ على حماسك يا مورت؟",
+    "decision": "keep"
+  },
+  {
+    "index": 7939,
+    "key": "FUNGA_ZURK_GP4_GAMEPLAY_003",
+    "source_sha256": "3f7d6e99052f1b0918071445352a1017626342c8a9155c20485ba1807a2f940b",
+    "before": "<ts=&quot;0;0.35&quot;>،حسنا<ts=&quot;1.06;2.46&quot;>لأنك سألت... في<ts=&quot;2.489;3.539&quot;>وقت فراغي<ts=&quot;5.12;7.446&quot;>أعمل على شهادة في العلاج بالروائح العطرية.",
+    "after": "<ts=&quot;0;0.35&quot;>حسنًا،<ts=&quot;1.06;2.46&quot;>بما أنك سألت... في<ts=&quot;2.489;3.539&quot;>وقت فراغي،<ts=&quot;5.12;7.446&quot;>أعمل على نيل شهادة في العلاج بالروائح<br>العطرية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8009,
+    "key": "FUNG_WPN_GEN_ENGAGED_001",
+    "source_sha256": "32209e2b13a45f0cdb53cc76983491201c2edf21a4f6f1bf247bc87308e8a1e2",
+    "before": "<ts=&quot;0.02;1.693&quot;>لا تجعلني أبذل جهدي لأجل هذا.",
+    "after": "<ts=&quot;0.02;1.693&quot;>لا تجعلني أبذل جهدي لأجل هذا.",
+    "decision": "keep"
+  },
+  {
+    "index": 8010,
+    "key": "FUNG_WPN_GEN_ENGAGED_002",
+    "source_sha256": "025540781d3a41358e060d1503ed22cd23ed64188600fd4efc9ea469dac82dd9",
+    "before": "<ts=&quot;0.038;4.244&quot;>من يريد أن يقابل السيد فنغاي؟ من يريد أن<br>يقابل السيد فنغاي؟؟؟",
+    "after": "<ts=&quot;0.038;4.244&quot;>من يريد أن يقابل السيد فنغاي؟ من يريد أن<br>يقابل السيد فنغاي؟؟؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8011,
+    "key": "FUNG_WPN_GEN_ENGAGED_003",
+    "source_sha256": "0b4459b81a01e406c8480a64cd2aec4e329f92b72161e335ccaa13132abae368",
+    "before": "<ts=&quot;0.027;4.378&quot;>المرح لي والمرح لكم، وإن لم تدفعوا أتعابي<br>فسأرفع دعوى!",
+    "after": "<ts=&quot;0.027;4.378&quot;>المرح لي والمرح لكم، وإن لم تدفعوا أتعابي<br>فسأرفع دعوى!",
+    "decision": "keep"
+  },
+  {
+    "index": 8012,
+    "key": "FUNG_WPN_GEN_ENGAGED_004",
+    "source_sha256": "aad384376494e9ffbc5b9f88798424f55ad2bda326e3e0846c37e9f0f262bdcc",
+    "before": "<ts=&quot;0.047;3.896&quot;>إن كنت أستمتع فالجميع سيمرح!",
+    "after": "<ts=&quot;0.047;3.896&quot;>إن كنت أستمتع فالجميع سيمرح!",
+    "decision": "keep"
+  },
+  {
+    "index": 8013,
+    "key": "FUNG_WPN_GEN_ENGAGED_005",
+    "source_sha256": "e8dd8ee49951703ee726dc1fb3986e47ef5e53b8ea341609a980aa794a93e139",
+    "before": "<ts=&quot;0.036;1.44&quot;>من لم يمرح بعد؟! ؟! ؟",
+    "after": "<ts=&quot;0.036;1.44&quot;>من لم يستمتع بعد؟!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8014,
+    "key": "FUNG_WPN_GEN_ENGAGED_006",
+    "source_sha256": "b6c7ee7b561adb916970e5e90f00f381ffb9cb2ae4935b4ff4ce0a066fe73f14",
+    "before": "<ts=&quot;0;1.4&quot;>هذا مرح، صحيح؟<ts=&quot;2.719;3.441&quot;>أليس هذا مرحا؟ لا بد أن يكون!",
+    "after": "<ts=&quot;0;1.4&quot;>هذا مرح، صحيح؟<ts=&quot;2.719;3.441&quot;>أليس هذا مرحا؟ لا بد أن يكون!",
+    "decision": "keep"
+  },
+  {
+    "index": 8015,
+    "key": "FUNG_WPN_GEN_ENGAGED_007",
+    "source_sha256": "f8b160bf8c495c78c2f5379eabcae31ffa580dab5fb7d6caf72163a222673a3f",
+    "before": "<ts=&quot;0;3.099&quot;>أحدهم لا يمرح هنا! أشعر بذلك!",
+    "after": "<ts=&quot;0;3.099&quot;>أحدهم لا يمرح هنا! أشعر بذلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 8016,
+    "key": "FUNG_WPN_GEN_ENGAGED_008",
+    "source_sha256": "5f88c3481fc7f760a0aa086e3cde93cbd40b5f9fb4f8f2cb22bbdfa732dcd087",
+    "before": "<ts=&quot;0.043;1.554&quot;>أووووووووف!",
+    "after": "<ts=&quot;0.043;1.554&quot;>أووووووووف!",
+    "decision": "keep"
+  },
+  {
+    "index": 8017,
+    "key": "FUNG_WPN_GEN_ENGAGED_009",
+    "source_sha256": "87f86b400882415a8730530d90b4e1e2a222544115ff367814527ea7cf309fde",
+    "before": "<ts=&quot;0;2.25&quot;>يجب أن أطلب أكثر مقابل الحضور.",
+    "after": "<ts=&quot;0;2.25&quot;>ينبغي أن أطلب أجرًا أعلى مقابل الظهور.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8018,
+    "key": "FUNG_WPN_GEN_ENGAGED_010",
+    "source_sha256": "6c3686d7b6812a5b23f31fb3abe7fd284dc9bd03ed68c478e09da260fd632e0b",
+    "before": "<ts=&quot;0;0.66&quot;>أحد؟<ts=&quot;1.18;2.24&quot;>هل من آخر؟",
+    "after": "<ts=&quot;0;0.66&quot;>أحد؟<ts=&quot;1.18;2.24&quot;>هل من آخر؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8019,
+    "key": "FUNG_WPN_GEN_EXIT_001",
+    "source_sha256": "daaaa55e63ec7d319141a5c6ab00c152bbaab1b69d009620586e1bfd7ac9c9ae",
+    "before": "<ts=&quot;0.043;1.649&quot;>كفى من المرح ليوم واحد!",
+    "after": "<ts=&quot;0.043;1.649&quot;>كفى من المرح ليوم واحد!",
+    "decision": "keep"
+  },
+  {
+    "index": 8020,
+    "key": "FUNG_WPN_GEN_EXIT_002",
+    "source_sha256": "ca31530da7bb740ba5d33a813ac9803ccac6191719cfdbba56b3eac61e821939",
+    "before": "<ts=&quot;0;0.83&quot;>انتهى!",
+    "after": "<ts=&quot;0;0.83&quot;>انتهى!",
+    "decision": "keep"
+  },
+  {
+    "index": 8021,
+    "key": "FUNG_WPN_GEN_EXIT_003",
+    "source_sha256": "c749948746039a0e51b223629fd3fd6332a3ccf7ebc8fda4dd354790787b90a3",
+    "before": "<ts=&quot;0.06;0.76&quot;>انتهيت!",
+    "after": "<ts=&quot;0.06;0.76&quot;>انتهيت!",
+    "decision": "keep"
+  },
+  {
+    "index": 8022,
+    "key": "FUNG_WPN_GEN_EXIT_004",
+    "source_sha256": "f26edec6d9fb105758c4d9f9d87a58acf351d52bba4653fb3e573c5f1f5db635",
+    "before": "<ts=&quot;0.055;1.094&quot;>انتهى المرح!",
+    "after": "<ts=&quot;0.055;1.094&quot;>انتهى المرح!",
+    "decision": "keep"
+  },
+  {
+    "index": 8023,
+    "key": "FUNG_WPN_GEN_EXIT_005",
+    "source_sha256": "c913e7f759e553cc2fda172bc6fd80c9e6337a8c83e0eae8f3e5ca42af2933d7",
+    "before": "<ts=&quot;0;1.4&quot;>تريد المزيد؟ ها!",
+    "after": "<ts=&quot;0;1.4&quot;>تريد المزيد؟ ها!",
+    "decision": "keep"
+  },
+  {
+    "index": 8024,
+    "key": "FUNG_WPN_GEN_EXIT_006",
+    "source_sha256": "560d50d893bdd079e98d8176d141d0cd465926b6a2832ef06a2967cd078b39f8",
+    "before": "<ts=&quot;0;1.301&quot;>أكرهكم جميعا.",
+    "after": "<ts=&quot;0;1.301&quot;>أكرهكم جميعا.",
+    "decision": "keep"
+  },
+  {
+    "index": 8025,
+    "key": "FUNG_WPN_GEN_EXIT_007",
+    "source_sha256": "6ebdecd6fb1fc32b35d4a141c466b3cfa93d48ebd3cb065145650a5181115c4f",
+    "before": "<ts=&quot;0.031;1.732&quot;>إلى اللقاء!",
+    "after": "<ts=&quot;0.031;1.732&quot;>إلى اللقاء!",
+    "decision": "keep"
+  },
+  {
+    "index": 8026,
+    "key": "FUNG_WPN_GEN_EXIT_008",
+    "source_sha256": "c9c6f6660e9dc8c222423158d1eb24cc52192f4f06691dec721b09fbbfdf8917",
+    "before": "<ts=&quot;0.049;0.999&quot;>يا له من تحرر!",
+    "after": "<ts=&quot;0.049;0.999&quot;>يا له من تحرر!",
+    "decision": "keep"
+  },
+  {
+    "index": 8027,
+    "key": "FUNG_WPN_GEN_EXIT_009",
+    "source_sha256": "04ec61f133f0bc17299edabf245b8d04b23dac75fea6dc5ed2ffd1ed6b29608f",
+    "before": "<ts=&quot;0;1.5&quot;>أحب عملي!",
+    "after": "<ts=&quot;0;1.5&quot;>أحب عملي!",
+    "decision": "keep"
+  },
+  {
+    "index": 8028,
+    "key": "FUNG_WPN_GEN_EXIT_010",
+    "source_sha256": "02ba7f3eca4fd49e6d6c666ae8c1e1cc000c5335eb88e79217b60ad17e873d22",
+    "before": "<ts=&quot;0;2.5&quot;>السيد فنغاي بحاجة إلى استراحة.",
+    "after": "<ts=&quot;0;2.5&quot;>السيد فنغاي بحاجة إلى استراحة.",
+    "decision": "keep"
+  },
+  {
+    "index": 8029,
+    "key": "FUNG_WPN_GEN_EXIT_011",
+    "source_sha256": "32523f7f7a50e98487d00bcc8f79027d9ebd456ba674bb8dceaefb6f225ab356",
+    "before": "<ts=&quot;0.055;1.998&quot;>كفى من المرح ليوم واحد.",
+    "after": "<ts=&quot;0.055;1.998&quot;>كفى من المرح ليوم واحد.",
+    "decision": "keep"
+  },
+  {
+    "index": 8030,
+    "key": "FUNG_WPN_GEN_EXIT_012",
+    "source_sha256": "5fde4449d7ced58420046769cb2c31954e6b229c4b14e0e5db278a30d4a74e09",
+    "before": "<ts=&quot;0.054;1.892&quot;>كفى من المرح ليوم واحد...",
+    "after": "<ts=&quot;0.054;1.892&quot;>كفى من المرح ليوم واحد...",
+    "decision": "keep"
+  },
+  {
+    "index": 8031,
+    "key": "FUNG_WPN_GEN_EXIT_013",
+    "source_sha256": "71f97189efd622287ab2cd9915390f512f6821abf819f19be08ff47898ceb3ee",
+    "before": "<ts=&quot;0.031;1.667&quot;>أحب عملي.",
+    "after": "<ts=&quot;0.031;1.667&quot;>أحب عملي.",
+    "decision": "keep"
+  },
+  {
+    "index": 8032,
+    "key": "FUNG_WPN_GEN_EXIT_014",
+    "source_sha256": "b465b639322117875c45b6f42b1c4ef275ad78eb9f59d11a87a2fc80811fd68b",
+    "before": "<ts=&quot;0;1.5&quot;>أحب عملي...",
+    "after": "<ts=&quot;0;1.5&quot;>أحب عملي...",
+    "decision": "keep"
+  },
+  {
+    "index": 8033,
+    "key": "FUNG_WPN_GEN_G4L_001",
+    "source_sha256": "646ab5078f1ab93dc3d7bed7d1a8877bbd150b24f65e8144b5dad232b6dad88b",
+    "before": "<ts=&quot;0.035;1.49&quot;>ما هذا المرح يا صديقي؟",
+    "after": "<ts=&quot;0.035;1.49&quot;>ما هذا المرح يا صديقي؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8034,
+    "key": "FUNG_WPN_GEN_G4L_002",
+    "source_sha256": "bd6fbd33ec0a7af373381bc8c83aa1e88b40ccb954b00cf7daac0f9dd471edff",
+    "before": "<ts=&quot;0;2.195&quot;>تبدو كأنك تعرف كيف تمسك الحفلات!",
+    "after": "<ts=&quot;0;2.195&quot;>يبدو أنك تعرف كيف تستمتع بالحفلات!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8035,
+    "key": "FUNG_WPN_GEN_G4L_003",
+    "source_sha256": "6e0cb10693950e150ee48716cabf35b42239c2a42d3770474bcf812610e76074",
+    "before": "<ts=&quot;0;1.25&quot;>فكر بسرعة يا صاحب!",
+    "after": "<ts=&quot;0;1.25&quot;>فكر بسرعة يا صاحب!",
+    "decision": "keep"
+  },
+  {
+    "index": 8036,
+    "key": "FUNG_WPN_GEN_G4L_004",
+    "source_sha256": "a8bb5def6a85e128a0995fff6d8e45df7e2bd72f5a9b23bf045e75d284492739",
+    "before": "<ts=&quot;0;2.45&quot;>أنا السيد فنغاي، لست السيد المرح!",
+    "after": "<ts=&quot;0;2.45&quot;>أنا السيد فنغاي، لست السيد المرح!",
+    "decision": "keep"
+  },
+  {
+    "index": 8037,
+    "key": "FUNG_WPN_GEN_G4L_005",
+    "source_sha256": "dd9423660be0bfe4f7a2df948cc3472d6c30d7b07303c9d3d9ad62933eddf239",
+    "before": "<ts=&quot;0.029;2.057&quot;>يا صديقي! يا صديقي! يا صديقي!",
+    "after": "<ts=&quot;0.029;2.057&quot;>يا صديقي! يا صديقي! يا صديقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 8072,
+    "key": "FUNG_WPN_GEN_KILLG4L_001",
+    "source_sha256": "f721eced9157fe4e1bbfc8b96967c41b0fa312310b6a46ffdc178736473f1787",
+    "before": "<ts=&quot;0.052;1.271&quot;>لا تنادني يا صديقي!",
+    "after": "<ts=&quot;0.052;1.271&quot;>لا تنادني يا صديقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 8073,
+    "key": "FUNG_WPN_GEN_KILLG4L_002",
+    "source_sha256": "721672e6184f9ebe4f378af28f01377c52b9dc6447567eba9dd5141fa3157350",
+    "before": "<ts=&quot;0;2.286&quot;>المكان هنا يتسع لواحد فقط!",
+    "after": "<ts=&quot;0;2.286&quot;>لا يتسع المكان إلا لاستعراض واحد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8074,
+    "key": "FUNG_WPN_GEN_KILLG4L_003",
+    "source_sha256": "91bf85d2d007fa53c22e72760ddc9e59cda363c5374bce41987befb408777a72",
+    "before": "<ts=&quot;0.035;1.747&quot;>المرح قبل الصحبة!",
+    "after": "<ts=&quot;0.035;1.747&quot;>المرح قبل الصحبة!",
+    "decision": "keep"
+  },
+  {
+    "index": 8075,
+    "key": "FUNG_WPN_GEN_KILLG4L_004",
+    "source_sha256": "255ea371df5f0133cc370d8bc175e33ef99ef0d65b4a984491922657bc74bd86",
+    "before": "<ts=&quot;0.038;2.656&quot;>يا أصدقائي، ألم تروا فطرا يتكلم من قبل؟",
+    "after": "<ts=&quot;0.038;2.656&quot;>يا أصدقائي، ألم تروا فطرا يتكلم من قبل؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8076,
+    "key": "FUNG_WPN_GEN_KILLG4L_005",
+    "source_sha256": "3bd970f3e65d945d6a3d1f2dd6cefc4b425596f90571fbc978227a71da7c8cb0",
+    "before": "<ts=&quot;0;3&quot;>نصيحة: عليكم أن تطلبو ثمنا أكبر.",
+    "after": "<ts=&quot;0;3&quot;>نصيحة: عليكم أن تطلبوا أجرًا أعلى.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8077,
+    "key": "FUNG_WPN_GEN_KILLNEFT_001",
+    "source_sha256": "b0153cc3eb09624eb8320fc210da3b3bd58418c3efe82c85f931002034d5d335",
+    "before": "<ts=&quot;0.027;2.678&quot;>أبلغ الإمبراطور أن فنغاي يحييه.",
+    "after": "<ts=&quot;0.027;2.678&quot;>أبلغ الإمبراطور أن فنغاي يحييه.",
+    "decision": "keep"
+  },
+  {
+    "index": 8078,
+    "key": "FUNG_WPN_GEN_KILLNEFT_002",
+    "source_sha256": "21e9074eea7500af1c6c27b6855ebac8eb240f87a01417d407074599f492e37f",
+    "before": "<ts=&quot;0.025;2.74&quot;>هذا جزاء الإمبراطور على كرهه للمرح!",
+    "after": "<ts=&quot;0.025;2.74&quot;>هذا جزاء الإمبراطور على كرهه للمرح!",
+    "decision": "keep"
+  },
+  {
+    "index": 8079,
+    "key": "FUNG_WPN_GEN_KILLNEFT_003",
+    "source_sha256": "53ac4f0e5eb4877276ad0bee91538bd07a4f7bd25780a9305cd407dca3e94198",
+    "before": "<ts=&quot;0;3.154&quot;>بصراحة أظن أن لديكم مرحا أكثر من اللازم.",
+    "after": "<ts=&quot;0;3.154&quot;>بصراحة أظن أن لديكم مرحا أكثر من اللازم.",
+    "decision": "keep"
+  },
+  {
+    "index": 8080,
+    "key": "FUNG_WPN_GEN_KILLNEFT_004",
+    "source_sha256": "b188afcb1d4263e0d9dec9173506e21bcaf2f3aa851a4c93948f25e9a7ab830b",
+    "before": "<ts=&quot;0.038;2.298&quot;>على الإمبراطور أن يستقطب مواهب أفضل.",
+    "after": "<ts=&quot;0.038;2.298&quot;>على الإمبراطور أن يستقطب مواهب أفضل.",
+    "decision": "keep"
+  },
+  {
+    "index": 8081,
+    "key": "FUNG_WPN_GEN_KILLNEFT_005",
+    "source_sha256": "37aa8ebac9e05dd618c6689c70fba89a7bbdc10d6d002033328d0ba89a8e4937",
+    "before": "<ts=&quot;0.037;1.862&quot;>هذا أفضل ما لدى الإمبراطور؟",
+    "after": "<ts=&quot;0.037;1.862&quot;>هذا أفضل ما لدى الإمبراطور؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8082,
+    "key": "FUNG_WPN_GEN_KILLPIR_001",
+    "source_sha256": "8157ffcc19407e13fd90ecbb2031f83240465f83cad683056e0ce06b6ed39d35",
+    "before": "<ts=&quot;0.015;2.278&quot;>لا ينبغي لكم أن تعبثوا بفنغاي!",
+    "after": "<ts=&quot;0.015;2.278&quot;>لا ينبغي لكم أن تعبثوا بفنغاي!",
+    "decision": "keep"
+  },
+  {
+    "index": 8083,
+    "key": "FUNG_WPN_GEN_KILLPIR_002",
+    "source_sha256": "057dddf5ec3e689050bf7079e283143a257f3a3e612bfbbcf263184119b26f54",
+    "before": "<ts=&quot;0.063;3.421&quot;>المهراج يشبه نوعا من الفطر البحري إن فكرت<br>فيه.",
+    "after": "<ts=&quot;0.063;3.421&quot;>البرنقيل يشبه الفطر البحري، إن فكرت في<br>الأمر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8084,
+    "key": "FUNG_WPN_GEN_KILLPIR_003",
+    "source_sha256": "debe6d5797e1a1ca12c592587c65e24dbf3c364cc56249c990c70c732a4d4c10",
+    "before": "<ts=&quot;0.002;1.429&quot;>كان علي أن أكون قرصانا.",
+    "after": "<ts=&quot;0.002;1.429&quot;>كان علي أن أكون قرصانا.",
+    "decision": "keep"
+  },
+  {
+    "index": 8085,
+    "key": "FUNG_WPN_GEN_KILLPIR_004",
+    "source_sha256": "4aa7d4a4528e8ff06704b2f42b322da94dd3b90c720f3c80664ac6086a9a09bf",
+    "before": "<ts=&quot;0.041;2.253&quot;>القافية صعبة. هذا تعاطفي معكم.",
+    "after": "<ts=&quot;0.041;2.253&quot;>القافية صعبة. أتعاطف معكم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8086,
+    "key": "FUNG_WPN_GEN_KILLPIR_005",
+    "source_sha256": "dd97b05a527a3209b90e7dd3fd1c18ce85736e533d55921fcfe7718774134d6a",
+    "before": "<ts=&quot;0.056;1.99&quot;>القراصنة دائما أكثر مرحا...",
+    "after": "<ts=&quot;0.056;1.99&quot;>القراصنة دائما أكثر مرحا...",
+    "decision": "keep"
+  },
+  {
+    "index": 8087,
+    "key": "FUNG_WPN_GEN_KILL_001",
+    "source_sha256": "87e861015ece9c3bf6e7b6ccf28d57a0ef4d99f8e6d382cc975fbf38c890c809",
+    "before": "<ts=&quot;0.042;3.83&quot;>هذا ما تحصل عليه حين تبحث عن... *الكمأة*.",
+    "after": "<ts=&quot;0.042;3.83&quot;>هذا جزاء من يبحث عن... *متاعب بطعم<br>الكمأة*.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8088,
+    "key": "FUNG_WPN_GEN_KILL_002",
+    "source_sha256": "f05e26276a6867145149c0479a23fc6962cf909cca3393fd17a3612b496a836c",
+    "before": "<ts=&quot;0;0.45&quot;>شرابوم!",
+    "after": "<ts=&quot;0;0.45&quot;>شرابوم!",
+    "decision": "keep"
+  },
+  {
+    "index": 8089,
+    "key": "FUNG_WPN_GEN_KILL_003",
+    "source_sha256": "fd9883e4fd2c2037feeb8590ef624de17991b565f2c4d2b10597adfa8bc9a3a6",
+    "before": "<ts=&quot;0.042;2.35&quot;>يبدو أن المرح قد فاز!",
+    "after": "<ts=&quot;0.042;2.35&quot;>يبدو أن المرح قد فاز!",
+    "decision": "keep"
+  },
+  {
+    "index": 8090,
+    "key": "FUNG_WPN_GEN_KILL_004",
+    "source_sha256": "969ff4c569e6c7e364a7c16c2553e5c6dc36547b380f780af101cca79586fdae",
+    "before": "<ts=&quot;0;1.4&quot;>أنا المرح... وقد انتهى أمرك!",
+    "after": "<ts=&quot;0;1.4&quot;>أنا المرح... وقد انتهى أمرك!",
+    "decision": "keep"
+  },
+  {
+    "index": 8091,
+    "key": "FUNG_WPN_GEN_KILL_005",
+    "source_sha256": "ef9e40b448866fbeeabd6b1445030eee1e7fb19f17e259821debde27eb4c6a12",
+    "before": "<ts=&quot;0.03;1.44&quot;>أحتاج أن أستلقي.",
+    "after": "<ts=&quot;0.03;1.44&quot;>أحتاج أن أستلقي.",
+    "decision": "keep"
+  },
+  {
+    "index": 8092,
+    "key": "FUNG_WPN_GEN_KILL_006",
+    "source_sha256": "885d461d7cdc93f57e19b4c0a88a37ba61b557bd18611d09b2065a875a279993",
+    "before": "<ts=&quot;0.039;2.002&quot;>فنغاي يقول وداعا!",
+    "after": "<ts=&quot;0.039;2.002&quot;>فنغاي يقول وداعا!",
+    "decision": "keep"
+  },
+  {
+    "index": 8093,
+    "key": "FUNG_WPN_GEN_KILL_007",
+    "source_sha256": "21033105d6473d200d7da252b911690d0c759952ffe6fd4a6685c121f0239ebd",
+    "before": "<ts=&quot;0.05;2.629&quot;>هل يريد أحد غيري أن يكون السيد فنغاي؟",
+    "after": "<ts=&quot;0.05;2.629&quot;>هل يريد أحد غيري أن يكون السيد فنغاي؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8094,
+    "key": "FUNG_WPN_GEN_KILL_008",
+    "source_sha256": "18a14a62d90e5196496e9d6c1db590c0ed4ccd2c81ad9a66934e24eb74cb2e3b",
+    "before": "<ts=&quot;0.22;1.27&quot;>أرجوك، لا أكثر...",
+    "after": "<ts=&quot;0.22;1.27&quot;>أرجوك، لا أكثر...",
+    "decision": "keep"
+  },
+  {
+    "index": 8095,
+    "key": "FUNG_WPN_GEN_KILL_009",
+    "source_sha256": "535b803ad047ea42f1ebc8aa7a131289ce47c6ec9bfbdc74420554b6d0eb26ae",
+    "before": "<ts=&quot;0;1.149&quot;>أنا تعب جدا...",
+    "after": "<ts=&quot;0;1.149&quot;>أنا متعب جدًا...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8096,
+    "key": "FUNG_WPN_GEN_KILL_010",
+    "source_sha256": "15ae04c081d6e9497178abd540913106aa8a0112c8dd3cf1eb75f7a85b96e5cf",
+    "before": "<ts=&quot;0.053;1.01&quot;>استمتع.",
+    "after": "<ts=&quot;0.053;1.01&quot;>استمتع.",
+    "decision": "keep"
+  },
+  {
+    "index": 8105,
+    "key": "FUNG_WPN_GEN_MSATTACK_001",
+    "source_sha256": "cbce8e607ed0b4f31090cb802ea8826633760852e9e96f5c8d739ce51c092c82",
+    "before": "<ts=&quot;0;1.39&quot;>،يا الآنسة فنغال<ts=&quot;2.509;3.453&quot;>يمكنك أن تخففي قليلا من المرح.",
+    "after": "<ts=&quot;0;1.39&quot;>مهلًا يا فنغال،<ts=&quot;2.509;3.453&quot;>يمكنك تخفيف المرح قليلًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8106,
+    "key": "FUNG_WPN_GEN_MSATTACK_002",
+    "source_sha256": "ac0879e0d95dce369468ef384f713323ec873bbafb63833b1d9b138284b4ff36",
+    "before": "<ts=&quot;0;2.499&quot;>نعم! أمطرهم بالمرح!",
+    "after": "<ts=&quot;0;2.499&quot;>نعم! أمطريهم بضربات المرح!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8107,
+    "key": "FUNG_WPN_GEN_MSATTACK_003",
+    "source_sha256": "8fcfb8a2b82662cfbc273d56cb0b23069ae1e1bb9f231d52d281541e0e80c61c",
+    "before": "<ts=&quot;0.046;1.422&quot;>هيه، هذه حركتي!",
+    "after": "<ts=&quot;0.046;1.422&quot;>هيه، هذه حركتي!",
+    "decision": "keep"
+  },
+  {
+    "index": 8108,
+    "key": "FUNG_WPN_GEN_MSATTACK_004",
+    "source_sha256": "b8fb629fc32a16669fb49836ba9cc63bcdc687968b135292e147dc79336a445a",
+    "before": "<ts=&quot;0.052;2.021&quot;>نعم، مرح للجميع!",
+    "after": "<ts=&quot;0.052;2.021&quot;>نعم، مرح للجميع!",
+    "decision": "keep"
+  },
+  {
+    "index": 8109,
+    "key": "FUNG_WPN_GEN_MSATTACK_005",
+    "source_sha256": "0142f486a118d4f337088a5b1cb44e3e30fd5479adea9a2f8fa3fedacf799c4d",
+    "before": "<ts=&quot;0.06;2.667&quot;>واصلي المرح يا آنسة فنغال! واصلي المرح!",
+    "after": "<ts=&quot;0.06;2.667&quot;>واصلي المرح يا آنسة فنغال! واصلي المرح!",
+    "decision": "keep"
+  },
+  {
+    "index": 8110,
+    "key": "FUNG_WPN_GEN_MSATTACK_006",
+    "source_sha256": "f243c6980c26d8c0a273f5bfc0b7fc83c8c4eafab2c34df24b5623edee9b21f4",
+    "before": "<ts=&quot;0.22;2.493&quot;>أوف، أظن أن علي أن أرفع مستواي.",
+    "after": "<ts=&quot;0.22;2.493&quot;>أوف، أظن أن علي أن أرفع مستواي.",
+    "decision": "keep"
+  },
+  {
+    "index": 8111,
+    "key": "FUNG_WPN_GEN_MSKILL_001",
+    "source_sha256": "0331888fd6c9cf6ce662040151f96873ef104ab7f0eadd8e4f637e3c06d0a810",
+    "before": "<ts=&quot;0.028;1.397&quot;>فخورة بك يا الآنسة فنغال.",
+    "after": "<ts=&quot;0.028;1.397&quot;>أنا فخور بك يا فنغال.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8112,
+    "key": "FUNG_WPN_GEN_MSKILL_002",
+    "source_sha256": "9e914330cef080e62db71b4cf7f90b6e2ca7968e96d303ebc0ef089bd8fb9e5c",
+    "before": "<ts=&quot;0.028;2.747&quot;>انثر المرح بقدر ما تريد يا آنسة فنغال.",
+    "after": "<ts=&quot;0.028;2.747&quot;>انثري المرح بقدر ما تشائين يا فنغال.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8113,
+    "key": "FUNG_WPN_GEN_MSKILL_003",
+    "source_sha256": "93a3b5273be71d2b5bfc5da647a4c015e08c88ae024dd1c76c4c54ae4aaf8b8b",
+    "before": "<ts=&quot;0.05;2.579&quot;>أنا متعب من مجرد مشاهدتك يا آنسة فنغال.",
+    "after": "<ts=&quot;0.05;2.579&quot;>أنا متعب من مجرد مشاهدتك يا آنسة فنغال.",
+    "decision": "keep"
+  },
+  {
+    "index": 8114,
+    "key": "FUNG_WPN_GEN_MSKILL_004",
+    "source_sha256": "92212010463abc5c0824cc00b39811d1478318d96d9421419c4ef08e4b2be075",
+    "before": "<ts=&quot;0.04;2.576&quot;>تجعل العائلة فخورة يا آنسة فنغال!",
+    "after": "<ts=&quot;0.04;2.576&quot;>تجعلين العائلة فخورة يا فنغال!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8115,
+    "key": "FUNG_WPN_GEN_MSKILL_005",
+    "source_sha256": "0fbfb0691e787bf6525d11f04491c15933d98326b22dfcea0a2ac332374b6f33",
+    "before": "<ts=&quot;0.049;3.42&quot;>هدئ من نفسك يا آنسة فنغال! سترهق نفسك!",
+    "after": "<ts=&quot;0.049;3.42&quot;>تمهلي يا فنغال! سترهقين نفسك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8116,
+    "key": "FUNG_WPN_GEN_MSKILL_006",
+    "source_sha256": "ad23de4e54c067b0a66bf7a49b709123b78d9c8308a4a00b5416a1b8c477e838",
+    "before": "<ts=&quot;0.05;3.786&quot;>استمتعي بحماسك يا آنسة فنغال. لن يدوم.",
+    "after": "<ts=&quot;0.05;3.786&quot;>استمتعي بحماسك يا آنسة فنغال. لن يدوم.",
+    "decision": "keep"
+  },
+  {
+    "index": 8117,
+    "key": "FUNG_WPN_GEN_MULTI_001",
+    "source_sha256": "61015bebeb1b1ed136913aa68553cd6d096a5a6916a98bdb511580a95b10045d",
+    "before": "<ts=&quot;0;1.7&quot;>هل أنا بحاجة حقا إلى أن أكون هنا؟",
+    "after": "<ts=&quot;0;1.7&quot;>هل أنا بحاجة حقا إلى أن أكون هنا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8118,
+    "key": "FUNG_WPN_GEN_MULTI_002",
+    "source_sha256": "51a5194af98b8aeed325d8fe88ce71ab08a5002993e8b36c8e5f293361e7ce79",
+    "before": "<ts=&quot;0;2.219&quot;>يا إلهي، هل هذا ضروري حقا؟",
+    "after": "<ts=&quot;0;2.219&quot;>يا إلهي، هل هذا ضروري حقا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8119,
+    "key": "FUNG_WPN_GEN_MULTI_003",
+    "source_sha256": "5d382335215bb1ab3da658148fb9a79891e332138aa81190c960a672f8bea47a",
+    "before": "<ts=&quot;0;1.659&quot;>أنا السيد فنغاي و<ts=&quot;2.35;4.21&quot;>هنا بالفعل--أنا!",
+    "after": "<ts=&quot;0;1.659&quot;>أنا السيد فنغاي،<ts=&quot;2.35;4.21&quot;>وأنا... هنا بالفعل!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8120,
+    "key": "FUNG_WPN_GEN_MULTI_004",
+    "source_sha256": "c7785123613da26e7830cbbda8313c142629a760942fac435d638d60e2d2bb17",
+    "before": "<ts=&quot;0;1.634&quot;>لا أعمل مع المقلدين!",
+    "after": "<ts=&quot;0;1.634&quot;>لا أعمل مع المقلدين!",
+    "decision": "keep"
+  },
+  {
+    "index": 8121,
+    "key": "FUNG_WPN_GEN_MULTI_005",
+    "source_sha256": "7336c31c19c6f7c147b1ef63d984bab098e0f3dcb640482678fc60f09b833892",
+    "before": "<ts=&quot;0;1.478&quot;>هذه مبالغة، أليس كذلك؟",
+    "after": "<ts=&quot;0;1.478&quot;>هذه مبالغة، أليس كذلك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8122,
+    "key": "FUNG_WPN_GEN_MULTI_006",
+    "source_sha256": "8de9ea5666ab9291908368a04614f0004e8c487a6fd9f9403efb81dc1f4cab36",
+    "before": "<ts=&quot;0.046;3.069&quot;>هذا بالضبط ما احتاجته هذه الحفلة. المزيد<br>مني!",
+    "after": "<ts=&quot;0.046;3.069&quot;>هذا بالضبط ما احتاجته هذه الحفلة. المزيد<br>مني!",
+    "decision": "keep"
+  },
+  {
+    "index": 8123,
+    "key": "FUNG_WPN_GEN_MULTI_007",
+    "source_sha256": "b9d44f8666057a074284da3629d9fb4bd2f0bc5e43f21fb493fdb26d0c216849",
+    "before": "<ts=&quot;0;1.999&quot;>يبدو أنني أعمل ساعات إضافية!",
+    "after": "<ts=&quot;0;1.999&quot;>يبدو أنني أعمل ساعات إضافية!",
+    "decision": "keep"
+  },
+  {
+    "index": 8124,
+    "key": "FUNG_WPN_GEN_MULTI_008",
+    "source_sha256": "bbfab6dbbbbb1b6e2b7c08608f711751682c5c0b219e6c95ad9ce655156317ab",
+    "before": "<ts=&quot;0.035;2.183&quot;>لا يمكنك أن تحظى بمرح أكثر من اللازم!",
+    "after": "<ts=&quot;0.035;2.183&quot;>مهما كثر المرح، فلن يكون أكثر من اللازم!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 8125,
+    "key": "FUNG_WPN_GEN_NEFT_001",
+    "source_sha256": "6258bf8d4b3a0dd73355eb762efda1a8411ed3bd0d5857e847ddb0b81a2c9ab3",
+    "before": "<ts=&quot;0.046;3.729&quot;>إن أراد الإمبراطور توظيفي فليأت يسألني<br>بنفسه!",
+    "after": "<ts=&quot;0.046;3.729&quot;>إن أراد الإمبراطور توظيفي فليأت يسألني<br>بنفسه!",
+    "decision": "keep"
+  },
+  {
+    "index": 8126,
+    "key": "FUNG_WPN_GEN_NEFT_002",
+    "source_sha256": "a79ba901790a1a678b5d2c43cc3caec72f3e3f15ffa2feddda7f29463de27ed4",
+    "before": "<ts=&quot;0.065;3.071&quot;>أستطيع أداء صوت متكلف أيضا!",
+    "after": "<ts=&quot;0.065;3.071&quot;>أستطيع أداء صوت متكلف أيضا!",
+    "decision": "keep"
+  },
+  {
+    "index": 8127,
+    "key": "FUNG_WPN_GEN_NEFT_003",
+    "source_sha256": "9f3e09c4f5125f31cdfc3672f6f817a39a2224a6e3e3b0f30724a65bdee89741",
+    "before": "<ts=&quot;0.035;2.626&quot;>هل يدفع لك الإمبراطور لتمدحه بهذا القدر؟",
+    "after": "<ts=&quot;0.035;2.626&quot;>هل يدفع لك الإمبراطور لتمدحه بهذا القدر؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8128,
+    "key": "FUNG_WPN_GEN_NEFT_004",
+    "source_sha256": "9944b249518b255d5b34d68b6351b20f8eaf1a63749996bda03df5365ac83fba",
+    "before": "<ts=&quot;0.052;2.254&quot;>كفى عن الإمبراطور!",
+    "after": "<ts=&quot;0.052;2.254&quot;>كفى عن الإمبراطور!",
+    "decision": "keep"
+  },
+  {
+    "index": 8129,
+    "key": "FUNG_WPN_GEN_NEFT_005",
+    "source_sha256": "cbae710e7e46f84f4260cc4ac5e52f95fe8c4936ce7afa1209e3d39582053a87",
+    "before": "<ts=&quot;0.052;1.967&quot;>ما زال الإمبراطور مدينا لي بالمال!",
+    "after": "<ts=&quot;0.052;1.967&quot;>ما زال الإمبراطور مدينا لي بالمال!",
+    "decision": "keep"
+  },
+  {
+    "index": 8130,
+    "key": "FUNG_WPN_GEN_PIR_001",
+    "source_sha256": "184dbb6d144a6e8c352fef6c75ae84118d3d5861fd40675e19d8d5fbf499fbee",
+    "before": "<ts=&quot;0;2.11&quot;>أررررر... هل بدأ المرح؟",
+    "after": "<ts=&quot;0;2.11&quot;>أررررر... هل بدأ المرح؟",
+    "decision": "keep"
+  },
+  {
+    "index": 8131,
+    "key": "FUNG_WPN_GEN_PIR_002",
+    "source_sha256": "82b1c55da0741f532bdd7c915341f697c77a26b643cb7215062d7d840ba65e4c",
+    "before": "<ts=&quot;0.027;2.257&quot;>لقد جاء فنغاي من أجلكم!",
+    "after": "<ts=&quot;0.027;2.257&quot;>لقد جاء فنغاي من أجلكم!",
+    "decision": "keep"
+  },
+  {
+    "index": 8132,
+    "key": "FUNG_WPN_GEN_PIR_003",
+    "source_sha256": "8419d626d51fb63b318da351084e2c290b4c4a8d16982a5c2147c49747b0d32f",
+    "before": "<ts=&quot;0;2.8&quot;>أرر... لا أجد نكتة قرصانية واحدة!",
+    "after": "<ts=&quot;0;2.8&quot;>أرر... لا أجد نكتة قرصانية واحدة!",
+    "decision": "keep"
+  },
+  {
+    "index": 8133,
+    "key": "FUNG_WPN_GEN_PIR_004",
+    "source_sha256": "0db9197404f31f7863cbb0bb16cff0966ef987d411bb302a64aa7d81a4d8b728",
+    "before": "<ts=&quot;0.05;2.172&quot;>أنا هنا لأنهب مرحكم!",
+    "after": "<ts=&quot;0.05;2.172&quot;>أنا هنا لأنهب مرحكم!",
+    "decision": "keep"
+  }
+]

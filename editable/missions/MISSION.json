@@ -6,13 +6,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "أنقذ كابتن كوانتوم",
-    "arabic_edit": "أنقذ كابتن كوانتوم",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أنقذ القبطان كوانتوم",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "0d141f023bacfd3395a8971be05bc98e885eb1706c987ee421f8358ebb8ed7b3",
+      "candidate_sha256": "66e0927bf70db543949ba32a625739f35f9d5dc1e09b8937cc1685ad1ec12e62",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12676,
@@ -21,13 +29,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اختياري) البحث عن الكنز)",
-    "arabic_edit": "اختياري) البحث عن الكنز)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "ابحث عن الكنز (اختياري)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "5ca8ca7ae3379d94525143a2248de07f8b3c2e602426e685e2c3fd4e3190dfc4",
+      "candidate_sha256": "6a023446f2d16a9181404c652545434ba6f61c27c32bec302ce2c2ef8ee00a73",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12677,
@@ -36,13 +52,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "ابحث عن كوارتز المرحلة",
-    "arabic_edit": "ابحث عن كوارتز المرحلة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اعثر على كوارتز الطور",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "b47035d6ddf160cb1819cb712e7d539413230b26db7ac88cc800012e83eece34",
+      "candidate_sha256": "d6e3f9138b5051c1c35da343066acad3658c934a8a9b6b0791db3be06756f22e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12678,
@@ -52,13 +76,21 @@
     "scene_code": "",
     "arabic_current": "اعثر على الطاهي المفقود<br>(اختياري)",
     "arabic_edit": "اعثر على الطاهي المفقود (اختياري)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "b3e7d8ccc4a9494dd95cc7d24003d8f728eda6c2a7543660ec0826c57ae039d6",
+      "candidate_sha256": "c7fc1201b9cf5b086503f5bdc22735ebb3bd5f91d4bbf7dabc2ea0f36f176447",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12679,
@@ -68,12 +100,20 @@
     "scene_code": "",
     "arabic_current": "اتبع مسار العرض",
     "arabic_edit": "اتبع مسار العرض",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "04ee6b6069ad6e0d28b52d4de097c7a89bc827335bac8a848ea7759bf91b7ba2",
+      "candidate_sha256": "0804a3e6f068fccb8ce587064e82945c08b741ab172e826d3c8c6553286866a2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12680,
@@ -83,12 +123,20 @@
     "scene_code": "",
     "arabic_current": "ابحث عن كلانك",
     "arabic_edit": "ابحث عن كلانك",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "5c432380dfd4292594078e8ca081ec6e2a2452a36b5f1e72fe2a34153cc9dc1a",
+      "candidate_sha256": "fa34140aee62b57f2c2c62c1bb4bd38d325f6bcae7ab900c65676c76d8aed9bd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12681,
@@ -98,12 +146,20 @@
     "scene_code": "",
     "arabic_current": "اهزم الإمبراطور",
     "arabic_edit": "اهزم الإمبراطور",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "2e7770c25116f8264d404f4771a8577c4c802e8994ff259ae72c8f6031a956d8",
+      "candidate_sha256": "5f50c60fe5f55b7637e232885368ebddad8224ae1194281a848057fbd8e4d114",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12682,
@@ -112,13 +168,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اختياري) فتش في المصنع)",
-    "arabic_edit": "اختياري) فتش في المصنع)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "فتش المصنع (اختياري)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "10723f66c92ef9456767adf13a0950396ffc241abc36725252b843f6c19b8406",
+      "candidate_sha256": "a3cc480d5b77f0556ee9689f48ca12da77477231c84557357d92adefd35da597",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12683,
@@ -127,13 +191,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اصنع الناقلة البعدية",
-    "arabic_edit": "اصنع الناقلة البعدية",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اصنع جهاز الأبعاد",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "2037501a0866ea24023afe62283b773020b1b6863a558b332bbe079d997a9cca",
+      "candidate_sha256": "2c6fabbc03a8ba2353a5e4451ddd066c6e03caf07ff379fddf474095fa9b2fca",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12684,
@@ -142,13 +214,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "أصلح كوارتز المرحلة المكسور",
-    "arabic_edit": "أصلح كوارتز المرحلة المكسور",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أصلح كوارتز الطور المكسور",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "6875a3d3b7dac04b9a8fe3c6eb92d6536da3ddafa00f2a9c8fe08fec1c8e25ea",
+      "candidate_sha256": "fe19bc35da79855ac72353753d01416c33d8e67e1f70d99e5af96eed8650c29a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12685,
@@ -158,12 +238,20 @@
     "scene_code": "",
     "arabic_current": "خذ كلانك إلى مخبأ ريفت",
     "arabic_edit": "خذ كلانك إلى مخبأ ريفت",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "27d9d76926b78a5a266e1277a37d7ae92fcb2b4de8ccad2b9319d183355c86e0",
+      "candidate_sha256": "8e3182b6a18fa551a42c63f227f44f82b6c7c842d32a67ab1052853b4d7d0e4c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12686,
@@ -173,12 +261,20 @@
     "scene_code": "",
     "arabic_current": "أوقف غزو الإمبراطور",
     "arabic_edit": "أوقف غزو الإمبراطور",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "0b67161eb1534863b8513ecb02c3aad38e2907fbfae0ab1669082f2fe933c7d0",
+      "candidate_sha256": "682bb09f54ae60cd6f8bc663a323d9449447645abeba548f862e9d9e5845abac",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12687,
@@ -187,13 +283,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اختياري) ساعد ترودي)",
-    "arabic_edit": "اختياري) ساعد ترودي)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "ساعد ترودي (اختياري)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "898e20cd57b99dd1a63e0b0009e7e809161771feaeea3f2682a4a2371440a44c",
+      "candidate_sha256": "f610cd90c8416710246f7eb47c143c97c6549f93118a95c994007d6230983c2a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12688,
@@ -202,14 +306,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اعثر على مخططات الناقلة<br>البعدية",
-    "arabic_edit": "اعثر على مخططات الناقلة البعدية",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اعثر على مخططات جهاز الأبعاد",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "a383c39765018da98230d07778f9fe1ceec6806c7248725811b11f9332b90495",
+      "candidate_sha256": "923ae20071af6d6575d6aea943bd49cda3a57e105bd41a39a933334efe3ed050",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12689,
@@ -219,12 +331,20 @@
     "scene_code": "",
     "arabic_current": "اعثر على خريطة الأبعاد قبل<br>الإمبراطور",
     "arabic_edit": "اعثر على خريطة الأبعاد قبل<br>الإمبراطور",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "16e0cf6f4fa5830efb7ebd6b20114c21d3f9d084fa088a1a56a947b65e737400",
+      "candidate_sha256": "d1f83a039810d4a9854ddf9312933135ae5ab9b1d4d770604d8e779e140d9da7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12690,
@@ -234,13 +354,21 @@
     "scene_code": "",
     "arabic_current": "ابحث عن تاريخ اللومباكس<br>(اختياري)",
     "arabic_edit": "ابحث عن تاريخ اللومباكس (اختياري)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "d100d20365b5b6d20259e90e6623033d5d4b62574e90cc1ad3d8079aed9e8310",
+      "candidate_sha256": "ef965a36af38e256e043fc72e7e7b26a3f3f91c099a25cde821c161e6c57d859",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12691,
@@ -249,13 +377,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "أنقذ الجميع من سجن زردوم",
-    "arabic_edit": "أنقذ الجميع من سجن زردوم",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أنقذ الجميع من سجن زوردوم",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "dc4f632c24dae165b83d42e59a91aa952c730825303402a0858d6ae059673a00",
+      "candidate_sha256": "8ae7c490532b6a6c0a8b1cc40c44d0a64a68f2820f4356a61cbfbf9903109654",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12692,
@@ -264,13 +400,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اختياري) الكأس البرونزي)",
-    "arabic_edit": "اختياري) الكأس البرونزي)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "الكأس البرونزية (اختياري)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "5f2e1d8f0d2cf6ae8a3f36e824c2c05fb26143fb8a647f48e7459b50e72210fd",
+      "candidate_sha256": "99670545823ed8e162a7e968ca120b170862060404c3934699832fc828f1d599",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12693,
@@ -279,13 +423,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اختياري) الكأس الذهبي)",
-    "arabic_edit": "اختياري) الكأس الذهبي)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "الكأس الذهبية (اختياري)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "e433ffae1c03e883be603159e0e1ee2cf660fbddc16f59d43a0ca805f40f6798",
+      "candidate_sha256": "ba831555020f7a689509340aabf2fe1f747ee917d61aae6fdd4f02407440c3e8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12694,
@@ -294,14 +446,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اعثر على القطعة لإصلاح<br>كلانك",
-    "arabic_edit": "اعثر على القطعة لإصلاح كلانك",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اعثر على قطعة لإصلاح كلانك",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "1e0d077e55d8f96f6990c303cff44895d8b1fb44224611bcfd5bf90b9af0cf41",
+      "candidate_sha256": "8f21bf27c5017b374b2715c68495422aaebf536265c88c4303e0117cd30a587b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12695,
@@ -310,13 +470,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "ابن الناقلة البعدية",
-    "arabic_edit": "ابن الناقلة البعدية",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اصنع جهاز الأبعاد",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "4ed46670e5c0feea92a99ed8e543aad01b14fbaeaadb54aa0a1c96d5fdc903fc",
+      "candidate_sha256": "2c6fabbc03a8ba2353a5e4451ddd066c6e03caf07ff379fddf474095fa9b2fca",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12696,
@@ -325,13 +493,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "أعد التجمع في حانة زوركيز",
-    "arabic_edit": "أعد التجمع في حانة زوركيز",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "اجتمع بالآخرين في حانة زوركي",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "d9384874326fcd424438777b08f2844ba4c0cd009f45c4fbbfdb9408979e7b91",
+      "candidate_sha256": "88534fd78cc32b0512031a096a3da5c605cbdb6fea87c36e6446be3971e5f01d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12697,
@@ -341,12 +517,20 @@
     "scene_code": "",
     "arabic_current": "خطط للهجوم الأخير",
     "arabic_edit": "خطط للهجوم الأخير",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-001",
+      "source_sha256": "51cc72456ad81d4d0f07428b35cbafc79ae5a97c71f2515bd0bfc9f66bfc510e",
+      "candidate_sha256": "aa57877e7dac7f59179fe090355e9de0aa824d6e51c3b0e5258c80bb2d50ae60",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12698,
@@ -355,13 +539,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "اختياري) الكأس الفضي)",
-    "arabic_edit": "اختياري) الكأس الفضي)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "الكأس الفضية (اختياري)",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "c6f8719740c609a1e527e34157f5a026ab86de7b277a06f5e959df4e4f82833c",
+      "candidate_sha256": "ea69dc0a5c98d73a710b05bee49f7a47097a3dac068e5499d4163b76e598e43d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12699,
@@ -370,14 +562,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "على راتشت وكلانك أن يعثرا<br>على كابتن كوانتوم قبل<br>الإمبراطور.",
-    "arabic_edit": "على راتشت وكلانك أن يعثرا على<br>كابتن كوانتوم قبل الإمبراطور.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "على راتشت وكلانك العثور على<br>القبطان كوانتوم قبل الإمبراطور.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "6af3d1602f7e9b1287985987bdc1883f95c8f440c593834ecf6aef56875d2e11",
+      "candidate_sha256": "19aea22765ef16083adc963c607cb688ce1da44c586704aa942a8a430f9ea428",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12700,
@@ -387,13 +587,21 @@
     "scene_code": "",
     "arabic_current": "يقال إن القراصنة يحتفظون<br>بخريطة كنز كونية في حانة<br>مرسى بلاكستار.",
     "arabic_edit": "يقال إن القراصنة يحتفظون بخريطة<br>كنز كونية في حانة مرسى بلاكستار.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "95405a2dae81bed90ca0f8076a282d75f075c84174a6452639a6edb6cbe947ae",
+      "candidate_sha256": "a8c561f2123cc05028d09b5d3426ceccd2c2578b031439969834e058808ceb82",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12701,
@@ -402,14 +610,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "،لتشغيل الناقلة البعدية<br>على ريفت وكلانك أن يحصلا<br>على كوارتز المرحلة، وهي<br>بلورة نادرة لا توجد إلا في<br>مناجم بليزار.",
-    "arabic_edit": "،لتشغيل الناقلة البعدية على ريفت<br>وكلانك أن يحصلا على كوارتز<br>المرحلة، وهي بلورة نادرة لا توجد<br>إلا في مناجم بليزار.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "لتشغيل جهاز الأبعاد، على ريفت<br>وكلانك الحصول على كوارتز الطور،<br>وهي بلورة نادرة لا توجد إلا في<br>مناجم بليزار.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "9143b03dcc98f40ed1538116178a077d5f742de4b12c844755083fc30155c49c",
+      "candidate_sha256": "df88922dcff9fa8e5c843dfa858b49d243b12ded2089916e4695717c1f2ae15c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12702,
@@ -418,14 +634,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "سافرت رئيسة الطهاة توليو<br>إلى تلة العسل ولم تعد بعد.",
-    "arabic_edit": "سافرت رئيسة الطهاة توليو إلى تلة<br>العسل ولم تعد بعد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "ذهبت الطاهية توليو إلى تلة العسل<br>ولم تعد بعد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "f243fbef6c5df97643bd44e9845b7cb4ef999b0c32bd9737403eba5c62863837",
+      "candidate_sha256": "dd285cf96daeb910a08fee9b4d2b4dc724fd59d40d3761f630d7479b1dbf9df2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12703,
@@ -435,12 +659,20 @@
     "scene_code": "",
     "arabic_current": "اتبع مسار العرض",
     "arabic_edit": "اتبع مسار العرض",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "04ee6b6069ad6e0d28b52d4de097c7a89bc827335bac8a848ea7759bf91b7ba2",
+      "candidate_sha256": "0804a3e6f068fccb8ce587064e82945c08b741ab172e826d3c8c6553286866a2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12704,
@@ -450,13 +682,21 @@
     "scene_code": "",
     "arabic_current": "بعد أن ضاع في بعد جديد<br>غامض، على راتشت أن يعثر<br>على كلانك.",
     "arabic_edit": "بعد أن ضاع في بعد جديد غامض، على<br>راتشت أن يعثر على كلانك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "c1258a9c02e79ac7865c55df3bed6eb3408f09f3d4ba096c0d1fa1c573412d92",
+      "candidate_sha256": "88300fd8162beac18fb5493952cc491eac3e1a9336b0535604419ac8c32a672d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12705,
@@ -465,14 +705,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "ينتهي كل شيء هنا. على<br>راتشت وريفت وكلانك أن<br>يعملوا معا لوقف زحف<br>نيفاريوس عبر الأبعاد.",
-    "arabic_edit": "ينتهي كل شيء هنا. على راتشت وريفت<br>وكلانك أن يعملوا معا لوقف زحف<br>نيفاريوس عبر الأبعاد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "هنا ينتهي كل شيء. على راتشت وريفت<br>وكلانك التعاون لوقف غزو الإمبراطور<br>نيفاريوس لجميع الأبعاد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "13ae8b61cfd6ebf404bc355f95d4ba08fed2c35367cc118e28cc872a11e1f32c",
+      "candidate_sha256": "5f38aa550f2c16f1c049d8f85b8d33e9ea508c7d4c439a3f01ccd73a82a4d56d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12706,
@@ -481,14 +729,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "توجد أنشطة للمقاومة في<br>المصنع بجوار السوق.",
-    "arabic_edit": "توجد أنشطة للمقاومة في المصنع<br>بجوار السوق.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "وردت تقارير عن نشاط للمقاومة في<br>المصنع المجاور للسوق.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "bde382d03306857f7f98bcef81a9b703ed12c9008a0a1b13d6d0d87480428068",
+      "candidate_sha256": "e4790b7e2bbbaf9e812ea4c4f69f15a85e8d15b3b65bece9dd3f862f1b1a3324",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12707,
@@ -497,14 +753,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يتطلب سبك الناقلة<br>البعدية استعمال مصنع<br>الروبيون الذي يملكه<br>الإمبراطور.",
-    "arabic_edit": "يتطلب سبك الناقلة البعدية استعمال<br>مصنع الروبيون الذي يملكه<br>الإمبراطور.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تتطلب صناعة جهاز الأبعاد استخدام<br>مسبك الروبيون الخاص بالإمبراطور.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "6c285d1949e1086630ed2fa2978bdd9878f296afcc7b7fe82a923907804a3842",
+      "candidate_sha256": "4c46367463371695bdb82e1126fedf7d6f7a5048198c1b8347168d3c3fa1bbd1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12708,
@@ -513,14 +777,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يسعى ريفت وكلانك إلى<br>مساعدة رجل التصليح<br>الأسطورية التي تشتهر<br>بإصلاح كل شيء.",
-    "arabic_edit": "يسعى ريفت وكلانك إلى مساعدة رجل<br>التصليح الأسطورية التي تشتهر<br>بإصلاح كل شيء.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "تطلب ريفت وكلانك مساعدة المصلح<br>الأسطوري، الذي يقال إنه قادر على<br>إصلاح أي شيء.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "105c5cd2c98df80cd4e8c5ecadc982caee1803562bb238496fee8b638ec2003b",
+      "candidate_sha256": "cd24c1c1765de48d15cfdf27d49e1b9cf1e35c013ddb37c8945001fddc009806",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12709,
@@ -529,14 +801,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "على ريفت أن يحلل إنفوبوتا<br>مسروقا من نيفاريوس...<br>وبنوك ذاكرة كلانك.",
-    "arabic_edit": "على ريفت أن يحلل إنفوبوتا مسروقا<br>من نيفاريوس... وبنوك ذاكرة كلانك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "على ريفت تحليل روبوت معلومات مسروق<br>من نيفاريوس... وكذلك وحدات ذاكرة<br>كلانك.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "ff3cd025f89ac81406527a27b0922ce4d0987ca6a3afd12fcb886b887e582f98",
+      "candidate_sha256": "b042dd67a28b2db78e13d8abeea7ad784ed76fe5b08496e36da58d1db69687f0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12710,
@@ -545,14 +825,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "على ريفت وكيت أن يساعدا<br>المورت في صد غزو الإمبراطور!",
-    "arabic_edit": "على ريفت وكيت أن يساعدا المورت في<br>صد غزو الإمبراطور!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "على ريفت وكيت مساعدة المورت في صد<br>غزو الإمبراطور!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "aa235ac1cb1e7b5056614bd91a706da79a9268f3e2f14a393607646648054a76",
+      "candidate_sha256": "79308ccb5c282b38e5dc0ad3bc2e9170be658120aebd8f9a6d78aab985e2364a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12711,
@@ -562,13 +850,21 @@
     "scene_code": "",
     "arabic_current": "المورت بحاجة إلى مساعدة مع<br>حيوانهم الأليف، ترودي.",
     "arabic_edit": "المورت بحاجة إلى مساعدة مع حيوانهم<br>الأليف، ترودي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "8bb8b2d64a2f13f40a6fd78e2e6d8e2d9af3f0b2d3986cb5c4872725a5c7fce6",
+      "candidate_sha256": "a9e1d12f5bd6e20b37c7d636c3fdc7062a37ae9af71d1577fef74185dc8e99bb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12712,
@@ -577,14 +873,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يتجه راتشت إلى أرشيف<br>الأبعاد ليتعلم كيفية بناء<br>ناقلة بعدية جديدة.",
-    "arabic_edit": "يتجه راتشت إلى أرشيف الأبعاد<br>ليتعلم كيفية بناء ناقلة بعدية<br>جديدة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يتجه راتشت إلى أرشيف الأبعاد<br>ليتعلم كيفية صنع جهاز أبعاد جديد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "1575872799e93d79c9a347e5da16e22ca5d3576f43329b4e74f3f3dc159a7940",
+      "candidate_sha256": "201ca8c0001a14fcf4b8b352ea883f03194cbb943e34002a86aa87097c016fde",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12713,
@@ -594,13 +898,21 @@
     "scene_code": "",
     "arabic_current": "يخطط فريق نيفاريوس<br>للسيطرة على كل بعد موجود<br>باستخدام خريطة الأبعاد!",
     "arabic_edit": "يخطط فريق نيفاريوس للسيطرة على كل<br>بعد موجود باستخدام خريطة الأبعاد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "afb6e6f2d57d2867417bdaf65ddcca32d097975f62089a65567e2c52b2522dbf",
+      "candidate_sha256": "d549263a3de2d0c27d732889ce3eeb531b321f6d4953423427e2c83eee63f71d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12714,
@@ -610,13 +922,21 @@
     "scene_code": "",
     "arabic_current": "راهب وحيد يبحث في سافالي<br>عن آثار قديمة، وقد يكون<br>اللومباكس هو المفتاح.",
     "arabic_edit": "راهب وحيد يبحث في سافالي عن آثار<br>قديمة، وقد يكون اللومباكس هو<br>المفتاح.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "5959d40118add220a98cc206eca36d95ffac2922ae6d0deab6bd32d33e4df2b6",
+      "candidate_sha256": "a6f8f35da978e1a8ba21be6939413dcab52fd403cc4fe251aa23a7eb1f856e4f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12715,
@@ -625,14 +945,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "سجن راتشت وكلانك وكيت<br>في زردوم.",
-    "arabic_edit": "سجن راتشت وكلانك وكيت في زردوم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "أودع راتشت وكلانك وكيت سجن زوردوم.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "consistency-005",
+      "source_sha256": "e551f3c8990c185fecfaba2ac2bf0b87036c6e313b758263df1202400ed3b153",
+      "candidate_sha256": "13903ab681131e4be744a051a505ca8c580a6736dbf4405b3a918964b4438be7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12716,
@@ -641,14 +969,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "كن بطل الكأس البرونزي<br>لتفوز بالمسامير والجوائز!",
-    "arabic_edit": "كن بطل الكأس البرونزي لتفوز<br>بالمسامير والجوائز!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "كن بطل الكأس البرونزية لتفوز<br>بالمسامير والجوائز!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "79b6abea4c787ab18ee97958301a9b68484b00e2d4714cd394214070d4a385cc",
+      "candidate_sha256": "82181d718b91df7074980a349065970953ff75baef2565287361c2550edd0750",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12717,
@@ -657,13 +993,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "كن بطل الكأس الذهبي لتفوز<br>بالمسامير والجوائز!",
-    "arabic_edit": "كن بطل الكأس الذهبي لتفوز<br>بالمسامير والجوائز!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "كن بطل الكأس الذهبية لتفوز<br>بالمسامير والجوائز!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "218e6cf0ebaa7c63a815c052ec65b17d0a5f78832532622b4d966c3ff45cb876",
+      "candidate_sha256": "b26bf777125027fc8d87a08a9daf0525de7196a5ebe1737183d7863ee4272d69",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12718,
@@ -672,14 +1016,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "على ريفت أن يعثر على<br>مقوم إشارة لإصلاح جهاز<br>الاتصال لدى كلانك.",
-    "arabic_edit": "على ريفت أن يعثر على مقوم إشارة<br>لإصلاح جهاز الاتصال لدى كلانك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "على ريفت العثور على مقوي إشارة<br>لإصلاح جهاز اتصال كلانك.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "f686663e2e9d8281ba729e0d36d61fa9db58a6a543a8a32150d2620d4356efd4",
+      "candidate_sha256": "5feb00bd2372e1d4310f60495883711a2cab7c1eaa48301412057f6828586a56",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12719,
@@ -688,14 +1040,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يجمع اللومباكس كوارتز<br>المرحلة مع الناقلة البعدية<br>الجديدة لإنقاذ الكون بأبعاده.",
-    "arabic_edit": "يجمع اللومباكس كوارتز المرحلة مع<br>الناقلة البعدية الجديدة لإنقاذ<br>الكون بأبعاده.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يدمج بطلا اللومباكس كوارتز الطور<br>مع جهاز الأبعاد الجديد لإنقاذ جميع<br>الأكوان.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "18a663feb5067a36f9caec2dece0e345b3b59b6153bfbd1745bfae3106d976f8",
+      "candidate_sha256": "c9f35cea671e75b490375595e80804c5b7310ca74fc0df151bbfe8a6f16169fa",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12720,
@@ -704,14 +1064,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يجتمع الأبطال لوضع خطة<br>للقضاء على النيفاريوس<br>إلى الأبد.",
-    "arabic_edit": "يجتمع الأبطال لوضع خطة للقضاء على<br>النيفاريوس إلى الأبد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يجتمع الأبطال لوضع خطة للقضاء على<br>نيفاريوس ونظيره نهائيًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "e821bfb680b41a6214c08668cefb2f1454daaf1e2dbed836cd2fe22ae13eec93",
+      "candidate_sha256": "3a6e092d394c0a799e9ac5dba4ab10e2d02da6c76bd1dcd5358761bf81fc0dee",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12721,
@@ -721,13 +1089,21 @@
     "scene_code": "",
     "arabic_current": "حان وقت إيقاف الإمبراطور<br>نهائيا.",
     "arabic_edit": "حان وقت إيقاف الإمبراطور نهائيا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "7890925dcdc97b3526281f6bd1d585855cd9f0b9fab944d011fa58c14be5d840",
+      "candidate_sha256": "adcbde1b279bd2e58ca594af19e37e991f9885be0cb8c4c8152a3ab9433b7d57",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12722,
@@ -736,13 +1112,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "كن بطل الكأس الفضي<br>لتفوز بالمسامير والجوائز!",
-    "arabic_edit": "كن بطل الكأس الفضي لتفوز بالمسامير<br>والجوائز!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "كن بطل الكأس الفضية لتفوز<br>بالمسامير والجوائز!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "missions-002",
+      "source_sha256": "e48308f4d1bbc26e4960c7686d7be3e2efe530f5dd4783e58bb9695e97af7870",
+      "candidate_sha256": "69cdb1a4dd5961750de2c24aab034d49ace7a1d67d9d38445a8b62288acbfbb8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

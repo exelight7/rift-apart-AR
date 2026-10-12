@@ -7,12 +7,20 @@
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0;1.608&quot;>قاتل!",
     "arabic_edit": "<ts=&quot;0;1.608&quot;>قاتل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "92fdf66a230f9e174f997e28ebb49886405abd1ab6c2995e999fa79d965f3e3f",
+      "candidate_sha256": "203ff15cd5117366b41103b50b7225e61654dc0a938d03bc90ff860dbb7093f3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17068,
@@ -45,14 +53,22 @@
     "speaker_code": "PIR4",
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0.043;6.56&quot;>ستدفع ثمن الإساءة لرأس<br>قبطاننا هكذا! أنتما كليكما!",
-    "arabic_edit": "<ts=&quot;0.043;6.56&quot;>ستدفع ثمن الإساءة لرأس قبطاننا هكذا! أنتما<br>كليكما!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.043;6.56&quot;>ستدفعان ثمن العبث برأس قبطاننا هكذا!<br>كلاكما!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-024",
+      "source_sha256": "9d2e8d17a30152a6cd10cc497fdff22b6b2fe1e6415a3916a530308a5547a7dc",
+      "candidate_sha256": "3c63c02c44c85028c45f3daf104b3750368de5ace9e0dfc5be1e18cc6fdccace",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18663,
@@ -62,12 +78,20 @@
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0;2.12&quot;>لا، لا، لا! أنا!",
     "arabic_edit": "<ts=&quot;0;2.12&quot;>لا، لا، لا! أنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "60ad244be7f8b59fd0a6ee7fd7f3b3280e012816587b73f22788d394a7660496",
+      "candidate_sha256": "cac0877b487aa1532c5d55eff35a47a085b4408a85859ade73c52bddc4020291",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18664,
@@ -76,14 +100,22 @@
     "speaker_code": "QUTM",
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0.027;5.202&quot;>إذن، كابتن «ماذا»... ما الذي<br>يجلبك إلى هنا؟",
-    "arabic_edit": "<ts=&quot;0.027;5.202&quot;>إذن، كابتن «ماذا»... ما الذي يجلبك إلى<br>هنا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.027;5.202&quot;>إذًا، يا قبطان «ماذا»... ما الذي جاء بك<br>إلى هنا؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "37ed9ef7daf63c5ea3466e8f68f2d90a2f7c83c1d063c851c7454fa6cd37c6c3",
+      "candidate_sha256": "f9c5b3e1979abad6b2965bb407ec7131aced2db5cd5abbfa43b489a722d6e503",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18665,
@@ -92,13 +124,21 @@
     "speaker_code": "QUTM",
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0;0.95&quot;>الناقلة البعدية؟",
-    "arabic_edit": "<ts=&quot;0;0.95&quot;>الناقلة البعدية؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.95&quot;>جهاز الأبعاد؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "01c5f0f4e627e1db7736accd62ec2bd17d3d0ff6fff04701de6ff977bcbcf218",
+      "candidate_sha256": "b803acbf7342189a9f4129415cd4b37d0b6d48cd9ea4ac91be60def110d574e8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18666,
@@ -107,14 +147,22 @@
     "speaker_code": "QUTM",
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0.21;3.006&quot;>ههه، لقد راقبناه!<ts=&quot;3.074;8.732&quot;>أعظم عملية قمنا بها على<br>الإطلاق، فالخطر على *هو* في<br>الحقيقة.",
-    "arabic_edit": "<ts=&quot;0.21;3.006&quot;>ههه، لقد راقبناه!<ts=&quot;3.074;8.732&quot;>أعظم عملية قمنا بها على الإطلاق، فالخطر<br>على *هو* في الحقيقة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.21;3.006&quot;>هاهار، زرعنا له جهاز تنصت!<ts=&quot;3.074;8.732&quot;>أعظم عملية نفذناها على الإطلاق، لذا فهو في<br>الحقيقة من يواجه الخطر.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "c41566f62903f2e89ea60424c4061776dcb13a8bb453483f2582dd25061c49b7",
+      "candidate_sha256": "93fa15c94f96293ef99f08507ff173e004e54dd2fca7ce99d8480964f5931812",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18667,
@@ -123,13 +171,21 @@
     "speaker_code": "QUTM",
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0.014;2.891&quot;>«شيء؟» هذا أنا، وجها لوجه!",
-    "arabic_edit": "<ts=&quot;0.014;2.891&quot;>«شيء؟» هذا أنا، وجها لوجه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.014;2.891&quot;>«شيء»؟! إنه وجهي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "b1bfd23b81a8e90e34c0b973029983225c8e137e84f06b66049551e1e12d2403",
+      "candidate_sha256": "f784266b10ce3aac7345c45ae5ac114b44b7a0e46527441ee6985b42a7122723",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18668,
@@ -139,12 +195,20 @@
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0.026;1.639&quot;>أنت تجرؤ--",
     "arabic_edit": "<ts=&quot;0.026;1.639&quot;>أنت تجرؤ--",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "b89c7e03cada3408c54a4a68921b3134bd2874dbbb0bfb6101134f062e8c85f3",
+      "candidate_sha256": "223ec59351ed772829acb44294bb637768c6b052af03ae5ed932d007f96a8746",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18669,
@@ -153,13 +217,21 @@
     "speaker_code": "QUTM",
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0;2.309&quot;>كوارك؟ إنه كوانتوم.<ts=&quot;4.03;5.75&quot;>الكابتن *كوانتوم*...",
-    "arabic_edit": "<ts=&quot;0;2.309&quot;>كوارك؟ إنه كوانتوم.<ts=&quot;4.03;5.75&quot;>الكابتن *كوانتوم*...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.309&quot;>كوارك؟ بل كوانتوم.<ts=&quot;4.03;5.75&quot;>القبطان كوانتوم...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "4abc4102c6a494d55e4d06bbdd8af249efb4a39743ca1bc28d0e36394a460166",
+      "candidate_sha256": "fd13564a034f9c9d6211eb7b3d2bf2e8c06b24341dc5abf097cd91baf0a9a90e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18670,
@@ -169,12 +241,20 @@
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0;2.109&quot;>لا، لا، لا!",
     "arabic_edit": "<ts=&quot;0;2.109&quot;>لا، لا، لا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "aafa8f6a639046e3d44649f70bad4d00eb292eeb46f580dbd46203ebe316dab0",
+      "candidate_sha256": "4e092b82e9b351f54acf24aa58e9a51c92cc64a45106b22990a5e819568d0a52",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18671,
@@ -196,12 +276,20 @@
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0.03;2.807&quot;>إنه أنا! كوانتوم! رأيت؟!",
     "arabic_edit": "<ts=&quot;0.03;2.807&quot;>إنه أنا! كوانتوم! رأيت؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "15a938db70640eb70e97742a96a82cbac7f4923a18bbc7b5c44a109c4430fe89",
+      "candidate_sha256": "9ce4530709c3f0e44913ab4a62dcd9a0715f163a391e62c84829b9380d719aa7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18932,
@@ -211,12 +299,20 @@
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0;3.298&quot;>أنت، أمم، في خطر.<ts=&quot;3.641;4.859&quot;>الإمبراطور لديه—",
     "arabic_edit": "<ts=&quot;0;3.298&quot;>أنت، أمم، في خطر.<ts=&quot;3.641;4.859&quot;>الإمبراطور لديه—",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "20e90bdf479e4381abbde83f0f0777219552de92770dfda6eb34d4427c6df9c9",
+      "candidate_sha256": "ab1e5889c9f6c61fcb5d8d4e8301146b6b2dea0f0c4c3c9c1a8fc3de90dd814c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18933,
@@ -226,12 +322,20 @@
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0;1.021&quot;>كنت تعرف ذلك مسبقا؟",
     "arabic_edit": "<ts=&quot;0;1.021&quot;>كنت تعرف ذلك مسبقا؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "88d83aa32cfbdd1ed3ddac4a38e21e3335b15966221475249fd840084bbb79cb",
+      "candidate_sha256": "625ada2a03ded0bdb1c9200e0e1bac655a4c5d226ba41c7c8d048d3fe5ba283f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18934,
@@ -240,14 +344,22 @@
     "speaker_code": "RATC",
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0;2.269&quot;>نستطيع السبق على<br>الإمبراطور بذلك الجهاز...",
-    "arabic_edit": "<ts=&quot;0;2.269&quot;>نستطيع السبق على الإمبراطور بذلك الجهاز...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.269&quot;>يمكننا أن نسبق الإمبراطور بخطوة بهذا<br>الشيء...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "40fcece115fadc08ceb33307ad90cc454f5576dbcda7421a9490d26237860d7c",
+      "candidate_sha256": "3ee88ec80bb155df7c34d77c7f67fa1e486c302daa9842b3f602db1133f55d8e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18935,
@@ -257,12 +369,20 @@
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0.06;1.556&quot;>لكنك لست روبوتا.",
     "arabic_edit": "<ts=&quot;0.06;1.556&quot;>لكنك لست روبوتا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "4d9b16fe68fc405f05c7af13f235c1a86c0abcaf9903f0029733d203e143a969",
+      "candidate_sha256": "32105ab4dfb7e364b31036d951ee8bd574658363af535c4e114d1cecd61c44d4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 18936,
@@ -271,12 +391,20 @@
     "speaker_code": "RATC",
     "scene_code": "ARDO_GP1_CINE_CAPTAIN",
     "arabic_current": "<ts=&quot;0;0.41&quot;>،مهلا<ts=&quot;0.799;2.549&quot;>هذا البعد فيه كوارك؟!",
-    "arabic_edit": "<ts=&quot;0;0.41&quot;>،مهلا<ts=&quot;0.799;2.549&quot;>هذا البعد فيه كوارك؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.41&quot;>مهلًا،<ts=&quot;0.799;2.549&quot;>أيوجد كوارك في هذا البعد؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "a5f823e92f441c1eb4192fd3ab203ddbb65b134bf249f6edc47412de7e08b433",
+      "candidate_sha256": "8668ae425b390454b6c757d967e7b88efde5a606e52ecdb2dfbc4913ad3fe8c4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

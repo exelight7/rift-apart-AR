@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_BUYSNIPER",
     "arabic_current": "<ts=&quot;0.65;4.17&quot;>ستحطم بها أرقاما قياسية<br>في التصويب الدقيق!",
     "arabic_edit": "<ts=&quot;0.65;4.17&quot;>ستحطم بها أرقاما قياسية في التصويب الدقيق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "345c3a5e9be189d648c097bf2c1b6b2ad6961526a2fbddc9b7cd089456f99105",
+      "candidate_sha256": "f546e5b0ac16b6e1f4e1d32ea277abe0359adc3b6e587e5ff7eaca78c6076ef0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

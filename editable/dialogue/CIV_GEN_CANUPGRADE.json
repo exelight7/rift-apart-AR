@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CANUPGRADE",
     "arabic_current": "<ts=&quot;0.03;2.83&quot;>تلك تطلب تطوير بشدة!",
-    "arabic_edit": "<ts=&quot;0.03;2.83&quot;>تلك تطلب تطوير بشدة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.03;2.83&quot;>هذا السلاح يتوق إلى تطوير!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "45ebc33251b0720a5cf86ef070ae8d4c0a5a89ec0834ed60dff29119ac365eb2",
+      "candidate_sha256": "da7839b6831b74c05767a65b972d859fb8b7e6d9a3fc19191e42ada536c5c919",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13427,
@@ -21,13 +29,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CANUPGRADE",
     "arabic_current": "<ts=&quot;0.063;2.566&quot;>تفضل، رقها!",
-    "arabic_edit": "<ts=&quot;0.063;2.566&quot;>تفضل، رقها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.063;2.566&quot;>هيا، حان وقت تطويره!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "8bb326bd660962fac53eb42c78937bb7fcce086787df54551909efb34ae3a8fa",
+      "candidate_sha256": "07cc0aff9f6d011d624f5e86aea1c17753ca7cdd5f6b39e09ccf654f27f03887",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13428,
@@ -37,13 +53,21 @@
     "scene_code": "CIV_GEN_CANUPGRADE",
     "arabic_current": "<ts=&quot;0;4.2&quot;>يبدو أن لديك خلايا مفتوحة<br>وراريتانيوم يكفي!",
     "arabic_edit": "<ts=&quot;0;4.2&quot;>يبدو أن لديك خلايا مفتوحة وراريتانيوم<br>يكفي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "4be64a6918c5809a3cd2ac1087079463efa59ddbdc03f21740026e0a98b46c4d",
+      "candidate_sha256": "479a73d2e0aa411505bcb5c3772a6c03ef1d250a05918e6b397f839737094a38",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13429,
@@ -53,13 +77,21 @@
     "scene_code": "CIV_GEN_CANUPGRADE",
     "arabic_current": "<ts=&quot;0.065;3.393&quot;>المزيد من القوة دائما شيء<br>جيد!",
     "arabic_edit": "<ts=&quot;0.065;3.393&quot;>المزيد من القوة دائما شيء جيد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "065820261027431b064e3a1751a79216ab4cb6d2bf36f2f6aa8195f0768ff561",
+      "candidate_sha256": "b8adb3c01b1f386a5e1e00f911ceb0a551b4ec69601574c70d8476f1b90b3872",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13430,
@@ -69,12 +101,20 @@
     "scene_code": "CIV_GEN_CANUPGRADE",
     "arabic_current": "<ts=&quot;0.088;2.95&quot;>تحسينات في الطريق!",
     "arabic_edit": "<ts=&quot;0.088;2.95&quot;>تحسينات في الطريق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "9f8890d9ae65def44882e0bf3cd6bccd735233d10c3f4591f159125c534d54cd",
+      "candidate_sha256": "9401fa4a812ca23b76be8bc85968d1f0c5b7c6aded5c78fe531f68b833991b44",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13431,
@@ -83,13 +123,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CANUPGRADE",
     "arabic_current": "<ts=&quot;0.073;2.085&quot;>قو ذلك الولد الشرس!",
-    "arabic_edit": "<ts=&quot;0.073;2.085&quot;>قو ذلك الولد الشرس!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.073;2.085&quot;>حان وقت تعزيز هذا السلاح الشرس!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "ef97aec5b5fe190792fcb84b1ca15a50b86362d44fa0f50a883934ecb8b0dc88",
+      "candidate_sha256": "3e261d2bb3f50f1600709b1e03b7ac82b34d8f14db890b6a74bdbb43d8a520a5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13432,
@@ -99,13 +147,21 @@
     "scene_code": "CIV_GEN_CANUPGRADE",
     "arabic_current": "<ts=&quot;0.075;3.547&quot;>كافئ نفسك بتطوير! لقد<br>استحققتها!",
     "arabic_edit": "<ts=&quot;0.075;3.547&quot;>كافئ نفسك بتطوير! لقد استحققتها!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "2891f5e47a8699fa648491c044fec156c9f03f3a14b2a453b194eac8942d3c82",
+      "candidate_sha256": "7c898e79733d7fd03e97fffa66b302b51e936c7e6e802e3b5275de28d8779f3c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13433,
@@ -115,11 +171,19 @@
     "scene_code": "CIV_GEN_CANUPGRADE",
     "arabic_current": "<ts=&quot;0.074;2.86&quot;>التطويرات جاهزة! وأنت؟",
     "arabic_edit": "<ts=&quot;0.074;2.86&quot;>التطويرات جاهزة! وأنت؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "22304403687ca4cc7ee1ab9acb1e4168cd6eaa08df63dec909373a31d1b9e56a",
+      "candidate_sha256": "f2b5abb67d01d6fec71a238a4475d43989d480e5876c495fd16b41558dc11153",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

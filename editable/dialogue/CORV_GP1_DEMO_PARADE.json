@@ -7,12 +7,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;1.75&quot;>جرب أن تصوبه نحو أحدها.",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>جرب أن تصوبه نحو أحدها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-003",
+      "source_sha256": "59542922d16eeb4a4d29bce43f1c76cc19f238b854a5660c826df887e79ebcc6",
+      "candidate_sha256": "dcdd2daa2087a4e374c1eb4f6df2dca045e072318a848a357321f0fea0447875",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1814,
@@ -22,12 +30,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;1.822&quot;>لن أعتاد على ذلك أبدا.",
     "arabic_edit": "<ts=&quot;0;1.822&quot;>لن أعتاد على ذلك أبدا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-003",
+      "source_sha256": "7e77ee93a004ee3c9458592726d042d6b99a17c7a313233be6f36749b0dc3991",
+      "candidate_sha256": "7cf229da587986c33fe1dd703b574ddd28022f0c5c396c4ae62e6c0dc9cb8df6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 7250,
@@ -36,14 +52,22 @@
     "speaker_code": "DRNF",
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.279;2.379&quot;>أنا أفضل أن أحكم مجرة من<br>الغبار الكوني<ts=&quot;2.61;4.71&quot;>على أن أتحمل وجود *أنت*!",
-    "arabic_edit": "<ts=&quot;0.279;2.379&quot;>أنا أفضل أن أحكم مجرة من الغبار الكوني<ts=&quot;2.61;4.71&quot;>على أن أتحمل وجود *أنت*!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.279;2.379&quot;>أفضل أن أحكم غبارًا<ts=&quot;2.61;4.71&quot;>كونيًا على أن أضطر إلى تحملكما!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-007",
+      "source_sha256": "3617624c8a79e889a0cddcd2eed97b61534d4ef1845337fc9fcbcc49a0ef744c",
+      "candidate_sha256": "806d64f2ff07be544b922749031fdbb64b62b9d3488c3c4803fe09e5a954d7a3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12131,
@@ -53,12 +77,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.049;2.089&quot;>دعني أمر!",
     "arabic_edit": "<ts=&quot;0.049;2.089&quot;>دعني أمر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "e86a6eeed9f888dcbcdad673d5b28a4eafec44b42bc084101060e55c65f10aa7",
+      "candidate_sha256": "010b07e76bf2efd28b1fd32d93c398b12613f41ccbea4059804c269327841048",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12132,
@@ -68,13 +100,21 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;2.8&quot;>لديك رقمي، حسنا؟ فإذا--<br>آهههه!",
     "arabic_edit": "<ts=&quot;0;2.8&quot;>لديك رقمي، حسنا؟ فإذا-- آهههه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "54fe7c1ca679313411f3190809f57d8c4edabf8d1ca620da2df6fa1d65f8e071",
+      "candidate_sha256": "f4ef5a18413aaee7952a8bded0167bc43c8712e09e78dd5b0d37df97d5a65951",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12161,
@@ -83,14 +123,22 @@
     "speaker_code": "MEGM6",
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;2.1&quot;>اسمع يا صديقي، أنت لا<br>يا لا --تستطيع!",
-    "arabic_edit": "<ts=&quot;0;2.1&quot;>اسمع يا صديقي، أنت لا يا لا --تستطيع!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.1&quot;>اسمع، يا صديقي، لا يمكنك... أوه، لا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "aa52bf533fb931bb701c381a47b73760289b78915dde4506ee8913a57aa9d8ef",
+      "candidate_sha256": "6e3e06afcf895a4b3cf5c2dc5065fa7344857ac08708377a3896bd90bc7f30e0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14258,
@@ -100,12 +148,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.05;1.567&quot;>ما هذا الشيء؟!",
     "arabic_edit": "<ts=&quot;0.05;1.567&quot;>ما هذا الشيء؟!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "9198ec0d9864361a79bea2ced13451b651a5dda303b1094cdcedc65f559b5bf0",
+      "candidate_sha256": "be4d42dfb048af2b611bcde9e2d870c23b4174f216aab347f369c4dadf64eff0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14259,
@@ -115,12 +171,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.049;1.518&quot;>الاتجاه خطأ!",
     "arabic_edit": "<ts=&quot;0.049;1.518&quot;>الاتجاه خطأ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "494102b0cb972085b7d9085d12bc07a3bc54d1d73ec036fafa39264d7967d7ac",
+      "candidate_sha256": "1d419744b600034243380ea3605f66f2fa84c6df6bcf1e9229ebf4dd76d9f3ee",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14260,
@@ -130,12 +194,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.049;1.35&quot;>ابتعد عن الطريق!",
     "arabic_edit": "<ts=&quot;0.049;1.35&quot;>ابتعد عن الطريق!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "5a77347a1cb09cdaf048dc8818bd54501f6e1d4a3cf9684e63456811056a1237",
+      "candidate_sha256": "7cb86dcab2577a4ae387ae53934d6b35a941861d66cf04a2464f12b2552b35d5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14261,
@@ -145,12 +217,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.05;1.122&quot;>انتبه!",
     "arabic_edit": "<ts=&quot;0.05;1.122&quot;>انتبه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "4fed97d963397b839f31cde00b74e78e71461e2f30347c225d74acfa0899c545",
+      "candidate_sha256": "5eb3578ee6dbb2476ef823b44970f7625e81d4b094622da2e67411f94a9a5235",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14262,
@@ -160,12 +240,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.05;1.832&quot;>الأفضل أن تطير بعيدا!",
     "arabic_edit": "<ts=&quot;0.05;1.832&quot;>الأفضل أن تطير بعيدا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "d7bc90c242b7cdcb0d9a6ccfa6d118d7c0686d3a1aaa4d46d3fbabb8cc583aaf",
+      "candidate_sha256": "a2b4c3b8701a8ee5f325c4a9629d3c681147a214735b783ccb035d6718470cad",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 14263,
@@ -175,12 +263,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;1.75&quot;>سأستدعي السلطات!",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>سأستدعي السلطات!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-019",
+      "source_sha256": "1035061b2206d1997836dc896c01312ef295c1cdfa658f0a45b41ad8705b2515",
+      "candidate_sha256": "edc4a63ea594a648bb6786494bcd3e6bdcdfc7a85c1b46080e788f450ee4b427",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16690,
@@ -190,12 +286,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.049;1.385&quot;>لا مكان لك بيننا!",
     "arabic_edit": "<ts=&quot;0.049;1.385&quot;>لا مكان لك بيننا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "8fd61e340cd95b3b4416cdc3114cc20c5f929c37c9a1e1637df9ad5c9e444c3e",
+      "candidate_sha256": "83a2b73dd777d1c14ee96a2b11b1956c24ac8491309a143c8b54cbc53db22019",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16691,
@@ -205,13 +309,21 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.051;1.914&quot;>انتبهوا لأعينكم أيها<br>الشباب!",
     "arabic_edit": "<ts=&quot;0.051;1.914&quot;>انتبهوا لأعينكم أيها الشباب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "0bf1d390858ae7c64afa527ac4806355e9772ee2038aed4ebb22a1a4a8fabfa6",
+      "candidate_sha256": "55aa6ee7c3d5bc123c462eee8b84f3610580ca5bee206e1246a98918f42f181d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16692,
@@ -220,13 +332,21 @@
     "speaker_code": "PIR1",
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.048;2.798&quot;>ما هذا الخداع--! ؟",
-    "arabic_edit": "<ts=&quot;0.048;2.798&quot;>ما هذا الخداع--! ؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.048;2.798&quot;>أي نوع من الخداع هذا؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "b5853e794235905446177407625aad0f60d63e1a8b91ecb0184f58304dfb7929",
+      "candidate_sha256": "c0ed0cc7c14e8f8bec5df82dfffc0f289727ace2f234f7109ab996356eacc21f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16693,
@@ -236,12 +356,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;1.999&quot;>انصرف أيها الفأر الغريب!",
     "arabic_edit": "<ts=&quot;0;1.999&quot;>انصرف أيها الفأر الغريب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "ce4e07081765e1d43e6496c3fbcc17794842f45beaeb81fed1835e26763a159a",
+      "candidate_sha256": "cf84f9e14595d0c8733361401e87fe6a5377617897a4a7c60f418271575fcd38",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17082,
@@ -251,12 +379,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;0.88&quot;>خذوا<ts=&quot;1.319;2.499&quot;>أسلحتكم!",
     "arabic_edit": "<ts=&quot;0;0.88&quot;>خذوا<ts=&quot;1.319;2.499&quot;>أسلحتكم!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "e25441e14ad984dde3873090d2a17113078ba1a9bcc3bfb98d1713ecdcfd7f25",
+      "candidate_sha256": "7ec0157ee9f8c92d90755ea5f37f91003751abdfd425000cd01f5ab3fdaa1c41",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 17083,
@@ -265,13 +401,21 @@
     "speaker_code": "PIR2",
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.05;2.11&quot;>اللواحب على الجانب الأيسر!",
-    "arabic_edit": "<ts=&quot;0.05;2.11&quot;>اللواحب على الجانب الأيسر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.05;2.11&quot;>لوامس على الجانب الأيسر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-022",
+      "source_sha256": "682154698815e2dfd485e4bb7fae3eb212b3e724fd8da929993a719ec9e5bb91",
+      "candidate_sha256": "d695209885b8ca3bd666f786ea84b20ac15186027a3031fed0fc0e34e4a2115c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19055,
@@ -280,14 +424,22 @@
     "speaker_code": "RATC",
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;2.87&quot;>الجسر أصيب... لا بد أن هناك<br>طريقا آخر للعبور.",
-    "arabic_edit": "<ts=&quot;0;2.87&quot;>الجسر أصيب... لا بد أن هناك طريقا آخر<br>للعبور.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.87&quot;>الجسر مدمر... لا بد من طريق آخر للعبور.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "9209745876143445d96d30cd7851a1222f1f609178808d1f6fb1fee0bc775155",
+      "candidate_sha256": "68c47958b9bd8b06c95bf86dae81ece8f8a3316cfe82da14cc7414af4d884313",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19056,
@@ -297,12 +449,20 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;1.163&quot;>هؤلاء كلهم.",
     "arabic_edit": "<ts=&quot;0;1.163&quot;>هؤلاء كلهم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "0659e58a2d9efb55843137482266bc136af79486cfe69a6e59aabedd9bf12462",
+      "candidate_sha256": "40770d04ca53683aef4724d821a0faa1135f7d7352e68cedd8f8a2caa5855c49",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 19057,
@@ -312,13 +472,21 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0.044;2.434&quot;>هي، على الأقل نحن هذه المرة<br>على الكوكب نفسه!",
     "arabic_edit": "<ts=&quot;0.044;2.434&quot;>هي، على الأقل نحن هذه المرة على الكوكب<br>نفسه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-025",
+      "source_sha256": "ba5acc274d8505774b97426c7a362c69e177cf4cd7517aae4c5588bc84653c54",
+      "candidate_sha256": "5cec0375325706d095561d6212872e6e3af2f475d8437bc879ca0d65df257f53",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 22652,
@@ -328,13 +496,21 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;3.25&quot;>يا رفاق، انظروا، وسعنا نطاق<br>بحثنا!",
     "arabic_edit": "<ts=&quot;0;3.25&quot;>يا رفاق، انظروا، وسعنا نطاق بحثنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-030",
+      "source_sha256": "9dad3a5c3a71748021ee1b70aeb97cd55635eb8c813a2c449f1e0c2acd2ac0bd",
+      "candidate_sha256": "4275a0e9f1711cfe03729778488e159976d86b8f5aee6ffbb4cea1aab3aeff9f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23627,
@@ -343,13 +519,21 @@
     "speaker_code": "T4L4",
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;1.609&quot;>العضلات قبل المراجيح!",
-    "arabic_edit": "<ts=&quot;0;1.609&quot;>العضلات قبل المراجيح!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.609&quot;>العضلات قبل القطارات!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "9b6402c25b3784487bb8b67aa11d7383ba9c679067c9be3022f36171385cab85",
+      "candidate_sha256": "95d2fa620d96255d64a62b58752d39f4ffbff5b72845946622e45fe78296df83",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 23628,
@@ -359,11 +543,19 @@
     "scene_code": "CORV_GP1_DEMO_PARADE",
     "arabic_current": "<ts=&quot;0;1.499&quot;>أطلقوا الكلاب الآلية!",
     "arabic_edit": "<ts=&quot;0;1.499&quot;>أطلقوا الكلاب الآلية!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-031",
+      "source_sha256": "3fe8d0fd19a44bc78fcc205223f417828245d6c6e19f4a1b45503eb5d67c5587",
+      "candidate_sha256": "78ef0818601b58088ed8f3839d61cfd6cde2f08b51cb5be14cf9b4f49bd9c3f9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -6,14 +6,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;2.8&quot;>لماذا أنا متوتر بهذا الشدة من<br>هذا الشذوذ...<ts=&quot;3.46;6.39&quot;>لأن الأبعاد قريبون من<br>الانهيار الكامل<ts=&quot;6.84;9.281&quot;>وإنهاء كل حياة أعرفها.",
-    "arabic_edit": "<ts=&quot;0;2.8&quot;>لماذا أنا متوتر بهذا الشدة من هذا<br>الشذوذ...<ts=&quot;3.46;6.39&quot;>لأن الأبعاد قريبون من الانهيار الكامل<ts=&quot;6.84;9.281&quot;>وإنهاء كل حياة أعرفها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.8&quot;>لماذا أقلق كل هذا القلق بشأن هذا الاختلال<br>البعدي؟<ts=&quot;3.46;6.39&quot;>لأن الأبعاد توشك أن تنهار تمامًا،<ts=&quot;6.84;9.281&quot;>فتنتهي كل أشكال الحياة التي أعرفها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "2ee7ddb00247006aa95d93753d27827fb290fb30ae702c2abb369a13c85d618d",
+      "candidate_sha256": "36f8ba7f0cc2275d7caa4df95b594afc4ddc56ae7fe31ff92c5f23633bce4aa8",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1573,
@@ -23,12 +31,20 @@
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0.04;1.75&quot;>أوه، الحمد لله.",
     "arabic_edit": "<ts=&quot;0.04;1.75&quot;>أوه، الحمد لله.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "892cbeb849ebe60917afd0d59980bc4812990f52b70ff259ad51e8981e624ea1",
+      "candidate_sha256": "0027160b2a7f39c1a81e9a9660abaa79f3b33b159c3ec9263a61cd601705d78d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1574,
@@ -38,13 +54,21 @@
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;1.02&quot;>هذه المعرفة...<ts=&quot;1.54;5.04&quot;>أشعر أنني أخيرا اقتربت من<br>فهم كل شيء...<ts=&quot;5.43;8&quot;>ومعرفة كيف أنقذ الأبعاد!",
     "arabic_edit": "<ts=&quot;0;1.02&quot;>هذه المعرفة...<ts=&quot;1.54;5.04&quot;>أشعر أنني أخيرا اقتربت من فهم كل شيء...<ts=&quot;5.43;8&quot;>ومعرفة كيف أنقذ الأبعاد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "5990b05f0867e1f8cd76c3c12eabb0b4285a87ccb2d920e7fad970103f48a5be",
+      "candidate_sha256": "82c009d1c57dde3060208f5cdb11e050b669717c6e1a2de1295c82032fa7257a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1575,
@@ -53,14 +77,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;3.15&quot;>لو كان راتشت هنا، كيف كان<br>ليفعل هذا؟<ts=&quot;3.71;6.51&quot;>،يقتحم دون تفكير عميق<br>على الأرجح.",
-    "arabic_edit": "<ts=&quot;0;3.15&quot;>لو كان راتشت هنا، كيف كان ليفعل هذا؟<ts=&quot;3.71;6.51&quot;>،يقتحم دون تفكير عميق على الأرجح.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.15&quot;>لو كان راتشت هنا، فكيف سيتصرف؟<ts=&quot;3.71;6.51&quot;>سيندفع دون الإفراط في التفكير، على الأرجح.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "22a41255b53034b1c84a75d81170f53e4b6233f97a1af26af344f943a751ad43",
+      "candidate_sha256": "3dc97288edbda6c0a4861733651db4d48e32d33517212007886f3e87eebb0379",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1576,
@@ -69,14 +101,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;1.278&quot;>وماذا عن ريفت؟<ts=&quot;1.429;7.036&quot;>هممم، الأرجح أنها هي أيضا...<br>تقتحم دون تفكير عميق.",
-    "arabic_edit": "<ts=&quot;0;1.278&quot;>وماذا عن ريفت؟<ts=&quot;1.429;7.036&quot;>هممم، الأرجح أنها هي أيضا... تقتحم دون<br>تفكير عميق.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.278&quot;>وماذا عن ريفت؟<ts=&quot;1.429;7.036&quot;>همم، ربما ستندفع هي أيضًا... دون الإفراط<br>في التفكير.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "55b65eec96a6d4e9f04a48cbbd241c7ad4455372c54aaf0ba11fe5ef008e3933",
+      "candidate_sha256": "d23da5da51844ce000fb4d32c428cb893238cf270876c7670ce31339775d52c3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1577,
@@ -86,13 +126,21 @@
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;0.86&quot;>وكيت؟<ts=&quot;1.54;2.869&quot;>هل تتردد؟<ts=&quot;4.12;5.21&quot;>ربما أكثر من اللازم؟<ts=&quot;5.67;6.08&quot;>أو...<ts=&quot;6.77;11.38&quot;>هل خوفها من خذلان الآخرين<br>يدفعها للأمام؟<ts=&quot;11.38;13.765&quot;>ربما الأمر يعتمد على الظروف.",
     "arabic_edit": "<ts=&quot;0;0.86&quot;>وكيت؟<ts=&quot;1.54;2.869&quot;>هل تتردد؟<ts=&quot;4.12;5.21&quot;>ربما أكثر من اللازم؟<ts=&quot;5.67;6.08&quot;>أو...<ts=&quot;6.77;11.38&quot;>هل خوفها من خذلان الآخرين يدفعها للأمام؟<ts=&quot;11.38;13.765&quot;>ربما الأمر يعتمد على الظروف.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "6712c37e12fa3d8f603e32574d6b13a115c75ae73c101914517b147bf8bf041c",
+      "candidate_sha256": "7ad3cd523ad842de38b8feb86513e1895152459931de80ed49d4a1cd08e0e3c2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1578,
@@ -101,13 +149,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;1.75&quot;>لكن ماذا كان غاري ليفعل؟ ...<ts=&quot;2.07;4.17&quot;>أن ينتظر مساعدتي من جديد.",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>لكن ماذا كان غاري ليفعل؟ ...<ts=&quot;2.07;4.17&quot;>أن ينتظر مساعدتي من جديد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>لكن ماذا سيفعل غاري؟...<ts=&quot;2.07;4.17&quot;>سينتظر مساعدتي مجددًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "0654241706554b74b879d9f839d2c5fedc1393960583891e0e2bc8c16bf403c5",
+      "candidate_sha256": "72525908308519dae689092f3d8e2c11c575f2537c2f5654d84202b284467e3f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1579,
@@ -117,13 +173,21 @@
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;3.396&quot;>هناك! لم يكن هذا... *صعبا*<br>للغاية.",
     "arabic_edit": "<ts=&quot;0;3.396&quot;>هناك! لم يكن هذا... *صعبا* للغاية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "86f8588db1e8e4fa176d9e3c3405556c733dced9c7267181f0d985e4ea636788",
+      "candidate_sha256": "763c95785f22ad9eb1eea4ffb542956890313b2ed2f156cfb23be3d55326a0a5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1580,
@@ -132,13 +196,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0.099;1.499&quot;>ربما هذه هي.<ts=&quot;1.599;2.73&quot;>اللغز الأخير.<ts=&quot;3.469;6.191&quot;>المعرفة تدغدغ مؤخرة عقلي.",
-    "arabic_edit": "<ts=&quot;0.099;1.499&quot;>ربما هذه هي.<ts=&quot;1.599;2.73&quot;>اللغز الأخير.<ts=&quot;3.469;6.191&quot;>المعرفة تدغدغ مؤخرة عقلي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.099;1.499&quot;>ربما وصلنا إليه.<ts=&quot;1.599;2.73&quot;>اللغز الأخير.<ts=&quot;3.469;6.191&quot;>أشعر بالمعرفة تلوح في أعماق ذهني.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "f0580933443327b9ef68a569ad7701e7f610f869f7b7d59c438045d475063b07",
+      "candidate_sha256": "7ece859341534e2aa3e6eb85b94da95584d09c32ed98baa498ccd596011b64cf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1581,
@@ -147,14 +219,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0.08;3.38&quot;>هنا كان راتشت ليأمر نفسه<br>بأخذ نفس عميق...<ts=&quot;3.38;6.153&quot;>علي أن أتذكر أنني وصلت لهذا<br>،الحد<ts=&quot;6.269;10.878&quot;>وإحصائيا، فرصة نجاحي الآن<br>مساوية.",
-    "arabic_edit": "<ts=&quot;0.08;3.38&quot;>هنا كان راتشت ليأمر نفسه بأخذ نفس عميق...<ts=&quot;3.38;6.153&quot;>علي أن أتذكر أنني وصلت لهذا ،الحد<ts=&quot;6.269;10.878&quot;>وإحصائيا، فرصة نجاحي الآن مساوية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.08;3.38&quot;>هنا سيذكر راتشت نفسه بأن يأخذ نفسًا<br>عميقًا...<ts=&quot;3.38;6.153&quot;>علي أن أتذكر أنني وصلت إلى هنا،<ts=&quot;6.269;10.878&quot;>وإحصائيًا، لدي فرصة مماثلة للنجاح الآن.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "cbea8f01f738bafe31b351976af4aa8a1d2c7ff5b2fd4196f365c4b46148baa8",
+      "candidate_sha256": "ab76f55ba03a7c758b68b09ed459f68af9a018b8f01dfed1a944163b63684d18",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1582,
@@ -163,14 +243,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;3.85&quot;>أنجزت الكثير منذ وصولي إلى<br>هذا البعد...<ts=&quot;3.969;6.069&quot;>سأواصل الإنجاز.<ts=&quot;6.309;8.75&quot;>هذا الشذوذ لن يوقفني.",
-    "arabic_edit": "<ts=&quot;0;3.85&quot;>أنجزت الكثير منذ وصولي إلى هذا البعد...<ts=&quot;3.969;6.069&quot;>سأواصل الإنجاز.<ts=&quot;6.309;8.75&quot;>هذا الشذوذ لن يوقفني.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.85&quot;>أنجزت الكثير منذ وصلت إلى هذا البعد...<ts=&quot;3.969;6.069&quot;>وسأواصل ذلك.<ts=&quot;6.309;8.75&quot;>لن يوقفني هذا الاختلال البعدي.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "cafdaf3bc2d01fe8da6967433c05d27219000ea61ba47edb17325d7a626d3bdc",
+      "candidate_sha256": "8ee382b4caa7ab3fdfc122c3867eae4c440c1eb7bfbb97b207a3dd1100072117",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1583,
@@ -180,13 +268,21 @@
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;3&quot;>أستطيع فعل هذا. *سأفعل*<br>هذا.",
     "arabic_edit": "<ts=&quot;0;3&quot;>أستطيع فعل هذا. *سأفعل* هذا.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "28368391943acc88cd25f91e855e85fb0e5f64ed21a13fd00ad7c25c4213e9db",
+      "candidate_sha256": "b280f9b5efe325f5e41947fe2c76fd478dd12953a7a52080aaba5bf5dd73e8bc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1584,
@@ -196,12 +292,20 @@
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;0.51&quot;>أنا...<ts=&quot;1.22;3.959&quot;>أعرف كيف أوقف الكارثة.<ts=&quot;4.918;7.765&quot;>أعرف كيف أوقف الكارثة!",
     "arabic_edit": "<ts=&quot;0;0.51&quot;>أنا...<ts=&quot;1.22;3.959&quot;>أعرف كيف أوقف الكارثة.<ts=&quot;4.918;7.765&quot;>أعرف كيف أوقف الكارثة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "0af6a8d9c6f423161708dd74d9050184f467793a6ade68c7dc22e48bc4aa7c10",
+      "candidate_sha256": "6a8bbf5dd585fb1c2abc84d14c7873ef971ee333a26c93a7311ad2807f3e69bd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1585,
@@ -211,13 +315,21 @@
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0.03;3.199&quot;>لا تقلق يا كلانك. فعلت هذا<br>من قبل.<ts=&quot;3.969;8.16&quot;>والآن أتكلم بضمير المخاطب<br>مثل راتشت حين يتوتر.<ts=&quot;8.16;9.33&quot;>يا إلهي...",
     "arabic_edit": "<ts=&quot;0.03;3.199&quot;>لا تقلق يا كلانك. فعلت هذا من قبل.<ts=&quot;3.969;8.16&quot;>والآن أتكلم بضمير المخاطب مثل راتشت حين<br>يتوتر.<ts=&quot;8.16;9.33&quot;>يا إلهي...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "cffb2e4d19268c598e9279756fa367e58cb6e10c3822d5a6065a1042c28680a6",
+      "candidate_sha256": "2db4d5345fe0e0746be42a0ec5b172278f35ceab1944ce653abdb5be9377f189",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1586,
@@ -226,13 +338,21 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;0.64&quot;>،أجل<ts=&quot;1.17;3.77&quot;>هذا سبب وجيه تماما للتوتر.",
-    "arabic_edit": "<ts=&quot;0;0.64&quot;>،أجل<ts=&quot;1.17;3.77&quot;>هذا سبب وجيه تماما للتوتر.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.64&quot;>أجل،<ts=&quot;1.17;3.77&quot;>هذا سبب وجيه تمامًا للتوتر.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "b3973a9a99bb7a96bba0dc9532245ab3461b5cfda8a1145a774e6bac8bf1c2bf",
+      "candidate_sha256": "0aa6eec3a06ba895de971938dbfe1f9ceb33722acd93be27c7bdca0624bed5e1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1587,
@@ -241,14 +361,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;1.139&quot;>أوه، لا بأس.<ts=&quot;1.549;5.2&quot;>فقط خطوة خطوة كما قال غاري.<ts=&quot;5.2;8.25&quot;>أصلح الشذوذ، ثم أمسك<br>الخريطة البعدية.",
-    "arabic_edit": "<ts=&quot;0;1.139&quot;>أوه، لا بأس.<ts=&quot;1.549;5.2&quot;>فقط خطوة خطوة كما قال غاري.<ts=&quot;5.2;8.25&quot;>أصلح الشذوذ، ثم أمسك الخريطة البعدية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.139&quot;>أوه، لا يهم.<ts=&quot;1.549;5.2&quot;>خطوة واحدة في كل مرة، كما قال غاري.<ts=&quot;5.2;8.25&quot;>أصلح الاختلال البعدي، ثم احصل على خريطة<br>الأبعاد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "cab9c6fcdbf73b969ef7f21f7943f632f09145d8cd61c4c577cae7e0bf5e10b7",
+      "candidate_sha256": "a2dded25233204192cb38a3dacc0f4e0b64f6267f50f3cf49ffe87a49bf297af",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1588,
@@ -257,14 +385,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0.04;3.429&quot;>ونحن على وشك الحصول على<br>الخريطة البعدية أيضا;<ts=&quot;3.429;6.5&quot;>أوه، الأمور أخيرا صارت في<br>صالحنا!",
-    "arabic_edit": "<ts=&quot;0.04;3.429&quot;>ونحن على وشك الحصول على الخريطة البعدية<br>أيضا;<ts=&quot;3.429;6.5&quot;>أوه، الأمور أخيرا صارت في صالحنا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.04;3.429&quot;>ونحن على وشك الحصول على خريطة الأبعاد<br>أيضًا؛<ts=&quot;3.429;6.5&quot;>أوه، بدأت الأمور تسير لصالحنا أخيرًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "c759eb2ad1f7559e0fa2fe2c2c659092ce2912931708e04ea824f6609eb8e5ef",
+      "candidate_sha256": "25bff33b770df8a76a882275db8f0f5f8ceda4e30cfb9e660a4194460a23587f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1589,
@@ -274,13 +410,21 @@
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;4.766&quot;>لو وصلنا إلى ذلك السلك<br>فوقنا... أراهن أننا نستطيع<br>السير فوقه.",
     "arabic_edit": "<ts=&quot;0;4.766&quot;>لو وصلنا إلى ذلك السلك فوقنا... أراهن أننا<br>نستطيع السير فوقه.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "6d887a2273516038f2213d5231f2c7f7939ba31ffddec27cfba552c7e949728a",
+      "candidate_sha256": "c701d46799f8eae19563858e2dce1e1001dd2dc005a31664ef9a7d7b153677d5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1590,
@@ -289,14 +433,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;1.255&quot;>،مع الناقلة البعدية<ts=&quot;1.315;5.809&quot;>إنها مسألة وقت فقط قبل أن<br>يكتشف الإمبراطور طريقة<br>لاقتحام هنا.<ts=&quot;6.22;7.499&quot;>علي العجلة.",
-    "arabic_edit": "<ts=&quot;0;1.255&quot;>،مع الناقلة البعدية<ts=&quot;1.315;5.809&quot;>إنها مسألة وقت فقط قبل أن يكتشف الإمبراطور<br>طريقة لاقتحام هنا.<ts=&quot;6.22;7.499&quot;>علي العجلة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.255&quot;>بوجود جهاز الأبعاد معه،<ts=&quot;1.315;5.809&quot;>إنها مسألة وقت قبل أن يجد الإمبراطور طريقة<br>لاقتحام هذا المكان.<ts=&quot;6.22;7.499&quot;>علي الإسراع.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "a8ce99cfb634da4f2b46681978896132bf065079c999eb012a98172a7c0c7f56",
+      "candidate_sha256": "1b6f50b8d7dc847108338633552b2fa063e75032cd2f965e4d7105581bd42636",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1591,
@@ -305,14 +457,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;2.677&quot;>لو وقع بين يدي الإمبراطور<br>،الخريطة البعدية<ts=&quot;2.783;5.701&quot;>فليشر رعبه حيثما شاء...<ts=&quot;6.07;8.812&quot;>وليستول على كل شيء.",
-    "arabic_edit": "<ts=&quot;0;2.677&quot;>لو وقع بين يدي الإمبراطور ،الخريطة البعدية<ts=&quot;2.783;5.701&quot;>فليشر رعبه حيثما شاء...<ts=&quot;6.07;8.812&quot;>وليستول على كل شيء.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.677&quot;>إن حصل الإمبراطور على خريطة الأبعاد،<ts=&quot;2.783;5.701&quot;>فسيستطيع نشر رعبه أينما شاء...<ts=&quot;6.07;8.812&quot;>قد يستولي على كل شيء.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "c82f6c89020b15a9eb61687a4c1927766f50deafea53e22636f6c295aec4c54b",
+      "candidate_sha256": "71a631c24b81bc122d28f4093d8c3ffd5eb90902df471e74be96e37fabb7249b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1592,
@@ -321,14 +481,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;3.36&quot;>سيضطرنا القتال مع<br>الإمبراطور مجددا مهما حصل...<ts=&quot;3.36;6.346&quot;>لكنه لن يفاجئنا هذه المرة.",
-    "arabic_edit": "<ts=&quot;0;3.36&quot;>سيضطرنا القتال مع الإمبراطور مجددا مهما<br>حصل...<ts=&quot;3.36;6.346&quot;>لكنه لن يفاجئنا هذه المرة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.36&quot;>سنضطر إلى مواجهة الإمبراطور مجددًا مهما<br>حدث...<ts=&quot;3.36;6.346&quot;>لكنه لن يفاجئنا هذه المرة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "c8ed880295e06a855dc0d9b8c48d41eb0f517bbccb4385dfca0565c3ce7f19ac",
+      "candidate_sha256": "d6a62c23a49dbc3391edc01edb238a9ca26781ab2e283fc86e6197ecbd79c88a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1593,
@@ -337,14 +505,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0.044;2.802&quot;>إخفاء الخريطة البعدية داخل<br>شذوذ أمر...<ts=&quot;3.099;6.09&quot;>عبقري للغاية. أحسنت يا<br>غاري.",
-    "arabic_edit": "<ts=&quot;0.044;2.802&quot;>إخفاء الخريطة البعدية داخل شذوذ أمر...<ts=&quot;3.099;6.09&quot;>عبقري للغاية. أحسنت يا غاري.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.044;2.802&quot;>إخفاء خريطة الأبعاد داخل اختلال بعدي<br>فكرة...<ts=&quot;3.099;6.09&quot;>عبقرية حقًا. أحسنت يا غاري.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "d9d69f8f144651de7091dd1bfa27fdc91d727271a39545decc552d71e3c3af6e",
+      "candidate_sha256": "3ee616992c36b93e0842c1d103df6d3a7696bd04d07f8623ce746abc1b51cd17",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1594,
@@ -353,14 +529,22 @@
     "speaker_code": "CLANK",
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;2.1&quot;>،أعرف أنها ليست حقيقية<ts=&quot;2.3;7.334&quot;>لكن أشعر أنني يجب أن أشكر<br>احتمالاتي على مساعدتي<br>في تعلم الأبعاد.",
-    "arabic_edit": "<ts=&quot;0;2.1&quot;>،أعرف أنها ليست حقيقية<ts=&quot;2.3;7.334&quot;>لكن أشعر أنني يجب أن أشكر احتمالاتي على<br>مساعدتي في تعلم الأبعاد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.1&quot;>أعرف أنها ليست حقيقية،<ts=&quot;2.3;7.334&quot;>لكنني أشعر بأن علي شكر احتمالاتي لمساعدتي<br>على فهم طبيعة الأبعاد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "2c14a1f29b218ba7f63445464edb4735ac909c217b61e4a456147a9bc097db0b",
+      "candidate_sha256": "b2a03073d2aa4bc775b9d3dd6d75639c3e9ee6b5ba1a2d92cd5b5b4009c1830e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1595,
@@ -370,11 +554,19 @@
     "scene_code": "ANOMALY_SAVA_GP2",
     "arabic_current": "<ts=&quot;0;0.8&quot;>شكرا لكم...<ts=&quot;2.9;3.5&quot;>يا كلانكات.",
     "arabic_edit": "<ts=&quot;0;0.8&quot;>شكرا لكم...<ts=&quot;2.9;3.5&quot;>يا كلانكات.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-002",
+      "source_sha256": "8817420a5f060df3078b937978dde22f4da172f1d66d5c81505a09e8d6519679",
+      "candidate_sha256": "4b1d680e6590afb3ec8d6307e9392b0b8e938eaeaf53f01e76cba1fdbb104c8d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

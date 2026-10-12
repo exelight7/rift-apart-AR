@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_WARSOON",
     "arabic_current": "<ts=&quot;0;3.5&quot;>هل أنت متحمس لتاجر الحروب<br>بقدر ما أنا متحمسة؟",
-    "arabic_edit": "<ts=&quot;0;3.5&quot;>هل أنت متحمس لتاجر الحروب بقدر ما أنا<br>متحمسة؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;3.5&quot;>هل تتحمس لمؤجج الحروب بقدر حماسي؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "8d2f861a03b95f7731a31e50aa4e09168aaa6d2bfca7e9644bdb243cf11432cd",
+      "candidate_sha256": "0e6838b4667ada5c2caf2fa1cd29959f7eec5945846894335304b49741bab38e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

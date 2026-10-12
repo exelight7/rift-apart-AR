@@ -6,12 +6,20 @@
     "speaker_code": "MYVO",
     "scene_code": "SAVA_GP1_CINE_CLINKINTRO",
     "arabic_current": "<ts=&quot;0;1.75&quot;>تم رصد شذوذ بين الأبعاد.",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>تم رصد شذوذ بين الأبعاد.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>رصد اختلال بين الأبعاد.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "62cdac528fab2b8a4370da8d60f5fc7a2c0a47cd6ec3a666e3689f0301ec3b24",
+      "candidate_sha256": "54398fc912d2f6d93d3d13545bbddbe4fcaccf48977516e37892d1ab310a332c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

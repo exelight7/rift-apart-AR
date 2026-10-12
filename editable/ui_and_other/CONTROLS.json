@@ -6,13 +6,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يد تحكم دوال سينز<br>اللاسلكية",
-    "arabic_edit": "يد تحكم دوال سينز اللاسلكية",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "يد تحكم DualSense™ اللاسلكية",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-003",
+      "source_sha256": "7cdf13621fdc35a72360c96eec345224b5433d29809c15b5fbd6b6ab3893131d",
+      "candidate_sha256": "4cba89dd8b1cc53be192c1536f36e0495d59d44d66bc4d1e5d51a7c94d3b2234",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

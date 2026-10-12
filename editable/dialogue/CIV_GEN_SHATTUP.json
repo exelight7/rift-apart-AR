@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_SHATTUP",
     "arabic_current": "<ts=&quot;0;3.739&quot;>أنت تعرف تماما كيف<br>تستثمر في قنابلك!",
     "arabic_edit": "<ts=&quot;0;3.739&quot;>أنت تعرف تماما كيف تستثمر في قنابلك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "e978d4fad823a02239f35dd24a889cd407854f669cd39879d89fad2aea722cbc",
+      "candidate_sha256": "dea7312d0e44e57ee8edbe7fdf49b44a63882d3327e59533207260bbfa0b191b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

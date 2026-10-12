@@ -1,0 +1,914 @@
+[
+  {
+    "index": 24148,
+    "key": "TUT_CLANKPUZZLE_SWAP",
+    "source_sha256": "f7c7bc257a16afd7188e116169fbaf300b3b660058361424e8bf787d1ab1b541",
+    "candidate_sha256": "403cec144fa86d5ffa94dfa4c49fb15d5344072f3939a48775350894baa88a9f"
+  },
+  {
+    "index": 24149,
+    "key": "TUT_CLANKPUZZLE_VIDEOHINT",
+    "source_sha256": "3f944c931c7290abc42b9f88223b0c3ca74e3c81cfb6321cda90a7160d5b11a0",
+    "candidate_sha256": "783d748774de73b688e22fa94a94d199c61280d97a4d4ebf9e57c3b9e3563ec7"
+  },
+  {
+    "index": 24150,
+    "key": "TUT_CRANK_DETACH",
+    "source_sha256": "8c7e715f5c4d252379f5a84dc3d87c98cf6c7cc8ac8318f56f328da2aa8ab529",
+    "candidate_sha256": "f4372f8404a9987bad214cd575fff3446b6c275e0070ed60af7406b00a476567"
+  },
+  {
+    "index": 24151,
+    "key": "TUT_DOUBLEJUMP",
+    "source_sha256": "1486a6f1349cd70b016567469bd5f5733035fd417479cee34bd1a97a982b59c2",
+    "candidate_sha256": "48d7649994db3b4fa7080a4a0c739dff049ea552bf8644f57a591d168423449d"
+  },
+  {
+    "index": 24152,
+    "key": "TUT_DPAD_QUICKSELECT",
+    "source_sha256": "820d074f626dccab380e37c53b894bf23c8b7f7c43e833a04c75796726b0218d",
+    "candidate_sha256": "2376262544199afd820058d6372baa989fbe775d49b48a32438a00752b60d9a8"
+  },
+  {
+    "index": 24153,
+    "key": "TUT_EQUIP_ARMOR",
+    "source_sha256": "5dce4020464221a9cf3d80006abdc140907f3bed4e67fb275591ab86c7bc24e9",
+    "candidate_sha256": "c7b3be70f8e0b4d9d71750622cd8bcca2bf288110af25e648205bd061bb569e1"
+  },
+  {
+    "index": 24154,
+    "key": "TUT_FLY_CONTROLS",
+    "source_sha256": "08e6eb4ea46e8648e1aa93a9155acad178883fd10c18c11ecc0d2b320105736f",
+    "candidate_sha256": "7941a2a4474a1025280ed861d7931523b9582cc5390fd0f27857992fbe064274"
+  },
+  {
+    "index": 24155,
+    "key": "TUT_FLY_INVERT",
+    "source_sha256": "4ecccb0cdde9d4782b8a8f125d1b3a7121a69f7fc2e76fc645f00cb07e213af2",
+    "candidate_sha256": "7cec13dc684c5af9b54406cacb7d54e69afe4309186c4dcd1e6750ec22e838db"
+  },
+  {
+    "index": 24156,
+    "key": "TUT_FLY_INVERT_TITLE",
+    "source_sha256": "74c8567e27352e3821465ac93e9f2b729c83b24b1b1200ae151a85cbb4717f13",
+    "candidate_sha256": "389a6e35cb703ae1163ccc573be19b66b43fd02bd29dafee52a04b6533405397"
+  },
+  {
+    "index": 24157,
+    "key": "TUT_FLY_SHOOT_ZURPSTONES",
+    "source_sha256": "b15ce36844b7dbaa054c1da40ae0f7f89e7559031c8457c387384d9eba5184d0",
+    "candidate_sha256": "6b9076e17a80b31d35833e9e64c750231c67101ff40734e18a594bf56d701250"
+  },
+  {
+    "index": 24158,
+    "key": "TUT_GADGET_BOXBREAKER",
+    "source_sha256": "cb82b58ad58c490d07027cd781780f6436c7d2ae91a32035f3fcafa620368f99",
+    "candidate_sha256": "b7010d1a55a8a30e044963df5024be18554f8a765295cede63302f38fee2de23"
+  },
+  {
+    "index": 24159,
+    "key": "TUT_GADGET_HOVERBOOTS",
+    "source_sha256": "92970b47844fefde52b59a3400437f07d351c8b8578695235973a7c6dfaa548e",
+    "candidate_sha256": "e463c780f9ebf24764ecaeb10519c2a37c1803e35a48ebb19d839df88cbb6092"
+  },
+  {
+    "index": 24160,
+    "key": "TUT_GADGET_HOVERBOOTS_MKB",
+    "source_sha256": "870840a78bd35f75cd3adb720c7bed77fcd447f52c116eb371e50103eac312a3",
+    "candidate_sha256": "51ffb8e93bf204a0b53f4439838bd83fa8c329245092d087676010410b3c09eb"
+  },
+  {
+    "index": 24161,
+    "key": "TUT_GADGET_HURLSHOT",
+    "source_sha256": "caf8e38b83d6f09badb461fbb86d5a2ffe9a8250250834abfe521c7fc842d3c2",
+    "candidate_sha256": "0b7381581f18b91337f4b328de196e9706863eddb06e81bffa57729a846cfeef"
+  },
+  {
+    "index": 24162,
+    "key": "TUT_GADGET_MAGLAUNCH",
+    "source_sha256": "e8b8d84b32e1aab44f6177400a092912d5b30d5345a5efd25c62c7ef1f1a8df2",
+    "candidate_sha256": "87e021989cb839381b966af850d59184b722e55331bd7d83b3461777b4a23729"
+  },
+  {
+    "index": 24163,
+    "key": "TUT_GADGET_MAPOMATIC",
+    "source_sha256": "7308935c6905bf42e9d8c47cce42b3de1e358ea12377bcf6875198bfe4e6098b",
+    "candidate_sha256": "7eca1b48ecbc1c95a4c276f8461c5731cc2aa063daf6ec23fe5bca441a8d4212"
+  },
+  {
+    "index": 24164,
+    "key": "TUT_GADGET_OMNIBOOTS",
+    "source_sha256": "bdbb37ba5905db707cb60b94edd7604832b73968e3652a8d3eb151d7743df2f8",
+    "candidate_sha256": "1d27572be7cd3bd569dc2655a419c740fe3eb2800ea7927f35ca840e01540289"
+  },
+  {
+    "index": 24165,
+    "key": "TUT_GADGET_OMNIBOOTS_MKB",
+    "source_sha256": "d9685773f7da28406629a99ef94f2ff3a2a5476b836a7de1c7c451990e9f8d5d",
+    "candidate_sha256": "64dcf89dac071d8963628e0c5a4b758a305b253e18021a50752adaab70bd420c"
+  },
+  {
+    "index": 24166,
+    "key": "TUT_GADGET_OMNIGLOVE",
+    "source_sha256": "759cbfe906a780b7f28f0b91e1d86d03875e0acdccd49fe1b670f99151e35d68",
+    "candidate_sha256": "d1d64e8296a2773cd0493e8ccfd8f6b32dec582fac498aad113d6d706e325a8a"
+  },
+  {
+    "index": 24167,
+    "key": "TUT_GADGET_PHANTOMDASH",
+    "source_sha256": "118363818ea76469c2a3ccba2e8d17042e09e710be3b001cbf8368b20cf6506b",
+    "candidate_sha256": "9087aff0601700114df11408f05f3d5d6f0e1aac3da3da006e0913826b2e1ae6"
+  },
+  {
+    "index": 24168,
+    "key": "TUT_GADGET_RIFTTETHER",
+    "source_sha256": "76a7d16255cdb2fb70ae079bf5eba249e65576f8ac04857f25566fd8e23392b2",
+    "candidate_sha256": "69e9640fd2b418e76cee8db75d0eadcf42c354b3ac748f63593bfd12009c2723"
+  },
+  {
+    "index": 24169,
+    "key": "TUT_GLIDE",
+    "source_sha256": "6e13018d4021977ffce8d68d3e0ab5382b24755e3616e974668fedef6dd4ab7f",
+    "candidate_sha256": "c70429c6a5b24c056508930375525dc5023a8e71aecbeaae50526e4f788c1fdf"
+  },
+  {
+    "index": 24170,
+    "key": "TUT_GRINDRAIL_JUMP_HAZARDS",
+    "source_sha256": "5bfb2a5f1d552d808a76bfde02304ee388fe98fc1714dea9c179d89e6cedf4d6",
+    "candidate_sha256": "74e901cadf32c76dcfa944c4fca708aecebe87a7ce9476e6a21ba504cef12536"
+  },
+  {
+    "index": 24171,
+    "key": "TUT_GRINDRAIL_SWITCH",
+    "source_sha256": "be8f05f7f806f53747edad770d3718a1a7100eb823a6aa18ffa6832fec845530",
+    "candidate_sha256": "79db42fa2be7d1c582106a65d1841ad3d4eccba34a472f3291b3a8d655590354"
+  },
+  {
+    "index": 24172,
+    "key": "TUT_GRINDRAIL_SWITCH_TITLE",
+    "source_sha256": "40357f8e38eaa146f4804963f1b9a27d34c11dc8fb64ee2ac2c7e4bdfa540e75",
+    "candidate_sha256": "f249526ee2a21bad13c59dcf8201da40ed7f4b8b75afb00dd36336c287580952"
+  },
+  {
+    "index": 24173,
+    "key": "TUT_GRINDRAIL_TRICKJUMP",
+    "source_sha256": "3a7eb57a032a2f9e17a4bba8109406311e3640edb7c67a862b60d8b89cc67cce",
+    "candidate_sha256": "3f882e3e196a0fc3b1413abe60248a371801bf1cf9be3750de3cfe8733a7608c"
+  },
+  {
+    "index": 24174,
+    "key": "TUT_HAMMERCRANK_ATTACH",
+    "source_sha256": "5d86c67f971e91c44df377a287b767f461008d1fe1e07796c35a6b78b1e9de5c",
+    "candidate_sha256": "156b44d0d90191311d7c0ccdb97bbe5495c25dbef6ffb504d7209d8cd7270203"
+  },
+  {
+    "index": 24175,
+    "key": "TUT_HAMMERCRANK_TURN",
+    "source_sha256": "d1e38f6b504262057283ffed19d9789ea07556c2fa75339c61e0c32ba1769380",
+    "candidate_sha256": "b0384d4cf250286bc42e8bb09eedbb2fd1d15b22fb047b528886ced582cc209d"
+  },
+  {
+    "index": 24176,
+    "key": "TUT_HAMMER_THROW",
+    "source_sha256": "41fd6325435f99f026150405dcf47cb05562a61ca39bb1b6bb2fedcab34d7606",
+    "candidate_sha256": "a20c5c003c317c16a5dc6990d3365923c31566ead2ce60195dd18cdedec89e35"
+  },
+  {
+    "index": 24177,
+    "key": "TUT_HAMMER_THROW_BREAKFANS",
+    "source_sha256": "2eac38b60f55fe8dfc4ba228c571c6714edd985ecd3c14e0d5bdf0a25deecc61",
+    "candidate_sha256": "cba44cd6f866cfd6acfce6464d53156579dc4cea99c513ba5853874dd67b5d14"
+  },
+  {
+    "index": 24178,
+    "key": "TUT_HAMMER_THROW_PRESS",
+    "source_sha256": "7fad573b26df96adb7f962849bb216fc104899b5414b34e5806f172da2789abf",
+    "candidate_sha256": "9ed4f5013a9021bfdc61afe6ddb3939f7320390ba7e41feabfcdc3f9de533eb0"
+  },
+  {
+    "index": 24179,
+    "key": "TUT_HAX_BASIC_CONTROLS",
+    "source_sha256": "ca812d4169a46ec26ae00ae0a5ed0e25dd124dc382899bb01c041856ff419caf",
+    "candidate_sha256": "2d82e24d2a929263bd7b33117d7517685b5b5741dc67695dee91dd81fbe1a1b4"
+  },
+  {
+    "index": 24180,
+    "key": "TUT_HAX_BLITZ_ON_FLYERS",
+    "source_sha256": "a0ca1345609784b9f228b2c0869505582b8e2b358522fa171869bc21c547dac3",
+    "candidate_sha256": "31893270a8bab7a1dea31dfa3717544d986da68465d7168f3be5831f041166ec"
+  },
+  {
+    "index": 24181,
+    "key": "TUT_HAX_WPN_BLITZINFECTORS",
+    "source_sha256": "102a79a1b67f441f9145027ba5f2d0d37a391a64db91a9dc103043574c5cc8de",
+    "candidate_sha256": "92cdb7b25c6d6d91ec9a9027b97787218ecbe6ceb2bcddfe6df33b7e5554ae6b"
+  },
+  {
+    "index": 24182,
+    "key": "TUT_HAX_WPN_ELECTROGUNS",
+    "source_sha256": "3e96e5735a4a955f6599538e519214e63d19b827b8392e70cb483a3a017c8302",
+    "candidate_sha256": "d7d8ef2ac454a88cde114e2a6709d7fcbe64d9091a2a2642980f266bd7d68f17"
+  },
+  {
+    "index": 24183,
+    "key": "TUT_HAX_WPN_NUKEPULSE",
+    "source_sha256": "b0412eb736d2e7a6a1b67e9f8ee512f6d72a56067b8a230a40249185c0a59924",
+    "candidate_sha256": "4fd9d2a93e4b375d19b6a19024d14a7bf56179702427300d453846e3722819b3"
+  },
+  {
+    "index": 24184,
+    "key": "TUT_HERO_DASH_QUICK",
+    "source_sha256": "add5bb81fd166509f05fb42f0dd05e95104f366396b595f02fa1b1eb13dbb26d",
+    "candidate_sha256": "a85f7129d2019967c51dea263a227bee2e2e5fbcce208b644cde46161c0152b9"
+  },
+  {
+    "index": 24185,
+    "key": "TUT_HERO_DASH_SIDEWAYS",
+    "source_sha256": "283d226d15afbe98bf2e4d420be6c0da29af17d30c8801d0938af26d3506c466",
+    "candidate_sha256": "a1ab59649cf1f328a34464c5e1b031a151b70545e3a003c484317150013577d1"
+  },
+  {
+    "index": 24186,
+    "key": "TUT_HOOKSHOT",
+    "source_sha256": "da2e546fbb75e3acc734a3cbb608ad131db1c01255f201b26a23a663f239d87c",
+    "candidate_sha256": "63cd3ea63a842fc41544831f11cb11ac0e05d1994656b57b60abd95370163c83"
+  },
+  {
+    "index": 24187,
+    "key": "TUT_HOVERBOOT",
+    "source_sha256": "274e576f79854832145c3fe76454480b80f50c3d15f7250a50e7437ef6b83780",
+    "candidate_sha256": "bdec7c1d0651840dc7dc6b4067686a8a48ddf494b09b7eccf78b2961bf9bc966"
+  },
+  {
+    "index": 24188,
+    "key": "TUT_HOVERBOOT_ACCELERATE",
+    "source_sha256": "a9ad7be75d1906e962507973b40c2b1c2a82c57342de5919a50fa7281a2435ac",
+    "candidate_sha256": "f6f2144bf6d6e766f93c0b80338211e3d8ad9e6d55a2bd04d094a7dc4243ca09"
+  },
+  {
+    "index": 24189,
+    "key": "TUT_HOVERBOOT_PUMP",
+    "source_sha256": "6baeaaf31092c1be2dc3c592725fd4b0945be51db487b12e59f33584f0d98667",
+    "candidate_sha256": "16e3c199906403d4c48a7bd72f9bd0d7571491b4bc4b1fd8200cb3d490276441"
+  },
+  {
+    "index": 24190,
+    "key": "TUT_HOVERBOOT_TOGGLE",
+    "source_sha256": "981319a4febe15dae5830ad6554d3dee3e60ac2cfb1b0358a20a6d3cbddcae33",
+    "candidate_sha256": "82fab557484f39218685184d22ad7ced58e51fe719ec7c6dcc86dcd1e0e31531"
+  },
+  {
+    "index": 24191,
+    "key": "TUT_HURLSHOT_ATTACH",
+    "source_sha256": "5255e304db4a0be5855974e0d51803d7d132e0fc1fee1fb5e95bbcbb7ec754ce",
+    "candidate_sha256": "f2ffba8c352407fb46c957ee476ab150d136d43a1f28910142df1bf7a9111260"
+  },
+  {
+    "index": 24192,
+    "key": "TUT_HURLSHOT_BUILDSPEED",
+    "source_sha256": "cabbf3d8ff3f71f37e4dd7e5ed54bc8e7fafc3cd8cf251e701233f84692beca9",
+    "candidate_sha256": "a92f52bfd5820b37f81718b3430a4703f06aa46993bb61b05d5f37c6f7ec1af6"
+  },
+  {
+    "index": 24193,
+    "key": "TUT_INTRO_DRNEF_DODGELASER",
+    "source_sha256": "d2c93e3769767b9ae99747def3fc8508ba4db9b15a482a20e9e218c12cc0406c",
+    "candidate_sha256": "922b26b779cf559075acc6e579bde5cc0e5003b7db39d7a431c0e0436259727c"
+  },
+  {
+    "index": 24194,
+    "key": "TUT_JUMP",
+    "source_sha256": "a9262df80dba45ec68fa9c9a1c61a176d745e243d0bad76b11180082f6edbc03",
+    "candidate_sha256": "7df14f69f740fc764a5442974f1bfa3f3154fd11f0060a71b915af6eeed9033a"
+  },
+  {
+    "index": 24195,
+    "key": "TUT_LORB_LISTEN",
+    "source_sha256": "7202245879005d45e2d0ab8e77841d694d067256a830e31c7548336327fec20a",
+    "candidate_sha256": "12da80dcc934013e7cd187781cae30ad550ab78da6c698404e6c556b63752f62"
+  },
+  {
+    "index": 24196,
+    "key": "TUT_MAGBOOTS_LEAP",
+    "source_sha256": "bfedacd83f4752c91da60515e8a4304014360e39b258f8505601da9f4e9138b3",
+    "candidate_sha256": "abda8848ede41f81d677afc45f0dbf17850828bc5acfc30e1604ac8b8b82d3dc"
+  },
+  {
+    "index": 24197,
+    "key": "TUT_MAGBOOT_JUMP",
+    "source_sha256": "77cdb326a3340b1af6a3855612e216354e9de00d54f675de6c702aef34ca15ac",
+    "candidate_sha256": "a2f1dcac3e87a4878b36662384bc9b603768132eede71749b6063744b5cadd5f"
+  },
+  {
+    "index": 24198,
+    "key": "TUT_MAGBOOT_LAUNCH",
+    "source_sha256": "58dddbf0f5ff480285381ddfb31699c0dff3c389bc7602bcdebcfe57b7d66257",
+    "candidate_sha256": "87e021989cb839381b966af850d59184b722e55331bd7d83b3461777b4a23729"
+  },
+  {
+    "index": 24199,
+    "key": "TUT_MAP",
+    "source_sha256": "7eac3ee515c8da0e37b9e29d4eb5fa9eaa85b34211532059d3020df665a39dab",
+    "candidate_sha256": "7eca1b48ecbc1c95a4c276f8461c5731cc2aa063daf6ec23fe5bca441a8d4212"
+  },
+  {
+    "index": 24200,
+    "key": "TUT_MAP_ZURPSTONES",
+    "source_sha256": "f547a56d896dcf940410cddf8f25bd3f51f810d8f99ac79af9e9747d8211b710",
+    "candidate_sha256": "5c375d7d2133f66297d5fc7e41b925648d9df734615fff785642a6d22c1e2a39"
+  },
+  {
+    "index": 24201,
+    "key": "TUT_MELEE",
+    "source_sha256": "e96b6c75422c21d4ab765de57cf440c9c85d6acc8270fdb4fcba1b5ade0b7c18",
+    "candidate_sha256": "a82f6097b5c285a334488a779897e31bf03b4a616e297071d553f550fee267a5"
+  },
+  {
+    "index": 24202,
+    "key": "TUT_MELEE_HAMMER",
+    "source_sha256": "5f075a9fb83620830d0ccb4700b77398b9b7c65a68680fab9a9fefb96461fe08",
+    "candidate_sha256": "3b0a9cb42d05c9910327b8aacf5f8ff446ce57bcf9b133adf3d31d6904bcbe13"
+  },
+  {
+    "index": 24203,
+    "key": "TUT_MOVE_LOOK",
+    "source_sha256": "aeab1697332feef6d26a4f6c64a6351369f8d015a1ec85b68f0a6cc8e643df15",
+    "candidate_sha256": "eff90097dad8a98911a4de96c9a3c8dbfa827480c4a55e7f2d0e54690aa3027f"
+  },
+  {
+    "index": 24204,
+    "key": "TUT_OBJECTIVE_PING",
+    "source_sha256": "b18cd2974d64f19cf56d6f849d1f70201ffeb463734ec0702302a9705f7be16b",
+    "candidate_sha256": "b96bd4e1dc0aaa499bcd7286c687fa7d057e841428111b6f5e76793cbbd1a32f"
+  },
+  {
+    "index": 24205,
+    "key": "TUT_OMEGA_AVAILABLE",
+    "source_sha256": "79af30c779de62ace800b6e0a3977dea48715deaa8675064597de91c40ee2d26",
+    "candidate_sha256": "716eb65b48fecab60d41a501f4e285eb0b8494136b6839d524fb72d46194eb02"
+  },
+  {
+    "index": 24206,
+    "key": "TUT_OMEGA_AVAILABLE2",
+    "source_sha256": "97f6d7d370f627092f3ce752fc54edf56b381ed6ee5fac24f2efbd0899195512",
+    "candidate_sha256": "9b3dd8adb133b1e9137e753fd71850d20a1a35a8c11742612439c4ea12415230"
+  },
+  {
+    "index": 24207,
+    "key": "TUT_OMEGA_WEAPON",
+    "source_sha256": "00657216caddb051665257f3b2a6a1317f4feb25bb42247ad7f4eadfb26b4679",
+    "candidate_sha256": "4e3ff2f715fab6806f7c7749ffe640039b8b6b05aa097c0e6e126c0c59055676"
+  },
+  {
+    "index": 24208,
+    "key": "TUT_OMEGA_WEAPON_POST_PURCHASE",
+    "source_sha256": "2f386486d8292c263b4d152b47f6940419b21faa84198501eebb998058a954b6",
+    "candidate_sha256": "aed198c69f0039caa44c82d2a02f35e820e42d06aedde5ba053d665411175da4"
+  },
+  {
+    "index": 24209,
+    "key": "TUT_OMNIBOOT_GLIDE",
+    "source_sha256": "6e13018d4021977ffce8d68d3e0ab5382b24755e3616e974668fedef6dd4ab7f",
+    "candidate_sha256": "c70429c6a5b24c056508930375525dc5023a8e71aecbeaae50526e4f788c1fdf"
+  },
+  {
+    "index": 24210,
+    "key": "TUT_PAUSE_GOLDBOLTS",
+    "source_sha256": "155633e32382be8c94531fe9929461fcc61f3444eb9842326342cea2e7cb216c",
+    "candidate_sha256": "bfe07136aae315ba7224ae16454486298ea25cff7b5cfc6a89894e64af401776"
+  },
+  {
+    "index": 24211,
+    "key": "TUT_PAUSE_GOLDBOLTS_01",
+    "source_sha256": "f16d9136aa9f856b3539437036017074dbd8f20432229de65bf0e738461f6fa0",
+    "candidate_sha256": "f4c825a52fd53f6163f0bbb232793f36d0b0bd63397b33608215e4076b375a1a"
+  },
+  {
+    "index": 24212,
+    "key": "TUT_PAUSE_LORBS",
+    "source_sha256": "dca6cda4b97ff09fef4d0dcf4eab25d27d56b753799dc9713041115e5a0d5221",
+    "candidate_sha256": "40ba58628f9628c5d3059e753f315b6376516bf186b5f36e30b1d15b74455b6a"
+  },
+  {
+    "index": 24213,
+    "key": "TUT_PAUSE_LORBS_01",
+    "source_sha256": "75351768e2a1d72ad87bff798b107d1c07574893e50b9ddd858a5c3d3729107a",
+    "candidate_sha256": "5a3b7b1a42b4eb45a25115d9ef3adc1152af9d7fcbfee50f6e64aed75ddb7e72"
+  },
+  {
+    "index": 24214,
+    "key": "TUT_PAUSE_LORBS_02",
+    "source_sha256": "2b9dc5517d74f19a5fcd05361ef56b2cdb223d1dfd3384c0eea4036d53b5f29d",
+    "candidate_sha256": "c5a8dc52dfcf41fd5b01b289f509e5e5f9560c33aea1f9f5c611eb193f12bf81"
+  },
+  {
+    "index": 24215,
+    "key": "TUT_PAUSE_MAP",
+    "source_sha256": "38d06a4f7027cf2ec6185d36933c1161b4bbd8fb175fa68f1b5e302cfeb472fd",
+    "candidate_sha256": "47646da40893aeccf073a6f7b386e04d5c86b42bf899d13ef046a3fa87839b5a"
+  },
+  {
+    "index": 24216,
+    "key": "TUT_PAUSE_MAP_01",
+    "source_sha256": "5fa87645fe7627dc3a69f246b0872851a4819f621fde4113cb57259039b17acb",
+    "candidate_sha256": "7651d50b27c7f24ad3c8dd8e07910466b6fa58125f05e8163761e106614abe4e"
+  },
+  {
+    "index": 24217,
+    "key": "TUT_PAUSE_MAP_02",
+    "source_sha256": "f00616bd7104bbc3aa75a24933615ce0c83da15cfd37685fe711cd8558fc81fe",
+    "candidate_sha256": "a8a201a631c9670c9aecf8b3f5c83af6df90a321cc6b54adbc8f1c7b409ffb3c"
+  },
+  {
+    "index": 24218,
+    "key": "TUT_PAUSE_SPYBOTS",
+    "source_sha256": "76084b26bff00fc7b122aa266566530539258ab970bdf8a3a7e8f0b58560287c",
+    "candidate_sha256": "27e8e455bc5ac5f804348b4795f0addce70c7f9eb798fb5dbeb250aef9678ee3"
+  },
+  {
+    "index": 24219,
+    "key": "TUT_PAUSE_SPYBOTS_01",
+    "source_sha256": "e39654b9c42405e7ba92399f80f1c4eeb0425894a64a1d305e5aebb06e0f6c40",
+    "candidate_sha256": "b96fa159ceb714a79eeaeadf4113fef7d0fe96c0bd6f1cb8c4071f5d8cf96f1d"
+  },
+  {
+    "index": 24220,
+    "key": "TUT_PAUSE_SPYBOTS_02",
+    "source_sha256": "731f531508db10b2d9be83a52c99d19f2ba6a5f3d6d2a02cf98a8e7ddb5a949e",
+    "candidate_sha256": "7c04e7fb6e4ec7257b56ad1d7b265ea45d0ab9096f851526d9f92cb82dbc8121"
+  },
+  {
+    "index": 24221,
+    "key": "TUT_PAUSE_VANITY",
+    "source_sha256": "a70dee0b771b81cad30db8a3ca0f1297b6d64be215a479f59e6d28fb0232755e",
+    "candidate_sha256": "415291217d37202b00d5d05fa0d8d89460cb4a71e91f28f8d23803c7ac94d7c0"
+  },
+  {
+    "index": 24222,
+    "key": "TUT_PAUSE_VANITYCOLOR",
+    "source_sha256": "d6ef4be1197f7abff20020150d2c216c90cba66bb3067cbc6d69aa1532ab3a0c",
+    "candidate_sha256": "b31e666831f289487f0f95143d9565ec476905f943f14ec5c11b3ff238dea704"
+  },
+  {
+    "index": 24223,
+    "key": "TUT_PAUSE_VANITYCOLOR_01",
+    "source_sha256": "9880c46d048db6335af203f84a659aab97ea4483f81298caeb56b5015814aeae",
+    "candidate_sha256": "bf50a914b25ee4e98368d1d3814a8a47e03ba3b6e3b19f9940f7f61132d56f68"
+  },
+  {
+    "index": 24224,
+    "key": "TUT_PAUSE_VANITY_01",
+    "source_sha256": "0a5218803aa7f060c044b891f511e390d0f5f1abd5492035c6460a623484389b",
+    "candidate_sha256": "1ed886f9a84465328184a52bbb2490d02156c2d3225cd5930c7f8d71a199bcf9"
+  },
+  {
+    "index": 24225,
+    "key": "TUT_PAUSE_VANITY_02",
+    "source_sha256": "8ffa5d48162b6f942839a3eaf6205d91b4eaaa38aca250f17ee658d45f5901e4",
+    "candidate_sha256": "3bb971b1678d18c36d886d46b0986c379527c4071fd7502b89b92fc89512d585"
+  },
+  {
+    "index": 24226,
+    "key": "TUT_PAUSE_WEAPONS_REMAP",
+    "source_sha256": "044b9ea1f51ca21b2e52c0845b2da6b21be5996ce0824b40e0efae8f1c426b4f",
+    "candidate_sha256": "e2a65951284eb87188409582c79db9fcc7772520f03fba25d011b7ab063204e4"
+  },
+  {
+    "index": 24227,
+    "key": "TUT_PAUSE_WEAPONS_REMAP_DESC",
+    "source_sha256": "6a05d4c42ded89c6b55f7a65fe1e0be3f81bc85b4d34db0bb2fad6263fff39bd",
+    "candidate_sha256": "b97ce53de855c3711f78e40cfb848b7ee0751f48c876e57eea5f11f4e877d9ce"
+  },
+  {
+    "index": 24228,
+    "key": "TUT_PHANTOM_DASH",
+    "source_sha256": "5aaade2a3da1f57e8d94c22748125ea62d917ba05bd5142bb0df71eadc457b53",
+    "candidate_sha256": "1d78f67c0e131caa3d5ad3a8ad3861f2c3c86f35241252181fd371725296045a"
+  },
+  {
+    "index": 24229,
+    "key": "TUT_PHANTOM_DASH_AIR",
+    "source_sha256": "8c28a3e38b41aa33ebb3a99d03a362db44c9cdf83bff013d52268fb557bdfcb5",
+    "candidate_sha256": "685c40d1ffeb908d0fe421db4e207dc2ed2be6c88e0201e52d86d1465f42a6ae"
+  },
+  {
+    "index": 24230,
+    "key": "TUT_PHASE_DODGE",
+    "source_sha256": "39b8873453727b61916f3e5731e6949c7aa81b5315624d78e9a74ec3eaea9f8b",
+    "candidate_sha256": "728aaad6c0b10e34f07654931ec841acc4ffe44f5df87f2b23aedac9571666d8"
+  },
+  {
+    "index": 24231,
+    "key": "TUT_PING_NESTANDMAYNARD",
+    "source_sha256": "22ee21c30119d1cd873b7911aa1dada000c99a5188b8d1a666b1b356dd309500",
+    "candidate_sha256": "b015961f9f53746e77621cede1c08a0da65e0b9cb60fce7b8ca14caed4debcde"
+  },
+  {
+    "index": 24232,
+    "key": "TUT_PING_NESTS",
+    "source_sha256": "5f87a9e7d7e07280f819eb5327f2d860ecfee303e2c965b08893c3fd8015ccf9",
+    "candidate_sha256": "5107a4ab20d65833adc5f171457157e6b447696e79d6c0edd9e0236cee051066"
+  },
+  {
+    "index": 24233,
+    "key": "TUT_PINICON",
+    "source_sha256": "b8065c6fdd80c7644138534cf7c4ca5445a7e0de1c8dac03d65651b989f729d6",
+    "candidate_sha256": "7be2bb1b245d8f272207995c4922913b66336d4d7adb3a82a0f684a66450c0b6"
+  },
+  {
+    "index": 24234,
+    "key": "TUT_REMAP_WEAPONS",
+    "source_sha256": "5e44830e3986c0dd5f6f1d7c2c33f74f058a435cd365b9751590fd0be4c644ac",
+    "candidate_sha256": "7fd9b284607590554a3060c74cbdfc588c0832a06d2f2cc4e813398597e02e18"
+  },
+  {
+    "index": 24235,
+    "key": "TUT_RIDE_BRAKE",
+    "source_sha256": "3d8c544c12a6d326a6cf64173ff4041269df3f757ebe4b15778f75a56852da7d",
+    "candidate_sha256": "f66bc48fa945f22f62b994f12a8332c5bcf4a273ff3e314909e5eab26aea1c41"
+  },
+  {
+    "index": 24236,
+    "key": "TUT_RIDE_SHOOT",
+    "source_sha256": "901315e8bd3bbcee11335f38e0f3ef4c8be9c59014397170cee45499392308a3",
+    "candidate_sha256": "7c7397bcd3c8c53f0b3b9060176dc58a458b0bf7ab984ada4b331416b7cb8144"
+  },
+  {
+    "index": 24237,
+    "key": "TUT_RIDE_SPEEDBOOST",
+    "source_sha256": "eb24ec030aa3631f197ec80afb118411680d69412f06f8fea2b4ced4d1fb3077",
+    "candidate_sha256": "a5a944f294ffa237cadedc61940dcfee21e03e1d214c47d01eefcf93cda11993"
+  },
+  {
+    "index": 24238,
+    "key": "TUT_RIDE_SPEETLE_DISTURB",
+    "source_sha256": "2bc0574f55668460d448c2110ad26ca99a81a39329a7a75f4c97d50cceaa1205",
+    "candidate_sha256": "daf2e12f053af10436bf5c1a7ebf7a32fb12f88a9914ad1a7ab2b7315747c569"
+  },
+  {
+    "index": 24239,
+    "key": "TUT_RIDE_SPEETLE_JUMP_OFF",
+    "source_sha256": "9bdf1bcc245181e72ed10bfdad94bb27c4fdfbafab2e21f48bbcd46aacca8449",
+    "candidate_sha256": "339ed1d043e4ca0a5c5d4f4f46b29b45747e9dac960fbd57ecc9c67f541638f5"
+  },
+  {
+    "index": 24240,
+    "key": "TUT_RIDE_SPEETLE_RAMP",
+    "source_sha256": "c878d8cf6d235182f5a8c099dee0701cc6f1de81c2f789cbacbce15ef402ebd6",
+    "candidate_sha256": "c513e54a17e33c97d5379b8035cffe7ce98a07b4abface72bc71e15a9a27e8de"
+  },
+  {
+    "index": 24241,
+    "key": "TUT_RIDE_SPEETLE_SPEED",
+    "source_sha256": "053bae5f180383b661ace7e057f0c0765df71f8dbbc92c1f02fe89c82ca141d3",
+    "candidate_sha256": "d2d4162f308b1c5317991edd43a1ed652f2013f025b93daeb69509ea585af2f6"
+  },
+  {
+    "index": 24242,
+    "key": "TUT_RIDE_STEER_LOOK",
+    "source_sha256": "f360b8d42b12ba441ac177e6a10ea1223356f1a8bf0ad88607902d81e025cb0a",
+    "candidate_sha256": "f7864a096a8de9e53cb4e4835e8450d08bb4b0cdbc6a18ef2c3d88c2fb2c24d0"
+  },
+  {
+    "index": 24243,
+    "key": "TUT_RIDE_STEER_MOVE",
+    "source_sha256": "121fca6d91132e78ee597c7bbb69e6b2f12764314e4a4a3ac70014aef4778372",
+    "candidate_sha256": "8be91caace7b5b563bd82c6a89fd3d5c5a7ac9b9582329e7680ae64af7f07b27"
+  },
+  {
+    "index": 24244,
+    "key": "TUT_RIDE_TOSS_BOMB",
+    "source_sha256": "1059170bf28732952bde432246a68374bef798be794fbf61e03266745c30d740",
+    "candidate_sha256": "86b852514b917a988e54f18bb305a1e9dcf430af3d747c50cc1e8cceb421b6a6"
+  },
+  {
+    "index": 24245,
+    "key": "TUT_RIFTTETHER",
+    "source_sha256": "b48752b5e0259cd7ac74ac9d17ce225bd893967e993d422276d3d63b619e891b",
+    "candidate_sha256": "0cfa9ea33d151ec04e176e6868278234f9413d0a05537666884cf7f2b30ca36c"
+  },
+  {
+    "index": 24246,
+    "key": "TUT_RIFT_OPEN",
+    "source_sha256": "a18c299809ea67c9d5754484f1bd406cdc6c016fab9556d20dc83ef0cee0cccc",
+    "candidate_sha256": "0249a1c50ec37bce4c60a0095728ceb263969ff7a3e910dff035829204b480bf"
+  },
+  {
+    "index": 24247,
+    "key": "TUT_RIFT_TETHER",
+    "source_sha256": "f27a0ec8552c67c8efed95e7e9b0175f68e6fcc8e4d39862ecb0de1cd12cd7c5",
+    "candidate_sha256": "61e977cbf49ed37ebd826537e459272fad0df4e269cb2b0593adcc0c237768fe"
+  },
+  {
+    "index": 24248,
+    "key": "TUT_SHOOT",
+    "source_sha256": "9e7f630913d84af1047daeeca95eb9d903cf3297359d8f5182cd1e3815ed7c56",
+    "candidate_sha256": "48f423ece4309bf7813cf4be1c2f5edc43735f836b8807f57b02906781e3aa12"
+  },
+  {
+    "index": 24249,
+    "key": "TUT_SHOOT_BLARGSHIPS",
+    "source_sha256": "732c0f535bc18b970cd28f725e910ab7e12333fdefe0ef99cf1b0d4695b1b7bc",
+    "candidate_sha256": "480af8c58e1630b20903f187620093c829fbcd4c13f5ae22604807b105136b3b"
+  },
+  {
+    "index": 24250,
+    "key": "TUT_SLINGSHOT",
+    "source_sha256": "df7d99f5e0b6fc16dc4a6f67818f7a10695b619fefd609d9cb4c6632ac161084",
+    "candidate_sha256": "8241997e8536114740e39dad79d1f8f83088b38922155a0b977ead55825d00dd"
+  },
+  {
+    "index": 24251,
+    "key": "TUT_SPRINT",
+    "source_sha256": "997e7ed13862332e51b4a0ff9c88da075a26b25383857a031f2a8ce6afc81838",
+    "candidate_sha256": "4864aee8c8ac717637422caee4ccf72b9c8bddb3f62beb23db28d52601e9b752"
+  },
+  {
+    "index": 24252,
+    "key": "TUT_SPRINT_MKB",
+    "source_sha256": "1e4da64b3d034a707a66e65e9484eb3b1ff1dfa901551d12a489d7b38d975489",
+    "candidate_sha256": "97338f37db29f3772b7efa981e3b4d42b35933d2b39a175288b3866e6dcb7e0f"
+  },
+  {
+    "index": 24253,
+    "key": "TUT_SPYBOT_REVIEW",
+    "source_sha256": "b1ffcb07a72a675405bc68bb50f90fda57abad7cfca7e85a39e5c392a886b6ce",
+    "candidate_sha256": "26e3cfc79b8eb1ac0f03598a5b0bd0392a0274e7f96e6c01be04a63508a35a0b"
+  },
+  {
+    "index": 24254,
+    "key": "TUT_START_KARAOKE_CHALLENGE",
+    "source_sha256": "0a96e5e9cf1b78a195b16f66a3564e209697d68645bce0629c4b141043d9ca32",
+    "candidate_sha256": "a8c731f4ea2beb0523a385b90cf4ddfea7f28a285dd56fe3ee721107eef22000"
+  },
+  {
+    "index": 24255,
+    "key": "TUT_SWINGSHOT",
+    "source_sha256": "ec0ee9bc5161203ea6546ca0ecdb5d23c89b4e173558838e6ad8d75021fd66ba",
+    "candidate_sha256": "4147eb3ad073369a526df367f2418aff09f248263b00bd1095ffb647dbe52f2e"
+  },
+  {
+    "index": 24256,
+    "key": "TUT_TETHERSHOT",
+    "source_sha256": "778977f6fd7fd4a21969da4ae0e705aca223101cfb3c10fad7956cb8215c78c0",
+    "candidate_sha256": "b085b958f41e23216be28bc7a2f586932f681f7df487b2c00f32856c3a45f587"
+  },
+  {
+    "index": 24257,
+    "key": "TUT_TURBOBOOST",
+    "source_sha256": "2a583da71b142dced50a9eddb7639bebf94adcd2bea6bad3ea30d37f835beb28",
+    "candidate_sha256": "3c0f46aa360c204f3004eb914e9d650c3b0fa79e09cd3ac4e9050060a51d686e"
+  },
+  {
+    "index": 24258,
+    "key": "TUT_VENDOR_EXIT",
+    "source_sha256": "87a2d46655e7516fffec20d9f2e33167d6263dd11a9962784b479961aeeb7d62",
+    "candidate_sha256": "8306b150ea4b070fcb3e7f05275197aa72838b6145739a16fa862eef83300a7e"
+  },
+  {
+    "index": 24259,
+    "key": "TUT_VENDOR_PRESS_PURCHASE_CHAIN",
+    "source_sha256": "3e8db7a51900ee6ec416ffe4230ea0a89e25af2bc622f57259bd47713ffcfcd4",
+    "candidate_sha256": "99071bda58bd233d5130e676d50ecb2cdd6a5c88a28714c0432d276077f6a84e"
+  },
+  {
+    "index": 24260,
+    "key": "TUT_VENDOR_PRESS_PURCHASE_CHAIN_START",
+    "source_sha256": "346c9c2341865a69e7b5b97b00f74845717f52a595f6b587829daeed2f112c53",
+    "candidate_sha256": "5bb1216a40fdbda86cb42eeaba6fb7dababd3bbe7d1745975058ebafdc03f9b3"
+  },
+  {
+    "index": 24261,
+    "key": "TUT_VENDOR_PREVIEW_WEAPON",
+    "source_sha256": "3531150c4429354f335aac2ee876102264f7ee9eb57da6cd4ec1deb59ec681cb",
+    "candidate_sha256": "f0ca102ad00a3c462d36e2e51b8416f45382e60966d033f771f1a01b5c4e0379"
+  },
+  {
+    "index": 24262,
+    "key": "TUT_VENDOR_PURCHASE",
+    "source_sha256": "dbfc8e82fd4ce7e33ec36693a02480245ef1652ded3e6fac3bdb7e9dadbd3e85",
+    "candidate_sha256": "72995f28fa270c974a52a825647c7de3902577d8b9475ac840923714ea044791"
+  },
+  {
+    "index": 24263,
+    "key": "TUT_VENDOR_PURCHASE_COMPARE_PREVIEW",
+    "source_sha256": "2428a5fbb55e4ae57482fae2df601aecf92db4ae47a9472fde41057bc4fea43e",
+    "candidate_sha256": "86cce58cd7dcf502ed0d8cc0e775c6b9a7eaed4aad96355f56af23e547b453fd"
+  },
+  {
+    "index": 24264,
+    "key": "TUT_VENDOR_PURCHASE_SUMMARY",
+    "source_sha256": "e8cc982f53e5a5f708db42538a9144bf3ab5804f00826091b3dffbc79e3a26dd",
+    "candidate_sha256": "efda105e3059a8f6f9baf6d785983a6f0973b0f9ee6a23d5050961847bd4a074"
+  },
+  {
+    "index": 24265,
+    "key": "TUT_VENDOR_PURCHASE_UPGRADES",
+    "source_sha256": "d0550d601754892a7108ff731a11a53106bbbe1cf795edb5308bec551c47ecff",
+    "candidate_sha256": "48807e21f99f169027afc0c6736ed456561283a0f7036673e473ea24bf7ffe64"
+  },
+  {
+    "index": 24266,
+    "key": "TUT_VENDOR_PURCHASE_WEAPON",
+    "source_sha256": "b3e732d2b20d0b1960c12a6594e8aeddda425b146cdd60a9a799345b14b2cc9f",
+    "candidate_sha256": "ec8f59522ef5207f8afc082296ae40ceb5f49817e5ca47e2c79ecbc815d20109"
+  },
+  {
+    "index": 24267,
+    "key": "TUT_VENDOR_PURCHASE_WELCOME",
+    "source_sha256": "47d1eab0e3e24c9ada63586e8dd0d318b3ee184a9b7c412478f713d376aec50c",
+    "candidate_sha256": "27fb4a8ff909fa1c5f669eb61b1a23a0fd89e9ecbf60d9131adc298bfea75438"
+  },
+  {
+    "index": 24268,
+    "key": "TUT_VENDOR_SELECT_REMAINING_CELLS",
+    "source_sha256": "a38a2d922b497c45304b4173ab041a815223025a5593ad939b55806c2883161d",
+    "candidate_sha256": "5275614bbd9242aa353e6ab91185fee979c2ab31337bd8ef4f03c0eca310c399"
+  },
+  {
+    "index": 24269,
+    "key": "TUT_VENDOR_TOGGLE_WEAPONS",
+    "source_sha256": "57b4c78340eb30dceb22cf8252baefd13929373e2e30c0dc9f74cfdf5fba8908",
+    "candidate_sha256": "e3e18ed00c074ec3c04a81f080629cdda97ace833fcad02770101dc6ab90a42c"
+  },
+  {
+    "index": 24270,
+    "key": "TUT_VENDOR_UPGRADE",
+    "source_sha256": "1869c3e8f8130e712f0304d44b01c2e9ee251d223dd39adb86f9302439a20684",
+    "candidate_sha256": "633bdde9d9c7884a47a0e670656d2f9fcc49996af7af108badd93d810e4677a8"
+  },
+  {
+    "index": 24271,
+    "key": "TUT_VENDOR_UPGRADE_CELL_INFO",
+    "source_sha256": "0f3f7d5489806d0a13c657a77efa06c34d09398ba67ab85a906b6b80a1a40d61",
+    "candidate_sha256": "d40435f35f3ef860bafe9034dac4ce88da3a4315c0becdae89fa66fd6d117ea3"
+  },
+  {
+    "index": 24272,
+    "key": "TUT_VENDOR_UPGRADE_CHAIN_PURCHASED",
+    "source_sha256": "b4e9542b48bd81f3de695fd21f7aa371712e7fa362299d6763b8b4bca375dca0",
+    "candidate_sha256": "30169c6cf9e2af0a7c9475091414f819c99e5a1b5661bd7530c93411f58dd120"
+  },
+  {
+    "index": 24273,
+    "key": "TUT_VENDOR_UPGRADE_CLUSTER_INFO",
+    "source_sha256": "c5461e120888176e381cdae82e907b4795bb6fd64d98664d8eb5b0f1a612737c",
+    "candidate_sha256": "070bec63ee54e31cd6648f7a5c7db90cf673527dfba4281ed6d0173ad92c5946"
+  },
+  {
+    "index": 24274,
+    "key": "TUT_VENDOR_UPGRADE_CLUSTER_UNLOCK",
+    "source_sha256": "674e459dea066720306175634d0aa89f06a426dff3624776772f211417473aed",
+    "candidate_sha256": "c9fb101135275d7f122ffd42906ea0ff0093b598acb7b206772a3ebb05750593"
+  },
+  {
+    "index": 24275,
+    "key": "TUT_VENDOR_UPGRADE_COMPLETE",
+    "source_sha256": "05dc3293288c0086d984af5c92c81c1ef36cdfc5f6065077d65c64610c6f98e6",
+    "candidate_sha256": "7c783345000fe97f16f131c50bc52d061bae44569eef4e0759d40b757876830e"
+  },
+  {
+    "index": 24276,
+    "key": "TUT_VENDOR_UPGRADE_HIGHLIGHT_CELLS",
+    "source_sha256": "67704133f92aa6872b6cc832d7cf748456c56f9482ffe2d3b7409ca3916bbbc1",
+    "candidate_sha256": "0242957f4de5f32888fbfd423717094f942c3ab342a9f602befc44997a5b2ce6"
+  },
+  {
+    "index": 24277,
+    "key": "TUT_VENDOR_UPGRADE_HIGHLIGHT_CLUSTER",
+    "source_sha256": "1f5fd1f5c32c8607eaf0467b33fb2db5760ad881a34e2cd643d6b80b7e71ad36",
+    "candidate_sha256": "b23fd027b88af98d36992c1352381d662cbbedeada1965f20a378fc7ecfccb5e"
+  },
+  {
+    "index": 24278,
+    "key": "TUT_VENDOR_UPGRADE_INFO",
+    "source_sha256": "7e47bc147f5479e9bd95b3789b0883c3a505cef844d448a06dfa053f5376ef0a",
+    "candidate_sha256": "d74d60eee235f622ea0e2c6374ca606f38850fdbafc6e863e7e811f6c4b29533"
+  },
+  {
+    "index": 24279,
+    "key": "TUT_VENDOR_UPGRADE_OWNED_WEAPON",
+    "source_sha256": "8a9a1f9e0bd1a5aa3aa77746aa4c93345d77104a321670fa0d8b0367f9713dc8",
+    "candidate_sha256": "91ed42034e7f71dc97662067847b93c55ba09693d72163ef0c39670bd417eb5b"
+  },
+  {
+    "index": 24280,
+    "key": "TUT_VENDOR_UPGRADE_PROMPT",
+    "source_sha256": "985337ab28a8b6776955c5215a9207d055a67672e650c2c875a4b629de3986d8",
+    "candidate_sha256": "7b85efbd2fd1e6c21b681418dc745ddd43eb590b8cb96daa061cb3bd24bcdc37"
+  },
+  {
+    "index": 24281,
+    "key": "TUT_VENDOR_UPGRADE_PURCHASE",
+    "source_sha256": "f1430d41a7cc08b6a769e9bcc7cf8486d56a7db5f0a96359ad4914694e61d997",
+    "candidate_sha256": "6c8018fdd9280aecea3c5fd33eabb3a954c4eeee15c2527e552d6fed1a020e8c"
+  },
+  {
+    "index": 24282,
+    "key": "TUT_VENDOR_UPGRADE_PURCHASE_MKB",
+    "source_sha256": "cee8c46fe38ad401bba94095cddca08b5cec1c2035bce4f734fed7005a1865f4",
+    "candidate_sha256": "56f1e3b2b7bff82d6eb8b442f6f429f4343b2cd2d34bd4eb26615dea5ccec40b"
+  },
+  {
+    "index": 24283,
+    "key": "TUT_VENDOR_UPGRADE_SWITCH_TAB",
+    "source_sha256": "25b8711c34ca261d417f799661dacbae50050d3f0bce6e3ba758902561a8d2db",
+    "candidate_sha256": "d036f1d262a646b43a0f1a513bb7629fa0b746fd5762bd0bfc18cbf7dfe275d0"
+  },
+  {
+    "index": 24284,
+    "key": "TUT_VENDOR_UPGRADE_SWITCH_TAB_MKB",
+    "source_sha256": "f92beabced9def684a9d749328984a3bdf1077da3d4a333c1e7f3994a3cad5b1",
+    "candidate_sha256": "7353d8f7e6f2669b84e52279527173c071a15a878305b264bab86e1f7bb0cb6d"
+  },
+  {
+    "index": 24285,
+    "key": "TUT_VENDOR_UPGRADE_TUTORIALIZER",
+    "source_sha256": "8cf52819314762d9878c1fcb0b359fb8ebbf3432d7c200291ecc517c90cd5d99",
+    "candidate_sha256": "2919e664e48d0109068eb57493ba41072b998abc931d416d36ba09203f1136c9"
+  },
+  {
+    "index": 24286,
+    "key": "TUT_VENDOR_UPGRADE_TUTORIALIZER_MKB",
+    "source_sha256": "c2b6ab1a3cf03ebced7470ea624814a9f9d401d265978955dd4b818d738d808c",
+    "candidate_sha256": "99a1c4b9436b76e614e624b0ce6702440f73490960362bb6447096ce0ff12f76"
+  },
+  {
+    "index": 24287,
+    "key": "TUT_VENDOR_WEAPON_DESC",
+    "source_sha256": "2e744e19e611cb1a0356c4179815515ed986accb71b7b42ca6184c7aeabfccea",
+    "candidate_sha256": "ee913026b0d38dcc75706c7914ef779f8f2c7c1679895440dc78cc49d60fb352"
+  },
+  {
+    "index": 24288,
+    "key": "TUT_WALLJUMP",
+    "source_sha256": "73a924c9d9863799104e80a6db23bcc388439db15792eae77ca86602876f12af",
+    "candidate_sha256": "f8f0e6f47f4895b4ff979c0166d7ada67909a3640559974198fd54d102a2cdf8"
+  },
+  {
+    "index": 24289,
+    "key": "TUT_WALLRUN",
+    "source_sha256": "a0d3747fda69fb3a2f1b1e446cc05c659e71caf7eafc23e0d1e6c87e5110a166",
+    "candidate_sha256": "d3e8c57266b54bc34c2c435272a07e8b7637c81e212e557107e65cd37b2dc2a5"
+  },
+  {
+    "index": 24290,
+    "key": "TUT_WEAPONSWAP",
+    "source_sha256": "c246c629677b7166b4e0b4db0d85ca18ca196298f60f4b782483d474ecc11384",
+    "candidate_sha256": "746588303b3275b59d379c26f75e3d860fb2df66cf619cab1f9427b7c2a150d4"
+  },
+  {
+    "index": 24291,
+    "key": "TUT_WEAPONSWAP_QUICK",
+    "source_sha256": "03c1522cfe7b450000c3da16e44e57158f9d6d68d5db7e4d4629bc930a4222fd",
+    "candidate_sha256": "1536ff209db4cc87af78e426ccd084b5558577b5f307864af8ce7d4fbf1f0c30"
+  },
+  {
+    "index": 24292,
+    "key": "TUT_WEAPONSWAP_TITLE",
+    "source_sha256": "5518cfcc51a8aca09f4fa423313d892ae8c1852745ae320f4230fc180ca1602e",
+    "candidate_sha256": "e8206462e91caa910ced7c7b9076c01c10edbefc41b223ca5e45ef26ca14acf9"
+  },
+  {
+    "index": 24293,
+    "key": "TUT_WEAPON_REMAP",
+    "source_sha256": "8171e98c220456c4aff99e7a7c4a3c54052f85f81b63f594144f46e2ad8d4aae",
+    "candidate_sha256": "c0f5446ea2631952a5b77897d21d39a22dbeef20adf8804a1cea7f33723cc58d"
+  },
+  {
+    "index": 24294,
+    "key": "TUT_WPN_BOMB_TOSS",
+    "source_sha256": "9f7e6058213313df81f7341abeffada530581a4c91ee4ce6433b4c46b1a6ed51",
+    "candidate_sha256": "198f33b971337e36ec66351c82e70101970dd61c3d4c32ad18934794ccc5d0a2"
+  },
+  {
+    "index": 24295,
+    "key": "TUT_WRENCH_SLAM",
+    "source_sha256": "509fba8b7c0d9d7a960fba47b7be1d22428b1d1d92d09eb1d7ddac43ab041d1e",
+    "candidate_sha256": "8515903a15e3fc99f4d168dd92dbee1f68b0bcf0b29940c1d8b7dd414593b164"
+  },
+  {
+    "index": 24296,
+    "key": "TUT_WRENCH_THROW",
+    "source_sha256": "7043233cfaa7dac022a862d7554c0320f17917ca9be948f662aaf83f6f3878bb",
+    "candidate_sha256": "c8307cce2eaa8fd24832bef3718c3925b53666e8255471f80ba5953f8ae14cda"
+  },
+  {
+    "index": 24297,
+    "key": "TUT_WRENCH_THROW_PRESS",
+    "source_sha256": "987fca58096cdc143a5255b09dee6a9b9d7cec0a974065415bae00f71c6c60b4",
+    "candidate_sha256": "3eb18bd68fa7592b6100296ac4b2d9cefd60844584bb8418fcf4f81b7a6f3dba"
+  },
+  {
+    "index": 24298,
+    "key": "TUT_ZUPRSTONE_LANDINGPADS",
+    "source_sha256": "0359e83216c3f84e9905734ceb480c76ecf21c45311472e27c85bb7acf36efa1",
+    "candidate_sha256": "28869ce3d895f294a55154a5ce9292fb1f110bb249e3a859538b3de4cb3aaf5f"
+  },
+  {
+    "index": 24299,
+    "key": "TUT_ZURPSTONE_HUNT",
+    "source_sha256": "012cdb01dc7e6ba7cd58f2f55d621825ce2f42333602f096186a9d851cbb7cac",
+    "candidate_sha256": "1a39f08d51eb45e0ba7295e127636f99ef725bb65e72882c2d7b689dba8682e4"
+  }
+]

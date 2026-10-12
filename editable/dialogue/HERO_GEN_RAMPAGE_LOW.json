@@ -7,13 +7,21 @@
     "scene_code": "HERO_GEN_RAMPAGE_LOW",
     "arabic_current": "<ts=&quot;0.045;3.776&quot;>استمري فيما تفعلين يا<br>جليتش!",
     "arabic_edit": "<ts=&quot;0.045;3.776&quot;>استمري فيما تفعلين يا جليتش!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "b37f7cf0c618f5b7364eab3e8a18dff661bc1db5a4b517eb1f3b02ee6436d2b7",
+      "candidate_sha256": "3cb8d1048bc0883e8f3101e8d2b529681b055f84a67ddfac40c2b9d498f6294d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8403,
@@ -23,12 +31,20 @@
     "scene_code": "HERO_GEN_RAMPAGE_LOW",
     "arabic_current": "<ts=&quot;0.046;2.752&quot;>واو، كان ذلك عددا هائلا!",
     "arabic_edit": "<ts=&quot;0.046;2.752&quot;>واو، كان ذلك عددا هائلا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "5b4de1a57e989795f147cc5d73fbeb1d3360170dc2cfa082b76338b28665f985",
+      "candidate_sha256": "a93a9e59b751a10438e09ac0df670eb73acb9c77fbac81ae1d915fd705c7ee37",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 8404,
@@ -38,11 +54,19 @@
     "scene_code": "HERO_GEN_RAMPAGE_LOW",
     "arabic_current": "<ts=&quot;0.046;2.665&quot;>سئمت هذه الفيروسات!",
     "arabic_edit": "<ts=&quot;0.046;2.665&quot;>سئمت هذه الفيروسات!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-011",
+      "source_sha256": "4dd1c7dbcc8b51de5b61c2d3a19fca4aaa3262a50c366aac853fe855276fc170",
+      "candidate_sha256": "7489d3bdbb6d5b0ab2b69945bc19f3e272655a1784072c100840683f12d2b8ec",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -6,14 +6,22 @@
     "speaker_code": "CLANK",
     "scene_code": "VSPLAY_VERTICALSLICE2",
     "arabic_current": "<ts=&quot;0;2.189&quot;>على أي حال، ليس هذا طوف<br>موكب!",
-    "arabic_edit": "<ts=&quot;0;2.189&quot;>على أي حال، ليس هذا طوف موكب!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.189&quot;>إنها بالتأكيد ليست مركبة موكب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "b1695b294db049caa8a01a0736ed9c303686f93765dde2963cd57e2ea8bb1160",
+      "candidate_sha256": "a1f325d451e309747d4727c6f86fc2e4a917c8ccaf33a8da28e90d711364222e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20273,
@@ -22,12 +30,20 @@
     "speaker_code": "RATC",
     "scene_code": "VSPLAY_VERTICALSLICE2",
     "arabic_current": "<ts=&quot;0;0.41&quot;>مجددا!<ts=&quot;0.88;1.27&quot;>،مهلا<ts=&quot;1.789;3.249&quot;>سارجاسو؟ —هل هذه!",
-    "arabic_edit": "<ts=&quot;0;0.41&quot;>مجددا!<ts=&quot;0.88;1.27&quot;>،مهلا<ts=&quot;1.789;3.249&quot;>سارجاسو؟ —هل هذه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.41&quot;>مجددًا!<ts=&quot;0.88;1.27&quot;>مهلًا،<ts=&quot;1.789;3.249&quot;>أهذه... سارجاسو؟!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "9ef354a0add7429949dc9c4846c269547ebc0c9e1085820e6168ab83e17cecc8",
+      "candidate_sha256": "cabd3bdd03e26082d434142d94cd36627a7f060101684d06c565f65f33e3cf39",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

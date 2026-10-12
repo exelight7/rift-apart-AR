@@ -7,11 +7,19 @@
     "scene_code": "",
     "arabic_current": "لغة النصوص",
     "arabic_edit": "لغة النصوص",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-012",
+      "source_sha256": "6f1ff73cbc7ad67296ee2bf803bec6e3daf154207156180228595ecb11a32e77",
+      "candidate_sha256": "e04c000423192d87dbd90bf8d9eead5c8982598faaf85ac0ded5bc8ac84263fb",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

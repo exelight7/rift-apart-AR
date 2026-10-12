@@ -7,12 +7,20 @@
     "scene_code": "",
     "arabic_current": "نسبة الأبعاد",
     "arabic_edit": "نسبة الأبعاد",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "556f85efa2beec5213eaaaa22951c73e4c0b499c9e9af875bd5c88a2f0d84583",
+      "candidate_sha256": "9c69b085550d4d8a520607658bc4463dbc346f9ab9ebd7bb96328c7b91e66702",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16063,
@@ -23,12 +31,20 @@
     "arabic_current": "يغير نسبة أبعاد اللعبة<br>يتيح هذا محاكاة عرض .الحالية<br>أعرض أو أضيق للعبة مقارنة<br>بنسبة الأبعاد الأصلية<br>.لشاشتك",
     "arabic_edit": "يضبط نسبة أبعاد الصورة لتناسب<br>العرض المطلوب مقارنة بنسبة أبعاد<br>شاشتك.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "df820bcf752ef4a9699c6bc1d3c5fd991086c27ec3b1d49e03f945f9d3eed007",
+      "candidate_sha256": "bb4441c0c594617675e9157089b17daf5163fd81c7ab62093b43933dd016ddcd",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16064,
@@ -38,12 +54,20 @@
     "scene_code": "",
     "arabic_current": "نسبة الأبعاد",
     "arabic_edit": "نسبة الأبعاد",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "767e5205563e67a26889ea900d9ba322a937811e78752e8f9c85d12e009a03ac",
+      "candidate_sha256": "9c69b085550d4d8a520607658bc4463dbc346f9ab9ebd7bb96328c7b91e66702",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16065,
@@ -53,12 +77,20 @@
     "scene_code": "",
     "arabic_current": "تلقائي",
     "arabic_edit": "تلقائي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "0286249762f7c94349cdc0ba3bb2255baf9a80036e2193ead1d77696f888582f",
+      "candidate_sha256": "c190381bd30c4b065f9f7d0b4eea449210d084e9c2dc495f6a8080ed998dbec0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16066,
@@ -68,12 +100,20 @@
     "scene_code": "",
     "arabic_current": "السطوع",
     "arabic_edit": "السطوع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "ec811d30a89ce96d1c7555ffaede78b188fedb1d283adf7cdf55a4edae6697a7",
+      "candidate_sha256": "1961442f7d5c9d674c2fb9a915383c42fba801ce4c52a3ecc917208e9b797154",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16067,
@@ -84,12 +124,20 @@
     "arabic_current": "هي 0 القيمة .اضبط السطوع<br>هي الأكثر 100 الأغمق والقيمة<br>.سطوعا",
     "arabic_edit": "اضبط سطوع الصورة. القيمة 0 هي<br>الأغمق، والقيمة 100 هي الأكثر<br>سطوعًا.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "2d3ae0a4792d75352a2d4911622b8f96b05cab82ecd3476052de992c27dfe936",
+      "candidate_sha256": "4a1538a3c2de8df9724e3ef78eddc1d62c37d6598685def7cb1e3fe79ff1f3a4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16068,
@@ -99,12 +147,20 @@
     "scene_code": "",
     "arabic_current": "السطوع",
     "arabic_edit": "السطوع",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "67298f78a4f0de9ead1317c9cae3766c55e509458c353f1200d4eec6109fbc06",
+      "candidate_sha256": "1961442f7d5c9d674c2fb9a915383c42fba801ce4c52a3ecc917208e9b797154",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16069,
@@ -114,12 +170,20 @@
     "scene_code": "",
     "arabic_current": "التباين",
     "arabic_edit": "التباين",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "08795ba031bcd121e4e1ce47c1c2828a796ffbf6bb4e93daeee3937017bc7a04",
+      "candidate_sha256": "3e960d4a706ba6781dfa3fdec896b9c4ee5d3ff31eec580bad2415aab0196b95",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16070,
@@ -130,12 +194,20 @@
     "arabic_current": ".اضبط قوة تباين الصورة<br>هي الأدنى والقيمة 0 القيمة<br>.هي الأعلى 10",
     "arabic_edit": "اضبط تباين الصورة. القيمة 0 هي<br>الأدنى، والقيمة 10 هي الأعلى.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "142aee6abd7d0162c01ad0f3b89c3e5df69063dc9f455a6531506849442f47aa",
+      "candidate_sha256": "9a4cabf26eca069d682d2eddc783782b01279319c8927f863d4c18d9eb225bc5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16071,
@@ -145,12 +217,20 @@
     "scene_code": "",
     "arabic_current": "التباين",
     "arabic_edit": "التباين",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "116f7fcc2aa41f82fae7efe5261320715241b39ae807d68ba4a68c39359d95d6",
+      "candidate_sha256": "3e960d4a706ba6781dfa3fdec896b9c4ee5d3ff31eec580bad2415aab0196b95",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16072,
@@ -160,12 +240,20 @@
     "scene_code": "",
     "arabic_current": "دقة العرض",
     "arabic_edit": "دقة العرض",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "433ae8f83f56006990c3fd1ac82b822cd80e49f4a896b6dd38b22a0ace0d6324",
+      "candidate_sha256": "f1b11158bd9c2abd6c4bc87dbf5ffa86e4ac6883331bca6bd930a933aaf32013",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16073,
@@ -176,12 +264,20 @@
     "arabic_current": ".يغير دقة عرض اللعبة",
     "arabic_edit": "يحدد دقة عرض اللعبة.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "9e1bcde6f680e1d21df08f3e4e4d007730f9e30abf700e44f7106b1b73061c35",
+      "candidate_sha256": "d98baf9e23b9345130aaf91a8b0cfc8dcb311c067bc1b7193e0e7d2a32f363c9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16074,
@@ -191,12 +287,20 @@
     "scene_code": "",
     "arabic_current": "دقة العرض",
     "arabic_edit": "دقة العرض",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "baa47ee8f2e24ba3ae710f701334587557420603f5c8b33978175f68e2d46214",
+      "candidate_sha256": "f1b11158bd9c2abd6c4bc87dbf5ffa86e4ac6883331bca6bd930a933aaf32013",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16075,
@@ -205,13 +309,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "دي إل إيه إيه إس",
-    "arabic_edit": "NVIDIA DLSS",
+    "arabic_edit": "DLSS",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "0a50d9b5b905f70e709d5c7a8bb3a308bbd15c16f19fdd8b9632b8f49286064e",
+      "candidate_sha256": "0a50d9b5b905f70e709d5c7a8bb3a308bbd15c16f19fdd8b9632b8f49286064e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16076,
@@ -222,11 +334,19 @@
     "arabic_current": "توليد إطارات دي إل إيه إيه إس",
     "arabic_edit": "DLSS Frame Generation",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "bec68daffd29218a9f8b0a94a1b326f4ac1349829378179fc3045f834895d552",
+      "candidate_sha256": "bec68daffd29218a9f8b0a94a1b326f4ac1349829378179fc3045f834895d552",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16077,
@@ -237,11 +357,19 @@
     "arabic_current": "يستخدم توليد إطارات دي إل<br>إيه إيه إس تقنية الذكاء<br>الاصطناعي لرسم إطارات<br>إضافية من دون الإضرار بجودة<br>.الصورة أو سرعة الاستجابة<br>وتتطلب هذه الميزة بطاقة<br>رسوميات من سلسلة جي<br>40. فورس آر تي إكس",
     "arabic_edit": "تستخدم DLSS Frame Generation<br>الذكاء الاصطناعي لتوليد إطارات<br>إضافية مع الحفاظ على جودة الصورة<br>والاستجابة. تتطلب بطاقة GeForce<br>RTX 40 متوافقة.",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "281f5d50c068d81629342d13d7f054445c5e6bfc9c5ad67a95acdd491ffc3beb",
+      "candidate_sha256": "f33820c8dbb179698555dc515fac9e44af0f744643743dae4ea95c95b345eb3d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16078,
@@ -252,11 +380,19 @@
     "arabic_current": "توليد إطارات دي إل إيه إيه إس",
     "arabic_edit": "DLSS Frame Generation",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "f734c7f0fd374aa9ecf4d8ab1b35515e54ac119d1342dcc1a5142b16598e1cac",
+      "candidate_sha256": "bec68daffd29218a9f8b0a94a1b326f4ac1349829378179fc3045f834895d552",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16079,
@@ -266,12 +402,20 @@
     "scene_code": "",
     "arabic_current": "متوازن",
     "arabic_edit": "متوازن",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "5386ea5db81c8579a363438895a447d9580cbca1bdecdad43f2839af6d6fbf5c",
+      "candidate_sha256": "707e82d6d92aa4a6df654970bbd61465ec9047f1786b891a692c7c067c25d891",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16080,
@@ -281,12 +425,20 @@
     "scene_code": "",
     "arabic_current": "متوازن",
     "arabic_edit": "متوازن",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "0130027a6405fe2cb3f188e874d497cc6946aea1a9cb097eb94e2481ab03a1a8",
+      "candidate_sha256": "707e82d6d92aa4a6df654970bbd61465ec9047f1786b891a692c7c067c25d891",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16081,
@@ -296,12 +448,20 @@
     "scene_code": "",
     "arabic_current": "ديناميكي",
     "arabic_edit": "ديناميكي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "b6ee7b3e8d9c49d8599a79b0d17a3524522c29584e79d66fbf772446ab6ba10d",
+      "candidate_sha256": "588c6f23461812d07fbdfe93d5e5597cd617b91353b29f69380f2cf0d8f036c7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16082,
@@ -311,12 +471,20 @@
     "scene_code": "",
     "arabic_current": "ديناميكي",
     "arabic_edit": "ديناميكي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "ef1070bb6b2ab5c99ae9bec047044bb332efb3ddc7fb603ce6d35fc1e7f1c516",
+      "candidate_sha256": "588c6f23461812d07fbdfe93d5e5597cd617b91353b29f69380f2cf0d8f036c7",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16083,
@@ -326,12 +494,20 @@
     "scene_code": "",
     "arabic_current": "الأداء",
     "arabic_edit": "الأداء",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "442aded87a55aa8c8f7d5ff0c30228150d4b1cb8756e4be138d615ca4708fc26",
+      "candidate_sha256": "1264c71a3c12607cf7d78b5cce65285f2582461c8b06f0d61e7f86cfc9cd9b6b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16084,
@@ -341,12 +517,20 @@
     "scene_code": "",
     "arabic_current": "الأداء",
     "arabic_edit": "الأداء",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "d5e2b3962e0b2fa505eeb6b7b954b7867ff7c13a6210a5a2690ca7373cb38612",
+      "candidate_sha256": "1264c71a3c12607cf7d78b5cce65285f2582461c8b06f0d61e7f86cfc9cd9b6b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16085,
@@ -356,12 +540,20 @@
     "scene_code": "",
     "arabic_current": "الجودة",
     "arabic_edit": "الجودة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "1b2c08a8733d7ff1d06e726107a977124929c975066a3a606d19055dfd4e3dbd",
+      "candidate_sha256": "884222efb729780eb7860a80398c145ae4fa0f65f8192258344f1cc553981adc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16086,
@@ -371,12 +563,20 @@
     "scene_code": "",
     "arabic_current": "الجودة",
     "arabic_edit": "الجودة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "272776a0df04c4c5e20f12bfd4b6d2bca6d00cc852263f607351eee0b7d09eea",
+      "candidate_sha256": "884222efb729780eb7860a80398c145ae4fa0f65f8192258344f1cc553981adc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16087,
@@ -386,12 +586,20 @@
     "scene_code": "",
     "arabic_current": "الأداء الفائق",
     "arabic_edit": "الأداء الفائق",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "a6b707e6418be8cff0a50fd1e0aca81e487129e4da16bfa9aaef5814412b257a",
+      "candidate_sha256": "49fd29bd04c7c6fabdd9e99693023190881a7aa7436848a9ede7d0a5e62f3c49",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16088,
@@ -401,12 +609,20 @@
     "scene_code": "",
     "arabic_current": "الأداء الفائق",
     "arabic_edit": "الأداء الفائق",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "67eceb733629ce426aadcece9570fe5e6fe9421f5c927de7c5fa4df5fd3ad74c",
+      "candidate_sha256": "49fd29bd04c7c6fabdd9e99693023190881a7aa7436848a9ede7d0a5e62f3c49",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16089,
@@ -416,12 +632,20 @@
     "scene_code": "",
     "arabic_current": "الجودة الفائقة",
     "arabic_edit": "الجودة الفائقة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "c51ba4f1de00f431f933aa84c16fc3fcae518549488ca066a32a2acfbf49a56f",
+      "candidate_sha256": "973c850af41c3d04101156433f0c69a6e15ff88dccf691091d880515b566f24a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16090,
@@ -431,12 +655,20 @@
     "scene_code": "",
     "arabic_current": "الجودة الفائقة بلس",
     "arabic_edit": "الجودة الفائقة بلس",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "c78df08a7a997debd43b5b12697041b548aeb78c55959be980ecd70a646136a9",
+      "candidate_sha256": "c642f5a8d533a640e8b68bd87a18e77d5999a329141834076db90dcfab822ce4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16091,
@@ -446,12 +678,20 @@
     "scene_code": "",
     "arabic_current": "الجودة الفائقة بلس",
     "arabic_edit": "الجودة الفائقة بلس",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "db90ae8328d38a36f7807146ff8d7e536b686c15e4ac123a43da5746410c9c11",
+      "candidate_sha256": "c642f5a8d533a640e8b68bd87a18e77d5999a329141834076db90dcfab822ce4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16092,
@@ -461,12 +701,20 @@
     "scene_code": "",
     "arabic_current": "الجودة الفائقة",
     "arabic_edit": "الجودة الفائقة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "4662359772f89d4e5b51972f8859ee2770871487f3e7c11be7b58311e79a9cfa",
+      "candidate_sha256": "973c850af41c3d04101156433f0c69a6e15ff88dccf691091d880515b566f24a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16093,
@@ -477,12 +725,20 @@
     "arabic_current": "التحجيم الديناميكي للدقة",
     "arabic_edit": "الدقة الديناميكية",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "0a22af6065307f0e6bb47730260c67b827fee0651c2f8cf912d67a78ae2f6b35",
+      "candidate_sha256": "60e93d3437398dab8aafc42d8e36904c20d167788d80f3ecd760b07bdba26b3e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16094,
@@ -493,13 +749,21 @@
     "arabic_current": "يمكن استخدامه لتحديد معدل<br>الإطارات المستهدف الذي<br>تسعى اللعبة إلى بلوغه، مع<br>ضبط دقة الرسم الداخلية<br>تلقائيا لتحقيق أفضل<br>جودة بصرية مع الحفاظ على<br>ولا يشمل معدل .معدل الإطارات<br>الإطارات المستهدف أي إطارات<br>تنتجها تقنية توليد<br>.الإطارات",
     "arabic_edit": "حدد معدل الإطارات المستهدف. تضبط<br>اللعبة دقة العرض الداخلية تلقائيًا<br>للحفاظ على هذا المعدل بأفضل جودة<br>ممكنة. لا تُحتسب الإطارات المولدة<br>ضمن المعدل المستهدف.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "dad2a92a36721da2a35aed2c17f63eb208351d8eec6827e428756d530d4f8a53",
+      "candidate_sha256": "5497037c7e5d8d04fe2ab73078622bee607265759de3d15ff2352d622b8bf31d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16095,
@@ -510,12 +774,20 @@
     "arabic_current": "التحجيم الديناميكي للدقة",
     "arabic_edit": "الدقة الديناميكية",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "78270449e8496a0c8030ad42b78848b930a63a96a7ca8dec9fd35a7505a7a8a2",
+      "candidate_sha256": "60e93d3437398dab8aafc42d8e36904c20d167788d80f3ecd760b07bdba26b3e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16096,
@@ -526,12 +798,20 @@
     "arabic_current": "ملء الشاشة الحصري",
     "arabic_edit": "ملء الشاشة الحصري",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "ec3171fbb9d9e720c0c1e27efe0e6b5826b4e75cc3eae4e7ea917c2a94d2696c",
+      "candidate_sha256": "f3ce2edbd0c6b50cc7bdc2085ecccd0953d57b984a38bb31ebbda88b9ebaae54",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16097,
@@ -542,12 +822,20 @@
     "arabic_current": "ملء الشاشة الحصري",
     "arabic_edit": "ملء الشاشة الحصري",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "c6b75b1375da9b66df68e9107821eb1942e3211928dcfbac66abe3c9205ce454",
+      "candidate_sha256": "f3ce2edbd0c6b50cc7bdc2085ecccd0953d57b984a38bb31ebbda88b9ebaae54",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16098,
@@ -556,13 +844,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "توليد الإطارات",
-    "arabic_edit": "توليد الإطارات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "Frame Generation",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "4a5d7f645dab89a8057382beaad9428da61f36623471c048b7bcd94cd8b70e36",
+      "candidate_sha256": "4a5d7f645dab89a8057382beaad9428da61f36623471c048b7bcd94cd8b70e36",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16099,
@@ -573,11 +869,19 @@
     "arabic_current": "يولد توليد الإطارات إطارات<br>إضافية بالاستعانة<br>.ببيانات الإطارات السابقة<br>ويتطلب توليد إطارات دي إل<br>إس إس بطاقة رسوميات من<br>سلسلة جي فورس آر تي إكس<br>40.",
     "arabic_edit": "يولد Frame Generation إطارات<br>إضافية اعتمادًا على بيانات<br>الإطارات السابقة. تتطلب DLSS Frame<br>Generation بطاقة GeForce RTX 40<br>متوافقة.",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "74a2f7d6cd44bcc81f882f65c2afe2879556d137d2cb4751dfaa4fe7c349cdb3",
+      "candidate_sha256": "20c55116574fe38faafa00252fc053436139b050b31f05040fdc2e117ae5798d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16100,
@@ -586,13 +890,21 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "توليد الإطارات",
-    "arabic_edit": "توليد الإطارات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "Frame Generation",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "acc4ef3acd169d42a2b8354025fcddbc20a62ebffc78c8846ef89fba013a581a",
+      "candidate_sha256": "4a5d7f645dab89a8057382beaad9428da61f36623471c048b7bcd94cd8b70e36",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16101,
@@ -603,12 +915,20 @@
     "arabic_current": "3 إيه إم دي إف إس آر",
     "arabic_edit": "AMD FSR 3",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "de3b8f32cd59851a901c974b0eef28e44cdb3f413e3ff54f190af8c0da361009",
+      "candidate_sha256": "de3b8f32cd59851a901c974b0eef28e44cdb3f413e3ff54f190af8c0da361009",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16102,
@@ -619,12 +939,20 @@
     "arabic_current": "بمعالجة 3 إيه إم دي إف إس آر<br>التسنين الأصلية",
     "arabic_edit": "AMD FSR 3 Native AA",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "5609c4cfc92b3132ae52df523a244e1714340f99185c25079172c2337c0908f5",
+      "candidate_sha256": "5609c4cfc92b3132ae52df523a244e1714340f99185c25079172c2337c0908f5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16103,
@@ -635,11 +963,19 @@
     "arabic_current": "لتوليد 3 إيه إم دي إف إس آر<br>الإطارات",
     "arabic_edit": "AMD FSR 3 Frame Generation",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "a47562fe72128f54940f7dc2b3d0b9539efa7e08ef90aabb5d3cb2b5c6d2e542",
+      "candidate_sha256": "a47562fe72128f54940f7dc2b3d0b9539efa7e08ef90aabb5d3cb2b5c6d2e542",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16104,
@@ -649,12 +985,20 @@
     "scene_code": "",
     "arabic_current": "ملء الشاشة",
     "arabic_edit": "ملء الشاشة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "c461dbb2bab7d8bc64c03223ead55766cf4f897856579a7162e0e384249d83fc",
+      "candidate_sha256": "8feab114eaea65a457e59b57618ad0502451e9bac60a0545836bbe379784f625",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16105,
@@ -664,12 +1008,20 @@
     "scene_code": "",
     "arabic_current": "ملء الشاشة",
     "arabic_edit": "ملء الشاشة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "1f8c000f96348d75067a9427c449993a4c94aaa6717f199f80f87fdcdaa91315",
+      "candidate_sha256": "8feab114eaea65a457e59b57618ad0502451e9bac60a0545836bbe379784f625",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16106,
@@ -679,12 +1031,20 @@
     "scene_code": "",
     "arabic_current": "نصف معدل التحديث",
     "arabic_edit": "نصف معدل التحديث",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "a5289d97493b66ddd0853b02129a57e4427b9064fa8f5ab6a8641d6cc8875c36",
+      "candidate_sha256": "d11378cc43b9bd5ef92b372413293116cbadb19b1cc584e1d41a64fd33e10e63",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16107,
@@ -694,12 +1054,20 @@
     "scene_code": "",
     "arabic_current": "نصف معدل التحديث",
     "arabic_edit": "نصف معدل التحديث",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "762d3d231857b164d6e771a226591f1555e7505f2b91e522a19c62fe4fc8ef69",
+      "candidate_sha256": "d11378cc43b9bd5ef92b372413293116cbadb19b1cc584e1d41a64fd33e10e63",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16108,
@@ -710,12 +1078,20 @@
     "arabic_current": "إتش دي آر",
     "arabic_edit": "HDR",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "607901812664e2261afcea97bdb6b6f74ab4a91cf88987b2dec0e46f31139b05",
+      "candidate_sha256": "607901812664e2261afcea97bdb6b6f74ab4a91cf88987b2dec0e46f31139b05",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16109,
@@ -726,12 +1102,20 @@
     "arabic_current": "أقصى إضاءة في إتش دي آر",
     "arabic_edit": "أقصى سطوع HDR",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "63618232ff656be55ca0529cc525996394aadd3388c4826c5a5c3caf22d7cb95",
+      "candidate_sha256": "1b46ab48f6b77ec636bbff53fccef3f805c1064d8d4454e1bf8db8813b6402fe",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16110,
@@ -742,13 +1126,21 @@
     "arabic_current": "اضبط أقصى إضاءة تنتجها<br>.اللعبة في وضع إتش دي آر<br>.وتقاس بوحدة النيت",
     "arabic_edit": "اضبط أقصى سطوع للصورة في وضع HDR.<br>يُقاس السطوع بوحدة النيت.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "fb8491170435df531ede43d5b2a3d4ac4e76a2ce054276e08386e28c8ad02933",
+      "candidate_sha256": "ec7c16afdfffb0c65873ead600115e0d2a773e9a053649f418fb13476582ee40",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16111,
@@ -759,12 +1151,20 @@
     "arabic_current": "أقصى إضاءة في إتش دي آر",
     "arabic_edit": "أقصى سطوع HDR",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "ca5d43c94ddf9aee5515e1ea1db672a2b90969ee5596cb79e570d4e258b4be4b",
+      "candidate_sha256": "1b46ab48f6b77ec636bbff53fccef3f805c1064d8d4454e1bf8db8813b6402fe",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16112,
@@ -775,12 +1175,20 @@
     "arabic_current": "أبيض الورق في إتش دي آر",
     "arabic_edit": "سطوع الأبيض في HDR",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "f7877931903940a7f624623d0b5e8eb7acb184feb480ea56cad6f606fb8d1a3f",
+      "candidate_sha256": "89520cefe142198c8e677bf157e013c7eeb86b636d295c6cd54cbb9953dc56ec",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16113,
@@ -791,12 +1199,20 @@
     "arabic_current": "اضبط الإضاءة الأساسية<br>للسطح الأبيض عند عرض<br>.اللعبة في وضع إتش دي آر<br>.وتقاس بوحدة النيت",
     "arabic_edit": "اضبط السطوع الأساسي للمناطق<br>البيضاء في وضع HDR. يُقاس السطوع<br>بوحدة النيت.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "06cebf24c0914f645332f7a6e5418295690a6132102dfd0531d91c718587bf35",
+      "candidate_sha256": "6e2360efdf97949060cc5ebdd3e123f35d529a390451713663dfce08e1aca7f9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16114,
@@ -807,12 +1223,20 @@
     "arabic_current": "أبيض الورق في إتش دي آر",
     "arabic_edit": "سطوع الأبيض في HDR",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "89fe87c8b08c8d29baecfc95f386a2d373f065eb495b794c167a3ce74695aee6",
+      "candidate_sha256": "89520cefe142198c8e677bf157e013c7eeb86b636d295c6cd54cbb9953dc56ec",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16115,
@@ -823,13 +1247,21 @@
     "arabic_current": "بدل بين عرض اللعبة بوضع<br>ولا .إتش دي آر أو إس دي آر<br>يمكن تفعيل هذا الخيار إلا إذا<br>كان إتش دي آر مفعلا بالفعل<br>.في ويندوز",
     "arabic_edit": "يبدل بين عرض HDR وعرض SDR. لا يتاح<br>هذا الخيار إلا عند تفعيل HDR في<br>إعدادات Windows.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "f0c0e5218d38b5e974e17c4767a385f1f6e84489a424b4e53daba84f468b9fc1",
+      "candidate_sha256": "e66073836256b60ad3459b9cacd5119d0b674d86b2fbde7f1d4ef0fefcef7028",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16116,
@@ -840,12 +1272,20 @@
     "arabic_current": "إتش دي آر",
     "arabic_edit": "HDR",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "607901812664e2261afcea97bdb6b6f74ab4a91cf88987b2dec0e46f31139b05",
+      "candidate_sha256": "607901812664e2261afcea97bdb6b6f74ab4a91cf88987b2dec0e46f31139b05",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16117,
@@ -856,12 +1296,20 @@
     "arabic_current": "آي جي تي آي",
     "arabic_edit": "IGTI",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "cf2b35aa33f249d7998b9842550e4ef1fdfa4fb9f74393fde7451edce7c214ea",
+      "candidate_sha256": "cf2b35aa33f249d7998b9842550e4ef1fdfa4fb9f74393fde7451edce7c214ea",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16118,
@@ -871,12 +1319,20 @@
     "scene_code": "",
     "arabic_current": "الشاشة",
     "arabic_edit": "الشاشة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "4c2e1df4570bebd69829cce149ba6421d1589b3d7cfab3c833e921b9da0798f2",
+      "candidate_sha256": "4d362588e46eaddd425816b0743ec55e34fa5b41cdee0d7ba5d17f1eb08113f6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16119,
@@ -887,12 +1343,20 @@
     "arabic_current": "اختر الشاشة التي ينبغي<br>.عرض اللعبة عليها",
     "arabic_edit": "اختر الشاشة التي تريد عرض اللعبة<br>عليها.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "124b756265b4c0c3fea71dce80154cdd96675170f0478dcf66657a9535945d04",
+      "candidate_sha256": "90815251b36432078f18834ae8d15f16aace35a152db905ff6affd2c0775a744",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16120,
@@ -902,12 +1366,20 @@
     "scene_code": "",
     "arabic_current": "الشاشة",
     "arabic_edit": "الشاشة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "90a94cc5f296be2851beddc2e0c8c3924c9c2138ef72b56cb5902db17c7ef439",
+      "candidate_sha256": "4d362588e46eaddd425816b0743ec55e34fa5b41cdee0d7ba5d17f1eb08113f6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16121,
@@ -916,14 +1388,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "إنفيديا ريفيكس<br>للاستجابة المنخفضة",
-    "arabic_edit": "NVIDIA Reflex",
+    "arabic_edit": "NVIDIA Reflex Low Latency",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "a0bedc5a34407c1ddb696e395faf0c62e9921ca7978ae6e7d4db54971eae9a5c",
+      "candidate_sha256": "a0bedc5a34407c1ddb696e395faf0c62e9921ca7978ae6e7d4db54971eae9a5c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16122,
@@ -934,11 +1414,19 @@
     "arabic_current": "تخفض إنفيديا ريفيكس<br>كمون النظام وتزيد سرعة<br>وعند .استجابة الحاسوب<br>التفعيل تقلل كمون بطاقة<br>ويحاول وضع .الرسوميات<br>التعزيز أيضا تقليل الكمون<br>.الناتج عن المعالج",
     "arabic_edit": "تقلل NVIDIA Reflex تأخير النظام<br>وتحسن الاستجابة بتقليل تأخير GPU.<br>يحاول وضع Boost تقليل تأخير CPU<br>أيضًا.",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "978fbc6a97a8a277686fb6828348f66054e04d63fb02b041aae070103b6a4439",
+      "candidate_sha256": "894aab3b477b63223b0346fb1eef1f5faef66a3ba06cfe0729f25c91c0908c55",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16123,
@@ -947,14 +1435,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "إنفيديا ريفيكس<br>للاستجابة المنخفضة",
-    "arabic_edit": "NVIDIA Reflex",
+    "arabic_edit": "NVIDIA Reflex Low Latency",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "41a717e551da79999314f1dee4e48c3e1ba49f3e90f5aff04aefb0c3edd2cba6",
+      "candidate_sha256": "a0bedc5a34407c1ddb696e395faf0c62e9921ca7978ae6e7d4db54971eae9a5c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16124,
@@ -964,12 +1460,20 @@
     "scene_code": "",
     "arabic_current": "معطل",
     "arabic_edit": "معطل",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "ca7981b46ecf2c1787b6d76d81d9fd7fa0ca95842e2fcc2a452869891a9334d1",
+      "candidate_sha256": "21dc96b9f9f8c89119308616d6c7d803c06513690ec2041e0394785bd0643f1c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16125,
@@ -979,12 +1483,20 @@
     "scene_code": "",
     "arabic_current": "معطل",
     "arabic_edit": "معطل",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "38cca6bea010af8adaf4be7d270456fa9adef8c0252db91f2767c607d077319b",
+      "candidate_sha256": "21dc96b9f9f8c89119308616d6c7d803c06513690ec2041e0394785bd0643f1c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16126,
@@ -994,12 +1506,20 @@
     "scene_code": "",
     "arabic_current": "مفعل",
     "arabic_edit": "مفعل",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "130011756125313c72f2cab730db4347e2841526d236a89cb25f38789fa49229",
+      "candidate_sha256": "dc88f9668bc5db9df08fde0fc51d693ebf37fe2f7ea2b2b95c7a389cd3d00b0f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16127,
@@ -1010,12 +1530,20 @@
     "arabic_current": "تعزيز + مفعل",
     "arabic_edit": "مفعل مع التعزيز",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "4b95ae3320e278515f9192b656f4d5d8cfa723c6df875b3d2790947af5bac787",
+      "candidate_sha256": "97b3403aa076df06515eeb03dbcf2d7718fc2da4e06a6aa50b6198768874cb9a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16128,
@@ -1026,12 +1554,20 @@
     "arabic_current": "تعزيز + مفعل",
     "arabic_edit": "مفعل مع التعزيز",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "c623032ce99aa021b73c0ec68125fc148a297543c1e5ee724b7e13df717d3328",
+      "candidate_sha256": "97b3403aa076df06515eeb03dbcf2d7718fc2da4e06a6aa50b6198768874cb9a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16129,
@@ -1041,12 +1577,20 @@
     "scene_code": "",
     "arabic_current": "مفعل",
     "arabic_edit": "مفعل",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "e8a01133b1351e5fa434167135400d1998d3daa8ce74e3dd9bb57582fa4d7b97",
+      "candidate_sha256": "dc88f9668bc5db9df08fde0fc51d693ebf37fe2f7ea2b2b95c7a389cd3d00b0f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16130,
@@ -1056,12 +1600,20 @@
     "scene_code": "",
     "arabic_current": "معدل التحديث",
     "arabic_edit": "معدل التحديث",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "9be2cdd888b26cdde74992ebff5ed6bc0d6549930d2a1b3b0ac42dd045f1f0d3",
+      "candidate_sha256": "e42ab793d8aecd32d21c0ccb563dcca006246e2391cb5b45d05d841366e70bdf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16131,
@@ -1072,13 +1624,21 @@
     "arabic_current": "يحدد معدل التحديث<br>المستخدم في جهاز العرض<br>ولا يمكن تعديله إلا .لديك<br>عند استخدام ملء الشاشة<br>.الحصري",
     "arabic_edit": "يحدد معدل تحديث الشاشة. يمكن<br>تغييره عند استخدام وضع ملء الشاشة<br>الحصري فقط.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "19546e19f57524b794f5899af3f194e92ac05bd1df20a78da2a7ec4b7d700d2e",
+      "candidate_sha256": "927aa4a01ba7a38e22408064c79a1a7b4f0aff01abd6ebcdd23bd46e418d4429",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16132,
@@ -1088,12 +1648,20 @@
     "scene_code": "",
     "arabic_current": "معدل التحديث",
     "arabic_edit": "معدل التحديث",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "737b10549a8d9678d09d7cfce495ece7c0defc638d481d5bcd42d3b74e750a6b",
+      "candidate_sha256": "e42ab793d8aecd32d21c0ccb563dcca006246e2391cb5b45d05d841366e70bdf",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16133,
@@ -1104,12 +1672,20 @@
     "arabic_current": "طريقة التكبير",
     "arabic_edit": "طريقة رفع الدقة",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "42c3d7eca7b7dfa31fd3f61738f4249259523d57c6c8f029bcb823b8803419ea",
+      "candidate_sha256": "a6baee05c1ea653ac3bc901cdb90af8c4c8ad7b7ccafa7aa96d773e5c4e48ea2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16134,
@@ -1120,11 +1696,19 @@
     "arabic_current": "يتيح التبديل بين عدة<br>خوارزميات لمعالجة التسنين<br>وتستخدم هذه .وتكبير الدقة<br>الخوارزميات لتحسين الصورة<br>.وكذلك لتحسين الأداء<br>وتشمل الحقن الزمني من<br>إنزومنياك غيمز، ودي إل إيه<br>إيه إس من إنفيديا، وإف إس آر<br>.من إيه إم دي، وإكس إي إس 3<br>استخدم الخيارات أدناه<br>لتحديد مستوى الجودة، بما<br>في ذلك تحديد حد أدنى لمعدل<br>الإطارات وضبط الجودة<br>.تلقائيا",
     "arabic_edit": "اختر تقنية تنعيم الحواف ورفع<br>الدقة: Temporal Injection أو<br>NVIDIA DLSS أو AMD FSR 3 أو Intel<br>XeSS. اضبط الجودة ومعدل الإطارات<br>المستهدف من الخيارات أدناه.",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "7f4f0d86e765efddca62fd02b7be9c6ebf307173ad92b5387012784a28cc1e6e",
+      "candidate_sha256": "a5fa5adf12a5b67e939f898a4578ca0aa8390febbe405699e8a7385837b3707d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16135,
@@ -1135,12 +1719,20 @@
     "arabic_current": "طريقة التكبير",
     "arabic_edit": "طريقة رفع الدقة",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "62e62a8b49018abeb4a2be99fc5e519d91ae08f6621a4d8e67a33960129da801",
+      "candidate_sha256": "a6baee05c1ea653ac3bc901cdb90af8c4c8ad7b7ccafa7aa96d773e5c4e48ea2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16136,
@@ -1151,12 +1743,20 @@
     "arabic_current": "جودة التكبير",
     "arabic_edit": "جودة رفع الدقة",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "3aca009898b2576af6d9cb0f8022aa925d1f3374447b6c28bc5690d7a0d71028",
+      "candidate_sha256": "528f6e747e13cdbc5fe31df8d96d1a9df91391265f97acf240418371e34d2625",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16137,
@@ -1167,13 +1767,21 @@
     "arabic_current": "اختر وضع الجودة المطلوب<br>.لخوارزمية تكبير الدقة<br>فخيارات الجودة الأعلى<br>تستخدم دقة رسم وسيطة<br>أعلى، بينما خيارات الأداء<br>العالي تستخدم دقة أقل<br>.لكنها تتيح معدل إطارات أعلى<br>وستضبط دائما على<br>عند تحديد هدف »ديناميكي«<br>للتحجيم الديناميكي<br>.للدقة في الخيار أدناه",
     "arabic_edit": "اختر مستوى جودة رفع الدقة. تستخدم<br>خيارات الجودة دقة داخلية أعلى،<br>بينما تستخدم خيارات الأداء دقة أقل<br>لزيادة معدل الإطارات. يتغير الخيار<br>إلى ديناميكي عند تحديد معدل مستهدف<br>للدقة الديناميكية.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "2d2561e8028a6c2757f0eaf43afb2e47795bd2996cfa20af5aeb738b0aa09c25",
+      "candidate_sha256": "f2ce96b0bd29c7dbd13463badabf74e184f2c8120be99a794fd8509e5a943a33",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16138,
@@ -1184,12 +1792,20 @@
     "arabic_current": "جودة التكبير",
     "arabic_edit": "جودة رفع الدقة",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "e8fea56d0d62c05adabc3015e56e7a202ab2ea2fed594202e9e4203434d8a5c2",
+      "candidate_sha256": "528f6e747e13cdbc5fe31df8d96d1a9df91391265f97acf240418371e34d2625",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16139,
@@ -1200,12 +1816,20 @@
     "arabic_current": "حدة التكبير",
     "arabic_edit": "حدة الصورة",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "3ddf6e79215a7a74e6886703436996ae028470284ab476e13c9a675ed7ef3b45",
+      "candidate_sha256": "35c23670615a175b8b4d05b4d6f1844bf9ca5e9392520dd123610dde6aa49918",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16140,
@@ -1216,12 +1840,20 @@
     "arabic_current": "يضبط حدة تقنية تكبير<br>.الدقة الحالية",
     "arabic_edit": "اضبط حدة الصورة الناتجة عن تقنية<br>رفع الدقة المحددة.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "f3ca84d42b0a122bc9e655e83414a083c15c9e092077fed86ad59682cd76ef96",
+      "candidate_sha256": "b12ae11f339c86896ca33475f2baf5981a2b0c196d5ca4c188fe799a0f7049d5",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16141,
@@ -1232,12 +1864,20 @@
     "arabic_current": "حدة التكبير",
     "arabic_edit": "حدة الصورة",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "54c0d57f8e1f8827313dc7b83a8a1eb28260f60f256392a32d4a0c0ad14e11cc",
+      "candidate_sha256": "35c23670615a175b8b4d05b4d6f1844bf9ca5e9392520dd123610dde6aa49918",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16142,
@@ -1248,11 +1888,19 @@
     "arabic_current": "المزامنة العمودية",
     "arabic_edit": "VSync",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "052810dae19607f552aa564781c53684750b211d124585f6f8fb070a2dc51b07",
+      "candidate_sha256": "052810dae19607f552aa564781c53684750b211d124585f6f8fb070a2dc51b07",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16143,
@@ -1263,13 +1911,21 @@
     "arabic_current": "يزامن معدل وصول الإطارات<br>الجديدة إلى الشاشة من<br>.اللعبة، ويمنع تمزق الصورة",
     "arabic_edit": "يزامن عرض الإطارات مع تحديث الشاشة<br>لمنع تمزق الصورة.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "39bbd6256fc8de93e96c9a15916797489b65607b9308d8bc13bba911b342154f",
+      "candidate_sha256": "43d4a1dabf61917ffce43cc5416a43ef87dc5b35381581f61556e512bbf44f0a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16144,
@@ -1280,11 +1936,19 @@
     "arabic_current": "المزامنة العمودية",
     "arabic_edit": "VSync",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة النص الإنجليزي؛ اختبار العرض داخل اللعبة معلق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
+      "prose_full_review",
       "prose_v2"
-    ]
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "7eb4e8d92f68e5ca1fb06b5b62a52e034e66c0e477e6b555bb8105fb93bf9354",
+      "candidate_sha256": "052810dae19607f552aa564781c53684750b211d124585f6f8fb070a2dc51b07",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16145,
@@ -1294,12 +1958,20 @@
     "scene_code": "",
     "arabic_current": "نافذة",
     "arabic_edit": "نافذة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "3f26603a2748fed3da8a9a1ddde86da13bc41cb07f6389486cba34b72e9b8c44",
+      "candidate_sha256": "aab880ce6663ca1b725971e1a1e6f721ea7d3c98b6d58d94aeca7260e2c69b07",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16146,
@@ -1309,12 +1981,20 @@
     "scene_code": "",
     "arabic_current": "نافذة",
     "arabic_edit": "نافذة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "576290d91ca2e0463ac0ac87d43b5e9720ccf9b4568f38a9ed7fbcafcf438a17",
+      "candidate_sha256": "aab880ce6663ca1b725971e1a1e6f721ea7d3c98b6d58d94aeca7260e2c69b07",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16147,
@@ -1324,12 +2004,20 @@
     "scene_code": "",
     "arabic_current": "وضع النافذة",
     "arabic_edit": "وضع النافذة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "b63e857488f49396979935294718cbc9462fe7e9f0514dfd9eeb586c922eeb17",
+      "candidate_sha256": "ff1eea26be0925c6f43ca36e56e558ee4a3c05a44e7b95a95f51b867517750d2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16148,
@@ -1340,13 +2028,21 @@
     "arabic_current": "يبدل بين أوضاع ملء<br>الشاشة والنافذة وملء<br>.الشاشة الحصري",
     "arabic_edit": "اختر وضع النافذة أو ملء الشاشة أو<br>ملء الشاشة الحصري.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "103a07437a369342d7c5bf37c8672664af0169531e8131f414b11dfec965f31b",
+      "candidate_sha256": "c5fefcf9b8fd69fa556166d93db950d9f2df4303e49a2505c70db5dea4f63add",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16149,
@@ -1356,12 +2052,20 @@
     "scene_code": "",
     "arabic_current": "وضع النافذة",
     "arabic_edit": "وضع النافذة",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-007",
+      "source_sha256": "e5b3bfddbf34912a666d477125f4ce4596d6ce853dff77d58deec29ff71bd707",
+      "candidate_sha256": "ff1eea26be0925c6f43ca36e56e558ee4a3c05a44e7b95a95f51b867517750d2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 16150,
@@ -1372,11 +2076,19 @@
     "arabic_current": "إكس إي إس",
     "arabic_edit": "Intel XeSS",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "2ddc4b6bac1387bbe69c363e8545a3b3c0e660df43fd66709ab40b7d19582523",
+      "candidate_sha256": "041cb372c3ff0c9be4dae3292ca1c87e9c46ccb53b969609bab6b82999e85970",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

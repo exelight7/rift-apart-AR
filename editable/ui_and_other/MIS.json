@@ -7,12 +7,20 @@
     "scene_code": "",
     "arabic_current": "تخلص من الفيروس.",
     "arabic_edit": "تخلص من الفيروس.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "0cb8c39e06c448a33bb6c9c6c7c77b1a727cc022f6a74af261af493ce42657a6",
+      "candidate_sha256": "34f953e65298b2af293b3481814f4ce6101ce43ecfca9c4b458536636e72ab38",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12724,
@@ -22,13 +30,21 @@
     "scene_code": "",
     "arabic_current": "تحدي جليتش الرابع<br>(اختياري)",
     "arabic_edit": "تحدي جليتش الرابع (اختياري)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "bd0cc67db1f344f0b0f071c9eb5b4d03c7c457c1b7582fed5e3c16ceaed21614",
+      "candidate_sha256": "464960709baef349f0f98aee21a78b85e63877ff61c30f7ee9c4d15e9c8c46e9",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12725,
@@ -38,12 +54,20 @@
     "scene_code": "",
     "arabic_current": "اهزم فيروس زيتا نهائيا!",
     "arabic_edit": "اهزم فيروس زيتا نهائيا!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "eccce2380ffd4cb8bbd13da51ee91d0ffc3d53b2de385ee23aadb5ad31f0a485",
+      "candidate_sha256": "f86a2d515d576c1de5140e75b9880db77ab20fc0017461041c4d024464536988",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12726,
@@ -53,12 +77,20 @@
     "scene_code": "",
     "arabic_current": "تحدي جليتش الخامس<br>(اختياري)",
     "arabic_edit": "تحدي جليتش الخامس (اختياري)",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-006",
+      "source_sha256": "8c13a52b91d7f6905a62d3f04aaeefb1e5a26e54f6d394c585ea1f11a6e5f6f5",
+      "candidate_sha256": "c3150df6ab11d5c63fb8d897b485b37a78712d52fee800395e858b02d9f24bce",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_RYNOAVAIL",
     "arabic_current": "<ts=&quot;0.067;5.879&quot;>ها هو السلاح الأمضى، وكل<br>الفضل لك، حبيبتي!",
-    "arabic_edit": "<ts=&quot;0.067;5.879&quot;>ها هو السلاح الأمضى، وكل الفضل لك، حبيبتي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.067;5.879&quot;>السلاح الأقوى هنا، وكل الفضل لك، يا قمر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "e49f7ebec23f1398f371a93a689e8ad2b9a6232ef14d4fb958d7a9ef970af93a",
+      "candidate_sha256": "d4fe63783d9032f5f3163bf04fa1252695b2315793a3cd70017a5aedee2a7744",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

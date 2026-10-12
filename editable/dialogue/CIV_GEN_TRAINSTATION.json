@@ -6,14 +6,22 @@
     "speaker_code": "MEGF1",
     "scene_code": "CIV_GEN_TRAINSTATION",
     "arabic_current": "<ts=&quot;0.05;2.666&quot;>الآن لن أفوت قطاري<br>بالتأكيد!",
-    "arabic_edit": "<ts=&quot;0.05;2.666&quot;>الآن لن أفوت قطاري بالتأكيد!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.05;2.666&quot;>الآن سيفوتني القطار بالتأكيد!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "28d5851e267d3f3871ccab27019087068efcaaf585c0a6434d247ee02d10b61b",
+      "candidate_sha256": "6d2fb084191aa249c721517ab79f7091869984bc6ecd143513645796b0e20901",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12040,
@@ -23,12 +31,20 @@
     "scene_code": "CIV_GEN_TRAINSTATION",
     "arabic_current": "<ts=&quot;0;2.695&quot;>لهذا أكره ركوب القطار!",
     "arabic_edit": "<ts=&quot;0;2.695&quot;>لهذا أكره ركوب القطار!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "eb2156a425740a29774c9efa254cf79ce055baefa0638eb220bbc9f1d57e5333",
+      "candidate_sha256": "9b260a0e3c51036829d39d8d1c17ecfc2ffa7c8e7007ce68734ec86b55d88967",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12093,
@@ -38,13 +54,21 @@
     "scene_code": "CIV_GEN_TRAINSTATION",
     "arabic_current": "<ts=&quot;0;2.255&quot;>هل يعني هذا أن قطاري<br>سيتأخر؟",
     "arabic_edit": "<ts=&quot;0;2.255&quot;>هل يعني هذا أن قطاري سيتأخر؟",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "e510ed1540cad6820095f566611c0d8f18ef92040e1aa2b27bc08e5cae1d1319",
+      "candidate_sha256": "fcc27b846b2f0b7640dabede84f65785b9d56e70aea8612a8e1f54d3462f3623",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12123,
@@ -54,11 +78,19 @@
     "scene_code": "CIV_GEN_TRAINSTATION",
     "arabic_current": "<ts=&quot;0.047;2.545&quot;>فقدت حقيبتي!",
     "arabic_edit": "<ts=&quot;0.047;2.545&quot;>فقدت حقيبتي!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "e49a7c78e1c9b4107a3f88d4a7f21609b6d9afda0b5487ab58955ee17cc67435",
+      "candidate_sha256": "c30e356b872dcd04ec1253d377169907cc5f354b3e8bce5fe0597e79a4f1f68c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

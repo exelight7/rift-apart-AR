@@ -6,14 +6,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_CINE_HONEY",
     "arabic_current": "<ts=&quot;0.15;1.9&quot;>،أنا رئيسة الطهاة توليو<ts=&quot;2.29;7&quot;>وكما كل الفنانين العظماء، لا<br>أخلق الجمال إلا وأنا أعاني.",
-    "arabic_edit": "<ts=&quot;0.15;1.9&quot;>،أنا رئيسة الطهاة توليو<ts=&quot;2.29;7&quot;>وكما كل الفنانين العظماء، لا أخلق الجمال<br>إلا وأنا أعاني.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.15;1.9&quot;>أنا الطاهية توليو،<ts=&quot;2.29;7&quot;>ومثل كل الفنانين العظماء، لا أبدع الجمال<br>إلا حين أعاني.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "c595a5574bc5db9f7b0883e6243091fab3a36c9692974b8e56702cd4c29391e0",
+      "candidate_sha256": "e5f492035db7a8d592c5089be65c10c80560911ee14c680fe1fb7bb88e256e0e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1444,
@@ -22,14 +30,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_CINE_HONEY",
     "arabic_current": "<ts=&quot;0;5.72&quot;>،لأصنع أعظم أطباقي بعد<br>علي أن أحصد عسل سيرانج<br>من تحتنا<ts=&quot;6.12;8.249&quot;>سوك-ي-باستخدام هذا الفاك.",
-    "arabic_edit": "<ts=&quot;0;5.72&quot;>،لأصنع أعظم أطباقي بعد علي أن أحصد عسل<br>سيرانج من تحتنا<ts=&quot;6.12;8.249&quot;>سوك-ي-باستخدام هذا الفاك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;5.72&quot;>لأعد أعظم أطباقي حتى الآن، علي جمع عسل<br>سيرانج الموجود أسفلنا،<ts=&quot;6.12;8.249&quot;>باستخدام جهاز VAC-U-SUK هذا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "05df4d4c91aa0cebf314ad9c5a64df302e349f9362b62e205f3878de41d0b6ed",
+      "candidate_sha256": "75a8f0a911532e34d30dc22116b099f986bb515a5e36861d67c656e06d825aba",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1445,
@@ -38,14 +54,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_CINE_HONEY",
     "arabic_current": "<ts=&quot;0;2.81&quot;>لكن هذا يتطلب كامل<br>،انتباهي<ts=&quot;3.259;7.96&quot;>فأحتاج إلى من يدافع عني<br>في وجه الذين لا يحتملون<br>العبقرية.",
-    "arabic_edit": "<ts=&quot;0;2.81&quot;>لكن هذا يتطلب كامل ،انتباهي<ts=&quot;3.259;7.96&quot;>فأحتاج إلى من يدافع عني في وجه الذين لا<br>يحتملون العبقرية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.81&quot;>لكن هذا يتطلب كامل انتباهي،<ts=&quot;3.259;7.96&quot;>لذا أحتاج إلى من يحميني ممن لديهم حساسية<br>تجاه العبقرية.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "234dba9ceb5001b18d3c5e1533dbf711027199fb7c5ee6b85061b5607df0fc2f",
+      "candidate_sha256": "80d5587e4e5d29d866c3a1903b797010613636b8973a5ee019e049b4bcd71ab1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 1446,
@@ -54,14 +78,22 @@
     "speaker_code": "CHEF2",
     "scene_code": "BLIZ_SQ_CINE_HONEY",
     "arabic_current": "<ts=&quot;0.047;3.265&quot;>إن أردت أن تكون جزءا من<br>،التاريخ الطبخي<ts=&quot;3.425;7.515&quot;>ابدأ تسلسل الاستخراج<br>بمقبض المطرقة ذاك.",
-    "arabic_edit": "<ts=&quot;0.047;3.265&quot;>إن أردت أن تكون جزءا من ،التاريخ الطبخي<ts=&quot;3.425;7.515&quot;>ابدأ تسلسل الاستخراج بمقبض المطرقة ذاك.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.047;3.265&quot;>إن أردت أن تصبحي جزءًا من تاريخ فن الطهو،<ts=&quot;3.425;7.515&quot;>فابدئي عملية الاستخراج بذراع تدوير المطرقة<br>تلك.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "c83ea66088fd5e700287c69a2fcbb68e6c151135bf447c05b7f8f2571359f3f5",
+      "candidate_sha256": "db10539ff6a3f5d369720a8dc2b6b2ac713d8f8de8788be5823cb13968428ad2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 20533,
@@ -71,11 +103,19 @@
     "scene_code": "BLIZ_SQ_CINE_HONEY",
     "arabic_current": "<ts=&quot;0.05;1.436&quot;>حسنا...",
     "arabic_edit": "<ts=&quot;0.05;1.436&quot;>حسنا...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-027",
+      "source_sha256": "89f2cee6cb02f93fb3141ab419d78db7c4c9bb949a572a85e001b0bc1cd8aed2",
+      "candidate_sha256": "c24db9cc0ac20e7c8a2412e9269b9500974f52a5a368dfd7375ea0a5844eaf11",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

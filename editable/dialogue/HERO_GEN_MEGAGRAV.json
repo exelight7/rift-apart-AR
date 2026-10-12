@@ -7,12 +7,20 @@
     "scene_code": "HERO_GEN_MEGAGRAV",
     "arabic_current": "<ts=&quot;0.049;1.248&quot;>الكثافة ترتفع.",
     "arabic_edit": "<ts=&quot;0.049;1.248&quot;>الكثافة ترتفع.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "cf27a236386585c89f12570dd3fb2ab86e057ee49a5abeade58c58643f583f14",
+      "candidate_sha256": "5d19b0465e3029e5da2616e31b8d4b1f134ca8b6151fdde9c4cf497852a6513d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11817,
@@ -21,13 +29,21 @@
     "speaker_code": "KLEM",
     "scene_code": "HERO_GEN_MEGAGRAV",
     "arabic_current": "<ts=&quot;0;0.35&quot;>،آه<ts=&quot;0.75;1.499&quot;>ثقيلة نوعا ما.",
-    "arabic_edit": "<ts=&quot;0;0.35&quot;>،آه<ts=&quot;0.75;1.499&quot;>ثقيلة نوعا ما.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;0.35&quot;>آه،<ts=&quot;0.75;1.499&quot;>أنا ثقيل جدًّا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "145de87cd44fda668818d76aef8bc1a9e8ae55ee41034ad8e0f88465f8710cb2",
+      "candidate_sha256": "4507b5e7ba575c0d94489c942ae68037610ad130b2444cdcb0f2eb0722d336cc",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11818,
@@ -36,12 +52,20 @@
     "speaker_code": "KLEM",
     "scene_code": "HERO_GEN_MEGAGRAV",
     "arabic_current": "<ts=&quot;0.009;2.101&quot;>حان وقت أن أستخدم قوتي.",
-    "arabic_edit": "<ts=&quot;0.009;2.101&quot;>حان وقت أن أستخدم قوتي.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.009;2.101&quot;>حان وقت تسخير وزني!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-015",
+      "source_sha256": "4977b0967572ec6239deb40eb68524a90d494454ae99c3efdfc3425ff0042d79",
+      "candidate_sha256": "a85d0f9156d1b3c73c5457df3c3f3774ec254e75eeaffc1ca563070d3678db4e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

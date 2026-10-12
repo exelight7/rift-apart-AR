@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_BURSTAVAIL",
     "arabic_current": "<ts=&quot;0;3.55&quot;>وصلتنا شحنة من مسدسات<br>الرشقات! أنت محظوظ!",
     "arabic_edit": "<ts=&quot;0;3.55&quot;>وصلتنا شحنة من مسدسات الرشقات! أنت محظوظ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "633ad3c2d4e1bab50100d1a0b79485f942238d6bc75d14c654aab97e5e417a86",
+      "candidate_sha256": "0c926982ffbb7c85c96742e91ea36c76fd6f03e87f3e2cf22b6dc499d2332f3a",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

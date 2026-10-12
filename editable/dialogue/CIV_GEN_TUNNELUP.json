@@ -7,12 +7,20 @@
     "scene_code": "CIV_GEN_TUNNELUP",
     "arabic_current": "<ts=&quot;0.062;3.912&quot;>الآن ستصل أعمق وأبعد وأسرع<br>بتلك اللطيفة!",
     "arabic_edit": "<ts=&quot;0.062;3.912&quot;>الآن ستصل أعمق وأبعد وأسرع بتلك اللطيفة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "0cdaafea3588c43f55fa51d6b84db496a54eb8ed3a317c38bb79b3bf10dc14cd",
+      "candidate_sha256": "2705e7b1ec53a689477c6b186347ef0565e9e621e933add488489d9295206e6f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

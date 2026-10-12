@@ -1,0 +1,1442 @@
+[
+  {
+    "index": 1253,
+    "key": "CARD_M_SARG01_BOSSDINO_CHASE_DESC",
+    "source_sha256": "5cea9e80675ccdf1a4cff509f8cd97d24ba077a8cb1d90ac000821086f250340",
+    "before": "استخدم المنحدرات للهبوط على ظهر<br>سيكيربيد.",
+    "after": "استخدم المنحدرات للهبوط على ظهر<br>سيكيربيد.",
+    "decision": "keep"
+  },
+  {
+    "index": 1254,
+    "key": "CARD_M_SARG01_BOSSDINO_CHASE_START_TITLE",
+    "source_sha256": "2f181758e95ea3eb712581ee78839b0556caf4e67a9aa3b6416037d3a907adb4",
+    "before": "استخدم المنحدرات",
+    "after": "استخدم المنحدرات",
+    "decision": "keep"
+  },
+  {
+    "index": 1255,
+    "key": "CARD_M_SARG01_BOSSDINO_CHASE_TITLE",
+    "source_sha256": "2f181758e95ea3eb712581ee78839b0556caf4e67a9aa3b6416037d3a907adb4",
+    "before": "استخدم المنحدرات",
+    "after": "استخدم المنحدرات",
+    "decision": "keep"
+  },
+  {
+    "index": 1256,
+    "key": "CARD_M_SARG01_BOSSDINO_CHASE_TITLE_DESC",
+    "source_sha256": "5cea9e80675ccdf1a4cff509f8cd97d24ba077a8cb1d90ac000821086f250340",
+    "before": "استخدم المنحدرات للهبوط على ظهر<br>سيكيربيد.",
+    "after": "استخدم المنحدرات للهبوط على ظهر<br>سيكيربيد.",
+    "decision": "keep"
+  },
+  {
+    "index": 1257,
+    "key": "CARD_M_SARG01_CAVE_ENTRANCE_DESC",
+    "source_sha256": "7e3ed9f5603167e4cea5568918a86a6f4569e850ece5c492425a8207fd40c513",
+    "before": "اتبع الخنفساء عبر الصدع.",
+    "after": "اتبع خنافس سبيتل عبر الصدع.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1258,
+    "key": "CARD_M_SARG01_CAVE_ENTRANCE_TITLE",
+    "source_sha256": "22d79f5fb56834246b3e58b2513b479e36082f0df318ea7438deb0045aa2d595",
+    "before": "امسك خنفساء",
+    "after": "أمسك خنفساء سبيتل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1259,
+    "key": "CARD_M_SARG01_CRANKBUILDING_DESC",
+    "source_sha256": "98f43e16d785cc74a1e6380e39aaa062b1356d07f6aeacdd0b519ac10c701939",
+    "before": "استخدم رابطة الصدع للانتقال إلى<br>المبنى وخفض الجسر.",
+    "after": "استخدم رابطة الصدع للانتقال إلى<br>المبنى وخفض الجسر.",
+    "decision": "keep"
+  },
+  {
+    "index": 1260,
+    "key": "CARD_M_SARG01_CRANKBUILDING_POST_DESC",
+    "source_sha256": "6557a9b23aefe3eff785371a60295688ab5aaee6eb8af9030d29c3c6756bd10f",
+    "before": "استخدم مقبض المطرقة لخفض الجسر.",
+    "after": "استخدم ذراع تدوير المطرقة لخفض<br>الجسر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1261,
+    "key": "CARD_M_SARG01_CRANKBUILDING_POST_TITLE",
+    "source_sha256": "d067b0b0466e2b4d27a4ef7a138b31920f4923543f24f7c237a388c934374622",
+    "before": "استخدم مقبض المطرقة",
+    "after": "استخدم ذراع تدوير المطرقة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1262,
+    "key": "CARD_M_SARG01_CRANKBUILDING_TITLE",
+    "source_sha256": "631218c6cb8ca60d29e7593b6edd57066e5b8f59c3fe3c7076632008e7aed513",
+    "before": "طهر مبنى المقبض",
+    "after": "طهر مبنى المقبض",
+    "decision": "keep"
+  },
+  {
+    "index": 1263,
+    "key": "CARD_M_SARG01_FIRST_TRIPADS_DESC",
+    "source_sha256": "3bd8e53c787cc06a5cd6f2ef761810b5ba3e6673fbdc14d0575b1ed7258d1eb0",
+    "before": "،بعد تطهير المنطقة بسرعة اصعد على<br>اللوحات الثلاث لتشغيل المصعد.",
+    "after": "بعد القضاء على الأعداء، قف على<br>المنصات الثلاث بسرعة لتشغيل<br>المصعد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1264,
+    "key": "CARD_M_SARG01_FIRST_TRIPADS_TITLE",
+    "source_sha256": "44db5a9cc86e6f3969e6799056690a652218568a168c99fae33f9e522c9f1647",
+    "before": "استخدم اللوحات الثلاثية",
+    "after": "استخدم اللوحات الثلاثية",
+    "decision": "keep"
+  },
+  {
+    "index": 1265,
+    "key": "CARD_M_SARG01_PD_START_DESC",
+    "source_sha256": "ef77a2e75ce95145df6919c4477deaf8dca4af83a7c0002b19b9ee1482f10c0f",
+    "before": "اضرب عش الخنفساء بمطرقتك ليخرج منه<br>واحد.",
+    "after": "اضرب عش خنافس سبيتل بمطرقتك لتخرج<br>إحداها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1266,
+    "key": "CARD_M_SARG01_PD_START_TITLE",
+    "source_sha256": "22d79f5fb56834246b3e58b2513b479e36082f0df318ea7438deb0045aa2d595",
+    "before": "امسك خنفساء",
+    "after": "أمسك خنفساء سبيتل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1267,
+    "key": "CARD_M_SARG01_POST_BRIDGE_DESC",
+    "source_sha256": "f7a58f9d1b94f461fb1a5e45c9c722b794126e4e14075344fa8a7c4da70a2178",
+    "before": "استخدم الخنفساء لعبور الفجوة في<br>الجسر.",
+    "after": "استخدم خنفساء سبيتل لعبور الفجوة<br>في الجسر.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1268,
+    "key": "CARD_M_SARG01_POST_BRIDGE_TITLE",
+    "source_sha256": "e02cdcc6de9195f716afbb58432024ebdff5f473550ba2e93af8258214bedcd4",
+    "before": "استخدم الخنفساء لعبور الفجوة",
+    "after": "استخدم خنفساء سبيتل للقفز عبر<br>الفجوة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1269,
+    "key": "CARD_M_SARG01_TRIPADS_BEETLE_DESC",
+    "source_sha256": "deac9c5443f3b517f9b9879986942e30384ca7411a08a0c1924274da85e9fe1c",
+    "before": "استخدم الخنفساء للانتقال بسرعة فوق<br>اللوحات الثلاث.",
+    "after": "استخدم خنفساء سبيتل لعبور المنصات<br>الثلاث بسرعة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1270,
+    "key": "CARD_M_SARG01_TRIPADS_BEETLE_TITLE",
+    "source_sha256": "72c8951dfc6fe9c950bce0f904273012a428a3bb1707dbcce7c76fb0a949b57d",
+    "before": "استخدم الخنفساء لضرب اللوحات<br>الثلاثية",
+    "after": "استخدم خنفساء سبيتل لتفعيل المنصات<br>الثلاث",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1271,
+    "key": "CARD_M_SARG02_COMMANDEER_SHIP_DESC",
+    "source_sha256": "8895ac82f7549c718d900af668b027ebfaa0074a56ee920503fccbc64418b69b",
+    "before": "التقط قنابل المورت لتدمير سفن<br>نيفاريوس.",
+    "after": "التقط قنابل المورت لتدمير سفن<br>نيفاريوس.",
+    "decision": "keep"
+  },
+  {
+    "index": 1272,
+    "key": "CARD_M_SARG02_COMMANDEER_SHIP_TITLE",
+    "source_sha256": "6972ea16ab17ebfda6736733ce4345949f8de0aca71f9e56a5f8ed5d7e76ce59",
+    "before": "مع) دمر سفن نيفاريوس ترودي)",
+    "after": "دمر سفن نيفاريوس (مع ترودي)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1273,
+    "key": "CARD_M_SARG02_FIRST_SHIP_DESC",
+    "source_sha256": "e91633433a3815d77c50fe56f8bbe3ff38230f00d9acf1ffdc29af02880b966a",
+    "before": "استخدم مقبض المطرقة لتعطيل سفينة<br>نيفاريوس، ثم اصعد ترودي.",
+    "after": "استخدم ذراع تدوير المطرقة لتعطيل<br>سفينة نيفاريوس، ثم اركب ترودي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1274,
+    "key": "CARD_M_SARG02_FIRST_SHIP_TITLE",
+    "source_sha256": "431fdfc26d4080209011ce20214f452a1526abafb4b3cf451dce168e5972efd8",
+    "before": "أسقط سفن نيفاريوس",
+    "after": "أسقط سفن نيفاريوس",
+    "decision": "keep"
+  },
+  {
+    "index": 1275,
+    "key": "CARD_M_SARG02_FLYING_MOUNT_DESC",
+    "source_sha256": "c5c4b1ab01dff65a1ad3f36e9a8750e071b0aa58bb59ebc16c3978862f208069",
+    "before": "أصب النواة الطاقوية لتعطيل سفينة<br>نيفاريوس.",
+    "after": "أطلق على نواة الطاقة لتعطيل سفينة<br>نيفاريوس.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1276,
+    "key": "CARD_M_SARG02_FLYING_MOUNT_TITLE",
+    "source_sha256": "6972ea16ab17ebfda6736733ce4345949f8de0aca71f9e56a5f8ed5d7e76ce59",
+    "before": "مع) دمر سفن نيفاريوس ترودي)",
+    "after": "دمر سفن نيفاريوس (مع ترودي)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1277,
+    "key": "CARD_M_SARG02_MINING_POST_DESC",
+    "source_sha256": "41f80153257336df01a2be703b40bebd0598bc669d391b444c288f3de55f2649",
+    "before": "استخدم لوحات الركض على الجدران<br>للوصول إلى المنطقة التالية.",
+    "after": "استخدم لوحات الركض على الجدران<br>للوصول إلى المنطقة التالية.",
+    "decision": "keep"
+  },
+  {
+    "index": 1278,
+    "key": "CARD_M_SARG02_MINING_POST_TITLE",
+    "source_sha256": "9a9cc7c5cd6e7ff970968542d6da9dca0901fa51c3655318350918e7398198e7",
+    "before": "حرر سيكيربيد",
+    "after": "أطلق سراح سيكيربيد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1279,
+    "key": "CARD_M_SARG02_MOTHERSHIP_DESC",
+    "source_sha256": "8895ac82f7549c718d900af668b027ebfaa0074a56ee920503fccbc64418b69b",
+    "before": "التقط قنابل المورت لتدمير سفن<br>نيفاريوس.",
+    "after": "التقط قنابل المورت لتدمير سفن<br>نيفاريوس.",
+    "decision": "keep"
+  },
+  {
+    "index": 1280,
+    "key": "CARD_M_SARG02_MOTHERSHIP_TITLE",
+    "source_sha256": "6972ea16ab17ebfda6736733ce4345949f8de0aca71f9e56a5f8ed5d7e76ce59",
+    "before": "مع) دمر سفن نيفاريوس ترودي)",
+    "after": "دمر سفن نيفاريوس (مع ترودي)",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1281,
+    "key": "CARD_M_SARG02_PLATFORM_WALLRUN_DESC",
+    "source_sha256": "545b61c9c7d9d40263f9469452780b9a19deb15fc662f457cd0868a68f6f2e12",
+    "before": "استخدم مقبض المطرقة لإظهار لوحات<br>الركض على الجدران المؤدية إلى<br>المنطقة التالية.",
+    "after": "استخدم ذراع تدوير المطرقة لرفع<br>لوحات الجري على الجدران المؤدية<br>إلى المنطقة التالية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1282,
+    "key": "CARD_M_SARG02_PLATFORM_WALLRUN_TITLE",
+    "source_sha256": "9a9cc7c5cd6e7ff970968542d6da9dca0901fa51c3655318350918e7398198e7",
+    "before": "حرر سيكيربيد",
+    "after": "أطلق سراح سيكيربيد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1283,
+    "key": "CARD_M_SARG02_TO_MARSH_DESC",
+    "source_sha256": "0c1d343217e435d0fd49f474fb20185a1a035efade4a8c3a7d333cbb9ba4e281",
+    "before": "استخدم رابطة الصدع للوصول إلى<br>الجهة الأخرى.",
+    "after": "استخدم رابطة الصدع للوصول إلى<br>الجهة الأخرى.",
+    "decision": "keep"
+  },
+  {
+    "index": 1284,
+    "key": "CARD_M_SARG02_TO_MARSH_TITLE",
+    "source_sha256": "9a9cc7c5cd6e7ff970968542d6da9dca0901fa51c3655318350918e7398198e7",
+    "before": "حرر سيكيربيد",
+    "after": "أطلق سراح سيكيربيد",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1285,
+    "key": "CARD_M_SARG02_TO_SLINGSHOT_DESC",
+    "source_sha256": "e845fad9ee7b38e823e0a762b49d95942a04f0c6e5edaa5c98a18aac44f9fe57",
+    "before": "استخدم الهيرلشوت للوصول إلى سكة<br>الطحن. انزلق على السكة واستخدم<br>لوحات الركض على الجدران للوصول إلى<br>قمة المبنى. ثم استخدم الهيرلشوت<br>للوصول إلى إحدى سفن نيفاريوس.",
+    "after": "استخدم الهيرلشوت للوصول إلى قضيب<br>الانزلاق. انزلق على القضيب واستخدم<br>لوحات الجري على الجدران للوصول إلى<br>أعلى المبنى. ثم استخدم الهيرلشوت<br>للوصول إلى إحدى سفن نيفاريوس.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1286,
+    "key": "CARD_M_SARG02_TO_SLINGSHOT_TITLE",
+    "source_sha256": "431fdfc26d4080209011ce20214f452a1526abafb4b3cf451dce168e5972efd8",
+    "before": "أسقط سفن نيفاريوس",
+    "after": "أسقط سفن نيفاريوس",
+    "decision": "keep"
+  },
+  {
+    "index": 1287,
+    "key": "CARD_M_SAV01_HOVERBOOT_DESC",
+    "source_sha256": "0263d44f216e58f9ff6e5e2faf4a8afd45107cb741fe29d953af48503be4be69",
+    "before": "خذ حذاء الطفو لعبور الهوة.",
+    "after": "خذ حذاء الطفو لعبور الهوة.",
+    "decision": "keep"
+  },
+  {
+    "index": 1288,
+    "key": "CARD_M_SAV01_HOVERBOOT_TITLE",
+    "source_sha256": "1f377a5af6379e98c7ca3af169351fc94201ef26390383dc0c5687ef427edf39",
+    "before": "التقط حذاء الطفو",
+    "after": "التقط حذاء الطفو",
+    "decision": "keep"
+  },
+  {
+    "index": 1289,
+    "key": "CARD_M_SAV01_PATH_DESC",
+    "source_sha256": "51b4a8a4179edc0d9a4074613b5be7cec800f10a43fddc54bf9a731c403675ce",
+    "before": "يمكنك إيجاد طريق إلى بلدة الرهبان،<br>فاستخدم الفطر المرن أو تسلق<br>الصخور.",
+    "after": "يمكنك إيجاد طريق إلى بلدة الرهبان،<br>فاستخدم الفطر المرن أو تسلق<br>الصخور.",
+    "decision": "keep"
+  },
+  {
+    "index": 1290,
+    "key": "CARD_M_SAV01_PATH_TITLE",
+    "source_sha256": "7714799cde5df1f7937b06483c4e1b8c0390f82a807b676aa057ff08fe9b50de",
+    "before": "أوقف غزو بلدة الرهبان",
+    "after": "أوقف غزو بلدة الرهبان",
+    "decision": "keep"
+  },
+  {
+    "index": 1291,
+    "key": "CARD_M_SAV01_TEMPLE_A_ARRIVE_DESC",
+    "source_sha256": "e7b9b56dcc26a52f85c1d9e9b6e9b2b2204596d2b22872ed942454b71dbd8804",
+    "before": "اتجه نحو المنارة الحمراء في<br>الأراضي القشبة للعثور على الرهبان.",
+    "after": "اتجه نحو المنارة الحمراء في<br>الأراضي الوعرة للعثور على الرهبان.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1292,
+    "key": "CARD_M_SAV01_TEMPLE_A_ARRIVE_TITLE",
+    "source_sha256": "f91c0b83cbab836884792f9890e6457c099578f962559aa4a6f6b77b4acdf162",
+    "before": "التق بالرهبان في معبد الأراضي<br>القشبة",
+    "after": "التق بالرهبان في معبد الأراضي<br>القشبة",
+    "decision": "keep"
+  },
+  {
+    "index": 1293,
+    "key": "CARD_M_SAV01_TEMPLE_A_CLEAR_DESC",
+    "source_sha256": "69cd216a00808252fe7154377f99a03866adf14adb692b303a5ed8298c0b94f3",
+    "before": "رهبان معبد الأراضي القشبة في<br>المنطقة الوسطى المحاطة بمنصات. إن<br>كانت أسلحتك دون مستواهم، يمكنك<br>التعلق بحافة المنصة للاحتماء حتى<br>تنفتح فرصة، ثم اقفز وصوب نحوهم.",
+    "after": "يوجد رهبان معبد الأراضي الوعرة في<br>المنطقة الوسطى المحاطة بالمنصات.<br>إن غلبتك قوة نيران الأعداء، فتعلق<br>بحافة للاحتماء حتى تتاح فرصة، ثم<br>اصعد وأطلق عليهم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1294,
+    "key": "CARD_M_SAV01_TEMPLE_A_CLEAR_TITLE",
+    "source_sha256": "be58b078dc74cf694c49f5fc79834006678b62e857f7894769bc050303d473fc",
+    "before": "حرر الرهبان في معبد الأراضي القشبة",
+    "after": "حرر الرهبان في معبد الأراضي الوعرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1295,
+    "key": "CARD_M_SAV01_TEMPLE_A_COM_DESC",
+    "source_sha256": "9acbd6cb4599ba09437644817db30032329c8bb921f53bcbab06e1e3a30106b7",
+    "before": "استخدم وحدة تحكم المعبد لتحرير<br>رفاقك المسترخين إلى حد مذهل!",
+    "after": "استخدم وحدة تحكم المعبد لتحرير<br>رفاقك المسترخين إلى حد مذهل!",
+    "decision": "keep"
+  },
+  {
+    "index": 1296,
+    "key": "CARD_M_SAV01_TEMPLE_A_COM_TITLE",
+    "source_sha256": "473db853a7c3b38a57eb2d1705768799ec7cbad01411246701691582c80847cb",
+    "before": "استخدم وحدة تحكم معبد الأراضي<br>القشبة",
+    "after": "استخدم طرفية معبد الأراضي الوعرة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1297,
+    "key": "CARD_M_SAV02_ARCHIVES_DESC",
+    "source_sha256": "d33f68ac59adf628ddc15053bda21782c884382b2e176ca803460ac87e37d917",
+    "before": "ادخل الأرشيف.",
+    "after": "ادخل الأرشيف.",
+    "decision": "keep"
+  },
+  {
+    "index": 1298,
+    "key": "CARD_M_SAV02_ARCHIVES_TITLE",
+    "source_sha256": "f9ee52873b84f2b10e8513811ed75fe32735937d0ed1f09b5dd161d0301a2805",
+    "before": "اتجه إلى الأرشيف",
+    "after": "صل إلى الأرشيف",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1299,
+    "key": "CARD_M_SAV02_CATACOMBS_DESC",
+    "source_sha256": "f3e79a55c10e80db3aa032dd54bdffffe071a46f172d9b962c84adab1c6ee18f",
+    "before": "اركب خنفساء فوق الحمض للوصول إلى<br>الشذوذ.",
+    "after": "اركب خنفساء سبيتل فوق الحمض للوصول<br>إلى الاختلال.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1300,
+    "key": "CARD_M_SAV02_CATACOMBS_TITLE",
+    "source_sha256": "cd081c887bafb9d1035384291603c297c4c883553bd6311e983d761a481cb8ed",
+    "before": "توجه إلى الشذوذ",
+    "after": "اذهب إلى الاختلال البعدي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1301,
+    "key": "CARD_M_SAV02_ENTER_ARCHIVES_DESC",
+    "source_sha256": "d33f68ac59adf628ddc15053bda21782c884382b2e176ca803460ac87e37d917",
+    "before": "ادخل الأرشيف.",
+    "after": "ادخل الأرشيف.",
+    "decision": "keep"
+  },
+  {
+    "index": 1302,
+    "key": "CARD_M_SAV02_ENTER_ARCHIVES_TITLE",
+    "source_sha256": "f9ee52873b84f2b10e8513811ed75fe32735937d0ed1f09b5dd161d0301a2805",
+    "before": "اتجه إلى الأرشيف",
+    "after": "صل إلى الأرشيف",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1303,
+    "key": "CARD_M_SAV02_ENTER_PIT_DESC",
+    "source_sha256": "2ef05b7f81895849d4da927311a0c121070908a304773e79d1eeed2067dd7d04",
+    "before": "ادخل الحفرة التي صنعتها الآلات<br>وأدر مقبض البرغي للدخول إلى<br>المقابر.",
+    "after": "ادخل الحفرة التي صنعتها الآلات،<br>وأدر ذراع التدوير لدخول سراديب<br>الموتى.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1304,
+    "key": "CARD_M_SAV02_ENTER_PIT_TITLE",
+    "source_sha256": "0f5915f1c4a936a17e014c28dbcc1e2f142570467009e40c7efa4a9c17622542",
+    "before": "ادخل المقابر",
+    "after": "افتح السراديب",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1305,
+    "key": "CARD_M_SAV02_MACHINE1_DESC",
+    "source_sha256": "5b1435784d91c6130ed645de869959f2daf64e57b1ec3629159aeecb7ac158f7",
+    "before": "ادفع غونز العظام واصعد على لوحات<br>الضغط لتفعيل الآلات.",
+    "after": "صد الغونز الهيكليين وقف على منصات<br>الضغط لتشغيل الآلات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1306,
+    "key": "CARD_M_SAV02_MACHINE1_TITLE",
+    "source_sha256": "b1faa877c8789673a707ad303e7fb46dd01fb265ec7de64b0f2716f99a1bc1b6",
+    "before": "فعل الآلات",
+    "after": "فعل الآلات",
+    "decision": "keep"
+  },
+  {
+    "index": 1307,
+    "key": "CARD_M_SAV02_MACHINE2_DESC",
+    "source_sha256": "5b1435784d91c6130ed645de869959f2daf64e57b1ec3629159aeecb7ac158f7",
+    "before": "ادفع غونز العظام واصعد على لوحات<br>الضغط لتفعيل الآلات.",
+    "after": "صد الغونز الهيكليين وقف على منصات<br>الضغط لتشغيل الآلات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1308,
+    "key": "CARD_M_SAV02_MACHINE2_TITLE",
+    "source_sha256": "b1faa877c8789673a707ad303e7fb46dd01fb265ec7de64b0f2716f99a1bc1b6",
+    "before": "فعل الآلات",
+    "after": "فعل الآلات",
+    "decision": "keep"
+  },
+  {
+    "index": 1309,
+    "key": "CARD_M_SAV02_MACHINE3_DESC",
+    "source_sha256": "5b1435784d91c6130ed645de869959f2daf64e57b1ec3629159aeecb7ac158f7",
+    "before": "ادفع غونز العظام واصعد على لوحات<br>الضغط لتفعيل الآلات.",
+    "after": "صد الغونز الهيكليين وقف على منصات<br>الضغط لتشغيل الآلات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1310,
+    "key": "CARD_M_SAV02_MACHINE3_TITLE",
+    "source_sha256": "b1faa877c8789673a707ad303e7fb46dd01fb265ec7de64b0f2716f99a1bc1b6",
+    "before": "فعل الآلات",
+    "after": "فعل الآلات",
+    "decision": "keep"
+  },
+  {
+    "index": 1311,
+    "key": "CARD_M_SAV02_SKELETON_INTRO_DESC",
+    "source_sha256": "d33f68ac59adf628ddc15053bda21782c884382b2e176ca803460ac87e37d917",
+    "before": "ادخل الأرشيف.",
+    "after": "ادخل الأرشيف.",
+    "decision": "keep"
+  },
+  {
+    "index": 1312,
+    "key": "CARD_M_SAV02_SKELETON_INTRO_TITLE",
+    "source_sha256": "f9ee52873b84f2b10e8513811ed75fe32735937d0ed1f09b5dd161d0301a2805",
+    "before": "اتجه إلى الأرشيف",
+    "after": "صل إلى الأرشيف",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1313,
+    "key": "CARD_M_SAV02_START_DESC",
+    "source_sha256": "d33f68ac59adf628ddc15053bda21782c884382b2e176ca803460ac87e37d917",
+    "before": "ادخل الأرشيف.",
+    "after": "ادخل الأرشيف.",
+    "decision": "keep"
+  },
+  {
+    "index": 1314,
+    "key": "CARD_M_SAV02_START_TITLE",
+    "source_sha256": "f9ee52873b84f2b10e8513811ed75fe32735937d0ed1f09b5dd161d0301a2805",
+    "before": "اتجه إلى الأرشيف",
+    "after": "صل إلى الأرشيف",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1315,
+    "key": "CARD_M_SAV_TEMPLE_B_ARRIVE_DESC",
+    "source_sha256": "feb7d49d197d45f104531542750e30b9d20c21bacd1f111b62b28489757c012f",
+    "before": "اتجه نحو المنارة الصفراء في الغابة<br>للعثور على الرهبان.",
+    "after": "اتجه نحو المنارة الصفراء في الغابة<br>للعثور على الرهبان.",
+    "decision": "keep"
+  },
+  {
+    "index": 1316,
+    "key": "CARD_M_SAV_TEMPLE_B_ARRIVE_TITLE",
+    "source_sha256": "a92deeadb875f9ca411351ae7e285cd27faee4074ac414b06606e41cb399ebc4",
+    "before": "التق بالرهبان في معبد الغابة",
+    "after": "التق بالرهبان في معبد الغابة",
+    "decision": "keep"
+  },
+  {
+    "index": 1317,
+    "key": "CARD_M_SAV_TEMPLE_B_COM_DESC",
+    "source_sha256": "1ea1363927181167ff5f13cf78065bb8b44dd237fc071baa852b100abe6c2f8c",
+    "before": "استخدم وحدة تحكم الدخول لبدء سلسلة<br>تحرر الرهبان الأسارى، لكن كن<br>مستعدا لمعركة.",
+    "after": "استخدم وحدة تحكم الدخول لبدء سلسلة<br>تحرر الرهبان الأسارى، لكن كن<br>مستعدا لمعركة.",
+    "decision": "keep"
+  },
+  {
+    "index": 1318,
+    "key": "CARD_M_SAV_TEMPLE_B_COM_TITLE",
+    "source_sha256": "21e72f32c27e1acb8d8eec8209322ab23309e25eec59beb94ed4bceeafafead1",
+    "before": "حرر الرهبان في معبد الغابة",
+    "after": "أطلق سراح الرهبان في معبد الغابة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1319,
+    "key": "CARD_M_SAV_TEMPLE_C_ARRIVE_DESC",
+    "source_sha256": "35e31372090a9aa23d9b92a1aa5756edda4e4bd05ea6fa134f9d904d1d8949b7",
+    "before": "اتجه نحو المنارة الخضراء في الجبال<br>للعثور على الرهبان.",
+    "after": "اتجه نحو المنارة الخضراء في الجبال<br>للعثور على الرهبان.",
+    "decision": "keep"
+  },
+  {
+    "index": 1320,
+    "key": "CARD_M_SAV_TEMPLE_C_ARRIVE_TITLE",
+    "source_sha256": "b50ed7a6047d144289dc261edd0b3cde3b2844a0506b386d493906eb00fadd72",
+    "before": "التق بالرهبان في معبد الجبل",
+    "after": "التق بالرهبان في معبد الجبل",
+    "decision": "keep"
+  },
+  {
+    "index": 1321,
+    "key": "CARD_M_SAV_TEMPLE_C_CLEAR_DESC",
+    "source_sha256": "9bdb13356c5489d72e9fe0a832ce2cb81f57174d0af260f418ff212c72e3f6f7",
+    "before": "حين يبدأون في استهدافك بالليزر،<br>اختبئ خلف عمود وبعد أن يطلقوا<br>النار، اخرج مجددا ورد الهجوم.",
+    "after": "حين يبدأون في استهدافك بالليزر،<br>اختبئ خلف عمود وبعد أن يطلقوا<br>النار، اخرج مجددا ورد الهجوم.",
+    "decision": "keep"
+  },
+  {
+    "index": 1322,
+    "key": "CARD_M_SAV_TEMPLE_C_CLEAR_TITLE",
+    "source_sha256": "797168e9090e5bbd855e4c4871fc3ceada26050fdbad6d40963c6335a0473a9d",
+    "before": "حرر الرهبان في معبد الجبل",
+    "after": "أطلق سراح الرهبان في معبد الجبل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1323,
+    "key": "CARD_M_SAV_TEMPLE_C_COM_DESC",
+    "source_sha256": "2d316b42090fb515b639e0f967392ee6e833cff35f766a1bebbb1cc6a4bcb523",
+    "before": "استخدم وحدة تحكم الدخول لإرسال<br>جليتش لإصلاحه.",
+    "after": "استخدم وحدة التحكم لإرسال جليتش<br>وإصلاحها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1324,
+    "key": "CARD_M_SAV_TEMPLE_C_COM_TITLE",
+    "source_sha256": "f48fde55d956403f0ee4209b612f46f3a8aa3855731d74cd1f6454550797a781",
+    "before": "استخدم وحدة تحكم معبد الجبل",
+    "after": "استخدم طرفية معبد الجبل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1325,
+    "key": "CARD_M_SAV_TEMPLE_C_MID_DESC",
+    "source_sha256": "3c6c95fb562482670d716cd4137a09a36d163df1ea60c95117de9e3e2dac20af",
+    "before": "فكر بسرعة! مهاراتك في حذاء الطفو<br>حاسمة هنا للانتقال من نقطة تفتيش<br>إلى أخرى.",
+    "after": "فكر بسرعة! مهارتك بحذاء الطفو<br>ضرورية للانتقال من نقطة عبور إلى<br>أخرى.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1326,
+    "key": "CARD_M_SAV_TEMPLE_C_MID_TITLE",
+    "source_sha256": "1ca34d8557283bdae2e0be67d6af1f823877e9c2645820cd4ed299b0f7af996a",
+    "before": "اصعد الجبل",
+    "after": "اصعد الجبل",
+    "decision": "keep"
+  },
+  {
+    "index": 1327,
+    "key": "CARD_M_ZORD_DOME_DESC",
+    "source_sha256": "8297240c74469af3ee57a7a8bd47eb6c92e4bb8a25d6ea521ebb2d8f2042a056",
+    "before": "استخدم اندفاعة الطيف وألق مطرقة<br>على الزر للدخول إلى غرفة القبة.",
+    "after": "استخدم الاندفاع الطيفي وارم مطرقتك<br>على الزر لدخول غرفة القبة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1328,
+    "key": "CARD_M_ZORD_DOME_TITLE",
+    "source_sha256": "0e93b65e391f2b4c6e5d6e623a832921aae5c6a4f0682e01f5cd79969346ab94",
+    "before": "قتال القبة",
+    "after": "قتال القبة",
+    "decision": "keep"
+  },
+  {
+    "index": 1329,
+    "key": "CARD_M_ZORD_PROCESSING_DESC",
+    "source_sha256": "c5103b54aeb6152c72a4edb18b6fbfcce5509472e9d0643121e09df1fdfdb291",
+    "before": "الهروب من منشأة المعالجة لن يكون<br>سهلا. استخدم السواتر وكل ترسانتك<br>لهزيمة قوات الأمن. وابحث عن صناديق<br>الذخيرة والصحة كثيرا.",
+    "after": "الهروب من منشأة المعالجة لن يكون<br>سهلا. استخدم السواتر وكل ترسانتك<br>لهزيمة قوات الأمن. وابحث عن صناديق<br>الذخيرة والصحة كثيرا.",
+    "decision": "keep"
+  },
+  {
+    "index": 1330,
+    "key": "CARD_M_ZORD_PROCESSING_TITLE",
+    "source_sha256": "9b8fd167984340ace584bc31a9cb9ecd159f41ad91692536414a7446bca7ae16",
+    "before": "اهرب من المعالجة",
+    "after": "اهرب من المعالجة",
+    "decision": "keep"
+  },
+  {
+    "index": 1331,
+    "key": "CARD_M_ZORD_REROUTE_DESC",
+    "source_sha256": "1d1af919a368719b882a182b747156619fef4f0dd65e149fe6b5a3d9e1c4cf7b",
+    "before": "اعمل مع حلفائك لتعود إلى راتشت<br>وكيت. وابحث عن الصدوع لتلحق<br>بالزننزانة. وفي النفق، ستحتاج إلى<br>حذاء الطفو للحاق بهم.",
+    "after": "تعاون مع حلفائك للعودة إلى راتشت<br>وكيت. ابحث عن الصدوع للحاق<br>بالزنزانة. داخل النفق، ستحتاج إلى<br>حذاء الطفو لمواكبتها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1332,
+    "key": "CARD_M_ZORD_REROUTE_TITLE",
+    "source_sha256": "88330b1bce7c7c9ff62bea2afa473bcc282273229c6d7130915a3800dd60b637",
+    "before": "إعادة التوجيه",
+    "after": "إعادة التوجيه",
+    "decision": "keep"
+  },
+  {
+    "index": 1333,
+    "key": "CARD_M_ZORD_REUNION_DESC",
+    "source_sha256": "f69802d0c6e26f055c167f1f0ddfdc5f8c29663d0a91e14b1ee7a180793c5a94",
+    "before": "ادخل الباب في خلف غرفة ،المعالجة<br>إلى منصة التحميل ثم استخدم مهارات<br>تنقلك للوصول إلى مكتب الناظر.",
+    "after": "اعبر الباب خلف غرفة المعالجة إلى<br>منصة التحميل، ثم استخدم مهارات<br>التنقل للوصول إلى مكتب مديرة<br>السجن.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1334,
+    "key": "CARD_M_ZORD_REUNION_TITLE",
+    "source_sha256": "a368c1596dfa2991773ccd67f401c6d64b83774fd8ffa9646e7af86ce0953935",
+    "before": "اجتمعنا من جديد",
+    "after": "اجتمعنا من جديد",
+    "decision": "keep"
+  },
+  {
+    "index": 1335,
+    "key": "CARD_M_ZORD_START_DESC",
+    "source_sha256": "78d86410c56166d1fd31cf53e18449abd8d1e94d117af4e9dc520756e9811e6b",
+    "before": "اقتحام سجن الأمن الأقصى يتطلب كامل<br>مهاراتك. ارتد وتأرجح واركض على<br>الجدران حتى تصل إلى نظام التهوية.",
+    "after": "يتطلب اقتحام هذا السجن شديد<br>الحراسة استخدام مهاراتك كلها. اقفز<br>وتأرجح واركض على الجدران للصعود<br>إلى نظام التهوية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1336,
+    "key": "CARD_M_ZORD_START_TITLE",
+    "source_sha256": "d7ec823872342d2dc20276a6f0a4fd485a5eacde44f88da8537470a524e5f466",
+    "before": "اقتحم",
+    "after": "اقتحم",
+    "decision": "keep"
+  },
+  {
+    "index": 1337,
+    "key": "CARD_M_ZORD_WARDEN_DESC",
+    "source_sha256": "1311e92a789f329b7adf96c5559c6aff88f0f6e43f006aa1b61ec0d28efef8aa",
+    "before": "استخدم السواتر وابحث عن صناديق<br>الذخيرة والصحة. بعض أسلحتك أفضل<br>،للسيطرة على الحشود وبعضها أفضل<br>للدقة ضد تهديدات بعينها. ولا تنس<br>اندفاعة الطيف لتقليل الإصابة.",
+    "after": "استخدم السواتر وابحث عن صناديق<br>الذخيرة والصحة. بعض أسلحتك أفضل<br>للسيطرة على الحشود، وبعضها أدق في<br>مواجهة تهديدات محددة. تذكر استخدام<br>الاندفاع الطيفي لتقليل الإصابات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1338,
+    "key": "CARD_M_ZORD_WARDEN_TITLE",
+    "source_sha256": "eab1f1f05dad5cb0da4407dfc2341cebb70d9e645b6f17d225c93ddb6335e6af",
+    "before": "تخلص من الطاقة السيئة",
+    "after": "تخلص من الطاقة السيئة",
+    "decision": "keep"
+  },
+  {
+    "index": 1339,
+    "key": "CARD_M_ZURK01_ARENA_A1_DESC",
+    "source_sha256": "fe407d80950bcfb87d8548ecf0e380b7732ecc77e2e8bd3f8a1ec98400694264",
+    "before": "تفاد وأطلق النار لهزيمة أعداء<br>القراصنة.",
+    "after": "تفاد الهجمات وأطلق النار لهزيمة<br>القراصنة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1340,
+    "key": "CARD_M_ZURK01_ARENA_A1_TITLE",
+    "source_sha256": "af85d49de0005b67152bcf1f45307392fca1c2437c8ba3d0457c343a2ed27685",
+    "before": "أدافع عن نفسك",
+    "after": "دافع عن نفسك",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1341,
+    "key": "CARD_M_ZURK01_ARENA_A2_DESC",
+    "source_sha256": "fe407d80950bcfb87d8548ecf0e380b7732ecc77e2e8bd3f8a1ec98400694264",
+    "before": "تفاد وأطلق النار لهزيمة أعداء<br>القراصنة.",
+    "after": "تفاد الهجمات وأطلق النار لهزيمة<br>القراصنة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1342,
+    "key": "CARD_M_ZURK01_ARENA_A2_TITLE",
+    "source_sha256": "af85d49de0005b67152bcf1f45307392fca1c2437c8ba3d0457c343a2ed27685",
+    "before": "أدافع عن نفسك",
+    "after": "دافع عن نفسك",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1343,
+    "key": "CARD_M_ZURK01_POSTMEET_DESC",
+    "source_sha256": "58974d82eb97650cb87c2aefc9eaf2d9985efaecba10f78d267dcdd4839dffeb",
+    "before": "استخدم وحدة التحكم قرب النوافذ<br>للدخول إلى الساحة.",
+    "after": "استخدم وحدة التحكم قرب النوافذ<br>للدخول إلى الساحة.",
+    "decision": "keep"
+  },
+  {
+    "index": 1344,
+    "key": "CARD_M_ZURK01_POSTMEET_TITLE",
+    "source_sha256": "470346beec500f448eedf9c69dd382afcdad101b2f634b9ac428a4c70f7c3a6c",
+    "before": "اخرج إلى الخارج",
+    "after": "اخرج",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1345,
+    "key": "CARD_M_ZURK01_VISIT_DESC",
+    "source_sha256": "5e8aaca92098d1a4f843b599150784693e2e905af3a86aa1e9ffbd57c6645f04",
+    "before": "ادخل حانة زوركيز من الباب عند<br>قاعدة المبنى. اعبر موقف السيارات<br>واصعد المنحدر للوصول إليه.",
+    "after": "ادخل حانة زوركيز من الباب عند<br>قاعدة المبنى. اعبر موقف السيارات<br>واصعد المنحدر للوصول إليه.",
+    "decision": "keep"
+  },
+  {
+    "index": 1346,
+    "key": "CARD_M_ZURK01_VISIT_TITLE",
+    "source_sha256": "3f883a4a0163f3976f5c4d1ba89692f9db74b449ca60db8cd5f1455979dfa4dd",
+    "before": "ادخل",
+    "after": "ادخل",
+    "decision": "keep"
+  },
+  {
+    "index": 1347,
+    "key": "CARD_PICKET_ZORD_A_DESC",
+    "source_sha256": "54623f1364271dbd54115737a9e17b1653be4bb9a37b8af1a22f5efdd4c18e72",
+    "before": "في الغرفة المقابلة للسيدة زوركون،<br>خارج قسم كبار الزوار مباشرة، ستجد<br>الصدع قرب مجموعة من الصناديق.",
+    "after": "في الغرفة المقابلة للسيدة زوركون،<br>خارج قسم كبار الزوار مباشرة، ستجد<br>الصدع قرب مجموعة من الصناديق.",
+    "decision": "keep"
+  },
+  {
+    "index": 1348,
+    "key": "CARD_PICKET_ZORD_A_TITLE",
+    "source_sha256": "5b90817c6010f67a6cd26aa0214c7f36bcdcf092b07486ca96788e3fa944f71d",
+    "before": "جيب السجن",
+    "after": "جيب السجن",
+    "decision": "keep"
+  },
+  {
+    "index": 1349,
+    "key": "CARD_PICKET_ZORD_B_DESC",
+    "source_sha256": "7e4cf41a165542b0ad8b053d7a4df5494fb4b84446b54b558c70684e446626e6",
+    "before": "اركب خنفساء لتجاوز الفجوات<br>الكبيرة. اصطدم بها باللوحات<br>للانتقال إلى الركض على الجدار.",
+    "after": "اركب خنفساء سبيتل لعبور الفجوات<br>الكبيرة. اصطدم باللوحات للانتقال<br>إلى الجري على الجدران.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1350,
+    "key": "CARD_PICKET_ZORD_B_TITLE",
+    "source_sha256": "b66a9081110d95cbebdb12c09970a83e7a34261311dd670afd30626404c3c682",
+    "before": "سحق الخنفساء",
+    "after": "اصطدام سبيتل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1351,
+    "key": "CARD_PICKET_ZORD_C_DESC",
+    "source_sha256": "384026efe4538e37728a5069502a536fe7ee9c172f68184decdcdc039389e251",
+    "before": "ستحتاج إلى كل مهاراتك للوصول إلى<br>النهاية. أبق عينك على الجائزة<br>واضبط توقيت تنقلك.",
+    "after": "ستحتاج إلى كل مهاراتك للوصول إلى<br>النهاية. أبق عينك على الجائزة<br>واضبط توقيت تنقلك.",
+    "decision": "keep"
+  },
+  {
+    "index": 1352,
+    "key": "CARD_PICKET_ZORD_C_TITLE",
+    "source_sha256": "96af5230740076970ad06a9934df81dcde513e192b7fbebc262177f12f83c347",
+    "before": "سلاسل معقدة",
+    "after": "سلاسل معقدة",
+    "decision": "keep"
+  },
+  {
+    "index": 1353,
+    "key": "CARD_POCKET_ARD_A_DESC",
+    "source_sha256": "9414efa4f33f3a003f5251a45bc9ff85c5e804c6224fe57f22451da96c2cbfcd",
+    "before": "،قبل سوق النهب مباشرة اتجه يسارا<br>وانزل إلى الشاطئ في الأسفل. انج من<br>السراطين والنفاخات، ثم افتح الصدع<br>على امتداد الجدار.",
+    "after": "قبل سوق النهب مباشرة، اتجه يسارًا<br>وانزل إلى الشاطئ. انج من السرطانات<br>وأسماك النفخود، ثم افتح الصدع على<br>امتداد الجدار.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1354,
+    "key": "CARD_POCKET_ARD_A_TITLE",
+    "source_sha256": "a2975460827e38dba9c40587e944f6394d0973d3a80791214da46bb137858090",
+    "before": "جيب رملي",
+    "after": "جيب رملي",
+    "decision": "keep"
+  },
+  {
+    "index": 1355,
+    "key": "CARD_POCKET_ARD_B_DESC",
+    "source_sha256": "ef037dac98ba213caa7849825ace8133e9d9d6bbf1111d11ce1ca503f1eb072b",
+    "before": "اربط قذائف التشليخ معا للوصول إلى<br>هدفك.",
+    "after": "استخدم نقاط المقلاع بالتتابع<br>للوصول إلى هدفك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1356,
+    "key": "CARD_POCKET_ARD_B_TITLE",
+    "source_sha256": "51434780e4472c25a62adcaad67c09aa05c017b72085f058b7ab2a341deb82cf",
+    "before": "تسلسل قذائف التشليخ",
+    "after": "تتابع المقاليع",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1357,
+    "key": "CARD_POCKET_ARD_C_DESC",
+    "source_sha256": "0c5b2ffbee21646394b7b7109ef39795ebd773b809fba9e6d64cf020677a0bbc",
+    "before": "ستنفجر الصناديق المتفجرة إن بقيت<br>عليها طويلا. أسرع في طريقك إلى<br>قذيفة التشليخ التالية.",
+    "after": "ستنفجر الصناديق المتفجرة إن وقفت<br>عليها طويلًا. أسرع إلى نقطة<br>المقلاع التالية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1358,
+    "key": "CARD_POCKET_ARD_C_TITLE",
+    "source_sha256": "b5af12440316594888369cbcfc6bf36f19de6b24e43bcd58866cee3cdd138fc3",
+    "before": "لا تتأخر",
+    "after": "لا تتأخر",
+    "decision": "keep"
+  },
+  {
+    "index": 1359,
+    "key": "CARD_POCKET_BLIZ_A_DESC",
+    "source_sha256": "7f71abbb585018554fef4d47a3316593556f7db5c2e9815e2a051c01fda2ac3a",
+    "before": "من مركز التعدين، اتجه إلى الخارج<br>باتجاه كهوف الدبابير. وبمجرد<br>الخروج من المركز، ابحث عن الصدع<br>على الجانب الأيسر من الطريق<br>الصخري.",
+    "after": "من مركز التعدين، اتجه إلى الخارج<br>باتجاه كهوف الدبابير. وبمجرد<br>الخروج من المركز، ابحث عن الصدع<br>على الجانب الأيسر من الطريق<br>الصخري.",
+    "decision": "keep"
+  },
+  {
+    "index": 1360,
+    "key": "CARD_POCKET_BLIZ_A_TITLE",
+    "source_sha256": "9587ba3c5b9c3eca0b7e25235be04b248d974351a211225c664d944faeffa1d4",
+    "before": "جيب ساخن",
+    "after": "جيب ساخن",
+    "decision": "keep"
+  },
+  {
+    "index": 1361,
+    "key": "CARD_POCKET_BLIZ_B_DESC",
+    "source_sha256": "f854bfc4c16c052102884c52edbc3ddcca34e5e2be72f27cc84527297cc7231c",
+    "before": "الممرات مموهة. ولرؤية طريقك ستحتاج<br>إلى إصابة مولد حقل الإخفاء<br>«أوماتيك-كام».",
+    "after": "الممرات مموهة. لرؤية طريقك، اضرب<br>مولد حقل الإخفاء كام-أو-ماتيك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1362,
+    "key": "CARD_POCKET_BLIZ_B_TITLE",
+    "source_sha256": "ec466eec102146524a91a40c84599d26b6cf4f6279f410389ee2a220ed159e11",
+    "before": "أوماتيك-كام",
+    "after": "كام-أو-ماتيك",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1363,
+    "key": "CARD_POCKET_BLIZ_C_DESC",
+    "source_sha256": "2653e6f58a1102a0d6cc673570eb95c1b0e7d46bb4cf45edc2eb115a3801b6f6",
+    "before": "حاول الانتقال من مولد إلى مولد<br>بأسرع ما يمكن. وإن نفد الطريق ما<br>—وقتك، لا تقلق زال هناك.",
+    "after": "انتقل من مولد إلى آخر بأسرع ما<br>يمكن. إن نفد الوقت، فلا تقلق؛ لا<br>يزال الطريق موجودًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1364,
+    "key": "CARD_POCKET_BLIZ_C_TITLE",
+    "source_sha256": "40e55549fa6442434ec83250ba7de863bc75dc9563c23e1b64bfeb95c0e43990",
+    "before": "اختفى لكنه ليس مفقودا",
+    "after": "اختفى لكنه ليس مفقودا",
+    "decision": "keep"
+  },
+  {
+    "index": 1365,
+    "key": "CARD_POCKET_CORD_A_DESC",
+    "source_sha256": "8a7de6aeb356dcf7590401d3253684532ef8a447cc59403bc670ad5207c40f01",
+    "before": "بعد جولة في المنشأة وطرد الجنود،<br>اضرب البليزون للانتقال إلى البعد<br>المدمر. واستدر حولك وابحث عن الصدع<br>في المنطقة المائية المحاطة<br>بالطواف.",
+    "after": "بعد التجول في المنشأة وصد الجنود،<br>اضرب البليزون للانتقال إلى البعد<br>المدمر. استدر وابحث عن الصدع في<br>المنطقة المغمورة المحاطة بالأطواف.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1366,
+    "key": "CARD_POCKET_CORD_A_TITLE",
+    "source_sha256": "eedc27c1897204bbe0dedaf1e6237bd4667e076cb64ad04f4f3cce2d660df561",
+    "before": "جيب مبتل",
+    "after": "جيب مبتل",
+    "decision": "keep"
+  },
+  {
+    "index": 1367,
+    "key": "CARD_POCKET_CORD_B_DESC",
+    "source_sha256": "d6e537211a860a353f0ded72950c873ccfde6283b25e51f6713a2e6172f580d8",
+    "before": "فعل الطواف بضربها بمفتاح الربط أو<br>بإطلاق النار عليها. وارتد من طوف<br>إلى آخر للوصول إلى المنصة التالية.",
+    "after": "فعل الأطواف بضربها بالمفتاح أو<br>بإطلاق النار عليها. اقفز من طوف<br>إلى آخر للوصول إلى المنصة التالية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1368,
+    "key": "CARD_POCKET_CORD_B_TITLE",
+    "source_sha256": "cbf4121606777bde716a8a3b41b78924da392dbdcceceadc895340c24a875c5c",
+    "before": "طواف النجاة",
+    "after": "أطواف النجاة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1369,
+    "key": "CARD_POCKET_CORD_C_DESC",
+    "source_sha256": "b4429d03a6d17cc2ebffdc8d2b281a84946e226245ca85fb83376d855a10132e",
+    "before": "استهدف طوافا بعيدة وجهزها لوصولك.<br>كن حذرا، فهي لا تبقى مفعلة طويلا.<br>ستحتاج إلى السرعة.",
+    "after": "استهدف الأطواف البعيدة وجهزها<br>لوصولك. احذر، فهي لا تبقى مفعلة<br>طويلًا. عليك أن تكون سريعًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1370,
+    "key": "CARD_POCKET_CORD_C_TITLE",
+    "source_sha256": "f4236252ad745245d9b6df3ddde1bf1533cc31351ee26819b018af28cf9a952c",
+    "before": "تفعيل عن بعد",
+    "after": "تفعيل عن بعد",
+    "decision": "keep"
+  },
+  {
+    "index": 1371,
+    "key": "CARD_POCKET_MOL_A_DESC",
+    "source_sha256": "02629cf430f144d3dc70723c16e00e38cd8a47f135fcb7c2de6752d86431e7cf",
+    "before": "حين تقترب من حافة مدرجة فيها<br>سراطين خطرة، انظر إلى يمينك. في<br>جحر قريب ستجد الصدع.",
+    "after": "حين تقترب من حافة متدرجة تنتشر<br>فيها سرطانات خطرة، انظر يمينًا.<br>ستجد الصدع في تجويف قريب.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1372,
+    "key": "CARD_POCKET_MOL_A_TITLE",
+    "source_sha256": "5b811a27231e7b1baf8b75bfa192b9d222c588753718a0aae4b4c4dd6f8f7b2f",
+    "before": "جيب جاف",
+    "after": "جيب جاف",
+    "decision": "keep"
+  },
+  {
+    "index": 1373,
+    "key": "CARD_POCKET_MOL_B_DESC",
+    "source_sha256": "b89433340335516bca2c7ad1ac9fe59fbc3b04827d6615b18139495c075f4215",
+    "before": "للوصول إلى الجائزة ستحتاج إلى بعض<br>المساعدة. اقترب من العش القريب<br>واضربه ليخرج خنفساء.",
+    "after": "ستحتاج إلى بعض المساعدة للوصول إلى<br>الجائزة. اقترب من العش القريب<br>واضربه لتخرج خنفساء سبيتل.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1374,
+    "key": "CARD_POCKET_MOL_B_TITLE",
+    "source_sha256": "0973d19f3e5de5125332d5cf84a555956d687d3a73125e62af7d3277a3a33923",
+    "before": "ركوب الخنفساء",
+    "after": "ركوب خنفساء سبيتل",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1375,
+    "key": "CARD_POCKET_MOL_C_DESC",
+    "source_sha256": "0116de6d840c772e3aae89991b095fa1043cd49e5bebd00ecb4fffedf3eb0974",
+    "before": "قيادة الدفع والقفزات بانتظام<br>ستأخذك حول المنطقة نحو جائزتك. كن<br>حذرا ولا تنس أن تقفز عن الخنفساء<br>في النهاية!",
+    "after": "تحكم جيدًا بالتسارع والقفزات<br>لتجتاز المنطقة وتصل إلى جائزتك.<br>احذر، وتذكر القفز عن خنفساء سبيتل<br>في النهاية!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1376,
+    "key": "CARD_POCKET_MOL_C_TITLE",
+    "source_sha256": "96e476f9b15dfc1b8fd59bb5ed8bad408aec7dcfd6ee063a873d2afed6ad31d5",
+    "before": "اقفز نحو النصر",
+    "after": "اقفز نحو النصر",
+    "decision": "keep"
+  },
+  {
+    "index": 1377,
+    "key": "CARD_POCKET_NEFCITY_A_DESC",
+    "source_sha256": "8d593b3ea252f5c3a9b11ea70e2c86959849677866a1d38c04af4fe390122f85",
+    "before": "،أمام زقاق نادي نيفاريوس ابحث في<br>محيطك عن شق قريب.",
+    "after": "ابحث عن صدع قريب مقابل الزقاق<br>المؤدي إلى نادي نيفاريوس.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1378,
+    "key": "CARD_POCKET_NEFCITY_A_TITLE",
+    "source_sha256": "b3c04c294814b6c78f29f1820d9b0a4a10508b57dcdb7f40422601213327f6ef",
+    "before": "جيب السوق",
+    "after": "جيب السوق",
+    "decision": "keep"
+  },
+  {
+    "index": 1379,
+    "key": "CARD_POCKET_NEFCITY_B_DESC",
+    "source_sha256": "f5a82bb0b078d907573deecdfe293724f42f486b3c9048079572739c67ffa563",
+    "before": "يبدو أن أجزاء من الموكب ضاعت في<br>هذا البعد. ارتد طريقك إلى جائزتك!",
+    "after": "يبدو أن أجزاء من الموكب ضاعت في<br>هذا البعد. اقفز عليها لتصل إلى<br>جائزتك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1380,
+    "key": "CARD_POCKET_NEFCITY_B_TITLE",
+    "source_sha256": "9f4f52f72dd768396dbf81c9d90f3d300dee8ac9515ba78e70db80ba588a1a65",
+    "before": "حطام الموكب",
+    "after": "حطام الموكب",
+    "decision": "keep"
+  },
+  {
+    "index": 1381,
+    "key": "CARD_POCKET_NEFCITY_C_DESC",
+    "source_sha256": "a395902bf667144474600f1cbac46778d7a5af74fe45537b054bbc39b8e20348",
+    "before": "ارتد وأطلق النار لتصبح هدفا أصعب<br>إصابة.",
+    "after": "اقفز وأطلق النار لتجعل إصابتك أصعب<br>على الأعداء.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1382,
+    "key": "CARD_POCKET_NEFCITY_C_TITLE",
+    "source_sha256": "634fa8b0718af490763d55ae17aac8abb8347513056bdae52aad8e15b15ddac4",
+    "before": "قتال ارتدادي",
+    "after": "قتال ارتدادي",
+    "decision": "keep"
+  },
+  {
+    "index": 1383,
+    "key": "CARD_POCKET_SARG2_A_DESC",
+    "source_sha256": "a9f4853419eef808d874bcc5f5fbc642d4722abc19f8be4ddb5d1ba0d8d83697",
+    "before": "في الوادي الذي يحارب فيه الجنود<br>غرانثورا، انظر إلى يمينك لتجد<br>الصدع المخفي على امتداد الجدار<br>الصخري.",
+    "after": "في الوادي الذي يحارب فيه الجنود<br>غرانثورا، انظر إلى يمينك لتجد<br>الصدع المخفي على امتداد الجدار<br>الصخري.",
+    "decision": "keep"
+  },
+  {
+    "index": 1384,
+    "key": "CARD_POCKET_SARG2_A_TITLE",
+    "source_sha256": "6f16d80e89061420b7354c228a76d7dbe335ab28a311c1a3531b36a434e7bab3",
+    "before": "جيب المستنقع",
+    "after": "جيب المستنقع",
+    "decision": "keep"
+  },
+  {
+    "index": 1385,
+    "key": "CARD_POCKET_SARG2_B_DESC",
+    "source_sha256": "9ff99079184fd103be4bea6da0b7a4ea8313ee72afb7abcd765e847517eface9",
+    "before": "دمر الصناديق لتخلق طريقك إلى<br>الهدف. واحذر الصناديق المتفجرة؛<br>فالخطأ قد يدمر طريقك الوحيد إلى<br>الأمام.",
+    "after": "دمر الصناديق لتخلق طريقك إلى<br>الهدف. واحذر الصناديق المتفجرة؛<br>فالخطأ قد يدمر طريقك الوحيد إلى<br>الأمام.",
+    "decision": "keep"
+  },
+  {
+    "index": 1386,
+    "key": "CARD_POCKET_SARG2_B_TITLE",
+    "source_sha256": "4f004d10b1e71eb3df636be72c70e3a1606f7bb37fe090907a47f526ce4d32b5",
+    "before": "طريق مستهلكة",
+    "after": "طريق متشظٍ",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1387,
+    "key": "CARD_POCKET_SARG2_C_DESC",
+    "source_sha256": "95977b9562a00545bb728a0b41531d7a5b70fa4f4022518fa65215455ab8ad78",
+    "before": "لتبقى في أمان على مثل هذا الطريق<br>الهش، ابحث عن طرق لتجنب القتال<br>المباشر.",
+    "after": "لتبقى في أمان على مثل هذا الطريق<br>الهش، ابحث عن طرق لتجنب القتال<br>المباشر.",
+    "decision": "keep"
+  },
+  {
+    "index": 1388,
+    "key": "CARD_POCKET_SARG2_C_TITLE",
+    "source_sha256": "bbf66fa989b082b04e6b6e836ea932b2aba081d4845f0d8444c974ac4eaffe69",
+    "before": "انفجار مفاجئ",
+    "after": "انفجار مفاجئ",
+    "decision": "keep"
+  },
+  {
+    "index": 1389,
+    "key": "CARD_POCKET_SARG_A_DESC",
+    "source_sha256": "a9e0edcec5cbc4eef3ea5adb90ad11f4693fc5dfb4642dfd7adeaf32f3d33337",
+    "before": "على مدخل كهف مخبأ ريفت مباشرة،<br>يوجد الصدع في الأمام ونزولا في<br>الطريق.",
+    "after": "ستجد الصدع مباشرة أمامك على المسار<br>داخل مدخل الكهف المؤدي إلى مخبأ<br>ريفت.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1390,
+    "key": "CARD_POCKET_SARG_A_TITLE",
+    "source_sha256": "ce62d656dde74e32e6a270e976a36b69ef702a15a69c4502a630957144e57339",
+    "before": "جيب الكهف",
+    "after": "جيب الكهف",
+    "decision": "keep"
+  },
+  {
+    "index": 1391,
+    "key": "CARD_POCKET_SARG_B_DESC",
+    "source_sha256": "885b01462078b466b46ab5bf0ee2b5e931c1ad110c123944d67d742db1eec9f7",
+    "before": "فجر الصناديق على الطرق الصلبة<br>لتجنب إيذاء نفسك. لكن بعض الممرات<br>المتفجرة ستحتاج إلى استخدامها<br>للعبور. كن سريعا!",
+    "after": "فجر الصناديق على الطرق الصلبة<br>لتجنب إيذاء نفسك. لكن بعض الممرات<br>المتفجرة ستحتاج إلى استخدامها<br>للعبور. كن سريعا!",
+    "decision": "keep"
+  },
+  {
+    "index": 1392,
+    "key": "CARD_POCKET_SARG_B_TITLE",
+    "source_sha256": "69c2940c0d129a9f9a51dc92634fc81e2f417b898d293058b4804cd4d0d71e2f",
+    "before": "ممرات متفجرة",
+    "after": "ممرات متفجرة",
+    "decision": "keep"
+  },
+  {
+    "index": 1393,
+    "key": "CARD_POCKET_SARG_C_DESC",
+    "source_sha256": "aa99bb7be74c35a24241831f434ecbd9c02d4bc793be331676ae087fb37594de",
+    "before": "تجنب القتال عن قرب بجوار صندوق<br>متفجر. حاول إطلاق النار على<br>الصندوق بدلا من ذلك. والأفضل أن<br>تفعل ذلك بسرعة قبل أن تنفجر منصتك!",
+    "after": "تجنب القتال عن قرب بجوار صندوق<br>متفجر. حاول إطلاق النار على<br>الصندوق بدلا من ذلك. والأفضل أن<br>تفعل ذلك بسرعة قبل أن تنفجر منصتك!",
+    "decision": "keep"
+  },
+  {
+    "index": 1394,
+    "key": "CARD_POCKET_SARG_C_TITLE",
+    "source_sha256": "3299e1c9c571b7e8a52698a65070a28f2884b9b3365759cf7ea2610899c50605",
+    "before": "حساس للوقت",
+    "after": "حساس للوقت",
+    "decision": "keep"
+  },
+  {
+    "index": 1395,
+    "key": "CARD_POCKET_SAV2_A_DESC",
+    "source_sha256": "e72bde3e7ab7c3655915ed21fa3a7b490d0990212a6ec4f6386f2aa184552203",
+    "before": "ابحث في الوادي الذي تجوب فيه وحوش<br>السهول قرب مهبط ثان للهبوط.",
+    "after": "ابحث في الوادي الذي تتجول فيه وحوش<br>السهول قرب مهبط ثانٍ.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1396,
+    "key": "CARD_POCKET_SAV2_A_TITLE",
+    "source_sha256": "eb7d6d63cc0d35450e969c0dfb64ba0c915010674206783ca78fb25c3795cc07",
+    "before": "جيب كئيب",
+    "after": "جيب كئيب",
+    "decision": "keep"
+  },
+  {
+    "index": 1397,
+    "key": "CARD_POCKET_SAV2_B_DESC",
+    "source_sha256": "f71bf4039080025003e8c40bffbc4cbcbd7d2e20ca1894bbd6ed98df58561274",
+    "before": "اقفز من لوحة إلى لوحة لتسلسل ركضك<br>على الجدران. واستخدم هذه التقنية<br>لتجنب الصناديق المتفجرة في الطريق.",
+    "after": "اقفز من لوحة إلى لوحة لتسلسل ركضك<br>على الجدران. واستخدم هذه التقنية<br>لتجنب الصناديق المتفجرة في الطريق.",
+    "decision": "keep"
+  },
+  {
+    "index": 1398,
+    "key": "CARD_POCKET_SAV2_B_TITLE",
+    "source_sha256": "bfcc84882b8f6b2b51432ffdba604e4761448e210384f881fd41e72e9cde7e1f",
+    "before": "تسلسل الركض على الجدران",
+    "after": "تسلسل الركض على الجدران",
+    "decision": "keep"
+  },
+  {
+    "index": 1399,
+    "key": "CARD_POCKET_SAV2_C_DESC",
+    "source_sha256": "37ed0d17ad164f9b6362b320e68d97c99044d22060a83f16b0d8d829dc3238e8",
+    "before": "اقفز من لوحة الركض على الجدار<br>وانطلق باندفاعة الطيف لتتجاوز حلقة<br>الصناديق المتفجرة. وتأكد من<br>استخدام رابطة الصدع لعبور الفجوة<br>الأخيرة.",
+    "after": "اقفز من لوحة الركض على الجدار<br>وانطلق باندفاعة الطيف لتتجاوز حلقة<br>الصناديق المتفجرة. وتأكد من<br>استخدام رابطة الصدع لعبور الفجوة<br>الأخيرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 1400,
+    "key": "CARD_POCKET_SAV2_C_TITLE",
+    "source_sha256": "c08f1e1bbdbe4325961aaf3e7bbedd837af067eee1ab344806a65198d98d59c7",
+    "before": "اندفاع خطير",
+    "after": "اندفاع خطير",
+    "decision": "keep"
+  },
+  {
+    "index": 1401,
+    "key": "CARD_POCKET_SAV_A_DESC",
+    "source_sha256": "d28f517927413e5ea0f6e42c55fd8d1d45f09d3701ab43c8d50b6574fe8f4260",
+    "before": "استكشف المنطقة خارج معبد الغابة<br>وابحث عن الصدع المخفي على امتداد<br>جدار صخري.",
+    "after": "استكشف المنطقة خارج معبد الغابة<br>وابحث عن الصدع المخفي على امتداد<br>جدار صخري.",
+    "decision": "keep"
+  },
+  {
+    "index": 1402,
+    "key": "CARD_POCKET_SAV_A_TITLE",
+    "source_sha256": "eaa3d3044d8951aead7ba1fd96fe3c88c90c8dc305979bc8354464056a183e7c",
+    "before": "جيب الغابة",
+    "after": "جيب الغابة",
+    "decision": "keep"
+  },
+  {
+    "index": 1403,
+    "key": "CARD_POCKET_SAV_B_DESC",
+    "source_sha256": "4e20ed43ae410a697ba47e122d9a9470a973a6f94744915e99be1352fc39f8f5",
+    "before": "اقفز نحو اللوحات لتجري عليها.<br>ويمكنك القفز إلى لوحات قريبة أخرى<br>لمواصلة الركض على الجدار إلى<br>الأمام.",
+    "after": "اقفز نحو اللوحات لتجري عليها.<br>ويمكنك القفز إلى لوحات قريبة أخرى<br>لمواصلة الركض على الجدار إلى<br>الأمام.",
+    "decision": "keep"
+  },
+  {
+    "index": 1404,
+    "key": "CARD_POCKET_SAV_B_TITLE",
+    "source_sha256": "e0b5f3bec3462e32c20161a8b5652df3105b0214645c38f0c8eec0955ef5abdc",
+    "before": "ركض على الجدار",
+    "after": "ركض على الجدار",
+    "decision": "keep"
+  },
+  {
+    "index": 1405,
+    "key": "CARD_POCKET_SAV_C_DESC",
+    "source_sha256": "1eb91f70894b69c7ca9b33c2914716cee8df9a56df3f775361958336248ef5dd",
+    "before": "للانتقالات الأكثر تعقيدا أو<br>لتتعافى من قفزة في غير توقيتها،<br>جرب استخدام اندفاعة الطيف لإبقاء<br>نفسك حيا.",
+    "after": "للانتقالات الأكثر تعقيدا أو<br>لتتعافى من قفزة في غير توقيتها،<br>جرب استخدام اندفاعة الطيف لإبقاء<br>نفسك حيا.",
+    "decision": "keep"
+  },
+  {
+    "index": 1406,
+    "key": "CARD_POCKET_SAV_C_TITLE",
+    "source_sha256": "e9be6d0f8808588232636291bd6e8389ede2d740d2ef744c782a3e49bd3a66dc",
+    "before": "انتقالات معقدة",
+    "after": "انتقالات معقدة",
+    "decision": "keep"
+  },
+  {
+    "index": 1407,
+    "key": "CARD_POCKET_ZURK_A_DESC",
+    "source_sha256": "daea768848ac6170743228c143ec52c10187b08bf0c475e4c8be5ae11f8d7345",
+    "before": "من سفينتك، استكشف مهبطات الهبوط<br>إلى يمينك لتحديد موقع الصدع.",
+    "after": "انطلق من سفينتك واستكشف المهابط<br>على يمينك للعثور على الصدع.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1408,
+    "key": "CARD_POCKET_ZURK_A_TITLE",
+    "source_sha256": "a4cd969d24fb484ca3d97448777a8cbb5e169f598b730d96d32d85ed3ab2a81e",
+    "before": "جيب الموقف",
+    "after": "جيب الموقف",
+    "decision": "keep"
+  },
+  {
+    "index": 1409,
+    "key": "CARD_POCKET_ZURK_B_DESC",
+    "source_sha256": "333640a41db9750048ec508f003a9b7aac49e3fbdb1f93842481a5bddcec4232",
+    "before": "تأكد ألا تمضطر للانتظار طويلا على<br>مسار واحد. اقفز إلى المسار المقابل<br>حين ترى المنصات تبدأ بالتبديل.",
+    "after": "لا تنتظر طويلًا على مسار واحد.<br>اقفز إلى المسار المقابل حين ترى<br>المنصات تبدأ بالتبدل.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1410,
+    "key": "CARD_POCKET_ZURK_B_TITLE",
+    "source_sha256": "5c7a15cd02eb0a498d640739592977852d0e34da1505ab3faee75a203909c7d0",
+    "before": "التوقيت هو المفتاح",
+    "after": "التوقيت هو المفتاح",
+    "decision": "keep"
+  },
+  {
+    "index": 1411,
+    "key": "CARD_POCKET_ZURK_C_DESC",
+    "source_sha256": "f6d666945daa847fe4c470078601fb2c4fe0ae62c8ef81b284b153c1b879a646",
+    "before": "واصل التحرك واستخدم الانطلاق<br>للوصول إلى هدفك بأمان.",
+    "after": "واصل التحرك واستخدم العدو للوصول<br>إلى هدفك بأمان.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1412,
+    "key": "CARD_POCKET_ZURK_C_TITLE",
+    "source_sha256": "cc35142e9a76d5667ebb9cd6b3a14de423e008d6baec7730e22c6458882dbe63",
+    "before": "واصل التحرك",
+    "after": "واصل التحرك",
+    "decision": "keep"
+  },
+  {
+    "index": 1413,
+    "key": "CARD_SPYBOT_ARDOLIS_DESC",
+    "source_sha256": "20e770ac47eb552b8f5da40555d24e78abd6c2382bed85da19ba4b2d086164d0",
+    "before": "على طريق الخنفساء، ابحث عن مسار<br>جانبي على يمينك حين تجاوز أول حلقة<br>مشتعلة. اتجه يمينا وواصل السير في<br>خط مستقيم إلى شاطئ سري. وعلى صخرة<br>قرب نهاية الطريق ستجد روبوت<br>التجسس.",
+    "after": "على مسار خنافس سبيتل، ابحث عن طريق<br>جانبي على يمينك بعد أول حلقة<br>مشتعلة. انعطف يمينًا وتابع<br>مستقيمًا إلى شاطئ سري. ستجد روبوت<br>التجسس على صخرة قرب نهاية الطريق.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1414,
+    "key": "CARD_SPYBOT_ARDOLIS_TITLE",
+    "source_sha256": "3939ddae2a2afa7b946bb22d4fe8ce15858550e073574a7c4843cb9c4e2cb037",
+    "before": "منقذ الغريق",
+    "after": "منقذ الغريق",
+    "decision": "keep"
+  },
+  {
+    "index": 1415,
+    "key": "CARD_SPYBOT_ARENA_DESC",
+    "source_sha256": "499078fe83326f8dc2b6a886a2cd01d1b6a1ff5fa30485faadcd596859271e09",
+    "before": "أكمل تحدي الكأس الذهبي &quot;دردشة<br>الطريق&quot; لتحصل على روبوت التجسس<br>كمكافأة.",
+    "after": "أكمل تحدي الكأس الذهبية &quot;جولة<br>بالدراجة&quot; لتحصل على روبوت التجسس<br>مكافأة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1416,
+    "key": "CARD_SPYBOT_ARENA_TITLE",
+    "source_sha256": "e12f903b8485fe9b36ac451d013cbd1533e0ecbe06682b11050443d8b16628f2",
+    "before": "سائق الطريق",
+    "after": "مرافق الفرقة",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1417,
+    "key": "CARD_SPYBOT_BLIZAR_DESC",
+    "source_sha256": "60743e75bff96fece1f7db4d6e74b552a6a23b83cb551e95fce1875e4dac241a",
+    "before": "ساعد رئيسة الطهاة توليو في تحضير<br>وصفةها العظيمة التالية على بليزار<br>برايم لتحصل على روبوت التجسس.",
+    "after": "ساعد الطاهية توليو على ابتكار<br>وصفتها العظيمة التالية في بليزار<br>برايم لتحصل على روبوت التجسس.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1418,
+    "key": "CARD_SPYBOT_BLIZAR_TITLE",
+    "source_sha256": "2caa52291e9f8c77c4ae040d9ce6b06a7424451406099c3f4beb9ff7b987d00e",
+    "before": "قدر العسل",
+    "after": "قدر العسل",
+    "decision": "keep"
+  },
+  {
+    "index": 1419,
+    "key": "CARD_SPYBOT_CORDELION_DESC",
+    "source_sha256": "6006d8397983c1cf43e86f7156ae6bb918c9936989abd5526f996b9db303b1f7",
+    "before": "في داخل غرفة المصنع، اصعد إلى وحدة<br>التحكم الرئيسية واستدر لتلاحظ<br>روبوت التجسس مختبئا في الأعلى.<br>واستخدم رابطة الصدع للوصول إليه.",
+    "after": "داخل غرفة المسبك، اصعد إلى وحدة<br>التحكم الرئيسية واستدر لترى روبوت<br>التجسس مختبئًا في الأعلى. استخدم<br>رابطة الصدع للوصول إليه.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1420,
+    "key": "CARD_SPYBOT_CORDELION_TITLE",
+    "source_sha256": "42b9bcb7affc4b64309b292d1563535c8d921c4e5b64e0dd366710c950440602",
+    "before": "العالم",
+    "after": "العالم",
+    "decision": "keep"
+  },
+  {
+    "index": 1421,
+    "key": "CARD_SPYBOT_MOLONOTH_DESC",
+    "source_sha256": "0f472281a0b31875cc78924adeb203c9249fb3f2af7ee187ed5fb2801d6f9b04",
+    "before": "أثناء وجودك في بلدة الخردة<br>الصغيرة، حدد سطح المغناطيس المخفي<br>وانزل إلى الكهف للعثور على روبوت<br>التجسس.",
+    "after": "أثناء وجودك في بلدة الخردة<br>الصغيرة، حدد سطح المغناطيس المخفي<br>وانزل إلى الكهف للعثور على روبوت<br>التجسس.",
+    "decision": "keep"
+  },
+  {
+    "index": 1422,
+    "key": "CARD_SPYBOT_MOLONOTH_TITLE",
+    "source_sha256": "56644ff1fab3145a84184f8ec17c8a4edf6c191512ab41aca7e1864759f8d0c0",
+    "before": "الناسك",
+    "after": "الناسك",
+    "decision": "keep"
+  },
+  {
+    "index": 1423,
+    "key": "CARD_SPYBOT_NEFCITY_DESC",
+    "source_sha256": "f5f2fc3a3db1449e2b21d304e6ee836c3fab333620f228ccd11586b506b803e8",
+    "before": "قاتل عبر جنود العدو في مصنع أعمال<br>نيفاريوس لاستعادة روبوت التجسس.",
+    "after": "قاتل لتشق طريقك عبر الجنود الأعداء<br>في مصنع أعمال نيفاريوس وتحصل على<br>روبوت التجسس.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1424,
+    "key": "CARD_SPYBOT_NEFCITY_TITLE",
+    "source_sha256": "eae477cd25960cee4a61bfdd96c0c6a4bbdf0ce8ddf9231c7ce93fe80ca7975e",
+    "before": "المسافر",
+    "after": "المسافر",
+    "decision": "keep"
+  },
+  {
+    "index": 1425,
+    "key": "CARD_SPYBOT_SARGASSO_DESC",
+    "source_sha256": "f613e580981b753239a3c967c2ab4d95b59659f9859b7b7bce5edbf4582faea4",
+    "before": "بعد جمع حجارة زورب كلها، عد إلى<br>مورت وترودي لتحصل على روبوت<br>التجسس.",
+    "after": "بعد جمع أحجار الزورب كلها، عد إلى<br>مورت وترودي لتحصل على روبوت<br>التجسس.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1426,
+    "key": "CARD_SPYBOT_SARGASSO_TITLE",
+    "source_sha256": "b8a44a8a3bb17c819e02c8d87e3a6589e4bb1fa7f7c76f5e320ba008d980f460",
+    "before": "الجيولوجي",
+    "after": "الجيولوجي",
+    "decision": "keep"
+  },
+  {
+    "index": 1427,
+    "key": "CARD_SPYBOT_SAVALI_DESC",
+    "source_sha256": "bb50a4cc8248030e4bef8da33b9d44c6a0df8c4938d08d9ecd71f91f4bdb4f62",
+    "before": "،بعيدا عن الطريق المألوف يقود جسر<br>مكسور إلى جحر يخفي كنز قراصنة<br>ضائعا... روبوت التجسس! ،كن حذرا<br>فقد يكون فخا.",
+    "after": "بعيدًا عن المسار المعتاد، يقود جسر<br>مكسور إلى تجويف يخفي كنز قراصنة<br>ضائعًا... روبوت تجسس! احذر، فقد<br>يكون فخًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1428,
+    "key": "CARD_SPYBOT_SAVALI_TITLE",
+    "source_sha256": "88b67ce3a706ca9e6fcc14b2df7bf76d5139542cc95df2c8167d0167ed1fbf82",
+    "before": "مقلاة النحاس",
+    "after": "القدر النحاسي",
+    "decision": "rewrite"
+  },
+  {
+    "index": 1429,
+    "key": "CARD_SPYBOT_ZORDOOM_DESC",
+    "source_sha256": "c49937a67090fea35ff2bdafeb124d5f2a3f6ced7688048f2e7dce465559f2cb",
+    "before": "أثناء تنقلك عبر مجاري الهواء فوق<br>مركز المعالجة، انظر خلف بعض<br>الأنابيب والفتحات لتجد غرفة مخفية<br>تحوي روبوت التجسس.",
+    "after": "أثناء تنقلك عبر مجاري الهواء فوق<br>مركز المعالجة، انظر خلف بعض<br>الأنابيب والفتحات لتجد غرفة مخفية<br>تحوي روبوت التجسس.",
+    "decision": "keep"
+  },
+  {
+    "index": 1430,
+    "key": "CARD_SPYBOT_ZORDOOM_TITLE",
+    "source_sha256": "c68176617eb8a2c5126647d4a853c39b7aac4fa47047928760b04958d18fa788",
+    "before": "الهارب",
+    "after": "الهارب",
+    "decision": "keep"
+  },
+  {
+    "index": 1431,
+    "key": "CARD_SPYBOT_ZURKIES_DESC",
+    "source_sha256": "482b1e21949581bf6a3a81e6a41ea57ed1bc89ed588b597e79aa8dfd02b7bbe4",
+    "before": "بعد الحصول على الهيرلشوت في<br>مولونوث، اتجه إلى يمين مدخل حانة<br>زوركيز لتقفز بنفسك إلى روبوت<br>التجسس.",
+    "after": "بعد الحصول على الهيرلشوت في<br>مولونوث، اتجه إلى يمين مدخل حانة<br>زوركيز لتقفز بنفسك إلى روبوت<br>التجسس.",
+    "decision": "keep"
+  },
+  {
+    "index": 1432,
+    "key": "CARD_SPYBOT_ZURKIES_TITLE",
+    "source_sha256": "8cb468619743419303d45dfdc950724e03754183a14c8ee7b6eb6f15ab0e60d6",
+    "before": "أمين الموقف",
+    "after": "أمين الموقف",
+    "decision": "keep"
+  }
+]

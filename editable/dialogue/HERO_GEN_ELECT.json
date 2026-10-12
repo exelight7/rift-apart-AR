@@ -6,14 +6,22 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_ELECT",
     "arabic_current": "<ts=&quot;0;1.75&quot;>بالضبط الشرارة التي<br>احتجتها.",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>بالضبط الشرارة التي احتجتها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>هذه هي الشرارة التي احتجت إليها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "8c92b867e0656b41d0bd0f97972e83def3bbe6d4d9cf8d66241eea3dfcb65539",
+      "candidate_sha256": "e728353e37800a6a52bf0c17967676ea5e6968c45b47795685508a1189eaebec",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2016,
@@ -22,13 +30,21 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_ELECT",
     "arabic_current": "<ts=&quot;0;1.75&quot;>طاقة مجانية؟ ما أجمل.",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>طاقة مجانية؟ ما أجمل.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>طاقة مجانية؟ كم هذا جميل.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "f9ba2dbcdebe8b4d0d7710d4037832df1e01698f368259fd3a344f11b0cb879a",
+      "candidate_sha256": "cffcb091538f84e0521f137e790b79baec4a9f05a6695bf13d5cf8edf8a407d4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2017,
@@ -38,13 +54,21 @@
     "scene_code": "HERO_GEN_ELECT",
     "arabic_current": "<ts=&quot;0;2.25&quot;>أشعر بأنني ممتلئ بالطاقة<br>بالفعل!",
     "arabic_edit": "<ts=&quot;0;2.25&quot;>أشعر بأنني ممتلئ بالطاقة بالفعل!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "c5cf6f97ddb78b881909f0fb28a84ca0aa3d3fb1edeb4ba60e0d8df85fbabc74",
+      "candidate_sha256": "b194d12872f377dad99a95a0b3a49ec7b7b1f6cd1e42a7b1cee945765b518ad4",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2018,
@@ -53,13 +77,21 @@
     "speaker_code": "CLANK",
     "scene_code": "HERO_GEN_ELECT",
     "arabic_current": "<ts=&quot;0;1.75&quot;>مشحونة بالكهربائية.",
-    "arabic_edit": "<ts=&quot;0;1.75&quot;>مشحونة بالكهربائية.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.75&quot;>مكهرب تمامًا.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "b6405bda0a5e5369dd53a053ab40853641f49abfaf82496166b59c9247572ed4",
+      "candidate_sha256": "d48ad72babab9d4bd83f9cefb0d345a710718d1fa2dd6ebcca92ef89b92c5658",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2019,
@@ -69,12 +101,20 @@
     "scene_code": "HERO_GEN_ELECT",
     "arabic_current": "<ts=&quot;0;1.75&quot;>أوو، أي قوة.",
     "arabic_edit": "<ts=&quot;0;1.75&quot;>أوو، أي قوة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "b9de41eb07f4ca0971d4f081ef501694f8aa4662a43b7dd793f2bd84897d5ab0",
+      "candidate_sha256": "7ba4e07447ef5d0079351bf22d1b5827124d0d7144521630d68b13105ebaba3b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2020,
@@ -84,12 +124,20 @@
     "scene_code": "HERO_GEN_ELECT",
     "arabic_current": "<ts=&quot;0;1.608&quot;>سيبقي هذا طاقتك مرتفعة.",
     "arabic_edit": "<ts=&quot;0;1.608&quot;>سيبقي هذا طاقتك مرتفعة.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-004",
+      "source_sha256": "8381088369ec958b6f3669f9f4bde8517878f329fcf6e9ee4564e50d1dde005e",
+      "candidate_sha256": "147568e9d84f491015c7e7bf6c0d08763946a6dde036657a16883c3e959015c0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11205,
@@ -98,13 +146,21 @@
     "speaker_code": "KIT",
     "scene_code": "HERO_GEN_ELECT",
     "arabic_current": "<ts=&quot;0;1.25&quot;>جاهز للتشغيل.",
-    "arabic_edit": "<ts=&quot;0;1.25&quot;>جاهز للتشغيل.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;1.25&quot;>جاهزة لإمداد الأشياء بالطاقة.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "e98dc8b3119c0d4684c1bf878ac01ac5ce9293892d322b6b6ec29389c5fe955a",
+      "candidate_sha256": "e34df27e0a1fe63ca0d5a7ffae2fb8f395eaf50feac3bf596089c6580a72f174",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11206,
@@ -113,13 +169,21 @@
     "speaker_code": "KIT",
     "scene_code": "HERO_GEN_ELECT",
     "arabic_current": "<ts=&quot;0.044;2.926&quot;>مادة إلى طاقة؟ ما أريحه!",
-    "arabic_edit": "<ts=&quot;0.044;2.926&quot;>مادة إلى طاقة؟ ما أريحه!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.044;2.926&quot;>تحويل المادة إلى طاقة؟ كم هذا عملي!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "9df336f3a0fe0855d325746154469f38722790d9d5153a755e2c9b0a091953a6",
+      "candidate_sha256": "2277519f7d6638931412bd3e41d377dde5aed16da6c25d556cae096c1a13161e",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 11207,
@@ -128,12 +192,20 @@
     "speaker_code": "KIT",
     "scene_code": "HERO_GEN_ELECT",
     "arabic_current": "<ts=&quot;0.18;1.499&quot;>إذن... لامع...",
-    "arabic_edit": "<ts=&quot;0.18;1.499&quot;>إذن... لامع...",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.18;1.499&quot;>كم هو... متلألئ...",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-014",
+      "source_sha256": "372073ca2213bc45edb17959e3483fd12cf41307b94eaeb02256ef90e8f9ff7d",
+      "candidate_sha256": "4bad5dfae8ca2e18aba8a4b0d3e8835bd10c46daaa35709b103fd11690184e35",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

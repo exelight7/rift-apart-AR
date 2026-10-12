@@ -6,14 +6,22 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_TOPIARYAVAIL",
     "arabic_current": "<ts=&quot;0.72;3.029&quot;>،يبدو إنك تميل إلى الزراعة<ts=&quot;3.029;6.736&quot;>ولدي قنابل جديدة تحمل<br>اسمك!",
-    "arabic_edit": "<ts=&quot;0.72;3.029&quot;>،يبدو إنك تميل إلى الزراعة<ts=&quot;3.029;6.736&quot;>ولدي قنابل جديدة تحمل اسمك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.72;3.029&quot;>يبدو أنك بارع في الزراعة!<ts=&quot;3.029;6.736&quot;>لدي قنابل جديدة بانتظارك!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "e3372b8f2c7f709f71b0176a8d6ca9896c222f0026b93ab55484e4188a646cfd",
+      "candidate_sha256": "b9f912c08415334a829b9a1daf18ee50becf8d02c1445d7cc2dbe08cebc44142",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13664,
@@ -23,13 +31,21 @@
     "scene_code": "CIV_GEN_TOPIARYAVAIL",
     "arabic_current": "<ts=&quot;0.065;7.024&quot;>تعال خذ رشاشات التشذيب!<br>حول أعداءك إلى شجيرات بهذه<br>الصغائر!",
     "arabic_edit": "<ts=&quot;0.065;7.024&quot;>تعال خذ رشاشات التشذيب! حول أعداءك إلى<br>شجيرات بهذه الصغائر!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "3782d4b67664e1a43c2e8dac234b730995bac7725792206714a9693367ee6264",
+      "candidate_sha256": "1d6bf85a464b7102514d3e17c81b8e28231ec9d3a71de7901a25b4d91cb814e1",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 13665,
@@ -38,13 +54,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_TOPIARYAVAIL",
     "arabic_current": "<ts=&quot;0.04;2.82&quot;>أتريد تحويل أعدائك إلى<br>مناظر طبيعية؟<ts=&quot;3.19;5.612&quot;>يا حبيبتي، لدي السلاح<br>المناسب لك!",
-    "arabic_edit": "<ts=&quot;0.04;2.82&quot;>أتريد تحويل أعدائك إلى مناظر طبيعية؟<ts=&quot;3.19;5.612&quot;>يا حبيبتي، لدي السلاح المناسب لك!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.04;2.82&quot;>أتريد تحويل أعدائك إلى مناظر طبيعية؟<ts=&quot;3.19;5.612&quot;>لدي السلاح المناسب لك، يا قمر!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-018",
+      "source_sha256": "7f727992fb31e14b5cecdc25deac9ef69080d46c0b969e13171ec3d7ccb1a7df",
+      "candidate_sha256": "1901c2763ffeb98f0b75c208ce4767f5daa9bd01a0d83f9f19f0bf0d3648fb53",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

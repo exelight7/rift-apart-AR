@@ -6,15 +6,23 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يتيح هذا الخيار الاهتزاز<br>المتقدم في يد التحكم<br>وإذا كان معطلا، .اللاسلكية<br>فسيستخدم الاهتزاز<br>.الكلاسيكي",
-    "arabic_edit": "يفعل ردود الفعل اللمسية المتقدمة<br>في جهاز التحكم اللاسلكي. عند<br>تعطيله، يستخدم الاهتزاز التقليدي.",
+    "arabic_edit": "يفعل الاستجابة اللمسية المتقدمة في جهاز<br>التحكم اللاسلكي DualSense™. عند تعطيله،<br>يستخدم الاهتزاز التقليدي.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "1339bf56447e86446ca002dfe378e27ee2324b58a943d53cad044f9a30445b26",
+      "candidate_sha256": "e5ddddc1423208d2a199ad255eb8496cd3bb0cb401efb9884e6ec10af3fc9901",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 383,
@@ -25,12 +33,20 @@
     "arabic_current": "الاهتزاز المتقدم",
     "arabic_edit": "ردود الفعل اللمسية المتقدمة",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "3377db73cdec7d71b815fcbcbc0e7bfa768168f89a4e688e71b0062ca2dedd88",
+      "candidate_sha256": "c7915414759307fb9c9a41cd27495fa075ad387956b332295649d837756558a2",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 384,
@@ -41,12 +57,20 @@
     "arabic_current": "يوجه هذا الخيار الصوت<br>تلقائيا إلى سماعة الرأس إن<br>كانت موصولة، وإلا فإلى<br>.السماعات",
     "arabic_edit": "يوجه الصوت إلى سماعة الرأس عند<br>توصيلها، وإلى مكبر الصوت في غير<br>ذلك.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "e35c00154a00a99c50dd3d253f9b8639e4028b9f6ba33ee7c9b6e0e4589021f1",
+      "candidate_sha256": "f41a7bad7147ba68c13b9eb6c6527f7a6982b8ceff980eaf2b729bb8897a9e1f",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 385,
@@ -56,12 +80,20 @@
     "scene_code": "",
     "arabic_current": "تلقائي",
     "arabic_edit": "تلقائي",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-001",
+      "source_sha256": "6ea56fae9eacbb0ebed74bbbe731cf1179b7d41146162fe9b8c26cf0615c2367",
+      "candidate_sha256": "c190381bd30c4b065f9f7d0b4eea449210d084e9c2dc495f6a8080ed998dbec0",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 386,
@@ -70,14 +102,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يحدد هذا الخيار، عند تفعيله،<br>مخرج الصوت المستخدم في<br>يد تحكم دوال سينز<br>اللاسلكية ويد تحكم دوال<br>.اللاسلكية 4 شوك",
-    "arabic_edit": "يحدد مخرج الصوت في جهاز التحكم<br>اللاسلكي.",
+    "arabic_edit": "يحدد مخرج الصوت المستخدم في جهازي التحكم<br>اللاسلكيين DualSense™ وDUALSHOCK®4 عند<br>تفعيله.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "7b6e7722246e8cc9ff6a4a929466581918812adfeac316c3016f01eeab4e6e1b",
+      "candidate_sha256": "14f67ee32b09a05235990615b0bf15b935ad2c5c832eae6353a7eb8487b4ca96",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 387,
@@ -86,14 +126,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "يخرج صوت جهاز التحكم إلى<br>.سماعة الرأس بالوضع الأحادي",
-    "arabic_edit": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس بصوت أحادي.",
+    "arabic_edit": "يخرج صوت جهاز التحكم إلى سماعة الرأس بوضع<br>Mono Audio.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "af9cd8b617a5a0745dd6a134da1c1219c18430775213acc957b68357d5d13b51",
+      "candidate_sha256": "70ca69a9fbcb74a5d92472d8d1ec67952964c59f39d6dadeda330a383d3b0078",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 388,
@@ -102,14 +150,22 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": ")أحادي( سماعة الرأس",
-    "arabic_edit": "سماعة الرأس — أحادي",
+    "arabic_edit": "سماعة الرأس (Mono Audio)",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "37394fabdece4621e48c9ce5474956c45b4c85ca67e5169fda60dab833cf27fb",
+      "candidate_sha256": "bcae98bf6ac641042a454d202757e40caa0f59ecc121b5fda75562981954f282",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 389,
@@ -120,12 +176,20 @@
     "arabic_current": "يخرج صوت جهاز التحكم إلى<br>.السماعات وسماعة الرأس معا",
     "arabic_edit": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس ومكبر الصوت معًا.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "7b7976bb79146ad885f9f0f2d20701eab4e73a326aedd10ed2c352cbece7cd4a",
+      "candidate_sha256": "e336b6bfbeab949eaf32a27b1dbe98fbed2c973d55fde3aa0950ddf2d5c6c378",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 390,
@@ -135,12 +199,20 @@
     "scene_code": "",
     "arabic_current": "كلاهما",
     "arabic_edit": "كلاهما",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-001",
+      "source_sha256": "8c458494c5d04df54c112ea5142a090edd9784bc432ad1a43c16cf4bd7b3ac9e",
+      "candidate_sha256": "0317e5c4aaa525cf7473493dfd9d066e4cd8cad77f77b93d4810a1f374714920",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 391,
@@ -151,12 +223,20 @@
     "arabic_current": "يخرج صوت جهاز التحكم إلى<br>سماعة الرأس بوضعي<br>.الستيريو",
     "arabic_edit": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس بصوت ستيريو.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "fc4d68854d02e9ed9f5ec43dadd3dba482f4b886da727ddc15c590d32a7eb2b1",
+      "candidate_sha256": "11b9e4836474ea4ef75d3e43b499a104b47496aba2637b303aeb925aa21f9842",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 392,
@@ -167,12 +247,20 @@
     "arabic_current": ")ستيريو( سماعة الرأس",
     "arabic_edit": "سماعة الرأس — ستيريو",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "3a8cf73cb1fadfcd1b3b5437bc88986e78b4e2e6df664e2adea56f71cfc706d2",
+      "candidate_sha256": "f6bfe1d4c3ae1b38964fe575d71629206e63a04969377fab911d5133525ecec6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 393,
@@ -183,13 +271,21 @@
     "arabic_current": "أوقف إخراج الصوت إلى جهاز<br>.التحكم",
     "arabic_edit": "يعطل إخراج الصوت عبر جهاز التحكم.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "line_layout",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "6615be3ff06d69b474c98cc07a46675f5783bb4067babc383b886cd4c675ff85",
+      "candidate_sha256": "42b8d369b24ddb815c5f89753f0310c8f035e1127f59ad88b931baa585ce9323",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 394,
@@ -199,12 +295,20 @@
     "scene_code": "",
     "arabic_current": "معطل",
     "arabic_edit": "معطل",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-001",
+      "source_sha256": "38cca6bea010af8adaf4be7d270456fa9adef8c0252db91f2767c607d077319b",
+      "candidate_sha256": "21dc96b9f9f8c89119308616d6c7d803c06513690ec2041e0394785bd0643f1c",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 395,
@@ -215,12 +319,20 @@
     "arabic_current": "يخرج صوت جهاز التحكم إلى<br>.السماعات",
     "arabic_edit": "يشغل صوت جهاز التحكم عبر مكبر<br>الصوت.",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "40509ed4fdbd3f3edadc20dd4e444850331404ac5d22dff313b128676c13fc31",
+      "candidate_sha256": "53deeaf14fab629607bba6d9360fcbe2892177ede4109641297c4508f9d2b219",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 396,
@@ -230,12 +342,20 @@
     "scene_code": "",
     "arabic_current": "السماعات",
     "arabic_edit": "السماعات",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-001",
+      "source_sha256": "5ce1f0d402c476bd9f67fcfd18a38347bf0a38b3eeffb3d35b59ddb03080808e",
+      "candidate_sha256": "ddcc00d1ca3220920a8490a540e38833cc618ad79720fcaabf7210e25382bd60",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 397,
@@ -246,11 +366,19 @@
     "arabic_current": "مخرج صوت أجهزة التحكم",
     "arabic_edit": "مخرج صوت جهاز التحكم",
     "status": "reviewed",
-    "notes": "مراجعة صياغة سابقة؛ مع تحديث التقنيات والتنسيق.",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "prose_batch1"
-    ]
+      "prose_batch1",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "baseline-audit-001",
+      "source_sha256": "0544f4433d6a7352d883092f35b2eae27edc3dc96efdafb4cb2b4ed99092f5c7",
+      "candidate_sha256": "5b7544e4456c8a8df633271af69b70825413f579ea5e853052465451d60ba2b6",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

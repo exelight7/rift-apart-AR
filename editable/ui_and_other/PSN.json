@@ -6,12 +6,20 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "شكرا لكونك جزءا من مجتمع<br>بلايستيشن. لقد منحاك<span class='emphasis'>25 من الراريتانيوم</span>داخل اللعبة!",
-    "arabic_edit": "شكرا لكونك جزءا من مجتمع<br>بلايستيشن. لقد منحاك<span class='emphasis'>25 من الراريتانيوم</span>داخل اللعبة!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "شكرًا لانضمامك إلى مجتمع<br>PlayStation™Network. لقد منحت <span class='emphasis'>25 من الراريتانيوم</span> داخل اللعبة!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "ui-008",
+      "source_sha256": "958101a629281736463ac054452e6b2b24d6d4695c77d5b11e9a0605f54b7bb0",
+      "candidate_sha256": "0dd791b8e39ec9f577d234d57358155fcf8de1d998d274a4b5ae7089c5b7806d",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

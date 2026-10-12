@@ -1,0 +1,2402 @@
+[
+  {
+    "index": 14017,
+    "key": "NEFC2_CIV_GEN_NEONEFCIV_GEN_007",
+    "source_sha256": "94d9d8bd9926e92a14856c7443679b422cef66ec0f5ba0cdf38a9e24c68a5b97",
+    "before": "<ts=&quot;0.38;1.66&quot;>بالتأكيد، نحن...<ts=&quot;2.02;2.37&quot;>كذلك!",
+    "after": "<ts=&quot;0.38;1.66&quot;>بالتأكيد، نحن...<ts=&quot;2.02;2.37&quot;>كذلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14018,
+    "key": "NEFC2_CIV_GEN_NEONEFCIV_GEN_008",
+    "source_sha256": "47e70757354e11e3ec0292afc6eac8a0c81c2b6c1a3afc2f5f2ef15f5d8a2cd4",
+    "before": "<ts=&quot;0.039;3.229&quot;>حسنا، أتساءل ما الذي يفعله الإمبراطور<br>بالسماء!",
+    "after": "<ts=&quot;0.039;3.229&quot;>حسنا، أتساءل ما الذي يفعله الإمبراطور<br>بالسماء!",
+    "decision": "keep"
+  },
+  {
+    "index": 14019,
+    "key": "NEFC2_CIV_GEN_NEONEFCIV_GEN_009",
+    "source_sha256": "a500275569bad34b154c3995ac597cc1bbb40d061e67ddb8d0b8c9c8231df425",
+    "before": "<ts=&quot;0.037;2.654&quot;>إلى أي مدى تظن أن الأمر سيصبح سيئا بالنسبة<br>إلينا؟",
+    "after": "<ts=&quot;0.037;2.654&quot;>إلى أي مدى تظن أن الأمر سيصبح سيئا بالنسبة<br>إلينا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14020,
+    "key": "NEFC2_CIV_GEN_NEONEFCIV_GEN_010",
+    "source_sha256": "1bb55c5affc866ced1c3b6bb77675f7e79cdf7f8771b44cf911c258db1344328",
+    "before": "<ts=&quot;0.041;2.339&quot;>ماذا لو هربنا عبر إحدى تلك الصدوع؟",
+    "after": "<ts=&quot;0.041;2.339&quot;>ماذا لو هربنا عبر إحدى تلك الصدوع؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14021,
+    "key": "NEFC2_CIV_GEN_NEONEFCIV_GEN_011",
+    "source_sha256": "bd6ffa5a429f30496e65a8c52bea967cdb79f6443575fa082a1d8c2cbbefee76",
+    "before": "<ts=&quot;0.041;1.623&quot;>لا يستطيع قتلنا هناك!",
+    "after": "<ts=&quot;0.041;1.623&quot;>لا يستطيع قتلنا هناك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14027,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_001",
+    "source_sha256": "fa7e63f22b1635d49be989a9c322a0fa420eb32748f6b5ce0ea114b5ef71e6e0",
+    "before": "<ts=&quot;0.033;2.222&quot;>آه... هل المفترض أن تكون هنا؟",
+    "after": "<ts=&quot;0.033;2.222&quot;>آه... هل المفترض أن تكون هنا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14028,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_002",
+    "source_sha256": "21d0039c4da34fd96b6f838b58743b112cc41cd79f22e1dd547fcdaed51b30bd",
+    "before": "<ts=&quot;0.15;0.85&quot;>لا، لا.<ts=&quot;1;2.05&quot;>اللومباكس المتمرد!",
+    "after": "<ts=&quot;0.15;0.85&quot;>أوه، لا.<ts=&quot;1;2.05&quot;>اللومباكس المتمرد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14029,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_003",
+    "source_sha256": "4cab0c5c807ce8adc2827559d1a3f22ad373fa492e8ff6a72afa7915528457bc",
+    "before": "<ts=&quot;0;0.7&quot;>أرجوك. أبق...<ts=&quot;1.119;1.819&quot;>على مسافة!",
+    "after": "<ts=&quot;0;0.7&quot;>أرجوك، حافظ...<ts=&quot;1.119;1.819&quot;>على مسافة بيننا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14030,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_004",
+    "source_sha256": "b3dd4004f2239491a3ef16db9ac096e820a69ac00958507563cbb736d87dd5c2",
+    "before": "<ts=&quot;0;2.233&quot;>هل هذا هو اللومباكس الموجود في الملصقات؟",
+    "after": "<ts=&quot;0;2.233&quot;>هل هذا هو اللومباكس الموجود في الملصقات؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14031,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_005",
+    "source_sha256": "5ced8e50eb7a93dc91bd5c4cda3cd4ac05b22aa02f1641a6606091d49c9a9f3a",
+    "before": "<ts=&quot;0;2.37&quot;>هل... يمكنني... مساعدتك؟",
+    "after": "<ts=&quot;0;2.37&quot;>هل... يمكنني... مساعدتك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14032,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_006",
+    "source_sha256": "a8761a9f176a5f7950083c0b18d3de2365e2d798f4c06324004485d5bd748f35",
+    "before": "<ts=&quot;0;2.023&quot;>أوه. من أين أتيت؟",
+    "after": "<ts=&quot;0;2.023&quot;>أوه. من أين أتيت؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14033,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_007",
+    "source_sha256": "6b1cd10440c4f13ee3dd30f2de199df653c2b4223433bdad01fba2e0a5f0c69d",
+    "before": "<ts=&quot;0.03;0.46&quot;>ما<ts=&quot;1.29;3.029&quot;>هذا؟ أحتاج إلى فحص مجساتي.",
+    "after": "<ts=&quot;0.03;0.46&quot;>ما<ts=&quot;1.29;3.029&quot;>هذا؟ أحتاج إلى فحص مجساتي.",
+    "decision": "keep"
+  },
+  {
+    "index": 14034,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_008",
+    "source_sha256": "65e9d2d4e3d102505f8d65f8157362ddcebb3ee890cf47a05945600dcdd5f198",
+    "before": "<ts=&quot;0.18;1.499&quot;>آه... مرحبا! أهلا.",
+    "after": "<ts=&quot;0.18;1.499&quot;>آه... مرحبا! أهلا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14035,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_009",
+    "source_sha256": "3826459258b59a367493a7258d5f447fbd3fe67164273737d6635335dc198775",
+    "before": "<ts=&quot;0;0.7&quot;>،يا لها<ts=&quot;1.099;2.499&quot;>انظر إلى تلك الأذنين...",
+    "after": "<ts=&quot;0;0.7&quot;>يا للعجب،<ts=&quot;1.099;2.499&quot;>انظر إلى هاتين الأذنين...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14036,
+    "key": "NEFC2_CIV_GEN_SEEPLAYER_010",
+    "source_sha256": "47255c01082069b541c21bad7a227d570d3d9fa4779643ae7f4a47cd2ccac728",
+    "before": "<ts=&quot;0.16;1.5&quot;>تحيات أيها المواطن!",
+    "after": "<ts=&quot;0.16;1.5&quot;>تحياتي، يا زميلي المواطن!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14049,
+    "key": "NEFC2_CIV_GEN_VISIT1_001",
+    "source_sha256": "de0f84c813ce75fb1528ec6cb21e4d46074abf5095822795ec0940f72a5cec00",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.174&quot;>هذا المكان يتفوق حقا على نادي نيفاريوس،<br>أليس كذلك؟",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.174&quot;>هذا المكان يتفوق حقا على نادي نيفاريوس،<br>أليس كذلك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14050,
+    "key": "NEFC2_CIV_GEN_VISIT1_002",
+    "source_sha256": "214a0b7f14d9a6f2e4407591ffd5d085458f53b2e22d8175aa035db790dd9366",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.873&quot;>بيير هنا؟! لا تطل نظرك يا فيل...",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.873&quot;>بيير هنا؟! لا تطل نظرك يا فيل...",
+    "decision": "keep"
+  },
+  {
+    "index": 14051,
+    "key": "NEFC2_CIV_GEN_VISIT2_001",
+    "source_sha256": "d5a7826696575ba8a84fe9f8f7f969900cac4f2381be3578f7cce5cc87782eed",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.04;4.297&quot;>لا أصدق أن أحدا تجاوز نتيجتي. كم من<br>المسامير ذهبت هباء...",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.04;4.297&quot;>لا أصدق أن أحدا تجاوز نتيجتي. كم من<br>المسامير ذهبت هباء...",
+    "decision": "keep"
+  },
+  {
+    "index": 14052,
+    "key": "NEFC2_CIV_GEN_VISIT2_002",
+    "source_sha256": "d39cc39ff2f0fdd8490de625fcc59d872ebe0e6cad0f325cee421eb17902b327",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.048;2.695&quot;>يبدو أن المقاومة تحقق تقدما كبيرا.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.048;2.695&quot;>يبدو أن المقاومة تحقق تقدما كبيرا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14053,
+    "key": "NEFC2_CIV_GEN_VISIT3_001",
+    "source_sha256": "b340256745b5f21744ca1b2e2803b6388b17af0afc8956c4d6c93932eb819990",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.018;2.963&quot;>ماذا يضيف زوركي إلى تلك المشروبات؟ لن أمل<br>منها أبدا.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.018;2.963&quot;>ماذا يضيف زوركي إلى تلك المشروبات؟ لن أمل<br>منها أبدا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14054,
+    "key": "NEFC2_CIV_GEN_VISIT3_002",
+    "source_sha256": "0411c832a856477ff79d3952ce0ffe7c7ab783258cf08e35736f9d2d8b0f39ba",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.012;4.255&quot;>إمبراطوران؟! يا إلهي، أين سأضع تمثال<br>الجزية *الآخر*؟",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.012;4.255&quot;>إمبراطوران؟! أين سأضع تمثال تكريم *آخر*؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14055,
+    "key": "NEFC2_CIV_GEN_VISIT4_001",
+    "source_sha256": "fd29af89bc02c3f56b50f0b02b2aa04cae5eb7603f2ac423a523607d94610b65",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.037;2.344&quot;>من هو ذلك الوسيم عند البار؟",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.037;2.344&quot;>من هو ذلك الوسيم عند البار؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14056,
+    "key": "NEFC2_CIV_GEN_VISIT4_002",
+    "source_sha256": "0ccaba8748e4f46ccfd736c1acc1915dead8531b8f63dd2189945008256689aa",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.032;4.995&quot;>آه، الدعم المعنوي. نعم. هذا هو ما أستطيع<br>تقديمه. الدعم المعنوي.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.032;4.995&quot;>آه، الدعم المعنوي. نعم. هذا هو ما أستطيع<br>تقديمه. الدعم المعنوي.",
+    "decision": "keep"
+  },
+  {
+    "index": 14059,
+    "key": "NEFC2_CORV_GP2_GP_NEFCITY_002",
+    "source_sha256": "40b4d218deaa9cead1aebfe1b62bc93829aaebdf2c59d370afbfcadfb089beb5",
+    "before": "<ts=&quot;0;3.105&quot;>كل الأغراض الصغيرة والحلي والحاجيات هنا<br>الآن!",
+    "after": "<ts=&quot;0;3.105&quot;>كل الأغراض الصغيرة والحلي والحاجيات هنا<br>الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 14060,
+    "key": "NEFC2_CORV_GP2_GP_NEFCITY_003",
+    "source_sha256": "3b5b2d706f2acbedb5c2eb76034b42df8b788a2c055514e5cf7f536bc67cbeac",
+    "before": "<ts=&quot;0;1.66&quot;>أعطني نيف بوك، سيدي؟<ts=&quot;1.66;4.578&quot;>لا أستطيع العودة إلى العمل حتى أصلح هذا<br>المشغل المعطوب...",
+    "after": "<ts=&quot;0;1.66&quot;>أعطني نيف بوك، سيدي؟<ts=&quot;1.66;4.578&quot;>لا أستطيع العودة إلى العمل حتى أصلح هذا<br>المشغل المعطوب...",
+    "decision": "keep"
+  },
+  {
+    "index": 14061,
+    "key": "NEFC2_CORV_GP2_GP_NEFCITY_005",
+    "source_sha256": "bb5e786ae2d57412820d522f078e25b238a9ff9140f3fa83111f6cd6e1db11cf",
+    "before": "<ts=&quot;0;2.639&quot;>باقة السبا تتضمن عرضا أيضا؟!<ts=&quot;2.639;3.339&quot;>خمس نجوم!",
+    "after": "<ts=&quot;0;2.639&quot;>باقة السبا تتضمن عرضا أيضا؟!<ts=&quot;2.639;3.339&quot;>خمس نجوم!",
+    "decision": "keep"
+  },
+  {
+    "index": 14062,
+    "key": "NEFC2_CORV_GP2_GP_NEFCITY_008",
+    "source_sha256": "6045326f7f0be2f5011ca905debecc184eda2c3073ded5500ed79d2790ec99d8",
+    "before": "<ts=&quot;0;4.102&quot;>بوت-تماسك يا روب! 17 ساعة فقط حتى استراحة<br>غدائك!",
+    "after": "<ts=&quot;0;4.102&quot;>تماسك، يا روب بوت! لم يبق سوى 17 ساعة على<br>استراحة غدائك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14063,
+    "key": "NEFC2_CORV_GP2_GP_NEFCITY_009",
+    "source_sha256": "be921041e3820e8a463b25c5e3446f5aea3bc683043eb62865592e07a9203041",
+    "before": "<ts=&quot;0.48;3.721&quot;>آسف، كل الروبوتات اللطيفة التي أعرفها<br>عيونها زرقاء، هاها.",
+    "after": "<ts=&quot;0.48;3.721&quot;>آسف، كل الروبوتات اللطيفة التي أعرفها<br>عيونها زرقاء، هاها.",
+    "decision": "keep"
+  },
+  {
+    "index": 14064,
+    "key": "NEFC2_CORV_GP2_GP_NEFCITY_010",
+    "source_sha256": "e01c1c923ce30d7f86467c09aaeb4e4e09734302932bbc76824a98cc362401da",
+    "before": "<ts=&quot;0.049;4.603&quot;>لا أفهم، كيف يكون هبوط الإيقاع شيئا جيدا؟<br>أليس هذا خطأ في الحساب؟",
+    "after": "<ts=&quot;0.049;4.603&quot;>لا أفهم، كيف يكون هبوط الإيقاع شيئا جيدا؟<br>أليس هذا خطأ في الحساب؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14065,
+    "key": "NEFC2_CORV_GP2_GP_NEFCITY_011",
+    "source_sha256": "b460b178199f071538aac2b43e0d0f18718003ddc9dc88cd86f77e2068437280",
+    "before": "<ts=&quot;0;2.862&quot;>هل كان ذلك هو الهبوط؟ أرجوك، لا أريد أن<br>يفوتني!",
+    "after": "<ts=&quot;0;2.862&quot;>هل كان ذلك هو الهبوط؟ أرجوك، لا أريد أن<br>يفوتني!",
+    "decision": "keep"
+  },
+  {
+    "index": 14066,
+    "key": "NEFC2_CORV_GP2_GP_NEFCITY_012",
+    "source_sha256": "803742b4486d31a4fdcb2a13e4811cd9b6f14f6a4a0bda15a247c757013e511c",
+    "before": "<ts=&quot;0;2.683&quot;>آه، كنت أريد فقط مشروبا هادئا *مرة واحدة*!",
+    "after": "<ts=&quot;0;2.683&quot;>آه، كنت أريد فقط مشروبا هادئا *مرة واحدة*!",
+    "decision": "keep"
+  },
+  {
+    "index": 14067,
+    "key": "NEFC2_CORV_GP2_GP_NEFCITY_013",
+    "source_sha256": "78393ff31621b6d9aad4b20d5257974f74d018d22a868b9daa7535a44c4c266c",
+    "before": "<ts=&quot;0;3.15&quot;>أوه، هل كان ذلك الانفجار ما يسمونه الفن<br>الأدائي؟<ts=&quot;3.32;4.71&quot;>كان جد...<ts=&quot;5.12;6&quot;>رمزي.",
+    "after": "<ts=&quot;0;3.15&quot;>أوه، أذلك الانفجار ما يسمونه الفن الأدائي؟<ts=&quot;3.32;4.71&quot;>كان غاية في...<ts=&quot;5.12;6&quot;>الرمزية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14068,
+    "key": "NEFC2_CORV_GP2_STRANGE_006",
+    "source_sha256": "dd7cc57b5a2eb04d8289e0dd7b5e8d4ad2eb98c961dacd1601dae94e1d120759",
+    "before": "<ts=&quot;0;3.61&quot;>أفضل الحاجيات فقط لأفضل مدينة في الكون!",
+    "after": "<ts=&quot;0;3.61&quot;>أفضل الحاجيات فقط لأفضل مدينة في الكون!",
+    "decision": "keep"
+  },
+  {
+    "index": 14069,
+    "key": "NEFC2_CORV_GP3_FINALE_001",
+    "source_sha256": "aeb1425eb115dcb4294384f07135cd1b105ce0f3d0f05a0c8da869e4deced767",
+    "before": "<ts=&quot;0;1.602&quot;>هل رأيت ما فعله؟!",
+    "after": "<ts=&quot;0;1.602&quot;>هل رأيت ما فعله؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 14070,
+    "key": "NEFC2_KEDS_GP1_KEDS_GP_001",
+    "source_sha256": "4bc18ed967de18f5dc7a732ca42cd9e6bae6593d07caa05251f5864fb3d94e95",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.049;2.407&quot;>هل يحتسب هذا استراحة؟! لم يتبق لي سوى<br>استراحة واحدة!",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.049;2.407&quot;>هل يحتسب هذا استراحة؟! لم يتبق لي سوى<br>استراحة واحدة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14071,
+    "key": "NEFC2_KEDS_GP1_KEDS_GP_002",
+    "source_sha256": "ade3d2b54b9450f38a82d6c0711523042aa335cfa01a2b34b57f5ce6228c17e3",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.039;1.609&quot;>إذن ما الذي يريده بالضبط؟",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.039;1.609&quot;>إذن ما الذي يريده بالضبط؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14072,
+    "key": "NEFC2_KEDS_GP1_KEDS_GP_003",
+    "source_sha256": "b09351fcc4fee07a0f2c87a37f74e3b5ac24aad12aedc665f8d76b375cefb12d",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.047;1.275&quot;>بالتأكيد. حسنا.",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.047;1.275&quot;>بالتأكيد. حسنا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14073,
+    "key": "NEFC2_KEDS_GP1_KEDS_GP_004",
+    "source_sha256": "c1280767cd5591615120a90f6c0e14244ffdd326973fa89ebd26cc6f0d163ec5",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.04;2.909&quot;>أوه، أمر معقد... ،لكنه ممكن نعم.",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.04;2.909&quot;>أوه، صعب... لكنه ممكن، نعم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14074,
+    "key": "NEFC2_KEDS_GP1_KEDS_GP_005",
+    "source_sha256": "d7b9553c3566e578660ca08c4b1b04471c3846cdde48172fcad625407b16a8fa",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.047;5.375&quot;>آسف على ذلك، --أوهووووووووو معالجي تعطل<br>للتو، هاها.",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.047;5.375&quot;>أمممم... آسف، تعطل معالجي للتو، هاها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14075,
+    "key": "NEFC2_KEDS_GP1_KEDS_GP_006",
+    "source_sha256": "cda3caff9f9947f705a903a5c35fd13b135007e191bb2c910a0d375925ea72c0",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.044;2.22&quot;>لو حاولت الهرب، هل سيوقفني أحد؟",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.044;2.22&quot;>لو حاولت الهرب، هل سيوقفني أحد؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14076,
+    "key": "NEFC2_ZORD_GP1_ZORD_GP_001",
+    "source_sha256": "4753dc004ca3ec5551ebc095d586561e1ef4e4c93f05af06d61841c2544abe7a",
+    "before": "<ts=&quot;0;3.122&quot;>،إذا رأى الإمبراطور أنني هنا فبالضرورة<br>أستحق أن أكون هنا.",
+    "after": "<ts=&quot;0;3.122&quot;>إن رأى الإمبراطور أن مكاني هنا، فلا بد<br>أنني أستحق البقاء هنا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14081,
+    "key": "NEFC3_CIV_GEN_FLEEHOSTILE_001",
+    "source_sha256": "8b4f80424aac1ea38134b33ae1612e35973f76ce2801c036700d2a24337f215c",
+    "before": "<ts=&quot;0.044;1.971&quot;>هذا أكثر من اللازم من الإثارة!",
+    "after": "<ts=&quot;0.044;1.971&quot;>هذا أكثر من اللازم من الإثارة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14082,
+    "key": "NEFC3_CIV_GEN_FLEEHOSTILE_002",
+    "source_sha256": "9179e8d3183f515b1b1b58b0bceebbff4ad5c5aa0863eb3627433cc07159f091",
+    "before": "<ts=&quot;1.51;1.768&quot;>لا! علي أن أذهب!",
+    "after": "<ts=&quot;1.51;1.768&quot;>لا! علي أن أذهب!",
+    "decision": "keep"
+  },
+  {
+    "index": 14083,
+    "key": "NEFC3_CIV_GEN_FLEEHOSTILE_003",
+    "source_sha256": "1d2f380ac048cb44c6aa4f0ffaaf1993052637cb8a44315952a64cab9579f780",
+    "before": "<ts=&quot;0;2.1&quot;>عدو الإمبراطور! لا!",
+    "after": "<ts=&quot;0;2.1&quot;>عدو الإمبراطور! لا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14084,
+    "key": "NEFC3_CIV_GEN_FLEEHOSTILE_004",
+    "source_sha256": "d0419c0630d7982b5cff87c619cc7b369086271286741b997f094361967628c1",
+    "before": "<ts=&quot;0.044;1.55&quot;>آه! انتبه!",
+    "after": "<ts=&quot;0.044;1.55&quot;>آه! انتبه!",
+    "decision": "keep"
+  },
+  {
+    "index": 14085,
+    "key": "NEFC3_CIV_GEN_FLEEHOSTILE_005",
+    "source_sha256": "0c35a5e886ee1d27c4811501bbab2ab553829dad6ff139d7c14661fcd3e147bc",
+    "before": "<ts=&quot;0.038;2.125&quot;>اعثر على مكان للاختباء! في أي مكان!",
+    "after": "<ts=&quot;0.038;2.125&quot;>اعثر على مكان للاختباء! في أي مكان!",
+    "decision": "keep"
+  },
+  {
+    "index": 14086,
+    "key": "NEFC3_CIV_GEN_HIT_001",
+    "source_sha256": "4f6a7b2bc1a01af9f6b81c91b24860a4bc27c3a816a1254b3e898c57e525e1cd",
+    "before": "<ts=&quot;0.053;1.493&quot;>أنا معتاد على الألم.",
+    "after": "<ts=&quot;0.053;1.493&quot;>أنا معتاد على الألم.",
+    "decision": "keep"
+  },
+  {
+    "index": 14087,
+    "key": "NEFC3_CIV_GEN_HIT_002",
+    "source_sha256": "0744f0664312e85d86d40e6ae3fb2196571bf9fef264846339df834cb4efd434",
+    "before": "<ts=&quot;0.053;2.297&quot;>لا أحتاج إلى أي إصلاحات!",
+    "after": "<ts=&quot;0.053;2.297&quot;>لا أحتاج إلى أي إصلاحات!",
+    "decision": "keep"
+  },
+  {
+    "index": 14088,
+    "key": "NEFC3_CIV_GEN_HIT_003",
+    "source_sha256": "d851da1548c84d90145b3931f9c4147b53ee23107ef0e91f538facec8ab0ac77",
+    "before": "<ts=&quot;0.006;2.082&quot;>لا، لا يمكنك لمسني!",
+    "after": "<ts=&quot;0.006;2.082&quot;>لا، لا يمكنك لمسني!",
+    "decision": "keep"
+  },
+  {
+    "index": 14089,
+    "key": "NEFC3_CIV_GEN_IDLE_001",
+    "source_sha256": "625da320f523aeb59c4c1c109ba4f2e0c8160a0feba8e3ee19a4839cd4cfc861",
+    "before": "<ts=&quot;0.11;2.56&quot;>أين وضعت تلك الخريطة الآن؟",
+    "after": "<ts=&quot;0.11;2.56&quot;>أين وضعت تلك الخريطة الآن؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14090,
+    "key": "NEFC3_CIV_GEN_IDLE_002",
+    "source_sha256": "6d2963a23926f4d48bcf6209a17ed0d886f2efdb2b65410b1b4ae2945629cf69",
+    "before": "<ts=&quot;0.008;2.393&quot;>هذه المدينة فيها كل شيء!",
+    "after": "<ts=&quot;0.008;2.393&quot;>هذه المدينة فيها كل شيء!",
+    "decision": "keep"
+  },
+  {
+    "index": 14091,
+    "key": "NEFC3_CIV_GEN_IDLE_003",
+    "source_sha256": "e5e82fe9de883c2e60c39b3a1a1ae24daea083f6f061692c698c834e073adbe5",
+    "before": "<ts=&quot;0.169;5.069&quot;>إنه تماما كما قال الإمبراطور. أطول برج في<br>المجرة.",
+    "after": "<ts=&quot;0.169;5.069&quot;>إنه تماما كما قال الإمبراطور. أطول برج في<br>المجرة.",
+    "decision": "keep"
+  },
+  {
+    "index": 14092,
+    "key": "NEFC3_CIV_GEN_IDLE_004",
+    "source_sha256": "9ec8c43a54da43baea89f67914cf37f6717ec01eb1267d71bb042ed3bdec654d",
+    "before": "<ts=&quot;0;2.1&quot;>هل هذه الدموع البنفسجية... طبيعية؟",
+    "after": "<ts=&quot;0;2.1&quot;>هل تلك التمزقات البنفسجية... طبيعية؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14093,
+    "key": "NEFC3_CIV_GEN_IDLE_005",
+    "source_sha256": "4df3214857acc84d9de9ac4a578ce4264c97e7fa207082c0ae3889d6d319fb49",
+    "before": "<ts=&quot;0.058;4.12&quot;>الجميع هنا يبدو سعيدا حقا... كما أظن.",
+    "after": "<ts=&quot;0.058;4.12&quot;>الجميع هنا يبدو سعيدا حقا... كما أظن.",
+    "decision": "keep"
+  },
+  {
+    "index": 14094,
+    "key": "NEFC3_CIV_GEN_IDLE_006",
+    "source_sha256": "beb826f3949876376f240c20ff6ad68ec829a7e01d7654d245a910e809ef7daa",
+    "before": "<ts=&quot;0.046;3.402&quot;>إلى أين بعد؟ المنتجع؟ السوق؟",
+    "after": "<ts=&quot;0.046;3.402&quot;>إلى أين بعد؟ المنتجع؟ السوق؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14095,
+    "key": "NEFC3_CIV_GEN_IDLE_007",
+    "source_sha256": "df6395ad40d087c060d21c2cab1df7ba1913efec3159d36c1293fb5f7f176900",
+    "before": "<ts=&quot;0.06;5.344&quot;>أتساءل كيف يكون المنظر من قمة البرج؟ على<br>ما أظن لن أعرف أبدا...",
+    "after": "<ts=&quot;0.06;5.344&quot;>أتساءل كيف يكون المنظر من قمة البرج؟ على<br>ما أظن لن أعرف أبدا...",
+    "decision": "keep"
+  },
+  {
+    "index": 14096,
+    "key": "NEFC3_CIV_GEN_IDLE_008",
+    "source_sha256": "6fb983e25c98081a4cc8506de9a5460eb69c02c37c944cfe7e02db0f65d5dfe6",
+    "before": "<ts=&quot;0.047;5.193&quot;>هناك جنود كثيرون في كل مكان. على ما أظن<br>لهذا السبب تبدو مدينة نيفاريوس آمنة إلى<br>هذه الدرجة.",
+    "after": "<ts=&quot;0.047;5.193&quot;>هناك جنود كثيرون في كل مكان. على ما أظن<br>لهذا السبب تبدو مدينة نيفاريوس آمنة إلى<br>هذه الدرجة.",
+    "decision": "keep"
+  },
+  {
+    "index": 14103,
+    "key": "NEFC3_CIV_GEN_NEONEFCIV_GEN_006",
+    "source_sha256": "36b4c405c846b7bc453fea1d2413717609e0e96fc1251e3a3f3af1684a0d163d",
+    "before": "<ts=&quot;0.04;0.935&quot;>قمعي؟",
+    "after": "<ts=&quot;0.04;0.935&quot;>قمعي؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14104,
+    "key": "NEFC3_CIV_GEN_NEONEFCIV_GEN_007",
+    "source_sha256": "0208302ce3cf22c78d0c62dda38e73bb9339388674d7a08c658cc3e3576deef1",
+    "before": "<ts=&quot;0;0.35&quot;>نعم.<ts=&quot;0.77;1.35&quot;>بالضبط.",
+    "after": "<ts=&quot;0;0.35&quot;>نعم.<ts=&quot;0.77;1.35&quot;>بالضبط.",
+    "decision": "keep"
+  },
+  {
+    "index": 14110,
+    "key": "NEFC3_CIV_GEN_SEEPLAYER_001",
+    "source_sha256": "8a82a09f1efe07dfc400bdea793f15dde04fa907621249a2ec38398eda4582be",
+    "before": "<ts=&quot;0.028;2.386&quot;>يا سلام. أذناك رائعان!",
+    "after": "<ts=&quot;0.028;2.386&quot;>واو، أذناك رائعتان!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14111,
+    "key": "NEFC3_CIV_GEN_SEEPLAYER_002",
+    "source_sha256": "79f4bb710936aa699ca5a425f0d47fa60d60cddc65024ac3977993ad39aa2201",
+    "before": "<ts=&quot;0.043;1.068&quot;>تحياتي يا صديقي!",
+    "after": "<ts=&quot;0.043;1.068&quot;>تحياتي يا صديقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14112,
+    "key": "NEFC3_CIV_GEN_SEEPLAYER_003",
+    "source_sha256": "4379443e6f7b937b08815d3890a697a9e8715272e9f1c5f28d2ea26a7e0f1825",
+    "before": "<ts=&quot;0;1.979&quot;>أنت جديد في المدينة أيضا؟",
+    "after": "<ts=&quot;0;1.979&quot;>أنت جديد في المدينة أيضا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14113,
+    "key": "NEFC3_CIV_GEN_SEEPLAYER_004",
+    "source_sha256": "3d2a222f75e7dab2d417b22edfcdf50f212a0ac51e3081dbb3678ab24dfeb9c9",
+    "before": "<ts=&quot;0.021;1.505&quot;>أوه. مرحبا.",
+    "after": "<ts=&quot;0.021;1.505&quot;>أوه. مرحبا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14114,
+    "key": "NEFC3_CIV_GEN_SEEPLAYER_005",
+    "source_sha256": "8af5e0a37937a99065ef037a906cc71cc84608e0824593f4694207bfee272f53",
+    "before": "<ts=&quot;0.022;0.988&quot;>أتمنى لك يوما جيدا!",
+    "after": "<ts=&quot;0.022;0.988&quot;>أتمنى لك يوما جيدا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14115,
+    "key": "NEFC3_CIV_GEN_SEEPLAYER_006",
+    "source_sha256": "45322de20c1b27325c95fa7bdce88517678cf60774659c461a9cf44e1a4d5a08",
+    "before": "<ts=&quot;0.059;1.117&quot;>لا تلتفت إلي.",
+    "after": "<ts=&quot;0.059;1.117&quot;>لا تلتفت إلي.",
+    "decision": "keep"
+  },
+  {
+    "index": 14116,
+    "key": "NEFC3_CIV_GEN_SEEPLAYER_007",
+    "source_sha256": "54b8159b323f61da6109c7e67107a5952e9a4d52c68e05740874a14960cef600",
+    "before": "<ts=&quot;0.044;1.645&quot;>أتتمتع بالمعالم؟",
+    "after": "<ts=&quot;0.044;1.645&quot;>أتتمتع بالمعالم؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14117,
+    "key": "NEFC3_CIV_GEN_SEEPLAYER_008",
+    "source_sha256": "7f7dcc07596b25bba712f9e2f6f0e127ea5a99166f861f529f012238d15a96b3",
+    "before": "<ts=&quot;0.023;2.472&quot;>أنت لست من أظن، أليس كذلك؟",
+    "after": "<ts=&quot;0.023;2.472&quot;>أنت لست من أظن، أليس كذلك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14130,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_001",
+    "source_sha256": "67472abf53809154637fae99b05e35c59a6945df5485d496734d85def5e0d6b7",
+    "before": "<ts=&quot;0;2.32&quot;>ظننت أننا في حرب مع البلاغ؟",
+    "after": "<ts=&quot;0;2.32&quot;>ظننت أننا في حرب مع البلارغ؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14131,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_002",
+    "source_sha256": "b10de3d5de53ece39d29ea748482ae7a87359d18bbfe455fdfe6149d2f5623a9",
+    "before": "<ts=&quot;0.048;3.545&quot;>لتموت المقاومة! وليحيا الإمبراطور!",
+    "after": "<ts=&quot;0.048;3.545&quot;>لتسقط المقاومة، وليحي الإمبراطور!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14132,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_003",
+    "source_sha256": "2f693de5eddf863cd37fb5ccff947432dfa73641006c0e3e9b8abed3814a8e0f",
+    "before": "<ts=&quot;0.059;3.39&quot;>لتموت المقاومة! وبحمد الإمبراطور!",
+    "after": "<ts=&quot;0.059;3.39&quot;>لتسقط المقاومة، والمجد للإمبراطور!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14133,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_004",
+    "source_sha256": "0efbf13259a88624f45b0d366b063926a224f7e2e135e1cfd3bff0f4fac87937",
+    "before": "<ts=&quot;0.054;3.664&quot;>لتموت معنا! وثلاث صيحات للإمبراطور!",
+    "after": "<ts=&quot;0.054;3.664&quot;>لنسقط نحن، وثلاث صيحات تحية للإمبراطور!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14134,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_006",
+    "source_sha256": "cd2192765363cc9dcad3fbc2e7d487ada2acc10a581a3bef37c94d2425b848b5",
+    "before": "<ts=&quot;0.049;4.551&quot;>عفوا يا سيدي؟ حمض البطارية الكاوستيك نفد.",
+    "after": "<ts=&quot;0.049;4.551&quot;>عفوًا، يا سيدي؟ حمض البطارية الكاوي هذا<br>فقد فورانه.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14135,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_007",
+    "source_sha256": "04afe94cb39fdceb7c68eeb712f2753b885982e1930ea8b6e97808bd8a6017c7",
+    "before": "<ts=&quot;0.08;2.53&quot;>هل ذلك لومباكس في المصنع؟",
+    "after": "<ts=&quot;0.08;2.53&quot;>هل ذلك لومباكس في المصنع؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14136,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_008",
+    "source_sha256": "321ef2a2eb393f4a0d183db03607698a350d2cbb8d3184e6c166458cffc2e3ea",
+    "before": "<ts=&quot;0;1.4&quot;>هل علينا أن نفعل شيئا؟",
+    "after": "<ts=&quot;0;1.4&quot;>هل علينا أن نفعل شيئا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14137,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_009",
+    "source_sha256": "43b33fb689d99af4a12a6bef3fcd7766499c93545d2f23e99994599b860a38a9",
+    "before": "<ts=&quot;0.007;2.417&quot;>على أي تردد يبث؟ أحد يعرف؟",
+    "after": "<ts=&quot;0.007;2.417&quot;>على أي تردد يبث؟ أحد يعرف؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14138,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_010",
+    "source_sha256": "d33f07277d79c9fc77afe23ece58b63fe08e2e274225a4e304bd43904835cfe8",
+    "before": "<ts=&quot;0.016;3.32&quot;>واو! ،صلني بهذا فحسب حبيبي!",
+    "after": "<ts=&quot;0.016;3.32&quot;>مرحى! صلني بهذا فحسب!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14139,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_011",
+    "source_sha256": "2648f8a591b25fd5334c69840e6f63e895bd90a624354fe077c06b625a4df2f6",
+    "before": "<ts=&quot;0.002;3.168&quot;>همم، أنا كل ما تريده يا حبيبي.",
+    "after": "<ts=&quot;0.002;3.168&quot;>همم، سأكون كل ما تريد، يا ذا الفرو.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14140,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_012",
+    "source_sha256": "0f005524cdf851a74195dbc27169edf0272ce8a277e17df22233582f32920c81",
+    "before": "<ts=&quot;0.058;4.565&quot;>لم أكن أعرف أن هناك ألعابا نارية الليلة!<br>يا سلام!",
+    "after": "<ts=&quot;0.058;4.565&quot;>لم أكن أعرف أن هناك ألعابا نارية الليلة!<br>يا سلام!",
+    "decision": "keep"
+  },
+  {
+    "index": 14141,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_013",
+    "source_sha256": "69a34a1db8c35c54bd3e702c524f67325b7917fc14aedaa02831516f86ce9597",
+    "before": "<ts=&quot;0.044;4.932&quot;>يا إلهي، لقد تداخلت تلك الطائرات مع مركز<br>الربط في اللوحة الصدعيقة.",
+    "after": "<ts=&quot;0.044;4.932&quot;>يا للعجب، نفاثات الماء تلك وصلت حقًّا إلى<br>قلب لوحتي الشقيقة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14142,
+    "key": "NEFC3_CORV_GP2_GP_NEFCITY_014",
+    "source_sha256": "90e828a75541a988279eaa7e28590b74f7005a1fa444dab96bebf9d0065e9b72",
+    "before": "<ts=&quot;0.047;3.722&quot;>حقا؟ يجب أن نعود هنا في وقت ما.",
+    "after": "<ts=&quot;0.047;3.722&quot;>حقا؟ يجب أن نعود هنا في وقت ما.",
+    "decision": "keep"
+  },
+  {
+    "index": 14143,
+    "key": "NEFC3_CORV_GP2_STRANGE_004",
+    "source_sha256": "7a62586b9d29bdc2a3831d855cd57a70d65f6a170194afe8220152c638a40050",
+    "before": "<ts=&quot;0.043;4.243&quot;>تعال إلى المتجر الذي قال عنه صاحب السعادة<br>«جيد جدا!»",
+    "after": "<ts=&quot;0.043;4.243&quot;>تعال إلى المتجر الذي قال عنه صاحب السعادة<br>«جيد جدا!»",
+    "decision": "keep"
+  },
+  {
+    "index": 14144,
+    "key": "NEFC3_KEDS_GP1_KEDS_GP_001",
+    "source_sha256": "009568198078f1f4f614f23d7aa3cdab3f44df4462e486bfecf0914270037503",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.04;4.365&quot;>تذكروا تدريب الذعر، أيها الجميع! أبقوا<br>أذرعكم ترفرف!",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.04;4.365&quot;>تذكروا تدريب الذعر، أيها الجميع! أبقوا<br>أذرعكم ترفرف!",
+    "decision": "keep"
+  },
+  {
+    "index": 14145,
+    "key": "NEFC3_KEDS_GP1_KEDS_GP_002",
+    "source_sha256": "69ca6bce1cd188a759baf817d46b06d9aa3aa55d7941fdea4483273946cf0edb",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.048;1.73&quot;>حسنا، كي تسير.",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.048;1.73&quot;>حسنا، كي تسير.",
+    "decision": "keep"
+  },
+  {
+    "index": 14146,
+    "key": "NEFC3_KEDS_GP1_KEDS_GP_003",
+    "source_sha256": "626d8db7850477c7aaaa7a4049ca0409fcf9d392cfadd7fbaf3d7af65fa6cd93",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0;2.874&quot;>تطلق أشعة ليزر بقوة لا توصف.",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0;2.874&quot;>تطلق أشعة ليزر بقوة لا توصف.",
+    "decision": "keep"
+  },
+  {
+    "index": 14147,
+    "key": "NEFC3_KEDS_GP1_KEDS_GP_004",
+    "source_sha256": "76919cda09908b5892e25c72eaabada9b67b5f22fe475b85b3a38e03c155639e",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.052;3.458&quot;>وتكون أطول من مئة طابق.",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.052;3.458&quot;>وتكون أطول من مئة طابق.",
+    "decision": "keep"
+  },
+  {
+    "index": 14148,
+    "key": "NEFC3_KEDS_GP1_KEDS_GP_005",
+    "source_sha256": "c106cfabb50c1887ef1be2a0c38c9ee2494202c14960472e77fecddf395f3a46",
+    "before": "<name=&quot;SCIB1&quot;><ts=&quot;0.046;6.557&quot;>دمر مصنع الروبيون، وتلاشى مصدر الطاقة،<br>والمحطة شظايا...<ts=&quot;6.557;11.173&quot;>ربما أستطيع الآن أخيرا أن أطرح فكرة حديقة<br>مائية بإيقاع الدبستيب.",
+    "after": "<name=&quot;SCIB1&quot;><ts=&quot;0.046;6.557&quot;>دمر مسبك الروبيون، واختفى مصدر الطاقة،<br>وتمزقت المحطة...<ts=&quot;6.557;11.173&quot;>ربما أستطيع أخيرًا عرض فكرة متنزهي المائي<br>على إيقاع الدبستيب.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14149,
+    "key": "NEFC3_SAVA_GP1_SAVA_GP1_001",
+    "source_sha256": "5377324c3120968eea4569d3215edd4fa5ffde6f633d6984cd3a07105376dcef",
+    "before": "<ts=&quot;0.053;2.528&quot;>تفضل بالدخول! أنت تعرف إنك تريد ذلك.",
+    "after": "<ts=&quot;0.053;2.528&quot;>تفضل بالدخول! أنت تعرف أنك تريد ذلك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14150,
+    "key": "NEFC3_SAVA_GP1_SAVA_GP1_002",
+    "source_sha256": "a7ce02ece43b2bda5c25740e81be51af9e32fc6c2e5ea418ae7c8e3ad060f2af",
+    "before": "<ts=&quot;0.057;3.193&quot;>أظن أننا يجب أن نحاول العودة إلى مدينة<br>نيفاريوس.<ts=&quot;3.413;5.548&quot;>جرنا إلى هنا فجأة...",
+    "after": "<ts=&quot;0.057;3.193&quot;>أظن أن علينا محاولة العودة إلى مدينة<br>نيفاريوس.<ts=&quot;3.413;5.548&quot;>انتقلنا إلى هنا فجأة...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14151,
+    "key": "NEFC3_SAVA_GP1_SAVA_GP1_003",
+    "source_sha256": "00224d160ad342bbcc8ceb6b38a74e6947ae2fb369b9d821071522232b09bf2e",
+    "before": "<ts=&quot;0.018;5.685&quot;>أحيانا عليك أن تخرج من المدينة السلطوية<br>الكبيرة وتسترخي فحسب، أليس كذلك؟",
+    "after": "<ts=&quot;0.018;5.685&quot;>أحيانا عليك أن تخرج من المدينة السلطوية<br>الكبيرة وتسترخي فحسب، أليس كذلك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14157,
+    "key": "NEFC4_CIV_GEN_FLEEHOSTILE_001",
+    "source_sha256": "26b209cf9ee19849eb25af4d3faad682b14e78d6ae0f72e28ffd78dcdb90ff68",
+    "before": "<ts=&quot;0.049;1.258&quot;>يجب أن نخرج من هنا!",
+    "after": "<ts=&quot;0.049;1.258&quot;>يجب أن نخرج من هنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14158,
+    "key": "NEFC4_CIV_GEN_FLEEHOSTILE_002",
+    "source_sha256": "beba0aa6540eb022d052cd0cd63bce25d08c430659372f02e2970d059bc5f912",
+    "before": "<ts=&quot;0.05;1.083&quot;>سريعا، من هذا الاتجاه!",
+    "after": "<ts=&quot;0.05;1.083&quot;>سريعا، من هذا الاتجاه!",
+    "decision": "keep"
+  },
+  {
+    "index": 14159,
+    "key": "NEFC4_CIV_GEN_FLEEHOSTILE_003",
+    "source_sha256": "718e6ad1f645fccf58d5a5079f39c1edb6d071e330cd662ea43117a1765f1de6",
+    "before": "<ts=&quot;0.04;1.09&quot;>يا لسوء حظي!",
+    "after": "<ts=&quot;0.04;1.09&quot;>يا لسوء حظي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14160,
+    "key": "NEFC4_CIV_GEN_FLEEHOSTILE_004",
+    "source_sha256": "7fd424603b09db04242a62447d276deb64c116477b68edd2c54f6a12bb239068",
+    "before": "<ts=&quot;0.069;1.309&quot;>هذا خطير!",
+    "after": "<ts=&quot;0.069;1.309&quot;>هذا خطير!",
+    "decision": "keep"
+  },
+  {
+    "index": 14161,
+    "key": "NEFC4_CIV_GEN_FLEEHOSTILE_005",
+    "source_sha256": "1780725525457fda495fe3463ad5ea8a2b0569b462337b75e06814b95d70ba67",
+    "before": "<ts=&quot;0;1.299&quot;>أنا هارب من هنا!",
+    "after": "<ts=&quot;0;1.299&quot;>أنا هارب من هنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14162,
+    "key": "NEFC4_CIV_GEN_HIT_001",
+    "source_sha256": "55f5bbceab96be29dea692693f6e05b4fdb65342b4c4365fc4817e7c81682837",
+    "before": "<ts=&quot;0.049;1.94&quot;>لا يمكن إقناعه بالمنطق!",
+    "after": "<ts=&quot;0.049;1.94&quot;>لا يمكن إقناعه بالمنطق!",
+    "decision": "keep"
+  },
+  {
+    "index": 14163,
+    "key": "NEFC4_CIV_GEN_HIT_002",
+    "source_sha256": "82ac839fc542d9c9695ac91a0dd321ab92132b1d95d980a019738b1f4b4e4b70",
+    "before": "<ts=&quot;0.5;0.795&quot;>آخ!",
+    "after": "<ts=&quot;0.5;0.795&quot;>آخ!",
+    "decision": "keep"
+  },
+  {
+    "index": 14164,
+    "key": "NEFC4_CIV_GEN_HIT_003",
+    "source_sha256": "8876c94ab9b4c69b34fb4ee43ca588b40f8665690b9ef26b058014bb2153cfba",
+    "before": "<ts=&quot;0.05;0.831&quot;>توقف!",
+    "after": "<ts=&quot;0.05;0.831&quot;>توقف!",
+    "decision": "keep"
+  },
+  {
+    "index": 14165,
+    "key": "NEFC4_CIV_GEN_IDLE_001",
+    "source_sha256": "99620bcf5f4a7241dab3fb1ef864c577c32ccd8966c120398fdbfb74d0030c5d",
+    "before": "<ts=&quot;0;2.14&quot;>وردية إجبارية أخرى في المصنع؟<ts=&quot;3.119;3.819&quot;>يا لهيء.",
+    "after": "<ts=&quot;0;2.14&quot;>وردية إلزامية أخرى في المصنع؟<ts=&quot;3.119;3.819&quot;>يا للفرحة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14166,
+    "key": "NEFC4_CIV_GEN_IDLE_002",
+    "source_sha256": "8c15dd86643cd7cb608a563e3632da247171165a81b9cdb0a62222b0042469f6",
+    "before": "<ts=&quot;0;0.76&quot;>ما أجمل!<ts=&quot;1.17;2.57&quot;>،ثقوق في السماء<ts=&quot;2.61;4.046&quot;>هذا بالضبط ما احتجته اليوم.",
+    "after": "<ts=&quot;0;0.76&quot;>أوه، رائع.<ts=&quot;1.17;2.57&quot;>ثقوب في السماء،<ts=&quot;2.61;4.046&quot;>هذا ما كان ينقصني اليوم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14167,
+    "key": "NEFC4_CIV_GEN_IDLE_003",
+    "source_sha256": "8fa923e4378a1f60cdf060bd8fbbd37818483fc94cddc8d68923577479e652a8",
+    "before": "<ts=&quot;0;2.45&quot;>ما أسف أن زعيمنا المبجل مسافر.<ts=&quot;2.69;4.582&quot;>ماذا سنتفعل دونه؟",
+    "after": "<ts=&quot;0;2.45&quot;>يا للأسف، قائدنا المجيد مسافر.<ts=&quot;2.69;4.582&quot;>ماذا سنفعل من دونه؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14168,
+    "key": "NEFC4_CIV_GEN_IDLE_004",
+    "source_sha256": "bdc89938021a334fb2ba90074ee71734d1602d8553ebca9ba3e72534e8ed054c",
+    "before": "<ts=&quot;0;2.07&quot;>أنا بحاجة ماسة إلى استراحة.<ts=&quot;2.07;4.091&quot;>أتساءل إن كانت السبا تملك غرفا شاغرة.",
+    "after": "<ts=&quot;0;2.07&quot;>أحتاج حقًّا إلى استراحة.<ts=&quot;2.07;4.091&quot;>أتساءل إن كانت هناك مواعيد شاغرة في<br>المنتجع الصحي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14169,
+    "key": "NEFC4_CIV_GEN_IDLE_005",
+    "source_sha256": "21663b4f896321cd6702a52229eb56c87a6df04eba50657f991fa76150075230",
+    "before": "<ts=&quot;0.18;2.28&quot;>ذلك البرج مزعج للعين.<ts=&quot;2.759;5.222&quot;>ليس سوى تذكير آخر بمن يحكم.",
+    "after": "<ts=&quot;0.18;2.28&quot;>ذلك البرج مزعج للعين.<ts=&quot;2.759;5.222&quot;>ليس سوى تذكير آخر بمن يحكم.",
+    "decision": "keep"
+  },
+  {
+    "index": 14170,
+    "key": "NEFC4_CIV_GEN_IDLE_006",
+    "source_sha256": "dc7d3b3057f07dbd7ceb96d6a1817b41d8aa6d6706b4919ef867ebf06a8d37c7",
+    "before": "<ts=&quot;0;2.179&quot;>مللت من كل هؤلاء الجنود.<ts=&quot;2.179;4.766&quot;>يتصرفون دائما وكأنهم أفضل منا جميعا.",
+    "after": "<ts=&quot;0;2.179&quot;>مللت من كل هؤلاء الجنود.<ts=&quot;2.179;4.766&quot;>يتصرفون دائما وكأنهم أفضل منا جميعا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14171,
+    "key": "NEFC4_CIV_GEN_IDLE_007",
+    "source_sha256": "3eb0a0fbc2bdd89af81ef281e0d068d93afd9e6528b5c8d977fcadfebaf47aa1",
+    "before": "<ts=&quot;0;1.75&quot;>هل هذا خدش في<ts=&quot;1.99;2.34&quot;>إطاري؟<ts=&quot;2.96;4.291&quot;>أوف. كيف حدث ذلك؟",
+    "after": "<ts=&quot;0;1.75&quot;>هل هذا انبعاج في...<ts=&quot;1.99;2.34&quot;>هيكلي...<ts=&quot;2.96;4.291&quot;>أنا؟ أوف. كيف حدث ذلك؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14172,
+    "key": "NEFC4_CIV_GEN_IDLE_008",
+    "source_sha256": "089f73fff6f0d6c96d6afb15584125623fd86046427bd9f3df9999c3e578e610",
+    "before": "<ts=&quot;0;2.88&quot;>يجب أن أخرج من هذه المدينة القذرة.<ts=&quot;2.88;3.58&quot;>يوما ما.",
+    "after": "<ts=&quot;0;2.88&quot;>يجب أن أخرج من هذه المدينة القذرة.<ts=&quot;2.88;3.58&quot;>يوما ما.",
+    "decision": "keep"
+  },
+  {
+    "index": 14183,
+    "key": "NEFC4_CIV_GEN_SEEPLAYER_001",
+    "source_sha256": "62010f406ffa58f014ae6273c9f0a21f681b323d01cf6e34fd53e0e191f58375",
+    "before": "<ts=&quot;0;1.662&quot;>اهتم بأمرك أنت، يا صاح!",
+    "after": "<ts=&quot;0;1.662&quot;>اهتم بأمرك أنت، يا صاح!",
+    "decision": "keep"
+  },
+  {
+    "index": 14184,
+    "key": "NEFC4_CIV_GEN_SEEPLAYER_002",
+    "source_sha256": "43e786763ce3f1340d92e7c9e2cb64e95ed012011e593d910b8cb5ccb736dbce",
+    "before": "<ts=&quot;0;1.915&quot;>أنت غريب المظهر، أليس كذلك؟",
+    "after": "<ts=&quot;0;1.915&quot;>أنت غريب المظهر، أليس كذلك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14185,
+    "key": "NEFC4_CIV_GEN_SEEPLAYER_003",
+    "source_sha256": "24300a84a33f2614ad2789bf298f28b74c8bd9196c25dda37bca6074cbb325fa",
+    "before": "<ts=&quot;0;1.05&quot;>تبدو تائها.",
+    "after": "<ts=&quot;0;1.05&quot;>تبدو تائها.",
+    "decision": "keep"
+  },
+  {
+    "index": 14186,
+    "key": "NEFC4_CIV_GEN_SEEPLAYER_004",
+    "source_sha256": "ca56937fe2283fb79bd10e7633d78e4de2fb710ea7f8e60a4ea8849e9982b1c8",
+    "before": "<ts=&quot;0;2.159&quot;>لا تقلق. لن أبلغ عنك.",
+    "after": "<ts=&quot;0;2.159&quot;>لا تقلق. لن أبلغ عنك.",
+    "decision": "keep"
+  },
+  {
+    "index": 14187,
+    "key": "NEFC4_CIV_GEN_SEEPLAYER_005",
+    "source_sha256": "1c728ed6b6f1999456efd3e789dace2bac4946c31c06a8f337588ed4e693807e",
+    "before": "<ts=&quot;0.01;1.462&quot;>فقط ابتعد عن المتاعب.",
+    "after": "<ts=&quot;0.01;1.462&quot;>فقط ابتعد عن المتاعب.",
+    "decision": "keep"
+  },
+  {
+    "index": 14188,
+    "key": "NEFC4_CIV_GEN_SEEPLAYER_006",
+    "source_sha256": "b818594174200aac88e49ea390b96d02522b987c77d46c02e10fc83c3343dd5b",
+    "before": "<ts=&quot;0;1.75&quot;>احذر من حرس نيفاريوس.",
+    "after": "<ts=&quot;0;1.75&quot;>احذر من حرس نيفاريوس.",
+    "decision": "keep"
+  },
+  {
+    "index": 14189,
+    "key": "NEFC4_CIV_GEN_SEEPLAYER_007",
+    "source_sha256": "c63f5e8b36f8b9b18886466447675286174d61bfc06aa13c0436702f705d71c3",
+    "before": "<ts=&quot;0;1.788&quot;>كيف وصلت إلى هنا؟",
+    "after": "<ts=&quot;0;1.788&quot;>كيف وصلت إلى هنا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14190,
+    "key": "NEFC4_CIV_GEN_SEEPLAYER_008",
+    "source_sha256": "d9e1646ef8985a3cf1d2db02ce1768e2d7d44421df403cc395aa83157df3fd02",
+    "before": "<ts=&quot;0;1.4&quot;>انتبه لخطواتك، يا صاح.",
+    "after": "<ts=&quot;0;1.4&quot;>انتبه لخطواتك، يا صاح.",
+    "decision": "keep"
+  },
+  {
+    "index": 14203,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_002",
+    "source_sha256": "10a0abeb35c36a5da1aba7a4f350baebe1044f99604af1a2297c4378aba58eab",
+    "before": "<ts=&quot;0;2.989&quot;>أتظن أن تلك الصدوع البنفسجية مؤامرة من<br>المقاومة؟<ts=&quot;2.989;4.916&quot;>أرجو أن يحمينا الإمبراطور!",
+    "after": "<ts=&quot;0;2.989&quot;>أتظن أن تلك الصدوع البنفسجية مؤامرة من<br>المقاومة؟<ts=&quot;2.989;4.916&quot;>أرجو أن يحمينا الإمبراطور!",
+    "decision": "keep"
+  },
+  {
+    "index": 14204,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_003",
+    "source_sha256": "92ec7e8616193ebf749a95bc17495ad38e71ced2cabb74280748ceccfa4304ff",
+    "before": "<ts=&quot;0;3.179&quot;>إلا إذا صنعها الإمبراطور ليرد على تلك<br>الأوغاد.",
+    "after": "<ts=&quot;0;3.179&quot;>إلا إذا صنعها الإمبراطور ليرد على أولئك<br>الأوغاد.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14205,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_004",
+    "source_sha256": "bb914f381d13675927c1baddc680917fee56f09f2ea2084c4792d5e87ea76988",
+    "before": "<ts=&quot;0;4.266&quot;>أو ربما كانت الصدوع عقابا علينا نحن<br>المواطنين بسبب نقص ولائنا.",
+    "after": "<ts=&quot;0;4.266&quot;>أو ربما كانت الصدوع عقابا علينا نحن<br>المواطنين بسبب نقص ولائنا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14206,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_005",
+    "source_sha256": "31ef6dcfb939de97b3191bae4301f1eaa45837cbf5a1b92a55a42454f400df5c",
+    "before": "<ts=&quot;0;3.19&quot;>تذكرة اليوم هذه تستحق أن بعت بيتي من<br>أجلها.",
+    "after": "<ts=&quot;0;3.19&quot;>تذكرة اليوم هذه استحقت بيع منزلي من أجلها<br>تمامًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14207,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_006",
+    "source_sha256": "e9b629d99fd5b4827fb5240b9d0492099c08cc5c49f5693743e72d198cf5404a",
+    "before": "<ts=&quot;0;1.75&quot;>آآآه، هذا الزيت ساخن!<ts=&quot;2.04;2.89&quot;>ساخن جدا!<ts=&quot;3.27;3.75&quot;>نعم!",
+    "after": "<ts=&quot;0;1.75&quot;>آآآه، هذا الزيت ساخن!<ts=&quot;2.04;2.89&quot;>ساخن جدا!<ts=&quot;3.27;3.75&quot;>نعم!",
+    "decision": "keep"
+  },
+  {
+    "index": 14208,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_007",
+    "source_sha256": "e5ac534dbc8c31573a1673d2353c549e4cb933fc551c78e00f80af7d0309893c",
+    "before": "<ts=&quot;0;2.731&quot;>كان علي أن أطلب شمع السرطان السام!",
+    "after": "<ts=&quot;0;2.731&quot;>كان علي أن أطلب شمع السرطان السام!",
+    "decision": "keep"
+  },
+  {
+    "index": 14209,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_013",
+    "source_sha256": "a1a4980390229c3030996ce2c8a61a312c193f1a39dde78603fb071586d123b2",
+    "before": "<ts=&quot;0;1.625&quot;>تقول إن هذا مستحيل؟",
+    "after": "<ts=&quot;0;1.625&quot;>تقول إن هذا مستحيل؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14210,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_014",
+    "source_sha256": "825ebe1b1c5b249d93b71ddfa91d00347fa5b82d84e4edece19a9171b980563a",
+    "before": "<ts=&quot;0;2.83&quot;>إذن أقترح أن تعيد برمجة مصفوفة احتمالاتك.<ts=&quot;3.219;3.749&quot;>فورا.",
+    "after": "<ts=&quot;0;2.83&quot;>إذن أقترح أن تعيد برمجة مصفوفة احتمالاتك.<ts=&quot;3.219;3.749&quot;>فورا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14211,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_015",
+    "source_sha256": "4ff3ff36a4770515196252db3fc54b10cc0a5356123b1fbf402528f750566748",
+    "before": "<ts=&quot;0;4.763&quot;>مع هذه الأغنية، يبدو فعلا أن الإمبراطور مر<br>بمرحلة الحداثة الرجعية.",
+    "after": "<ts=&quot;0;4.763&quot;>مع هذه الأغنية، يبدو فعلا أن الإمبراطور مر<br>بمرحلة الحداثة الرجعية.",
+    "decision": "keep"
+  },
+  {
+    "index": 14212,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_016",
+    "source_sha256": "86c1642dc9c0917de2ad125973b52541f9bfaca962cc8c8f44110483a3d56a9a",
+    "before": "<ts=&quot;0;3.63&quot;>لا أحد بقدر جسارة الإمبراطور<ts=&quot;3.63;4.5&quot;>لينتج مقطوعة بهذه الصلابة.",
+    "after": "<ts=&quot;0;3.63&quot;>لا يجرؤ على صنع مقطوعة كهذه إلا شخص بجسارة<br>الإمبراطور...<ts=&quot;3.63;4.5&quot;>يا لها من قوة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14213,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_017",
+    "source_sha256": "26ccd96f4a2518f98fdfbcc5ff787d63de1441db6e356ef706b09c50f56feed6",
+    "before": "<ts=&quot;0;2.17&quot;>لا، بل آلة راقصة!<ts=&quot;2.6;3.59&quot;>انتبه الآن!",
+    "after": "<ts=&quot;0;2.17&quot;>لا، بل آلة راقصة!<ts=&quot;2.6;3.59&quot;>انتبه الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 14214,
+    "key": "NEFC4_CORV_GP2_GP_NEFCITY_019",
+    "source_sha256": "97d666269d249bedb9ce71a5ef4d8b48eded250ec7b9eec03c4bdb718e02732c",
+    "before": "<ts=&quot;0.048;4.463&quot;>هل جربت المشروبات؟! يمكنك الحصول عليها<br>كلها مقابل واحد بالمئة من راتبك السنوي!",
+    "after": "<ts=&quot;0.048;4.463&quot;>هل جربت المشروبات؟! يمكنك الحصول عليها<br>كلها مقابل واحد بالمئة من راتبك السنوي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14215,
+    "key": "NEFC4_SAVA_GP1_SAVA_GP1_001",
+    "source_sha256": "0138dc1490be2db68b7e693decd0bf498b5e396743825c268ab330d59cc07869",
+    "before": "<ts=&quot;0.045;4.886&quot;>صه، صه. قضى القدر أن ،نستمتع بالينابيع<br>فاستمتع بها.",
+    "after": "<ts=&quot;0.045;4.886&quot;>صه، صه. أراد لنا القدر الاستمتاع<br>بالينابيع، فلنستمتع بها.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14216,
+    "key": "NEFC4_SAVA_GP1_SAVA_GP1_002",
+    "source_sha256": "4768ecee12c71de6ed7bc597b55a8e102aef451ba7b778b0dfcf7487799c6847",
+    "before": "<ts=&quot;0;1.4&quot;>أعيش هنا الآن.<ts=&quot;1.47;2&quot;>إلى الأبد.",
+    "after": "<ts=&quot;0;1.4&quot;>أعيش هنا الآن.<ts=&quot;1.47;2&quot;>إلى الأبد.",
+    "decision": "keep"
+  },
+  {
+    "index": 14217,
+    "key": "NEFC4_SAVA_GP1_SAVA_GP1_003",
+    "source_sha256": "01fa0378ad96f83b31ae7f5878e602f996639b4d7f492bb067dfd8dab9b184c3",
+    "before": "<ts=&quot;0;2.8&quot;>أعرف أن علي العودة إلى بيتي، لكن... لماذا؟",
+    "after": "<ts=&quot;0;2.8&quot;>أعرف أن علي العودة إلى بيتي، لكن... لماذا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14218,
+    "key": "NEFC4_ZORD_GP1_ZORD_GP_001",
+    "source_sha256": "3a854c7465d4cbbb7edfdae56c0f0f691475edc0681a9f8a402bdf36040b7744",
+    "before": "<ts=&quot;1.099;3.417&quot;>كان علي أن أكذب فقلت إن أغنيته جيدة...<ts=&quot;3.86;5.477&quot;>لعناني احترامي للفن...",
+    "after": "<ts=&quot;1.099;3.417&quot;>كان علي الكذب والقول إن أغنيته جيدة...<ts=&quot;3.86;5.477&quot;>تبًّا لاحترامي للفن...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14219,
+    "key": "NEFC4_ZURK_G2_GAMEPLAY_001",
+    "source_sha256": "555e02c5ddb03378de04a6c3f4feaa6ccf4dd2aa94869674564ae537aab651ee",
+    "before": "<ts=&quot;0.046;4.343&quot;>أوه، أقصد، أمم، شكرا على قدومك إلى حانة<br>زوركيز.<ts=&quot;4.343;7.207&quot;>خذ أسلحتك؛ ستحتاجها...",
+    "after": "<ts=&quot;0.046;4.343&quot;>أوه، أقصد، أمم، شكرا على قدومك إلى حانة<br>زوركيز.<ts=&quot;4.343;7.207&quot;>خذ أسلحتك؛ ستحتاجها...",
+    "decision": "keep"
+  },
+  {
+    "index": 14220,
+    "key": "NEFC4_ZURK_G2_GAMEPLAY_002",
+    "source_sha256": "c7b51e695ecf479e8f234e368e28de32194f6a94367922521f9d6a06395db5a8",
+    "before": "<ts=&quot;0;2.45&quot;>نأمل أن نراك في حانة زوركيز مرة أخرى...<ts=&quot;2.699;3.049&quot;>ربما...",
+    "after": "<ts=&quot;0;2.45&quot;>نأمل أن نراك في حانة زوركيز مرة أخرى...<ts=&quot;2.699;3.049&quot;>ربما...",
+    "decision": "keep"
+  },
+  {
+    "index": 14221,
+    "key": "NEFC4_ZURK_GP1_GAMEPLAY_001",
+    "source_sha256": "49360fba5dad569c6cb0b6a8156c48053cf2abc2cc5e206a4d18e2a31a86689d",
+    "before": "<ts=&quot;0;4.079&quot;>،أهلا بك في حانة زوركيز حانتك وباتلبلكس<br>الجديدان عبر الأبعاد.<ts=&quot;4.445;7.227&quot;>سآخذ معطفك، وكل أسلحتك أيضا!",
+    "after": "<ts=&quot;0;4.079&quot;>أهلًا بك في زوركيز، حانتك ومجمع معاركك<br>اللذين صارا داخل بعد آخر!<ts=&quot;4.445;7.227&quot;>سآخذ معطفك وكل أسلحتك أيضًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14222,
+    "key": "NEFC4_ZURK_GP1_GAMEPLAY_002",
+    "source_sha256": "f5bfb3043c506bbcd5495145e3ac55087b13ca36344841e48fd2d394207f14d9",
+    "before": "<ts=&quot;0;3.378&quot;>شكرا لحضورك إلى حانة زوركيز، حيث نمذبح<br>بابتسامة!",
+    "after": "<ts=&quot;0;3.378&quot;>شكرًا لزيارتك زوركيز، حيث نذبح بابتسامة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14223,
+    "key": "NEFC4_ZURK_GP1_GAMEPLAY_003",
+    "source_sha256": "5839298aebc78f80ddeae188c7587a960a7ba0b3235b8d42dc0d1dcea961a307",
+    "before": "<ts=&quot;0;1.4&quot;>أهلا بعودتك إلى حانة زوركيز.",
+    "after": "<ts=&quot;0;1.4&quot;>أهلا بعودتك إلى حانة زوركيز.",
+    "decision": "keep"
+  },
+  {
+    "index": 14224,
+    "key": "NEFC4_ZURK_GP1_GAMEPLAY_004",
+    "source_sha256": "78fd20838ffd1e9c0d91ed5b1716402ffb20e2a30ed0a66948d5df39760f2f2f",
+    "before": "<ts=&quot;0;2.008&quot;>لا تنس معطفك وأسلحتك!",
+    "after": "<ts=&quot;0;2.008&quot;>لا تنس معطفك وأسلحتك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14225,
+    "key": "NEFC4_ZURK_GP4_GAMEPLAY_001",
+    "source_sha256": "ea0bf1599350aea0e041e2f4aefd227e0d10222c43a50bed95e0f9be06ecc6fb",
+    "before": "<ts=&quot;0;1.368&quot;>لا تنس أسلحتك:<ts=&quot;1.523;3.596&quot;>ستحتاجها لركل مؤخرة الإمبراطور!",
+    "after": "<ts=&quot;0;1.368&quot;>لا تنس أسلحتك:<ts=&quot;1.523;3.596&quot;>ستحتاجها لركل مؤخرة الإمبراطور!",
+    "decision": "keep"
+  },
+  {
+    "index": 14226,
+    "key": "NEFC4_ZURK_GP4_GAMEPLAY_002",
+    "source_sha256": "dfcc5b347880593fd6f5a71412bc263d41a252c615da5c9eb1a1c62cb76eb77d",
+    "before": "<ts=&quot;0;2.617&quot;>شكرا لجاءك إلى حانة زوركيز! فلننطلق!",
+    "after": "<ts=&quot;0;2.617&quot;>شكرًا لمجيئك إلى زوركيز! هيا بنا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14227,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_003",
+    "source_sha256": "978eb646eca45519e7cbb09a8f001670dd89eb4990789a62cef1ca8e002587b3",
+    "before": "<ts=&quot;0;2.8&quot;>هل مر تنين أمامنا للتو؟<ts=&quot;2.83;5.993&quot;>ربما حان الوقت لأقلع الزيت الثقيل.",
+    "after": "<ts=&quot;0;2.8&quot;>أذلك تنين مر طائرًا للتو؟<ts=&quot;2.83;5.993&quot;>ربما حان وقت الإقلاع عن الزيت القوي.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14228,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_004",
+    "source_sha256": "cecb0909cc8312badcbce51cd87f3f77bc509629917944ec0540afbc95ccbb5c",
+    "before": "<ts=&quot;0;3.08&quot;>كيف يجد الإمبراطور وقتا لغزو ،الكواكب<ts=&quot;3.113;7.559&quot;>وسحق المقاومة، وإطلاق هذه الأغاني الجريئة؟",
+    "after": "<ts=&quot;0;3.08&quot;>كيف يجد الإمبراطور وقتًا لغزو الكواكب،<ts=&quot;3.113;7.559&quot;>وسحق المقاومة، وإصدار أغان مذهلة كهذه؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14229,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_005",
+    "source_sha256": "7d1086be5326f63a87d9f418a1bd5e9a606f76b125f3301c94f12554e2769169",
+    "before": "<ts=&quot;0;2.213&quot;>أعلى!!! أعلى!!!",
+    "after": "<ts=&quot;0;2.213&quot;>أعلى!!! أعلى!!!",
+    "decision": "keep"
+  },
+  {
+    "index": 14230,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_006",
+    "source_sha256": "90abc306d4899cd6d6f7186f0482748780576d17a9f03fadadf12f0f7a64c3e1",
+    "before": "<ts=&quot;0;1.05&quot;>لا، أنا--<ts=&quot;1.609;6&quot;>مهلا، تلك النبرة الفضولية والاتهامية<br>معا... أنت من المقاومة؟!",
+    "after": "<ts=&quot;0;1.05&quot;>لا، أنا--<ts=&quot;1.609;6&quot;>مهلا، تلك النبرة الفضولية والاتهامية<br>معا... أنت من المقاومة؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 14231,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_008",
+    "source_sha256": "37112feaa93937ae1f5f6c7143296155d34d4b2e079337b13773797508d1f128",
+    "before": "<ts=&quot;0;4.022&quot;>ثلاثة عشر ساعة في الطابور!<ts=&quot;4.076;7.526&quot;>يا لها من مدة! هذا رقم قياسي جديد!",
+    "after": "<ts=&quot;0;4.022&quot;>وها قد أمضيت ثلاث عشرة ساعة في الطابور!<ts=&quot;4.076;7.526&quot;>يا للعجب، هذا رقم قياسي جديد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14232,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_009",
+    "source_sha256": "e16881b942ae736ce01d174b1f2c6b704f5e5d20386eebb628475e3ff60391d4",
+    "before": "<ts=&quot;0;2.432&quot;>مرحبا! انتبه يا صاح؛ أنا أعمل هنا!",
+    "after": "<ts=&quot;0;2.432&quot;>مرحبا! انتبه يا صاح؛ أنا أعمل هنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14233,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_010",
+    "source_sha256": "4734e024dd5f023aca6b96b45548644771517b7a02806ba6b1a54d5dadcfab0c",
+    "before": "<ts=&quot;0;4.72&quot;>لدينا مليون تمثال تذكاري للإمبراطور<br>نيفاريوس نشحنه الليلة!<ts=&quot;4.777;7.742&quot;>وأيضا يجب أن نجد شحنة الراريتانيوم<br>المفقودة.",
+    "after": "<ts=&quot;0;4.72&quot;>لدينا مليون تمثال تذكاري للإمبراطور<br>نيفاريوس نشحنه الليلة!<ts=&quot;4.777;7.742&quot;>وأيضا يجب أن نجد شحنة الراريتانيوم<br>المفقودة.",
+    "decision": "keep"
+  },
+  {
+    "index": 14234,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_011",
+    "source_sha256": "271aaf1a53e49688bd4ed535637ccffab6503f242f1492249dc0ee16abc34ff8",
+    "before": "<ts=&quot;0;1.5&quot;>أيام الثلاثاء، صحيح؟",
+    "after": "<ts=&quot;0;1.5&quot;>أيام الثلاثاء، صحيح؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14235,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_012",
+    "source_sha256": "3bfcd4d367f2453393e89a2277799bc170d646198f9e48da30832180c128848b",
+    "before": "<ts=&quot;0;0.873&quot;>يبدو كذلك.",
+    "after": "<ts=&quot;0;0.873&quot;>يبدو كذلك.",
+    "decision": "keep"
+  },
+  {
+    "index": 14236,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_013",
+    "source_sha256": "a9dc1dad375fab90d8711a973018a4064ecc6f7ab04187829e249ef18bed7b94",
+    "before": "<ts=&quot;0.18;1.859&quot;>هل أنهيت عملك؟ ...<ts=&quot;1.859;3.609&quot;>هذا ما ظننت.",
+    "after": "<ts=&quot;0.18;1.859&quot;>هل أنهيت عملك؟ ...<ts=&quot;1.859;3.609&quot;>هذا ما ظننت.",
+    "decision": "keep"
+  },
+  {
+    "index": 14237,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_014",
+    "source_sha256": "edf89f6c5b429fc135d41464a8f9ff9d1b0f3a36656d085f998551fd5fb3c0ba",
+    "before": "<ts=&quot;0;4.25&quot;>مرحبا أيها الوبري، قبل أن أبلغ عنك، هل<br>تريد شراء شيء؟",
+    "after": "<ts=&quot;0;4.25&quot;>مرحبا أيها الوبري، قبل أن أبلغ عنك، هل<br>تريد شراء شيء؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14238,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_015",
+    "source_sha256": "f59c01ea7690bad6bc7917bf582e1dd54218171b7e3d7738cda624721e362b39",
+    "before": "<ts=&quot;0;2.553&quot;>أزعجك؟ أنا في مكالمة جماعية.",
+    "after": "<ts=&quot;0;2.553&quot;>هل تسمح؟ أنا في مكالمة جماعية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14239,
+    "key": "NEFC5_CORV_GP2_GP_NEFCITY_016",
+    "source_sha256": "688c9a20ae2cd0ddf318e715df50d6ad869d4820253bd9fe032f12b4c3fd1ee4",
+    "before": "<ts=&quot;0;4.483&quot;>لا أستطيع سماعك! هل كتم صوتك؟ حاول أن تجد<br>زر كتم الصوت!",
+    "after": "<ts=&quot;0;4.483&quot;>لا أستطيع سماعك! هل كتم صوتك؟ حاول أن تجد<br>زر كتم الصوت!",
+    "decision": "keep"
+  },
+  {
+    "index": 14240,
+    "key": "NEFC6_CIV_GEN_IDLE_001",
+    "source_sha256": "231930b141900e956fff9c6e82892014a73d15f399962ba79e71d71e88e17ae1",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.043;1.492&quot;>حان وقت الانطلاق.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.043;1.492&quot;>حان وقت الانطلاق.",
+    "decision": "keep"
+  },
+  {
+    "index": 14241,
+    "key": "NEFC6_CIV_GEN_IDLE_002",
+    "source_sha256": "11bc1116adfacade18ec4a39d1bb59ae8888e11bb142f87c9a61f6b1e8b7ab57",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.22&quot;>اعمل بجد، واستمتع بجد. ألا صحيح؟",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.22&quot;>العمل بجد، والمرح بجد. أليس كذلك؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14242,
+    "key": "NEFC6_CIV_GEN_IDLE_003",
+    "source_sha256": "36b8226359f85edb956ca4a3004b9a542ebe35a28ca31e470f66e2359ff0b29d",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.046;2.92&quot;>تبدو النجوم أكثر سطوعا بكثير خارج الكوكب.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.046;2.92&quot;>تبدو النجوم أكثر سطوعا بكثير خارج الكوكب.",
+    "decision": "keep"
+  },
+  {
+    "index": 14243,
+    "key": "NEFC6_CIV_GEN_IDLE_004",
+    "source_sha256": "76960a348997e78ae00dd56945060d0b54e6c92515fc724df462146534108b49",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.039;2.074&quot;>ليت هذا المكان فيه ليلة كاريوكي...",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.039;2.074&quot;>ليت هذا المكان فيه ليلة كاريوكي...",
+    "decision": "keep"
+  },
+  {
+    "index": 14244,
+    "key": "NEFC6_CIV_GEN_VISIT1_001",
+    "source_sha256": "93f7548d0f1003b5d9b64f842549dc719ccfdcbd4584b211cb626691c181bca5",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.095&quot;>أتساءل إن كان القراصنة يبحثون عن جدد؟",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.095&quot;>أتساءل إن كان القراصنة يجندون أعضاء جددًا؟",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14245,
+    "key": "NEFC6_CIV_GEN_VISIT1_002",
+    "source_sha256": "c30eab69ca4dc57b203ef9444a9acc443727a1636696e780f667e16432f7c65a",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.047;4.027&quot;>بسبب تلاعبه ذاك، ينتظر رجل الطيف ورطة<br>كبيرة.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.047;4.027&quot;>بعد تلك الحركة التي قام بها، وقع المدعو<br>الطيف في ورطة هائلة.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14246,
+    "key": "NEFC6_CIV_GEN_VISIT2_001",
+    "source_sha256": "a14d1e4a996c0fd59de0c9bc0a36b14e7b0391610a8484a6f657f55a66f989d6",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.046;3.41&quot;>ربما ينبغي أن أفتح حانة طعام ومجمع معارك<br>خاصا بي.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.046;3.41&quot;>ربما ينبغي أن أفتح حانة طعام ومجمع معارك<br>خاصا بي.",
+    "decision": "keep"
+  },
+  {
+    "index": 14247,
+    "key": "NEFC6_CIV_GEN_VISIT2_002",
+    "source_sha256": "af1fe3ff78fcc8a55570fbd29b0d2a21da6302cc696e260e12bde0c00229fc85",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.043;3.004&quot;>زوار هذا المكان صاروا أكثر عنفا.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.043;3.004&quot;>زوار هذا المكان صاروا أكثر عنفا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14248,
+    "key": "NEFC6_CIV_GEN_VISIT3_001",
+    "source_sha256": "bb8469b978728e79226b77ee1584637b68669ff8fdf22f365d50ae0f9721355e",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.047;2.864&quot;>الخدمة هنا يهبط مستواها حقا...",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.047;2.864&quot;>الخدمة هنا تتدهور حقًّا...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14249,
+    "key": "NEFC6_CIV_GEN_VISIT3_002",
+    "source_sha256": "b474254375e6ba97821138eeb2ee61184d12d61815a0b30ff75fcbf447296b88",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.04;3.251&quot;>لم أتخيل يوما أن أرى المقاومة تواجه<br>الإمبراطور شخصيا...",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.04;3.251&quot;>لم أتخيل يوما أن أرى المقاومة تواجه<br>الإمبراطور شخصيا...",
+    "decision": "keep"
+  },
+  {
+    "index": 14250,
+    "key": "NEFC6_CIV_GEN_VISIT4_001",
+    "source_sha256": "63bbab7dadcbbfd08cc8b00863056796701254fa620ca98899770f3ca49b6fa8",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.044;2.587&quot;>هل هذا هو؟ هل يحدث الأمر أخيرا؟",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.044;2.587&quot;>هل هذا هو؟ هل يحدث الأمر أخيرا؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14251,
+    "key": "NEFC6_CIV_GEN_VISIT4_002",
+    "source_sha256": "abc6ead3988e1bdd97d5495281bc8256b01294f7327bb91714fa2fca07281031",
+    "before": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.631&quot;>ظننت أن الهروب من سجن زردوم مستحيل.",
+    "after": "<name=&quot;BARP&quot;><ts=&quot;0.049;2.631&quot;>ظننت أن الهروب من زوردوم مستحيل.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14252,
+    "key": "NEFC6_CORV_GP2_GP_NEFCITY_001",
+    "source_sha256": "eef5c3ddc8a5165aa860be566cde7d4541bdaa6e2ef6f4c2067483d7a01254f0",
+    "before": "<ts=&quot;0;2.46&quot;>يا إلهي، انظر إلى ذلك الوبر كله!<ts=&quot;2.703;5.01&quot;>لديك مشكلة عفن خطيرة يا صديقي!",
+    "after": "<ts=&quot;0;2.46&quot;>يا إلهي، انظر إلى ذلك الوبر كله!<ts=&quot;2.703;5.01&quot;>لديك مشكلة عفن خطيرة يا صديقي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14253,
+    "key": "NEFC6_CORV_GP2_GP_NEFCITY_002",
+    "source_sha256": "b15837619abf15ef4d72cd0ef7b080fa9545a0742dd52368d0abfc49ef3183f0",
+    "before": "<ts=&quot;0;1.199&quot;>،مهلا<ts=&quot;1.72;2.42&quot;>هل هذا...",
+    "after": "<ts=&quot;0;1.199&quot;>مهلًا لحظة،<ts=&quot;1.72;2.42&quot;>هل هذا...",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14254,
+    "key": "NEFC6_CORV_GP2_GP_NEFCITY_003",
+    "source_sha256": "4a14182df46f31c0282040ad5da1f9c9639b3614d4f78394b90001820e5ccbb2",
+    "before": "<ts=&quot;0.03;1.799&quot;>اتصل بالأمن الآن!",
+    "after": "<ts=&quot;0.03;1.799&quot;>اتصل بالأمن الآن!",
+    "decision": "keep"
+  },
+  {
+    "index": 14255,
+    "key": "NEFC6_CORV_GP2_GP_NEFCITY_004",
+    "source_sha256": "114dae0c569ed3a7841a288ffd64c4caad3750b791d2e03c5cc8d3f91231eb44",
+    "before": "<ts=&quot;0;3.961&quot;>ثلاثون شحنة في يوم واحد؟ كيف يتوقع أن أفعل<br>ذلك؟",
+    "after": "<ts=&quot;0;3.961&quot;>ثلاثون شحنة في يوم واحد؟ كيف يتوقع أن أفعل<br>ذلك؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14256,
+    "key": "NEFC6_CORV_GP2_GP_NEFCITY_005",
+    "source_sha256": "cfb5de9c6fc4aa1b2ccc788e31177f7cb1f9de248afb7fd8cb63849c5393bfdd",
+    "before": "<ts=&quot;0.042;2.887&quot;>لا... لكن... ربما...",
+    "after": "<ts=&quot;0.042;2.887&quot;>لا... لكن... ربما...",
+    "decision": "keep"
+  },
+  {
+    "index": 14257,
+    "key": "NEFC6_CORV_GP2_GP_NEFCITY_010",
+    "source_sha256": "aa577a088978871340b6e5b06d7c430eb83b8cc735a41bf628f448c4fed7d1fe",
+    "before": "<ts=&quot;0.047;4.49&quot;>تذكر أن المشروبات بنصف السعر ببطاقة عضوية<br>نادي نيفاريوس!",
+    "after": "<ts=&quot;0.047;4.49&quot;>تذكر أن المشروبات بنصف السعر ببطاقة عضوية<br>نادي نيفاريوس!",
+    "decision": "keep"
+  },
+  {
+    "index": 14258,
+    "key": "NEFCD_CORV_GP1_DEMO_PARADE_001",
+    "source_sha256": "9198ec0d9864361a79bea2ced13451b651a5dda303b1094cdcedc65f559b5bf0",
+    "before": "<ts=&quot;0.05;1.567&quot;>ما هذا الشيء؟!",
+    "after": "<ts=&quot;0.05;1.567&quot;>ما هذا الشيء؟!",
+    "decision": "keep"
+  },
+  {
+    "index": 14259,
+    "key": "NEFCD_CORV_GP1_DEMO_PARADE_002",
+    "source_sha256": "494102b0cb972085b7d9085d12bc07a3bc54d1d73ec036fafa39264d7967d7ac",
+    "before": "<ts=&quot;0.049;1.518&quot;>الاتجاه خطأ!",
+    "after": "<ts=&quot;0.049;1.518&quot;>الاتجاه خطأ!",
+    "decision": "keep"
+  },
+  {
+    "index": 14260,
+    "key": "NEFCD_CORV_GP1_DEMO_PARADE_003",
+    "source_sha256": "5a77347a1cb09cdaf048dc8818bd54501f6e1d4a3cf9684e63456811056a1237",
+    "before": "<ts=&quot;0.049;1.35&quot;>ابتعد عن الطريق!",
+    "after": "<ts=&quot;0.049;1.35&quot;>ابتعد عن الطريق!",
+    "decision": "keep"
+  },
+  {
+    "index": 14261,
+    "key": "NEFCD_CORV_GP1_DEMO_PARADE_004",
+    "source_sha256": "4fed97d963397b839f31cde00b74e78e71461e2f30347c225d74acfa0899c545",
+    "before": "<ts=&quot;0.05;1.122&quot;>انتبه!",
+    "after": "<ts=&quot;0.05;1.122&quot;>انتبه!",
+    "decision": "keep"
+  },
+  {
+    "index": 14262,
+    "key": "NEFCD_CORV_GP1_DEMO_PARADE_005",
+    "source_sha256": "d7bc90c242b7cdcb0d9a6ccfa6d118d7c0686d3a1aaa4d46d3fbabb8cc583aaf",
+    "before": "<ts=&quot;0.05;1.832&quot;>الأفضل أن تطير بعيدا!",
+    "after": "<ts=&quot;0.05;1.832&quot;>الأفضل أن تطير بعيدا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14263,
+    "key": "NEFCD_CORV_GP1_DEMO_PARADE_006",
+    "source_sha256": "1035061b2206d1997836dc896c01312ef295c1cdfa658f0a45b41ad8705b2515",
+    "before": "<ts=&quot;0;1.75&quot;>سأستدعي السلطات!",
+    "after": "<ts=&quot;0;1.75&quot;>سأستدعي السلطات!",
+    "decision": "keep"
+  },
+  {
+    "index": 14264,
+    "key": "NEFT1_BLIZ_GP1_BLIZ_GP_004",
+    "source_sha256": "1e827581b9dde876398698e793f728f9585d116fba543338fce2226ad591b730",
+    "before": "<ts=&quot;0.03;2.48&quot;>ابحث عن اللومباكس والروبوت الصغير!",
+    "after": "<ts=&quot;0.03;2.48&quot;>ابحث عن اللومباكس والروبوت الصغير!",
+    "decision": "keep"
+  },
+  {
+    "index": 14265,
+    "key": "NEFT1_BLIZ_GP1_BLIZ_GP_005",
+    "source_sha256": "c3d849857d9bd07be47ebbc824a3332a7cde8b3c2d4b6c6268f2c420abdff81d",
+    "before": "<ts=&quot;0;3.15&quot;>هناك! أمسك بهما وخذ ما يحملانه!",
+    "after": "<ts=&quot;0;3.15&quot;>هناك! أمسك بهما وخذ ما يحملانه!",
+    "decision": "keep"
+  },
+  {
+    "index": 14266,
+    "key": "NEFT1_BOSS_GEN_DEPLOY_001",
+    "source_sha256": "1b48d7b137bd89e40ca27419d309e383c7e3684d4fd43a168dd21338c7328234",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.041;2.036&quot;>يا أصدقاء! انضموا إلي!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.041;2.036&quot;>يا أصدقاء! انضموا إلي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14267,
+    "key": "NEFT1_BOSS_GEN_DEPLOY_002",
+    "source_sha256": "b483d6419f56f23d62d9a77b9f1e529ce5faf015bb7e794f48e0552895828a0f",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.04;4.05&quot;>بعض الجنود يكرهون مشاركة أما أنا فلا -<br>الدمار!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.04;4.05&quot;>بعض الجنود يكرهون مشاركة الدمار... أما أنا<br>فلا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14268,
+    "key": "NEFT1_BOSS_GEN_DEPLOY_003",
+    "source_sha256": "4811a464f71e4c73c15abd822db7f23f24eb072e8b39ddc40dd8ec94beb95d78",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.049;3.388&quot;>ممارسة التعذيب أمتع دائما في مجموعة!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.049;3.388&quot;>ممارسة التعذيب أمتع دائما في مجموعة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14269,
+    "key": "NEFT1_BOSS_GEN_DEPLOY_004",
+    "source_sha256": "087c3e7cd183f3ad95247e933441f1660503348a8deaeaa409eee89531f31f1c",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.047;5.41&quot;>ماذا قلت أيها اللومباكس؟ تريد المزيد؟<br>أستطيع أن أضيف لك!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.047;5.41&quot;>ماذا قلت أيها اللومباكس؟ تريد المزيد؟<br>أستطيع أن أضيف لك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14270,
+    "key": "NEFT1_BOSS_GEN_LASER_001",
+    "source_sha256": "dfb63d72e35df6422e0053729b3837a7ddd50d69fc71a7152940ad64bfeead78",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.029;1.757&quot;>آسف على الليزر!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.029;1.757&quot;>آسف على الليزر!",
+    "decision": "keep"
+  },
+  {
+    "index": 14271,
+    "key": "NEFT1_BOSS_GEN_LASER_002",
+    "source_sha256": "5a9bf29831830318fe7d5b9ae4346848c92a1018d3cc9d995a04197bf72530f0",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.037;4.068&quot;>أؤكد لك أن هذا الليزر مؤلم بلذاذة!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.037;4.068&quot;>أؤكد لك أن ألم هذا الليزر لذيذ!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14272,
+    "key": "NEFT1_BOSS_GEN_LASER_003",
+    "source_sha256": "4ca4006b2249f285245841e5371b6a0c43d4ecb08e7a6cd64c60d6b2e42c77b9",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0;3.25&quot;>الإمبراطور يقدر خضوعك!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0;3.25&quot;>الإمبراطور يقدر خضوعك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14273,
+    "key": "NEFT1_BOSS_GEN_LASER_004",
+    "source_sha256": "a46e099dc2fc6537772e5db0b0447d933f52fe6e77747e77db61db566329e453",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.049;3.112&quot;>ليس من الأدب أن تتهرب من الموت، أيها<br>اللومباكس الصغير!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.049;3.112&quot;>ليس من الأدب أن تتهرب من الموت، أيها<br>اللومباكس الصغير!",
+    "decision": "keep"
+  },
+  {
+    "index": 14274,
+    "key": "NEFT1_BOSS_GEN_LASER_005",
+    "source_sha256": "41b192bbeb00c596a1c3aaff44b659c97a4e1beb811325cd25cbf0b4d9ecd58a",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.048;1.958&quot;>والآن اثبت مكانك!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.048;1.958&quot;>والآن اثبت مكانك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14275,
+    "key": "NEFT1_BOSS_GEN_LASER_006",
+    "source_sha256": "721d4e464a9ee53c4dd39854bb4913a004c179f228720606acd575e7cd5c896d",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.008;3.891&quot;>لا أشبع من هذا الليزر! وأنت؟",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.008;3.891&quot;>لا أشبع من هذا الليزر! وأنت؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14276,
+    "key": "NEFT1_BOSS_GEN_MELEE_001",
+    "source_sha256": "9bea73ccac31f87b797bcc4c8763bbba546028df9a51a5a38fddb8bff989d911",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.027;2.019&quot;>اااااووت!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.027;2.019&quot;>مت!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14277,
+    "key": "NEFT1_BOSS_GEN_MELEE_002",
+    "source_sha256": "77b36104ce5c2609af2fcc1d7f7ff97af7fd506472619321c0c4c1e0387ddfca",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.049;2.043&quot;>إنني أحب هذه الضربة!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.049;2.043&quot;>إنني أحب هذه الضربة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14278,
+    "key": "NEFT1_BOSS_GEN_MELEE_003",
+    "source_sha256": "688b1d1dc176b9077764dcaca75e605b1b69d01abe58f4785273c309d7bb67a6",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.045;1.51&quot;>فكر بسرعة أيها اللومباكس!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.045;1.51&quot;>فكر بسرعة أيها اللومباكس!",
+    "decision": "keep"
+  },
+  {
+    "index": 14279,
+    "key": "NEFT1_BOSS_GEN_MELEE_004",
+    "source_sha256": "d3cf2a832bf70f284f3fe5f48004420fd4d21640eedb4541be97264c5a6d487c",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.048;2.835&quot;>آمل أن أرى مصرعك!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.048;2.835&quot;>آمل أن أرى مصرعك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14280,
+    "key": "NEFT1_BOSS_GEN_MELEE_005",
+    "source_sha256": "919b2dbc693dd0fb6a41daf6672db50dc648fcea0e03692b2518f4b8e44b8700",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.046;1.624&quot;>انتبه لرأسك من فضلك!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.046;1.624&quot;>انتبه لرأسك من فضلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14281,
+    "key": "NEFT1_BOSS_GEN_MELEE_006",
+    "source_sha256": "354a7c8abcdc45329e0c4621cfa9b70e1097dc40212feb7136b843d526eeaa6c",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.029;1.624&quot;>لن تفلت مني!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.029;1.624&quot;>لن تفلت مني!",
+    "decision": "keep"
+  },
+  {
+    "index": 14282,
+    "key": "NEFT1_BOSS_GEN_MINES_001",
+    "source_sha256": "243201eae103831fa1ef2a0906ede6ac13f86990ebba4d0511eec8c43a61fbb3",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.042;1.127&quot;>مفاجأة!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.042;1.127&quot;>مفاجأة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14283,
+    "key": "NEFT1_BOSS_GEN_MINES_002",
+    "source_sha256": "bfa7ae24068ba8e43846010e2c91c57f7b3529a047db0974e8586d28c8d8d29c",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.049;2.393&quot;>هدية من الإمبراطور!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.049;2.393&quot;>هدية من الإمبراطور!",
+    "decision": "keep"
+  },
+  {
+    "index": 14284,
+    "key": "NEFT1_BOSS_GEN_MINES_003",
+    "source_sha256": "9aedcad5bb4085be7d4bf76922d1fc82da715fad22b794f6588768a4e960abda",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.047;2.259&quot;>ربما تستمتع بهذا!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.047;2.259&quot;>ربما تستمتع بهذا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14285,
+    "key": "NEFT1_BOSS_GEN_MINES_004",
+    "source_sha256": "876a69d4093afb585f8903c00f12b6d51d08a893260efb8db7f87ea6eae15ef1",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.041;2.047&quot;>أعرف ما تحتاجه!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.041;2.047&quot;>أعرف ما تحتاجه!",
+    "decision": "keep"
+  },
+  {
+    "index": 14286,
+    "key": "NEFT1_BOSS_GEN_MINES_005",
+    "source_sha256": "60fd0ed383f029aec67e77f1ec9fd0154a5a9c15cb23d54ac0e91003b7330515",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.049;1.719&quot;>انتبه لخطوتك أيها المتمرد!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.049;1.719&quot;>انتبه لخطوتك أيها المتمرد!",
+    "decision": "keep"
+  },
+  {
+    "index": 14287,
+    "key": "NEFT1_BOSS_GEN_MINES_006",
+    "source_sha256": "dca30eb37142f518e36bd1e7da9a6eea07365b7ddad90f4e19dac0a50b82a453",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.04;1.798&quot;>لا تهتم بفوضى!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.04;1.798&quot;>لا تهتم بالفوضى التي أحدثتها!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14292,
+    "key": "NEFT1_BOSS_GEN_TAIL_001",
+    "source_sha256": "1cf39992489f0ee340489e69d3b5a328347bdad1d679dd048c3856ffd309987f",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.042;4.037&quot;>لن تفلت من عناق الإمبراطور القاتل!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.042;4.037&quot;>لن تفلت من عناق الإمبراطور القاتل!",
+    "decision": "keep"
+  },
+  {
+    "index": 14293,
+    "key": "NEFT1_BOSS_GEN_TAIL_002",
+    "source_sha256": "6c3b65b9d8b24ff992182aeb9de812725c8511b44ebf42439cba54459d7ae4a9",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.029;4.01&quot;>سعيد جدا بإيذائك أيها المتمرد الحقير!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.029;4.01&quot;>سعيد جدا بإيذائك أيها المتمرد الحقير!",
+    "decision": "keep"
+  },
+  {
+    "index": 14294,
+    "key": "NEFT1_BOSS_GEN_TAIL_003",
+    "source_sha256": "45f4e84c6bebc32ec01cb82d8a222caabd26399a51c5a4d957c3be62f645cfea",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.035;2.915&quot;>موت سريع جميل هو ما تحتاجه!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.035;2.915&quot;>موت سريع جميل هو ما تحتاجه!",
+    "decision": "keep"
+  },
+  {
+    "index": 14295,
+    "key": "NEFT1_BOSS_GEN_TAIL_004",
+    "source_sha256": "0769e0bd6ab4d1e3192f7a3dc903f47eae85dcff6aeb58924727ee690a92d0fb",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.018;3.422&quot;>امتناعك عن الموت إهانة فاحشة!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.018;3.422&quot;>امتناعك عن الموت إهانة فاحشة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14296,
+    "key": "NEFT1_BOSS_GEN_TAIL_005",
+    "source_sha256": "f2b4ac388553cf764c18f5aa6007a17d37d2a6bf8878da9fc548c419336dc910",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.047;2.647&quot;>قضيتك إلى نهايتها أيها المتمرد!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.047;2.647&quot;>قضيتك تقترب من نهايتها، أيها المتمرد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14297,
+    "key": "NEFT1_BOSS_GEN_TAIL_006",
+    "source_sha256": "e123256e3e93bcfc377c7c3895d3886d68e5290315f0118e97443c1cd4227433",
+    "before": "<name=&quot;SEEK&quot;><ts=&quot;0.047;1.815&quot;>استعد للتعذيب!",
+    "after": "<name=&quot;SEEK&quot;><ts=&quot;0.047;1.815&quot;>استعد للتعذيب!",
+    "decision": "keep"
+  },
+  {
+    "index": 14299,
+    "key": "NEFT1_CORV_GP1_CINE_PARADE_INTRO_001",
+    "source_sha256": "983a71e1f8a252bb677df3f4dfcfbe8ba7c573ad57cdcb8bc69410ef7c3fda2d",
+    "before": "<ts=&quot;0;5.75&quot;>أيها أعضاء المقاومة، توجهوا فورا إلى أقرب<br>منشأة استقبال.<ts=&quot;6.109;9.51&quot;>نعدكم أن لا يصيبكم شيء سيئ.<ts=&quot;9.959;10.749&quot;>نعد.",
+    "after": "<ts=&quot;0;5.75&quot;>على أعضاء المقاومة التوجه فورًا إلى أقرب<br>منشأة استقبال.<ts=&quot;6.109;9.51&quot;>نعدكم بألا يصيبكم أي شر.<ts=&quot;9.959;10.749&quot;>نعدكم.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14300,
+    "key": "NEFT1_CORV_GP1_CINE_PARADE_INTRO_002",
+    "source_sha256": "263fa8beda72cb7f03e4d909ead54bc6837c473dacd1e14a71b3869316fe32fd",
+    "before": "<ts=&quot;0;1.804&quot;>،أيها أعضاء المقاومة<ts=&quot;1.981;5.736&quot;>توجهوا إلى قسم كبار الزوار في أقرب منشأة<br>استقبال<ts=&quot;5.762;8.862&quot;>من أجل تعديل سلوكي إجباري.<ts=&quot;8.988;10.384&quot;>سيكون ممتعا.<ts=&quot;11.133;11.866&quot;>ممتتع.",
+    "after": "<ts=&quot;0;1.804&quot;>يا أعضاء المقاومة،<ts=&quot;1.981;5.736&quot;>توجهوا إلى قسم كبار الزوار في أقرب منشأة<br>استقبال،<ts=&quot;5.762;8.862&quot;>للخضوع لتعديل سلوكي إلزامي.<ts=&quot;8.988;10.384&quot;>سيكون ممتعًا.<ts=&quot;11.133;11.866&quot;>ممتعًا.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14307,
+    "key": "NEFT1_CORV_GP2_GP_NEFCITY_001",
+    "source_sha256": "1263a395316e0863be57840c47aa43fae459ddda63cbd3b601b87873da838687",
+    "before": "<ts=&quot;0;3.1&quot;>تحياتي أيها المخترق! الإمبراطور يرسل<br>تحياته!<ts=&quot;3.51;4.249&quot;>وألمه!",
+    "after": "<ts=&quot;0;3.1&quot;>تحياتي أيها المخترق! الإمبراطور يرسل<br>تحياته!<ts=&quot;3.51;4.249&quot;>وألمه!",
+    "decision": "keep"
+  },
+  {
+    "index": 14308,
+    "key": "NEFT1_CORV_GP2_STRANGE_008",
+    "source_sha256": "1d7a5f3dfe3046ba4b4b2a0516373898a7442cdb87224ce85991a723c4241e40",
+    "before": "<ts=&quot;0;3.749&quot;>أهلا! متحمس جدا لهزيمتك!",
+    "after": "<ts=&quot;0;3.749&quot;>أهلا! متحمس جدا لهزيمتك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14309,
+    "key": "NEFT1_CORV_GP2_STRANGE_018",
+    "source_sha256": "28e8a2374fe6c3dae99035d4ce0667e11d0978fa432527c1a715bd35f7cbb3ae",
+    "before": "<ts=&quot;0;3.126&quot;>نعتذر، لكن ذلك الرجل ينتحل شخصية<br>إمبراطورنا!",
+    "after": "<ts=&quot;0;3.126&quot;>نعتذر، لكن ذلك الرجل ينتحل شخصية<br>إمبراطورنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14310,
+    "key": "NEFT1_CORV_GP2_STRANGE_019",
+    "source_sha256": "1fe09c8f182646ad2574bab4fd853faae0ab79b2a96c2768648baa1a4cbe23ad",
+    "before": "<ts=&quot;0;2.837&quot;>لا مشكلة! سنقتلك أبكر مما توقعنا!",
+    "after": "<ts=&quot;0;2.837&quot;>لا مشكلة! سنقتلك أبكر مما توقعنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14311,
+    "key": "NEFT1_CORV_GP2_STRANGE_023",
+    "source_sha256": "2bc84ae43a172eccfffb9ebd15a1b096812ae1319e1a0ceeb56e5fb2cf798488",
+    "before": "<ts=&quot;0;1.499&quot;>إلى اللقاء، أيها المتمردون!",
+    "after": "<ts=&quot;0;1.499&quot;>وداعًا، أيها العضويون!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14312,
+    "key": "NEFT1_CORV_GP3_FINALE_001",
+    "source_sha256": "7d0ec2cdd4da7ff384a54b3c0b279ffa2a45fb06dc7c2baa641b83174b2d8bdd",
+    "before": "<ts=&quot;0.04;2.84&quot;>هم كثيرون جدا! انسحبوا إلى الإمبراطور!",
+    "after": "<ts=&quot;0.04;2.84&quot;>هم كثيرون جدا! انسحبوا إلى الإمبراطور!",
+    "decision": "keep"
+  },
+  {
+    "index": 14313,
+    "key": "NEFT1_ENM_GEN_AIMING_001",
+    "source_sha256": "bdd0382d309e5c2ab21972f84110cf8f83011391202adbe702b5c78b259b6c50",
+    "before": "<ts=&quot;0;1.75&quot;>استعد للارتطام من فضلك!",
+    "after": "<ts=&quot;0;1.75&quot;>استعد للارتطام من فضلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14314,
+    "key": "NEFT1_ENM_GEN_AIMING_002",
+    "source_sha256": "374be9946f8cadf659268e2034a016a542cf7fd922cacf04a19afb283fb9af74",
+    "before": "<ts=&quot;0;1.518&quot;>هو الآن في تصويقي!",
+    "after": "<ts=&quot;0;1.518&quot;>الهدف في مرمى تصويبي!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14315,
+    "key": "NEFT1_ENM_GEN_AIMING_003",
+    "source_sha256": "5e2c2245ffd097e7a29d29e75e7c50bc0f929245399ca8ab648ff063c7c7a3a0",
+    "before": "<ts=&quot;0;1.05&quot;>أطلق النار!",
+    "after": "<ts=&quot;0;1.05&quot;>أطلق النار!",
+    "decision": "keep"
+  },
+  {
+    "index": 14316,
+    "key": "NEFT1_ENM_GEN_AIMING_004",
+    "source_sha256": "174a239973e950295c61b445f7d9ad38ee388f8cc8acaf95dca888809422f562",
+    "before": "<ts=&quot;0;1.4&quot;>لا تتحرك أيها العضوي!",
+    "after": "<ts=&quot;0;1.4&quot;>لا تتحرك أيها العضوي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14317,
+    "key": "NEFT1_ENM_GEN_AIMING_005",
+    "source_sha256": "6f9ded855764738d9ee21f0b7dd966ed0e3adcbb5fefa54a7b37a2eb7017bf26",
+    "before": "<ts=&quot;0;1.25&quot;>أستعد للإطلاق!",
+    "after": "<ts=&quot;0;1.25&quot;>أستعد للإطلاق!",
+    "decision": "keep"
+  },
+  {
+    "index": 14318,
+    "key": "NEFT1_ENM_GEN_ALLYDEAD_001",
+    "source_sha256": "1801fa5327e2fd382aaf581ee0c2adf92b45778b49b504234a1ef6eabadd9a2e",
+    "before": "<ts=&quot;0;1.05&quot;>كان هذا قاسيا!",
+    "after": "<ts=&quot;0;1.05&quot;>كان هذا قاسيا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14319,
+    "key": "NEFT1_ENM_GEN_ALLYDEAD_002",
+    "source_sha256": "80ebb1f51fdf7acca48de1cc6b2d9c3c728adf9669e412edf0bef87f3328a518",
+    "before": "<ts=&quot;0;1.716&quot;>نحن نحاول المساعدة فحسب!",
+    "after": "<ts=&quot;0;1.716&quot;>نحن نحاول المساعدة فحسب!",
+    "decision": "keep"
+  },
+  {
+    "index": 14320,
+    "key": "NEFT1_ENM_GEN_ALLYDEAD_003",
+    "source_sha256": "c5f61295f4b71994e0bea198edda49c610ee6fb140cbffc9a21dd9033247476d",
+    "before": "<ts=&quot;0;2&quot;>من فضلك، تكفف عن مزيد من المخالفات.",
+    "after": "<ts=&quot;0;2&quot;>يرجى الامتناع عن ارتكاب المزيد من<br>المخالفات.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14321,
+    "key": "NEFT1_ENM_GEN_ALLYDEAD_004",
+    "source_sha256": "f524463a51a70666def46331e1029e279b175149e3a6255a9c2a063d599b1c98",
+    "before": "<ts=&quot;0;1.05&quot;>أدوا واجبهم على أكمل وجه!",
+    "after": "<ts=&quot;0;1.05&quot;>أدوا واجبهم على أكمل وجه!",
+    "decision": "keep"
+  },
+  {
+    "index": 14322,
+    "key": "NEFT1_ENM_GEN_ALLYDEAD_005",
+    "source_sha256": "5d360bb87b9376f5289007992e548415021696cac0f488f111784032d187bcc2",
+    "before": "<ts=&quot;0;0.75&quot;>توقف من فضلك!",
+    "after": "<ts=&quot;0;0.75&quot;>توقف من فضلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14323,
+    "key": "NEFT1_ENM_GEN_ALLYDEAD_006",
+    "source_sha256": "70e8c53e23c12b8ae02438cf25d3518804da336ed27b0471d7f8507dfbb99077",
+    "before": "<ts=&quot;0;1.676&quot;>لا تفعل ذلك مجددا!",
+    "after": "<ts=&quot;0;1.676&quot;>لا تفعل ذلك مجددا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14324,
+    "key": "NEFT1_ENM_GEN_ATTACKDODGED_001",
+    "source_sha256": "b1cfd3e8cafe7759a5391260786116d0dbd44da83ecd20b7164fb0287272a183",
+    "before": "<ts=&quot;0;1.05&quot;>لا تقاوم!",
+    "after": "<ts=&quot;0;1.05&quot;>لا تقاوم!",
+    "decision": "keep"
+  },
+  {
+    "index": 14325,
+    "key": "NEFT1_ENM_GEN_ATTACKDODGED_002",
+    "source_sha256": "17c5fcaef81987ab8545d299e4785328b029d2c3ba30dc6848d56a6d212aa63d",
+    "before": "<ts=&quot;0;1.693&quot;>سأصل إليك يوما ما أيها المتمرد!",
+    "after": "<ts=&quot;0;1.693&quot;>سأنال منك مهما طال الأمر، أيها المتمرد!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14326,
+    "key": "NEFT1_ENM_GEN_ATTACKDODGED_003",
+    "source_sha256": "f1d9de275835f8a37536745fb12ae101adbc7e45fff3bb6e06d5bf19e176ca68",
+    "before": "<ts=&quot;0;1.05&quot;>العب بنزاهة من فضلك!",
+    "after": "<ts=&quot;0;1.05&quot;>العب بنزاهة من فضلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14327,
+    "key": "NEFT1_ENM_GEN_ATTACKDODGED_004",
+    "source_sha256": "f9e17b43a271d2290191b69e97540d19c5be0e27a96b3267cba8eea7997fa721",
+    "before": "<ts=&quot;0;1.116&quot;>آسف، أخطأت الهدف.",
+    "after": "<ts=&quot;0;1.116&quot;>آسف، أخطأت الهدف.",
+    "decision": "keep"
+  },
+  {
+    "index": 14328,
+    "key": "NEFT1_ENM_GEN_BOUNCE_001",
+    "source_sha256": "5c8a1950c5e8e51aa86bed0bd387de0cf27aab5375193b6aedff3909f86628a2",
+    "before": "<ts=&quot;0;1.75&quot;>انتبهوا للباونسر، أيها الجنود!",
+    "after": "<ts=&quot;0;1.75&quot;>انتبهوا للباونسر، أيها الجنود!",
+    "decision": "keep"
+  },
+  {
+    "index": 14329,
+    "key": "NEFT1_ENM_GEN_BOUNCE_002",
+    "source_sha256": "7c92168ad87d2c27c2dd9792efe28b128677ec25e30b1bbce06891d49104d042",
+    "before": "<ts=&quot;0;2.25&quot;>المتفجرات لا تخيفني!",
+    "after": "<ts=&quot;0;2.25&quot;>المتفجرات لا تخيفني!",
+    "decision": "keep"
+  },
+  {
+    "index": 14330,
+    "key": "NEFT1_ENM_GEN_BOUNCE_003",
+    "source_sha256": "7a804d15a82f3382b29d9c97cb7b341b04bd28a24c82a5ea6d4c6dcca9ab2c03",
+    "before": "<ts=&quot;0.047;1.763&quot;>استعدوا للانفجارات!",
+    "after": "<ts=&quot;0.047;1.763&quot;>استعدوا للانفجارات!",
+    "decision": "keep"
+  },
+  {
+    "index": 14331,
+    "key": "NEFT1_ENM_GEN_BURSTPISTOL_001",
+    "source_sha256": "aa96026e10126651cc2b57c0e1b64b693397d1d6689276a9cc5145a61a05dd6a",
+    "before": "<ts=&quot;0;1.5&quot;>العضوي مسلح!",
+    "after": "<ts=&quot;0;1.5&quot;>العضوي مسلح!",
+    "decision": "keep"
+  },
+  {
+    "index": 14332,
+    "key": "NEFT1_ENM_GEN_BURSTPISTOL_002",
+    "source_sha256": "b95ebe370c107ed48aa88f1000b11773f4d637098fec5a2d04da411fdc366677",
+    "before": "<ts=&quot;0;1&quot;>طلقات قادمة!",
+    "after": "<ts=&quot;0;1&quot;>طلقات قادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14333,
+    "key": "NEFT1_ENM_GEN_BURSTPISTOL_003",
+    "source_sha256": "3aeda34c54bf9ea854f3b8dbd70709fba8ccc4ad5b6338a800863b9d60faed59",
+    "before": "<ts=&quot;0;2.5&quot;>لن أطلب منافذ إدخال إضافية.",
+    "after": "<ts=&quot;0;2.5&quot;>لا أحتاج إلى منافذ إدخال إضافية.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14334,
+    "key": "NEFT1_ENM_GEN_BURSTPISTOL_004",
+    "source_sha256": "1235dcf0010e8c54fc3fe554c8d0b383778fc22c8f59538256f14bc6058fa2f8",
+    "before": "<ts=&quot;0;1.669&quot;>سلم المسدس من فضلك!",
+    "after": "<ts=&quot;0;1.669&quot;>سلم المسدس من فضلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14335,
+    "key": "NEFT1_ENM_GEN_BURSTPISTOL_005",
+    "source_sha256": "1c5029bd23056aeecc9e7649872950c6df69e225a6a417e6fd6c7cebc68536a7",
+    "before": "<ts=&quot;0;0.999&quot;>أيها العضوي، أوقف النار!",
+    "after": "<ts=&quot;0;0.999&quot;>أيها العضوي، أوقف النار!",
+    "decision": "keep"
+  },
+  {
+    "index": 14336,
+    "key": "NEFT1_ENM_GEN_BUZZBLADES_001",
+    "source_sha256": "b8b660a4cccb95cd21cf77ad34e862d8e994cc03de77bb8266628e0199f36b90",
+    "before": "<ts=&quot;0;1.05&quot;>انظر إليها، لقد كانت حادة!",
+    "after": "<ts=&quot;0;1.05&quot;>تبدو حادة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14337,
+    "key": "NEFT1_ENM_GEN_BUZZBLADES_002",
+    "source_sha256": "2391f3249cc60f92fc6a59649d48e17a3c5c840bf445fd6b2e02b781c0e164a0",
+    "before": "<ts=&quot;0;1.05&quot;>تجنب الارتداد!",
+    "after": "<ts=&quot;0;1.05&quot;>تجنب الارتداد!",
+    "decision": "keep"
+  },
+  {
+    "index": 14338,
+    "key": "NEFT1_ENM_GEN_BUZZBLADES_003",
+    "source_sha256": "80b44eb6f17ff21ed927ee87573150eb943732180a185c9a0bb9fb72e8ec2e10",
+    "before": "<ts=&quot;0;1.95&quot;>قذائف نصلية قادمة!",
+    "after": "<ts=&quot;0;1.95&quot;>قذائف نصلية قادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14339,
+    "key": "NEFT1_ENM_GEN_BUZZBLADES_004",
+    "source_sha256": "a54e7607669466f3049ec817dfd51de21feffa47e6b6c2d9421d543213918418",
+    "before": "<ts=&quot;0;1.709&quot;>انتبه أين توجهه من فضلك!",
+    "after": "<ts=&quot;0;1.709&quot;>انتبه أين توجهه من فضلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14340,
+    "key": "NEFT1_ENM_GEN_BUZZBLADES_005",
+    "source_sha256": "dd311241b0b700048a1b890326d561e30c7360a5bf3bda1f7e32fec8d2e88f05",
+    "before": "<ts=&quot;0.025;1.393&quot;>نصال الأزيز قادمة!",
+    "after": "<ts=&quot;0.025;1.393&quot;>نصال الأزيز قادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14341,
+    "key": "NEFT1_ENM_GEN_CARPET_001",
+    "source_sha256": "d2acf9ba3085c85d58a39e1220e768a82904dd9048ce7b28585827ff8ee935cc",
+    "before": "<ts=&quot;0;1.249&quot;>القصف وشيك!",
+    "after": "<ts=&quot;0;1.249&quot;>القصف وشيك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14342,
+    "key": "NEFT1_ENM_GEN_CARPET_002",
+    "source_sha256": "9a288c4494fa1a26c782dcd330ec01c01ee8c27c49d82b41aa52231df4a6381d",
+    "before": "<ts=&quot;0.011;2.076&quot;>استعدوا للانفجارات القادمة!",
+    "after": "<ts=&quot;0.011;2.076&quot;>استعدوا للانفجارات القادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14343,
+    "key": "NEFT1_ENM_GEN_CARPET_003",
+    "source_sha256": "b7a56443b86ebec1deb9fd8ae7cedfacffa00bb53bc7c85b523dfddda2b70cbe",
+    "before": "<ts=&quot;0;1.25&quot;>يا أصدقاء، تفرقوا!",
+    "after": "<ts=&quot;0;1.25&quot;>يا أصدقاء، تفرقوا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14344,
+    "key": "NEFT1_ENM_GEN_CARPET_004",
+    "source_sha256": "251fa421e635f93019fe19747e4de4a9f6f99a3327c092217d2988f8a9e9d022",
+    "before": "<ts=&quot;0;1.05&quot;>قنابل من الأعلى!",
+    "after": "<ts=&quot;0;1.05&quot;>قنابل من الأعلى!",
+    "decision": "keep"
+  },
+  {
+    "index": 14351,
+    "key": "NEFT1_ENM_GEN_DAMAGED_001",
+    "source_sha256": "a4930635b8eac08b2f4a7d40ebb8e7749f75f522cc4a0e04b919b8cc4180be4f",
+    "before": "<ts=&quot;0;1.75&quot;>مقاومتك غير مرغوب فيها!",
+    "after": "<ts=&quot;0;1.75&quot;>مقاومتك غير مرغوب فيها!",
+    "decision": "keep"
+  },
+  {
+    "index": 14352,
+    "key": "NEFT1_ENM_GEN_DAMAGED_002",
+    "source_sha256": "fe32cf149cd041f5aff2a83314cd75cec386b3fdcaaf52e5fd2c09bebe1568d3",
+    "before": "<ts=&quot;0;1.75&quot;>نحن لا نشعر بالألم!",
+    "after": "<ts=&quot;0;1.75&quot;>نحن لا نشعر بالألم!",
+    "decision": "keep"
+  },
+  {
+    "index": 14353,
+    "key": "NEFT1_ENM_GEN_DAMAGED_003",
+    "source_sha256": "7f28e6bd9aae59c7ec5a27edff7d7a715468201da569122aceb9dac2772f9200",
+    "before": "<ts=&quot;0.048;1.189&quot;>يمكن إصلاح ذلك.",
+    "after": "<ts=&quot;0.048;1.189&quot;>يمكن إصلاح ذلك.",
+    "decision": "keep"
+  },
+  {
+    "index": 14354,
+    "key": "NEFT1_ENM_GEN_DAMAGED_004",
+    "source_sha256": "cf1fe6f0fffd9285b49e8f887b67f9a851010ed6acaa45654e9349c2b01adb0e",
+    "before": "<ts=&quot;0;1.05&quot;>تعثر بسيط.",
+    "after": "<ts=&quot;0;1.05&quot;>تعثر بسيط.",
+    "decision": "keep"
+  },
+  {
+    "index": 14355,
+    "key": "NEFT1_ENM_GEN_DAMAGED_005",
+    "source_sha256": "48be666528f1c1be1976f3e1d98f0e940cb1086a88314a16ad58cb46295ef87e",
+    "before": "<ts=&quot;0.043;2.683&quot;>لا يسمح لك بالدفاع عن نفسك!",
+    "after": "<ts=&quot;0.043;2.683&quot;>لا يسمح لك بالدفاع عن نفسك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14356,
+    "key": "NEFT1_ENM_GEN_DAMAGED_006",
+    "source_sha256": "645356e792282ad5870a10c2ef80c1cb62da70f5018964457f6a2bdc93e46e1d",
+    "before": "<ts=&quot;0;2.219&quot;>أظن إنك لم تقصد ذلك.",
+    "after": "<ts=&quot;0;2.219&quot;>أفترض أنك لم تقصد فعل ذلك.",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14357,
+    "key": "NEFT1_ENM_GEN_DAMAGED_007",
+    "source_sha256": "58b561fbd57b7a0f0636095c8666e9ad9d02a9e3de8a50db66fdfa3b2319dbae",
+    "before": "<ts=&quot;0;0.981&quot;>خدش لا غير!",
+    "after": "<ts=&quot;0;0.981&quot;>خدش لا غير!",
+    "decision": "keep"
+  },
+  {
+    "index": 14358,
+    "key": "NEFT1_ENM_GEN_DAMAGED_008",
+    "source_sha256": "346f46dd0c8718f54a2240140b12b78a95008621462cf0d3436bb248c25f0c98",
+    "before": "<ts=&quot;0;1.662&quot;>لن يوقفني أحد.",
+    "after": "<ts=&quot;0;1.662&quot;>لن يوقفني أحد.",
+    "decision": "keep"
+  },
+  {
+    "index": 14359,
+    "key": "NEFT1_ENM_GEN_DEALTDAMAGE_001",
+    "source_sha256": "a8f19b5d3ef479bf1ff9f157c5c561a75b97a9bd6ae27a42d97f8863c6d87480",
+    "before": "<ts=&quot;0;1.75&quot;>إعادة التأهيل ليست سهلة!",
+    "after": "<ts=&quot;0;1.75&quot;>إعادة التأهيل ليست أمرًا سهلًا!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14360,
+    "key": "NEFT1_ENM_GEN_DEALTDAMAGE_002",
+    "source_sha256": "16c6c92cfca21963cebc1acce772008e3582b9d633172d40e401a9c78408adb8",
+    "before": "<ts=&quot;0;1.05&quot;>بدا ذلك مؤلما.",
+    "after": "<ts=&quot;0;1.05&quot;>بدا ذلك مؤلما.",
+    "decision": "keep"
+  },
+  {
+    "index": 14361,
+    "key": "NEFT1_ENM_GEN_DEALTDAMAGE_003",
+    "source_sha256": "c8f3e1343f865f370cdc0b6484a146f687bd58700269218c20eef3dd4f84e330",
+    "before": "<ts=&quot;0;2&quot;>مع التحيات، الإمبراطور!",
+    "after": "<ts=&quot;0;2&quot;>مع الحب، بتوقيع الإمبراطور!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14362,
+    "key": "NEFT1_ENM_GEN_DEALTDAMAGE_004",
+    "source_sha256": "1daaad239a13748b37b40b2fa79784225b04d91c2246c4efbb212a6cd8d111b8",
+    "before": "<ts=&quot;0;1.05&quot;>كان ذلك مثيرا!",
+    "after": "<ts=&quot;0;1.05&quot;>كان ذلك مثيرا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14363,
+    "key": "NEFT1_ENM_GEN_DEALTDAMAGE_005",
+    "source_sha256": "ff4e04724abbb8a561b3c6543341ec237101e5abe1453649b3ba00be0f96a09e",
+    "before": "<ts=&quot;0.05;0.828&quot;>نجاح!",
+    "after": "<ts=&quot;0.05;0.828&quot;>نجاح!",
+    "decision": "keep"
+  },
+  {
+    "index": 14364,
+    "key": "NEFT1_ENM_GEN_DEALTDAMAGE_006",
+    "source_sha256": "e7f51b45b303f777dbb139f9e47100103664511ac389a825b6223e443347c20c",
+    "before": "<ts=&quot;0.03;1.578&quot;>أصبت العضوي!",
+    "after": "<ts=&quot;0.03;1.578&quot;>أصبت العضوي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14365,
+    "key": "NEFT1_ENM_GEN_DEALTDAMAGE_007",
+    "source_sha256": "eb102be727d90e32c395ea847760d0964a7d0106c93bf622191da818d4150577",
+    "before": "<ts=&quot;0;1.75&quot;>هل أنت مستعد للاستسلام؟",
+    "after": "<ts=&quot;0;1.75&quot;>هل أنت مستعد للاستسلام؟",
+    "decision": "keep"
+  },
+  {
+    "index": 14366,
+    "key": "NEFT1_ENM_GEN_DEALTDAMAGE_008",
+    "source_sha256": "3741e8d3bea7afa944499e8c663d181458ab09e7afebd9be68f52a4edea221a7",
+    "before": "<ts=&quot;0;1.4&quot;>كان ذلك سهلا جدا!",
+    "after": "<ts=&quot;0;1.4&quot;>كان ذلك سهلا جدا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14384,
+    "key": "NEFT1_ENM_GEN_DOOMAGENTS_001",
+    "source_sha256": "52b57f595df8ceb4b62a776b38e574b2e11bda419887c45f6e8093afba266dde",
+    "before": "<ts=&quot;0.039;1.973&quot;>المتمرد ليس صديقك!",
+    "after": "<ts=&quot;0.039;1.973&quot;>المتمرد ليس صديقك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14385,
+    "key": "NEFT1_ENM_GEN_DOOMAGENTS_002",
+    "source_sha256": "9e00603fe10e67a7c93a58bb481bffc7fa4f2504daa66a8bc3533fc1a637b0ff",
+    "before": "<ts=&quot;0;1.742&quot;>نرجو أن تصطفوا أيها الصغار!",
+    "after": "<ts=&quot;0;1.742&quot;>نرجو أن تصطفوا أيها الصغار!",
+    "decision": "keep"
+  },
+  {
+    "index": 14386,
+    "key": "NEFT1_ENM_GEN_DOOMAGENTS_003",
+    "source_sha256": "93910ee24c29729416bb566441ce1cb4078aff1907f5dbd24f87334a2a5d7c58",
+    "before": "<ts=&quot;0;1.833&quot;>لا تدعهم يقتربون كثيرا!",
+    "after": "<ts=&quot;0;1.833&quot;>لا تدعهم يقتربون كثيرا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14387,
+    "key": "NEFT1_ENM_GEN_DOOMAGENTS_004",
+    "source_sha256": "2372410d2b5b4fde977a9984776d4e33de3310ded2e11adeefa2e71449636921",
+    "before": "<ts=&quot;0;1.25&quot;>الانفجارات وشيكة!",
+    "after": "<ts=&quot;0;1.25&quot;>الانفجارات وشيكة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14393,
+    "key": "NEFT1_ENM_GEN_ENFORCER_001",
+    "source_sha256": "322acf731f255abde03f3733ac67d430155d49c1675f88127672d881e4c12b0a",
+    "before": "<ts=&quot;0;1.75&quot;>سلم البندقية أيها العضوي!",
+    "after": "<ts=&quot;0;1.75&quot;>سلم البندقية أيها العضوي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14394,
+    "key": "NEFT1_ENM_GEN_ENFORCER_002",
+    "source_sha256": "b0910a63e8ec6e72d8859fcdcb6738c1b47bc28d8d6b02fb6c32b0e537de5cdf",
+    "before": "<ts=&quot;0;1.4&quot;>احرص على مسافتك أيها الأصدقاء!",
+    "after": "<ts=&quot;0;1.4&quot;>حافظوا على مسافة، يا أصدقاء!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14395,
+    "key": "NEFT1_ENM_GEN_ENFORCER_003",
+    "source_sha256": "d502ff4781d62b8aae030b63bbc55ca4add5fe85c97a02cd2f311692634cfd56",
+    "before": "<ts=&quot;0;1.48&quot;>انتبهوا للطلقات الثانوية!",
+    "after": "<ts=&quot;0;1.48&quot;>انتبهوا للطلقات الثانوية!",
+    "decision": "keep"
+  },
+  {
+    "index": 14396,
+    "key": "NEFT1_ENM_GEN_ENFORCER_004",
+    "source_sha256": "d2f700c6e2d4deac16f3389dfd503bb796b8a79e0661b30ec5cf0997c807d745",
+    "before": "<ts=&quot;0.052;1.81&quot;>منفذ غير مسجل!",
+    "after": "<ts=&quot;0.052;1.81&quot;>إنفورسر غير مسجل!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14397,
+    "key": "NEFT1_ENM_GEN_ENFORCER_005",
+    "source_sha256": "5f37fc0cf45e2933cdee92ef0fa94858fb09dc8ef7e625d4f0e2c72644b5ec92",
+    "before": "<ts=&quot;0;2.249&quot;>ضع البندقية فورا!",
+    "after": "<ts=&quot;0;2.249&quot;>ضع البندقية فورا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14398,
+    "key": "NEFT1_ENM_GEN_ENGAGED_002",
+    "source_sha256": "4c01ec1208347007339a4d8bd70c5f15c2143c3ec136e41de4cd6bacb6bea3ff",
+    "before": "<ts=&quot;0;2.249&quot;>هذا ليس عقابا. بل فرصة!",
+    "after": "<ts=&quot;0;2.249&quot;>هذا ليس عقابا. بل فرصة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14399,
+    "key": "NEFT1_ENM_GEN_ENGAGED_003",
+    "source_sha256": "467fe3de8b1f57709d6c03c4009d163f08aa74fdc9c0b4954785c07e27a43b4e",
+    "before": "<ts=&quot;0;3.5&quot;>حان وقت الانضمام إلى أصدقائك المتمردين في<br>الفناء الكامل!",
+    "after": "<ts=&quot;0;3.5&quot;>حان وقت الانضمام إلى أصدقائك المتمردين في<br>الفناء الكامل!",
+    "decision": "keep"
+  },
+  {
+    "index": 14400,
+    "key": "NEFT1_ENM_GEN_ENGAGED_004",
+    "source_sha256": "0f27bfe1bae4b5bbf2d9c98f5a3bdf0649522906b17b1468f1538e4732f1f4af",
+    "before": "<ts=&quot;0;2.25&quot;>العصيان غير مقبول، أيها اللومباكس!",
+    "after": "<ts=&quot;0;2.25&quot;>العصيان غير مقبول، أيها اللومباكس!",
+    "decision": "keep"
+  },
+  {
+    "index": 14401,
+    "key": "NEFT1_ENM_GEN_ENGAGED_005",
+    "source_sha256": "b6a4d2e684e9faa32a62b405a7ba4643d6c832be670bb89a2355bb021915a972",
+    "before": "<ts=&quot;0;2.861&quot;>كلما قل مقاومتك، كبر قفصك!",
+    "after": "<ts=&quot;0;2.861&quot;>كلما قلت مقاومتك، كبر قفصك!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14402,
+    "key": "NEFT1_ENM_GEN_ENGAGED_006",
+    "source_sha256": "87a004994999731127a3ae84089961e5b3368d828ab77d981251c254e01bee71",
+    "before": "<ts=&quot;0;2.25&quot;>استسلم ما دام بإمكانك أيها المتمرد!",
+    "after": "<ts=&quot;0;2.25&quot;>استسلم ما دام بإمكانك أيها المتمرد!",
+    "decision": "keep"
+  },
+  {
+    "index": 14403,
+    "key": "NEFT1_ENM_GEN_ENGAGED_007",
+    "source_sha256": "b563942d4ccb05be8c038b0a38f43c8f4d45e45b6bc15c081ae5adb867c2fcaa",
+    "before": "<ts=&quot;0;2&quot;>لا أريد أنؤذيك.<ts=&quot;2;3.05&quot;>لكنني سأفعل!",
+    "after": "<ts=&quot;0;2&quot;>لا أريد إيذاءك.<ts=&quot;2;3.05&quot;>لكنني سأفعل!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14404,
+    "key": "NEFT1_ENM_GEN_ENGAGED_008",
+    "source_sha256": "0b5b744860f04b26a189d16095e1d2c2592129220b92e4e2e265ef236a59914a",
+    "before": "<ts=&quot;0;2.249&quot;>كيف تجرؤ على تحدي إمبراطورنا!",
+    "after": "<ts=&quot;0;2.249&quot;>كيف تجرؤ على تحدي إمبراطورنا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14405,
+    "key": "NEFT1_ENM_GEN_EXPLOSIVECRATE_001",
+    "source_sha256": "a45a7c3fc3d2bc1375dee61f24cb18c41ce84dc33f93e350bd6e385dbbee33e6",
+    "before": "<ts=&quot;0;2.25&quot;>رصد انفجار غير مصرح به!",
+    "after": "<ts=&quot;0;2.25&quot;>رصد انفجار غير مصرح به!",
+    "decision": "keep"
+  },
+  {
+    "index": 14406,
+    "key": "NEFT1_ENM_GEN_EXPLOSIVECRATE_002",
+    "source_sha256": "b3e7d45bccf9ef9d3ca19bda2ba8faf7976d446c90e25082a48ed2c7e2b7771f",
+    "before": "<ts=&quot;0;2.081&quot;>لو كانت لي نهايات عصبية لألمني ذلك!",
+    "after": "<ts=&quot;0;2.081&quot;>لو كانت لي نهايات عصبية لألمني ذلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14407,
+    "key": "NEFT1_ENM_GEN_EXPLOSIVECRATE_003",
+    "source_sha256": "01220b97c2fab09faf7838aade8fd145d1782686bb1a57bf8605fcbcbc0919c1",
+    "before": "<ts=&quot;0;1.4&quot;>لقد أحرقت بدنتي!",
+    "after": "<ts=&quot;0;1.4&quot;>لقد أحرقت بدنتي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14408,
+    "key": "NEFT1_ENM_GEN_FROZEN_001",
+    "source_sha256": "9185721ce038e9d01372dc1390ff8828167890657108c3824dd8b58e71c5d81b",
+    "before": "<ts=&quot;0;1&quot;>أحتاج سائلا مانعا للتجمد!",
+    "after": "<ts=&quot;0;1&quot;>أحتاج سائلا مانعا للتجمد!",
+    "decision": "keep"
+  },
+  {
+    "index": 14409,
+    "key": "NEFT1_ENM_GEN_FROZEN_002",
+    "source_sha256": "a0f98f5e480b7a03a0ad6cfe3eb75ea816ff4f910a76eef96aca29db0b0300f6",
+    "before": "<ts=&quot;0;0.999&quot;>التروس عالقة!",
+    "after": "<ts=&quot;0;0.999&quot;>التروس عالقة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14410,
+    "key": "NEFT1_ENM_GEN_FROZEN_003",
+    "source_sha256": "27e33277187722dc10cf4ff8eb359a166f14eb17f2a7838f9c2b582b2cbeed0f",
+    "before": "<ts=&quot;0;1.75&quot;>سأسعد بالمساعدة!",
+    "after": "<ts=&quot;0;1.75&quot;>سأكون ممتنًّا لبعض المساعدة!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14411,
+    "key": "NEFT1_ENM_GEN_FROZEN_004",
+    "source_sha256": "bcee3af95f4ccfcb1bfc71d7445c77a19736ab85df2628cf16ca788bbe7cfce7",
+    "before": "<ts=&quot;0;1.749&quot;>درجات الحرارة الداخلية منخفضة جدا.",
+    "after": "<ts=&quot;0;1.749&quot;>درجات الحرارة الداخلية منخفضة جدا.",
+    "decision": "keep"
+  },
+  {
+    "index": 14412,
+    "key": "NEFT1_ENM_GEN_FUNGAGED_001",
+    "source_sha256": "f2af34c54e1607cebd892eac9c2d787bd2f5d6db42a5101e11fcbec1bf5e2e72",
+    "before": "<ts=&quot;0;1.749&quot;>الفطر المتمرد بيننا!",
+    "after": "<ts=&quot;0;1.749&quot;>الفطر المتمرد بيننا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14413,
+    "key": "NEFT1_ENM_GEN_FUNGAGED_002",
+    "source_sha256": "5aed9efb4716d7807f266a852f45671d94c07dd19525fb3686e71003563b214e",
+    "before": "<ts=&quot;0;2.5&quot;>أنه هذا الحفل فورا!",
+    "after": "<ts=&quot;0;2.5&quot;>أنه هذا الحفل فورا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14414,
+    "key": "NEFT1_ENM_GEN_FUNGI_001",
+    "source_sha256": "8cbbdf49ad3aef133092724d93bf458d6bb6a11e5aaa436439e4c91b8601fb21",
+    "before": "<ts=&quot;0;1.98&quot;>قذائف عضوية! ؟<ts=&quot;2.42;3.75&quot;>كم هذا مقرف!",
+    "after": "<ts=&quot;0;1.98&quot;>قذائف عضوية؟!<ts=&quot;2.42;3.75&quot;>كم هذا مقرف!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14415,
+    "key": "NEFT1_ENM_GEN_FUNGI_002",
+    "source_sha256": "6a0b470658600c06a5d3b9cbb84d98d9175fbaca70ab209755ef8cd20a990a67",
+    "before": "<ts=&quot;0;2&quot;>كف عن ذلك أيها الفطر!",
+    "after": "<ts=&quot;0;2&quot;>كف عن ذلك أيها الفطر!",
+    "decision": "keep"
+  },
+  {
+    "index": 14416,
+    "key": "NEFT1_ENM_GEN_FUNGI_003",
+    "source_sha256": "f4bdac06fa3be44ebe2ac437ca105f4dcc30345931074f3dbfe97aa84caf2ad0",
+    "before": "<ts=&quot;0;2.178&quot;>لن أسمي هذا حفلة.",
+    "after": "<ts=&quot;0;2.178&quot;>لن أسمي هذا حفلة.",
+    "decision": "keep"
+  },
+  {
+    "index": 14427,
+    "key": "NEFT1_ENM_GEN_ICICLEBLASTER_001",
+    "source_sha256": "544299962b8891617f5447794d9543e9ff232d8fb9ee15ccf1f6ad3e4280e89b",
+    "before": "<ts=&quot;0;1.5&quot;>قنابل جليدية قادمة!",
+    "after": "<ts=&quot;0;1.5&quot;>قنابل جليدية قادمة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14428,
+    "key": "NEFT1_ENM_GEN_ICICLEBLASTER_002",
+    "source_sha256": "dacaa8b7f64c8580a617ce8df83eeff5b3e2dfa5da9134553cd660f07fe7db98",
+    "before": "<ts=&quot;0;1.75&quot;>أفلت القاذف من فضلك!",
+    "after": "<ts=&quot;0;1.75&quot;>أفلت القاذف من فضلك!",
+    "decision": "keep"
+  },
+  {
+    "index": 14429,
+    "key": "NEFT1_ENM_GEN_ICICLEBLASTER_003",
+    "source_sha256": "1c9a20e87f353113a95a143eae9212735551e176885db80dfce5e16f11547a66",
+    "before": "<ts=&quot;0;1.75&quot;>رصد سائل تبريد مفرط.",
+    "after": "<ts=&quot;0;1.75&quot;>رصد سائل تبريد مفرط.",
+    "decision": "keep"
+  },
+  {
+    "index": 14430,
+    "key": "NEFT1_ENM_GEN_ICICLEBLASTER_004",
+    "source_sha256": "42174cdd56ec0798b8b2de8788982fbce4bfa885815362a484490061c2f00992",
+    "before": "<ts=&quot;0;1.5&quot;>درجات الحرارة المحيطة تنخفض.",
+    "after": "<ts=&quot;0;1.5&quot;>درجات الحرارة المحيطة تنخفض.",
+    "decision": "keep"
+  },
+  {
+    "index": 14431,
+    "key": "NEFT1_ENM_GEN_IDLE_001",
+    "source_sha256": "667924eca7166ca77d1461c003cd0a0091b4d7215b77bb5adeeb86f726769828",
+    "before": "<ts=&quot;0;4.249&quot;>يوم جديد، وفرصة جديدة لإرضاء الإمبراطور<br>بولايتي غير المشروطة!",
+    "after": "<ts=&quot;0;4.249&quot;>يوم آخر، وفرصة أخرى لإرضاء الإمبراطور<br>بولائي المطلق!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14432,
+    "key": "NEFT1_ENM_GEN_IDLE_002",
+    "source_sha256": "df71a9a7e4843aa984dfa87092d8a2412a9dd8749a7b12d75d5bac9af8d16e94",
+    "before": "<ts=&quot;0;1.94&quot;>الموت، والدمار، والسيطرة.<ts=&quot;2.36;3.599&quot;>أحب عملي!",
+    "after": "<ts=&quot;0;1.94&quot;>الموت، والدمار، والسيطرة.<ts=&quot;2.36;3.599&quot;>أحب عملي!",
+    "decision": "keep"
+  },
+  {
+    "index": 14433,
+    "key": "NEFT1_ENM_GEN_IDLE_003",
+    "source_sha256": "ae0f3e72ea0d47595d576a2243983cc80aa321c7a2d0be993e3ee0114331c9e3",
+    "before": "<ts=&quot;0.04;2.798&quot;>ممتز أن تكون جزءا من شيء أكبر!",
+    "after": "<ts=&quot;0.04;2.798&quot;>ما أجمل أن أكون جزءًا من شيء أكبر!",
+    "decision": "rewrite"
+  },
+  {
+    "index": 14434,
+    "key": "NEFT1_ENM_GEN_IDLE_004",
+    "source_sha256": "a222b57e08f57216785358c89942b35793381b637a146145be814292fefe4166",
+    "before": "<ts=&quot;0;3.25&quot;>لا شيء ينشط يومك كسيطرة الروبوتات التامة!",
+    "after": "<ts=&quot;0;3.25&quot;>لا شيء ينشط يومك كسيطرة الروبوتات التامة!",
+    "decision": "keep"
+  },
+  {
+    "index": 14435,
+    "key": "NEFT1_ENM_GEN_IDLE_005",
+    "source_sha256": "3934a7b429fe6fe62397b826957a5698ab9cc517c8549c828eea63eacbfe7e41",
+    "before": "<ts=&quot;0;4.094&quot;>نحن محظوظون جدا بوجود حاكم ذكي وخبيث مثله!",
+    "after": "<ts=&quot;0;4.094&quot;>نحن محظوظون جدا بوجود حاكم ذكي وخبيث مثله!",
+    "decision": "keep"
+  },
+  {
+    "index": 14441,
+    "key": "NEFT1_ENM_GEN_KAMEHAMEHA_001",
+    "source_sha256": "629db351a993e1fa1c298817c3b0afed804cf686952eb47797a4e95dd23e8899",
+    "before": "<ts=&quot;0;1.75&quot;>رصد شعاع طاقة عدائي.",
+    "after": "<ts=&quot;0;1.75&quot;>رصد شعاع طاقة عدائي.",
+    "decision": "keep"
+  },
+  {
+    "index": 14442,
+    "key": "NEFT1_ENM_GEN_KAMEHAMEHA_002",
+    "source_sha256": "a01c9567ba86f6eb809ebff827064c749db67c6ff36f1c341d574d7c48f17d2c",
+    "before": "<ts=&quot;0;1&quot;>أيها الجنود، تفرقوا!",
+    "after": "<ts=&quot;0;1&quot;>أيها الجنود، تفرقوا!",
+    "decision": "keep"
+  },
+  {
+    "index": 14443,
+    "key": "NEFT1_ENM_GEN_KAMEHAMEHA_003",
+    "source_sha256": "31bfc4169e6ed09775158609d47c7a8c89e4b85a3466a861a2ee82f221525989",
+    "before": "<ts=&quot;0;1.682&quot;>ابتعد عن خط النار!",
+    "after": "<ts=&quot;0;1.682&quot;>ابتعد عن خط النار!",
+    "decision": "keep"
+  }
+]

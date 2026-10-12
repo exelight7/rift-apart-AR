@@ -7,12 +7,20 @@
     "scene_code": "ZORD_GP1_CINE_REACTOR",
     "arabic_current": "<ts=&quot;0;1.749&quot;>بدأ الإيقاف الطارئ!",
     "arabic_edit": "<ts=&quot;0;1.749&quot;>بدأ الإيقاف الطارئ!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "963882dabfc5bbb9b25a2cb42f736d50070cebf71ed3a5afcc5178f70e61a631",
+      "candidate_sha256": "334747ccbd22b133ce24b0b439b8922e4a9c3b7dd954fabc345bc8fc86e04624",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 346,
@@ -22,13 +30,21 @@
     "scene_code": "ZORD_GP1_CINE_REACTOR",
     "arabic_current": "<ts=&quot;0;2.45&quot;>إعادة توجيه الطاقة إلى قسم<br>كبار الزوار!",
     "arabic_edit": "<ts=&quot;0;2.45&quot;>إعادة توجيه الطاقة إلى قسم كبار الزوار!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-001",
+      "source_sha256": "ba899cba352922da7b063c5bed07cbcaefda4bc56e0a991d768f4327408b7925",
+      "candidate_sha256": "f54bf29db127e3e2352da0d194472f09222a05acb9d973cadf14726b010c0d48",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 2451,
@@ -38,12 +54,20 @@
     "scene_code": "ZORD_GP1_CINE_REACTOR",
     "arabic_current": "<ts=&quot;0;1.953&quot;>نعم.",
     "arabic_edit": "<ts=&quot;0;1.953&quot;>نعم.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-006",
+      "source_sha256": "4dfb8eeb3b2357e52375a692f4ae110349d0b5a22ec607d580e58699d616d6a6",
+      "candidate_sha256": "7e4f036dfcb5c19c4578d86c7d61efa5ad5cc35fd57d5be6349264f5b53e803b",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 21645,
@@ -52,14 +76,22 @@
     "speaker_code": "RIVE",
     "scene_code": "ZORD_GP1_CINE_REACTOR",
     "arabic_current": "<ts=&quot;0;2.104&quot;>راتشت في زنزانة «كبار<br>الشخصيات»صحيح؟ ،",
-    "arabic_edit": "<ts=&quot;0;2.104&quot;>راتشت في زنزانة «كبار الشخصيات»صحيح؟ ،",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.104&quot;>راتشت في زنزانة «كبار الشخصيات»، أليس<br>كذلك؟",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-029",
+      "source_sha256": "a69e6314c345ad1c06576e9af8936a180c8432892667846632f7b91a8f24062a",
+      "candidate_sha256": "5a8cb8fda4388686effc98def574be4936b31894678c4c119fbfefeea5641e43",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24714,

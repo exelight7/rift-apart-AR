@@ -6,13 +6,21 @@
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BUYRYNO",
     "arabic_current": "<ts=&quot;0.24;3.08&quot;>من أسلحتي 8 رينو<br>المفضلة؛<ts=&quot;3.61;6.286&quot;>وأنا واثقة إنك ستشعر<br>بالمثل في النهاية!",
-    "arabic_edit": "<ts=&quot;0.24;3.08&quot;>من أسلحتي 8 رينو المفضلة؛<ts=&quot;3.61;6.286&quot;>وأنا واثقة إنك ستشعر بالمثل في النهاية!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.24;3.08&quot;>رينو 8 من أسلحتي المفضلة شخصيًّا،<ts=&quot;3.61;6.286&quot;>وأنا واثقة بأنه سيصبح من مفضلاتك أيضًا!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-017",
+      "source_sha256": "216ad4ef60f865b7a5c3c30a654e4152441ed8f2530baacaf9a3cb6b2d0ac338",
+      "candidate_sha256": "0a0f90532aef5838a2c6ebab43fbe2ff7d44939b877bc361296d688d28be1e32",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]

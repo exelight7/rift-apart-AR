@@ -6,14 +6,22 @@
     "speaker_code": "MORT1",
     "scene_code": "SARG_SQ_CINE_REWARD",
     "arabic_current": "<ts=&quot;0.028;3.737&quot;>ترودي، انظري! أحضرت لك<br>ريفت بعض الزوربستون!",
-    "arabic_edit": "<ts=&quot;0.028;3.737&quot;>ترودي، انظري! أحضرت لك ريفت بعض<br>الزوربستون!",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.028;3.737&quot;>ترودي، انظري! أحضرت لك ريفت بعض أحجار<br>الزورب!",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "5a930885c5ed4278b97d05f04e145cd3832a8a0b5c7605bb704f029e336ff485",
+      "candidate_sha256": "da8bcfab44002a3500c1f033f83fa3818d09a499440eedeb317e287df2215815",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 12870,
@@ -22,14 +30,22 @@
     "speaker_code": "MORT1",
     "scene_code": "SARG_SQ_CINE_REWARD",
     "arabic_current": "<ts=&quot;0;2.499&quot;>تعرفين، إن أردت يوما الحصول<br>،على المزيد<ts=&quot;2.591;5.891&quot;>فقد أصدق مبادلة حذاء الحارس<br>الذي خلفي مقابلها.",
-    "arabic_edit": "<ts=&quot;0;2.499&quot;>تعرفين، إن أردت يوما الحصول ،على المزيد<ts=&quot;2.591;5.891&quot;>فقد أصدق مبادلة حذاء الحارس الذي خلفي<br>مقابلها.",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0;2.499&quot;>وإن أردت جمع المزيد،<ts=&quot;2.591;5.891&quot;>فقد أبادلك حذاء الحارس الذي خلفي مقابلها.",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
-      "line_layout"
-    ]
+      "line_layout",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-016",
+      "source_sha256": "cdd556dec9799ecc97dc0ba05448d73566d47b50c7ba5a8be84a83a255f9f67e",
+      "candidate_sha256": "c32d0a58af79cf3f2946f74980b9ea66c9c40d98d969d18250064fccde5b6ad3",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   },
   {
     "index": 24118,
@@ -38,12 +54,20 @@
     "speaker_code": "TRUD",
     "scene_code": "SARG_SQ_CINE_REWARD",
     "arabic_current": "<ts=&quot;0.016;0.889&quot;>[يزق بسعادة.]",
-    "arabic_edit": "<ts=&quot;0.016;0.889&quot;>[يزق بسعادة.]",
-    "status": "draft",
-    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
-    "reading_needs_review": true,
+    "arabic_edit": "<ts=&quot;0.016;0.889&quot;>[تصرخ بسعادة]",
+    "status": "reviewed",
+    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "reading_needs_review": false,
     "review_scope": [
-      "direction_and_punctuation"
-    ]
+      "direction_and_punctuation",
+      "prose_full_review"
+    ],
+    "linguistic_review": {
+      "batch": "dialogue-032",
+      "source_sha256": "e2c0b185df41069e6cfc44aa7bd185b432a6f59d01c1e54e78c111abda5e9db6",
+      "candidate_sha256": "84f6ce5302a5bee12785d47e2fe29ed221b79722b5429708f9e5557ddaa3df18",
+      "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
+      "visual_approval": "pending"
+    }
   }
 ]
