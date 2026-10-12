@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.000);
+}
+
+textarea,
+input {
+	border: none;
+}
+
+.layoutStyle17 {
+	width: 25.000vh;
+	height: 25.000vh;
+	transform-origin: 12.500vh 12.500vh;
+	z-index: 1;
+	display: block;
+}
+.positionStyle2 {
+	position: absolute;
+	left: 0.000vh;
+	top: 0.000vh;
+}
+.visualStyle8 {
+	background-color:rgba(0,0,0,1.000);
+}
+.layoutStyle9 {
+	width: 25.000vh;
+	height: 25.000vh;
+	z-index: 1;
+}
+.layoutStyle14 {
+	width: 25.000vh;
+	height: 2.180vh;
+	transform-origin: 12.500vh 1.035vh;
+	z-index: 2;
+	display: block;
+}
+.positionStyle15 {
+	position: absolute;
+	left: 0.000vh;
+	top: 11.465vh;
+}
+.visualStyle3 {
+	color:rgba(255,255,255,1.000);
+	font-size: 1.758vh;
+	font-family: "proximanovaregular";
+	font-style: normal;
+	text-shadow: 1.414px 1.414px 0.000px rgba(0,0,0,1.000);
+	text-align: center;
+	overflow-wrap: break-word;
+	white-space: pre-wrap;
+	user-select: none;
+}
+.layoutStyle1 {
+	width: 25.000vh;
+	height: 2.180vh;
+	transform-origin: 12.500vh 1.089vh;
+	z-index: 1;
+	padding-left: 0.098vh;
+	padding-top: 0.098vh;
+}
+@font-face {
+	src: url("../../../authored/_common/fonts/proximanova_regular_normal.ttf");
+	font-family: "proximanovaregular";
+	font-style: normal;
+}
+/*ar-rtl-fix*/html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}

@@ -1,0 +1,327 @@
+:root {
+    --emphasisColor: #d2ffe6;
+    --subtitleTextSize: 32px;
+    --subtitleTextColor: #ffffff;
+    --subtitleSpeakerColor: #d2ffe6;
+    --subtitleBackgroundColor: #00000000;
+    --subtitleTextShadowColor: #000000ff;
+    --subtitleSpeakerShadowColor: #000000ff;
+    --subtitleTextWrap: normal;
+}
+
+body {}
+.alignLeft {
+	text-align: left;
+}
+.alignCenter {
+    text-align: center;
+}
+.alignRight {
+    text-align: right;
+}
+.autoScale {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fullImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.emphasis {
+    font-weight: bold;
+    color: var(--emphasisColor);
+}
+.subtitleSpeakerColor {
+	font-weight: bold;
+	color: var(--subtitleSpeakerColor);
+    text-shadow: 2px 2px 0px var(--subtitleSpeakerShadowColor), 0px 0px 4px var(--subtitleSpeakerShadowColor);
+}
+.subtitleColor {
+	color: var(--subtitleTextColor);
+    text-shadow: 2px 2px 0px var(--subtitleTextShadowColor), 0px 0px 4px var(--subtitleTextShadowColor);
+}
+.flexCenterNoWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.flexCenter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flexRight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flexCenterWithSpan {
+    display: flex;
+    justify-content: center;
+}
+.flexLeft {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexLeftWithSpan {
+    display: flex;
+    justify-content: start;
+}
+.inlineText {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+.inlineTextCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inlineTextCenterAlignR {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  overflow-wrap: normal;
+}
+.inlineTextCenterAlignC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-wrap: normal;
+}
+.transformCenter {
+    transform-origin: 50% 50%;
+}
+.transformTranslateCenter {
+    transform: translate(-50%, -50%);
+}
+.toUpper {
+    text-transform: uppercase;
+}
+.centerImage{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.staticPosition {
+  position: static;
+}
+.buttonHints {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-items: left;
+}
+.ButtonHint {
+  background-color: #00000000;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  color: #ffffff;
+  font-fit-mode: fit;
+  margin-left: 20px;
+}
+.ButtonHintShrink {
+  background-color: #00000000;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  color: #ffffff;
+  font-fit-mode: shrink;
+}
+.ButtonHint_Mouse {
+  position:absolute;
+  background: linear-gradient(0, #052931, #0c6072);
+  border-left: 3px solid #1b809799;
+
+  transform: skewX(-35deg);
+  transform-origin: bottom left;
+}
+.ButtonHint_Mouse:hover {
+  position:absolute;
+  background: linear-gradient(0, #0d3f4a, #1b8097);
+  border-left: 3px solid #1b809799;
+
+  transform: skewX(-35deg);
+  transform-origin: bottom left;
+}
+.cohButtonHint {
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+}
+.cohChallengeButtonHint {
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  margin-right: 0.5em;
+}
+.cohButtonHintText {
+  flex: 1 0 auto;
+  font-fit-mode: shrink;
+  font-size: 1.45em
+}
+.pointerEventsNone {
+  pointer-events: none;
+}
+@font-face {
+    src: url("../fonts/proximanova_regular_normal.ttf");
+    font-family: "proximanovaregular";
+    font-style: normal;
+}
+@font-face {
+    src: url("../fonts/proximanova_bold_normal.ttf");
+    font-family: "proximanovaregular";
+    font-weight: bold;
+}
+.textPrompt {
+    display: block;
+    font-size: 0.79em;
+
+    font-weight: bold;
+    color: #CFF76D;
+
+    transform: translateY(-4px);
+    padding: 0px 0.39em 0.125em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+
+    min-width: 2.0em;
+    text-align: center;
+
+    border-radius: 0.25em;
+    background-color: #031E2B;
+    border: 0.10em solid rgba(137, 137, 137, 0.8);
+    white-space:nowrap;
+}
+.button_textPrompt {
+    height: initial;
+
+    display: block;
+
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #CFF76D;
+
+    padding: 0px 0.4em 0.125em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+
+    min-width: 1.5em;
+    text-align: center;
+
+    border: 0.10em solid rgba(137, 137, 137, 0.8);
+    border-radius: 0.25em;
+    background-color: #031E2B;
+}
+.challengeButton_textPrompt {
+  height: initial;
+
+  display: block;
+
+  font-weight: bold;
+  color: #CFF76D;
+
+  padding: 0px 0.4em 0px;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+
+  min-width: 1.5em;
+  text-align: center;
+
+  border: 0.10em solid rgba(137, 137, 137, 0.8);
+  border-radius: 0.25em;
+  background-color: #031E2B;
+}
+.creditsTextPrompt
+{
+  width: initial;
+  height: initial;
+  font-size: 1.20em;
+
+  min-width: 1.7em;
+  text-align: center;
+
+  font-weight: bold;
+  color: #CFF76D;
+
+  padding: 0 0.5vh 0.2vh;
+
+  border-radius: 0.25em;
+  background-color: #031E2B;
+  border: 0.10em solid rgba(137, 137, 137, 0.8);
+  white-space:nowrap;
+}
+.keybindings_textPrompt {
+  height: initial;
+
+  display: block;
+
+  font-weight: bold;
+  color: #CFF76D;
+
+  transform: translateY(-1px);
+  padding: 0px 0.2em 0.08em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+
+  min-width: 1.5em;
+  text-align: center;
+
+  border: 0.10em solid rgba(137, 137, 137, 0.8);
+  border-radius: 0.25em;
+  background-color: #031E2B;
+}
+
+.shortcut_textPrompt {
+  height: 2.0em;
+
+  display: block;
+  font-size: 0.9em;
+
+  font-weight: bold;
+  color: #CFF76D;
+
+  transform: translateY(-4px);
+  padding: 0px 0.39em 0.125em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+
+  min-width: 2.0em;
+  text-align: center;
+
+  border-radius: 0.25em;
+  background-color: #031E2B;
+  border: 0.10em solid rgba(137, 137, 137, 0.8);
+}
+
+.smoothScrolling
+{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.optionTextSelected {
+	font-family: "proximanovabold";
+}
+.optionTextUnselected {
+	font-family: "proximanovaregular";
+}
+/*ar-rtl-fix*/html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}

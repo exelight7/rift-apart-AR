@@ -1,0 +1,750 @@
+{
+  "description": "Native launcher uses Unicode bidi/shaping. Restore logical Unicode for launcher and non-uppercase PC setting keys; uppercase game keys and all dialogue retained.",
+  "changes": [
+    {
+      "key": "LAUNCHER_OPTIONS_CANCEL",
+      "before": "ﺀﺎﻐﻟﺇ",
+      "after": "إلغاء"
+    },
+    {
+      "key": "LAUNCHER_OPTIONS_OK",
+      "before": "ﻖﻓﺍﻮﻣ",
+      "after": "موافق"
+    },
+    {
+      "key": "LAUNCHER_OPTIONS_RESET",
+      "before": "ﻂﺒﻀﻟﺍ ﺓﺩﺎﻋﺇ",
+      "after": "إعادة الضبط"
+    },
+    {
+      "key": "LAUNCHER_OPTIONS_TITLE",
+      "before": "ﻚﻧﻼﻛﻭ ﺖﺸﺗﺍﺭ: ﻝﺎﺼﻔﻧﺍ<br>ﺪﻌﺒﻟﺍ - ﺩﺍﺪﻋﻹﺍ",
+      "after": "راتشت وكلانك — الإعدادات"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_ASPECTRATIO",
+      "before": "ﺩﺎﻌﺑﻷﺍ ﺔﺒﺴﻧ",
+      "after": "نسبة الأبعاد"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_ASPECTRATIO_DESC",
+      "before": "ﺔﺒﻌﻠﻟﺍ ﺩﺎﻌﺑﺃ ﺔﺒﺴﻧ ﺮﻴﻐﻳ<br>ﺔﻴﻟﺎﺤﻟﺍ. ﺽﺮﻋ ﺓﺎﻛﺎﺤﻣ ﺍﺬﻫ ﺢﻴﺘﻳ<br>ﺔﻧﺭﺎﻘﻣ ﺔﺒﻌﻠﻟ ﻖﻴﺿﺃ ﻭﺃ ﺽﺮﻋﺃ<br>ﺔﻴﻠﺻﻷﺍ ﺩﺎﻌﺑﻷﺍ ﺔﺒﺴﻨﺑ<br>ﻚﺘﺷﺎﺸﻟ.",
+      "after": "يغير نسبة أبعاد اللعبة يتيح هذا محاكاة عرض .الحالية أعرض أو أضيق للعبة مقارنة بنسبة الأبعاد الأصلية .لشاشتك"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_AUTO",
+      "before": "ﻲﺋﺎﻘﻠﺗ",
+      "after": "تلقائي"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_BRIGHTNESS",
+      "before": "ﻉﻮﻄﺴﻟﺍ",
+      "after": "السطوع"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_BRIGHTNESS_DESC",
+      "before": "ﻉﻮﻄﺴﻟﺍ ﻂﺒﺿﺍ. ﺔﻤﻴﻘﻟﺍ 0 ﻲﻫ<br>ﺔﻤﻴﻘﻟﺍﻭ ﻖﻤﻏﻷﺍ 100 ﺮﺜﻛﻷﺍ ﻲﻫ<br>ﺎﻋﻮﻄﺳ.",
+      "after": "هي 0 القيمة .اضبط السطوع هي الأكثر 100 الأغمق والقيمة .سطوعا"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_CONTRAST",
+      "before": "ﻦﻳﺎﺒﺘﻟﺍ",
+      "after": "التباين"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_CONTRAST_DESC",
+      "before": "ﺓﺭﻮﺼﻟﺍ ﻦﻳﺎﺒﺗ ﺓﻮﻗ ﻂﺒﺿﺍ.<br>ﺔﻤﻴﻘﻟﺍ 0 ﺔﻤﻴﻘﻟﺍﻭ ﻰﻧﺩﻷﺍ ﻲﻫ<br>10 ﻰﻠﻋﻷﺍ ﻲﻫ.",
+      "after": ".اضبط قوة تباين الصورة هي الأدنى والقيمة 0 القيمة .هي الأعلى 10"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DISPLAYRESOLUTION",
+      "before": "ﺽﺮﻌﻟﺍ ﺔﻗﺩ",
+      "after": "دقة العرض"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DISPLAYRESOLUTION_DESC",
+      "before": "ﺔﺒﻌﻠﻟﺍ ﺽﺮﻋ ﺔﻗﺩ ﺮﻴﻐﻳ.",
+      "after": ".يغير دقة عرض اللعبة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSS",
+      "before": "ﺱﺇ ﻪﻳﺇ ﻪﻳﺇ ﻝﺇ ﻱﺩ",
+      "after": "NVIDIA DLSS"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSSG",
+      "before": "ﺱﺇ ﻪﻳﺇ ﻪﻳﺇ ﻝﺇ ﻱﺩ ﺕﺍﺭﺎﻃﺇ ﺪﻴﻟﻮﺗ",
+      "after": "NVIDIA DLSS"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSSG_DESC",
+      "before": "ﻝﺇ ﻱﺩ ﺕﺍﺭﺎﻃﺇ ﺪﻴﻟﻮﺗ ﻡﺪﺨﺘﺴﻳ<br>ﺀﺎﻛﺬﻟﺍ ﺔﻴﻨﻘﺗ ﺱﺇ ﻪﻳﺇ ﻪﻳﺇ<br>ﺕﺍﺭﺎﻃﺇ ﻢﺳﺮﻟ ﻲﻋﺎﻨﻄﺻﻻﺍ<br>ﺓﺩﻮﺠﺑ ﺭﺍﺮﺿﻹﺍ ﻥﻭﺩ ﻦﻣ ﺔﻴﻓﺎﺿﺇ<br>ﺔﺑﺎﺠﺘﺳﻻﺍ ﺔﻋﺮﺳ ﻭﺃ ﺓﺭﻮﺼﻟﺍ.<br>ﺔﻗﺎﻄﺑ ﺓﺰﻴﻤﻟﺍ ﻩﺬﻫ ﺐﻠﻄﺘﺗﻭ<br>ﻲﺟ ﺔﻠﺴﻠﺳ ﻦﻣ ﺕﺎﻴﻣﻮﺳﺭ<br>ﺲﻛﺇ ﻲﺗ ﺭﺁ ﺱﺭﻮﻓ 40.",
+      "after": "يستخدم توليد إطارات دي إل إيه إيه إس تقنية الذكاء الاصطناعي لرسم إطارات إضافية من دون الإضرار بجودة .الصورة أو سرعة الاستجابة وتتطلب هذه الميزة بطاقة رسوميات من سلسلة جي 40. فورس آر تي إكس"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSS_BALANCED",
+      "before": "ﻥﺯﺍﻮﺘﻣ",
+      "after": "متوازن"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSS_DYNAMIC",
+      "before": "ﻲﻜﻴﻣﺎﻨﻳﺩ",
+      "after": "ديناميكي"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSS_PERFORMANCE",
+      "before": "ﺀﺍﺩﻷﺍ",
+      "after": "الأداء"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSS_QUALITY",
+      "before": "ﺓﺩﻮﺠﻟﺍ",
+      "after": "الجودة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSS_ULTRAPERFORMANCE",
+      "before": "ﻖﺋﺎﻔﻟﺍ ﺀﺍﺩﻷﺍ",
+      "after": "الأداء الفائق"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSS_ULTRAQUALITY",
+      "before": "ﺔﻘﺋﺎﻔﻟﺍ ﺓﺩﻮﺠﻟﺍ",
+      "after": "الجودة الفائقة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSS_ULTRAQUALITYPLUS",
+      "before": "ﺲﻠﺑ ﺔﻘﺋﺎﻔﻟﺍ ﺓﺩﻮﺠﻟﺍ",
+      "after": "الجودة الفائقة بلس"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DRS",
+      "before": "ﺔﻗﺪﻠﻟ ﻲﻜﻴﻣﺎﻨﻳﺪﻟﺍ ﻢﻴﺠﺤﺘﻟﺍ",
+      "after": "الدقة الديناميكية"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DRS_DESC",
+      "before": "ﻝﺪﻌﻣ ﺪﻳﺪﺤﺘﻟ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ<br>ﻱﺬﻟﺍ ﻑﺪﻬﺘﺴﻤﻟﺍ ﺕﺍﺭﺎﻃﻹﺍ<br>ﻊﻣ ،ﻪﻏﻮﻠﺑ ﻰﻟﺇ ﺔﺒﻌﻠﻟﺍ ﻰﻌﺴﺗ<br>ﺔﻴﻠﺧﺍﺪﻟﺍ ﻢﺳﺮﻟﺍ ﺔﻗﺩ ﻂﺒﺿ<br>ﻞﻀﻓﺃ ﻖﻴﻘﺤﺘﻟ ﺎﻴﺋﺎﻘﻠﺗ<br>ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻊﻣ ﺔﻳﺮﺼﺑ ﺓﺩﻮﺟ<br>ﺕﺍﺭﺎﻃﻹﺍ ﻝﺪﻌﻣ. ﻝﺪﻌﻣ ﻞﻤﺸﻳ ﻻﻭ<br>ﺕﺍﺭﺎﻃﺇ ﻱﺃ ﻑﺪﻬﺘﺴﻤﻟﺍ ﺕﺍﺭﺎﻃﻹﺍ<br>ﺪﻴﻟﻮﺗ ﺔﻴﻨﻘﺗ ﺎﻬﺠﺘﻨﺗ<br>ﺕﺍﺭﺎﻃﻹﺍ.",
+      "after": "يمكن استخدامه لتحديد معدل الإطارات المستهدف الذي تسعى اللعبة إلى بلوغه، مع ضبط دقة الرسم الداخلية تلقائيا لتحقيق أفضل جودة بصرية مع الحفاظ على ولا يشمل معدل .معدل الإطارات الإطارات المستهدف أي إطارات تنتجها تقنية توليد .الإطارات"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_EXCLUSIVEFULLSCREEN",
+      "before": "ﻱﺮﺼﺤﻟﺍ ﺔﺷﺎﺸﻟﺍ ﺀﻞﻣ",
+      "after": "ملء الشاشة الحصري"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FRAMEGEN",
+      "before": "ﺕﺍﺭﺎﻃﻹﺍ ﺪﻴﻟﻮﺗ",
+      "after": "توليد الإطارات"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FRAMEGEN_DESC",
+      "before": "ﺕﺍﺭﺎﻃﺇ ﺕﺍﺭﺎﻃﻹﺍ ﺪﻴﻟﻮﺗ ﺪﻟﻮﻳ<br>ﺔﻧﺎﻌﺘﺳﻻﺎﺑ ﺔﻴﻓﺎﺿﺇ<br>ﺔﻘﺑﺎﺴﻟﺍ ﺕﺍﺭﺎﻃﻹﺍ ﺕﺎﻧﺎﻴﺒﺑ.<br>ﻝﺇ ﻱﺩ ﺕﺍﺭﺎﻃﺇ ﺪﻴﻟﻮﺗ ﺐﻠﻄﺘﻳﻭ<br>ﻦﻣ ﺕﺎﻴﻣﻮﺳﺭ ﺔﻗﺎﻄﺑ ﺱﺇ ﺱﺇ<br>ﺲﻛﺇ ﻲﺗ ﺭﺁ ﺱﺭﻮﻓ ﻲﺟ ﺔﻠﺴﻠﺳ<br>40.",
+      "after": "يولد توليد الإطارات إطارات إضافية بالاستعانة .ببيانات الإطارات السابقة ويتطلب توليد إطارات دي إل إس إس بطاقة رسوميات من سلسلة جي فورس آر تي إكس 40."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FSR",
+      "before": "ﺭﺁ ﺱﺇ ﻑﺇ ﻱﺩ ﻡﺇ ﻪﻳﺇ 3",
+      "after": "AMD FSR 3"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FSRAA",
+      "before": "ﺭﺁ ﺱﺇ ﻑﺇ ﻱﺩ ﻡﺇ ﻪﻳﺇ 3 ﺔﺠﻟﺎﻌﻤﺑ<br>ﺔﻴﻠﺻﻷﺍ ﻦﻴﻨﺴﺘﻟﺍ",
+      "after": "AMD FSR 3 Native AA"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FSRFRAMEGEN",
+      "before": "ﺭﺁ ﺱﺇ ﻑﺇ ﻱﺩ ﻡﺇ ﻪﻳﺇ 3 ﺪﻴﻟﻮﺘﻟ<br>ﺕﺍﺭﺎﻃﻹﺍ",
+      "after": "AMD FSR 3"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FULLSCREEN",
+      "before": "ﺔﺷﺎﺸﻟﺍ ﺀﻞﻣ",
+      "after": "ملء الشاشة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HALF_REFRESHRATE",
+      "before": "ﺚﻳﺪﺤﺘﻟﺍ ﻝﺪﻌﻣ ﻒﺼﻧ",
+      "after": "نصف معدل التحديث"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDR",
+      "before": "ﺭﺁ ﻱﺩ ﺶﺗﺇ",
+      "after": "HDR"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRMAXNITS",
+      "before": "ﺭﺁ ﻱﺩ ﺶﺗﺇ ﻲﻓ ﺓﺀﺎﺿﺇ ﻰﺼﻗﺃ",
+      "after": "أقصى سطوع HDR"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRMAXNITS_DESC",
+      "before": "ﺎﻬﺠﺘﻨﺗ ﺓﺀﺎﺿﺇ ﻰﺼﻗﺃ ﻂﺒﺿﺍ<br>ﺭﺁ ﻱﺩ ﺶﺗﺇ ﻊﺿﻭ ﻲﻓ ﺔﺒﻌﻠﻟﺍ.<br>ﺖﻴﻨﻟﺍ ﺓﺪﺣﻮﺑ ﺱﺎﻘﺗﻭ.",
+      "after": "اضبط أقصى إضاءة تنتجها .اللعبة في وضع إتش دي آر .وتقاس بوحدة النيت"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRPAPERWHITE",
+      "before": "ﺭﺁ ﻱﺩ ﺶﺗﺇ ﻲﻓ ﻕﺭﻮﻟﺍ ﺾﻴﺑﺃ",
+      "after": "سطوع الورق الأبيض HDR"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRPAPERWHITE_DESC",
+      "before": "ﺔﻴﺳﺎﺳﻷﺍ ﺓﺀﺎﺿﻹﺍ ﻂﺒﺿﺍ<br>ﺽﺮﻋ ﺪﻨﻋ ﺾﻴﺑﻷﺍ ﺢﻄﺴﻠﻟ<br>ﺭﺁ ﻱﺩ ﺶﺗﺇ ﻊﺿﻭ ﻲﻓ ﺔﺒﻌﻠﻟﺍ.<br>ﺖﻴﻨﻟﺍ ﺓﺪﺣﻮﺑ ﺱﺎﻘﺗﻭ.",
+      "after": "اضبط الإضاءة الأساسية للسطح الأبيض عند عرض .اللعبة في وضع إتش دي آر .وتقاس بوحدة النيت"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDR_DESC",
+      "before": "ﻊﺿﻮﺑ ﺔﺒﻌﻠﻟﺍ ﺽﺮﻋ ﻦﻴﺑ ﻝﺪﺑ<br>ﺭﺁ ﻱﺩ ﺱﺇ ﻭﺃ ﺭﺁ ﻱﺩ ﺶﺗﺇ. ﻻﻭ<br>ﺍﺫﺇ ﻻﺇ ﺭﺎﻴﺨﻟﺍ ﺍﺬﻫ ﻞﻴﻌﻔﺗ ﻦﻜﻤﻳ<br>ﻞﻌﻔﻟﺎﺑ ﻼﻌﻔﻣ ﺭﺁ ﻱﺩ ﺶﺗﺇ ﻥﺎﻛ<br>ﺯﻭﺪﻨﻳﻭ ﻲﻓ.",
+      "after": "بدل بين عرض اللعبة بوضع ولا .إتش دي آر أو إس دي آر يمكن تفعيل هذا الخيار إلا إذا كان إتش دي آر مفعلا بالفعل .في ويندوز"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_IGTI",
+      "before": "ﻱﺁ ﻲﺗ ﻲﺟ ﻱﺁ",
+      "after": "IGTI"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_MONITOR",
+      "before": "ﺔﺷﺎﺸﻟﺍ",
+      "after": "الشاشة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_MONITOR_DESC",
+      "before": "ﻲﻐﺒﻨﻳ ﻲﺘﻟﺍ ﺔﺷﺎﺸﻟﺍ ﺮﺘﺧﺍ<br>ﺎﻬﻴﻠﻋ ﺔﺒﻌﻠﻟﺍ ﺽﺮﻋ.",
+      "after": "اختر الشاشة التي ينبغي .عرض اللعبة عليها"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_NVIDIAREFLEX",
+      "before": "ﺲﻜﻴﻔﻳﺭ ﺎﻳﺪﻴﻔﻧﺇ<br>ﺔﻀﻔﺨﻨﻤﻟﺍ ﺔﺑﺎﺠﺘﺳﻼﻟ",
+      "after": "NVIDIA Reflex"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_NVIDIAREFLEX_DESC",
+      "before": "ﺲﻜﻴﻔﻳﺭ ﺎﻳﺪﻴﻔﻧﺇ ﺾﻔﺨﺗ<br>ﺔﻋﺮﺳ ﺪﻳﺰﺗﻭ ﻡﺎﻈﻨﻟﺍ ﻥﻮﻤﻛ<br>ﺏﻮﺳﺎﺤﻟﺍ ﺔﺑﺎﺠﺘﺳﺍ. ﺪﻨﻋﻭ<br>ﺔﻗﺎﻄﺑ ﻥﻮﻤﻛ ﻞﻠﻘﺗ ﻞﻴﻌﻔﺘﻟﺍ<br>ﺕﺎﻴﻣﻮﺳﺮﻟﺍ. ﻊﺿﻭ ﻝﻭﺎﺤﻳﻭ<br>ﻥﻮﻤﻜﻟﺍ ﻞﻴﻠﻘﺗ ﺎﻀﻳﺃ ﺰﻳﺰﻌﺘﻟﺍ<br>ﺞﻟﺎﻌﻤﻟﺍ ﻦﻋ ﺞﺗﺎﻨﻟﺍ.",
+      "after": "تخفض إنفيديا ريفيكس كمون النظام وتزيد سرعة وعند .استجابة الحاسوب التفعيل تقلل كمون بطاقة ويحاول وضع .الرسوميات التعزيز أيضا تقليل الكمون .الناتج عن المعالج"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_OFF",
+      "before": "ﻞﻄﻌﻣ",
+      "after": "معطل"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_ON",
+      "before": "ﻞﻌﻔﻣ",
+      "after": "مفعل"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_ONPLUSBOOST",
+      "before": "ﻞﻌﻔﻣ + ﺰﻳﺰﻌﺗ",
+      "after": "تعزيز + مفعل"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_REFRESHRATE",
+      "before": "ﺚﻳﺪﺤﺘﻟﺍ ﻝﺪﻌﻣ",
+      "after": "معدل التحديث"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_REFRESHRATE_DESC",
+      "before": "ﺚﻳﺪﺤﺘﻟﺍ ﻝﺪﻌﻣ ﺩﺪﺤﻳ<br>ﺽﺮﻌﻟﺍ ﺯﺎﻬﺟ ﻲﻓ ﻡﺪﺨﺘﺴﻤﻟﺍ<br>ﻚﻳﺪﻟ. ﻻﺇ ﻪﻠﻳﺪﻌﺗ ﻦﻜﻤﻳ ﻻﻭ<br>ﺔﺷﺎﺸﻟﺍ ﺀﻞﻣ ﻡﺍﺪﺨﺘﺳﺍ ﺪﻨﻋ<br>ﻱﺮﺼﺤﻟﺍ.",
+      "after": "يحدد معدل التحديث المستخدم في جهاز العرض ولا يمكن تعديله إلا .لديك عند استخدام ملء الشاشة .الحصري"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEMETHOD",
+      "before": "ﺮﻴﺒﻜﺘﻟﺍ ﺔﻘﻳﺮﻃ",
+      "after": "طريقة رفع الدقة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEMETHOD_DESC",
+      "before": "ﺓﺪﻋ ﻦﻴﺑ ﻞﻳﺪﺒﺘﻟﺍ ﺢﻴﺘﻳ<br>ﻦﻴﻨﺴﺘﻟﺍ ﺔﺠﻟﺎﻌﻤﻟ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ<br>ﺔﻗﺪﻟﺍ ﺮﻴﺒﻜﺗﻭ. ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗﻭ<br>ﺓﺭﻮﺼﻟﺍ ﻦﻴﺴﺤﺘﻟ ﺕﺎﻴﻣﺯﺭﺍﻮﺨﻟﺍ<br>ﺀﺍﺩﻷﺍ ﻦﻴﺴﺤﺘﻟ ﻚﻟﺬﻛﻭ.<br>ﻦﻣ ﻲﻨﻣﺰﻟﺍ ﻦﻘﺤﻟﺍ ﻞﻤﺸﺗﻭ<br>ﻪﻳﺇ ﻝﺇ ﻱﺩﻭ ،ﺰﻤﻴﻏ ﻙﺎﻴﻨﻣﻭﺰﻧﺇ<br>ﺭﺁ ﺱﺇ ﻑﺇﻭ ،ﺎﻳﺪﻴﻔﻧﺇ ﻦﻣ ﺱﺇ ﻪﻳﺇ<br>3 ﺱﺇ ﻱﺇ ﺲﻛﺇﻭ ،ﻱﺩ ﻡﺇ ﻪﻳﺇ ﻦﻣ.<br>ﻩﺎﻧﺩﺃ ﺕﺍﺭﺎﻴﺨﻟﺍ ﻡﺪﺨﺘﺳﺍ<br>ﺎﻤﺑ ،ﺓﺩﻮﺠﻟﺍ ﻯﻮﺘﺴﻣ ﺪﻳﺪﺤﺘﻟ<br>ﻝﺪﻌﻤﻟ ﻰﻧﺩﺃ ﺪﺣ ﺪﻳﺪﺤﺗ ﻚﻟﺫ ﻲﻓ<br>ﺓﺩﻮﺠﻟﺍ ﻂﺒﺿﻭ ﺕﺍﺭﺎﻃﻹﺍ<br>ﺎﻴﺋﺎﻘﻠﺗ.",
+      "after": "يتيح التبديل بين عدة خوارزميات لمعالجة التسنين وتستخدم هذه .وتكبير الدقة الخوارزميات لتحسين الصورة .وكذلك لتحسين الأداء وتشمل الحقن الزمني من إنزومنياك غيمز، ودي إل إيه إيه إس من إنفيديا، وإف إس آر .من إيه إم دي، وإكس إي إس 3 استخدم الخيارات أدناه لتحديد مستوى الجودة، بما في ذلك تحديد حد أدنى لمعدل الإطارات وضبط الجودة .تلقائيا"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEQUALITY",
+      "before": "ﺮﻴﺒﻜﺘﻟﺍ ﺓﺩﻮﺟ",
+      "after": "جودة رفع الدقة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEQUALITY_DESC",
+      "before": "ﺏﻮﻠﻄﻤﻟﺍ ﺓﺩﻮﺠﻟﺍ ﻊﺿﻭ ﺮﺘﺧﺍ<br>ﺔﻗﺪﻟﺍ ﺮﻴﺒﻜﺗ ﺔﻴﻣﺯﺭﺍﻮﺨﻟ.<br>ﻰﻠﻋﻷﺍ ﺓﺩﻮﺠﻟﺍ ﺕﺍﺭﺎﻴﺨﻓ<br>ﺔﻄﻴﺳﻭ ﻢﺳﺭ ﺔﻗﺩ ﻡﺪﺨﺘﺴﺗ<br>ﺀﺍﺩﻷﺍ ﺕﺍﺭﺎﻴﺧ ﺎﻤﻨﻴﺑ ،ﻰﻠﻋﺃ<br>ﻞﻗﺃ ﺔﻗﺩ ﻡﺪﺨﺘﺴﺗ ﻲﻟﺎﻌﻟﺍ<br>ﻰﻠﻋﺃ ﺕﺍﺭﺎﻃﺇ ﻝﺪﻌﻣ ﺢﻴﺘﺗ ﺎﻬﻨﻜﻟ.<br>ﻰﻠﻋ ﺎﻤﺋﺍﺩ ﻂﺒﻀﺘﺳﻭ<br>«ﻲﻜﻴﻣﺎﻨﻳﺩ» ﻑﺪﻫ ﺪﻳﺪﺤﺗ ﺪﻨﻋ<br>ﻲﻜﻴﻣﺎﻨﻳﺪﻟﺍ ﻢﻴﺠﺤﺘﻠﻟ<br>ﻩﺎﻧﺩﺃ ﺭﺎﻴﺨﻟﺍ ﻲﻓ ﺔﻗﺪﻠﻟ.",
+      "after": "اختر وضع الجودة المطلوب .لخوارزمية تكبير الدقة فخيارات الجودة الأعلى تستخدم دقة رسم وسيطة أعلى، بينما خيارات الأداء العالي تستخدم دقة أقل .لكنها تتيح معدل إطارات أعلى وستضبط دائما على عند تحديد هدف »ديناميكي« للتحجيم الديناميكي .للدقة في الخيار أدناه"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALESHARPNESS",
+      "before": "ﺮﻴﺒﻜﺘﻟﺍ ﺓﺪﺣ",
+      "after": "حدة الصورة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALESHARPNESS_DESC",
+      "before": "ﺮﻴﺒﻜﺗ ﺔﻴﻨﻘﺗ ﺓﺪﺣ ﻂﺒﻀﻳ<br>ﺔﻴﻟﺎﺤﻟﺍ ﺔﻗﺪﻟﺍ.",
+      "after": "يضبط حدة تقنية تكبير .الدقة الحالية"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_VSYNC",
+      "before": "ﺔﻳﺩﻮﻤﻌﻟﺍ ﺔﻨﻣﺍﺰﻤﻟﺍ",
+      "after": "المزامنة العمودية"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_VSYNC_DESC",
+      "before": "ﺕﺍﺭﺎﻃﻹﺍ ﻝﻮﺻﻭ ﻝﺪﻌﻣ ﻦﻣﺍﺰﻳ<br>ﻦﻣ ﺔﺷﺎﺸﻟﺍ ﻰﻟﺇ ﺓﺪﻳﺪﺠﻟﺍ<br>ﺓﺭﻮﺼﻟﺍ ﻕﺰﻤﺗ ﻊﻨﻤﻳﻭ ،ﺔﺒﻌﻠﻟﺍ.",
+      "after": "يزامن معدل وصول الإطارات الجديدة إلى الشاشة من .اللعبة، ويمنع تمزق الصورة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_WINDOWED",
+      "before": "ﺓﺬﻓﺎﻧ",
+      "after": "نافذة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_WINDOWMODE",
+      "before": "ﺓﺬﻓﺎﻨﻟﺍ ﻊﺿﻭ",
+      "after": "وضع النافذة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_WINDOWMODE_DESC",
+      "before": "ﺀﻞﻣ ﻉﺎﺿﻭﺃ ﻦﻴﺑ ﻝﺪﺒﻳ<br>ﺀﻞﻣﻭ ﺓﺬﻓﺎﻨﻟﺍﻭ ﺔﺷﺎﺸﻟﺍ<br>ﻱﺮﺼﺤﻟﺍ ﺔﺷﺎﺸﻟﺍ.",
+      "after": "يبدل بين أوضاع ملء الشاشة والنافذة وملء .الشاشة الحصري"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_XESS",
+      "before": "ﺱﺇ ﻱﺇ ﺲﻛﺇ",
+      "after": "Intel XeSS"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_16XANISOTROPIC",
+      "before": "16× ﺕﺎﻫﺎﺠﺗﻻﺍ ﺩﺪﻌﺘﻣ",
+      "after": "متعدد الاتجاهات ×16"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_2XANISOTROPIC",
+      "before": "2× ﺕﺎﻫﺎﺠﺗﻻﺍ ﺩﺪﻌﺘﻣ",
+      "after": "متعدد الاتجاهات ×2"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_4XANISOTROPIC",
+      "before": "4× ﺕﺎﻫﺎﺠﺗﻻﺍ ﺩﺪﻌﺘﻣ",
+      "after": "متعدد الاتجاهات ×4"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_8XANISOTROPIC",
+      "before": "8× ﺕﺎﻫﺎﺠﺗﻻﺍ ﺩﺪﻌﺘﻣ",
+      "after": "متعدد الاتجاهات ×8"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_AO",
+      "before": "ﻂﻴﺤﻤﻟﺍ ﺐﺠﺤﻟﺍ",
+      "after": "الحجب المحيط"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_AO_DESC",
+      "before": "ﻲﻓ ﺎﻳﺍﻭﺰﻟﺍﻭ ﻉﻭﺪﺼﻟﺍ ﻖﻤﻐﻳ<br>ﺱﺎﺴﺣﺇ ﺔﻓﺎﺿﻹ ﺔﺒﻌﻠﻟﺍ<br>ﻖﻤﻌﻟﺎﺑ.",
+      "after": "يغمق الصدوع والزوايا في اللعبة لإضافة إحساس .بالعمق"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_BLOOM",
+      "before": "ﺞﻫﻮﺘﻟﺍ",
+      "after": "التوهج"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_BLOOM_DESC",
+      "before": "ﻰﻠﻋ ﺔﻌﻃﺎﺴﻟﺍ ﻁﺎﻘﻨﻠﻟ ﺢﻤﺴﻳ<br>ﺎﻫﺀﻮﺿ ﺮﺸﻨﺗ ﻥﺄﺑ ﺔﺷﺎﺸﻟﺍ<br>ﺎﻬﻟﻮﺣ ﺎﻣ ﻰﻠﻋ.",
+      "after": "يسمح للنقاط الساطعة على الشاشة بأن تنشر ضوءها .على ما حولها"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_CHROMATICABERRATION",
+      "before": "ﻲﻧﻮﻠﻟﺍ ﻑﺍﺮﺤﻧﻻﺍ",
+      "after": "الانحراف اللوني"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_CHROMATICABERRATION_DESC",
+      "before": "ﻱﺬﻟﺍ ﻲﻧﻮﻠﻟﺍ ﻑﺍﺮﺤﻧﻻﺍ ﻞﻌﻔﻳ<br>ﻩﻮﺸﺗ ﺕﺍﺮﻴﺛﺄﺗ ﻲﻛﺎﺤﻳ<br>ﻢﻟﺎﻌﻟﺍ ﻲﻓ ﺕﺎﺳﺪﻌﻟﺍ<br>ﻲﻘﻴﻘﺤﻟﺍ.",
+      "after": "يفعل الانحراف اللوني الذي يحاكي تأثيرات تشوه العدسات في العالم .الحقيقي"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_CROWDDENSITY",
+      "before": "ﺪﺸﺤﻟﺍ ﺔﻓﺎﺜﻛ",
+      "after": "كثافة الحشد"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_CROWDDENSITY_DESC",
+      "before": "ﻥﻭﺮﺒﻌﻳ ﻦﻳﺬﻟﺍ ﺓﺭﺎﻤﻟﺍ ﺩﺪﻋ ﻝﺪﻌﻳ<br>ﺔﻨﻳﺪﻤﻟﺍ. ﻞﻳﺪﻌﺘﻟﺍ ﺪﻌﺑ<br>ﺎﻴﺠﻳﺭﺪﺗ ﺮﻴﻴﻐﺘﻟﺍ ﺙﺪﺤﻴﺳ<br>ﺔﻨﻳﺪﻤﻟﺍ ﻲﻓ ﻚﻠﻘﻨﺗ ﻊﻣ.<br>ﻲﻓ ﺪﻋﺎﺴﺗ ﻞﻗﻷﺍ ﻢﻴﻘﻟﺍ<br>،ﺞﻟﺎﻌﻤﻟﺍ ﺕﺎﻗﺎﻨﺘﺧﺍ ﻒﻴﻔﺨﺗ<br>ﻰﻠﻋ ﻉﺮﺳﺃ ﺎﻤﺳﺭ ﺢﻴﺘﺗ ﺎﻤﻛ<br>ﺕﺎﻴﻣﻮﺳﺮﻟﺍ ﺔﻗﺎﻄﺑ.",
+      "after": "يعدل عدد المارة الذين يعبرون بعد التعديل .المدينة سيحدث التغيير تدريجيا .مع تنقلك في المدينة القيم الأقل تساعد في تخفيف اختناقات المعالج، كما تتيح رسما أسرع على .بطاقة الرسوميات"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_CUSTOM",
+      "before": "ﺺﺼﺨﻣ",
+      "after": "مخصص"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_DEPTHOFFIELD",
+      "before": "ﻝﺎﺠﻤﻟﺍ ﻖﻤﻋ",
+      "after": "عمق المجال"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_DEPTHOFFIELD_DESC",
+      "before": "ﻻ ﻦﻴﺣ ﺍﺮﻴﻣﺎﻜﻟﺍ ﺮﻴﺛﺄﺗ ﻲﻛﺎﺤﻳ<br>ﻦﻣ ﺩﺪﺤﻣ ﺀﺰﺟ ﻯﻮﺳ ﻥﻮﻜﻳ<br>ﺎﺤﺿﺍﻭ ﺪﻬﺸﻤﻟﺍ.",
+      "after": "يحاكي تأثير الكاميرا حين لا يكون سوى جزء محدد من .المشهد واضحا"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_DLAA",
+      "before": "ﻪﻳﺇ ﻪﻳﺇ ﻝﺇ ﻱﺩ",
+      "after": "دي إل إيه إيه"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FILMGRAINSTRENGTH",
+      "before": "ﻢﻠﻴﻔﻟﺍ ﺕﺎﺒﻴﺒﺣ ﺓﻮﻗ",
+      "after": "قوة حبيبات الفيلم"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FILMGRAINSTRENGTH_DESC",
+      "before": "ﺕﺎﺒﻴﺒﺣ ﺭﺍﺪﻘﻣ ﻲﻓ ﻢﻜﺤﺘﻳ<br>ﺮﻴﺛﺄﺗ ﻖﻠﺨﻟ ﺓﺎﻛﺎﺤﻤﻟﺍ ﻢﻠﻴﻔﻟﺍ<br>ﻡﻼﻓﻷﺍ ﻪﺒﺸﻳ ﻪﻳﻮﺸﺗ.",
+      "after": "يتحكم في مقدار حبيبات الفيلم المحاكاة لخلق تأثير .تشويه يشبه الأفلام"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FOVCORRECTION",
+      "before": "ﺔﻳﺅﺮﻟﺍ ﻝﺎﺠﻣ",
+      "after": "مجال الرؤية"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FOVCORRECTION_DESC",
+      "before": "ﺔﻳﺅﺭ ﺔﻳﻭﺍﺯ ﻞﻠﻘﻳ ﻭﺃ ﺪﻳﺰﻳ<br>ﺔﻳﻮﺌﻤﻟﺍ ﺔﺒﺴﻨﻟﺎﺑ ﺍﺮﻴﻣﺎﻜﻟﺍ<br>ﺓﺩﺪﺤﻤﻟﺍ.",
+      "after": "يزيد أو يقلل زاوية رؤية الكاميرا بالنسبة المئوية .المحددة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FULLSCREENEFFECTS",
+      "before": "ﺔﺷﺎﺸﻟﺍ ﺀﻞﻣ ﺕﺍﺮﺛﺅﻡ",
+      "after": "مؤثرات ملء الشاشة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FULLSCREENEFFECTS_DESC",
+      "before": "ﺔﻳﺮﺼﺑ ﺕﺍﺮﺛﺅﻡ ﻒﻗﻭﺃ ﻭﺃ ﻞﻐﺷ<br>ﻞﺜﻣ ﺐﻌﻠﻟﺍ ﺀﺎﻨﺛﺃ ﺔﺷﺎﺸﻟﺍ ﺀﻞﻣ<br>ﻱﺭﺍﺮﺤﻟﺍ ﺝﻮﻤﺘﻟﺍﻭ ﺔﺳﺪﻌﻟﺍ ﺞﻫﻭ<br>ﺔﺳﺪﻌﻟﺍ ﻡﺎﻣﺃ ﺮﻄﻤﻟﺍ ﺕﺍﺮﻄﻗﻭ<br>ﺯﺎﻐﻟﺍ ﺕﺍﺮﻴﺛﺄﺗﻭ.",
+      "after": "شغل أو أوقف مؤثرات بصرية ملء الشاشة أثناء اللعب مثل وهج العدسة والتموج الحراري وقطرات المطر أمام العدسة .وتأثيرات الغاز"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_GEOMETRYDETAIL",
+      "before": "ﺱﺎﻜﻌﻧﻻﺍ ﺔﺳﺪﻨﻫ ﻞﻴﺻﺎﻔﺗ",
+      "after": "تفاصيل هندسة الانعكاس"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_GEOMETRYDETAIL_DESC",
+      "before": "ﻡﺪﺨﺘﺴﺗ ﻞﻴﻌﻔﺘﻟﺍ ﺪﻨﻋ<br>ﺔﺒﻳﺮﻘﻟﺍ ﺔﻴﺳﺪﻨﻬﻟﺍ ﻝﺎﻜﺷﻷﺍ<br>ﻰﻠﻋﺃ ﺕﺎﻜﺒﺷ ﻲﻧﺎﺒﻤﻟﺍ ﻞﺜﻣ<br>ﺞﺘﻨﻳ ﺎﻣ ،ﺔﻌﺷﻷﺍ ﻊﺒﺘﺘﻟ ﺓﺩﻮﺟ<br>ﺮﻴﺜﻜﺑ ﺔﻴﻌﻗﺍﻭ ﺮﺜﻛﺃ ﺎﺳﺎﻜﻌﻧﺍ.",
+      "after": "عند التفعيل تستخدم الأشكال الهندسية القريبة مثل المباني شبكات أعلى جودة لتتبع الأشعة، ما ينتج .انعكاسا أكثر واقعية بكثير"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_HAIRQUALITY",
+      "before": "ﺮﻌﺸﻟﺍ ﺓﺩﻮﺟ",
+      "after": "جودة الشعر"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_HAIRQUALITY_DESC",
+      "before": "ﺮﻌﺷ ﺀﺎﻨﺤﻧﺍﻭ ﺔﻓﺎﺜﻛ ﻝﺪﻋ<br>ﺕﺎﻴﺼﺨﺸﻟﺍ.",
+      "after": "عدل كثافة وانحناء شعر .الشخصيات"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_HBAOPLUS",
+      "before": "ﺪﺋﺍﺯ ﻭﺃ ﻪﻳﺇ ﻲﺑ ﺶﺗﺇ",
+      "after": "إتش بي إيه أو زائد"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_HIGH",
+      "before": "ﻝﺎﻋ",
+      "after": "عال"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_LENSFLARES",
+      "before": "ﺔﺳﺪﻌﻟﺍ ﺞﻫﻭ",
+      "after": "وهج العدسة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_LENSFLARES_DESC",
+      "before": "ﺀﺍﻮﺿﻸﻟ ﺡﺎﻤﺴﻠﻟ ﻪﻠﻌﻓ<br>ﺕﺍﺮﻴﺛﺄﺗ ﻖﻠﺨﺗ ﻥﺄﺑ ﺔﻌﻃﺎﺴﻟﺍ<br>ﻲﻠﺧﺍﺪﻟﺍ ﺱﺎﻜﻌﻧﻻﺍ<br>ﺮﻈﻨﺗ ﺖﻨﻛ ﻮﻟ ﺎﻤﻛ ﺖﻴﺘﺸﺘﻟﺍﻭ<br>ﺍﺮﻴﻣﺎﻛ ﺔﺳﺪﻋ ﺮﺒﻋ.",
+      "after": "فعله للسماح للأضواء الساطعة بأن تخلق تأثيرات الانعكاس الداخلي والتشتيت كما لو كنت تنظر .عبر عدسة كاميرا"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_LEVELOFDETAIL",
+      "before": "ﻞﻴﺻﺎﻔﺘﻟﺍ ﻯﻮﺘﺴﻣ",
+      "after": "مستوى التفاصيل"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_LEVELOFDETAIL_DESC",
+      "before": "ﺔﻓﺎﺴﻤﻟﺍ ﺪﻳﺰﺗ ﻰﻠﻋﻷﺍ ﺓﺩﻮﺠﻟﺍ<br>ﻡﺎﺴﺟﻷﺍ ﺎﻫﺪﻨﻋ ﺃﺪﺒﺗ ﻲﺘﻟﺍ<br>ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻝﻮﺤﺘﻟﺎﺑ<br>ﻞﻗﺃ ﻞﻴﺻﺎﻔﺗ. ﻞﻗﻷﺍ ﺓﺩﻮﺠﻟﺍ<br>ﻦﺴﺤﺘﻓ ﺔﻓﺎﺴﻤﻟﺍ ﻩﺬﻫ ﻞﻠﻘﺗ<br>ﺔﻗﺎﻄﺑﻭ ﺞﻟﺎﻌﻤﻟﺍ ﺀﺍﺩﺃ<br>ﺕﺎﻴﻣﻮﺳﺮﻟﺍ.",
+      "after": "الجودة الأعلى تزيد المسافة التي تبدأ عندها الأجسام بالتحول إلى مستوى الجودة الأقل .تفاصيل أقل تقلل هذه المسافة فتحسن أداء المعالج وبطاقة .الرسوميات"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_LOW",
+      "before": "ﺾﻔﺨﻨﻣ",
+      "after": "منخفض"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_MEDIUM",
+      "before": "ﻂﺳﻮﺘﻣ",
+      "after": "متوسط"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_MOTIONBLUR",
+      "before": "ﺔﻛﺮﺤﻟﺍ ﺔﻴﺑﺎﺒﺿ ﺓﻮﻗ",
+      "after": "قوة ضبابية الحركة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_MOTIONBLUR_DESC",
+      "before": "ﺮﺒﻋ ﻢﻌﻧﺃ ﻭﺪﺒﺗ ﺔﻛﺮﺤﻟﺍ ﻞﻌﺠﻳ<br>ﺔﻴﺳﺪﻨﻬﻟﺍ ﻝﺎﻜﺷﻷﺍ ﻪﻳﻮﻤﺗ<br>ﺎﻬﺘﻛﺮﺣ ﻩﺎﺠﺗﺍ ﻲﻓ.",
+      "after": "يجعل الحركة تبدو أنعم عبر تمويه الأشكال الهندسية .في اتجاه حركتها"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_OBJECTRANGE",
+      "before": "ﻡﺎﺴﺟﻷﺍ ﻯﺪﻣ",
+      "after": "مدى الأجسام"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_OBJECTRANGE_DESC",
+      "before": "ﻱﺬﻟﺍ ﻯﺪﻤﻟﺍ ﻞﻳﺪﻌﺘﺑ ﺢﻤﺴﻳ<br>ﻊﺒﺘﺘﻟ ﻡﺎﺴﺟﻷﺍ ﻩﺪﻨﻋ ﺐﺴﺤﺗ<br>ﺔﻌﺷﻷﺍ. ﻢﻴﻘﻟﺍ ﻡﺪﺨﺘﺴﺗ<br>ﺞﻟﺎﻌﻤﻟﺍ ﻞﻤﻋ ﻞﻴﻠﻘﺘﻟ ﻞﻗﻷﺍ<br>ﻊﺒﺘﺘﻟ ﺮﻴﻀﺤﺘﻠﻟ ﻡﺯﻼﻟﺍ<br>ﻰﻠﻋ ﺪﻋﺎﺴﺗ ﺎﻤﻛ ،ﺔﻌﺷﻷﺍ<br>ﻰﻟﺇ ﺞﻟﺎﻌﻤﻟﺍ ﻝﻮﺤﺗ ﺐﻨﺠﺗ<br>ﻕﺎﻨﺘﺧﺍ.",
+      "after": "يسمح بتعديل المدى الذي تحسب عنده الأجسام لتتبع تستخدم القيم .الأشعة الأقل لتقليل عمل المعالج اللازم للتحضير لتتبع الأشعة، كما تساعد على تجنب تحول المعالج إلى .اختناق"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_OFF",
+      "before": "ﻞﻄﻌﻣ",
+      "after": "معطل"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_ON",
+      "before": "ﻞﻌﻔﻣ",
+      "after": "مفعل"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PARTICLELIGHTING",
+      "before": "ﺲﻘﻄﻟﺍ ﺕﺎﺌﻳﺰﺟ ﺓﺩﻮﺟ",
+      "after": "جودة جزيئات الطقس"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PARTICLELIGHTING_DESC",
+      "before": "ﺕﺎﺌﻳﺰﺟ ﺕﺍﺮﺛﺅﻡ ﺓﺩﻮﺟ ﻝﺪﻋ<br>ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺲﻘﻄﻟﺍ<br>ﺔﺒﻌﻠﻟﺍ.",
+      "after": "عدل جودة مؤثرات جزيئات الطقس في جميع أنحاء .اللعبة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PHANTOMDASHEFFECT",
+      "before": "ﻒﻴﻄﻟﺍ ﺔﻋﺎﻓﺪﻧﺍ ﺮﺛﺅﻡ",
+      "after": "مؤثر اندفاعة الطيف"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PHANTOMDASHEFFECT_DESC",
+      "before": "ﺮﺛﻷﺍ ﺕﺍﺮﻴﺛﺄﺗ ﻒﻗﻭﺃ ﻭﺃ ﻞﻐﺷ<br>ﻒﻴﻄﻟﺍ ﺔﻋﺎﻓﺪﻧﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺪﻨﻋ.",
+      "after": "شغل أو أوقف تأثيرات الأثر .عند استخدام اندفاعة الطيف"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PRESET",
+      "before": "ﻖﺒﺴﻣ ﺩﺍﺪﻋﺇ",
+      "after": "إعداد مسبق"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PRESET_DESC",
+      "before": "ﺎﻘﺒﺴﻣ ﺓﺪﻌﻣ ﺕﺎﻴﻣﻮﺳﺭ ﺕﺍﺩﺍﺪﻋﺇ<br>ﺀﺍﺩﻷﺍ ﺕﺎﻳﻮﺘﺴﻣ ﻒﻠﺘﺨﻤﻟ.",
+      "after": "إعدادات رسوميات معدة مسبقا .لمختلف مستويات الأداء"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RAYTRACING",
+      "before": "ﺔﻌﺷﻷﺍ ﻊﺒﺘﺗ",
+      "after": "تتبع الأشعة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RAYTRACING_DESC",
+      "before": "ﺔﻌﺷﻷﺍ ﻊﺒﺘﺗ ﻞﻌﻔﻳ.",
+      "after": ".يفعل تتبع الأشعة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_REFLECTIONRESOLUTION",
+      "before": "ﺱﺎﻜﻌﻧﻻﺍ ﺔﻗﺩ",
+      "after": "دقة الانعكاس"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_REFLECTIONRESOLUTION_DESC",
+      "before": "ﺔﻣﺪﺨﺘﺴﻤﻟﺍ ﺔﻌﺷﻷﺍ ﺩﺪﻋ ﻝﺪﻌﻳ<br>ﺕﺎﺳﺎﻜﻌﻧﻻﺍ ﻢﺳﺭ ﻲﻓ. ﻦﻜﻤﻳ<br>ﺱﺎﻜﻌﻧﻻﺍ ﺔﻗﺩ ﺩﺍﺪﻋﺇ ﺮﺛﺅﻱ ﻥﺃ<br>ﻞﻜﺸﺑ ﺍﺪﺟ ﻝﺎﻋ ﻯﻮﺘﺴﻤﻟﺍ ﻲﻓ<br>،ﺕﺍﺭﺎﻃﻹﺍ ﻝﺪﻌﻣ ﻰﻠﻋ ﻅﻮﺤﻠﻣ<br>ﻪﻨﻴﺑ ﻊﻤﺠﻟﺍ ﺪﻨﻋ ﺎﺻﻮﺼﺧ<br>ﻻﻭ ،ﺔﻴﻟﺎﻋ ﺔﺷﺎﺷ ﺔﻗﺩ ﻦﻴﺑﻭ<br>ﺕﺎﻗﺎﻄﺑ ﻰﻠﻋ ﻻﺇ ﻪﺑ ﺢﺼﻨﻳ<br>ﻭﺃ ﺕﺎﻔﺻﺍﻮﻤﻟﺍ ﺔﻴﻟﺎﻋ ﺕﺎﻴﻣﻮﺳﺭ<br>ﻞﻗﺃ ﺔﺷﺎﺷ ﺔﻗﺩ ﺪﻨﻋ.",
+      "after": "يعدل عدد الأشعة المستخدمة يمكن .في رسم الانعكاسات أن يؤثر إعداد دقة الانعكاس في المستوى عال جدا بشكل ملحوظ على معدل الإطارات، خصوصا عند الجمع بينه وبين دقة شاشة عالية، ولا ينصح به إلا على بطاقات رسوميات عالية المواصفات أو .عند دقة شاشة أقل"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RTAO",
+      "before": "ﻭﺃ ﻪﻳﺇ ﻲﺗ ﺭﺁ",
+      "after": "RTAO"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_AMBIENTOCCLUSION",
+      "before": "ﻊﺒﺘﺘﺑ ﻂﻴﺤﻤﻟﺍ ﺐﺠﺤﻟﺍ<br>ﺔﻌﺷﻷﺍ",
+      "after": "الحجب المحيط بتتبع الأشعة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_AMBIENTOCCLUSION_DESC",
+      "before": "ﻊﺒﺘﺗ ﺩﺎﺘﻋ ﻡﺍﺪﺨﺘﺳﺍ ﻞﻌﻔﻳ<br>ﻂﻴﺤﻣ ﺐﺠﺣ ﺀﺎﺸﻧﻹ ﺔﻌﺷﻷﺍ<br>ﻉﻭﺪﺼﻟﺍ ﻖﻤﻐﻳ ﺔﻴﻌﻗﺍﻭ ﺮﺜﻛﺃ<br>ﺔﻓﺎﺿﻹ ﺔﺒﻌﻠﻟﺍ ﻲﻓ ﺎﻳﺍﻭﺰﻟﺍﻭ<br>ﻖﻤﻌﻟﺎﺑ ﺱﺎﺴﺣﺇ.",
+      "after": "يفعل استخدام عتاد تتبع الأشعة لإنشاء حجب محيط أكثر واقعية يغمق الصدوع والزوايا في اللعبة لإضافة .إحساس بالعمق"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_REFLECTIONS",
+      "before": "ﺔﻌﺷﻷﺍ ﻊﺒﺘﺘﺑ ﺕﺎﺳﺎﻜﻌﻧﺍ",
+      "after": "انعكاسات بتتبع الأشعة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_REFLECTIONS_DESC",
+      "before": "ﻊﺒﺘﺗ ﺩﺎﺘﻋ ﻡﺍﺪﺨﺘﺳﺍ ﺢﻴﺘﻳ<br>ﺕﺎﺳﺎﻜﻌﻧﺍ ﺀﺎﺸﻧﻹ ﺔﻌﺷﻷﺍ<br>ﻡﺎﺴﺟﻷﺍ ﺮﻬﻈﺗ ﺔﻳﺭﻮﻓ ﺔﻴﻌﻗﺍﻭ<br>ﻡﺎﺴﺟﻷﺍﻭ ﺔﺷﺎﺸﻟﺍ ﺝﺭﺎﺧ<br>ﺢﻴﺤﺻ ﻮﺤﻧ ﻰﻠﻋ ﺔﻛﺮﺤﺘﻤﻟﺍ. ﺪﻗ<br>ﻊﻣ ﺎﺻﻮﺼﺧ ﺍﺪﺟ ﺔﻔﻠﻜﻣ ﻥﻮﻜﺗ<br>ﻰﻠﻋﻷﺍ ﺕﺍﺩﺍﺪﻋﻹﺍ.",
+      "after": "يتيح استخدام عتاد تتبع الأشعة لإنشاء انعكاسات واقعية فورية تظهر الأجسام خارج الشاشة والأجسام قد .المتحركة على نحو صحيح تكون مكلفة جدا خصوصا مع .الإعدادات الأعلى"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_SHADOWS",
+      "before": "ﺔﻌﺷﻷﺍ ﻊﺒﺘﺘﺑ ﻝﻼﻇ",
+      "after": "ظلال بتتبع الأشعة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_SHADOWS_DESC",
+      "before": "ﻊﺒﺘﺗ ﺩﺎﺘﻋ ﻡﺍﺪﺨﺘﺳﺍ ﻞﻌﻔﻳ<br>ﺮﺜﻛﺃ ﻝﻼﻇ ﺀﺎﺸﻧﻹ ﺔﻌﺷﻷﺍ<br>ﺲﻤﺸﻠﻟ ﻼﻴﺼﻔﺗﻭ ﺔﻴﻌﻗﺍﻭ.",
+      "after": "يفعل استخدام عتاد تتبع الأشعة لإنشاء ظلال أكثر .واقعية وتفصيلا للشمس"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SCREENSHAKE",
+      "before": "ﺔﺷﺎﺸﻟﺍ ﺯﺍﺰﺘﻫﺍ",
+      "after": "اهتزاز الشاشة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SCREENSHAKE_DESC",
+      "before": "ﻪﻔﻗﻭﺃ ﻭﺃ ﺔﺷﺎﺸﻟﺍ ﺯﺍﺰﺘﻫﺍ ﻞﻐﺷ<br>ﺐﻌﻠﻟﺍ ﺀﺎﻨﺛﺃ.",
+      "after": "شغل اهتزاز الشاشة أو أوقفه .أثناء اللعب"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SCREENSPACEREFLECTIONS",
+      "before": "ﺔﺷﺎﺸﻟﺍ ﺀﺎﻀﻓ ﺕﺎﺳﺎﻜﻌﻧﺍ",
+      "after": "انعكاسات فضاء الشاشة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SCREENSPACEREFLECTIONS_DESC",
+      "before": "ﺔﺷﺎﺸﻟﺍ ﺀﺎﻀﻓ ﺕﺎﺳﺎﻜﻌﻧﺍ ﻞﻌﻓ<br>ﺎﻬﻔﻗﻭﺃ ﻭﺃ.",
+      "after": "فعل انعكاسات فضاء الشاشة .أو أوقفها"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SHADOWQUALITY",
+      "before": "ﻝﻼﻈﻟﺍ ﺓﺩﻮﺟ",
+      "after": "جودة الظلال"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SHADOWQUALITY_DESC",
+      "before": "ﻒﻴﻀﺗ ﻰﻠﻋﻷﺍ ﺓﺩﻮﺠﻟﺍ<br>،ﻝﻼﻈﻟﺍ ﻰﻟﺇ ﺮﺒﻛﺃ ﻼﻴﺼﻔﺗ<br>ﻞﻤﺤﻟﺍ ﻞﻠﻘﺗ ﻞﻗﻷﺍ ﺓﺩﻮﺠﻟﺍﻭ<br>ﺕﺎﻴﻣﻮﺳﺮﻟﺍ ﺔﻗﺎﻄﺑ ﻰﻠﻋ.",
+      "after": "الجودة الأعلى تضيف تفصيلا أكبر إلى الظلال، والجودة الأقل تقلل الحمل .على بطاقة الرسوميات"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SHARPNESS",
+      "before": "ﺓﺪﺤﻟﺍ",
+      "after": "الحدة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SHARPNESS_DESC",
+      "before": "ﻥﺍﻮﻟﻷﺍ ﺓﺮﺒﻧ ﺔﺠﻟﺎﻌﻣ ﺓﺪﺣ ﻝﺪﻌﻳ<br>ﺔﺒﻌﻠﻟﺍ ﻞﺧﺍﺩ. ﻰﻠﻋﻷﺍ ﻢﻴﻘﻟﺍ<br>ﻞﻴﺻﺎﻔﺘﻟﺍ ﺡﻮﺿﻭ ﺪﻳﺰﺗ.",
+      "after": "يعدل حدة معالجة نبرة الألوان القيم الأعلى .داخل اللعبة .تزيد وضوح التفاصيل"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SMAA",
+      "before": "ﻪﻳﺇ ﻪﻳﺇ ﻡﺇ ﺱﺇ",
+      "after": "SMAA"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SSAA",
+      "before": "ﻦﻴﻨﺴﺘﻟﺍ ﺔﺠﻟﺎﻌﻣ",
+      "after": "معالجة التسنين"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SSAA_DESC",
+      "before": "ﻑﺍﻮﺣ ﻢﻴﻌﻨﺗ ﺕﺎﻴﻨﻘﺗ<br>ﺔﻴﺳﺪﻨﻬﻟﺍ ﻝﺎﻜﺷﻷﺍ.",
+      "after": "تقنيات تنعيم حواف .الأشكال الهندسية"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SSAO",
+      "before": "ﻭﺃ ﻪﻳﺇ ﺱﺇ ﺱﺇ",
+      "after": "SSAO"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TAA",
+      "before": "ﻪﻳﺇ ﻪﻳﺇ ﻲﺗ",
+      "after": "TAA"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TESSELLATION",
+      "before": "ﺚﻴﻠﺜﺘﻟﺍ",
+      "after": "التثليث"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TESSELLATION_DESC",
+      "before": "ﻼﻴﺼﻔﺗ ﺚﻴﻠﺜﺘﻟﺍ ﺪﻟﻮﻳ<br>ﻝﺎﻜﺷﻷﺍ ﻲﻓ ﺎﻴﺋﺍﺮﺟﺇ ﺎﻴﻓﺎﺿﺇ<br>ﺔﺒﻳﺮﻘﻟﺍ ﺔﻴﺳﺪﻨﻬﻟﺍ.",
+      "after": "يولد التثليث تفصيلا إضافيا إجرائيا في الأشكال .الهندسية القريبة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREFILTERING",
+      "before": "ﻡﻮﺳﺮﻟﺍ ﺢﻴﺷﺮﺗ",
+      "after": "ترشيح الرسوم"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREFILTERING_DESC",
+      "before": "ﻦﺴﺤﻳ ﻰﻠﻋﻷﺍ ﺓﺩﻮﺠﻟﺍ ﺢﻴﺷﺮﺗ<br>ﺎﻬﻴﻟﺇ ﺮﻈﻨﻟﺍ ﺪﻨﻋ ﻡﻮﺳﺮﻟﺍ ﺡﻮﺿﻭ<br>ﺓﺩﻮﺟ ﻞﻗﻷﺍ ﺎﻣﺃ ،ﺔﻳﻭﺍﺰﺑ<br>ﺔﻗﺎﻄﺑ ﺀﺍﺩﺃ ﻦﺴﺤﻴﻓ<br>ﺕﺎﻴﻣﻮﺳﺮﻟﺍ.",
+      "after": "ترشيح الجودة الأعلى يحسن وضوح الرسوم عند النظر إليها بزاوية، أما الأقل جودة فيحسن أداء بطاقة .الرسوميات"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREQUALITY",
+      "before": "ﻡﻮﺳﺮﻟﺍ ﺓﺩﻮﺟ",
+      "after": "جودة الرسوم"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREQUALITY_DESC",
+      "before": "ﻰﻠﻋﻷﺍ ﺕﺍﺩﺍﺪﻋﻹﺍ ﺢﻴﺘﺗ<br>ﻮﻳﺪﻴﻓ ﺓﺮﻛﺍﺫﻭ ﺓﺮﻛﺍﺫ ﺺﻴﺼﺨﺗ<br>ﺢﻤﺴﻳ ﺎﻤﻣ ،ﻡﻮﺳﺮﻠﻟ ﺮﺒﻛﺃ<br>ﻞﻴﺻﺎﻔﺘﺑ ﻡﻮﺳﺭ ﻡﺍﺪﺨﺘﺳﺎﺑ<br>ﻰﻠﻋﺃ.",
+      "after": "تتيح الإعدادات الأعلى تخصيص ذاكرة وذاكرة فيديو أكبر للرسوم، مما يسمح باستخدام رسوم بتفاصيل .أعلى"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TRAFFICDENSITY",
+      "before": "ﺭﻭﺮﻤﻟﺍ ﺔﻛﺮﺣ ﺔﻓﺎﺜﻛ",
+      "after": "كثافة حركة المرور"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TRAFFICDENSITY_DESC",
+      "before": "ﺮﺒﻋ ﺓﺭﺎﻤﻟﺍ ﺕﺍﺭﺎﻴﺴﻟﺍ ﺩﺪﻋ ﻝﺪﻌﻳ<br>ﺔﻨﻳﺪﻤﻟﺍ. ﺪﻋﺎﺴﺗ ﻞﻗﻷﺍ ﻢﻴﻘﻟﺍ<br>ﺕﺎﻗﺎﻨﺘﺧﺍ ﻒﻴﻔﺨﺗ ﻲﻓ<br>ﺞﻟﺎﻌﻤﻟﺍ. ﻞﻳﺪﻌﺘﻟﺍ ﺪﻌﺑ<br>ﺎﻴﺠﻳﺭﺪﺗ ﺮﻴﻴﻐﺘﻟﺍ ﻖﺒﻄﻴﺳ<br>ﺔﻨﻳﺪﻤﻟﺍ ﻲﻓ ﻚﻠﻘﻨﺗ ﻊﻣ.",
+      "after": "يعدل عدد السيارات المارة عبر القيم الأقل تساعد .المدينة في تخفيف اختناقات بعد التعديل .المعالج سيطبق التغيير تدريجيا .مع تنقلك في المدينة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TRILINEAR",
+      "before": "ﻂﺨﻟﺍ ﻲﺛﻼﺛ",
+      "after": "ثلاثي الخط"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_ULTRA",
+      "before": "ﻖﺋﺎﻓ",
+      "after": "فائق"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_VERYHIGH",
+      "before": "ﺍﺪﺟ ﻝﺎﻋ",
+      "after": "عال جدا"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_VERYLOW",
+      "before": "ﺍﺪﺟ ﺾﻔﺨﻨﻣ",
+      "after": "منخفض جدا"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_VIGNETTE",
+      "before": "ﻑﺍﺮﻃﻷﺍ ﻞﻴﻠﻈﺗ",
+      "after": "تظليل الأطراف"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_VIGNETTE_DESC",
+      "before": "ﻑﺍﺮﻃﻷﺍ ﻞﻴﻠﻈﺗ ﺮﻴﺛﺄﺗ ﻞﻌﻔﻳ<br>ﻑﺍﻮﺣ ﺪﻨﻋ ﺓﺭﻮﺼﻟﺍ ﻖﻤﻐﻳ ﻱﺬﻟﺍ<br>ﻙﻮﻠﺳ ﻲﻛﺎﺤﻴﻟ ﺔﺷﺎﺸﻟﺍ<br>ﺍﺮﻴﻣﺎﻜﻟﺍ ﺔﺳﺪﻋ.",
+      "after": "يفعل تأثير تظليل الأطراف الذي يغمق الصورة عند حواف الشاشة ليحاكي سلوك .عدسة الكاميرا"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_XEAA",
+      "before": "ﺔﻴﻠﺻﺃ ﺔﻗﺪﺑ ﺱﺇ ﻱﺇ ﺲﻛﺇ",
+      "after": "XeSS Native AA"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_XEGTAO",
+      "before": "ﻭﺃ ﻪﻳﺇ ﻲﺗ ﻲﺟ ﻱﺇ ﺲﻛﺇ",
+      "after": "XeGTAO"
+    },
+    {
+      "key": "SETTINGSCATEGORY_DISPLAY",
+      "before": "ﺽﺮﻌﻟﺍ",
+      "after": "العرض"
+    },
+    {
+      "key": "SETTINGSCATEGORY_GRAPHICS",
+      "before": "ﺕﺎﻴﻣﻮﺳﺮﻟﺍ",
+      "after": "الرسوميات"
+    }
+  ]
+}

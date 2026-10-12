@@ -1,0 +1,20 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/OverlayMinimal.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/Overlay/css/OverlayCustom.css">
+<style id="ar-rtl-fix">html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}</style></head>
+<body>
+  <div class="layoutStyle20 positionStyle29 SpinnerLoop" cl-labels-key="SpinnerLoop">
+    <div class="animationStyle31 layoutStyle12 positionStyle13 _Clips-Spinner-mc_loading" data-bind-if="{{OverlayElementSpinnerLooping.looping}}" cl-labels-key="_Clips-Spinner-mc_loading">
+      <div class="visualStyle25 layoutStyle6 positionStyle7 _Clips-Spinner-wrenchIcon" cl-labels-key="_Clips-Spinner-wrenchIcon">
+        <img src="img/OverlayMinimal1.svg" class="layoutStyle1 positionStyle0">
+      </div>
+    </div>
+  </div>
+<script src="../../authored/_common/js/cohtml.js"></script>
+<script src="js/CLAnimations_API.js"></script>
+<script src="js/CLAnimations_OverlayMinimal_OverlayMinimal.js"></script>
+<script src="js/CLEvents_Symbols_OverlayMinimal_OverlayMinimal.js"></script>
+<script src="../../authored/OverlayMinimal/js/OverlayMinimal.js"></script>
+</body>
+</html>

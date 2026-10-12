@@ -1,0 +1,249 @@
+body {}
+.retReg {
+	filter: drop-shadow(1.414px 1.414px 1.000px rgba(0,0,0,1.000));
+}
+.retTar {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000) drop-shadow(1.414px 1.414px 1.000px rgba(0,0,0,1.000));
+}
+.pmTabUp {
+	filter: none;
+}
+.pmTabOver {
+	border-style: solid;
+	border-color: rgb(0, 225, 255);
+	border-width: 2px;
+}
+.pmTabDown {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.wwSlotRegRivet {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.953, 0.000, 0.000, 0.000, 0.000, 0.871, 0.000, 0.000, 0.000, 0.000, 0.984, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.wwSlotRegRatchet {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.wwSlotEmpty {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.992, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 0.804, 0.000, 0.000, 0.000, 0.800, 0.000);
+}
+.arrowstyle {
+	transform-origin: -120% 50%;
+}
+.optionsListVerticalSpacing {
+	margin-bottom: 6px!important;
+}
+.ctrlPresetVerticalSpacing {
+	margin-bottom: -10px!important;
+}
+.ctrlBtnVerticalSpacing {
+	margin-bottom: -10px!important;
+}
+.ctrlPresetSpacer {
+  height: 30px!important;
+}
+.pmIconTabSpace {
+	margin-right: 50px!important;
+}
+.subtitleText {
+	position: fixed;
+	top: 60px;
+	font-size: var(--subtitleTextSize);
+}
+.tutorialBodyText {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	transform: translateY(-34px);
+	height: 250px;
+	font-size: 23px
+}
+.systemListBackground {
+  background-size: contain;
+  background-repeat: no-repeat; 
+  border-image-source: url("../img/op_background_panel.png");
+  border-image-width: 190px 780px 120px 1040px;
+  border-image-slice: 190 780 120 1040 fill;
+}
+.systemSaveListBackground {
+	background-size: contain;
+	background-repeat: no-repeat; 
+	border-image-source: url("../img/op_background_panel_saves.png");
+	border-image-width: 190px 780px 120px 1040px;
+	border-image-slice: 190 780 120 1040 fill;
+  }
+.opDivider {
+  background-size: contain;
+  background-repeat: no-repeat; 
+  border-image-source: url("../img/op_divider.png");
+  border-image-width: 205px 10px 202px 10px;
+  border-image-slice: 205 10 202 10 fill;
+}
+.buttonHints {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.optionElementSelect {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.085, 0.000, 0.000, 0.000, 0.000, 0.012, 0.000, 0.000, 0.000, 0.000, 0.180, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.optionElementDeselect {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.iconDeselect {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.561, 0.000, 0.000, 0.000, 0.000, 0.924, 0.000, 0.000, 0.000, 0.000, 0.992, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.tabIconSelect {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 0.718, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.tabIconDeselect {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.561, 0.000, 0.000, 0.000, 0.000, 0.924, 0.000, 0.000, 0.000, 0.000, 0.992, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.photoTabSelect {
+  filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.953,
+                           0.000, 0.000, 0.000, 0.000, 0.941,
+                           0.000, 0.000, 0.000, 0.000, 0.647,
+                           0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.photoTabOver {
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+  }
+.tabSpacePM {
+	margin-left: 175px;
+}
+.controlsTwoLineSpace {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	line-height: 20pt;
+}
+.controllerLayoutButtonText {
+	line-height: 22pt;
+}
+.optionSetting {
+  line-height: 22pt;
+	white-space: normal;
+	overflow: visible;
+	overflow-wrap: normal;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desc2Text {
+	height: 422px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.presetDescText {
+	height: 710px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+	line-height: 1.15;
+}
+.simpleControlsSelected {
+	position: fixed;
+	font-family: "proximanovabold";
+}
+.simpleControlsUnselected {
+	position: fixed;
+	font-family: "proximanovaregular";
+}
+.simpleControlsDescText {
+	transform: translateY(-26px);
+	height: 210px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.simpleControlsButtonHints {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bindingRemapPopupBackground {
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-image-source: url("../img/controller_remap_dialog.png");
+	border-image-width: 236px 284px 22px 206px;
+	border-image-slice: 236 284 22 206 fill;
+}
+
+@keyframes highlightTextChange {
+  0%   { color: #ffffff; transform: scale(1,1); transform-origin: 50% 100%;}
+ 10%   { color: #24ffff; transform: scale(1.05,1.05); transform-origin: 50% 100%;}
+ 20%   { color: #FFFFFF; transform: scale(1,1); transform-origin: 50% 100%;}
+ 30%   { color: #24ffff; transform: scale(1.05,1.05); transform-origin: 50% 100%;}
+ 40%   { color: #FFFFFF; transform: scale(1,1); transform-origin: 50% 100%;}
+ 50%   { color: #24ffff; transform: scale(1.05,1.05); transform-origin: 50% 100%;}
+ 60%   { color: #FFFFFF; transform: scale(1,1); transform-origin: 50% 100%;}
+ 70%   { color: #24ffff; transform: scale(1.05,1.05); transform-origin: 50% 100%;}
+ 80%   { color: #FFFFFF; transform: scale(1,1); transform-origin: 50% 100%;}
+ 90%   { color: #24ffff; transform: scale(1.1,1.1); transform-origin: 50% 100%;}
+ 100%  { color: #FFFFFF; transform: scale(1,1); transform-origin: 50% 100%;}
+}
+.wheelPrompt {
+  width: initial;
+  height: initial;
+
+  padding: 0;
+  margin: 0 0.5vh;
+}
+.standaloneTextPrompt
+{
+  width: initial;
+  height: initial;
+
+  min-width: 4vh;
+  text-align: center;
+
+  font-weight: bold;
+  color: #CFF76D;
+
+  padding: 0 0.5vh 0.2vh;
+
+  background-color: #031E2B;
+  border: 0.25vh solid #628891;
+  border-radius: 0.5vh;
+}
+.POITextPrompt
+{
+    height: 1.6em;
+
+    display: block;
+    font-size: 0.75em;
+
+    font-weight: bold;
+    color: #CFF76D;
+
+    padding: 0px 0.39em 0.125em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+
+    min-width: 1.5em;
+    text-align: center;
+
+    border-radius: 0.25em;
+    background-color: #031E2B;
+    border: 0.10em solid rgba(137, 137, 137, 0.8);
+}
+.ButtonHint_Mouse {
+	background: linear-gradient(0, #192254, #0f4983) !important;
+	border-left: 3px solid #345c8c !important;
+}
+.ButtonHint_Mouse:hover {
+	background: linear-gradient(0, #3c426d, #336597) !important;
+	border-left: 3px solid #345c8c !important;
+}
+/*ar-rtl-fix*/html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}

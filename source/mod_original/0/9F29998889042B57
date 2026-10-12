@@ -1,0 +1,213 @@
+body {}
+.armorIconSpacing{
+	width: 158px;
+	margin-right:5px;
+	/*background-color: aqua;*/
+}
+.armorListSpacing{
+	margin-bottom:-60px;
+	display:block;
+}
+.armorMainSpacing{
+	margin-bottom: 28px;
+	margin-right:0px;
+	display:block;
+}
+.mapSize{
+	width: 1920px;
+	height: 1080px;
+}
+.mapIconReg {
+	filter: saturate(1) brightness(1);
+}
+.mapIconPinned {
+	transform: scale(0.8, 0.8);
+}
+.mapIconUnfocused {
+	transform: scale(1.0);
+}
+.mapIconFocused {
+	transform: scale(1.3);
+}
+.bgBlur {
+	filter: blur(5px);
+}
+.bgReg {
+	filter: none;
+}
+.listSpace {
+	margin-bottom: 35px;
+	display:block;
+}
+
+.listSpaceCollectible {
+	margin-bottom: 5px;
+	display:block;
+}
+
+.tabSpaceCollectible {
+	margin-right: -161px;
+	display:block;
+}
+
+.tabMainSpace {
+	margin-right: -107px;
+	display:block;
+}
+.tabSelected {
+	position: fixed;
+	top: -1px;
+	font-family: "proximanovabold";
+}
+.tabUnselected {
+	position: fixed;
+	top: 5px;
+	font-family: "proximanovaregular";
+}
+.pauseListSelected {
+	font-family: "proximanovabold";
+}
+.pauseListUnselected {
+	font-family: "proximanovaregular";
+}
+.descriptSpace {
+	line-height: 26pt;
+	display:block;
+}
+.bonusDescriptSpace {
+	line-height: 20pt;
+	display:block;
+}
+.iconSelect {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 0.718, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.iconDeselect {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.561, 0.000, 0.000, 0.000, 0.000, 0.924, 0.000, 0.000, 0.000, 0.000, 0.992, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.lombaxSelect {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.067, 0.000, 0.000, 0.000, 0.000, 0.031, 0.000, 0.000, 0.000, 0.000, 0.514, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+.lombaxDeselect {
+	filter: coh-color-matrix(0.000, 0.000, 0.000, 0.000, 0.561, 0.000, 0.000, 0.000, 0.000, 0.924, 0.000, 0.000, 0.000, 0.000, 0.992, 0.000, 0.000, 0.000, 1.000, 0.000);
+}
+
+.buttonHints {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+.armorNameSpace {
+	line-height: 23px;
+}
+.collectListTitleSpace {
+	line-height: 18pt;
+	display:block;
+}
+.weaponHintSpace {
+	line-height: 30pt;
+	
+}
+.galleryImageSpace {
+	margin-bottom: 15px;
+	display:block;
+}
+.buffProgressItem {
+	height: 35px;
+}
+.collectibleListItemLabel {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	overflow-wrap: normal;
+	white-space: normal;
+}
+.collectibleListItemSetting {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	overflow-wrap: normal;
+	white-space: normal;
+}
+.pauseGalleryDesc {
+	padding-top: 5px;
+}
+.wheelPrompt 
+{
+	width: initial;
+	height: initial;
+  
+	padding: 0;
+	margin: 0 0.5vh;
+}
+.standaloneTextPrompt
+{
+  width: initial;
+  height: initial;
+  font-size: 1.20em;
+
+  min-width: 1.7em;
+  text-align: center;
+
+  font-weight: bold;
+  color: #CFF76D;
+
+  padding: 0 0.5vh 0.2vh;
+
+  border-radius: 0.25em;
+  background-color: #031E2B;
+  border: 0.10em solid rgba(137, 137, 137, 0.8);
+  white-space:nowrap;
+}
+.armorListSize{
+	height: 700px;
+	width: 547.45px;
+}
+.collectibleListSize{
+	height: 600px;
+	width: 547.45px;
+}
+.gadgetListSize{
+	height: 650px;
+	width: 547.45px;
+}
+.weaponListSize{
+	height: 650px;
+	width: 547.45px;
+}
+.tabTextPrompt
+{
+  width: initial;
+  height:  1.6em;
+  font-size: 1.4em;
+
+  min-width: 1.6em;
+  text-align: center;
+
+  font-weight: bold;
+  color: #CFF76D;
+
+  padding: 0px 0.39em 0.125em;
+
+  background-color: #031E2B;
+  border: 0.10em solid rgba(137, 137, 137, 0.8);
+  border-radius: 0.25em;
+}
+
+.ButtonHint_Mouse {
+	background: linear-gradient(0, #261945, #38065c) !important;
+	border-left: 3px solid #4a2a68 !important;
+}
+.ButtonHint_Mouse:hover {
+	background: linear-gradient(0, #41355c, #502370) !important;
+	border-left: 3px solid #4a2a68 !important;
+}
+.ButtonHintList_Gamepad {
+	justify-content: flex-start !important;
+	margin-left: 130px;
+}
+/*ar-rtl-fix*/html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}

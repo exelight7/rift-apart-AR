@@ -1,0 +1,161 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/DisplayGraphicsPC.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/DisplayGraphicsPC/css/DisplayGraphicsPC.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/_common/css/Shared.css">
+<style id="ar-rtl-fix">html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}</style></head>
+<body>
+  <div class="layoutStyle516 positionStyle2 DisplayGraphicsPC" cl-labels-key="DisplayGraphicsPC">
+    <div class="layoutStyle506 positionStyle601 _Clips-Options-options_list-ListHolder" data-bind-style-top="920 - ({{OptionsData.numListItemsToShow}}* 87.5)" cl-labels-key="_Clips-Options-options_list-ListHolder">
+      <div class="layoutStyle487 positionStyle602 _Clips-Options-_Info-info" cl-labels-key="_Clips-Options-_Info-info">
+        <div class="layoutStyle460 positionStyle2 info_bg" cl-labels-key="info_bg">
+          <div class="layoutStyle448 imageStyle449 positionStyle446"></div>
+        </div>
+        <div class="layoutStyle457 positionStyle605 dark_bg" cl-labels-key="dark_bg">
+          <div class="layoutStyle440 imageStyle441 positionStyle438"></div>
+        </div>
+        <div class="layoutStyle454 positionStyle462 _Clips-Options-_Info-desc_label" cl-labels-key="_Clips-Options-_Info-desc_label">
+          <div data-l10n-id="MENU_DIFFICULTY_BARS_HEALTH" class="visualStyle433 layoutStyle431 positionStyle2" data-bind-html="{{Data.selectedSettingDescription}}">Health</div>
+        </div>
+      </div>
+      <div class="layoutStyle484 positionStyle609 bg" cl-labels-key="bg">
+        <div class="layoutStyle425 imageStyle426 positionStyle423" data-bind-style-height="(81.4* {{Data.numListItemsToShow}}) + 'px'"></div>
+      </div>
+      <div data-bind-dg-scroll-list="{{OptionsList.scrollbar}}" class="layoutStyle481 positionStyle611 smoothScrolling list_wrapper" cl-labels-key="list_wrapper">
+        <div class="visualStyle415 layoutStyle416 positionStyle419"></div>
+        <div data-bind-list-item-state="{{list_item}}" class="layoutStyle412 positionStyle613 listItemVerticalSpacing list_item _Clips-Options-options_list-ListItem" data-bind-for="list_item:{{OptionsList.masterList}}" cl-labels-key="_Clips-Options-options_list-ListItem">
+          <div class="animationStyle615 visualStyle521 layoutStyle376 positionStyle614 _Clips-Options-options_list-ListItemSelected" cl-labels-key="_Clips-Options-options_list-ListItemSelected">
+            <div class="visualStyle522 layoutStyle328 positionStyle329 _Clips-Options-selectbar" data-bind-style-opacity="{{list_item.selected}} ? 1 : 0" cl-labels-key="_Clips-Options-selectbar">
+              <div class="layoutStyle322 imageStyle323 positionStyle320"></div>
+            </div>
+          </div>
+          <div class="layoutStyle373 positionStyle406 item_select_marker" data-bind-if="{{list_item.selected}}" cl-labels-key="item_select_marker">
+            <div class="visualStyle314 layoutStyle315 positionStyle2"></div>
+          </div>
+          <div class="animationStyle622 visualStyle523 layoutStyle370 positionStyle621 select_gradient" cl-labels-key="select_gradient">
+            <div class="layoutStyle308 imageStyle309 positionStyle306"></div>
+          </div>
+          <div class="animationStyle629 visualStyle521 layoutStyle367 positionStyle628 _Clips-Options-select_shape1" cl-labels-key="_Clips-Options-select_shape1">
+            <div class="layoutStyle300 imageStyle301 positionStyle2"></div>
+          </div>
+          <div class="animationStyle636 visualStyle521 layoutStyle364 positionStyle400 _Clips-Options-select_shape2" cl-labels-key="_Clips-Options-select_shape2">
+            <div class="layoutStyle292 imageStyle293 positionStyle2"></div>
+          </div>
+          <div class="animationStyle641 visualStyle526 layoutStyle361 positionStyle398 _Clips-Options-options_list-ListItemSetting" cl-labels-key="_Clips-Options-options_list-ListItemSetting">
+            <div class="visualStyle285 layoutStyle283 positionStyle2" data-bind-html="{{list_item.setting}}" data-bind-class="{{list_item.selected}} ? 'optionTextSelected' : 'optionTextUnselected'" data-bind-if="{{list_item.displayType}} != 5">16X ANISOTROPIC</div>
+          </div>
+          <div class="animationStyle645 layoutStyle358 positionStyle644 _Clips-Options-options_list-list-list_item-header_line" data-bind-if="{{list_item.displayType}} == 1" cl-labels-key="_Clips-Options-options_list-list-list_item-header_line">
+            <div class="layoutStyle277 imageStyle278 positionStyle275"></div>
+          </div>
+          <div class="animationStyle650 layoutStyle355 positionStyle394 _Clips-Options-_list-list_item-indent" cl-labels-key="_Clips-Options-_list-list_item-indent">
+            <div class="layoutStyle267 positionStyle271 _Clips-Options-_list-list_item-indent_2" data-bind-if="{{list_item.indent}} == 2" data-bind-style-left="(-4 + ({{list_item.indent}} * 32)) + 'px'" cl-labels-key="_Clips-Options-_list-list_item-indent_2">
+              <div class="visualStyle549 layoutStyle259 positionStyle257"></div>
+            </div>
+            <div class="layoutStyle264 positionStyle269 _Clips-Options-_list-list_item-indent_1" data-bind-if="{{list_item.indent}} == 1" data-bind-style-left="(-4 + ({{list_item.indent}} * 32)) + 'px'" cl-labels-key="_Clips-Options-_list-list_item-indent_1">
+              <div class="visualStyle549 layoutStyle253 positionStyle2"></div>
+            </div>
+          </div>
+          <div class="animationStyle657 visualStyle526 layoutStyle352 positionStyle392 list_item_text _Clips-Options-options_list-ListItemName" cl-labels-key="_Clips-Options-options_list-ListItemName">
+            <div class="visualStyle247 layoutStyle245 positionStyle2" data-bind-style-left="({{list_item.indent}} * 32) + 'px'" data-bind-class="{{list_item.selected}} ? 'optionTextSelected' : 'optionTextUnselected'" data-bind-style-width="(576 - ({{list_item.indent}} * 32)) + 'px'" data-bind-html="{{list_item.name}}">SETTING NAME</div>
+          </div>
+          <div class="layoutStyle349 positionStyle660 _Clips-Options-op_line_texture" cl-labels-key="_Clips-Options-op_line_texture">
+            <div class="layoutStyle239 imageStyle240 positionStyle2"></div>
+          </div>
+          <div class="layoutStyle346 positionStyle662 screen_ui_options_mouse_hitbox" data-bind-mouseover="OptionsList.OnMouseEnter({{list_item.index}}, MBT_None)" data-bind-click="OptionsList.OnClick({{list_item.index}}, MBT_None)" cl-labels-key="screen_ui_options_mouse_hitbox">
+            <div class="visualStyle201 layoutStyle232 positionStyle2"></div>
+          </div>
+          <div class="animationStyle665 visualStyle528 layoutStyle343 positionStyle664 _Clips-Options-options_list-list_arrow_right" data-bind-if="{{list_item.displayType}} == 2 && (!{{list_item.readOnly}})" cl-labels-key="_Clips-Options-options_list-list_arrow_right">
+            <div class="layoutStyle221 positionStyle192 list_arrow_right_selector" data-bind-if="({{list_item.rightArrowSelected}} && {{list_item.selected}})" cl-labels-key="list_arrow_right_selector">
+              <div class="layoutStyle178 imageStyle179 positionStyle176"></div>
+            </div>
+            <div class="layoutStyle188 imageStyle179 positionStyle669"></div>
+            <div class="layoutStyle184 positionStyle223 screen_ui_options_arrow_mouse_hitbox_right" data-bind-mouseover="OptionsList.OnMouseEnter({{list_item.index}}, MBT_ArrowRight)" data-bind-click="OptionsList.OnClick({{list_item.index}},  MBT_ArrowRight)" data-bind-mouseleave="OptionsList.OnMouseLeave({{list_item.index}},  MBT_ArrowRight)" cl-labels-key="screen_ui_options_arrow_mouse_hitbox_right">
+              <div class="visualStyle201 layoutStyle171 positionStyle2"></div>
+            </div>
+          </div>
+          <div class="animationStyle673 visualStyle528 layoutStyle340 positionStyle672 _Clips-Options-options_list-list_arrow_left" data-bind-if="{{list_item.displayType}} == 2 && (!{{list_item.readOnly}})" cl-labels-key="_Clips-Options-options_list-list_arrow_left">
+            <div class="layoutStyle191 positionStyle192 list_arrow_left_selector" data-bind-if="({{list_item.leftArrowSelected}} && {{list_item.selected}})" cl-labels-key="list_arrow_left_selector">
+              <div class="layoutStyle178 imageStyle179 positionStyle176"></div>
+            </div>
+            <div class="layoutStyle188 imageStyle179 positionStyle677"></div>
+            <div class="layoutStyle184 positionStyle193 screen_ui_options_arrow_mouse_hitbox_left" data-bind-mouseover="OptionsList.OnMouseEnter({{list_item.index}}, MBT_ArrowLeft)" data-bind-click="OptionsList.OnClick({{list_item.index}},  MBT_ArrowLeft)" data-bind-mouseleave="OptionsList.OnMouseLeave({{list_item.index}},  MBT_ArrowLeft)" cl-labels-key="screen_ui_options_arrow_mouse_hitbox_left">
+              <div class="visualStyle170 layoutStyle171 positionStyle2"></div>
+            </div>
+          </div>
+          <div data-bind-slider="{{list_item}}" class="animationStyle681 layoutStyle337 positionStyle680 _Clips-Options-options_list-list-list_item-slider" data-bind-if="{{list_item.displayType}} == 3" cl-labels-key="_Clips-Options-options_list-list-list_item-slider">
+            <div class="layoutStyle160 positionStyle683 _Clips-Options-options_list-list-list_item-slider_value" cl-labels-key="_Clips-Options-options_list-list-list_item-slider_value">
+              <div class="visualStyle149 layoutStyle147 positionStyle2" data-bind-value="{{list_item.sliderText}}" data-bind-style-color="{{list_item.selected}} ? '#0f0776' : '#c1f0fe'" data-bind-class="{{list_item.selected}} ? 'optionTextSelected' : 'optionTextUnselected'">100</div>
+            </div>
+            <div class="layoutStyle157 positionStyle685 sliderBg _Clips-Options-options_list-list-list_item-slider_bg" cl-labels-key="_Clips-Options-options_list-list-list_item-slider_bg">
+              <div class="visualStyle141 layoutStyle142 positionStyle140"></div>
+            </div>
+            <div class="layoutStyle154 positionStyle687 sliderBar _Clips-Options-options_list-list-list_item-slider_bar" cl-labels-key="_Clips-Options-options_list-list-list_item-slider_bar">
+              <div class="visualStyle135 layoutStyle136 positionStyle134"></div>
+            </div>
+          </div>
+          <div class="visualStyle530 layoutStyle334 positionStyle689 _Clips-SaveSlots-list-list_item-reset_button" data-bind-if="({{list_item.isDefaultValue}} == false)  && {{list_item.selected}} " data-bind-mouseenter="OptionsList.OnMouseEnter({{list_item.index}}, MBT_Reset)" data-bind-click="OptionsList.OnClick({{list_item.index}}, MBT_Reset)" data-bind-mouseleave="OptionsList.OnMouseLeave({{list_item.index}}, MBT_Reset)" cl-labels-key="_Clips-SaveSlots-list-list_item-reset_button">
+            <div class="layoutStyle127 positionStyle690 reset_selector" data-bind-style-opacity="{{list_item.resetButtonSelected}} ? 1.0 : 0.0" cl-labels-key="reset_selector">
+              <div class="layoutStyle118 positionStyle2 _Clips-SaveSlots-list-list_item-reset_select_symbol" data-bind-if="{{list_item.resetButtonSelected}}" cl-labels-key="_Clips-SaveSlots-list-list_item-reset_select_symbol">
+                <div class="layoutStyle112 imageStyle113 positionStyle110"></div>
+              </div>
+            </div>
+            <div class="layoutStyle124 positionStyle125 _Clips-SaveSlots-list-list_item-reset_symbol" data-bind-style-opacity="({{list_item.resetButtonSelected}} == false) ? 1.0 : 0.0" cl-labels-key="_Clips-SaveSlots-list-list_item-reset_symbol">
+              <div class="layoutStyle104 imageStyle105 positionStyle102"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/DisplayGraphicsPC1.svg" class="layoutStyle479 positionStyle695">
+      <div data-bind-tab-item-state="{{Data.displayTabData}}" class="layoutStyle476 positionStyle708 _Clips-TabItemDisplay" cl-labels-key="_Clips-TabItemDisplay">
+        <div class="visualStyle100 layoutStyle85 positionStyle95">
+          <div class="animationStyle710 layoutStyle66 positionStyle709 tab_selector" cl-labels-key="tab_selector">
+            <div class="layoutStyle54 imageStyle55 positionStyle52"></div>
+          </div>
+        </div>
+        <div class="animationStyle714 visualStyle531 layoutStyle81 positionStyle713 list_item_text _Clips-tabItemName" cl-labels-key="_Clips-tabItemName">
+          <div class="visualStyle47 layoutStyle45 positionStyle2" data-bind-style-left="({{list_item.indent}} * 32) + 'px'" data-bind-class="{{list_item.selected}} ? 'optionTextSelected' : 'optionTextUnselected'" data-bind-style-width="(576 - ({{list_item.indent}} * 32)) + 'px'" data-bind-html="{{list_item.name}}">TAB NAME</div>
+        </div>
+        <div class="layoutStyle78 positionStyle717 tabMouseHitbox" cl-labels-key="tabMouseHitbox">
+          <img src="img/DisplayGraphicsPC2.svg" class="layoutStyle40 positionStyle2">
+          <div class="visualStyle37 layoutStyle38 positionStyle36"></div>
+        </div>
+      </div>
+      <div data-bind-tab-item-state="{{Data.graphicsTabData}}" class="layoutStyle473 positionStyle696 _Clips-TabItemGraphics" cl-labels-key="_Clips-TabItemGraphics">
+        <div class="animationStyle698 layoutStyle66 positionStyle74 tab_selector" cl-labels-key="tab_selector">
+          <div class="layoutStyle54 imageStyle55 positionStyle52"></div>
+        </div>
+        <div class="animationStyle702 visualStyle531 layoutStyle63 positionStyle701 list_item_text _Clips-tabItemName" cl-labels-key="_Clips-tabItemName">
+          <div class="visualStyle47 layoutStyle45 positionStyle2" data-bind-style-left="({{list_item.indent}} * 32) + 'px'" data-bind-class="{{list_item.selected}} ? 'optionTextSelected' : 'optionTextUnselected'" data-bind-style-width="(576 - ({{list_item.indent}} * 32)) + 'px'" data-bind-html="{{list_item.name}}">TAB NAME</div>
+        </div>
+        <div class="layoutStyle60 positionStyle705 tabMouseHitbox" cl-labels-key="tabMouseHitbox">
+          <img src="img/DisplayGraphicsPC3.svg" class="layoutStyle40 positionStyle2">
+          <div class="visualStyle37 layoutStyle38 positionStyle36"></div>
+        </div>
+      </div>
+      <div data-bind-scrollbar="{{OptionsList.scrollbar}}" class="layoutStyle470 positionStyle720 _Clips-Options-options_list-list-scrollbar" cl-labels-key="_Clips-Options-options_list-list-scrollbar">
+        <div class="visualStyle533 layoutStyle29 positionStyle33 scrollbarBack _Clips-Options-options_list-list-scrollbar_back" cl-labels-key="_Clips-Options-options_list-list-scrollbar_back">
+          <div class="visualStyle20 layoutStyle21 positionStyle16"></div>
+        </div>
+        <div class="layoutStyle26 positionStyle27 scrollbarBar _Clips-Options-options_list-list-scrollbar_bar" cl-labels-key="_Clips-Options-options_list-list-scrollbar_bar">
+          <div class="visualStyle14 layoutStyle15 positionStyle13"></div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle503 positionStyle725 button_hints-button_hints" cl-labels-key="button_hints-button_hints">
+      <div data-bind-button-hint="{{button_item}}" class="layoutStyle8 positionStyle9 ButtonHint button_hints-button_hint" data-bind-for="button_index,button_item:{{ButtonHints.buttonHints}}" data-bind-html="{{button_item.innerHtml}}" cl-labels-key="button_hints-button_hint">
+        <div class="visualStyle3 layoutStyle1 positionStyle2 ButtonHint txt">BUTTON HINTS</div>
+      </div>
+    </div>
+  </div>
+<script src="../../authored/_common/js/cohtml.js"></script>
+<script src="js/CLAnimations_API.js"></script>
+<script src="js/CLAnimations_DisplayGraphicsPC_DisplayGraphicsPC.js"></script>
+<script src="js/CLEvents_Symbols_DisplayGraphicsPC_DisplayGraphicsPC.js"></script>
+<script src="../../authored/_common/js/CustomAttributes.js"></script>
+<script src="../../authored/_common/js/CustomPCAttributes.js"></script>
+<script src="../../authored/_common/js/OptionsPCAttributes.js"></script>
+<script src="../../authored/_common/js/SharedEvents.js"></script>
+<script src="../../authored/_common/js/Visibility.js"></script>
+<script src="../../authored/DisplayGraphicsPC/js/DisplayGraphicsPC.js"></script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/Zurkie.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/_common/css/Shared.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/Zurkie/css/ZurkieCustom.css">
+<style id="ar-rtl-fix">html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}</style></head>
+<body>
+  <div class="layoutStyle1008 positionStyle1270 Jukebox" cl-labels-key="Jukebox">
+    <div class="animationStyle1272 layoutStyle990 positionStyle1271 _Clips-Jukebox-left_line_work" cl-labels-key="_Clips-Jukebox-left_line_work">
+      <div class="layoutStyle969 imageStyle970 positionStyle2"></div>
+    </div>
+    <div class="animationStyle1278 layoutStyle987 positionStyle1277 _Clips-Jukebox-logo_frame" cl-labels-key="_Clips-Jukebox-logo_frame">
+      <div class="layoutStyle961 imageStyle962 positionStyle2"></div>
+    </div>
+    <div class="animationStyle1285 layoutStyle984 positionStyle1284 _Clips-Jukebox-skull_logo" cl-labels-key="_Clips-Jukebox-skull_logo">
+      <div class="animationStyle1289 layoutStyle947 positionStyle1288 _Clips-Jukebox-bottom_sword" cl-labels-key="_Clips-Jukebox-bottom_sword">
+        <div class="layoutStyle932 imageStyle933 positionStyle2"></div>
+      </div>
+      <div class="animationStyle1296 layoutStyle944 positionStyle1295 _Clips-Jukebox-top_sword" cl-labels-key="_Clips-Jukebox-top_sword">
+        <div class="layoutStyle924 imageStyle925 positionStyle2"></div>
+      </div>
+      <div class="animationStyle1303 layoutStyle941 positionStyle1302 _Clips-Jukebox-jaw" cl-labels-key="_Clips-Jukebox-jaw">
+        <div class="layoutStyle916 imageStyle917 positionStyle2"></div>
+      </div>
+      <div class="animationStyle1309 layoutStyle938 positionStyle949 _Clips-Jukebox-skull" cl-labels-key="_Clips-Jukebox-skull">
+        <div class="layoutStyle908 imageStyle909 positionStyle2"></div>
+      </div>
+    </div>
+    <div class="animationStyle1315 layoutStyle981 positionStyle1314 _Clips-Jukebox-music_note_anim" cl-labels-key="_Clips-Jukebox-music_note_anim">
+      <div class="animationStyle1319 visualStyle1015 layoutStyle896 positionStyle1318 _Clips-Jukebox-music_note" cl-labels-key="_Clips-Jukebox-music_note">
+        <div class="layoutStyle884 imageStyle885 positionStyle2"></div>
+      </div>
+      <div class="animationStyle1325 visualStyle1015 layoutStyle893 positionStyle1324 _Clips-Jukebox-music_note" cl-labels-key="_Clips-Jukebox-music_note">
+        <div class="layoutStyle884 imageStyle885 positionStyle2"></div>
+      </div>
+      <div class="animationStyle1333 visualStyle1015 layoutStyle890 positionStyle1332 _Clips-Jukebox-music_note" cl-labels-key="_Clips-Jukebox-music_note">
+        <div class="layoutStyle884 imageStyle885 positionStyle2"></div>
+      </div>
+    </div>
+    <div class="animationStyle1340 layoutStyle978 positionStyle1339 hints-copy-list" cl-labels-key="hints-copy-list">
+      <div class="layoutStyle874 imageStyle875 positionStyle2"></div>
+      <div class="layoutStyle870 positionStyle1344 hints-copy-list_item" data-bind-for="button_hint:{{JukeboxButtonHints.buttonArray}}" cl-labels-key="hints-copy-list_item">
+        <div class="visualStyle861 layoutStyle862 positionStyle2"></div>
+        <div class="layoutStyle858 positionStyle863 hints-copy-list_item_text" cl-labels-key="hints-copy-list_item_text">
+          <div class="visualStyle853 layoutStyle851 positionStyle2 ButtonHintShrink" data-bind-html="{{button_hint.buttonHint}}">TEXT</div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle1349 layoutStyle975 positionStyle1348 _Clips-Jukebox-list-list_wrapper" cl-labels-key="_Clips-Jukebox-list-list_wrapper">
+      <div data-bind-scrollbar="{{JukeboxSongs.scrollbar}}" class="layoutStyle843 positionStyle1352 _Clips-Jukebox-list-scroll" cl-labels-key="_Clips-Jukebox-list-scroll">
+        <div class="layoutStyle832 positionStyle498 scrollbarBack Duplicate-Items-Folder-scrollbar_back" cl-labels-key="Duplicate-Items-Folder-scrollbar_back">
+          <div class="visualStyle823 layoutStyle818 positionStyle498"></div>
+        </div>
+        <div class="visualStyle1018 layoutStyle829 positionStyle498 scrollbarBar _Clips-Jukebox-list-scroll_bar" cl-labels-key="_Clips-Jukebox-list-scroll_bar">
+          <div class="visualStyle499 layoutStyle818 positionStyle498"></div>
+        </div>
+      </div>
+      <div data-bind-scroll-list="{{JukeboxSongs.scrollbar}}" class="layoutStyle840 positionStyle2 smoothScrolling jukeboxScrollSize _Clips-Jukebox-list-list" cl-labels-key="_Clips-Jukebox-list-list">
+        <div class="layoutStyle797 positionStyle9 _Clips-Jukebox-list-list_item" data-bind-style-opacity="{{song.selected}} ? 1 : 0.2" data-bind-for="song:{{JukeboxSongs.masterList}}" cl-labels-key="_Clips-Jukebox-list-list_item">
+          <div class="layoutStyle797 positionStyle2 _Clips-Jukebox-list-list_item_bg" cl-labels-key="_Clips-Jukebox-list-list_item_bg">
+            <div class="layoutStyle779 imageStyle780 positionStyle2"></div>
+          </div>
+          <div data-bind-inner-html="{{song.artist}}" class="layoutStyle794 positionStyle805 _Clips-Jukebox-list-list_item_artist" cl-labels-key="_Clips-Jukebox-list-list_item_artist">
+            <div class="visualStyle772 layoutStyle770 positionStyle2">TITLE</div>
+          </div>
+          <div data-bind-inner-html="{{song.title}}" class="layoutStyle791 positionStyle803 _Clips-Jukebox-list-list_item_title" cl-labels-key="_Clips-Jukebox-list-list_item_title">
+            <div class="visualStyle765 layoutStyle763 positionStyle2">TITLE</div>
+          </div>
+          <div class="layoutStyle788 positionStyle801 _Clips-Jukebox-stop_button" cl-labels-key="_Clips-Jukebox-stop_button">
+            <div class="layoutStyle757 imageStyle758 positionStyle2" data-bind-if="({{song.songID}}) == ({{JukeboxState.songPlaying}})"></div>
+          </div>
+          <div class="layoutStyle785 positionStyle799 mouse_hitbox" cl-labels-key="mouse_hitbox">
+            <div class="visualStyle20 layoutStyle750 positionStyle2" data-bind-click="JukeboxSongs.OnClick({{song.index}}, MBT_None)" data-bind-mousemove="JukeboxSongs.OnMouseMove({{song.index}}, MBT_None)" data-bind-mouseenter="JukeboxSongs.OnMouseEnter({{song.index}}, MBT_None)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle746 positionStyle1369 ArenaSelect" cl-labels-key="ArenaSelect">
+    <div class="animationStyle1371 layoutStyle734 positionStyle1370 _Clips-ArenaSelect-challenges-challenges" cl-labels-key="_Clips-ArenaSelect-challenges-challenges">
+      <div class="animationStyle1374 layoutStyle714 positionStyle1373 _Clips-ArenaSelect-challenges-challenge_zurkie_bubble" data-bind-style-opacity="{{ArenaSelect.selectingChallenge}} ? 1 : 0" cl-labels-key="_Clips-ArenaSelect-challenges-challenge_zurkie_bubble">
+        <div class="layoutStyle347 positionStyle2 _Clips-ArenaSelect-zurkie_bubble_bg" cl-labels-key="_Clips-ArenaSelect-zurkie_bubble_bg">
+          <div class="layoutStyle335 imageStyle336 positionStyle2"></div>
+        </div>
+        <div class="layoutStyle689 positionStyle696 _Clips-ArenaSelect-challenges-challenge_zurkie_bubble_desc" cl-labels-key="_Clips-ArenaSelect-challenges-challenge_zurkie_bubble_desc">
+          <div data-l10n-id="UI_ARENA_CHALLENGES_DESC" class="visualStyle328 layoutStyle679 positionStyle2">DESCRIPTION.</div>
+        </div>
+        <div class="layoutStyle686 positionStyle694 _Clips-ArenaSelect-challenges-challenge_zurkie_bubble_txt" cl-labels-key="_Clips-ArenaSelect-challenges-challenge_zurkie_bubble_txt">
+          <div data-l10n-id="UI_ARENA_CHALLENGES_HEADER" class="visualStyle321 layoutStyle672 positionStyle2">TITLE</div>
+        </div>
+      </div>
+      <div class="animationStyle1383 layoutStyle711 positionStyle1382 _Clips-ArenaSelect-challenges-challenge_zurkie" data-bind-style-opacity="{{ArenaSelect.selectingChallenge}} ? 1 : 0" cl-labels-key="_Clips-ArenaSelect-challenges-challenge_zurkie">
+        <div class="layoutStyle646 positionStyle1385 _Clips-ArenaSelect-cups-ring_anim" cl-labels-key="_Clips-ArenaSelect-cups-ring_anim">
+          <div class="animationStyle1387 visualStyle1015 layoutStyle261 positionStyle262 _Clips-ArenaSelect-cups-ring" cl-labels-key="_Clips-ArenaSelect-cups-ring">
+            <img src="img/Zurkie1.svg" class="layoutStyle256 positionStyle2">
+          </div>
+        </div>
+        <div class="animationStyle1393 visualStyle1015 layoutStyle643 positionStyle1392 _Clips-ArenaSelect-cups-ring_anim" cl-labels-key="_Clips-ArenaSelect-cups-ring_anim">
+          <div class="animationStyle1396 visualStyle1015 layoutStyle261 positionStyle262 _Clips-ArenaSelect-cups-ring" cl-labels-key="_Clips-ArenaSelect-cups-ring">
+            <img src="img/Zurkie2.svg" class="layoutStyle256 positionStyle2">
+          </div>
+        </div>
+        <div class="animationStyle1402 visualStyle1015 layoutStyle640 positionStyle1385 _Clips-ArenaSelect-cups-ring_anim" cl-labels-key="_Clips-ArenaSelect-cups-ring_anim">
+          <div class="animationStyle1405 visualStyle1015 layoutStyle261 positionStyle262 _Clips-ArenaSelect-cups-ring" cl-labels-key="_Clips-ArenaSelect-cups-ring">
+            <img src="img/Zurkie3.svg" class="layoutStyle256 positionStyle2">
+          </div>
+        </div>
+        <div class="layoutStyle637 positionStyle662 _Clips-ArenaSelect-cups-challenge_body" cl-labels-key="_Clips-ArenaSelect-cups-challenge_body">
+          <div class="layoutStyle618 imageStyle619 positionStyle2"></div>
+        </div>
+        <div class="animationStyle1413 layoutStyle634 positionStyle1412 _Clips-ArenaSelect-cups-challenge_right_arm" cl-labels-key="_Clips-ArenaSelect-cups-challenge_right_arm">
+          <div class="animationStyle1417 layoutStyle604 positionStyle1416 _Clips-ArenaSelect-cups-challenge_right_wrist" cl-labels-key="_Clips-ArenaSelect-cups-challenge_right_wrist">
+            <div class="layoutStyle589 imageStyle590 positionStyle587"></div>
+          </div>
+          <div class="animationStyle1423 layoutStyle601 positionStyle1422 _Clips-ArenaSelect-cups-challenge_right_forearm" cl-labels-key="_Clips-ArenaSelect-cups-challenge_right_forearm">
+            <div class="layoutStyle581 imageStyle582 positionStyle579"></div>
+          </div>
+          <div class="animationStyle1429 layoutStyle598 positionStyle1428 _Clips-ArenaSelect-cups-challenge_right_up" cl-labels-key="_Clips-ArenaSelect-cups-challenge_right_up">
+            <div class="layoutStyle221 imageStyle574 positionStyle2"></div>
+          </div>
+          <div class="animationStyle1434 layoutStyle595 positionStyle596 _Clips-ArenaSelect-cups-challenge_right_hand" cl-labels-key="_Clips-ArenaSelect-cups-challenge_right_hand">
+            <div class="layoutStyle565 imageStyle566 positionStyle563"></div>
+          </div>
+        </div>
+        <div class="animationStyle1440 layoutStyle631 positionStyle1439 _Clips-ArenaSelect-cups-challenge_left_arm" cl-labels-key="_Clips-ArenaSelect-cups-challenge_left_arm">
+          <div class="layoutStyle557 positionStyle558 _Clips-ArenaSelect-cups-challenge_left_up" cl-labels-key="_Clips-ArenaSelect-cups-challenge_left_up">
+            <div class="layoutStyle205 imageStyle549 positionStyle2"></div>
+          </div>
+          <div class="layoutStyle554 positionStyle555 _Clips-ArenaSelect-cups-challenge_cannon" cl-labels-key="_Clips-ArenaSelect-cups-challenge_cannon">
+            <div class="layoutStyle540 imageStyle541 positionStyle2"></div>
+          </div>
+        </div>
+        <div class="animationStyle1449 layoutStyle628 positionStyle629 _Clips-ArenaSelect-cups-challenge_head_front" cl-labels-key="_Clips-ArenaSelect-cups-challenge_head_front">
+          <div class="animationStyle1079 layoutStyle524 imageStyle525 positionStyle2"></div>
+        </div>
+        <div class="animationStyle1453 layoutStyle649 positionStyle650 _Clips-ArenaSelect-cups-challenge_head_left" cl-labels-key="_Clips-ArenaSelect-cups-challenge_head_left">
+          <div class="layoutStyle532 imageStyle533 positionStyle2"></div>
+        </div>
+        <div class="animationStyle1457 layoutStyle628 positionStyle629 _Clips-ArenaSelect-cups-challenge_head_front" cl-labels-key="_Clips-ArenaSelect-cups-challenge_head_front">
+          <div class="animationStyle1079 layoutStyle524 imageStyle525 positionStyle2"></div>
+        </div>
+        <div class="animationStyle1461 visualStyle626 layoutStyle624 positionStyle1460 _Clips-ArenaSelect-cups-screen_icons" cl-labels-key="_Clips-ArenaSelect-cups-screen_icons">
+          <div class="animationStyle1467 layoutStyle145 positionStyle2 _Clips-ArenaSelect-cups-icon_head_2" cl-labels-key="_Clips-ArenaSelect-cups-icon_head_2">
+            <div class="layoutStyle115 imageStyle116 positionStyle113"></div>
+          </div>
+          <div class="animationStyle1471 layoutStyle145 positionStyle2 _Clips-ArenaSelect-cups-icon_skull" cl-labels-key="_Clips-ArenaSelect-cups-icon_skull">
+            <div class="layoutStyle115 imageStyle124 positionStyle113"></div>
+          </div>
+          <div class="animationStyle1475 layoutStyle145 positionStyle2 _Clips-ArenaSelect-cups-icon_head_1" cl-labels-key="_Clips-ArenaSelect-cups-icon_head_1">
+            <div class="layoutStyle115 imageStyle132 positionStyle113"></div>
+          </div>
+          <div class="animationStyle1479 layoutStyle145 positionStyle2 _Clips-ArenaSelect-cups-icon_bomb" cl-labels-key="_Clips-ArenaSelect-cups-icon_bomb">
+            <div class="layoutStyle115 imageStyle140 positionStyle113"></div>
+          </div>
+        </div>
+      </div>
+      <div data-bind-scrollbar="{{ArenaChallenges.scrollbar}}" class="layoutStyle708 positionStyle1482 _Clips-ArenaSelect-challenges-scroll" data-bind-style-opacity="{{ArenaSelect.selectingChallenge}} ? 1 : 0" cl-labels-key="_Clips-ArenaSelect-challenges-scroll">
+        <div class="layoutStyle514 positionStyle2 scrollbarBack scrollbar_back" cl-labels-key="scrollbar_back">
+          <div class="visualStyle505 layoutStyle506 positionStyle2"></div>
+        </div>
+        <div class="visualStyle1018 layoutStyle511 positionStyle498 scrollbarBar _Clips-ArenaSelect-challenges-scroll_bar" cl-labels-key="_Clips-ArenaSelect-challenges-scroll_bar">
+          <div class="visualStyle499 layoutStyle500 positionStyle498"></div>
+        </div>
+      </div>
+      <div data-bind-scroll-list="{{ArenaChallenges.scrollbar}}" class="layoutStyle705 positionStyle718 smoothScrolling challengesScrollSize _Clips-ArenaSelect-challenges-list" data-bind-style-opacity="{{ArenaSelect.selectingChallenge}} ? 1 : 0" cl-labels-key="_Clips-ArenaSelect-challenges-list">
+        <div class="layoutStyle493 positionStyle9 _Clips-ArenaSelect-challenges-list_item" data-bind-for="challenge:{{ArenaChallenges.masterList}}" cl-labels-key="_Clips-ArenaSelect-challenges-list_item">
+          <div class="visualStyle491 layoutStyle466 positionStyle486">
+            <div class="layoutStyle468 positionStyle1489 _Clips-ArenaSelect-fill" cl-labels-key="_Clips-ArenaSelect-fill">
+              <div class="visualStyle435 layoutStyle436 positionStyle2" data-bind-style-left="(({{challenge.fill}} * 100) - 100) + '%'"></div>
+            </div>
+          </div>
+          <div class="layoutStyle462 positionStyle484 _Clips-ArenaSelect-challenges-list_item_bg" cl-labels-key="_Clips-ArenaSelect-challenges-list_item_bg">
+            <div class="layoutStyle429 imageStyle430 positionStyle2" data-bind-class="{{challenge.selected}} ? 'arenaItemDown' : 'arenaItemUp'"></div>
+          </div>
+          <div class="layoutStyle459 positionStyle1493 _Clips-ArenaSelect-challenges-list_item_locked" cl-labels-key="_Clips-ArenaSelect-challenges-list_item_locked">
+            <div class="layoutStyle49 imageStyle58 positionStyle2" data-bind-if="{{challenge.locked}}"></div>
+          </div>
+          <div class="layoutStyle456 positionStyle1495 _Clips-ArenaSelect-challenges-list_item_complete" cl-labels-key="_Clips-ArenaSelect-challenges-list_item_complete">
+            <div class="layoutStyle49 imageStyle50 positionStyle2" data-bind-if="{{challenge.complete}}"></div>
+          </div>
+          <div class="layoutStyle453 positionStyle478 _Clips-ArenaSelect-challenges-list_item_reward" cl-labels-key="_Clips-ArenaSelect-challenges-list_item_reward">
+            <div class="visualStyle408 layoutStyle406 positionStyle2" data-bind-value="{{challenge.rewardValue}}">99999</div>
+          </div>
+          <div class="layoutStyle450 positionStyle1499 _Clips-ArenaSelect-challenges-reward_icon" cl-labels-key="_Clips-ArenaSelect-challenges-reward_icon">
+            <div class="visualStyle400 layoutStyle401 positionStyle2 autoScale" data-bind-style-background-image-url="{{challenge.rewardIcon}}"></div>
+          </div>
+          <div data-bind-inner-html="{{challenge.desc}}" class="layoutStyle447 positionStyle474 _Clips-ArenaSelect-challenges-list_item_desc" cl-labels-key="_Clips-ArenaSelect-challenges-list_item_desc">
+            <div class="visualStyle35 layoutStyle393 positionStyle2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
+          </div>
+          <div class="layoutStyle444 positionStyle472 _Clips-ArenaSelect-challenges-list_item_title" cl-labels-key="_Clips-ArenaSelect-challenges-list_item_title">
+            <div class="visualStyle28 layoutStyle386 positionStyle2" data-bind-value="{{challenge.title}}">TITLE</div>
+          </div>
+          <div class="layoutStyle441 positionStyle470 challenge_item_mouse_hitbox" data-bind-mouseover="ArenaChallenges.OnMouseEnter({{challenge.index}},  MBT_None)" data-bind-click="ArenaChallenges.OnClick({{challenge.index}},  MBT_None)" data-bind-mouseleave="ArenaChallenges.OnMouseLeave({{challenge.index}},  MBT_None)" cl-labels-key="challenge_item_mouse_hitbox">
+            <div class="visualStyle20 layoutStyle381 positionStyle2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="layoutStyle702 positionStyle716 _Clips-ArenaSelect-challenges-challenges_header" data-bind-style-opacity="{{ArenaSelect.selectingChallenge}} ? 1 : 0" cl-labels-key="_Clips-ArenaSelect-challenges-challenges_header">
+        <div class="visualStyle375 layoutStyle373 positionStyle2" data-bind-value="{{ArenaSelect.challengeHeader}}">CUP HEADER</div>
+      </div>
+    </div>
+    <div class="animationStyle1510 layoutStyle731 positionStyle1509 _Clips-ArenaSelect-cups-cups" data-bind-if="{{ArenaSelect.selectingChallenge}} == false" data-bind-class-toggle="pointerEventsNone:{{ArenaSelect.selectingChallenge}}" cl-labels-key="_Clips-ArenaSelect-cups-cups">
+      <div class="animationStyle1516 layoutStyle363 positionStyle1515 _Clips-ArenaSelect-cups-cup_zurkie_bubble" cl-labels-key="_Clips-ArenaSelect-cups-cup_zurkie_bubble">
+        <div class="layoutStyle347 positionStyle2 _Clips-ArenaSelect-zurkie_bubble_bg" cl-labels-key="_Clips-ArenaSelect-zurkie_bubble_bg">
+          <div class="layoutStyle335 imageStyle336 positionStyle2"></div>
+        </div>
+        <div class="layoutStyle344 positionStyle351 _Clips-ArenaSelect-cups-cup_zurkie_bubble_desc" cl-labels-key="_Clips-ArenaSelect-cups-cup_zurkie_bubble_desc">
+          <div data-l10n-id="UI_ARENA_CUPS_DESC" class="visualStyle328 layoutStyle326 positionStyle2">DESCRIPTION.</div>
+        </div>
+        <div class="layoutStyle341 positionStyle349 _Clips-ArenaSelect-cups-cup_zurkie_bubble_txt" cl-labels-key="_Clips-ArenaSelect-cups-cup_zurkie_bubble_txt">
+          <div data-l10n-id="UI_ARENA_CUPS_HEADER" class="visualStyle321 layoutStyle319 positionStyle2">TITLE</div>
+        </div>
+      </div>
+      <div class="animationStyle1525 layoutStyle360 positionStyle1524 _Clips-ArenaSelect-cups-cup_zurkie" cl-labels-key="_Clips-ArenaSelect-cups-cup_zurkie">
+        <div class="layoutStyle296 positionStyle315 _Clips-ArenaSelect-cups-body" cl-labels-key="_Clips-ArenaSelect-cups-body">
+          <div class="layoutStyle269 imageStyle270 positionStyle2"></div>
+        </div>
+        <div class="layoutStyle293 positionStyle1529 _Clips-ArenaSelect-cups-ring_anim" cl-labels-key="_Clips-ArenaSelect-cups-ring_anim">
+          <div class="animationStyle1531 visualStyle1015 layoutStyle261 positionStyle262 _Clips-ArenaSelect-cups-ring" cl-labels-key="_Clips-ArenaSelect-cups-ring">
+            <img src="img/Zurkie4.svg" class="layoutStyle256 positionStyle2">
+          </div>
+        </div>
+        <div class="animationStyle1537 visualStyle1015 layoutStyle290 positionStyle1529 _Clips-ArenaSelect-cups-ring_anim" cl-labels-key="_Clips-ArenaSelect-cups-ring_anim">
+          <div class="animationStyle1540 visualStyle1015 layoutStyle261 positionStyle262 _Clips-ArenaSelect-cups-ring" cl-labels-key="_Clips-ArenaSelect-cups-ring">
+            <img src="img/Zurkie5.svg" class="layoutStyle256 positionStyle2">
+          </div>
+        </div>
+        <div class="animationStyle1546 visualStyle1015 layoutStyle287 positionStyle1529 _Clips-ArenaSelect-cups-ring_anim" cl-labels-key="_Clips-ArenaSelect-cups-ring_anim">
+          <div class="animationStyle1549 visualStyle1015 layoutStyle261 positionStyle262 _Clips-ArenaSelect-cups-ring" cl-labels-key="_Clips-ArenaSelect-cups-ring">
+            <img src="img/Zurkie6.svg" class="layoutStyle256 positionStyle2">
+          </div>
+        </div>
+        <div class="animationStyle1555 layoutStyle284 positionStyle1554 _Clips-ArenaSelect-cups-cup_right_arm" cl-labels-key="_Clips-ArenaSelect-cups-cup_right_arm">
+          <div class="layoutStyle244 positionStyle1559 _Clips-ArenaSelect-cups-cup_up_right_arm" cl-labels-key="_Clips-ArenaSelect-cups-cup_up_right_arm">
+            <div class="layoutStyle229 imageStyle230 positionStyle2"></div>
+          </div>
+          <div class="layoutStyle241 positionStyle250 _Clips-ArenaSelect-cups-cup_up_right_forearm" cl-labels-key="_Clips-ArenaSelect-cups-cup_up_right_forearm">
+            <div class="layoutStyle221 imageStyle222 positionStyle2"></div>
+          </div>
+          <div class="layoutStyle238 positionStyle248 _Clips-ArenaSelect-cups-cup_up_right_elbow" cl-labels-key="_Clips-ArenaSelect-cups-cup_up_right_elbow">
+            <div class="layoutStyle213 imageStyle214 positionStyle2"></div>
+          </div>
+          <div class="layoutStyle235 positionStyle1565 _Clips-ArenaSelect-cups-cup_up_right_hand" cl-labels-key="_Clips-ArenaSelect-cups-cup_up_right_hand">
+            <div class="layoutStyle205 imageStyle206 positionStyle2"></div>
+          </div>
+        </div>
+        <div class="animationStyle1568 layoutStyle281 positionStyle1567 _Clips-ArenaSelect-cups-left_arm" cl-labels-key="_Clips-ArenaSelect-cups-left_arm">
+          <div class="layoutStyle195 positionStyle2 _Clips-ArenaSelect-cups-cup_up_left_cannon" cl-labels-key="_Clips-ArenaSelect-cups-cup_up_left_cannon">
+            <div class="layoutStyle186 imageStyle187 positionStyle2"></div>
+          </div>
+          <div class="layoutStyle192 positionStyle197 _Clips-ArenaSelect-cups-cup_up_left_arm" cl-labels-key="_Clips-ArenaSelect-cups-cup_up_left_arm">
+            <div class="layoutStyle178 imageStyle179 positionStyle2"></div>
+          </div>
+        </div>
+        <div class="animationStyle1577 layoutStyle278 positionStyle303 _Clips-ArenaSelect-cups-cup_head_front" cl-labels-key="_Clips-ArenaSelect-cups-cup_head_front">
+          <div class="layoutStyle162 imageStyle163 positionStyle2"></div>
+        </div>
+        <div class="animationStyle1581 layoutStyle299 positionStyle1580 _Clips-ArenaSelect-cups-cup_head_left" cl-labels-key="_Clips-ArenaSelect-cups-cup_head_left">
+          <div class="layoutStyle170 imageStyle171 positionStyle2"></div>
+        </div>
+        <div class="animationStyle1585 visualStyle1025 layoutStyle275 positionStyle1584 _Clips-ArenaSelect-cups-screen_icons" cl-labels-key="_Clips-ArenaSelect-cups-screen_icons">
+          <div class="animationStyle1591 layoutStyle145 positionStyle2 _Clips-ArenaSelect-cups-icon_head_2" cl-labels-key="_Clips-ArenaSelect-cups-icon_head_2">
+            <div class="layoutStyle115 imageStyle116 positionStyle113"></div>
+          </div>
+          <div class="animationStyle1595 layoutStyle145 positionStyle2 _Clips-ArenaSelect-cups-icon_skull" cl-labels-key="_Clips-ArenaSelect-cups-icon_skull">
+            <div class="layoutStyle115 imageStyle124 positionStyle113"></div>
+          </div>
+          <div class="animationStyle1599 layoutStyle145 positionStyle2 _Clips-ArenaSelect-cups-icon_head_1" cl-labels-key="_Clips-ArenaSelect-cups-icon_head_1">
+            <div class="layoutStyle115 imageStyle132 positionStyle113"></div>
+          </div>
+          <div class="animationStyle1603 layoutStyle145 positionStyle2 _Clips-ArenaSelect-cups-icon_bomb" cl-labels-key="_Clips-ArenaSelect-cups-icon_bomb">
+            <div class="layoutStyle115 imageStyle140 positionStyle113"></div>
+          </div>
+        </div>
+      </div>
+      <div class="layoutStyle357 positionStyle365 _Clips-ArenaSelect-cups-list" cl-labels-key="_Clips-ArenaSelect-cups-list">
+        <div class="layoutStyle107 positionStyle9 _Clips-ArenaSelect-cups-list_item" data-bind-for="cup:{{ArenaCups.displayList}}" cl-labels-key="_Clips-ArenaSelect-cups-list_item">
+          <div class="layoutStyle89 positionStyle103 _Clips-ArenaSelect-cups-list_item_bg" cl-labels-key="_Clips-ArenaSelect-cups-list_item_bg">
+            <div class="layoutStyle65 imageStyle66 positionStyle2" data-bind-class="{{cup.selected}} ? 'arenaItemDown' : 'arenaItemUp'"></div>
+          </div>
+          <div class="layoutStyle86 positionStyle1610 _Clips-ArenaSelect-cups-list_item_locked" cl-labels-key="_Clips-ArenaSelect-cups-list_item_locked">
+            <div class="layoutStyle49 imageStyle58 positionStyle2" data-bind-if="{{cup.locked}}"></div>
+          </div>
+          <div class="layoutStyle83 positionStyle1612 _Clips-ArenaSelect-cups-list_item_complete" cl-labels-key="_Clips-ArenaSelect-cups-list_item_complete">
+            <div class="layoutStyle49 imageStyle50 positionStyle2" data-bind-if="{{cup.complete}}"></div>
+          </div>
+          <div class="layoutStyle80 positionStyle97 _Clips-ArenaSelect-cups-list_item_progress" cl-labels-key="_Clips-ArenaSelect-cups-list_item_progress">
+            <div class="visualStyle42 layoutStyle40 positionStyle2" data-bind-value="{{cup.progress}}" data-bind-if="!{{cup.locked}}">2/5</div>
+          </div>
+          <div class="layoutStyle77 positionStyle95 _Clips-ArenaSelect-cups-list_item_desc" cl-labels-key="_Clips-ArenaSelect-cups-list_item_desc">
+            <div class="visualStyle35 layoutStyle33 positionStyle2" data-bind-value="{{cup.desc}}">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          </div>
+          <div class="layoutStyle74 positionStyle93 _Clips-ArenaSelect-cups-list_item_title" cl-labels-key="_Clips-ArenaSelect-cups-list_item_title">
+            <div class="visualStyle28 layoutStyle26 positionStyle2" data-bind-value="{{cup.title}}">TITLE</div>
+          </div>
+          <div class="layoutStyle71 positionStyle91 cup_item_mouse_hitbox" data-bind-mouseover="ArenaCups.OnMouseEnter({{cup.index}},  MBT_None)" data-bind-click="ArenaCups.OnClick({{cup.index}},  MBT_None)" data-bind-mouseleave="ArenaCups.OnMouseLeave({{cup.index}},  MBT_None)" cl-labels-key="cup_item_mouse_hitbox">
+            <div class="visualStyle20 layoutStyle21 positionStyle2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle1623 layoutStyle728 positionStyle1622 _Clips-ArenaSelect-hints-list" cl-labels-key="_Clips-ArenaSelect-hints-list">
+      <div class="layoutStyle14 positionStyle9 flexRight _Clips-ArenaSelect-button_hint_list" cl-labels-key="_Clips-ArenaSelect-button_hint_list">
+        <div data-bind-button-hint="{{button_item}}" class="layoutStyle8 positionStyle9 ButtonHint button_hints-button_hint" data-bind-for="button_index,button_item:{{ButtonHints.buttonHints}}" data-bind-html="{{button_item.innerHtml}}" cl-labels-key="button_hints-button_hint">
+          <div class="visualStyle3 layoutStyle1 positionStyle2 ButtonHint txt">BUTTON HINTS</div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="../../authored/_common/js/cohtml.js"></script>
+<script src="js/CLAnimations_API.js"></script>
+<script src="js/CLAnimations_Zurkie_Zurkie.js"></script>
+<script src="js/CLEvents_Symbols_Zurkie_Zurkie.js"></script>
+<script src="../../authored/_common/js/Visibility.js"></script>
+<script src="../../authored/_common/js/CustomAttributes.js"></script>
+<script src="../../authored/Zurkie/js/Zurkie.js"></script>
+<script src="../../authored/_common/js/CustomPCAttributes.js"></script>
+</body>
+</html>

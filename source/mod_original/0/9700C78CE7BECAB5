@@ -1,0 +1,870 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/Vendor.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/_common/css/Shared.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/Vendor/css/VendorCustom.css">
+<style id="ar-rtl-fix">html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}</style></head>
+<body>
+  <div class="visualStyle2736 layoutStyle2715 positionStyle2733 _Clips-Shell-shoulder_tabs" data-bind-if="{{VendorTabsData.showTabs}}" cl-labels-key="_Clips-Shell-shoulder_tabs">
+    <div class="visualStyle2737 layoutStyle2707 positionStyle3821 _Clips-Shell-shoulder_but_darken" cl-labels-key="_Clips-Shell-shoulder_but_darken">
+      <div class="layoutStyle2697 imageStyle2698 positionStyle2695"></div>
+    </div>
+    <div class="layoutStyle2704 imageStyle2705 positionStyle3823"></div>
+  </div>
+  <div class="layoutStyle2691 positionStyle2731 Hints_Wrapper" data-bind-if="{{VendorHintsData.showButtonHints}}" cl-labels-key="Hints_Wrapper">
+    <div class="animationStyle3826 layoutStyle2683 positionStyle129 _Clips-Shell-hints-bottom" cl-labels-key="_Clips-Shell-hints-bottom">
+      <div class="layoutStyle2675 positionStyle3828 buttonHintsBackground _Clips-Shell-hints-bottom_bg" cl-labels-key="_Clips-Shell-hints-bottom_bg">
+        <div class="visualStyle54 layoutStyle2667 positionStyle2123"></div>
+      </div>
+      <div class="layoutStyle2672 positionStyle3830 flexCenter pc_button_hints-button_hint_list" cl-labels-key="pc_button_hints-button_hint_list">
+        <div data-bind-button-hint="{{button_item}}" class="layoutStyle227 positionStyle89 flexCenter ButtonHint pc_button_hints-button_hint" data-bind-for="button_index,button_item:{{ButtonHints.buttonHints}}" data-bind-html="{{button_item.innerHtml}}" cl-labels-key="pc_button_hints-button_hint">
+          <div class="visualStyle222 layoutStyle220 positionStyle1 ButtonHint txt">BUTTON HINTS</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle2650 positionStyle3833 Purchase" cl-labels-key="Purchase">
+    <div data-bind-vendor-weapon-info-state="{{VendorSelection}}" class="animationStyle3835 layoutStyle2601 positionStyle3834 pointerEventsNone _Clips-Purchase-info-info" cl-labels-key="_Clips-Purchase-info-info">
+      <div class="layoutStyle2500 imageStyle2501 positionStyle3840" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1"></div>
+      <div class="animationStyle3842 visualStyle2738 layoutStyle2496 positionStyle2553 panel_color" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="panel_color">
+        <div class="layoutStyle2420 imageStyle2421 positionStyle2418"></div>
+      </div>
+      <div class="animationStyle3846 visualStyle2736 layoutStyle2493 positionStyle2551 cost_info_bg" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="cost_info_bg">
+        <img src="img/Vendor1.svg" class="layoutStyle2413 positionStyle1">
+      </div>
+      <div class="animationStyle3850 visualStyle2740 layoutStyle2490 positionStyle3849 cost_info_frame" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="cost_info_frame">
+        <div class="layoutStyle2407 imageStyle2408 positionStyle2405"></div>
+      </div>
+      <div class="animationStyle3857 visualStyle2788 layoutStyle2487 positionStyle3856 pointerEventsNone glow_texture" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="glow_texture">
+        <div class="layoutStyle742 imageStyle743 positionStyle740"></div>
+      </div>
+      <div class="animationStyle3861 visualStyle2741 layoutStyle2484 positionStyle3860 cost_color_glow" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="cost_color_glow">
+        <div class="layoutStyle2399 imageStyle851 positionStyle2397" data-bind-style-opacity="{{VendorElementPopup.type}} == 1 ? 1 : 0" data-bind-class="{{VendorSelection.state}} == 1 ? 'colorUnaffordRed' : 'colorAffordBlue'"></div>
+      </div>
+      <div class="animationStyle3865 visualStyle2741 layoutStyle2481 positionStyle2543 _Clips-Purchase-info-bolt_cost_value_left" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-bolt_cost_value_left">
+        <div class="visualStyle2393 layoutStyle2391 positionStyle1" data-bind-value="{{VendorSelection.costText}}">340000</div>
+      </div>
+      <div class="animationStyle3869 visualStyle2741 layoutStyle2478 positionStyle3868 _Clips-Purchase-info-bolt_icon" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-bolt_icon">
+        <img src="img/Vendor2.svg" class="layoutStyle2386 positionStyle2385">
+      </div>
+      <div class="animationStyle3874 visualStyle2740 layoutStyle2475 positionStyle3873 pointerEventsNone _Clips-Purchase-info-bolt_cost_value" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-bolt_cost_value">
+        <div class="animationStyle3880 visualStyle3230 layoutStyle2379 positionStyle1" data-bind-value="{{VendorSelection.costText}}">#####</div>
+      </div>
+      <div class="animationStyle3883 visualStyle2736 layoutStyle2472 positionStyle3882 _Clips-Purchase-info-info_lock" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-info_lock">
+        <img src="img/Vendor3.svg" class="layoutStyle2374 positionStyle1">
+      </div>
+      <div class="animationStyle3890 visualStyle2745 layoutStyle2503 positionStyle3889 _Clips-Purchase-info-info_lock" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-info_lock">
+        <img src="img/Vendor4.svg" class="layoutStyle2374 positionStyle1">
+      </div>
+      <div class="animationStyle3894 layoutStyle2469 positionStyle3893 _Clips-Purchase-info-info_check_back" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-info_check_back">
+        <div class="layoutStyle2368 imageStyle2066 positionStyle2366"></div>
+      </div>
+      <div class="animationStyle3899 visualStyle2736 layoutStyle2466 positionStyle3898 _Clips-Purchase-info-info_check_img" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-info_check_img">
+        <div class="layoutStyle2361 imageStyle2062 positionStyle1"></div>
+      </div>
+      <div class="animationStyle3905 visualStyle2748 layoutStyle2457 positionStyle2531 _Clips-Purchase-separator" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-separator">
+        <div class="layoutStyle2275 imageStyle2276 positionStyle2273"></div>
+      </div>
+      <div class="animationStyle3910 layoutStyle2460 positionStyle2529 _Clips-Purchase-info-stats-wpn_stat_bar_wrapper" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-stats-wpn_stat_bar_wrapper">
+        <div class="visualStyle54 layoutStyle2353 positionStyle1" data-bind-style-opacity="{{VendorSelection.state}} != 2 && {{VendorSelection.isAmmo}} == false ? 1 : 0"></div>
+        <div class="layoutStyle2349 positionStyle3913 _Clips-Purchase-info-stats-wpn_stat_bar" data-bind-for="it:{{VendorSelection.stats}}" data-bind-style-opacity="{{VendorSelection.state}} != 2 && {{VendorSelection.isAmmo}} == false ? 1 : 0" cl-labels-key="_Clips-Purchase-info-stats-wpn_stat_bar">
+          <div class="visualStyle80 layoutStyle2340 positionStyle129"></div>
+          <div class="layoutStyle2336 positionStyle2343 _Clips-Purchase-info-stats-wpn_stat_piplist" cl-labels-key="_Clips-Purchase-info-stats-wpn_stat_piplist">
+            <div class="layoutStyle2319 positionStyle89 statsPipListHorizontalSpacing _Clips-Purchase-info-stats-wpn_stat_pip" data-bind-for="pip:{{it.pipFills}}" cl-labels-key="_Clips-Purchase-info-stats-wpn_stat_pip">
+              <div class="layoutStyle2319 positionStyle1 _Clips-Purchase-info-stats-wpn_stat_pip_bg" cl-labels-key="_Clips-Purchase-info-stats-wpn_stat_pip_bg">
+                <div class="visualStyle2310 layoutStyle2311 positionStyle1"></div>
+              </div>
+              <div class="layoutStyle2316 positionStyle2321 _Clips-Purchase-info-stats-wpn_stat_pip_shape" cl-labels-key="_Clips-Purchase-info-stats-wpn_stat_pip_shape">
+                <div class="layoutStyle2302 positionStyle1 _Clips-Purchase-info-stats-wpn_stat_pip_full" data-bind-if="{{pip.value}} == 2" data-bind-class="{{VendorSelection.state}} == 1 ? 'pipColorUnaffordRed' : 'pipColorAffordYellow'" cl-labels-key="_Clips-Purchase-info-stats-wpn_stat_pip_full">
+                  <div class="visualStyle3226 layoutStyle2294 positionStyle1"></div>
+                </div>
+                <div class="layoutStyle2299 positionStyle1 _Clips-Purchase-info-stats-wpn_stat_pip_half" data-bind-if="{{pip.value}} == 1" data-bind-class="{{VendorSelection.state}} == 1 ? 'pipColorUnaffordRed' : 'pipColorAffordYellow'" cl-labels-key="_Clips-Purchase-info-stats-wpn_stat_pip_half">
+                  <img src="img/Vendor5.svg" class="visualStyle3224 layoutStyle2288 positionStyle1">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="layoutStyle2333 positionStyle1 _Clips-Purchase-info-stats-wpn_stat_bar_name" cl-labels-key="_Clips-Purchase-info-stats-wpn_stat_bar_name">
+            <div class="visualStyle2283 layoutStyle2281 positionStyle1" data-bind-value="{{it.name}}" data-bind-style-color="{{VendorSelection.state}} == 1 ? '#f37b5f' : '#05a49a'">STAT NAME</div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle3927 visualStyle2748 layoutStyle2457 positionStyle3926 _Clips-Purchase-separator" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-separator">
+        <div class="layoutStyle2275 imageStyle2276 positionStyle2273"></div>
+      </div>
+      <div data-bind-inner-html="{{VendorSelection.wpnDescLoc}}" class="animationStyle3933 layoutStyle2454 positionStyle3932 _Clips-Purchase-info-desc" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-desc">
+        <div class="visualStyle2268 layoutStyle2266 positionStyle1 infoDescText" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1">This is the weapon description. <br/></div>
+      </div>
+      <div class="animationStyle3938 visualStyle2750 layoutStyle2451 positionStyle2523 _Clips-Purchase-info-info_coming_soon" data-bind-if="{{VendorSelection.isAmmo}} == false" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-info_coming_soon">
+        <div data-l10n-id="UI_VENDOR_COMINGSOON" class="visualStyle2261 layoutStyle2259 positionStyle1">COMING SOON!</div>
+      </div>
+      <div class="animationStyle3943 visualStyle2751 layoutStyle2448 positionStyle2521 _Clips-Purchase-info-wpn_title" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-wpn_title">
+        <div class="animationStyle3947 visualStyle3207 layoutStyle2252 positionStyle1 toUpper" data-bind-value="{{VendorSelection.wpnName}}">REFILL: HEALTH & AMMO</div>
+      </div>
+      <div class="animationStyle3950 visualStyle2753 layoutStyle2439 positionStyle3949 _Clips-Purchase-info-info_iconbg" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-info_iconbg">
+        <img src="img/Vendor6.svg" class="layoutStyle2241 positionStyle1">
+      </div>
+      <div class="animationStyle3955 visualStyle2740 layoutStyle2442 positionStyle3954 _Clips-Purchase-info-img" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-img">
+        <div class="visualStyle94 layoutStyle2247 positionStyle1 autoScale" data-bind-style-background-image-url="{{VendorSelection.wpnIcon}}"></div>
+      </div>
+      <div class="animationStyle3960 visualStyle2741 layoutStyle2439 positionStyle3949 _Clips-Purchase-info-info_iconbg" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-info-info_iconbg">
+        <img src="img/Vendor7.svg" class="layoutStyle2241 positionStyle1">
+      </div>
+      <div class="animationStyle3968 visualStyle2736 layoutStyle2433 positionStyle2513 flare" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="flare">
+        <div class="layoutStyle988 imageStyle15 positionStyle986"></div>
+      </div>
+      <div class="animationStyle3975 visualStyle2736 layoutStyle2433 positionStyle3974 flare" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="flare">
+        <div class="layoutStyle988 imageStyle15 positionStyle986"></div>
+      </div>
+      <div class="animationStyle3982 visualStyle2736 layoutStyle2427 positionStyle2509 pointerEventsNone bling" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="bling">
+        <div class="layoutStyle1790 imageStyle1791 positionStyle1"></div>
+      </div>
+      <div class="animationStyle3990 visualStyle2736 layoutStyle2427 positionStyle2507 pointerEventsNone bling" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="bling">
+        <div class="layoutStyle1790 imageStyle1791 positionStyle1"></div>
+      </div>
+    </div>
+    <div class="animationStyle3998 layoutStyle2598 positionStyle3997 _Clips-Purchase-list-list" cl-labels-key="_Clips-Purchase-list-list">
+      <div class="layoutStyle2216 imageStyle974 positionStyle2230" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1"></div>
+      <div data-bind-scrollbar="{{PurchaseWeaponList.scrollbar}}" class="visualStyle2757 layoutStyle2212 positionStyle4004 _Clips-Purchase-list-scroll" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-list-scroll">
+        <div class="layoutStyle811 positionStyle1987 scrollbarBack scroll_back" cl-labels-key="scroll_back">
+          <img src="img/Vendor8.svg" class="visualStyle3205 layoutStyle803 positionStyle799">
+        </div>
+        <div class="layoutStyle808 positionStyle809 scrollbarBar _Clips-Purchase-list-scroll_bar" cl-labels-key="_Clips-Purchase-list-scroll_bar">
+          <div class="visualStyle3199 layoutStyle798 positionStyle796"></div>
+        </div>
+      </div>
+      <div data-bind-vendor-scroll-list="{{PurchaseWeaponList.scrollbar}}" class="layoutStyle2209 positionStyle4009 smoothScrolling purchasePanelSize _Clips-Purchase-list-list_holder" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-list-list_holder">
+        <div class="layoutStyle2177 positionStyle28 listVerticalSpacing _Clips-Purchase-list-list_item" data-bind-for="it:{{PurchaseWeaponList.masterList}}" cl-labels-key="_Clips-Purchase-list-list_item">
+          <div data-bind-vendor-weapon-selection-state="{{it}}" class="layoutStyle2169 positionStyle2170 pointerEventsNone _Clips-Purchase-list-list_item_content" cl-labels-key="_Clips-Purchase-list-list_item_content">
+            <div class="animationStyle4013 visualStyle2758 layoutStyle2131 positionStyle2162 _Clips-Purchase-list-list_item_bgshape" cl-labels-key="_Clips-Purchase-list-list_item_bgshape">
+              <div class="visualStyle2079 layoutStyle2086 positionStyle1"></div>
+            </div>
+            <div class="animationStyle4017 visualStyle2759 layoutStyle2128 positionStyle2160 icon_bg" cl-labels-key="icon_bg">
+              <div class="visualStyle2079 layoutStyle2080 positionStyle1"></div>
+            </div>
+            <div class="animationStyle4021 visualStyle2736 layoutStyle2125 positionStyle4020 mouseEventsNone _Clips-Purchase-list-list_item_selection" cl-labels-key="_Clips-Purchase-list-list_item_selection">
+              <div class="animationStyle4025 layoutStyle898 positionStyle899 _Clips-Purchase-list-list_item_bg" cl-labels-key="_Clips-Purchase-list-list_item_bg">
+                <div class="layoutStyle892 positionStyle1 _Clips-Purchase-list-list_button_bg_idle" cl-labels-key="_Clips-Purchase-list-list_button_bg_idle">
+                  <div class="layoutStyle886 imageStyle887 positionStyle1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="animationStyle4030 visualStyle922 layoutStyle2122 positionStyle4029 select_anim" cl-labels-key="select_anim">
+              <div class="layoutStyle864 imageStyle865 positionStyle862"></div>
+            </div>
+            <div class="animationStyle4036 visualStyle912 layoutStyle2118 positionStyle2119 mouseEventsNone select_glow" cl-labels-key="select_glow">
+              <div class="animationStyle4040 layoutStyle856 positionStyle857 glow_loop" cl-labels-key="glow_loop">
+                <div class="layoutStyle850 imageStyle851 positionStyle848"></div>
+              </div>
+            </div>
+            <div class="layoutStyle2115 positionStyle2152 _Clips-Purchase-list-list_item_separator" cl-labels-key="_Clips-Purchase-list-list_item_separator">
+              <img src="img/Vendor9.svg" class="layoutStyle879 positionStyle1">
+              <div class="visualStyle870 layoutStyle871 positionStyle869"></div>
+              <div class="visualStyle870 layoutStyle874 positionStyle872"></div>
+              <div class="visualStyle870 layoutStyle877 positionStyle875"></div>
+            </div>
+            <div class="layoutStyle2112 positionStyle4049 _Clips-Purchase-list-list_item_fill" cl-labels-key="_Clips-Purchase-list-list_item_fill">
+              <div class="visualStyle2073 layoutStyle2074 positionStyle1" data-bind-style-width="({{it.fill}} * 100) + '%'"></div>
+            </div>
+            <div class="animationStyle4052 visualStyle2736 layoutStyle2109 positionStyle2148 _Clips-Purchase-list-list_item_check" cl-labels-key="_Clips-Purchase-list-list_item_check">
+              <div class="layoutStyle2065 imageStyle2066 positionStyle4054"></div>
+              <div class="layoutStyle2061 imageStyle2062 positionStyle2059"></div>
+            </div>
+            <div class="animationStyle4057 visualStyle2741 layoutStyle2106 positionStyle2146 _Clips-Purchase-list-list_item_lock" cl-labels-key="_Clips-Purchase-list-list_item_lock">
+              <img src="img/Vendor10.svg" data-bind-if="!{{it.isAmmo}}" class="layoutStyle2053 positionStyle1">
+            </div>
+            <div class="animationStyle4061 visualStyle2741 layoutStyle2103 positionStyle2144 red_cost_bg" cl-labels-key="red_cost_bg">
+              <div class="layoutStyle2024 imageStyle2025 positionStyle2022"></div>
+              <div class="visualStyle2041 layoutStyle2042 positionStyle2047"></div>
+            </div>
+            <div class="animationStyle4067 visualStyle2736 layoutStyle2100 positionStyle2142 _Clips-Purchase-list-list_item_costlocked" cl-labels-key="_Clips-Purchase-list-list_item_costlocked">
+              <div class="visualStyle2036 layoutStyle2034 positionStyle1" data-bind-value="{{it.cost}}">27500</div>
+            </div>
+            <div class="animationStyle4072 layoutStyle2097 positionStyle2140 _Clips-Purchase-list-list_item_cost" cl-labels-key="_Clips-Purchase-list-list_item_cost">
+              <div class="layoutStyle2024 imageStyle2025 positionStyle2022" data-bind-style-opacity="{{it.state}} == 0 ? 1 : 0"></div>
+              <div class="layoutStyle2020 positionStyle2028 _Clips-Purchase-list-list_item_cost_text" data-bind-style-opacity="{{it.state}} == 0 ? 1 : 0" cl-labels-key="_Clips-Purchase-list-list_item_cost_text">
+                <div class="visualStyle2012 layoutStyle2010 positionStyle1" data-bind-value="{{it.cost}}">374000</div>
+              </div>
+              <img src="img/Vendor11.svg" data-bind-style-opacity="{{it.state}} == 0 ? 1 : 0" class="layoutStyle2018 positionStyle4078">
+            </div>
+            <div class="animationStyle4080 visualStyle2741 layoutStyle2094 positionStyle2138 _Clips-Purchase-list-list_item_label" cl-labels-key="_Clips-Purchase-list-list_item_label">
+              <div class="animationStyle4083 visualStyle3184 layoutStyle2003 positionStyle1 weaponListItemLabel" data-bind-value="{{it.textLoc}}">Lorem ipsum</div>
+            </div>
+            <div class="animationStyle4086 visualStyle2765 layoutStyle2091 positionStyle4085 _Clips-Purchase-list-list_item_icon" cl-labels-key="_Clips-Purchase-list-list_item_icon">
+              <div class="visualStyle54 layoutStyle749 positionStyle1 autoScale" data-bind-style-background-image-url="{{it.icon}}"></div>
+            </div>
+          </div>
+          <div class="layoutStyle2166 positionStyle4090 vendor_purchase_mouse_hitbox" data-bind-mouseover="PurchaseWeaponList.OnMouseEnter({{it.index}},  MBT_None)" data-bind-mouseleave="PurchaseWeaponList.OnMouseLeave({{it.index}},  MBT_None)" cl-labels-key="vendor_purchase_mouse_hitbox">
+            <div class="visualStyle480 layoutStyle1992 positionStyle1"></div>
+          </div>
+        </div>
+      </div>
+      <div data-bind-scrollbar="{{PurchaseWeaponList.scrollbar}}" class="layoutStyle2206 positionStyle4004 _Clips-Purchase-list-invisible_scroll" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-list-invisible_scroll">
+        <div class="visualStyle2766 layoutStyle1983 positionStyle1987 scrollbarBack invisible_scroll_back" data-bind-style-opacity="0" cl-labels-key="invisible_scroll_back">
+          <img src="img/Vendor12.svg" class="layoutStyle803 positionStyle799">
+        </div>
+        <div class="visualStyle2766 layoutStyle1980 positionStyle799 scrollbarBar _Clips-Purchase-list-invisible_scroll_bar" data-bind-style-opacity="0" cl-labels-key="_Clips-Purchase-list-invisible_scroll_bar">
+          <div class="visualStyle1969 layoutStyle1970 positionStyle799"></div>
+        </div>
+      </div>
+      <div class="layoutStyle2203 positionStyle4099 _Clips-Upgrade-list-arrow_up" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Upgrade-list-arrow_up">
+        <img src="img/Vendor13.svg" data-bind-style-opacity="{{UpgradeWeaponList.hasPrevScroll}} ? 1 : 0" class="layoutStyle824 positionStyle1">
+      </div>
+      <div class="layoutStyle2200 positionStyle4097 _Clips-Upgrade-list-arrow_down" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Upgrade-list-arrow_down">
+        <img src="img/Vendor14.svg" data-bind-style-opacity="{{UpgradeWeaponList.hasNextScroll}} ? 1 : 0" class="layoutStyle819 positionStyle1">
+      </div>
+      <div class="layoutStyle2197 positionStyle2220 _Clips-Purchase-list-header" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-list-header">
+        <div data-l10n-id="UI_WEAPONS" class="visualStyle792 layoutStyle1962 positionStyle1">WEAPONS</div>
+      </div>
+      <div class="layoutStyle2194 positionStyle2195 pointerEventsNone weapon_purchased_anim _Clips-Purchase-list-weapon_purchased_anim" data-bind-style-top="32 + {{VendorSelection.purchasedIndex}} * 67" data-bind-style-opacity="{{VendorSelection.videoPlaying}} ? 0 : 1" cl-labels-key="_Clips-Purchase-list-weapon_purchased_anim">
+        <div class="animationStyle4105 visualStyle922 layoutStyle1915 positionStyle4104 select_anim" cl-labels-key="select_anim">
+          <div class="layoutStyle864 imageStyle865 positionStyle862"></div>
+        </div>
+        <div class="animationStyle4111 visualStyle1924 layoutStyle1912 positionStyle1956 circle_glow" cl-labels-key="circle_glow">
+          <div class="layoutStyle1859 imageStyle1868 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4118 visualStyle2783 layoutStyle1909 positionStyle1954 starburst1" cl-labels-key="starburst1">
+          <div class="layoutStyle1277 imageStyle1278 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4124 visualStyle1923 layoutStyle1906 positionStyle1952 burst_anim" cl-labels-key="burst_anim">
+          <div class="layoutStyle1859 imageStyle1860 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4130 visualStyle1918 layoutStyle1903 positionStyle1950 burst_glow" cl-labels-key="burst_glow">
+          <div class="layoutStyle1277 imageStyle851 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4135 visualStyle1922 layoutStyle1900 positionStyle1948 burst_glow" cl-labels-key="burst_glow">
+          <div class="layoutStyle1277 imageStyle851 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4141 visualStyle2741 layoutStyle1897 positionStyle4140 _Clips-Purchase-list-weapon_purchased_anim_icon" cl-labels-key="_Clips-Purchase-list-weapon_purchased_anim_icon">
+          <div class="visualStyle54 layoutStyle749 positionStyle1" data-bind-style-background-image-url="{{VendorSelection.wpnIcon}}"></div>
+        </div>
+        <div class="animationStyle4146 visualStyle1919 layoutStyle1894 positionStyle1883 particle_01" cl-labels-key="particle_01">
+          <div class="layoutStyle1798 imageStyle1839 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4150 visualStyle1919 layoutStyle1891 positionStyle1883 particle_02" cl-labels-key="particle_02">
+          <div class="layoutStyle1798 imageStyle1831 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4154 visualStyle1919 layoutStyle1888 positionStyle1883 particle_03" cl-labels-key="particle_03">
+          <div class="layoutStyle1798 imageStyle1823 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4159 visualStyle1919 layoutStyle1885 positionStyle1883 particle_04" cl-labels-key="particle_04">
+          <div class="layoutStyle1798 imageStyle1815 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4163 visualStyle1919 layoutStyle1882 positionStyle1883 particle_05" cl-labels-key="particle_05">
+          <div class="layoutStyle1798 imageStyle1807 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4168 visualStyle1919 layoutStyle1879 positionStyle1883 particle_06" cl-labels-key="particle_06">
+          <div class="layoutStyle1798 imageStyle1799 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4172 visualStyle2736 layoutStyle1876 positionStyle1932 pointerEventsNone bling" cl-labels-key="bling">
+          <div class="layoutStyle1790 imageStyle1791 positionStyle1"></div>
+        </div>
+        <div class="animationStyle4177 visualStyle2736 layoutStyle1873 positionStyle1930 pointerEventsNone bling" cl-labels-key="bling">
+          <div class="layoutStyle1790 imageStyle1791 positionStyle1"></div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle4183 visualStyle2736 layoutStyle589 positionStyle2642 pointerEventsNone glitch1" cl-labels-key="glitch1">
+      <div class="visualStyle544 layoutStyle569 positionStyle567"></div>
+      <div class="visualStyle544 layoutStyle572 positionStyle570"></div>
+      <div class="visualStyle544 layoutStyle575 positionStyle573"></div>
+    </div>
+    <div class="animationStyle4191 layoutStyle2604 positionStyle4190 pointerEventsNone glitch1" cl-labels-key="glitch1">
+      <div class="visualStyle544 layoutStyle569 positionStyle567"></div>
+      <div class="visualStyle544 layoutStyle572 positionStyle570"></div>
+      <div class="visualStyle544 layoutStyle575 positionStyle573"></div>
+    </div>
+    <div class="animationStyle4199 visualStyle2736 layoutStyle1697 positionStyle2640 pointerEventsNone glitch2" cl-labels-key="glitch2">
+      <div class="visualStyle544 layoutStyle557 positionStyle555"></div>
+      <div class="visualStyle544 layoutStyle560 positionStyle558"></div>
+      <div class="visualStyle544 layoutStyle563 positionStyle561"></div>
+    </div>
+    <div class="animationStyle4208 visualStyle2736 layoutStyle1694 positionStyle2638 pointerEventsNone glitch3" cl-labels-key="glitch3">
+      <div class="visualStyle544 layoutStyle545 positionStyle543"></div>
+      <div class="visualStyle544 layoutStyle548 positionStyle546"></div>
+      <div class="visualStyle544 layoutStyle551 positionStyle549"></div>
+    </div>
+    <div class="animationStyle4215 layoutStyle2607 positionStyle4214 pointerEventsNone glitch3" cl-labels-key="glitch3">
+      <div class="visualStyle544 layoutStyle545 positionStyle543"></div>
+      <div class="visualStyle544 layoutStyle548 positionStyle546"></div>
+      <div class="visualStyle544 layoutStyle551 positionStyle549"></div>
+    </div>
+    <div class="animationStyle4221 visualStyle2834 layoutStyle1691 positionStyle4220 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+      <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+    </div>
+    <div class="animationStyle4229 visualStyle2736 layoutStyle1691 positionStyle4220 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+      <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+    </div>
+    <div class="animationStyle4236 visualStyle2773 layoutStyle2580 positionStyle2632 pointerEventsNone glow_texture_top" cl-labels-key="glow_texture_top">
+      <div class="layoutStyle1782 imageStyle743 positionStyle1780"></div>
+    </div>
+    <div class="animationStyle4240 visualStyle2773 layoutStyle2577 positionStyle2630 pointerEventsNone _Clips-Purchase-cost_glow_top" cl-labels-key="_Clips-Purchase-cost_glow_top">
+      <div class="layoutStyle734 imageStyle735 positionStyle732" data-bind-style-opacity="{{VendorElementPopup.type}} == 1 ? 1 : 0" data-bind-class="{{VendorSelection.state}} == 1 ? 'colorUnaffordRed' : 'colorAffordBlue'"></div>
+    </div>
+    <div class="animationStyle4244 layoutStyle2574 positionStyle4243 _Clips-Purchase-info-bolt_curr_value" cl-labels-key="_Clips-Purchase-info-bolt_curr_value">
+      <div class="visualStyle727 layoutStyle1767 positionStyle1" data-bind-value="{{VendorSelection.boltCurr}}" data-bind-style-color="{{VendorSelection.state}} == 1 ? '#f6a47d' : '#24FFFF'">100000</div>
+    </div>
+    <div class="animationStyle4248 layoutStyle1661 positionStyle4247 _Clips-Purchase-info-bolt_curr_label" cl-labels-key="_Clips-Purchase-info-bolt_curr_label">
+      <div data-l10n-id="UI_BALANCE" class="visualStyle715 layoutStyle713 positionStyle1">BALANCE:</div>
+    </div>
+    <div class="animationStyle4252 layoutStyle2568 positionStyle4251 _Clips-Purchase-bolt_icon" cl-labels-key="_Clips-Purchase-bolt_icon">
+      <img src="img/Vendor15.svg" data-bind-style-opacity="{{VendorElementPopup.type}} == 1 ? 1 : 0" data-bind-class="{{VendorSelection.state}} == 1 ? 'colorUnaffordRed' : 'colorAffordWhite'" class="layoutStyle1762 positionStyle1">
+    </div>
+    <div class="animationStyle5045 visualStyle1664 layoutStyle1665 positionStyle4255"></div>
+    <div class="animationStyle5045 visualStyle1664 layoutStyle1668 positionStyle4256"></div>
+    <div class="animationStyle5045 visualStyle1664 layoutStyle1671 positionStyle4257"></div>
+    <div class="animationStyle5050 visualStyle2610 layoutStyle2611 positionStyle4255"></div>
+    <div class="animationStyle5050 visualStyle2610 layoutStyle2614 positionStyle4256"></div>
+    <div class="animationStyle5050 visualStyle2610 layoutStyle2611 positionStyle2622"></div>
+  </div>
+  <div class="layoutStyle1759 positionStyle4261 Upgrade" cl-labels-key="Upgrade">
+    <div class="visualStyle1757 layoutStyle1712 positionStyle1722">
+      <div class="animationStyle4263 layoutStyle1714 positionStyle4262 _Clips-Upgrade-cells-cells" data-bind-style-transform2d="{{UpgradeState.cellTransform}}" cl-labels-key="_Clips-Upgrade-cells-cells">
+        <div class="layoutStyle1647 positionStyle1657 pointerEventsNone _Clips-Upgrade-cells-cell_starting" data-bind-style-top="53 + {{UpgradeState.startingY}}" data-bind-style-left="62 + {{UpgradeState.startingX}}" cl-labels-key="_Clips-Upgrade-cells-cell_starting">
+          <div class="layoutStyle1629 imageStyle1630 positionStyle1627"></div>
+        </div>
+        <div class="layoutStyle1644 positionStyle1655 _Clips-Upgrade-cells-cell_wrapper" data-bind-for="it:{{UpgradeCells.displayList}}" cl-labels-key="_Clips-Upgrade-cells-cell_wrapper">
+          <div class="layoutStyle1619 positionStyle1 pointerEventsNone _Clips-Upgrade-cells-cell" data-bind-style-top="{{it.posY}}" data-bind-style-left="{{it.posX}}" cl-labels-key="_Clips-Upgrade-cells-cell">
+            <div class="visualStyle2775 layoutStyle1596 positionStyle1612 _Clips-Upgrade-cells-cell_bg" data-bind-if="{{it.state}} != 3" cl-labels-key="_Clips-Upgrade-cells-cell_bg">
+              <div class="layoutStyle1569 imageStyle1070 positionStyle1567"></div>
+            </div>
+            <div class="layoutStyle1593 positionStyle1604 _Clips-Upgrade-cells-cell_available" data-bind-if="{{it.state}} == 3" data-bind-style-opacity="{{it.notPurchasable}} ? 0.4 : 1" cl-labels-key="_Clips-Upgrade-cells-cell_available">
+              <div class="layoutStyle62 imageStyle1563 positionStyle1"></div>
+            </div>
+            <div class="layoutStyle1590 positionStyle1604 _Clips-Upgrade-cells-cell_pending" data-bind-if="{{it.state}} == 4" cl-labels-key="_Clips-Upgrade-cells-cell_pending">
+              <div class="layoutStyle1554 imageStyle1555 positionStyle1"></div>
+            </div>
+            <div class="layoutStyle1587 positionStyle1604 _Clips-Upgrade-cells-cell_owned" data-bind-style-opacity="{{it.state}} == 5 ? 1 : 0" cl-labels-key="_Clips-Upgrade-cells-cell_owned">
+              <div class="layoutStyle1546 imageStyle1547 positionStyle1"></div>
+            </div>
+            <div class="layoutStyle1584 positionStyle1604 _Clips-Upgrade-cells-cell_mystery_owned" data-bind-if="{{it.state}} == 6" cl-labels-key="_Clips-Upgrade-cells-cell_mystery_owned">
+              <div class="layoutStyle1538 imageStyle63 positionStyle1"></div>
+            </div>
+            <div class="layoutStyle1581 positionStyle1602 _Clips-Upgrade-cells-cell_icon" cl-labels-key="_Clips-Upgrade-cells-cell_icon">
+              <div class="visualStyle54 layoutStyle55 positionStyle1 autoScale" data-bind-style-opacity="{{it.notPurchasable}} ? 0.4 : 1" data-bind-style-background-image-url="{{it.icon}}" data-bind-class="'upgradeState' + {{it.state}}"></div>
+            </div>
+            <div class="layoutStyle1578 positionStyle1413 _Clips-Upgrade-cells-cell_mystery_border" data-bind-if="{{it.state}} == 2" cl-labels-key="_Clips-Upgrade-cells-cell_mystery_border">
+              <div class="layoutStyle1503 positionStyle4282 _Clips-Upgrade-cells-_lines-line_thin_5" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thin_5">
+                <div class="visualStyle1434 layoutStyle1465 positionStyle1" data-bind-style-opacity="{{it.mysteryBorder5}} == 2 ? 1 : 0"></div>
+              </div>
+              <div class="layoutStyle1500 positionStyle4284 _Clips-Upgrade-cells-_lines-line_thin_4" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thin_4">
+                <div class="visualStyle1434 layoutStyle1459 positionStyle1" data-bind-style-opacity="{{it.mysteryBorder4}} == 2 ? 1 : 0"></div>
+              </div>
+              <div class="layoutStyle1497 positionStyle4286 _Clips-Upgrade-cells-_lines-line_thin_3" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thin_3">
+                <div class="visualStyle1434 layoutStyle1453 positionStyle1" data-bind-style-opacity="{{it.mysteryBorder3}} == 2 ? 1 : 0"></div>
+              </div>
+              <div class="layoutStyle1494 positionStyle4288 _Clips-Upgrade-cells-_lines-line_thin_2" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thin_2">
+                <div class="visualStyle1434 layoutStyle1447 positionStyle1" data-bind-style-opacity="{{it.mysteryBorder2}} == 2 ? 1 : 0"></div>
+              </div>
+              <div class="layoutStyle1491 positionStyle4290 _Clips-Upgrade-cells-_lines-line_thin_1" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thin_1">
+                <div class="visualStyle1434 layoutStyle1441 positionStyle1" data-bind-style-opacity="{{it.mysteryBorder1}} == 2 ? 1 : 0"></div>
+              </div>
+              <div class="layoutStyle1488 positionStyle1517 _Clips-Upgrade-cells-_lines-line_thin_0" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thin_0">
+                <div class="visualStyle1434 layoutStyle1435 positionStyle1" data-bind-style-opacity="{{it.mysteryBorder0}} == 2 ? 1 : 0"></div>
+              </div>
+              <div class="layoutStyle1485 positionStyle4294 _Clips-Upgrade-cells-_lines-line_thick_5" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thick_5">
+                <img src="img/Vendor16.svg" data-bind-style-opacity="{{it.mysteryBorder5}} == 1 ? 1 : 0" class="layoutStyle1429 positionStyle1428">
+              </div>
+              <div class="layoutStyle1482 positionStyle4296 _Clips-Upgrade-cells-_lines-line_thick_4" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thick_4">
+                <img src="img/Vendor17.svg" data-bind-style-opacity="{{it.mysteryBorder4}} == 1 ? 1 : 0" class="layoutStyle1424 positionStyle1413">
+              </div>
+              <div class="layoutStyle1479 positionStyle4298 _Clips-Upgrade-cells-_lines-line_thick_3" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thick_3">
+                <img src="img/Vendor18.svg" data-bind-style-opacity="{{it.mysteryBorder3}} == 1 ? 1 : 0" class="layoutStyle1419 positionStyle1418">
+              </div>
+              <div class="layoutStyle1476 positionStyle4300 _Clips-Upgrade-cells-_lines-line_thick_2" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thick_2">
+                <img src="img/Vendor19.svg" data-bind-style-opacity="{{it.mysteryBorder2}} == 1 ? 1 : 0" class="layoutStyle1414 positionStyle1413">
+              </div>
+              <div class="layoutStyle1473 positionStyle4302 _Clips-Upgrade-cells-_lines-line_thick_1" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thick_1">
+                <img src="img/Vendor20.svg" data-bind-style-opacity="{{it.mysteryBorder1}} == 1 ? 1 : 0" class="layoutStyle1409 positionStyle1408">
+              </div>
+              <div class="layoutStyle1470 positionStyle1505 _Clips-Upgrade-cells-_lines-line_thick_0" cl-labels-key="_Clips-Upgrade-cells-_lines-line_thick_0">
+                <img src="img/Vendor21.svg" data-bind-style-opacity="{{it.mysteryBorder0}} == 1 ? 1 : 0" class="layoutStyle1404 positionStyle1">
+              </div>
+            </div>
+            <div data-bind-vendor-upgrade-cell-fill="{{it.fill}}" class="layoutStyle1575 positionStyle4306 fill_anim" data-bind-if="{{it.fill}} &gt; 0" cl-labels-key="fill_anim">
+              <div class="layoutStyle1388 positionStyle1374 hex_fill" cl-labels-key="hex_fill">
+                <div class="layoutStyle62 imageStyle1070 positionStyle1"></div>
+              </div>
+              <div class="animationStyle4310 visualStyle2776 layoutStyle1385 positionStyle1374 hex_fill" cl-labels-key="hex_fill">
+                <div class="layoutStyle62 imageStyle1070 positionStyle1"></div>
+              </div>
+              <div class="animationStyle4316 visualStyle2776 layoutStyle1382 positionStyle1374 hex_fill" cl-labels-key="hex_fill">
+                <div class="layoutStyle62 imageStyle1070 positionStyle1"></div>
+              </div>
+              <div class="animationStyle4322 visualStyle2778 layoutStyle1379 positionStyle1374 hex_fill" cl-labels-key="hex_fill">
+                <div class="layoutStyle62 imageStyle1070 positionStyle1"></div>
+              </div>
+              <div class="animationStyle4327 visualStyle2779 layoutStyle1376 positionStyle4326 hex_fill" cl-labels-key="hex_fill">
+                <div class="layoutStyle62 imageStyle1070 positionStyle1"></div>
+              </div>
+              <div class="animationStyle4333 visualStyle2780 layoutStyle1373 positionStyle1374 hex_fill" cl-labels-key="hex_fill">
+                <div class="layoutStyle62 imageStyle1070 positionStyle1"></div>
+              </div>
+            </div>
+          </div>
+          <div class="layoutStyle1616 positionStyle1621 vendor_upgrade_cell_hitbox" data-bind-style-top="{{it.posY}}" data-bind-style-left="{{it.posX}}" data-bind-mouseover="UpgradeCells.OnMouseEnter({{it.index}},  MBT_None)" data-bind-mouseleave="UpgradeCells.OnMouseLeave({{it.index}},  MBT_None)" cl-labels-key="vendor_upgrade_cell_hitbox">
+            <img src="img/Vendor22.svg" class="layoutStyle1361 positionStyle1">
+          </div>
+        </div>
+        <div class="layoutStyle1641 positionStyle1653 pointerEventsNone _Clips-Upgrade-cells-cell_focus" cl-labels-key="_Clips-Upgrade-cells-cell_focus">
+          <div class="layoutStyle1355 positionStyle1356 _Clips-Upgrade-cells-hex_active_animation" data-bind-style-left="-2 + {{UpgradeFocus.focusX}}" data-bind-style-top="-1 + {{UpgradeFocus.focusY}}" data-bind-style-opacity="{{UpgradeState.showCellFocus}} ? 1 : 0" cl-labels-key="_Clips-Upgrade-cells-hex_active_animation">
+            <div class="animationStyle4342 layoutStyle1349 positionStyle1350 _Clips-Upgrade-cells-hex_over" cl-labels-key="_Clips-Upgrade-cells-hex_over">
+              <div class="layoutStyle1343 imageStyle1344 positionStyle1341"></div>
+            </div>
+          </div>
+        </div>
+        <div class="layoutStyle1638 positionStyle1651 pointerEventsNone _Clips-Upgrade-cells-cell_navigation" cl-labels-key="_Clips-Upgrade-cells-cell_navigation">
+          <div class="layoutStyle1335 positionStyle1 _Clips-Upgrade-cells-cell_navigation_arrow" data-bind-for="it:{{UpgradeFocus.navigableCells}}" data-bind-style-transform-rotate="{{it.rotation}}" data-bind-style-opacity="{{it.alpha}}" data-bind-style-left="{{UpgradeFocus.focusX}}" data-bind-style-top="{{UpgradeFocus.focusY}}" cl-labels-key="_Clips-Upgrade-cells-cell_navigation_arrow">
+            <div class="layoutStyle1329 imageStyle1330 positionStyle1327"></div>
+          </div>
+        </div>
+        <div class="layoutStyle1635 positionStyle1 pointerEventsNone _Clips-Upgrade-cells-cells_purchased_anim_wrapper" cl-labels-key="_Clips-Upgrade-cells-cells_purchased_anim_wrapper">
+          <div class="layoutStyle1321 positionStyle1322 cells_purchased_anim _Clips-Upgrade-cells-cells_purchased_anim" data-bind-style-left="-17 + {{UpgradeFocus.focusX}}" data-bind-style-top="-15 + {{UpgradeFocus.focusY}}" cl-labels-key="_Clips-Upgrade-cells-cells_purchased_anim">
+            <div class="animationStyle4351 visualStyle2741 layoutStyle1303 positionStyle4350 _Clips-Upgrade-cells-cell_purchased_shape" cl-labels-key="_Clips-Upgrade-cells-cell_purchased_shape">
+              <img src="img/Vendor23.svg" class="layoutStyle1283 positionStyle1">
+            </div>
+            <div class="animationStyle4356 visualStyle2736 layoutStyle1300 positionStyle4350 _Clips-Upgrade-cells-cell_purchased_shape" cl-labels-key="_Clips-Upgrade-cells-cell_purchased_shape">
+              <img src="img/Vendor24.svg" class="layoutStyle1283 positionStyle1">
+            </div>
+            <div class="animationStyle4361 visualStyle2783 layoutStyle1297 positionStyle4360 starburst1" cl-labels-key="starburst1">
+              <div class="layoutStyle1277 imageStyle1278 positionStyle1"></div>
+            </div>
+            <div class="animationStyle4366 visualStyle2736 layoutStyle1294 positionStyle4360 starburst1" cl-labels-key="starburst1">
+              <div class="layoutStyle1277 imageStyle1278 positionStyle1"></div>
+            </div>
+            <div class="animationStyle4373 visualStyle2736 layoutStyle1291 positionStyle4372 flare_anim_sm" cl-labels-key="flare_anim_sm">
+              <div class="layoutStyle1269 imageStyle1270 positionStyle1"></div>
+            </div>
+            <div class="animationStyle4379 visualStyle2736 layoutStyle1288 positionStyle1289 flare_anim_sm" cl-labels-key="flare_anim_sm">
+              <div class="layoutStyle1269 imageStyle1270 positionStyle1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle4385 layoutStyle1709 positionStyle4384 pointerEventsNone _Clips-Upgrade-info-info" cl-labels-key="_Clips-Upgrade-info-info">
+      <div class="layoutStyle1253 imageStyle1254 positionStyle4387"></div>
+      <div class="layoutStyle1249 imageStyle1250 positionStyle4388"></div>
+      <div class="visualStyle2788 layoutStyle1245 positionStyle1259 stat_frame" cl-labels-key="stat_frame">
+        <div class="layoutStyle1218 imageStyle1219 positionStyle1216"></div>
+      </div>
+      <div class="layoutStyle1242 imageStyle1243 positionStyle4391"></div>
+      <div class="layoutStyle1238 positionStyle4400 _Clips-Upgrade-info-stat_bar_horizontal_wrapper" cl-labels-key="_Clips-Upgrade-info-stat_bar_horizontal_wrapper">
+        <div class="layoutStyle1209 positionStyle89 _Clips-Upgrade-info-stat_bar_horizontal" data-bind-for="it:{{UpgradeWeaponFocus.stats}}" cl-labels-key="_Clips-Upgrade-info-stat_bar_horizontal">
+          <div class="visualStyle80 layoutStyle1192 positionStyle1205"></div>
+          <div class="layoutStyle1188 positionStyle1199 _Clips-Upgrade-info-stat_bar_horizontal_bg" cl-labels-key="_Clips-Upgrade-info-stat_bar_horizontal_bg">
+            <div class="visualStyle1167 layoutStyle1168 positionStyle1"></div>
+          </div>
+          <div class="layoutStyle1185 positionStyle1199 _Clips-Upgrade-info-stat_bar_horizontal_mg" cl-labels-key="_Clips-Upgrade-info-stat_bar_horizontal_mg">
+            <div class="visualStyle1161 layoutStyle1156 positionStyle1" data-bind-style-width="({{it.fillPending}}) + '%'"></div>
+          </div>
+          <div class="layoutStyle1182 positionStyle1199 _Clips-Upgrade-info-stat_bar_horizontal_fg" cl-labels-key="_Clips-Upgrade-info-stat_bar_horizontal_fg">
+            <div class="visualStyle3180 layoutStyle1156 positionStyle1" data-bind-style-width="({{it.fill}}) + '%'"></div>
+          </div>
+          <div class="visualStyle2789 layoutStyle1179 positionStyle1197 _Clips-Upgrade-info-stat_label" cl-labels-key="_Clips-Upgrade-info-stat_label">
+            <div class="visualStyle1150 layoutStyle1148 positionStyle1" data-bind-value="{{it.name}}" data-bind-style-color="{{it.focused}} ? '#b0ffff' : '#f3f0a5'">STAT NAME</div>
+          </div>
+          <div class="layoutStyle1176 positionStyle1177 _Clips-Upgrade-info-stat_icon_pulse" data-bind-style-opacity="{{it.focused}} ? 1 : 0" cl-labels-key="_Clips-Upgrade-info-stat_icon_pulse">
+            <div class="animationStyle4413 visualStyle2790 layoutStyle1142 positionStyle1 _Clips-Upgrade-info-stat_icon_pulse_shape" cl-labels-key="_Clips-Upgrade-info-stat_icon_pulse_shape">
+              <div class="visualStyle1136 layoutStyle1137 positionStyle1"></div>
+            </div>
+          </div>
+          <div class="visualStyle2791 layoutStyle1173 positionStyle1193 _Clips-Upgrade-info-stat_icon" cl-labels-key="_Clips-Upgrade-info-stat_icon">
+            <div class="visualStyle54 layoutStyle749 positionStyle1 autoScale" data-bind-style-background-image-url="{{it.icon}}"></div>
+          </div>
+        </div>
+      </div>
+      <div class="layoutStyle1235 positionStyle4398 _Clips-Upgrade-info-stat_weapon_level_header_text" cl-labels-key="_Clips-Upgrade-info-stat_weapon_level_header_text">
+        <div data-l10n-id="UI_VENDOR_WEAPONLEVEL" class="visualStyle1125 layoutStyle1123 positionStyle1">LEVEL </div>
+      </div>
+      <div class="layoutStyle1232 positionStyle4396 _Clips-Upgrade-info-stat_weapon_level_text" cl-labels-key="_Clips-Upgrade-info-stat_weapon_level_text">
+        <div class="visualStyle3176 layoutStyle1116 positionStyle1" data-bind-value="{{UpgradeWeaponFocus.level}}">03</div>
+      </div>
+      <div class="layoutStyle1229 positionStyle4394 _Clips-Upgrade-info-stat_weapon_percent_complete_text" cl-labels-key="_Clips-Upgrade-info-stat_weapon_percent_complete_text">
+        <div class="visualStyle3172 layoutStyle1109 positionStyle1" data-bind-value="{{UpgradeWeaponFocus.upgradeProgress}}">200%</div>
+      </div>
+      <div class="layoutStyle1226 positionStyle4392 _Clips-Upgrade-info-stat_weapon_complete_text" cl-labels-key="_Clips-Upgrade-info-stat_weapon_complete_text">
+        <div data-l10n-id="UI_VENDOR_COMPLETE" class="visualStyle1104 layoutStyle1102 positionStyle1">COMPLETE</div>
+      </div>
+    </div>
+    <div class="animationStyle4419 layoutStyle1706 positionStyle1748 pointerEventsNone _Clips-Upgrade-info-upgrade_top_info" cl-labels-key="_Clips-Upgrade-info-upgrade_top_info">
+      <div class="layoutStyle1082 imageStyle997 positionStyle4422"></div>
+      <div class="layoutStyle1078 positionStyle1096 _Clips-Upgrade-info-info_cost" data-bind-style-opacity="{{UpgradeInfo.cost}} ? 1 : 0" cl-labels-key="_Clips-Upgrade-info-info_cost">
+        <div class="layoutStyle1052 positionStyle1053 _Clips-Upgrade-info-rari_curr_value" cl-labels-key="_Clips-Upgrade-info-rari_curr_value">
+          <div class="visualStyle3168 layoutStyle1042 positionStyle1" data-bind-value="{{UpgradeInfo.cost}}" data-bind-style-color="{{UpgradeFocus.balance}} == 0 ? '#f6a47d' : '#24FFFF'">99</div>
+        </div>
+        <div class="layoutStyle1049 positionStyle1050 _Clips-Upgrade-raretanium_icon" cl-labels-key="_Clips-Upgrade-raretanium_icon">
+          <img src="img/Vendor25.svg" data-bind-class="{{UpgradeFocus.balance}} == 0 ? 'colorUnaffordRed' : 'colorAffordWhite'" class="layoutStyle720 positionStyle719">
+        </div>
+      </div>
+      <div data-bind-inner-html="{{UpgradeInfo.desc}}" class="layoutStyle1075 positionStyle1094 infoUpgradeDescText _Clips-Upgrade-info-upgrade_top_info_stat_desc" cl-labels-key="_Clips-Upgrade-info-upgrade_top_info_stat_desc">
+        <div class="visualStyle1037 layoutStyle1035 positionStyle1">STAT DESCRIPTION</div>
+      </div>
+      <div class="layoutStyle1072 positionStyle4430 _Clips-Upgrade-info-upgrade_top_info_item_name" cl-labels-key="_Clips-Upgrade-info-upgrade_top_info_item_name">
+        <div class="visualStyle1030 layoutStyle1028 positionStyle1 toUpper" data-bind-value="{{UpgradeInfo.name}}">INFO</div>
+      </div>
+      <div class="layoutStyle1069 imageStyle1070 positionStyle4432"></div>
+      <div class="layoutStyle1065 imageStyle1066 positionStyle4433"></div>
+      <div class="visualStyle2765 layoutStyle1061 positionStyle4434 _Clips-Upgrade-info-upgrade_top_info_stat_icon" cl-labels-key="_Clips-Upgrade-info-upgrade_top_info_stat_icon">
+        <div class="visualStyle94 layoutStyle749 positionStyle1 autoScale" data-bind-style-background-image-url="{{UpgradeInfo.icon}}"></div>
+      </div>
+      <div class="layoutStyle1058 positionStyle1 info_purchased_anim info_purchase_anim" cl-labels-key="info_purchase_anim">
+        <div class="animationStyle4438 visualStyle2793 layoutStyle1008 positionStyle4437 frame_highlight" cl-labels-key="frame_highlight">
+          <div class="layoutStyle996 imageStyle997 positionStyle994"></div>
+        </div>
+        <div class="animationStyle4442 visualStyle2736 layoutStyle1005 positionStyle4441 flare_anim" cl-labels-key="flare_anim">
+          <div class="layoutStyle988 imageStyle15 positionStyle986"></div>
+        </div>
+        <div class="animationStyle4447 visualStyle2736 layoutStyle1002 positionStyle4446 flare_anim" cl-labels-key="flare_anim">
+          <div class="layoutStyle988 imageStyle15 positionStyle986"></div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle4452 layoutStyle1703 positionStyle4451 _Clips-Upgrade-list-list" cl-labels-key="_Clips-Upgrade-list-list">
+      <div class="layoutStyle973 imageStyle974 positionStyle1" data-bind-style-opacity="{{UpgradeState.showWeapons}} ? 1 : 0"></div>
+      <div data-bind-vendor-scroll-list="{{UpgradeWeaponList.scrollbar}}" class="layoutStyle969 positionStyle4458 smoothScrolling purchasePanelSize _Clips-Upgrade-list-list_holder" data-bind-style-opacity="{{UpgradeState.showWeapons}} ? 1 : 0" cl-labels-key="_Clips-Upgrade-list-list_holder">
+        <div class="layoutStyle950 positionStyle28 upgradeListVerticalSpacing _Clips-Upgrade-list-list_item" data-bind-for="it:{{UpgradeWeaponList.masterList}}" cl-labels-key="_Clips-Upgrade-list-list_item">
+          <div data-bind-list-item-state="{{it}}" class="layoutStyle942 positionStyle4460 _Clips-Upgrade-list-list_item_text" cl-labels-key="_Clips-Upgrade-list-list_item_text">
+            <div class="animationStyle4462 visualStyle2736 layoutStyle920 positionStyle4461 mouseEventsNone _Clips-Purchase-list-list_item_selection" cl-labels-key="_Clips-Purchase-list-list_item_selection">
+              <div class="animationStyle4466 layoutStyle898 positionStyle899 _Clips-Purchase-list-list_item_bg" cl-labels-key="_Clips-Purchase-list-list_item_bg">
+                <div class="layoutStyle892 positionStyle1 _Clips-Purchase-list-list_button_bg_idle" cl-labels-key="_Clips-Purchase-list-list_button_bg_idle">
+                  <div class="layoutStyle886 imageStyle887 positionStyle1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="layoutStyle917 positionStyle933 _Clips-Purchase-list-list_item_separator" cl-labels-key="_Clips-Purchase-list-list_item_separator">
+              <img src="img/Vendor26.svg" class="layoutStyle879 positionStyle1">
+              <div class="visualStyle870 layoutStyle871 positionStyle869"></div>
+              <div class="visualStyle870 layoutStyle874 positionStyle872"></div>
+              <div class="visualStyle870 layoutStyle877 positionStyle875"></div>
+            </div>
+            <div class="animationStyle4476 visualStyle922 layoutStyle914 positionStyle4475 select_anim" cl-labels-key="select_anim">
+              <div class="layoutStyle864 imageStyle865 positionStyle862"></div>
+            </div>
+            <div class="animationStyle4482 visualStyle912 layoutStyle910 positionStyle911 mouseEventsNone select_glow" cl-labels-key="select_glow">
+              <div class="animationStyle4488 layoutStyle856 positionStyle857 glow_loop" cl-labels-key="glow_loop">
+                <div class="layoutStyle850 imageStyle851 positionStyle848"></div>
+              </div>
+            </div>
+            <div class="animationStyle4493 visualStyle2765 layoutStyle907 positionStyle4492 mouseEventsNone _Clips-Upgrade-list-list_item_icon" cl-labels-key="_Clips-Upgrade-list-list_item_icon">
+              <div class="visualStyle54 layoutStyle749 positionStyle1 autoScale" data-bind-style-background-image-url="{{it.icon}}" data-bind-style-color="{{it.selected}} ? '#15032b' : '#FFFFFF'"></div>
+            </div>
+            <div class="animationStyle4498 layoutStyle904 positionStyle925 mouseEventsNone _Clips-Upgrade-list-list_item_text_label" cl-labels-key="_Clips-Upgrade-list-list_item_text_label">
+              <div class="animationStyle4501 visualStyle3162 layoutStyle835 positionStyle1 weaponListItemLabel" data-bind-style-color="{{it.selected}} ? '#15032b' : '#FFFFFF'" data-bind-value="{{it.textLoc}}">Lorem ipsum</div>
+            </div>
+          </div>
+          <div class="layoutStyle939 positionStyle4503 vendor_upgrade_weapons_mouse_hitbox" data-bind-click="UpgradeWeaponList.OnClick({{it.index}},  MBT_None)" data-bind-mouseover="UpgradeWeaponList.OnMouseEnter({{it.index}},  MBT_None)" data-bind-mouseleave="UpgradeWeaponList.OnMouseLeave({{it.index}},  MBT_None)" cl-labels-key="vendor_upgrade_weapons_mouse_hitbox">
+            <div class="visualStyle480 layoutStyle830 positionStyle1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="layoutStyle966 positionStyle4507 _Clips-Upgrade-list-arrow_up" data-bind-style-opacity="{{UpgradeState.showWeapons}} ? 1 : 0" cl-labels-key="_Clips-Upgrade-list-arrow_up">
+        <img src="img/Vendor27.svg" data-bind-style-opacity="{{UpgradeWeaponList.hasPrevScroll}} ? 1 : 0" class="layoutStyle824 positionStyle1">
+      </div>
+      <div class="layoutStyle963 positionStyle4505 _Clips-Upgrade-list-arrow_down" data-bind-style-opacity="{{UpgradeState.showWeapons}} ? 1 : 0" cl-labels-key="_Clips-Upgrade-list-arrow_down">
+        <img src="img/Vendor28.svg" data-bind-style-opacity="{{UpgradeWeaponList.hasNextScroll}} ? 1 : 0" class="layoutStyle819 positionStyle1">
+      </div>
+      <div data-bind-scrollbar="{{UpgradeWeaponList.scrollbar}}" class="visualStyle2757 layoutStyle960 positionStyle4509 _Clips-Upgrade-list-scroll" data-bind-style-opacity="{{UpgradeState.showWeapons}} ? 1 : 0" cl-labels-key="_Clips-Upgrade-list-scroll">
+        <div class="layoutStyle811 positionStyle815 scrollbarBack scroll_back" cl-labels-key="scroll_back">
+          <img src="img/Vendor29.svg" class="layoutStyle803 positionStyle799">
+        </div>
+        <div class="layoutStyle808 positionStyle809 scrollbarBar _Clips-Purchase-list-scroll_bar" cl-labels-key="_Clips-Purchase-list-scroll_bar">
+          <div class="visualStyle797 layoutStyle798 positionStyle796"></div>
+        </div>
+      </div>
+      <div class="layoutStyle957 positionStyle975 _Clips-Upgrade-list-header" data-bind-style-opacity="{{UpgradeState.showWeapons}} ? 1 : 0" cl-labels-key="_Clips-Upgrade-list-header">
+        <div data-l10n-id="UI_VENDOR_UPGRADE" class="visualStyle792 layoutStyle790 positionStyle1">UPGRADE</div>
+      </div>
+    </div>
+    <div class="animationStyle4517 visualStyle2736 layoutStyle1700 positionStyle4516 pointerEventsNone glitch1" cl-labels-key="glitch1">
+      <div class="visualStyle544 layoutStyle569 positionStyle567"></div>
+      <div class="visualStyle544 layoutStyle572 positionStyle570"></div>
+      <div class="visualStyle544 layoutStyle575 positionStyle573"></div>
+    </div>
+    <div class="animationStyle4525 layoutStyle1717 positionStyle4524 pointerEventsNone glitch1" cl-labels-key="glitch1">
+      <div class="visualStyle544 layoutStyle569 positionStyle567"></div>
+      <div class="visualStyle544 layoutStyle572 positionStyle570"></div>
+      <div class="visualStyle544 layoutStyle575 positionStyle573"></div>
+    </div>
+    <div class="animationStyle4533 visualStyle2736 layoutStyle1697 positionStyle1742 pointerEventsNone glitch2" cl-labels-key="glitch2">
+      <div class="visualStyle544 layoutStyle557 positionStyle555"></div>
+      <div class="visualStyle544 layoutStyle560 positionStyle558"></div>
+      <div class="visualStyle544 layoutStyle563 positionStyle561"></div>
+    </div>
+    <div class="animationStyle4541 visualStyle2736 layoutStyle1694 positionStyle1740 pointerEventsNone glitch3" cl-labels-key="glitch3">
+      <div class="visualStyle544 layoutStyle545 positionStyle543"></div>
+      <div class="visualStyle544 layoutStyle548 positionStyle546"></div>
+      <div class="visualStyle544 layoutStyle551 positionStyle549"></div>
+    </div>
+    <div class="animationStyle4548 layoutStyle1720 positionStyle4547 pointerEventsNone glitch3" cl-labels-key="glitch3">
+      <div class="visualStyle544 layoutStyle545 positionStyle543"></div>
+      <div class="visualStyle544 layoutStyle548 positionStyle546"></div>
+      <div class="visualStyle544 layoutStyle551 positionStyle549"></div>
+    </div>
+    <div class="animationStyle4554 visualStyle2834 layoutStyle1691 positionStyle4553 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+      <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+    </div>
+    <div class="animationStyle4562 visualStyle2736 layoutStyle1688 positionStyle4561 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+      <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+    </div>
+    <div class="animationStyle4569 layoutStyle1685 positionStyle1734 _Clips-Upgrade-info-upgrade_weapon_container" cl-labels-key="_Clips-Upgrade-info-upgrade_weapon_container">
+      <div class="visualStyle778 layoutStyle779 positionStyle786" data-bind-style-opacity="({{UpgradeState.upgrading}} && {{UpgradeState.showWeapons}} == false) ? 1 : 0"></div>
+      <div class="visualStyle2800 layoutStyle775 positionStyle776 _Clips-Upgrade-info-buttonHeaderBG" data-bind-style-opacity="({{UpgradeState.upgrading}} && {{UpgradeState.showWeapons}} == false) ? 1 : 0" cl-labels-key="_Clips-Upgrade-info-buttonHeaderBG">
+        <div class="layoutStyle763 imageStyle764 positionStyle761"></div>
+      </div>
+      <div class="layoutStyle772 positionStyle4574 _Clips-Upgrade-info-upgrade_weapon_text" data-bind-style-opacity="({{UpgradeState.upgrading}} && {{UpgradeState.showWeapons}} == false) ? 1 : 0" cl-labels-key="_Clips-Upgrade-info-upgrade_weapon_text">
+        <div class="visualStyle3158 layoutStyle754 positionStyle1 twoLineSpace" data-bind-value="{{UpgradeWeaponFocus.name}}">BLACKHOLE HURRICANE</div>
+      </div>
+      <div class="visualStyle2801 layoutStyle769 positionStyle4576 _Clips-Upgrade-info-upgrade_weapon_icon" data-bind-style-opacity="({{UpgradeState.upgrading}} && {{UpgradeState.showWeapons}} == false) ? 1 : 0" cl-labels-key="_Clips-Upgrade-info-upgrade_weapon_icon">
+        <div class="visualStyle54 layoutStyle749 positionStyle1" data-bind-style-background-image-url="{{UpgradeWeaponFocus.icon}}"></div>
+      </div>
+    </div>
+    <div class="animationStyle4579 visualStyle2773 layoutStyle1682 positionStyle1732 pointerEventsNone glow_texture" cl-labels-key="glow_texture">
+      <div class="layoutStyle742 imageStyle743 positionStyle740"></div>
+    </div>
+    <div class="animationStyle4583 visualStyle2773 layoutStyle1679 positionStyle1730 pointerEventsNone _Clips-Upgrade-cost_glow" cl-labels-key="_Clips-Upgrade-cost_glow">
+      <div class="layoutStyle734 imageStyle735 positionStyle732" data-bind-style-opacity="{{VendorElementPopup.type}} == 1 ? 1 : 0" data-bind-class="{{UpgradeFocus.balance}} == 0 ? 'colorUnaffordRed' : 'colorAffordBlue'"></div>
+    </div>
+    <div class="animationStyle4591 layoutStyle1676 positionStyle4590 _Clips-Upgrade-rari_curr_value" cl-labels-key="_Clips-Upgrade-rari_curr_value">
+      <div class="visualStyle727 layoutStyle725 positionStyle1" data-bind-value="{{UpgradeFocus.balance}}" data-bind-style-color="{{UpgradeFocus.balance}} == 0 ? '#f6a47d' : '#24FFFF'">1111</div>
+    </div>
+    <div class="animationStyle4587 layoutStyle1673 positionStyle4586 _Clips-Upgrade-raretanium_icon" cl-labels-key="_Clips-Upgrade-raretanium_icon">
+      <img src="img/Vendor30.svg" data-bind-class="{{UpgradeFocus.balance}} == 0 ? 'colorUnaffordRed' : 'colorAffordWhite'" class="layoutStyle720 positionStyle719">
+    </div>
+    <div class="animationStyle5054 visualStyle1664 layoutStyle1665 positionStyle4594"></div>
+    <div class="animationStyle5054 visualStyle1664 layoutStyle1668 positionStyle4595"></div>
+    <div class="animationStyle5054 visualStyle1664 layoutStyle1671 positionStyle1726"></div>
+    <div class="animationStyle4598 layoutStyle1661 positionStyle4597 _Clips-Purchase-info-bolt_curr_label" cl-labels-key="_Clips-Purchase-info-bolt_curr_label">
+      <div data-l10n-id="UI_BALANCE" class="visualStyle715 layoutStyle713 positionStyle1">BALANCE:</div>
+    </div>
+  </div>
+  <div class="layoutStyle710 positionStyle2725 shell_tabs_wrapper" data-bind-if="{{VendorTabsData.showTabs}}" cl-labels-key="shell_tabs_wrapper">
+    <div class="animationStyle4603 layoutStyle702 positionStyle1 _Clips-Shell-tabs-tab_holder" cl-labels-key="_Clips-Shell-tabs-tab_holder">
+      <div class="layoutStyle694 positionStyle4605 tabList _Clips-Shell-tabs-tab" data-bind-for="tab:{{NavTabData.displayList}}" cl-labels-key="_Clips-Shell-tabs-tab">
+        <div class="layoutStyle670 positionStyle4606 _Clips-Shell-tabs-tab_bg_highlight" data-bind-style-opacity="{{tab.highlighted}} ? 1.0 : 0.0" cl-labels-key="_Clips-Shell-tabs-tab_bg_highlight">
+          <img src="img/Vendor31.svg" class="visualStyle3156 layoutStyle647 positionStyle3155">
+        </div>
+        <div class="layoutStyle667 positionStyle4608 up_animated" cl-labels-key="up_animated">
+          <div class="animationStyle4610 visualStyle2741 layoutStyle637 positionStyle4609 blueTab" data-bind-if="{{tab.new}} " cl-labels-key="blueTab">
+            <div class="layoutStyle613 imageStyle614 positionStyle611"></div>
+          </div>
+          <div class="animationStyle4615 visualStyle2834 layoutStyle634 positionStyle4614 pointerEventsNone vendor_flare" data-bind-if="{{tab.new}} " cl-labels-key="vendor_flare">
+            <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+          </div>
+          <div class="animationStyle4622 visualStyle2736 layoutStyle631 positionStyle639 _Clips-Shell-tabs-tab_flicker" data-bind-if="{{tab.new}} " cl-labels-key="_Clips-Shell-tabs-tab_flicker">
+            <img src="img/Vendor32.svg" class="layoutStyle619 positionStyle1">
+          </div>
+        </div>
+        <div class="layoutStyle664 positionStyle680 _Clips-Shell-tabs-tab_bg" cl-labels-key="_Clips-Shell-tabs-tab_bg">
+          <div class="layoutStyle613 imageStyle614 positionStyle611" data-bind-style-opacity="!{{tab.selected}}" data-bind-if="!{{tab.new}}"></div>
+        </div>
+        <div class="layoutStyle661 positionStyle662 _Clips-Shell-tabs-tab_bg_sel" cl-labels-key="_Clips-Shell-tabs-tab_bg_sel">
+          <div class="animationStyle4629 layoutStyle595 positionStyle597 orangeTab" data-bind-if="{{tab.selected}}" cl-labels-key="orangeTab">
+            <div class="layoutStyle538 imageStyle539 positionStyle1"></div>
+          </div>
+          <div class="animationStyle4634 visualStyle2834 layoutStyle592 positionStyle4633 pointerEventsNone vendor_flare" data-bind-if="{{tab.selected}}" cl-labels-key="vendor_flare">
+            <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+          </div>
+          <div class="animationStyle4641 visualStyle2736 layoutStyle589 positionStyle603 pointerEventsNone glitch1" data-bind-if="{{tab.selected}}" cl-labels-key="glitch1">
+            <div class="visualStyle544 layoutStyle569 positionStyle567"></div>
+            <div class="visualStyle544 layoutStyle572 positionStyle570"></div>
+            <div class="visualStyle544 layoutStyle575 positionStyle573"></div>
+          </div>
+          <div class="animationStyle4647 visualStyle2736 layoutStyle586 positionStyle601 pointerEventsNone glitch2" data-bind-if="{{tab.selected}}" cl-labels-key="glitch2">
+            <div class="visualStyle544 layoutStyle557 positionStyle555"></div>
+            <div class="visualStyle544 layoutStyle560 positionStyle558"></div>
+            <div class="visualStyle544 layoutStyle563 positionStyle561"></div>
+          </div>
+          <div class="animationStyle4653 visualStyle2736 layoutStyle583 positionStyle599 pointerEventsNone glitch3" data-bind-if="{{tab.selected}}" cl-labels-key="glitch3">
+            <div class="visualStyle544 layoutStyle545 positionStyle543"></div>
+            <div class="visualStyle544 layoutStyle548 positionStyle546"></div>
+            <div class="visualStyle544 layoutStyle551 positionStyle549"></div>
+          </div>
+          <div class="animationStyle4659 visualStyle2741 layoutStyle580 positionStyle597 orangeTab" data-bind-if="{{tab.selected}}" cl-labels-key="orangeTab">
+            <div class="layoutStyle538 imageStyle539 positionStyle1"></div>
+          </div>
+        </div>
+        <div class="layoutStyle658 positionStyle676 _Clips-Shell-tabs-title" cl-labels-key="_Clips-Shell-tabs-title">
+          <div data-l10n-id="UI_WEAPONS" class="visualStyle531 layoutStyle529 positionStyle1 transformCenter transformTranslateCenter" data-bind-value="{{tab.displayName}}" data-bind-style-color="{{tab.selected}} ? '#040d24' : '#B2EBF5'" data-bind-style-width="({{tab.selected}} ? 100 : 70) + '%'">PURCHASE</div>
+        </div>
+        <div class="layoutStyle655 positionStyle4664 _Clips-Shell-tabs-new" cl-labels-key="_Clips-Shell-tabs-new">
+          <img src="img/Vendor33.svg" data-bind-style-opacity="{{tab.new}} ? 1 : 0" class="layoutStyle524 positionStyle1">
+          <div class="visualStyle518 layoutStyle519 positionStyle517" data-bind-style-opacity="{{tab.new}} ? 1 : 0"></div>
+          <div class="visualStyle518 layoutStyle522 positionStyle520" data-bind-style-opacity="{{tab.new}} ? 1 : 0"></div>
+        </div>
+        <div class="layoutStyle652 positionStyle672 vendor_tabs_mouse_hitbox" data-bind-mouseover="NavTabData.OnMouseEnter({{tab.index}},  MBT_None)" data-bind-click="NavTabData.OnClick({{tab.index}},  MBT_None)" data-bind-mouseleave="NavTabData.OnMouseLeave({{tab.index}},  MBT_None)" cl-labels-key="vendor_tabs_mouse_hitbox">
+          <img src="img/Vendor34.svg" class="layoutStyle513 positionStyle1">
+        </div>
+      </div>
+      <div class="layoutStyle691 positionStyle4674 _Clips-shoulder_left" data-bind-style-opacity="{{g_InputDevice.is_gamepad}}? 1.0: 0.0" cl-labels-key="_Clips-shoulder_left">
+        <div class="layoutStyle507 imageStyle492 positionStyle1"></div>
+        <div class="layoutStyle503 positionStyle504 tabPrompt _Clips-shoulder_button_left" data-bind-style-background-image-url="{{VendorTabsData.leftTabButton}}" cl-labels-key="_Clips-shoulder_button_left">
+          <div class="visualStyle480 layoutStyle498 positionStyle1"></div>
+        </div>
+      </div>
+      <div class="layoutStyle688 positionStyle4670 _Clips-shoulder_right" data-bind-style-opacity="{{g_InputDevice.is_gamepad}} ? 1.0 : 0.0" cl-labels-key="_Clips-shoulder_right">
+        <div class="layoutStyle491 imageStyle492 positionStyle1"></div>
+        <div class="layoutStyle487 positionStyle488 tabPrompt _Clips-shoulder_button_right" data-bind-style-background-image-url="{{VendorTabsData.rightTabButton}}" cl-labels-key="_Clips-shoulder_button_right">
+          <div class="visualStyle480 layoutStyle481 positionStyle1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle477 positionStyle2723 NowInStockPopup" cl-labels-key="NowInStockPopup">
+    <div class="visualStyle2736 layoutStyle381 positionStyle4679 _Clips-NowInStockPopup-now_in_stock_bolt_icon" cl-labels-key="_Clips-NowInStockPopup-now_in_stock_bolt_icon">
+      <img src="img/Vendor35.svg" data-bind-style-opacity="{{VendorElementPopup.type}} == 1 ? 1 : 0" class="animationStyle4684 visualStyle3150 layoutStyle322 positionStyle1">
+      <div class="animationStyle4681 visualStyle3143 layoutStyle320 positionStyle1" data-bind-style-opacity="{{VendorElementPopup.type}} == 1 ? 1 : 0"></div>
+    </div>
+    <div class="animationStyle4687 visualStyle2736 layoutStyle378 positionStyle1 bg_fill" cl-labels-key="bg_fill">
+      <div class="layoutStyle313 imageStyle314 positionStyle311"></div>
+    </div>
+    <div class="animationStyle4691 layoutStyle375 positionStyle4690 pointerEventsNone _Clips-Popup-popup_bg" cl-labels-key="_Clips-Popup-popup_bg">
+      <div class="layoutStyle210 imageStyle211 positionStyle4696"></div>
+      <div class="animationStyle4698 visualStyle2736 layoutStyle206 positionStyle4697 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+        <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+      </div>
+      <div class="animationStyle4705 visualStyle2736 layoutStyle203 positionStyle4704 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+        <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+      </div>
+    </div>
+    <div class="animationStyle5058 visualStyle475 layoutStyle349 positionStyle450">
+      <div class="animationStyle4768 visualStyle2736 layoutStyle372 positionStyle4767 hex" cl-labels-key="hex">
+        <img src="img/Vendor36.svg" class="layoutStyle306 positionStyle305">
+      </div>
+      <div class="animationStyle4756 visualStyle2736 layoutStyle369 positionStyle4747 hex" cl-labels-key="hex">
+        <img src="img/Vendor37.svg" class="layoutStyle306 positionStyle305">
+      </div>
+      <div class="animationStyle4763 visualStyle2819 layoutStyle432 positionStyle4762 hex" cl-labels-key="hex">
+        <img src="img/Vendor38.svg" class="layoutStyle306 positionStyle305">
+      </div>
+      <div class="animationStyle4748 visualStyle2736 layoutStyle366 positionStyle4747 hex" cl-labels-key="hex">
+        <img src="img/Vendor39.svg" class="layoutStyle306 positionStyle305">
+      </div>
+      <div class="animationStyle4740 visualStyle2736 layoutStyle363 positionStyle4739 wpn_image" cl-labels-key="wpn_image">
+        <div class="visualStyle94 layoutStyle301 positionStyle1 autoScale" data-bind-style-background-image-url="{{VendorElementNowInStockPopup.weaponImage}}"></div>
+      </div>
+      <div class="animationStyle4734 visualStyle2736 layoutStyle360 positionStyle4733 ellipse" cl-labels-key="ellipse">
+        <div class="visualStyle294 layoutStyle295 positionStyle1"></div>
+      </div>
+      <div class="animationStyle4728 visualStyle2736 layoutStyle357 positionStyle4727 cost_frame" cl-labels-key="cost_frame">
+        <div class="layoutStyle288 imageStyle289 positionStyle286"></div>
+      </div>
+      <div class="animationStyle4720 visualStyle2736 layoutStyle354 positionStyle4719 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+        <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+      </div>
+      <div class="animationStyle4712 visualStyle2736 layoutStyle351 positionStyle4711 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+        <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+      </div>
+    </div>
+    <div class="animationStyle4775 visualStyle2736 layoutStyle345 positionStyle448 _Clips-NowInStockPopup-now_in_stock_popup_cost" cl-labels-key="_Clips-NowInStockPopup-now_in_stock_popup_cost">
+      <div class="animationStyle4779 visualStyle3137 layoutStyle279 positionStyle1" data-bind-style-opacity="{{VendorElementPopup.type}} == 1 ? 1 : 0" data-bind-value="{{VendorElementNowInStockPopup.cost}}">Cost</div>
+    </div>
+    <div class="animationStyle4782 visualStyle2736 layoutStyle342 positionStyle446 _Clips-Popup-popup_title_text" cl-labels-key="_Clips-Popup-popup_title_text">
+      <div class="visualStyle274 layoutStyle272 positionStyle1" data-bind-value="{{VendorElementNowInStockPopup.title}}">Popup Title</div>
+    </div>
+    <div class="animationStyle4789 visualStyle2828 layoutStyle339 positionStyle4788 _Clips-NowInStockPopup-now_in_stock_popup_icon" cl-labels-key="_Clips-NowInStockPopup-now_in_stock_popup_icon">
+      <div class="layoutStyle266 positionStyle1 weaponIcon" data-bind-style-opacity="{{VendorElementPopup.type}} == 1 ? 1 : 0" data-bind-style-background-image-url="{{VendorElementNowInStockPopup.icon}}" cl-labels-key="weaponIcon">
+        <div class="visualStyle94 layoutStyle261 positionStyle259"></div>
+      </div>
+    </div>
+    <div class="animationStyle4797 visualStyle2736 layoutStyle336 positionStyle4796 _Clips-NowInStockPopup-now_in_stock_label" cl-labels-key="_Clips-NowInStockPopup-now_in_stock_label">
+      <div class="animationStyle4801 layoutStyle254 positionStyle255 pulseText" data-bind-style-opacity="{{VendorElementPopup.type}} == 1 ? 1 : 0" cl-labels-key="pulseText">
+        <div data-l10n-id="UI_VENDOR_NOWINSTOCK" class="visualStyle249 layoutStyle247 positionStyle1">NOW IN STOCK</div>
+      </div>
+    </div>
+    <div class="animationStyle4806 visualStyle2736 layoutStyle333 positionStyle440 _Clips-NowInStockPopup-anim_nowAvailable_arrow" cl-labels-key="_Clips-NowInStockPopup-anim_nowAvailable_arrow">
+      <div class="animationStyle4810 layoutStyle241 positionStyle1 _Clips-NowInStockPopup-arrow" cl-labels-key="_Clips-NowInStockPopup-arrow">
+        <div class="layoutStyle235 imageStyle236 positionStyle233"></div>
+      </div>
+    </div>
+    <div class="animationStyle4814 layoutStyle330 positionStyle4813 pc_button_hints-button_hint_list_now_in_stock" data-bind-class-toggle="vendorButtonHint_MouseOffset_NowInStock:{{g_InputDevice.is_mkb}}" cl-labels-key="pc_button_hints-button_hint_list_now_in_stock">
+      <div data-bind-vendor-button-hint-now-in-stock="{{button_item}}" class="layoutStyle227 positionStyle89 flexCenterNoWrap ButtonHint pc_button_hints-button_hint_now_in_stock" data-bind-for="button_index,button_item:{{VendorElementNowInStockPopupHints.buttonHints}}" data-bind-html="{{button_item.innerHtml}}" data-bind-class-toggle="vendorButtonHint_MouseOffset_NowInStock_Item:{{g_InputDevice.is_mkb}}" cl-labels-key="pc_button_hints-button_hint_now_in_stock">
+        <div class="visualStyle222 layoutStyle220 positionStyle1 txt">BUTTON HINTS</div>
+      </div>
+    </div>
+    <div class="animationStyle4821 visualStyle2741 layoutStyle327 positionStyle4690 pointerEventsNone _Clips-Popup-popup_bg" cl-labels-key="_Clips-Popup-popup_bg">
+      <div class="layoutStyle210 imageStyle211 positionStyle4696"></div>
+      <div class="animationStyle4826 visualStyle2736 layoutStyle206 positionStyle4697 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+        <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+      </div>
+      <div class="animationStyle4833 visualStyle2736 layoutStyle203 positionStyle4704 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+        <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+      </div>
+    </div>
+    <div class="animationStyle5060 visualStyle384 layoutStyle385 positionStyle4839"></div>
+    <div class="animationStyle5060 visualStyle384 layoutStyle388 positionStyle4840"></div>
+    <div class="animationStyle5060 visualStyle384 layoutStyle391 positionStyle4841"></div>
+    <div class="animationStyle5060 visualStyle384 layoutStyle394 positionStyle4842"></div>
+    <div class="animationStyle5060 visualStyle384 layoutStyle397 positionStyle4843"></div>
+    <div class="animationStyle5066 visualStyle384 layoutStyle400 positionStyle4844"></div>
+    <div class="animationStyle5066 visualStyle384 layoutStyle403 positionStyle4845"></div>
+    <div class="animationStyle5066 visualStyle384 layoutStyle406 positionStyle4846"></div>
+    <div class="animationStyle5066 visualStyle384 layoutStyle409 positionStyle4847"></div>
+    <div class="animationStyle5066 visualStyle384 layoutStyle412 positionStyle4848"></div>
+    <div class="animationStyle5066 visualStyle384 layoutStyle415 positionStyle4849"></div>
+  </div>
+  <div class="layoutStyle199 positionStyle4855 pointerEventsNone PreviewVideo" cl-labels-key="PreviewVideo">
+    <div class="animationStyle4857 layoutStyle180 positionStyle194 _Clips-PreviewVideo-frame" cl-labels-key="_Clips-PreviewVideo-frame">
+      <div class="layoutStyle159 imageStyle160 positionStyle157"></div>
+    </div>
+    <div class="visualStyle197 layoutStyle175 positionStyle190">
+      <div class="animationStyle4861 layoutStyle177 positionStyle4860 _Clips-PreviewVideo-video_inner" cl-labels-key="_Clips-PreviewVideo-video_inner">
+        <div class="visualStyle54 layoutStyle152 positionStyle1 autoScale" data-bind-style-background-image-url="{{VendorElementPreviewPopup.videoTexture}}"></div>
+      </div>
+    </div>
+    <div class="animationStyle4865 layoutStyle171 positionStyle188 _Clips-PreviewVideo-weapon_name" cl-labels-key="_Clips-PreviewVideo-weapon_name">
+      <div class="visualStyle146 layoutStyle144 positionStyle1" data-bind-value="{{VendorElementPreviewPopup.itemName}}">WEAPON NAME</div>
+    </div>
+    <div class="animationStyle4869 visualStyle2832 layoutStyle168 positionStyle186 preview_weapon_icon" cl-labels-key="preview_weapon_icon">
+      <div class="visualStyle94 layoutStyle139 positionStyle1 autoScale" data-bind-style-background-image-url="{{VendorElementPreviewPopup.itemIcon}}"></div>
+    </div>
+    <div class="animationStyle4873 layoutStyle165 positionStyle184 _Clips-PreviewVideo-logo" cl-labels-key="_Clips-PreviewVideo-logo">
+      <div class="layoutStyle132 imageStyle4 positionStyle130"></div>
+    </div>
+  </div>
+  <div class="layoutStyle128 positionStyle4876 pointerEventsNone CellUnlockedPopup" cl-labels-key="CellUnlockedPopup">
+    <div class="animationStyle4878 layoutStyle112 positionStyle4877 upgradePopupBackground mystery_prompt" data-bind-style-height="(292 + {{VendorElementCellUnlockedPopup.items}}.length * 172) + 'px'" cl-labels-key="mystery_prompt">
+      <div class="visualStyle94 layoutStyle95 positionStyle1"></div>
+    </div>
+    <div class="animationStyle4882 layoutStyle109 positionStyle122 _Clips-Popup-cell_unlock_popup_item_wrapper" cl-labels-key="_Clips-Popup-cell_unlock_popup_item_wrapper">
+      <div class="layoutStyle88 positionStyle89 _Clips-Popup-cell_unlocked_popup_item" data-bind-for="it:{{VendorElementCellUnlockedPopup.items}}" data-bind-style-opacity="{{VendorElementPopup.type}} == 0 ? 1 : 0" cl-labels-key="_Clips-Popup-cell_unlocked_popup_item">
+        <div class="visualStyle80 layoutStyle81 positionStyle1"></div>
+        <div class="layoutStyle77 positionStyle4892 _Clips-Popup-cell_unlocked_popup_item_bg" cl-labels-key="_Clips-Popup-cell_unlocked_popup_item_bg">
+          <div class="layoutStyle62 imageStyle63 positionStyle1"></div>
+        </div>
+        <div class="visualStyle2833 layoutStyle74 positionStyle4890 _Clips-Popup-cell_unlock_popup_item_icon" cl-labels-key="_Clips-Popup-cell_unlock_popup_item_icon">
+          <div class="visualStyle54 layoutStyle55 positionStyle1" data-bind-style-background-image-url="{{it.icon}}"></div>
+        </div>
+        <div class="layoutStyle71 positionStyle4888 _Clips-Popup-cell_unlock_popup_item_text" cl-labels-key="_Clips-Popup-cell_unlock_popup_item_text">
+          <div class="visualStyle49 layoutStyle47 positionStyle1" data-bind-value="{{it.name}}">Cell Name</div>
+        </div>
+        <div class="layoutStyle68 positionStyle4886 _Clips-Popup-cell_unlock_popup_item_desc" cl-labels-key="_Clips-Popup-cell_unlock_popup_item_desc">
+          <div class="visualStyle42 layoutStyle40 positionStyle1" data-bind-value="{{it.desc}}">Cell Desc<br/>Line 2<br/>Line 3</div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle4895 layoutStyle106 positionStyle120 _Clips-Popup-cell_unlocked_popup_title" cl-labels-key="_Clips-Popup-cell_unlocked_popup_title">
+      <div class="visualStyle35 layoutStyle33 positionStyle1" data-bind-value="{{VendorElementCellUnlockedPopup.title}}">Popup Title</div>
+    </div>
+    <div class="animationStyle4899 layoutStyle103 positionStyle4898 ButtonHint pc_button_hints-button_hint_list_cell_unlocked_popup" data-bind-style-top="(434 + {{VendorElementCellUnlockedPopup.items}}.length * 172) + 'px'" data-bind-class-toggle="vendorButtonHint_MouseOffset_CellUnlockedPopup:{{g_InputDevice.is_mkb}}" cl-labels-key="pc_button_hints-button_hint_list_cell_unlocked_popup">
+      <div data-bind-vendor-button-hint-cell-unlocked-popup="{{button_item}}" class="layoutStyle27 positionStyle28 ButtonHint pc_button_hints-button_hint_cell_unlocked_popup" data-bind-for="button_index,button_item:{{VendorElementCellUnlockedPopupHints.buttonHints}}" data-bind-html="{{button_item.innerHtml}}" cl-labels-key="pc_button_hints-button_hint_cell_unlocked_popup">
+        <div class="visualStyle22 layoutStyle20 positionStyle21 txt">BUTTON HINTS</div>
+      </div>
+    </div>
+    <div class="animationStyle4904 visualStyle2736 layoutStyle100 positionStyle4903 pointerEventsNone vendor_flare" cl-labels-key="vendor_flare">
+      <div class="layoutStyle14 imageStyle15 positionStyle1"></div>
+    </div>
+  </div>
+  <div class="layoutStyle9 positionStyle2717 _Clips-Purchase-info-logo_vendor" cl-labels-key="_Clips-Purchase-info-logo_vendor">
+    <div class="layoutStyle3 imageStyle4 positionStyle1"></div>
+  </div>
+<script src="../../authored/_common/js/cohtml.js"></script>
+<script src="js/CLAnimations_API.js"></script>
+<script src="js/CLAnimations_Vendor_Vendor.js"></script>
+<script src="js/CLEvents_Symbols_Vendor_Vendor.js"></script>
+<script src="../../authored/_common/js/Visibility.js"></script>
+<script src="../../authored/_common/js/CustomAttributes.js"></script>
+<script src="../../authored/Vendor/js/Vendor.js"></script>
+<script src="../../authored/_common/js/CustomPCAttributes.js"></script>
+</body>
+</html>

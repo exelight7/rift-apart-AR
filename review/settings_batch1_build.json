@@ -1,0 +1,2122 @@
+{
+  "changed": 302,
+  "entries_verified": 25034,
+  "visual_test": "pending",
+  "shared_keys_note": "Non-uppercase PC settings remain logical Unicode for native launcher. Their in-game reuse needs screenshot verification.",
+  "changes": [
+    {
+      "key": "AUDIO_CONTROLLER_AUDIOHAPTICS_ENABLED_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يفعل ردود الفعل اللمسية المتقدمة<br>في جهاز التحكم اللاسلكي. عند<br>تعطيله، يستخدم الاهتزاز<br>التقليدي.",
+      "before": "ﺯﺍﺰﺘﻫﻻﺍ ﺭﺎﻴﺨﻟﺍ ﺍﺬﻫ ﺢﻴﺘﻳ<br>ﻢﻜﺤﺘﻟﺍ ﺪﻳ ﻲﻓ ﻡﺪﻘﺘﻤﻟﺍ<br>ﺔﻴﻜﻠﺳﻼﻟﺍ. ،ﻼﻄﻌﻣ ﻥﺎﻛ ﺍﺫﺇﻭ<br>ﺯﺍﺰﺘﻫﻻﺍ ﻡﺪﺨﺘﺴﻴﺴﻓ<br>ﻲﻜﻴﺳﻼﻜﻟﺍ.",
+      "after": "ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﺴﻤﻠﻟﺍ ﻞﻌﻔﻟﺍ ﺩﻭﺩﺭ ﻞﻌﻔﻳ<br>ﺪﻨﻋ .ﻲﻜﻠﺳﻼﻟﺍ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻲﻓ<br>ﺯﺍﺰﺘﻫﻻﺍ ﻡﺪﺨﺘﺴﻳ ،ﻪﻠﻴﻄﻌﺗ<br>.ﻱﺪﻴﻠﻘﺘﻟﺍ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_AUDIOHAPTICS_ENABLED_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "ردود الفعل اللمسية المتقدمة",
+      "before": "ﻡﺪﻘﺘﻤﻟﺍ ﺯﺍﺰﺘﻫﻻﺍ",
+      "after": "ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﺴﻤﻠﻟﺍ ﻞﻌﻔﻟﺍ ﺩﻭﺩﺭ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_AUTO_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يوجه الصوت إلى سماعة الرأس عند<br>توصيلها، وإلى مكبر الصوت في غير<br>ذلك.",
+      "before": "ﺕﻮﺼﻟﺍ ﺭﺎﻴﺨﻟﺍ ﺍﺬﻫ ﻪﺟﻮﻳ<br>ﻥﺇ ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳ ﻰﻟﺇ ﺎﻴﺋﺎﻘﻠﺗ<br>ﻰﻟﺈﻓ ﻻﺇﻭ ،ﺔﻟﻮﺻﻮﻣ ﺖﻧﺎﻛ<br>ﺕﺎﻋﺎﻤﺴﻟﺍ.",
+      "after": "ﺪﻨﻋ ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳ ﻰﻟﺇ ﺕﻮﺼﻟﺍ ﻪﺟﻮﻳ<br>ﺮﻴﻏ ﻲﻓ ﺕﻮﺼﻟﺍ ﺮﺒﻜﻣ ﻰﻟﺇﻭ ،ﺎﻬﻠﻴﺻﻮﺗ<br>.ﻚﻟﺫ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يحدد مخرج الصوت في جهاز التحكم<br>اللاسلكي.",
+      "before": "،ﻪﻠﻴﻌﻔﺗ ﺪﻨﻋ ،ﺭﺎﻴﺨﻟﺍ ﺍﺬﻫ ﺩﺪﺤﻳ<br>ﻲﻓ ﻡﺪﺨﺘﺴﻤﻟﺍ ﺕﻮﺼﻟﺍ ﺝﺮﺨﻣ<br>ﺰﻨﻴﺳ ﻝﺍﻭﺩ ﻢﻜﺤﺗ ﺪﻳ<br>ﻝﺍﻭﺩ ﻢﻜﺤﺗ ﺪﻳﻭ ﺔﻴﻜﻠﺳﻼﻟﺍ<br>ﻙﻮﺷ 4 ﺔﻴﻜﻠﺳﻼﻟﺍ.",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻲﻓ ﺕﻮﺼﻟﺍ ﺝﺮﺨﻣ ﺩﺪﺤﻳ<br>.ﻲﻜﻠﺳﻼﻟﺍ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSETMONO_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس بصوت أحادي.",
+      "before": "ﻰﻟﺇ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﺝﺮﺨﻳ<br>ﻱﺩﺎﺣﻷﺍ ﻊﺿﻮﻟﺎﺑ ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳ.",
+      "after": "ﺔﻋﺎﻤﺳ ﺮﺒﻋ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﻞﻐﺸﻳ<br>.ﻱﺩﺎﺣﺃ ﺕﻮﺼﺑ ﺱﺃﺮﻟﺍ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSETMONO_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "سماعة الرأس — أحادي",
+      "before": "ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳ (ﻱﺩﺎﺣﺃ)",
+      "after": "ﻱﺩﺎﺣﺃ — ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSETSPEAKER_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس ومكبر الصوت معًا.",
+      "before": "ﻰﻟﺇ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﺝﺮﺨﻳ<br>ﺎﻌﻣ ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳﻭ ﺕﺎﻋﺎﻤﺴﻟﺍ.",
+      "after": "ﺔﻋﺎﻤﺳ ﺮﺒﻋ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﻞﻐﺸﻳ<br>.ﺎﻌﻣ ﺕﻮﺼﻟﺍ ﺮﺒﻜﻣﻭ ﺱﺃﺮﻟﺍ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSET_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يشغل صوت جهاز التحكم عبر سماعة<br>الرأس بصوت ستيريو.",
+      "before": "ﻰﻟﺇ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﺝﺮﺨﻳ<br>ﻲﻌﺿﻮﺑ ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳ<br>ﻮﻳﺮﻴﺘﺴﻟﺍ.",
+      "after": "ﺔﻋﺎﻤﺳ ﺮﺒﻋ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﻞﻐﺸﻳ<br>.ﻮﻳﺮﻴﺘﺳ ﺕﻮﺼﺑ ﺱﺃﺮﻟﺍ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_HEADSET_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "سماعة الرأس — ستيريو",
+      "before": "ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳ (ﻮﻳﺮﻴﺘﺳ)",
+      "after": "ﻮﻳﺮﻴﺘﺳ — ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_OFF_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعطل إخراج الصوت عبر جهاز<br>التحكم.",
+      "before": "ﺯﺎﻬﺟ ﻰﻟﺇ ﺕﻮﺼﻟﺍ ﺝﺍﺮﺧﺇ ﻒﻗﻭﺃ<br>ﻢﻜﺤﺘﻟﺍ.",
+      "after": "ﺯﺎﻬﺟ ﺮﺒﻋ ﺕﻮﺼﻟﺍ ﺝﺍﺮﺧﺇ ﻞﻄﻌﻳ<br>.ﻢﻜﺤﺘﻟﺍ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_SPEAKER_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يشغل صوت جهاز التحكم عبر مكبر<br>الصوت.",
+      "before": "ﻰﻟﺇ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﺝﺮﺨﻳ<br>ﺕﺎﻋﺎﻤﺴﻟﺍ.",
+      "after": "ﺮﺒﻜﻣ ﺮﺒﻋ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﻞﻐﺸﻳ<br>.ﺕﻮﺼﻟﺍ"
+    },
+    {
+      "key": "AUDIO_CONTROLLER_SCEPAD_AUDIOMODE_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "مخرج صوت جهاز التحكم",
+      "before": "ﻢﻜﺤﺘﻟﺍ ﺓﺰﻬﺟﺃ ﺕﻮﺻ ﺝﺮﺨﻣ",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﺝﺮﺨﻣ"
+    },
+    {
+      "key": "MENU_ACCESSIBILITY_CAT_ASSISTS",
+      "renderer": "game_visual_arabic",
+      "logical": "خيارات المساعدة",
+      "before": "ﺕﺍﺪﻋﺎﺴﻤﻟﺍﻭ ﺢﻴﺗﺎﻔﻤﻟﺍ",
+      "after": "ﺓﺪﻋﺎﺴﻤﻟﺍ ﺕﺍﺭﺎﻴﺧ"
+    },
+    {
+      "key": "MENU_ACCESSIBILITY_CAT_ASSISTS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط خيارات المساعدة في القتال<br>والحركة.",
+      "before": "ﺕﺍﺪﻋﺎﺴﻤﻟﺍﻭ ﺢﻴﺗﺎﻔﻤﻟﺍ ﻂﺒﺿﺍ<br>ﺔﻛﺮﺤﻟﺍﻭ ﻝﺎﺘﻘﻟﺎﺑ ﺔﺻﺎﺨﻟﺍ.",
+      "after": "ﻝﺎﺘﻘﻟﺍ ﻲﻓ ﺓﺪﻋﺎﺴﻤﻟﺍ ﺕﺍﺭﺎﻴﺧ ﻂﺒﺿﺍ<br>.ﺔﻛﺮﺤﻟﺍﻭ"
+    },
+    {
+      "key": "MENU_ACCESSIBILITY_CAT_GAMEPLAYANDCAMERA_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط إعدادات اللعب والكاميرا.",
+      "before": "ﺍﺮﻴﻣﺎﻜﻟﺍﻭ ﺐﻌﻠﻟﺍ ﺕﺍﺭﺎﻴﺧ ﻂﺒﺿﺍ.",
+      "after": ".ﺍﺮﻴﻣﺎﻜﻟﺍﻭ ﺐﻌﻠﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ"
+    },
+    {
+      "key": "MENU_ACCESSIBILITY_CAT_PRESETS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر إعدادات جاهزة تضبط عدة<br>خيارات لإمكانية الوصول معًا.",
+      "before": "ﻲﺘﻟﺍ ﺔﻘﺒﺴﻤﻟﺍ ﺕﺍﺩﺍﺪﻋﻹﺍ ﻞﻌﻓ<br>ﻞﺧﺍﺩ ﺕﺍﺩﺍﺪﻋﺇ ﺓﺪﻋ ﻲﻓ ﺮﺛﺅﺕ<br>ﺔﻴﻧﺎﻜﻣﺇ ﺕﺍﺭﺎﻴﺧ ﻞﺟﺃ ﻦﻣ ﺔﺒﻌﻠﻟﺍ<br>ﻝﻮﺻﻮﻟﺍ.",
+      "after": "ﺓﺪﻋ ﻂﺒﻀﺗ ﺓﺰﻫﺎﺟ ﺕﺍﺩﺍﺪﻋﺇ ﺮﺘﺧﺍ<br>.ﺎﻌﻣ ﻝﻮﺻﻮﻟﺍ ﺔﻴﻧﺎﻜﻣﻹ ﺕﺍﺭﺎﻴﺧ"
+    },
+    {
+      "key": "MENU_ACCESSIBILITY_CAT_VISUAL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط إعدادات دوار الحركة<br>والتباين وتمييز العناصر وواجهة<br>المعلومات.",
+      "before": "ﺔﻘﻠﻌﺘﻤﻟﺍ ﺕﺍﺭﺎﻴﺨﻟﺍ ﻂﺒﺿﺍ<br>ﺩﺍﻮﻤﻟﺍﻭ ﻦﻳﺎﺒﺘﻟﺍﻭ ،ﺔﻛﺮﺤﻟﺍ ﺭﺍﻭﺪﺑ<br>ﺔﻠﻠﻈﻤﻟﺍ (Shaders)ﺔﺷﺎﺷﻭ ،<br>ﺕﺎﻣﻮﻠﻌﻤﻟﺍ (HUD).",
+      "after": "ﺔﻛﺮﺤﻟﺍ ﺭﺍﻭﺩ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ<br>ﺔﻬﺟﺍﻭﻭ ﺮﺻﺎﻨﻌﻟﺍ ﺰﻴﻴﻤﺗﻭ ﻦﻳﺎﺒﺘﻟﺍﻭ<br>.ﺕﺎﻣﻮﻠﻌﻤﻟﺍ"
+    },
+    {
+      "key": "MENU_ACCESSIBILITY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط خيارات إضافية لتسهيل الرؤية<br>والإدراك والتحكم.",
+      "before": "ﺔﻴﻓﺎﺿﺇ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ<br>ﺔﻳﺮﺼﺒﻟﺍ ﺕﺍﺩﺍﺪﻋﻹﺎﺑ ﺔﻘﻠﻌﺘﻣ<br>ﺔﻴﻛﺮﺤﻟﺍﻭ ﺔﻴﻓﺮﻌﻤﻟﺍﻭ.",
+      "after": "ﺔﻳﺅﺮﻟﺍ ﻞﻴﻬﺴﺘﻟ ﺔﻴﻓﺎﺿﺇ ﺕﺍﺭﺎﻴﺧ ﻂﺒﺿﺍ<br>.ﻢﻜﺤﺘﻟﺍﻭ ﻙﺍﺭﺩﻹﺍﻭ"
+    },
+    {
+      "key": "MENU_ACCESSIBILITY_DESC_FRONTEND",
+      "renderer": "game_visual_arabic",
+      "logical": "خيارات إضافية لتسهيل الرؤية<br>والإدراك والتحكم.",
+      "before": "ﻂﺒﻀﻟ ﺔﻴﻓﺎﺿﺇ ﺕﺍﺩﺍﺪﻋﺇ<br>ﺔﻴﻓﺮﻌﻤﻟﺍﻭ ﺔﻳﺮﺼﺒﻟﺍ ﺕﺍﺩﺍﺪﻋﻹﺍ<br>ﺔﻴﻛﺮﺤﻟﺍﻭ.",
+      "after": "ﺔﻳﺅﺮﻟﺍ ﻞﻴﻬﺴﺘﻟ ﺔﻴﻓﺎﺿﺇ ﺕﺍﺭﺎﻴﺧ<br>.ﻢﻜﺤﺘﻟﺍﻭ ﻙﺍﺭﺩﻹﺍﻭ"
+    },
+    {
+      "key": "MENU_ACCESSIBILITY_OPTION_HOLD",
+      "renderer": "game_visual_arabic",
+      "logical": "ضغط مستمر",
+      "before": "ﻂﻐﻀﻟﺎﺑ ﺭﺍﺮﻤﺘﺳﻻﺍ",
+      "after": "ﺮﻤﺘﺴﻣ ﻂﻐﺿ"
+    },
+    {
+      "key": "MENU_ACCESSIBILITY_OPTION_TOGGLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تبديل",
+      "before": "ﻞﻳﺪﺒﺗ",
+      "after": "ﻞﻳﺪﺒﺗ"
+    },
+    {
+      "key": "MENU_ADAPTIVETRIGGERS_OPTION_EXPERIENTIAL",
+      "renderer": "game_visual_arabic",
+      "logical": "غامر",
+      "before": "ﻲﺒﻳﺮﺠﺗ",
+      "after": "ﺮﻣﺎﻏ"
+    },
+    {
+      "key": "MENU_ADAPTIVETRIGGERS_OPTION_EXPERIENTIAL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اشعر بالاهتزاز والمقاومة في<br>[BTN_LT_GP] و[BTN_RT_GP] بما<br>يتناسب مع أحداث اللعبة.",
+      "before": "ﻰﻠﻋ ﺔﻣﻭﺎﻘﻤﻟﺍﻭ ﺯﺍﺰﺘﻫﻻﺎﺑ ﺮﻌﺷﺍ<br>[BTN_LT_GP] ﻭ[BTN_RT_GP]<br>ﺔﺒﻌﻠﻟﺍ ﺙﺍﺪﺣﺃ ﻊﻣ ﻢﻏﺎﻨﺘﻳ ﺎﻤﺑ.",
+      "after": "ﻲﻓ ﺔﻣﻭﺎﻘﻤﻟﺍﻭ ﺯﺍﺰﺘﻫﻻﺎﺑ ﺮﻌﺷﺍ<br>ﺎﻤﺑ [BTN_RT_GP]ﻭ [BTN_LT_GP]<br>.ﺔﺒﻌﻠﻟﺍ ﺙﺍﺪﺣﺃ ﻊﻣ ﺐﺳﺎﻨﺘﻳ"
+    },
+    {
+      "key": "MENU_ADAPTIVETRIGGERS_OPTION_FUNCTIONAL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يقلل مقاومة [BTN_LT_GP]<br>و[BTN_RT_GP] ويعطل الاهتزاز في<br>[BTN_LT_GP] و[BTN_RT_GP].",
+      "before": "ﺭﺍﺭﺯﺃ ﺔﻣﻭﺎﻘﻣ ﺾﻔﺨﻳ<br>[BTN_LT_GP] ﻭ[BTN_RT_GP]<br>ﻰﻠﻋ ﺯﺍﺰﺘﻫﻻﺍ ﻞﻄﻌﻳﻭ<br>[BTN_LT_GP] ﻭ[BTN_RT_GP].",
+      "after": "[BTN_LT_GP] ﺔﻣﻭﺎﻘﻣ ﻞﻠﻘﻳ<br>ﻲﻓ ﺯﺍﺰﺘﻫﻻﺍ ﻞﻄﻌﻳﻭ [BTN_RT_GP]ﻭ<br>.[BTN_RT_GP]ﻭ [BTN_LT_GP]"
+    },
+    {
+      "key": "MENU_ADAPTIVETRIGGERS_OPTION_NONE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعطل الاهتزاز والمقاومة في<br>[BTN_LT_GP] و[BTN_RT_GP].",
+      "before": "ﺔﻣﻭﺎﻘﻤﻟﺍﻭ ﺯﺍﺰﺘﻫﻻﺍ ﻥﻮﻜﻳ<br>ﻰﻠﻋ ﻦﻴﻠﻄﻌﻣ [BTN_LT_GP]<br>ﻭ[BTN_RT_GP].",
+      "after": "ﻲﻓ ﺔﻣﻭﺎﻘﻤﻟﺍﻭ ﺯﺍﺰﺘﻫﻻﺍ ﻞﻄﻌﻳ<br>.[BTN_RT_GP]ﻭ [BTN_LT_GP]"
+    },
+    {
+      "key": "MENU_ADAPTIVETRIGGERS_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "الزنادات التكيفية",
+      "before": "ﺔﻴﻔﻴﻜﺘﻟﺍ ﺕﺍﺩﺪﺴﻤﻟﺍ",
+      "after": "ﺔﻴﻔﻴﻜﺘﻟﺍ ﺕﺍﺩﺎﻧﺰﻟﺍ"
+    },
+    {
+      "key": "MENU_AIMARC_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر لون قوس مسار الرمي<br>والأسلحة.",
+      "before": "ﻲﺳﻮﻘﻟﺍ ﺮﺷﺅﻢﻟﺍ ﻥﻮﻟ ﺩﺪﺤﻳ<br>ﺔﺤﻠﺳﻷﺍﻭ ﺕﺎﻴﻣﺮﻠﻟ.",
+      "after": "ﻲﻣﺮﻟﺍ ﺭﺎﺴﻣ ﺱﻮﻗ ﻥﻮﻟ ﺮﺘﺧﺍ<br>.ﺔﺤﻠﺳﻷﺍﻭ"
+    },
+    {
+      "key": "MENU_AIMMODE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر بين الضغط المستمر للتصويب<br>والضغط مرة للتفعيل وأخرى<br>للإيقاف.",
+      "before": "ﻞﻤﻌﻳ ﺐﻳﻮﺼﺘﻟﺍ ﺀﺍﺮﺟﺇ ﻞﻌﺠﻳ<br>ﻭﺃ ﺮﻤﺘﺴﻤﻟﺍ ﻂﻐﻀﻟﺎﺑ<br>ﻞﻴﻐﺸﺘﻟﺍ ﻦﻴﺑ ﻞﻳﺪﺒﺘﻟﺎﺑ<br>ﻑﺎﻘﻳﻹﺍﻭ.",
+      "after": "ﺐﻳﻮﺼﺘﻠﻟ ﺮﻤﺘﺴﻤﻟﺍ ﻂﻐﻀﻟﺍ ﻦﻴﺑ ﺮﺘﺧﺍ<br>ﻯﺮﺧﺃﻭ ﻞﻴﻌﻔﺘﻠﻟ ﺓﺮﻣ ﻂﻐﻀﻟﺍﻭ<br>.ﻑﺎﻘﻳﻺﻟ"
+    },
+    {
+      "key": "MENU_AIMRETICLE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر لون مؤشر التصويب.",
+      "before": "ﺔﺤﻠﺳﻸﻟ ﺔﺑﻮﺼﻤﻟﺍ ﻥﻮﻟ ﺩﺪﺤﻳ<br>ﺔﺑﻮﺼﻤﻟﺍ.",
+      "after": ".ﺐﻳﻮﺼﺘﻟﺍ ﺮﺷﺆﻣ ﻥﻮﻟ ﺮﺘﺧﺍ"
+    },
+    {
+      "key": "MENU_AIMRETICLE_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "لون مؤشر التصويب",
+      "before": "ﺐﻳﻮﺼﺘﻟﺍ ﺔﺑﻮﺼﻣ ﻥﻮﻟ",
+      "after": "ﺐﻳﻮﺼﺘﻟﺍ ﺮﺷﺆﻣ ﻥﻮﻟ"
+    },
+    {
+      "key": "MENU_AIMSENSITIVITY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط سرعة حركة الكاميرا أثناء<br>التصويب. تقل السرعة عند خفض<br>الحساسية وتزداد عند رفعها.",
+      "before": "ﺍﺮﻴﻣﺎﻜﻟﺍ ﺔﻴﺳﺎﺴﺣ ﻂﺒﺿﺍ<br>ﺐﻳﻮﺼﺘﻟﺍ ﺀﺎﻨﺛﺃ. ﻞﻌﺠﺗ<br>ﺔﻣﻼﻋ ﺔﻀﻔﺨﻨﻤﻟﺍ ﺕﺍﺩﺍﺪﻋﻹﺍ<br>،ﺀﻂﺒﺑ ﻙﺮﺤﺘﺗ ﺐﻳﻮﺼﺘﻟﺍ<br>ﺕﺍﺩﺍﺪﻋﻹﺍ ﺎﻬﻠﻌﺠﺗ ﺎﻤﻨﻴﺑ<br>ﺮﺒﻛﺃ ﺔﻋﺮﺴﺑ ﻙﺮﺤﺘﺗ ﺔﻴﻟﺎﻌﻟﺍ.",
+      "after": "ﺀﺎﻨﺛﺃ ﺍﺮﻴﻣﺎﻜﻟﺍ ﺔﻛﺮﺣ ﺔﻋﺮﺳ ﻂﺒﺿﺍ<br>ﺾﻔﺧ ﺪﻨﻋ ﺔﻋﺮﺴﻟﺍ ﻞﻘﺗ .ﺐﻳﻮﺼﺘﻟﺍ<br>.ﺎﻬﻌﻓﺭ ﺪﻨﻋ ﺩﺍﺩﺰﺗﻭ ﺔﻴﺳﺎﺴﺤﻟﺍ"
+    },
+    {
+      "key": "MENU_AIM_INVERTX_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعكس اتجاه حركة كاميرا التصويب<br>أفقيًا.",
+      "before": "ﻦﻴﻤﻴﻟﺍ ﻲﻫﺎﺠﺗﺍ ﺲﻜﻌﻳ<br>ﺍﺮﻴﻣﺎﻛ ﺕﺎﻤﻜﺤﺗ ﻲﻓ ﺭﺎﺴﻴﻟﺍﻭ<br>ﺐﻳﻮﺼﺘﻟﺍ.",
+      "after": "ﺐﻳﻮﺼﺘﻟﺍ ﺍﺮﻴﻣﺎﻛ ﺔﻛﺮﺣ ﻩﺎﺠﺗﺍ ﺲﻜﻌﻳ<br>.ﺎﻴﻘﻓﺃ"
+    },
+    {
+      "key": "MENU_AIM_INVERTX_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "عكس التصويب الأفقي",
+      "before": "ﺐﻳﻮﺼﺘﻟﺍ ﺲﻜﻋ<br>ﺎﻨﻴﻤﻳ/ﺍﺭﺎﺴﻳ",
+      "after": "ﻲﻘﻓﻷﺍ ﺐﻳﻮﺼﺘﻟﺍ ﺲﻜﻋ"
+    },
+    {
+      "key": "MENU_AIM_INVERTY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعكس اتجاه حركة كاميرا التصويب<br>رأسيًا.",
+      "before": "ﻰﻠﻋﻷﺍ ﻲﻫﺎﺠﺗﺍ ﺲﻜﻌﻳ<br>ﺍﺮﻴﻣﺎﻛ ﺕﺎﻤﻜﺤﺗ ﻲﻓ ﻞﻔﺳﻷﺍﻭ<br>ﺐﻳﻮﺼﺘﻟﺍ.",
+      "after": "ﺐﻳﻮﺼﺘﻟﺍ ﺍﺮﻴﻣﺎﻛ ﺔﻛﺮﺣ ﻩﺎﺠﺗﺍ ﺲﻜﻌﻳ<br>.ﺎﻴﺳﺃﺭ"
+    },
+    {
+      "key": "MENU_AIM_INVERTY_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "عكس التصويب الرأسي",
+      "before": "ﻰﻠﻋﺃ ﺐﻳﻮﺼﺘﻟﺍ ﺲﻜﻋ/ﻞﻔﺳﺃ",
+      "after": "ﻲﺳﺃﺮﻟﺍ ﺐﻳﻮﺼﺘﻟﺍ ﺲﻜﻋ"
+    },
+    {
+      "key": "MENU_ALLYSHADER_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يميز الحلفاء بلون موحد لتسهيل<br>رؤيتهم.",
+      "before": "ﺔﻠﻠﻈﻣ ﺓﺩﺎﻣ ﻖﺒﻄﻳ (Shader)<br>ﺀﺎﻔﻠﺤﻟﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ﺐﻠﺻ ﻥﻮﻠﺑ<br>ﻢﻬﺣﻮﺿﻭ ﻦﻴﺴﺤﺘﻟ.",
+      "after": "ﻞﻴﻬﺴﺘﻟ ﺪﺣﻮﻣ ﻥﻮﻠﺑ ﺀﺎﻔﻠﺤﻟﺍ ﺰﻴﻤﻳ<br>.ﻢﻬﺘﻳﺅﺭ"
+    },
+    {
+      "key": "MENU_ALLYSHADER_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تمييز الحلفاء",
+      "before": "ﺀﺎﻔﻠﺤﻠﻟ ﺔﻠﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ",
+      "after": "ﺀﺎﻔﻠﺤﻟﺍ ﺰﻴﻴﻤﺗ"
+    },
+    {
+      "key": "MENU_AUDIOBALANCE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط توازن الصوت بين اليمين<br>واليسار. القيمة 0 لليسار، و10<br>لليمين، و5 للمنتصف.",
+      "before": "ﻦﻴﺑ ﺕﻮﺼﻟﺍ ﺝﺮﺨﻣ ﻥﺯﺍﻮﻳ<br>ﻯﺮﺴﻴﻟﺍﻭ ﻰﻨﻤﻴﻟﺍ ﺔﻋﺎﻤﺴﻟﺍ.<br>ﻂﺒﻀﻟﺍ ﺰﻛﺮﻳ 0 ﻰﻠﻋ ﺕﻮﺼﻟﺍ<br>ﻭ ،ﻯﺮﺴﻴﻟﺍ ﺔﻋﺎﻤﺴﻟﺍ10 ﻰﻠﻋ<br>ﻭ ،ﻰﻨﻤﻴﻟﺍ5 ﻒﺼﺘﻨﻤﻟﺍ ﻲﻓ.",
+      "after": "ﻦﻴﻤﻴﻟﺍ ﻦﻴﺑ ﺕﻮﺼﻟﺍ ﻥﺯﺍﻮﺗ ﻂﺒﺿﺍ<br>10ﻭ ،ﺭﺎﺴﻴﻠﻟ 0 ﺔﻤﻴﻘﻟﺍ .ﺭﺎﺴﻴﻟﺍﻭ<br>.ﻒﺼﺘﻨﻤﻠﻟ 5ﻭ ،ﻦﻴﻤﻴﻠﻟ"
+    },
+    {
+      "key": "MENU_AUDIO_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط إعدادات الصوت.",
+      "before": "ﺔﻘﻠﻌﺘﻤﻟﺍ ﺕﺍﺭﺎﻴﺨﻟﺍ ﻂﺒﺿﺍ<br>ﺕﻮﺼﻟﺎﺑ.",
+      "after": ".ﺕﻮﺼﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ"
+    },
+    {
+      "key": "MENU_AUTOLEDGERECOVERY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يمنع السقوط غير المقصود من<br>الحواف الموجودة خارج مجال<br>الرؤية.",
+      "before": "ﺩﻮﺼﻘﻤﻟﺍ ﺮﻴﻏ ﻁﻮﻘﺴﻟﺍ ﻊﻨﻤﻳ<br>ﺔﺷﺎﺸﻟﺍ ﺝﺭﺎﺧ ﻑﺍﻮﺤﻟﺍ ﻦﻣ.",
+      "after": "ﻦﻣ ﺩﻮﺼﻘﻤﻟﺍ ﺮﻴﻏ ﻁﻮﻘﺴﻟﺍ ﻊﻨﻤﻳ<br>ﻝﺎﺠﻣ ﺝﺭﺎﺧ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻑﺍﻮﺤﻟﺍ<br>.ﺔﻳﺅﺮﻟﺍ"
+    },
+    {
+      "key": "MENU_AUTOLEDGERECOVERY_OPTION_ALWAYS",
+      "renderer": "game_visual_arabic",
+      "logical": "مفعل دائمًا",
+      "before": "ﻞﻌﻔﻣ ﺎﻤﺋﺍﺩ",
+      "after": "ﺎﻤﺋﺍﺩ ﻞﻌﻔﻣ"
+    },
+    {
+      "key": "MENU_AUTOLEDGERECOVERY_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "الحماية من السقوط خارج الشاشة",
+      "before": "ﺔﺷﺎﺸﻟﺍ ﺝﺭﺎﺧ ﻑﺍﻮﺤﻟﺍ ﺱﺭﺎﺣ",
+      "after": "ﺔﺷﺎﺸﻟﺍ ﺝﺭﺎﺧ ﻁﻮﻘﺴﻟﺍ ﻦﻣ ﺔﻳﺎﻤﺤﻟﺍ"
+    },
+    {
+      "key": "MENU_AUTOSWAP_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يبدل إلى السلاح التالي تلقائيًا<br>عند نفاد ذخيرة السلاح الحالي.",
+      "before": "ﺡﻼﺴﻟﺍ ﻰﻟﺇ ﺎﻴﺋﺎﻘﻠﺗ ﻝﺪﺒﻳ<br>ﺓﺮﻴﺧﺫ ﺩﺎﻔﻧ ﺪﻨﻋ ﻲﻟﺎﺘﻟﺍ<br>ﻲﻟﺎﺤﻟﺍ ﺡﻼﺴﻟﺍ.",
+      "after": "ﺎﻴﺋﺎﻘﻠﺗ ﻲﻟﺎﺘﻟﺍ ﺡﻼﺴﻟﺍ ﻰﻟﺇ ﻝﺪﺒﻳ<br>.ﻲﻟﺎﺤﻟﺍ ﺡﻼﺴﻟﺍ ﺓﺮﻴﺧﺫ ﺩﺎﻔﻧ ﺪﻨﻋ"
+    },
+    {
+      "key": "MENU_AUTOSWAP_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "التبديل التلقائي للسلاح",
+      "before": "ﻲﺋﺎﻘﻠﺘﻟﺍ ﺡﻼﺴﻟﺍ ﻞﻳﺪﺒﺗ",
+      "after": "ﺡﻼﺴﻠﻟ ﻲﺋﺎﻘﻠﺘﻟﺍ ﻞﻳﺪﺒﺘﻟﺍ"
+    },
+    {
+      "key": "MENU_BOOSTMODE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر بين الضغط المستمر للتسريع<br>والضغط مرة للتفعيل وأخرى<br>للإيقاف.",
+      "before": "ﻞﻤﻌﻳ ﻊﻳﺮﺴﺘﻟﺍ ﺀﺍﺮﺟﺇ ﻞﻌﺠﻳ<br>ﻭﺃ ﺮﻤﺘﺴﻤﻟﺍ ﻂﻐﻀﻟﺎﺑ<br>ﻞﻴﻐﺸﺘﻟﺍ ﻦﻴﺑ ﻞﻳﺪﺒﺘﻟﺎﺑ<br>ﻑﺎﻘﻳﻹﺍﻭ.",
+      "after": "ﻊﻳﺮﺴﺘﻠﻟ ﺮﻤﺘﺴﻤﻟﺍ ﻂﻐﻀﻟﺍ ﻦﻴﺑ ﺮﺘﺧﺍ<br>ﻯﺮﺧﺃﻭ ﻞﻴﻌﻔﺘﻠﻟ ﺓﺮﻣ ﻂﻐﻀﻟﺍﻭ<br>.ﻑﺎﻘﻳﻺﻟ"
+    },
+    {
+      "key": "MENU_BOSSSHADER_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يميز الزعماء بلون موحد.",
+      "before": "ﺔﻠﻠﻈﻣ ﺓﺩﺎﻣ ﻖﺒﻄﻳ (Shader)<br>ﺀﺍﺪﻋﺃ ﻊﻴﻤﺟ ﻰﻠﻋ ﺪﺣﺍﻭ ﻥﻮﻠﺑ<br>ﺀﺎﻤﻋﺰﻟﺍ.",
+      "after": ".ﺪﺣﻮﻣ ﻥﻮﻠﺑ ﺀﺎﻤﻋﺰﻟﺍ ﺰﻴﻤﻳ"
+    },
+    {
+      "key": "MENU_BOSSSHADER_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تمييز الزعماء",
+      "before": "ﺀﺎﻤﻋﺰﻠﻟ ﺔﻠﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ",
+      "after": "ﺀﺎﻤﻋﺰﻟﺍ ﺰﻴﻴﻤﺗ"
+    },
+    {
+      "key": "MENU_BRIGHTNESS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط سطوع الصورة. القيمة 0 هي<br>الأغمق، والقيمة 100 هي الأكثر<br>سطوعًا.",
+      "before": "ﻉﻮﻄﺴﻟﺍ ﻂﺒﺿﺍ. ﻂﺒﻀﻟﺍ 0 ﻮﻫ<br>ﻂﺒﻀﻟﺍﻭ ،ﻢﻠﻇﻷﺍ 100 ﻮﻫ<br>ﻊﻄﺳﻷﺍ.",
+      "after": "ﻲﻫ 0 ﺔﻤﻴﻘﻟﺍ .ﺓﺭﻮﺼﻟﺍ ﻉﻮﻄﺳ ﻂﺒﺿﺍ<br>ﺮﺜﻛﻷﺍ ﻲﻫ 100 ﺔﻤﻴﻘﻟﺍﻭ ،ﻖﻤﻏﻷﺍ<br>.ﺎﻋﻮﻄﺳ"
+    },
+    {
+      "key": "MENU_CAMERAFOLLOW_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يدير الكاميرا تلقائيًا لتبقى خلف<br>الشخصية أثناء الحركة.",
+      "before": "ﻒﻠﺧ ﺎﻴﺋﺎﻘﻠﺗ ﺍﺮﻴﻣﺎﻜﻟﺍ ﻱﺭﺍﺪﻳ<br>ﺔﻛﺮﺤﻟﺍ ﺀﺎﻨﺛﺃ ﻞﻄﺒﻟﺍ.",
+      "after": "ﻒﻠﺧ ﻰﻘﺒﺘﻟ ﺎﻴﺋﺎﻘﻠﺗ ﺍﺮﻴﻣﺎﻜﻟﺍ ﺮﻳﺪﻳ<br>.ﺔﻛﺮﺤﻟﺍ ﺀﺎﻨﺛﺃ ﺔﻴﺼﺨﺸﻟﺍ"
+    },
+    {
+      "key": "MENU_CAMSENSITIVITY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط سرعة حركة الكاميرا. تقل<br>السرعة عند خفض الحساسية وتزداد<br>عند رفعها.",
+      "before": "ﻢﻜﺤﺗ ﺔﻴﺳﺎﺴﺣ ﻂﺒﺿﺍ<br>ﺍﺮﻴﻣﺎﻜﻟﺍ. ﺕﺍﺩﺍﺪﻋﻹﺍ ﻞﻌﺠﺗ<br>ﻙﺮﺤﺘﺗ ﺍﺮﻴﻣﺎﻜﻟﺍ ﺔﻀﻔﺨﻨﻤﻟﺍ<br>ﺕﺍﺩﺍﺪﻋﻹﺍ ﺎﻬﻠﻌﺠﺗ ﺎﻤﻨﻴﺑ ،ﺀﻂﺒﺑ<br>ﺮﺒﻛﺃ ﺔﻋﺮﺴﺑ ﻙﺮﺤﺘﺗ ﺔﻴﻟﺎﻌﻟﺍ.",
+      "after": "ﻞﻘﺗ .ﺍﺮﻴﻣﺎﻜﻟﺍ ﺔﻛﺮﺣ ﺔﻋﺮﺳ ﻂﺒﺿﺍ<br>ﺩﺍﺩﺰﺗﻭ ﺔﻴﺳﺎﺴﺤﻟﺍ ﺾﻔﺧ ﺪﻨﻋ ﺔﻋﺮﺴﻟﺍ<br>.ﺎﻬﻌﻓﺭ ﺪﻨﻋ"
+    },
+    {
+      "key": "MENU_CAMSHAKE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يفعل اهتزاز الشاشة أثناء اللعب،<br>أو يعطله.",
+      "before": "ﺔﺷﺎﺸﻟﺍ ﺯﺍﺰﺘﻫﺍ ﻞﻄﻋ ﻭﺃ ﻞﻌﻓ<br>ﺐﻌﻠﻟﺍ ﺀﺎﻨﺛﺃ.",
+      "after": "،ﺐﻌﻠﻟﺍ ﺀﺎﻨﺛﺃ ﺔﺷﺎﺸﻟﺍ ﺯﺍﺰﺘﻫﺍ ﻞﻌﻔﻳ<br>.ﻪﻠﻄﻌﻳ ﻭﺃ"
+    },
+    {
+      "key": "MENU_CHROMATICABERRATION_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يحاكي انحراف الألوان عند حواف<br>الصورة لإضفاء مظهر سينمائي.",
+      "before": "ﻲﻧﻮﻠﻟﺍ ﻑﺍﺮﺤﻧﻻﺍ ﻞﻌﻔﻳ<br>(Chromatic Aberration). ﺢﻨﻤﻳ<br>ﻝﺪﺒﺘﺗ ﺎﻴﺋﺎﻤﻨﻴﺳ ﺍﺮﻴﺛﺄﺗ<br>ﺎﻔﻴﻔﻃ ﺎﺣﺎﻳﺰﻧﺍ ﻥﺍﻮﻟﻷﺍ ﻪﻴﻓ<br>ﻑﺍﻮﺣ ﺪﻨﻋ ﺰﻴﻛﺮﺘﻟﺍ ﻦﻋ ﺝﺮﺨﺗﻭ<br>ﺓﺭﻮﺼﻟﺍ.",
+      "after": "ﻑﺍﻮﺣ ﺪﻨﻋ ﻥﺍﻮﻟﻷﺍ ﻑﺍﺮﺤﻧﺍ ﻲﻛﺎﺤﻳ<br>.ﻲﺋﺎﻤﻨﻴﺳ ﺮﻬﻈﻣ ﺀﺎﻔﺿﻹ ﺓﺭﻮﺼﻟﺍ"
+    },
+    {
+      "key": "MENU_COLLECTSHADER_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يميز المقتنيات بلون موحد لتسهيل<br>رؤيتها، مثل الراريتانيوم<br>وروبوتات التجسس والمسامير<br>الذهبية.",
+      "before": "ﺔﻠﻠﻈﻣ ﺓﺩﺎﻣ ﻖﺒﻄﻳ (Shader)<br>ﺮﺻﺎﻨﻌﻟﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ﻥﻮﻠﺑ<br>ﻦﻴﺴﺤﺘﻟ ﻊﻤﺠﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ<br>ﺎﻬﺣﻮﺿﻭ. ﺮﺻﺎﻨﻌﻟﺍ ﻩﺬﻫ ﻞﻤﺸﺗﻭ<br>ﺕﺎﺗﻮﺒﻳﺎﺒﺴﻟﺍﻭ ﻡﻮﻴﻧﺎﺘﻳﺭﺍﺮﻟﺍ<br>ﺐﻫﺬﻟﺍ ﺮﻴﻣﺎﺴﻣﻭ.",
+      "after": "ﻞﻴﻬﺴﺘﻟ ﺪﺣﻮﻣ ﻥﻮﻠﺑ ﺕﺎﻴﻨﺘﻘﻤﻟﺍ ﺰﻴﻤﻳ<br>ﻡﻮﻴﻧﺎﺘﻳﺭﺍﺮﻟﺍ ﻞﺜﻣ ،ﺎﻬﺘﻳﺅﺭ<br>ﺮﻴﻣﺎﺴﻤﻟﺍﻭ ﺲﺴﺠﺘﻟﺍ ﺕﺎﺗﻮﺑﻭﺭﻭ<br>.ﺔﻴﺒﻫﺬﻟﺍ"
+    },
+    {
+      "key": "MENU_COLLECTSHADER_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تمييز المقتنيات",
+      "before": "ﺮﺻﺎﻨﻌﻠﻟ ﺔﻠﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ",
+      "after": "ﺕﺎﻴﻨﺘﻘﻤﻟﺍ ﺰﻴﻴﻤﺗ"
+    },
+    {
+      "key": "MENU_COLOR_OPTION_MAGENTA",
+      "renderer": "game_visual_arabic",
+      "logical": "أرجواني",
+      "before": "ﻱﺰﻣﺮﻗ",
+      "after": "ﻲﻧﺍﻮﺟﺭﺃ"
+    },
+    {
+      "key": "MENU_COMPLETIONTIME_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعرض الزمن المستغرق لإكمال القصة<br>الرئيسية.",
+      "before": "ﻲﻀﻘﻨﻤﻟﺍ ﺖﻗﻮﻟﺍ ﺭﺍﺪﻘﻣ ﺽﺮﻌﻳ<br>ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﺼﻘﻟﺍ ﻡﺎﻤﺗﺇ ﺪﻨﻋ.",
+      "after": "ﺔﺼﻘﻟﺍ ﻝﺎﻤﻛﻹ ﻕﺮﻐﺘﺴﻤﻟﺍ ﻦﻣﺰﻟﺍ ﺽﺮﻌﻳ<br>.ﺔﻴﺴﻴﺋﺮﻟﺍ"
+    },
+    {
+      "key": "MENU_COMPLETIONTIME_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "زمن إكمال القصة",
+      "before": "ﺯﺎﺠﻧﻹﺍ ﺖﻗﻭ",
+      "after": "ﺔﺼﻘﻟﺍ ﻝﺎﻤﻛﺇ ﻦﻣﺯ"
+    },
+    {
+      "key": "MENU_CONTRASTOPTIONS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "استخدم الإعدادات المسبقة أو خصص<br>ألوان تمييز العناصر والتباين<br>العالي لتسهيل رؤيتها.",
+      "before": "ﺩﺍﻮﻤﻠﻟ ﺕﺍﺭﺎﻴﺧ ﺓﺪﻋ ﻞﻌﻓ<br>ﺔﻠﻠﻈﻤﻟﺍ (Shaders) ﻦﻳﺎﺒﺘﻟﺍﻭ<br>ﻰﻠﻋ ﺓﺪﻋﺎﺴﻤﻠﻟ ﻲﻟﺎﻌﻟﺍ<br>ﺡﻮﺿﻮﻟﺍ. ﺕﺍﺩﺍﺪﻋﻹﺍ ﻡﺪﺨﺘﺳﺍ<br>ﺩﺍﺪﻋﺇ ﻞﻛ ﺺﺼﺧ ﻭﺃ ﺔﻘﺒﺴﻤﻟﺍ<br>ﺓﺪﺣ ﻰﻠﻋ.",
+      "after": "ﺺﺼﺧ ﻭﺃ ﺔﻘﺒﺴﻤﻟﺍ ﺕﺍﺩﺍﺪﻋﻹﺍ ﻡﺪﺨﺘﺳﺍ<br>ﻦﻳﺎﺒﺘﻟﺍﻭ ﺮﺻﺎﻨﻌﻟﺍ ﺰﻴﻴﻤﺗ ﻥﺍﻮﻟﺃ<br>.ﺎﻬﺘﻳﺅﺭ ﻞﻴﻬﺴﺘﻟ ﻲﻟﺎﻌﻟﺍ"
+    },
+    {
+      "key": "MENU_CONTRAST_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط تباين الصورة. القيمة 0 هي<br>الأدنى، والقيمة 10 هي الأعلى.",
+      "before": "ﻲﻓ ﻦﻳﺎﺒﺘﻟﺍ ﺓﺪﺷ ﻂﺒﺿﺍ<br>ﺓﺭﻮﺼﻟﺍ. ﻂﺒﻀﻟﺍ 0 ،ﻰﻧﺩﻷﺍ ﻮﻫ<br>ﻂﺒﻀﻟﺍﻭ 10 ﻰﻠﻋﻷﺍ ﻮﻫ.",
+      "after": "ﻲﻫ 0 ﺔﻤﻴﻘﻟﺍ .ﺓﺭﻮﺼﻟﺍ ﻦﻳﺎﺒﺗ ﻂﺒﺿﺍ<br>.ﻰﻠﻋﻷﺍ ﻲﻫ 10 ﺔﻤﻴﻘﻟﺍﻭ ،ﻰﻧﺩﻷﺍ"
+    },
+    {
+      "key": "MENU_CONTROLLERLAYOUT_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اعرض توزيع أزرار جهاز التحكم<br>وخصص وظائفها.",
+      "before": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻂﻴﻄﺨﺗ ﺽﺮﻌﺘﺳﺍ<br>ﺭﺍﺭﺯﻷﺍ ﻦﻴﻴﻌﺗ ﺪﻋﺃﻭ.",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺭﺍﺭﺯﺃ ﻊﻳﺯﻮﺗ ﺽﺮﻋﺍ<br>.ﺎﻬﻔﺋﺎﻇﻭ ﺺﺼﺧﻭ"
+    },
+    {
+      "key": "MENU_CONTROLSPEAKER_OPTION_NONE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعطل مكبر صوت جهاز التحكم.",
+      "before": "ﻞﻄﻌﻣ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺮﺒﻜﻣ.",
+      "after": ".ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﺮﺒﻜﻣ ﻞﻄﻌﻳ"
+    },
+    {
+      "key": "MENU_CONTROLSPEAKER_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "مكبر صوت جهاز التحكم",
+      "before": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺮﺒﻜﻣ",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﺮﺒﻜﻣ"
+    },
+    {
+      "key": "MENU_CONTROLSPEAKER_VOL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط مستوى الصوت الصادر من مكبر<br>جهاز التحكم.",
+      "before": "ﺭﺩﺎﺼﻟﺍ ﺕﻮﺼﻟﺍ ﻯﻮﺘﺴﻣ ﻂﺒﺿﺍ<br>ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺮﺒﻜﻣ ﻦﻣ.",
+      "after": "ﺮﺒﻜﻣ ﻦﻣ ﺭﺩﺎﺼﻟﺍ ﺕﻮﺼﻟﺍ ﻯﻮﺘﺴﻣ ﻂﺒﺿﺍ<br>.ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ"
+    },
+    {
+      "key": "MENU_CONTROLSPEAKER_VOL_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "مستوى صوت جهاز التحكم",
+      "before": "ﺯﺎﻬﺟ ﺮﺒﻜﻣ ﺕﻮﺻ ﻯﻮﺘﺴﻣ<br>ﻢﻜﺤﺘﻟﺍ",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺕﻮﺻ ﻯﻮﺘﺴﻣ"
+    },
+    {
+      "key": "MENU_CONTROLS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اعرض توزيع أزرار جهاز التحكم<br>وخصص وظائفها والاختصارات.",
+      "before": "،ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻂﻴﻄﺨﺗ ﺽﺮﻌﺘﺳﺍ<br>ﻦﻴﻋﻭ ،ﺭﺍﺭﺯﻷﺍ ﻦﻴﻴﻌﺗ ﺪﻋﺃﻭ<br>ﺕﺍﺭﺎﺼﺘﺧﻻﺍ.",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺭﺍﺭﺯﺃ ﻊﻳﺯﻮﺗ ﺽﺮﻋﺍ<br>.ﺕﺍﺭﺎﺼﺘﺧﻻﺍﻭ ﺎﻬﻔﺋﺎﻇﻭ ﺺﺼﺧﻭ"
+    },
+    {
+      "key": "MENU_CONTROLS_DESC_ALT",
+      "renderer": "game_visual_arabic",
+      "logical": "اعرض توزيع أزرار جهاز التحكم<br>وخصص الاختصارات.",
+      "before": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻂﻴﻄﺨﺗ ﺽﺮﻌﺘﺳﺍ<br>ﺕﺍﺭﺎﺼﺘﺧﻻﺍ ﻦﻴﻋﻭ.",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺭﺍﺭﺯﺃ ﻊﻳﺯﻮﺗ ﺽﺮﻋﺍ<br>.ﺕﺍﺭﺎﺼﺘﺧﻻﺍ ﺺﺼﺧﻭ"
+    },
+    {
+      "key": "MENU_CONTROLS_DESC_DAY1",
+      "renderer": "game_visual_arabic",
+      "logical": "اعرض توزيع أزرار جهاز التحكم<br>وخصص وظائفها والاختصارات<br>وإعدادات الكاميرا.",
+      "before": "،ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻂﻴﻄﺨﺗ ﺽﺮﻌﺘﺳﺍ<br>ﻦﻴﻋﻭ ،ﺭﺍﺭﺯﻷﺍ ﻦﻴﻴﻌﺗ ﺪﻋﺃﻭ<br>ﺕﺍﺭﺎﻴﺧ ﻂﺒﺿﺍﻭ ،ﺕﺍﺭﺎﺼﺘﺧﻻﺍ<br>ﺍﺮﻴﻣﺎﻜﻟﺍ.",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺭﺍﺭﺯﺃ ﻊﻳﺯﻮﺗ ﺽﺮﻋﺍ<br>ﺕﺍﺭﺎﺼﺘﺧﻻﺍﻭ ﺎﻬﻔﺋﺎﻇﻭ ﺺﺼﺧﻭ<br>.ﺍﺮﻴﻣﺎﻜﻟﺍ ﺕﺍﺩﺍﺪﻋﺇﻭ"
+    },
+    {
+      "key": "MENU_DELETESAVE_BODY",
+      "renderer": "game_visual_arabic",
+      "logical": "سيؤدي حذف ملف الحفظ هذا إلى<br>فقدان كل التقدم المسجل فيه<br>نهائيًا.",
+      "before": "ﻆﻔﺤﻟﺍ ﺍﺬﻫ ﺕﺎﻧﺎﻴﺑ ﻑﺬﺣ<br>ﻲﻓ ﻚﻣﺪﻘﺗ ﻞﻛ ﻮﺤﻤﻴﺳ<br>ﺎﻴﺋﺎﻬﻧ ﺔﺒﻌﻠﻟﺍ.",
+      "after": "ﻰﻟﺇ ﺍﺬﻫ ﻆﻔﺤﻟﺍ ﻒﻠﻣ ﻑﺬﺣ ﻱﺩﺆﻴﺳ<br>ﻪﻴﻓ ﻞﺠﺴﻤﻟﺍ ﻡﺪﻘﺘﻟﺍ ﻞﻛ ﻥﺍﺪﻘﻓ<br>.ﺎﻴﺋﺎﻬﻧ"
+    },
+    {
+      "key": "MENU_DEPTHOFFIELDENABLED_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يموه العناصر الواقعة خارج نطاق<br>تركيز الكاميرا. يزداد التمويه<br>كلما ابتعد العنصر عن نقطة<br>التركيز.",
+      "before": "ﺽﻮﻤﻐﻟﺍ ﺮﻴﺛﺄﺗ ﻞﻄﻋ ﻭﺃ ﻞﻌﻓ<br>(ﺔﻴﺑﺎﺒﻀﻟﺍ) ﺝﺭﺎﺧ ﺕﺎﻨﺋﺎﻜﻠﻟ<br>ﺍﺮﻴﻣﺎﻜﻟﺍ ﺰﻴﻛﺮﺗ ﻕﺎﻄﻧ. ﺪﻨﻋ<br>ﻦﺋﺎﻜﻟﺍ ﺪﻌﺘﺑﺍ ﺎﻤﻠﻛ ،ﻞﻴﻌﻔﺘﻟﺍ<br>ﻞﻗ ﺍﺮﻴﻣﺎﻜﻟﺍ ﺰﻴﻛﺮﺗ ﺔﻄﻘﻧ ﻦﻋ<br>ﻪﻠﻴﺻﺎﻔﺗ ﺡﻮﺿﻭ.",
+      "after": "ﻕﺎﻄﻧ ﺝﺭﺎﺧ ﺔﻌﻗﺍﻮﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻩﻮﻤﻳ<br>ﻪﻳﻮﻤﺘﻟﺍ ﺩﺍﺩﺰﻳ .ﺍﺮﻴﻣﺎﻜﻟﺍ ﺰﻴﻛﺮﺗ<br>ﺔﻄﻘﻧ ﻦﻋ ﺮﺼﻨﻌﻟﺍ ﺪﻌﺘﺑﺍ ﺎﻤﻠﻛ<br>.ﺰﻴﻛﺮﺘﻟﺍ"
+    },
+    {
+      "key": "MENU_DIFFICULTY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر مستوى صعوبة اللعبة.",
+      "before": "ﺔﺒﻌﻠﻟﺍ ﺔﺑﻮﻌﺻ ﺩﺪﺣ.",
+      "after": ".ﺔﺒﻌﻠﻟﺍ ﺔﺑﻮﻌﺻ ﻯﻮﺘﺴﻣ ﺮﺘﺧﺍ"
+    },
+    {
+      "key": "MENU_DIFFICULTY_OPTION_EASY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "للمبتدئين ومن يفضلون التركيز على<br>القصة.",
+      "before": "ﺔﻠﻄﺑﻭ ﻦﻴﺋﺪﺘﺒﻤﻠﻟ ﻲﻟﺎﺜﻣ<br>ﺰﻴﻛﺮﺘﻟﺍ ﻥﻭﺪﻳﺮﻳ ﻦﻳﺬﻟﺍ ﺓﺍﻮﻬﻟﺍ<br>ﺔﺼﻘﻟﺍ ﻰﻠﻋ.",
+      "after": "ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﻥﻮﻠﻀﻔﻳ ﻦﻣﻭ ﻦﻴﺋﺪﺘﺒﻤﻠﻟ<br>.ﺔﺼﻘﻟﺍ"
+    },
+    {
+      "key": "MENU_DIFFICULTY_OPTION_HARDEST_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "لمن يريدون مواجهة أشرس الأعداء<br>في جميع الأبعاد!",
+      "before": "ﺪﺷﺃ ﺔﻬﺟﺍﻮﻣ ﻥﻭﺪﻳﺮﻳ ﻦﻤﻠﻟ<br>ﺪﻌﺑ ﻱﺃ ﻲﻓ ﺔﻴﺸﺣﻭ ﺀﺍﺪﻋﻷﺍ!",
+      "after": "ﺀﺍﺪﻋﻷﺍ ﺱﺮﺷﺃ ﺔﻬﺟﺍﻮﻣ ﻥﻭﺪﻳﺮﻳ ﻦﻤﻟ<br>!ﺩﺎﻌﺑﻷﺍ ﻊﻴﻤﺟ ﻲﻓ"
+    },
+    {
+      "key": "MENU_DIFFICULTY_OPTION_HARD_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "لمن يبحثون عن تحد أكبر، مع أعداء<br>أقوى ومواجهات تتطلب استجابة<br>أسرع.",
+      "before": "،ﺮﺒﻛﺃ ﺪﺤﺗ ﻦﻋ ﻥﻮﺜﺤﺒﻳ ﻦﻤﻠﻟ<br>ﺪﺿ ﻉﺮﺳﺃ ﻝﺎﻌﻓﺃ ﺩﻭﺩﺭ ﺐﻠﻄﺘﻳ<br>ﺓﻮﺴﻗ ﺪﺷﺃ ﺀﺍﺪﻋﺃ.",
+      "after": "ﺀﺍﺪﻋﺃ ﻊﻣ ،ﺮﺒﻛﺃ ﺪﺤﺗ ﻦﻋ ﻥﻮﺜﺤﺒﻳ ﻦﻤﻟ<br>ﺔﺑﺎﺠﺘﺳﺍ ﺐﻠﻄﺘﺗ ﺕﺎﻬﺟﺍﻮﻣﻭ ﻯﻮﻗﺃ<br>.ﻉﺮﺳﺃ"
+    },
+    {
+      "key": "MENU_DIFFICULTY_OPTION_NORMAL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "تجربة متوازنة للاعبين ذوي<br>الخبرة.",
+      "before": "ﺮﺜﻛﻷﺍ ﻦﻴﺒﻋﻼﻟ ﻥﺯﺍﻮﺘﻣ ﺭﺎﻴﺧ<br>ﺓﺮﺒﺧ.",
+      "after": "ﻱﻭﺫ ﻦﻴﺒﻋﻼﻟ ﺔﻧﺯﺍﻮﺘﻣ ﺔﺑﺮﺠﺗ<br>.ﺓﺮﺒﺨﻟﺍ"
+    },
+    {
+      "key": "MENU_DIFFICULTY_OPTION_SUPEREASY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "لمن يفضلون التركيز على القصة. لا<br>تموت الشخصية أثناء القتال في هذا<br>المستوى.",
+      "before": "ﺔﻠﻄﺑﻭ ﻦﻴﺋﺪﺘﺒﻤﻠﻟ ﻲﻟﺎﺜﻣ<br>ﺰﻴﻛﺮﺘﻟﺍ ﻥﻭﺪﻳﺮﻳ ﻦﻳﺬﻟﺍ ﺓﺍﻮﻬﻟﺍ<br>ﺔﺼﻘﻟﺍ ﻰﻠﻋ. ﻥﺃ ﻦﻜﻤﻳ ﻻ<br>ﻝﺎﺘﻘﻟﺍ ﺀﺎﻨﺛﺃ ﻞﻄﺒﻟﺍ ﺕﻮﻤﻳ.",
+      "after": "ﻻ .ﺔﺼﻘﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﻥﻮﻠﻀﻔﻳ ﻦﻤﻟ<br>ﺍﺬﻫ ﻲﻓ ﻝﺎﺘﻘﻟﺍ ﺀﺎﻨﺛﺃ ﺔﻴﺼﺨﺸﻟﺍ ﺕﻮﻤﺗ<br>.ﻯﻮﺘﺴﻤﻟﺍ"
+    },
+    {
+      "key": "MENU_DISABLEFULLSCREENFX_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يفعل مؤثرات الشاشة مثل وهج<br>العدسة والتموج الحراري وقطرات<br>المطر وتأثيرات الغاز، أو يعطلها.",
+      "before": "ﺔﻳﺮﺼﺒﻟﺍ ﺕﺍﺮﺛﺅﻢﻟﺍ ﻞﻄﻋ ﻭﺃ ﻞﻌﻓ<br>ﺀﺎﻨﺛﺃ ﺔﺷﺎﺸﻠﻟ ﺔﻠﻣﺎﺸﻟﺍ<br>ﺔﺳﺪﻌﻟﺍ ﺞﻫﻭ ﻞﺜﻣ ،ﺐﻌﻠﻟﺍ (Lens<br>Flare) ﺕﺍﺮﻄﻗﻭ ﺓﺭﺍﺮﺤﻟﺍ ﺯﺍﺰﺘﻫﺍﻭ<br>ﺕﺍﺮﺛﺅﻡﻭ ﺍﺮﻴﻣﺎﻜﻟﺍ ﻰﻠﻋ ﺮﻄﻤﻟﺍ<br>ﺯﺎﻐﻟﺍ.",
+      "after": "ﺞﻫﻭ ﻞﺜﻣ ﺔﺷﺎﺸﻟﺍ ﺕﺍﺮﺛﺆﻣ ﻞﻌﻔﻳ<br>ﺕﺍﺮﻄﻗﻭ ﻱﺭﺍﺮﺤﻟﺍ ﺝﻮﻤﺘﻟﺍﻭ ﺔﺳﺪﻌﻟﺍ<br>.ﺎﻬﻠﻄﻌﻳ ﻭﺃ ،ﺯﺎﻐﻟﺍ ﺕﺍﺮﻴﺛﺄﺗﻭ ﺮﻄﻤﻟﺍ"
+    },
+    {
+      "key": "MENU_DISABLETUTORIALS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعطل جميع الإرشادات التعليمية.",
+      "before": "ﺱﻭﺭﺪﻟﺍ ﻊﻴﻤﺟ ﻞﻄﻌﻳ<br>ﺔﻴﻤﻴﻠﻌﺘﻟﺍ.",
+      "after": ".ﺔﻴﻤﻴﻠﻌﺘﻟﺍ ﺕﺍﺩﺎﺷﺭﻹﺍ ﻊﻴﻤﺟ ﻞﻄﻌﻳ"
+    },
+    {
+      "key": "MENU_DISABLETUTORIALS_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تعطيل الإرشادات التعليمية",
+      "before": "ﺔﻴﻤﻴﻠﻌﺘﻟﺍ ﺱﻭﺭﺪﻟﺍ ﻞﻴﻄﻌﺗ",
+      "after": "ﺔﻴﻤﻴﻠﻌﺘﻟﺍ ﺕﺍﺩﺎﺷﺭﻹﺍ ﻞﻴﻄﻌﺗ"
+    },
+    {
+      "key": "MENU_EASYAIM_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يثبت التصويب على الأهداف عند<br>الدخول في وضع التصويب.",
+      "before": "ﺪﻨﻋ ﻑﺍﺪﻫﻷﺎﺑ ﻖﺼﺘﻠﻳ<br>ﺐﻳﻮﺼﺘﻟﺍ ﻊﺿﻭ ﻞﻴﻌﻔﺗ.",
+      "after": "ﺪﻨﻋ ﻑﺍﺪﻫﻷﺍ ﻰﻠﻋ ﺐﻳﻮﺼﺘﻟﺍ ﺖﺒﺜﻳ<br>.ﺐﻳﻮﺼﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻝﻮﺧﺪﻟﺍ"
+    },
+    {
+      "key": "MENU_EASYAIM_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "التثبيت التلقائي على الهدف",
+      "before": "ﺯﺰﻌﻣ ﻲﺋﺎﻘﻠﺗ ﺐﻳﻮﺼﺗ",
+      "after": "ﻑﺪﻬﻟﺍ ﻰﻠﻋ ﻲﺋﺎﻘﻠﺘﻟﺍ ﺖﻴﺒﺜﺘﻟﺍ"
+    },
+    {
+      "key": "MENU_EMPHASISCOLOR_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "لون النص المميز",
+      "before": "ﺰﻴﻴﻤﺘﻟﺍ ﺺﻧ ﻥﻮﻟ",
+      "after": "ﺰﻴﻤﻤﻟﺍ ﺺﻨﻟﺍ ﻥﻮﻟ"
+    },
+    {
+      "key": "MENU_ENEMYSHADER_BASIC_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يميز الأعداء العاديين بلون موحد.",
+      "before": "ﺔﻠﻠﻈﻣ ﺓﺩﺎﻣ ﻖﺒﻄﻳ (Shader)<br>ﺀﺍﺪﻋﻷﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﺪﺣﺍﻭ ﻥﻮﻠﺑ<br>ﻦﻴﻳﺩﺎﻌﻟﺍ.",
+      "after": ".ﺪﺣﻮﻣ ﻥﻮﻠﺑ ﻦﻴﻳﺩﺎﻌﻟﺍ ﺀﺍﺪﻋﻷﺍ ﺰﻴﻤﻳ"
+    },
+    {
+      "key": "MENU_ENEMYSHADER_BASIC_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تمييز الأعداء العاديين",
+      "before": "ﺔﻴﺳﺎﺳﻷﺍ ﺔﻠﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ",
+      "after": "ﻦﻴﻳﺩﺎﻌﻟﺍ ﺀﺍﺪﻋﻷﺍ ﺰﻴﻴﻤﺗ"
+    },
+    {
+      "key": "MENU_ENEMYSHADER_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يميز الأعداء بلون موحد لتسهيل<br>رؤيتهم. يمكنك أيضًا اختيار لون<br>مختلف لكل فئة.",
+      "before": "ﺔﻠﻠﻈﻣ ﺓﺩﺎﻣ ﻖﺒﻄﻳ (Shader)<br>ﺀﺍﺪﻋﻷﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ﺐﻠﺻ ﻥﻮﻠﺑ<br>ﻢﻬﺣﻮﺿﻭ ﻦﻴﺴﺤﺘﻟ. ﻊﻴﻤﺟ ﻞﻌﺟﺍ<br>ﺎﻬﺼﺼﺧ ﻭﺃ ،ﺪﺣﺍﻭ ﻥﻮﻠﺑ ﺀﺍﺪﻋﻷﺍ<br>ﺐﺴﺣ ﺔﻔﻠﺘﺨﻣ ﻥﺍﻮﻟﺃ ﻂﺒﻀﻟ<br>ﺔﻋﻮﻤﺠﻤﻟﺍ ﻉﻮﻧ.",
+      "after": "ﻞﻴﻬﺴﺘﻟ ﺪﺣﻮﻣ ﻥﻮﻠﺑ ﺀﺍﺪﻋﻷﺍ ﺰﻴﻤﻳ<br>ﻥﻮﻟ ﺭﺎﻴﺘﺧﺍ ﺎﻀﻳﺃ ﻚﻨﻜﻤﻳ .ﻢﻬﺘﻳﺅﺭ<br>.ﺔﺌﻓ ﻞﻜﻟ ﻒﻠﺘﺨﻣ"
+    },
+    {
+      "key": "MENU_ENEMYSHADER_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تمييز الأعداء",
+      "before": "ﺀﺍﺪﻋﻸﻟ ﺔﻠﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ",
+      "after": "ﺀﺍﺪﻋﻷﺍ ﺰﻴﻴﻤﺗ"
+    },
+    {
+      "key": "MENU_ENGLISH_VO_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "الأصوات الإنجليزية",
+      "before": "ﻱﺰﻴﻠﺠﻧﺇ ﺕﻮﺻ",
+      "after": "ﺔﻳﺰﻴﻠﺠﻧﻹﺍ ﺕﺍﻮﺻﻷﺍ"
+    },
+    {
+      "key": "MENU_FILMGRAIN_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط شدة التحبب السينمائي.<br>القيمة 0 هي الأدنى، والقيمة 10<br>هي الأعلى.",
+      "before": "ﺕﺎﺒﻴﺒﺣ ﺮﻴﺛﺄﺗ ﺓﺪﺷ ﻂﺒﺿﺍ<br>ﻢﻠﻴﻔﻟﺍ. ﻂﺒﻀﻟﺍ 0 ،ﻰﻧﺩﻷﺍ ﻮﻫ<br>ﻂﺒﻀﻟﺍﻭ 10 ﻰﻠﻋﻷﺍ ﻮﻫ.",
+      "after": ".ﻲﺋﺎﻤﻨﻴﺴﻟﺍ ﺐﺒﺤﺘﻟﺍ ﺓﺪﺷ ﻂﺒﺿﺍ<br>10 ﺔﻤﻴﻘﻟﺍﻭ ،ﻰﻧﺩﻷﺍ ﻲﻫ 0 ﺔﻤﻴﻘﻟﺍ<br>.ﻰﻠﻋﻷﺍ ﻲﻫ"
+    },
+    {
+      "key": "MENU_FILMGRAIN_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "التحبب السينمائي",
+      "before": "ﻢﻠﻴﻔﻟﺍ ﺕﺎﺒﻴﺒﺣ",
+      "after": "ﻲﺋﺎﻤﻨﻴﺴﻟﺍ ﺐﺒﺤﺘﻟﺍ"
+    },
+    {
+      "key": "MENU_FLIGHTSTICK_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر العصا اليسرى أو اليمنى<br>للتحكم بالطيران.",
+      "before": "ﻢﻜﺤﺘﻟﺍ ﺎﺼﻋ ﻡﺍﺪﺨﺘﺳﺍ ﺮﺘﺧﺍ<br>ﺕﺎﻤﻜﺤﺘﻟ ﻰﻨﻤﻴﻟﺍ ﻭﺃ ﻯﺮﺴﻴﻟﺍ<br>ﻥﺍﺮﻴﻄﻟﺍ.",
+      "after": "ﻰﻨﻤﻴﻟﺍ ﻭﺃ ﻯﺮﺴﻴﻟﺍ ﺎﺼﻌﻟﺍ ﺮﺘﺧﺍ<br>.ﻥﺍﺮﻴﻄﻟﺎﺑ ﻢﻜﺤﺘﻠﻟ"
+    },
+    {
+      "key": "MENU_FLIGHTSTICK_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "عصا التحكم بالطيران",
+      "before": "ﻥﺍﺮﻴﻄﻠﻟ ﻢﻜﺤﺘﻟﺍ ﺎﺼﻋ",
+      "after": "ﻥﺍﺮﻴﻄﻟﺎﺑ ﻢﻜﺤﺘﻟﺍ ﺎﺼﻋ"
+    },
+    {
+      "key": "MENU_FLIGHT_INVERTX_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعكس اتجاه التحكم بالطيران<br>أفقيًا.",
+      "before": "ﻦﻴﻤﻴﻟﺍ ﻲﻫﺎﺠﺗﺍ ﺲﻜﻌﻳ<br>ﺍﺮﻴﻣﺎﻛ ﺕﺎﻤﻜﺤﺗ ﻲﻓ ﺭﺎﺴﻴﻟﺍﻭ<br>ﻥﺍﺮﻴﻄﻟﺍ.",
+      "after": "ﻥﺍﺮﻴﻄﻟﺎﺑ ﻢﻜﺤﺘﻟﺍ ﻩﺎﺠﺗﺍ ﺲﻜﻌﻳ<br>.ﺎﻴﻘﻓﺃ"
+    },
+    {
+      "key": "MENU_FLIGHT_INVERTX_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "عكس الطيران الأفقي",
+      "before": "ﺎﻨﻴﻤﻳ ﻥﺍﺮﻴﻄﻟﺍ ﺲﻜﻋ/ﺍﺭﺎﺴﻳ",
+      "after": "ﻲﻘﻓﻷﺍ ﻥﺍﺮﻴﻄﻟﺍ ﺲﻜﻋ"
+    },
+    {
+      "key": "MENU_FLIGHT_INVERTY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعكس اتجاه التحكم بالطيران<br>رأسيًا.",
+      "before": "ﻰﻠﻋﻷﺍ ﻲﻫﺎﺠﺗﺍ ﺲﻜﻌﻳ<br>ﺍﺮﻴﻣﺎﻛ ﺕﺎﻤﻜﺤﺗ ﻲﻓ ﻞﻔﺳﻷﺍﻭ<br>ﻥﺍﺮﻴﻄﻟﺍ.",
+      "after": "ﻥﺍﺮﻴﻄﻟﺎﺑ ﻢﻜﺤﺘﻟﺍ ﻩﺎﺠﺗﺍ ﺲﻜﻌﻳ<br>.ﺎﻴﺳﺃﺭ"
+    },
+    {
+      "key": "MENU_FLIGHT_INVERTY_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "عكس الطيران الرأسي",
+      "before": "ﻰﻠﻋﺃ ﻥﺍﺮﻴﻄﻟﺍ ﺲﻜﻋ/ﻞﻔﺳﺃ",
+      "after": "ﻲﺳﺃﺮﻟﺍ ﻥﺍﺮﻴﻄﻟﺍ ﺲﻜﻋ"
+    },
+    {
+      "key": "MENU_GAMEPAD_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "خصص أزرار جهاز التحكم<br>والاختصارات والكاميرا والاهتزاز<br>والزنادات التكيفية.",
+      "before": "،ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻂﻴﻄﺨﺗ ﺽﺮﻌﺘﺳﺍ<br>ﻦﻴﻋﻭ ،ﺭﺍﺭﺯﻷﺍ ﻦﻴﻴﻌﺗ ﺪﻋﺃﻭ<br>ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍﻭ ،ﺕﺍﺭﺎﺼﺘﺧﻻﺍ<br>ﺕﺍﺩﺪﺴﻤﻟﺍﻭ ﺯﺍﺰﺘﻫﻻﺍﻭ ﺍﺮﻴﻣﺎﻜﻟﺍ<br>ﺔﻴﻔﻴﻜﺘﻟﺍ.",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺭﺍﺭﺯﺃ ﺺﺼﺧ<br>ﺯﺍﺰﺘﻫﻻﺍﻭ ﺍﺮﻴﻣﺎﻜﻟﺍﻭ ﺕﺍﺭﺎﺼﺘﺧﻻﺍﻭ<br>.ﺔﻴﻔﻴﻜﺘﻟﺍ ﺕﺍﺩﺎﻧﺰﻟﺍﻭ"
+    },
+    {
+      "key": "MENU_GAME_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط إعدادات اللعب والكاميرا<br>والقتال والحركة.",
+      "before": "ﺍﺮﻴﻣﺎﻜﻟﺍﻭ ﺐﻌﻠﻟﺍ ﺕﺍﺭﺎﻴﺧ ﻂﺒﺿﺍ<br>ﺔﻛﺮﺤﻟﺍﻭ ﻝﺎﺘﻘﻟﺍﻭ.",
+      "after": "ﺍﺮﻴﻣﺎﻜﻟﺍﻭ ﺐﻌﻠﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ<br>.ﺔﻛﺮﺤﻟﺍﻭ ﻝﺎﺘﻘﻟﺍﻭ"
+    },
+    {
+      "key": "MENU_GAME_DESC_DAY1",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط إعدادات اللعب والقتال<br>والحركة.",
+      "before": "ﻝﺎﺘﻘﻟﺍﻭ ﺐﻌﻠﻟﺍ ﺕﺍﺭﺎﻴﺧ ﻂﺒﺿﺍ<br>ﺔﻛﺮﺤﻟﺍﻭ.",
+      "after": "ﻝﺎﺘﻘﻟﺍﻭ ﺐﻌﻠﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ<br>.ﺔﻛﺮﺤﻟﺍﻭ"
+    },
+    {
+      "key": "MENU_GRINDASSIST_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يبطئ الوقت تلقائيًا عند الاقتراب<br>من خطر أثناء الانزلاق على<br>القضبان.",
+      "before": "ﺪﻨﻋ ﺎﻴﺋﺎﻘﻠﺗ ﻦﻣﺰﻟﺍ ﺊﻄﺒﻳ<br>ﻕﻻﺰﻧﻻﺍ ﺀﺎﻨﺛﺃ ﺮﻄﺧ ﻦﻣ ﺏﺍﺮﺘﻗﻻﺍ<br>ﻕﻻﺰﻧﻻﺍ ﻥﺎﻘﻴﺳ ﻰﻠﻋ.",
+      "after": "ﺏﺍﺮﺘﻗﻻﺍ ﺪﻨﻋ ﺎﻴﺋﺎﻘﻠﺗ ﺖﻗﻮﻟﺍ ﺊﻄﺒﻳ<br>ﻰﻠﻋ ﻕﻻﺰﻧﻻﺍ ﺀﺎﻨﺛﺃ ﺮﻄﺧ ﻦﻣ<br>.ﻥﺎﺒﻀﻘﻟﺍ"
+    },
+    {
+      "key": "MENU_HAPTICS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط اهتزاز جهاز التحكم<br>والزنادات التكيفية.",
+      "before": "ﺯﺎﻬﺟ ﺯﺍﺰﺘﻫﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ<br>ﺕﺍﺩﺪﺴﻤﻟﺍﻭ ﻢﻜﺤﺘﻟﺍ<br>ﺔﻴﻔﻴﻜﺘﻟﺍ.",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺯﺍﺰﺘﻫﺍ ﻂﺒﺿﺍ<br>.ﺔﻴﻔﻴﻜﺘﻟﺍ ﺕﺍﺩﺎﻧﺰﻟﺍﻭ"
+    },
+    {
+      "key": "MENU_HAZARDSHADER_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يميز مصادر الخطر بلون موحد<br>لتسهيل رؤيتها، مثل الصناديق<br>المتفجرة والعناصر التي تسبب<br>الضرر.",
+      "before": "ﺔﻠﻠﻈﻣ ﺓﺩﺎﻣ ﻖﺒﻄﻳ (Shader)<br>ﺮﻃﺎﺨﻤﻟﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ﻥﻮﻠﺑ<br>ﺎﻬﺣﻮﺿﻭ ﻦﻴﺴﺤﺘﻟ. ﻩﺬﻫ ﻞﻤﺸﺗﻭ<br>ﺭﺎﺠﻔﻧﻻﺍ ﻖﻳﺩﺎﻨﺻ ﺮﺻﺎﻨﻌﻟﺍ<br>ﺍﺭﺮﺿ ﺐﺒﺴﻳ ﺪﻗ ﺎﻤﻣ ﺎﻫﺮﻴﻏﻭ.",
+      "after": "ﺪﺣﻮﻣ ﻥﻮﻠﺑ ﺮﻄﺨﻟﺍ ﺭﺩﺎﺼﻣ ﺰﻴﻤﻳ<br>ﻖﻳﺩﺎﻨﺼﻟﺍ ﻞﺜﻣ ،ﺎﻬﺘﻳﺅﺭ ﻞﻴﻬﺴﺘﻟ<br>ﺐﺒﺴﺗ ﻲﺘﻟﺍ ﺮﺻﺎﻨﻌﻟﺍﻭ ﺓﺮﺠﻔﺘﻤﻟﺍ<br>.ﺭﺮﻀﻟﺍ"
+    },
+    {
+      "key": "MENU_HAZARDSHADER_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تمييز المخاطر",
+      "before": "ﺮﻃﺎﺨﻤﻠﻟ ﺔﻠﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ",
+      "after": "ﺮﻃﺎﺨﻤﻟﺍ ﺰﻴﻴﻤﺗ"
+    },
+    {
+      "key": "MENU_HEROSHADER_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يميز الشخصية التي تتحكم بها بلون<br>موحد لتسهيل رؤيتها.",
+      "before": "ﺔﻠﻠﻈﻣ ﺓﺩﺎﻣ ﻖﺒﻄﻳ (Shader)<br>ﻞﻄﺒﻟﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ﺐﻠﺻ ﻥﻮﻠﺑ<br>ﻪﺣﻮﺿﻭ ﻦﻴﺴﺤﺘﻟ.",
+      "after": "ﻥﻮﻠﺑ ﺎﻬﺑ ﻢﻜﺤﺘﺗ ﻲﺘﻟﺍ ﺔﻴﺼﺨﺸﻟﺍ ﺰﻴﻤﻳ<br>.ﺎﻬﺘﻳﺅﺭ ﻞﻴﻬﺴﺘﻟ ﺪﺣﻮﻣ"
+    },
+    {
+      "key": "MENU_HEROSHADER_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تمييز الشخصية",
+      "before": "ﻞﻄﺒﻠﻟ ﺔﻠﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ",
+      "after": "ﺔﻴﺼﺨﺸﻟﺍ ﺰﻴﻴﻤﺗ"
+    },
+    {
+      "key": "MENU_SETTINGS_CAT_HUD",
+      "renderer": "game_visual_arabic",
+      "logical": "واجهة المعلومات",
+      "before": "ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﺷﺎﺷ",
+      "after": "ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﻬﺟﺍﻭ"
+    },
+    {
+      "key": "MENU_SETTINGS_CAT_HUDCOLORS",
+      "renderer": "game_visual_arabic",
+      "logical": "ألوان واجهة المعلومات",
+      "before": "ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﺷﺎﺷ ﻥﺍﻮﻟﺃ",
+      "after": "ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﻬﺟﺍﻭ ﻥﺍﻮﻟﺃ"
+    },
+    {
+      "key": "MENU_SETTINGS_CAT_SHORTCUTS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "خصص اختصارات اللعب والإعدادات<br>وسرعة اللعبة.",
+      "before": "ﺕﺍﺩﺍﺪﻋﻺﻟ ﺕﺍﺭﺎﺼﺘﺧﺍ ﻦﻴﻋ<br>ﺔﺒﻌﻠﻟﺍ ﺔﻋﺮﺳﻭ ﺐﻌﻠﻟﺍﻭ.",
+      "after": "ﺕﺍﺩﺍﺪﻋﻹﺍﻭ ﺐﻌﻠﻟﺍ ﺕﺍﺭﺎﺼﺘﺧﺍ ﺺﺼﺧ<br>.ﺔﺒﻌﻠﻟﺍ ﺔﻋﺮﺳﻭ"
+    },
+    {
+      "key": "MENU_SETTINGS_VISUAL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط إعدادات العرض والمؤثرات<br>البصرية.",
+      "before": "ﺔﻘﻠﻌﺘﻤﻟﺍ ﺕﺍﺭﺎﻴﺨﻟﺍ ﻂﺒﺿﺍ<br>ﺕﺍﺮﺛﺅﻡﻭ ﻱﺮﺼﺒﻟﺍ ﺽﺮﻌﻟﺎﺑ<br>ﺔﺷﺎﺸﻟﺍ.",
+      "after": "ﺕﺍﺮﺛﺆﻤﻟﺍﻭ ﺽﺮﻌﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ<br>.ﺔﻳﺮﺼﺒﻟﺍ"
+    },
+    {
+      "key": "MENU_SFX_VOL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط مستوى المؤثرات الصوتية<br>أثناء اللعب.",
+      "before": "ﺕﺍﺮﺛﺅﻢﻟﺍ ﻯﻮﺘﺴﻣ ﻂﺒﺿﺍ<br>ﺔﻴﺗﻮﺼﻟﺍ (SFX) ﺐﻌﻠﻟﺍ ﺀﺎﻨﺛﺃ.",
+      "after": "ﺔﻴﺗﻮﺼﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺍ ﻯﻮﺘﺴﻣ ﻂﺒﺿﺍ<br>.ﺐﻌﻠﻟﺍ ﺀﺎﻨﺛﺃ"
+    },
+    {
+      "key": "MENU_SHADEROUTLINE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يضيف حدودًا بلون موحد حول<br>الشخصيات والأعداء لتسهيل رؤيتهم.",
+      "before": "ﺪﺣﺍﻭ ﻥﻮﻠﺑ ﺔﺒﻠﺻ ﺍﺩﻭﺪﺣ ﻖﺒﻄﻳ<br>ﻦﻴﺴﺤﺘﻟ ﺀﺍﺪﻋﻷﺍﻭ ﻝﺎﻄﺑﻷﺍ ﻰﻠﻋ<br>ﻢﻬﺣﻮﺿﻭ.",
+      "after": "ﻝﻮﺣ ﺪﺣﻮﻣ ﻥﻮﻠﺑ ﺍﺩﻭﺪﺣ ﻒﻴﻀﻳ<br>.ﻢﻬﺘﻳﺅﺭ ﻞﻴﻬﺴﺘﻟ ﺀﺍﺪﻋﻷﺍﻭ ﺕﺎﻴﺼﺨﺸﻟﺍ"
+    },
+    {
+      "key": "MENU_SHADEROUTLINE_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "حدود عالية التباين",
+      "before": "ﻦﻳﺎﺒﺘﻟﺍ ﺔﻴﻟﺎﻋ ﺩﻭﺪﺣ",
+      "after": "ﻦﻳﺎﺒﺘﻟﺍ ﺔﻴﻟﺎﻋ ﺩﻭﺪﺣ"
+    },
+    {
+      "key": "MENU_SHORTCUT_OPTION_MELEECOMBO",
+      "renderer": "game_visual_arabic",
+      "logical": "سلسلة ضربات اشتباك",
+      "before": "ﺔﺒﻳﺮﻗ ﺕﺎﺑﺮﺿ ﺔﻠﺴﻠﺳ",
+      "after": "ﻙﺎﺒﺘﺷﺍ ﺕﺎﺑﺮﺿ ﺔﻠﺴﻠﺳ"
+    },
+    {
+      "key": "MENU_SHORTCUT_OPTION_MELEECOMBO_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "ينفذ ثلاث ضربات اشتباك متتالية.",
+      "before": "ﺔﻠﺴﻠﺳ ﺬﻴﻔﻨﺘﻟ ﻂﻐﺿﺍ<br>ﺙﻼﺛ ﻦﻣ ﺔﺒﻳﺮﻗ ﺕﺎﺑﺮﺿ<br>ﺕﺎﺑﺮﺿ.",
+      "after": ".ﺔﻴﻟﺎﺘﺘﻣ ﻙﺎﺒﺘﺷﺍ ﺕﺎﺑﺮﺿ ﺙﻼﺛ ﺬﻔﻨﻳ"
+    },
+    {
+      "key": "MENU_SHORTCUT_OPTION_MELEESLAM",
+      "renderer": "game_visual_arabic",
+      "logical": "ضربة اشتباك هابطة",
+      "before": "ﺔﻄﺑﺎﻫ ﺔﺒﻳﺮﻗ ﺔﺑﺮﺿ",
+      "after": "ﺔﻄﺑﺎﻫ ﻙﺎﺒﺘﺷﺍ ﺔﺑﺮﺿ"
+    },
+    {
+      "key": "MENU_SHORTCUT_OPTION_MELEESLAM_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يقفز ثم يندفع إلى الأسفل بسلاح<br>الاشتباك.",
+      "before": "ﻮﺤﻧ ﻉﺎﻓﺪﻧﻻﺍ ﻢﺛ ﺰﻔﻘﻠﻟ ﻂﻐﺿﺍ<br>ﺐﻳﺮﻘﻟﺍ ﻚﺣﻼﺴﺑ ﻞﻔﺳﻷﺍ.",
+      "after": "ﺡﻼﺴﺑ ﻞﻔﺳﻷﺍ ﻰﻟﺇ ﻊﻓﺪﻨﻳ ﻢﺛ ﺰﻔﻘﻳ<br>.ﻙﺎﺒﺘﺷﻻﺍ"
+    },
+    {
+      "key": "MENU_SHORTCUT_OPTION_MELEETHROW",
+      "renderer": "game_visual_arabic",
+      "logical": "رمي سلاح الاشتباك",
+      "before": "ﺔﺒﻳﺮﻗ ﺔﻴﻣﺭ",
+      "after": "ﻙﺎﺒﺘﺷﻻﺍ ﺡﻼﺳ ﻲﻣﺭ"
+    },
+    {
+      "key": "MENU_SHORTCUT_OPTION_MELEETHROW_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يرمي سلاح الاشتباك.",
+      "before": "ﺐﻳﺮﻘﻟﺍ ﻚﺣﻼﺳ ﻲﻣﺮﻟ ﻂﻐﺿﺍ.",
+      "after": ".ﻙﺎﺒﺘﺷﻻﺍ ﺡﻼﺳ ﻲﻣﺮﻳ"
+    },
+    {
+      "key": "MENU_SHORTCUT_WEAPON_QS",
+      "renderer": "game_visual_arabic",
+      "logical": "اختيار سريع للسلاح",
+      "before": "ﻊﻳﺮﺴﻟﺍ ﺡﻼﺴﻟﺍ ﺪﻳﺪﺤﺗ",
+      "after": "ﺡﻼﺴﻠﻟ ﻊﻳﺮﺳ ﺭﺎﻴﺘﺧﺍ"
+    },
+    {
+      "key": "MENU_SPEECH_VOL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط مستوى أصوات الشخصيات أثناء<br>الحوار.",
+      "before": "ﻲﻓ ﺭﺍﻮﺤﻟﺍ ﻯﻮﺘﺴﻣ ﻂﺒﺿﺍ<br>ﺔﺒﻌﻠﻟﺍ.",
+      "after": "ﺀﺎﻨﺛﺃ ﺕﺎﻴﺼﺨﺸﻟﺍ ﺕﺍﻮﺻﺃ ﻯﻮﺘﺴﻣ ﻂﺒﺿﺍ<br>.ﺭﺍﻮﺤﻟﺍ"
+    },
+    {
+      "key": "MENU_SPEECH_VOL_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "مستوى صوت الحوار",
+      "before": "ﺭﺍﻮﺤﻟﺍ ﻯﻮﺘﺴﻣ",
+      "after": "ﺭﺍﻮﺤﻟﺍ ﺕﻮﺻ ﻯﻮﺘﺴﻣ"
+    },
+    {
+      "key": "MENU_SPEEDRUNNING_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط الخيارات المساعدة على إنهاء<br>اللعبة في أقصر وقت.",
+      "before": "ﻲﻓ ﺓﺪﻋﺎﺴﻤﻠﻟ ﺕﺍﺭﺎﻴﺨﻟﺍ ﻂﺒﺿﺍ<br>ﻊﻳﺮﺴﻟﺍ ﻱﺮﺠﻟﺍ (Speed<br>Running).",
+      "after": "ﺀﺎﻬﻧﺇ ﻰﻠﻋ ﺓﺪﻋﺎﺴﻤﻟﺍ ﺕﺍﺭﺎﻴﺨﻟﺍ ﻂﺒﺿﺍ<br>.ﺖﻗﻭ ﺮﺼﻗﺃ ﻲﻓ ﺔﺒﻌﻠﻟﺍ"
+    },
+    {
+      "key": "MENU_SPEEDRUNNING_HEADER",
+      "renderer": "game_visual_arabic",
+      "logical": "إعدادات الإنهاء السريع",
+      "before": "ﻊﻳﺮﺴﻟﺍ ﻱﺮﺠﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ",
+      "after": "ﻊﻳﺮﺴﻟﺍ ﺀﺎﻬﻧﻹﺍ ﺕﺍﺩﺍﺪﻋﺇ"
+    },
+    {
+      "key": "MENU_SPEEDRUNNING_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "الإنهاء السريع",
+      "before": "ﻊﻳﺮﺴﻟﺍ ﻱﺮﺠﻟﺍ",
+      "after": "ﻊﻳﺮﺴﻟﺍ ﺀﺎﻬﻧﻹﺍ"
+    },
+    {
+      "key": "MENU_SUBS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعرض ترجمة مكتوبة للحوار<br>المنطوق.",
+      "before": "ﺭﺍﻮﺤﻠﻟ ﺔﺑﻮﺘﻜﻤﻟﺍ ﺩﻭﺩﺮﻟﺍ ﺽﺮﻌﻳ<br>ﻕﻮﻄﻨﻤﻟﺍ.",
+      "after": "ﺭﺍﻮﺤﻠﻟ ﺔﺑﻮﺘﻜﻣ ﺔﻤﺟﺮﺗ ﺽﺮﻌﻳ<br>.ﻕﻮﻄﻨﻤﻟﺍ"
+    },
+    {
+      "key": "MENU_SUBS_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "الترجمة",
+      "before": "ﺔﺑﻮﺘﻜﻤﻟﺍ ﺩﻭﺩﺮﻟﺍ",
+      "after": "ﺔﻤﺟﺮﺘﻟﺍ"
+    },
+    {
+      "key": "MENU_SUBTITLES_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "فعل الترجمة وخصص إعداداتها.",
+      "before": "ﻂﺒﺿﺍﻭ ﺔﺑﻮﺘﻜﻤﻟﺍ ﺩﻭﺩﺮﻟﺍ ﻞﻌﻓ<br>ﺎﻬﺗﺍﺩﺍﺪﻋﺇ.",
+      "after": ".ﺎﻬﺗﺍﺩﺍﺪﻋﺇ ﺺﺼﺧﻭ ﺔﻤﺟﺮﺘﻟﺍ ﻞﻌﻓ"
+    },
+    {
+      "key": "MENU_SUBTITLES_DESC_FRONTEND",
+      "renderer": "game_visual_arabic",
+      "logical": "خيارات تفعيل الترجمة وتخصيص<br>مظهرها.",
+      "before": "ﺩﻭﺩﺮﻟﺍ ﻞﻴﻌﻔﺘﻟ ﺕﺍﺭﺎﻴﺧ<br>ﺎﻬﺗﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﻭ ﺔﺑﻮﺘﻜﻤﻟﺍ.",
+      "after": "ﺺﻴﺼﺨﺗﻭ ﺔﻤﺟﺮﺘﻟﺍ ﻞﻴﻌﻔﺗ ﺕﺍﺭﺎﻴﺧ<br>.ﺎﻫﺮﻬﻈﻣ"
+    },
+    {
+      "key": "MENU_SUBTITLES_HEADER",
+      "renderer": "game_visual_arabic",
+      "logical": "إعدادات الترجمة",
+      "before": "ﺔﺑﻮﺘﻜﻤﻟﺍ ﺩﻭﺩﺮﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ",
+      "after": "ﺔﻤﺟﺮﺘﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ"
+    },
+    {
+      "key": "MENU_SUBTITLES_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "الترجمة",
+      "before": "ﺔﺑﻮﺘﻜﻤﻟﺍ ﺩﻭﺩﺮﻟﺍ",
+      "after": "ﺔﻤﺟﺮﺘﻟﺍ"
+    },
+    {
+      "key": "MENU_SUB_BG_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يضيف خلفية متباينة خلف الترجمة<br>لتسهيل قراءتها.",
+      "before": "ﺔﻨﻳﺎﺒﺘﻣ ﺔﻴﻔﻠﺧ ﻞﻌﻔﻳ<br>ﻞﻴﻬﺴﺘﻟ ﺔﺑﻮﺘﻜﻤﻟﺍ ﺩﻭﺩﺮﻠﻟ<br>ﺓﺀﺍﺮﻘﻟﺍ.",
+      "after": "ﺔﻤﺟﺮﺘﻟﺍ ﻒﻠﺧ ﺔﻨﻳﺎﺒﺘﻣ ﺔﻴﻔﻠﺧ ﻒﻴﻀﻳ<br>.ﺎﻬﺗﺀﺍﺮﻗ ﻞﻴﻬﺴﺘﻟ"
+    },
+    {
+      "key": "MENU_SUB_BG_OPACITY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط عتامة خلفية الترجمة. القيمة<br>0 تخفي الخلفية.",
+      "before": "ﺩﻭﺩﺮﻟﺍ ﺔﻴﻔﻠﺧ ﺔﻣﺎﺘﻋ ﺩﺪﺤﻳ<br>ﺔﺑﻮﺘﻜﻤﻟﺍ. ﺔﻤﻴﻘﻟﺍ 0 ﻞﻄﻌﺗ<br>ﺔﻴﻔﻠﺨﻟﺍ.",
+      "after": "ﺔﻤﻴﻘﻟﺍ .ﺔﻤﺟﺮﺘﻟﺍ ﺔﻴﻔﻠﺧ ﺔﻣﺎﺘﻋ ﻂﺒﺿﺍ<br>.ﺔﻴﻔﻠﺨﻟﺍ ﻲﻔﺨﺗ 0"
+    },
+    {
+      "key": "MENU_SUB_BG_OPACITY_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "عتامة خلفية الترجمة",
+      "before": "ﺩﻭﺩﺮﻟﺍ ﺔﻴﻔﻠﺧ ﺔﻣﺎﺘﻋ",
+      "after": "ﺔﻤﺟﺮﺘﻟﺍ ﺔﻴﻔﻠﺧ ﺔﻣﺎﺘﻋ"
+    },
+    {
+      "key": "MENU_SUB_BG_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "لون خلفية الترجمة",
+      "before": "ﺩﻭﺩﺮﻟﺍ ﺔﻴﻔﻠﺧ ﻥﻮﻟ",
+      "after": "ﺔﻤﺟﺮﺘﻟﺍ ﺔﻴﻔﻠﺧ ﻥﻮﻟ"
+    },
+    {
+      "key": "MENU_SUB_COLOR_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر لون نص الترجمة.",
+      "before": "ﺩﻭﺩﺮﻟﺍ ﺺﻧ ﻥﻮﻟ ﺩﺪﺤﻳ<br>ﺔﺑﻮﺘﻜﻤﻟﺍ.",
+      "after": ".ﺔﻤﺟﺮﺘﻟﺍ ﺺﻧ ﻥﻮﻟ ﺮﺘﺧﺍ"
+    },
+    {
+      "key": "MENU_SUB_COLOR_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "لون الترجمة",
+      "before": "ﺔﺑﻮﺘﻜﻤﻟﺍ ﺩﻭﺩﺮﻟﺍ ﻥﻮﻟ",
+      "after": "ﺔﻤﺟﺮﺘﻟﺍ ﻥﻮﻟ"
+    },
+    {
+      "key": "MENU_SUB_SIZE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط حجم نص الترجمة.",
+      "before": "ﺔﺑﻮﺘﻜﻤﻟﺍ ﺩﻭﺩﺮﻟﺍ ﻢﺠﺣ ﻂﺒﺿﺍ.",
+      "after": ".ﺔﻤﺟﺮﺘﻟﺍ ﺺﻧ ﻢﺠﺣ ﻂﺒﺿﺍ"
+    },
+    {
+      "key": "MENU_SUB_SIZE_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "حجم الترجمة",
+      "before": "ﺔﺑﻮﺘﻜﻤﻟﺍ ﺩﻭﺩﺮﻟﺍ ﻢﺠﺣ",
+      "after": "ﺔﻤﺟﺮﺘﻟﺍ ﻢﺠﺣ"
+    },
+    {
+      "key": "MENU_SUB_SPEAKER_COLOR_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر لون اسم الشخصية المتحدثة في<br>الترجمة.",
+      "before": "ﺔﻴﺼﺨﺸﻟﺍ ﻢﺳﺍ ﻥﻮﻟ ﺩﺪﺤﻳ<br>ﺩﻭﺩﺮﻟﺍ ﻲﻓ ﺔﺛﺪﺤﺘﻤﻟﺍ<br>ﺔﺑﻮﺘﻜﻤﻟﺍ.",
+      "after": "ﻲﻓ ﺔﺛﺪﺤﺘﻤﻟﺍ ﺔﻴﺼﺨﺸﻟﺍ ﻢﺳﺍ ﻥﻮﻟ ﺮﺘﺧﺍ<br>.ﺔﻤﺟﺮﺘﻟﺍ"
+    },
+    {
+      "key": "MENU_SUB_SPEAKER_COLOR_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "لون اسم المتحدث",
+      "before": "ﺩﺮﻟﺍ ﻢﻠﻜﺘﻣ ﻥﻮﻟ",
+      "after": "ﺙﺪﺤﺘﻤﻟﺍ ﻢﺳﺍ ﻥﻮﻟ"
+    },
+    {
+      "key": "MENU_SWINGAUTODETACH_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يفلت نقطة التعلق تلقائيًا عند<br>الوصول إلى نهاية التأرجح.",
+      "before": "ﺢﺟﺭﺄﺘﻟﺍ ﻦﻣ ﺎﻴﺋﺎﻘﻠﺗ ﻞﺼﻔﻳ<br>ﺔﻳﺎﻬﻨﻟﺍ ﺔﻄﻘﻧ ﺪﻨﻋ.",
+      "after": "ﺪﻨﻋ ﺎﻴﺋﺎﻘﻠﺗ ﻖﻠﻌﺘﻟﺍ ﺔﻄﻘﻧ ﺖﻠﻔﻳ<br>.ﺢﺟﺭﺄﺘﻟﺍ ﺔﻳﺎﻬﻧ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ"
+    },
+    {
+      "key": "MENU_SWINGAUTODETACH_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "الإفلات التلقائي عند التأرجح",
+      "before": "ﺢﺟﺭﺄﺘﻟﺍ ﻦﻣ ﻲﺋﺎﻘﻠﺗ ﻞﺼﻓ",
+      "after": "ﺢﺟﺭﺄﺘﻟﺍ ﺪﻨﻋ ﻲﺋﺎﻘﻠﺘﻟﺍ ﺕﻼﻓﻹﺍ"
+    },
+    {
+      "key": "MENU_TARGETRETICLE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اختر لون مؤشر التصويب عند تمييز<br>الهدف.",
+      "before": "ﺔﺤﻠﺳﻸﻟ ﺔﺑﻮﺼﻤﻟﺍ ﻥﻮﻟ ﺩﺪﺤﻳ<br>ﻑﺪﻬﻟﺍ ﺯﺍﺮﺑﺇ ﺪﻨﻋ ﺔﺑﻮﺼﻤﻟﺍ.",
+      "after": "ﺰﻴﻴﻤﺗ ﺪﻨﻋ ﺐﻳﻮﺼﺘﻟﺍ ﺮﺷﺆﻣ ﻥﻮﻟ ﺮﺘﺧﺍ<br>.ﻑﺪﻬﻟﺍ"
+    },
+    {
+      "key": "MENU_TARGETRETICLE_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "لون مؤشر الهدف",
+      "before": "ﻑﺪﻬﻟﺍ ﺔﺑﻮﺼﻣ ﻥﻮﻟ",
+      "after": "ﻑﺪﻬﻟﺍ ﺮﺷﺆﻣ ﻥﻮﻟ"
+    },
+    {
+      "key": "MENU_TIMEPLAYED_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعرض مؤقتًا يوضح الوقت المنقضي<br>أثناء اللعب.",
+      "before": "ﺔﺷﺎﺸﻟﺍ ﻰﻠﻋ ﺎﺘﻗﺅﻡ ﺽﺮﻌﻳ<br>ﻲﻀﻘﻨﻤﻟﺍ ﺖﻗﻮﻟﺍ ﺭﺍﺪﻘﻤﻟ.",
+      "after": "ﻲﻀﻘﻨﻤﻟﺍ ﺖﻗﻮﻟﺍ ﺢﺿﻮﻳ ﺎﺘﻗﺆﻣ ﺽﺮﻌﻳ<br>.ﺐﻌﻠﻟﺍ ﺀﺎﻨﺛﺃ"
+    },
+    {
+      "key": "MENU_TIMEPLAYED_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "عرض مدة اللعب",
+      "before": "ﻲﻀﻘﻨﻤﻟﺍ ﺖﻗﻮﻟﺍ ﺽﺮﻋ",
+      "after": "ﺐﻌﻠﻟﺍ ﺓﺪﻣ ﺽﺮﻋ"
+    },
+    {
+      "key": "MENU_UI_VOL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط مستوى المؤثرات الصوتية<br>أثناء تصفح القوائم.",
+      "before": "ﺕﺍﺮﺛﺅﻢﻟﺍ ﻯﻮﺘﺴﻣ ﻂﺒﺿﺍ<br>ﺔﻴﺗﻮﺼﻟﺍ (SFX) ﺢﻔﺼﺗ ﺀﺎﻨﺛﺃ<br>ﺔﺒﻌﻠﻟﺍ ﻢﺋﺍﻮﻗ.",
+      "after": "ﺔﻴﺗﻮﺼﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺍ ﻯﻮﺘﺴﻣ ﻂﺒﺿﺍ<br>.ﻢﺋﺍﻮﻘﻟﺍ ﺢﻔﺼﺗ ﺀﺎﻨﺛﺃ"
+    },
+    {
+      "key": "MENU_VIBRATION_INTENSITY_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط شدة اهتزاز جهاز التحكم.",
+      "before": "ﺯﺍﺰﺘﻫﻻ ﺔﻣﺎﻌﻟﺍ ﺓﺪﺸﻟﺍ ﻂﺒﺿﺍ<br>ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ.",
+      "after": ".ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺯﺍﺰﺘﻫﺍ ﺓﺪﺷ ﻂﺒﺿﺍ"
+    },
+    {
+      "key": "MENU_VIBRATION_OPTION_EXPERIENTIAL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يفعل جميع الاهتزازات، بما فيها<br>التفاصيل الدقيقة في البيئة<br>والحركة.",
+      "before": "؛ﺕﺍﺯﺍﺰﺘﻫﻻﺍ ﻊﻴﻤﺟ ﻞﻌﻔﺗ<br>ﺔﻤﺴﻧ ﻦﻣ ،ﺀﻲﺷ ﻞﻜﺑ ﺮﻌﺸﺘﺳ<br>ﻰﻟﺇ ﻙﺮﻌﺷ ﺮﺒﻌﺗ ﻲﺘﻟﺍ ﺀﺍﻮﻬﻟﺍ<br>ﻚﻴﻣﺪﻗ ﺖﺤﺗ ﻰﺼﺤﻟﺍ.",
+      "after": "ﺎﻬﻴﻓ ﺎﻤﺑ ،ﺕﺍﺯﺍﺰﺘﻫﻻﺍ ﻊﻴﻤﺟ ﻞﻌﻔﻳ<br>ﺔﺌﻴﺒﻟﺍ ﻲﻓ ﺔﻘﻴﻗﺪﻟﺍ ﻞﻴﺻﺎﻔﺘﻟﺍ<br>.ﺔﻛﺮﺤﻟﺍﻭ"
+    },
+    {
+      "key": "MENU_VIBRATION_OPTION_EXPERIENTIAL_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "غامر",
+      "before": "ﻲﺒﻳﺮﺠﺗ",
+      "after": "ﺮﻣﺎﻏ"
+    },
+    {
+      "key": "MENU_VIBRATION_OPTION_FUNCTIONAL_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يفعل الاهتزازات التي تنبهك إلى<br>أحداث اللعب المهمة، مثل تلقي<br>الضرر وجمع الصحة والذخيرة.",
+      "before": "ﻲﺘﻟﺍ ﺕﺍﺯﺍﺰﺘﻫﻻﺍ ﻻﺇ ﻞﻌﻔﺗ ﻻ<br>ﺐﻌﻠﻟ ﺓﺪﻴﻔﻣ ﺕﺍﺭﺎﺷﺇ ﻡﺪﻘﺗ:<br>ﻭﺃ ﺔﺤﺼﻟﺍ ﻊﻤﺟﻭ ،ﺭﺮﻀﻟﺍ ﻲﻘﻠﺗ<br>ﻚﻟﺫ ﻰﻟﺇ ﺎﻣﻭ ،ﺓﺮﻴﺧﺬﻟﺍ.",
+      "after": "ﻰﻟﺇ ﻚﻬﺒﻨﺗ ﻲﺘﻟﺍ ﺕﺍﺯﺍﺰﺘﻫﻻﺍ ﻞﻌﻔﻳ<br>ﻲﻘﻠﺗ ﻞﺜﻣ ،ﺔﻤﻬﻤﻟﺍ ﺐﻌﻠﻟﺍ ﺙﺍﺪﺣﺃ<br>.ﺓﺮﻴﺧﺬﻟﺍﻭ ﺔﺤﺼﻟﺍ ﻊﻤﺟﻭ ﺭﺮﻀﻟﺍ"
+    },
+    {
+      "key": "MENU_VIBRATION_OPTION_NONE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعطل اهتزاز جهاز التحكم.",
+      "before": "ﻞﻄﻌﻣ ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺯﺍﺰﺘﻫﺍ.",
+      "after": ".ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺯﺍﺰﺘﻫﺍ ﻞﻄﻌﻳ"
+    },
+    {
+      "key": "MENU_WAYPOINTS_SHOWALWAYS_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "ظاهرة دائمًا",
+      "before": "ﺔﻠﻌﻔﻣ ﺎﻤﺋﺍﺩ",
+      "after": "ﺎﻤﺋﺍﺩ ﺓﺮﻫﺎﻇ"
+    },
+    {
+      "key": "MENU_WEAPONLEVELPOPUPS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يعرض معلومات السلاح عند ارتفاع<br>مستواه.",
+      "before": "ﻰﻠﻋ ﺡﻼﺴﻟﺍ ﺕﺎﻣﻮﻠﻌﻣ ﺽﺮﻌﻳ<br>ﺮﻳﻮﻄﺗ ﺪﻨﻋ ﺔﺷﺎﺸﻟﺍ<br>ﻪﺗﺎﻳﻮﺘﺴﻣ.",
+      "after": "ﻉﺎﻔﺗﺭﺍ ﺪﻨﻋ ﺡﻼﺴﻟﺍ ﺕﺎﻣﻮﻠﻌﻣ ﺽﺮﻌﻳ<br>.ﻩﺍﻮﺘﺴﻣ"
+    },
+    {
+      "key": "MENU_WEAPONLEVELPOPUPS_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "تنبيهات ارتقاء الأسلحة",
+      "before": "ﺡﻼﺴﻟﺍ ﻯﻮﺘﺴﻣ ﺮﻳﻮﻄﺗ ﺬﻓﺍﻮﻧ",
+      "after": "ﺔﺤﻠﺳﻷﺍ ﺀﺎﻘﺗﺭﺍ ﺕﺎﻬﻴﺒﻨﺗ"
+    },
+    {
+      "key": "MENU_WEAPONWHEELPAUSE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "يوقف اللعب مؤقتًا أثناء فتح عجلة<br>الأسلحة عند تفعيله. عند تعطيله،<br>يستمر اللعب أثناء اختيار السلاح.",
+      "before": "ﻰﻠﻋ ﻪﻄﺒﺿﺍ «ﻞﻌﻔﻣ» ﻑﺎﻘﻳﻹ<br>ﻞﻴﻌﻔﺗ ﺀﺎﻨﺛﺃ ﺎﺘﻗﺅﻡ ﺔﺒﻌﻠﻟﺍ<br>ﺔﺤﻠﺳﻷﺍ ﺔﻠﺠﻋ. ﻰﻠﻋ ﻪﻄﺒﺿﺍ<br>«ﻞﻄﻌﻣ» ﺔﺒﻌﻠﻟﺍ ﻰﻘﺒﺘﻟ<br>ﺔﻠﺠﻋ ﻞﻴﻌﻔﺗ ﺀﺎﻨﺛﺃ ﻞﻤﻌﺗ<br>ﺔﺤﻠﺳﻷﺍ.",
+      "after": "ﺔﻠﺠﻋ ﺢﺘﻓ ﺀﺎﻨﺛﺃ ﺎﺘﻗﺆﻣ ﺐﻌﻠﻟﺍ ﻒﻗﻮﻳ<br>،ﻪﻠﻴﻄﻌﺗ ﺪﻨﻋ .ﻪﻠﻴﻌﻔﺗ ﺪﻨﻋ ﺔﺤﻠﺳﻷﺍ<br>.ﺡﻼﺴﻟﺍ ﺭﺎﻴﺘﺧﺍ ﺀﺎﻨﺛﺃ ﺐﻌﻠﻟﺍ ﺮﻤﺘﺴﻳ"
+    },
+    {
+      "key": "MENU_WEAPONWHEELPAUSE_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "إيقاف اللعب عند فتح عجلة الأسلحة",
+      "before": "ﺎﺘﻗﺅﻡ ﺔﺤﻠﺳﻷﺍ ﺔﻠﺠﻋ ﻑﺎﻘﻳﺇ",
+      "after": "ﺔﺤﻠﺳﻷﺍ ﺔﻠﺠﻋ ﺢﺘﻓ ﺪﻨﻋ ﺐﻌﻠﻟﺍ ﻑﺎﻘﻳﺇ"
+    },
+    {
+      "key": "PAUSE_OPTION_CONTROLLERLAYOUT_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اعرض توزيع أزرار جهاز التحكم<br>وخصص وظائفها.",
+      "before": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻂﻴﻄﺨﺗ ﺽﺮﻌﺘﺳﺍ<br>ﺭﺍﺭﺯﻷﺍ ﻦﻴﻴﻌﺗ ﺪﻋﺃﻭ.",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺭﺍﺭﺯﺃ ﻊﻳﺯﻮﺗ ﺽﺮﻋﺍ<br>.ﺎﻬﻔﺋﺎﻇﻭ ﺺﺼﺧﻭ"
+    },
+    {
+      "key": "PAUSE_OPTION_CONTROLLERLAYOUT_DESC_ALT",
+      "renderer": "game_visual_arabic",
+      "logical": "اعرض توزيع أزرار جهاز التحكم.",
+      "before": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻂﻴﻄﺨﺗ ﺽﺮﻌﺘﺳﺍ.",
+      "after": ".ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺭﺍﺭﺯﺃ ﻊﻳﺯﻮﺗ ﺽﺮﻋﺍ"
+    },
+    {
+      "key": "PAUSE_OPTION_CONTROLLERLAYOUT_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "توزيع أزرار جهاز التحكم",
+      "before": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﻂﻴﻄﺨﺗ",
+      "after": "ﻢﻜﺤﺘﻟﺍ ﺯﺎﻬﺟ ﺭﺍﺭﺯﺃ ﻊﻳﺯﻮﺗ"
+    },
+    {
+      "key": "PAUSE_OPTION_MANUALSAVE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "احفظ تقدمك يدويًا.",
+      "before": "ﺔﺒﻌﻠﻟ ﺎﻳﻭﺪﻳ ﺎﻈﻔﺣ ﺊﺸﻧﺃ.",
+      "after": ".ﺎﻳﻭﺪﻳ ﻚﻣﺪﻘﺗ ﻆﻔﺣﺍ"
+    },
+    {
+      "key": "PAUSE_OPTION_PHOTO_MODE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "ادخل وضع التصوير. يمكنك تعيين<br>اختصار له من الإعدادات، ثم<br>التحكم والاختصارات.",
+      "before": "ﺮﻳﻮﺼﺘﻟﺍ ﻊﺿﻭ ﻞﺧﺩﺍ.<br><br>ﻊﺿﻭ ﻦﻴﻴﻌﺗ ﻚﻨﻜﻤﻳ<br>ﺔﻤﺋﺎﻗ ﻲﻓ ﺭﺎﺼﺘﺧﺎﻛ ﺮﻳﻮﺼﺘﻟﺍ<br>ﺕﺍﺩﺍﺪﻋﻹﺍ ﺖﺤﺗ ﺕﺍﺭﺎﻴﺨﻟﺍ ><br>ﺕﺍﺭﺎﺼﺘﺧﻻﺍﻭ ﻢﻜﺤﺘﻟﺍ.",
+      "after": "ﻦﻴﻴﻌﺗ ﻚﻨﻜﻤﻳ .ﺮﻳﻮﺼﺘﻟﺍ ﻊﺿﻭ ﻞﺧﺩﺍ<br>ﻢﺛ ،ﺕﺍﺩﺍﺪﻋﻹﺍ ﻦﻣ ﻪﻟ ﺭﺎﺼﺘﺧﺍ<br>.ﺕﺍﺭﺎﺼﺘﺧﻻﺍﻭ ﻢﻜﺤﺘﻟﺍ"
+    },
+    {
+      "key": "PAUSE_OPTION_PHOTO_MODE_DESC_PC",
+      "renderer": "game_visual_arabic",
+      "logical": "ادخل وضع التصوير. يمكنك تعيين<br>اختصار له من الإعدادات، ثم<br>الفأرة ولوحة المفاتيح، ثم<br>الاختصارات وسرعة اللعبة.",
+      "before": "ﺮﻳﻮﺼﺘﻟﺍ ﻊﺿﻭ ﻞﺧﺩﺍ.<br><br>ﻊﺿﻭ ﻦﻴﻴﻌﺗ ﻚﻨﻜﻤﻳ<br>ﺔﻤﺋﺎﻗ ﻲﻓ ﺭﺎﺼﺘﺧﺎﻛ ﺮﻳﻮﺼﺘﻟﺍ<br>ﺕﺍﺩﺍﺪﻋﻹﺍ ﺖﺤﺗ ﺕﺍﺭﺎﻴﺨﻟﺍ ><br>ﺢﻴﺗﺎﻔﻤﻟﺍ ﺔﺣﻮﻟﻭ ﺓﺭﺄﻔﻟﺍ ><br>ﺔﺒﻌﻠﻟﺍ ﺔﻋﺮﺳﻭ ﺕﺍﺭﺎﺼﺘﺧﻻﺍ.",
+      "after": "ﻦﻴﻴﻌﺗ ﻚﻨﻜﻤﻳ .ﺮﻳﻮﺼﺘﻟﺍ ﻊﺿﻭ ﻞﺧﺩﺍ<br>ﻢﺛ ،ﺕﺍﺩﺍﺪﻋﻹﺍ ﻦﻣ ﻪﻟ ﺭﺎﺼﺘﺧﺍ<br>ﻢﺛ ،ﺢﻴﺗﺎﻔﻤﻟﺍ ﺔﺣﻮﻟﻭ ﺓﺭﺄﻔﻟﺍ<br>.ﺔﺒﻌﻠﻟﺍ ﺔﻋﺮﺳﻭ ﺕﺍﺭﺎﺼﺘﺧﻻﺍ"
+    },
+    {
+      "key": "PAUSE_OPTION_QUIT_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "أنه جلسة اللعب.",
+      "before": "ﺔﺒﻌﻠﻟﺍ ﺔﺴﻠﺟ ﻪﻧﺃ.",
+      "after": ".ﺐﻌﻠﻟﺍ ﺔﺴﻠﺟ ﻪﻧﺃ"
+    },
+    {
+      "key": "PAUSE_OPTION_RESTART_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "أعد اللعب من آخر نقطة حفظ.",
+      "before": "ﺔﻄﻘﻧ ﺮﺧﺁ ﻦﻣ ﺀﺪﺒﻟﺍ ﺪﻋﺃ<br>ﺶﻴﺘﻔﺗ.",
+      "after": ".ﻆﻔﺣ ﺔﻄﻘﻧ ﺮﺧﺁ ﻦﻣ ﺐﻌﻠﻟﺍ ﺪﻋﺃ"
+    },
+    {
+      "key": "PAUSE_OPTION_RESTART_TITLE",
+      "renderer": "game_visual_arabic",
+      "logical": "العودة إلى آخر نقطة حفظ",
+      "before": "ﺶﻴﺘﻔﺗ ﺔﻄﻘﻧ ﺮﺧﺁ ﺓﺩﺎﻋﺇ",
+      "after": "ﻆﻔﺣ ﺔﻄﻘﻧ ﺮﺧﺁ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ"
+    },
+    {
+      "key": "PAUSE_OPTION_RESUME_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "أكد الإعدادات واستأنف اللعب.",
+      "before": "ﺔﺒﻌﻠﻟﺍ ﻒﻧﺄﺘﺳﺍﻭ ﺕﺍﺩﺍﺪﻋﻹﺍ ﺪﻛﺃ.",
+      "after": ".ﺐﻌﻠﻟﺍ ﻒﻧﺄﺘﺳﺍﻭ ﺕﺍﺩﺍﺪﻋﻹﺍ ﺪﻛﺃ"
+    },
+    {
+      "key": "PAUSE_OPTION_SETTINGS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط إعدادات اللعبة.",
+      "before": "ﺔﺒﻌﻠﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ.",
+      "after": ".ﺔﺒﻌﻠﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ"
+    },
+    {
+      "key": "PAUSE_OPTION_SKIPCINE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "تخط المشهد السينمائي الحالي.",
+      "before": "ﻲﺋﺎﻤﻨﻴﺴﻟﺍ ﺪﻬﺸﻤﻟﺍ ﻂﺨﺗ.",
+      "after": ".ﻲﻟﺎﺤﻟﺍ ﻲﺋﺎﻤﻨﻴﺴﻟﺍ ﺪﻬﺸﻤﻟﺍ ﻂﺨﺗ"
+    },
+    {
+      "key": "PAUSE_OPTION_SKIPGLITCH_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "أكمل تحدي جليتش الحالي تلقائيًا<br>وعد إلى راتشت.",
+      "before": "ﺶﺘﻴﻠﺟ ﻱﺪﺤﺗ ﺰﺠﻨﻳ (Glitch<br>Challenge) ﺎﻴﺋﺎﻘﻠﺗ ﻲﻟﺎﺤﻟﺍ<br>ﺖﺸﺗﺍﺭ ﻰﻟﺇ ﻙﺪﻴﻌﻳﻭ.",
+      "after": "ﺎﻴﺋﺎﻘﻠﺗ ﻲﻟﺎﺤﻟﺍ ﺶﺘﻴﻠﺟ ﻱﺪﺤﺗ ﻞﻤﻛﺃ<br>.ﺖﺸﺗﺍﺭ ﻰﻟﺇ ﺪﻋﻭ"
+    },
+    {
+      "key": "PAUSE_OPTION_SKIPPUZZLE_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "تخط اللغز الحالي.",
+      "before": "ﻲﻟﺎﺤﻟﺍ ﺰﻐﻠﻟﺍ ﻂﺨﺗ.",
+      "after": ".ﻲﻟﺎﺤﻟﺍ ﺰﻐﻠﻟﺍ ﻂﺨﺗ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_ASPECTRATIO_DESC",
+      "renderer": "native_unicode",
+      "logical": "يضبط نسبة أبعاد الصورة لتناسب<br>العرض المطلوب مقارنة بنسبة أبعاد<br>شاشتك.",
+      "before": "يغير نسبة أبعاد اللعبة يتيح هذا محاكاة عرض .الحالية أعرض أو أضيق للعبة مقارنة بنسبة الأبعاد الأصلية .لشاشتك",
+      "after": "يضبط نسبة أبعاد الصورة لتناسب العرض المطلوب مقارنة بنسبة أبعاد شاشتك."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_BRIGHTNESS_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط سطوع الصورة. القيمة 0 هي<br>الأغمق، والقيمة 100 هي الأكثر<br>سطوعًا.",
+      "before": "هي 0 القيمة .اضبط السطوع هي الأكثر 100 الأغمق والقيمة .سطوعا",
+      "after": "اضبط سطوع الصورة. القيمة 0 هي الأغمق، والقيمة 100 هي الأكثر سطوعًا."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_CONTRAST_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط تباين الصورة. القيمة 0 هي<br>الأدنى، والقيمة 10 هي الأعلى.",
+      "before": ".اضبط قوة تباين الصورة هي الأدنى والقيمة 0 القيمة .هي الأعلى 10",
+      "after": "اضبط تباين الصورة. القيمة 0 هي الأدنى، والقيمة 10 هي الأعلى."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DISPLAYRESOLUTION_DESC",
+      "renderer": "native_unicode",
+      "logical": "يحدد دقة عرض اللعبة.",
+      "before": ".يغير دقة عرض اللعبة",
+      "after": "يحدد دقة عرض اللعبة."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSS",
+      "renderer": "native_unicode",
+      "logical": "NVIDIA DLSS",
+      "before": "NVIDIA DLSS",
+      "after": "NVIDIA DLSS"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSSG",
+      "renderer": "native_unicode",
+      "logical": "توليد الإطارات بتقنية DLSS",
+      "before": "NVIDIA DLSS",
+      "after": "توليد الإطارات بتقنية DLSS"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSSG_DESC",
+      "renderer": "native_unicode",
+      "logical": "تستخدم تقنية DLSS الذكاء<br>الاصطناعي لتوليد إطارات إضافية.<br>يتطلب هذا الخيار بطاقة رسوميات<br>متوافقة من سلسلة GeForce RTX 40.",
+      "before": "يستخدم توليد إطارات دي إل إيه إيه إس تقنية الذكاء الاصطناعي لرسم إطارات إضافية من دون الإضرار بجودة .الصورة أو سرعة الاستجابة وتتطلب هذه الميزة بطاقة رسوميات من سلسلة جي 40. فورس آر تي إكس",
+      "after": "تستخدم تقنية DLSS الذكاء الاصطناعي لتوليد إطارات إضافية. يتطلب هذا الخيار بطاقة رسوميات متوافقة من سلسلة GeForce RTX 40."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DLSSG_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "توليد الإطارات بتقنية DLSS",
+      "before": "ﺱﺇ ﻪﻳﺇ ﻪﻳﺇ ﻝﺇ ﻱﺩ ﺕﺍﺭﺎﻃﺇ ﺪﻴﻟﻮﺗ",
+      "after": "DLSS ﺔﻴﻨﻘﺘﺑ ﺕﺍﺭﺎﻃﻹﺍ ﺪﻴﻟﻮﺗ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DRS",
+      "renderer": "native_unicode",
+      "logical": "الدقة الديناميكية",
+      "before": "الدقة الديناميكية",
+      "after": "الدقة الديناميكية"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DRS_DESC",
+      "renderer": "native_unicode",
+      "logical": "حدد معدل الإطارات المستهدف. تضبط<br>اللعبة دقة العرض الداخلية<br>تلقائيًا للحفاظ على هذا المعدل<br>بأفضل جودة ممكنة. لا تُحتسب<br>الإطارات المولدة ضمن المعدل<br>المستهدف.",
+      "before": "يمكن استخدامه لتحديد معدل الإطارات المستهدف الذي تسعى اللعبة إلى بلوغه، مع ضبط دقة الرسم الداخلية تلقائيا لتحقيق أفضل جودة بصرية مع الحفاظ على ولا يشمل معدل .معدل الإطارات الإطارات المستهدف أي إطارات تنتجها تقنية توليد .الإطارات",
+      "after": "حدد معدل الإطارات المستهدف. تضبط اللعبة دقة العرض الداخلية تلقائيًا للحفاظ على هذا المعدل بأفضل جودة ممكنة. لا تُحتسب الإطارات المولدة ضمن المعدل المستهدف."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_DRS_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "الدقة الديناميكية",
+      "before": "ﺔﻗﺪﻠﻟ ﻲﻜﻴﻣﺎﻨﻳﺪﻟﺍ ﻢﻴﺠﺤﺘﻟﺍ",
+      "after": "ﺔﻴﻜﻴﻣﺎﻨﻳﺪﻟﺍ ﺔﻗﺪﻟﺍ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_EXCLUSIVEFULLSCREEN",
+      "renderer": "native_unicode",
+      "logical": "ملء الشاشة الحصري",
+      "before": "ملء الشاشة الحصري",
+      "after": "ملء الشاشة الحصري"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_EXCLUSIVEFULLSCREEN_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "ملء الشاشة الحصري",
+      "before": "ﻱﺮﺼﺤﻟﺍ ﺔﺷﺎﺸﻟﺍ ﺀﻞﻣ",
+      "after": "ﻱﺮﺼﺤﻟﺍ ﺔﺷﺎﺸﻟﺍ ﺀﻞﻣ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FRAMEGEN_DESC",
+      "renderer": "native_unicode",
+      "logical": "يولد إطارات إضافية بالاعتماد على<br>بيانات الإطارات السابقة. يتطلب<br>توليد الإطارات بتقنية DLSS بطاقة<br>رسوميات متوافقة من سلسلة GeForce<br>RTX 40.",
+      "before": "يولد توليد الإطارات إطارات إضافية بالاستعانة .ببيانات الإطارات السابقة ويتطلب توليد إطارات دي إل إس إس بطاقة رسوميات من سلسلة جي فورس آر تي إكس 40.",
+      "after": "يولد إطارات إضافية بالاعتماد على بيانات الإطارات السابقة. يتطلب توليد الإطارات بتقنية DLSS بطاقة رسوميات متوافقة من سلسلة GeForce RTX 40."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FSR",
+      "renderer": "native_unicode",
+      "logical": "AMD FSR 3",
+      "before": "AMD FSR 3",
+      "after": "AMD FSR 3"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FSRAA",
+      "renderer": "native_unicode",
+      "logical": "AMD FSR 3 Native AA",
+      "before": "AMD FSR 3 Native AA",
+      "after": "AMD FSR 3 Native AA"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_FSRFRAMEGEN",
+      "renderer": "native_unicode",
+      "logical": "توليد الإطارات بتقنية FSR 3",
+      "before": "AMD FSR 3",
+      "after": "توليد الإطارات بتقنية FSR 3"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDR",
+      "renderer": "native_unicode",
+      "logical": "HDR",
+      "before": "HDR",
+      "after": "HDR"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRMAXNITS",
+      "renderer": "native_unicode",
+      "logical": "أقصى سطوع HDR",
+      "before": "أقصى سطوع HDR",
+      "after": "أقصى سطوع HDR"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRMAXNITS_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط أقصى سطوع للصورة في وضع<br>HDR. يُقاس السطوع بوحدة النيت.",
+      "before": "اضبط أقصى إضاءة تنتجها .اللعبة في وضع إتش دي آر .وتقاس بوحدة النيت",
+      "after": "اضبط أقصى سطوع للصورة في وضع HDR. يُقاس السطوع بوحدة النيت."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRMAXNITS_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "أقصى سطوع HDR",
+      "before": "ﺭﺁ ﻱﺩ ﺶﺗﺇ ﻲﻓ ﺓﺀﺎﺿﺇ ﻰﺼﻗﺃ",
+      "after": "HDR ﻉﻮﻄﺳ ﻰﺼﻗﺃ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRPAPERWHITE",
+      "renderer": "native_unicode",
+      "logical": "سطوع الأبيض في HDR",
+      "before": "سطوع الورق الأبيض HDR",
+      "after": "سطوع الأبيض في HDR"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRPAPERWHITE_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط السطوع الأساسي للمناطق<br>البيضاء في وضع HDR. يُقاس السطوع<br>بوحدة النيت.",
+      "before": "اضبط الإضاءة الأساسية للسطح الأبيض عند عرض .اللعبة في وضع إتش دي آر .وتقاس بوحدة النيت",
+      "after": "اضبط السطوع الأساسي للمناطق البيضاء في وضع HDR. يُقاس السطوع بوحدة النيت."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDRPAPERWHITE_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "سطوع الأبيض في HDR",
+      "before": "ﺭﺁ ﻱﺩ ﺶﺗﺇ ﻲﻓ ﻕﺭﻮﻟﺍ ﺾﻴﺑﺃ",
+      "after": "HDR ﻲﻓ ﺾﻴﺑﻷﺍ ﻉﻮﻄﺳ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDR_DESC",
+      "renderer": "native_unicode",
+      "logical": "يبدل بين عرض HDR وعرض SDR. لا<br>يتاح هذا الخيار إلا عند تفعيل<br>HDR في إعدادات Windows.",
+      "before": "بدل بين عرض اللعبة بوضع ولا .إتش دي آر أو إس دي آر يمكن تفعيل هذا الخيار إلا إذا كان إتش دي آر مفعلا بالفعل .في ويندوز",
+      "after": "يبدل بين عرض HDR وعرض SDR. لا يتاح هذا الخيار إلا عند تفعيل HDR في إعدادات Windows."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_HDR_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "HDR",
+      "before": "ﺭﺁ ﻱﺩ ﺶﺗﺇ",
+      "after": "HDR"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_IGTI",
+      "renderer": "native_unicode",
+      "logical": "IGTI",
+      "before": "IGTI",
+      "after": "IGTI"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_MONITOR_DESC",
+      "renderer": "native_unicode",
+      "logical": "اختر الشاشة التي تريد عرض اللعبة<br>عليها.",
+      "before": "اختر الشاشة التي ينبغي .عرض اللعبة عليها",
+      "after": "اختر الشاشة التي تريد عرض اللعبة عليها."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_NVIDIAREFLEX",
+      "renderer": "native_unicode",
+      "logical": "NVIDIA Reflex",
+      "before": "NVIDIA Reflex",
+      "after": "NVIDIA Reflex"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_NVIDIAREFLEX_DESC",
+      "renderer": "native_unicode",
+      "logical": "يقلل زمن استجابة النظام. يحاول<br>وضع التعزيز تقليل التأخير بصورة<br>إضافية لتحسين الاستجابة.",
+      "before": "تخفض إنفيديا ريفيكس كمون النظام وتزيد سرعة وعند .استجابة الحاسوب التفعيل تقلل كمون بطاقة ويحاول وضع .الرسوميات التعزيز أيضا تقليل الكمون .الناتج عن المعالج",
+      "after": "يقلل زمن استجابة النظام. يحاول وضع التعزيز تقليل التأخير بصورة إضافية لتحسين الاستجابة."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_NVIDIAREFLEX_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "NVIDIA Reflex",
+      "before": "ﺲﻜﻴﻔﻳﺭ ﺎﻳﺪﻴﻔﻧﺇ<br>ﺔﻀﻔﺨﻨﻤﻟﺍ ﺔﺑﺎﺠﺘﺳﻼﻟ",
+      "after": "NVIDIA Reflex"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_ONPLUSBOOST",
+      "renderer": "native_unicode",
+      "logical": "مفعل مع التعزيز",
+      "before": "تعزيز + مفعل",
+      "after": "مفعل مع التعزيز"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_ONPLUSBOOST_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "مفعل مع التعزيز",
+      "before": "ﻞﻌﻔﻣ + ﺰﻳﺰﻌﺗ",
+      "after": "ﺰﻳﺰﻌﺘﻟﺍ ﻊﻣ ﻞﻌﻔﻣ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_REFRESHRATE_DESC",
+      "renderer": "native_unicode",
+      "logical": "يحدد معدل تحديث الشاشة. يمكن<br>تغييره عند استخدام وضع ملء<br>الشاشة الحصري فقط.",
+      "before": "يحدد معدل التحديث المستخدم في جهاز العرض ولا يمكن تعديله إلا .لديك عند استخدام ملء الشاشة .الحصري",
+      "after": "يحدد معدل تحديث الشاشة. يمكن تغييره عند استخدام وضع ملء الشاشة الحصري فقط."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEMETHOD",
+      "renderer": "native_unicode",
+      "logical": "طريقة رفع الدقة",
+      "before": "طريقة رفع الدقة",
+      "after": "طريقة رفع الدقة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEMETHOD_DESC",
+      "renderer": "native_unicode",
+      "logical": "اختر تقنية تنعيم الحواف ورفع<br>الدقة لتحسين جودة الصورة<br>والأداء. اضبط مستوى الجودة ومعدل<br>الإطارات المستهدف من الخيارات<br>أدناه.",
+      "before": "يتيح التبديل بين عدة خوارزميات لمعالجة التسنين وتستخدم هذه .وتكبير الدقة الخوارزميات لتحسين الصورة .وكذلك لتحسين الأداء وتشمل الحقن الزمني من إنزومنياك غيمز، ودي إل إيه إيه إس من إنفيديا، وإف إس آر .من إيه إم دي، وإكس إي إس 3 استخدم الخيارات أدناه لتحديد مستوى الجودة، بما في ذلك تحديد حد أدنى لمعدل الإطارات وضبط الجودة .تلقائيا",
+      "after": "اختر تقنية تنعيم الحواف ورفع الدقة لتحسين جودة الصورة والأداء. اضبط مستوى الجودة ومعدل الإطارات المستهدف من الخيارات أدناه."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEMETHOD_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "طريقة رفع الدقة",
+      "before": "ﺮﻴﺒﻜﺘﻟﺍ ﺔﻘﻳﺮﻃ",
+      "after": "ﺔﻗﺪﻟﺍ ﻊﻓﺭ ﺔﻘﻳﺮﻃ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEQUALITY",
+      "renderer": "native_unicode",
+      "logical": "جودة رفع الدقة",
+      "before": "جودة رفع الدقة",
+      "after": "جودة رفع الدقة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEQUALITY_DESC",
+      "renderer": "native_unicode",
+      "logical": "اختر مستوى جودة رفع الدقة.<br>تستخدم خيارات الجودة دقة داخلية<br>أعلى، بينما تستخدم خيارات الأداء<br>دقة أقل لزيادة معدل الإطارات.<br>يتغير الخيار إلى ديناميكي عند<br>تحديد معدل مستهدف للدقة<br>الديناميكية.",
+      "before": "اختر وضع الجودة المطلوب .لخوارزمية تكبير الدقة فخيارات الجودة الأعلى تستخدم دقة رسم وسيطة أعلى، بينما خيارات الأداء العالي تستخدم دقة أقل .لكنها تتيح معدل إطارات أعلى وستضبط دائما على عند تحديد هدف »ديناميكي« للتحجيم الديناميكي .للدقة في الخيار أدناه",
+      "after": "اختر مستوى جودة رفع الدقة. تستخدم خيارات الجودة دقة داخلية أعلى، بينما تستخدم خيارات الأداء دقة أقل لزيادة معدل الإطارات. يتغير الخيار إلى ديناميكي عند تحديد معدل مستهدف للدقة الديناميكية."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALEQUALITY_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "جودة رفع الدقة",
+      "before": "ﺮﻴﺒﻜﺘﻟﺍ ﺓﺩﻮﺟ",
+      "after": "ﺔﻗﺪﻟﺍ ﻊﻓﺭ ﺓﺩﻮﺟ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALESHARPNESS",
+      "renderer": "native_unicode",
+      "logical": "حدة الصورة",
+      "before": "حدة الصورة",
+      "after": "حدة الصورة"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALESHARPNESS_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط حدة الصورة الناتجة عن تقنية<br>رفع الدقة المحددة.",
+      "before": "يضبط حدة تقنية تكبير .الدقة الحالية",
+      "after": "اضبط حدة الصورة الناتجة عن تقنية رفع الدقة المحددة."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_UPSCALESHARPNESS_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "حدة الصورة",
+      "before": "ﺮﻴﺒﻜﺘﻟﺍ ﺓﺪﺣ",
+      "after": "ﺓﺭﻮﺼﻟﺍ ﺓﺪﺣ"
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_VSYNC_DESC",
+      "renderer": "native_unicode",
+      "logical": "يزامن عرض الإطارات مع تحديث<br>الشاشة لمنع تمزق الصورة.",
+      "before": "يزامن معدل وصول الإطارات الجديدة إلى الشاشة من .اللعبة، ويمنع تمزق الصورة",
+      "after": "يزامن عرض الإطارات مع تحديث الشاشة لمنع تمزق الصورة."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_WINDOWMODE_DESC",
+      "renderer": "native_unicode",
+      "logical": "اختر وضع النافذة أو ملء الشاشة<br>أو ملء الشاشة الحصري.",
+      "before": "يبدل بين أوضاع ملء الشاشة والنافذة وملء .الشاشة الحصري",
+      "after": "اختر وضع النافذة أو ملء الشاشة أو ملء الشاشة الحصري."
+    },
+    {
+      "key": "PCDISPLAYSETTINGS_XESS",
+      "renderer": "native_unicode",
+      "logical": "Intel XeSS",
+      "before": "Intel XeSS",
+      "after": "Intel XeSS"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_16XANISOTROPIC",
+      "renderer": "native_unicode",
+      "logical": "ترشيح متباين الخواص ×16",
+      "before": "متعدد الاتجاهات ×16",
+      "after": "ترشيح متباين الخواص ×16"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_16XANISOTROPIC_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "ترشيح متباين الخواص ×16",
+      "before": "16× ﺕﺎﻫﺎﺠﺗﻻﺍ ﺩﺪﻌﺘﻣ",
+      "after": "16× ﺹﺍﻮﺨﻟﺍ ﻦﻳﺎﺒﺘﻣ ﺢﻴﺷﺮﺗ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_2XANISOTROPIC",
+      "renderer": "native_unicode",
+      "logical": "ترشيح متباين الخواص ×2",
+      "before": "متعدد الاتجاهات ×2",
+      "after": "ترشيح متباين الخواص ×2"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_2XANISOTROPIC_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "ترشيح متباين الخواص ×2",
+      "before": "2× ﺕﺎﻫﺎﺠﺗﻻﺍ ﺩﺪﻌﺘﻣ",
+      "after": "2× ﺹﺍﻮﺨﻟﺍ ﻦﻳﺎﺒﺘﻣ ﺢﻴﺷﺮﺗ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_4XANISOTROPIC",
+      "renderer": "native_unicode",
+      "logical": "ترشيح متباين الخواص ×4",
+      "before": "متعدد الاتجاهات ×4",
+      "after": "ترشيح متباين الخواص ×4"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_4XANISOTROPIC_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "ترشيح متباين الخواص ×4",
+      "before": "4× ﺕﺎﻫﺎﺠﺗﻻﺍ ﺩﺪﻌﺘﻣ",
+      "after": "4× ﺹﺍﻮﺨﻟﺍ ﻦﻳﺎﺒﺘﻣ ﺢﻴﺷﺮﺗ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_8XANISOTROPIC",
+      "renderer": "native_unicode",
+      "logical": "ترشيح متباين الخواص ×8",
+      "before": "متعدد الاتجاهات ×8",
+      "after": "ترشيح متباين الخواص ×8"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_8XANISOTROPIC_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "ترشيح متباين الخواص ×8",
+      "before": "8× ﺕﺎﻫﺎﺠﺗﻻﺍ ﺩﺪﻌﺘﻣ",
+      "after": "8× ﺹﺍﻮﺨﻟﺍ ﻦﻳﺎﺒﺘﻣ ﺢﻴﺷﺮﺗ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_AO",
+      "renderer": "native_unicode",
+      "logical": "التظليل المحيطي",
+      "before": "الحجب المحيط",
+      "after": "التظليل المحيطي"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_AO_DESC",
+      "renderer": "native_unicode",
+      "logical": "يضيف ظلالًا إلى الشقوق والزوايا<br>لإبراز العمق في المشهد.",
+      "before": "يغمق الصدوع والزوايا في اللعبة لإضافة إحساس .بالعمق",
+      "after": "يضيف ظلالًا إلى الشقوق والزوايا لإبراز العمق في المشهد."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_AO_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "التظليل المحيطي",
+      "before": "ﻂﻴﺤﻤﻟﺍ ﺐﺠﺤﻟﺍ",
+      "after": "ﻲﻄﻴﺤﻤﻟﺍ ﻞﻴﻠﻈﺘﻟﺍ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_BLOOM_DESC",
+      "renderer": "native_unicode",
+      "logical": "يضيف توهجًا حول المناطق الساطعة<br>في الصورة.",
+      "before": "يسمح للنقاط الساطعة على الشاشة بأن تنشر ضوءها .على ما حولها",
+      "after": "يضيف توهجًا حول المناطق الساطعة في الصورة."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_CHROMATICABERRATION_DESC",
+      "renderer": "native_unicode",
+      "logical": "يحاكي انحراف الألوان الناتج عن<br>عدسات الكاميرا.",
+      "before": "يفعل الانحراف اللوني الذي يحاكي تأثيرات تشوه العدسات في العالم .الحقيقي",
+      "after": "يحاكي انحراف الألوان الناتج عن عدسات الكاميرا."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_CROWDDENSITY",
+      "renderer": "native_unicode",
+      "logical": "كثافة الحشود",
+      "before": "كثافة الحشد",
+      "after": "كثافة الحشود"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_CROWDDENSITY_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط عدد المارة في المدينة. قد<br>تحسن القيم المنخفضة أداء المعالج<br>وبطاقة الرسوميات. تظهر التغييرات<br>تدريجيًا أثناء التنقل.",
+      "before": "يعدل عدد المارة الذين يعبرون بعد التعديل .المدينة سيحدث التغيير تدريجيا .مع تنقلك في المدينة القيم الأقل تساعد في تخفيف اختناقات المعالج، كما تتيح رسما أسرع على .بطاقة الرسوميات",
+      "after": "اضبط عدد المارة في المدينة. قد تحسن القيم المنخفضة أداء المعالج وبطاقة الرسوميات. تظهر التغييرات تدريجيًا أثناء التنقل."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_CROWDDENSITY_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "كثافة الحشود",
+      "before": "ﺪﺸﺤﻟﺍ ﺔﻓﺎﺜﻛ",
+      "after": "ﺩﻮﺸﺤﻟﺍ ﺔﻓﺎﺜﻛ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_DEPTHOFFIELD_DESC",
+      "renderer": "native_unicode",
+      "logical": "يحاكي تركيز عدسة الكاميرا بجعل<br>أجزاء من المشهد واضحة وتمويه<br>الأجزاء الأخرى.",
+      "before": "يحاكي تأثير الكاميرا حين لا يكون سوى جزء محدد من .المشهد واضحا",
+      "after": "يحاكي تركيز عدسة الكاميرا بجعل أجزاء من المشهد واضحة وتمويه الأجزاء الأخرى."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_DLAA",
+      "renderer": "native_unicode",
+      "logical": "NVIDIA DLAA",
+      "before": "دي إل إيه إيه",
+      "after": "NVIDIA DLAA"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FILMGRAINSTRENGTH",
+      "renderer": "native_unicode",
+      "logical": "شدة التحبب السينمائي",
+      "before": "قوة حبيبات الفيلم",
+      "after": "شدة التحبب السينمائي"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FILMGRAINSTRENGTH_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط شدة التحبب الذي يحاكي مظهر<br>الأفلام السينمائية.",
+      "before": "يتحكم في مقدار حبيبات الفيلم المحاكاة لخلق تأثير .تشويه يشبه الأفلام",
+      "after": "اضبط شدة التحبب الذي يحاكي مظهر الأفلام السينمائية."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FILMGRAINSTRENGTH_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "شدة التحبب السينمائي",
+      "before": "ﻢﻠﻴﻔﻟﺍ ﺕﺎﺒﻴﺒﺣ ﺓﻮﻗ",
+      "after": "ﻲﺋﺎﻤﻨﻴﺴﻟﺍ ﺐﺒﺤﺘﻟﺍ ﺓﺪﺷ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FOVCORRECTION_DESC",
+      "renderer": "native_unicode",
+      "logical": "زد زاوية رؤية الكاميرا أو قللها<br>بالنسبة المحددة.",
+      "before": "يزيد أو يقلل زاوية رؤية الكاميرا بالنسبة المئوية .المحددة",
+      "after": "زد زاوية رؤية الكاميرا أو قللها بالنسبة المحددة."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_FULLSCREENEFFECTS_DESC",
+      "renderer": "native_unicode",
+      "logical": "يفعل مؤثرات الشاشة مثل وهج<br>العدسة والتموج الحراري وقطرات<br>المطر وتأثيرات الغاز، أو يعطلها.",
+      "before": "شغل أو أوقف مؤثرات بصرية ملء الشاشة أثناء اللعب مثل وهج العدسة والتموج الحراري وقطرات المطر أمام العدسة .وتأثيرات الغاز",
+      "after": "يفعل مؤثرات الشاشة مثل وهج العدسة والتموج الحراري وقطرات المطر وتأثيرات الغاز، أو يعطلها."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_GEOMETRYDETAIL",
+      "renderer": "native_unicode",
+      "logical": "تفاصيل مجسمات الانعكاسات",
+      "before": "تفاصيل هندسة الانعكاس",
+      "after": "تفاصيل مجسمات الانعكاسات"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_GEOMETRYDETAIL_DESC",
+      "renderer": "native_unicode",
+      "logical": "يستخدم مجسمات أعلى تفصيلًا<br>للعناصر القريبة عند تتبع الأشعة،<br>لإظهار انعكاسات أكثر واقعية.",
+      "before": "عند التفعيل تستخدم الأشكال الهندسية القريبة مثل المباني شبكات أعلى جودة لتتبع الأشعة، ما ينتج .انعكاسا أكثر واقعية بكثير",
+      "after": "يستخدم مجسمات أعلى تفصيلًا للعناصر القريبة عند تتبع الأشعة، لإظهار انعكاسات أكثر واقعية."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_GEOMETRYDETAIL_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "تفاصيل مجسمات الانعكاسات",
+      "before": "ﺱﺎﻜﻌﻧﻻﺍ ﺔﺳﺪﻨﻫ ﻞﻴﺻﺎﻔﺗ",
+      "after": "ﺕﺎﺳﺎﻜﻌﻧﻻﺍ ﺕﺎﻤﺴﺠﻣ ﻞﻴﺻﺎﻔﺗ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_HAIRQUALITY_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط كثافة شعر الشخصيات وتفاصيل<br>انحنائه.",
+      "before": "عدل كثافة وانحناء شعر .الشخصيات",
+      "after": "اضبط كثافة شعر الشخصيات وتفاصيل انحنائه."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_HBAOPLUS",
+      "renderer": "native_unicode",
+      "logical": "HBAO+",
+      "before": "إتش بي إيه أو زائد",
+      "after": "HBAO+"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_LENSFLARES_DESC",
+      "renderer": "native_unicode",
+      "logical": "يحاكي الوهج والتشتت الناتجين عن<br>مرور الضوء الساطع عبر عدسة<br>الكاميرا.",
+      "before": "فعله للسماح للأضواء الساطعة بأن تخلق تأثيرات الانعكاس الداخلي والتشتيت كما لو كنت تنظر .عبر عدسة كاميرا",
+      "after": "يحاكي الوهج والتشتت الناتجين عن مرور الضوء الساطع عبر عدسة الكاميرا."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_LEVELOFDETAIL_DESC",
+      "renderer": "native_unicode",
+      "logical": "تزيد الجودة الأعلى مسافة عرض<br>المجسمات بتفاصيلها الكاملة. تقلل<br>الجودة المنخفضة هذه المسافة<br>لتحسين أداء المعالج وبطاقة<br>الرسوميات.",
+      "before": "الجودة الأعلى تزيد المسافة التي تبدأ عندها الأجسام بالتحول إلى مستوى الجودة الأقل .تفاصيل أقل تقلل هذه المسافة فتحسن أداء المعالج وبطاقة .الرسوميات",
+      "after": "تزيد الجودة الأعلى مسافة عرض المجسمات بتفاصيلها الكاملة. تقلل الجودة المنخفضة هذه المسافة لتحسين أداء المعالج وبطاقة الرسوميات."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_MOTIONBLUR",
+      "renderer": "native_unicode",
+      "logical": "شدة ضبابية الحركة",
+      "before": "قوة ضبابية الحركة",
+      "after": "شدة ضبابية الحركة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_MOTIONBLUR_DESC",
+      "renderer": "native_unicode",
+      "logical": "يموه الأجسام في اتجاه حركتها<br>ليجعل الحركة تبدو أكثر سلاسة.",
+      "before": "يجعل الحركة تبدو أنعم عبر تمويه الأشكال الهندسية .في اتجاه حركتها",
+      "after": "يموه الأجسام في اتجاه حركتها ليجعل الحركة تبدو أكثر سلاسة."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_MOTIONBLUR_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "شدة ضبابية الحركة",
+      "before": "ﺔﻛﺮﺤﻟﺍ ﺔﻴﺑﺎﺒﺿ ﺓﻮﻗ",
+      "after": "ﺔﻛﺮﺤﻟﺍ ﺔﻴﺑﺎﺒﺿ ﺓﺪﺷ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_OBJECTRANGE",
+      "renderer": "native_unicode",
+      "logical": "مدى تتبع الأجسام",
+      "before": "مدى الأجسام",
+      "after": "مدى تتبع الأجسام"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_OBJECTRANGE_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط مدى الأجسام المشمولة في<br>حسابات تتبع الأشعة. تقلل القيم<br>المنخفضة حمل هذه الحسابات على<br>المعالج.",
+      "before": "يسمح بتعديل المدى الذي تحسب عنده الأجسام لتتبع تستخدم القيم .الأشعة الأقل لتقليل عمل المعالج اللازم للتحضير لتتبع الأشعة، كما تساعد على تجنب تحول المعالج إلى .اختناق",
+      "after": "اضبط مدى الأجسام المشمولة في حسابات تتبع الأشعة. تقلل القيم المنخفضة حمل هذه الحسابات على المعالج."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_OBJECTRANGE_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "مدى تتبع الأجسام",
+      "before": "ﻡﺎﺴﺟﻷﺍ ﻯﺪﻣ",
+      "after": "ﻡﺎﺴﺟﻷﺍ ﻊﺒﺘﺗ ﻯﺪﻣ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PARTICLELIGHTING_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط جودة مؤثرات جسيمات الطقس في<br>اللعبة.",
+      "before": "عدل جودة مؤثرات جزيئات الطقس في جميع أنحاء .اللعبة",
+      "after": "اضبط جودة مؤثرات جسيمات الطقس في اللعبة."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PHANTOMDASHEFFECT_DESC",
+      "renderer": "native_unicode",
+      "logical": "يفعل الأثر البصري المصاحب<br>لاندفاعة الطيف، أو يعطله.",
+      "before": "شغل أو أوقف تأثيرات الأثر .عند استخدام اندفاعة الطيف",
+      "after": "يفعل الأثر البصري المصاحب لاندفاعة الطيف، أو يعطله."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PRESET",
+      "renderer": "native_unicode",
+      "logical": "إعدادات مسبقة",
+      "before": "إعداد مسبق",
+      "after": "إعدادات مسبقة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PRESET_DESC",
+      "renderer": "native_unicode",
+      "logical": "اختر مجموعة إعدادات رسومية جاهزة<br>تناسب مستوى الأداء المطلوب.",
+      "before": "إعدادات رسوميات معدة مسبقا .لمختلف مستويات الأداء",
+      "after": "اختر مجموعة إعدادات رسومية جاهزة تناسب مستوى الأداء المطلوب."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_PRESET_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "إعدادات مسبقة",
+      "before": "ﻖﺒﺴﻣ ﺩﺍﺪﻋﺇ",
+      "after": "ﺔﻘﺒﺴﻣ ﺕﺍﺩﺍﺪﻋﺇ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RAYTRACING_DESC",
+      "renderer": "native_unicode",
+      "logical": "يفعل تتبع الأشعة.",
+      "before": ".يفعل تتبع الأشعة",
+      "after": "يفعل تتبع الأشعة."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_REFLECTIONRESOLUTION",
+      "renderer": "native_unicode",
+      "logical": "دقة الانعكاسات",
+      "before": "دقة الانعكاس",
+      "after": "دقة الانعكاسات"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_REFLECTIONRESOLUTION_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط عدد الأشعة المستخدمة لرسم<br>الانعكاسات. قد يقلل الخيار عالي<br>جدًا معدل الإطارات، خصوصًا عند<br>استخدام دقة عرض مرتفعة.",
+      "before": "يعدل عدد الأشعة المستخدمة يمكن .في رسم الانعكاسات أن يؤثر إعداد دقة الانعكاس في المستوى عال جدا بشكل ملحوظ على معدل الإطارات، خصوصا عند الجمع بينه وبين دقة شاشة عالية، ولا ينصح به إلا على بطاقات رسوميات عالية المواصفات أو .عند دقة شاشة أقل",
+      "after": "اضبط عدد الأشعة المستخدمة لرسم الانعكاسات. قد يقلل الخيار عالي جدًا معدل الإطارات، خصوصًا عند استخدام دقة عرض مرتفعة."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_REFLECTIONRESOLUTION_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "دقة الانعكاسات",
+      "before": "ﺱﺎﻜﻌﻧﻻﺍ ﺔﻗﺩ",
+      "after": "ﺕﺎﺳﺎﻜﻌﻧﻻﺍ ﺔﻗﺩ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RTAO",
+      "renderer": "native_unicode",
+      "logical": "RTAO",
+      "before": "RTAO",
+      "after": "RTAO"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_AMBIENTOCCLUSION",
+      "renderer": "native_unicode",
+      "logical": "التظليل المحيطي بتتبع الأشعة",
+      "before": "الحجب المحيط بتتبع الأشعة",
+      "after": "التظليل المحيطي بتتبع الأشعة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_AMBIENTOCCLUSION_DESC",
+      "renderer": "native_unicode",
+      "logical": "يستخدم تتبع الأشعة لإضافة ظلال<br>واقعية إلى الشقوق والزوايا<br>وإبراز عمق المشهد.",
+      "before": "يفعل استخدام عتاد تتبع الأشعة لإنشاء حجب محيط أكثر واقعية يغمق الصدوع والزوايا في اللعبة لإضافة .إحساس بالعمق",
+      "after": "يستخدم تتبع الأشعة لإضافة ظلال واقعية إلى الشقوق والزوايا وإبراز عمق المشهد."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_AMBIENTOCCLUSION_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "التظليل المحيطي بتتبع الأشعة",
+      "before": "ﻊﺒﺘﺘﺑ ﻂﻴﺤﻤﻟﺍ ﺐﺠﺤﻟﺍ<br>ﺔﻌﺷﻷﺍ",
+      "after": "ﺔﻌﺷﻷﺍ ﻊﺒﺘﺘﺑ ﻲﻄﻴﺤﻤﻟﺍ ﻞﻴﻠﻈﺘﻟﺍ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_REFLECTIONS_DESC",
+      "renderer": "native_unicode",
+      "logical": "يستخدم تتبع الأشعة لعرض انعكاسات<br>واقعية تشمل الأجسام المتحركة<br>والأجسام خارج الشاشة. قد يؤثر<br>بشدة في الأداء عند رفع الجودة.",
+      "before": "يتيح استخدام عتاد تتبع الأشعة لإنشاء انعكاسات واقعية فورية تظهر الأجسام خارج الشاشة والأجسام قد .المتحركة على نحو صحيح تكون مكلفة جدا خصوصا مع .الإعدادات الأعلى",
+      "after": "يستخدم تتبع الأشعة لعرض انعكاسات واقعية تشمل الأجسام المتحركة والأجسام خارج الشاشة. قد يؤثر بشدة في الأداء عند رفع الجودة."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_RT_SHADOWS_DESC",
+      "renderer": "native_unicode",
+      "logical": "يستخدم تتبع الأشعة لإظهار ظلال<br>الشمس بصورة أكثر واقعية<br>وتفصيلًا.",
+      "before": "يفعل استخدام عتاد تتبع الأشعة لإنشاء ظلال أكثر .واقعية وتفصيلا للشمس",
+      "after": "يستخدم تتبع الأشعة لإظهار ظلال الشمس بصورة أكثر واقعية وتفصيلًا."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SCREENSHAKE_DESC",
+      "renderer": "native_unicode",
+      "logical": "يفعل اهتزاز الشاشة أثناء اللعب،<br>أو يعطله.",
+      "before": "شغل اهتزاز الشاشة أو أوقفه .أثناء اللعب",
+      "after": "يفعل اهتزاز الشاشة أثناء اللعب، أو يعطله."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SCREENSPACEREFLECTIONS",
+      "renderer": "native_unicode",
+      "logical": "انعكاسات حيز الشاشة",
+      "before": "انعكاسات فضاء الشاشة",
+      "after": "انعكاسات حيز الشاشة"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SCREENSPACEREFLECTIONS_DESC",
+      "renderer": "native_unicode",
+      "logical": "يفعل الانعكاسات المعتمدة على<br>العناصر الظاهرة في الشاشة، أو<br>يعطلها.",
+      "before": "فعل انعكاسات فضاء الشاشة .أو أوقفها",
+      "after": "يفعل الانعكاسات المعتمدة على العناصر الظاهرة في الشاشة، أو يعطلها."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SCREENSPACEREFLECTIONS_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "انعكاسات حيز الشاشة",
+      "before": "ﺔﺷﺎﺸﻟﺍ ﺀﺎﻀﻓ ﺕﺎﺳﺎﻜﻌﻧﺍ",
+      "after": "ﺔﺷﺎﺸﻟﺍ ﺰﻴﺣ ﺕﺎﺳﺎﻜﻌﻧﺍ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SHADOWQUALITY_DESC",
+      "renderer": "native_unicode",
+      "logical": "تزيد الجودة الأعلى تفاصيل<br>الظلال، بينما تقلل الجودة<br>المنخفضة الحمل على بطاقة<br>الرسوميات.",
+      "before": "الجودة الأعلى تضيف تفصيلا أكبر إلى الظلال، والجودة الأقل تقلل الحمل .على بطاقة الرسوميات",
+      "after": "تزيد الجودة الأعلى تفاصيل الظلال، بينما تقلل الجودة المنخفضة الحمل على بطاقة الرسوميات."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SHARPNESS_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط حدة الصورة. تزيد القيم<br>الأعلى وضوح التفاصيل.",
+      "before": "يعدل حدة معالجة نبرة الألوان القيم الأعلى .داخل اللعبة .تزيد وضوح التفاصيل",
+      "after": "اضبط حدة الصورة. تزيد القيم الأعلى وضوح التفاصيل."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SMAA",
+      "renderer": "native_unicode",
+      "logical": "SMAA",
+      "before": "SMAA",
+      "after": "SMAA"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SSAA",
+      "renderer": "native_unicode",
+      "logical": "تنعيم الحواف",
+      "before": "معالجة التسنين",
+      "after": "تنعيم الحواف"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SSAA_DESC",
+      "renderer": "native_unicode",
+      "logical": "يحدد تقنية تنعيم حواف المجسمات.",
+      "before": "تقنيات تنعيم حواف .الأشكال الهندسية",
+      "after": "يحدد تقنية تنعيم حواف المجسمات."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SSAA_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "تنعيم الحواف",
+      "before": "ﻦﻴﻨﺴﺘﻟﺍ ﺔﺠﻟﺎﻌﻣ",
+      "after": "ﻑﺍﻮﺤﻟﺍ ﻢﻴﻌﻨﺗ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_SSAO",
+      "renderer": "native_unicode",
+      "logical": "SSAO",
+      "before": "SSAO",
+      "after": "SSAO"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TAA",
+      "renderer": "native_unicode",
+      "logical": "TAA",
+      "before": "TAA",
+      "after": "TAA"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TESSELLATION_DESC",
+      "renderer": "native_unicode",
+      "logical": "يضيف تفاصيل هندسية إلى أسطح<br>المجسمات القريبة.",
+      "before": "يولد التثليث تفصيلا إضافيا إجرائيا في الأشكال .الهندسية القريبة",
+      "after": "يضيف تفاصيل هندسية إلى أسطح المجسمات القريبة."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREFILTERING",
+      "renderer": "native_unicode",
+      "logical": "ترشيح الخامات",
+      "before": "ترشيح الرسوم",
+      "after": "ترشيح الخامات"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREFILTERING_DESC",
+      "renderer": "native_unicode",
+      "logical": "تحسن الجودة الأعلى وضوح الخامات<br>عند النظر إليها بزاوية، بينما<br>تحسن الجودة المنخفضة أداء بطاقة<br>الرسوميات.",
+      "before": "ترشيح الجودة الأعلى يحسن وضوح الرسوم عند النظر إليها بزاوية، أما الأقل جودة فيحسن أداء بطاقة .الرسوميات",
+      "after": "تحسن الجودة الأعلى وضوح الخامات عند النظر إليها بزاوية، بينما تحسن الجودة المنخفضة أداء بطاقة الرسوميات."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREFILTERING_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "ترشيح الخامات",
+      "before": "ﻡﻮﺳﺮﻟﺍ ﺢﻴﺷﺮﺗ",
+      "after": "ﺕﺎﻣﺎﺨﻟﺍ ﺢﻴﺷﺮﺗ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREQUALITY",
+      "renderer": "native_unicode",
+      "logical": "جودة الخامات",
+      "before": "جودة الرسوم",
+      "after": "جودة الخامات"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREQUALITY_DESC",
+      "renderer": "native_unicode",
+      "logical": "تستخدم الجودة الأعلى ذاكرة أكبر<br>لعرض خامات أكثر تفصيلًا.",
+      "before": "تتيح الإعدادات الأعلى تخصيص ذاكرة وذاكرة فيديو أكبر للرسوم، مما يسمح باستخدام رسوم بتفاصيل .أعلى",
+      "after": "تستخدم الجودة الأعلى ذاكرة أكبر لعرض خامات أكثر تفصيلًا."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TEXTUREQUALITY_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "جودة الخامات",
+      "before": "ﻡﻮﺳﺮﻟﺍ ﺓﺩﻮﺟ",
+      "after": "ﺕﺎﻣﺎﺨﻟﺍ ﺓﺩﻮﺟ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TRAFFICDENSITY_DESC",
+      "renderer": "native_unicode",
+      "logical": "اضبط عدد المركبات في المدينة. قد<br>تقلل القيم المنخفضة حمل المعالج.<br>تظهر التغييرات تدريجيًا أثناء<br>التنقل.",
+      "before": "يعدل عدد السيارات المارة عبر القيم الأقل تساعد .المدينة في تخفيف اختناقات بعد التعديل .المعالج سيطبق التغيير تدريجيا .مع تنقلك في المدينة",
+      "after": "اضبط عدد المركبات في المدينة. قد تقلل القيم المنخفضة حمل المعالج. تظهر التغييرات تدريجيًا أثناء التنقل."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TRILINEAR",
+      "renderer": "native_unicode",
+      "logical": "ترشيح ثلاثي الخطية",
+      "before": "ثلاثي الخط",
+      "after": "ترشيح ثلاثي الخطية"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_TRILINEAR_UPPERCASE",
+      "renderer": "game_visual_arabic",
+      "logical": "ترشيح ثلاثي الخطية",
+      "before": "ﻂﺨﻟﺍ ﻲﺛﻼﺛ",
+      "after": "ﺔﻴﻄﺨﻟﺍ ﻲﺛﻼﺛ ﺢﻴﺷﺮﺗ"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_VIGNETTE_DESC",
+      "renderer": "native_unicode",
+      "logical": "يضيف تظليلًا إلى حواف الصورة<br>لمحاكاة عدسة الكاميرا.",
+      "before": "يفعل تأثير تظليل الأطراف الذي يغمق الصورة عند حواف الشاشة ليحاكي سلوك .عدسة الكاميرا",
+      "after": "يضيف تظليلًا إلى حواف الصورة لمحاكاة عدسة الكاميرا."
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_XEAA",
+      "renderer": "native_unicode",
+      "logical": "XeSS Native AA",
+      "before": "XeSS Native AA",
+      "after": "XeSS Native AA"
+    },
+    {
+      "key": "PCGRAPHICSSETTINGS_XEGTAO",
+      "renderer": "native_unicode",
+      "logical": "XeGTAO",
+      "before": "XeGTAO",
+      "after": "XeGTAO"
+    },
+    {
+      "key": "SETTINGS_CONNECTIONS_HEADER",
+      "renderer": "game_visual_arabic",
+      "logical": "إدارة الحسابات المرتبطة.",
+      "before": "ﺕﺎﺑﺎﺴﺤﻟﺍ ﻂﺑﺍﻭﺭ ﺭﺩﺃ.",
+      "after": ".ﺔﻄﺒﺗﺮﻤﻟﺍ ﺕﺎﺑﺎﺴﺤﻟﺍ ﺓﺭﺍﺩﺇ"
+    },
+    {
+      "key": "SETTINGS_CONNECTIONS_TAB",
+      "renderer": "game_visual_arabic",
+      "logical": "ربط الحسابات",
+      "before": "ﻂﺑﺍﻭﺮﻟﺍ",
+      "after": "ﺕﺎﺑﺎﺴﺤﻟﺍ ﻂﺑﺭ"
+    },
+    {
+      "key": "SETTINGS_DISPLAY_GRAPHICS_DESC",
+      "renderer": "game_visual_arabic",
+      "logical": "اضبط إعدادات الشاشة والرسوميات<br>والأداء.",
+      "before": "ﺔﻘﻠﻌﺘﻤﻟﺍ ﺕﺍﺭﺎﻴﺨﻟﺍ ﻂﺒﺿﺍ<br>ﺕﺍﺮﺛﺅﻡﻭ ﻱﺮﺼﺒﻟﺍ ﺽﺮﻌﻟﺎﺑ<br>ﺀﺍﺩﻷﺍﻭ ﺔﺷﺎﺸﻟﺍ.",
+      "after": "ﺕﺎﻴﻣﻮﺳﺮﻟﺍﻭ ﺔﺷﺎﺸﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺒﺿﺍ<br>.ﺀﺍﺩﻷﺍﻭ"
+    },
+    {
+      "key": "SETTINGS_DISPLAY_GRAPHICS_HEADER",
+      "renderer": "game_visual_arabic",
+      "logical": "إعدادات الشاشة والرسوميات",
+      "before": "ﺕﺎﻣﻮﺳﺮﻟﺍﻭ ﺔﺷﺎﺸﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ",
+      "after": "ﺕﺎﻴﻣﻮﺳﺮﻟﺍﻭ ﺔﺷﺎﺸﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ"
+    },
+    {
+      "key": "SETTINGS_DISPLAY_GRAPHICS_TAB",
+      "renderer": "game_visual_arabic",
+      "logical": "الشاشة والرسوميات",
+      "before": "ﺕﺎﻣﻮﺳﺮﻟﺍﻭ ﺔﺷﺎﺸﻟﺍ",
+      "after": "ﺕﺎﻴﻣﻮﺳﺮﻟﺍﻭ ﺔﺷﺎﺸﻟﺍ"
+    },
+    {
+      "key": "SETTINGS_KEY_BINDING_HEADER",
+      "renderer": "game_visual_arabic",
+      "logical": "خصص أزرار لوحة المفاتيح والفأرة.",
+      "before": "ﺔﺣﻮﻟﻭ ﺓﺭﺄﻔﻟﺍ ﺕﺎﻤﻜﺤﺗ ﻂﺒﺿﺍ<br>ﺔﻨﻴﻌﻤﻟﺍ ﺢﻴﺗﺎﻔﻤﻟﺍ.",
+      "after": ".ﺓﺭﺄﻔﻟﺍﻭ ﺢﻴﺗﺎﻔﻤﻟﺍ ﺔﺣﻮﻟ ﺭﺍﺭﺯﺃ ﺺﺼﺧ"
+    },
+    {
+      "key": "SETTING_CLOSE_GAME_BODY",
+      "renderer": "game_visual_arabic",
+      "logical": "لن تسري التغييرات على هذا الخيار<br>إلا بعد إغلاق اللعبة وتشغيلها<br>مجددًا.",
+      "before": "ﻲﺘﻟﺍ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﻞﺧﺪﺗ ﻦﻟ<br>ﺰﻴﺣ ﺭﺎﻴﺨﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺎﻬﻳﺮﺠﺗ<br>ﺔﺒﻌﻠﻟﺍ ﻖﻠﻐﺗ ﻰﺘﺣ ﺬﻴﻔﻨﺘﻟﺍ<br>ﺎﻬﻠﻴﻐﺸﺗ ﺪﻴﻌﺗﻭ.",
+      "after": "ﺭﺎﻴﺨﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﻱﺮﺴﺗ ﻦﻟ<br>ﺎﻬﻠﻴﻐﺸﺗﻭ ﺔﺒﻌﻠﻟﺍ ﻕﻼﻏﺇ ﺪﻌﺑ ﻻﺇ<br>.ﺍﺩﺪﺠﻣ"
+    },
+    {
+      "key": "SETTING_RELOAD_CONFIRM_BODY",
+      "renderer": "game_visual_arabic",
+      "logical": "يتطلب تغيير هذا الإعداد إعادة<br>اللعب من آخر نقطة حفظ.",
+      "before": "ﺐﻠﻄﺘﻳ ﺩﺍﺪﻋﻹﺍ ﺍﺬﻫ ﺮﻴﻴﻐﺗ<br>ﺔﻄﻘﻧ ﺮﺧﺁ ﻞﻴﻐﺸﺗ ﺓﺩﺎﻋﺇ<br>ﺶﻴﺘﻔﺗ.",
+      "after": "ﺓﺩﺎﻋﺇ ﺩﺍﺪﻋﻹﺍ ﺍﺬﻫ ﺮﻴﻴﻐﺗ ﺐﻠﻄﺘﻳ<br>.ﻆﻔﺣ ﺔﻄﻘﻧ ﺮﺧﺁ ﻦﻣ ﺐﻌﻠﻟﺍ"
+    },
+    {
+      "key": "SETTING_RELOAD_CONFIRM_HEADER",
+      "renderer": "game_visual_arabic",
+      "logical": "إعادة اللعب من آخر نقطة حفظ؟",
+      "before": "ﺔﻄﻘﻧ ﺮﺧﺁ ﻞﻴﻐﺸﺗ ﺓﺩﺎﻋﺇ<br>؟ﺶﻴﺘﻔﺗ",
+      "after": "؟ﻆﻔﺣ ﺔﻄﻘﻧ ﺮﺧﺁ ﻦﻣ ﺐﻌﻠﻟﺍ ﺓﺩﺎﻋﺇ"
+    },
+    {
+      "key": "SETTING_RELOAD_LOBBY_BODY",
+      "renderer": "game_visual_arabic",
+      "logical": "يتطلب تغيير هذا الإعداد إعادة<br>تحميل القائمة الرئيسية.",
+      "before": "ﺐﻠﻄﺘﻳ ﺩﺍﺪﻋﻹﺍ ﺍﺬﻫ ﺮﻴﻴﻐﺗ<br>ﺔﻟﺎﺼﻟﺍ ﻞﻴﻐﺸﺗ ﺓﺩﺎﻋﺇ.",
+      "after": "ﺓﺩﺎﻋﺇ ﺩﺍﺪﻋﻹﺍ ﺍﺬﻫ ﺮﻴﻴﻐﺗ ﺐﻠﻄﺘﻳ<br>.ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﻤﺋﺎﻘﻟﺍ ﻞﻴﻤﺤﺗ"
+    },
+    {
+      "key": "SETTING_RELOAD_LOBBY_HEADER",
+      "renderer": "game_visual_arabic",
+      "logical": "إعادة التحميل؟",
+      "before": "؟ﻞﻴﻐﺸﺘﻟﺍ ﺓﺩﺎﻋﺇ",
+      "after": "؟ﻞﻴﻤﺤﺘﻟﺍ ﺓﺩﺎﻋﺇ"
+    }
+  ]
+}

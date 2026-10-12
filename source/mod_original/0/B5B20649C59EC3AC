@@ -1,0 +1,143 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/PlanetMenu.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/_common/css/Shared.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/PlanetMenu/css/PlanetCustom.css">
+<style id="ar-rtl-fix">html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}</style></head>
+<body>
+  <div class="layoutStyle468 positionStyle523 planet_menu PlanetMenu" cl-labels-key="PlanetMenu">
+    <div class="visualStyle473 layoutStyle437 positionStyle461 info_planet _Clips-planet_info-info_planet" cl-labels-key="_Clips-planet_info-info_planet">
+      <div class="layoutStyle396 imageStyle397 positionStyle525"></div>
+      <div class="layoutStyle392 positionStyle400 _Clips-planet_info-location_txt" cl-labels-key="_Clips-planet_info-location_txt">
+        <div class="visualStyle383 layoutStyle381 positionStyle2" data-bind-value="{{PlanetMenu.location}}">LOCATION NAME</div>
+      </div>
+      <div class="layoutStyle389 positionStyle398 _Clips-planet_info-planet_txt" cl-labels-key="_Clips-planet_info-planet_txt">
+        <div class="visualStyle376 layoutStyle374 positionStyle2" data-bind-value="{{PlanetMenu.planet}}">PLANET NAME</div>
+      </div>
+    </div>
+    <div class="visualStyle466 layoutStyle429 positionStyle455">
+      <div class="animationStyle535 layoutStyle434 positionStyle534 _Clips-planetPreviewBase" cl-labels-key="_Clips-planetPreviewBase">
+        <div class="layoutStyle368 imageStyle369 positionStyle2"></div>
+      </div>
+      <div class="animationStyle531 layoutStyle431 positionStyle530 _Clips-planet_info-preview_image" cl-labels-key="_Clips-planet_info-preview_image">
+        <div class="visualStyle360 layoutStyle361 positionStyle2 autoScale" data-bind-style-background-image-url="{{PlanetMenu.planetImage}}"></div>
+      </div>
+    </div>
+    <div class="visualStyle474 layoutStyle425 positionStyle453 _Clips-planet_info-lombax" cl-labels-key="_Clips-planet_info-lombax">
+      <div class="layoutStyle352 positionStyle2 _Clips-planet_info-lombax_rivet" cl-labels-key="_Clips-planet_info-lombax_rivet">
+        <div class="visualStyle343 layoutStyle338 positionStyle2" data-bind-style-opacity="{{PlanetMenu.isRivet}} ? 1 : 0"></div>
+      </div>
+      <div class="layoutStyle349 positionStyle2 _Clips-planet_info-lombax_ratchet" cl-labels-key="_Clips-planet_info-lombax_ratchet">
+        <div class="visualStyle337 layoutStyle338 positionStyle2" data-bind-style-opacity="{{PlanetMenu.isRivet}} ? 0 : 1"></div>
+      </div>
+    </div>
+    <div class="visualStyle465 layoutStyle420 positionStyle449">
+      <div class="animationStyle545 layoutStyle422 positionStyle544 info_panel _Clips-planet_info-panel" cl-labels-key="_Clips-planet_info-panel">
+        <div class="animationStyle549 layoutStyle319 positionStyle2 _Clips-planet_info-bg" cl-labels-key="_Clips-planet_info-bg">
+          <div class="layoutStyle298 imageStyle299 positionStyle296"></div>
+        </div>
+        <div class="animationStyle555 layoutStyle316 positionStyle331 _Clips-planet_info-vanity" cl-labels-key="_Clips-planet_info-vanity">
+          <div class="visualStyle277 layoutStyle275 positionStyle2" data-bind-value="{{PlanetMenu.vanity}}">## / ##</div>
+        </div>
+        <div class="animationStyle559 layoutStyle313 positionStyle329 _Clips-planet_info-ryno_plans" cl-labels-key="_Clips-planet_info-ryno_plans">
+          <div class="visualStyle277 layoutStyle275 positionStyle2" data-bind-value="{{PlanetMenu.rynoPlans}}">## / ##</div>
+        </div>
+        <div class="animationStyle563 layoutStyle310 positionStyle327 _Clips-planet_info-gold_bolts" cl-labels-key="_Clips-planet_info-gold_bolts">
+          <div class="visualStyle277 layoutStyle275 positionStyle2" data-bind-value="{{PlanetMenu.goldBolts}}">## / ##</div>
+        </div>
+        <div class="animationStyle567 layoutStyle307 positionStyle325 objective_list _Clips-planet_info-objective_list" cl-labels-key="_Clips-planet_info-objective_list">
+          <div class="layoutStyle269 positionStyle9 objectiveItem objective_list_item _Clips-planet_info-objective_list_item" data-bind-for="it:{{PlanetMenu.objectives}}" data-bind-style-opacity="{{it.available}} ? 1 : 0.3" cl-labels-key="_Clips-planet_info-objective_list_item">
+            <div data-bind-objective-html="{{it.title}}" class="layoutStyle255 positionStyle570 _Clips-planet_info-objective_list_item_title" cl-labels-key="_Clips-planet_info-objective_list_item_title">
+              <div class="visualStyle238 layoutStyle236 positionStyle2 objectiveText" data-bind-style-color="{{it.optional}} ? '#67CAFC' : '#FFDC7A'">Lorem Ipsum</div>
+            </div>
+            <div class="layoutStyle252 positionStyle261 _Clips-planet_info-objective_list_item_optional" cl-labels-key="_Clips-planet_info-objective_list_item_optional">
+              <div class="layoutStyle79 imageStyle231 positionStyle2" data-bind-if="{{it.available}} && {{it.optional}}"></div>
+            </div>
+            <div class="layoutStyle249 positionStyle261 _Clips-planet_info-objective_list_item_gp" cl-labels-key="_Clips-planet_info-objective_list_item_gp">
+              <div class="layoutStyle79 imageStyle80 positionStyle2" data-bind-if="{{it.available}} && !{{it.optional}}"></div>
+            </div>
+            <div class="layoutStyle246 positionStyle259 _Clips-planet_info-mission_list_locked" cl-labels-key="_Clips-planet_info-mission_list_locked">
+              <img src="img/PlanetMenu1.svg" data-bind-style-opacity="{{it.locked}} ? 1 : 0" class="layoutStyle216 positionStyle2">
+            </div>
+            <div class="layoutStyle243 positionStyle244 _Clips-planet_info-objective_list_item_complete" cl-labels-key="_Clips-planet_info-objective_list_item_complete">
+              <div class="layoutStyle210 imageStyle72 positionStyle2" data-bind-if="{{it.complete}}"></div>
+            </div>
+          </div>
+        </div>
+        <div class="animationStyle581 layoutStyle304 positionStyle323 objective_header _Clips-planet_info-header" cl-labels-key="_Clips-planet_info-header">
+          <div data-l10n-id="UI_PLANET_PROGRESS" class="visualStyle204 layoutStyle202 positionStyle2">PROGRESS</div>
+        </div>
+      </div>
+    </div>
+    <div class="visualStyle464 layoutStyle414 positionStyle445">
+      <div class="animationStyle585 layoutStyle416 positionStyle584 _Clips-planet_list-panel" cl-labels-key="_Clips-planet_list-panel">
+        <div class="layoutStyle192 positionStyle2 _Clips-planet_list-bg" cl-labels-key="_Clips-planet_list-bg">
+          <div class="layoutStyle180 imageStyle181 positionStyle178"></div>
+        </div>
+        <div class="layoutStyle189 positionStyle590 _Clips-planet_list-list" cl-labels-key="_Clips-planet_list-list">
+          <div class="layoutStyle172 positionStyle173 _Clips-planet_list-list_item" data-bind-for="it:{{PlanetList.displayList}}" cl-labels-key="_Clips-planet_list-list_item">
+            <div class="visualStyle474 layoutStyle145 positionStyle592 _Clips-planet_list-list_item_size" cl-labels-key="_Clips-planet_list-list_item_size">
+              <div class="visualStyle104 layoutStyle105 positionStyle2"></div>
+            </div>
+            <div class="visualStyle170 layoutStyle131 positionStyle157">
+              <div class="layoutStyle142 positionStyle616 _Clips-planet_list-list_item_bg" cl-labels-key="_Clips-planet_list-list_item_bg">
+                <div class="animationStyle481 layoutStyle98 imageStyle99 positionStyle96" data-bind-style-opacity="{{it.selected}} ? 1 : 0"></div>
+              </div>
+              <div class="layoutStyle139 positionStyle604 _Clips-planet_list-list_item_objective" cl-labels-key="_Clips-planet_list-list_item_objective">
+                <div class="animationStyle606 layoutStyle85 positionStyle89 _Clips-planet_info-objectiveActiveAnimation" data-bind-style-opacity="{{it.hasContent}} ? 1 : 0" cl-labels-key="_Clips-planet_info-objectiveActiveAnimation">
+                  <div class="layoutStyle79 imageStyle80 positionStyle2"></div>
+                </div>
+                <div class="animationStyle610 visualStyle476 layoutStyle88 positionStyle89 _Clips-planet_info-objectiveActiveAnimation" data-bind-style-opacity="{{it.hasContent}} ? 1 : 0" cl-labels-key="_Clips-planet_info-objectiveActiveAnimation">
+                  <div class="layoutStyle79 imageStyle80 positionStyle2"></div>
+                </div>
+              </div>
+              <div class="layoutStyle136 positionStyle602 _Clips-planet_info-planet_complete" cl-labels-key="_Clips-planet_info-planet_complete">
+                <div class="layoutStyle71 imageStyle72 positionStyle69" data-bind-if="{{it.complete}}"></div>
+              </div>
+              <div class="layoutStyle133 positionStyle594 pointerEventsNone _Clips-new_anim" cl-labels-key="_Clips-new_anim">
+                <div class="animationStyle596 visualStyle64 layoutStyle62 positionStyle63 _Clips-objectiveWipe" data-bind-if="{{it.new}}" cl-labels-key="_Clips-objectiveWipe">
+                  <div class="visualStyle56 layoutStyle57 positionStyle2"></div>
+                </div>
+              </div>
+            </div>
+            <img src="img/PlanetMenu2.svg" class="layoutStyle128 positionStyle155">
+            <div class="visualStyle122 layoutStyle123 positionStyle155"></div>
+            <div class="visualStyle122 layoutStyle126 positionStyle619"></div>
+            <div class="layoutStyle119 positionStyle153 _Clips-planet_list-list_item_location" cl-labels-key="_Clips-planet_list-list_item_location">
+              <div class="visualStyle51 layoutStyle49 positionStyle2" data-bind-value="{{it.location}}">Lorem ipsum</div>
+            </div>
+            <div class="layoutStyle116 positionStyle151 _Clips-planet_list-list_item_name" cl-labels-key="_Clips-planet_list-list_item_name">
+              <div class="visualStyle44 layoutStyle42 positionStyle2" data-bind-value="{{it.name}}">SCARSTU-TRÜMMERFELD</div>
+            </div>
+            <div class="layoutStyle113 positionStyle625 _Clips-planet_list-list_item_current" cl-labels-key="_Clips-planet_list-list_item_current">
+              <div class="animationStyle627 layoutStyle36 positionStyle37 _Clips-planet_list-currentIconAnimation" data-bind-style-opacity="{{it.isCurrent}} ? 1 : 0" cl-labels-key="_Clips-planet_list-currentIconAnimation">
+                <div class="layoutStyle30 imageStyle31 positionStyle28"></div>
+              </div>
+            </div>
+            <div class="layoutStyle110 positionStyle147 planets_mouse_hitbox" data-bind-mouseover="PlanetList.OnMouseEnter({{it.index}},  MBT_None)" data-bind-click="PlanetList.OnClick({{it.index}},  MBT_None)" data-bind-mouseleave="PlanetList.OnMouseLeave({{it.index}},  MBT_None)" cl-labels-key="planets_mouse_hitbox">
+              <div class="visualStyle22 layoutStyle23 positionStyle2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="layoutStyle186 positionStyle194 _Clips-planet_list-header" cl-labels-key="_Clips-planet_list-header">
+          <div data-l10n-id="UI_PLANET" class="visualStyle17 layoutStyle15 positionStyle2">PLANETS</div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle410 imageStyle411 positionStyle634"></div>
+    <div class="layoutStyle406 positionStyle635 button_hints-button_hint_list" cl-labels-key="button_hints-button_hint_list">
+      <div data-bind-button-hint="{{button_item}}" class="layoutStyle8 positionStyle9 flexCenter ButtonHint button_hints-button_hint" data-bind-for="button_index,button_item:{{ButtonHints.buttonHints}}" data-bind-html="{{button_item.innerHtml}}" cl-labels-key="button_hints-button_hint">
+        <div class="visualStyle3 layoutStyle1 positionStyle2 ButtonHint txt">BUTTON HINTS</div>
+      </div>
+    </div>
+  </div>
+<script src="../../authored/_common/js/cohtml.js"></script>
+<script src="js/CLAnimations_API.js"></script>
+<script src="js/CLAnimations_PlanetMenu_PlanetMenu.js"></script>
+<script src="js/CLEvents_Symbols_PlanetMenu_PlanetMenu.js"></script>
+<script src="../../authored/_common/js/Visibility.js"></script>
+<script src="../../authored/PlanetMenu/js/PlanetMenu.js"></script>
+<script src="../../authored/_common/js/CustomAttributes.js"></script>
+<script src="js/CustomPCAttributes.js"></script>
+</body>
+</html>

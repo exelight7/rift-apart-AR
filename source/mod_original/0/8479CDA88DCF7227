@@ -1,0 +1,1334 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/HUD.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/_common/css/Shared.css">
+  <link rel="stylesheet" type="text/css" href="../../authored/HUD/css/HUDCustom.css">
+<style id="ar-rtl-fix">html,body,*{direction:ltr;unicode-bidi:bidi-override;text-align:right}</style></head>
+<body>
+  <div class="layoutStyle4728 positionStyle6456 ClankPuzzle" cl-labels-key="ClankPuzzle">
+    <div class="animationStyle6458 layoutStyle4720 positionStyle4721 _Clips-ClankPuzzle-slot" data-bind-for="it:{{HUDClankPuzzleSlots.slots}}" cl-labels-key="_Clips-ClankPuzzle-slot">
+      <div class="layoutStyle4714 positionStyle0 _Clips-ClankPuzzle-slot_wrapper" data-bind-style-left="{{it.index}} * 100" data-bind-style-opacity="{{it.available}} ? 1 : 0" cl-labels-key="_Clips-ClankPuzzle-slot_wrapper">
+        <div class="layoutStyle4702 positionStyle4703 _Clips-ClankPuzzle-active_highlight" cl-labels-key="_Clips-ClankPuzzle-active_highlight">
+          <div class="visualStyle4769 layoutStyle4685 positionStyle4686 glow_anim" data-bind-if="{{it.active}}" cl-labels-key="glow_anim">
+            <div class="layoutStyle4676 imageStyle4677 positionStyle4674"></div>
+          </div>
+          <div class="animationStyle6466 visualStyle4770 layoutStyle4682 positionStyle6465 circle_pulse" data-bind-if="{{it.active}}" cl-labels-key="circle_pulse">
+            <div class="visualStyle4668 layoutStyle4669 positionStyle0"></div>
+          </div>
+        </div>
+        <div class="layoutStyle4699 positionStyle4708 _Clips-ClankPuzzle-icon_bg" cl-labels-key="_Clips-ClankPuzzle-icon_bg">
+          <div class="layoutStyle4662 imageStyle4663 positionStyle0" data-bind-style-opacity="{{it.countCur}} &gt; 0 ? 0.6 : 0.2"></div>
+        </div>
+        <div class="layoutStyle4696 positionStyle6473 _Clips-ClankPuzzle-slot_image" cl-labels-key="_Clips-ClankPuzzle-slot_image">
+          <div class="visualStyle4654 layoutStyle4655 positionStyle0 autoScale" data-bind-style-opacity="{{it.countCur}} &gt; 0 ? 1 : 0.3" data-bind-style-background-image-url="{{it.icon}}" data-bind-style-transform2d="{{it.countCur}} &gt; 0 ? '1, 0, 0, 1, 0, 0' : '0.8, 0, 0, 0.8, 0, 0'"></div>
+        </div>
+        <div class="layoutStyle4693 positionStyle4704 _Clips-ClankPuzzle-slot_count" cl-labels-key="_Clips-ClankPuzzle-slot_count">
+          <div class="layoutStyle4646 imageStyle4647 positionStyle0" data-bind-style-opacity="{{it.countCur}} &gt; 0 ? 1 : 0.75"></div>
+          <div class="layoutStyle4642 positionStyle4648 _Clips-ClankPuzzle-slot_count_txt" data-bind-style-opacity="{{it.countCur}} &gt; 0 ? 1 : 0.75" cl-labels-key="_Clips-ClankPuzzle-slot_count_txt">
+            <div class="visualStyle4636 layoutStyle4634 positionStyle0" data-bind-value="{{it.countCur}}">1</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle4631 positionStyle6479 ArachnodroidHealth" cl-labels-key="ArachnodroidHealth">
+    <div class="animationStyle6481 layoutStyle4615 positionStyle6480 _Clips-ArachnodroidHealth-health_bg" cl-labels-key="_Clips-ArachnodroidHealth-health_bg">
+      <div class="layoutStyle4597 imageStyle4598 positionStyle0"></div>
+    </div>
+    <div class="animationStyle6485 layoutStyle4612 positionStyle6484 _Clips-ArachnodroidHealth-bar_wrapper" cl-labels-key="_Clips-ArachnodroidHealth-bar_wrapper">
+      <div class="visualStyle4593 layoutStyle4584 positionStyle0">
+        <div class="layoutStyle4586 positionStyle0 bar _Clips-ArachnodroidHealth-bar" cl-labels-key="_Clips-ArachnodroidHealth-bar">
+          <div class="animationStyle5390 visualStyle4577 layoutStyle4578 positionStyle0" data-bind-style-left="({{ProgressBarArachHealthModel.barWidth}} - 100) + '%'"></div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle6491 layoutStyle4609 positionStyle6490 _Clips-ArachnodroidHealth-value" cl-labels-key="_Clips-ArachnodroidHealth-value">
+      <div class="visualStyle4572 layoutStyle4570 positionStyle0" data-bind-value="{{ProgressBarArachHealthModel.fractionLoc}}">##/##</div>
+    </div>
+    <div class="animationStyle6495 layoutStyle4606 positionStyle6494 _Clips-ArachnodroidHealth-icon" cl-labels-key="_Clips-ArachnodroidHealth-icon">
+      <div class="layoutStyle4108 imageStyle4565 positionStyle0"></div>
+    </div>
+    <div class="animationStyle6499 visualStyle4771 layoutStyle4603 positionStyle6498 _Clips-ArachnodroidHealth-hearth_icon" cl-labels-key="_Clips-ArachnodroidHealth-hearth_icon">
+      <div class="layoutStyle4556 imageStyle4557 positionStyle4554"></div>
+    </div>
+  </div>
+  <div class="layoutStyle4551 positionStyle6502 ArachnodroidCharge" cl-labels-key="ArachnodroidCharge">
+    <div class="animationStyle6504 visualStyle4771 layoutStyle4533 positionStyle6503 _Clips-ArachnodroidCharge-frame" cl-labels-key="_Clips-ArachnodroidCharge-frame">
+      <div class="layoutStyle4512 imageStyle4513 positionStyle0"></div>
+    </div>
+    <div class="animationStyle6508 visualStyle4771 layoutStyle4530 positionStyle6507 _Clips-ArachnodroidCharge-txt_bg" cl-labels-key="_Clips-ArachnodroidCharge-txt_bg">
+      <div class="layoutStyle4498 positionStyle0 _Clips-ArachnodroidCharge-anim_pulse" cl-labels-key="_Clips-ArachnodroidCharge-anim_pulse">
+        <div class="animationStyle6512 visualStyle4774 layoutStyle4498 positionStyle0 _Clips-ArachnodroidCharge-pulse" cl-labels-key="_Clips-ArachnodroidCharge-pulse">
+          <div class="layoutStyle4492 imageStyle4493 positionStyle0"></div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle6516 layoutStyle4527 positionStyle6515 _Clips-ArachnodroidCharge-txt" cl-labels-key="_Clips-ArachnodroidCharge-txt">
+      <div data-l10n-id="HUD_ARAC_CHARGE_TITLE" class="animationStyle6521 visualStyle5385 layoutStyle4483 positionStyle0">PULSE CHARGE</div>
+    </div>
+    <div class="animationStyle6524 layoutStyle4524 positionStyle6523 _Clips-ArachnodroidCharge-bar_bg" cl-labels-key="_Clips-ArachnodroidCharge-bar_bg">
+      <div class="layoutStyle4475 imageStyle4476 positionStyle0"></div>
+    </div>
+    <div class="animationStyle6529 layoutStyle4521 positionStyle6528 _Clips-ArachnodroidCharge-bar" cl-labels-key="_Clips-ArachnodroidCharge-bar">
+      <div class="visualStyle4471 layoutStyle4467 positionStyle0">
+        <div class="animationStyle6532 visualStyle4775 layoutStyle4464 positionStyle4468 _Clips-ArachnodroidCharge-bar_fill" cl-labels-key="_Clips-ArachnodroidCharge-bar_fill">
+          <div class="layoutStyle4455 positionStyle4456 _Clips-ArachnodroidCharge-pulseBar" data-bind-style-left="({{ProgressBarArachChargeModel.barWidth}} - 100) + '%'" cl-labels-key="_Clips-ArachnodroidCharge-pulseBar">
+            <div class="visualStyle4449 layoutStyle4450 positionStyle0"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle6537 layoutStyle4518 positionStyle4537 _Clips-ArachnodroidCharge-ready" cl-labels-key="_Clips-ArachnodroidCharge-ready">
+      <div class="visualStyle4771 layoutStyle4392 positionStyle0 _Clips-ArachnodroidCharge-ready_frame_bg" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100" cl-labels-key="_Clips-ArachnodroidCharge-ready_frame_bg">
+        <div class="layoutStyle4371 imageStyle4372 positionStyle0"></div>
+      </div>
+      <div class="visualStyle4771 layoutStyle4389 positionStyle4443 _Clips-ArachnodroidCharge-ready_bg" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100" cl-labels-key="_Clips-ArachnodroidCharge-ready_bg">
+        <div class="animationStyle6544 layoutStyle4361 positionStyle0 _Clips-ArachnodroidCharge-bg_message_anim" cl-labels-key="_Clips-ArachnodroidCharge-bg_message_anim">
+          <div class="layoutStyle4355 imageStyle4356 positionStyle0"></div>
+        </div>
+      </div>
+      <div data-bind-inner-html-inline="{{ProgressBarArachChargeModel.text}}" class="animationStyle6548 layoutStyle4386 positionStyle6547 _Clips-ArachnodroidCharge-ready_txt" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100" cl-labels-key="_Clips-ArachnodroidCharge-ready_txt">
+        <div class="visualStyle4348 layoutStyle4346 positionStyle0 flexCenter arachPulseWidth">PRESS X TO USE!</div>
+      </div>
+      <div class="animationStyle6554 visualStyle4377 layoutStyle4378 positionStyle6553" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6554 visualStyle4377 layoutStyle4381 positionStyle6555" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6554 visualStyle4377 layoutStyle4384 positionStyle6557" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6560 visualStyle4395 layoutStyle4381 positionStyle6555" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6560 visualStyle4395 layoutStyle4378 positionStyle6553" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6560 visualStyle4395 layoutStyle4384 positionStyle6557" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6566 visualStyle4395 layoutStyle4405 positionStyle6565" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6566 visualStyle4395 layoutStyle4408 positionStyle6567" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6566 visualStyle4395 layoutStyle4411 positionStyle6569" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6572 visualStyle4395 layoutStyle4414 positionStyle6571" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6572 visualStyle4395 layoutStyle4417 positionStyle6573" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6572 visualStyle4395 layoutStyle4420 positionStyle6575" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6578 visualStyle4395 layoutStyle4423 positionStyle6577" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6578 visualStyle4395 layoutStyle4426 positionStyle6579" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+      <div class="animationStyle6578 visualStyle4395 layoutStyle4429 positionStyle6581" data-bind-if="{{ProgressBarArachChargeModel.barWidth}} &gt;= 100"></div>
+    </div>
+  </div>
+  <div class="layoutStyle4343 positionStyle4760 BossHealth" cl-labels-key="BossHealth">
+    <div class="layoutStyle4335 positionStyle6590 npc_health_friend _Clips-BossHealth-friend_wrapper" cl-labels-key="_Clips-BossHealth-friend_wrapper">
+      <div class="animationStyle6592 layoutStyle4316 positionStyle4318 _Clips-BossHealth-friend_bg" data-bind-if="{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-friend_bg">
+        <div class="layoutStyle4240 imageStyle4299 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6597 visualStyle4778 layoutStyle4255 positionStyle6596 barWrapper _Clips-BossHealth-health_bar" data-bind-if="{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-health_bar">
+        <div class="visualStyle4236 layoutStyle4232 positionStyle0">
+          <div class="layoutStyle4229 positionStyle0 bar _Clips-BossHealth-health_bar_fill" cl-labels-key="_Clips-BossHealth-health_bar_fill">
+            <div class="visualStyle4217 layoutStyle4218 positionStyle0" data-bind-style-left="({{ProgressBarBossModel.barWidth}} - 100) + '%'"></div>
+            <div class="visualStyle4220 layoutStyle4221 positionStyle4219" data-bind-style-left="({{ProgressBarBossModel.barWidth}} - 100) + '%'"></div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle6604 layoutStyle4310 positionStyle6603 _Clips-BossHealth-friend_icon" data-bind-if="{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-friend_icon">
+        <div class="layoutStyle694 imageStyle4291 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6609 layoutStyle4307 positionStyle6608 _Clips-BossHealth-friend_value" data-bind-if="{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-friend_value">
+        <div class="visualStyle4283 layoutStyle4202 positionStyle0" data-bind-value="{{ProgressBarBossModel.valueLoc}}">###%</div>
+      </div>
+      <div class="animationStyle6614 layoutStyle4304 positionStyle4305 _Clips-BossHealth-friend_txt" data-bind-if="{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-friend_txt">
+        <div class="visualStyle4276 layoutStyle4195 positionStyle0" data-bind-value="{{ProgressBarBossModel.text}}">FRIEND NAME</div>
+      </div>
+    </div>
+    <div class="layoutStyle4332 positionStyle4333 npc_health_enemy _Clips-BossHealth-enemy_wrapper" cl-labels-key="_Clips-BossHealth-enemy_wrapper">
+      <div class="animationStyle6622 layoutStyle4258 positionStyle6621 _Clips-BossHealth-enemy_bg" data-bind-if="!{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-enemy_bg">
+        <div class="layoutStyle4240 imageStyle4241 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6627 layoutStyle4255 positionStyle6626 barWrapper _Clips-BossHealth-health_bar" data-bind-if="!{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-health_bar">
+        <div class="visualStyle4236 layoutStyle4227 positionStyle0">
+          <div class="layoutStyle4229 positionStyle0 bar _Clips-BossHealth-health_bar_fill" cl-labels-key="_Clips-BossHealth-health_bar_fill">
+            <div class="visualStyle4217 layoutStyle4218 positionStyle0" data-bind-style-left="({{ProgressBarBossModel.barWidth}} - 100) + '%'"></div>
+            <div class="visualStyle4220 layoutStyle4221 positionStyle4219" data-bind-style-left="({{ProgressBarBossModel.barWidth}} - 100) + '%'"></div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle6634 layoutStyle4252 positionStyle6633 _Clips-BossHealth-enemy_icon" data-bind-if="!{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-enemy_icon">
+        <div class="layoutStyle694 imageStyle4212 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6639 layoutStyle4249 positionStyle6638 _Clips-BossHealth-enemy_value" data-bind-if="!{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-enemy_value">
+        <div class="visualStyle4204 layoutStyle4202 positionStyle0" data-bind-value="{{ProgressBarBossModel.valueLoc}}">###%</div>
+      </div>
+      <div data-bind-inner-html="{{ProgressBarBossModel.text}}" class="animationStyle6644 layoutStyle4246 positionStyle4247 _Clips-BossHealth-enemy_txt" data-bind-if="!{{ProgressBarBossModel.isFriend}}" cl-labels-key="_Clips-BossHealth-enemy_txt">
+        <div class="visualStyle4197 layoutStyle4195 positionStyle0">BOSS NAME</div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle4192 positionStyle6650 EnemyCount" cl-labels-key="EnemyCount">
+    <div class="animationStyle6652 visualStyle4771 layoutStyle4178 positionStyle4179 _Clips-EnemyCount-bg_frame" cl-labels-key="_Clips-EnemyCount-bg_frame">
+      <div class="layoutStyle4163 imageStyle4164 positionStyle0"></div>
+    </div>
+    <div class="animationStyle6656 layoutStyle4175 positionStyle4186 _Clips-EnemyCount-bg" cl-labels-key="_Clips-EnemyCount-bg">
+      <div class="animationStyle6660 layoutStyle4153 positionStyle0 _Clips-EnemyCount-bg_anim" cl-labels-key="_Clips-EnemyCount-bg_anim">
+        <div class="layoutStyle4147 imageStyle4148 positionStyle0"></div>
+      </div>
+    </div>
+    <div class="animationStyle6664 layoutStyle4172 positionStyle6663 _Clips-EnemyCount-nests" cl-labels-key="_Clips-EnemyCount-nests">
+      <div class="layoutStyle4139 positionStyle4140 _Clips-EnemyCount-nest" data-bind-for="it:{{HUDEnemyCount.enemies}}" cl-labels-key="_Clips-EnemyCount-nest">
+        <div class="visualStyle4137 layoutStyle4123 positionStyle0">
+          <div class="layoutStyle4128 positionStyle4132 _Clips-EnemyCount-icon_alive" cl-labels-key="_Clips-EnemyCount-icon_alive">
+            <div class="layoutStyle4108 imageStyle4117 positionStyle0" data-bind-style-opacity="{{it.dead}} ? 0 : 1"></div>
+          </div>
+          <div class="layoutStyle4125 positionStyle4132 _Clips-EnemyCount-icon_dead" cl-labels-key="_Clips-EnemyCount-icon_dead">
+            <div class="layoutStyle4108 imageStyle4109 positionStyle0" data-bind-style-opacity="{{it.dead}} ? 1 : 0"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="animationStyle6673 layoutStyle4169 positionStyle4182 _Clips-EnemyCount-title" cl-labels-key="_Clips-EnemyCount-title">
+      <div data-l10n-id="HUD_HAX_NESTVIRUS" class="visualStyle4101 layoutStyle4099 positionStyle0">TITLE</div>
+    </div>
+  </div>
+  <div class="layoutStyle4096 positionStyle4756 Controls" cl-labels-key="Controls">
+    <div class="animationStyle6678 visualStyle4771 layoutStyle4084 positionStyle0 _Clips-Controls-frame" cl-labels-key="_Clips-Controls-frame">
+      <div class="layoutStyle4072 imageStyle4073 positionStyle0"></div>
+    </div>
+    <div class="animationStyle6684 visualStyle4781 layoutStyle4081 positionStyle4090 _Clips-Controls-bg" cl-labels-key="_Clips-Controls-bg">
+      <div class="layoutStyle4064 imageStyle4065 positionStyle0"></div>
+    </div>
+    <div class="animationStyle6691 layoutStyle4078 positionStyle4088 _Clips-Controls-list" cl-labels-key="_Clips-Controls-list">
+      <div class="layoutStyle4056 positionStyle11 _Clips-Controls-list_item" data-bind-for="it:{{HUDControls.controls}}" cl-labels-key="_Clips-Controls-list_item">
+        <div class="layoutStyle4050 positionStyle0 _Clips-Controls-list_item_txt" cl-labels-key="_Clips-Controls-list_item_txt">
+          <div class="visualStyle4045 layoutStyle4043 positionStyle0 controlListItemText" data-bind-html="{{it.text}}">TITLE<br/></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle4040 positionStyle4754 Counter" cl-labels-key="Counter">
+    <div class="layoutStyle4032 positionStyle6700 wrapper_rivet _Clips-Counter-wrapper_rivet" cl-labels-key="_Clips-Counter-wrapper_rivet">
+      <div class="animationStyle6702 layoutStyle4015 positionStyle4016 _Clips-Counter-bg_rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Counter-bg_rivet">
+        <div class="layoutStyle4000 imageStyle4001 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6709 layoutStyle4012 positionStyle6708 _Clips-Counter-rivet_collection_icon" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Counter-rivet_collection_icon">
+        <div class="layoutStyle1984 imageStyle3941 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6714 visualStyle4774 layoutStyle3971 positionStyle4021 _Clips-Counter-count" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Counter-count">
+        <div class="layoutStyle3932 positionStyle0 _Clips-Counter-count_txt" cl-labels-key="_Clips-Counter-count_txt">
+          <div class="animationStyle6718 visualStyle5362 layoutStyle3925 positionStyle0" data-bind-value="{{HUDCounter.count}}">## / ##</div>
+        </div>
+      </div>
+      <div class="animationStyle6721 layoutStyle3968 positionStyle4019 _Clips-Counter-title" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Counter-title">
+        <div class="animationStyle6724 visualStyle5368 layoutStyle3918 positionStyle0" data-bind-value="{{HUDCounter.title}}">Zerpstones</div>
+      </div>
+    </div>
+    <div class="layoutStyle4029 positionStyle4030 wrapper_ratchet _Clips-Counter-wrapper_ratchet" cl-labels-key="_Clips-Counter-wrapper_ratchet">
+      <div class="animationStyle6728 layoutStyle3977 positionStyle6727 _Clips-Counter-bg" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Counter-bg">
+        <div class="animationStyle6734 layoutStyle3960 positionStyle3964 _Clips-Counter-bg_rachet" cl-labels-key="_Clips-Counter-bg_rachet">
+          <div class="layoutStyle3954 positionStyle0 _Clips-Counter-collection_background" cl-labels-key="_Clips-Counter-collection_background">
+            <div class="layoutStyle3948 imageStyle3949 positionStyle0"></div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle6739 layoutStyle3974 positionStyle6738 _Clips-Counter-collection_icon" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Counter-collection_icon">
+        <div class="layoutStyle1984 imageStyle3941 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6744 layoutStyle3971 positionStyle3983 _Clips-Counter-count" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Counter-count">
+        <div class="layoutStyle3932 positionStyle0 _Clips-Counter-count_txt" cl-labels-key="_Clips-Counter-count_txt">
+          <div class="animationStyle6748 visualStyle5362 layoutStyle3925 positionStyle0" data-bind-value="{{HUDCounter.count}}">## / ##</div>
+        </div>
+      </div>
+      <div class="animationStyle6751 layoutStyle3968 positionStyle3981 _Clips-Counter-title" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Counter-title">
+        <div class="visualStyle3920 layoutStyle3918 positionStyle0" data-bind-value="{{HUDCounter.title}}">Zerpstones</div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle3915 positionStyle4752 Timer" cl-labels-key="Timer">
+    <div class="layoutStyle3907 positionStyle6755 wrapper_ratchet _Clips-Timer-wrapper_ratchet" cl-labels-key="_Clips-Timer-wrapper_ratchet">
+      <div class="animationStyle6757 layoutStyle3892 positionStyle6756 _Clips-Timer-timer_bg" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Timer-timer_bg">
+        <div class="layoutStyle3847 imageStyle3881 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6763 layoutStyle3889 positionStyle6762 _Clips-Timer-timer_iconslot" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Timer-timer_iconslot">
+        <div class="layoutStyle1984 imageStyle3840 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6770 layoutStyle3853 positionStyle6769 _Clips-Timer-timer_txt" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Timer-timer_txt">
+        <div class="visualStyle3832 layoutStyle3830 positionStyle0" data-bind-value="{{HUDTimer.time}}">0:00</div>
+      </div>
+    </div>
+    <div class="layoutStyle3904 positionStyle6774 wrapper_rivet _Clips-Timer-wrapper_rivet" cl-labels-key="_Clips-Timer-wrapper_rivet">
+      <div class="animationStyle6776 layoutStyle3859 positionStyle6775 _Clips-Timer-rivetBackground" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Timer-rivetBackground">
+        <div class="layoutStyle3847 imageStyle3848 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6783 layoutStyle3856 positionStyle3857 _Clips-Timer-rivet_timer_icon_slot" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Timer-rivet_timer_icon_slot">
+        <div class="layoutStyle1984 imageStyle3840 positionStyle0"></div>
+      </div>
+      <div class="animationStyle6790 layoutStyle3853 positionStyle6789 _Clips-Timer-timer_txt" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Timer-timer_txt">
+        <div class="visualStyle3832 layoutStyle3830 positionStyle0" data-bind-value="{{HUDTimer.time}}">0:00</div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle3827 positionStyle4750 Objective" cl-labels-key="Objective">
+    <div class="layoutStyle3819 positionStyle6795 wrapper_ratchet _Clips-Objective-wrapper_ratchet" cl-labels-key="_Clips-Objective-wrapper_ratchet">
+      <div class="animationStyle8651 visualStyle3814 layoutStyle3758 positionStyle3806" data-bind-if="!{{HUD.isRivet}}">
+        <div class="animationStyle6805 layoutStyle3760 positionStyle6804 _Clips-Objective-list" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Objective-list">
+          <div class="layoutStyle3745 positionStyle11 _Clips-Objective-item" data-bind-for="it:{{HUDObjective.objectives}}" cl-labels-key="_Clips-Objective-item">
+            <div class="layoutStyle3659 imageStyle3736 positionStyle0"></div>
+            <div data-bind-inner-html="{{it.text}}" class="layoutStyle3731 positionStyle3739 _Clips-Objective-txt" cl-labels-key="_Clips-Objective-txt">
+              <div class="visualStyle3646 layoutStyle3644 positionStyle0 inlineTextCenterAlignR" data-bind-style-color="{{it.optional}} ? '#67CAFC' : '#FFFFC2'">OBJECTIVE TEXT</div>
+            </div>
+            <div class="layoutStyle3728 positionStyle6814 _Clips-Objective-item_bullet" cl-labels-key="_Clips-Objective-item_bullet">
+              <div class="layoutStyle3636 positionStyle0 _Clips-Objective-item_bullet_opt" cl-labels-key="_Clips-Objective-item_bullet_opt">
+                <div class="layoutStyle3627 imageStyle3628 positionStyle3625" data-bind-style-opacity="{{it.optional}} ? 1 : 0"></div>
+              </div>
+              <div class="layoutStyle3633 positionStyle0 _Clips-Objective-item_bullet_gp" cl-labels-key="_Clips-Objective-item_bullet_gp">
+                <div class="layoutStyle3619 imageStyle3620 positionStyle3617" data-bind-style-opacity="{{it.optional}} ? 0 : 1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="animationStyle8653 visualStyle7 layoutStyle3776 positionStyle6796" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8653 visualStyle7 layoutStyle3779 positionStyle6797" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8656 visualStyle7 layoutStyle3782 positionStyle6798" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8656 visualStyle7 layoutStyle3785 positionStyle6799" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8659 visualStyle7 layoutStyle3788 positionStyle6800" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8659 visualStyle7 layoutStyle3791 positionStyle6801" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8662 visualStyle7 layoutStyle3794 positionStyle6802" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8662 visualStyle7 layoutStyle3797 positionStyle6803" data-bind-if="!{{HUD.isRivet}}"></div>
+      </div>
+      <div class="animationStyle8665 visualStyle3813 layoutStyle3752 positionStyle0" data-bind-if="!{{HUD.isRivet}}">
+        <div class="animationStyle6820 layoutStyle3754 positionStyle3804 _Clips-Objective-RatchetobjectiveHeader" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Objective-RatchetobjectiveHeader">
+          <div class="layoutStyle3609 imageStyle3720 positionStyle0"></div>
+          <div class="layoutStyle3715 positionStyle3721 _Clips-Objective-header" cl-labels-key="_Clips-Objective-header">
+            <div data-l10n-id="UI_OBJECTIVES" class="visualStyle3599 layoutStyle3597 positionStyle0">HEADER</div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle8667 layoutStyle3688 imageStyle1022 positionStyle6827" data-bind-if="!{{HUD.isRivet}}"></div>
+      <div class="animationStyle8669 layoutStyle3692 imageStyle1026 positionStyle6828" data-bind-if="!{{HUD.isRivet}}"></div>
+      <div class="animationStyle8671 layoutStyle3696 imageStyle1022 positionStyle6829" data-bind-if="!{{HUD.isRivet}}"></div>
+    </div>
+    <div class="layoutStyle3816 positionStyle3821 wrapper_rivet _Clips-Objective-wrapper_rivet" cl-labels-key="_Clips-Objective-wrapper_rivet">
+      <div class="visualStyle3712 layoutStyle3682 positionStyle3706" data-bind-if="{{HUD.isRivet}}">
+        <div class="animationStyle6832 layoutStyle3684 positionStyle6831 _Clips-Objective-rivetList" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Objective-rivetList">
+          <div class="layoutStyle3669 positionStyle11 _Clips-Objective-rivetObjectives" data-bind-for="it:{{HUDObjective.objectives}}" cl-labels-key="_Clips-Objective-rivetObjectives">
+            <div class="layoutStyle3659 imageStyle3660 positionStyle0"></div>
+            <div data-bind-inner-html="{{it.text}}" class="layoutStyle3655 positionStyle3663 _Clips-Objective-txt" cl-labels-key="_Clips-Objective-txt">
+              <div class="visualStyle3646 layoutStyle3644 positionStyle0 inlineTextCenterAlignR" data-bind-style-color="{{it.optional}} ? '#67CAFC' : '#FFFFC2'">OBJECTIVE TEXT</div>
+            </div>
+            <div class="layoutStyle3652 positionStyle3661 _Clips-Objective-item_bullet" cl-labels-key="_Clips-Objective-item_bullet">
+              <div class="layoutStyle3636 positionStyle0 _Clips-Objective-item_bullet_opt" cl-labels-key="_Clips-Objective-item_bullet_opt">
+                <div class="layoutStyle3627 imageStyle3628 positionStyle3625" data-bind-style-opacity="{{it.optional}} ? 1 : 0"></div>
+              </div>
+              <div class="layoutStyle3633 positionStyle0 _Clips-Objective-item_bullet_gp" cl-labels-key="_Clips-Objective-item_bullet_gp">
+                <div class="layoutStyle3619 imageStyle3620 positionStyle3617" data-bind-style-opacity="{{it.optional}} ? 0 : 1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="visualStyle3711 layoutStyle3676 positionStyle0" data-bind-if="{{HUD.isRivet}}">
+        <div class="animationStyle6847 layoutStyle3678 positionStyle3704 _Clips-Objective-rivetObjectiveHeader" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Objective-rivetObjectiveHeader">
+          <div class="layoutStyle3609 imageStyle3610 positionStyle0"></div>
+          <div class="layoutStyle3605 positionStyle3611 _Clips-Objective-header" cl-labels-key="_Clips-Objective-header">
+            <div data-l10n-id="UI_OBJECTIVES" class="visualStyle3599 layoutStyle3597 positionStyle0">HEADER</div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle8673 layoutStyle3688 imageStyle1022 positionStyle6853" data-bind-if="{{HUD.isRivet}}"></div>
+      <div class="animationStyle8675 layoutStyle3692 imageStyle1026 positionStyle6854" data-bind-if="{{HUD.isRivet}}"></div>
+      <div class="animationStyle8677 layoutStyle3696 imageStyle1022 positionStyle6855" data-bind-if="{{HUD.isRivet}}"></div>
+    </div>
+  </div>
+  <div class="layoutStyle3594 positionStyle4748 Messages" cl-labels-key="Messages">
+    <div class="layoutStyle3570 positionStyle6857 corner_message _Clips-Messages-corner_message" cl-labels-key="_Clips-Messages-corner_message">
+      <div class="animationStyle6859 layoutStyle3535 positionStyle6858 _Clips-Messages-corner_message_txt" cl-labels-key="_Clips-Messages-corner_message_txt">
+        <div class="animationStyle6862 visualStyle4783 layoutStyle3527 positionStyle6861 _Clips-Messages-blur_graphic" cl-labels-key="_Clips-Messages-blur_graphic">
+          <img src="img/HUD1.svg" class="animationStyle6865 visualStyle5353 layoutStyle3519 positionStyle0">
+        </div>
+        <div data-bind-inner-html="{{MessageCornerModel.message}}" class="animationStyle6868 layoutStyle3524 positionStyle0 _Clips-Messages-press_x_animation" cl-labels-key="_Clips-Messages-press_x_animation">
+          <div class="animationStyle6871 visualStyle5345 layoutStyle3512 positionStyle0 flexRight">Corner message.</div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle3567 positionStyle6873 location_message _Clips-Messages-location_message" cl-labels-key="_Clips-Messages-location_message">
+      <div class="layoutStyle3504 positionStyle3505 wrapper_rivet _Clips-Messages-location_rivet" cl-labels-key="_Clips-Messages-location_rivet">
+        <div class="visualStyle3499 layoutStyle3449 positionStyle3460" data-bind-if="{{HUD.isRivet}}">
+          <div class="animationStyle6881 layoutStyle3454 positionStyle6880 _Clips-Messages-bg_location_rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-bg_location_rivet">
+            <div class="layoutStyle3235 imageStyle3472 positionStyle0"></div>
+          </div>
+          <div data-bind-inner-html="{{MessageLocationModel.message}}" class="animationStyle6876 layoutStyle3451 positionStyle6875 _Clips-Messages-location_message_txt" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-location_message_txt">
+            <div class="visualStyle3432 layoutStyle3430 positionStyle0">Sub-location</div>
+          </div>
+        </div>
+        <div class="animationStyle6887 layoutStyle3445 positionStyle6886 _Clips-Messages-planet_square" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-planet_square">
+          <div class="visualStyle3386 layoutStyle3387 positionStyle0"></div>
+        </div>
+      </div>
+      <div class="layoutStyle3501 positionStyle6893 wrapper_ratchet _Clips-Messages-location_ratchet" cl-labels-key="_Clips-Messages-location_ratchet">
+        <div class="visualStyle3467 layoutStyle3449 positionStyle3460" data-bind-if="!{{HUD.isRivet}}">
+          <div class="animationStyle6900 layoutStyle3454 positionStyle6880 _Clips-Messages-bg_location_rachet" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-bg_location_rachet">
+            <div class="layoutStyle3235 imageStyle3440 positionStyle0"></div>
+          </div>
+          <div data-bind-inner-html="{{MessageLocationModel.message}}" class="animationStyle6895 layoutStyle3451 positionStyle6875 _Clips-Messages-location_message_txt" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-location_message_txt">
+            <div class="visualStyle3432 layoutStyle3430 positionStyle0">Sub-location</div>
+          </div>
+        </div>
+        <div class="animationStyle6906 layoutStyle3445 positionStyle6886 _Clips-Messages-planet_square" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-planet_square">
+          <div class="visualStyle3386 layoutStyle3387 positionStyle0"></div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle3564 positionStyle6912 planet_message _Clips-Messages-planet_message" cl-labels-key="_Clips-Messages-planet_message">
+      <div class="visualStyle3428 layoutStyle3410 positionStyle3421">
+        <div class="animationStyle6919 layoutStyle3415 positionStyle6918 _Clips-Messages-planet_header" cl-labels-key="_Clips-Messages-planet_header">
+          <div class="visualStyle3401 layoutStyle3399 positionStyle0 inlineTextCenter" data-bind-value="{{MessagePlanetModel.message}}">SARGASSO DEBRIS FIELD</div>
+        </div>
+        <div class="animationStyle6914 layoutStyle3412 positionStyle6913 _Clips-Messages-planet_subheader" cl-labels-key="_Clips-Messages-planet_subheader">
+          <div class="visualStyle3394 layoutStyle3392 positionStyle0" data-bind-value="{{MessagePlanetModel.subMessage}}">Subheader</div>
+        </div>
+      </div>
+      <div class="animationStyle6924 layoutStyle3406 positionStyle6923 _Clips-Messages-planet_square" cl-labels-key="_Clips-Messages-planet_square">
+        <div class="visualStyle3386 layoutStyle3387 positionStyle0"></div>
+      </div>
+    </div>
+    <div class="layoutStyle3561 positionStyle6929 pickup_message _Clips-Messages-pickup_message" cl-labels-key="_Clips-Messages-pickup_message">
+      <div class="layoutStyle3378 positionStyle6930 wrapper_rivet _Clips-Messages-pickup_rivet" cl-labels-key="_Clips-Messages-pickup_rivet">
+        <div class="animationStyle6932 layoutStyle3363 positionStyle3371 _Clips-Messages-pickupmsg_bg_rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-pickupmsg_bg_rivet">
+          <div class="layoutStyle3319 imageStyle3352 positionStyle0"></div>
+        </div>
+        <div class="animationStyle6939 layoutStyle3360 positionStyle3369 _Clips-Messages-pickup_message_txt" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-pickup_message_txt">
+          <div class="animationStyle6943 visualStyle5339 layoutStyle3310 positionStyle0 inlineTextCenterAlignR" data-bind-value="{{MessagePickupModel.message}}">PICKUP</div>
+        </div>
+        <div class="animationStyle6946 layoutStyle3357 positionStyle3367 _Clips-Messages-pickup_icon" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-pickup_icon">
+          <div class="layoutStyle3302 positionStyle3303 _Clips-Messages-pickup_icon_generic" cl-labels-key="_Clips-Messages-pickup_icon_generic">
+            <div class="layoutStyle694 imageStyle3294 positionStyle0" data-bind-if="{{MessagePickupModel.imagePath}} == 'none'"></div>
+          </div>
+          <div class="visualStyle4784 layoutStyle363 positionStyle0 _Clips-Messages-pickup_icon_dynamic" cl-labels-key="_Clips-Messages-pickup_icon_dynamic">
+            <div class="visualStyle36 layoutStyle357 positionStyle0 autoScale" data-bind-style-background-image-url="{{MessagePickupModel.imagePath}}"></div>
+          </div>
+        </div>
+      </div>
+      <div class="layoutStyle3375 positionStyle6952 wrapper_ratchet _Clips-Messages-pickup_ratchet" cl-labels-key="_Clips-Messages-pickup_ratchet">
+        <div class="visualStyle3347 layoutStyle3332 positionStyle3342" data-bind-if="!{{HUD.isRivet}}">
+          <div class="animationStyle6954 layoutStyle3334 positionStyle6953 _Clips-Messages-pickupmsg_bg_ratchet" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-pickupmsg_bg_ratchet">
+            <div class="layoutStyle3319 imageStyle3320 positionStyle0"></div>
+          </div>
+        </div>
+        <div class="animationStyle6959 layoutStyle3328 positionStyle3340 _Clips-Messages-pickup_message_txt" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-pickup_message_txt">
+          <div class="animationStyle6964 visualStyle5333 layoutStyle3310 positionStyle0 inlineTextCenterAlignR" data-bind-value="{{MessagePickupModel.message}}">PICKUP</div>
+        </div>
+        <div class="animationStyle6967 layoutStyle3325 positionStyle3338 _Clips-Messages-pickup_icon" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-pickup_icon">
+          <div class="layoutStyle3302 positionStyle3303 _Clips-Messages-pickup_icon_generic" cl-labels-key="_Clips-Messages-pickup_icon_generic">
+            <div class="layoutStyle694 imageStyle3294 positionStyle0" data-bind-if="{{MessagePickupModel.imagePath}} == 'none'"></div>
+          </div>
+          <div class="visualStyle4784 layoutStyle363 positionStyle0 _Clips-Messages-pickup_icon_dynamic" cl-labels-key="_Clips-Messages-pickup_icon_dynamic">
+            <div class="visualStyle36 layoutStyle357 positionStyle0 autoScale" data-bind-style-background-image-url="{{MessagePickupModel.imagePath}}"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle3558 positionStyle6973 center_message _Clips-Messages-center_message" cl-labels-key="_Clips-Messages-center_message">
+      <div class="layoutStyle3277 positionStyle6974 wrapper_rivet _Clips-Messages-center_rivet" cl-labels-key="_Clips-Messages-center_rivet">
+        <div class="animationStyle6976 layoutStyle3264 positionStyle6975 _Clips-Messages-centermsg_bg_rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-centermsg_bg_rivet">
+          <div class="layoutStyle3255 imageStyle2298 positionStyle3253"></div>
+        </div>
+        <div data-bind-inner-html-inline="{{MessageCenterModel.message}}" class="animationStyle6983 layoutStyle3241 positionStyle6982 _Clips-Messages-center_message_txt" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-center_message_txt">
+          <div class="animationStyle6987 visualStyle5321 layoutStyle3226 positionStyle0 inlineTextCenter">Center message.</div>
+        </div>
+      </div>
+      <div class="layoutStyle3274 positionStyle6989 wrapper_ratchet _Clips-Messages-center_ratchet" cl-labels-key="_Clips-Messages-center_ratchet">
+        <div class="animationStyle6991 layoutStyle3244 positionStyle6990 _Clips-Messages-centermsg_bg_ratchet" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-centermsg_bg_ratchet">
+          <div class="layoutStyle3235 imageStyle3236 positionStyle0"></div>
+        </div>
+        <div data-bind-inner-html-inline="{{MessageCenterModel.message}}" class="animationStyle6998 layoutStyle3241 positionStyle6982 _Clips-Messages-center_message_txt" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-center_message_txt">
+          <div class="animationStyle7002 visualStyle5321 layoutStyle3226 positionStyle0 inlineTextCenter">Center message.</div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle3555 positionStyle3580 generic_message _Clips-Messages-generic_message" cl-labels-key="_Clips-Messages-generic_message">
+      <div class="layoutStyle3218 positionStyle7005 wrapper_rivet _Clips-Messages-generic_rivet" cl-labels-key="_Clips-Messages-generic_rivet">
+        <div class="animationStyle7007 layoutStyle3203 positionStyle7006 genericMessageBackgroundRivet rivet_generic_bg _Clips-Messages-rivet_generic_art_bg" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-rivet_generic_art_bg">
+          <div class="visualStyle3167 layoutStyle3192 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7014 layoutStyle3200 positionStyle7013 generic_pulse _Clips-Messages-message_ring_pulse" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-message_ring_pulse">
+          <div class="animationStyle7017 visualStyle4771 layoutStyle3159 positionStyle3157 _Clips-Messages-stroke_pulse" cl-labels-key="_Clips-Messages-stroke_pulse">
+            <img src="img/HUD2.svg" class="layoutStyle3151 positionStyle0">
+          </div>
+          <div class="animationStyle7023 visualStyle4771 layoutStyle3156 positionStyle3157 _Clips-Messages-stroke_pulse" cl-labels-key="_Clips-Messages-stroke_pulse">
+            <img src="img/HUD3.svg" class="layoutStyle3151 positionStyle0">
+          </div>
+        </div>
+        <div data-bind-inner-html-inline="{{MessageGenericModel.message}}" class="animationStyle7030 layoutStyle3197 positionStyle7029 generic_text _Clips-Messages-generic_message_txt" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-generic_message_txt">
+          <div class="animationStyle7034 visualStyle5315 layoutStyle3144 positionStyle0 genericMessageText">Generic HUD message.</div>
+        </div>
+      </div>
+      <div class="layoutStyle3215 positionStyle3216 wrapper_ratchet _Clips-Messages-generic_ratchet" cl-labels-key="_Clips-Messages-generic_ratchet">
+        <div class="animationStyle7038 layoutStyle3179 positionStyle7037 genericMessageBackgroundRatchet ratchet_generic_bg _Clips-Messages-genericmsg_bg_ratchet" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-genericmsg_bg_ratchet">
+          <div class="visualStyle3167 layoutStyle3168 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7045 layoutStyle3176 positionStyle7044 generic_pulse _Clips-Messages-message_ring_pulse" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-message_ring_pulse">
+          <div class="animationStyle7049 visualStyle4771 layoutStyle3159 positionStyle3157 _Clips-Messages-stroke_pulse" cl-labels-key="_Clips-Messages-stroke_pulse">
+            <img src="img/HUD4.svg" class="layoutStyle3151 positionStyle0">
+          </div>
+          <div class="animationStyle7055 visualStyle4771 layoutStyle3156 positionStyle3157 _Clips-Messages-stroke_pulse" cl-labels-key="_Clips-Messages-stroke_pulse">
+            <img src="img/HUD5.svg" class="layoutStyle3151 positionStyle0">
+          </div>
+        </div>
+        <div data-bind-inner-html-inline="{{MessageGenericModel.message}}" class="animationStyle7062 layoutStyle3173 positionStyle7061 generic_text _Clips-Messages-generic_message_txt" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-generic_message_txt">
+          <div class="animationStyle7067 visualStyle5309 layoutStyle3144 positionStyle0 genericMessageText">Generic HUD message.</div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle3552 positionStyle3553 tutorial_message _Clips-Messages-tutorial_message" cl-labels-key="_Clips-Messages-tutorial_message">
+      <div class="layoutStyle3136 positionStyle0 inlineText wrapper_rivet _Clips-Messages-tutorial_message_rivet" cl-labels-key="_Clips-Messages-tutorial_message_rivet">
+        <div class="animationStyle7072 layoutStyle3119 positionStyle7071 _Clips-Messages-tutorial_message_rivet_bg" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-tutorial_message_rivet_bg">
+          <div class="layoutStyle3060 imageStyle3105 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7079 layoutStyle3116 positionStyle3127 _Clips-Messages-tutorial_message_prompt" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-tutorial_message_prompt">
+          <div class="visualStyle2426 layoutStyle3031 positionStyle3034" data-bind-if="{{MessageTutorialModel.prompt}} != ''"></div>
+          <div data-bind-inner-html="{{MessageTutorialModel.prompt}}" class="layoutStyle3027 positionStyle3032 _Clips-Messages-tutorial_message_prompt_txt" data-bind-if="{{MessageTutorialModel.prompt}} != ''" cl-labels-key="_Clips-Messages-tutorial_message_prompt_txt">
+            <div class="visualStyle3022 layoutStyle3020 positionStyle0 flexCenter">PROMPT</div>
+          </div>
+        </div>
+        <div data-bind-inner-html-inline="{{MessageTutorialModel.message}}" class="animationStyle7085 layoutStyle3113 positionStyle3125 _Clips-Messages-tutorial_message_txt" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-tutorial_message_txt">
+          <div class="animationStyle7088 visualStyle5297 layoutStyle3013 positionStyle0 inlineText">Tutorial message.</div>
+        </div>
+        <div class="animationStyle7091 layoutStyle3110 positionStyle3111 _Clips-Messages-rivet_leftPrompt_header" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-rivet_leftPrompt_header">
+          <div class="layoutStyle3050 imageStyle3095 positionStyle0" data-bind-if="{{MessageTutorialModel.subMessage}} != ''"></div>
+          <div class="layoutStyle3046 positionStyle3096 _Clips-Messages-tutorial_message_header" data-bind-if="{{MessageTutorialModel.subMessage}} != ''" cl-labels-key="_Clips-Messages-tutorial_message_header">
+            <div class="visualStyle3040 layoutStyle3038 positionStyle0" data-bind-value="{{MessageTutorialModel.subMessage}}">Header.</div>
+          </div>
+        </div>
+      </div>
+      <div class="layoutStyle3133 positionStyle7099 inlineText wrapper_ratchet _Clips-Messages-tutorial_message_ratchet" cl-labels-key="_Clips-Messages-tutorial_message_ratchet">
+        <div class="animationStyle7101 layoutStyle3075 positionStyle7100 _Clips-Messages-tutorial_message_ratchet_bg" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-tutorial_message_ratchet_bg">
+          <div class="layoutStyle3060 imageStyle3061 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7108 layoutStyle3072 positionStyle7107 _Clips-Messages-leftPromptHeader" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-leftPromptHeader">
+          <div class="layoutStyle3050 imageStyle3051 positionStyle0" data-bind-if="{{MessageTutorialModel.subMessage}} != ''"></div>
+          <div class="layoutStyle3046 positionStyle3052 _Clips-Messages-tutorial_message_header" data-bind-if="{{MessageTutorialModel.subMessage}} != ''" cl-labels-key="_Clips-Messages-tutorial_message_header">
+            <div class="visualStyle3040 layoutStyle3038 positionStyle0" data-bind-value="{{MessageTutorialModel.subMessage}}">Header.</div>
+          </div>
+        </div>
+        <div class="animationStyle7116 layoutStyle3069 positionStyle3081 _Clips-Messages-tutorial_message_prompt" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-tutorial_message_prompt">
+          <div class="visualStyle2426 layoutStyle3031 positionStyle3034" data-bind-if="{{MessageTutorialModel.prompt}} != ''"></div>
+          <div data-bind-inner-html="{{MessageTutorialModel.prompt}}" class="layoutStyle3027 positionStyle3032 _Clips-Messages-tutorial_message_prompt_txt" data-bind-if="{{MessageTutorialModel.prompt}} != ''" cl-labels-key="_Clips-Messages-tutorial_message_prompt_txt">
+            <div class="visualStyle3022 layoutStyle3020 positionStyle0 flexCenter">PROMPT</div>
+          </div>
+        </div>
+        <div data-bind-inner-html-inline="{{MessageTutorialModel.message}}" class="animationStyle7122 layoutStyle3066 positionStyle3079 _Clips-Messages-tutorial_message_txt" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-tutorial_message_txt">
+          <div class="animationStyle7125 visualStyle5297 layoutStyle3013 positionStyle0 inlineText">Tutorial message.</div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle3549 positionStyle3576 collectible_message _Clips-Messages-collectible_message" cl-labels-key="_Clips-Messages-collectible_message">
+      <div class="layoutStyle3005 positionStyle3003 wrapper_rivet _Clips-Messages-rivet_collectible" cl-labels-key="_Clips-Messages-rivet_collectible">
+        <div class="animationStyle7130 layoutStyle2423 positionStyle7129 _Clips-Messages-rivet_card_1" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-rivet_card_1">
+          <div class="layoutStyle2376 imageStyle2708 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7137 visualStyle4774 layoutStyle2420 positionStyle2690 _Clips-Messages-rivet_card_2-" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-rivet_card_2-">
+          <div class="layoutStyle2368 imageStyle2700 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7143 layoutStyle2417 positionStyle7142 _Clips-Messages-collectible_message_texture" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_texture">
+          <div class="visualStyle36 layoutStyle2361 positionStyle0 autoScale" data-bind-style-background-image-url="{{MessageCollectibleModel.imagePath}}"></div>
+        </div>
+        <div class="animationStyle8679 visualStyle2408 layoutStyle2409 positionStyle7148" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8679 visualStyle2408 layoutStyle2412 positionStyle7149" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8679 visualStyle2408 layoutStyle2415 positionStyle7150" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8683 visualStyle2757 layoutStyle2409 positionStyle7148" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8683 visualStyle2757 layoutStyle2412 positionStyle7149" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8683 visualStyle2757 layoutStyle2415 positionStyle7150" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8687 visualStyle2766 layoutStyle2436 positionStyle7154" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8687 visualStyle2766 layoutStyle2439 positionStyle7155" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8687 visualStyle2766 layoutStyle2442 positionStyle7156" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8691 visualStyle2757 layoutStyle2445 positionStyle7157" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8691 visualStyle2757 layoutStyle2448 positionStyle7158" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8691 visualStyle2757 layoutStyle2451 positionStyle7159" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8695 visualStyle2766 layoutStyle2454 positionStyle7160" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8695 visualStyle2766 layoutStyle2457 positionStyle7161" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8695 visualStyle2766 layoutStyle2460 positionStyle7162" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8699 visualStyle2757 layoutStyle2463 positionStyle7163" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8699 visualStyle2757 layoutStyle2466 positionStyle7164" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8699 visualStyle2757 layoutStyle2469 positionStyle7165" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8703 visualStyle2757 layoutStyle2472 positionStyle7166" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8710 visualStyle2408 layoutStyle2475 positionStyle7167" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8712 visualStyle2757 layoutStyle2436 positionStyle7154" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8712 visualStyle2757 layoutStyle2439 positionStyle7155" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8712 visualStyle2757 layoutStyle2442 positionStyle7156" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8716 visualStyle2757 layoutStyle2454 positionStyle7160" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8716 visualStyle2757 layoutStyle2457 positionStyle7161" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8716 visualStyle2757 layoutStyle2460 positionStyle7162" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8720 visualStyle2766 layoutStyle2475 positionStyle7167" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle8722 visualStyle2967 layoutStyle2475 positionStyle7167" data-bind-if="{{HUD.isRivet}}"></div>
+        <div class="animationStyle7223 visualStyle2402 layoutStyle2404 positionStyle2684 _Clips-Messages-objectiveWipe" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-objectiveWipe">
+          <div class="animationStyle7229 visualStyle5273 layoutStyle2355 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7232 visualStyle2402 layoutStyle2400 positionStyle7231 _Clips-Messages-objectiveWipe" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-objectiveWipe">
+          <div class="animationStyle7238 visualStyle5273 layoutStyle2355 positionStyle0"></div>
+        </div>
+        <div class="visualStyle3000 layoutStyle2383 positionStyle2973" data-bind-if="{{HUD.isRivet}}">
+          <div class="animationStyle7261 layoutStyle2397 positionStyle7260 _Clips-Messages-collectible_message_slash" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_slash">
+            <img src="img/HUD6.svg" class="layoutStyle2349 positionStyle2348">
+          </div>
+          <div class="animationStyle7256 layoutStyle2394 positionStyle7255 _Clips-Messages-collectible_message_max" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_max">
+            <div class="visualStyle2337 layoutStyle2342 positionStyle0" data-bind-value="{{MessageCollectibleModel.value2}}">00</div>
+          </div>
+          <div class="animationStyle7251 layoutStyle2391 positionStyle7250 _Clips-Messages-collectible_message_curr" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_curr">
+            <div class="visualStyle2337 layoutStyle2335 positionStyle0" data-bind-value="{{MessageCollectibleModel.value1}}">00</div>
+          </div>
+          <div class="animationStyle7246 layoutStyle2388 positionStyle7245 _Clips-Messages-collection_category_type" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collection_category_type">
+            <div class="visualStyle2330 layoutStyle2328 positionStyle0 inlineTextCenter" data-bind-value="{{MessageCollectibleModel.subMessage}}">Helmet</div>
+          </div>
+          <div data-bind-inner-html="{{MessageCollectibleModel.message}}" class="animationStyle7241 layoutStyle2385 positionStyle7240 _Clips-Messages-collectible_message_title" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_title">
+            <div class="visualStyle2323 layoutStyle2321 positionStyle0 inlineTextCenter">TITLE</div>
+          </div>
+        </div>
+      </div>
+      <div class="layoutStyle3002 positionStyle3003 wrapper_ratchet _Clips-Messages-ratchet_collectible" cl-labels-key="_Clips-Messages-ratchet_collectible">
+        <div class="animationStyle7267 layoutStyle2423 positionStyle7129 _Clips-Messages-ratchet_card_1" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-ratchet_card_1">
+          <div class="layoutStyle2376 imageStyle2377 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7274 visualStyle4774 layoutStyle2420 positionStyle2690 _Clips-Messages-ratchet_card_2" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-ratchet_card_2">
+          <div class="layoutStyle2368 imageStyle2369 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7280 layoutStyle2417 positionStyle7142 _Clips-Messages-collectible_message_texture" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_texture">
+          <div class="visualStyle36 layoutStyle2361 positionStyle0 autoScale" data-bind-style-background-image-url="{{MessageCollectibleModel.imagePath}}"></div>
+        </div>
+        <div class="animationStyle8724 visualStyle2408 layoutStyle2409 positionStyle7148" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8724 visualStyle2408 layoutStyle2412 positionStyle7149" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8724 visualStyle2408 layoutStyle2415 positionStyle7150" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8728 visualStyle2426 layoutStyle2409 positionStyle7148" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8728 visualStyle2426 layoutStyle2412 positionStyle7149" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8728 visualStyle2426 layoutStyle2415 positionStyle7150" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8732 visualStyle2426 layoutStyle2436 positionStyle7154" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8732 visualStyle2426 layoutStyle2439 positionStyle7155" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8732 visualStyle2426 layoutStyle2442 positionStyle7156" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8736 visualStyle2426 layoutStyle2445 positionStyle7157" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8736 visualStyle2426 layoutStyle2448 positionStyle7158" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8736 visualStyle2426 layoutStyle2451 positionStyle7159" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8740 visualStyle2453 layoutStyle2454 positionStyle7160" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8740 visualStyle2453 layoutStyle2457 positionStyle7161" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8740 visualStyle2453 layoutStyle2460 positionStyle7162" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8744 visualStyle2462 layoutStyle2463 positionStyle7163" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8744 visualStyle2462 layoutStyle2466 positionStyle7164" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8744 visualStyle2462 layoutStyle2469 positionStyle7165" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8748 visualStyle2426 layoutStyle2472 positionStyle7166" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8750 visualStyle2474 layoutStyle2475 positionStyle7167" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle8752 visualStyle2408 layoutStyle2475 positionStyle7167" data-bind-if="!{{HUD.isRivet}}"></div>
+        <div class="animationStyle7370 visualStyle2402 layoutStyle2404 positionStyle2684 _Clips-Messages-objectiveWipe" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-objectiveWipe">
+          <div class="animationStyle7376 visualStyle5273 layoutStyle2355 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7379 visualStyle2402 layoutStyle2400 positionStyle7231 _Clips-Messages-objectiveWipe" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-objectiveWipe">
+          <div class="animationStyle7385 visualStyle5273 layoutStyle2355 positionStyle0"></div>
+        </div>
+        <div class="visualStyle2695 layoutStyle2383 positionStyle2670" data-bind-if="!{{HUD.isRivet}}">
+          <div class="animationStyle7408 layoutStyle2397 positionStyle7260 _Clips-Messages-collectible_message_slash" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_slash">
+            <img src="img/HUD7.svg" class="layoutStyle2349 positionStyle2348">
+          </div>
+          <div class="animationStyle7403 layoutStyle2394 positionStyle7255 _Clips-Messages-collectible_message_max" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_max">
+            <div class="visualStyle2337 layoutStyle2342 positionStyle0" data-bind-value="{{MessageCollectibleModel.value2}}">00</div>
+          </div>
+          <div class="animationStyle7398 layoutStyle2391 positionStyle7250 _Clips-Messages-collectible_message_curr" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_curr">
+            <div class="visualStyle2337 layoutStyle2335 positionStyle0" data-bind-value="{{MessageCollectibleModel.value1}}">00</div>
+          </div>
+          <div class="animationStyle7393 layoutStyle2388 positionStyle7392 _Clips-Messages-collection_category_type" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collection_category_type">
+            <div class="visualStyle2330 layoutStyle2328 positionStyle0 inlineTextCenter" data-bind-value="{{MessageCollectibleModel.subMessage}}">Helmet</div>
+          </div>
+          <div data-bind-inner-html="{{MessageCollectibleModel.message}}" class="animationStyle7388 layoutStyle2385 positionStyle7387 _Clips-Messages-collectible_message_title" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-collectible_message_title">
+            <div class="visualStyle2323 layoutStyle2321 positionStyle0 inlineTextCenter">TITLE</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle3546 positionStyle7412 arena_wave_message _Clips-Messages-arena_wave_message" cl-labels-key="_Clips-Messages-arena_wave_message">
+      <div class="animationStyle7414 layoutStyle2309 positionStyle7413 _Clips-Messages-arena_wave_message_bg" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-arena_wave_message_bg">
+        <div class="layoutStyle2297 imageStyle2298 positionStyle0"></div>
+      </div>
+      <div class="animationStyle7421 layoutStyle2306 positionStyle7420 _Clips-Messages-arena_wave_message_txt" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-arena_wave_message_txt">
+        <div class="animationStyle7425 visualStyle5267 layoutStyle2288 positionStyle0" data-bind-value="{{MessageArenaWaveModel.message}}">WAVE MESSAGE</div>
+      </div>
+      <div class="animationStyle7428 layoutStyle2303 positionStyle7427 _Clips-Messages-zurkie" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Messages-zurkie">
+        <div class="animationStyle7434 layoutStyle2276 positionStyle7433 _Clips-Messages-arm_cannon" cl-labels-key="_Clips-Messages-arm_cannon">
+          <div class="animationStyle7439 layoutStyle2257 positionStyle7438 _Clips-Messages-cannon" cl-labels-key="_Clips-Messages-cannon">
+            <div class="layoutStyle2248 imageStyle2249 positionStyle0"></div>
+          </div>
+          <div class="layoutStyle2254 positionStyle2259 _Clips-Messages-left_arm" cl-labels-key="_Clips-Messages-left_arm">
+            <div class="layoutStyle1945 imageStyle2241 positionStyle0"></div>
+          </div>
+        </div>
+        <div class="animationStyle7445 layoutStyle2273 positionStyle7444 _Clips-Messages-right_arm" cl-labels-key="_Clips-Messages-right_arm">
+          <div class="animationStyle7450 layoutStyle2230 positionStyle2231 _Clips-Messages-hand_forearm" cl-labels-key="_Clips-Messages-hand_forearm">
+            <div class="animationStyle7454 layoutStyle2217 positionStyle2218 _Clips-Messages-hand" cl-labels-key="_Clips-Messages-hand">
+              <div class="layoutStyle2208 imageStyle2209 positionStyle0"></div>
+            </div>
+            <div class="layoutStyle2214 positionStyle2221 _Clips-Messages-right_forearm" cl-labels-key="_Clips-Messages-right_forearm">
+              <div class="layoutStyle2200 imageStyle2201 positionStyle0"></div>
+            </div>
+          </div>
+          <div class="layoutStyle2227 positionStyle2232 _Clips-Messages-up_arm" cl-labels-key="_Clips-Messages-up_arm">
+            <div class="layoutStyle1945 imageStyle2193 positionStyle0"></div>
+          </div>
+        </div>
+        <div class="animationStyle5394 layoutStyle2270 imageStyle2271 positionStyle2280"></div>
+        <div class="animationStyle5394 layoutStyle2266 imageStyle2267 positionStyle7463"></div>
+      </div>
+    </div>
+    <div class="layoutStyle3543 positionStyle7464 arena_reward_message _Clips-Messages-arena_victory_message" cl-labels-key="_Clips-Messages-arena_victory_message">
+      <div class="animationStyle7466 layoutStyle2173 positionStyle2174 _Clips-Messages-arena_reward_bg" cl-labels-key="_Clips-Messages-arena_reward_bg">
+        <div class="layoutStyle2158 imageStyle2159 positionStyle2156"></div>
+      </div>
+      <div class="visualStyle2186 layoutStyle2168 positionStyle2179">
+        <div class="animationStyle7472 layoutStyle2170 positionStyle7471 _Clips-Messages-zurkon_reward_anim" cl-labels-key="_Clips-Messages-zurkon_reward_anim">
+          <div class="animationStyle7476 layoutStyle2085 positionStyle7475 _Clips-Messages-l_arm_victory" cl-labels-key="_Clips-Messages-l_arm_victory">
+            <div class="layoutStyle2052 imageStyle2053 positionStyle2050"></div>
+          </div>
+          <div class="layoutStyle2082 positionStyle2149 _Clips-Messages-right_shoulder_victory" cl-labels-key="_Clips-Messages-right_shoulder_victory">
+            <div class="layoutStyle2044 imageStyle2045 positionStyle0"></div>
+          </div>
+          <div class="animationStyle7482 layoutStyle2079 positionStyle7481 _Clips-Messages-right_arm_victory" cl-labels-key="_Clips-Messages-right_arm_victory">
+            <div class="layoutStyle2003 positionStyle2037 _Clips-Messages-r_elbow_victory" cl-labels-key="_Clips-Messages-r_elbow_victory">
+              <div class="layoutStyle1984 imageStyle2022 positionStyle0"></div>
+            </div>
+            <div class="layoutStyle2033 positionStyle2034 _Clips-Messages-r_forearm_victory" cl-labels-key="_Clips-Messages-r_forearm_victory">
+              <div class="layoutStyle2013 imageStyle2014 positionStyle0"></div>
+            </div>
+            <div class="layoutStyle2030 positionStyle2031 _Clips-Messages-hand_victory" cl-labels-key="_Clips-Messages-hand_victory">
+              <div class="animationStyle7489 layoutStyle2003 positionStyle7488 _Clips-Messages-thumb" cl-labels-key="_Clips-Messages-thumb">
+                <div class="layoutStyle1984 imageStyle1994 positionStyle0"></div>
+              </div>
+              <div class="animationStyle5394 layoutStyle2000 imageStyle2001 positionStyle2005"></div>
+            </div>
+            <div class="layoutStyle2027 positionStyle2028 _Clips-Messages-r_arm_victory" cl-labels-key="_Clips-Messages-r_arm_victory">
+              <div class="layoutStyle1984 imageStyle1985 positionStyle0"></div>
+            </div>
+          </div>
+          <div class="animationStyle7499 layoutStyle2088 positionStyle7498 _Clips-Messages-cannon_fire" cl-labels-key="_Clips-Messages-cannon_fire">
+            <div class="animationStyle8754 layoutStyle1974 imageStyle1975 positionStyle1972"></div>
+            <div class="animationStyle8756 layoutStyle1970 imageStyle1971 positionStyle7502"></div>
+          </div>
+          <div class="animationStyle7504 layoutStyle2088 positionStyle7498 _Clips-Messages-cannon_fire" cl-labels-key="_Clips-Messages-cannon_fire">
+            <div class="animationStyle8759 layoutStyle1974 imageStyle1975 positionStyle1972"></div>
+            <div class="animationStyle8761 layoutStyle1970 imageStyle1971 positionStyle7502"></div>
+          </div>
+          <div class="animationStyle7509 layoutStyle2076 positionStyle7508 _Clips-Messages-left_shoulder_victory" cl-labels-key="_Clips-Messages-left_shoulder_victory">
+            <div class="layoutStyle1961 imageStyle1962 positionStyle0"></div>
+          </div>
+          <div class="animationStyle7514 layoutStyle2061 positionStyle2139 _Clips-Messages-body_victory" cl-labels-key="_Clips-Messages-body_victory">
+            <div class="layoutStyle1913 imageStyle1954 positionStyle0"></div>
+          </div>
+          <div class="animationStyle7518 layoutStyle2070 positionStyle7517 _Clips-Messages-cannon_joint" cl-labels-key="_Clips-Messages-cannon_joint">
+            <div class="layoutStyle1945 imageStyle1946 positionStyle0"></div>
+          </div>
+          <div class="animationStyle7524 layoutStyle2067 positionStyle7523 _Clips-Messages-zurkon_forward" cl-labels-key="_Clips-Messages-zurkon_forward">
+            <div class="layoutStyle1937 imageStyle1938 positionStyle0"></div>
+          </div>
+          <div class="animationStyle7529 layoutStyle2115 positionStyle7523 _Clips-Messages-zurkon_forward" cl-labels-key="_Clips-Messages-zurkon_forward">
+            <div class="layoutStyle1937 imageStyle1938 positionStyle0"></div>
+          </div>
+          <div class="animationStyle7533 visualStyle4781 layoutStyle2064 positionStyle7532 _Clips-Messages-zurkon_icons" cl-labels-key="_Clips-Messages-zurkon_icons">
+            <div class="animationStyle5394 layoutStyle1921 imageStyle1922 positionStyle1919"></div>
+          </div>
+          <div class="animationStyle7538 visualStyle4781 layoutStyle2112 positionStyle7532 _Clips-Messages-zurkon_icons" cl-labels-key="_Clips-Messages-zurkon_icons">
+            <div class="animationStyle5394 layoutStyle1921 imageStyle1922 positionStyle1919"></div>
+          </div>
+          <div class="animationStyle7542 layoutStyle2097 positionStyle7541 _Clips-Messages-zurkon_head_up" cl-labels-key="_Clips-Messages-zurkon_head_up">
+            <div class="layoutStyle1929 imageStyle1930 positionStyle0"></div>
+          </div>
+          <div class="animationStyle7546 visualStyle4781 layoutStyle2094 positionStyle7545 _Clips-Messages-zurkon_icons" cl-labels-key="_Clips-Messages-zurkon_icons">
+            <div class="animationStyle5394 layoutStyle1921 imageStyle1922 positionStyle1919"></div>
+          </div>
+          <div class="animationStyle7550 layoutStyle2061 positionStyle2127 _Clips-Messages-cannon_victory" cl-labels-key="_Clips-Messages-cannon_victory">
+            <div class="layoutStyle1913 imageStyle1914 positionStyle0"></div>
+          </div>
+          <div class="animationStyle5398 visualStyle2154 layoutStyle2059 positionStyle0">
+            <div class="animationStyle7579 layoutStyle2109 positionStyle7578 _Clips-Messages-debris_wrench" cl-labels-key="_Clips-Messages-debris_wrench">
+              <div class="layoutStyle1881 imageStyle1906 positionStyle0"></div>
+            </div>
+            <div class="animationStyle7572 layoutStyle2103 positionStyle7571 _Clips-Messages-debris_chicken" cl-labels-key="_Clips-Messages-debris_chicken">
+              <div class="layoutStyle1881 imageStyle1898 positionStyle0"></div>
+            </div>
+            <div class="animationStyle7564 layoutStyle2106 positionStyle7563 _Clips-Messages-debris_sink" cl-labels-key="_Clips-Messages-debris_sink">
+              <div class="layoutStyle1881 imageStyle1890 positionStyle0"></div>
+            </div>
+            <div class="animationStyle7556 layoutStyle2100 positionStyle7555 _Clips-Messages-debris_doll" cl-labels-key="_Clips-Messages-debris_doll">
+              <div class="layoutStyle1881 imageStyle1882 positionStyle0"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle7585 layoutStyle2164 positionStyle7584 _Clips-Messages-arena_victory_header" cl-labels-key="_Clips-Messages-arena_victory_header">
+        <div data-l10n-id="HUD_ARENA_VICTORY" class="visualStyle1874 layoutStyle1872 positionStyle0">TEXT</div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle1869 positionStyle7591 Health" cl-labels-key="Health">
+    <div class="layoutStyle1861 positionStyle1862 wrapper_ratchet _Clips-Health-wrapper_ratchet" cl-labels-key="_Clips-Health-wrapper_ratchet">
+      <div class="visualStyle1856 layoutStyle1820 positionStyle1850" data-bind-if="!{{HUD.isRivet}}">
+        <div class="animationStyle7594 layoutStyle1822 positionStyle7593 _Clips-Health-ratchet_healthBar_base" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Health-ratchet_healthBar_base">
+          <div class="layoutStyle1798 imageStyle1799 positionStyle0"></div>
+        </div>
+      </div>
+      <div class="animationStyle7600 layoutStyle1816 positionStyle7599 _Clips-Health-bar_wrapper" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Health-bar_wrapper">
+        <div class="visualStyle1794 layoutStyle1785 positionStyle0">
+          <div class="layoutStyle1787 positionStyle0 bar _Clips-Health-bar" cl-labels-key="_Clips-Health-bar">
+            <img src="img/HUD8.svg" data-bind-style-left="({{HUDHealth.barWidth}} - 100) + '%'" class="animationStyle5390 layoutStyle1780 positionStyle0">
+          </div>
+        </div>
+      </div>
+      <div class="visualStyle1855 layoutStyle1811 positionStyle1844" data-bind-if="!{{HUD.isRivet}}">
+        <div class="animationStyle7608 layoutStyle1813 positionStyle7607 _Clips-Health-ratchet_health_bar" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Health-ratchet_health_bar">
+          <div class="layoutStyle1726 imageStyle1775 positionStyle0"></div>
+        </div>
+      </div>
+      <div class="animationStyle7614 layoutStyle1807 positionStyle7613 _Clips-Health-value" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Health-value">
+        <div class="animationStyle7619 visualStyle5244 layoutStyle1699 positionStyle0 inlineTextCenterAlignC" data-bind-value="{{HUDHealth.hpLoc}}">100/ 100</div>
+      </div>
+      <div class="animationStyle8765 layoutStyle1826 imageStyle1022 positionStyle7621" data-bind-if="!{{HUD.isRivet}}"></div>
+      <div class="animationStyle8767 layoutStyle1830 imageStyle1026 positionStyle7622" data-bind-if="!{{HUD.isRivet}}"></div>
+      <div class="animationStyle8769 layoutStyle1834 imageStyle1487 positionStyle7623" data-bind-if="!{{HUD.isRivet}}"></div>
+      <div class="animationStyle7625 layoutStyle1804 positionStyle7624 _Clips-Health-mc_health_icon" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Health-mc_health_icon">
+        <div class="layoutStyle1693 positionStyle1694 _Clips-Health-hearth_rc" cl-labels-key="_Clips-Health-hearth_rc">
+          <div class="layoutStyle1687 imageStyle1688 positionStyle1685"></div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle1858 positionStyle7632 wrapper_rivet _Clips-Health-wrapper_rivet" cl-labels-key="_Clips-Health-wrapper_rivet">
+      <div class="visualStyle1770 layoutStyle1742 positionStyle1765" data-bind-if="{{HUD.isRivet}}">
+        <div class="animationStyle7634 layoutStyle1744 positionStyle7633 _Clips-Health-rivet_healthBase" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Health-rivet_healthBase">
+          <div class="layoutStyle1726 imageStyle1727 positionStyle0"></div>
+        </div>
+      </div>
+      <div class="animationStyle7640 layoutStyle1738 positionStyle7639 _Clips-Health-bar_wrapper_rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Health-bar_wrapper_rivet">
+        <div class="visualStyle1722 layoutStyle1713 positionStyle0" style="mask-image: url(./img/svgMask293_1.svg); position: absolute;left: 0.000vh; top: 0.000vh;">
+          <div class="layoutStyle1715 positionStyle0 bar _Clips-Health-bar_rivet" cl-labels-key="_Clips-Health-bar_rivet">
+            <div class="animationStyle5390 visualStyle1706 layoutStyle1707 positionStyle0" data-bind-style-left="({{HUDHealth.barWidth}} - 100) + '%'"></div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle7648 layoutStyle1735 positionStyle7647 _Clips-Health-value" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Health-value">
+        <div class="animationStyle7653 visualStyle5244 layoutStyle1699 positionStyle0 inlineTextCenterAlignC" data-bind-value="{{HUDHealth.hpLoc}}">100/ 100</div>
+      </div>
+      <div class="animationStyle7656 visualStyle4792 layoutStyle1732 positionStyle7655 _Clips-Health-mc_health_icon" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Health-mc_health_icon">
+        <div class="layoutStyle1693 positionStyle1694 _Clips-Health-hearth_rc" cl-labels-key="_Clips-Health-hearth_rc">
+          <div class="layoutStyle1687 imageStyle1688 positionStyle1685"></div>
+        </div>
+      </div>
+      <div class="animationStyle7663 layoutStyle1747 positionStyle7662 _Clips-Health-reveal_1" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Health-reveal_1">
+        <div class="layoutStyle1665 imageStyle1022 positionStyle1663"></div>
+      </div>
+      <div class="animationStyle7667 layoutStyle1750 positionStyle7666 _Clips-Health-reveal_2" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Health-reveal_2">
+        <div class="layoutStyle1672 imageStyle1026 positionStyle1670"></div>
+      </div>
+      <div class="animationStyle7671 layoutStyle1753 positionStyle7670 _Clips-Health-reveal_3" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Health-reveal_3">
+        <div class="layoutStyle1679 imageStyle1487 positionStyle1677"></div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle1661 positionStyle1662 Weapon" cl-labels-key="Weapon">
+    <div class="layoutStyle1653 positionStyle1657 wrapper_ratchet _Clips-Weapon-wrapper_ratchet" cl-labels-key="_Clips-Weapon-wrapper_ratchet">
+      <div class="visualStyle1648 layoutStyle1602 positionStyle1642" data-bind-if="!{{HUD.isRivet}}">
+        <div class="animationStyle7677 layoutStyle1604 positionStyle7676 _Clips-Weapon-weapon_bg" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-weapon_bg">
+          <div class="layoutStyle1565 imageStyle1566 positionStyle0"></div>
+        </div>
+      </div>
+      <div class="visualStyle1647 layoutStyle1596 positionStyle1638" data-bind-if="!{{HUD.isRivet}}">
+        <div class="animationStyle7683 layoutStyle1598 positionStyle7682 _Clips-Weapon-ratchet_xp_base" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ratchet_xp_base">
+          <div class="layoutStyle1176 imageStyle1556 positionStyle0"></div>
+          <div class="layoutStyle1551 positionStyle1557 _Clips-Weapon-xp_label_ratchet" cl-labels-key="_Clips-Weapon-xp_label_ratchet">
+            <div data-l10n-id="HUD_XP" class="visualStyle1545 layoutStyle1543 positionStyle0 inlineTextCenter">XP</div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle7691 layoutStyle1462 positionStyle7690 _Clips-Weapon-ammo_pct" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_pct">
+        <div class="visualStyle5217 layoutStyle1406 positionStyle0" data-bind-value="{{HUDWeapon.ammoPct}}" data-bind-if="{{HUDWeapon.ammoAsPct}}">###%</div>
+      </div>
+      <div class="animationStyle7695 layoutStyle1459 positionStyle1634 _Clips-Weapon-ammo_slash" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_slash">
+        <div class="visualStyle1401 layoutStyle1399 positionStyle0" data-bind-style-opacity="{{HUDWeapon.ammoMax}} &gt; 0 ? 1 : 0" data-bind-if="!{{HUDWeapon.ammoAsPct}}">/</div>
+      </div>
+      <div class="animationStyle7699 layoutStyle1456 positionStyle1632 _Clips-Weapon-ammo_max" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_max">
+        <div class="animationStyle7702 visualStyle5211 layoutStyle1392 positionStyle0" data-bind-value="{{HUDWeapon.ammoMax}}" data-bind-style-opacity="{{HUDWeapon.ammoMax}} &gt; 0 ? 1 : 0" data-bind-if="!{{HUDWeapon.ammoAsPct}}">###</div>
+      </div>
+      <div class="animationStyle7705 layoutStyle1453 positionStyle1630 _Clips-Weapon-ammo_cur" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_cur">
+        <div class="visualStyle1387 layoutStyle1385 positionStyle0" data-bind-value="{{HUDWeapon.ammoCur}}" data-bind-style-opacity="{{HUDWeapon.ammoMax}} &gt; 0 ? 1 : 0" data-bind-if="!{{HUDWeapon.ammoAsPct}}">1000</div>
+      </div>
+      <div class="animationStyle7709 visualStyle4774 layoutStyle1450 positionStyle1628 _Clips-Weapon-ammo_infinity" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_infinity">
+        <img src="img/HUD9.svg" data-bind-style-opacity="{{HUDWeapon.ammoMax}} &gt; 0 ? 0 : 1" data-bind-if="!{{HUDWeapon.ammoAsPct}}" class="animationStyle7712 visualStyle5207 layoutStyle1378 positionStyle0">
+      </div>
+      <div class="animationStyle7715 layoutStyle1577 positionStyle1626 wpn_lvl _Clips-Weapon-wpn_lvl" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-wpn_lvl">
+        <div class="animationStyle7718 visualStyle5221 layoutStyle1536 positionStyle0" data-bind-value="{{HUDWeapon.wpnLvlLoc}}">##</div>
+      </div>
+      <div class="animationStyle7721 layoutStyle1574 positionStyle7720 _Clips-Weapon-bar_wrapper" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-bar_wrapper">
+        <div class="visualStyle1534 layoutStyle1525 positionStyle0">
+          <div class="visualStyle4793 layoutStyle1527 positionStyle0 _Clips-Weapon-bar_fill" cl-labels-key="_Clips-Weapon-bar_fill">
+            <img src="img/HUD10.svg" data-bind-style-left="(100 - {{HUDWeapon.wpnPct}}) + '%'" class="layoutStyle1520 positionStyle0">
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle7726 visualStyle4774 layoutStyle1571 positionStyle7725 wpn_icon _Clips-Weapon-wpn_icon" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-wpn_icon">
+        <div class="visualStyle1347 layoutStyle1348 positionStyle0 autoScale" data-bind-style-background-image-url="{{HUDWeapon.wpnIcon}}"></div>
+      </div>
+      <div class="animationStyle8771 layoutStyle1608 imageStyle1022 positionStyle7729" data-bind-if="!{{HUD.isRivet}}"></div>
+      <div class="animationStyle8773 layoutStyle1612 imageStyle1026 positionStyle7730" data-bind-if="!{{HUD.isRivet}}"></div>
+      <div class="animationStyle8775 layoutStyle1616 imageStyle1487 positionStyle7731" data-bind-if="!{{HUD.isRivet}}"></div>
+    </div>
+    <div class="layoutStyle1650 positionStyle1651 wrapper_rivet _Clips-Weapon-wrapper_rivet" cl-labels-key="_Clips-Weapon-wrapper_rivet">
+      <div class="visualStyle1518 layoutStyle1472 positionStyle1512" data-bind-if="{{HUD.isRivet}}">
+        <div class="animationStyle7734 layoutStyle1474 positionStyle7733 _Clips-Weapon-weapon_bg_rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-weapon_bg_rivet">
+          <div class="layoutStyle1435 imageStyle1436 positionStyle0"></div>
+        </div>
+      </div>
+      <div class="visualStyle1517 layoutStyle1466 positionStyle1508" data-bind-if="{{HUD.isRivet}}">
+        <div class="animationStyle7740 layoutStyle1468 positionStyle7739 _Clips-Weapon-rivet_xp_bar" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-rivet_xp_bar">
+          <div class="layoutStyle1176 imageStyle1426 positionStyle0"></div>
+          <div class="layoutStyle1421 positionStyle1427 _Clips-Weapon-xp_label_rivet" cl-labels-key="_Clips-Weapon-xp_label_rivet">
+            <div data-l10n-id="HUD_XP" class="visualStyle1415 layoutStyle1413 positionStyle0 inlineTextCenter">XP</div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle7748 layoutStyle1462 positionStyle7747 _Clips-Weapon-ammo_pct" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_pct">
+        <div class="visualStyle5217 layoutStyle1406 positionStyle0" data-bind-value="{{HUDWeapon.ammoPct}}" data-bind-if="{{HUDWeapon.ammoAsPct}}">###%</div>
+      </div>
+      <div class="animationStyle7752 layoutStyle1459 positionStyle1504 _Clips-Weapon-ammo_slash" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_slash">
+        <div class="visualStyle1401 layoutStyle1399 positionStyle0" data-bind-style-opacity="{{HUDWeapon.ammoMax}} &gt; 0 ? 1 : 0" data-bind-if="!{{HUDWeapon.ammoAsPct}}">/</div>
+      </div>
+      <div class="animationStyle7756 layoutStyle1456 positionStyle1502 _Clips-Weapon-ammo_max" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_max">
+        <div class="animationStyle7759 visualStyle5211 layoutStyle1392 positionStyle0" data-bind-value="{{HUDWeapon.ammoMax}}" data-bind-style-opacity="{{HUDWeapon.ammoMax}} &gt; 0 ? 1 : 0" data-bind-if="!{{HUDWeapon.ammoAsPct}}">###</div>
+      </div>
+      <div class="animationStyle7762 layoutStyle1453 positionStyle1500 _Clips-Weapon-ammo_cur" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_cur">
+        <div class="visualStyle1387 layoutStyle1385 positionStyle0" data-bind-value="{{HUDWeapon.ammoCur}}" data-bind-style-opacity="{{HUDWeapon.ammoMax}} &gt; 0 ? 1 : 0" data-bind-if="!{{HUDWeapon.ammoAsPct}}">1000</div>
+      </div>
+      <div class="animationStyle7766 visualStyle4795 layoutStyle1450 positionStyle1498 _Clips-Weapon-ammo_infinity" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-ammo_infinity">
+        <img src="img/HUD11.svg" data-bind-style-opacity="{{HUDWeapon.ammoMax}} &gt; 0 ? 0 : 1" data-bind-if="!{{HUDWeapon.ammoAsPct}}" class="animationStyle7769 visualStyle5207 layoutStyle1378 positionStyle0">
+      </div>
+      <div class="animationStyle7772 layoutStyle1447 positionStyle7771 wpn_lvl _Clips-Weapon-rivet_wpn_lvl" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-rivet_wpn_lvl">
+        <div class="visualStyle5200 layoutStyle1371 positionStyle0" data-bind-value="{{HUDWeapon.wpnLvlLoc}}">##</div>
+      </div>
+      <div class="animationStyle7776 visualStyle4774 layoutStyle1444 positionStyle1494 _Clips-Weapon-bar_wrapper_Rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-bar_wrapper_Rivet">
+        <div class="visualStyle1369 layoutStyle1360 positionStyle0" style="mask-image: url(./img/svgMask235_1.svg); position: absolute;left: 0.000vh; top: 0.000vh;">
+          <div class="layoutStyle1362 positionStyle0 _Clips-Weapon-rivet_bar_fill" cl-labels-key="_Clips-Weapon-rivet_bar_fill">
+            <div class="visualStyle1353 layoutStyle1354 positionStyle0" data-bind-style-left="(100 - {{HUDWeapon.wpnPct}}) + '%'"></div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle7781 visualStyle4798 layoutStyle1441 positionStyle7780 wpn_icon _Clips-Weapon-wpn_icon" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Weapon-wpn_icon">
+        <div class="animationStyle7784 visualStyle5194 layoutStyle1348 positionStyle0 autoScale" data-bind-style-background-image-url="{{HUDWeapon.wpnIcon}}"></div>
+      </div>
+      <div class="animationStyle8777 layoutStyle1478 imageStyle1022 positionStyle7786" data-bind-if="{{HUD.isRivet}}"></div>
+      <div class="animationStyle8779 layoutStyle1482 imageStyle1026 positionStyle7787" data-bind-if="{{HUD.isRivet}}"></div>
+      <div class="animationStyle8781 layoutStyle1486 imageStyle1487 positionStyle7788" data-bind-if="{{HUD.isRivet}}"></div>
+    </div>
+  </div>
+  <div class="layoutStyle1343 positionStyle4742 XP" cl-labels-key="XP">
+    <div class="layoutStyle1335 positionStyle1339 wrapper_ratchet _Clips-XP-wrapper_ratchet" cl-labels-key="_Clips-XP-wrapper_ratchet">
+      <div class="visualStyle1330 layoutStyle1308 positionStyle1323" data-bind-if="!{{HUD.isRivet}}">
+        <div class="animationStyle7798 layoutStyle1313 positionStyle7797 _Clips-XP-xp_bg" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-XP-xp_bg">
+          <div class="layoutStyle1176 imageStyle1257 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7792 layoutStyle1310 positionStyle7791 xp_bar _Clips-XP-xp_bar" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-XP-xp_bar">
+          <div class="visualStyle1289 layoutStyle1280 positionStyle0">
+            <div class="layoutStyle1282 positionStyle0 _Clips-XP-xp_bar_fill" cl-labels-key="_Clips-XP-xp_bar_fill">
+              <img src="img/HUD12.svg" data-bind-style-left="({{HUDXP.barWidth}} - 100) + '%'" class="layoutStyle1275 positionStyle0">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle7803 layoutStyle1304 positionStyle7802 _Clips-XP-xp_label" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-XP-xp_label">
+        <div data-l10n-id="HUD_XP" class="visualStyle1197 layoutStyle1195 positionStyle0 inlineTextCenter">XP</div>
+      </div>
+      <div class="visualStyle4771 layoutStyle1301 positionStyle7808 _Clips-XP-ratchet_level_number" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-XP-ratchet_level_number">
+        <div class="visualStyle1270 layoutStyle1268 positionStyle0" data-bind-value="{{HUDXP.level}}">10</div>
+      </div>
+      <div class="animationStyle7811 layoutStyle1298 positionStyle7810 _Clips-XP-anim_ratchet_pulse" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-XP-anim_ratchet_pulse">
+        <div class="animationStyle7814 visualStyle4774 layoutStyle1262 positionStyle1263 _Clips-XP-art_ratchet_xp_bar" data-bind-if="{{HUDXP.nearLevelUp}}" cl-labels-key="_Clips-XP-art_ratchet_xp_bar">
+          <div class="layoutStyle1256 imageStyle1257 positionStyle1254"></div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle1332 positionStyle1337 wrapper_rivet _Clips-XP-wrapper_rivet" cl-labels-key="_Clips-XP-wrapper_rivet">
+      <div class="visualStyle1252 layoutStyle1227 positionStyle1243" data-bind-if="{{HUD.isRivet}}">
+        <div class="animationStyle7831 layoutStyle1235 positionStyle7830 _Clips-XP-xp_bg_rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-XP-xp_bg_rivet">
+          <div class="layoutStyle1176 imageStyle1177 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7825 layoutStyle1232 positionStyle7824 xp_bar _Clips-XP-rivet_xp_bar" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-XP-rivet_xp_bar">
+          <div class="visualStyle1218 layoutStyle1209 positionStyle0" style="mask-image: url(./img/svgMask208_1.svg); position: absolute;left: 0.000vh; top: 0.000vh;">
+            <div class="layoutStyle1211 positionStyle0 _Clips-XP-rivet_barFill" cl-labels-key="_Clips-XP-rivet_barFill">
+              <div class="visualStyle1202 layoutStyle1203 positionStyle0" data-bind-style-left="({{HUDXP.barWidth}} - 100) + '%'"></div>
+            </div>
+          </div>
+        </div>
+        <div class="animationStyle7819 visualStyle4801 layoutStyle1229 positionStyle7818 _Clips-XP-xp_label" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-XP-xp_label">
+          <div data-l10n-id="HUD_XP" class="visualStyle1197 layoutStyle1195 positionStyle0 inlineTextCenter">XP</div>
+        </div>
+      </div>
+      <div class="visualStyle4771 layoutStyle1223 positionStyle7837 _Clips-XP-rivet_level_number" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-XP-rivet_level_number">
+        <div class="visualStyle1190 layoutStyle1188 positionStyle0" data-bind-value="{{HUDXP.level}}">10</div>
+      </div>
+      <div class="animationStyle7840 layoutStyle1220 positionStyle7839 _Clips-XP-anim_rivet_xp_pulse" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-XP-anim_rivet_xp_pulse">
+        <div class="animationStyle7843 visualStyle4774 layoutStyle1182 positionStyle1183 _Clips-XP-xp_bg_rivet" data-bind-if="{{HUDXP.nearLevelUp}}" cl-labels-key="_Clips-XP-xp_bg_rivet">
+          <div class="layoutStyle1176 imageStyle1177 positionStyle0"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle1171 positionStyle7847 Currency" cl-labels-key="Currency">
+    <div class="layoutStyle1163 positionStyle1164 wrapper_ratchet _Clips-Currency-wrapper_ratchet" cl-labels-key="_Clips-Currency-wrapper_ratchet">
+      <div class="animationStyle7850 layoutStyle1126 positionStyle7849 _Clips-Currency-currency_bg" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-currency_bg">
+        <div class="layoutStyle1098 imageStyle1099 positionStyle1104"></div>
+        <div class="layoutStyle987 imageStyle1095 positionStyle1102"></div>
+        <div class="layoutStyle1090 imageStyle1091 positionStyle1100"></div>
+      </div>
+      <div class="animationStyle7857 layoutStyle1123 positionStyle7856 bolt_gain _Clips-Currency-bolt_gain" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-bolt_gain">
+        <div class="animationStyle7862 visualStyle4771 layoutStyle1076 positionStyle7861 _Clips-Currency-bolt_gain_bg" cl-labels-key="_Clips-Currency-bolt_gain_bg">
+          <img src="img/HUD13.svg" class="layoutStyle1068 positionStyle1067">
+        </div>
+        <div class="animationStyle7867 visualStyle4771 layoutStyle966 positionStyle7866 bolt_diff_value _Clips-Currency-bolt_gain_value" cl-labels-key="_Clips-Currency-bolt_gain_value">
+          <div class="visualStyle955 layoutStyle953 positionStyle0" data-bind-value="'+' + {{HUDCurrency.boltDiff}}">+ #</div>
+        </div>
+      </div>
+      <div class="animationStyle7874 layoutStyle1011 positionStyle7873 currency_bolt_anim _Clips-Currency-icon_bolt" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-icon_bolt">
+        <div class="animationStyle7878 visualStyle4774 layoutStyle945 positionStyle946 _Clips-Currency-mc_bolt" cl-labels-key="_Clips-Currency-mc_bolt">
+          <img src="img/HUD14.svg" class="layoutStyle940 positionStyle939">
+        </div>
+      </div>
+      <div class="animationStyle7884 visualStyle4771 layoutStyle1008 positionStyle7883 _Clips-Currency-icon_raritanium" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-icon_raritanium">
+        <img src="img/HUD15.svg" class="layoutStyle935 positionStyle0">
+      </div>
+      <div class="animationStyle7888 layoutStyle1005 positionStyle1148 raritanium _Clips-Currency-raritanium" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-raritanium">
+        <div class="visualStyle930 layoutStyle928 positionStyle0" data-bind-value="{{HUDCurrency.raritanium}}">9999</div>
+      </div>
+      <div class="animationStyle7892 layoutStyle1002 positionStyle1146 bolts _Clips-Currency-bolts" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-bolts">
+        <div class="visualStyle923 layoutStyle921 positionStyle0" data-bind-value="{{HUDCurrency.bolts}}">00000000</div>
+      </div>
+      <div class="animationStyle7897 layoutStyle1108 positionStyle7896 _Clips-Currency-multiplier" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-multiplier">
+        <img src="img/HUD16.svg" data-bind-if="{{HUDCurrency.boltMultiplierAllowed}}" class="layoutStyle1061 positionStyle1064">
+        <div class="layoutStyle911 positionStyle1062 _Clips-Currency-multiplier_inner" data-bind-if="{{HUDCurrency.boltMultiplierAllowed}}" cl-labels-key="_Clips-Currency-multiplier_inner">
+          <div class="visualStyle1053 layoutStyle904 positionStyle0" data-bind-value="{{HUDCurrency.boltMultiplier}}">x99</div>
+        </div>
+      </div>
+      <div class="animationStyle8783 layoutStyle1021 imageStyle1022 positionStyle7902" data-bind-if="!{{HUD.isRivet}}"></div>
+      <div class="animationStyle8785 layoutStyle1025 imageStyle1026 positionStyle7903" data-bind-if="!{{HUD.isRivet}}"></div>
+      <div class="animationStyle8787 layoutStyle1029 imageStyle1022 positionStyle7904" data-bind-if="!{{HUD.isRivet}}"></div>
+    </div>
+    <div class="layoutStyle1160 positionStyle7905 wrapper_rivet _Clips-Currency-wrapper_rivet" cl-labels-key="_Clips-Currency-wrapper_rivet">
+      <div class="animationStyle7907 layoutStyle1017 positionStyle7906 _Clips-Currency-currency_frame_rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-currency_frame_rivet">
+        <div class="layoutStyle991 imageStyle992 positionStyle0"></div>
+        <div class="layoutStyle987 imageStyle988 positionStyle985"></div>
+        <div class="layoutStyle983 imageStyle984 positionStyle993"></div>
+      </div>
+      <div class="animationStyle7914 layoutStyle1014 positionStyle7913 bolt_gain _Clips-Currency-rivetBoltGain" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-rivetBoltGain">
+        <div class="animationStyle7919 visualStyle4771 layoutStyle969 positionStyle7918 _Clips-Currency-rivetBoltAddTab" cl-labels-key="_Clips-Currency-rivetBoltAddTab">
+          <div class="visualStyle960 layoutStyle961 positionStyle0"></div>
+        </div>
+        <div class="animationStyle7924 visualStyle4807 layoutStyle966 positionStyle7923 bolt_diff_value _Clips-Currency-bolt_gain_value" cl-labels-key="_Clips-Currency-bolt_gain_value">
+          <div class="visualStyle955 layoutStyle953 positionStyle0" data-bind-value="'+' + {{HUDCurrency.boltDiff}}">+ #</div>
+        </div>
+      </div>
+      <div class="animationStyle7931 visualStyle4808 layoutStyle1011 positionStyle7930 _Clips-Currency-icon_bolt" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-icon_bolt">
+        <div class="animationStyle7935 visualStyle4774 layoutStyle945 positionStyle946 _Clips-Currency-mc_bolt" cl-labels-key="_Clips-Currency-mc_bolt">
+          <img src="img/HUD17.svg" class="layoutStyle940 positionStyle939">
+        </div>
+      </div>
+      <div class="animationStyle7941 visualStyle4774 layoutStyle1008 positionStyle7940 _Clips-Currency-icon_raritanium" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-icon_raritanium">
+        <img src="img/HUD18.svg" class="layoutStyle935 positionStyle0">
+      </div>
+      <div class="animationStyle7945 layoutStyle1005 positionStyle1039 raritanium _Clips-Currency-raritanium" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-raritanium">
+        <div class="visualStyle930 layoutStyle928 positionStyle0" data-bind-value="{{HUDCurrency.raritanium}}">9999</div>
+      </div>
+      <div class="animationStyle7949 layoutStyle1002 positionStyle1037 bolts _Clips-Currency-bolts" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-bolts">
+        <div class="visualStyle923 layoutStyle921 positionStyle0" data-bind-value="{{HUDCurrency.bolts}}">00000000</div>
+      </div>
+      <div class="animationStyle7954 layoutStyle999 positionStyle1035 _Clips-Currency-multiplier_rivet" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Currency-multiplier_rivet">
+        <img src="img/HUD19.svg" data-bind-if="{{HUDCurrency.boltMultiplierAllowed}}" class="layoutStyle914 positionStyle917">
+        <div class="layoutStyle911 positionStyle915 _Clips-Currency-multiplier_rivet_inner" data-bind-if="{{HUDCurrency.boltMultiplierAllowed}}" cl-labels-key="_Clips-Currency-multiplier_rivet_inner">
+          <div class="visualStyle906 layoutStyle904 positionStyle0" data-bind-value="{{HUDCurrency.boltMultiplier}}">x99</div>
+        </div>
+      </div>
+      <div class="animationStyle8789 layoutStyle1021 imageStyle1022 positionStyle7959" data-bind-if="{{HUD.isRivet}}"></div>
+      <div class="animationStyle8791 layoutStyle1025 imageStyle1026 positionStyle7960" data-bind-if="{{HUD.isRivet}}"></div>
+      <div class="animationStyle8793 layoutStyle1029 imageStyle1022 positionStyle7961" data-bind-if="{{HUD.isRivet}}"></div>
+    </div>
+  </div>
+  <div class="layoutStyle899 positionStyle7962 HeroLevelUp" cl-labels-key="HeroLevelUp">
+    <div class="animationStyle7964 layoutStyle836 positionStyle894 _Clips-HeroLevelUp-art_shadow" cl-labels-key="_Clips-HeroLevelUp-art_shadow">
+      <div class="layoutStyle754 imageStyle755 positionStyle752"></div>
+    </div>
+    <div class="animationStyle7968 visualStyle4771 layoutStyle833 positionStyle7967 _Clips-HeroLevelUp-art_hex_field" cl-labels-key="_Clips-HeroLevelUp-art_hex_field">
+      <div class="layoutStyle746 imageStyle747 positionStyle0"></div>
+    </div>
+    <div class="animationStyle7974 visualStyle4771 layoutStyle830 positionStyle7973 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle7981 visualStyle4771 layoutStyle827 positionStyle7980 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle7988 visualStyle4771 layoutStyle824 positionStyle7987 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle7995 visualStyle4771 layoutStyle821 positionStyle7994 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8002 visualStyle4771 layoutStyle818 positionStyle8001 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8009 visualStyle4771 layoutStyle815 positionStyle8008 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8016 visualStyle4771 layoutStyle812 positionStyle8015 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8023 visualStyle4771 layoutStyle809 positionStyle8022 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8030 visualStyle4771 layoutStyle806 positionStyle8029 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8036 visualStyle4771 layoutStyle803 positionStyle8035 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8042 visualStyle4771 layoutStyle800 positionStyle868 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8048 visualStyle4771 layoutStyle797 positionStyle8047 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8054 visualStyle4771 layoutStyle794 positionStyle8053 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8060 visualStyle4771 layoutStyle791 positionStyle8059 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8066 visualStyle4771 layoutStyle788 positionStyle8065 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8072 visualStyle4771 layoutStyle785 positionStyle8071 _Clips-HeroLevelUp-art_single_hex" cl-labels-key="_Clips-HeroLevelUp-art_single_hex">
+      <div class="layoutStyle738 imageStyle739 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8078 visualStyle4771 layoutStyle782 positionStyle8077 _Clips-HeroLevelUp-dmg_value" cl-labels-key="_Clips-HeroLevelUp-dmg_value">
+      <div data-l10n-id="UI_LEVEL_UP" class="visualStyle702 layoutStyle700 positionStyle732" data-bind-value="{{HeroLevelUp.dmg}}">##</div>
+      <img src="img/HUD20.svg" data-bind-value="{{HeroLevelUp.dmg}}" class="layoutStyle707 positionStyle730">
+    </div>
+    <div class="animationStyle8084 visualStyle4771 layoutStyle779 positionStyle8083 _Clips-HeroLevelUp-dmg_icon" cl-labels-key="_Clips-HeroLevelUp-dmg_icon">
+      <div class="layoutStyle694 imageStyle720 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8089 layoutStyle776 positionStyle8088 _Clips-HeroLevelUp-hp_value" cl-labels-key="_Clips-HeroLevelUp-hp_value">
+      <div class="layoutStyle709 positionStyle713 _Clips-HeroLevelUp-hp_value_txt" cl-labels-key="_Clips-HeroLevelUp-hp_value_txt">
+        <div class="visualStyle702 layoutStyle700 positionStyle0" data-bind-value="{{HeroLevelUp.hp}}">##</div>
+      </div>
+      <img src="img/HUD21.svg" class="layoutStyle707 positionStyle711">
+    </div>
+    <div class="animationStyle8097 layoutStyle773 positionStyle8096 _Clips-HeroLevelUp-hp_icon" cl-labels-key="_Clips-HeroLevelUp-hp_icon">
+      <div class="layoutStyle694 imageStyle695 positionStyle0"></div>
+    </div>
+    <div class="animationStyle8103 visualStyle771 layoutStyle769 positionStyle846 _Clips-HeroLevelUp-art_flicker_panel" cl-labels-key="_Clips-HeroLevelUp-art_flicker_panel">
+      <img src="img/HUD22.svg" class="layoutStyle685 positionStyle688">
+      <img src="img/HUD23.svg" class="layoutStyle683 positionStyle0">
+    </div>
+    <div class="visualStyle897 layoutStyle761 positionStyle840">
+      <div data-bind-inner-html="{{HeroLevelUp.levelCurr}}" class="animationStyle8115 layoutStyle766 positionStyle8114 _Clips-HeroLevelUp-level_curr" cl-labels-key="_Clips-HeroLevelUp-level_curr">
+        <div class="visualStyle678 layoutStyle676 positionStyle0 LevelUpInner flexCenterWithSpan">LEVEL ##</div>
+      </div>
+      <div class="animationStyle8108 visualStyle4771 layoutStyle763 positionStyle8107 _Clips-HeroLevelUp-title" cl-labels-key="_Clips-HeroLevelUp-title">
+        <div data-l10n-id="UI_LEVEL_UP_HERO" class="visualStyle671 layoutStyle669 positionStyle0 flexCenterWithSpan">TEXT</div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle666 positionStyle4736 WeaponLevelUp" cl-labels-key="WeaponLevelUp">
+    <div class="layoutStyle658 positionStyle8121 wrapper_ratchet _Clips-WeaponLevelUp-wrapper_ratchet" cl-labels-key="_Clips-WeaponLevelUp-wrapper_ratchet">
+      <div class="animationStyle8123 layoutStyle620 positionStyle651 _Clips-WeaponLevelUp-weaponLevel_horizontal" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-weaponLevel_horizontal">
+        <div class="layoutStyle426 imageStyle581 positionStyle0"></div>
+      </div>
+      <div class="animationStyle8128 layoutStyle617 positionStyle649 _Clips-WeaponLevelUp-largeBaseHexFade" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-largeBaseHexFade">
+        <div class="layoutStyle418 imageStyle573 positionStyle0"></div>
+      </div>
+      <div class="animationStyle8134 layoutStyle614 positionStyle647 _Clips-WeaponLevelUp-levelUp_prompt" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-levelUp_prompt">
+        <div class="layoutStyle450 imageStyle565 positionStyle0"></div>
+      </div>
+      <div class="animationStyle8139 layoutStyle611 positionStyle645 _Clips-WeaponLevelUp-levelUpText" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-levelUpText">
+        <div data-l10n-id="UI_LEVEL_UP" class="visualStyle411 layoutStyle409 positionStyle0">LEVEL UP</div>
+      </div>
+      <div class="animationStyle8795 visualStyle476 layoutStyle607 positionStyle8143" data-bind-if="!{{HUD.isRivet}}">BURST PISTOL</div>
+      <div class="animationStyle8145 visualStyle4771 layoutStyle623 positionStyle643 _Clips-WeaponLevelUp-weapon_text" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-weapon_text">
+        <div class="visualStyle404 layoutStyle402 positionStyle0 weaponLevelupLabel" data-bind-html="{{WeaponLevelUp.name}}">WEAPON NAME<br/>LINE 2</div>
+      </div>
+      <div class="animationStyle8149 layoutStyle604 positionStyle8148 _Clips-WeaponLevelUp-previousNumber" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-previousNumber">
+        <div class="visualStyle397 layoutStyle395 positionStyle0" data-bind-value="{{WeaponLevelUp.levelLast}}">4</div>
+      </div>
+      <div class="animationStyle8156 layoutStyle601 positionStyle8155 _Clips-WeaponLevelUp-lvlText" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-lvlText">
+        <div data-l10n-id="HUD_WEAPON_LEVELUP_LVL" class="visualStyle390 layoutStyle388 positionStyle0">LVL</div>
+      </div>
+      <div class="animationStyle8163 layoutStyle598 positionStyle8162 _Clips-WeaponLevelUp-newLevel" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-newLevel">
+        <div class="visualStyle383 layoutStyle381 positionStyle0" data-bind-value="{{WeaponLevelUp.level}}">15</div>
+      </div>
+      <div class="animationStyle8170 layoutStyle595 positionStyle8169 _Clips-WeaponLevelUp-hex" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-hex">
+        <div class="layoutStyle418 imageStyle555 positionStyle0"></div>
+        <div class="layoutStyle436 positionStyle8176 _Clips-WeaponLevelUp-weaponTexture" cl-labels-key="_Clips-WeaponLevelUp-weaponTexture">
+        </div>
+      </div>
+      <div class="animationStyle8178 layoutStyle592 positionStyle633 _Clips-WeaponLevelUp-largeHexFade" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-largeHexFade">
+        <div class="layoutStyle543 imageStyle544 positionStyle0"></div>
+      </div>
+      <div class="animationStyle8182 layoutStyle462 positionStyle8181 _Clips-WeaponLevelUp-texture" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-texture">
+        <div class="visualStyle36 layoutStyle376 positionStyle0 autoScale" data-bind-style-background-image-url="{{WeaponLevelUp.texture}}"></div>
+      </div>
+      <div class="animationStyle8188 layoutStyle586 positionStyle8187 _Clips-WeaponLevelUp-prompt_icon_small_hex" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-prompt_icon_small_hex">
+        <div class="layoutStyle367 imageStyle534 positionStyle0"></div>
+        <div class="visualStyle4784 layoutStyle363 positionStyle535 _Clips-WeaponLevelUp-icon" cl-labels-key="_Clips-WeaponLevelUp-icon">
+          <div class="visualStyle36 layoutStyle357 positionStyle0" data-bind-style-background-image-url="{{WeaponLevelUp.icon}}"></div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle655 positionStyle656 wrapper_rivet _Clips-WeaponLevelUp-wrapper_rivet" cl-labels-key="_Clips-WeaponLevelUp-wrapper_rivet">
+      <div class="animationStyle8198 layoutStyle493 positionStyle8197 _Clips-WeaponLevelUp-rivet_circle_fade" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-rivet_circle_fade">
+        <div class="layoutStyle418 imageStyle419 positionStyle0"></div>
+      </div>
+      <div class="animationStyle8204 layoutStyle490 positionStyle522 _Clips-WeaponLevelUp-rivet_levelUp_promptBar" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-rivet_levelUp_promptBar">
+        <div class="layoutStyle450 imageStyle451 positionStyle0"></div>
+      </div>
+      <div class="animationStyle8209 layoutStyle487 positionStyle8208 _Clips-WeaponLevelUp-rivet_hex" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-rivet_hex">
+        <div class="layoutStyle418 imageStyle441 positionStyle0"></div>
+        <div class="layoutStyle436 positionStyle8215 _Clips-WeaponLevelUp-weaponTexture" cl-labels-key="_Clips-WeaponLevelUp-weaponTexture">
+        </div>
+      </div>
+      <div class="animationStyle8217 layoutStyle484 positionStyle518 _Clips-WeaponLevelUp-rivet_weaponLevel_horizontal" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-rivet_weaponLevel_horizontal">
+        <div class="layoutStyle426 imageStyle427 positionStyle0"></div>
+      </div>
+      <div class="animationStyle8222 layoutStyle481 positionStyle516 _Clips-WeaponLevelUp-rivet_circle_fade" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-rivet_circle_fade">
+        <div class="layoutStyle418 imageStyle419 positionStyle0"></div>
+      </div>
+      <div class="animationStyle8226 layoutStyle478 positionStyle514 _Clips-WeaponLevelUp-levelUpText" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-levelUpText">
+        <div data-l10n-id="UI_LEVEL_UP" class="visualStyle411 layoutStyle409 positionStyle0">LEVEL UP</div>
+      </div>
+      <div class="animationStyle8797 visualStyle476 layoutStyle474 positionStyle8230" data-bind-if="{{HUD.isRivet}}">BURST PISTOL</div>
+      <div class="animationStyle8232 visualStyle4771 layoutStyle496 positionStyle512 _Clips-WeaponLevelUp-weapon_text" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-weapon_text">
+        <div class="visualStyle404 layoutStyle402 positionStyle0 weaponLevelupLabel" data-bind-html="{{WeaponLevelUp.name}}">WEAPON NAME<br/>LINE 2</div>
+      </div>
+      <div class="animationStyle8238 layoutStyle471 positionStyle8237 _Clips-WeaponLevelUp-previousNumber" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-previousNumber">
+        <div class="visualStyle397 layoutStyle395 positionStyle0" data-bind-value="{{WeaponLevelUp.levelLast}}">4</div>
+      </div>
+      <div class="animationStyle8245 layoutStyle468 positionStyle508 _Clips-WeaponLevelUp-lvlText" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-lvlText">
+        <div data-l10n-id="HUD_WEAPON_LEVELUP_LVL" class="visualStyle390 layoutStyle388 positionStyle0">LVL</div>
+      </div>
+      <div class="animationStyle8252 layoutStyle465 positionStyle506 _Clips-WeaponLevelUp-newLevel" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-newLevel">
+        <div class="visualStyle383 layoutStyle381 positionStyle0" data-bind-value="{{WeaponLevelUp.level}}">15</div>
+      </div>
+      <div class="animationStyle8259 layoutStyle462 positionStyle8258 _Clips-WeaponLevelUp-texture" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-texture">
+        <div class="visualStyle36 layoutStyle376 positionStyle0 autoScale" data-bind-style-background-image-url="{{WeaponLevelUp.texture}}"></div>
+      </div>
+      <div class="animationStyle8264 layoutStyle459 positionStyle8263 _Clips-WeaponLevelUp-rivet_prompt_icon_small" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-rivet_prompt_icon_small">
+        <div class="layoutStyle367 imageStyle368 positionStyle0"></div>
+        <div class="visualStyle4784 layoutStyle363 positionStyle369 _Clips-WeaponLevelUp-icon" cl-labels-key="_Clips-WeaponLevelUp-icon">
+          <div class="visualStyle36 layoutStyle357 positionStyle0" data-bind-style-background-image-url="{{WeaponLevelUp.icon}}"></div>
+        </div>
+      </div>
+      <div data-bind-inner-html="{{WeaponLevelUp.levelCurr}}" class="animationStyle8273 visualStyle4771 layoutStyle456 positionStyle8272 _Clips-WeaponLevelUp-level_curr" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-WeaponLevelUp-level_curr">
+        <div class="visualStyle351 layoutStyle349 positionStyle0 flexLeftWithSpan">LEVEL ##</div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle346 positionStyle4734 Communicator" cl-labels-key="Communicator">
+    <div class="layoutStyle338 positionStyle8277 wrapper_ratchet _Clips-Communicator-wrapper_ratchet" cl-labels-key="_Clips-Communicator-wrapper_ratchet">
+      <div class="animationStyle8279 layoutStyle316 positionStyle8278 _Clips-Communicator-ratchet_hex_base" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Communicator-ratchet_hex_base">
+        <div class="layoutStyle251 imageStyle299 positionStyle0"></div>
+      </div>
+      <div class="animationStyle8799 visualStyle333 layoutStyle311 positionStyle324" data-bind-if="!{{HUD.isRivet}}">
+        <div class="animationStyle8284 layoutStyle313 positionStyle8283 _Clips-Communicator-ratchet_com_namePlate" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Communicator-ratchet_com_namePlate">
+          <div class="layoutStyle243 imageStyle291 positionStyle0"></div>
+        </div>
+      </div>
+      <div class="animationStyle8290 layoutStyle260 positionStyle322 _Clips-Communicator-communicator_name_text" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Communicator-communicator_name_text">
+        <div class="animationStyle8293 visualStyle5182 layoutStyle234 positionStyle0" data-bind-value="{{HUDCommunicator.name}}">glavna inženjerka</div>
+      </div>
+      <div class="animationStyle8296 layoutStyle304 positionStyle8295 _Clips-Communicator-communicator_portrait" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-Communicator-communicator_portrait">
+        <div class="visualStyle36 layoutStyle229 positionStyle0 autoScale" data-bind-style-background-image-url="{{HUDCommunicator.texture}}"></div>
+      </div>
+    </div>
+    <div class="layoutStyle335 positionStyle8299 wrapper_rivet _Clips-Communicator-wrapper_rivet" cl-labels-key="_Clips-Communicator-wrapper_rivet">
+      <div class="animationStyle8301 layoutStyle269 positionStyle8300 _Clips-Communicator-rivet_comm_base" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Communicator-rivet_comm_base">
+        <div class="layoutStyle251 imageStyle252 positionStyle0"></div>
+      </div>
+      <div class="visualStyle286 layoutStyle264 positionStyle277" data-bind-if="{{HUD.isRivet}}">
+        <div class="animationStyle8306 layoutStyle266 positionStyle8305 _Clips-Communicator-rivet_namePlate" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Communicator-rivet_namePlate">
+          <div class="layoutStyle243 imageStyle244 positionStyle0"></div>
+        </div>
+      </div>
+      <div class="animationStyle8312 layoutStyle260 positionStyle275 _Clips-Communicator-communicator_name_text" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Communicator-communicator_name_text">
+        <div class="animationStyle8315 visualStyle5182 layoutStyle234 positionStyle0" data-bind-value="{{HUDCommunicator.name}}">glavna inženjerka</div>
+      </div>
+      <div class="animationStyle8318 layoutStyle257 positionStyle8317 _Clips-Communicator-communicator_portrait" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-Communicator-communicator_portrait">
+        <div class="visualStyle36 layoutStyle229 positionStyle0 autoScale" data-bind-style-background-image-url="{{HUDCommunicator.texture}}"></div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle225 positionStyle4732 QuickSelect" cl-labels-key="QuickSelect">
+    <div class="layoutStyle217 positionStyle8322 wrapper_ratchet _Clips-QuickSelect-wrapper_ratchet" cl-labels-key="_Clips-QuickSelect-wrapper_ratchet">
+      <div class="animationStyle8324 layoutStyle202 positionStyle203 _Clips-QuickSelect-bg" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-QuickSelect-bg">
+        <div class="layoutStyle190 imageStyle191 positionStyle0 autoScale"></div>
+      </div>
+      <div class="animationStyle8329 layoutStyle199 positionStyle208 _Clips-QuickSelect-slotParentRatchet" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-QuickSelect-slotParentRatchet">
+        <div class="layoutStyle168 positionStyle0 _Clips-QuickSelect-slots" data-bind-for="it:{{HUDQuickSelect.slots}}" cl-labels-key="_Clips-QuickSelect-slots">
+          <div class="layoutStyle168 positionStyle0 _Clips-QuickSelect-slot" data-bind-style-left="{{it.x}}" data-bind-style-top="{{it.y}}" cl-labels-key="_Clips-QuickSelect-slot">
+            <div class="layoutStyle168 positionStyle0 _Clips-QuickSelect-slot_selected" data-bind-style-opacity="{{it.selected}} ? 1 : 0" data-bind-style-transform-rotate="{{it.rot}}" cl-labels-key="_Clips-QuickSelect-slot_selected">
+              <div class="layoutStyle153 positionStyle0 _Clips-QuickSelect-dpadFlicker" cl-labels-key="_Clips-QuickSelect-dpadFlicker">
+                <div class="layoutStyle153 positionStyle0 _Clips-QuickSelect-dpadWedge" cl-labels-key="_Clips-QuickSelect-dpadWedge">
+                  <div class="layoutStyle147 imageStyle148 positionStyle0"></div>
+                </div>
+              </div>
+            </div>
+            <div class="layoutStyle50 positionStyle170 _Clips-QuickSelect-slot_bg" cl-labels-key="_Clips-QuickSelect-slot_bg">
+              <div class="visualStyle36 layoutStyle37 positionStyle0 autoScale" data-bind-style-background-image-url="{{it.icon}}" data-bind-class="{{it.selected}} ? 'qsIconFocus' : 'qsIconReg'"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="animationStyle8340 layoutStyle196 positionStyle8339 _Clips-QuickSelect-dpad_icon_center" data-bind-style-opacity="{{g_InputDevice.is_gamepad}} ? 1.0 : 0.0" data-bind-if="!{{HUD.isRivet}}" cl-labels-key="_Clips-QuickSelect-dpad_icon_center">
+        <div class="layoutStyle103 positionStyle107 _Clips-QuickSelect-dpad_icon_steam" data-bind-style-opacity="{{g_InputDevice.type}} == PAD_SteamDeck ? 1.0 : 0.0" cl-labels-key="_Clips-QuickSelect-dpad_icon_steam">
+          <div class="layoutStyle75 imageStyle92 positionStyle0"></div>
+        </div>
+        <div class="layoutStyle100 positionStyle107 _Clips-QuickSelect-dpad_icon_xbox" data-bind-style-opacity="{{g_InputDevice.type}} == PAD_Xbox360 || {{g_InputDevice.type}} == PAD_XboxOne || {{g_InputDevice.type}} == PAD_Generic ? 1.0 : 0.0" cl-labels-key="_Clips-QuickSelect-dpad_icon_xbox">
+          <div class="layoutStyle75 imageStyle84 positionStyle0"></div>
+        </div>
+        <div class="layoutStyle97 positionStyle0 _Clips-QuickSelect-dpad_icon" data-bind-style-opacity="{{g_InputDevice.type}} == PAD_DualShock || {{g_InputDevice.type}} == PAD_DualSense ? 1.0 : 0.0" cl-labels-key="_Clips-QuickSelect-dpad_icon">
+          <div class="layoutStyle75 imageStyle76 positionStyle0"></div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutStyle214 positionStyle8349 wrapper_rivet _Clips-QuickSelect-wrapper_rivet" cl-labels-key="_Clips-QuickSelect-wrapper_rivet">
+      <div class="animationStyle8351 layoutStyle133 positionStyle134 _Clips-QuickSelect-rivet_dpadBase" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-QuickSelect-rivet_dpadBase">
+        <div class="visualStyle125 layoutStyle115 positionStyle0">
+          <div class="layoutStyle118 imageStyle119 positionStyle122"></div>
+        </div>
+      </div>
+      <div class="animationStyle8356 layoutStyle130 positionStyle8355 _Clips-QuickSelect-dpad_icon_center" data-bind-style-opacity="{{g_InputDevice.is_gamepad}} ? 1.0 : 0.0" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-QuickSelect-dpad_icon_center">
+        <div class="layoutStyle103 positionStyle107 _Clips-QuickSelect-dpad_icon_steam" data-bind-style-opacity="{{g_InputDevice.type}} == PAD_SteamDeck ? 1.0 : 0.0" cl-labels-key="_Clips-QuickSelect-dpad_icon_steam">
+          <div class="layoutStyle75 imageStyle92 positionStyle0"></div>
+        </div>
+        <div class="layoutStyle100 positionStyle107 _Clips-QuickSelect-dpad_icon_xbox" data-bind-style-opacity="{{g_InputDevice.type}} == PAD_Xbox360 || {{g_InputDevice.type}} == PAD_XboxOne || {{g_InputDevice.type}} == PAD_Generic ? 1.0 : 0.0" cl-labels-key="_Clips-QuickSelect-dpad_icon_xbox">
+          <div class="layoutStyle75 imageStyle84 positionStyle0"></div>
+        </div>
+        <div class="layoutStyle97 positionStyle0 _Clips-QuickSelect-dpad_icon" data-bind-style-opacity="{{g_InputDevice.type}} == PAD_DualShock || {{g_InputDevice.type}} == PAD_DualSense ? 1.0 : 0.0" cl-labels-key="_Clips-QuickSelect-dpad_icon">
+          <div class="layoutStyle75 imageStyle76 positionStyle0"></div>
+        </div>
+      </div>
+      <div class="animationStyle8366 layoutStyle127 positionStyle8365 _Clips-QuickSelect-slotsParent" data-bind-if="{{HUD.isRivet}}" cl-labels-key="_Clips-QuickSelect-slotsParent">
+        <div class="layoutStyle67 positionStyle0 _Clips-QuickSelect-rivetTab" data-bind-for="it:{{HUDQuickSelect.slots}}" cl-labels-key="_Clips-QuickSelect-rivetTab">
+          <div class="layoutStyle61 positionStyle0 _Clips-QuickSelect-rivetQuickselectSlotOuter" data-bind-style-left="{{it.x}}" data-bind-style-top="{{it.y}}" cl-labels-key="_Clips-QuickSelect-rivetQuickselectSlotOuter">
+            <div class="visualStyle4837 layoutStyle53 positionStyle0 _Clips-QuickSelect-slot_selected_rivet" data-bind-style-opacity="{{it.selected}} ? 1 : 0" data-bind-style-transform-rotate="{{it.rot}}" cl-labels-key="_Clips-QuickSelect-slot_selected_rivet">
+              <div class="layoutStyle44 imageStyle45 positionStyle0"></div>
+            </div>
+            <div class="visualStyle4838 layoutStyle50 positionStyle55 _Clips-QuickSelect-slot_bg" cl-labels-key="_Clips-QuickSelect-slot_bg">
+              <div class="visualStyle36 layoutStyle37 positionStyle0 autoScale" data-bind-style-background-image-url="{{it.icon}}" data-bind-class="{{it.selected}} ? 'qsIconFocus' : 'qsIconReg'"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layoutStyle33 positionStyle8375 Accessibility" cl-labels-key="Accessibility">
+    <div class="animationStyle8377 layoutStyle25 positionStyle29 _Clips-Accessibility-icon_container" cl-labels-key="_Clips-Accessibility-icon_container">
+      <div class="layoutStyle19 positionStyle11 _Clips-Accessibility-icon_template" data-bind-for="it:{{HUDAccessibility.accessibilities}}" cl-labels-key="_Clips-Accessibility-icon_template">
+        <div class="visualStyle17 layoutStyle8 positionStyle0">
+          <div class="layoutStyle10 positionStyle11 Duplicate-Items-Folder-accessibility_icon-copy-5" cl-labels-key="Duplicate-Items-Folder-accessibility_icon-copy-5">
+            <div class="visualStyle1 layoutStyle2 positionStyle0" data-bind-style-background-image-url="{{it.accessibilityIcon}}"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="../../authored/_common/js/cohtml.js"></script>
+<script src="js/CLAnimations_API.js"></script>
+<script src="js/CLAnimations_HUD_HUD.js"></script>
+<script src="js/CLEvents_Symbols_HUD_HUD.js"></script>
+<script src="../../authored/_common/js/Visibility.js"></script>
+<script src="../../authored/_common/js/CustomAttributes.js"></script>
+<script src="../../authored/HUD/js/HUD.js"></script>
+<script src="../../authored/_common/js/SharedEvents.js"></script>
+</body>
+</html>
