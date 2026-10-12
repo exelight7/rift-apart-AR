@@ -31,8 +31,20 @@ class InterfaceTests(unittest.TestCase):
         self.assertIn('انتظر',self.window.status.text())
     def test_install_and_restore_through_interface(self):
         with tempfile.TemporaryDirectory() as d:
-            game=Path(d);original=fixture(game);self.window.path.setText(d);self.window.start('install');self.assertFalse(self.window.install.isEnabled());self.wait_worker();self.assertTrue(self.window.install.isEnabled());self.assertEqual(json.loads((game/'.rift-apart-ar/state.json').read_text())['version'],'1.9.9');self.assertNotEqual((game/'toc').read_bytes(),original)
+            game=Path(d);original=fixture(game);self.window.path.setText(d);self.window.start('install');self.assertFalse(self.window.install.isEnabled());self.wait_worker();self.assertTrue(self.window.install.isEnabled());self.assertEqual(json.loads((game/'.rift-apart-ar/state.json').read_text())['version'],'2.0.0');self.assertNotEqual((game/'toc').read_bytes(),original)
             self.assertEqual(self.window.restore.text(),'حذف التعريب');self.window.start('restore');self.wait_worker();self.assertIn('حذف التعريب',self.window.status.text());self.assertEqual((game/'toc').read_bytes(),original);self.assertFalse((game/'d/mods/arabic_loc').exists());self.assertTrue(self.window.restore.isEnabled())
+    def test_quoted_folder_path(self):
+        with tempfile.TemporaryDirectory() as d:
+            game=Path(d);fixture(game);self.window.path.setText('  "'+d+'"  ')
+            self.window.start('install');self.wait_worker()
+            self.assertEqual(self.window.path.text(),d)
+            self.assertTrue((game/'.rift-apart-ar/state.json').exists())
+    def test_permission_error_is_actionable(self):
+        with patch.object(app.engine,'install',side_effect=PermissionError('denied')):
+            self.window.path.setText('C:/game');self.window.start('install');self.wait_worker()
+        self.assertIn('كمسؤول',self.window.status.text())
+        self.assertTrue(self.window.install.isEnabled())
+        self.assertTrue(self.window.restore.isEnabled())
     def test_invalid_folder_recovers_controls(self):
         with tempfile.TemporaryDirectory() as d:
             self.window.path.setText(d);self.window.start('install');self.wait_worker();self.assertTrue(self.window.install.isEnabled());self.assertTrue(self.window.path.isEnabled());self.assertIn('toc',self.window.status.text())
