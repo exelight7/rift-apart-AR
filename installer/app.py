@@ -72,7 +72,7 @@ class Window(QWidget):
         ''')
         outer=QHBoxLayout(self);outer.setContentsMargins(0,0,0,0);outer.setSpacing(0);outer.setDirection(QHBoxLayout.LeftToRight);outer.addWidget(Portal())
         body=QWidget();outer.addWidget(body,1);v=QVBoxLayout(body);v.setContentsMargins(32,24,32,22);v.setSpacing(8)
-        top=QHBoxLayout();ey=QLabel('مجتمع التعريب  /  RIFT APART AR');ey.setObjectName('eyebrow');top.addWidget(ey);top.addStretch();badge=QLabel('v0.3.0 • تجريبية');badge.setObjectName('badge');top.addWidget(badge);v.addLayout(top)
+        top=QHBoxLayout();ey=QLabel('مجتمع التعريب  /  RIFT APART AR');ey.setObjectName('eyebrow');top.addWidget(ey);top.addStretch();badge=QLabel('v0.3.1 • تجريبية');badge.setObjectName('badge');top.addWidget(badge);v.addLayout(top)
         title=QLabel('افتح بوابة المغامرة.');title.setObjectName('title');v.addWidget(title)
         desc=QLabel('تعريب راتشت وكلانك، بخط واضح ونصوص محسّنة.\nثبّت الحزمة بخطوة واحدة واحتفظ بنسخة للعودة.');desc.setObjectName('muted');desc.setWordWrap(True);v.addWidget(desc)
         card=QFrame();card.setObjectName('card');card.setMinimumHeight(170);cv=QVBoxLayout(card);cv.setContentsMargins(20,18,20,20);cv.setSpacing(8)
