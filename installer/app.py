@@ -1,118 +1,134 @@
 # SPDX-License-Identifier: GPL-3.0-only
-"""Rift Apart AR — desktop installer for Linux and Windows."""
+"""Rift Apart AR desktop installer."""
+import sys,json,math
 from pathlib import Path
-import sys, math, random
-from PySide6.QtCore import Qt, QThread, Signal, QTimer, QRectF, QUrl
-from PySide6.QtGui import QColor, QPainter, QPen, QLinearGradient, QRadialGradient, QFont, QDesktopServices
-from PySide6.QtWidgets import QApplication,QWidget,QLabel,QPushButton,QVBoxLayout,QHBoxLayout,QLineEdit,QFileDialog,QFrame,QProgressBar,QMessageBox
+from PySide6.QtCore import Qt,QThread,Signal,QTimer,QUrl,QRectF
+from PySide6.QtGui import QPainter,QPainterPath,QColor,QImage,QFont,QLinearGradient,QIcon
+from PySide6.QtWidgets import QApplication,QWidget,QFrame,QLabel,QPushButton,QVBoxLayout,QHBoxLayout,QLineEdit,QFileDialog,QProgressBar,QSlider,QMessageBox,QScrollArea
+from PySide6.QtMultimedia import QMediaPlayer,QAudioOutput,QVideoSink
 import engine
+BASE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 
-def payload_path():return Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))/'payload'
+def label(text,name='muted',wrap=False):
+    w=QLabel(text);w.setObjectName(name);w.setWordWrap(wrap);return w
 
-class Portal(QWidget):
+def button(text,name='secondary'):
+    w=QPushButton(text);w.setObjectName(name);w.setCursor(Qt.PointingHandCursor);return w
+
+class VideoCanvas(QWidget):
     def __init__(self):
-        super().__init__();self.setMinimumWidth(330);self.setMaximumWidth(370);self.setMinimumHeight(620)
-        self.setLayoutDirection(Qt.LeftToRight)
+        super().__init__();self.image=QImage(str(BASE/'assets/poster.jpg'));self.frames=0;self.setMinimumHeight(215)
+    def frame(self,frame):
+        if frame.isValid():
+            image=frame.toImage()
+            if not image.isNull():self.image=image;self.frames+=1;self.update()
     def paintEvent(self,event):
-        p=QPainter(self);p.setRenderHint(QPainter.Antialiasing);w=self.width();h=self.height()
-        g=QLinearGradient(0,0,w,h);g.setColorAt(0,QColor('#16183c'));g.setColorAt(.6,QColor('#12152c'));g.setColorAt(1,QColor('#090e1d'));p.fillRect(self.rect(),g)
-        rng=random.Random(42)
-        for i in range(100):
-            p.setPen(QColor(149,166,218,rng.randrange(35,150)));p.drawPoint(rng.randrange(w),rng.randrange(h))
-        cx=w*.50;cy=h*.48
-        glow=QRadialGradient(cx,cy,180);glow.setColorAt(0,QColor(89,57,173,95));glow.setColorAt(.7,QColor(85,59,156,55));glow.setColorAt(1,QColor(85,59,156,0));p.fillRect(self.rect(),glow)
-        p.save();p.translate(cx,cy);p.rotate(-24)
-        for i in range(16,0,-1):
-            p.setPen(QPen(QColor(114,83,255,max(5,60-i*3)),i*2));p.drawEllipse(QRectF(-91,-126,182,252))
-        ring=QLinearGradient(-100,-126,100,126);ring.setColorAt(0,QColor('#5ce7e8'));ring.setColorAt(.44,QColor('#bba7ff'));ring.setColorAt(1,QColor('#e18be5'))
-        p.setPen(QPen(ring,3));p.setBrush(QColor('#0f1429'));p.drawEllipse(QRectF(-91,-126,182,252))
-        for i in range(3):
-            p.setPen(QPen(QColor(139,111,250,60-i*15),1));p.drawEllipse(QRectF(-80+i*9,-114+i*12,160-i*18,228-i*24))
-        p.restore()
-        p.setPen(QColor('#f1f3ff'));p.setFont(QFont('DejaVu Sans',20,QFont.Bold));p.drawText(QRectF(32,38,w-64,40),Qt.AlignLeft,'RIFT APART')
-        p.setPen(QColor('#73e4e5'));p.setFont(QFont('DejaVu Sans',10,QFont.Medium));p.drawText(QRectF(33,78,w-64,30),Qt.AlignLeft,'ARABIC • COMMUNITY EDITION')
-        p.setPen(QColor('#ffffff'));p.setFont(QFont('Noto Sans Arabic',46,QFont.Bold));p.drawText(QRectF(35,cy-47,w-70,95),Qt.AlignCenter,'عربي')
-        p.setPen(QColor('#a1accb'));p.setFont(QFont('DejaVu Sans',9));p.drawText(QRectF(32,h-110,w-64,30),Qt.AlignLeft,'BUILT BY THE COMMUNITY')
-        p.setPen(QColor('#d7def5'));p.setFont(QFont('Noto Sans Arabic',12));p.drawText(QRectF(32,h-76,w-64,30),Qt.AlignRight,'مغامرة واحدة. أبعاد بلا حدود.')
-        p.setPen(QColor('#697899'));p.setFont(QFont('DejaVu Sans',9));p.drawText(QRectF(32,h-39,w-64,20),Qt.AlignLeft,'exelight7 / rift-apart-AR')
+        p=QPainter(self);p.setRenderHint(QPainter.Antialiasing);p.setRenderHint(QPainter.SmoothPixmapTransform)
+        path=QPainterPath();path.addRoundedRect(QRectF(self.rect()),19,19);p.setClipPath(path);p.fillRect(self.rect(),QColor('#151817'))
+        if not self.image.isNull():
+            iw,ih=self.image.width(),self.image.height();scale=max(self.width()/iw,self.height()/ih);w,h=self.width()/scale,self.height()/scale
+            p.drawImage(QRectF(self.rect()),self.image,QRectF((iw-w)/2,(ih-h)/2,w,h))
 
 class Worker(QThread):
     progress=Signal(int,str);done=Signal(bool,str)
     def __init__(self,path,mode):super().__init__();self.path=path;self.mode=mode
     def run(self):
         try:
-            if self.mode=='install':engine.install(self.path,payload_path(),self.progress.emit)
+            if self.mode=='install':engine.install(self.path,BASE/'payload',self.progress.emit)
             else:engine.restore(self.path,self.progress.emit)
-            self.done.emit(True,'اكتمل التثبيت. اختر English في لغة اللعبة على Steam، ثم شغّلها.' if self.mode=='install' else 'تمت استعادة ملفات اللعبة الأصلية.')
+            self.done.emit(True,'اكتمل تثبيت التعريب. اجعل لغة اللعبة English في Steam ثم شغّلها.' if self.mode=='install' else 'تمت استعادة ملفات اللعبة الأصلية.')
         except Exception as e:self.done.emit(False,str(e))
+
+class Header(QWidget):
+    def mousePressEvent(self,event):
+        if event.button()==Qt.LeftButton and self.window().windowHandle():self.window().windowHandle().startSystemMove()
 
 class Window(QWidget):
     def __init__(self):
-        super().__init__();self.worker=None;self.setWindowTitle('Rift Apart AR • تثبيت التعريب');self.resize(1100,850);self.setMinimumSize(1020,820)
-        self.setLayoutDirection(Qt.RightToLeft)
+        super().__init__();self.worker=None;self.setWindowTitle('Rift Apart AR — تثبيت التعريب');self.setWindowIcon(QIcon(str(BASE/'assets/icon.png')));self.setWindowFlags(Qt.Window|Qt.FramelessWindowHint);self.resize(1180,890);self.setMinimumSize(980,680);self.setLayoutDirection(Qt.RightToLeft)
         self.setStyleSheet('''
-        QWidget{background:#0d1222;color:#eef2ff;font-family:"Noto Sans Arabic","Segoe UI",sans-serif;font-size:14px;}
-        QLabel{background:transparent;}
-        QLabel#muted{color:#8d9bb7;font-size:13px;}
-        QLabel#eyebrow{color:#79dfde;font-size:12px;font-weight:600;}
-        QLabel#title{font-size:29px;font-weight:700;}
-        QLabel#badge{background:#23203f;color:#c4b5fd;border:1px solid #3b325c;border-radius:12px;padding:5px 13px;font-size:11px;}
-        QFrame#card{background:#141c2f;border:1px solid #263047;border-radius:16px;}
-        QLineEdit{background:#0e1525;border:1px solid #303c56;border-radius:10px;padding:13px;color:#dfe8ff;font-size:12px;}
-        QLineEdit:focus{border:1px solid #7d70ef;}
-        QPushButton{background:#222c43;border:1px solid #34405a;border-radius:10px;padding:11px 18px;color:#dfe7fa;font-weight:600;}
-        QPushButton:hover{background:#2b3652;border-color:#67769c;}
-        QPushButton:disabled{background:#1b2233;color:#5d6881;border-color:#252e43;}
-        QPushButton#primary{background:#9c87fa;color:#12152b;border:0;font-size:16px;padding:15px 24px;}
-        QPushButton#primary:hover{background:#b4a2ff;}
-        QPushButton#primary:disabled{background:#3a345c;color:#827b9c;}
-        QPushButton#link{background:transparent;border:0;color:#a7b6d3;font-size:12px;padding:6px;}
-        QProgressBar{background:#252e43;border:0;border-radius:3px;height:6px;color:transparent;}
-        QProgressBar::chunk{background:#75dedb;border-radius:3px;}
+        QScrollArea{border:0;} QScrollBar:vertical{background:#171d16;width:6px;margin:0;} QScrollBar::handle:vertical{background:#526044;min-height:25px;border-radius:3px;} QScrollBar::add-line:vertical,QScrollBar::sub-line:vertical{height:0;}
+        QWidget{background:#101311;color:#f3f2e9;font-family:"Noto Sans Arabic","DejaVu Sans",sans-serif;font-size:14px;}
+        QLabel{background:transparent;} QLabel#muted{color:#9da69b;font-size:12px;} QLabel#eyebrow{color:#fbab61;font-size:11px;font-weight:700;}
+        QLabel#title{font-size:35px;font-weight:700;letter-spacing:-1px;} QLabel#mediaTitle{font-family:"DejaVu Sans";font-size:24px;font-weight:800;letter-spacing:2px;}
+        QLabel#badge{background:#272d24;color:#d4deb9;border:1px solid #3c4731;border-radius:11px;padding:4px 11px;font-size:11px;}
+        QFrame#media{background:#191e19;border:1px solid #30382e;border-radius:24px;}
+        QFrame#card{background:#191f19;border:1px solid #333c30;border-radius:18px;}
+        QFrame#stat{background:#1d241b;border:1px solid #323d2b;border-radius:14px;}
+        QLabel#number{font-family:"DejaVu Sans";font-size:24px;font-weight:700;color:#e6ebd4;}
+        QLineEdit{background:#101610;border:1px solid #3c4735;border-radius:10px;padding:13px;color:#e4e8dc;font-family:"DejaVu Sans";font-size:11px;}
+        QLineEdit:focus{border-color:#f7a358;}
+        QPushButton{background:#252d23;color:#e6eadb;border:1px solid #3b4832;border-radius:10px;padding:10px 15px;font-size:12px;font-weight:600;}
+        QPushButton:hover{background:#333e2d;border-color:#70825b;}
+        QPushButton:disabled{background:#20261e;color:#707b67;border-color:#30392b;}
+        QPushButton#primary{background:#ffab63;color:#23170c;border:0;border-radius:13px;padding:17px;font-size:17px;font-weight:700;}
+        QPushButton#primary:hover{background:#ffc18a;} QPushButton#primary:disabled{background:#63503b;color:#a89986;}
+        QPushButton#quiet{background:transparent;border:0;color:#a3ad99;padding:7px;font-size:11px;}
+        QPushButton#window{background:transparent;border:0;padding:0;font-family:"DejaVu Sans";font-size:22px;color:#aab09f;}
+        QPushButton#window:hover{background:#333d2d;color:white;}
+        QProgressBar{background:#30392c;border:0;border-radius:3px;height:5px;color:transparent;} QProgressBar::chunk{background:#ffab63;border-radius:3px;}
+        QSlider::groove:horizontal{background:#343d30;height:3px;border-radius:1px;} QSlider::sub-page:horizontal{background:#f9ae72;border-radius:1px;} QSlider::handle:horizontal{background:#f5d0aa;width:9px;margin:-3px 0;border-radius:4px;}
         ''')
-        outer=QHBoxLayout(self);outer.setContentsMargins(0,0,0,0);outer.setSpacing(0);outer.setDirection(QHBoxLayout.LeftToRight);outer.addWidget(Portal())
-        body=QWidget();outer.addWidget(body,1);v=QVBoxLayout(body);v.setContentsMargins(32,24,32,22);v.setSpacing(8)
-        top=QHBoxLayout();ey=QLabel('مجتمع التعريب  /  RIFT APART AR');ey.setObjectName('eyebrow');top.addWidget(ey);top.addStretch();badge=QLabel('v0.3.1 • تجريبية');badge.setObjectName('badge');top.addWidget(badge);v.addLayout(top)
-        title=QLabel('افتح بوابة المغامرة.');title.setObjectName('title');v.addWidget(title)
-        desc=QLabel('تعريب راتشت وكلانك، بخط واضح ونصوص محسّنة.\nثبّت الحزمة بخطوة واحدة واحتفظ بنسخة للعودة.');desc.setObjectName('muted');desc.setWordWrap(True);v.addWidget(desc)
-        card=QFrame();card.setObjectName('card');card.setMinimumHeight(170);cv=QVBoxLayout(card);cv.setContentsMargins(20,18,20,20);cv.setSpacing(8)
-        row=QHBoxLayout();row.addWidget(QLabel('01   موقع اللعبة'));row.addStretch();self.detect=QLabel('اكتشاف تلقائي');self.detect.setObjectName('eyebrow');row.addWidget(self.detect);cv.addLayout(row)
-        self.path=QLineEdit();self.path.setLayoutDirection(Qt.LeftToRight);self.path.setPlaceholderText('Steam / steamapps / common / Ratchet & Clank - Rift Apart');cv.addWidget(self.path)
-        pr=QHBoxLayout();self.browse=QPushButton('اختيار مجلد');self.browse.clicked.connect(self.choose);pr.addWidget(self.browse);pr.addStretch();self.location=QLabel('اختر المجلد الذي يحتوي على toc');self.location.setObjectName('muted');pr.addWidget(self.location);cv.addLayout(pr);v.addWidget(card)
-        card2=QFrame();card2.setObjectName('card');card2.setMinimumHeight(152);cv2=QVBoxLayout(card2);cv2.setContentsMargins(20,15,20,15);cv2.setSpacing(9);cv2.addWidget(QLabel('02   جاهز لعبور البوابة'))
-        for text in ['✓  حوارات وواجهة مع تصحيح اتجاه النص وتنسيق السطور','✓  DLSS · FSR · XeSS · Ray Tracing تبقى بالإنجليزية','✓  تثبيت دون إنترنت، مع فحص سلامة ونسخة احتياطية']:
-            l=QLabel(text);l.setObjectName('muted');l.setWordWrap(True);cv2.addWidget(l)
-        v.addWidget(card2)
-        notice=QLabel('مراجعة لغوية لجميع النصوص؛ اختبار المشاهد بصريًا مستمر.\nأغلق اللعبة واللانشر قبل التثبيت أو الاستعادة.');notice.setObjectName('muted');notice.setWordWrap(True);v.addWidget(notice)
-        v.addStretch(1);self.status=QLabel('جاهز. ملفات الحفظ لا تتغير.');self.status.setObjectName('muted');self.status.setWordWrap(True);v.addWidget(self.status)
-        self.progress=QProgressBar();self.progress.setFixedHeight(6);self.progress.setRange(0,100);self.progress.setValue(0);self.progress.setTextVisible(False);v.addWidget(self.progress)
-        actions=QHBoxLayout();self.install_btn=QPushButton('تثبيت التعريب  ←');self.install_btn.setObjectName('primary');self.install_btn.clicked.connect(lambda:self.start('install'));actions.addWidget(self.install_btn,2);self.restore_btn=QPushButton('استعادة الأصل');self.restore_btn.clicked.connect(lambda:self.start('restore'));actions.addWidget(self.restore_btn,1);v.addLayout(actions)
-        foot=QHBoxLayout();source=QPushButton('المصدر والتحديثات ↗');source.setObjectName('link');source.clicked.connect(lambda:QDesktopServices.openUrl(QUrl('https://github.com/exelight7/rift-apart-AR')));foot.addWidget(source);foot.addStretch();fine=QLabel('Linux + Windows  •  تطبيق مجتمعي غير رسمي');fine.setObjectName('muted');foot.addWidget(fine);v.addLayout(foot)
+        root=QVBoxLayout(self);root.setContentsMargins(24,13,24,18);root.setSpacing(17)
+        header=Header();h=QHBoxLayout(header);h.setContentsMargins(0,0,0,0);h.setDirection(QHBoxLayout.LeftToRight)
+        brand=label('RIFT APART  /  ARABIC EDITION','eyebrow');brand.setLayoutDirection(Qt.LeftToRight);h.addWidget(brand);h.addStretch();h.addWidget(label('v1.0.0','badge'))
+        mini=button('−','window');mini.setFixedSize(32,30);mini.clicked.connect(self.showMinimized);h.addWidget(mini);close=button('×','window');close.setFixedSize(32,30);close.clicked.connect(self.close);h.addWidget(close);root.addWidget(header)
+        row=QHBoxLayout();row.setDirection(QHBoxLayout.LeftToRight);row.setSpacing(27);root.addLayout(row,1)
+        media=QFrame();media.setObjectName('media');media.setFixedWidth(490);self.mediaPanel=media;mv=QVBoxLayout(media);mv.setContentsMargins(16,17,16,16);mv.setSpacing(12)
+        mediaHead=QHBoxLayout();mediaHead.setDirection(QHBoxLayout.LeftToRight);mediaHead.addWidget(label('A NEW\nDIMENSION.','mediaTitle'));mediaHead.addStretch();stamp=label('01 /  AR','eyebrow');stamp.setLayoutDirection(Qt.LeftToRight);mediaHead.addWidget(stamp);mv.addLayout(mediaHead)
+        self.canvas=VideoCanvas();mv.addWidget(self.canvas,1)
+        self.timeline=QSlider(Qt.Horizontal);self.timeline.setLayoutDirection(Qt.LeftToRight);self.timeline.sliderMoved.connect(lambda n:self.player.setPosition(n));mv.addWidget(self.timeline)
+        controls=QHBoxLayout();controls.setDirection(QHBoxLayout.LeftToRight);self.play=button('إيقاف مؤقت','quiet');self.play.clicked.connect(self.togglePlay);controls.addWidget(self.play);self.sound=button('تشغيل الصوت','quiet');self.sound.clicked.connect(self.toggleSound);controls.addWidget(self.sound);controls.addStretch();self.time=label('00:00 / 00:16');self.time.setLayoutDirection(Qt.LeftToRight);controls.addWidget(self.time);mv.addLayout(controls)
+        mv.addWidget(label('مغامرة واحدة. أبعاد بلا حدود.','eyebrow'));row.addWidget(media)
+        body=QWidget();v=QVBoxLayout(body);v.setContentsMargins(0,8,0,0);v.setSpacing(7);body.setMinimumHeight(700);self.scroll=QScrollArea();self.scroll.setWidgetResizable(True);self.scroll.setFrameShape(QFrame.NoFrame);self.scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff);self.scroll.setWidget(body);row.addWidget(self.scroll,1)
+        v.addWidget(label('RATCHET & CLANK: RIFT APART','eyebrow'));v.addWidget(label('جاهز لبُعد جديد؟','title'));v.addWidget(label('نصوص عربية محسّنة. كل كلمة أقرب للمغامرة.','muted',True))
+        card=QFrame();card.setObjectName('card');card.setMinimumHeight(174);cv=QVBoxLayout(card);cv.setContentsMargins(19,16,19,16);cv.setSpacing(10)
+        cr=QHBoxLayout();cr.addWidget(label('موقع اللعبة'));cr.addStretch();self.detect=label('اختيار المجلد','eyebrow');cr.addWidget(self.detect);cv.addLayout(cr)
+        self.path=QLineEdit();self.path.setFixedHeight(48);self.path.setLayoutDirection(Qt.LeftToRight);self.path.setPlaceholderText('Steam / steamapps / common / Ratchet & Clank - Rift Apart');cv.addWidget(self.path)
+        fr=QHBoxLayout();self.browse=button('اختيار مجلد');self.browse.setFixedHeight(48);self.browse.clicked.connect(self.choose);fr.addWidget(self.browse);fr.addStretch();self.location=label('اختر المجلد الذي يحتوي على toc','muted');fr.addWidget(self.location);cv.addLayout(fr);v.addWidget(card)
+        detail=label('✓  حوارات وقوائم وإعدادات عربية\n✓  DLSS · FSR · XeSS · Ray Tracing بالإنجليزية\n✓  نسخة احتياطية واستعادة الأصل','muted',True);v.addWidget(detail)
+        v.addStretch(1);self.status=label('جاهز للتثبيت. ملفات الحفظ لا تتغير.','muted',True);self.status.setMinimumHeight(34);v.addWidget(self.status);self.progress=QProgressBar();self.progress.setFixedHeight(5);self.progress.setValue(0);self.progress.setTextVisible(False);v.addWidget(self.progress)
+        self.install=button('ثبّت التعريب  ←','primary');self.install.clicked.connect(lambda:self.start('install'));v.addWidget(self.install)
+        actions=QHBoxLayout();self.restore=button('استعادة ملفات اللعبة','quiet');self.restore.clicked.connect(lambda:self.start('restore'));actions.addWidget(self.restore);actions.addStretch();actions.addWidget(label('WINDOWS  /  EXE' if sys.platform=='win32' else 'LINUX  /  APPIMAGE','eyebrow'));v.addLayout(actions)
+        footer=QHBoxLayout();footer.addWidget(label('تعريب مجتمعي غير رسمي','muted'));footer.addStretch();credit=label('exelight7  /  RIFT APART AR','muted');credit.setLayoutDirection(Qt.LeftToRight);footer.addWidget(credit);root.addLayout(footer)
+        self.player=QMediaPlayer(self);self.audio=QAudioOutput(self);self.audio.setMuted(True);self.player.setAudioOutput(self.audio);self.sink=QVideoSink(self);self.sink.videoFrameChanged.connect(self.canvas.frame);self.player.setVideoSink(self.sink);self.player.setLoops(QMediaPlayer.Infinite);self.player.durationChanged.connect(self.timeline.setMaximum);self.player.positionChanged.connect(self.position);self.player.errorOccurred.connect(self.videoError);self.player.setSource(QUrl.fromLocalFile(str(BASE/'assets/scene.webm')));self.player.play()
         found=engine.discover()
-        if found:self.path.setText(found[0]);self.location.setText('تم العثور على اللعبة ✓')
+        if found:self.path.setText(found[0]);self.detect.setText('تم اكتشافها ✓');self.location.setText('تم العثور على مجلد اللعبة')
         else:self.detect.setText('اختيار يدوي')
+    def resizeEvent(self,event):
+        if hasattr(self,'mediaPanel'):self.mediaPanel.setFixedWidth(max(350,min(490,int(self.width()*.415))))
+        super().resizeEvent(event)
+    def position(self,n):
+        if not self.timeline.isSliderDown():self.timeline.setValue(n)
+        self.time.setText(f'00:{n//1000:02} / 00:{self.player.duration()//1000:02}')
+    def togglePlay(self):
+        if self.player.playbackState()==QMediaPlayer.PlayingState:self.player.pause();self.play.setText('تشغيل المقطع')
+        else:self.player.play();self.play.setText('إيقاف مؤقت')
+    def toggleSound(self):self.audio.setMuted(not self.audio.isMuted());self.sound.setText('تشغيل الصوت' if self.audio.isMuted() else 'كتم الصوت')
+    def videoError(self,*args):self.play.setText('تعذر تشغيل المقطع');self.play.setToolTip(self.player.errorString())
     def choose(self):
         path=QFileDialog.getExistingDirectory(self,'اختر مجلد اللعبة',self.path.text())
-        if path:self.path.setText(path);self.location.setText('تحقق من المجلد عند التثبيت')
+        if path:self.path.setText(path);self.location.setText('سيُفحص المجلد قبل التثبيت')
     def start(self,mode):
         if self.worker and self.worker.isRunning():return
         if not self.path.text().strip():self.status.setText('اختر مجلد اللعبة أولًا.');return
-        for w in [self.install_btn,self.restore_btn,self.browse,self.path]:w.setEnabled(False)
-        self.progress.setValue(0);self.status.setText('بدء الفحص…');self.worker=Worker(self.path.text(),mode);self.worker.progress.connect(self.update);self.worker.done.connect(self.finish);self.worker.start()
-    def update(self,n,text):self.progress.setValue(n);self.status.setText(text)
+        for w in [self.install,self.restore,self.browse,self.path]:w.setEnabled(False)
+        self.progress.setValue(0);self.status.setText('جارٍ فحص الحزمة واللعبة…');self.worker=Worker(self.path.text(),mode);self.worker.progress.connect(self.updateProgress);self.worker.done.connect(self.finish);self.worker.start()
+    def updateProgress(self,n,text):self.progress.setValue(n);self.status.setText(text)
     def finish(self,ok,text):
-        for w in [self.install_btn,self.restore_btn,self.browse,self.path]:w.setEnabled(True)
-        self.status.setText(text);self.status.setStyleSheet('color:#79dfb9;' if ok else 'color:#ffacb7;')
+        for w in [self.install,self.restore,self.browse,self.path]:w.setEnabled(True)
+        self.status.setText(text);self.status.setStyleSheet('color:#b7d297' if ok else 'color:#ffb5a0')
         if not ok:QMessageBox.warning(self,'تعذر إكمال العملية',text)
     def closeEvent(self,event):
         if self.worker and self.worker.isRunning():event.ignore();return
-        event.accept()
+        self.player.stop();event.accept()
 
 def main():
-    app=QApplication(sys.argv);app.setApplicationName('Rift Apart AR');app.setStyle('Fusion');window=Window();window.show()
+    app=QApplication(sys.argv);app.setStyle('Fusion');w=Window();screen=app.primaryScreen().availableGeometry();w.resize(min(1180,screen.width()-40),min(890,screen.height()-48));w.show()
     if '--screenshot' in sys.argv:
-        window.path.setText('Steam / steamapps / common / Ratchet & Clank - Rift Apart')
-        target=sys.argv[sys.argv.index('--screenshot')+1]
-        QTimer.singleShot(700,lambda:(window.grab().save(target),app.quit()))
+        w.resize(1180,890);target=sys.argv[sys.argv.index('--screenshot')+1];w.path.setText('Steam / steamapps / common / Ratchet & Clank - Rift Apart')
+        def capture():
+            w.grab().save(target);report={'video_frames':w.canvas.frames,'duration_ms':w.player.duration(),'position_ms':w.player.position(),'video_error':w.player.errorString(),'window':[w.width(),w.height()],'payload_assets':len(engine.verify_payload(BASE/'payload')['files'])};Path(target+'.json').write_text(json.dumps(report,indent=2));app.exit(0 if w.canvas.frames>3 and not w.player.errorString() else 2)
+        QTimer.singleShot(3200,capture)
     sys.exit(app.exec())
 if __name__=='__main__':main()

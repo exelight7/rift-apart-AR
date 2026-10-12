@@ -1,0 +1,28 @@
+{
+  "video_frames": 94,
+  "duration_ms": 16200,
+  "position_ms": 3094,
+  "video_error": "",
+  "window": [
+    1180,
+    890
+  ],
+  "payload_assets": 25,
+  "version": "1.0.0",
+  "unit_tests": 16,
+  "unit_tests_passed": true,
+  "checks": [
+    "install and update",
+    "restore original index",
+    "rollback after write failure",
+    "reject corrupted payload",
+    "reject modified game",
+    "exclusive install lock",
+    "interface install and restore",
+    "invalid folder recovery",
+    "video mute and pause",
+    "scrollable small display",
+    "frozen application video decode"
+  ],
+  "in_game_visual_approval": "pending"
+}

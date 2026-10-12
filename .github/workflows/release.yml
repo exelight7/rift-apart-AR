@@ -8,6 +8,7 @@ permissions:
   contents: write
 env:
   PYTHONUTF8: '1'
+  QT_QPA_PLATFORM: offscreen
 defaults:
   run:
     shell: bash
@@ -44,9 +45,24 @@ jobs:
           python tools/audit_progress.py
           python -m unittest discover -s tests -v
       - name: Build desktop application
-        run: python -m PyInstaller --noconfirm --clean --windowed --onedir --name RiftApartAR --paths installer --add-data "installer/payload:payload" --distpath build/dist --workpath build/pyinstaller installer/app.py
+        run: python -m PyInstaller --noconfirm --clean --windowed --onedir --name RiftApartAR --paths installer --add-data "installer/payload:payload" --add-data "installer/assets:assets" --distpath build/dist --workpath build/pyinstaller installer/app.py
       - name: Package application
         run: python tools/package_installer.py --platform ${{ matrix.platform }}
+      - name: Test packaged application
+        run: python tools/smoke_frozen.py build/dist/RiftApartAR/RiftApartAR${{ runner.os == 'Windows' && '.exe' || '' }} build/frozen-smoke.png
+      - name: Build and test AppImage
+        if: runner.os == 'Linux'
+        env:
+          APPIMAGE_EXTRACT_AND_RUN: '1'
+        run: |
+          python tools/package_appimage.py
+          python tools/smoke_frozen.py build/release/RiftApartAR-v1.0.0-Linux-x86_64.AppImage build/appimage-smoke.png
+      - name: Build and test Windows EXE
+        if: runner.os == 'Windows'
+        run: |
+          python -m PyInstaller --noconfirm --clean --windowed --onefile --name RiftApartAR --paths installer --add-data "installer/payload:payload" --add-data "installer/assets:assets" --add-data "build/dist/RiftApartAR/licenses:licenses" --add-data "NOTICE.md:." --add-data "RELEASE_NOTES.md:." --distpath build/standalone --workpath build/pyinstaller-standalone installer/app.py
+          python tools/smoke_frozen.py build/standalone/RiftApartAR.exe build/exe-smoke.png
+          python tools/package_exe.py
       - uses: actions/upload-artifact@v4
         with:
           name: installer-${{ matrix.platform }}
@@ -65,11 +81,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v0.3.1 >/dev/null 2>&1; then
-            gh release upload v0.3.1 build/release/* --clobber
+          if gh release view v1.0.0 >/dev/null 2>&1; then
+            gh release upload v1.0.0 build/release/* --clobber
+            gh release edit v1.0.0 --notes-file RELEASE_NOTES.md --prerelease=false --latest
           else
-            gh release create v0.3.1 build/release/* --target "$GITHUB_SHA" --title "Rift Apart AR v0.3.1 — المراجعة اللغوية الكاملة" --notes-file RELEASE_NOTES.md --prerelease
+            gh release create v1.0.0 build/release/* --target "$GITHUB_SHA" --title "Rift Apart AR 1.0.0" --notes-file RELEASE_NOTES.md --latest
           fi
-          # Retire the previous Windows build, whose legacy payload was caught
-          # by post-publication verification. The corrected release is above.
-          gh release edit v0.3.0 --draft --title "Rift Apart AR v0.3.0 — replaced by v0.3.1"

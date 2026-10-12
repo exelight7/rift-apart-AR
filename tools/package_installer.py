@@ -16,8 +16,8 @@ for name in ('PySide6','PySide6_Essentials','PySide6_Addons','shiboken6','psutil
  except PackageNotFoundError:pass
 for name in ('NOTICE.md','RELEASE_NOTES.md'):shutil.copy2(R/name,p/name)
 shutil.copy2(R/'tools/LICENSE',p/'LICENSE-GPL-3.0.txt')
-(p/'READ-ME.txt').write_text('Rift Apart AR v0.3.1\n\nExtract the entire archive before launching RiftApartAR.\nLinux: chmod +x RiftApartAR && ./RiftApartAR\nWindows: run RiftApartAR.exe\nClose the game and launcher. Select the game folder, then Install.\nKeep the Steam game language set to English.\nThe Restore button restores the original game index.\n\nArabic documentation and editable source:\nhttps://github.com/exelight7/rift-apart-AR\n',encoding='utf-8')
-out=R/'build/release';out.mkdir(parents=True,exist_ok=True);dest=out/f'RiftApartAR-v0.3.1-{args.platform}.zip'
+(p/'READ-ME.txt').write_text('Rift Apart AR v1.0.0\n\nExtract the entire archive before launching RiftApartAR.\nLinux: chmod +x RiftApartAR && ./RiftApartAR\nWindows: run RiftApartAR.exe\nClose the game and launcher. Select the game folder, then Install.\nKeep the Steam game language set to English.\nThe Restore button restores the original game index.\n\nArabic documentation and editable source:\nhttps://github.com/exelight7/rift-apart-AR\n',encoding='utf-8')
+out=R/'build/release';out.mkdir(parents=True,exist_ok=True);dest=out/f'RiftApartAR-v1.0.0-{args.platform}.zip'
 with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for f in sorted(p.rglob('*')):
   if f.is_symlink():
