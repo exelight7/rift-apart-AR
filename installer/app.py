@@ -41,6 +41,8 @@ class Worker(QThread):
                 engine.restore(self.path,self.progress.emit,payload=BASE/'payload')
                 message='تم حذف التعريب وإرجاع ملفات اللعبة الأصلية.'
             self.done.emit(True,message,False)
+        except PermissionError:
+            self.done.emit(False,'لا توجد صلاحية للكتابة في مجلد اللعبة. أغلق اللعبة واللانشر، ثم شغّل المثبّت كمسؤول وأعد المحاولة.',False)
         except Exception as e:self.done.emit(False,str(e),isinstance(e,engine.RecoveryRequired))
 
 class Header(QWidget):
@@ -115,7 +117,9 @@ class Window(QWidget):
         if path:self.path.setText(path);self.location.setText('سيُفحص المجلد قبل التثبيت')
     def start(self,mode):
         if self.worker and self.worker.isRunning():return
-        if not self.path.text().strip():self.status.setText('اختر مجلد اللعبة أولًا.');return
+        path=self.path.text().strip().strip('"').strip()
+        if not path:self.status.setText('اختر مجلد اللعبة أولًا.');return
+        self.path.setText(path)
         for w in [self.install,self.restore,self.browse,self.path,self.repair]:w.setEnabled(False)
         self.progress.setValue(0);self.status.setText('جارٍ فحص الحزمة واللعبة…');self.worker=Worker(self.path.text(),mode);self.worker.progress.connect(self.updateProgress);self.worker.done.connect(self.finish);self.worker.start()
     def updateProgress(self,n,text):self.progress.setValue(n);self.status.setText(text)
