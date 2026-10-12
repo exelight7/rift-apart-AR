@@ -33,7 +33,7 @@ jobs:
           python-version: '3.12'
       - name: Linux GUI dependencies
         if: runner.os == 'Linux'
-        run: sudo apt-get update && sudo apt-get install -y libegl1 libopengl0 libxcb-cursor0 libxcb-xinerama0 libxkbcommon-x11-0 fonts-noto-core
+        run: sudo apt-get update && sudo apt-get install -y libegl1 libopengl0 libpulse0 libasound2 libxcb-cursor0 libxcb-xinerama0 libxkbcommon-x11-0 fonts-noto-core
       - run: python -m pip install -r requirements.txt -r installer/requirements.txt
       - name: Validate and build localization
         run: |
@@ -60,7 +60,7 @@ jobs:
       - name: Build and test Windows EXE
         if: runner.os == 'Windows'
         run: |
-          python -m PyInstaller --noconfirm --clean --windowed --onefile --name RiftApartAR --paths installer --add-data "installer/payload:payload" --add-data "installer/assets:assets" --add-data "build/dist/RiftApartAR/licenses:licenses" --add-data "NOTICE.md:." --add-data "RELEASE_NOTES.md:." --distpath build/standalone --workpath build/pyinstaller-standalone installer/app.py
+          python -m PyInstaller --noconfirm --clean --windowed --onefile --name RiftApartAR --paths installer --add-data "installer/payload:payload" --add-data "installer/assets:assets" --add-data "build/dist/RiftApartAR/licenses:licenses" --add-data "tools/LICENSE:." --add-data "NOTICE.md:." --add-data "RELEASE_NOTES.md:." --distpath build/standalone --workpath build/pyinstaller-standalone installer/app.py
           python tools/smoke_frozen.py build/standalone/RiftApartAR.exe build/exe-smoke.png
           python tools/package_exe.py
       - uses: actions/upload-artifact@v4
