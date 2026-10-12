@@ -36,7 +36,7 @@ class Worker(QThread):
         try:
             if self.mode=='install':engine.install(self.path,BASE/'payload',self.progress.emit)
             else:engine.restore(self.path,self.progress.emit)
-            self.done.emit(True,'اكتمل تثبيت التعريب. اجعل لغة اللعبة English في Steam ثم شغّلها.' if self.mode=='install' else 'تمت استعادة ملفات اللعبة الأصلية.')
+            self.done.emit(True,'اكتمل تثبيت التعريب. اجعل لغة اللعبة English في Steam ثم شغّلها.' if self.mode=='install' else 'تم حذف التعريب وإرجاع ملفات اللعبة الأصلية.')
         except Exception as e:self.done.emit(False,str(e))
 
 class Header(QWidget):
@@ -71,7 +71,7 @@ class Window(QWidget):
         ''')
         root=QVBoxLayout(self);root.setContentsMargins(24,13,24,18);root.setSpacing(17)
         header=Header();h=QHBoxLayout(header);h.setContentsMargins(0,0,0,0);h.setDirection(QHBoxLayout.LeftToRight)
-        brand=label('RIFT APART  /  ARABIC EDITION','eyebrow');brand.setLayoutDirection(Qt.LeftToRight);h.addWidget(brand);h.addStretch();h.addWidget(label('v1.0.1','badge'))
+        brand=label('RIFT APART  /  ARABIC EDITION','eyebrow');brand.setLayoutDirection(Qt.LeftToRight);h.addWidget(brand);h.addStretch();h.addWidget(label('v1.0.2','badge'))
         mini=button('−','window');mini.setFixedSize(32,30);mini.clicked.connect(self.showMinimized);h.addWidget(mini);close=button('×','window');close.setFixedSize(32,30);close.clicked.connect(self.close);h.addWidget(close);root.addWidget(header)
         row=QHBoxLayout();row.setDirection(QHBoxLayout.LeftToRight);row.setSpacing(27);root.addLayout(row,1)
         media=QFrame();media.setObjectName('media');media.setFixedWidth(490);self.mediaPanel=media;mv=QVBoxLayout(media);mv.setContentsMargins(16,17,16,16);mv.setSpacing(12)
@@ -89,7 +89,7 @@ class Window(QWidget):
         detail=label('✓  حوارات وقوائم وإعدادات عربية\n✓  DLSS · FSR · XeSS · Ray Tracing بالإنجليزية\n✓  نسخة احتياطية واستعادة الأصل','muted',True);v.addWidget(detail)
         v.addStretch(1);self.status=label('جاهز للتثبيت. ملفات الحفظ لا تتغير.','muted',True);self.status.setMinimumHeight(34);v.addWidget(self.status);self.progress=QProgressBar();self.progress.setFixedHeight(5);self.progress.setValue(0);self.progress.setTextVisible(False);v.addWidget(self.progress)
         self.install=button('ثبّت التعريب  ←','primary');self.install.clicked.connect(lambda:self.start('install'));v.addWidget(self.install)
-        actions=QHBoxLayout();self.restore=button('استعادة ملفات اللعبة','quiet');self.restore.clicked.connect(lambda:self.start('restore'));actions.addWidget(self.restore);actions.addStretch();actions.addWidget(label('WINDOWS  /  EXE' if sys.platform=='win32' else 'LINUX  /  APPIMAGE','eyebrow'));v.addLayout(actions)
+        actions=QHBoxLayout();self.restore=button('حذف التعريب','secondary');self.restore.setToolTip('يحذف التعريب ويرجع ملفات اللعبة الأصلية دون تغيير ملفات الحفظ');self.restore.clicked.connect(lambda:self.start('restore'));actions.addWidget(self.restore);actions.addStretch();actions.addWidget(label('WINDOWS  /  EXE' if sys.platform=='win32' else 'LINUX  /  APPIMAGE','eyebrow'));v.addLayout(actions)
         footer=QHBoxLayout();footer.addWidget(label('تعريب مجتمعي غير رسمي','muted'));footer.addStretch();credit=label('exelight7  /  RIFT APART AR','muted');credit.setLayoutDirection(Qt.LeftToRight);footer.addWidget(credit);root.addLayout(footer)
         self.player=QMediaPlayer(self);self.audio=QAudioOutput(self);self.audio.setMuted(True);self.player.setAudioOutput(self.audio);self.sink=QVideoSink(self);self.sink.videoFrameChanged.connect(self.canvas.frame);self.player.setVideoSink(self.sink);self.player.setLoops(QMediaPlayer.Infinite);self.player.durationChanged.connect(self.timeline.setMaximum);self.player.positionChanged.connect(self.position);self.player.errorOccurred.connect(self.videoError);self.player.setSource(QUrl.fromLocalFile(str(BASE/'assets/scene.webm')));self.player.play()
         found=engine.discover()
@@ -128,7 +128,7 @@ def main():
     if '--screenshot' in sys.argv:
         w.resize(1180,890);target=sys.argv[sys.argv.index('--screenshot')+1];w.path.setText('Steam / steamapps / common / Ratchet & Clank - Rift Apart')
         def capture():
-            w.grab().save(target);report={'video_frames':w.canvas.frames,'duration_ms':w.player.duration(),'position_ms':w.player.position(),'video_error':w.player.errorString(),'window':[w.width(),w.height()],'payload_assets':len(engine.verify_payload(BASE/'payload')['files'])};Path(target+'.json').write_text(json.dumps(report,indent=2));app.exit(0 if w.canvas.frames>3 and not w.player.errorString() else 2)
+            w.grab().save(target);report={'video_frames':w.canvas.frames,'duration_ms':w.player.duration(),'position_ms':w.player.position(),'video_error':w.player.errorString(),'window':[w.width(),w.height()],'payload_assets':len(engine.verify_payload(BASE/'payload')['files']),'payload_files':engine.verify_payload(BASE/'payload')['files'],'payload_version':engine.VERSION};Path(target+'.json').write_text(json.dumps(report,indent=2));app.exit(0 if w.canvas.frames>3 and not w.player.errorString() else 2)
         QTimer.singleShot(3200,capture)
     sys.exit(app.exec())
 if __name__=='__main__':main()

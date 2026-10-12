@@ -56,7 +56,7 @@ jobs:
           APPIMAGE_EXTRACT_AND_RUN: '1'
         run: |
           python tools/package_appimage.py
-          python tools/smoke_frozen.py build/release/RiftApartAR-v1.0.1-Linux-x86_64.AppImage build/appimage-smoke.png
+          python tools/smoke_frozen.py build/release/RiftApartAR-v1.0.2-Linux-x86_64.AppImage build/appimage-smoke.png
       - name: Build and test Windows EXE
         if: runner.os == 'Windows'
         run: |
@@ -83,9 +83,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v1.0.1 >/dev/null 2>&1; then
-            gh release upload v1.0.1 build/release/* --clobber
-            gh release edit v1.0.1 --notes-file RELEASE_NOTES.md --prerelease=false --latest
+          if gh release view v1.0.2 >/dev/null 2>&1; then
+            gh release upload v1.0.2 build/release/* --clobber
+            gh release edit v1.0.2 --notes-file RELEASE_NOTES.md --prerelease=false --latest
           else
-            gh release create v1.0.1 build/release/* --target "$GITHUB_SHA" --title "Rift Apart AR 1.0.1" --notes-file RELEASE_NOTES.md --latest
+            gh release create v1.0.2 build/release/* --target "$GITHUB_SHA" --title "Rift Apart AR 1.0.2" --notes-file RELEASE_NOTES.md --latest
           fi

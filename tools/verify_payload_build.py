@@ -1,11 +1,13 @@
 # SPDX-License-Identifier: GPL-3.0-only
-"""Require identical localization bytes on Linux and Windows release builds."""
+"""Verify each platform payload against its reviewed localization bytes."""
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-expected = json.loads((ROOT / 'review/release_payload_expected.json').read_text(encoding='utf-8'))
+expected_name='release_payload_expected_windows.json' if sys.platform=='win32' else 'release_payload_expected.json'
+expected = json.loads((ROOT / 'review' / expected_name).read_text(encoding='utf-8'))
 payload = ROOT / 'installer/payload'
 actual = json.loads((payload / 'manifest.json').read_text(encoding='utf-8'))
 assert actual['version'] == expected['version'], 'Wrong payload version'

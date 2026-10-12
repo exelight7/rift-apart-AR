@@ -1,0 +1,16 @@
+{
+  "version": "1.0.2",
+  "unit_tests_passed": 21,
+  "windows_main_menu_native_unicode": [
+    "LAUNCHER_PLAY",
+    "LAUNCHER_OPTIONS",
+    "LAUNCHER_QUIT",
+    "LAUNCHER_ENABLED"
+  ],
+  "unchanged_strings": 25030,
+  "linux_payload_unchanged": true,
+  "installer_uninstall_label": "حذف التعريب",
+  "uninstall_test": "install then restore original toc; archive removed; UI controls reenabled",
+  "frozen_payload_check": "Compare the verified embedded payload hashes with the reviewed platform manifest before release",
+  "windows_game_launcher_visual_verification": "pending user test on native Windows"
+}

@@ -1,10 +1,13 @@
 # SPDX-License-Identifier: GPL-3.0-only
 from pathlib import Path
-import json,hashlib,shutil
+import json,hashlib,shutil,sys
 R=Path(__file__).resolve().parents[1];p=R/'installer/payload'
 if p.exists():shutil.rmtree(p)
 shutil.copytree(R/'build/release_mod',p/'mod')
-manifest={'version':'1.0.1','files':{str(f.relative_to(p/'mod')).replace('\\','/'):hashlib.sha256(f.read_bytes()).hexdigest() for f in sorted((p/'mod').glob('*/*')) if f.is_file()},'legacy':[]}
+if sys.platform=='win32':
+ from launcher_menu import native_menu,main_translations
+ menu=p/'mod/8/BE55D94F171BF8DE';menu.write_bytes(native_menu(menu.read_bytes(),main_translations(R)))
+manifest={'version':'1.0.2','files':{str(f.relative_to(p/'mod')).replace('\\','/'):hashlib.sha256(f.read_bytes()).hexdigest() for f in sorted((p/'mod').glob('*/*')) if f.is_file()},'legacy':[]}
 # Optional known previous local installation. Never include a user path or TOC.
 legacy=R/'installer/legacy.json'
 if legacy.exists():manifest['legacy']=json.loads(legacy.read_text())

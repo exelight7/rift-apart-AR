@@ -11,3 +11,10 @@ report=json.loads(Path(str(target)+'.json').read_text(encoding='utf-8'))
 assert report['video_frames']>3 and report['duration_ms']>15000 and not report['video_error'],report
 assert report['payload_assets']==25,report
 print('Packaged application and video playback verified:',report)
+
+root=Path(__file__).resolve().parents[1]
+expected_name='release_payload_expected_windows.json' if sys.platform=='win32' else 'release_payload_expected.json'
+expected=json.loads((root/'review'/expected_name).read_text(encoding='utf-8'))
+assert report['payload_version']==expected['version'],report['payload_version']
+assert report['payload_files']==expected['files'],'Packaged localization differs from reviewed platform payload'
+print('Actual packaged payload matches reviewed platform build')
