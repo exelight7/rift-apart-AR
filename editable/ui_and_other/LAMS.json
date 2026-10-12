@@ -6,9 +6,13 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "غير مسجل لالتقاط نسخة<br>تجريبية",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_edit": "غير مسجل لالتقاط نسخة تجريبية",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

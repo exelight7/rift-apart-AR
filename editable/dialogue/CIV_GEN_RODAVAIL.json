@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_RODAVAIL",
-    "arabic_current": "<ts=&quot;0;2.831&quot;>أتريد لأعدائك أن يصيبهم<br>البرق؟<ts=&quot;3.457;5.461&quot;>!امسك قاذف الصاعقة",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0;2.831&quot;>أتريد لأعدائك أن يصيبهم<br>البرق؟<ts=&quot;3.457;5.461&quot;>امسك قاذف الصاعقة!",
+    "arabic_edit": "<ts=&quot;0;2.831&quot;>أتريد لأعدائك أن يصيبهم البرق؟<ts=&quot;3.457;5.461&quot;>امسك قاذف الصاعقة!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

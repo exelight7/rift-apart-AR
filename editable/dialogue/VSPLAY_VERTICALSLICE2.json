@@ -5,11 +5,15 @@
     "category": "dialogue",
     "speaker_code": "CLANK",
     "scene_code": "VSPLAY_VERTICALSLICE2",
-    "arabic_current": "<ts=&quot;0;2.189&quot;>على أي حال، ليس هذا طوف<br>!موكب",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0;2.189&quot;>على أي حال، ليس هذا طوف<br>موكب!",
+    "arabic_edit": "<ts=&quot;0;2.189&quot;>على أي حال، ليس هذا طوف موكب!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   },
   {
     "index": 20273,
@@ -17,10 +21,13 @@
     "category": "dialogue",
     "speaker_code": "RATC",
     "scene_code": "VSPLAY_VERTICALSLICE2",
-    "arabic_current": "<ts=&quot;0;0.41&quot;>!مجددا<ts=&quot;0.88;1.27&quot;>مهلا،<ts=&quot;1.789;3.249&quot;>!سارجاسو؟ —هل هذه",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0;0.41&quot;>مجددا!<ts=&quot;0.88;1.27&quot;>،مهلا<ts=&quot;1.789;3.249&quot;>سارجاسو؟ —هل هذه!",
+    "arabic_edit": "<ts=&quot;0;0.41&quot;>مجددا!<ts=&quot;0.88;1.27&quot;>،مهلا<ts=&quot;1.789;3.249&quot;>سارجاسو؟ —هل هذه!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation"
+    ]
   }
 ]

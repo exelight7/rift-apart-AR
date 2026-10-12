@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_WARPUP",
-    "arabic_current": "<ts=&quot;0;0.35&quot;>اسمع جيدا،<ts=&quot;2.05;5.325&quot;>لا شيء يهرب من الثقب<br>!الأسود، والآن لا أحد يهرب منك",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0;0.35&quot;>،اسمع جيدا<ts=&quot;2.05;5.325&quot;>لا شيء يهرب من الثقب<br>الأسود، والآن لا أحد يهرب منك!",
+    "arabic_edit": "<ts=&quot;0;0.35&quot;>،اسمع جيدا<ts=&quot;2.05;5.325&quot;>لا شيء يهرب من الثقب الأسود، والآن لا أحد<br>يهرب منك!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

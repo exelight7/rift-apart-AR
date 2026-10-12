@@ -6,10 +6,13 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "هل أنت مستعد؟",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_edit": "هل أنت مستعد؟",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation"
+    ]
   },
   {
     "index": 115,
@@ -17,10 +20,14 @@
     "category": "ui_and_other",
     "speaker_code": "",
     "scene_code": "",
-    "arabic_current": "!المواجهة الأخيرة على الأبواب<br>هذه فرصتك الأخيرة للحصول<br>على الدروع وجمع المقتنيات<br>هل أنت .قبل نهاية القصة<br>متأكد من رغبتك في<br>المتابعة؟",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "المواجهة الأخيرة على الأبواب!<br>هذه فرصتك الأخيرة للحصول<br>على الدروع وجمع المقتنيات<br>قبل نهاية القصة. هل أنت<br>متأكد من رغبتك في<br>المتابعة؟",
+    "arabic_edit": "المواجهة الأخيرة على الأبواب! هذه<br>فرصتك الأخيرة للحصول على الدروع<br>وجمع المقتنيات قبل نهاية القصة. هل<br>أنت متأكد من رغبتك في المتابعة؟",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

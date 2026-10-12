@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BUYWAR",
-    "arabic_current": "<ts=&quot;0.075;5.842&quot;>استمتع بتاجر الحروب يا<br>لن يفعل أعداؤك ذلك !حبيبي<br>!بالتأكيد",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.075;5.842&quot;>استمتع بتاجر الحروب يا<br>حبيبي! لن يفعل أعداؤك ذلك<br>بالتأكيد!",
+    "arabic_edit": "<ts=&quot;0.075;5.842&quot;>استمتع بتاجر الحروب يا حبيبي! لن يفعل<br>أعداؤك ذلك بالتأكيد!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BUYRYNO",
-    "arabic_current": "<ts=&quot;0.24;3.08&quot;>من أسلحتي 8 رينو<br>المفضلة؛<ts=&quot;3.61;6.286&quot;>وأنا واثقة إنك ستشعر<br>!بالمثل في النهاية",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.24;3.08&quot;>من أسلحتي 8 رينو<br>المفضلة؛<ts=&quot;3.61;6.286&quot;>وأنا واثقة إنك ستشعر<br>بالمثل في النهاية!",
+    "arabic_edit": "<ts=&quot;0.24;3.08&quot;>من أسلحتي 8 رينو المفضلة؛<ts=&quot;3.61;6.286&quot;>وأنا واثقة إنك ستشعر بالمثل في النهاية!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

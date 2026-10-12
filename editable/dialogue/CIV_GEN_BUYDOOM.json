@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BUYDOOM",
-    "arabic_current": "<ts=&quot;0.058;3.687&quot;>ستحب هذه الشياطين<br>!الصغيرة",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.058;3.687&quot;>ستحب هذه الشياطين<br>الصغيرة!",
+    "arabic_edit": "<ts=&quot;0.058;3.687&quot;>ستحب هذه الشياطين الصغيرة!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

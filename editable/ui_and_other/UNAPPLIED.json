@@ -5,10 +5,14 @@
     "category": "ui_and_other",
     "speaker_code": "",
     "scene_code": "",
-    "arabic_current": "هناك تغييرات لم تطبق<br>هل تريد .وستفقد عند الخروج<br>تطبيق التغييرات؟",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "هناك تغييرات لم تطبق<br>وستفقد عند الخروج. هل تريد<br>تطبيق التغييرات؟",
+    "arabic_edit": "هناك تغييرات لم تطبق وستفقد عند<br>الخروج. هل تريد تطبيق التغييرات؟",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

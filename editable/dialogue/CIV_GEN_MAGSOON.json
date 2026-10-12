@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_MAGSOON",
-    "arabic_current": "<ts=&quot;0.35;3.5&quot;>سوف ترى الفراغ قريبا بما<br>!يكفي، ثق بي",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.35;3.5&quot;>سوف ترى الفراغ قريبا بما<br>يكفي، ثق بي!",
+    "arabic_edit": "<ts=&quot;0.35;3.5&quot;>سوف ترى الفراغ قريبا بما يكفي، ثق بي!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

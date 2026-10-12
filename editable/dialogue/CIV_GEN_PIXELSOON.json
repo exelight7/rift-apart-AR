@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_PIXELSOON",
-    "arabic_current": "<ts=&quot;0.069;4.619&quot;>.آسفة يا حبيبتي<br>سيتعين عليك الانتظار<br>وقتا أطول قليلا من أجل ذلك<br>.المبكسل",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.069;4.619&quot;>آسفة يا حبيبتي.<br>سيتعين عليك الانتظار<br>وقتا أطول قليلا من أجل ذلك<br>المبكسل.",
+    "arabic_edit": "<ts=&quot;0.069;4.619&quot;>آسفة يا حبيبتي. سيتعين عليك الانتظار وقتا<br>أطول قليلا من أجل ذلك المبكسل.",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

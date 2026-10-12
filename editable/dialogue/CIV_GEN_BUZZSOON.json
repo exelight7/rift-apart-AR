@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BUZZSOON",
-    "arabic_current": "<ts=&quot;0.03;3.88&quot;>تتفرج على نصال الأزيز؟<br>!يجب أن تعود من أجلها",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.03;3.88&quot;>تتفرج على نصال الأزيز؟<br>يجب أن تعود من أجلها!",
+    "arabic_edit": "<ts=&quot;0.03;3.88&quot;>تتفرج على نصال الأزيز؟ يجب أن تعود من<br>أجلها!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

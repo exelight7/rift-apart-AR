@@ -2,7 +2,15 @@
 
 مشروع تحسين ومراجعة التعريب العربي للعبة **Ratchet & Clank: Rift Apart على الحاسوب**: الحوارات والقوائم والإعدادات والخط العربي.
 
-الحالة الحالية: استخراج **25,034 مدخلًا**، منها **13,971 مدخل حوار** و**9,551 حوارًا غير فارغ**، مع مراجعة لغوية أولى لـ**302 نص** في الإعدادات. مراجعة التعريب كاملًا لم تنتهِ. اختبار الحزمة الأخيرة بصريًا داخل اللعبة ما زال مطلوبًا.
+الحالة الحالية: **v0.2.0 تجريبية**. تصحيح فعلي في **11,700 نصًا (77.48%)** من 15,100 نص غير فارغ خارج الاعتمادات. هذه نسبة تجمع تصحيح الاتجاه والترقيم والتنسيق والمصطلحات؛ المراجعة اللغوية اليدوية الفريدة تشمل **377 نصًا** فقط. اختبار جميع المشاهد داخل اللعبة ما زال مطلوبًا.
+
+[تحميل تطبيق التثبيت من Releases](https://github.com/exelight7/rift-apart-AR/releases/tag/v0.2.0)
+
+![واجهة تطبيق تثبيت التعريب](docs/installer.png)
+
+فك ZIP بالكامل. شغّل `RiftApartAR.exe` على Windows، أو `RiftApartAR` على Linux (قد تحتاج `chmod +x RiftApartAR`). أغلق اللعبة واللانشر، واختر مجلد اللعبة ثم «تثبيت التعريب». اجعل لغة اللعبة في Steam هي **English**. يتضمن التطبيق كشف مكتبات Steam، تثبيتًا دون إنترنت، فحص سلامة، نسخة احتياطية، استعادة، وتراجعًا عند فشل الكتابة. النسخ المثبتة بهذا التطبيق يمكن تحديثها؛ النسخ القديمة غير المعروفة تحتاج استعادة عبر Steam أولًا.
+
+التطبيق مجتمعي غير رسمي. لا يغير ملفات الحفظ أو تعريفات الجهاز. تقرير النسب التفصيلي في [review/progress_v2.json](review/progress_v2.json).
 
 ## ملفات المشروع
 
@@ -46,10 +54,11 @@ python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 python3 tools/validate.py
 python3 tools/fix_launcher.py
-.venv/bin/python tools/build_editorial.py
+.venv/bin/python tools/build_release.py
+python3 tools/package_payload.py
 ```
 
-النتيجة في `build/settings_batch1_mod/`. لا تُشحن أرشيفات اللعبة الأصلية مع المشروع. `build_editorial.py` يرفض استبدال بناء موجود؛ احفظه أو انقله قبل إعادة البناء.
+النتيجة في `build/release_mod/`. لا تُشحن أرشيفات اللعبة الأصلية مع المشروع. `build_release.py` يرفض استبدال بناء موجود؛ احفظه أو انقله قبل إعادة البناء.
 
 نافذة إعدادات اللانشر تستخدم Unicode عاديًا، بينما واجهة البداية واللعبة تستخدمان صيغة حروف عرض مختلفة. أداة البناء تحافظ على هذا الفصل. بعض مفاتيح إعدادات الحاسوب مشتركة بين الواجهتين وتحتاج تحققًا بصريًا داخل اللعبة.
 
@@ -61,7 +70,7 @@ python3 tools/fix_launcher.py
 python3 tools/prepare_install.py \
   --game "/path/to/Ratchet & Clank - Rift Apart" \
   --toc "/path/to/original/toc" \
-  --mod build/settings_batch1_mod \
+  --mod build/release_mod \
   --output build/prepared
 ```
 
@@ -84,3 +93,14 @@ python3 tools/install.py \
 ## الترخيص
 
 ترخيص MIT الأصلي محفوظ في [LICENSE](LICENSE). أدوات `tools/` تحت [GPL-3.0](tools/LICENSE)، مع الإسناد إلى Overstrike. المواد الأصلية والخطوط لها حقوق مستقلة موضحة في [NOTICE.md](NOTICE.md).
+
+
+## تطوير تطبيق التثبيت
+
+```bash
+python -m pip install -r installer/requirements.txt
+python -m unittest discover -s tests -v
+python installer/app.py
+```
+
+يجب بناء الحزمة أولًا بالأوامر أعلاه. يبني GitHub Actions نسخ Windows x64 وLinux x86_64 وينشرها كإصدار تجريبي بعد نجاح الاختبارات. لا تضع فهرس اللعبة أو بيانات حسابك في المستودع.

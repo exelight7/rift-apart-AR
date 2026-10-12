@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_WARPSOON",
-    "arabic_current": "<ts=&quot;0;3.65&quot;>.لا يمكن الاستعجال في الأمر<ts=&quot;4.05;5.45&quot;>يجب أن تكون الثقوب السوداء<br>!مضبوطة تماما، عد قريبا",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0;3.65&quot;>لا يمكن الاستعجال في الأمر.<ts=&quot;4.05;5.45&quot;>يجب أن تكون الثقوب السوداء<br>مضبوطة تماما، عد قريبا!",
+    "arabic_edit": "<ts=&quot;0;3.65&quot;>لا يمكن الاستعجال في الأمر.<ts=&quot;4.05;5.45&quot;>يجب أن تكون الثقوب السوداء مضبوطة تماما،<br>عد قريبا!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

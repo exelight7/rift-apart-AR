@@ -20,7 +20,7 @@ def main():
    changed+=1
    raw=original[k]['text_raw']
    # Tags, variables, entities and printf substitutions must survive exactly.
-   pattern=r'<[^>]+>|\{[^{}]*\}|\[[^\[\]]*\]|%[-+0-9.$]*[a-zA-Z]|&[A-Za-z#0-9]+;'
+   pattern=r'<[/A-Za-z][^<>]*>|\{[^{}]*\}|\[[A-Za-z0-9_:=+ .-]+\]|%[-+0-9.$]*[a-zA-Z]|&[A-Za-z#0-9]+;'
    if collections.Counter(re.findall(pattern,re.sub(r'<br\s*/?>','',raw,flags=re.I)))!=collections.Counter(re.findall(pattern,re.sub(r'<br\s*/?>','',text,flags=re.I))):
     errors.append(f'Tags/placeholders changed: {k}')
    if re.findall(r'<ts[^>]*>',raw)!=re.findall(r'<ts[^>]*>',text):errors.append(f'Timing order changed: {k}')

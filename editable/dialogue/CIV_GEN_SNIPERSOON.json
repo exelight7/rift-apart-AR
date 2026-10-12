@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_SNIPERSOON",
-    "arabic_current": "<ts=&quot;1.21;1.56&quot;>والله،<ts=&quot;2;5.2&quot;>كنت أقسم أن عندي منها في<br>وأتوقع شحنة جديدة ...المخزون<br>.في طريقها",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;1.21;1.56&quot;>،والله<ts=&quot;2;5.2&quot;>كنت أقسم أن عندي منها في<br>المخزون... وأتوقع شحنة جديدة<br>في طريقها.",
+    "arabic_edit": "<ts=&quot;1.21;1.56&quot;>،والله<ts=&quot;2;5.2&quot;>كنت أقسم أن عندي منها في المخزون... وأتوقع<br>شحنة جديدة في طريقها.",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

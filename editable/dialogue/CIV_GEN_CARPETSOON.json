@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_CARPETSOON",
-    "arabic_current": "<ts=&quot;0;3.95&quot;>سيعود إلى .اختيار متفجر<br>!المخزون قريبا",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0;3.95&quot;>اختيار متفجر. سيعود إلى<br>المخزون قريبا!",
+    "arabic_edit": "<ts=&quot;0;3.95&quot;>اختيار متفجر. سيعود إلى المخزون قريبا!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

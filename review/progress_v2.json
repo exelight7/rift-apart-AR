@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "all_entries": 25034,
+  "eligible_nonempty_excluding_credits": 15100,
+  "actual_binary_changed": 11700,
+  "actual_changed_percent": 77.48,
+  "human_prose_reviewed_unique": 377,
+  "human_prose_percent": 2.5,
+  "changed_by_category": {
+    "ui_and_other": 1308,
+    "missions": 126,
+    "items": 859,
+    "dialogue": 9167,
+    "tutorials": 240
+  },
+  "human_prose_by_category": {
+    "ui_and_other": 319,
+    "dialogue": 58
+  },
+  "in_game_visual_approval": "pending",
+  "counting_method": "Distinct keys whose final packaged bytes differ from source/mod_original. Empty entries, credits and audio-event identifiers excluded. Direction/typography/reflow counted separately from human prose review."
+}

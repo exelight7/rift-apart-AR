@@ -5,11 +5,14 @@
     "category": "dialogue",
     "speaker_code": "NEFT1",
     "scene_code": "BOSS_GEN_DEPLOY",
-    "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.041;2.036&quot;>!انضموا إلي !يا أصدقاء",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.041;2.036&quot;>يا أصدقاء! انضموا إلي!",
+    "arabic_edit": "<name=&quot;SEEK&quot;><ts=&quot;0.041;2.036&quot;>يا أصدقاء! انضموا إلي!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation"
+    ]
   },
   {
     "index": 14267,
@@ -17,11 +20,15 @@
     "category": "dialogue",
     "speaker_code": "NEFT1",
     "scene_code": "BOSS_GEN_DEPLOY",
-    "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.04;4.05&quot;>بعض الجنود يكرهون مشاركة<br>!أما أنا فلا - الدمار",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.04;4.05&quot;>بعض الجنود يكرهون مشاركة<br>أما أنا فلا - الدمار!",
+    "arabic_edit": "<name=&quot;SEEK&quot;><ts=&quot;0.04;4.05&quot;>بعض الجنود يكرهون مشاركة أما أنا فلا -<br>الدمار!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   },
   {
     "index": 14268,
@@ -29,11 +36,15 @@
     "category": "dialogue",
     "speaker_code": "NEFT1",
     "scene_code": "BOSS_GEN_DEPLOY",
-    "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.049;3.388&quot;>ممارسة التعذيب أمتع دائما<br>!في مجموعة",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.049;3.388&quot;>ممارسة التعذيب أمتع دائما<br>في مجموعة!",
+    "arabic_edit": "<name=&quot;SEEK&quot;><ts=&quot;0.049;3.388&quot;>ممارسة التعذيب أمتع دائما في مجموعة!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   },
   {
     "index": 14269,
@@ -41,10 +52,14 @@
     "category": "dialogue",
     "speaker_code": "NEFT1",
     "scene_code": "BOSS_GEN_DEPLOY",
-    "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.047;5.41&quot;>ماذا قلت أيها اللومباكس؟<br>تريد المزيد؟ أستطيع أن<br>!أضيف لك",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<name=&quot;SEEK&quot;><ts=&quot;0.047;5.41&quot;>ماذا قلت أيها اللومباكس؟<br>تريد المزيد؟ أستطيع أن<br>أضيف لك!",
+    "arabic_edit": "<name=&quot;SEEK&quot;><ts=&quot;0.047;5.41&quot;>ماذا قلت أيها اللومباكس؟ تريد المزيد؟<br>أستطيع أن أضيف لك!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

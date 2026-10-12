@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_BUYRICO",
-    "arabic_current": "<ts=&quot;0.065;5.493&quot;>ما !هدية لا تتوقف عن العطاء<br>دمت تواصل الضغط على<br>.الزناد",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.065;5.493&quot;>هدية لا تتوقف عن العطاء! ما<br>دمت تواصل الضغط على<br>الزناد.",
+    "arabic_edit": "<ts=&quot;0.065;5.493&quot;>هدية لا تتوقف عن العطاء! ما دمت تواصل<br>الضغط على الزناد.",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

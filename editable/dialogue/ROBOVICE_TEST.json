@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "BARP1",
     "scene_code": "ROBOVICE_TEST",
-    "arabic_current": "هذه تجربة لنظام الأصوات<br>نجرب .الروبوتية الجديد<br>النظام من غير بنك أصوات<br>.طارئ",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "هذه تجربة لنظام الأصوات<br>الروبوتية الجديد. نجرب<br>النظام من غير بنك أصوات<br>طارئ.",
+    "arabic_edit": "هذه تجربة لنظام الأصوات الروبوتية الجديد.<br>نجرب النظام من غير بنك أصوات طارئ.",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

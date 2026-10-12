@@ -5,11 +5,15 @@
     "category": "dialogue",
     "speaker_code": "MORT1",
     "scene_code": "SARG_SQ_CINE_REWARD",
-    "arabic_current": "<ts=&quot;0.028;3.737&quot;>أحضرت لك !ترودي، انظري<br>!ريفت بعض الزوربستون",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.028;3.737&quot;>ترودي، انظري! أحضرت لك<br>ريفت بعض الزوربستون!",
+    "arabic_edit": "<ts=&quot;0.028;3.737&quot;>ترودي، انظري! أحضرت لك ريفت بعض<br>الزوربستون!",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   },
   {
     "index": 12870,
@@ -17,11 +21,15 @@
     "category": "dialogue",
     "speaker_code": "MORT1",
     "scene_code": "SARG_SQ_CINE_REWARD",
-    "arabic_current": "<ts=&quot;0;2.499&quot;>تعرفين، إن أردت يوما الحصول<br>على المزيد،<ts=&quot;2.591;5.891&quot;>فقد أصدق مبادلة حذاء الحارس<br>.الذي خلفي مقابلها",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0;2.499&quot;>تعرفين، إن أردت يوما الحصول<br>،على المزيد<ts=&quot;2.591;5.891&quot;>فقد أصدق مبادلة حذاء الحارس<br>الذي خلفي مقابلها.",
+    "arabic_edit": "<ts=&quot;0;2.499&quot;>تعرفين، إن أردت يوما الحصول ،على المزيد<ts=&quot;2.591;5.891&quot;>فقد أصدق مبادلة حذاء الحارس الذي خلفي<br>مقابلها.",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   },
   {
     "index": 24118,
@@ -29,10 +37,13 @@
     "category": "dialogue",
     "speaker_code": "TRUD",
     "scene_code": "SARG_SQ_CINE_REWARD",
-    "arabic_current": "<ts=&quot;0.016;0.889&quot;>[ﺓﺩﺎﻌﺴﺑ ﻕﺰﻳ.]",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.016;0.889&quot;>[يزق بسعادة.]",
+    "arabic_edit": "<ts=&quot;0.016;0.889&quot;>[يزق بسعادة.]",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation"
+    ]
   }
 ]

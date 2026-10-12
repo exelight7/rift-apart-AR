@@ -5,10 +5,14 @@
     "category": "dialogue",
     "speaker_code": "MSZK",
     "scene_code": "CIV_GEN_RICOSOON",
-    "arabic_current": "<ts=&quot;0.067;4.542&quot;>أوه، ستعود قريبا من أجل<br>ألاحظ ما فعلت؟ !تلك",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "<ts=&quot;0.067;4.542&quot;>أوه، ستعود قريبا من أجل<br>تلك! ألاحظ ما فعلت؟",
+    "arabic_edit": "<ts=&quot;0.067;4.542&quot;>أوه، ستعود قريبا من أجل تلك! ألاحظ ما<br>فعلت؟",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   }
 ]

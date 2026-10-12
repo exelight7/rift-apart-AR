@@ -5,11 +5,15 @@
     "category": "ui_and_other",
     "speaker_code": "",
     "scene_code": "",
-    "arabic_current": "هل أنت متأكد من رغبتك في<br>الإبقاء على التغييرات<br>المطبقة؟ سيعاد ضبط<br>.ثانية %d التغييرات خلال",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_current": "هل أنت متأكد من رغبتك في<br>الإبقاء على التغييرات<br>المطبقة؟ سيعاد ضبط<br>التغييرات خلال %d ثانية.",
+    "arabic_edit": "هل أنت متأكد من رغبتك في الإبقاء<br>على التغييرات المطبقة؟ سيعاد ضبط<br>التغييرات خلال %d ثانية.",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation",
+      "line_layout"
+    ]
   },
   {
     "index": 137,
@@ -18,9 +22,12 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "تطبيق التغييرات",
-    "arabic_edit": "",
-    "status": "todo",
-    "notes": "",
-    "reading_needs_review": true
+    "arabic_edit": "تطبيق التغييرات",
+    "status": "draft",
+    "notes": "تصحيح اتجاه وترقيم وتنسيق آلي؛ يحتاج مراجعة لغوية وسياق داخل اللعبة.",
+    "reading_needs_review": true,
+    "review_scope": [
+      "direction_and_punctuation"
+    ]
   }
 ]
