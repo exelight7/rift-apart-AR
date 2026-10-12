@@ -47,7 +47,7 @@ jobs:
       - name: Build desktop application
         run: python -m PyInstaller --noconfirm --clean --windowed --onedir --name RiftApartAR --paths installer --add-data "installer/payload:payload" --add-data "installer/assets:assets" --distpath build/dist --workpath build/pyinstaller installer/app.py
       - name: Package application
-        run: python tools/package_installer.py --platform ${{ matrix.platform }}
+        run: python tools/package_installer.py --platform ${{ matrix.platform }} --metadata-only
       - name: Test packaged application
         run: python tools/smoke_frozen.py build/dist/RiftApartAR/RiftApartAR${{ runner.os == 'Windows' && '.exe' || '' }} build/frozen-smoke.png
       - name: Build and test AppImage
@@ -56,7 +56,7 @@ jobs:
           APPIMAGE_EXTRACT_AND_RUN: '1'
         run: |
           python tools/package_appimage.py
-          python tools/smoke_frozen.py build/release/RiftApartAR-v1.0.0-Linux-x86_64.AppImage build/appimage-smoke.png
+          python tools/smoke_frozen.py build/release/RiftApartAR-v1.0.1-Linux-x86_64.AppImage build/appimage-smoke.png
       - name: Build and test Windows EXE
         if: runner.os == 'Windows'
         run: |
@@ -66,7 +66,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: installer-${{ matrix.platform }}
-          path: build/release/*
+          path: |
+            build/release/*.exe
+            build/release/*.AppImage
           retention-days: 14
   release:
     needs: build
@@ -81,9 +83,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v1.0.0 >/dev/null 2>&1; then
-            gh release upload v1.0.0 build/release/* --clobber
-            gh release edit v1.0.0 --notes-file RELEASE_NOTES.md --prerelease=false --latest
+          if gh release view v1.0.1 >/dev/null 2>&1; then
+            gh release upload v1.0.1 build/release/* --clobber
+            gh release edit v1.0.1 --notes-file RELEASE_NOTES.md --prerelease=false --latest
           else
-            gh release create v1.0.0 build/release/* --target "$GITHUB_SHA" --title "Rift Apart AR 1.0.0" --notes-file RELEASE_NOTES.md --latest
+            gh release create v1.0.1 build/release/* --target "$GITHUB_SHA" --title "Rift Apart AR 1.0.1" --notes-file RELEASE_NOTES.md --latest
           fi

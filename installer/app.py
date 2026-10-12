@@ -71,7 +71,7 @@ class Window(QWidget):
         ''')
         root=QVBoxLayout(self);root.setContentsMargins(24,13,24,18);root.setSpacing(17)
         header=Header();h=QHBoxLayout(header);h.setContentsMargins(0,0,0,0);h.setDirection(QHBoxLayout.LeftToRight)
-        brand=label('RIFT APART  /  ARABIC EDITION','eyebrow');brand.setLayoutDirection(Qt.LeftToRight);h.addWidget(brand);h.addStretch();h.addWidget(label('v1.0.0','badge'))
+        brand=label('RIFT APART  /  ARABIC EDITION','eyebrow');brand.setLayoutDirection(Qt.LeftToRight);h.addWidget(brand);h.addStretch();h.addWidget(label('v1.0.1','badge'))
         mini=button('−','window');mini.setFixedSize(32,30);mini.clicked.connect(self.showMinimized);h.addWidget(mini);close=button('×','window');close.setFixedSize(32,30);close.clicked.connect(self.close);h.addWidget(close);root.addWidget(header)
         row=QHBoxLayout();row.setDirection(QHBoxLayout.LeftToRight);row.setSpacing(27);root.addLayout(row,1)
         media=QFrame();media.setObjectName('media');media.setFixedWidth(490);self.mediaPanel=media;mv=QVBoxLayout(media);mv.setContentsMargins(16,17,16,16);mv.setSpacing(12)

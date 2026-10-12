@@ -3,7 +3,7 @@
 from pathlib import Path
 import contextlib, hashlib, json, os, shutil, struct as s, tempfile
 import psutil
-VERSION='1.0.0'
+VERSION='1.0.1'
 def sha(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 def running():
     for p in psutil.process_iter(['name']):

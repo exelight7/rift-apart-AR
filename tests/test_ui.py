@@ -24,7 +24,7 @@ class InterfaceTests(unittest.TestCase):
         self.assertFalse(self.window.worker.isRunning());QTest.qWait(60)
     def test_install_and_restore_through_interface(self):
         with tempfile.TemporaryDirectory() as d:
-            game=Path(d);original=fixture(game);self.window.path.setText(d);self.window.start('install');self.assertFalse(self.window.install.isEnabled());self.wait_worker();self.assertTrue(self.window.install.isEnabled());self.assertEqual(json.loads((game/'.rift-apart-ar/state.json').read_text())['version'],'1.0.0');self.assertNotEqual((game/'toc').read_bytes(),original)
+            game=Path(d);original=fixture(game);self.window.path.setText(d);self.window.start('install');self.assertFalse(self.window.install.isEnabled());self.wait_worker();self.assertTrue(self.window.install.isEnabled());self.assertEqual(json.loads((game/'.rift-apart-ar/state.json').read_text())['version'],'1.0.1');self.assertNotEqual((game/'toc').read_bytes(),original)
             self.window.start('restore');self.wait_worker();self.assertEqual((game/'toc').read_bytes(),original);self.assertFalse((game/'d/mods/arabic_loc').exists());self.assertTrue(self.window.restore.isEnabled())
     def test_invalid_folder_recovers_controls(self):
         with tempfile.TemporaryDirectory() as d:

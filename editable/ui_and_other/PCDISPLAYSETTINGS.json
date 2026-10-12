@@ -76,18 +76,18 @@
     "speaker_code": "",
     "scene_code": "",
     "arabic_current": "تلقائي",
-    "arabic_edit": "تلقائي",
+    "arabic_edit": "Auto",
     "status": "reviewed",
-    "notes": "مراجعة لغوية بمقارنة الأصل الإنجليزي؛ اعتماد العرض داخل اللعبة معلق.",
+    "notes": "إصلاح 1.0.1: قيمة مشتركة بين اللانشر واللعبة؛ Auto بحروف ASCII لتجنب انعكاس العربية. نسب الأبعاد الرقمية يولدها محرك اللعبة ولا تُستبدل بقيمة ثابتة.",
     "reading_needs_review": false,
     "review_scope": [
       "direction_and_punctuation",
       "prose_full_review"
     ],
     "linguistic_review": {
-      "batch": "ui-006",
+      "batch": "aspect-ratio-1.0.1",
       "source_sha256": "0286249762f7c94349cdc0ba3bb2255baf9a80036e2193ead1d77696f888582f",
-      "candidate_sha256": "c190381bd30c4b065f9f7d0b4eea449210d084e9c2dc495f6a8080ed998dbec0",
+      "candidate_sha256": "0286249762f7c94349cdc0ba3bb2255baf9a80036e2193ead1d77696f888582f",
       "method": "Source-compared linguistic review; kept or explicitly rewritten by reviewer",
       "visual_approval": "pending"
     }
