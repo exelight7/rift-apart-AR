@@ -7,6 +7,9 @@ class TextTests(unittest.TestCase):
     def test_sentence_order(self):
         self.assertEqual(decode_legacy('ﻚﻧﻼﻛ! ﻮﺘﻠﻟ ﺖﺸﺗﺍﺭ ﺖﻳﺃﺭ!'),'كلانك! رأيت راتشت للتو!')
         self.assertEqual(decode_legacy('؟ﺍﺫﺎﻣ ﻡﺃ ﺐﺴﺤﻓ ﺢﻔﺼﺘﺗ ﺖﻧﺃ'),'أنت تتصفح فحسب أم ماذا؟')
+    def test_quotes_and_trademarks(self):
+        self.assertEqual(decode_legacy('ﻰﻋﺪﻳ «ﻞﺟﺭ'), 'يدعى «رجل')
+        self.assertEqual(decode_legacy('ﺔﻋﺎﻤﺳ PULSE 3D™'), 'سماعة PULSE 3D™')
     def test_control_tags(self):
         text='<ts=&quot;0;1&quot;>[GAMEPAD_X] ﻚﻧﻼﻛ!<ts=&quot;2;3&quot;>ﻚﻧﻼﻛ!'
         result=wrap_text(decode_legacy(text),12)

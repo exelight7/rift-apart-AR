@@ -59,8 +59,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v0.2.0 >/dev/null 2>&1; then
-            gh release upload v0.2.0 build/release/* --clobber
+          if gh release view v0.2.1 >/dev/null 2>&1; then
+            gh release upload v0.2.1 build/release/* --clobber
           else
-            gh release create v0.2.0 build/release/* --target "$GITHUB_SHA" --title "Rift Apart AR v0.2.0 — المثبت والتنسيق" --notes-file RELEASE_NOTES.md --prerelease
+            gh release create v0.2.1 build/release/* --target "$GITHUB_SHA" --title "Rift Apart AR v0.2.1 — المثبت والتنسيق" --notes-file RELEASE_NOTES.md --prerelease
           fi

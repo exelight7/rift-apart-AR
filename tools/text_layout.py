@@ -12,9 +12,9 @@ def decode_legacy(raw):
         # The old generator treated ASCII punctuation as LTR boundaries, but
         # Arabic comma/question-mark as part of the RTL run. Whole-line reversal
         # consequently swaps sentences around exclamation marks and emphasis.
-        parts = re.split('('+PROTECTED+r'|[.!?;:*<>]+)', text)
-        return ''.join(p if re.fullmatch(PROTECTED+r'|[.!?;:*<>]+',p) else
-                       unicodedata.normalize('NFKC',get_display(p,base_dir='L')) for p in parts)
+        parts = re.split('('+PROTECTED+r'|[.!?;:*<>«»“”]+)', text)
+        return ''.join(p if re.fullmatch(PROTECTED+r'|[.!?;:*<>«»“”]+',p) else
+                       ''.join(unicodedata.normalize('NFKC',c) if shaped(c) else c for c in get_display(p,base_dir='L')) for p in parts)
     return ''.join(p if p.startswith('<') else fragment(p) for p in re.split('('+TAG+')',raw))
 def wrap_text(text, width=42):
     # Timing/name/style tags remain in their exact sequence. A double break is
