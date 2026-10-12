@@ -3,8 +3,63 @@
 from pathlib import Path
 import contextlib, hashlib, json, os, shutil, struct as s, tempfile
 import psutil
-VERSION='1.0.2'
+VERSION='1.9.9'
 def sha(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+class RecoveryRequired(ValueError):
+    """A clean game index must be recovered by Steam before removal."""
+
+def toc_sections(toc):
+    if len(toc)<24 or s.unpack_from('<I',toc)[0]!=0x34e89035:
+        raise ValueError('صيغة toc غير مدعومة.')
+    b=toc[8:]
+    magic,typ,size,n,u=s.unpack_from('<IIIHH',b)
+    if magic!=0x44415431 or not 16<=size<=len(b) or not 1<=n<=64 or 16+n*12>len(b):
+        raise ValueError('فهرس اللعبة تالف أو غير مدعوم.')
+    table=[s.unpack_from('<III',b,16+i*12) for i in range(n)]
+    if any(o<16+n*12 or o+z>len(b) for t,o,z in table):
+        raise ValueError('فهرس اللعبة تالف.')
+    sec={t:bytearray(b[o:o+z]) for t,o,z in table}
+    if len(sec)!=n or not {0x506d7b8a,0xede8ada9,0x65bcf461,0x398abff0,0x654bded9}<=sec.keys():
+        raise ValueError('أقسام فهرس اللعبة غير صالحة.')
+    return b,table,sec
+
+def arabic_indices(arc):
+    if len(arc)%66:raise ValueError('جدول الأرشيفات تالف.')
+    paths=[bytes(arc[i:i+40]).split(b'\0')[0].lower().replace(b'/',b'\\').replace(b'\\\\',b'\\') for i in range(0,len(arc),66)]
+    indices=[i for i,p in enumerate(paths) if p==b'd\\mods\\arabic_loc']
+    if len(indices)>1:raise RecoveryRequired('توجد أرشيفات تعريب مكررة. أصلح ملفات اللعبة عبر Steam ثم أعد المحاولة.')
+    return indices
+
+def is_localized(toc):
+    return bool(arabic_indices(toc_sections(toc)[2][0x398abff0]))
+
+def legacy_original(game,current,archive,manifest):
+    if not archive.is_file():return None
+    match=next((x for x in manifest.get('legacy',[]) if hashlib.sha256(current).hexdigest()==x['toc'] and sha(archive)==x['archive']),None)
+    if not match:return None
+    candidates=[game/'.rift-apart-ar/toc.original',game/'toc.original',game/'toc.bak',game/'toc.backup']
+    candidates.extend(sorted(game.glob('arabic_backup*/toc')))
+    for p in candidates:
+        if p.is_file() and not p.is_symlink() and sha(p)==match['original']:
+            original=p.read_bytes()
+            if not is_localized(original):return original
+    return None
+
+def saved_original(state,record):
+    digest=record['original_toc']
+    if not isinstance(digest,str) or len(digest)!=64 or any(c not in '0123456789abcdef' for c in digest):
+        raise ValueError('سجل النسخة الاحتياطية غير صالح.')
+    p=state/('toc.'+digest if record.get('backup_format')==2 else 'toc.original')
+    if p.is_symlink() or sha(p)!=digest:raise ValueError('النسخة الاحتياطية غير سليمة.')
+    return p.read_bytes()
+
+def snapshot(state,name,data):
+    p=state/(name+'.'+hashlib.sha256(data).hexdigest())
+    if p.is_symlink():raise ValueError('مسار النسخة الاحتياطية مرتبط رمزيًا.')
+    if p.exists():
+        if p.read_bytes()!=data:raise ValueError('النسخة الاحتياطية غير سليمة.')
+    else:atomic(p,data)
 def running():
     for p in psutil.process_iter(['name']):
         try:
@@ -19,26 +74,22 @@ def check_game(game):
     if running():raise RuntimeError('أغلق اللعبة واللانشر ثم أعد المحاولة.')
     return game
 
-def prepare(toc, mod):
-    orig=bytes(toc);b=orig[8:]
-    if len(orig)<24 or s.unpack_from('<I',orig)[0]!=0x34e89035:raise ValueError('صيغة toc غير مدعومة.')
-    magic,typ,size,n,u=s.unpack_from('<IIIHH',b)
-    if magic!=0x44415431 or not 16<=size<=len(b) or not 1<=n<=64:raise ValueError('فهرس اللعبة غير صالح أو إصدار غير مدعوم.')
-    table=[s.unpack_from('<III',b,16+i*12) for i in range(n)]
-    if any(o+z>len(b) for t,o,z in table):raise ValueError('فهرس اللعبة تالف.')
-    sec={t:bytearray(b[o:o+z]) for t,o,z in table}
+def prepare(toc, mod, replace_existing=False):
+    orig=bytes(toc);b,table,sec=toc_sections(orig)
     ids=list(s.unpack('<'+'Q'*(len(sec[0x506d7b8a])//8),sec[0x506d7b8a]));spans=list(s.iter_unpack('<II',sec[0xede8ada9]))
-    arc=sec[0x398abff0];ai=len(arc)//66
-    if len(arc)%66 or b'd\\mods\\arabic_loc' in arc:raise ValueError('توجد نسخة تعريب أو تعديلات أخرى؛ يلزم فهرس أصلي موثوق.')
-    arc.extend(s.pack('<40sQQIHI',b'd\\mods\\arabic_loc',2678794514496,2678794514496,3844228203,32763,0))
-    archive=bytearray(); assets=0
+    arc=sec[0x398abff0];indices=arabic_indices(arc)
+    if indices and not replace_existing:raise ValueError('يوجد تعريب بالفعل في الفهرس.')
+    ai=indices[0] if indices else len(arc)//66
+    if not indices:
+        arc.extend(s.pack('<40sQQIHI',b'd\\mods\\arabic_loc',2678794514496,2678794514496,3844228203,32763,0))
+    archive=bytearray(); assets=0;replaced=set()
     for p in sorted(Path(mod).glob('*/*')):
         if not p.is_file():continue
         span=int(p.parent.name);asset=int(p.name,16)
         if not 0<=span<len(spans):raise ValueError('نطاق ملف التعريب غير صالح.')
         start,count=spans[span];matches=[i for i in range(start,start+count) if ids[i]==asset]
         if len(matches)!=1:raise ValueError('ملفات اللعبة لا تتوافق مع حزمة التعريب: '+p.name)
-        i=matches[0];data=p.read_bytes();head=None
+        i=matches[0];replaced.add(i);data=p.read_bytes();head=None
         if data[:4]==b'STG\0':
             _,flags,hs,ts=s.unpack_from('<4I',data)
             if ts or flags&2:raise ValueError('بيانات خامات غير مدعومة.')
@@ -51,6 +102,8 @@ def prepare(toc, mod):
         s.pack_into('<IIIi',sec[0x65bcf461],i*16,len(data),ai,len(archive),ho)
         archive.extend(data);assets+=1
     if assets!=25:raise ValueError('حزمة التعريب ناقصة.')
+    if indices and any(oldai==ai and i not in replaced for i,(_,oldai,_,_) in enumerate(s.iter_unpack('<IIIi',sec[0x65bcf461]))):
+        raise RecoveryRequired('التعريب السابق يحتوي ملفات إضافية غير متوافقة. أصلح اللعبة عبر Steam ثم أعد المحاولة.')
     first=min(o for t,o,z in table);res=bytearray(b[:first]);new={}
     for t,o,z in sorted(table,key=lambda x:x[1]):
         res.extend(b'\0'*((-len(res))%16));new[t]=(len(res),len(sec[t]));res.extend(sec[t])
@@ -90,28 +143,29 @@ def safe_state(game):
 def install(game,payload,progress=lambda n,t:None):
     game=check_game(game);manifest=verify_payload(payload);state=safe_state(game)
     with lock(game):
-        progress(10,'فحص ملفات اللعبة والحزمة…');current=(game/'toc').read_bytes();archive=game/'d/mods/arabic_loc'
-        if (state/'state.json').exists():
-            record=json.loads((state/'state.json').read_text());original=(state/'toc.original').read_bytes()
-            if sha(game/'toc')!=record['installed_toc'] or not archive.exists() or sha(archive)!=record['installed_archive']:raise ValueError('تغيرت ملفات اللعبة منذ التثبيت. تحقق من ملفاتها عبر Steam قبل إعادة التثبيت.')
-            if hashlib.sha256(original).hexdigest()!=record['original_toc']:raise ValueError('النسخة الاحتياطية تالفة.')
-        else:
-            original=current
-            if archive.exists() or b'd\\mods\\arabic_loc' in current:
-                match=next((x for x in manifest.get('legacy',[]) if hashlib.sha256(current).hexdigest()==x['toc'] and archive.exists() and sha(archive)==x['archive']),None)
-                backup=game/'arabic_backup_2026-10-12/toc'
-                if not match or not backup.exists() or sha(backup)!=match['original']:raise ValueError('توجد نسخة سابقة غير معروفة. استعد ملفات اللعبة عبر Steam أولًا؛ لن أستبدلها تلقائيًا.')
-                original=backup.read_bytes()
-        progress(30,'تجهيز التعريب وفحص الفهرس…');newtoc,newarc=prepare(original,Path(payload)/'mod')
-        # Snapshot all replaced data before the first mutation. Existing backups
-        # are validated above and remain immutable across updates.
-        oldarc=archive.read_bytes() if archive.exists() else None
-        oldrecord=(state/'state.json').read_bytes() if (state/'state.json').exists() else None
-        if not (state/'toc.original').exists():atomic(state/'toc.original',original)
-        elif sha(state/'toc.original')!=hashlib.sha256(original).hexdigest():raise ValueError('نسخة احتياطية مختلفة؛ أوقف التثبيت لحمايتها.')
+        progress(10,'فحص ملفات اللعبة والحزمة…')
+        current=(game/'toc').read_bytes();archive=game/'d/mods/arabic_loc'
         archive.parent.mkdir(parents=True,exist_ok=True)
         if archive.parent.is_symlink() or archive.is_symlink():raise ValueError('مسار التعريب مرتبط رمزيًا.')
-        record={'version':VERSION,'original_toc':hashlib.sha256(original).hexdigest(),'installed_toc':hashlib.sha256(newtoc).hexdigest(),'installed_archive':hashlib.sha256(newarc).hexdigest()}
+        oldarc=archive.read_bytes() if archive.exists() else None
+        oldrecord=(state/'state.json').read_bytes() if (state/'state.json').exists() else None
+        localized=is_localized(current);legacy=False;original=current
+        if oldrecord is not None and localized:
+            previous=json.loads(oldrecord)
+            if hashlib.sha256(current).hexdigest()!=previous['installed_toc'] or (oldarc is not None and hashlib.sha256(oldarc).hexdigest()!=previous['installed_archive']):
+                raise RecoveryRequired('تغيرت ملفات التعريب منذ التثبيت. أصلح اللعبة عبر Steam ثم أعد المحاولة.')
+            original=saved_original(state,previous);legacy=previous.get('legacy_baseline',False)
+        elif localized:
+            original=legacy_original(game,current,archive,manifest)
+            legacy=original is None
+            if legacy:original=current
+        progress(30,'تجهيز التحديث وحفظ حالة التثبيت السابق…' if localized else 'تجهيز التعريب…')
+        newtoc,newarc=prepare(current if legacy else original,Path(payload)/'mod',replace_existing=legacy)
+        snapshot(state,'toc',original)
+        snapshot(state,'toc',current)
+        if oldarc is not None:snapshot(state,'archive',oldarc)
+        if oldrecord is not None:snapshot(state,'record',oldrecord)
+        record={'version':VERSION,'backup_format':2,'legacy_baseline':legacy,'original_toc':hashlib.sha256(original).hexdigest(),'installed_toc':hashlib.sha256(newtoc).hexdigest(),'installed_archive':hashlib.sha256(newarc).hexdigest()}
         progress(65,'تثبيت الملفات وحفظ النسخة الاحتياطية…')
         try:
             atomic(archive,newarc);atomic(game/'toc',newtoc);atomic(state/'state.json',json.dumps(record,indent=2).encode())
@@ -122,20 +176,42 @@ def install(game,payload,progress=lambda n,t:None):
             if oldrecord is not None:atomic(state/'state.json',oldrecord)
             else:(state/'state.json').unlink(missing_ok=True)
             raise
-        progress(100,'اكتمل التثبيت. اختر English في Steam ثم شغّل اللعبة.');return record
+        progress(100,'اكتمل تحديث التعريب. لا توجد نسخة أصلية محفوظة؛ الحذف الكامل متاح عبر إصلاح Steam.' if legacy else 'اكتمل التثبيت. اختر English في Steam ثم شغّل اللعبة.')
+        return record
 
-def restore(game,progress=lambda n,t:None):
-    game=check_game(game);state=game/'.rift-apart-ar';archive=game/'d/mods/arabic_loc'
+def restore(game,progress=lambda n,t:None,payload=None):
+    game=check_game(game);state=safe_state(game);archive=game/'d/mods/arabic_loc'
     with lock(game):
-        if not (state/'state.json').is_file():raise ValueError('لم أجد نسخة مثبتة بهذا التطبيق لاستعادتها.')
-        record=json.loads((state/'state.json').read_text());original=state/'toc.original'
-        if sha(original)!=record['original_toc']:raise ValueError('النسخة الاحتياطية غير سليمة.')
-        if sha(game/'toc')!=record['installed_toc'] or not archive.exists() or sha(archive)!=record['installed_archive']:raise ValueError('تغيرت ملفات اللعبة. لن أستبدلها بنسخة قديمة؛ استخدم التحقق في Steam.')
-        progress(40,'استعادة الفهرس الأصلي…');oldtoc=(game/'toc').read_bytes();oldarc=archive.read_bytes();oldrecord=(state/'state.json').read_bytes()
-        try:atomic(game/'toc',original.read_bytes());archive.unlink();(state/'state.json').unlink()
+        if archive.parent.is_symlink() or archive.is_symlink():raise ValueError('مسار التعريب مرتبط رمزيًا.')
+        oldtoc=(game/'toc').read_bytes();oldarc=archive.read_bytes() if archive.exists() else None
+        oldrecord=(state/'state.json').read_bytes() if (state/'state.json').exists() else None
+        original=oldtoc
+        if is_localized(oldtoc):
+            if oldrecord is not None:
+                record=json.loads(oldrecord)
+                if hashlib.sha256(oldtoc).hexdigest()!=record['installed_toc'] or (oldarc is not None and hashlib.sha256(oldarc).hexdigest()!=record['installed_archive']):
+                    raise RecoveryRequired('تغيرت ملفات التعريب. أصلح اللعبة عبر Steam ثم اضغط حذف التعريب مجددًا.')
+                if record.get('legacy_baseline'):
+                    raise RecoveryRequired('التعريب السابق لم يحفظ فهرس اللعبة الأصلي. افتح إصلاح Steam، وبعد اكتماله اضغط حذف التعريب مجددًا.')
+                original=saved_original(state,record)
+            else:
+                manifest=verify_payload(payload) if payload is not None else {}
+                original=legacy_original(game,oldtoc,archive,manifest)
+                if original is None:raise RecoveryRequired('لم أجد نسخة أصلية موثوقة للتعريب القديم. افتح إصلاح Steam، وبعد اكتماله اضغط حذف التعريب مجددًا.')
+            if is_localized(original):raise ValueError('النسخة الاحتياطية ليست أصلية.')
+        # Steam may already have restored the index while leaving the mod archive.
+        snapshot(state,'toc',oldtoc)
+        if oldarc is not None:snapshot(state,'archive',oldarc)
+        if oldrecord is not None:snapshot(state,'record',oldrecord)
+        progress(40,'استعادة الفهرس الأصلي وإزالة بقايا التعريب…')
+        try:
+            atomic(game/'toc',original);archive.unlink(missing_ok=True);(state/'state.json').unlink(missing_ok=True)
         except Exception:
-            atomic(archive,oldarc);atomic(game/'toc',oldtoc);atomic(state/'state.json',oldrecord);raise
-        progress(100,'تمت استعادة ملفات اللعبة. النسخة الاحتياطية محفوظة.')
+            if oldarc is not None:atomic(archive,oldarc)
+            atomic(game/'toc',oldtoc)
+            if oldrecord is not None:atomic(state/'state.json',oldrecord)
+            raise
+        progress(100,'تم حذف التعريب. النسخ الاحتياطية محفوظة.')
 
 def discover():
     candidates=[];homes=[Path.home()/'.local/share/Steam',Path.home()/'.steam/steam',Path.home()/'.var/app/com.valvesoftware.Steam/.local/share/Steam']

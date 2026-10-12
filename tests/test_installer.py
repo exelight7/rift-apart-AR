@@ -49,6 +49,85 @@ class InstallerTests(unittest.TestCase):
             shutil.copytree(self.payload,Path(td)/'payload');p=next((Path(td)/'payload/mod').glob('*/*'));p.unlink()
             with self.assertRaises(ValueError):engine.install(self.game,Path(td)/'payload')
     def test_original_backup_tamper(self):
-        engine.install(self.game,self.payload);(self.game/'.rift-apart-ar/toc.original').write_bytes(b'bad')
+        record=engine.install(self.game,self.payload)
+        (self.game/('.rift-apart-ar/toc.'+record['original_toc'])).write_bytes(b'bad')
         with self.assertRaises(ValueError):engine.restore(self.game)
+
+    def make_legacy(self):
+        toc,arc=engine.prepare(self.original,self.payload/'mod')
+        (self.game/'toc').write_bytes(toc)
+        archive=self.game/'d/mods/arabic_loc';archive.parent.mkdir(parents=True)
+        archive.write_bytes(arc)
+        return toc,arc
+
+    def test_unknown_legacy_updates_and_requires_repair_to_remove(self):
+        toc,arc=self.make_legacy()
+        record=engine.install(self.game,self.payload)
+        self.assertTrue(record['legacy_baseline'])
+        self.assertEqual((self.game/('.rift-apart-ar/toc.'+hashlib.sha256(toc).hexdigest())).read_bytes(),toc)
+        self.assertEqual((self.game/('.rift-apart-ar/archive.'+hashlib.sha256(arc).hexdigest())).read_bytes(),arc)
+        engine.install(self.game,self.payload)
+        with self.assertRaises(engine.RecoveryRequired):engine.restore(self.game)
+        (self.game/'toc').write_bytes(self.original)
+        engine.restore(self.game)
+        self.assertEqual((self.game/'toc').read_bytes(),self.original)
+        self.assertFalse((self.game/'d/mods/arabic_loc').exists())
+
+    def test_clean_index_with_leftover_archive(self):
+        self.make_legacy();(self.game/'toc').write_bytes(self.original)
+        record=engine.install(self.game,self.payload)
+        self.assertFalse(record['legacy_baseline'])
+        engine.restore(self.game)
+        self.assertEqual((self.game/'toc').read_bytes(),self.original)
+
+    def test_clean_steam_update_rebases_stale_state(self):
+        old=engine.install(self.game,self.payload)
+        clean=bytearray(self.original);clean[12]^=1
+        (self.game/'toc').write_bytes(clean)
+        record=engine.install(self.game,self.payload)
+        self.assertNotEqual(record['original_toc'],old['original_toc'])
+        engine.restore(self.game)
+        self.assertEqual((self.game/'toc').read_bytes(),clean)
+
+    def test_legacy_backup_any_date(self):
+        toc,arc=self.make_legacy()
+        backup=self.game/'arabic_backup_20250101_120000';backup.mkdir()
+        (backup/'toc').write_bytes(self.original)
+        manifest={'legacy':[{'toc':hashlib.sha256(toc).hexdigest(),'archive':hashlib.sha256(arc).hexdigest(),'original':hashlib.sha256(self.original).hexdigest()}]}
+        with patch.object(engine,'verify_payload',return_value=manifest):
+            record=engine.install(self.game,self.payload)
+        self.assertFalse(record['legacy_baseline'])
+        engine.restore(self.game)
+        self.assertEqual((self.game/'toc').read_bytes(),self.original)
+
+    def test_legacy_rollback_restores_previous_files(self):
+        toc,arc=self.make_legacy();real=engine.atomic
+        def fail(path,data):
+            if Path(path).name=='state.json':raise OSError('disk failure')
+            return real(path,data)
+        with patch.object(engine,'atomic',side_effect=fail):
+            with self.assertRaises(OSError):engine.install(self.game,self.payload)
+        self.assertEqual((self.game/'toc').read_bytes(),toc)
+        self.assertEqual((self.game/'d/mods/arabic_loc').read_bytes(),arc)
+        self.assertFalse((self.game/'.rift-apart-ar/state.json').exists())
+
+    def test_unmanaged_legacy_removal_then_steam_cleanup(self):
+        toc,arc=self.make_legacy()
+        with self.assertRaises(engine.RecoveryRequired):engine.restore(self.game)
+        self.assertEqual((self.game/'toc').read_bytes(),toc)
+        (self.game/'toc').write_bytes(self.original)
+        engine.restore(self.game)
+        self.assertFalse((self.game/'d/mods/arabic_loc').exists())
+
+    def test_repeated_install_keeps_one_archive(self):
+        self.make_legacy()
+        for _ in range(3):engine.install(self.game,self.payload)
+        sec=engine.toc_sections((self.game/'toc').read_bytes())[2]
+        self.assertEqual(len(sec[0x398abff0])//66,2)
+
+    def test_index_with_unreferenced_trailing_bytes(self):
+        original=self.original+b'legacy-padding'
+        (self.game/'toc').write_bytes(original)
+        engine.install(self.game,self.payload);engine.restore(self.game)
+        self.assertEqual((self.game/'toc').read_bytes(),original)
 if __name__=='__main__':unittest.main()
