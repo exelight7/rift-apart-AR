@@ -30,14 +30,18 @@ class VideoCanvas(QWidget):
             p.drawImage(QRectF(self.rect()),self.image,QRectF((iw-w)/2,(ih-h)/2,w,h))
 
 class Worker(QThread):
-    progress=Signal(int,str);done=Signal(bool,str)
+    progress=Signal(int,str);done=Signal(bool,str,bool)
     def __init__(self,path,mode):super().__init__();self.path=path;self.mode=mode
     def run(self):
         try:
-            if self.mode=='install':engine.install(self.path,BASE/'payload',self.progress.emit)
-            else:engine.restore(self.path,self.progress.emit)
-            self.done.emit(True,'اكتمل تثبيت التعريب. اجعل لغة اللعبة English في Steam ثم شغّلها.' if self.mode=='install' else 'تم حذف التعريب وإرجاع ملفات اللعبة الأصلية.')
-        except Exception as e:self.done.emit(False,str(e))
+            if self.mode=='install':
+                record=engine.install(self.path,BASE/'payload',self.progress.emit)
+                message='اكتمل تحديث التعريب. النسخة السابقة محفوظة؛ الحذف الكامل يحتاج إصلاح Steam لعدم وجود أصل محفوظ.' if record.get('legacy_baseline') else 'اكتمل تثبيت التعريب. اجعل لغة اللعبة English في Steam ثم شغّلها.'
+            else:
+                engine.restore(self.path,self.progress.emit,payload=BASE/'payload')
+                message='تم حذف التعريب وإرجاع ملفات اللعبة الأصلية.'
+            self.done.emit(True,message,False)
+        except Exception as e:self.done.emit(False,str(e),isinstance(e,engine.RecoveryRequired))
 
 class Header(QWidget):
     def mousePressEvent(self,event):
@@ -71,7 +75,7 @@ class Window(QWidget):
         ''')
         root=QVBoxLayout(self);root.setContentsMargins(24,13,24,18);root.setSpacing(17)
         header=Header();h=QHBoxLayout(header);h.setContentsMargins(0,0,0,0);h.setDirection(QHBoxLayout.LeftToRight)
-        brand=label('RIFT APART  /  ARABIC EDITION','eyebrow');brand.setLayoutDirection(Qt.LeftToRight);h.addWidget(brand);h.addStretch();h.addWidget(label('v1.0.2','badge'))
+        brand=label('RIFT APART  /  ARABIC EDITION','eyebrow');brand.setLayoutDirection(Qt.LeftToRight);h.addWidget(brand);h.addStretch();h.addWidget(label('v'+engine.VERSION,'badge'))
         mini=button('−','window');mini.setFixedSize(32,30);mini.clicked.connect(self.showMinimized);h.addWidget(mini);close=button('×','window');close.setFixedSize(32,30);close.clicked.connect(self.close);h.addWidget(close);root.addWidget(header)
         row=QHBoxLayout();row.setDirection(QHBoxLayout.LeftToRight);row.setSpacing(27);root.addLayout(row,1)
         media=QFrame();media.setObjectName('media');media.setFixedWidth(490);self.mediaPanel=media;mv=QVBoxLayout(media);mv.setContentsMargins(16,17,16,16);mv.setSpacing(12)
@@ -89,7 +93,7 @@ class Window(QWidget):
         detail=label('✓  حوارات وقوائم وإعدادات عربية\n✓  DLSS · FSR · XeSS · Ray Tracing بالإنجليزية\n✓  نسخة احتياطية واستعادة الأصل','muted',True);v.addWidget(detail)
         v.addStretch(1);self.status=label('جاهز للتثبيت. ملفات الحفظ لا تتغير.','muted',True);self.status.setMinimumHeight(34);v.addWidget(self.status);self.progress=QProgressBar();self.progress.setFixedHeight(5);self.progress.setValue(0);self.progress.setTextVisible(False);v.addWidget(self.progress)
         self.install=button('ثبّت التعريب  ←','primary');self.install.clicked.connect(lambda:self.start('install'));v.addWidget(self.install)
-        actions=QHBoxLayout();self.restore=button('حذف التعريب','secondary');self.restore.setToolTip('يحذف التعريب ويرجع ملفات اللعبة الأصلية دون تغيير ملفات الحفظ');self.restore.clicked.connect(lambda:self.start('restore'));actions.addWidget(self.restore);actions.addStretch();actions.addWidget(label('WINDOWS  /  EXE' if sys.platform=='win32' else 'LINUX  /  APPIMAGE','eyebrow'));v.addLayout(actions)
+        actions=QHBoxLayout();self.restore=button('حذف التعريب','secondary');self.restore.setToolTip('يحذف التعريب ويرجع ملفات اللعبة الأصلية دون تغيير ملفات الحفظ');self.restore.clicked.connect(lambda:self.start('restore'));actions.addWidget(self.restore);self.repair=button('إصلاح عبر Steam','quiet');self.repair.clicked.connect(self.repairSteam);actions.addWidget(self.repair);actions.addStretch();actions.addWidget(label('WINDOWS  /  EXE' if sys.platform=='win32' else 'LINUX  /  APPIMAGE','eyebrow'));v.addLayout(actions)
         footer=QHBoxLayout();footer.addWidget(label('تعريب مجتمعي غير رسمي','muted'));footer.addStretch();credit=label('exelight7  /  RIFT APART AR','muted');credit.setLayoutDirection(Qt.LeftToRight);footer.addWidget(credit);root.addLayout(footer)
         self.player=QMediaPlayer(self);self.audio=QAudioOutput(self);self.audio.setMuted(True);self.player.setAudioOutput(self.audio);self.sink=QVideoSink(self);self.sink.videoFrameChanged.connect(self.canvas.frame);self.player.setVideoSink(self.sink);self.player.setLoops(QMediaPlayer.Infinite);self.player.durationChanged.connect(self.timeline.setMaximum);self.player.positionChanged.connect(self.position);self.player.errorOccurred.connect(self.videoError);self.player.setSource(QUrl.fromLocalFile(str(BASE/'assets/scene.webm')));self.player.play()
         found=engine.discover()
@@ -112,13 +116,25 @@ class Window(QWidget):
     def start(self,mode):
         if self.worker and self.worker.isRunning():return
         if not self.path.text().strip():self.status.setText('اختر مجلد اللعبة أولًا.');return
-        for w in [self.install,self.restore,self.browse,self.path]:w.setEnabled(False)
+        for w in [self.install,self.restore,self.browse,self.path,self.repair]:w.setEnabled(False)
         self.progress.setValue(0);self.status.setText('جارٍ فحص الحزمة واللعبة…');self.worker=Worker(self.path.text(),mode);self.worker.progress.connect(self.updateProgress);self.worker.done.connect(self.finish);self.worker.start()
     def updateProgress(self,n,text):self.progress.setValue(n);self.status.setText(text)
-    def finish(self,ok,text):
-        for w in [self.install,self.restore,self.browse,self.path]:w.setEnabled(True)
+    def finish(self,ok,text,repair=False):
+        for w in [self.install,self.restore,self.browse,self.path,self.repair]:w.setEnabled(True)
         self.status.setText(text);self.status.setStyleSheet('color:#b7d297' if ok else 'color:#ffb5a0')
-        if not ok:QMessageBox.warning(self,'تعذر إكمال العملية',text)
+        if repair:
+            box=QMessageBox(self);box.setWindowTitle('إصلاح ملفات اللعبة');box.setText(text)
+            openSteam=box.addButton('فتح إصلاح Steam',QMessageBox.AcceptRole)
+            box.addButton('إغلاق',QMessageBox.RejectRole);box.exec()
+            if box.clickedButton()==openSteam:self.repairSteam()
+        elif not ok:QMessageBox.warning(self,'تعذر إكمال العملية',text)
+
+    def repairSteam(self):
+        from PySide6.QtGui import QDesktopServices
+        if QDesktopServices.openUrl(QUrl('steam://validate/1895880')):
+            self.status.setText('انتظر انتهاء التحقق في Steam، ثم أغلق اللعبة وأعد الضغط على التثبيت أو الحذف. قد يعيد Steam تنزيل ملفات معدلة.')
+        else:
+            self.status.setText('افتح Steam ← خصائص اللعبة ← الملفات المثبتة ← التحقق من سلامة ملفات اللعبة، ثم أعد المحاولة.')
     def closeEvent(self,event):
         if self.worker and self.worker.isRunning():event.ignore();return
         self.player.stop();event.accept()

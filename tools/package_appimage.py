@@ -15,6 +15,6 @@ expected='95cbe7cce9717fce90c484e34052ee7c7f1d7635b33c12525b4776826a7d29b6'
 if not tool.exists():
     with urllib.request.urlopen('https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage',timeout=90) as r:tool.write_bytes(r.read())
 assert hashlib.sha256(tool.read_bytes()).hexdigest()==expected,'AppImage build tool changed; review its new release before updating the checksum'
-tool.chmod(0o755);out=ROOT/'build/release/RiftApartAR-v1.0.2-Linux-x86_64.AppImage'
+tool.chmod(0o755);out=ROOT/'build/release/RiftApartAR-v1.9.9-Linux-x86_64.AppImage'
 subprocess.run([str(tool),'--no-appstream',str(appdir),str(out)],check=True,env=dict(os.environ,ARCH='x86_64',APPIMAGE_EXTRACT_AND_RUN='1'))
 out.with_suffix('.AppImage.sha256').write_text(hashlib.sha256(out.read_bytes()).hexdigest()+'  '+out.name+'\n',encoding='utf-8');print(out.name,out.stat().st_size)
